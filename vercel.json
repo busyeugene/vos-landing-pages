@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/order-entry-software", "destination": "/vos-order-entry-landing.html" }
+  ]
+}
