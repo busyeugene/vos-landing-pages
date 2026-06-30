@@ -13,7 +13,13 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 
 | File | Primary keyword | URL |
 |---|---|---|
+| `index.html` | (pillar / hub page) | `/` |
 | `vos-order-entry-landing.html` | order entry software | `/order-entry-software` |
+| `vos-order-taking-landing.html` | order taking software | `/order-taking-software` |
+| `vos-inventory-tracking-landing.html` | inventory tracking software | `/inventory-tracking-software` |
+| `vos-catalog-management-landing.html` | catalog management software | `/catalog-management-software` |
+
+> Pillar page (`index.html`) links to every feature page. Add a card to it whenever a new page ships.
 
 ## Page structure (VOS template — apply to every new VOS page)
 1. Navbar — white sticky bar, purple logo, nav links, CTA button

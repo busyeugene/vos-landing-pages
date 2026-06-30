@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory Tracking Software for Restaurants | VoiceOrder Solutions</title>
+  <meta name="description" content="VoiceOrder Solutions is simple inventory tracking software for restaurants. See real-time stock, get low-stock alerts, and reorder by voice or web. No system to replace." />
+
+  <style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+  </style>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     Primary keyword in H1: "inventory tracking software"
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">Inventory Tracking Software for Restaurants</span>
+      <h1>Inventory Tracking Software That Updates Itself.</h1>
+      <p class="lead mt-16">
+        VoiceOrder Solutions is simple inventory tracking software for restaurants.
+        See what's in stock in real time, get low-stock alerts, and reorder by
+        voice or web. No spreadsheets. No guesswork. No system to replace.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+        <a href="#how-it-works" class="btn btn-outline-white btn-lg">See How It Works</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>Works with your current suppliers</span>
+        <span class="hero-trust-dot"></span>
+        <span>Up and running in 1 day</span>
+        <span class="hero-trust-dot"></span>
+        <span>iOS + Android + Web</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (the inventory panel) -->
+      <div class="img-placeholder tall">
+        📸 Product screenshot:<br>VOS inventory panel showing<br>real-time stock levels<br>and low-stock alerts
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by independent restaurants and food service teams</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Restaurant</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">Real-Time</div>
+      <div class="stat-label">stock levels, so you stop guessing what you have</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">reorder the moment an item runs low</div>
+    </div>
+    <div>
+      <div class="stat-number">Zero</div>
+      <div class="stat-label">surprise stockouts before a busy service</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: PROBLEM STATEMENT
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container text-center">
+    <span class="eyebrow">Sound Familiar?</span>
+    <h2>Counting inventory on paper costs you every week.</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Most restaurants still track stock with clipboards, whiteboards, and memory.
+      Here's what that guesswork costs you every single week:
+    </p>
+
+    <div class="problem-grid">
+
+      <div class="problem-card">
+        <div class="problem-icon">📝</div>
+        <h4 class="mb-8">"We ran out of a key item mid-service"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          Nobody noticed the walk-in was nearly empty until an order came in.
+          Now you're 86'ing a dish on a Friday night and explaining it to guests.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">📦</div>
+        <h4 class="mb-8">"We over-ordered and threw food away"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          Without a clear count, you guess high to be safe. Then product spoils
+          in the back. You're paying for inventory that goes straight to the bin.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">🕐</div>
+        <h4 class="mb-8">"Counting stock eats hours every week"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          A manager walks the line with a clipboard, then re-types it into a
+          spreadsheet. By the time it's done, the numbers are already out of date.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: FEATURE DEEP-DIVE – ALTERNATING ROWS
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+
+    <div class="text-center" style="max-width: 660px; margin: 0 auto 72px;">
+      <span class="eyebrow">Built for Restaurant Teams</span>
+      <h2>Inventory tracking software built for busy kitchens</h2>
+    </div>
+
+
+    <!-- Feature 1: Real-Time Stock -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Real-Time Stock</span>
+          <h3>See what you have, the moment you need to know.</h3>
+          <p class="mt-12 text-muted">
+            VOS shows real-time stock levels so your team can stop guessing and
+            start ordering with confidence. As orders go out and deliveries come
+            in, your counts update on their own. It is software for tracking
+            inventory without the clipboard and the late-night spreadsheet.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Check current stock levels from your phone or a browser</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Counts update automatically alongside your order activity</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>No more walking the line with a clipboard and a pen</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Everyone sees the same numbers, in real time</span>
+            </li>
+          </ul>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See real-time tracking →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>VOS inventory dashboard<br>with live stock counts<br>and item-level detail
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 2: Low-Stock Alerts -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Low-Stock Alerts</span>
+          <h3>Get a heads-up before you run out.</h3>
+          <p class="mt-12 text-muted">
+            Set a par level for each item and VOS watches it for you. When stock
+            drops below par, you get an alert, so you reorder before the shelf is
+            empty, not after. This inventory tracking system catches shortfalls
+            before they turn into an 86'd menu item.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Set par levels once for every item you carry</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Get alerted the moment something runs low</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Reorder right from the alert, by voice or web</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Stop the surprise stockouts that derail a busy night</span>
+            </li>
+          </ul>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See low-stock alerts →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Low-stock alert view<br>with par levels and<br>one-tap reorder button
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 3: Mobile Inventory Tracking App -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Mobile + Voice</span>
+          <h3>An inventory tracking app for the walk-in.</h3>
+          <p class="mt-12 text-muted">
+            The VOS inventory tracking app works on iOS and Android. Walk the
+            walk-in, press to speak, and call out what you have. VOS updates the
+            count and confirms each item. No typing while you're holding a case
+            of produce in the other hand.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Count hands-free by voice as you walk your storage</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Works on iPhone and Android, no extra hardware</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Confirms each item and quantity as you go</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Counts sync instantly for the whole team</span>
+            </li>
+          </ul>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See the mobile app →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>VOS mobile app showing<br>voice count entry<br>and item confirmation
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 4: Tracking Tied to Ordering -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Tracking + Ordering</span>
+          <h3>Your counts and your orders, in one place.</h3>
+          <p class="mt-12 text-muted">
+            Most tools track inventory in one app and order supplies in another.
+            VOS does both. Your stock count feeds your order guide, so reordering
+            takes seconds. Inventory updates automatically alongside order activity,
+            keeping your catalog current without adding work.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Reorder low items straight from your stock list</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Order guides stay in sync with what you actually have</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Separate counts per location if you run multiple spots</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>One login for tracking, ordering, and confirmation</span>
+            </li>
+          </ul>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See tracking and ordering together →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Inventory list with<br>low items flagged and a<br>"reorder" action inline
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE CARDS – SUPPORTING CAPABILITIES
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Everything Included</span>
+      <h2>All the tools your team needs to track stock.</h2>
+      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+    </div>
+
+    <div class="cards-grid">
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📊</div>
+        <h4>Real-Time Stock Levels</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          See exactly what you have on hand at any moment, from any device.
+          No more "I think we have enough."
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🔔</div>
+        <h4>Low-Stock Alerts</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Set a par level once. VOS tells you the moment an item drops below it,
+          so you reorder in time.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🗣️</div>
+        <h4>Voice Count Entry</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Count by voice as you walk your storage. VOS records each item
+          hands-free and confirms it.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🔄</div>
+        <h4>Auto-Updating Counts</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Counts update alongside your order activity, so your numbers stay
+          current without anyone re-typing them.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📍</div>
+        <h4>Multi-Location Tracking</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Run more than one restaurant? Track stock separately for each
+          location under a single login.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🛒</div>
+        <h4>Reorder in One Tap</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          When something's low, reorder straight from your stock list by voice
+          or web. No separate ordering app.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📱</div>
+        <h4>iOS + Android App</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Track stock from the walk-in, the kitchen, or the office. Works on
+          iPhone and Android with no extra hardware.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🌐</div>
+        <h4>Web-Based Access</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Log in from any browser. Nothing to install, nothing to update,
+          nothing to break before a busy service.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🔗</div>
+        <h4>No System Replacement</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Keep your current suppliers and your current process. VOS just makes
+          tracking and reordering faster and more accurate.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     HORIZONTAL MID-PAGE CTA STRIP
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">See how VOS keeps your stock counts current without the clipboard</h3>
+      <p class="text-muted" style="font-size:16px;">
+        Book a free 20-minute walkthrough. We'll show you exactly how real-time
+        tracking, low-stock alerts, and voice ordering work together, for
+        restaurants like yours.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Simple Setup</span>
+      <h2>Up and running in one day</h2>
+      <p class="lead mt-16">
+        No IT team. No systems to rip out. Three steps and your team is
+        tracking stock instead of guessing at it.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Load your items</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          VOS sets up your product list with your suppliers and unit sizes.
+          Nothing to build from scratch.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>Set your par levels</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Tell VOS the minimum you want on hand for each item. That's all it
+          takes to turn on low-stock alerts.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>Track and reorder, 24/7</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Your team counts by voice or web, sees stock in real time, and
+          reorders low items in seconds.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: VOS setup flow showing item list, par level configuration, and the live inventory view
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad bg-light" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Restaurants. Real Results.</span>
+      <h2>What restaurant owners say about VOS</h2>
+    </div>
+
+    <div class="testimonials-grid">
+
+      <!-- Featured testimonial -->
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "VOS simplified the entire ordering process for our kitchen. We used to
+          guess what we had and over-order to be safe. Now I can see our stock in
+          real time and reorder in minutes. Less waste, fewer surprises."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting testimonials -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "We used to run out of things mid-service and not know until an order
+            came in. The low-stock alerts alone have saved us more than a few
+            Friday nights."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Restaurant Owner Name]</div>
+              <div class="author-role">[Restaurant Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Counting by voice in the walk-in is the part my crew loves. They call
+            it out while they count. No clipboard, no re-typing into a spreadsheet.
+            Took about 10 minutes to learn."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Restaurant Owner Name]</div>
+              <div class="author-role">[Restaurant Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Works with whatever your supplier already uses</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      When it's time to reorder, VOS sends the order in the format that works
+      for your distributor. No new systems required on their end.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Excel
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VOS also integrates directly with distributor platforms via API,
+      so reorders drop straight into their system without anyone typing them in.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Browser
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: COMPARISON TABLE
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">Why VoiceOrder Solutions</span>
+      <h2>Inventory tracking software built for restaurants.<br>Not a generic warehouse tool.</h2>
+      <p class="lead mt-16">
+        Generic inventory apps weren't designed for a restaurant kitchen.
+        Here's how VOS compares to the alternatives.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:36%;">Feature</th>
+            <th class="highlight" style="width:21%;">VoiceOrder Solutions</th>
+            <th style="width:21%;">Generic Inventory App</th>
+            <th style="width:22%;">Clipboard / Spreadsheet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Real-time stock levels</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Low-stock alerts</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Voice count entry</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Counts update with ordering</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Reorder in one place</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Built for restaurant supply</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td>Partial</td>
+          </tr>
+          <tr>
+            <td>Works with your existing suppliers</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>No system replacement needed</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Time to count + reorder</td>
+            <td>Minutes</td>
+            <td>~30 minutes</td>
+            <td>Hours</td>
+          </tr>
+          <tr>
+            <td>Setup time</td>
+            <td>1 day</td>
+            <td>Weeks</td>
+            <td>None needed</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: FAQ
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 600px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Common questions about VOS inventory tracking software</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Do I need to replace my current system to use VOS?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          No. VOS is designed to fit into how you already work. You keep your
+          current suppliers and your current process. This inventory tracking
+          software adds real-time stock visibility and low-stock alerts on top
+          of the ordering you already do. No rip-and-replace required.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How does VOS keep my stock counts up to date?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Your counts update automatically alongside your order activity. When
+          you place an order or receive a delivery, VOS adjusts your numbers, so
+          the count you see is current. Your team can also update counts by voice
+          while walking the storage area.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is this a simple inventory tracking app or a full system?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          It's both, without the complexity. VOS is a simple inventory tracking
+          app on your phone and a full inventory tracking system in your browser.
+          You get real-time stock, par levels, and low-stock alerts, plus the
+          ability to reorder right away. There's nothing heavy to set up.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can my team update inventory by voice?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Yes. The VOS mobile app works on iOS and Android. Your team can walk the
+          walk-in, press to speak, and call out counts hands-free. VOS confirms
+          each item and updates the count, so nobody has to type while holding a
+          case of produce.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is VOS inventory tracking software right for a small restaurant?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Yes. VOS was built for independent restaurants and small food service
+          teams, not enterprise chains with big IT departments. It is a simple,
+          fast way to track stock and reorder without adding complexity. Setup is
+          straightforward and you don't need a technical team to get started.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What happens when an item runs low?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          When stock drops below the par level you set, VOS sends an alert. From
+          that alert you can reorder the item right away, by voice or web. You
+          catch the shortfall before it becomes an empty shelf in the middle of
+          service.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How long does setup take?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Most restaurants are fully set up within one business day. The VOS team
+          loads your item list and helps you set par levels. You don't need an IT
+          team or technical experience to get started.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FINAL CONVERSION CTA
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Ready to stop guessing what's in your walk-in?</h2>
+  <p>Join restaurants tracking stock in real time and reordering in minutes.</p>
+
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your restaurant email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+  </div>
+
+  <div class="final-cta-trust">
+    <span>✓ Up and running in 1 day</span>
+    <span>✓ Works with your current suppliers</span>
+    <span>✓ No system replacement needed</span>
+    <span>✓ Free setup support included</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 14: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Real-Time Stock</a></li>
+        <li><a href="#features">Low-Stock Alerts</a></li>
+        <li><a href="#features">Voice Count Entry</a></li>
+        <li><a href="#features">Reorder in One Tap</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Compare</h5>
+      <ul role="list">
+        <li><a href="#comparison">VOS vs Spreadsheets</a></li>
+        <li><a href="#comparison">VOS vs Generic Apps</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2025 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>

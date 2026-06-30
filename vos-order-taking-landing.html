@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Taking Software for Food Distributors | VoiceOrder Solutions</title>
+  <meta name="description" content="VoiceOrder Solutions is order taking software for distributors and food service teams. Take orders by voice or web, 24/7. No hold time, no errors, no system to replace." />
+
+  <style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+  </style>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     Primary keyword in H1: "order taking software"
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">Order Taking Software for Food Service</span>
+      <h1>Order Taking Software Without the Phone Tag.</h1>
+      <p class="lead mt-16">
+        VoiceOrder Solutions is order taking software for distributors and food
+        service teams. Let your customers place orders 24/7, by voice or online.
+        No hold time. No missed orders. No errors from phone handoffs.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+        <a href="#how-it-works" class="btn btn-outline-white btn-lg">See How It Works</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>Works with your current systems</span>
+        <span class="hero-trust-dot"></span>
+        <span>Up and running in 1 day</span>
+        <span class="hero-trust-dot"></span>
+        <span>iOS + Android + Web</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
+      <div class="img-placeholder tall">
+        📸 Product screenshot:<br>VOS mobile app showing<br>"Push to Speak" voice ordering<br>with item confirmation UI
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by distributors and food service teams</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">DSD Route</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">20–30 Min</div>
+      <div class="stat-label">saved on every order that used to come by phone</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">order taking, even after your office closes</div>
+    </div>
+    <div>
+      <div class="stat-number">Zero</div>
+      <div class="stat-label">missed orders from busy signals or voicemails</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: PROBLEM STATEMENT
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container text-center">
+    <span class="eyebrow">Sound Familiar?</span>
+    <h2>Taking orders by phone is costing your team hours.</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Most food businesses still take orders the same way they did 20 years ago.
+      Phone calls, voicemails, handwritten lists. Here's what that costs you every week:
+    </p>
+
+    <div class="problem-grid">
+
+      <div class="problem-card">
+        <div class="problem-icon">📞</div>
+        <h4 class="mb-8">"My team is stuck on the phone all morning"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          Customers call in. Your staff writes orders down by hand. Then they
+          re-key everything into the system. Every order ties up a person who
+          could be doing something else.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">📋</div>
+        <h4 class="mb-8">"We shipped 15 cases. They wanted 5."</h4>
+        <p class="text-muted" style="font-size:15px;">
+          Phone orders get misheard. Handwritten lists get lost. You end up
+          eating the cost of a return and an unhappy customer instead of
+          running your operation.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">⏰</div>
+        <h4 class="mb-8">"They needed to order Sunday night but we were closed"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          Your office closes at 5pm. Your customers run out on the weekend.
+          They either wait, or they call a competitor who can take the order
+          right now.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: FEATURE DEEP-DIVE – ALTERNATING ROWS
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+
+    <div class="text-center" style="max-width: 660px; margin: 0 auto 72px;">
+      <span class="eyebrow">Built for Food Service Teams</span>
+      <h2>Order taking software that fits how your team works</h2>
+    </div>
+
+
+    <!-- Feature 1: Voice Ordering -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Voice Ordering</span>
+          <h3>Say the items. The order is taken.</h3>
+          <p class="mt-12 text-muted">
+            Open the VOS app, press to speak, and call out items and quantities.
+            VOS confirms each item before the order is recorded. It is mobile order
+            taking software your customers and reps can use hands-free, from
+            anywhere. No typing. No hold time. No repeating an order to someone
+            writing it down.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Take a full order in minutes, not 30 minutes on the phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Confirms items and quantities before the order is saved</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Works hands-free from the warehouse, the truck, or the line</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Every order is automatically timestamped and logged</span>
+            </li>
+          </ul>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See voice ordering in action →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>VOS "Push to Speak" interface<br>with item confirmation<br>and order review screen
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 2: Web-Based / B2B Order Taking -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Web-Based Ordering</span>
+          <h3>B2B order taking software, open 24/7.</h3>
+          <p class="mt-12 text-muted">
+            VOS is web-based. There's nothing to install and nothing to replace.
+            Your customers log in from a computer, a tablet, or a phone and place
+            their own order. You get it the moment they submit it, even at midnight
+            on a Sunday. That is the difference between an order taken and an order lost.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Browser-based. Works on any device, any OS.</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Customers order at 2am, on weekends, or between shifts</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>No software to install or update on anyone's end</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Your customers learn it in under 10 minutes</span>
+            </li>
+          </ul>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">Try the web-based ordering →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>VOS web interface showing<br>the order screen on a desktop browser<br>with items, quantities, and submit button
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 3: Real-Time Inventory Visibility -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Inventory Visibility</span>
+          <h3>Show what's available as orders come in.</h3>
+          <p class="mt-12 text-muted">
+            VOS shows real-time stock so the order taken matches what you can
+            actually ship. Customers see what's in stock before they submit.
+            No more surprise substitutions. No more "we didn't have that" calls
+            the morning of delivery.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Show live stock levels while the order is being placed</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Flag items that are low or out before they're ordered</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Cut the substitutions that frustrate customers</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Fewer back-and-forth calls to fix a bad order</span>
+            </li>
+          </ul>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See inventory visibility →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Real-time inventory panel<br>showing stock levels, availability<br>indicators, and low-stock alerts
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 4: Custom Order Guides -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Custom Order Guides</span>
+          <h3>Each customer's items, ready to reorder.</h3>
+          <p class="mt-12 text-muted">
+            VOS builds a custom order guide for every account: their exact products,
+            unit sizes, and usual quantities. Reordering becomes a fast, repeatable
+            process instead of starting from a blank list. It is software for order
+            taking that your accounts will actually use, week after week.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Pre-loaded with each account's most-ordered items</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Set par levels so customers know when to reorder</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Separate guides per account or per location</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Updated automatically when your catalog changes</span>
+            </li>
+          </ul>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See custom order guides →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Custom order guide showing<br>an account's items, par levels,<br>and quick-add ordering interface
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE CARDS – SUPPORTING CAPABILITIES
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Everything Included</span>
+      <h2>All the tools your team needs to take orders faster.</h2>
+      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+    </div>
+
+    <div class="cards-grid">
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📱</div>
+        <h4>iOS + Android App</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Take and place orders from anywhere: the warehouse, the truck, or
+          on the road. Works on iPhone and Android.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">⏱️</div>
+        <h4>Auto-Timestamped Orders</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Every order is logged with the exact date and time it came in.
+          No more disputes about when an order was placed.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">✅</div>
+        <h4>Instant Order Confirmation</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          VOS confirms every order the moment it's submitted. Both sides know
+          it went through. No need to call and double-check.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📄</div>
+        <h4>Multiple Delivery Formats</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Orders flow out as email, PDF, Excel, EDI, or direct API. Whatever
+          format your system or your customer's system accepts.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🔗</div>
+        <h4>Direct Platform Integration</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          VOS can connect straight to your existing ordering platform.
+          No manual re-entry on your end.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🔄</div>
+        <h4>No System Replacement</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          You keep your current systems and your current processes.
+          VOS just makes the order taking part faster and more accurate.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">❌</div>
+        <h4>Error Reduction</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Voice confirmation and digital records replace the phone handoffs
+          where items get misheard and quantities get wrong.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🌐</div>
+        <h4>Web-Based Access</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Log in from any browser. Nothing to install, nothing to update,
+          nothing to break before a busy day.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📍</div>
+        <h4>Multi-Account Support</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Manage many customers or locations? VOS gives each account its own
+          order guide while keeping everything under one login.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     HORIZONTAL MID-PAGE CTA STRIP
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">See how VOS saves your team 20+ minutes on every order</h3>
+      <p class="text-muted" style="font-size:16px;">
+        Book a free 20-minute walkthrough. We'll show you exactly how voice ordering,
+        real-time inventory, and digital confirmation work together, for teams like yours.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Simple Setup</span>
+      <h2>Up and running in one day</h2>
+      <p class="lead mt-16">
+        No IT team. No systems to rip out. Three steps and your team is
+        taking orders faster than they did this morning.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Connect your catalog</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          VOS loads your product list and pricing. Your existing systems
+          don't need to change anything.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>Build your order guides</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          VOS sets up a custom order guide for each account: their exact
+          items, unit sizes, and usual quantities. Ready to use immediately.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>Take orders by voice or web, 24/7</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Orders start coming in. Every order is confirmed, timestamped,
+          and routed into your system automatically.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: VOS setup flow or onboarding screen showing catalog connection and order guide configuration
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad bg-light" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Teams. Real Results.</span>
+      <h2>What food service teams say about VOS</h2>
+    </div>
+
+    <div class="testimonials-grid">
+
+      <!-- Featured testimonial -->
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "VOS simplified the entire ordering process for us. We used to spend
+          hours every week on the phone: taking orders, following up, fixing
+          mistakes. Now it's done in minutes and we actually know the order
+          went through."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting testimonials -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Our customers used to call after hours and there was no one to take
+            the order. With VOS, they place it themselves on a Sunday night and
+            it's ready for us Monday morning."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "The voice ordering is the part my team loves most. They call it out
+            while they work. No typing, no hold time. Took about 10 minutes for
+            everyone to figure it out."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Works with whatever your system already uses</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      VOS sends orders in the format that works for your business.
+      No new systems required on anyone's end.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Excel
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VOS also integrates directly with ordering platforms via API,
+      so orders drop straight into your system without anyone typing them in.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Browser
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: COMPARISON TABLE
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 620px; margin: 0 auto;">
+      <span class="eyebrow">Why VoiceOrder Solutions</span>
+      <h2>Order taking software built for food service.<br>Not adapted from something else.</h2>
+      <p class="lead mt-16">
+        Generic software wasn't designed for food supply orders.
+        Here's how VOS compares to the alternatives.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:36%;">Feature</th>
+            <th class="highlight" style="width:21%;">VoiceOrder Solutions</th>
+            <th style="width:21%;">Generic Software</th>
+            <th style="width:22%;">Phone / Manual</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>24/7 order taking</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Voice ordering</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td>Partial</td>
+          </tr>
+          <tr>
+            <td>Web-based, no install</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Instant digital order confirmation</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Real-time inventory visibility</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Works with your existing systems</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>No system replacement needed</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Error-free digital order records</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Partial</td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Time saved per order</td>
+            <td>20–30 minutes</td>
+            <td>~5 minutes</td>
+            <td>0 minutes saved</td>
+          </tr>
+          <tr>
+            <td>Setup time</td>
+            <td>1 day</td>
+            <td>Weeks</td>
+            <td>None needed</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: FAQ
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Common questions about VOS order taking software</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Do I need to replace my current system to use VOS?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          No. VOS is designed to fit into how you already work. You keep your
+          current systems and your current processes. This order taking software
+          just replaces the phone call. It makes the order entry part faster,
+          more accurate, and available 24/7. No rip-and-replace required.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can orders be placed by voice from a phone?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Yes. The VOS mobile app works on both iOS and Android. Your team or
+          your customers can place orders hands-free from anywhere: the warehouse,
+          the truck, or the prep line. Press to speak, say the items and quantities,
+          and the order is confirmed and recorded automatically.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What if a customer needs to order after we close?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          That's one of the main reasons teams use VOS. The system is available
+          24/7. Customers place orders anytime and they route straight into your
+          workflow, even outside business hours. The order is waiting for you
+          when you open the next morning.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How does VOS reduce order errors?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          VOS confirms each item and quantity before the order is submitted.
+          Unlike phone orders (where items get misheard and written down wrong),
+          VOS creates a digital record of exactly what was ordered. Every order
+          is timestamped and confirmed, so there are no disputes about what was
+          placed or when.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is VOS order taking software right for a small distributor?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Yes. VOS was built for independent distributors, DSD routes, and food
+          service teams, not enterprise chains with big IT departments. It is a
+          simple, fast way to take and place supply orders without adding
+          complexity. Setup is straightforward and you do not need a technical
+          team to get started.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What format does VOS send orders in?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          VOS sends orders in whatever format your system uses: email, PDF,
+          Excel spreadsheet, EDI, or direct API integration with your platform.
+          You don't need to change anything on your side. VOS adapts to what
+          you already have.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How long does setup take?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Most teams are fully set up within one business day. The VOS team
+          handles the catalog setup for you, loading your products and building
+          your order guides. You don't need an IT team or technical experience
+          to get started.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FINAL CONVERSION CTA
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Ready to stop taking every order by phone?</h2>
+  <p>Join food service teams already saving 20–30 minutes on every order.</p>
+
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your work email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+  </div>
+
+  <div class="final-cta-trust">
+    <span>✓ Up and running in 1 day</span>
+    <span>✓ Works with your current systems</span>
+    <span>✓ No system replacement needed</span>
+    <span>✓ Free setup support included</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 14: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Voice Ordering</a></li>
+        <li><a href="#features">Web-Based Ordering</a></li>
+        <li><a href="#features">Inventory Visibility</a></li>
+        <li><a href="#features">Custom Order Guides</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Compare</h5>
+      <ul role="list">
+        <li><a href="#comparison">VOS vs Phone Ordering</a></li>
+        <li><a href="#comparison">VOS vs Generic Software</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2025 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>

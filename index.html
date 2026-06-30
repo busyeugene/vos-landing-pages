@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoiceOrder Solutions — Feature Landing Pages</title>
+  <meta name="description" content="Feature landing pages for VoiceOrder Solutions, voice and web order entry software for restaurants and food distributors. Browse order entry, order taking, inventory tracking, and catalog management." />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    :root {
+      --color-primary:     #2D1B6E;
+      --color-accent:      #0BB5E0;
+      --color-light-bg:    #f5f7fa;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --max-width:         1080px;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: var(--color-text);
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    .hub-header {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: #fff;
+      padding: 80px 24px 72px;
+      text-align: center;
+    }
+    .hub-logo {
+      display: inline-block; margin-bottom: 28px;
+      font-size: 18px; font-weight: 800; letter-spacing: -0.02em;
+      color: #fff; text-decoration: none;
+    }
+    .hub-logo span { color: var(--color-accent); }
+    .hub-header h1 {
+      font-size: clamp(30px, 4.5vw, 46px); font-weight: 800;
+      line-height: 1.1; letter-spacing: -0.02em; max-width: 760px; margin: 0 auto 18px;
+    }
+    .hub-header p {
+      font-size: 19px; color: rgba(255,255,255,0.82);
+      max-width: 600px; margin: 0 auto;
+    }
+
+    /* ── Card grid ── */
+    .hub-main { max-width: var(--max-width); margin: 0 auto; padding: 64px 24px 80px; }
+    .hub-section-label {
+      font-size: 13px; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--color-accent);
+      text-align: center; margin-bottom: 10px;
+    }
+    .hub-section-title {
+      font-size: clamp(24px, 3.5vw, 34px); font-weight: 700;
+      text-align: center; letter-spacing: -0.01em; margin-bottom: 48px;
+    }
+    .hub-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;
+    }
+    .hub-card {
+      display: flex; flex-direction: column;
+      border: 1px solid #e4e7ed; border-radius: 14px;
+      padding: 32px; text-decoration: none; color: inherit;
+      background: #fff; transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .hub-card:hover {
+      box-shadow: 0 12px 36px rgba(45,27,110,0.12);
+      transform: translateY(-3px); border-color: #d6dbe6;
+    }
+    .hub-card-kw {
+      align-self: flex-start;
+      font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--color-primary);
+      background: #ede9fe; padding: 5px 10px; border-radius: 6px; margin-bottom: 18px;
+    }
+    .hub-card h3 { font-size: 23px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 10px; }
+    .hub-card p { font-size: 15px; color: var(--color-text-muted); margin-bottom: 22px; flex-grow: 1; }
+    .hub-card-link {
+      font-size: 14px; font-weight: 600; color: var(--color-accent);
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    @media (max-width: 720px) { .hub-grid { grid-template-columns: 1fr; } }
+
+    /* ── Footer ── */
+    .hub-footer {
+      background: #1a0f47; color: rgba(255,255,255,0.6);
+      padding: 44px 24px; text-align: center;
+    }
+    .hub-footer a { color: rgba(255,255,255,0.7); text-decoration: none; font-weight: 600; }
+    .hub-footer a:hover { color: #fff; }
+    .hub-footer-links { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; font-size: 14px; }
+    .hub-footer-copy { font-size: 13px; color: rgba(255,255,255,0.4); }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header class="hub-header">
+  <a href="https://www.voiceordersolutions.com/" class="hub-logo">VoiceOrder<span> Solutions</span></a>
+  <h1>Order entry software for restaurants and food distributors</h1>
+  <p>
+    Place and take supply orders 24/7, by voice or online. Browse the feature
+    pages below to see how VoiceOrder Solutions fits your team.
+  </p>
+</header>
+
+<!-- ── CARD GRID ── -->
+<main class="hub-main">
+  <div class="hub-section-label">Feature Pages</div>
+  <h2 class="hub-section-title">Explore VoiceOrder Solutions by feature</h2>
+
+  <div class="hub-grid">
+
+    <a class="hub-card" href="/order-entry-software">
+      <span class="hub-card-kw">Order Entry Software</span>
+      <h3>Order Entry Software</h3>
+      <p>
+        Web-based order entry built for restaurants. Place supply orders 24/7
+        by voice or online. No hold time, no errors, no system to replace.
+      </p>
+      <span class="hub-card-link">View page →</span>
+    </a>
+
+    <a class="hub-card" href="/order-taking-software">
+      <span class="hub-card-kw">Order Taking Software</span>
+      <h3>Order Taking Software</h3>
+      <p>
+        Let customers place orders 24/7 by voice or web. Built for distributors
+        and food service teams that take orders without the phone tag.
+      </p>
+      <span class="hub-card-link">View page →</span>
+    </a>
+
+    <a class="hub-card" href="/inventory-tracking-software">
+      <span class="hub-card-kw">Inventory Tracking Software</span>
+      <h3>Inventory Tracking Software</h3>
+      <p>
+        See real-time stock, get low-stock alerts, and reorder by voice or web.
+        Simple inventory tracking that updates itself as you order.
+      </p>
+      <span class="hub-card-link">View page →</span>
+    </a>
+
+    <a class="hub-card" href="/catalog-management-software">
+      <span class="hub-card-kw">Catalog Management Software</span>
+      <h3>Catalog Management Software</h3>
+      <p>
+        Keep one product catalog current for your whole team. Per-account pricing,
+        live availability, and voice ordering, all from a single catalog.
+      </p>
+      <span class="hub-card-link">View page →</span>
+    </a>
+
+  </div>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer class="hub-footer">
+  <div class="hub-footer-links">
+    <a href="https://www.voiceordersolutions.com/">voiceordersolutions.com</a>
+    <a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a>
+  </div>
+  <div class="hub-footer-copy">© 2025 VoiceOrder Solutions. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
