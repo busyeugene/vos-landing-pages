@@ -4,10 +4,11 @@
 Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceordersolutions.com) — voice + web-based order entry software for restaurants placing supply orders with food distributors.
 
 ## Deployment
-- **GitHub:** TBD — set up a dedicated repo for this project
-- **Vercel:** TBD — new Vercel project needed once repo is created
-- Every push to `main` auto-redeploys once wired up.
-- New pages: add HTML file + add a rewrite entry in `vercel.json`.
+- **GitHub:** `github.com/busyeugene/vos-landing-pages` (remote `origin`)
+- **Vercel:** project `vos-landing-pages` → live at `https://vos-landing-pages.vercel.app`
+- **Deploy branch:** `master`. Every push to `master` auto-redeploys via Vercel's Git integration.
+- New pages: add the HTML file, add a rewrite entry in `vercel.json`, add a card to `index.html` (pillar page), then commit + push to `master`.
+- `.vercel/` is gitignored (holds the local project link).
 
 ## Pages built
 
