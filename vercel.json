@@ -1,8 +1,52 @@
 {
   "rewrites": [
-    { "source": "/order-entry-software", "destination": "/vos-order-entry-landing.html" },
-    { "source": "/order-taking-software", "destination": "/vos-order-taking-landing.html" },
-    { "source": "/inventory-tracking-software", "destination": "/vos-inventory-tracking-landing.html" },
-    { "source": "/catalog-management-software", "destination": "/vos-catalog-management-landing.html" }
+    {
+      "source": "/order-entry-software",
+      "destination": "/vos-order-entry-landing.html"
+    },
+    {
+      "source": "/order-taking-software",
+      "destination": "/vos-order-taking-landing.html"
+    },
+    {
+      "source": "/order-fulfillment-software",
+      "destination": "/vos-order-fulfillment-landing.html"
+    },
+    {
+      "source": "/order-tracking-software",
+      "destination": "/vos-order-tracking-landing.html"
+    },
+    {
+      "source": "/inventory-tracking-software",
+      "destination": "/vos-inventory-tracking-landing.html"
+    },
+    {
+      "source": "/inventory-planning-software",
+      "destination": "/vos-inventory-planning-landing.html"
+    },
+    {
+      "source": "/inventory-visibility-software",
+      "destination": "/vos-inventory-visibility-landing.html"
+    },
+    {
+      "source": "/inventory-control-software",
+      "destination": "/vos-inventory-control-landing.html"
+    },
+    {
+      "source": "/catalog-management-software",
+      "destination": "/vos-catalog-management-landing.html"
+    },
+    {
+      "source": "/restaurant-stock-management-software",
+      "destination": "/vos-restaurant-stock-management-landing.html"
+    },
+    {
+      "source": "/restaurant-purchasing-software",
+      "destination": "/vos-restaurant-purchasing-landing.html"
+    },
+    {
+      "source": "/restaurant-checklist-software",
+      "destination": "/vos-restaurant-checklist-landing.html"
+    }
   ]
 }

@@ -1,0 +1,24 @@
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
