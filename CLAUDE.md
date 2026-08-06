@@ -120,8 +120,22 @@ Each page links out to 3 cluster siblings via the Related strip, 4–5 more via 
 ## Product knowledge base
 Verified product facts live in `knowledge-base/vos-product-facts.md`. Always check it before writing copy.
 
+## Build pipeline (`_build/`)
+Pages are assembled by a small Node script rather than hand-copied, because the 375-line CSS block and five partials are identical on all 12 pages. `_build/` is excluded from deploy via `.vercelignore`; the root HTML files stay standalone and hand-editable.
+
+```
+cd _build
+node build.js          # rebuild all pages (or: node build.js <slug>)
+node gen-site.js       # regenerate vercel.json, index.html cards, sitemap.xml, robots.txt
+node qa.js             # QA gate, must be 0 failures before pushing
+node structure.js      # tag balance + one h1 per page
+```
+
+`_build/registry.js` is the source of truth for every page. See `_build/README.md` for how to add a page.
+
 ## Workflow
 1. Eugene produces content brief or keyword targets
-2. Claude builds the full HTML page using the VOS 15-section template
-3. Push to GitHub → Vercel auto-deploys
-4. After every new page build, output the meta title and meta description for client review
+2. Claude builds the full HTML page using the VOS 16-section template
+3. Run `node qa.js && node structure.js`, both must be clean
+4. Push to GitHub → Vercel auto-deploys
+5. After every new page build, output the meta title and meta description for client review
