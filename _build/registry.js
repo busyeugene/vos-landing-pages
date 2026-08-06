@@ -10,7 +10,6 @@ module.exports = [
     card: 'Order Entry Software',
     blurb: 'Web-based order entry built for restaurants. Place supply orders 24/7 by voice or online. No hold time, no errors, no system to replace.',
     cluster: 'order',
-    live: true,
   },
   {
     slug: 'order-taking-software',
@@ -19,7 +18,6 @@ module.exports = [
     card: 'Order Taking Software',
     blurb: 'Let customers place orders 24/7 by voice or web. Built for distributors and food service teams that take orders without the phone tag.',
     cluster: 'order',
-    live: true,
   },
   {
     slug: 'order-fulfillment-software',
@@ -44,7 +42,6 @@ module.exports = [
     card: 'Inventory Tracking Software',
     blurb: 'See real-time stock, get low-stock alerts, and reorder by voice or web. Simple inventory tracking that updates itself as you order.',
     cluster: 'inventory',
-    live: true,
   },
   {
     slug: 'inventory-planning-software',
@@ -77,7 +74,6 @@ module.exports = [
     card: 'Catalog Management Software',
     blurb: 'Keep one product catalog current for your whole team. Per-account pricing, live availability, and voice ordering, all from a single catalog.',
     cluster: 'ops',
-    live: true,
   },
   {
     slug: 'restaurant-stock-management-software',
@@ -86,7 +82,6 @@ module.exports = [
     card: 'Restaurant Stock Management Software',
     blurb: 'Stock counts that update as you order, from the walk-in to the phone in your pocket. Built for restaurant kitchens, not warehouses.',
     cluster: 'inventory',
-    hub: true,
   },
   {
     slug: 'restaurant-purchasing-software',
@@ -95,7 +90,6 @@ module.exports = [
     card: 'Restaurant Purchasing Software',
     blurb: 'Order from every distributor in one place. Purchase orders that write themselves and spend you can actually see.',
     cluster: 'ops',
-    hub: true,
   },
   {
     slug: 'restaurant-checklist-software',
