@@ -78,7 +78,7 @@ idx = idx.slice(0, start) + main + idx.slice(end);
 // refresh hub head + intro copy for 12 pages
 idx = idx.replace(/<meta name="description" content="[^"]*" \/>/,
   '<meta name="description" content="Feature pages for VoiceOrder Solutions, voice and web order entry software for restaurants and food distributors. Ordering, inventory, catalog, and purchasing." />');
-idx = idx.replace(/(<title>)[^<]*(<\/title>)/, '$1VoiceOrder Solutions — Feature Landing Pages$2');
+idx = idx.replace(/(<title>)[^<]*(<\/title>)/, '$1VoiceOrder Solutions: Feature Landing Pages$2');
 if (!/rel="canonical"/.test(idx)) {
   idx = idx.replace(/(<meta name="description"[^>]*\/>)/, `$1\n  <link rel="canonical" href="${ORIGIN}/" />`);
 }

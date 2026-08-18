@@ -3,6 +3,41 @@
  * Tier C terms (wrong industry) are listed but only need to appear once, inside a disambiguating FAQ.
  */
 module.exports = {
+  'order-entry-software': {
+    primary: 'order entry software',
+    secondary: [
+      'order entry system software',
+      'order entry software for small business',
+      'web based order entry software', // appears on-page hyphenated as "web-based"
+    ],
+  },
+  'order-taking-software': {
+    primary: 'order taking software',
+    secondary: [
+      'b2b order taking software',
+      'software for order taking',
+      'mobile order taking software',
+    ],
+  },
+  'inventory-tracking-software': {
+    primary: 'inventory tracking software',
+    secondary: [
+      'inventory tracking system',
+      'simple inventory tracking software',
+      'inventory tracking app',
+      'software for tracking inventory',
+    ],
+  },
+  'catalog-management-software': {
+    primary: 'catalog management software',
+    secondary: [
+      'product catalog software',
+      'b2b catalog software',
+      'inventory catalog software',
+      'ai catalog management software',
+      'ai procurement catalog management software',
+    ],
+  },
   'inventory-planning-software': {
     primary: 'inventory planning software',
     secondary: [

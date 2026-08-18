@@ -14,7 +14,7 @@ const ok = m => console.log(`  ✓ ${m}`);
 
 // count case-insensitive occurrences of phrase in text
 const count = (text, phrase) => {
-  const re = new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+'), 'gi');
+  const re = new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[\s-]+/g, '[\\s-]+'), 'gi');
   return (text.match(re) || []).length;
 };
 
@@ -88,7 +88,7 @@ for (const file of files) {
     // Several secondaries contain the primary verbatim ("warehouse order fulfillment software").
     // Mask them (longest first) so the primary count reflects standalone uses only.
     const mask = t => [...kw.secondary].sort((a, b) => b.length - a.length).reduce(
-      (acc, s) => acc.replace(new RegExp(s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+'), 'gi'), ' @SEC@ '),
+      (acc, s) => acc.replace(new RegExp(s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[\s-]+/g, '[\\s-]+'), 'gi'), ' @SEC@ '),
       t);
     const pc = count(mask(textOnly), kw.primary), ph = count(mask(headings), kw.primary);
     if (pc === 6) ok(`primary "${kw.primary}" x${pc} (${ph} in headings)`);
