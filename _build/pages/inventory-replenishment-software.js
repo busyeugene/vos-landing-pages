@@ -66,7 +66,7 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">24/7</div>
-      <div class="stat-label">reorder the moment you spot a gap</div>
+      <div class="stat-label">to reorder, whatever time you notice</div>
     </div>
     <div>
       <div class="stat-number">Per item</div>
@@ -153,7 +153,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Par levels per item and per location</span></li>
             <li><span class="bullet-check">✓</span><span>Below-par alerts before you run out</span></li>
-            <li><span class="bullet-check">✓</span><span>Counts move as you order and receive</span></li>
+            <li><span class="bullet-check">✓</span><span>Orders and deliveries keep the count current</span></li>
             <li><span class="bullet-check">✓</span><span>Everyone sees the same alert, so nobody assumes</span></li>
           </ul>
           <a href="/inventory-tracking-software" class="feature-link">See how live counts work →</a>
@@ -209,9 +209,9 @@ module.exports = {
             before it goes.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>iPhone and Android app, plus any web browser</span></li>
-            <li><span class="bullet-check">✓</span><span>Reorder by voice in seconds, hands free</span></li>
-            <li><span class="bullet-check">✓</span><span>Matched to the right item, size, and pack</span></li>
+            <li><span class="bullet-check">✓</span><span>Same app on iPhone and Android</span></li>
+            <li><span class="bullet-check">✓</span><span>Speak the reorder instead of typing it</span></li>
+            <li><span class="bullet-check">✓</span><span>Each line read back before it's sent</span></li>
             <li><span class="bullet-check">✓</span><span>Check live supplier availability before you send</span></li>
           </ul>
           <a href="/restaurant-stock-management-software" class="feature-link">See restaurant stock management →</a>
@@ -234,8 +234,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             Restocking should not wait for business hours. Place the reorder after
             close or before prep, and it reaches the supplier you already use in the
-            format they already take. That alone saves 20 to 30 minutes per order
-            compared with calling it in.
+            format they already take.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Place reorders 24/7, including weekends</span></li>
@@ -265,7 +264,7 @@ module.exports = {
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
       <h2>All the tools your team needs to stay stocked.</h2>
-      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+      <p class="lead mt-16">Every piece of the reorder loop, included from the first day.</p>
     </div>
 
     <div class="cards-grid">
@@ -292,8 +291,7 @@ module.exports = {
         <div class="feature-card-icon">🎯</div>
         <h4>Par Levels</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Set the amount you want on hand per item and per site. Change it for
-          a busy weekend.
+          The target stock for every item and site. Raise it for a holiday weekend, lower it for a slow week.
         </p>
       </div>
 
@@ -301,8 +299,7 @@ module.exports = {
         <div class="feature-card-icon">🗣️</div>
         <h4>Voice Reordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Say what you need and VOS matches it to the right item, size, and
-          pack, then confirms.
+          Speak the reorder into your phone. VOS matches each item and confirms it with you.
         </p>
       </div>
 
@@ -310,8 +307,7 @@ module.exports = {
         <div class="feature-card-icon">📱</div>
         <h4>iPhone + Android</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Reorder from the walk-in, the line, or the parking lot. Web works
-          from any browser too.
+          Reorder wherever you notice the gap, not wherever the computer is.
         </p>
       </div>
 
@@ -319,8 +315,7 @@ module.exports = {
         <div class="feature-card-icon">🕐</div>
         <h4>24/7 Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Send the reorder after close. Your supplier picks it up when they
-          open.
+          Reorder at midnight and it's in front of your supplier first thing.
         </p>
       </div>
 
@@ -411,8 +406,7 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Get the alert, review, send</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          When something drops below par, the reorder is ready. Check it and
-          send it by voice or web.
+          An item dips under its par, the reorder list fills in, and you send it by voice or web.
         </p>
       </div>
 
@@ -615,25 +609,21 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Do I need to replace my current system to use VOS?
+          Does this change how we order today?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. You keep your suppliers, your delivery days, and your process. VOS adds
-          the alert and the reorder list on top, and sends the order out the way you
-          already order.
+          Only the slow parts. Same suppliers, same delivery days. VOS adds the alert and the reorder list, then sends each order the way your supplier already takes it.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How is inventory replenishment software different from inventory planning?
+          Is inventory replenishment software the same as inventory planning?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Planning looks ahead: how much should we buy for next week? Replenishment
-          is the loop that runs every day: something dropped below par, so get more
-          in before it runs out. VOS does both, and this page is about the second one.
+          No. Planning happens once a week and asks how much to buy. Replenishment happens every day and asks what just ran low. Planning sets the target; replenishment keeps you at it. VOS covers both.
         </div>
       </div>
 
@@ -669,9 +659,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. There is an iPhone and Android app, plus web access from any browser.
-          Most teams reorder straight from the walk-in, by voice or by tapping
-          through the list.
+          Yes. Most reorders happen on a phone, right where the stock is, by speaking the order or tapping through the list. Android works the same way, and there's a web version for the office.
         </div>
       </div>
 
@@ -705,9 +693,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most teams are fully set up within one business day. The VOS team imports
-          your products, pack sizes, and pricing, and helps you set your first par
-          levels. You do not need an IT team.
+          About a day. Once your supplier catalogs are loaded, the VOS team sits down with you to set starting par levels, which is the part that makes the alerts useful. No IT help needed.
         </div>
       </div>
 
@@ -733,7 +719,7 @@ module.exports = {
 
   <div class="final-cta-trust">
     <span>✓ Up and running in 1 day</span>
-    <span>✓ Works with your current suppliers</span>
+    <span>✓ Your suppliers stay the same</span>
     <span>✓ No system replacement needed</span>
     <span>✓ Free setup support included</span>
   </div>

@@ -77,7 +77,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">5</div>
-      <div class="stat-label">formats to feed your system: email, PDF, Excel, EDI, API</div>
+      <div class="stat-label">delivery formats, so your system takes orders as they are</div>
     </div>
   </div>
 </section>
@@ -155,7 +155,7 @@ module.exports = {
             you run gets a real number to work from, not a guess.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Customers order 24/7 by voice, web, or app</span></li>
+            <li><span class="bullet-check">✓</span><span>Chefs order the night before, after service</span></li>
             <li><span class="bullet-check">✓</span><span>Overnight orders waiting in one queue by morning</span></li>
             <li><span class="bullet-check">✓</span><span>Fewer early-morning calls to write down</span></li>
             <li><span class="bullet-check">✓</span><span>Earlier order cutoffs become realistic</span></li>
@@ -249,7 +249,7 @@ module.exports = {
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Incoming order line flagged<br>short with a suggested<br>substitute
+            📸 Screenshot:<br>Availability check on<br>tomorrow's orders with<br>two lines flagged short
           </div>
         </div>
       </div>
@@ -267,7 +267,7 @@ module.exports = {
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
       <h2>All the tools that feed a better plan.</h2>
-      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+      <p class="lead mt-16">Each one makes the numbers your plan starts from a little more trustworthy.</p>
     </div>
 
     <div class="cards-grid">
@@ -285,8 +285,7 @@ module.exports = {
         <div class="feature-card-icon">📥</div>
         <h4>One Order Queue</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Voice, web, and app orders in a single list, in one format, in the
-          order they arrived.
+          Every order, however it was placed, lands in the same list in the same shape.
         </p>
       </div>
 
@@ -294,8 +293,7 @@ module.exports = {
         <div class="feature-card-icon">🧾</div>
         <h4>Structured Line Items</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every line matched to a real item, size, and pack. Nothing to decode
-          or retype.
+          Product, pack, and quantity on every line, ready for your system to read.
         </p>
       </div>
 
@@ -329,8 +327,7 @@ module.exports = {
         <div class="feature-card-icon">🔁</div>
         <h4>Substitutions</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Flag a swap and confirm it up front, so the plan and the customer
-          both know.
+          Agree the swap with the customer before the pick, so the plan never counts on stock you don't have.
         </p>
       </div>
 
@@ -338,8 +335,7 @@ module.exports = {
         <div class="feature-card-icon">📄</div>
         <h4>Any Delivery Format</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Email, PDF, Excel, EDI, or API. Orders reach your ERP or planning
-          tool the way it reads them.
+          EDI or API for bigger systems, a spreadsheet or email for simpler ones.
         </p>
       </div>
 
@@ -395,8 +391,7 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>We load your catalog and accounts</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS imports your products, pack sizes, and account pricing, so every
-          incoming order matches a real item.
+          Every product, pack size, and customer price list goes in first, so incoming orders match real items.
         </p>
       </div>
 
@@ -404,7 +399,7 @@ module.exports = {
         <div class="step-number">2</div>
         <h4>Your customers order, 24/7</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          They order by voice, web, or app, whenever suits them. Each account sees
+          By voice, on the web, or in the app, whenever suits them. Each account sees
           only its own items and prices.
         </p>
       </div>
@@ -413,8 +408,7 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Orders flow into your plan</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Everything lands structured in one queue and goes to your ERP or planning
-          tool in the format it reads.
+          Everything lands in one queue, then passes straight into the system you plan from.
         </p>
       </div>
 
@@ -434,7 +428,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What food service teams say about VOS</h2>
+      <h2>What chefs and distributors say about VOS</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -509,8 +503,7 @@ module.exports = {
       <span class="eyebrow">Why VoiceOrder Solutions</span>
       <h2>An input to your planning.<br>Not a replacement for it.</h2>
       <p class="lead mt-16">
-        We would rather be clear than oversell. VOS does not plan your network. It
-        captures the orders your planning depends on. Here's how it compares.
+        To be clear about the boundary: VOS does not plan your network. It captures the orders your planning depends on. Here's where each option fits.
       </p>
     </div>
 
@@ -568,7 +561,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Sends orders to your ERP or planning tool</td>
+            <td>Pushes orders into your existing ERP</td>
             <td><span class="check-yes">✓</span></td>
             <td>Receives them</td>
             <td>Manual</td>
@@ -621,7 +614,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No, and we would rather say so up front. VOS does not plan inventory
+          No. VOS does not plan inventory
           across warehouses, model demand, or optimize transport and capacity. It
           captures your customers' orders, 24/7 and in a clean format, and feeds
           them into whatever planning system you already use. Better input, not a
@@ -661,10 +654,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS delivers orders as email, PDF, Excel, or EDI, and integrates with
-          distributor platforms through an API, so orders flow in without anyone
-          re-typing them. Tell us what your system reads and we set it up during
-          onboarding.
+          Yes. Whatever your system reads, whether that's EDI, a spreadsheet, an API connection, or a simple email, orders arrive in that form without anyone re-typing them. We confirm the format with you during onboarding.
         </div>
       </div>
 
@@ -674,9 +664,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Whenever your customers want. They can order 24/7 by voice, web, or the
-          mobile app. Most of the benefit comes from chefs ordering the night before
-          instead of calling first thing in the morning.
+          Whenever your customers like, day or night. The biggest change comes from chefs placing the next day's order after service instead of phoning it in first thing.
         </div>
       </div>
 
@@ -710,9 +698,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most teams are fully set up within one business day. The VOS team imports
-          your catalog, pack sizes, and account pricing, and configures how orders
-          reach your system. There is no technical work on your end.
+          About one business day. The VOS team loads your catalog and customer accounts, then connects order delivery to your ERP. Nothing technical lands on your team.
         </div>
       </div>
 
@@ -738,7 +724,7 @@ module.exports = {
 
   <div class="final-cta-trust">
     <span>✓ Up and running in 1 day</span>
-    <span>✓ Works with your current systems</span>
+    <span>✓ Your ERP stays in place</span>
     <span>✓ No system replacement needed</span>
     <span>✓ Free setup support included</span>
   </div>

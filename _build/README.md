@@ -8,27 +8,31 @@ copy-pasting a 375-line CSS block and five identical partials into every new pag
 
 ```
 cd _build
-node build.js                      # rebuild all 12 pages
-node build.js order-tracking-software   # rebuild one, by slug
-node gen-site.js                   # regenerate vercel.json, index.html cards, sitemap.xml, robots.txt
-node qa.js                         # QA gate: metas, schema, keyword density, dead links
-node structure.js                  # tag balance + one h1 per page
+node build.js                            # rebuild every page
+node build.js order-tracking-software    # rebuild one, by slug
+node gen-site.js                         # regenerate vercel.json, index.html cards, sitemap.xml, robots.txt
+node gen-csv.js                          # export every page's metadata to vos-page-metadata.csv
+node qa.js                               # QA gate: metas, schema, keyword density, dead links
+node structure.js                        # tag balance + one h1 per page
+node repeat.js <slug...>                 # repetition report (see below)
 ```
 
-Always run `node qa.js && node structure.js` before pushing. Both should report zero
-failures.
+Before pushing: `node qa.js && node structure.js` must report zero failures, and
+`node repeat.js <new slugs>` should show nothing you would not defend.
 
 ## Files
 
 | File | What it is |
 |---|---|
 | `registry.js` | **Source of truth.** Every page: slug, filename, hub card copy, cluster. Drives related-page strips, `sitemap.xml`, and the `index.html` card grid. |
-| `keywords.js` | Primary + secondary keyword targets per page. Read by `qa.js` only. |
+| `keywords.js` | Primary + secondary keyword targets per page. Read by `qa.js` and `repeat.js`. |
 | `pages/<slug>.js` | One per page: title, description, related slugs, and the full `<body>` copy. |
 | `build.js` | Assembles `pages/*.js` + partials + generated `<head>` into the root HTML files. |
 | `gen-site.js` | Generates `vercel.json`, `sitemap.xml`, `robots.txt`, and the `index.html` card grid from `registry.js`. |
+| `gen-csv.js` | Exports url, cluster, keywords, metas with char counts, H1, canonical, and FAQ count for every page. |
 | `qa.js` | Gate: em-dash ban, canonical/OG/schema presence, JSON-LD validity, FAQ schema vs DOM parity, title/description length, dead internal links, keyword density. |
 | `structure.js` | Tag balance and single-h1 check. |
+| `repeat.js` | Repetition report. Per page: phrases (5+ words) repeated within the page, sentences shared word-for-word or near-identically with other pages, and similarity to the closest pages. Keywords are masked so intended placements are not flagged; nav, logo bar, integrations, related strip and footer are ignored because they are shared by design. |
 | `extract.js` | One-off, already run. Ported the original 4 hand-built pages into this pipeline. Kept for reference. |
 | `_css.html`, `_navbar.html`, `_logobar.html`, `_integrations.html`, `_script.html` | Shared blocks, identical on every page. |
 
@@ -36,12 +40,15 @@ failures.
 
 1. Add an entry to `registry.js` (slug, file, label, card, blurb, cluster).
 2. Add keyword targets to `keywords.js`.
-3. Write `pages/<slug>.js`. Copy the closest existing page as a starting point. Use
-   the markers `<!--@NAVBAR-->`, `<!--@LOGOBAR-->`, `<!--@INTEGRATIONS-->`,
-   `<!--@RELATED-->`, `<!--@SCRIPT-->` where those blocks belong.
+3. Write `pages/<slug>.js`. Copy the closest existing page as a starting point, then
+   **rewrite, don't reuse**: FAQ answers, card descriptions, and bullets copied from a
+   sibling page show up in `repeat.js` as shared sentences. Use the markers
+   `<!--@NAVBAR-->`, `<!--@LOGOBAR-->`, `<!--@INTEGRATIONS-->`, `<!--@RELATED-->`,
+   `<!--@SCRIPT-->` where those blocks belong.
 4. Add the page to 2 or 3 sibling pages' `related` arrays so links flow both ways.
-5. `node build.js && node gen-site.js && node qa.js && node structure.js`
-6. Commit and push to `master`.
+5. `node build.js && node gen-site.js && node gen-csv.js && node qa.js && node structure.js`
+6. `node repeat.js <new slugs>` and rewrite anything flagged within the page or shared with a sibling.
+7. Commit and push to `master`.
 
 ## Notes
 
@@ -50,5 +57,9 @@ failures.
 - `qa.js` masks secondary keywords before counting the primary, because several
   secondaries contain the primary verbatim (`warehouse order fulfillment software`
   contains `order fulfillment software`). Without masking every count is inflated.
+- `repeat.js` treats any 5-word phrase found on 75%+ of pages as template wording. Some
+  sitewide lines on the batch 1 and 2 pages (the setup FAQ answer, "Do I need to replace my
+  current system to use VOS?", the cards-section lead) sit just under that threshold and
+  still show up as shared sentences.
 - Canonical origin is the `ORIGIN` constant in `build.js` and `gen-site.js`. Change
   it in both if the pages move to `voiceordersolutions.com`.

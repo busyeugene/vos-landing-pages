@@ -28,10 +28,7 @@ module.exports = {
       <span class="eyebrow">Vendor Management Software for Food Service</span>
       <h1>Vendor Management Software for Your Food Suppliers.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is vendor management software for restaurants that
-        buy from more than one distributor. Every supplier sits on one screen with
-        your pricing, the way they like to get orders, and a record of what they
-        actually delivered. No binders. No system to replace.
+        For restaurants that buy from several distributors, VoiceOrder Solutions is vendor management software that keeps them all in one place: your agreed prices, how each one likes to get orders, and a record of what they actually delivered. No binders. No system to replace.
       </p>
 
       <div class="hero-ctas">
@@ -184,7 +181,7 @@ module.exports = {
             Nobody on their side has to install anything.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Email, PDF, Excel, EDI, or a direct API push</span></li>
+            <li><span class="bullet-check">✓</span><span>Five formats, from a plain email to a direct API link</span></li>
             <li><span class="bullet-check">✓</span><span>Set once per supplier, then forget about it</span></li>
             <li><span class="bullet-check">✓</span><span>Your team orders one way for every supplier</span></li>
             <li><span class="bullet-check">✓</span><span>No new system for your suppliers to learn</span></li>
@@ -193,7 +190,7 @@ module.exports = {
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Per-supplier delivery settings<br>for email, PDF, Excel,<br>EDI, and API
+            📸 Screenshot:<br>Delivery method picker<br>on one supplier's<br>profile
           </div>
         </div>
       </div>
@@ -214,7 +211,7 @@ module.exports = {
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Order history filtered by supplier</span></li>
-            <li><span class="bullet-check">✓</span><span>Shorts and substitutions on record, not in someone's head</span></li>
+            <li><span class="bullet-check">✓</span><span>A written record of every short and swap</span></li>
             <li><span class="bullet-check">✓</span><span>Price paid per item, over time, per supplier</span></li>
             <li><span class="bullet-check">✓</span><span>Real numbers for your next rep conversation</span></li>
           </ul>
@@ -268,7 +265,7 @@ module.exports = {
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
       <h2>All the tools your team needs to keep suppliers in line.</h2>
-      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+      <p class="lead mt-16">All of it comes with VOS from day one, for every supplier you add.</p>
     </div>
 
     <div class="cards-grid">
@@ -277,8 +274,7 @@ module.exports = {
         <div class="feature-card-icon">📋</div>
         <h4>Supplier List</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every distributor you buy from in one place, instead of in four
-          portals and a phone.
+          All your distributors in one list, instead of four portals and a phone.
         </p>
       </div>
 
@@ -304,8 +300,7 @@ module.exports = {
         <div class="feature-card-icon">📄</div>
         <h4>Order Format per Supplier</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Email, PDF, Excel, EDI, or API. Each supplier gets orders the way
-          their system expects.
+          Each supplier receives orders in the format their own system reads, set once.
         </p>
       </div>
 
@@ -349,8 +344,7 @@ module.exports = {
         <div class="feature-card-icon">🔗</div>
         <h4>No System Replacement</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Keep every supplier and every price you negotiated. Only the way you
-          manage them changes.
+          Nothing to switch off. Your suppliers, prices, and routine stay; VOS just keeps track of them.
         </p>
       </div>
 
@@ -611,20 +605,18 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Common questions about managing suppliers with VOS</h2>
+      <h2>Supplier management questions, answered</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Do I have to change suppliers to use VOS?
+          Will my suppliers have to change anything?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. You keep every distributor you buy from and every price you have
-          negotiated. VOS changes how you order from them and what gets recorded,
-          not who you buy from. Your suppliers do not need to install anything.
+          No. Your distributors don't install anything or learn a new system, and you don't switch who you buy from. They keep getting orders in a format they already handle, and your negotiated prices carry over.
         </div>
       </div>
 
@@ -634,8 +626,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It puts every supplier you buy from in one place, with their catalog, your
-          pricing, and how they want orders sent. Then it keeps a record of every
+          It gives a restaurant one home for all of its distributors, with each one's catalog, your pricing, and how they want orders sent. Then it keeps a record of every
           order by supplier, so you can see what each one delivered, shorted, or
           substituted, and what you spent with them.
         </div>
@@ -647,8 +638,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS keeps each supplier's negotiated pricing and pack sizes on your
-          account so every order goes out at the right price. It does not draft
+          No. VOS stores the prices you agreed with each supplier and applies them when you order. It does not draft
           contracts, collect e-signatures, store contract documents, or track
           renewal dates. If you need contract lifecycle management, pair VOS with a
           dedicated tool.
@@ -674,9 +664,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. You set it once per supplier: email, PDF, Excel, EDI, or a direct API
-          push. Your team places every order the same way, and each supplier
-          receives it the way their own system expects.
+          Yes. Pick a delivery method for each supplier once and it sticks. Orders go in one way from your team and come out however each supplier's system needs them.
         </div>
       </div>
 
@@ -712,9 +700,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most teams are fully set up within one business day. The VOS team loads
-          your suppliers, their catalogs and pack sizes, and your negotiated pricing,
-          and sets how each supplier receives orders. You do not need an IT team.
+          Plan on one business day. The VOS team loads each supplier's catalog and your agreed prices, then sets how every supplier receives orders. Nobody on your side needs technical skills.
         </div>
       </div>
 
@@ -730,7 +716,7 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Ready to put every supplier on one screen?</h2>
+  <h2>Ready to stop managing suppliers from memory?</h2>
   <p>Join restaurants that stopped juggling supplier processes and started keeping a real record of how each one performs.</p>
 
   <div class="final-cta-form">
@@ -740,7 +726,7 @@ module.exports = {
 
   <div class="final-cta-trust">
     <span>✓ Up and running in 1 day</span>
-    <span>✓ Keep your current suppliers</span>
+    <span>✓ Your suppliers change nothing</span>
     <span>✓ No system replacement needed</span>
     <span>✓ Free setup support included</span>
   </div>

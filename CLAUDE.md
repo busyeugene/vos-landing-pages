@@ -147,6 +147,6 @@ node structure.js      # tag balance + one h1 per page
 ## Workflow
 1. Eugene produces content brief or keyword targets
 2. Claude builds the full HTML page using the VOS 16-section template
-3. Run `node qa.js && node structure.js`, both must be clean
+3. Run `node qa.js && node structure.js`, both must be clean. Then run `node repeat.js <new slugs>` and rewrite any phrase repeated within a page or any sentence shared with a sibling page. Sitewide template chrome (eyebrows, CTA labels, nav, integrations, footer) is expected to repeat.
 4. Push to GitHub → Vercel auto-deploys
 5. After every new page build, output the meta title and meta description for client review
