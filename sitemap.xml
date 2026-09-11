@@ -2,79 +2,103 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vos-landing-pages.vercel.app/</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/order-entry-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/order-taking-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/order-fulfillment-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/order-tracking-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vos-landing-pages.vercel.app/distribution-resource-planning-software</loc>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/inventory-tracking-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/inventory-planning-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vos-landing-pages.vercel.app/inventory-replenishment-software</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vos-landing-pages.vercel.app/inventory-automation-software</loc>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/inventory-visibility-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/inventory-control-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/catalog-management-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/restaurant-stock-management-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/restaurant-purchasing-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vos-landing-pages.vercel.app/vendor-management-software</loc>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vos-landing-pages.vercel.app/restaurant-checklist-software</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -36,6 +36,14 @@ module.exports = [
     cluster: 'order',
   },
   {
+    slug: 'distribution-resource-planning-software',
+    file: 'vos-distribution-resource-planning-landing.html',
+    label: 'Distribution Resource Planning',
+    card: 'Distribution Resource Planning Software',
+    blurb: "The order data your distribution planning runs on. Customer orders arrive 24/7 and structured, so tomorrow's volume is known before you plan.",
+    cluster: 'order',
+  },
+  {
     slug: 'inventory-tracking-software',
     file: 'vos-inventory-tracking-landing.html',
     label: 'Inventory Tracking Software',
@@ -49,6 +57,22 @@ module.exports = [
     label: 'Inventory Planning Software',
     card: 'Inventory Planning Software',
     blurb: 'Plan next week off what you actually used, not a guess. Par levels per item and per location, built from your own order history.',
+    cluster: 'inventory',
+  },
+  {
+    slug: 'inventory-replenishment-software',
+    file: 'vos-inventory-replenishment-landing.html',
+    label: 'Inventory Replenishment Software',
+    card: 'Inventory Replenishment Software',
+    blurb: 'Know when stock drops below par, review the suggested reorder, and send it from your phone. The reorder loop, done fast.',
+    cluster: 'inventory',
+  },
+  {
+    slug: 'inventory-automation-software',
+    file: 'vos-inventory-automation-landing.html',
+    label: 'Inventory Automation Software',
+    card: 'Inventory Automation Software',
+    blurb: 'Counts, low-stock alerts, reorder lists, and records that keep themselves. The busywork goes away, and you still approve every order.',
     cluster: 'inventory',
   },
   {
@@ -89,6 +113,14 @@ module.exports = [
     label: 'Restaurant Purchasing Software',
     card: 'Restaurant Purchasing Software',
     blurb: 'Order from every distributor in one place. Purchase orders that write themselves and spend you can actually see.',
+    cluster: 'ops',
+  },
+  {
+    slug: 'vendor-management-software',
+    file: 'vos-vendor-management-landing.html',
+    label: 'Vendor Management Software',
+    card: 'Vendor Management Software',
+    blurb: 'Every food supplier on one screen, with your agreed pricing, the order format each one wants, and a record of every short.',
     cluster: 'ops',
   },
   {

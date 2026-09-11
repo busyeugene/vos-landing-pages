@@ -7,7 +7,7 @@
 module.exports = {
   title: 'Order Fulfillment Software for Food Distributors | VOS',
   description: 'VoiceOrder Solutions is order fulfillment software for food distributors. Voice, web, and app orders arrive in one queue, ready to pick, 24 hours a day.',
-  related: ['order-taking-software', 'order-tracking-software', 'catalog-management-software'],
+  related: ['order-taking-software', 'order-tracking-software', 'distribution-resource-planning-software'],
   relatedHeading: 'See the rest of the order journey',
   body: `
 <!--@NAVBAR-->

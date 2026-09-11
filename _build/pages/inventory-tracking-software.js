@@ -4,7 +4,7 @@
 module.exports = {
   title: "Inventory Tracking Software for Restaurants | VOS",
   description: "VoiceOrder Solutions is simple inventory tracking software for restaurants. See real-time stock, get low-stock alerts, and reorder by voice or web.",
-  related: ["restaurant-stock-management-software","inventory-visibility-software","inventory-planning-software"],
+  related: ["restaurant-stock-management-software","inventory-automation-software","inventory-visibility-software"],
   relatedHeading: "Go further with your stock data",
   body: `
 <!--@NAVBAR-->

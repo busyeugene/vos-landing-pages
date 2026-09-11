@@ -17,12 +17,24 @@
       "destination": "/vos-order-tracking-landing.html"
     },
     {
+      "source": "/distribution-resource-planning-software",
+      "destination": "/vos-distribution-resource-planning-landing.html"
+    },
+    {
       "source": "/inventory-tracking-software",
       "destination": "/vos-inventory-tracking-landing.html"
     },
     {
       "source": "/inventory-planning-software",
       "destination": "/vos-inventory-planning-landing.html"
+    },
+    {
+      "source": "/inventory-replenishment-software",
+      "destination": "/vos-inventory-replenishment-landing.html"
+    },
+    {
+      "source": "/inventory-automation-software",
+      "destination": "/vos-inventory-automation-landing.html"
     },
     {
       "source": "/inventory-visibility-software",
@@ -43,6 +55,10 @@
     {
       "source": "/restaurant-purchasing-software",
       "destination": "/vos-restaurant-purchasing-landing.html"
+    },
+    {
+      "source": "/vendor-management-software",
+      "destination": "/vos-vendor-management-landing.html"
     },
     {
       "source": "/restaurant-checklist-software",

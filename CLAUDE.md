@@ -21,24 +21,32 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 | `vos-order-taking-landing.html` | order taking software | `/order-taking-software` | Ordering |
 | `vos-order-fulfillment-landing.html` | order fulfillment software | `/order-fulfillment-software` | Ordering |
 | `vos-order-tracking-landing.html` | order tracking software | `/order-tracking-software` | Ordering |
+| `vos-distribution-resource-planning-landing.html` | distribution resource planning software | `/distribution-resource-planning-software` | Ordering (reframe) |
 | `vos-inventory-tracking-landing.html` | inventory tracking software | `/inventory-tracking-software` | Inventory |
 | `vos-inventory-planning-landing.html` | inventory planning software | `/inventory-planning-software` | Inventory |
+| `vos-inventory-replenishment-landing.html` | inventory replenishment software | `/inventory-replenishment-software` | Inventory |
+| `vos-inventory-automation-landing.html` | inventory automation software | `/inventory-automation-software` | Inventory |
 | `vos-inventory-visibility-landing.html` | inventory visibility software | `/inventory-visibility-software` | Inventory |
 | `vos-inventory-control-landing.html` | inventory control software | `/inventory-control-software` | Inventory |
 | `vos-restaurant-stock-management-landing.html` | restaurant stock management software | `/restaurant-stock-management-software` | Inventory (hub) |
 | `vos-catalog-management-landing.html` | catalog management software | `/catalog-management-software` | Ops |
 | `vos-restaurant-purchasing-landing.html` | restaurant purchasing software | `/restaurant-purchasing-software` | Ops (hub) |
+| `vos-vendor-management-landing.html` | vendor management software | `/vendor-management-software` | Ops |
 | `vos-restaurant-checklist-landing.html` | restaurant checklist software | `/restaurant-checklist-software` | Ops |
 
 > Pillar page (`index.html`) groups cards by cluster and links to every feature page. Add a card to it whenever a new page ships.
 
+> Dropped on purpose: **stock control software** (batch 3). It duplicates `/inventory-control-software` ("stock" is the UK/AU word for inventory). Don't build it without re-reading the separation contract below.
+
 ### Cluster separation contract
-Five inventory pages and four order pages compete for overlapping intent. Each page answers exactly one question and must not drift into a neighbour's:
+Seven inventory pages, five order pages, and two supplier pages compete for overlapping intent. Each page answers exactly one question and must not drift into a neighbour's:
 
 | Page | Its one question |
 |---|---|
 | inventory tracking | "What do I have right now?" |
 | inventory planning | "How much should I order for next week?" |
+| inventory replenishment | "It's running low. How do I get more in, fast?" |
+| inventory automation | "What can I stop doing by hand?" |
 | inventory visibility | "Can my other location and my chef see it too?" |
 | inventory control | "Why is my food cost up and where is the waste?" |
 | restaurant stock management | catch-all hub for the inventory cluster |
@@ -46,6 +54,9 @@ Five inventory pages and four order pages compete for overlapping intent. Each p
 | order taking | "How do I receive orders?" (seller) |
 | order fulfillment | "How do I get it picked and out the door?" (seller) |
 | order tracking | "It's placed, where is it?" (both sides) |
+| distribution resource planning | "What order data does my planning run on?" (seller; VOS is not a DRP system, the page says so) |
+| restaurant purchasing | "How do I buy from all my suppliers in one place?" |
+| vendor management | "Which suppliers work for me, on what terms, and how do they want orders?" |
 
 ### Off-fit keyword rule (3 tiers)
 Some target keywords belong to a different buyer than VOS serves (ecommerce, warehouse, retail, manufacturing, ERP). Sort every secondary keyword into:

@@ -123,4 +123,36 @@ module.exports = {
       'restaurant checklist software pricing',
     ],
   },
+  // ── Batch 3 (Sep 2026) ──────────────────────────────────────
+  'vendor-management-software': {
+    primary: 'vendor management software',
+    secondary: [
+      'restaurant vendor management software', // added: main domain ranks 2.4 for "restaurant vendor management"
+      'vendor relationship management software',
+      'vendor management system software',     // Tier B
+      'vendor contract management software',   // Tier C, FAQ only
+    ],
+  },
+  'inventory-replenishment-software': {
+    primary: 'inventory replenishment software',
+    secondary: [
+      'replenishment inventory optimization software', // Tier B, scope-honest FAQ
+      'automated inventory replenishment software',    // Tier B, a person always sends
+      'iphone inventory replenishment software',
+    ],
+  },
+  'inventory-automation-software': {
+    primary: 'inventory automation software',
+    secondary: [
+      'inventory automation management software',
+      'restaurant inventory automation software', // added: main domain pos 11 for "restaurant inventory automation"
+    ],
+  },
+  'distribution-resource-planning-software': {
+    primary: 'distribution resource planning software', // reframe: VOS feeds DRP, is not DRP
+    secondary: [
+      'distribution planning software',          // Tier B
+      'distribution capacity planning software', // Tier B
+    ],
+  },
 };

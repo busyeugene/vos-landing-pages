@@ -9,8 +9,8 @@
 module.exports = {
   title: 'Inventory Planning Software for Restaurants | VoiceOrder',
   description: 'VoiceOrder Solutions is inventory planning software for restaurants. Plan next week from your real order history and par levels, then order by voice.',
-  related: ['inventory-tracking-software', 'restaurant-stock-management-software', 'restaurant-purchasing-software'],
-  relatedHeading: 'From planning to ordering to cost',
+  related: ['inventory-replenishment-software', 'inventory-tracking-software', 'restaurant-stock-management-software'],
+  relatedHeading: 'From the plan to the reorder',
   body: `
 <!--@NAVBAR-->
 

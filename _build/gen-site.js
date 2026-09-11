@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const OUT = path.resolve(__dirname, '..');
 const ORIGIN = 'https://vos-landing-pages.vercel.app';
-const LASTMOD = '2026-08-06';
+const LASTMOD = '2026-09-11';
 const registry = require('./registry.js');
 
 /* ── vercel.json ─────────────────────────────────────────────── */

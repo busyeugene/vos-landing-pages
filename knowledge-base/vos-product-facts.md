@@ -57,3 +57,24 @@ pages to the main domain.
 Also assumed and reused from the live pages: substitution flagging before picking,
 live distributor availability in the catalog, low-stock alerts, 1-day setup,
 20 to 30 minutes saved per order, iOS + Android + web.
+
+---
+
+## Claims used across batch 3 (Sep 2026): NEEDS CLIENT CONFIRMATION
+
+Batch 3 = vendor management, inventory replenishment, inventory automation,
+distribution resource planning. Same approach as batch 2: built on stated
+assumptions, each flagged in the page source.
+
+| # | Assumption written into the pages | Pages affected |
+|---|---|---|
+| Q9 | Order history, spend, shorts and substitutions can be filtered **by supplier**. | vendor management |
+| Q10 | VOS builds a **suggested reorder** sized from par gaps (not only flags items below par). A person always approves; VOS never sends an order on its own. Both pages say so outright. | inventory replenishment, inventory automation |
+| Q11 | Each supplier's order format (email, PDF, Excel, EDI, API) is **set per supplier**. | vendor management, distribution resource planning, inventory automation |
+| Q12 | A distributor can see incoming orders for a delivery day **totalled by item** across accounts. | distribution resource planning |
+| Q13 | VOS does **not** deduct stock from POS sales; counts move with ordering and receiving only. The automation page states this in an FAQ and the comparison table. | inventory automation |
+
+Scope notes for this batch:
+- **Distribution resource planning** is a reframe, not a capability. The page says in the hero and the first FAQ that VOS is not a DRP system; it is the order-capture layer that feeds one.
+- **Vendor management** does not claim contract management, supplier scorecards, supplier onboarding portals, or vendor risk checks. Contract management and the staffing / risk meanings of "vendor management system" are answered as Tier C FAQs.
+- **Stock control software** was dropped: it duplicates the live inventory control page.

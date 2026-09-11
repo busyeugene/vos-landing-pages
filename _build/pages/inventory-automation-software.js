@@ -1,34 +1,35 @@
-/* Page 11 — PRIMARY: restaurant purchasing software (x6 standalone: 2 headings, 2 body, 2 FAQ)
- * SECONDARY (proposed set, all Tier A): restaurant purchase order software (H3),
- *   multi location restaurant purchasing software (H3), restaurant procurement software (H3),
- *   food purchasing software for restaurants (body), restaurant purchasing system (body)
- * NOTE: deliberately does NOT claim vendor price comparison or approval workflows (open question Q5).
- *       Spend/price claims are limited to what order history alone supports.
+/* Page 16 - PRIMARY: inventory automation software (x6 standalone: 2 headings, 2 body, 2 FAQ)
+ * SECONDARY: restaurant inventory automation software (Tier A, H3; added from GSC data, pos 11 on main domain)
+ *            inventory automation management software (Tier A, body; from Eugene's brief)
+ * Separation: tracking = "what do I have right now?"; replenishment = "it's low, get more in fast";
+ * automation = "what can I stop doing by hand?" (the busywork across the whole inventory workflow).
+ * NOT claimed: POS-based depletion, barcode/RFID/sensor counting, unattended auto-ordering.
+ * Assumptions: suggested reorder from par gaps (Q10), no POS depletion (Q13, stated outright in FAQ).
  */
 module.exports = {
-  title: 'Restaurant Purchasing Software | VoiceOrder Solutions',
-  description: 'VoiceOrder Solutions is restaurant purchasing software for multi-supplier kitchens. Order from every distributor in one place and see where the money went.',
-  related: ['vendor-management-software', 'order-entry-software', 'catalog-management-software'],
-  relatedHeading: 'More on suppliers, ordering, and catalogs',
+  title: 'Inventory Automation Software for Restaurants | VOS',
+  description: 'VoiceOrder Solutions is inventory automation software for restaurants. Counts, alerts, reorders, and records keep themselves. You approve every order.',
+  related: ['inventory-replenishment-software', 'inventory-tracking-software', 'catalog-management-software'],
+  relatedHeading: 'What the automation runs on',
   body: `
 <!--@NAVBAR-->
 
 
 <!-- ============================================================
      SECTION 2: HERO
-     Primary keyword in H1: "restaurant purchasing software"
+     Primary keyword in H1: "inventory automation software"
      ============================================================ -->
 <section class="hero" aria-label="Hero">
   <div class="hero-grid">
 
     <div>
-      <span class="eyebrow">Restaurant Purchasing Software</span>
-      <h1>Restaurant Purchasing Software Without the Paperwork.</h1>
+      <span class="eyebrow">Inventory Automation Software for Restaurants</span>
+      <h1>Inventory Automation Software That Handles the Busywork.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is restaurant purchasing software for kitchens that
-        buy from more than one distributor. Order from all of them in one place,
-        keep a clean record of every purchase, and see where the money actually
-        went. No binders. No system to replace.
+        VoiceOrder Solutions is inventory automation software for restaurant
+        kitchens. Counts update themselves, low stock flags itself, reorders build
+        themselves, and every order reaches the supplier in the right format. You
+        still make the calls. VOS does the typing.
       </p>
 
       <div class="hero-ctas">
@@ -41,14 +42,14 @@ module.exports = {
         <span class="hero-trust-dot"></span>
         <span>Up and running in 1 day</span>
         <span class="hero-trust-dot"></span>
-        <span>iOS + Android + Web</span>
+        <span>No hardware to install</span>
       </div>
     </div>
 
     <div>
-      <!-- DEVS: Replace with VOS product screenshot (multi-supplier purchase view) -->
+      <!-- DEVS: Replace with VOS product screenshot (dashboard: live counts, alerts, draft reorder) -->
       <div class="img-placeholder tall">
-        📸 Product screenshot:<br>Purchase list across multiple<br>distributors with totals<br>and order dates
+        📸 Product screenshot:<br>Live counts, low-stock<br>alerts, and a draft reorder<br>on one screen
       </div>
     </div>
 
@@ -65,16 +66,16 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">All</div>
-      <div class="stat-label">your distributors ordered from one place</div>
+      <div class="stat-number">Auto</div>
+      <div class="stat-label">counts that move as you order and receive</div>
     </div>
     <div>
-      <div class="stat-number">Every</div>
-      <div class="stat-label">purchase recorded, priced, and searchable</div>
+      <div class="stat-number">Zero</div>
+      <div class="stat-label">orders retyped into a supplier's format</div>
     </div>
     <div>
-      <div class="stat-number">24/7</div>
-      <div class="stat-label">buy outside your suppliers' office hours</div>
+      <div class="stat-number">20-30 min</div>
+      <div class="stat-label">saved on every order you place</div>
     </div>
   </div>
 </section>
@@ -86,39 +87,39 @@ module.exports = {
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container text-center">
     <span class="eyebrow">Sound Familiar?</span>
-    <h2>Four suppliers, four processes, no single record.</h2>
+    <h2>Your team spends more time on inventory paperwork than on inventory.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      One distributor takes phone orders, one has a portal, one wants a text to
-      the rep. By the time invoices show up, nobody can reconstruct what was
-      bought. Here's what that costs:
+      Counting, adding up, writing the order, typing it again for the supplier,
+      keeping the spend sheet current. None of it needs a person. Here's what it
+      costs when it gets one:
     </p>
 
     <div class="problem-grid">
 
       <div class="problem-card">
-        <div class="problem-icon">🧩</div>
-        <h4 class="mb-8">"Every supplier wants something different"</h4>
+        <div class="problem-icon">🧮</div>
+        <h4 class="mb-8">"Someone does the math every night"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Your manager juggles a phone line, two portals, and a text thread.
-          Ordering takes an hour it should not take, and something always slips.
+          Counts on paper, then a spreadsheet, then a calculator to work out the
+          order. An hour of work a system should be doing.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">💸</div>
-        <h4 class="mb-8">"We don't know what we spend on produce"</h4>
+        <div class="problem-icon">⌨️</div>
+        <h4 class="mb-8">"Every order gets typed twice"</h4>
         <p class="text-muted" style="font-size:15px;">
-          The answer is spread across three invoice piles and an inbox. By the
-          time you add it up, the month is over and it's too late to act.
+          Once on the order sheet, then again into a portal or an email for the
+          supplier. Every retype is another chance for a mistake.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">📋</div>
-        <h4 class="mb-8">"There's no record of what we ordered"</h4>
+        <div class="problem-icon">🗃️</div>
+        <h4 class="mb-8">"Nobody keeps the records up"</h4>
         <p class="text-muted" style="font-size:15px;">
-          The order was a phone call. When the invoice does not match what
-          arrived, it's your word against theirs, and you usually pay it.
+          The spend sheet was current in March. Since then the invoices have piled
+          up and nobody has had time to enter them.
         </p>
       </div>
 
@@ -134,121 +135,121 @@ module.exports = {
   <div class="container">
 
     <div class="text-center" style="max-width: 760px; margin: 0 auto 72px;">
-      <span class="eyebrow">Built for Multi-Supplier Kitchens</span>
-      <h2>Restaurant purchasing software for teams that buy from more than one supplier</h2>
+      <span class="eyebrow">Busywork Out, Judgment In</span>
+      <h2>Inventory automation software that removes the busywork, not the judgment</h2>
     </div>
 
 
-    <!-- Feature 1: One place for every supplier -->
+    <!-- Feature 1: counts -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row">
         <div>
-          <span class="eyebrow">One Place</span>
-          <h3>Every distributor you buy from, in one place.</h3>
+          <span class="eyebrow">Self-Updating Counts</span>
+          <h3>Counts that do their own math.</h3>
           <p class="mt-12 text-muted">
-            Stop bouncing between a phone line, two portals, and a text thread.
-            VOS is food purchasing software for restaurants that puts all of your
-            suppliers behind one screen, so your manager writes one set of orders
-            instead of learning four different processes.
+            Every order you place and every delivery you receive moves your counts
+            for you. Nobody adds up a clipboard at the end of the night. When your
+            team does a quick spot check on the app, they are correcting a number that
+            is already close, not building one from scratch.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Order from every distributor without switching systems</span></li>
-            <li><span class="bullet-check">✓</span><span>One catalog view with each supplier's items and pricing</span></li>
-            <li><span class="bullet-check">✓</span><span>Order by voice or web, 24/7, outside their office hours</span></li>
-            <li><span class="bullet-check">✓</span><span>Keep every supplier relationship exactly as it is today</span></li>
+            <li><span class="bullet-check">✓</span><span>On-hand counts move with ordering and receiving</span></li>
+            <li><span class="bullet-check">✓</span><span>No nightly spreadsheet to rebuild</span></li>
+            <li><span class="bullet-check">✓</span><span>Quick spot checks from the phone in the walk-in</span></li>
+            <li><span class="bullet-check">✓</span><span>Every location keeps its own counts</span></li>
           </ul>
-          <a href="/order-entry-software" class="feature-link">See how ordering works →</a>
+          <a href="/inventory-tracking-software" class="feature-link">See inventory tracking →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Supplier selector with items<br>and pricing from multiple<br>distributors
+            📸 Screenshot:<br>On-hand count updating<br>after a delivery is<br>received
           </div>
         </div>
       </div>
     </div>
 
 
-    <!-- Feature 2: SECONDARY IN H3 – restaurant purchase order software -->
+    <!-- Feature 2: SECONDARY IN H3 (Tier A) – restaurant inventory automation software (assumption Q10) -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row reverse">
         <div>
-          <span class="eyebrow">A Real Paper Trail</span>
-          <h3>Restaurant purchase order software that writes the record for you.</h3>
+          <span class="eyebrow">Alerts and Reorders</span>
+          <h3>Restaurant inventory automation software that builds the reorder.</h3>
           <p class="mt-12 text-muted">
-            Every order placed through VOS becomes a record: items, quantities,
-            pack sizes, pricing, supplier, and date. Nobody has to fill out a
-            separate form. When an invoice does not match what showed up, you have
-            the order in front of you instead of trying to remember a phone call.
+            When something drops below par, VOS flags it and adds it to a suggested
+            reorder, sized to bring it back to target. You open the list, change what
+            you want, and send it. Nothing goes out without a person pressing send.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Every purchase logged automatically as you order</span></li>
-            <li><span class="bullet-check">✓</span><span>Line-level detail with quantities, packs, and pricing</span></li>
-            <li><span class="bullet-check">✓</span><span>Settle invoice disputes with the actual order in hand</span></li>
-            <li><span class="bullet-check">✓</span><span>Searchable by item, supplier, date, or location</span></li>
+            <li><span class="bullet-check">✓</span><span>Below-par items flagged automatically</span></li>
+            <li><span class="bullet-check">✓</span><span>Suggested quantities built from your par gaps</span></li>
+            <li><span class="bullet-check">✓</span><span>Review and send by voice or web</span></li>
+            <li><span class="bullet-check">✓</span><span>Never sends an order on its own</span></li>
           </ul>
-          <a href="/order-tracking-software" class="feature-link">See order tracking and history →</a>
+          <a href="/inventory-replenishment-software" class="feature-link">See inventory replenishment →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Purchase order detail with<br>line items, pricing,<br>and supplier
+            📸 Screenshot:<br>Suggested reorder built<br>from below-par items,<br>ready to review
           </div>
         </div>
       </div>
     </div>
 
 
-    <!-- Feature 3: SECONDARY IN H3 – multi location restaurant purchasing software -->
+    <!-- Feature 3: catalog + supplier formats (secondary in body) -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row">
         <div>
-          <span class="eyebrow">Every Site</span>
-          <h3>Multi location restaurant purchasing software, one login.</h3>
+          <span class="eyebrow">No Retyping</span>
+          <h3>Orders go out in the right format, from a catalog that updates itself.</h3>
           <p class="mt-12 text-muted">
-            Run a few spots and buying gets messy fast. Each location orders on its
-            own, but you can see all of it together. As a restaurant purchasing
-            system for small groups, VOS lets managers buy for their own site while
-            you keep the whole picture in one place.
+            Items, pack sizes, and prices stay current in one catalog, so nobody
+            maintains an order sheet by hand. When you send an order, VOS delivers it
+            to each supplier as email, PDF, Excel, EDI, or API. This is the part of
+            inventory automation management software most kitchens never get: the
+            order is written once and never typed again.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Each location orders for itself, under one account</span></li>
-            <li><span class="bullet-check">✓</span><span>Compare what each site is buying and spending</span></li>
-            <li><span class="bullet-check">✓</span><span>Managers see their site, owners see the whole group</span></li>
-            <li><span class="bullet-check">✓</span><span>Spot the location paying more for the same item</span></li>
+            <li><span class="bullet-check">✓</span><span>Catalog items, sizes, and prices kept current</span></li>
+            <li><span class="bullet-check">✓</span><span>Discontinued items drop off automatically</span></li>
+            <li><span class="bullet-check">✓</span><span>Each supplier gets the format their system reads</span></li>
+            <li><span class="bullet-check">✓</span><span>Written once, never retyped</span></li>
           </ul>
-          <a href="/inventory-visibility-software" class="feature-link">See multi-location visibility →</a>
+          <a href="/catalog-management-software" class="feature-link">See catalog management →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Two locations compared by<br>supplier spend and<br>order volume
+            📸 Screenshot:<br>One order split and sent<br>to three suppliers in<br>three formats
           </div>
         </div>
       </div>
     </div>
 
 
-    <!-- Feature 4: SECONDARY IN H3 – restaurant procurement software -->
+    <!-- Feature 4: records -->
     <div>
       <div class="feature-row reverse">
         <div>
-          <span class="eyebrow">Where The Money Went</span>
-          <h3>Restaurant procurement software that shows where the money went.</h3>
+          <span class="eyebrow">Records That Keep Themselves</span>
+          <h3>The paperwork files itself.</h3>
           <p class="mt-12 text-muted">
-            Because every order is recorded with its pricing, you can look back and
-            see what you bought, from whom, and what it cost. What did we spend on
-            protein last month? What has this item cost from each supplier we use?
-            Those stop being research projects.
+            Every order is saved with its supplier, items, prices, and date the moment
+            it goes out. Order history, spend by supplier, and what you ordered against
+            what arrived are all there when you need them, without anyone entering an
+            invoice.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Spend by supplier, by item, and by location</span></li>
-            <li><span class="bullet-check">✓</span><span>Look back at what an item cost you over time</span></li>
-            <li><span class="bullet-check">✓</span><span>See it during the month, not after it closes</span></li>
-            <li><span class="bullet-check">✓</span><span>Bring real numbers to your next supplier conversation</span></li>
+            <li><span class="bullet-check">✓</span><span>Order history saved automatically</span></li>
+            <li><span class="bullet-check">✓</span><span>Spend by supplier, visible during the month</span></li>
+            <li><span class="bullet-check">✓</span><span>Ordered versus delivered, side by side</span></li>
+            <li><span class="bullet-check">✓</span><span>Searchable when an invoice doesn't match</span></li>
           </ul>
-          <a href="/inventory-control-software" class="feature-link">See food cost and inventory control →</a>
+          <a href="/inventory-control-software" class="feature-link">See food cost control →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Spend breakdown by supplier<br>and category with a<br>month-to-date total
+            📸 Screenshot:<br>Month-to-date spend by<br>supplier built from<br>saved orders
           </div>
         </div>
       </div>
@@ -265,45 +266,36 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>All the tools your team needs to buy well.</h2>
+      <h2>All the busywork VOS takes off your plate.</h2>
       <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
-        <div class="feature-card-icon">🏪</div>
-        <h4>Multi-Supplier Ordering</h4>
+        <div class="feature-card-icon">📊</div>
+        <h4>Self-Updating Counts</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every distributor you buy from behind one screen, in one process,
-          with one set of habits to learn.
+          Counts move as you order and receive, so the number is close before
+          anyone checks it.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🧾</div>
-        <h4>Automatic PO Records</h4>
+        <div class="feature-card-icon">🔔</div>
+        <h4>Low-Stock Alerts</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order becomes a record with items, packs, pricing, and dates.
-          No separate form to fill in.
+          Items below par get flagged on their own, before anyone has to
+          notice.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">💰</div>
-        <h4>Spend Visibility</h4>
+        <div class="feature-card-icon">📝</div>
+        <h4>Suggested Reorders</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          See what you bought and what it cost, by supplier, item, and
-          location, during the month.
-        </p>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-card-icon">📚</div>
-        <h4>One Product Catalog</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Items, unit sizes, and per-account pricing kept current, so buying
-          runs on real numbers.
+          The gap to par becomes a draft reorder. You review it and send
+          it.
         </p>
       </div>
 
@@ -317,29 +309,38 @@ module.exports = {
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">📍</div>
-        <h4>Multi-Location</h4>
+        <div class="feature-card-icon">📄</div>
+        <h4>Supplier Formats</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every site buys for itself under one account, and you keep the whole
-          picture in one place.
+          Email, PDF, Excel, EDI, or API. Each supplier gets the format they
+          already use.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🔄</div>
+        <h4>Auto-Updating Catalog</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Items, sizes, and prices stay current without anyone editing an
+          order sheet.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🗂️</div>
+        <h4>Order History</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Every order saved the moment it goes out, searchable by supplier,
+          item, or date.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📱</div>
-        <h4>iOS + Android App</h4>
+        <h4>Runs on Your Phones</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Buy from the walk-in or the office. Web works from any browser
-          as well.
-        </p>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-card-icon">🕐</div>
-        <h4>24/7 Purchasing</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Place orders after close. Your distributor picks them up when they
-          open in the morning.
+          iPhone, Android, and web. No scanners or sensors to buy and
+          install.
         </p>
       </div>
 
@@ -347,8 +348,8 @@ module.exports = {
         <div class="feature-card-icon">🔗</div>
         <h4>No System Replacement</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Keep every supplier relationship and every price you have negotiated.
-          Only the process changes.
+          Keep your suppliers and your process. VOS takes over the typing, not
+          the decisions.
         </p>
       </div>
 
@@ -363,10 +364,10 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See every supplier you buy from on one screen</h3>
+      <h3 style="margin-bottom:10px;">See what's left when the busywork is gone</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough. We'll show you multi-supplier ordering,
-        purchase records, and spend visibility working together.
+        Book a free 20-minute walkthrough. We'll show you self-updating counts,
+        suggested reorders, and supplier formats working together.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -383,8 +384,8 @@ module.exports = {
       <span class="eyebrow">Simple Setup</span>
       <h2>Up and running in one day</h2>
       <p class="lead mt-16">
-        No IT team. No systems to rip out. Three steps and buying stops being
-        four separate jobs.
+        No IT team. No hardware. Three steps and the busywork starts doing
+        itself.
       </p>
     </div>
 
@@ -392,35 +393,35 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>We load your suppliers</h4>
+        <h4>We connect your suppliers</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS imports the distributors you already buy from, with your products,
-          pack sizes, and your negotiated pricing.
+          VOS imports products, pack sizes, and pricing, plus the order format
+          each supplier takes.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Set up your locations</h4>
+        <h4>Set your pars once</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Give each site its own ordering and decide who buys for what. Owners
-          keep the view across all of it.
+          Par levels are the rules the automation follows: what counts as low,
+          and what counts as enough.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Buy, and it records itself</h4>
+        <h4>Let it run</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Order by voice or web. Every purchase is logged with pricing, so spend
-          adds itself up as you go.
+          Counts, alerts, reorder lists, and records keep themselves. You review
+          and send.
         </p>
       </div>
 
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS supplier and location setup with purchase records
+      📸 Screenshot: VOS par level rules alongside supplier order format settings
     </div>
   </div>
 </section>
@@ -442,9 +443,9 @@ module.exports = {
       <div class="testimonial-card featured">
         <div class="testimonial-stars">★★★★★</div>
         <p class="testimonial-quote">
-          "VOS simplified the entire ordering process for our kitchen. We buy from
-          four different suppliers and it used to be four different jobs. Now it's
-          one, and everything is written down."
+          "VOS simplified the entire ordering process for our kitchen. The nightly
+          spreadsheet is gone. The numbers are already there when I sit down to
+          order."
         </p>
         <div class="testimonial-author">
           <!-- DEVS: Replace with Tony Luna's photo -->
@@ -461,8 +462,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Having the actual order to point at ended two invoice arguments in the
-            first month. That conversation used to end with us paying it."
+            "We stopped typing orders twice. Everything goes to each supplier in the
+            format they want without anyone touching it."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -476,8 +477,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "I could finally see that one location was paying more for the same
-            case than the other. That was worth the whole thing on its own."
+            "I thought automation meant losing control of the order. It doesn't. It
+            does the prep work, and I still decide what goes out."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -499,15 +500,16 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 11: COMPARISON TABLE
+     Honest ✗ row for VOS on POS-based depletion (assumption Q13).
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 700px; margin: 0 auto;">
       <span class="eyebrow">Why VoiceOrder Solutions</span>
-      <h2>Built for restaurant buying.<br>Not corporate procurement.</h2>
+      <h2>Automation for a kitchen.<br>Not a warehouse robot.</h2>
       <p class="lead mt-16">
-        Enterprise procurement suites assume a purchasing department. You have a
-        chef and a manager. Here's how VOS compares.
+        Warehouse automation means scanners, sensors, and months of setup. A kitchen
+        needs the busywork gone. Here's how VOS compares.
       </p>
     </div>
 
@@ -517,27 +519,39 @@ module.exports = {
           <tr>
             <th style="width:36%;">Feature</th>
             <th class="highlight" style="width:21%;">VoiceOrder Solutions</th>
-            <th style="width:21%;">Procurement Suite</th>
-            <th style="width:22%;">Phone + Portals</th>
+            <th style="width:21%;">Warehouse Automation Suite</th>
+            <th style="width:22%;">Spreadsheet + Phone</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>All suppliers in one place</td>
+            <td>Counts update as you order and receive</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Purchase records created automatically</td>
+            <td>Low-stock alerts</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Built around food service packs and units</td>
+            <td>Reorder list built for you</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>A person approves every order</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Orders sent in each supplier's format</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
             <td>Manual</td>
           </tr>
           <tr>
@@ -547,34 +561,22 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Order 24/7</td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Deducts stock from POS sales</td>
+            <td><span class="check-no">✗</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Spend visible during the month</td>
-            <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Hardware to buy and install</td>
+            <td>None</td>
+            <td>Scanners, sensors</td>
+            <td>None</td>
           </tr>
           <tr>
-            <td>Keeps your negotiated pricing</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>Varies</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>No system replacement needed</td>
-            <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Who has to run it</td>
-            <td>Your manager</td>
-            <td>A buyer</td>
-            <td>Everyone</td>
+            <td>Keeping records current</td>
+            <td>Automatic</td>
+            <td>Automatic</td>
+            <td>Manual</td>
           </tr>
           <tr>
             <td>Setup time</td>
@@ -601,101 +603,98 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 12: FAQ
+     Q3: never auto-sends. Q4: no POS depletion (assumption Q13), stated outright.
      ============================================================ -->
 <section class="section-pad" id="faq" aria-label="Frequently asked questions">
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Common questions about buying with VOS</h2>
+      <h2>Common questions about automating inventory with VOS</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Do I have to change suppliers to use VOS?
+          Do I need to replace my current system to use VOS?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No, and that is the point. You keep every distributor you buy from and
-          every price you have negotiated with them. VOS changes how you place the
-          order and how it gets recorded, not who you buy from.
+          No. You keep your suppliers, your delivery days, and your process. VOS takes
+          over the counting math, the reorder list, and the order typing, and sends
+          everything out the way you already order. There is no rip-and-replace.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I order from all of my distributors in one place?
+          What does inventory automation software actually automate?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. That is the main reason kitchens use this restaurant purchasing
-          software. Instead of a phone call to one supplier, a portal login for
-          another, and a text to a third, you work one screen and VOS routes each
-          order where it needs to go.
+          The busywork around inventory: updating counts when you order and receive,
+          flagging items below par, building the reorder list, sending each order in
+          the supplier's format, and keeping order history and spend up to date. The
+          decisions stay with you.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does it create purchase orders?
+          Will it place orders without me?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Every order placed through VOS is recorded with its items, quantities,
-          pack sizes, pricing, supplier, and date. Nobody fills in a separate form.
-          When an invoice does not match the delivery, you have the original order
-          to point at.
+          No. VOS builds the reorder and prepares every order, but a person always
+          reviews it and presses send. Automation handles the prep work, not the
+          final call.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I see what an item has cost me from different suppliers?
+          Does it take stock off automatically when dishes sell?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes, from your own history. Because every order is recorded with the
-          pricing you were charged, you can look back at what a given item cost
-          from each distributor you buy from, and how that has moved over time.
+          No. VOS is not a POS system, so it does not deduct stock as dishes sell.
+          Counts move automatically as you order and receive, and quick spot checks
+          on the app keep them accurate between deliveries.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How does restaurant purchasing software handle multiple locations?
+          Do I need to buy scanners or other hardware?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Each location orders for itself under one account. Managers can be limited
-          to their own site while owners see the whole group, which makes it easy to
-          compare what each site is buying and spot the one paying more for the same
-          case.
+          No. VOS runs on the phones your team already carries, iPhone and Android,
+          plus any web browser. There is nothing to mount, wire, or maintain.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I order outside my supplier's business hours?
+          Does it work across several locations?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. You can place an order at any hour, by voice or web. It reaches your
-          distributor in whatever format they use, and they pick it up when they
-          open. That is usually worth 20 to 30 minutes per order versus calling it in.
+          Yes. Each location runs on its own pars, counts, and reorder lists under one
+          login. Owners can see every site together, and each site's automation
+          follows its own numbers.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is this only for restaurant groups, or does one location make sense?
+          Is it worth it for one restaurant?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          One location makes sense as soon as you buy from more than one supplier.
-          VOS was built for independent restaurants rather than chains with a
-          purchasing department, and most of the value shows up in the first month
-          of having a real record.
+          Yes. Most of the time this inventory automation software saves comes from
+          the nightly math and the order typing, and a single kitchen has plenty of
+          both. VOS was built for independents, not chains with an IT department.
         </div>
       </div>
 
@@ -705,10 +704,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most teams are fully set up within one business day. The VOS team loads
-          your distributors, products, pack sizes, and your negotiated pricing, and
-          configures your locations. You do not need an IT team or any technical
-          experience.
+          Most teams are fully set up within one business day. The VOS team imports
+          your products, pack sizes, and pricing, sets each supplier's order format,
+          and helps you set your first par levels. You do not need an IT team.
         </div>
       </div>
 
@@ -724,8 +722,8 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Ready to buy from every supplier in one place?</h2>
-  <p>Join restaurants that stopped juggling portals and started keeping a real record of what they buy.</p>
+  <h2>Ready to hand the busywork to the system?</h2>
+  <p>Join restaurants whose counts, reorders, and records keep themselves, while the decisions stay with the people who know the kitchen.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -734,8 +732,8 @@ module.exports = {
 
   <div class="final-cta-trust">
     <span>✓ Up and running in 1 day</span>
-    <span>✓ Keep your current suppliers</span>
-    <span>✓ No system replacement needed</span>
+    <span>✓ Works with your current suppliers</span>
+    <span>✓ No hardware to install</span>
     <span>✓ Free setup support included</span>
   </div>
 </section>
@@ -758,10 +756,10 @@ module.exports = {
     <div class="footer-col">
       <h5>Features</h5>
       <ul role="list">
-        <li><a href="#features">Multi-Supplier Ordering</a></li>
-        <li><a href="#features">Purchase Order Records</a></li>
-        <li><a href="#features">Multi-Location Buying</a></li>
-        <li><a href="#features">Spend Visibility</a></li>
+        <li><a href="#features">Self-Updating Counts</a></li>
+        <li><a href="#features">Suggested Reorders</a></li>
+        <li><a href="#features">Supplier Formats</a></li>
+        <li><a href="#features">Automatic Records</a></li>
         <li><a href="#integrations">Integrations</a></li>
       </ul>
     </div>
@@ -769,8 +767,8 @@ module.exports = {
     <div class="footer-col">
       <h5>More From VOS</h5>
       <ul role="list">
-        <li><a href="/order-entry-software">Order Entry</a></li>
-        <li><a href="/order-tracking-software">Order Tracking</a></li>
+        <li><a href="/inventory-replenishment-software">Inventory Replenishment</a></li>
+        <li><a href="/inventory-tracking-software">Inventory Tracking</a></li>
         <li><a href="/catalog-management-software">Catalog Management</a></li>
         <li><a href="/inventory-control-software">Inventory Control</a></li>
         <li><a href="/">All Features</a></li>
@@ -782,7 +780,7 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs Portals</a></li>
+        <li><a href="#comparison">VOS vs Warehouse Automation</a></li>
       </ul>
     </div>
 
