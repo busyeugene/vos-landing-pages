@@ -26,11 +26,10 @@ module.exports = {
       <span class="eyebrow">Inventory Automation Software for Distributors</span>
       <h1>Inventory Automation Software That Ends Hand-Keyed Phone Orders.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is inventory automation software sized for
-        food distribution businesses, from small independents to midsize firms. Your customers (the accounts you supply)
-        place and confirm orders at any hour, so nobody has to type up a call
-        or a voicemail. Each order reaches your team in the format you choose, and
-        stock and the catalog update the moment it lands.
+        VoiceOrder Solutions is inventory automation software for small and midsize
+        food distributors. Your customers place and confirm orders in the app at any
+        hour, so nobody types up a call. You receive each order in your format,
+        and stock and the catalog update with it.
       </p>
 
       <div class="hero-ctas">
@@ -75,7 +74,7 @@ module.exports = {
       <div class="stat-label">app orders to write up by hand</div>
     </div>
     <div>
-      <div class="stat-number">20-30 min</div>
+      <div class="stat-number">20-30 Min</div>
       <div class="stat-label">saved on every order</div>
     </div>
   </div>
@@ -686,7 +685,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. This inventory automation software saves 20–30 minutes on each order
+          Yes. This inventory automation software saves 20-30 minutes on each order
           versus phone ordering, and a small team feels that time the
           most. VOS is designed for independent distributors, not
           enterprises with their own IT department. You get a quote up front, so

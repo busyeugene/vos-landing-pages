@@ -24,12 +24,10 @@ module.exports = {
       <span class="eyebrow">Order Fulfillment Software for Food Distributors</span>
       <h1>Order Fulfillment Software That Starts With Clean Orders.</h1>
       <p class="lead mt-16">
-        Pick and pack tools assume the order is right, and VoiceOrder Solutions
-        gets it checked before it reaches you. Made for DSD and independent food distributors, this
-        order fulfillment software lets the kitchens and stores on your routes speak
-        each order into the app, choosing items from a guide set up for them. Your team gets
-        a confirmed, timestamped order instead of a voicemail to type up, so
-        picking starts sooner and fewer wrong items go out.
+        Pick and pack tools assume the order is right. This order fulfillment
+        software checks it first: the kitchens and stores on your routes speak each
+        order into the app, picking from a guide set up for them. Your warehouse gets
+        a confirmed, timestamped order, so fewer wrong items go out.
       </p>
 
       <div class="hero-ctas">
@@ -70,8 +68,8 @@ module.exports = {
       <div class="stat-label">ordering, even long after you close</div>
     </div>
     <div>
-      <div class="stat-number">20–30</div>
-      <div class="stat-label">minutes cut from each order</div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">cut from each order</div>
     </div>
     <div>
       <div class="stat-number">Zero</div>
@@ -316,7 +314,7 @@ module.exports = {
         <div class="feature-card-icon">🤝</div>
         <h4>Time Back for Sales Reps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Reps take fewer orders over the phone, and each order saves 20–30
+          Reps take fewer orders over the phone, and each order saves 20-30
           minutes. That time goes back into selling.
         </p>
       </div>

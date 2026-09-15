@@ -74,7 +74,7 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">20–30 Min</div>
+      <div class="stat-number">20-30 Min</div>
       <div class="stat-label">saved per phone order you move to the app</div>
     </div>
     <div>
@@ -700,13 +700,13 @@ module.exports = {
           </tr>
           <tr>
             <td>Time saved per order</td>
-            <td>20–30 minutes</td>
+            <td>20-30 minutes</td>
             <td>Varies</td>
             <td>0 minutes saved</td>
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>24–48 hours</td>
+            <td>24-48 hours</td>
             <td>Weeks</td>
             <td>None needed</td>
           </tr>
@@ -824,7 +824,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Plan on a 24–48 hour setup. You send over the guide for every account, we
+          Plan on a 24-48 hour setup. You send over the guide for every account, we
           add it and open the account, and most of those customers send an
           order from the app that same day.
         </div>

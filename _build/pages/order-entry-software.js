@@ -47,7 +47,7 @@ module.exports = {
       </p>
 
       <div class="hero-ctas">
-        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Get Set Up With VOS →</a>
         <a href="#how-it-works" class="btn btn-outline-white btn-lg">See How It Works</a>
       </div>
 
@@ -93,7 +93,7 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">20–30 Min</div>
+      <div class="stat-number">20-30 Min</div>
       <div class="stat-label">saved every time you place an order</div>
     </div>
     <div>
@@ -195,7 +195,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Skip the 20–30 extra minutes it takes to call it in</span>
+              <span>Skip the 20-30 extra minutes it takes to call it in</span>
             </li>
           </ul>
           <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">Watch voice orders get placed in a demo →</a>
@@ -710,7 +710,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Time you get back on each order</td>
-            <td>20–30 minutes</td>
+            <td>20-30 minutes</td>
             <td>Varies</td>
             <td>0 minutes saved</td>
           </tr>
@@ -857,7 +857,7 @@ module.exports = {
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your restaurant email" aria-label="Email address" />
-    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
   </div>
 
   <div class="final-cta-trust">

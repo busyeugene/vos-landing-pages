@@ -29,7 +29,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>Vendor Management Software, From the Vendor's Side.</h1>
       <p class="lead mt-16">
-        The restaurants you sell to keep a vendor list in vendor management software or on a sheet by the phone. They judge every name on it by clear prices, correct orders and easy buying. VoiceOrder Solutions helps you deliver all three: their staff place orders by voice from a guide built for them, at your prices and at any hour, and every order gets confirmed before it reaches your team.
+        Restaurants rate every name on their vendor list, whether it lives in vendor management software or on a sheet by the phone. They reward clear prices, correct orders and easy buying. With VOS you offer all three: voice ordering from a guide at your prices, any hour, confirmed before it reaches you.
       </p>
 
       <div class="hero-ctas">
@@ -66,15 +66,15 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">20–30</div>
-      <div class="stat-label">minutes saved on each order, compared with phoning it in</div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">saved on each order, compared with phoning it in</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
       <div class="stat-label">ordering for your accounts, long after your office closes</div>
     </div>
     <div>
-      <div class="stat-number">Same day</div>
+      <div class="stat-number">Same Day</div>
       <div class="stat-label">first order for most new accounts</div>
     </div>
   </div>
@@ -236,7 +236,7 @@ module.exports = {
           <h3>Your reps stop taking phone orders and start growing accounts.</h3>
           <p class="mt-12 text-muted">
             Once customers order by voice in the app, your reps spend far less
-            of the day on the phone. Every order takes 20–30 minutes less than a call.
+            of the day on the phone. Every order takes 20-30 minutes less than a call.
             Reps can put that time into answering accounts, adding items to each guide,
             and finding new business.
           </p>

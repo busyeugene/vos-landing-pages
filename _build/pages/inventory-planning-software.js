@@ -68,7 +68,7 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">Per account</div>
+      <div class="stat-number">Per Account</div>
       <div class="stat-label">order history, so each customer's buying shows on its own</div>
     </div>
     <div>
@@ -76,7 +76,7 @@ module.exports = {
       <div class="stat-label">order capture, so late orders stay in your numbers</div>
     </div>
     <div>
-      <div class="stat-number">Real-time</div>
+      <div class="stat-number">Real-Time</div>
       <div class="stat-label">stock visibility that keeps pace with orders</div>
     </div>
   </div>

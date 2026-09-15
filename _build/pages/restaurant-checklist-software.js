@@ -35,7 +35,7 @@ module.exports = {
       </p>
 
       <div class="hero-ctas">
-        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Get Set Up With VOS →</a>
         <a href="#how-it-works" class="btn btn-outline-white btn-lg">See How It Works</a>
       </div>
 
@@ -68,7 +68,7 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">1 list</div>
+      <div class="stat-number">1 List</div>
       <div class="stat-label">your whole team orders from, whoever is working</div>
     </div>
     <div>
@@ -76,7 +76,7 @@ module.exports = {
       <div class="stat-label">ordering, after close or before prep</div>
     </div>
     <div>
-      <div class="stat-number">20-30 min</div>
+      <div class="stat-number">20-30 Min</div>
       <div class="stat-label">back on each order you don't phone in</div>
     </div>
   </div>
@@ -331,7 +331,7 @@ module.exports = {
         <div class="feature-card-icon">🗣️</div>
         <h4>Quicker Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Skip the call to your rep and save 20–30 minutes on each order.
+          Skip the call to your rep and save 20-30 minutes on each order.
         </p>
       </div>
 
@@ -731,7 +731,7 @@ module.exports = {
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
-    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
   </div>
 
   <div class="final-cta-trust">

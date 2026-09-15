@@ -73,11 +73,11 @@ module.exports = {
       <div class="stat-label">customer orders captured, after hours too</div>
     </div>
     <div>
-      <div class="stat-number">Real-time</div>
+      <div class="stat-number">Real-Time</div>
       <div class="stat-label">inventory that shifts with every new order</div>
     </div>
     <div>
-      <div class="stat-number">20-30 min</div>
+      <div class="stat-number">20-30 Min</div>
       <div class="stat-label">saved on each order your accounts place</div>
     </div>
   </div>
@@ -308,7 +308,7 @@ module.exports = {
         <div class="feature-card-icon">🗣️</div>
         <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts speak their order into the app, which beats phoning it in by 20–30 minutes an order.
+          Accounts speak their order into the app, which beats phoning it in by 20-30 minutes an order.
         </p>
       </div>
 
