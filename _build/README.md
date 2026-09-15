@@ -14,11 +14,16 @@ node gen-site.js                         # regenerate vercel.json, index.html ca
 node gen-csv.js                          # export every page's metadata to vos-page-metadata.csv
 node qa.js                               # QA gate: metas, schema, keyword density, dead links
 node structure.js                        # tag balance + one h1 per page
-node repeat.js <slug...>                 # repetition report (see below)
+node repeat.js <slug...>                 # 5-word repetition report (see below)
+node trigram.js [<slug...>]              # 3-word repetition: summary, or the phrases for given pages
+node trigram.js --cross 3                # 3-word phrases on 3+ pages (fixed facts allow-listed)
+python layout.py [<slug...>]             # headless Chrome render check at 1440px and 390px
 ```
 
-Before pushing: `node qa.js && node structure.js` must report zero failures, and
-`node repeat.js <new slugs>` should show nothing you would not defend.
+Before pushing: `node qa.js` must report 0 failures and 0 warnings, `node structure.js` must be
+clean, `node trigram.js` must show 0 within-page repeats with `--cross 3` listing nothing,
+`node repeat.js <new slugs>` should show nothing you would not defend, and
+`python layout.py <new slugs>` should report 0 flagged pages.
 
 ## Files
 
@@ -33,6 +38,10 @@ Before pushing: `node qa.js && node structure.js` must report zero failures, and
 | `qa.js` | Gate: em-dash ban, canonical/OG/schema presence, JSON-LD validity, FAQ schema vs DOM parity, title/description length, dead internal links, keyword density. |
 | `structure.js` | Tag balance and single-h1 check. |
 | `repeat.js` | Repetition report. Per page: phrases (5+ words) repeated within the page, sentences shared word-for-word or near-identically with other pages, and similarity to the closest pages. Keywords are masked so intended placements are not flagged; nav, logo bar, integrations, related strip and footer are ignored because they are shared by design. |
+| `trigram.js` | Stricter repetition check (Eugene's bar since 2026-09-15): content 3-word phrases repeated within a page (target 0) and phrases on 3+ pages (target 0). Keywords masked; template chrome, buttons, eyebrows and the featured testimonial stripped; fixed facts (brand, formats, iOS/Android, 24/7, 20-30, 24-48) allow-listed. `--plan` emits a per-page rewrite list that keeps each shared phrase on the 2 pages it fits best. |
+| `layout.py` | Renders each page in headless Chrome (desktop and mobile) and flags sideways scroll, overflowing elements, wrapping stat numbers or buttons, H1 over 4 lines, and a wrapping hero trust line. Probe copies go to `.layout/` (gitignored). |
+| `research/digests/` | Competitor SERP digests per primary keyword from the Sep 2026 review. |
+| `relink-pass1.js` | One-off (Sep 2026): reset related strips and footer links to same-audience siblings. Kept for reference. |
 | `extract.js` | One-off, already run. Ported the original 4 hand-built pages into this pipeline. Kept for reference. |
 | `_css.html`, `_navbar.html`, `_logobar.html`, `_integrations.html`, `_script.html` | Shared blocks, identical on every page. |
 
