@@ -3,7 +3,7 @@
  */
 module.exports = {
   title: "Catalog Management Software for Food Distributors | VOS",
-  description: "Give every restaurant account its own order guide at your prices and SKUs. VOS catalog management software for food distributors, live in 24 to 48 hours.",
+  description: "Keep every account's order guide current, with your items, prices and SKUs. VOS catalog management software for food distributors, live in 24 to 48 hours.",
   related: ["order-taking-software","vendor-management-software","inventory-visibility-software"],
   relatedHeading: "See the ordering side your customers use",
   body: `
@@ -21,10 +21,10 @@ module.exports = {
       <span class="eyebrow">Order Guides, Kept Current</span>
       <h1>Catalog Management Software for Food Distributors</h1>
       <p class="lead mt-16">
-        VOS is catalog management software built on the guides you give each
-        customer. Your restaurant customers each get their own list, with your
-        prices and your SKUs, and the catalog keeps pace with your stock. You
-        control the catalog and inventory; they control the convenience.
+        VOS is catalog management software built on the order guide each
+        customer buys from. Every account gets its own list, at your
+        prices and on your SKUs. You change any guide from one admin screen, and
+        stock changes reach the catalog without anyone typing them in.
       </p>
 
       <div class="hero-ctas">
@@ -84,8 +84,8 @@ module.exports = {
     <span class="eyebrow">Sound Familiar?</span>
     <h2>Stale order guides turn your customers' orders into guesses.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      When each account's product list lives in an old PDF, a text thread, and
-      your rep's memory, orders go wrong. Here's what that costs your team every week:
+      When each account's list lives in an old PDF, a spreadsheet, or your
+      rep's memory, prices drift and items you no longer carry keep getting ordered. Here's what that costs your team every week:
     </p>
 
     <div class="problem-grid">
@@ -161,7 +161,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No new PDFs to email out when something changes</span>
+              <span>Take a discontinued item off before anyone orders it again</span>
             </li>
           </ul>
           <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">Tour the admin screens →</a>
@@ -180,16 +180,17 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Per-Account Order Guides</span>
-          <h3>B2B catalog software for every account.</h3>
+          <h3>B2B catalog software with customer-specific pricing.</h3>
           <p class="mt-12 text-muted">
             Each customer gets a guide of its own: the items it actually orders,
             at the prices you've set, tied to your SKUs. You decide what goes on the
-            list. Your customers get a faster way to reorder what they already buy.
+            list. Your customers reorder what they already buy, without scrolling
+            past products they never touch.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>A separate guide for each restaurant or store you serve</span>
+              <span>Its own guide for every restaurant, café or store you supply</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -220,21 +221,21 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Voice Orders From the Guide</span>
-          <h3>Spoken orders, built from the customer's own guide.</h3>
+          <h3>Voice orders that start from the guide, not from memory.</h3>
           <p class="mt-12 text-muted">
             Your customer opens the app, talks through the order, and VOS builds
-            it around the items on their guide. They review it before it's sent,
+            it from the items on their guide. They review it before it's sent,
             so what reaches you matches what they placed. Because the guide is
-            yours, the order is built on your items and your prices.
+            yours, every line comes in on your items and your prices.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Built around each customer's own list</span>
+              <span>Built on that customer's usual items</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Order saves itself if they step away mid-order</span>
+              <span>Saves on its own if the rush pulls them away</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -242,7 +243,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Open 24/7 on any iOS or Android phone</span>
+              <span>Ready 24/7 on Apple and Android phones</span>
             </li>
           </ul>
           <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">Watch a voice order →</a>
@@ -263,15 +264,15 @@ module.exports = {
           <span class="eyebrow">Catalog + Inventory</span>
           <h3>Your catalog moves with your stock.</h3>
           <p class="mt-12 text-muted">
-            VOS works as inventory catalog software on the distributor side.
-            Stock visibility is tied to order activity, and the catalog updates
-            automatically as stock levels change. You see across your full
-            product range, and your accounts run into fewer surprise stockouts.
+            VOS also works as inventory catalog software on your side of the
+            order. You see stock move in real time as accounts buy, and the
+            catalog updates itself as levels change. Customers pick from what
+            you actually have, so they hit fewer surprise stockouts.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>A live stock picture tied to incoming orders</span>
+              <span>Availability that shifts with each order placed</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -307,8 +308,8 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>Everything you need to keep order guides up to date.</h2>
-      <p class="lead mt-16">No spreadsheets to send around. No second system for your team to learn.</p>
+      <h2>The small things that keep guides accurate.</h2>
+      <p class="lead mt-16">No spreadsheets to send around, and no software to rip out.</p>
     </div>
 
     <div class="cards-grid">
@@ -380,8 +381,8 @@ module.exports = {
         <div class="feature-card-icon">🌐</div>
         <h4>Push and Text Messages</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Send promos and order confirmations to accounts by push notification
-          or text.
+          Announce promos to your accounts and confirm their orders by push
+          notification or text.
         </p>
       </div>
 
@@ -389,8 +390,8 @@ module.exports = {
         <div class="feature-card-icon">🔗</div>
         <h4>Plugs Into Your Platform</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          API-ready, so VOS connects to your distribution software instead of
-          replacing it.
+          API-ready, so VOS connects to your ERP or distribution platform
+          instead of replacing it.
         </p>
       </div>
 
@@ -505,8 +506,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Every account has its own guide with our pricing on it. When
-            something changes, we fix it once in our admin screen. No more
+            "Every account has its own guide with our pricing on it. When a
+            price changes, we update it in the admin screen. No more
             sending out new sheets."
           </p>
           <div class="testimonial-author">
@@ -551,8 +552,9 @@ module.exports = {
       <span class="eyebrow">Why VoiceOrder Solutions</span>
       <h2>Built around your accounts.<br>Not a generic product database.</h2>
       <p class="lead mt-16">
-        Most catalog management software stores product data but knows nothing
-        about the restaurants that order from you. Here's how the options line up.
+        Most catalog management software is made to push product content out to
+        online stores and marketplaces. It knows nothing about the restaurants
+        that order from you. Here's how the options line up.
       </p>
     </div>
 
@@ -610,9 +612,9 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>No system replacement needed</td>
+            <td>Your current software stays in place</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -658,11 +660,11 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Do I need to replace my current system to use VOS?
+          Will VOS replace my ERP or my distribution software?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. VOS sits alongside the software you have now. This catalog
+          No. Your current systems stay exactly as they are. This catalog
           management software holds your customers' order guides, and orders
           reach you by email as a PDF, Excel, or Word file, or through EDI, API,
           or QuickBooks.
@@ -683,7 +685,7 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can each customer have its own catalog and pricing?
+          Can I set different prices for different customers?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
@@ -699,9 +701,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not in the usual sense. VOS doesn't write product descriptions, tag
-          images, or clean up product data. It is voice-powered ordering built
-          on each account's guide. It is also not AI procurement catalog
+          Not in the usual sense. Most tools sold under that label are product
+          information management (PIM) systems: they write product descriptions,
+          manage images, and send listings to online stores. VOS does none of
+          that. It is voice-powered ordering built on each account's guide. It is also not AI procurement catalog
           management software for large buyers running supplier catalogs and
           purchase approvals. VOS sits on the distributor's side of the order.
         </div>
@@ -709,13 +712,13 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does the catalog connect to inventory?
+          Does the catalog show what's in stock?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. As orders come in, your stock picture updates with them, so the
-          catalog reflects what you actually have on hand. It works with your
-          current inventory tools rather than replacing them.
+          Yes. Stock levels move with every order your accounts send, so the catalog
+          reflects what's really on your shelves. It works with the inventory
+          tools you have now rather than replacing them.
         </div>
       </div>
 
@@ -734,13 +737,13 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long does setup take?
+          How long is setup, and when can customers start ordering?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
           Setup usually takes a distributor 24 to 48 hours. You send us each
           account's guide, we upload them and set up every account, and most
-          customers send in their first order that same day. There's no IT project.
+          customers send in an order that same day. There's no IT project.
         </div>
       </div>
 

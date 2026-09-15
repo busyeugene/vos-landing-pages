@@ -1,4 +1,4 @@
-/* Page 12 — PRIMARY: restaurant checklist software (x6 standalone: 2 headings, 2 body, 2 FAQ)
+/* Page 12 — PRIMARY: restaurant checklist software (x6 standalone: 3 headings, 1 body, 2 FAQ)
  * REFRAME (Eugene's call): ordering + stock routines only. VOS has no general ops/task
  * feature in the KB, so this page must NOT imply opening/closing, cleaning, temp logs,
  * or food-safety task management. The scope limit is stated in the hero, made visual in
@@ -8,7 +8,7 @@
  */
 module.exports = {
   title: 'Restaurant Checklist Software for Ordering | VoiceOrder',
-  description: 'VoiceOrder Solutions is restaurant checklist software for ordering: your distributor loads your order guide and every shift orders the same way.',
+  description: 'Swap the paper order sheet for restaurant checklist software. Your distributor loads your order guide, so every shift orders the same way, by voice, 24/7.',
   related: ["order-entry-software","restaurant-stock-management-software","restaurant-purchasing-software"],
   relatedHeading: 'The routines this connects to',
   body: `
@@ -24,14 +24,14 @@ module.exports = {
   <div class="hero-grid">
 
     <div>
-      <span class="eyebrow">Restaurant Checklist Software for Ordering</span>
+      <span class="eyebrow">A Digital Ordering Checklist</span>
       <h1>Restaurant Checklist Software for Your Ordering Routine.</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions is restaurant checklist software for one job:
-        ordering from your food distributor. Your distributor creates your
-        account and loads your order guide, so whoever is on shift orders the
-        same items in the same order. It covers ordering only, not cleaning or
-        opening tasks.
+        ordering from your distributor. They put the items you buy in the
+        app, so whoever is on shift works down the same list, not a paper sheet
+        or someone's memory. It covers ordering only, not cleaning or opening
+        tasks.
       </p>
 
       <div class="hero-ctas">
@@ -68,8 +68,8 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">Same</div>
-      <div class="stat-label">order guide on every shift, whoever is working</div>
+      <div class="stat-number">1 list</div>
+      <div class="stat-label">your whole team orders from, whoever is working</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
@@ -89,10 +89,10 @@ module.exports = {
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container text-center">
     <span class="eyebrow">Sound Familiar?</span>
-    <h2>The ordering routine changes depending on who's working.</h2>
+    <h2>Your order changes depending on who places it.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      Your chef has a system. Your Tuesday manager has a different one. Neither
-      is written down anywhere. Here's what that inconsistency costs:
+      Your chef has a system. Your Tuesday manager has another. Neither one is
+      written down, so the order runs on memory. Here's what that costs:
     </p>
 
     <div class="problem-grid">
@@ -101,8 +101,8 @@ module.exports = {
         <div class="problem-icon">🔀</div>
         <h4 class="mb-8">"Everyone does the order differently"</h4>
         <p class="text-muted" style="font-size:15px;">
-          One person walks the walk-in first. Another orders from memory. The
-          results are different every week and nobody can say why.
+          One person checks the walk-in first. Another goes by what ran out last
+          week. The totals swing from week to week and nobody can say why.
         </p>
       </div>
 
@@ -111,7 +111,7 @@ module.exports = {
         <h4 class="mb-8">"When the chef is off, things get missed"</h4>
         <p class="text-muted" style="font-size:15px;">
           The routine lives in one head. Whoever covers either over-buys to be
-          safe or forgets a whole section of the order entirely.
+          safe or forgets a whole section of the order.
         </p>
       </div>
 
@@ -119,8 +119,8 @@ module.exports = {
         <div class="problem-icon">📄</div>
         <h4 class="mb-8">"Our checklist is a photocopy from 2019"</h4>
         <p class="text-muted" style="font-size:15px;">
-          It still lists items you stopped carrying. People skip the parts that
-          are wrong, which means they skip the parts that aren't, too.
+          It still lists items you stopped carrying. Once people skip the lines
+          that are wrong, they start skipping the right ones too.
         </p>
       </div>
 
@@ -148,15 +148,15 @@ module.exports = {
           <span class="eyebrow">The List Itself</span>
           <h3>Your order guide is the checklist your team already runs.</h3>
           <p class="mt-12 text-muted">
-            Every kitchen already has an ordering checklist. Usually it's a
-            photocopy that went stale years ago. With VOS, your distributor puts
-            that list in the app: the items your restaurant orders, at the prices
-            they set. It's restaurant operations checklist software for the
+            On a lot of kitchen checklists, ordering is a single line: "place the
+            order." VOS is where that line actually gets done. Your distributor
+            builds the list for you inside the app, so there is no checklist for
+            you to write. It's restaurant operations checklist software for the
             one routine that costs you money when it slips.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>An order guide set up for your account by your distributor</span></li>
-            <li><span class="bullet-check">✓</span><span>Only your items, at the prices your distributor set</span></li>
+            <li><span class="bullet-check">✓</span><span>A digital order guide made for your account</span></li>
+            <li><span class="bullet-check">✓</span><span>Only what your restaurant orders, at the prices your distributor set</span></li>
             <li><span class="bullet-check">✓</span><span>They update it when products or prices change</span></li>
             <li><span class="bullet-check">✓</span><span>The same items in the same order each time you open it</span></li>
           </ul>
@@ -178,14 +178,13 @@ module.exports = {
           <span class="eyebrow">Shift-Proof</span>
           <h3>Restaurant checklist software for managers on every shift.</h3>
           <p class="mt-12 text-muted">
-            The same guide opens whether your chef is in or on holiday. The app
-            already knows what you order, so whoever covers only has to say how
-            much. The routine stops depending on one person remembering
-            it.
+            The same guide opens whether your chef is in or on vacation. It
+            already lists what you buy, so whoever covers only has to say how
+            much. Your ordering stops depending on who remembers what.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Whoever covers ordering opens the same guide</span></li>
-            <li><span class="bullet-check">✓</span><span>A ticket drops mid-order? It saves until you're back</span></li>
+            <li><span class="bullet-check">✓</span><span>Cover staff order from the guide, not a blank page</span></li>
+            <li><span class="bullet-check">✓</span><span>Pulled onto the line mid-order? It saves until you're back</span></li>
             <li><span class="bullet-check">✓</span><span>Nothing gets skipped because it lived in someone's head</span></li>
             <li><span class="bullet-check">✓</span><span>New managers have the full list from their first shift</span></li>
           </ul>
@@ -209,8 +208,8 @@ module.exports = {
           <p class="mt-12 text-muted">
             Walk the walk-in with your phone and call out what you need as you go.
             VOS captures each item as you say it, so nobody writes a list
-            and types it in again later. That copy step is exactly where orders
-            normally go wrong.
+            and types it in again later. That copy step is where most ordering
+            mistakes creep in.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Talk through the order standing at the shelf</span></li>
@@ -236,13 +235,13 @@ module.exports = {
           <span class="eyebrow">Every Site</span>
           <h3>Multi location restaurant checklist software, same steps everywhere.</h3>
           <p class="mt-12 text-muted">
-            Each location orders from its own order guide, in the same app and the
-            same steps. As restaurant owner checklist software, it also gives you a
-            paper trail without the paper: every order gets a unique order number,
-            date and timestamp.
+            Each location orders from a list made for that account, in the same
+            app with the same steps. As restaurant owner checklist software, it
+            also gives you a paper trail without the paper: every order gets a
+            unique order number, date and timestamp.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Every site uses the same app and the same routine</span></li>
+            <li><span class="bullet-check">✓</span><span>Every site runs the order the same way</span></li>
             <li><span class="bullet-check">✓</span><span>Each location's account holds its own items</span></li>
             <li><span class="bullet-check">✓</span><span>Confirmations by push notification or text message</span></li>
             <li><span class="bullet-check">✓</span><span>No location has to phone in its order</span></li>
@@ -268,8 +267,8 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>All the tools your team needs to run the same routine.</h2>
-      <p class="lead mt-16">No extra apps and no workarounds. It all runs in the one VOS app.</p>
+      <h2>What helps every shift get the order right.</h2>
+      <p class="lead mt-16">All nine come in the same VOS app.</p>
     </div>
 
     <div class="cards-grid">
@@ -278,8 +277,8 @@ module.exports = {
         <div class="feature-card-icon">✅</div>
         <h4>Personal Order Guide</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your restaurant's items at your distributor's prices, loaded before
-          your first order.
+          Your items and their pricing, set up by your distributor before day
+          one.
         </p>
       </div>
 
@@ -343,10 +342,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>No System Replacement</h4>
+        <h4>Your POS Stays Put</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your POS, your distributor and your kitchen habits stay as they are.
-          VOS only changes how the order gets placed.
+          So do your distributor and your kitchen habits. VOS only changes how
+          the order gets placed.
         </p>
       </div>
 
@@ -361,10 +360,10 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See the ordering routine your team would actually follow</h3>
+      <h3 style="margin-bottom:10px;">See what ordering looks like when every shift follows one list</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough. We'll show you the order guide, voice
-        ordering and order confirmation working as a single routine.
+        Book a free 20-minute walkthrough of the order guide, voice ordering and
+        order confirmation, run start to finish as one routine.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -392,7 +391,7 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>Your distributor sets up your account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          They upload your order guide to VOS, and you get an app login tied
+          They upload your item list to VOS, and you get an app login tied
           to your account.
         </p>
       </div>
@@ -431,7 +430,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What restaurant teams say about VOS</h2>
+      <h2>What restaurant operators say</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -500,11 +499,12 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 720px; margin: 0 auto;">
       <span class="eyebrow">Why VoiceOrder Solutions</span>
-      <h2>Deep on the ordering routine.<br>Not a general task app.</h2>
+      <h2>Restaurant checklist software built for ordering.<br>Not a general task app.</h2>
       <p class="lead mt-16">
-        We would rather be clear than oversell. If you need food safety logs and
-        staff to-do lists, use a general ops app. If the routine you keep losing
-        money on is ordering, here's how VOS compares.
+        A task app can remind someone to do the order. VOS is where the order
+        gets built, checked and sent. For temperature logs and staff to-do
+        lists, pick a general ops app. For the order itself, here is how the
+        options stack up.
       </p>
     </div>
 
@@ -520,7 +520,7 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Ordering routine built around your items</td>
+            <td>An ordering list of just your items</td>
             <td><span class="check-yes">✓</span></td>
             <td>Generic</td>
             <td>Manual</td>
@@ -550,13 +550,13 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Opening and closing task lists</td>
+            <td>Open and close task lists</td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Cleaning rotas and temperature logs</td>
+            <td>Cleaning schedules and temperature logs</td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
@@ -604,7 +604,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Common questions about running your ordering routine on VOS</h2>
+      <h2>Questions operators ask us first</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -615,11 +615,11 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No, and we would rather say so up front. VOS does not do cleaning rotas,
-          temperature logs, food safety sign-offs, or general shift task lists. What
-          it does is make placing orders with your distributor a consistent,
-          repeatable routine. If you need general operations task management, pair
-          VOS with a dedicated ops app.
+          No, and we would rather say so up front. VOS does not do cleaning
+          schedules, temperature logs, food safety sign-offs, photo proof of tasks,
+          or general shift task lists. What it does is make placing orders with
+          your distributor a consistent, repeatable routine. For the rest of your
+          checklists, a dedicated ops app is the better fit.
         </div>
       </div>
 
@@ -629,8 +629,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It makes the steps the same every time. Your items are already in the app,
-          added by your distributor. Whoever is on shift walks the storage, says how
+          It turns the paper order sheet into a digital checklist that runs the same
+          way every time. Your items are already in the app, added by your
+          distributor. Whoever is on shift walks the storage, says how
           much is needed, checks the order and sends it. If a delivery arrives
           halfway through, nothing is lost and they resume from the same spot.
         </div>
@@ -656,15 +657,14 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Anyone you trust with ordering. That is usually the point: ordering no
-          longer hangs on one person being in that day. Each order is stamped with
-          its own number, the date and the time, so you can see who ordered and
-          when.
+          longer hangs on one person being in that day. You keep accountability
+          too, because every order is logged with who placed it and when.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Who keeps the order guide up to date?
+          Who keeps our order guide up to date?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
@@ -680,7 +680,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Each location can have its own account and its own order guide, so
+          Yes. Each location can have its own account and order guide, so
           every site follows the same steps with its own items. Ask your distributor
           to set up each location you want ordering through VOS.
         </div>
@@ -688,24 +688,24 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Do I need to replace my current system to use VOS?
+          Will VOS work alongside my POS and my task app?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. You keep your distributor, your POS and the way your kitchen runs. This
-          restaurant checklist software covers the ordering step only, and your
-          distributor receives each order in a format they already use. There is
-          nothing for you to rip out.
+          Yes. You keep your distributor, your POS and any task or food safety app
+          your team relies on. This restaurant checklist software covers the
+          ordering step only, and your distributor receives each order in a format
+          they already use. There is nothing for you to rip out.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long does setup take?
+          How fast can my team start ordering this way?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your distributor handles it. They add your order guide and create your
+          Your distributor handles setup. They add your order list and create your
           account with its own app login. You install the app on your phone, and
           most restaurants are ordering that same day. If your distributor does not
           offer VOS yet, ask them about it, or reach out to VOS and we will connect
@@ -736,7 +736,7 @@ module.exports = {
   <div class="final-cta-trust">
     <span>✓ Set up through your distributor</span>
     <span>✓ Ordering open 24/7</span>
-    <span>✓ No system replacement needed</span>
+    <span>✓ Keep your POS and your task app</span>
     <span>✓ iPhone and Android apps</span>
   </div>
 </section>

@@ -7,7 +7,7 @@
  */
 module.exports = {
   title: 'Inventory Control Software for Food Distributors | VoiceOrder',
-  description: 'Inventory control software for food distributors. Confirmed, timestamped orders and a catalog that follows your stock mean fewer shorts, swaps and errors.',
+  description: 'Stop losing margin to shorts, swaps and order errors. Inventory control software for food distributors, with confirmed orders and a stock-aware catalog.',
   related: ["inventory-tracking-software","inventory-visibility-software","order-fulfillment-software"],
   relatedHeading: 'More ways to keep orders and stock in line',
   body: `
@@ -25,11 +25,11 @@ module.exports = {
       <span class="eyebrow">Inventory Control Software for Food Distributors</span>
       <h1>Inventory Control Software That Protects Your Margin.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is inventory control software for the place margin
-        quietly leaks: the order itself. Every order is confirmed before it reaches
-        you and carries its own number and timestamp. Your catalog updates as stock
-        changes. That means fewer shorts, fewer last-minute swaps, and fewer
-        arguments over what was ordered.
+        Most lost margin starts at the order: a wrong quantity, a line you can't
+        fill, a fight over what was ordered. VoiceOrder Solutions is inventory
+        control software that fixes the order first. Customers approve every order
+        themselves, and each one carries its own number and timestamp. What they
+        can order shifts as your stock does, so you ship fewer shorts.
       </p>
 
       <div class="hero-ctas">
@@ -40,7 +40,7 @@ module.exports = {
       <div class="hero-trust">
         <span>Works alongside your current systems</span>
         <span class="hero-trust-dot"></span>
-        <span>Live in 24 to 48 hours</span>
+        <span>Set up in 48 hours or less</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android + Web</span>
       </div>
@@ -75,7 +75,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">Real-Time</div>
-      <div class="stat-label">stock behind the catalog your customers order from</div>
+      <div class="stat-label">stock view, linked to every order as it lands</div>
     </div>
   </div>
 </section>
@@ -144,12 +144,12 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Built for Food</span>
-          <h3>Food inventory control software built on your order guides.</h3>
+          <h3>Food inventory control software that keeps orders to items you carry.</h3>
           <p class="mt-12 text-muted">
-            Food distribution does not run on a generic item list. Each account gets
-            its own order guide: the items that customer actually buys, at the prices
-            you set, tied to your SKUs. What comes in matches what your system
-            expects, so nobody has to turn "the usual cheese" into the right item number.
+            Food distribution does not run on a generic item list. Every account shops
+            from its own guide: only the products it buys, at your prices, on your
+            SKUs. Every line arrives with the right item number and the right
+            price, so nobody has to turn "the usual cheese" into a real product.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>One order guide per account, built from what they buy</span></li>
@@ -173,17 +173,17 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Fewer Shorts</span>
-          <h3>Cut the shorts that start at the order.</h3>
+          <h3>Stop selling cases you don't have.</h3>
           <p class="mt-12 text-muted">
             A short costs you twice: the sale you lose and the call your rep has to
-            make. VOS ties inventory to order activity and updates your catalog as
-            stock levels change. This is where inventory control system software
-            earns its keep: in the shorts you avoid.
+            make. VOS links stock to every order in real time, and the catalog
+            refreshes itself whenever stock moves. That is the real job of inventory
+            control system software: fewer shorts, fewer swaps, fewer apology calls.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Inventory that moves with the orders coming in</span></li>
-            <li><span class="bullet-check">✓</span><span>Fewer orders placed for product you do not have</span></li>
-            <li><span class="bullet-check">✓</span><span>Fewer stockout surprises on delivery day</span></li>
+            <li><span class="bullet-check">✓</span><span>On-hand numbers that change as customers order</span></li>
+            <li><span class="bullet-check">✓</span><span>Fewer orders for items that are out of stock</span></li>
+            <li><span class="bullet-check">✓</span><span>Fewer stockouts found at picking</span></li>
             <li><span class="bullet-check">✓</span><span>Less rep time spent calling about missing items</span></li>
           </ul>
           <a href="/inventory-planning-software" class="feature-link">See how to plan next week's stock →</a>
@@ -204,11 +204,12 @@ module.exports = {
           <span class="eyebrow">Close The Gap</span>
           <h3>Catch order errors before they turn into credits.</h3>
           <p class="mt-12 text-muted">
-            Every order is digitized the moment it is placed, and the customer
-            reviews it before it is sent. Nobody re-keys a voicemail, so wrong
-            quantities and missing lines get stopped at the source. Each order also
-            gets a unique number, date and timestamp, so when a customer pushes back
-            on a delivery, you both look at the same record.
+            Customers speak or tap their order into the app, so it is digital from
+            the start, and they review it before it is sent. Nobody re-keys a
+            voicemail, so hand-entry mistakes (wrong quantities, missing lines) stop
+            at the source. Each order also gets a unique number, date and timestamp,
+            so when a customer pushes back on a delivery, you both look at the same
+            record.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Customer checks and confirms each order before sending</span></li>
@@ -235,9 +236,10 @@ module.exports = {
           <h3>Inventory control software for small business distributors.</h3>
           <p class="mt-12 text-muted">
             You should not need an IT department and a six-month rollout to stop
-            paying for order mistakes. VOS was designed for small to mid-size
-            distributors, not enterprise companies. It works alongside the systems
-            you already run, and there is no complex implementation to sit through.
+            paying for order mistakes. VOS was built with small to mid-size
+            distributors in mind, not enterprise companies. Your customers get an app
+            that is easy to learn, your team sticks with the systems it runs today, and
+            there is no complex implementation to sit through.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Sized for independent and DSD distributors</span></li>
@@ -266,8 +268,8 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>Everything your team needs to keep orders clean and margin intact.</h2>
-      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+      <h2>The tools that keep every order clean and your margin intact.</h2>
+      <p class="lead mt-16">All of this is part of VOS, with no extra tools to wire in.</p>
     </div>
 
     <div class="cards-grid">
@@ -382,10 +384,10 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Up and running in 24 to 48 hours</h2>
+      <h2>Three steps to cleaner orders</h2>
       <p class="lead mt-16">
-        No IT project. No systems to rip out. Three steps and clean orders start
-        reaching your team.
+        No IT project and no system to swap out. Confirmed orders start coming in
+        within days.
       </p>
     </div>
 
@@ -434,7 +436,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What distributors and their customers say about VOS</h2>
+      <h2>What changes for distributors and the customers they serve</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -504,8 +506,9 @@ module.exports = {
       <span class="eyebrow">Why VoiceOrder Solutions</span>
       <h2>Control built for the order.<br>Not for the warehouse floor.</h2>
       <p class="lead mt-16">
-        Most inventory control tools count what sits on your shelves. VOS works on
-        the step before that: the customer's order. Here's how it compares.
+        Most inventory tools scan, count and label what sits on your shelves. VOS
+        controls the step before that: the customer's order. Here's how it stacks
+        up against warehouse software and the phone.
       </p>
     </div>
 
@@ -631,23 +634,25 @@ module.exports = {
           No. VOS is not warehouse inventory control software: it does not handle bin
           locations, pick paths, barcode scans, or packing. It is not retail inventory
           control software for store shelves and checkout, and it does not plan bills
-          of materials or production runs for a factory. VOS is the ordering front
-          door for food distributors, with inventory tied to every customer order,
-          and it runs next to the systems you already have.
+          of materials or production runs for a factory. It also does not run cycle
+          counts, track lot numbers or expiry dates, or put a dollar value on your
+          stock. VOS is the ordering front door for food distributors, with inventory
+          tied to every customer order, and it runs next to the systems you already
+          have.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How does inventory control software protect a distributor's margin?
+          What does inventory control software do for a food distributor?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Mostly by stopping bad orders before they ship. Customers confirm each
-          order, so wrong quantities stop at the source. Inventory is tied to order
-          activity, so customers order fewer items you are out of. And every order
-          has a timestamp, so a disputed delivery gets settled with a record, not a
-          guess.
+          Its main job is to stop bad orders before they ship. With VOS, customers
+          confirm each order, so they fix a bad quantity before it is sent. Inventory
+          stays in step with new orders, so customers order fewer items you are out
+          of. And every order has a timestamp, so a disputed delivery gets settled
+          with a record, not a guess.
         </div>
       </div>
 
@@ -724,7 +729,7 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Ready to stop losing margin on bad orders?</h2>
+  <h2>Stop giving margin away on bad orders.</h2>
   <p>Take 20 minutes and see how confirmed orders keep wrong quantities off the truck.</p>
 
   <div class="final-cta-form">

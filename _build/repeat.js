@@ -27,6 +27,7 @@ function sentences(file) {
     .replace(/<section class="section-pad" id="integrations"[\s\S]*?<\/section>/i, '')
     .replace(/<section class="related-strip"[\s\S]*?<\/section>/i, '')
     .replace(/<footer[\s\S]*?<\/footer>/i, '')
+    .replace(/\s+/g, ' ')          // source HTML wraps mid-sentence; join before splitting on block ends
     .replace(/<br\s*\/?>/gi, ' ')
     .replace(/<\/(p|li|h[1-6]|div|td|th|button|span|a)>/gi, '\n')
     .replace(/<[^>]+>/g, ' ')

@@ -7,9 +7,9 @@
  */
 module.exports = {
   title: 'Restaurant Purchasing Software | VoiceOrder Solutions',
-  description: 'Restaurant purchasing software for kitchens with more than one supplier. Order from each distributor on VOS in one app, by voice, with every order on record.',
+  description: 'Restaurant purchasing software that puts each supplier on VOS in one app. Order by voice at any hour, and every order is confirmed, numbered and saved.',
   related: ["order-entry-software","restaurant-stock-management-software","restaurant-checklist-software"],
-  relatedHeading: 'More on suppliers, ordering, and catalogs',
+  relatedHeading: 'More on ordering, stock, and kitchen routines',
   body: `
 <!--@NAVBAR-->
 
@@ -23,13 +23,14 @@ module.exports = {
 
     <div>
       <span class="eyebrow">Restaurant Purchasing Software</span>
-      <h1>Restaurant Purchasing Software Without the Paperwork.</h1>
+      <h1>Restaurant Purchasing Software: One App, Many Suppliers.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is restaurant purchasing software for kitchens that
-        buy from more than one distributor. It comes to you through them: each
-        distributor on VOS sets up your account and loads your order guide. Then
-        you order from all of them in one app, and every order is confirmed and
-        saved. No binders. No system to replace.
+        Stop running a different ordering routine for every supplier.
+        VoiceOrder Solutions is restaurant purchasing software that puts each of
+        your distributors on VOS in one app. Talk the order through, look it over,
+        and send it. Every order is confirmed and saved. VOS comes to you through
+        those distributors: each one sets up your account and loads your order
+        guide. No system to replace.
       </p>
 
       <div class="hero-ctas">
@@ -40,7 +41,7 @@ module.exports = {
       <div class="hero-trust">
         <span>Set up by your distributor</span>
         <span class="hero-trust-dot"></span>
-        <span>First order the same day</span>
+        <span>Ordering the same day</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android apps</span>
       </div>
@@ -87,11 +88,11 @@ module.exports = {
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container text-center">
     <span class="eyebrow">Sound Familiar?</span>
-    <h2>Four suppliers, four processes, no single record.</h2>
+    <h2>Four suppliers, four ways to order, no single record.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      One distributor takes phone orders, one has a portal, one wants a text to
-      the rep. Nothing ends up in one place, and nobody can say for sure what
-      went to whom. Here's what that costs:
+      One distributor takes calls, one has a portal, one wants an email, and
+      one wants a text to the rep. Nothing ends up in one place, and nobody can
+      say for sure what went to whom. Here's what that costs:
     </p>
 
     <div class="problem-grid">
@@ -100,8 +101,8 @@ module.exports = {
         <div class="problem-icon">🧩</div>
         <h4 class="mb-8">"Every supplier wants something different"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Your manager juggles a phone line, two portals, and a text thread.
-          Ordering takes far longer than it should, and something always slips.
+          Your manager keeps a separate login, number, or rep contact for each
+          one. Ordering eats up hours every week, and something always slips.
         </p>
       </div>
 
@@ -118,8 +119,8 @@ module.exports = {
         <div class="problem-icon">📋</div>
         <h4 class="mb-8">"There's no record of what we ordered"</h4>
         <p class="text-muted" style="font-size:15px;">
-          The order was a phone call. When the delivery does not match what
-          you asked for, it's your word against theirs.
+          The order was a phone call. When a case is missing or the wrong item
+          arrives, it's your word against theirs.
         </p>
       </div>
 
@@ -145,13 +146,13 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">One Place</span>
-          <h3>Your distributors, one app, one routine.</h3>
+          <h3>Order from each supplier the same way.</h3>
           <p class="mt-12 text-muted">
-            Stop bouncing between a phone line, two portals, and a text thread.
-            VOS is food purchasing software for restaurants that works through
-            the suppliers you already use. Once a distributor joins, they add
-            you, so their guide sits next to the others and your manager learns
-            one way to order instead of four.
+            No more jumping between vendor portals and phone numbers. VOS is
+            food purchasing software for restaurants that works through the
+            suppliers you already use. When one of your distributors joins, they
+            add you, and their guide appears beside the others. Your
+            manager learns one routine, not four.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Switch between suppliers without switching apps</span></li>
@@ -175,12 +176,13 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">A Real Paper Trail</span>
-          <h3>Restaurant purchase order software with a record of every order.</h3>
+          <h3>Restaurant purchase order software with proof of what you ordered.</h3>
           <p class="mt-12 text-muted">
-            You review each order before it goes. Once sent, it is confirmed and
-            saved with a unique order number, the date, and a timestamp. Nobody
-            has to fill out a separate form. When a delivery looks wrong, you
-            pull up what you sent instead of trying to remember a phone call.
+            You look over every order before it goes. Once sent, it is confirmed and
+            saved with a unique order number, the date, and a timestamp, so it
+            does the job of a purchase order with no extra form. If a delivery is
+            short or wrong, pull up what you sent instead of arguing over who
+            said what.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Check items and amounts before you hit send</span></li>
@@ -204,12 +206,13 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Every Site</span>
-          <h3>Multi location restaurant purchasing software, site by site.</h3>
+          <h3>Multi location restaurant purchasing software that keeps each site's orders straight.</h3>
           <p class="mt-12 text-muted">
-            Run a few spots and buying gets messy fast. As a restaurant purchasing
-            system for small groups, VOS gives each location a guide built around
-            what that kitchen really uses. Every order shows who placed it
-            and when, so you know which site bought what.
+            Open a second or third spot and it gets hard to tell which kitchen
+            ordered what. As a restaurant purchasing system for small groups, VOS
+            gives each location a guide built on what that kitchen really buys.
+            Every order shows who placed it and when, so there is no guessing
+            which site sent it.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Each kitchen buys from a list made for it</span></li>
@@ -235,10 +238,11 @@ module.exports = {
           <span class="eyebrow">Your Items, Your Prices</span>
           <h3>Restaurant procurement software that keeps the deals you have.</h3>
           <p class="mt-12 text-muted">
-            Each supplier's order guide lists the items your kitchen actually buys,
-            at the prices agreed for your account. Your supplier keeps that guide
-            current, so you are not digging through a full catalog. VOS does not
-            replace the deal or the rep. It gives you a faster way to buy on it.
+            Each supplier's order guide lists what your kitchen actually buys, at
+            the prices set for your account and matched to that supplier's own
+            item codes. The supplier keeps the guide current, so nobody digs
+            through a full catalog. VOS does not replace your deal or your rep.
+            It gives you a faster way to buy on the terms you already have.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Just the products you order, nothing to scroll past</span></li>
@@ -267,7 +271,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>All the tools your team needs to buy well.</h2>
+      <h2>What your team gets on every supplier order.</h2>
       <p class="lead mt-16">One app for every supplier on VOS. No workarounds, nothing to bolt on.</p>
     </div>
 
@@ -322,8 +326,8 @@ module.exports = {
         <div class="feature-card-icon">📍</div>
         <h4>Multi-Location</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every site orders from its own guide, and each order shows which
-          location sent it.
+          Each site gets its own guide, so every order is tied to the kitchen
+          that sent it.
         </p>
       </div>
 
@@ -504,10 +508,11 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 700px; margin: 0 auto;">
       <span class="eyebrow">Why VoiceOrder Solutions</span>
-      <h2>Built for restaurant buying.<br>Not corporate procurement.</h2>
+      <h2>Built for placing supplier orders.<br>Not for running the whole back office.</h2>
       <p class="lead mt-16">
-        Enterprise procurement suites assume a purchasing department. You have a
-        chef and a manager. Here's how VOS compares.
+        Back-office suites bundle invoice scanning, recipe costing and stock
+        counts, and they need someone to run them. You have a chef and a
+        manager. VOS sticks to getting the order out.
       </p>
     </div>
 
@@ -517,7 +522,7 @@ module.exports = {
           <tr>
             <th style="width:36%;">Feature</th>
             <th class="highlight" style="width:21%;">VoiceOrder Solutions</th>
-            <th style="width:21%;">Procurement Suite</th>
+            <th style="width:21%;">Back-Office Suite</th>
             <th style="width:22%;">Phone + Portals</th>
           </tr>
         </thead>
@@ -535,9 +540,9 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Built around your own order guide</td>
+            <td>Order guide loaded for you by each supplier</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
             <td>Manual</td>
           </tr>
           <tr>
@@ -549,7 +554,7 @@ module.exports = {
           <tr>
             <td>Order 24/7</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
@@ -565,7 +570,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>No system replacement needed</td>
+            <td>Keeps your current setup</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-yes">✓</span></td>
@@ -579,7 +584,7 @@ module.exports = {
           <tr>
             <td>Time to first order</td>
             <td>Usually same day</td>
-            <td>Months</td>
+            <td>Often weeks</td>
             <td>None needed</td>
           </tr>
         </tbody>
@@ -613,7 +618,7 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Do I have to change suppliers to use VOS?
+          Will I have to switch suppliers?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
@@ -632,33 +637,35 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Yes, for each distributor that uses VOS. That is the main reason kitchens
-          pick this restaurant purchasing software. Instead of a phone call to one
-          supplier, a portal login for another, and a text to a third, you work in
-          one app and each order goes to the right supplier.
+          pick this restaurant purchasing software. You choose the supplier, place
+          the order in the same app, and VOS passes it on in the format that
+          supplier already takes.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does it create purchase orders?
+          Does VOS create purchase orders for my suppliers?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your order does the job of one. You check it, send it, and it reaches
-          the supplier confirmed, numbered, and timestamped. It stays on file,
-          so you have the original to check a delivery against.
+          In practice, yes. Each order you send is confirmed, numbered, and
+          timestamped before it reaches the supplier, so it serves as your
+          purchase order. It stays on file, and you have the original to hold a
+          delivery up against.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does VOS compare prices between suppliers?
+          Does VOS compare supplier prices or process invoices?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
           No. Every guide shows your products at the prices that supplier set for
           your account, so the deals you already have stay in place. VOS is where
-          you place the orders, not a tool for ranking suppliers on price.
+          you place the orders. It does not rank suppliers on price, scan
+          invoices, or work out recipe costs, so any tool you use for that can stay.
         </div>
       </div>
 
@@ -702,14 +709,14 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long does setup take?
+          When can we place our first order?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your distributor handles it, creating your account and loading the list
-          of what you buy. Then you install the app and sign in. Most customers
-          place their first order the same day. You do not need an IT team or
-          any technical experience.
+          Most customers place their first order the same day. Your distributor
+          handles setup, creating your account and loading the list of what you
+          buy. Then you install the app, sign in, and order. Nobody on your team
+          needs technical skills.
         </div>
       </div>
 
@@ -725,8 +732,8 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Ready to buy from every supplier in one place?</h2>
-  <p>Ask your distributor about getting set up, or book a demo with us first. Stop juggling portals and keep a real record of what you buy.</p>
+  <h2>Ready to stop ordering four different ways?</h2>
+  <p>Ask your distributor about getting set up, or book a demo with us first. Stop juggling calls and portals, and keep proof of everything you buy.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -736,7 +743,7 @@ module.exports = {
   <div class="final-cta-trust">
     <span>✓ Same-day first order</span>
     <span>✓ Keep your current suppliers</span>
-    <span>✓ No system replacement needed</span>
+    <span>✓ Order by voice, 24/7</span>
     <span>✓ Pricing on request</span>
   </div>
 </section>

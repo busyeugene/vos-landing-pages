@@ -9,7 +9,7 @@
  */
 module.exports = {
   title: 'Distributor Order Tracking Software | VoiceOrder Solutions',
-  description: 'Order tracking software for food distributors. Every customer order is confirmed, numbered and timestamped, and trackable from placement to fulfillment.',
+  description: 'Order tracking software for food distributors. Every customer order is numbered, timestamped and confirmed, so your team sees where it stands without a call.',
   related: ["order-taking-software","order-fulfillment-software","inventory-visibility-software"],
   relatedHeading: 'See what happens before and after tracking',
   body: `
@@ -24,12 +24,13 @@ module.exports = {
   <div class="hero-grid">
 
     <div>
-      <span class="eyebrow">Order Tracking Software for Food Distributors</span>
-      <h1>Order Tracking Software for Every Customer Order.</h1>
+      <span class="eyebrow">For Food Distributors</span>
+      <h1>Order Tracking Software That Saves Everyone a Call.</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions is order tracking software for the orders your
-        customers send you, from restaurants to stores. Each one is confirmed,
-        numbered and timestamped, so you know where it stands without a call to ask.
+        customers send you, from restaurants to stores. Each one is numbered,
+        timestamped and trackable from placement to fulfillment. Your customer gets
+        a confirmation, and your team knows where it stands without a call to ask.
       </p>
 
       <div class="hero-ctas">
@@ -118,7 +119,7 @@ module.exports = {
         <div class="problem-icon">🔍</div>
         <h4 class="mb-8">"What did they order last month?"</h4>
         <p class="text-muted" style="font-size:15px;">
-          No one can answer without digging through inboxes, texts and notepads.
+          No one can answer without going through inboxes, texts and notepads.
           So your rep guesses, and the account notices when the guess is wrong.
         </p>
       </div>
@@ -137,7 +138,7 @@ module.exports = {
 
     <div class="text-center" style="max-width: 740px; margin: 0 auto 72px;">
       <span class="eyebrow">Both Sides of the Order</span>
-      <h2>Order tracking software for your team and the accounts you deliver to</h2>
+      <h2>Order tracking software that gives you and your accounts one record</h2>
     </div>
 
 
@@ -146,17 +147,16 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">For Your Customers</span>
-          <h3>Purchase order tracking software, from your customer's side.</h3>
+          <h3>Purchase order tracking software that lets customers know you got it.</h3>
           <p class="mt-12 text-muted">
             To your customer, it's a purchase order. To you, it's a sales order.
-            VOS gives both sides the same record. The customer looks it over,
-            sends it, and gets a confirmation back, so they know it reached you
-            without picking up the phone.
+            It's one record for both of you, from the second it's sent. So your
+            day doesn't start with a "did you get it?" call.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Customers check every line before they send it</span></li>
-            <li><span class="bullet-check">✓</span><span>Confirmation arrives on their phone</span></li>
-            <li><span class="bullet-check">✓</span><span>Every order is numbered</span></li>
+            <li><span class="bullet-check">✓</span><span>Confirmation comes straight back to their phone</span></li>
+            <li><span class="bullet-check">✓</span><span>Matching order numbers on your side and theirs</span></li>
             <li><span class="bullet-check">✓</span><span>One order tracking tool for your office and your accounts</span></li>
           </ul>
           <a href="/order-entry-software" class="feature-link">See how orders get placed →</a>
@@ -175,16 +175,16 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">For Your Team</span>
-          <h3>Sales order tracking software for every account.</h3>
+          <h3>Sales order tracking software that tells you who ordered, and when.</h3>
           <p class="mt-12 text-muted">
-            Orders from all of your accounts land in your admin platform, showing
-            who placed each one and when. So when a customer or a driver asks about
-            an order, your team finds the answer on a screen instead of in a pile
-            of voicemails. Fewer status calls leave more time to grow accounts.
+            Orders from all your accounts land in your admin platform, each marked
+            with its number and the time it was placed. When a customer or a driver
+            asks about one, your team opens it on screen, not in a stack of
+            voicemails. Your reps keep selling instead of searching.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Every account's orders on one screen</span></li>
-            <li><span class="bullet-check">✓</span><span>See who placed each order, and at what time</span></li>
+            <li><span class="bullet-check">✓</span><span>Clear up cutoff questions with each order's send time</span></li>
             <li><span class="bullet-check">✓</span><span>Answer status calls from the record, not from memory</span></li>
             <li><span class="bullet-check">✓</span><span>An order tracking platform with every account in view</span></li>
           </ul>
@@ -233,7 +233,7 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Full History</span>
-          <h3>Every order from every account, kept on record.</h3>
+          <h3>Past orders saved to settle any dispute.</h3>
           <p class="mt-12 text-muted">
             VOS keeps a full log of past orders for each account, with a
             timestamp showing when each one was sent. When an account questions
@@ -242,7 +242,7 @@ module.exports = {
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Look back at last week or last month for any account</span></li>
-            <li><span class="bullet-check">✓</span><span>Settle a "that's not what I ordered" call by opening the order</span></li>
+            <li><span class="bullet-check">✓</span><span>End a "that's not what I ordered" call by opening the order</span></li>
             <li><span class="bullet-check">✓</span><span>Know what an account usually buys before your rep calls</span></li>
             <li><span class="bullet-check">✓</span><span>No paper trail to file, since every order is already logged</span></li>
           </ul>
@@ -267,8 +267,8 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>All the tools your team needs to follow an order.</h2>
-      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+      <h2>What comes with every order, for you and your customers.</h2>
+      <p class="lead mt-16">Both sides get all of it, from the start.</p>
     </div>
 
     <div class="cards-grid">
@@ -304,8 +304,8 @@ module.exports = {
         <div class="feature-card-icon">🔁</div>
         <h4>Confirmation Alerts</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers hear back by app alert or by text, so they don't need to
-          call and check.
+          Customers get a push alert or a text right after ordering, so
+          there's no need to call and check.
         </p>
       </div>
 
@@ -320,7 +320,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🏪</div>
-        <h4>Right-Sized</h4>
+        <h4>Sized for Smaller Teams</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Order tracking software for small business distributors, with no IT
           team needed to run it.
@@ -367,8 +367,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">Find any customer order without making a call</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a 20-minute demo. We'll show you order history, confirmations and
-        admin tools working together, for a distribution business like yours.
+        In 20 minutes, we'll follow one order from the app to your admin screen,
+        then scroll back through an account's history.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -385,8 +385,8 @@ module.exports = {
       <span class="eyebrow">Simple Setup</span>
       <h2>Live in two days or less</h2>
       <p class="lead mt-16">
-        No IT project. No systems to rip out. Three steps, and each new order
-        is on record from the start.
+        No IT project, and the software in your office today stays as it is. Three steps,
+        and each new order is on record from the start.
       </p>
     </div>
 
@@ -505,9 +505,9 @@ module.exports = {
       <span class="eyebrow">Why VoiceOrder Solutions</span>
       <h2>Built for supply orders.<br>Not for tracking parcels.</h2>
       <p class="lead mt-16">
-        Most tracking tools follow a package to a doorstep. You need to follow a
-        customer's order from the moment it is placed until your team fills it.
-        Here's how VOS compares.
+        Most order tracking software is built to follow a package to a doorstep.
+        You need to follow a customer's order from the moment it is placed until
+        your team fills it. Here's VOS next to a portal and the phone.
       </p>
     </div>
 
@@ -614,14 +614,14 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Do I need to replace my current system to use VOS?
+          Can I keep the order system I have now?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. Orders still come to you as an email with a PDF, Excel or Word
-          file, or through EDI, API or QuickBooks. VOS adds a numbered, timestamped
-          record of each order next to the tools your office already runs. There
-          is no rip-and-replace.
+          Yes. Nothing gets swapped out. Orders still reach you as an email with a
+          PDF, Excel or Word file, or through EDI, API or QuickBooks. VOS adds a
+          numbered, timestamped record of each order on top of the tools your
+          office already runs.
         </div>
       </div>
 
@@ -632,9 +632,9 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Every order sent to you through VOS: which account placed it, who sent it,
-          what was on it, when it was sent, and its unique number. Every order gets
-          confirmed before it goes out and is trackable from placement to
-          fulfillment, with the full history kept for your team.
+          what was on it, when it was sent, and its unique number. Each one is
+          confirmed before it goes out and stays trackable through fulfillment,
+          with the full history kept for your team.
         </div>
       </div>
 
@@ -657,16 +657,16 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Customers review each order before they send it, then get a push
-          alert or a text to confirm it. The order keeps one number on both sides,
-          so your records and theirs match. That shared record is the point of
-          order tracking software, so neither side has to call the other to ask.
+          Yes. Customers review each order before they send it, then get a
+          confirmation by app or by text. The order carries one number on both
+          sides, so your records and theirs match. That shared record is the point of order
+          tracking software: neither side has to call the other to find out.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does VOS show where the delivery truck is?
+          Does VOS track shipments or delivery trucks?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
@@ -695,9 +695,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS was designed for small and mid-size distributors, not enterprise
-          companies with their own IT departments. Pricing is on request, so book a
-          demo and we'll talk through your accounts and how orders reach you today.
+          Yes. VOS fits smaller and mid-size distributors, not big companies with
+          their own IT departments. Pricing is on request, so book a demo and
+          we'll talk through your accounts and how orders reach you today.
         </div>
       </div>
 

@@ -3,7 +3,7 @@
  */
 module.exports = {
   title: "Inventory Tracking Software for Food Distributors | VOS",
-  description: "Inventory tracking software for food distributors. See what's on hand as customer orders come in, with a catalog that updates as stock levels change.",
+  description: "Inventory tracking software for food distributors. Know what's on hand in real time as orders come in, keep your catalog in sync and see fewer stockouts.",
   related: ["inventory-visibility-software","inventory-replenishment-software","inventory-control-software"],
   relatedHeading: "Go further with your stock data",
   body: `
@@ -21,9 +21,9 @@ module.exports = {
       <span class="eyebrow">Inventory Tracking Software for Food Distributors</span>
       <h1>Inventory Tracking Software That Keeps Up With Orders.</h1>
       <p class="lead mt-16">
-        See what's on hand right now, as customer orders come in. VOS ties your
-        stock levels to order activity and updates the catalog as levels change.
-        No clipboards. No guesswork. No system to replace.
+        Know what's on hand in real time, as customer orders come in. VOS ties
+        stock levels to order activity and keeps your catalog in sync as levels
+        change. No clipboards. No guesswork. No system to replace.
       </p>
 
       <div class="hero-ctas">
@@ -94,10 +94,10 @@ module.exports = {
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container text-center">
     <span class="eyebrow">Sound Familiar?</span>
-    <h2>Your reps count stock when they should be selling.</h2>
+    <h2>Orders arrive faster than anyone can count stock.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      Most food distributors still track inventory on clipboards, spreadsheets
-      or gut instinct. Nobody sees the gap until something goes wrong:
+      Plenty of food distributors still track inventory on clipboards, spreadsheets
+      or gut instinct. The numbers lag behind, and nobody sees the gap until something goes wrong:
     </p>
 
     <div class="problem-grid">
@@ -154,9 +154,9 @@ module.exports = {
           <h3>Watch stock move the moment an order lands.</h3>
           <p class="mt-12 text-muted">
             VOS links your stock to the orders your customers send. When an
-            order comes through the app, your stock count moves with it, so
-            nobody has to check the back first. It is software for tracking
-            inventory that works off the orders you already take.
+            order comes through the app, your stock levels move with it, so
+            nobody has to check the shelf first. This is software for tracking
+            inventory that runs on the orders you already take.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -194,10 +194,10 @@ module.exports = {
           <span class="eyebrow">Catalog Updates</span>
           <h3>Your catalog changes when your stock does.</h3>
           <p class="mt-12 text-muted">
-            When a stock level shifts, VOS brings the catalog in line on its own.
-            Each customer buys from a guide you control, and the catalog behind
-            it stays current. This inventory tracking system
-            helps cut the stockout surprises that end in an awkward call from your rep.
+            When a stock level shifts, VOS updates the catalog on its own.
+            Each customer orders from a guide you control, and the catalog behind
+            it stays in sync with your stock. This inventory tracking system
+            means fewer surprise stockouts and fewer awkward calls from your rep.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -235,10 +235,10 @@ module.exports = {
           <span class="eyebrow">Mobile + Voice</span>
           <h3>No separate inventory tracking app. Orders do the work.</h3>
           <p class="mt-12 text-muted">
-            Your customers speak their orders into the VOS app on iOS and Android,
-            any time of day. Each order is confirmed before it's sent. Because
-            stock is linked to those orders, what they buy is reflected on your
-            side without a rep typing it in.
+            Most inventory apps hand your team a scanner. VOS hands the order to
+            your customers instead. They speak it into the app on iOS or Android,
+            any time of day. Because stock is linked to those orders, what they
+            buy shows up on your side without a rep typing it in.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -321,14 +321,14 @@ module.exports = {
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
       <h2>What your team and your customers get with VOS</h2>
-      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+      <p class="lead mt-16">Stock tracking comes with the ordering tools that feed it.</p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
         <div class="feature-card-icon">📊</div>
-        <h4>Real-Time Stock Levels</h4>
+        <h4>On-Hand at a Glance</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Check current stock at any moment, not after someone updates a
           spreadsheet at close.
@@ -384,8 +384,8 @@ module.exports = {
         <div class="feature-card-icon">📱</div>
         <h4>iOS + Android App</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers order from anywhere in their kitchen on iPhone or Android.
-          No extra hardware.
+          Your accounts order from the phone already in their pocket, iPhone
+          or Android. No extra hardware.
         </p>
       </div>
 
@@ -400,7 +400,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>No System Replacement</h4>
+        <h4>Adds to Your Current Setup</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Keep your back-office software and your process. VOS sits in front
           of them, not in place of them.
@@ -489,7 +489,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Customers. Real Results.</span>
-      <h2>What restaurant customers say about ordering with VOS</h2>
+      <h2>What distributors and their accounts say about VOS</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -627,8 +627,8 @@ module.exports = {
       <span class="eyebrow">Why VoiceOrder Solutions</span>
       <h2>Stock tracking tied to every order.<br>Not one more system to keep fed.</h2>
       <p class="lead mt-16">
-        Most inventory apps sit apart from the way your customers order.
-        Here's how VOS compares to the alternatives.
+        A typical inventory app only learns about a phone order after someone
+        types it in. VOS starts from the order itself.
       </p>
     </div>
 
@@ -664,7 +664,7 @@ module.exports = {
           <tr>
             <td>Stock updates with each order</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
@@ -700,7 +700,7 @@ module.exports = {
           <tr>
             <td>Setup time</td>
             <td>1 to 2 days</td>
-            <td>Weeks</td>
+            <td>Varies</td>
             <td>None needed</td>
           </tr>
         </tbody>
@@ -734,11 +734,11 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Do I need to replace my current system to use VOS?
+          Can I keep my ERP and other software if I add VOS?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. VOS works alongside the software you already run, including ERP
+          Yes. VOS works alongside the software you already run, including ERP
           and distribution platforms. You still get orders by email (PDF, Excel
           or Word), EDI, API or QuickBooks. This inventory tracking software adds
           a current view of stock on top of that. Nothing gets ripped out.
@@ -759,14 +759,14 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is VOS a warehouse management system with barcodes and bins?
+          Does VOS do barcode scanning or bin locations like a WMS?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS does not scan barcodes, assign bin locations, plan pick paths
-          or print labels, so it is not a WMS. It is the ordering front door for
-          your customers, plus inventory visibility tied to those orders. If you
-          already run a WMS, VOS works next to it.
+          No. VOS does not scan barcodes, assign bins, plan pick paths or print
+          labels, so it is not a warehouse management system. It is the ordering
+          front door for your customers, plus inventory visibility tied to those
+          orders. If a WMS or scanner app already runs your warehouse, VOS works next to it.
         </div>
       </div>
 
@@ -797,24 +797,25 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I see stock across my whole catalog?
+          Is VOS better than tracking stock in a spreadsheet?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS shows stock for every product you carry, not only the
-          handful of items a rep looked at this morning. Each item's stock ties
-          back to incoming orders, so you know what's left before you promise
-          it to an account.
+          For a busy order desk, yes. A spreadsheet is only as current as the
+          last order someone typed in. VOS ties each item's stock to incoming
+          orders and covers every product you carry, not only the handful a rep
+          looked at this morning. A rep can check stock before promising a
+          case to an account.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long does setup take?
+          How quickly can a distributor get started?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors are up and running within 24 to 48 hours. There's no
+          Most distributors are up and running in a day or two. There's no
           complex implementation and no IT project. You share your customer order
           guides, we set up each account, and most customers place their first
           order the same day.
@@ -833,7 +834,7 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Ready to stop guessing what's left to sell?</h2>
+  <h2>Know what's left to sell before the next order lands.</h2>
   <p>Give your reps a live stock picture and get them back to growing accounts.</p>
 
   <div class="final-cta-form">

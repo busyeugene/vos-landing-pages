@@ -11,8 +11,10 @@
  * Usage:
  *   node trigram.js                 summary table for every page
  *   node trigram.js <slug ...>      summary + the trigrams for those pages
- *   node trigram.js --cross [N]     trigrams found on N+ pages (default 2), most widespread first
+ *   node trigram.js --cross [N]     trigrams found on N+ pages (default 2), allow-list excluded (add --all to include)
+ *   node trigram.js --plan          JSON rewrite plan per page: within-page repeats + 3+-page trigrams to reword
  *   node trigram.js --json          machine-readable dump of every page's repeats
+ * Target (Eugene, 2026-09-15): 0 within-page repeats; no trigram on 3+ pages outside ALLOW (fixed facts).
  */
 const fs = require('fs');
 const path = require('path');
@@ -46,6 +48,7 @@ function sentences(file) {
     .replace(/<div class="testimonial-author">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>/gi, '')
     .replace(/<div class="img-placeholder[\s\S]*?<\/div>/gi, '')
     .replace(/<input[^>]*>/gi, '')
+    .replace(/\s+/g, ' ')          // source HTML wraps mid-sentence; join before splitting on block ends
     .replace(/<br\s*\/?>/gi, ' ')
     .replace(/<\/(p|li|h[1-6]|div|td|th|button|span|a)>/gi, '\n')
     .replace(/<[^>]+>/g, ' ')
@@ -87,7 +90,44 @@ const pages = registry.map(analyse);
 const df = new Map();
 for (const p of pages) for (const g of p.counts.keys()) df.set(g, [...(df.get(g) || []), p.slug]);
 
+// Cross-page allow-list: fixed facts that may appear on any number of pages (never within-page repeats).
+const FORMAT = /\b(email|pdf|excel|word|edi|api|quickbooks)\b/g;
+const ALLOW = g => /voiceorder solutions/.test(g) ||
+  (g.match(FORMAT) || []).length >= 2 ||
+  (/\b(ios|iphone)\b/.test(g) && /\bandroid\b/.test(g)) ||
+  /\b20 30\b|\b24 7\b|\b24 to 48\b|\bto 48 hours\b/.test(g);
+
 const args = process.argv.slice(2);
+if (args[0] === '--plan') {
+  // Per page: every within-page repeat, plus each trigram on 3+ pages (not allow-listed) that this page
+  // must reword. The trigram stays on the 2 pages that use it most (ties: shares a word with the page's
+  // primary keyword, then the page already carrying the most rewrites, so the work spreads evenly).
+  const kwWords = slug => new Set(norm((keywords[slug] || {}).primary || '').split(' '));
+  const load = new Map(registry.map(p => [p.slug, 0]));
+  const keep = new Map();
+  const widest = [...df].filter(([g, s]) => s.length >= 3 && !ALLOW(g)).sort((a, b) => b[1].length - a[1].length);
+  for (const [g, slugs] of widest) {
+    const ranked = [...slugs].sort((a, b) => {
+      const ca = pages.find(p => p.slug === a).counts.get(g), cb = pages.find(p => p.slug === b).counts.get(g);
+      if (cb !== ca) return cb - ca;
+      const ka = g.split(' ').some(w => kwWords(a).has(w)), kb = g.split(' ').some(w => kwWords(b).has(w));
+      if (ka !== kb) return kb - ka;
+      return load.get(b) - load.get(a);
+    });
+    keep.set(g, ranked.slice(0, 2));
+    for (const s of ranked.slice(2)) load.set(s, load.get(s) + 1);
+  }
+  const out = {};
+  for (const p of pages) {
+    out[p.slug] = {
+      within: [...p.counts].filter(([, c]) => c >= 2).map(([g, c]) => ({ phrase: g, times: c, example: p.where.get(g) })),
+      cross: [...keep].filter(([g, k]) => df.get(g).includes(p.slug) && !k.includes(p.slug))
+        .map(([g, k]) => ({ phrase: g, onPages: df.get(g).length, keptOn: k, example: p.where.get(g) })),
+    };
+  }
+  console.log(JSON.stringify(out, null, 1));
+  process.exit(0);
+}
 if (args[0] === '--json') {
   const out = {};
   for (const p of pages) {
@@ -101,7 +141,8 @@ if (args[0] === '--json') {
 }
 if (args[0] === '--cross') {
   const min = +(args[1] || 2);
-  const rows = [...df].filter(([, s]) => s.length >= min).sort((a, b) => b[1].length - a[1].length);
+  const all = args.includes('--all');
+  const rows = [...df].filter(([g, s]) => s.length >= min && (all || !ALLOW(g))).sort((a, b) => b[1].length - a[1].length);
   console.log(rows.length + ' trigrams on ' + min + '+ pages');
   for (const [g, s] of rows) console.log(String(s.length).padStart(3) + '  ' + g);
   process.exit(0);

@@ -56,7 +56,7 @@ module.exports = [
     file: 'vos-inventory-planning-landing.html',
     label: 'Inventory Planning Software',
     card: 'Inventory Planning Software',
-    blurb: "Plan next week's stock from real customer orders, with dated history for every account and a live view of what is on hand.",
+    blurb: "Plan next week's buy from clean customer order data: dated history for every account, 24/7 order capture and a live stock view.",
     cluster: 'inventory',
   },
   {
