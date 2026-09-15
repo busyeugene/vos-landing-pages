@@ -85,7 +85,7 @@ module.exports = {
     <span class="eyebrow">Sound Familiar?</span>
     <h2>The walk-in runs low, and the reorder still happens by phone.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      Most kitchens check stock on a clipboard, then read the list to a rep.
+      Plenty of kitchens still check stock on a clipboard, then read the list to a rep.
       Every handoff is a chance for the order to go wrong. Here's what it costs you:
     </p>
 

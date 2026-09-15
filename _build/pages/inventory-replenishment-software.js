@@ -572,10 +572,10 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Needs an analyst to run it</td>
-            <td><span class="check-no">✗</span></td>
+            <td>No analyst needed to run it</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Setup time</td>
@@ -719,7 +719,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Ready to restock before your customers feel it?</h2>
-  <p>Join distributors who spot a dip early, not when a customer calls.</p>
+  <p>Spot the dip while you can still restock, not when a customer calls.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

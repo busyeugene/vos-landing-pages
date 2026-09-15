@@ -72,7 +72,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">Zero</div>
-      <div class="stat-label">phone orders to write up</div>
+      <div class="stat-label">app orders to write up by hand</div>
     </div>
     <div>
       <div class="stat-number">20-30 min</div>
@@ -301,7 +301,7 @@ module.exports = {
         <div class="feature-card-icon">🗣️</div>
         <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers can just say what they need, hands-free, instead of dialing your office.
+          Customers can just say what they need into the app instead of dialing your office.
         </p>
       </div>
 

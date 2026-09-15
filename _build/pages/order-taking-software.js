@@ -160,7 +160,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             Your customer opens VOS on their phone, presses to speak, and calls out
             items and quantities while walking the cooler. It is mobile order
-            taking software they can use hands-free: no typing, no hold time,
+            taking software made for a busy kitchen: no typing, no hold time,
             and nothing for your team to decode from a voicemail.
           </p>
           <ul class="feature-bullets mt-24">
@@ -327,7 +327,7 @@ module.exports = {
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
       <h2>The tools that take customer orders off the phone.</h2>
-      <p class="lead mt-16">An app for your customers. A browser-based admin for your team. No workarounds.</p>
+      <p class="lead mt-16">An app for your customers and a browser-based admin for your team, both working from the same orders.</p>
     </div>
 
     <div class="cards-grid">
@@ -654,7 +654,7 @@ module.exports = {
             <td>24/7 order taking</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
+            <td>Voicemail only</td>
           </tr>
           <tr>
             <td>Voice ordering</td>
@@ -760,8 +760,8 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Most do, because ordering in the app takes less effort than a phone call. It runs on
           their own iOS or Android phone, and their order guide already lists
-          what they buy from you. They talk through the order hands-free,
-          whenever it suits them, then send it. If they get interrupted, the
+          what they buy from you. They talk through the order whenever it
+          suits them, then send it. If they get interrupted, the
           order saves and they finish it later.
         </div>
       </div>

@@ -25,7 +25,7 @@ module.exports = {
       <h1>Order Fulfillment Software That Starts With Clean Orders.</h1>
       <p class="lead mt-16">
         Pick and pack tools assume the order is right, and VoiceOrder Solutions
-        makes sure it is. Made for DSD and independent food distributors, this
+        gets it checked before it reaches you. Made for DSD and independent food distributors, this
         order fulfillment software lets the kitchens and stores on your routes speak
         each order into the app, choosing items from a guide set up for them. Your team gets
         a confirmed, timestamped order instead of a voicemail to type up, so
@@ -97,7 +97,7 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">📞</div>
-        <h4 class="mb-8">"Half our orders are still voicemails"</h4>
+        <h4 class="mb-8">"Our mornings start with a pile of voicemails"</h4>
         <p class="text-muted" style="font-size:15px;">
           Someone sits there each morning playing them back and typing them up.
           That time is gone before a single case moves, and every retyped line
@@ -184,7 +184,7 @@ module.exports = {
             every time. Your team works from one kind of order, not four inboxes.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Hands-free voice ordering from anywhere in the kitchen</span></li>
+            <li><span class="bullet-check">✓</span><span>Voice ordering from anywhere in the kitchen</span></li>
             <li><span class="bullet-check">✓</span><span>Orders arrive 24/7, including nights and weekends</span></li>
             <li><span class="bullet-check">✓</span><span>Every account orders in the same app, on an iPhone or Android phone</span></li>
             <li><span class="bullet-check">✓</span><span>One order fulfillment tool instead of a phone, an inbox, and a notepad</span></li>
@@ -290,7 +290,7 @@ module.exports = {
         <h4>24/7 Order Intake</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Customers order after service. The order is waiting when you open, so
-          the morning pick starts with no backlog.
+          the day opens with real orders, not messages to sort.
         </p>
       </div>
 

@@ -527,8 +527,8 @@ module.exports = {
           <tr>
             <td>Availability shown to customers as they order</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
             <td>Varies</td>
+            <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
             <td>Catalog refreshes without re-keying</td>

@@ -127,8 +127,8 @@ module.exports = {
         <div class="problem-icon">📞</div>
         <h4 class="mb-8">"I sit on hold for half an hour just to place one order"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Your staff calls the distributor. Gets put on hold. Leaves a voicemail.
-          Waits for a call back. Then has to repeat the whole list. Every. Single. Week.
+          You call the distributor. You get put on hold. You leave a voicemail.
+          You wait for a call back, then read the whole list again. Every. Single. Week.
         </p>
       </div>
 
@@ -191,7 +191,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Works hands-free from the walk-in, the line, or the loading dock</span>
+              <span>Works from the walk-in, the line, or the loading dock</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -231,7 +231,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No hold queue and no waiting for their office to open</span>
+              <span>No hold queue, and no waiting for their office to open before you can send it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -413,7 +413,7 @@ module.exports = {
         <h4>Web-Based Access</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           VOS also works as web-based order entry software, so you can send the
-          order from the office computer. There's nothing to install.
+          order from the office computer with nothing to install on it.
         </p>
       </div>
 

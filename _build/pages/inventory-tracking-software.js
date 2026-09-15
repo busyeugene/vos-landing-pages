@@ -155,7 +155,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             VOS links your stock to the orders your customers send. When an
             order comes through the app, your stock levels move with it, so
-            nobody has to check the shelf first. This is software for tracking
+            a rep doesn't have to check the shelf first. This is software for tracking
             inventory that runs on the orders you already take.
           </p>
           <ul class="feature-bullets mt-24">
@@ -243,7 +243,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Customers talk through their order, hands-free</span>
+              <span>Customers talk through their order while they check the cooler</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -677,7 +677,7 @@ module.exports = {
             <td>Designed around food distribution</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
-            <td>Partial</td>
+            <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
             <td>Keeps your current order formats</td>
@@ -688,7 +688,7 @@ module.exports = {
           <tr>
             <td>Your existing systems stay</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>

@@ -183,7 +183,7 @@ module.exports = {
             don't slip in. Once an order arrives, your staff handle it just as they do today.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Email to a rep or your purchasing team</span></li>
+            <li><span class="bullet-check">✓</span><span>Email to a rep or the order desk</span></li>
             <li><span class="bullet-check">✓</span><span>A direct feed into the system you run</span></li>
             <li><span class="bullet-check">✓</span><span>Checked by your customer before it's sent</span></li>
             <li><span class="bullet-check">✓</span><span>No scribbled phone notes</span></li>
@@ -547,7 +547,7 @@ module.exports = {
             <td>Each order numbered and time-stamped</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
+            <td>Email only</td>
           </tr>
           <tr>
             <td>Voice ordering in an app</td>
