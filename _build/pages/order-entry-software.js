@@ -3,8 +3,8 @@
  */
 module.exports = {
   title: "Order Entry Software for Restaurants | VoiceOrder",
-  description: "VoiceOrder Solutions is web-based order entry software for restaurants. Place supply orders 24/7 by voice or online. No hold time and no errors.",
-  related: ["order-tracking-software","restaurant-purchasing-software","restaurant-stock-management-software"],
+  description: "Order entry software for restaurants: say your supply order, check it, and send it to your food distributor 24/7. Set up through your distributor.",
+  related: ["restaurant-purchasing-software","restaurant-checklist-software","restaurant-stock-management-software"],
   relatedHeading: "Where your orders go next",
   body: `
 <!-- ============================================================
@@ -38,12 +38,12 @@ module.exports = {
   <div class="hero-grid">
 
     <div>
-      <span class="eyebrow">Order Entry Software for Restaurants</span>
-      <h1>Stop Wasting Time on Hold.<br>Order Supplies in Minutes.</h1>
+      <span class="eyebrow">For Restaurant Operators</span>
+      <h1>Skip the Hold.<br>Order Entry Software You Talk To.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is web-based order entry software built for restaurants.
-        Place supply orders 24/7, by voice or online. No hold time. No missed orders.
-        No errors from phone handoffs.
+        Walk your cooler and call out what you need. VOS shows you the order to
+        check, then sends it to your food distributor at any hour. No account yet?
+        Ask your distributor, or get in touch with us.
       </p>
 
       <div class="hero-ctas">
@@ -52,9 +52,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Works with your current suppliers</span>
+        <span>Set up by your distributor</span>
         <span class="hero-trust-dot"></span>
-        <span>Up and running in 1 day</span>
+        <span>Same-day first order</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android + Web</span>
       </div>
@@ -76,7 +76,7 @@ module.exports = {
      ============================================================ -->
 <section class="logo-bar" aria-label="Customer logos">
   <div class="logo-bar-inner">
-    <span class="logo-bar-label">Trusted by independent restaurants and food service teams</span>
+    <span class="logo-bar-label">Trusted by restaurants and the distributors they order from</span>
     <!-- DEVS: Replace with actual customer logos -->
     <div class="logo-slot">Restaurant</div>
     <div class="logo-slot">Restaurant</div>
@@ -98,7 +98,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">24/7</div>
-      <div class="stat-label">order placement, even after your supplier closes</div>
+      <div class="stat-label">order placement, even after business hours</div>
     </div>
     <div>
       <div class="stat-number">Zero</div>
@@ -117,8 +117,8 @@ module.exports = {
     <span class="eyebrow">Sound Familiar?</span>
     <h2>Placing food orders shouldn't take this long.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      Most restaurants still order supplies the same way they did 20 years ago.
-      Phone calls, voicemails, handwritten lists. Here's what that costs you every week:
+      In a lot of kitchens, ordering supplies still means phone calls, voicemails
+      and handwritten lists. Here's what that costs you every week:
     </p>
 
     <div class="problem-grid">
@@ -175,9 +175,9 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>Say what you need. The order is placed.</h3>
           <p class="mt-12 text-muted">
-            Open the VOS app, press to speak, and call out your items and quantities.
-            VOS confirms each item before sending the order directly to your supplier.
-            No typing. No hold time. No repeating yourself to a rep who's writing it down.
+            Open the VOS app and start talking: call out your items and quantities as
+            you go. You check the order before it leaves, then it goes straight to your
+            distributor. No typing. No hold time. No repeating yourself to a rep who's writing it down.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -194,7 +194,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Every order is automatically timestamped and logged</span>
+              <span>Pulled away mid-order? It saves, so you pick up where you left off</span>
             </li>
           </ul>
           <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See voice ordering in action →</a>
@@ -213,17 +213,17 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Web-Based Order Entry</span>
-          <h3>Order from any device, any time (24/7).</h3>
+          <h3>Order any time, day or night.</h3>
           <p class="mt-12 text-muted">
-            VOS is web-based order entry software. There's nothing to install and
-            nothing to replace. Log in from your office computer, a tablet in the
-            stockroom, or your phone between service. Your supplier gets the order
-            the moment you submit it, even at midnight on a Sunday.
+            Place the order during closeout or before the morning crew gets in.
+            VOS works as a phone app and as web-based order entry software, so you can
+            also log in from the office computer. Your distributor gets the order when
+            you send it, even if they closed hours ago.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Browser-based. Works on any device, any OS.</span>
+              <span>Use the phone app, or log in from a browser</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -231,14 +231,14 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No software to install or update on your end</span>
+              <span>No ordering windows and no hold queue</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Your staff can learn it in under 10 minutes</span>
+              <span>Easy for staff to pick up: they just talk through the list</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">Try the web-based order entry →</a>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See 24/7 ordering →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -254,20 +254,20 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Inventory Visibility</span>
-          <h3>Know what's available before you order.</h3>
+          <h3>Order from a list that keeps up with stock.</h3>
           <p class="mt-12 text-muted">
-            VOS shows you real-time inventory from your supplier. You can see what's
-            in stock before you submit the order. No more surprise substitutions.
-            No more "we didn't have that" calls the morning of delivery.
+            Your distributor's catalog in VOS updates as their stock changes, so items
+            they're out of don't catch you off guard. Fewer surprise substitutions.
+            Fewer "we didn't have that" calls the morning of delivery.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Check supplier stock levels before placing your order</span>
+              <span>Your list moves with your distributor's stock levels</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Get alerts when key items are low or out of stock</span>
+              <span>Fewer out-of-stock surprises once the order is in</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -275,14 +275,14 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Plan your week around what's actually available</span>
+              <span>Less back-and-forth with your rep about what they carry today</span>
             </li>
           </ul>
           <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See inventory visibility →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Real-time inventory panel<br>showing stock levels, availability<br>indicators, and low-stock alerts
+            📸 Screenshot:<br>Order screen showing items<br>from the distributor's catalog<br>as their stock levels change
           </div>
         </div>
       </div>
@@ -294,36 +294,35 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Custom Order Guides</span>
-          <h3>Your items. Your pars. Ready to go every time.</h3>
+          <h3>It already knows what you order.</h3>
           <p class="mt-12 text-muted">
-            VOS builds a custom order guide for your restaurant: your exact products,
-            unit sizes, and par levels. Ordering becomes a fast, repeatable process
-            instead of starting from a blank list every week. This is the order entry
-            system software your team will actually use.
+            Your distributor puts your own guide into VOS, with the products you
+            actually buy. So you never start from a blank list. You just say how much.
+            This is the order entry system software your team will actually use.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Pre-loaded with your most-ordered items and unit sizes</span>
+              <span>Pre-loaded with your most-ordered items</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Set par levels so your team knows exactly when to reorder</span>
+              <span>Priced the way your distributor set up your account</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Separate order guides per location if you run multiple spots</span>
+              <span>Built around your products, not a generic catalog</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Updated automatically when your catalog changes</span>
+              <span>Your distributor keeps the guide up to date for you</span>
             </li>
           </ul>
           <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See custom order guides →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Custom order guide showing<br>restaurant's items, par levels,<br>and quick-add ordering interface
+            📸 Screenshot:<br>Custom order guide showing<br>restaurant's items, prices,<br>and quick-add ordering interface
           </div>
         </div>
       </div>
@@ -377,8 +376,8 @@ module.exports = {
         <div class="feature-card-icon">📄</div>
         <h4>Multiple Delivery Formats</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Orders go out as email, PDF, Excel, EDI, or direct API. Whatever
-          format your supplier's system accepts.
+          Orders go out by email (as a Word, Excel or PDF file), or by EDI, API
+          or QuickBooks. Whatever your distributor's system accepts.
         </p>
       </div>
 
@@ -395,7 +394,7 @@ module.exports = {
         <div class="feature-card-icon">🔄</div>
         <h4>No System Replacement</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          You keep your current suppliers and your current processes.
+          You keep your distributor and your normal routine with them.
           VOS just makes the order entry part faster and more accurate.
         </p>
       </div>
@@ -419,11 +418,11 @@ module.exports = {
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">📍</div>
-        <h4>Multi-Location Support</h4>
+        <div class="feature-card-icon">🔔</div>
+        <h4>Push and Text Updates</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Run multiple restaurant locations? VOS gives each spot its own
-          order guide while keeping everything under one login.
+          Your distributor can send order confirmations and promos to your
+          phone as a push notice or a text message.
         </p>
       </div>
 
@@ -440,8 +439,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See how VOS saves your team 20+ minutes every order</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough. We'll show you exactly how voice ordering,
-        real-time inventory, and digital confirmation work together, for restaurants like yours.
+        Book a 20-minute walkthrough of voice ordering, order guides and digital confirmation.
+        No VOS at your distributor? Get in touch and we'll point you to the right contact.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -456,10 +455,10 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Up and running in one day</h2>
+      <h2>Three steps to your first order</h2>
       <p class="lead mt-16">
-        No IT team. No systems to rip out. Three steps and your team is
-        placing orders faster than they did this morning.
+        Getting order entry software into your kitchen is simple, and your
+        distributor handles the first step. No IT team. Nothing to rip out.
       </p>
     </div>
 
@@ -467,19 +466,19 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Connect your suppliers</h4>
+        <h4>Your distributor creates your account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS loads your supplier catalog and product list. Your distributors
-          don't need to change anything on their end.
+          They load the items you order and give you a login tied to your account.
+          Using a distributor that isn't on VOS? Mention it to them, or reach out to us directly.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Build your order guide</h4>
+        <h4>Download the app</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS sets up a custom order guide for your restaurant: your exact
-          items, unit sizes, and par levels. Ready to use immediately.
+          Get VOS on iPhone or Android and sign in. Most customers are
+          ordering the same day.
         </p>
       </div>
 
@@ -487,15 +486,15 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Order by voice or web, 24/7</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your team starts placing orders. Every order is confirmed, timestamped,
-          and delivered to your supplier automatically.
+          Open VOS and talk through your list. Your order is confirmed, timestamped,
+          and sent to your distributor in the format they already use.
         </p>
       </div>
 
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS setup flow or onboarding screen showing supplier connection and order guide configuration
+      📸 Screenshot: VOS app sign-in and first order screen, using the order guide the distributor uploaded
     </div>
   </div>
 </section>
@@ -517,17 +516,15 @@ module.exports = {
       <div class="testimonial-card featured">
         <div class="testimonial-stars">★★★★★</div>
         <p class="testimonial-quote">
-          "VOS simplified the entire ordering process for our kitchen.
-          I used to spend hours every week on the phone with our distributors:
-          placing orders, following up, fixing mistakes. Now it's done in minutes
-          and I actually know the order went through."
+          "I used to spend hours every week ordering food. Now it's simple,
+          super easy, and I have free time to spend on other aspects of my restaurant."
         </p>
         <div class="testimonial-author">
           <!-- DEVS: Replace with Tony Luna's photo -->
           <div class="author-avatar">Photo</div>
           <div>
             <div class="author-name" style="color:#fff;">Tony Luna</div>
-            <div class="author-role">Owner-Chef</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
           </div>
         </div>
       </div>
@@ -538,9 +535,9 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We used to miss orders on weekends because our supplier was closed by
+            "We used to miss orders on weekends because our distributor was closed by
             the time we figured out what we needed. With VOS, we order Sunday night
-            and it's ready for Monday delivery."
+            and they have it first thing Monday."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -555,8 +552,8 @@ module.exports = {
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
             "The voice ordering is the part my kitchen staff loves most.
-            They call it out while they're doing a count. No typing, no hold time.
-            Took about 10 minutes for everyone to figure it out."
+            They call it out while they check the cooler. No typing, no hold time.
+            And if a delivery shows up mid-order, it saves right where they stopped."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -579,10 +576,10 @@ module.exports = {
 <section class="section-pad" id="integrations" aria-label="Integrations">
   <div class="container text-center">
     <span class="eyebrow">Delivery Formats</span>
-    <h2>Works with whatever your supplier already uses</h2>
+    <h2>Works with whatever your distributor already uses</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      VOS sends orders in the format that works for your distributor.
-      No new systems required on their end.
+      VOS sends your order in the format your distributor works with.
+      They don't need a new system to receive it.
     </p>
 
     <div class="integrations-logos" style="margin-top: 40px;">
@@ -592,11 +589,11 @@ module.exports = {
       </div>
       <div class="integration-badge">
         <div class="integration-logo-placeholder"></div>
-        PDF
+        PDF, Excel, Word
       </div>
       <div class="integration-badge">
         <div class="integration-logo-placeholder"></div>
-        Excel
+        QuickBooks
       </div>
       <div class="integration-badge">
         <div class="integration-logo-placeholder"></div>
@@ -646,9 +643,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Why VoiceOrder Solutions</span>
-      <h2>Order entry software built for restaurants.<br>Not adapted from something else.</h2>
+      <h2>Made for kitchens that order supplies.<br>Not adapted from something else.</h2>
       <p class="lead mt-16">
-        Generic software wasn't designed for restaurant supply ordering.
+        Generic order entry software wasn't designed for restaurant supply ordering.
         Here's how VOS compares to the alternatives.
       </p>
     </div>
@@ -689,13 +686,13 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Real-time inventory visibility</td>
+            <td>Catalog that updates with distributor stock</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Works with your existing suppliers</td>
+            <td>Keeps the distributor you already use</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-yes">✓</span></td>
@@ -707,7 +704,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Error-free digital order records</td>
+            <td>Numbered, timestamped record of every order</td>
             <td><span class="check-yes">✓</span></td>
             <td>Partial</td>
             <td><span class="check-no">✗</span></td>
@@ -719,8 +716,8 @@ module.exports = {
             <td>0 minutes saved</td>
           </tr>
           <tr>
-            <td>Setup time</td>
-            <td>1 day</td>
+            <td>Time from setup to first order</td>
+            <td>Usually same day</td>
             <td>Weeks</td>
             <td>None needed</td>
           </tr>
@@ -749,7 +746,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Common questions about VOS order entry software</h2>
+      <h2>Common questions about order entry software for small business</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -760,10 +757,10 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. VOS is designed to fit into how you already work. You keep your
-          current suppliers and your current processes. VOS just replaces the
-          phone call. It makes the order entry part faster, more accurate,
-          and available 24/7. No rip-and-replace required.
+          No. VOS is designed to fit into how you already work. Your distributor
+          stays the same, and so does the way you deal with them. VOS takes the
+          place of the phone call, so placing the order is quicker, more accurate,
+          and open 24/7. No rip-and-replace required.
         </div>
       </div>
 
@@ -775,21 +772,20 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Yes. The VOS mobile app works on both iOS and Android. Your team can
           place orders hands-free from anywhere: the walk-in, the prep line,
-          or the receiving dock. Press to speak, say your items and quantities,
-          and the order is confirmed and sent automatically.
+          or the receiving dock. They say the items and quantities, look over
+          the order, and send it.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What if I need to order on a Sunday night or after my supplier closes?
+          What if I need to order on a Sunday night or after my distributor closes?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          That's one of the main reasons restaurants use VOS. The system is
-          available 24/7. Place your order anytime and it goes directly to
-          your supplier, even outside their business hours. Your order is
-          waiting for them when they open Monday morning.
+          That's no problem. VOS is always on. Place your order whenever it
+          suits you and it goes to your distributor, even outside their
+          business hours. It's waiting for them when they open.
         </div>
       </div>
 
@@ -799,11 +795,11 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          VOS confirms each item and quantity before the order is submitted.
-          Unlike phone orders (where items get misheard and written down wrong),
-          VOS creates a digital record of exactly what you ordered. Every order
-          is timestamped and confirmed, so there are no disputes about what was
-          placed or when.
+          Your order is digitized and confirmed before it goes anywhere, and you
+          can review it before you send it. Unlike phone orders (where items get
+          misheard and written down wrong), VOS creates a digital record of exactly
+          what you ordered. Every order gets its own order number, date and
+          timestamp, so there are no disputes about what was placed or when.
         </div>
       </div>
 
@@ -813,11 +809,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS was built for independent restaurants and small food service
-          businesses, not enterprise chains with big IT teams. It's order entry
-          software for small businesses that want a simple, fast way to place
-          supply orders without adding complexity. Setup is straightforward and
-          pricing is built for small operators.
+          Yes. You don't need an IT team, new hardware or a long setup. If your
+          kitchen can talk through an order list, it can use VOS. Pricing is
+          quote-based: it's set up through your distributor, or we can share
+          it on request.
         </div>
       </div>
 
@@ -827,23 +822,24 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          VOS sends orders in whatever format your supplier uses: email, PDF,
-          Excel spreadsheet, EDI, or direct API integration with their platform.
-          You don't need to ask your distributor to change anything. VOS adapts
-          to what they already have.
+          VOS sends orders in whatever format your distributor uses: email with a
+          PDF, Excel or Word file, EDI, API, QuickBooks, or a direct link to their
+          platform. Nothing has to change on their end. VOS adapts to what
+          they already have.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long does setup take?
+          How do I get set up, and how long does it take?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most restaurants are fully set up within one business day. The VOS
-          team handles the catalog setup for you, loading your supplier's
-          products and building your custom order guide. You don't need an IT
-          team or technical experience to get started.
+          VOS order entry software reaches restaurants through their food
+          distributor. Your distributor sets up your account and uploads your
+          order guide. Then you install the app, and most customers place their
+          first order the same day. If your distributor doesn't offer VOS yet, ask
+          them about it, or contact VOS and we'll connect you with the right person.
         </div>
       </div>
 
@@ -860,7 +856,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Ready to stop spending 30 minutes on hold just to place an order?</h2>
-  <p>Join restaurants already saving 20–30 minutes every time they order supplies.</p>
+  <p>Restaurants on VOS save 20–30 minutes every time they order supplies. Your distributor can set you up, or send us a note and we'll help.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your restaurant email" aria-label="Email address" />
@@ -868,10 +864,10 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ Up and running in 1 day</span>
-    <span>✓ Works with your current suppliers</span>
+    <span>✓ Order the day you're set up</span>
+    <span>✓ Your distributor handles setup</span>
     <span>✓ No system replacement needed</span>
-    <span>✓ Free setup support included</span>
+    <span>✓ Pricing on request</span>
   </div>
 </section>
 
@@ -915,8 +911,8 @@ module.exports = {
       <ul role="list">
         <li><a href="/order-tracking-software">Order Tracking</a></li>
         <li><a href="/order-taking-software">Order Taking</a></li>
-        <li><a href="/restaurant-purchasing-software">Restaurant Purchasing</a></li>
         <li><a href="/catalog-management-software">Catalog Management</a></li>
+        <li><a href="/inventory-visibility-software">Inventory Visibility</a></li>
         <li><a href="/">All Features</a></li>
       </ul>
     </div>
@@ -924,7 +920,7 @@ module.exports = {
   </div>
 
   <div class="footer-bottom">
-    <span>© 2025 VoiceOrder Solutions. All rights reserved.</span>
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
     <div style="display:flex; gap:20px; flex-wrap:wrap;">
       <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
       <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>

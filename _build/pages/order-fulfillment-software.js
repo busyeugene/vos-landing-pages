@@ -6,8 +6,8 @@
  */
 module.exports = {
   title: 'Order Fulfillment Software for Food Distributors | VOS',
-  description: 'VoiceOrder Solutions is order fulfillment software for food distributors. Voice, web, and app orders arrive in one queue, ready to pick, 24 hours a day.',
-  related: ['order-taking-software', 'order-tracking-software', 'distribution-resource-planning-software'],
+  description: 'Order fulfillment software for food distributors. Customers order by voice 24/7, and each order reaches your team confirmed, timestamped and in your format.',
+  related: ["order-taking-software","order-tracking-software","distribution-resource-planning-software"],
   relatedHeading: 'See the rest of the order journey',
   body: `
 <!--@NAVBAR-->
@@ -22,12 +22,13 @@ module.exports = {
 
     <div>
       <span class="eyebrow">Order Fulfillment Software for Food Distributors</span>
-      <h1>Order Fulfillment Software Without the Phone Queue.</h1>
+      <h1>Order Fulfillment Software That Starts With Clean Orders.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is order fulfillment software for food distributors
-        and suppliers. Voice, web, and app orders land in one queue, already
-        structured and ready to pick. Nothing waits on a voicemail. Nothing gets
-        retyped by hand.
+        VoiceOrder Solutions is order fulfillment software for independent and
+        DSD food distributors. Your restaurant and store customers order by voice,
+        from a list built for their account. Each order reaches your team confirmed,
+        timestamped and in the format you already use. Nothing waits on a
+        voicemail. Nothing gets retyped by hand.
       </p>
 
       <div class="hero-ctas">
@@ -38,16 +39,16 @@ module.exports = {
       <div class="hero-trust">
         <span>Works with your current systems</span>
         <span class="hero-trust-dot"></span>
-        <span>Up and running in 1 day</span>
+        <span>Live in 24 to 48 hours</span>
         <span class="hero-trust-dot"></span>
-        <span>Email, PDF, Excel, EDI, API</span>
+        <span>Email (PDF, Excel, Word), EDI, API, QuickBooks</span>
       </div>
     </div>
 
     <div>
       <!-- DEVS: Replace with VOS product screenshot (incoming order queue) -->
       <div class="img-placeholder tall">
-        📸 Product screenshot:<br>Incoming order queue with<br>customer, items, quantities,<br>and delivery date
+        📸 Product screenshot:<br>Admin platform order history<br>with order number, customer,<br>items and timestamp
       </div>
     </div>
 
@@ -68,12 +69,12 @@ module.exports = {
       <div class="stat-label">orders arrive, even long after you close</div>
     </div>
     <div>
-      <div class="stat-number">One</div>
-      <div class="stat-label">queue for voice, web, and app orders</div>
+      <div class="stat-number">20–30</div>
+      <div class="stat-label">minutes saved per order</div>
     </div>
     <div>
       <div class="stat-number">Zero</div>
-      <div class="stat-label">voicemails to transcribe by hand</div>
+      <div class="stat-label">orders to retype from a voicemail</div>
     </div>
   </div>
 </section>
@@ -87,9 +88,9 @@ module.exports = {
     <span class="eyebrow">Sound Familiar?</span>
     <h2>Your team can't start picking until someone types it in.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      Orders arrive by phone, text, email, and voicemail, in five different
-      formats, from customers who all say things a little differently. Here's
-      what that costs you every morning:
+      Orders arrive by phone, text, email, and voicemail, and every customer
+      says things a little differently. Here's what that costs you every
+      morning:
     </p>
 
     <div class="problem-grid">
@@ -99,8 +100,8 @@ module.exports = {
         <h4 class="mb-8">"Half our orders are still voicemails"</h4>
         <p class="text-muted" style="font-size:15px;">
           Someone sits there each morning playing them back and typing them up.
-          That's an hour gone before a single case moves, and it's an hour where
-          mistakes creep in.
+          That time is gone before a single case moves, and every retyped line
+          is a chance for a mistake.
         </p>
       </div>
 
@@ -145,25 +146,25 @@ module.exports = {
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row">
         <div>
-          <span class="eyebrow">Ready to Pick</span>
-          <h3>Every order arrives ready to pick.</h3>
+          <span class="eyebrow">Clean Orders</span>
+          <h3>Every order arrives clean and complete.</h3>
           <p class="mt-12 text-muted">
-            Orders come in as clean line items, matched to your catalog, with the
-            right unit size and pack already attached. Your team reads a pick list
-            instead of decoding a voicemail, so fulfillment starts the moment the
-            order lands rather than after someone transcribes it.
+            Each customer orders from their own order guide: the items they buy,
+            at your prices, tied to your SKUs. So every line your team sees is a
+            real item from your catalog. Nobody decodes a voicemail, and
+            fulfillment starts when the order lands, not after someone retypes it.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Every line matched to a real catalog item, size, and pack</span></li>
+            <li><span class="bullet-check">✓</span><span>Every line tied to one of your SKUs</span></li>
             <li><span class="bullet-check">✓</span><span>No handwriting, no voicemails, no guessing what they meant</span></li>
-            <li><span class="bullet-check">✓</span><span>Customer, quantities, and delivery date on one screen</span></li>
-            <li><span class="bullet-check">✓</span><span>Fewer credits and redeliveries from picking the wrong thing</span></li>
+            <li><span class="bullet-check">✓</span><span>Order number, date, timestamp and who placed it, on every order</span></li>
+            <li><span class="bullet-check">✓</span><span>Drivers show up with what the customer actually ordered</span></li>
           </ul>
-          <a href="/catalog-management-software" class="feature-link">See how the catalog drives it →</a>
+          <a href="/catalog-management-software" class="feature-link">See how order guides stay current →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Structured order detail with<br>line items, pack sizes,<br>and quantities
+            📸 Screenshot:<br>Order detail with order number,<br>timestamp, SKUs,<br>and quantities
           </div>
         </div>
       </div>
@@ -174,25 +175,26 @@ module.exports = {
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row reverse">
         <div>
-          <span class="eyebrow">One Queue</span>
-          <h3>Multi channel order fulfillment software in one queue.</h3>
+          <span class="eyebrow">One Channel</span>
+          <h3>Trade multi channel order fulfillment software for one channel.</h3>
           <p class="mt-12 text-muted">
-            Your customers order however they like. Some talk into the app, some
-            click through the web, some do both depending on the shift. Every one
-            of those channels drops into the same queue in the same format, so
-            your team works one list instead of checking four inboxes.
+            Calls, texts, emails and voicemails each need someone to sort them out.
+            VOS gives your customers one place to order instead: they talk through
+            the order in the app, at any hour, and your team gets it in the
+            same format every time. Your team works from one kind of order, not
+            four inboxes.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Voice, web, and mobile app orders in a single view</span></li>
+            <li><span class="bullet-check">✓</span><span>Hands-free voice ordering from anywhere in the kitchen</span></li>
             <li><span class="bullet-check">✓</span><span>Orders arrive 24/7, including nights and weekends</span></li>
-            <li><span class="bullet-check">✓</span><span>Nothing sits in a voicemail box until someone checks it</span></li>
+            <li><span class="bullet-check">✓</span><span>The order saves itself if a customer gets pulled away mid-order</span></li>
             <li><span class="bullet-check">✓</span><span>One order fulfillment tool instead of a phone, an inbox, and a notepad</span></li>
           </ul>
           <a href="/order-taking-software" class="feature-link">See how orders come in →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Unified order queue showing<br>voice, web, and app orders<br>side by side
+            📸 Screenshot:<br>Customer ordering screen<br>in the VOS app on<br>iOS and Android
           </div>
         </div>
       </div>
@@ -204,24 +206,25 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Confirm First</span>
-          <h3>Sort out shorts and swaps before picking starts.</h3>
+          <h3>Orders get checked before they reach your team.</h3>
           <p class="mt-12 text-muted">
-            When something is short, you want to know before the truck is loaded,
-            not after. VOS shows live availability against the order, so your team
-            can confirm what's going out and flag a substitute up front. The
-            customer finds out while they can still plan around it.
+            The customer reviews the order before sending it, then VOS digitizes
+            and confirms it. Mistakes get caught at the order stage, not at the
+            store door. Each customer's catalog also updates as your stock levels
+            change, so there are fewer stockout surprises and last-minute
+            substitutions.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Live availability checked against every incoming order</span></li>
-            <li><span class="bullet-check">✓</span><span>Flag a substitute before the order is picked</span></li>
-            <li><span class="bullet-check">✓</span><span>Confirm the order so both sides agree on what's coming</span></li>
-            <li><span class="bullet-check">✓</span><span>Fewer surprise shorts showing up at the back door</span></li>
+            <li><span class="bullet-check">✓</span><span>Customers review every line before they hit send</span></li>
+            <li><span class="bullet-check">✓</span><span>The customer gets a confirmation, your team gets the order</span></li>
+            <li><span class="bullet-check">✓</span><span>Confirmations sent by push notification or text</span></li>
+            <li><span class="bullet-check">✓</span><span>Every order trackable from placement through to fulfillment</span></li>
           </ul>
-          <a href="/order-tracking-software" class="feature-link">See order status tracking →</a>
+          <a href="/order-tracking-software" class="feature-link">Track an order after it is placed →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Order line flagged short<br>with a suggested<br>substitute item
+            📸 Screenshot:<br>Order review screen<br>before the customer<br>sends the order
           </div>
         </div>
       </div>
@@ -236,22 +239,23 @@ module.exports = {
           <h3>Order fulfillment software for small business distributors.</h3>
           <p class="mt-12 text-muted">
             You do not need a warehouse management system with a six-month rollout
-            to stop retyping orders. VOS is an order fulfillment platform sized for
-            independent distributors and family suppliers: it drops into the way you
-            already work, sends orders in the format your systems already read, and
-            is running in a day.
+            to stop retyping orders. VOS was designed for independent and DSD
+            distributors, not enterprise IT teams. It is an order fulfillment
+            platform for the front half of the job: getting clean orders in. It
+            fits the way you already work, sends orders in a format your systems
+            already read, and is live in a day or two.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Sends orders as email, PDF, Excel, EDI, or straight through the API</span></li>
+            <li><span class="bullet-check">✓</span><span>Email attachments in Excel, Word or PDF, or EDI, API and QuickBooks</span></li>
             <li><span class="bullet-check">✓</span><span>No new system for your back office to learn</span></li>
-            <li><span class="bullet-check">✓</span><span>Keep your current customers, routes, and process</span></li>
-            <li><span class="bullet-check">✓</span><span>Set up in one business day, not one quarter</span></li>
+            <li><span class="bullet-check">✓</span><span>Your routes and delivery days stay as they are</span></li>
+            <li><span class="bullet-check">✓</span><span>No IT project, and no waiting a quarter to start</span></li>
           </ul>
           <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">Talk to us about your setup →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Delivery format settings<br>for email, PDF, Excel,<br>EDI, and API
+            📸 Screenshot:<br>Order delivered as email<br>with PDF, Excel or Word,<br>EDI, API, QuickBooks
           </div>
         </div>
       </div>
@@ -268,18 +272,18 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>All the tools your team needs to get orders out the door.</h2>
-      <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
+      <h2>What your team and your customers get with VOS.</h2>
+      <p class="lead mt-16">Your customers get the app. Your team gets clean orders and one place to manage every account.</p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
         <div class="feature-card-icon">📥</div>
-        <h4>One Order Queue</h4>
+        <h4>One Way to Order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Voice, web, and app orders in a single list, in one format, in the
-          order they arrived.
+          Customers order in one app instead of calling or leaving voicemails,
+          so every order looks the same when it lands.
         </p>
       </div>
 
@@ -294,19 +298,19 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📦</div>
-        <h4>Live Availability</h4>
+        <h4>Stock-Aware Catalog</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Shorts show up against the order before picking, not at the customer's
-          back door.
+          Catalogs update automatically when stock moves, with no one editing
+          them by hand.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔁</div>
-        <h4>Substitutions</h4>
+        <h4>Order Confirmation</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Flag a swap and confirm it up front, so the customer can plan their
-          prep around it.
+          Customers review and confirm before sending, so the order you get is
+          the order they meant.
         </p>
       </div>
 
@@ -314,8 +318,8 @@ module.exports = {
         <div class="feature-card-icon">🏷️</div>
         <h4>Account-Level Pricing</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every customer sees their own items, pack sizes, and pricing from one
-          shared back end.
+          Each account sees its own items, at the prices you set for that
+          account.
         </p>
       </div>
 
@@ -323,8 +327,8 @@ module.exports = {
         <div class="feature-card-icon">📄</div>
         <h4>Any Delivery Format</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Email, PDF, Excel, EDI, or a direct API push. Whatever your systems
-          already read.
+          Word, Excel or PDF by email, plus QuickBooks, EDI and API. Whatever
+          fits how you work now.
         </p>
       </div>
 
@@ -332,17 +336,17 @@ module.exports = {
         <div class="feature-card-icon">🗂️</div>
         <h4>Full Order History</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order a customer has placed, searchable, so disputes take a
-          minute instead of an afternoon.
+          Every order keeps its number, date, time and who placed it, so a
+          dispute is quick to settle.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🌐</div>
-        <h4>Web-Based Access</h4>
+        <h4>Admin Platform</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Log in from any browser. Nothing to install and nothing to update
-          before a busy morning.
+          Update order guides, manage customer accounts and look up past orders,
+          all in one place.
         </p>
       </div>
 
@@ -368,9 +372,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See what your morning looks like with zero voicemails to transcribe</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough. We'll show you the order queue,
-        substitutions, and delivery formats working together, for a distributor
-        like yours.
+        Book a 20-minute demo. We'll show you order guides, order confirmation,
+        and delivery formats working together, for a distributor like yours.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -385,7 +388,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Up and running in one day</h2>
+      <h2>Up and running in two days or less</h2>
       <p class="lead mt-16">
         No IT project. No systems to rip out. Three steps and your orders stop
         arriving as voicemails.
@@ -396,35 +399,35 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>We load your catalog</h4>
+        <h4>Share your order guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS imports your products, pack sizes, and account pricing, so incoming
-          orders match real items from day one.
+          Send us each customer's order guide. We load it into VOS with your
+          prices and SKUs, so orders match real items from the start.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Your customers get ordering</h4>
+        <h4>We set up your accounts</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          They place orders by voice, web, or app. Each account sees its own
-          items and pricing, nothing else.
+          Each account gets access to the iOS or Android app. Most customers
+          are ordering on day one.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Orders land ready to pick</h4>
+        <h4>Orders land with your team</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Everything arrives structured in one queue and flows into your system
-          in the format you already use.
+          Each order arrives confirmed and timestamped, ready for your team to
+          fill the way it always has.
         </p>
       </div>
 
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS order queue with account setup and delivery format configuration
+      📸 Screenshot: VOS admin platform with customer order guides and account setup
     </div>
   </div>
 </section>
@@ -437,25 +440,22 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What food service teams say about VOS</h2>
+      <h2>What distributors and their customers say about VOS</h2>
     </div>
 
     <div class="testimonials-grid">
-
-      <!-- DEVS: exact quote pending client sign-off (see knowledge-base/vos-product-facts.md) -->
       <div class="testimonial-card featured">
         <div class="testimonial-stars">★★★★★</div>
         <p class="testimonial-quote">
-          "VOS simplified the entire ordering process. Orders used to come in
-          three different ways and someone had to sort it all out by hand every
-          morning. Now they arrive the same way every time, ready to go."
+          "I used to spend hours every week ordering food. Now it's simple, super
+          easy, and I have free time to spend on other aspects of my restaurant."
         </p>
         <div class="testimonial-author">
           <!-- DEVS: Replace with Tony Luna's photo -->
           <div class="author-avatar">Photo</div>
           <div>
             <div class="author-name" style="color:#fff;">Tony Luna</div>
-            <div class="author-role">Owner-Chef</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
           </div>
         </div>
       </div>
@@ -465,8 +465,9 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We stopped transcribing voicemails completely. That was an hour of
-            someone's morning, every single morning, and now it's zero."
+            "Our office used to start the day playing back voicemails and typing
+            them up. Now it all comes through the app, and the orders are
+            already waiting when we open."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -480,8 +481,9 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Wrong pack sizes were our biggest source of credits. Orders come in
-            matched to the real item now, so that problem mostly went away."
+            "Wrong items used to turn into credits and second trips. Now each
+            order is built from the items that account really buys, so our drivers
+            load what they asked for."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -510,8 +512,9 @@ module.exports = {
       <span class="eyebrow">Why VoiceOrder Solutions</span>
       <h2>Built for food distribution.<br>Not repurposed warehouse software.</h2>
       <p class="lead mt-16">
-        Most fulfillment tools were built to ship parcels and then pointed at
-        food service. Here's how VOS compares.
+        Warehouse tools run the inside of your building. VOS handles the step
+        before that: getting a clean order from your customer. Here's how they
+        compare.
       </p>
     </div>
 
@@ -527,19 +530,19 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Voice, web, and app orders in one queue</td>
+            <td>Voice ordering app on iPhone and Android</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Orders arrive already structured</td>
+            <td>Orders arrive digitized, with no retyping</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Built around food service packs and units</td>
+            <td>An order guide per account, tied to your SKUs</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td>Manual</td>
@@ -551,7 +554,7 @@ module.exports = {
             <td>Manual</td>
           </tr>
           <tr>
-            <td>Substitutions flagged before picking</td>
+            <td>Orders confirmed before they are sent</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
@@ -563,7 +566,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Sends in your format (EDI, API, Excel, PDF)</td>
+            <td>Sends orders the way your system takes them</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
@@ -575,14 +578,14 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Turning an order into a pick list</td>
-            <td>Automatic</td>
-            <td>Automatic</td>
-            <td>Manual</td>
+            <td>Pick paths, bins and shipping labels</td>
+            <td>Not a WMS</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>1 day</td>
+            <td>1 to 2 days</td>
             <td>Months</td>
             <td>None needed</td>
           </tr>
@@ -622,10 +625,9 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. VOS changes how orders reach you, not how you run your business.
-          You keep your current customers, routes, and back-office systems. Orders
-          arrive structured and get sent to you in the format you already use,
-          whether that's email, Excel, EDI, or a direct API push.
+          No. You keep your customers, routes, and back-office systems. VOS only
+          changes the way orders get to you, and they arrive in a format you can
+          use today.
         </div>
       </div>
 
@@ -635,9 +637,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Food distributors, produce and protein suppliers, and food service
-          wholesalers who take supply orders from restaurants. If most of your
-          orders still arrive by phone, voicemail, or text, this is built for you.
+          Small to mid-size independent food distributors and DSD distributors
+          who sell to restaurants and stores. If most of your orders still arrive
+          by phone, voicemail, or text, this is built for you. Food service
+          software platforms can also add it through the API.
         </div>
       </div>
 
@@ -647,8 +650,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS is built for business-to-business food supply, where a restaurant
-          orders from a distributor they already have an account with. It does not
+          No. VOS is built for business-to-business food supply, where the
+          kitchens and shops you supply order from you on their accounts. It does not
           run an online store, take consumer payments, or ship parcels to shoppers.
           If you need to fulfill retail ecommerce orders, this is not the right fit.
         </div>
@@ -660,10 +663,11 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS is not a warehouse management system. It does not manage bin
-          locations, pick paths, or forklift routing. What it does is make sure the
-          order reaching your warehouse is complete, correct, and structured, so
-          your existing process runs on good information instead of a voicemail.
+          No. VOS is not a warehouse management system. It does not handle bin
+          locations, pick paths, barcode scanning, packing, or shipping labels.
+          What it does is make sure the order reaching your warehouse is complete,
+          correct, and timestamped, so your pick process runs on good information
+          instead of a voicemail.
         </div>
       </div>
 
@@ -673,23 +677,23 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          However you want them. VOS delivers orders as email, PDF, Excel, or EDI,
-          and integrates directly with distributor platforms through an API so
-          orders flow in without anyone typing them. Your customers never see any
-          of that, they just place an order.
+          However you want them. VOS sends each order as an email with a PDF,
+          Excel or Word file, through EDI, into QuickBooks, or straight into your
+          distribution platform through the API. Your customers never see any of
+          that, they just place an order.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What happens when an item is short?
+          What does my team see when an order comes in?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          You see it against the order before picking starts. Your team can flag a
-          substitute and confirm it, so the customer knows while they can still
-          adjust their prep. That is a much better conversation than a short case
-          turning up at the back door on a Friday.
+          Each order has a unique order number, the date and time it was placed,
+          and the name of who placed it. Every line is an item from that
+          account's order guide, at your price and tied to your SKU, so your
+          team can start filling it without a call back to check.
         </div>
       </div>
 
@@ -699,10 +703,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It is built for independents. You do not need a warehouse management
-          system or an IT department to run this order fulfillment software. Most
-          teams are set up in a day and it works alongside whatever they already
-          have.
+          Yes. Small and mid-size distributors are exactly who it is for. You do not need a WMS
+          or an IT department to run this order fulfillment software. It works
+          alongside the systems you already have, and pricing is quoted on
+          request.
         </div>
       </div>
 
@@ -712,9 +716,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most teams are fully set up within one business day. The VOS team imports
-          your catalog, pack sizes, and account pricing, and configures how orders
-          get delivered to you. There is no technical work on your end.
+          Most distributors are up and running within 24 to 48 hours, with no IT
+          project. You share your customer order guides, and the VOS team uploads
+          them to the admin platform and sets up each account. Most customers
+          place their first order the same day.
         </div>
       </div>
 
@@ -731,7 +736,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Ready to stop retyping orders every morning?</h2>
-  <p>Join distributors taking orders 24/7 in one queue, already structured and ready to pick.</p>
+  <p>Let your customers order any time, and give your team orders it can start on right away.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -739,10 +744,10 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ Up and running in 1 day</span>
+    <span>✓ Live within two days</span>
     <span>✓ Works with your current systems</span>
-    <span>✓ No system replacement needed</span>
-    <span>✓ Free setup support included</span>
+    <span>✓ iOS and Android apps for your customers</span>
+    <span>✓ No IT project required</span>
   </div>
 </section>
 
@@ -764,9 +769,9 @@ module.exports = {
     <div class="footer-col">
       <h5>Features</h5>
       <ul role="list">
-        <li><a href="#features">Ready-to-Pick Orders</a></li>
-        <li><a href="#features">One Order Queue</a></li>
-        <li><a href="#features">Substitutions</a></li>
+        <li><a href="#features">Clean, Complete Orders</a></li>
+        <li><a href="#features">One Ordering Channel</a></li>
+        <li><a href="#features">Order Confirmation</a></li>
         <li><a href="#features">Delivery Formats</a></li>
         <li><a href="#integrations">Integrations</a></li>
       </ul>
@@ -775,10 +780,10 @@ module.exports = {
     <div class="footer-col">
       <h5>More From VOS</h5>
       <ul role="list">
-        <li><a href="/order-taking-software">Order Taking</a></li>
-        <li><a href="/order-tracking-software">Order Tracking</a></li>
-        <li><a href="/order-entry-software">Order Entry</a></li>
+        <li><a href="/inventory-control-software">Inventory Control</a></li>
         <li><a href="/catalog-management-software">Catalog Management</a></li>
+        <li><a href="/inventory-tracking-software">Inventory Tracking</a></li>
+        <li><a href="/order-entry-software">Order Entry</a></li>
         <li><a href="/">All Features</a></li>
       </ul>
     </div>
@@ -795,7 +800,7 @@ module.exports = {
   </div>
 
   <div class="footer-bottom">
-    <span>© 2025 VoiceOrder Solutions. All rights reserved.</span>
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
     <div style="display:flex; gap:20px; flex-wrap:wrap;">
       <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
       <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>

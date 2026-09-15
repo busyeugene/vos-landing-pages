@@ -2,6 +2,64 @@
 
 Source of truth for all copy. Check here before writing any claim on any page.
 
+---
+
+## CURRENT STATE: verified on the live site 2026-09-15 (overrides anything older below)
+
+Read off voiceordersolutions.com (homepage, /how-it-works, /independent-food-distributors,
+/direct-store-delivery-dsd-distributors, /food-service-software-platforms,
+/restaurants-food-service-operators, /order-management, /inventory-management).
+
+### Who buys it (the homepage was rewritten distributor-first)
+- **Buyers:** small to mid-size independent food distributors, Direct Store Delivery (DSD) distributors,
+  and food service software platforms (who add voice ordering through the API).
+- **Users:** the distributor's restaurant and store customers, who place orders in the app.
+- **Restaurant operators get it through their distributor.** Homepage: "For restaurant operators: contact
+  your food distributor to get set up, or reach out to us directly and we'll connect you with the right person."
+- Homepage: "Built for Small to Mid-Size Distributors. Enterprise pricing and enterprise complexity aren't your problem."
+- Standing client decision (Writing KB, 2026-08-28): describe VOS from the distributor's side.
+
+### Audience split for these landing pages (Eugene, 2026-09-15)
+| Speaks to the distributor ("your restaurant customers") | Speaks to the operator, says VOS comes via their distributor |
+|---|---|
+| order taking, order fulfillment, order tracking, distribution resource planning, catalog management, vendor management, inventory tracking, inventory planning, inventory replenishment, inventory automation, inventory visibility, inventory control | order entry, restaurant purchasing, restaurant checklist, restaurant stock management |
+
+### Verified facts (quote-safe)
+| Fact | Live wording / source |
+|---|---|
+| Time saved | "20–30 Min / Saved Per Order" (homepage). Never "30 minutes a week". |
+| Always on | "Available 24/7 / Never Miss An Order"; after-hours orders are captured |
+| Setup (distributor) | "Most distributors are up and running within 24 to 48 hours. There's no complex implementation and no IT project required." |
+| Setup (restaurant customer) | "Most customers are placing their first order the same day." Distributor sets up the account and uploads the order guide. |
+| Onboarding flow | Distributor shares customer order guides → VOS uploads them to the admin platform and provisions each account → customers download the app and order |
+| Order guides | Each account gets its own order guide: the items it actually orders, at the prices the distributor set, tied to the distributor's SKUs. "You control the catalog and inventory; they control the convenience." |
+| Admin platform | Distributor updates order guides, manages customer accounts, sees order history, all in one place |
+| Order record | Every order gets a unique order number, date and timestamp; who ordered and when |
+| Confirmation | Orders are digitized and confirmed before sending; customer can review before submitting; "timestamped and trackable from placement to fulfillment" |
+| Interruption recovery | Order saves automatically if the customer gets pulled away; resume where they stopped |
+| Notifications | Push notifications and text messages for promos and confirmations |
+| Delivery formats | Email to a rep or purchasing team as PDF, Excel or Word; EDI; API; QuickBooks; direct platform integration |
+| Platforms | "API-ready", integrates with distribution management platforms, ERPs and food service software; additive, "extending what your platform already does rather than competing with it" |
+| Inventory (distributor side) | Real-time inventory visibility tied to order activity; catalog updates automatically as stock levels change; visibility across the full catalog; fewer stockout surprises and last-minute substitutions; works alongside existing systems |
+| Reps / drivers | "Free Your Sales Reps to Sell"; DSD: drivers show up with the right product, back office processes clean orders |
+| Apps | iOS and Android |
+| Demo | "Book a 20-minute demo" at /contact-us |
+| Pricing | Quote-based, none published. Distributor page says "pricing is straightforward". Never state or imply a number. |
+| Testimonial | **Tony Luna, Owner-Chef, Prairie Moon:** "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant." (verbatim, homepage) |
+
+### What VOS is NOT (say so where a keyword pulls the other way)
+Not an ERP, not a POS, not guest or online-menu ordering, not a WMS (no bin locations, pick paths, barcode
+scanning, packing or shipping labels), not a demand-forecasting engine, not a purchase-order system for the
+distributor's own suppliers, not route planning, not accounting. It is the ordering front door plus inventory
+visibility, and it sits alongside the systems a distributor already runs.
+
+### Still unconfirmed (carried from batches 1 to 3, not contradicted by the site, not backed by it either)
+- Customers ordering **on the web** (the site only shows iOS and Android for ordering; web is the admin platform).
+  Keep where already written, do not expand, confirm with client.
+- Par levels inside order guides, restaurant-side stock counts, suggested reorders (Q2, Q10): not on the live site.
+  Do not put these on distributor pages. Operator pages may mention them only softly and flagged.
+- Order status beyond "confirmed" and "trackable to fulfillment" (Q3).
+
 ## What VoiceOrder Solutions does
 Voice + web-based order entry software for restaurants placing supply orders with food distributors. Restaurants can place orders 24/7 by voice (mobile app) or online — no hold time, no errors, no system to replace.
 
@@ -13,13 +71,13 @@ Voice + web-based order entry software for restaurants placing supply orders wit
 - Eliminates order errors from miscommunication on phone calls
 
 ## Who it's for
-Restaurants ordering supplies from food distributors. Not a POS system. Not a customer-facing ordering tool.
+*(Superseded 2026-09-15: the buyer is the distributor, see CURRENT STATE.)* Restaurants ordering supplies from food distributors. Not a POS system. Not a customer-facing ordering tool.
 
 ## Tagline
 "Your customers order. Your team delivers. We handle everything in between."
 
 ## Real testimonials
-- **Tony Luna, Owner-Chef** — simplified ordering, saved significant weekly time (exact quote TBD — get from client before publishing)
+- **Tony Luna, Owner-Chef, Prairie Moon** — real quote now published on the homepage, see CURRENT STATE (resolved 2026-09-15)
 
 ## CTA destination
 All CTAs link to: https://www.voiceordersolutions.com/contact-us

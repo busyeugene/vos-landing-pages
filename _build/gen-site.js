@@ -42,7 +42,7 @@ console.log('✓ robots.txt');
 /* ── index.html card grid, grouped by cluster ────────────────── */
 const GROUPS = [
   { key: 'order', label: 'Ordering', title: 'Placing, taking, fulfilling, and tracking orders' },
-  { key: 'inventory', label: 'Inventory and Stock', title: 'Knowing what you have and what to buy' },
+  { key: 'inventory', label: 'Inventory and Stock', title: 'Knowing what you have and what to stock' },
   { key: 'ops', label: 'Catalog and Operations', title: 'The catalog, the buying, and the routine around them' },
 ];
 
@@ -77,18 +77,18 @@ idx = idx.slice(0, start) + main + idx.slice(end);
 
 // refresh hub head + intro copy for 12 pages
 idx = idx.replace(/<meta name="description" content="[^"]*" \/>/,
-  '<meta name="description" content="Feature pages for VoiceOrder Solutions, voice and web order entry software for restaurants and food distributors. Ordering, inventory, catalog, and purchasing." />');
+  '<meta name="description" content="Feature pages for VoiceOrder Solutions: voice ordering and real-time inventory visibility for food distributors and the restaurants they serve." />');
 idx = idx.replace(/(<title>)[^<]*(<\/title>)/, '$1VoiceOrder Solutions: Feature Landing Pages$2');
 if (!/rel="canonical"/.test(idx)) {
   idx = idx.replace(/(<meta name="description"[^>]*\/>)/, `$1\n  <link rel="canonical" href="${ORIGIN}/" />`);
 }
 idx = idx.replace(
   /(<header class="hub-header">[\s\S]*?)<h1>[\s\S]*?<\/h1>/,
-  '$1<h1>Order, stock, and supply software for restaurants and food distributors</h1>'
+  '$1<h1>Ordering and inventory software for food distributors and the restaurants they serve</h1>'
 );
 idx = idx.replace(
   /(<header class="hub-header">[\s\S]*?<p>)[\s\S]*?(<\/p>)/,
-  `$1\n    Place and take supply orders 24/7, by voice or online. Browse the ${registry.length}\n    feature pages below to see how VoiceOrder Solutions fits your team.\n  $2`
+  `$1\n    Your customers order by voice, at any hour. Your team gets clean orders and a live view of stock.\n    Browse the ${registry.length} feature pages below to see how VoiceOrder Solutions fits your side of the order.\n  $2`
 );
 fs.writeFileSync(idxPath, idx, 'utf8');
 console.log(`✓ index.html (${registry.length} cards in ${GROUPS.length} groups)`);

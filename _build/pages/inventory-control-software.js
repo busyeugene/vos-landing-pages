@@ -6,10 +6,10 @@
  * Angle: the money. Food cost, waste, over-ordering, delivery-vs-invoice gaps.
  */
 module.exports = {
-  title: 'Inventory Control Software for Restaurants | VoiceOrder',
-  description: 'VoiceOrder Solutions is food inventory control software for restaurants. Cut over-ordering and waste, catch delivery gaps, and see spend by supplier.',
-  related: ['restaurant-stock-management-software', 'inventory-planning-software', 'restaurant-purchasing-software'],
-  relatedHeading: 'More ways to protect your food cost',
+  title: 'Inventory Control Software for Food Distributors | VoiceOrder',
+  description: 'Inventory control software for food distributors. Confirmed, timestamped orders and a catalog that follows your stock mean fewer shorts, swaps and errors.',
+  related: ["inventory-tracking-software","inventory-visibility-software","order-fulfillment-software"],
+  relatedHeading: 'More ways to keep orders and stock in line',
   body: `
 <!--@NAVBAR-->
 
@@ -22,13 +22,14 @@ module.exports = {
   <div class="hero-grid">
 
     <div>
-      <span class="eyebrow">Inventory Control Software for Food Service</span>
+      <span class="eyebrow">Inventory Control Software for Food Distributors</span>
       <h1>Inventory Control Software That Protects Your Margin.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is inventory control software built around the number
-        that actually matters in a kitchen: food cost. Stop over-ordering what you
-        already have, catch what never came off the truck, and see your spend
-        while the month is still running.
+        VoiceOrder Solutions is inventory control software for the place margin
+        quietly leaks: the order itself. Every order is confirmed before it reaches
+        you and carries its own number and timestamp. Your catalog updates as stock
+        changes. That means fewer shorts, fewer last-minute swaps, and fewer
+        arguments over what was ordered.
       </p>
 
       <div class="hero-ctas">
@@ -37,9 +38,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Works with your current suppliers</span>
+        <span>Works alongside your current systems</span>
         <span class="hero-trust-dot"></span>
-        <span>Up and running in 1 day</span>
+        <span>Live in 24 to 48 hours</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android + Web</span>
       </div>
@@ -48,7 +49,7 @@ module.exports = {
     <div>
       <!-- DEVS: Replace with VOS product screenshot (spend + stock control dashboard) -->
       <div class="img-placeholder tall">
-        📸 Product screenshot:<br>Spend by category with<br>on-hand versus par and<br>flagged variances
+        📸 Product screenshot:<br>Confirmed customer orders<br>with order numbers, timestamps<br>and current stock levels
       </div>
     </div>
 
@@ -65,16 +66,16 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">Less</div>
-      <div class="stat-label">bought twice because nobody checked the shelf</div>
+      <div class="stat-number">20–30 Min</div>
+      <div class="stat-label">saved per order, with nothing re-keyed by hand</div>
     </div>
     <div>
       <div class="stat-number">Every</div>
-      <div class="stat-label">order priced and recorded as you place it</div>
+      <div class="stat-label">order confirmed by the customer before it reaches you</div>
     </div>
     <div>
-      <div class="stat-number">Mid-month</div>
-      <div class="stat-label">spend visibility, not a surprise at close</div>
+      <div class="stat-number">Real-Time</div>
+      <div class="stat-label">stock behind the catalog your customers order from</div>
     </div>
   </div>
 </section>
@@ -86,38 +87,38 @@ module.exports = {
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container text-center">
     <span class="eyebrow">Sound Familiar?</span>
-    <h2>Your food cost went up and nobody can say why.</h2>
+    <h2>Your margin is leaking between the order and the truck.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      It's rarely one big leak. It's a dozen small ones nobody can see until the
-      month closes and the number is already bad. Here's where it goes:
+      It's rarely one big loss. It's a credit here, a second delivery trip there,
+      and a wrong case nobody caught until the customer called. Here's where it goes:
     </p>
 
     <div class="problem-grid">
 
       <div class="problem-card">
         <div class="problem-icon">📦</div>
-        <h4 class="mb-8">"We bought it twice"</h4>
+        <h4 class="mb-8">"That's not what I ordered"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Nobody checked the walk-in first, so you ordered a case you already had.
-          It sat, it turned, and you paid for it twice over.
+          A voicemail order got keyed in wrong. The truck left with the wrong
+          quantity, and now you owe a credit and a second trip.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🚚</div>
-        <h4 class="mb-8">"We paid for what never arrived"</h4>
+        <h4 class="mb-8">"We're out. Can we sub it?"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Two cases short, signed for in the rush of a delivery, invoiced in full.
-          Nobody compared the order to the truck, so it went straight through.
+          The customer ordered an item you ran out of yesterday. You find out at
+          picking, then ship short or swap in something else and hope they take it.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">📅</div>
-        <h4 class="mb-8">"We found out at the end of the month"</h4>
+        <h4 class="mb-8">"Nobody can prove who's right"</h4>
         <p class="text-muted" style="font-size:15px;">
-          By the time the invoices were tallied, the damage was four weeks old.
-          You cannot fix a month that has already happened.
+          The customer says ten cases. Your rep's note says six. With no timestamped
+          record, the fastest fix is a credit, and your margin goes with it.
         </p>
       </div>
 
@@ -133,8 +134,8 @@ module.exports = {
   <div class="container">
 
     <div class="text-center" style="max-width: 760px; margin: 0 auto 72px;">
-      <span class="eyebrow">Control Means Cost</span>
-      <h2>Inventory control software built around food cost, not warehouse paperwork</h2>
+      <span class="eyebrow">Control Means Margin</span>
+      <h2>Inventory control software that stops margin loss at the order, not on the truck</h2>
     </div>
 
 
@@ -143,24 +144,24 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Built for Food</span>
-          <h3>Food inventory control software that speaks your units.</h3>
+          <h3>Food inventory control software built on your order guides.</h3>
           <p class="mt-12 text-muted">
-            Kitchens do not buy widgets. They buy cases, flats, and #10 cans, and
-            they buy things that go bad. VOS works in the units your suppliers
-            actually sell in, so what you count, what you order, and what you get
-            invoiced for finally line up.
+            Food distribution does not run on a generic item list. Each account gets
+            its own order guide: the items that customer actually buys, at the prices
+            you set, tied to your SKUs. What comes in matches what your system
+            expects, so nobody has to turn "the usual cheese" into the right item number.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Real food service packs, cases, and unit sizes</span></li>
-            <li><span class="bullet-check">✓</span><span>Pricing attached to every item as you order</span></li>
-            <li><span class="bullet-check">✓</span><span>Counts by station, storage area, and location</span></li>
-            <li><span class="bullet-check">✓</span><span>No translating between three different unit systems</span></li>
+            <li><span class="bullet-check">✓</span><span>One order guide per account, built from what they buy</span></li>
+            <li><span class="bullet-check">✓</span><span>Your prices and your SKUs on every line</span></li>
+            <li><span class="bullet-check">✓</span><span>Change a guide or an account from the admin platform</span></li>
+            <li><span class="bullet-check">✓</span><span>You decide what each customer can order</span></li>
           </ul>
-          <a href="/restaurant-stock-management-software" class="feature-link">See restaurant stock management →</a>
+          <a href="/restaurant-stock-management-software" class="feature-link">See stock management from your customer's side →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Item detail with case size,<br>pack, unit price, and<br>on-hand count
+            📸 Screenshot:<br>An account's order guide<br>with your SKUs and<br>your prices
           </div>
         </div>
       </div>
@@ -171,25 +172,25 @@ module.exports = {
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row reverse">
         <div>
-          <span class="eyebrow">Stop Double-Buying</span>
-          <h3>Stop paying for what you already have.</h3>
+          <span class="eyebrow">Fewer Shorts</span>
+          <h3>Cut the shorts that start at the order.</h3>
           <p class="mt-12 text-muted">
-            The most expensive case is the one you already own. Because your counts
-            update as you order and receive, you can see what is on the shelf before
-            you write the next order. This is where inventory control system software
-            pays for itself, in the cases you do not buy.
+            A short costs you twice: the sale you lose and the call your rep has to
+            make. VOS ties inventory to order activity and updates your catalog as
+            stock levels change. This is where inventory control system software
+            earns its keep: in the shorts you avoid.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Live on-hand counts visible before you order</span></li>
-            <li><span class="bullet-check">✓</span><span>Par levels so you buy to a target, not to a feeling</span></li>
-            <li><span class="bullet-check">✓</span><span>Less product turning in the back of the walk-in</span></li>
-            <li><span class="bullet-check">✓</span><span>Check another location before placing an emergency order</span></li>
+            <li><span class="bullet-check">✓</span><span>Inventory that moves with the orders coming in</span></li>
+            <li><span class="bullet-check">✓</span><span>Fewer orders placed for product you do not have</span></li>
+            <li><span class="bullet-check">✓</span><span>Fewer stockout surprises on delivery day</span></li>
+            <li><span class="bullet-check">✓</span><span>Less rep time spent calling about missing items</span></li>
           </ul>
-          <a href="/inventory-planning-software" class="feature-link">See how planning works →</a>
+          <a href="/inventory-planning-software" class="feature-link">See how to plan next week's stock →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Order draft warning that<br>an item is already<br>above par
+            📸 Screenshot:<br>Catalog item updating<br>as stock levels<br>change
           </div>
         </div>
       </div>
@@ -201,24 +202,25 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Close The Gap</span>
-          <h3>Catch the gap between ordered, delivered, and invoiced.</h3>
+          <h3>Catch order errors before they turn into credits.</h3>
           <p class="mt-12 text-muted">
-            Every order is recorded with its items, quantities, and pricing, so you
-            have something to hold the delivery against. Shorts and substitutions
-            get caught at the back door instead of quietly turning into an invoice
-            you pay four weeks later.
+            Every order is digitized the moment it is placed, and the customer
+            reviews it before it is sent. Nobody re-keys a voicemail, so wrong
+            quantities and missing lines get stopped at the source. Each order also
+            gets a unique number, date and timestamp, so when a customer pushes back
+            on a delivery, you both look at the same record.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Compare what you ordered against what showed up</span></li>
-            <li><span class="bullet-check">✓</span><span>Substitutions flagged rather than slipped in</span></li>
-            <li><span class="bullet-check">✓</span><span>Settle an invoice dispute with the original order</span></li>
-            <li><span class="bullet-check">✓</span><span>Searchable history by item, supplier, date, or site</span></li>
+            <li><span class="bullet-check">✓</span><span>Customer checks and confirms each order before sending</span></li>
+            <li><span class="bullet-check">✓</span><span>No transcription or re-entry between the customer and you</span></li>
+            <li><span class="bullet-check">✓</span><span>A record to point to when a delivery is questioned</span></li>
+            <li><span class="bullet-check">✓</span><span>History shows who ordered what, and when</span></li>
           </ul>
           <a href="/order-tracking-software" class="feature-link">See order tracking →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Ordered versus delivered<br>comparison with a short<br>line flagged
+            📸 Screenshot:<br>Confirmed order with its<br>order number, date<br>and timestamp
           </div>
         </div>
       </div>
@@ -230,24 +232,24 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Right-Sized</span>
-          <h3>Inventory control software for small business kitchens.</h3>
+          <h3>Inventory control software for small business distributors.</h3>
           <p class="mt-12 text-muted">
-            You should not need a controller and a six-month rollout to find out
-            where your food cost is going. VOS drops into the way you already run,
-            keeps your suppliers and your negotiated pricing, and is live in a day.
-            Your manager runs it from a phone, not a workstation.
+            You should not need an IT department and a six-month rollout to stop
+            paying for order mistakes. VOS was designed for small to mid-size
+            distributors, not enterprise companies. It works alongside the systems
+            you already run, and there is no complex implementation to sit through.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Spend by supplier, item, category, and location</span></li>
-            <li><span class="bullet-check">✓</span><span>Visible during the month, while you can still act</span></li>
-            <li><span class="bullet-check">✓</span><span>No analyst, no consultants, no migration project</span></li>
-            <li><span class="bullet-check">✓</span><span>Keep every supplier and every price you negotiated</span></li>
+            <li><span class="bullet-check">✓</span><span>Sized for independent and DSD distributors</span></li>
+            <li><span class="bullet-check">✓</span><span>No IT project and no data migration</span></li>
+            <li><span class="bullet-check">✓</span><span>Orders flow to your ERP, platform or QuickBooks</span></li>
+            <li><span class="bullet-check">✓</span><span>Pricing on request, quoted for your operation</span></li>
           </ul>
-          <a href="/restaurant-purchasing-software" class="feature-link">See purchasing and spend →</a>
+          <a href="/restaurant-purchasing-software" class="feature-link">See how your accounts buy through VOS →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Month-to-date spend by<br>category with a per-location<br>breakdown
+            📸 Screenshot:<br>Admin platform with<br>customer accounts and<br>order history
           </div>
         </div>
       </div>
@@ -264,7 +266,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>All the tools your team needs to hold the line on cost.</h2>
+      <h2>Everything your team needs to keep orders clean and margin intact.</h2>
       <p class="lead mt-16">No extra apps. No workarounds. Everything ships with VOS out of the box.</p>
     </div>
 
@@ -272,55 +274,55 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">💰</div>
-        <h4>Spend Visibility</h4>
+        <h4>Confirmed Orders</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          What you bought and what it cost, by supplier, item, category, and
-          location, during the month.
+          Customers review each order before it is sent, so the quantity you pick
+          is the quantity they meant.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🎯</div>
-        <h4>Par Levels</h4>
+        <h4>Account Order Guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Buy to a target instead of a feeling. The single biggest lever on
-          over-ordering.
+          Each customer orders from a list you control, so nobody guesses at
+          items you do not carry.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🧾</div>
-        <h4>Order vs Delivered</h4>
+        <h4>Auto-Save and Resume</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Hold the delivery against the original order so shorts do not become
-          invoices.
+          If a customer gets pulled away mid-order, it saves. Half-finished
+          orders do not vanish.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📊</div>
-        <h4>Live On-Hand Counts</h4>
+        <h4>Stock-Aware Catalog</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Counts that move as you order and receive, so the number is current
-          when you need it.
+          Your catalog keeps pace with stock levels on its own, with no manual
+          edits from your team.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔔</div>
-        <h4>Low-Stock Alerts</h4>
+        <h4>Push and Text Confirmations</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Get told before you run out, so you're not buying at retail on a
-          Saturday.
+          Customers get a push notification or a text when an order goes
+          through, so they know it landed.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📍</div>
-        <h4>Per-Location Cost</h4>
+        <h4>Every Account in One Place</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Compare sites and find the one paying more for the same case. Small
-          business inventory control software that scales with you.
+          Manage accounts and update order guides from one admin platform. Small
+          business inventory control software with no IT team needed.
         </p>
       </div>
 
@@ -328,17 +330,17 @@ module.exports = {
         <div class="feature-card-icon">📱</div>
         <h4>iOS + Android App</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Check counts and cost from the walk-in. Control only works if it's
-          reachable where the product is.
+          Customers use their phone to order at any hour, so late orders are
+          captured instead of lost on voicemail.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🗂️</div>
-        <h4>Full Purchase History</h4>
+        <h4>Full Order History</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order priced and recorded, searchable when you need to prove
-          something.
+          Every order by account, with who placed it and when. Ready when a
+          customer says the order was different.
         </p>
       </div>
 
@@ -346,8 +348,8 @@ module.exports = {
         <div class="feature-card-icon">🔗</div>
         <h4>No System Replacement</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Keep your suppliers, your pricing, and your process. Only the control
-          layer is new.
+          Keep your ERP, your platform, and your process. VOS gives orders a
+          cleaner way to reach them.
         </p>
       </div>
 
@@ -362,10 +364,10 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See where your food cost is actually going</h3>
+      <h3 style="margin-bottom:10px;">See where orders are costing you margin</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough. We'll show you spend visibility, par
-        levels, and order-versus-delivered checks working together.
+        Book a 20-minute demo. We'll show you confirmed orders, order records, and
+        a catalog that changes when your stock does.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -380,10 +382,10 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Up and running in one day</h2>
+      <h2>Up and running in 24 to 48 hours</h2>
       <p class="lead mt-16">
-        No IT team. No systems to rip out. Three steps and your cost stops being
-        a monthly surprise.
+        No IT project. No systems to rip out. Three steps and clean orders start
+        reaching your team.
       </p>
     </div>
 
@@ -391,35 +393,35 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>We load your items and pricing</h4>
+        <h4>Share your customer order guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS imports your products, pack sizes, and the pricing you have
-          negotiated, so cost is attached from day one.
+          Send the order guides you already use. We upload them and set up each
+          account with your items, prices, and SKUs.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Set pars and locations</h4>
+        <h4>Customers download the app</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Say how much you want on hand per item and per site. That is what stops
-          the over-ordering.
+          Your accounts get VOS on iOS or Android. Most send their first order
+          the same day.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Order, receive, and watch the number</h4>
+        <h4>Confirmed orders reach your team</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Counts and spend update as you go, so you can act mid-month instead of
-          reading about it after close.
+          Each order arrives confirmed and ready to act on, in the format your
+          team already works with.
         </p>
       </div>
 
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS par level setup alongside a month-to-date spend view
+      📸 Screenshot: VOS admin platform with account order guides and incoming confirmed orders
     </div>
   </div>
 </section>
@@ -432,25 +434,22 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What restaurant teams say about VOS</h2>
+      <h2>What distributors and their customers say about VOS</h2>
     </div>
 
     <div class="testimonials-grid">
-
-      <!-- DEVS: exact quote pending client sign-off (see knowledge-base/vos-product-facts.md) -->
       <div class="testimonial-card featured">
         <div class="testimonial-stars">★★★★★</div>
         <p class="testimonial-quote">
-          "VOS simplified the entire ordering process for our kitchen. The part
-          that surprised me was seeing what we were spending while the month was
-          still going. We could actually do something about it."
+          "I used to spend hours every week ordering food. Now it's simple, super
+          easy, and I have free time to spend on other aspects of my restaurant."
         </p>
         <div class="testimonial-author">
           <!-- DEVS: Replace with Tony Luna's photo -->
           <div class="author-avatar">Photo</div>
           <div>
             <div class="author-name" style="color:#fff;">Tony Luna</div>
-            <div class="author-role">Owner-Chef</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
           </div>
         </div>
       </div>
@@ -460,8 +459,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We stopped double-ordering almost immediately. Seeing what was already
-            on the shelf before writing the order cut what we throw out every week."
+            "Orders come in already confirmed by the customer. When someone says
+            that's not what they ordered, we pull up the order and the time it was placed."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -475,8 +474,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We caught a short delivery that would have gone straight onto the
-            invoice. Having the order right there paid for the month."
+            "When we run out of something, the catalog changes with it. Our reps
+            spend less time calling customers about substitutions."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -503,10 +502,10 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 700px; margin: 0 auto;">
       <span class="eyebrow">Why VoiceOrder Solutions</span>
-      <h2>Control built for a kitchen.<br>Not for a distribution center.</h2>
+      <h2>Control built for the order.<br>Not for the warehouse floor.</h2>
       <p class="lead mt-16">
-        Most inventory control tools were designed for warehouses, retail floors,
-        or factories, then sold to restaurants. Here's how VOS compares.
+        Most inventory control tools count what sits on your shelves. VOS works on
+        the step before that: the customer's order. Here's how it compares.
       </p>
     </div>
 
@@ -516,68 +515,68 @@ module.exports = {
           <tr>
             <th style="width:36%;">Feature</th>
             <th class="highlight" style="width:21%;">VoiceOrder Solutions</th>
-            <th style="width:21%;">Warehouse / Retail Tool</th>
-            <th style="width:22%;">Spreadsheet + Invoices</th>
+            <th style="width:21%;">Warehouse System</th>
+            <th style="width:22%;">Phone + Voicemail</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Works in food service packs and cases</td>
-            <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
-            <td>Manual</td>
-          </tr>
-          <tr>
-            <td>Counts update as you order</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
-          </tr>
-          <tr>
-            <td>Spend visible mid-month</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
-          </tr>
-          <tr>
-            <td>Compare ordered against delivered</td>
+            <td>Orders tied to your SKUs and prices</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td>Manual</td>
           </tr>
           <tr>
-            <td>Par levels per item and location</td>
+            <td>Customer approves each order before it is sent</td>
             <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>No re-keying of phone or voicemail orders</td>
             <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Every order numbered and timestamped</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
             <td>Manual</td>
           </tr>
           <tr>
-            <td>Reorder from the same screen</td>
+            <td>Customer catalog reflects stock on hand</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Orders taken 24/7, after hours too</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td>Voicemail</td>
+          </tr>
+          <tr>
+            <td>Customer app on iOS and Android</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Runs from a phone in the walk-in</td>
-            <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
-            <td><span class="check-no">✗</span></td>
-          </tr>
-          <tr>
-            <td>Keeps your negotiated supplier pricing</td>
+            <td>Fits with your ERP or platform</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Needs a controller or analyst</td>
+            <td>Needs an IT project to launch</td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>1 day</td>
+            <td>1 to 2 days</td>
             <td>Months</td>
             <td>None needed</td>
           </tr>
@@ -606,7 +605,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Common questions about controlling food cost with VOS</h2>
+      <h2>Common questions about protecting margin with VOS</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -617,89 +616,87 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. You keep your suppliers, your negotiated pricing, and your process.
-          VOS adds the control layer on top: live counts, par levels, and spend
-          you can see during the month. There is no rip-and-replace.
+          No. VOS sits alongside the ERP, distribution platform, or order system you
+          run today. Your customers get a better way to send orders, and those
+          orders land in the format you work with now. There is no rip-and-replace.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is this warehouse, retail, or manufacturing inventory control software?
+          Is VOS warehouse, retail, or manufacturing inventory control software?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          None of those. VOS is built specifically for restaurants and food service
-          teams buying supplies from distributors. It does not do bin locations and
-          pick paths like warehouse inventory control software, shelf and SKU
-          management like retail inventory control software, or bills of materials
-          and production runs like manufacturing inventory control software. If you
-          need any of those, this is not the right fit. If you need to know why your
-          food cost moved, it is.
+          No. VOS is not warehouse inventory control software: it does not handle bin
+          locations, pick paths, barcode scans, or packing. It is not retail inventory
+          control software for store shelves and checkout, and it does not plan bills
+          of materials or production runs for a factory. VOS is the ordering front
+          door for food distributors, with inventory tied to every customer order,
+          and it runs next to the systems you already have.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How does inventory control software actually reduce my food cost?
+          How does inventory control software protect a distributor's margin?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Mostly by stopping money leaving in the first place. You stop buying cases
-          you already have because the count is in front of you. You catch short
-          deliveries before they turn into invoices. And you see spend building
-          during the month, so you can adjust while it still matters rather than
-          reading about it after close.
+          Mostly by stopping bad orders before they ship. Customers confirm each
+          order, so wrong quantities stop at the source. Inventory is tied to order
+          activity, so customers order fewer items you are out of. And every order
+          has a timestamp, so a disputed delivery gets settled with a record, not a
+          guess.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Do I still need to do physical counts?
+          Will VOS stop every short and substitution?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Less often, and they go faster. Counts move automatically as you order and
-          receive, so you are correcting a number that is already close rather than
-          rebuilding the whole sheet. Most teams spot-check high-value items and let
-          the rest ride.
+          No tool can promise that. Product still runs out. What changes is when you
+          find out. Because the catalog follows your stock levels, more of those gaps
+          show up before the customer orders, not on the pick line the next morning.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I see cost across several locations?
+          Can I look up an old order when a customer disputes it?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Every site keeps its own counts, pars, and purchase history under one
-          login, and you can compare them side by side. That is usually how owners
-          find the location quietly paying more for the same case.
+          Yes. Each order is stored with its own order number, the date and time it
+          was placed, and who placed it. Your team pulls it up from order history,
+          and the record settles it.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does it connect to my accounting system?
+          Does VOS connect to QuickBooks, EDI, or my ERP?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          VOS sends order data out in the formats most systems already read: email,
-          PDF, Excel, EDI, or a direct API push. Tell us what your back office uses
-          and we will set it up during onboarding.
+          Yes. Orders can go into QuickBooks, arrive through EDI or API, come in by
+          direct platform integration, or land as an email with a PDF, Excel, or Word
+          file. VOS is API-ready and works with distribution platforms and ERPs, but
+          it is not accounting or ERP software itself.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is it overkill for one restaurant?
+          Is VOS too much for a small distributor?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. This inventory control software was built for independent restaurants
-          rather than chains with a finance department. A single kitchen usually
-          sees it first in less waste and fewer duplicate orders, often within the
-          first few weeks.
+          No. This inventory control software was built for independent distributors
+          without a big IT team. Pricing is quote-based: book a demo and we will price
+          it for your operation.
         </div>
       </div>
 
@@ -709,9 +706,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most teams are fully set up within one business day. The VOS team imports
-          your products, pack sizes, and pricing, and helps you set your first par
-          levels. You do not need an IT team or any technical experience.
+          Most distributors are up and running within 24 to 48 hours, with no complex
+          implementation and no IT project. You share each customer's order guide, we
+          build the account, and most customers place an order on day one.
         </div>
       </div>
 
@@ -727,8 +724,8 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Ready to find out where your food cost is going?</h2>
-  <p>Join restaurants that stopped waiting for month end to find out what went wrong.</p>
+  <h2>Ready to stop losing margin on bad orders?</h2>
+  <p>Take 20 minutes and see how confirmed orders keep wrong quantities off the truck.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -736,10 +733,10 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ Up and running in 1 day</span>
-    <span>✓ Keep your current suppliers</span>
-    <span>✓ No system replacement needed</span>
-    <span>✓ Free setup support included</span>
+    <span>✓ No IT project needed</span>
+    <span>✓ Nothing to rip out</span>
+    <span>✓ Orders arrive in your format</span>
+    <span>✓ We set up each account for you</span>
   </div>
 </section>
 
@@ -761,10 +758,10 @@ module.exports = {
     <div class="footer-col">
       <h5>Features</h5>
       <ul role="list">
-        <li><a href="#features">Food Service Units</a></li>
-        <li><a href="#features">Par Levels</a></li>
-        <li><a href="#features">Order vs Delivered</a></li>
-        <li><a href="#features">Spend Visibility</a></li>
+        <li><a href="#features">Account Order Guides</a></li>
+        <li><a href="#features">Confirmed Orders</a></li>
+        <li><a href="#features">Order Records</a></li>
+        <li><a href="#features">Stock-Aware Catalog</a></li>
         <li><a href="#integrations">Integrations</a></li>
       </ul>
     </div>
@@ -772,10 +769,10 @@ module.exports = {
     <div class="footer-col">
       <h5>More From VOS</h5>
       <ul role="list">
+        <li><a href="/inventory-automation-software">Inventory Automation</a></li>
+        <li><a href="/inventory-replenishment-software">Inventory Replenishment</a></li>
+        <li><a href="/order-taking-software">Order Taking</a></li>
         <li><a href="/restaurant-stock-management-software">Restaurant Stock Management</a></li>
-        <li><a href="/inventory-planning-software">Inventory Planning</a></li>
-        <li><a href="/inventory-tracking-software">Inventory Tracking</a></li>
-        <li><a href="/restaurant-purchasing-software">Restaurant Purchasing</a></li>
         <li><a href="/">All Features</a></li>
       </ul>
     </div>
@@ -792,7 +789,7 @@ module.exports = {
   </div>
 
   <div class="footer-bottom">
-    <span>© 2025 VoiceOrder Solutions. All rights reserved.</span>
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
     <div style="display:flex; gap:20px; flex-wrap:wrap;">
       <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
       <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>

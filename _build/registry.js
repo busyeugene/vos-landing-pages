@@ -8,7 +8,7 @@ module.exports = [
     file: 'vos-order-entry-landing.html',
     label: 'Order Entry Software',
     card: 'Order Entry Software',
-    blurb: 'Web-based order entry built for restaurants. Place supply orders 24/7 by voice or online. No hold time, no errors, no system to replace.',
+    blurb: "Voice order entry for restaurants. Say your supply order, check it, and send it any hour. Your food distributor sets up the account.",
     cluster: 'order',
   },
   {
@@ -16,7 +16,7 @@ module.exports = [
     file: 'vos-order-taking-landing.html',
     label: 'Order Taking Software',
     card: 'Order Taking Software',
-    blurb: 'Let customers place orders 24/7 by voice or web. Built for distributors and food service teams that take orders without the phone tag.',
+    blurb: "Give your restaurant customers a voice ordering app, open 24/7. Orders reach your team confirmed and in the format you already use.",
     cluster: 'order',
   },
   {
@@ -24,7 +24,7 @@ module.exports = [
     file: 'vos-order-fulfillment-landing.html',
     label: 'Order Fulfillment Software',
     card: 'Order Fulfillment Software',
-    blurb: 'Every order arrives clear and ready to pick. Voice, web, and app orders land in one queue so nothing waits on a voicemail.',
+    blurb: "Orders reach your pick line confirmed and complete. Customers order by voice around the clock, so nothing waits on a voicemail or a retype.",
     cluster: 'order',
   },
   {
@@ -32,7 +32,7 @@ module.exports = [
     file: 'vos-order-tracking-landing.html',
     label: 'Order Tracking Software',
     card: 'Order Tracking Software',
-    blurb: 'Know where every supply order stands, from submitted to delivered. Purchase order tracking for restaurants, sales order tracking for distributors.',
+    blurb: "Know where every customer order stands without a call. Each order is confirmed, numbered and timestamped, with full history per account.",
     cluster: 'order',
   },
   {
@@ -48,7 +48,7 @@ module.exports = [
     file: 'vos-inventory-tracking-landing.html',
     label: 'Inventory Tracking Software',
     card: 'Inventory Tracking Software',
-    blurb: 'See real-time stock, get low-stock alerts, and reorder by voice or web. Simple inventory tracking that updates itself as you order.',
+    blurb: "See what is on hand as customer orders come in. Stock tied to order activity, and a catalog that updates as levels change.",
     cluster: 'inventory',
   },
   {
@@ -56,7 +56,7 @@ module.exports = [
     file: 'vos-inventory-planning-landing.html',
     label: 'Inventory Planning Software',
     card: 'Inventory Planning Software',
-    blurb: 'Plan next week off what you actually used, not a guess. Par levels per item and per location, built from your own order history.',
+    blurb: "Plan next week's stock from real customer orders, with dated history for every account and a live view of what is on hand.",
     cluster: 'inventory',
   },
   {
@@ -64,7 +64,7 @@ module.exports = [
     file: 'vos-inventory-replenishment-landing.html',
     label: 'Inventory Replenishment Software',
     card: 'Inventory Replenishment Software',
-    blurb: 'Know when stock drops below par, review the suggested reorder, and send it from your phone. The reorder loop, done fast.',
+    blurb: "See what is running low as customer orders land, and restock before an account's order comes up short.",
     cluster: 'inventory',
   },
   {
@@ -72,7 +72,7 @@ module.exports = [
     file: 'vos-inventory-automation-landing.html',
     label: 'Inventory Automation Software',
     card: 'Inventory Automation Software',
-    blurb: 'Counts, low-stock alerts, reorder lists, and records that keep themselves. The busywork goes away, and you still approve every order.',
+    blurb: "No re-keying: orders arrive in your format while stock and your catalog update on their own. Customers still confirm every order.",
     cluster: 'inventory',
   },
   {
@@ -80,7 +80,7 @@ module.exports = [
     file: 'vos-inventory-visibility-landing.html',
     label: 'Inventory Visibility Software',
     card: 'Inventory Visibility Software',
-    blurb: 'One live stock number your whole team can see. Every location, every role, no end-of-day spreadsheet to chase.',
+    blurb: "One stock picture for your reps, your warehouse and your customers, updated as orders come in. No morning stock sheet to chase.",
     cluster: 'inventory',
   },
   {
@@ -88,7 +88,7 @@ module.exports = [
     file: 'vos-inventory-control-landing.html',
     label: 'Inventory Control Software',
     card: 'Inventory Control Software',
-    blurb: 'Food inventory control that protects your margin. Stop over-ordering, catch delivery and invoice gaps, and see spend by category.',
+    blurb: "Find where shorts, substitutions and order errors cost you margin, with checked orders and a catalog that keeps up with your stock.",
     cluster: 'inventory',
   },
   {
@@ -96,7 +96,7 @@ module.exports = [
     file: 'vos-catalog-management-landing.html',
     label: 'Catalog Management Software',
     card: 'Catalog Management Software',
-    blurb: 'Keep one product catalog current for your whole team. Per-account pricing, live availability, and voice ordering, all from a single catalog.',
+    blurb: "Give each restaurant account its own order guide at your prices and SKUs, kept current from one admin platform as stock changes.",
     cluster: 'ops',
   },
   {
@@ -104,7 +104,7 @@ module.exports = [
     file: 'vos-restaurant-stock-management-landing.html',
     label: 'Restaurant Stock Management',
     card: 'Restaurant Stock Management Software',
-    blurb: 'Stock counts that update as you order, from the walk-in to the phone in your pocket. Built for restaurant kitchens, not warehouses.',
+    blurb: "The ordering side of restaurant stock. Check the walk-in, call out the order, and VOS sends it to your distributor.",
     cluster: 'inventory',
   },
   {
@@ -112,7 +112,7 @@ module.exports = [
     file: 'vos-restaurant-purchasing-landing.html',
     label: 'Restaurant Purchasing Software',
     card: 'Restaurant Purchasing Software',
-    blurb: 'Order from every distributor in one place. Purchase orders that write themselves and spend you can actually see.',
+    blurb: "Buy from each of your distributors on VOS in one app, by voice, at any hour. Every purchase is on record with its own order number.",
     cluster: 'ops',
   },
   {
@@ -120,7 +120,7 @@ module.exports = [
     file: 'vos-vendor-management-landing.html',
     label: 'Vendor Management Software',
     card: 'Vendor Management Software',
-    blurb: 'Every food supplier on one screen, with your agreed pricing, the order format each one wants, and a record of every short.',
+    blurb: "Be the vendor your restaurant accounts find easiest to buy from: their own order guide, round-the-clock ordering, orders in your format.",
     cluster: 'ops',
   },
   {
@@ -128,7 +128,7 @@ module.exports = [
     file: 'vos-restaurant-checklist-landing.html',
     label: 'Restaurant Checklist Software',
     card: 'Restaurant Checklist Software',
-    blurb: 'Turn ordering into a repeatable checklist your team runs the same way every time, on every shift and at every location.',
+    blurb: "Your distributor loads your order guide, so ordering runs the same way on every shift. Built for ordering, not a general task app.",
     cluster: 'ops',
   },
 ];
