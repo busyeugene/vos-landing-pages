@@ -28,8 +28,8 @@ module.exports = {
       <h1>Restaurant Checklist Software for Your Ordering Routine.</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions is restaurant checklist software for one job:
-        ordering from your distributor. They put the items you buy in the
-        app, so whoever is on shift works down the same list, not a paper sheet
+        ordering from your distributor. They load what you normally order into
+        the app, so whoever is on shift works down the same list, not a paper sheet
         or someone's memory. It covers ordering only, not cleaning or opening
         tasks.
       </p>
@@ -148,14 +148,14 @@ module.exports = {
           <span class="eyebrow">The List Itself</span>
           <h3>Your order guide becomes your team's checklist.</h3>
           <p class="mt-12 text-muted">
-            On a lot of kitchen checklists, ordering is a single line: "place the
-            order." VOS is where that line actually gets done. Your distributor
+            On a lot of kitchen checklists, ordering is a single line: "put in
+            the order." VOS is where that line actually gets done. Your distributor
             builds the list for you inside the app, so there is no checklist for
             you to write. It's restaurant operations checklist software for the
             one routine that costs you money when it slips.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>A digital order guide made for your account</span></li>
+            <li><span class="bullet-check">✓</span><span>A digital order guide built just for your account</span></li>
             <li><span class="bullet-check">✓</span><span>Only what your restaurant orders, at the prices your distributor set</span></li>
             <li><span class="bullet-check">✓</span><span>They update it when products or prices change</span></li>
             <li><span class="bullet-check">✓</span><span>The same items in the same order each time you open it</span></li>
@@ -204,7 +204,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Walk and Talk</span>
-          <h3>Checklist software for restaurant managers who walk the cooler.</h3>
+          <h3>Checklist software for restaurant managers who order on their feet.</h3>
           <p class="mt-12 text-muted">
             Walk the walk-in with your phone and call out what you need as you go.
             VOS captures each item as you say it, so nobody writes a list
@@ -215,7 +215,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Talk through the order standing at the shelf</span></li>
             <li><span class="bullet-check">✓</span><span>Keep moving while your phone does the recording</span></li>
             <li><span class="bullet-check">✓</span><span>Review the whole order before you send it</span></li>
-            <li><span class="bullet-check">✓</span><span>It reaches your distributor confirmed and timestamped</span></li>
+            <li><span class="bullet-check">✓</span><span>Once you confirm, it goes out with the send time on it</span></li>
           </ul>
           <a href="/restaurant-stock-management-software" class="feature-link">See reordering straight from the walk-in →</a>
         </div>
@@ -237,13 +237,13 @@ module.exports = {
           <p class="mt-12 text-muted">
             Each location orders from a list made for that account, in the same
             app with the same steps. As restaurant owner checklist software, it
-            also gives you a paper trail without the paper: every order gets a
-            unique order number, date and timestamp.
+            also gives you a paper trail without the paper: each order is given a
+            number of its own, and the app logs exactly when it went out.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Every site runs the order the same way</span></li>
             <li><span class="bullet-check">✓</span><span>Each location's account holds its own items</span></li>
-            <li><span class="bullet-check">✓</span><span>Confirmations by push notification or text message</span></li>
+            <li><span class="bullet-check">✓</span><span>A confirmation text or push alert after each send</span></li>
             <li><span class="bullet-check">✓</span><span>No location has to phone in its order</span></li>
           </ul>
           <a href="/restaurant-purchasing-software" class="feature-link">See multi-location purchasing →</a>
@@ -267,7 +267,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>What helps every shift get the order right.</h2>
+      <h2>What helps each shift send a clean, correct order.</h2>
       <p class="lead mt-16">All nine come with VOS.</p>
     </div>
 
@@ -347,8 +347,8 @@ module.exports = {
         <div class="feature-card-icon">🔗</div>
         <h4>Room for Your Other Apps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your POS and task apps carry on as before. VOS only changes how the
-          order gets placed.
+          Your POS and task apps carry on as before. VOS just takes care of
+          sending the order.
         </p>
       </div>
 
@@ -365,8 +365,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See what ordering looks like when every shift follows one list</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough of the order guide, voice ordering and
-        order confirmation, run start to finish as one routine.
+        Give us 20 minutes, at no cost, and see the guide, voice ordering
+        and the confirmation step run start to finish as one routine.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -383,7 +383,7 @@ module.exports = {
       <span class="eyebrow">Simple Setup</span>
       <h2>How your restaurant gets set up</h2>
       <p class="lead mt-16">
-        No IT work on your side. Distributor not on VOS yet? Ask them about it,
+        No IT work on your side. If VOS is new to your distributor, tell them you want it,
         or contact us and we'll help you get connected.
       </p>
     </div>
@@ -392,7 +392,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Your distributor sets up your account</h4>
+        <h4>Your distributor opens an account for you</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           They build your guide in VOS and give you an app login.
         </p>
@@ -400,10 +400,10 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>You download the app</h4>
+        <h4>You add the app to your phone</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Get VoiceOrder Solutions on iOS or Android. Most restaurants place
-          their first order the same day.
+          Get VoiceOrder Solutions on iOS or Android. Most kitchens have one
+          sent on day one.
         </p>
       </div>
 
@@ -505,8 +505,8 @@ module.exports = {
       <p class="lead mt-16">
         A task app can remind someone to do the order. VOS is where the order
         gets built, checked and sent. For temperature logs and staff to-do
-        lists, use a tool made for that. For the order itself, here is how the
-        options stack up.
+        lists, use a tool made for that. For ordering, this is how the three
+        options compare.
       </p>
     </div>
 
@@ -534,13 +534,13 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Order number and timestamp on every order</td>
+            <td>Numbers and time-stamps each order</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Check and confirm before the order is sent</td>
+            <td>Check and confirm it before it goes out</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
@@ -645,7 +645,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          There is no published price list. VOS pricing is quote-based. Most
+          There is no published price list. VOS is priced by quote. Most
           restaurants get VOS through their food distributor, so your distributor
           is the first place to ask. You can also contact VOS, and pricing is
           available on request.
@@ -670,8 +670,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your distributor does. They manage it from the VOS admin platform and make
-          the change when an item is added, dropped or repriced. Nobody has to
+          Your distributor does. They edit it in their admin platform whenever
+          an item is added, dropped or repriced. Nobody has to
           reprint anything.
         </div>
       </div>
@@ -708,7 +708,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Most restaurants are ordering the same day their account is ready. Your
           distributor does the setup, including your guide and your app login, so
-          all you do is install the app on your phone. If your distributor does not
+          your only job is getting VOS onto your phone. If your distributor does not
           offer VOS yet, ask them about it, or reach out to VOS and we will connect
           you with the right person.
         </div>

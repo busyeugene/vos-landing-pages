@@ -42,8 +42,8 @@ module.exports = {
       <h1>Skip the Hold.<br>Order Entry Software You Talk To.</h1>
       <p class="lead mt-16">
         Walk your cooler and call out what you need. VOS lays the order out line
-        by line for you to check, then sends it to your food distributor at any hour. No account yet?
-        Ask your distributor, or get in touch with us.
+        by line for you to check, then sends it off to your distributor at any hour. No account yet?
+        Talk to your distributor, or get in touch with us.
       </p>
 
       <div class="hero-ctas">
@@ -54,7 +54,7 @@ module.exports = {
       <div class="hero-trust">
         <span>Setup by your distributor</span>
         <span class="hero-trust-dot"></span>
-        <span>Same-day first order</span>
+        <span>First order on day one</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android + Web</span>
       </div>
@@ -125,7 +125,7 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">📞</div>
-        <h4 class="mb-8">"I spend 30 minutes on hold just to place one order"</h4>
+        <h4 class="mb-8">"I sit on hold for half an hour just to place one order"</h4>
         <p class="text-muted" style="font-size:15px;">
           Your staff calls the distributor. Gets put on hold. Leaves a voicemail.
           Waits for a call back. Then has to repeat the whole list. Every. Single. Week.
@@ -178,7 +178,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             Open VOS and speak your list: each item and how many cases or pounds
             you need. The whole order comes up for you to review, so a wrong count gets
-            caught before it leaves. No typing, no hold music, and no rep scribbling it down on the other end.
+            caught before it leaves. Nothing to type, nobody putting you on hold, and no rep scribbling it down on the other end.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -198,7 +198,7 @@ module.exports = {
               <span>Skip the 20–30 extra minutes it takes to call it in</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See voice ordering in a demo →</a>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">Watch voice orders get placed in a demo →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -223,7 +223,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Send it right after you check the shelves, while the gaps are fresh</span>
+              <span>Send it right after your walk-through, while the gaps are fresh</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -256,9 +256,9 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Order from a list that updates with their stock.</h3>
           <p class="mt-12 text-muted">
-            Your distributor's catalog in VOS updates in real time when their stock levels
-            change, so an item they've run out of doesn't catch you off guard. That means
-            fewer "we didn't have that" calls the morning of delivery.
+            Your distributor's catalog in VOS changes the moment their stock does, so an
+            item they've run out of doesn't catch you off guard. The morning of delivery
+            brings fewer "we didn't have that" calls.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -296,7 +296,7 @@ module.exports = {
           <span class="eyebrow">Custom Order Guides</span>
           <h3>Your usual items, ready before you start.</h3>
           <p class="mt-12 text-muted">
-            Your distributor builds a guide for your account in VOS, with the products you
+            Your distributor puts together a guide in VOS for your account, with the products you
             actually buy. You never start from a blank list. You just say how much.
             It is order entry system software set up around your kitchen, not a generic catalog.
           </p>
@@ -307,7 +307,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Priced the way your distributor set up your account</span>
+              <span>Shows what your distributor charges your account</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -349,8 +349,8 @@ module.exports = {
         <div class="feature-card-icon">📱</div>
         <h4>iOS + Android App</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Order wherever you notice you're running low, from the bar to the back
-          office. The app runs on iPhones and Android phones.
+          Order wherever you notice you're running low, from the bar to the
+          storeroom. The app runs on iPhones and Android phones.
         </p>
       </div>
 
@@ -383,7 +383,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>Direct Platform Integration</h4>
+        <h4>Linked to Their Platform</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           When VOS connects straight to your distributor's platform, your order lands
           in their system as sent. Nobody types it in again, so there's one less place for a mistake.
@@ -439,7 +439,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">Watch a full supply order go in, start to finish</h3>
       <p class="text-muted" style="font-size:16px;">
-        In a 20-minute demo, you'll see a spoken list become a checked, sent order.
+        The demo runs 20 minutes. You'll see a spoken list turn into a checked, sent order.
         If your distributor isn't set up with VOS, tell us who they are and we'll point you in the right direction.
       </p>
     </div>
@@ -709,7 +709,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Time saved per order</td>
+            <td>Time you get back on each order</td>
             <td>20–30 minutes</td>
             <td>Varies</td>
             <td>0 minutes saved</td>
@@ -770,7 +770,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           It turns what you need into a written order and gets it to your distributor. With
-          VOS, you open the app on your phone, say each item and how much you need,
+          VOS, you open the app, say each item and how much you need,
           look it over and send it. Anyone on your team with the app can do
           it, from the walk-in to the receiving dock.
         </div>
@@ -794,7 +794,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Three ways: a guide built for your account, a review before sending, and a
+          Three ways: a guide holding only your items, a review before sending, and a
           record of every order. Every item on the guide is one your distributor has
           already set up. You look it over on screen before it sends, instead of
           reading it out to someone taking notes. And each order logs its number, date,
@@ -821,7 +821,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Orders can go out as an email with a PDF, Excel or Word file, or by
+          No. Orders can go out by email with a PDF, Excel or Word copy attached, or by
           EDI, API, QuickBooks, or a direct connection to their platform. Your
           distributor picks whichever one fits their system.
         </div>
@@ -836,7 +836,7 @@ module.exports = {
           Through your distributor, and most restaurants have their first
           order in the same day. They create your account and load your order guide
           into VOS order entry software, then you get the app. Buying from a distributor that doesn't use VOS yet? Ask
-          them about it, or contact us and we'll connect you with the right person.
+          them about it, or let us know and we'll find out who you should talk to.
         </div>
       </div>
 
@@ -852,8 +852,8 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Your next supply order doesn't need a phone call.</h2>
-  <p>Restaurants on VOS get 20 to 30 minutes back each time they order supplies. Your distributor can set you up, or send us a note and we'll help.</p>
+  <h2>Send your next supply order without dialing anyone.</h2>
+  <p>Restaurants on VOS win back between 20 and 30 minutes whenever they order supplies. Your distributor can set you up, or send us a note and we'll help.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your restaurant email" aria-label="Email address" />
@@ -864,7 +864,7 @@ module.exports = {
     <span>✓ Order the day you're set up</span>
     <span>✓ Works on the phone you already have</span>
     <span>✓ Voice ordering at any hour</span>
-    <span>✓ Pricing on request</span>
+    <span>✓ Ask us for a price quote</span>
   </div>
 </section>
 

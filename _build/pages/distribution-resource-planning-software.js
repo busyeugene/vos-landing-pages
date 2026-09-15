@@ -29,8 +29,8 @@ module.exports = {
       <h1>Feed Your Distribution Resource Planning Software Real Orders.</h1>
       <p class="lead mt-16">
         Every plan starts from demand data. VOS is not distribution resource
-        planning software. It is the ordering layer that supplies that data: your
-        restaurant customers order by voice in the app at any hour, so more of tomorrow's
+        planning software. It is the ordering layer that supplies that data:
+        the restaurants you supply speak each order into the app at any hour, so more of tomorrow's
         orders are waiting when you plan pickers, trucks, or your own buying.
       </p>
 
@@ -40,7 +40,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>No change to your current systems</span>
+        <span>Works with the systems you have</span>
         <span class="hero-trust-dot"></span>
         <span>Setup in 24 to 48 hours</span>
         <span class="hero-trust-dot"></span>
@@ -77,7 +77,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">20–30 Min</div>
-      <div class="stat-label">saved per order, compared with phone and voicemail</div>
+      <div class="stat-label">cut from every order versus phone and voicemail</div>
     </div>
   </div>
 </section>
@@ -149,7 +149,7 @@ module.exports = {
           <span class="eyebrow">Orders In Early</span>
           <h3>Tomorrow's orders can be in before you plan.</h3>
           <p class="mt-12 text-muted">
-            Your customers can order at 11pm after service. By the time your team
+            Your customers can put in orders at 11pm, after the kitchen closes. By the time your team
             plans the morning, those orders are already in, so whatever distribution
             resource planning software you run gets actual demand to work from,
             not a guess.
@@ -178,15 +178,15 @@ module.exports = {
           <span class="eyebrow">A Real Demand Signal</span>
           <h3>Give your distribution planning software a real demand signal.</h3>
           <p class="mt-12 text-muted">
-            Every order arrives as line items tied to your SKUs, at the prices you
-            set for that account. It reaches you in the format you choose.
+            Every order arrives as line items tied to your SKUs, at that account's
+            prices, in the delivery format you set up with us.
             Your planning run starts from what customers asked
             for, not from a call someone wrote down.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Item, quantity and account on every line</span></li>
-            <li><span class="bullet-check">✓</span><span>Digital orders, not notes from a phone call</span></li>
-            <li><span class="bullet-check">✓</span><span>A running order history for each account</span></li>
+            <li><span class="bullet-check">✓</span><span>Digital orders, not handwritten notes</span></li>
+            <li><span class="bullet-check">✓</span><span>Each account's past orders, kept on file</span></li>
             <li><span class="bullet-check">✓</span><span>Nothing to retype when orders come by EDI, API or QuickBooks</span></li>
           </ul>
           <a href="/inventory-planning-software" class="feature-link">Inventory planning from the same order data →</a>
@@ -242,7 +242,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Real-time stock view tied to incoming orders</span></li>
             <li><span class="bullet-check">✓</span><span>Customer catalogs update when stock changes</span></li>
-            <li><span class="bullet-check">✓</span><span>Fewer stockout surprises and late substitutions</span></li>
+            <li><span class="bullet-check">✓</span><span>Fewer stockouts and last-minute swaps</span></li>
             <li><span class="bullet-check">✓</span><span>Works next to your current inventory tools</span></li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">See how catalogs stay current →</a>
@@ -285,8 +285,8 @@ module.exports = {
         <div class="feature-card-icon">📥</div>
         <h4>Order Numbers and Timestamps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each order gets a unique number and a timestamp, so you can trace it
-          back to who placed it and when.
+          Every order carries its own number and the time it was sent, so you
+          can trace it back to who placed it.
         </p>
       </div>
 
@@ -311,8 +311,8 @@ module.exports = {
         <div class="feature-card-icon">🗂️</div>
         <h4>Admin Platform on the Web</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your team edits order guides, manages accounts and pulls up past orders,
-          all in one place.
+          Your team edits order guides, manages accounts and looks up old orders
+          from one screen.
         </p>
       </div>
 
@@ -328,7 +328,7 @@ module.exports = {
         <div class="feature-card-icon">🔁</div>
         <h4>Push and Text Confirmations</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers get a confirmation by push notification or text, so they know the order went through.
+          A confirmation pops up on the customer's phone, or comes by text, once the order arrives.
         </p>
       </div>
 
@@ -362,8 +362,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See tomorrow's orders land before your team clocks in</h3>
       <p class="text-muted" style="font-size:16px;">
-        A 20-minute demo shows after-hours orders reaching your system in a form
-        your plan can use.
+        Spend 20 minutes with us and watch overnight orders reach your
+        system, ready for your plan.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -428,7 +428,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What distributors and their customers tell us</h2>
+      <h2>Heard from distributors and the chefs they supply</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -571,7 +571,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>1 to 2 days</td>
+            <td>A day or two</td>
             <td>Months</td>
             <td>None needed</td>
           </tr>
@@ -600,7 +600,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Common questions about VOS and distribution planning</h2>
+      <h2>Straight answers on VOS and distribution planning</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -651,7 +651,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS can send each order as an email with a PDF, Excel or Word file, through EDI, into QuickBooks, or over an API connection to your ERP or distribution platform. With EDI, QuickBooks or the API, nobody re-types the order. We set the format with you during onboarding.
+          Yes. Orders can come by email (as a PDF, Word or Excel file), through EDI, straight into QuickBooks, or over an API connection to your ERP or distribution platform. With EDI, QuickBooks or the API, nobody re-types the order. We set the format with you during onboarding.
         </div>
       </div>
 
@@ -671,22 +671,22 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Very little. They talk through the order from their own order guide in
-          the app. If they get pulled away, it saves where they stopped, and they
-          review it before it is sent.
+          Very little. In the app, they talk through the order from the guide
+          loaded for their account. If something interrupts them, the app holds
+          their place, and they give it one last look before it is sent.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is this built for small distributors?
+          Will VOS suit a distributor our size?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS is made for small to mid-size independent food distributors, not
+          Yes. VOS is made for small to mid-sized, independently owned food distributors, not
           enterprise supply chains. You do not need a planning department or an IT team
-          to run it, and it fits beside the tools you run today. Pricing
-          is quoted for each distributor, so ask on a demo call.
+          to run it, and it sits beside the software you already have. Pricing
+          is set by quote for each distributor, so just ask.
         </div>
       </div>
 
@@ -696,7 +696,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors are up and running within 24 to 48 hours. You send us each customer's order guide, we load it and set up their account, then we connect order delivery to the format you use. Your customers can usually place a first order that same day.
+          Most distributors have VOS switched on in two days or less. Send us the items and prices each customer buys. We load it all, create the accounts, then connect order delivery to the format you use. Most of your customers put in an order that same day.
         </div>
       </div>
 
@@ -724,7 +724,7 @@ module.exports = {
     <span>✓ Accounts set up for you</span>
     <span>✓ Your ERP stays in place</span>
     <span>✓ No IT project</span>
-    <span>✓ iOS and Android apps</span>
+    <span>✓ Apps for iOS and Android</span>
   </div>
 </section>
 

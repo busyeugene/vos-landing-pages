@@ -1,7 +1,13 @@
 # VoiceOrder Solutions — pSEO Landing Pages
 
 ## What this project is
-Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceordersolutions.com) — voice + web-based order entry software for restaurants placing supply orders with food distributors.
+Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceordersolutions.com): a voice ordering app and real-time inventory visibility for **small to mid-size food distributors** (independent and DSD) and the restaurants they serve. The distributor is the buyer; restaurants get the app through their distributor.
+
+### Audience split (Eugene, 2026-09-15, after the homepage went distributor-first)
+- **Distributor pages** ("you" = the distributor, restaurants are "your customers/accounts"): order taking, order fulfillment, order tracking, distribution resource planning, catalog management, vendor management, and the six inventory pages.
+- **Operator pages** ("you" = the restaurant operator; say plainly that VOS comes through their distributor): order entry, restaurant purchasing, restaurant checklist, restaurant stock management.
+- Related strips link same-audience siblings; each footer carries one cross-audience link.
+- Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
 ## Deployment
 - **GitHub:** `github.com/busyeugene/vos-landing-pages` (remote `origin`)
@@ -41,22 +47,24 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 ### Cluster separation contract
 Seven inventory pages, five order pages, and two supplier pages compete for overlapping intent. Each page answers exactly one question and must not drift into a neighbour's:
 
-| Page | Its one question |
-|---|---|
-| inventory tracking | "What do I have right now?" |
-| inventory planning | "How much should I order for next week?" |
-| inventory replenishment | "It's running low. How do I get more in, fast?" |
-| inventory automation | "What can I stop doing by hand?" |
-| inventory visibility | "Can my other location and my chef see it too?" |
-| inventory control | "Why is my food cost up and where is the waste?" |
-| restaurant stock management | catch-all hub for the inventory cluster |
-| order entry | "How do I place the order?" (buyer) |
-| order taking | "How do I receive orders?" (seller) |
-| order fulfillment | "How do I get it picked and out the door?" (seller) |
-| order tracking | "It's placed, where is it?" (both sides) |
-| distribution resource planning | "What order data does my planning run on?" (seller; VOS is not a DRP system, the page says so) |
-| restaurant purchasing | "How do I buy from all my suppliers in one place?" |
-| vendor management | "Which suppliers work for me, on what terms, and how do they want orders?" |
+| Page | Audience | Its one question |
+|---|---|---|
+| inventory tracking | distributor | "What is on hand right now, as orders come in?" |
+| inventory planning | distributor | "How much should I stock for next week's customer orders?" (no forecasting engine) |
+| inventory replenishment | distributor | "It's running low. How do I restock before a customer's order comes up short?" (VOS never creates POs) |
+| inventory automation | distributor | "What inventory and order busywork can my team stop doing by hand?" |
+| inventory visibility | distributor | "Can my reps, my warehouse and my customers all see the same stock?" |
+| inventory control | distributor | "Where are shorts, substitutions and order errors costing me margin?" |
+| restaurant stock management | operator | hub: the ordering side of restaurant stock (the operator still checks shelves) |
+| order entry | operator | "How do I place the order?" |
+| order taking | distributor | "How do my customers get orders to me without the phone?" |
+| order fulfillment | distributor | "How do orders reach my pick line clean, complete and on time?" (not a WMS) |
+| order tracking | distributor | "Where does every customer order stand, without a call to ask?" (no shipment tracking) |
+| distribution resource planning | distributor | "What order data does my distribution planning run on?" (VOS is not a DRP system, the page says so) |
+| catalog management | distributor | "How do I keep each account's catalog and order guide current?" |
+| restaurant purchasing | operator | "How do I buy from my suppliers in one place?" |
+| vendor management | distributor | "How do I become the vendor my restaurant accounts find easiest to buy from?" (not a VMS) |
+| restaurant checklist | operator | "How does ordering run the same way on every shift?" (ordering only) |
 
 ### Off-fit keyword rule (3 tiers)
 Some target keywords belong to a different buyer than VOS serves (ecommerce, warehouse, retail, manufacturing, ERP). Sort every secondary keyword into:
@@ -140,7 +148,11 @@ node build.js          # rebuild all pages (or: node build.js <slug>)
 node gen-site.js       # regenerate vercel.json, index.html cards, sitemap.xml, robots.txt
 node qa.js             # QA gate, must be 0 failures before pushing
 node structure.js      # tag balance + one h1 per page
+node trigram.js        # 3-word repetition: 0 within a page; --cross 3 must list nothing (fixed facts allow-listed)
+node repeat.js         # 5-word phrases and sentences shared between pages
 ```
+
+Competitor research digests for every primary keyword (Sep 2026 review) live in `_build/research/digests/`.
 
 `_build/registry.js` is the source of truth for every page. See `_build/README.md` for how to add a page.
 

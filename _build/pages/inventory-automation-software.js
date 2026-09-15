@@ -26,8 +26,8 @@ module.exports = {
       <span class="eyebrow">Inventory Automation Software for Distributors</span>
       <h1>Inventory Automation Software That Ends Hand-Keyed Phone Orders.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is inventory automation software for small and
-        mid-size food distributors. Your customers (the accounts you supply)
+        VoiceOrder Solutions is inventory automation software sized for
+        food distribution businesses, from small independents to midsize firms. Your customers (the accounts you supply)
         place and confirm orders at any hour, so nobody has to type up a call
         or a voicemail. Each order reaches your team in the format you choose, and
         stock and the catalog update the moment it lands.
@@ -41,9 +41,9 @@ module.exports = {
       <div class="hero-trust">
         <span>No systems to replace</span>
         <span class="hero-trust-dot"></span>
-        <span>Setup in 24 to 48 hours</span>
+        <span>Live in a day or two</span>
         <span class="hero-trust-dot"></span>
-        <span>iPhone and Android apps</span>
+        <span>Apps for iPhone and Android</span>
       </div>
     </div>
 
@@ -76,7 +76,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">20-30 min</div>
-      <div class="stat-label">saved per order</div>
+      <div class="stat-label">saved on every order</div>
     </div>
   </div>
 </section>
@@ -111,13 +111,13 @@ module.exports = {
         <h4 class="mb-8">"Every order gets keyed in by hand"</h4>
         <p class="text-muted" style="font-size:15px;">
           Calls, voicemails, and emailed order sheets all get typed into your
-          system by someone. Each one is another chance for a typo or a wrong quantity.
+          system by someone. Each one is another chance for a typo or the wrong amount.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🗃️</div>
-        <h4 class="mb-8">"After-hours orders pile up in voicemail"</h4>
+        <h4 class="mb-8">"Late orders wait in voicemail"</h4>
         <p class="text-muted" style="font-size:15px;">
           Customers call at closeout and leave messages. Someone plays them back
           in the morning, and some orders never make it in.
@@ -148,7 +148,7 @@ module.exports = {
           <span class="eyebrow">Self-Updating Stock</span>
           <h3>Stock that moves when orders do.</h3>
           <p class="mt-12 text-muted">
-            Each order a customer places moves your stock levels right away. Nobody
+            The quantity left of each item drops as soon as a customer sends in an order. Nobody
             has to tally the day's orders against a stock sheet once the order
             desk closes.
           </p>
@@ -184,7 +184,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Catalog follows stock levels on its own</span></li>
             <li><span class="bullet-check">✓</span><span>No hand edits when an item runs out</span></li>
-            <li><span class="bullet-check">✓</span><span>Fewer out-of-stock surprises for your accounts</span></li>
+            <li><span class="bullet-check">✓</span><span>Your accounts run into fewer stockouts</span></li>
             <li><span class="bullet-check">✓</span><span>Fewer substitution calls to make</span></li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Manage each account's catalog and order guide →</a>
@@ -210,8 +210,8 @@ module.exports = {
             it to your team as a PDF, Excel or Word attachment, or sends it straight in through EDI, API, QuickBooks or your own platform. Over one of those direct links, nobody types the order into your system.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>A personal order guide for every account</span></li>
-            <li><span class="bullet-check">✓</span><span>Your SKUs and pricing on every line</span></li>
+            <li><span class="bullet-check">✓</span><span>Order guides set up account by account</span></li>
+            <li><span class="bullet-check">✓</span><span>No SKU lookups or price checks by hand</span></li>
             <li><span class="bullet-check">✓</span><span>Sent the way your team already works</span></li>
             <li><span class="bullet-check">✓</span><span>Nothing to key in over a direct link</span></li>
           </ul>
@@ -233,15 +233,15 @@ module.exports = {
           <span class="eyebrow">Records That Keep Themselves</span>
           <h3>The paperwork files itself.</h3>
           <p class="mt-12 text-muted">
-            Every order is stamped with an order number, a date, and a time the
-            moment it's placed, and the customer gets a confirmation back. Nobody
+            Each order is numbered and stamped with the day and minute it
+            goes in, and the customer receives a confirmation. Nobody
             files a copy or writes up a phone order. If a quantity is ever
             disputed, the record shows exactly what was sent.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Every past order kept on file</span></li>
             <li><span class="bullet-check">✓</span><span>Who ordered what, and when, on record</span></li>
-            <li><span class="bullet-check">✓</span><span>Confirmations go out by text or app notification</span></li>
+            <li><span class="bullet-check">✓</span><span>Customers hear back by text or in the app</span></li>
             <li><span class="bullet-check">✓</span><span>Easy to look up when a customer questions an order</span></li>
           </ul>
           <a href="/inventory-control-software" class="feature-link">See where order errors cost you margin →</a>
@@ -301,13 +301,13 @@ module.exports = {
         <div class="feature-card-icon">🗣️</div>
         <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your customers talk through the order hands-free instead of picking up the phone.
+          Customers can just say what they need, hands-free, instead of dialing your office.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📄</div>
-        <h4>Auto-Saved Orders</h4>
+        <h4>Unfinished Orders Saved</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           If a customer is interrupted halfway through, VOS saves the order so they can pick it up again.
         </p>
@@ -334,8 +334,8 @@ module.exports = {
         <div class="feature-card-icon">📱</div>
         <h4>Always-On Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts can send an order from their phones whenever it suits them. The
-          order is waiting for your team by morning.
+          Accounts can put an order in from their phones at any hour, even after
+          you close. It's in your queue when your team starts the day.
         </p>
       </div>
 
@@ -408,8 +408,8 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Let it run</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each order lands in the format you picked, and stock moves with
-          it. You manage it all from one place.
+          New orders come in formatted the way you picked, and stock keeps
+          pace. You manage it all from one place.
         </p>
       </div>
 
@@ -454,8 +454,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our order desk used to start every morning with voicemails. Now the
-            overnight orders are already in, in the format we use."
+            "Mornings at our order desk meant a stack of voicemails. Now whatever
+            came in overnight is waiting for us, in the format we use."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -542,13 +542,13 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Orders arrive in your format</td>
+            <td>Orders delivered the way you process them</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td>Manual</td>
           </tr>
           <tr>
-            <td>Voice ordering for your customers</td>
+            <td>Customers can place orders by voice</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
@@ -573,7 +573,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>24 to 48 hours</td>
+            <td>One or two days</td>
             <td>Months</td>
             <td>None needed</td>
           </tr>
@@ -613,7 +613,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Yes, and you don't replace anything. Your ERP, accounting, and warehouse tools stay put. VOS sits in front of them and sends each order the way you work now: by email, through EDI or API, into QuickBooks, or over a direct platform link.
+          Yes, and you don't replace anything. Your ERP, accounting, and warehouse tools stay put. VOS sits in front of them and hands off each order in the form your team works with: by email, through EDI or API, into QuickBooks, or over a direct platform link.
         </div>
       </div>
 
@@ -625,8 +625,8 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           For a distributor, the manual work around orders and stock: taking orders
           day and night, handing them over already checked by the customer,
-          updating inventory with every new order, keeping the catalog matched to
-          stock levels, and logging every order with its own number and time stamp.
+          adjusting inventory as each one comes in, keeping the catalog in line
+          with current stock, and logging every order with a number and time stamp.
           Your team still makes every decision.
         </div>
       </div>
@@ -651,7 +651,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS is not a warehouse management system. It does not scan barcodes, assign bin locations, or plan pick paths.
+          No. VOS is not built to run a warehouse. It does not scan barcodes, assign bin locations, or plan pick paths.
           Its stock numbers follow what customers order, and it runs beside whatever you use in the warehouse today.
         </div>
       </div>
@@ -662,8 +662,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Your customers use the app on their own iPhones or Android
-          phones, and your staff manage accounts and order guides in the admin platform. There are no
+          No. Customers order through the app on phones they already carry,
+          iPhone or Android, and your staff run accounts and order guides from a web browser. There are no
           scanners or label printers to buy, and nothing to mount or wire.
         </div>
       </div>
@@ -696,11 +696,11 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long does setup take?
+          How fast can our team be up and running?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It takes most distributors 24 to 48 hours. You share your order guides, we load them, and we get every account ready. There is no IT project on your side.
+          Expect 24 to 48 hours for most distributors. Send over the guides you work from today, and we load them and get every customer set up to order. Your IT staff has nothing to do.
         </div>
       </div>
 
@@ -728,7 +728,7 @@ module.exports = {
     <span>✓ We set up your customer accounts</span>
     <span>✓ Your systems stay exactly as they are</span>
     <span>✓ No hardware to install</span>
-    <span>✓ Pricing on request</span>
+    <span>✓ Ask us for a quote</span>
   </div>
 </section>
 

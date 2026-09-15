@@ -29,8 +29,8 @@ module.exports = {
         of your suppliers on VOS into one app, with one ordering routine for all
         of them. Talk the order through, check it, and send it with its own dated
         order number. VOS reaches you through those suppliers (the food
-        distributors you buy from): each one sets up your account and loads your
-        order guide.
+        distributors you buy from): each one sets up your account, plus an order
+        guide of the items you buy.
       </p>
 
       <div class="hero-ctas">
@@ -72,7 +72,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">20–30 min</div>
-      <div class="stat-label">saved on each order compared with phoning it in</div>
+      <div class="stat-label">saved per order versus a call to your rep</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
@@ -119,7 +119,7 @@ module.exports = {
         <div class="problem-icon">📋</div>
         <h4 class="mb-8">"There's no record of what we ordered"</h4>
         <p class="text-muted" style="font-size:15px;">
-          The order was a phone call. When a case is missing or the wrong item
+          You phoned it in, and nothing was written down. When a case is missing or the wrong item
           arrives, it's your word against theirs.
         </p>
       </div>
@@ -149,8 +149,8 @@ module.exports = {
           <h3>Order from each supplier the same way.</h3>
           <p class="mt-12 text-muted">
             No more jumping between supplier portals and phone numbers. VOS is
-            food purchasing software for restaurants that works through the
-            suppliers you already use. When one of your distributors joins, they
+            food purchasing software for restaurants that works with your
+            existing suppliers. When one of your distributors joins, they
             add you, and their guide appears beside the others. Your
             manager learns one routine, not four.
           </p>
@@ -178,8 +178,8 @@ module.exports = {
           <span class="eyebrow">A Real Paper Trail</span>
           <h3>Restaurant purchase order software with proof of what you ordered.</h3>
           <p class="mt-12 text-muted">
-            You look over every order and confirm it before it goes. Each one gets
-            a unique order number, the date, and a timestamp, so it
+            You look over every order and confirm it before it goes. Each one carries
+            its own number, date and time, so it
             does the job of a purchase order with no extra form. If a delivery is
             short or wrong, point to the numbered order rather than argue over who
             said what.
@@ -281,8 +281,8 @@ module.exports = {
         <div class="feature-card-icon">🏪</div>
         <h4>Distributor Promos</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your distributors can send deals and specials straight to your phone
-          as an app alert or a text.
+          Get your distributors' deals and specials on your phone, in the app
+          or by text.
         </p>
       </div>
 
@@ -299,8 +299,8 @@ module.exports = {
         <div class="feature-card-icon">💾</div>
         <h4>Automatic Saving</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Pulled away mid-order? It saves on its own, and you carry on where
-          you stopped.
+          Needed on the line halfway through? VOS saves your place, so you
+          pick up where you left off.
         </p>
       </div>
 
@@ -308,8 +308,8 @@ module.exports = {
         <div class="feature-card-icon">📦</div>
         <h4>Live Stock Updates</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each guide follows what its supplier has in stock, so fewer items
-          come up short or get swapped on delivery.
+          Guides update as your supplier's stock changes, so fewer items
+          arrive short or swapped.
         </p>
       </div>
 
@@ -351,10 +351,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>No System Replacement</h4>
+        <h4>Works Beside Your POS</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your POS and accounting tools stay put. The one change is how each
-          order reaches your supplier.
+          Accounting tools stay put too. All that changes is how orders get
+          to your suppliers.
         </p>
       </div>
 
@@ -371,8 +371,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See all your VOS suppliers in one app</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough of ordering from several suppliers,
-        order records, and guides at your prices. Does your distributor already
+        Our walkthrough takes 20 minutes and costs nothing. See ordering from
+        several suppliers, order records, and guides at your prices. Does your distributor already
         use VOS? Ask them to add you.
       </p>
     </div>
@@ -388,9 +388,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Most kitchens are ordering the same day</h2>
+      <h2>Most kitchens order on the day they're set up</h2>
       <p class="lead mt-16">
-        No IT team. No systems to rip out. Your supplier does the setup, and
+        No IT team. Nothing to tear out. Your supplier does the setup, and
         buying stops being four separate jobs.
       </p>
     </div>
@@ -408,10 +408,10 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Download the app</h4>
+        <h4>Put VOS on your phone</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Get VOS on your iPhone or Android phone and sign in. Your guides are
-          already there.
+          Sign in on an iPhone or Android. Your guides are already
+          waiting.
         </p>
       </div>
 
@@ -440,7 +440,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What restaurant teams say about VOS</h2>
+      <h2>Kitchens on VOS, in their own words</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -465,8 +465,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Every order has a number and a time on it now. If something looks off
-            when the truck shows up, we check it against the confirmation."
+            "Every order has a number and a time on it now. When a delivery looks
+            off, we check it against the confirmation."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -570,7 +570,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Keeps your current setup</td>
+            <td>Leaves your other software as is</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-yes">✓</span></td>
@@ -582,7 +582,7 @@ module.exports = {
             <td>Everyone</td>
           </tr>
           <tr>
-            <td>Time to first order</td>
+            <td>How soon you can order</td>
             <td>Usually same day</td>
             <td>Often weeks</td>
             <td>None needed</td>
@@ -611,7 +611,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Common questions about buying with VOS</h2>
+      <h2>Questions kitchens ask about buying through VOS</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -649,8 +649,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          In practice, yes. Each order you send is confirmed, numbered, and
-          timestamped before it reaches the supplier, so it serves as your
+          In practice, yes. You confirm each order, and VOS numbers and
+          time-stamps it before the supplier sees it, so it serves as your
           purchase order. If a delivery does not match, that order number is
           your reference.
         </div>
@@ -662,7 +662,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS handles placing the order and stops there. Each guide shows the
+          No. VOS gets the order to your supplier and stops there. Each guide shows the
           price that supplier set for your account, but VOS does not rank
           suppliers against each other, scan invoices, or work out recipe costs.
           Any tool you use for that can stay.
@@ -687,7 +687,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. You can place an order at any hour, by voice. It goes in right away
+          Yes. Your order can go in at any hour, by voice. It lands right away
           and waits for your distributor, who picks it up when they open.
         </div>
       </div>
@@ -711,9 +711,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most kitchens place their first order the same day. Your distributor
-          handles setup: your account, your guide and your prices. Then you
-          install the app, sign in, and order. Nobody on your team
+          Usually the same day your distributor sets you up. They handle your
+          account, your guide and your prices. Then you
+          download VOS, sign in, and order. Nobody on your team
           needs technical skills.
         </div>
       </div>
@@ -730,8 +730,8 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Ready to stop ordering four different ways?</h2>
-  <p>Ask your distributor about getting set up, or book a demo with us first. Stop juggling calls and portals, and get a numbered record of each order you place.</p>
+  <h2>Ready for one app across all your suppliers?</h2>
+  <p>Ask your distributor about getting set up, or have us show you a demo first. Stop juggling calls and portals, and get a numbered record of each order you place.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -741,8 +741,8 @@ module.exports = {
   <div class="final-cta-trust">
     <span>✓ Most order the same day</span>
     <span>✓ Keep your current suppliers</span>
-    <span>✓ Order by voice, 24/7</span>
-    <span>✓ Pricing on request</span>
+    <span>✓ Speak your order, day or night</span>
+    <span>✓ Ask us for a quote</span>
   </div>
 </section>
 

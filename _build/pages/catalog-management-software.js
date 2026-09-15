@@ -19,11 +19,10 @@ module.exports = {
 
     <div>
       <span class="eyebrow">Order Guides, Kept Current</span>
-      <h1>Catalog Management Software for Food Distributors</h1>
+      <h1>Food Distributor Catalog Management Software</h1>
       <p class="lead mt-16">
-        VOS is catalog management software built on the order guide each
-        customer buys from. Each customer's account gets its own list, at your
-        prices and on your SKUs. You edit any guide from one place, and
+        VOS is catalog management software built on each customer's order
+        guide. Every account's list uses your prices and your SKUs. You edit any guide from one place, and
         stock changes reach the catalog without anyone typing them in.
       </p>
 
@@ -33,7 +32,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Fits the systems you run</span>
+        <span>Plugs into what you use</span>
         <span class="hero-trust-dot"></span>
         <span>Launches in 24 to 48 hours</span>
         <span class="hero-trust-dot"></span>
@@ -70,7 +69,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">One</div>
-      <div class="stat-label">admin platform for all your guides and accounts</div>
+      <div class="stat-label">screen for every guide and every account</div>
     </div>
   </div>
 </section>
@@ -142,8 +141,8 @@ module.exports = {
           <h3>Update every order guide from one place.</h3>
           <p class="mt-12 text-muted">
             Add an item, drop one, or change a price, right on that account's
-            guide. The VOS admin platform also holds your customer accounts and
-            their order history. It works like product catalog software with
+            guide. The platform also holds every account's details
+            and order history. It works like product catalog software with
             your customers built in.
           </p>
           <ul class="feature-bullets mt-24">
@@ -183,7 +182,7 @@ module.exports = {
           <h3>B2B catalog software with customer-specific pricing.</h3>
           <p class="mt-12 text-muted">
             Each customer gets a guide of its own: the items it actually orders,
-            at the prices you've set, tied to your SKUs. You decide what goes on the
+            at prices you choose, each one matched to your SKUs. You decide what goes on the
             list. Customers begin with what they already buy, so reorders
             go fast.
           </p>
@@ -205,7 +204,7 @@ module.exports = {
               <span>Built from the products that customer buys, so the list stays short</span>
             </li>
           </ul>
-          <a href="/vendor-management-software" class="feature-link">See how to become the easiest vendor to buy from →</a>
+          <a href="/vendor-management-software" class="feature-link">How up-to-date guides make you easier to buy from →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -265,14 +264,14 @@ module.exports = {
           <h3>Your catalog moves with your stock.</h3>
           <p class="mt-12 text-muted">
             VOS also works as inventory catalog software on your side of the
-            order. You see stock move in real time as accounts buy, and the
-            catalog updates itself as levels change. Customers see a catalog
-            that follows your stock, so they hit fewer surprise stockouts.
+            order. You watch stock levels move the moment an account buys, and
+            the catalog adjusts to match. Customers see a catalog that follows
+            your stock, so they run into fewer sold-out items.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Availability that shifts with each order placed</span>
+              <span>Availability that moves with every purchase</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -318,8 +317,8 @@ module.exports = {
         <div class="feature-card-icon">📚</div>
         <h4>Full-Catalog View</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          See every product you carry in one place, instead of in separate
-          files for each account.
+          See your whole product range at a glance, instead of spread across
+          separate files for each account.
         </p>
       </div>
 
@@ -351,7 +350,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🚚</div>
-        <h4>Right Product on the Truck</h4>
+        <h4>Trucks Loaded Right</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           For DSD distributors, clean orders off a current guide mean drivers
           arrive with what the store ordered.
@@ -362,8 +361,8 @@ module.exports = {
         <div class="feature-card-icon">📍</div>
         <h4>Numbered, Dated Orders</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order carries its own number plus a date and timestamp, so any
-          order is easy to find again.
+          Each order gets its own number and a timestamp with the date, so it
+          is simple to find again.
         </p>
       </div>
 
@@ -389,8 +388,8 @@ module.exports = {
         <div class="feature-card-icon">🔗</div>
         <h4>API Connection</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          API-ready, so VOS connects to your ERP or distribution platform
-          and leaves it in place.
+          Through its API, VOS can link to your ERP or other distribution
+          software without replacing it.
         </p>
       </div>
 
@@ -407,9 +406,9 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">Watch VOS keep each customer's guide lined up with your catalog</h3>
       <p class="text-muted" style="font-size:16px;">
-        Take a 20-minute demo. We'll walk you through account setup, guide
-        edits, and the voice app, based on how your distribution business
-        runs today.
+        Set aside 20 minutes. We'll show you account setup, guide edits,
+        and the voice app, based on how your distribution business runs
+        today.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -424,9 +423,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Most distributors are up and running in 24 to 48 hours</h2>
+      <h2>We handle setup, and you're live by day two</h2>
       <p class="lead mt-16">
-        No IT project and no systems to swap out. Three steps and your accounts
+        Nothing you run today gets replaced. Three steps and your accounts
         are ordering from guides you control.
       </p>
     </div>
@@ -437,8 +436,8 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>You send us your guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Pass along your current guides, one per customer. We load them into your admin
-          platform, pricing and item codes included.
+          Pass along your current guides, one per customer. We load them into VOS, with
+          pricing and item codes included.
         </p>
       </div>
 
@@ -455,7 +454,7 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Your accounts start ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Most of your customers are ordering the day they get access. After
+          Most customers send in an order on the day they're given access. After
           that, you change a guide whenever your catalog does.
         </p>
       </div>
@@ -521,8 +520,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our customers order off their own list, in their own time, and
-            every order lands with our item numbers on it."
+            "Our accounts pick from their own lists at any hour, and every
+            order comes through carrying our item numbers."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -605,7 +604,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Works with the order formats you use today</td>
+            <td>Delivers orders in formats you already accept</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-yes">✓</span></td>
@@ -618,13 +617,13 @@ module.exports = {
           </tr>
           <tr>
             <td>Updating account guides</td>
-            <td>One admin platform</td>
+            <td>Edited in one place</td>
             <td>Manual</td>
             <td>Manual</td>
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>24 to 48 hours</td>
+            <td>One to two days</td>
             <td>Weeks</td>
             <td>None needed</td>
           </tr>
@@ -663,10 +662,10 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. Your current systems stay exactly as they are. This catalog
-          management software holds your customers' order guides, and orders
-          reach you by email as a PDF, Excel, or Word file, or through EDI, API,
-          or QuickBooks.
+          No. Whatever you run now keeps running as it does. This catalog
+          management software keeps each account's order guide. Orders reach
+          you by email as PDF, Excel, or Word, or through EDI, API, or
+          QuickBooks.
         </div>
       </div>
 
@@ -702,7 +701,7 @@ module.exports = {
           Not in the usual sense. Most tools sold under that label are product
           information management (PIM) systems: they write product descriptions,
           manage images, and push listings out to web shops. VOS does none of
-          that. It is voice-powered ordering built on each account's guide. It is also not AI procurement catalog
+          that. It is voice-powered ordering that runs off the guide you keep for every customer. It is also not AI procurement catalog
           management software for large buyers running supplier catalogs and
           purchase approvals. VOS sits on the distributor's side of the order.
         </div>
@@ -722,26 +721,27 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is this catalog management software a fit for a small distributor?
+          Is this catalog management software a fit for small distribution companies?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS was made for independent distributors, from small shops to
-          mid-size operations, not enterprise companies with their own IT
-          departments. There's no technical work on your end. Pricing is
-          quote-based, so we'll go over it when we talk.
+          Yes. VOS was designed with independent distributors in mind, whether
+          you run a small shop or a mid-sized operation. It isn't aimed at large
+          companies that keep their own IT team. There's no technical work on
+          your end. We quote pricing for each distributor, so we'll cover it
+          when we talk.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long is setup, and when can customers start ordering?
+          How long is setup, and how soon can customers order?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Setup usually takes a distributor 24 to 48 hours. You send us the
-          guides, we upload them and set up every account, and most customers
-          have ordered by the end of their first day. There's no IT project.
+          Distributors usually finish setup in a day or two. You send us the
+          guides, we upload them and set up every account, and most of your
+          accounts have ordered by the end of their first day. There's no IT project.
         </div>
       </div>
 
@@ -767,7 +767,7 @@ module.exports = {
 
   <div class="final-cta-trust">
     <span>✓ Guides loaded for you</span>
-    <span>✓ Nothing to replace in your back office</span>
+    <span>✓ Your software stays put</span>
     <span>✓ No IT staff needed</span>
     <span>✓ Pricing quoted on request</span>
   </div>

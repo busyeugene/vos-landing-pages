@@ -29,7 +29,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>Vendor Management Software, From the Vendor's Side.</h1>
       <p class="lead mt-16">
-        Your restaurant accounts, the customers who buy from you, keep a vendor list in vendor management software or on a sheet by the phone. They judge every name on it by clear prices, correct orders and easy buying. VoiceOrder Solutions helps you deliver all three: their staff place orders by voice from a guide built for them, at your prices and at any hour, and every order gets confirmed before it reaches your team.
+        The restaurants you sell to keep a vendor list in vendor management software or on a sheet by the phone. They judge every name on it by clear prices, correct orders and easy buying. VoiceOrder Solutions helps you deliver all three: their staff place orders by voice from a guide built for them, at your prices and at any hour, and every order gets confirmed before it reaches your team.
       </p>
 
       <div class="hero-ctas">
@@ -40,7 +40,7 @@ module.exports = {
       <div class="hero-trust">
         <span>Keep your current system</span>
         <span class="hero-trust-dot"></span>
-        <span>Go live in 24 to 48 hours</span>
+        <span>Go live in a day or two</span>
         <span class="hero-trust-dot"></span>
         <span>Give accounts iOS + Android apps</span>
       </div>
@@ -148,12 +148,12 @@ module.exports = {
           <span class="eyebrow">Clear Prices</span>
           <h3>Every account sees your current prices before it orders.</h3>
           <p class="mt-12 text-muted">
-            Each restaurant gets its own guide with only the items it buys from you,
-            each one carrying your price and SKU. Nobody scrolls a full catalog or calls
+            Each restaurant gets a guide listing just what it buys from you,
+            with your price and SKU on every item. Nobody scrolls a full catalog or calls
             to ask what something costs. They open their guide, talk through the order, and send it.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>A personal order guide for every account</span></li>
+            <li><span class="bullet-check">✓</span><span>Every account gets a personal order guide</span></li>
             <li><span class="bullet-check">✓</span><span>Your pricing on every line</span></li>
             <li><span class="bullet-check">✓</span><span>Items tied to your own SKUs</span></li>
             <li><span class="bullet-check">✓</span><span>Guides kept current from one admin platform</span></li>
@@ -180,7 +180,7 @@ module.exports = {
             sending. VOS can send it to a rep's inbox as a Word, Excel or PDF file,
             pass it along by EDI or API, or put it straight into QuickBooks. No one
             jots down a call or replays a voicemail, so misheard quantities
-            don't slip in. Your back office keeps working the way it does now.
+            don't slip in. Once an order arrives, your staff handle it just as they do today.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Email to a rep or your purchasing team</span></li>
@@ -235,9 +235,9 @@ module.exports = {
           <span class="eyebrow">Reps Who Sell</span>
           <h3>Your reps stop taking phone orders and start growing accounts.</h3>
           <p class="mt-12 text-muted">
-            When customers order by voice, your reps spend far less of the day on
-            the phone. Each order saves 20–30 minutes over calling it in. Reps can
-            put that time into answering accounts, adding items to order guides,
+            Once customers order by voice in the app, your reps spend far less
+            of the day on the phone. Every order takes 20–30 minutes less than a call.
+            Reps can put that time into answering accounts, adding items to each guide,
             and finding new business.
           </p>
           <ul class="feature-bullets mt-24">
@@ -268,7 +268,7 @@ module.exports = {
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
       <h2>Everything that makes buying from you simple.</h2>
-      <p class="lead mt-16">It all comes with VOS, for every account you bring on.</p>
+      <p class="lead mt-16">Each account you add gets the full set.</p>
     </div>
 
     <div class="cards-grid">
@@ -285,8 +285,8 @@ module.exports = {
         <div class="feature-card-icon">📚</div>
         <h4>Admin Platform</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Update order guides, manage customer accounts, and check order
-          history from one place.
+          Edit guides, look after every account, and pull up past orders,
+          all from one screen.
         </p>
       </div>
 
@@ -364,8 +364,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See how your accounts would order from you on VOS</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough. We'll show you an account's guide as
-        they see it and as you manage it, plus an order landing in your format.
+        Take a 20-minute walkthrough at no cost. See an account's guide from
+        their side and from yours, plus an order landing in your format.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -382,8 +382,8 @@ module.exports = {
       <span class="eyebrow">Simple Setup</span>
       <h2>Three steps from order guide to first order</h2>
       <p class="lead mt-16">
-        No IT department and nothing to rip out. Onboarding a new account is
-        quick, and most customers are ordering the day it's set up.
+        No IT department, and no new systems. Onboarding a new account is
+        quick, and a customer can usually order the day their account goes live.
       </p>
     </div>
 
@@ -391,10 +391,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Share your order guides</h4>
+        <h4>Send us each account's guide</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Send us each customer's order guide. We load it into VOS with your
-          SKUs and pricing.
+          We load every item and price into VOS, matched to your SKUs.
         </p>
       </div>
 
@@ -432,7 +431,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What distributors and restaurants say about VOS</h2>
+      <h2>Hear from distributors and the restaurants they serve</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -545,7 +544,7 @@ module.exports = {
             <td>Manual</td>
           </tr>
           <tr>
-            <td>Order number and timestamp on every order</td>
+            <td>Each order numbered and time-stamped</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
@@ -576,7 +575,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>24 to 48 hours</td>
+            <td>One to two days</td>
             <td>Weeks to months</td>
             <td>None needed</td>
           </tr>
@@ -638,7 +637,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS shows your pricing in each account's order guide. It does not draft
+          No. VOS puts your prices on the guide every account uses to order. It does not draft
           contracts, collect e-signatures, store contract files, or track
           renewal dates. If you need contract management, run a dedicated tool
           alongside VOS.
@@ -665,7 +664,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes, in the format your team picks. Orders can come by email with a PDF, Word or Excel file attached, or through EDI, API or QuickBooks. VOS is API-ready, so it can also plug into the distribution platform you use today.
+          Yes, in the format your team picks. Orders can come by email with a PDF, Word or Excel file attached, or through EDI, API or QuickBooks. VOS also has an API, so it can plug into the distribution platform you use today.
         </div>
       </div>
 
@@ -675,7 +674,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. The admin platform keeps every account's full order history.
+          Yes. Your VOS admin platform keeps every account's full order history.
           Every order carries its own number and the exact time it came in, and shows
           the person who placed it, so you can answer with facts instead of guesses.
         </div>
@@ -695,11 +694,11 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long does setup take?
+          How quickly can we go live?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors are up and running within 24 to 48 hours, with no IT project. You share your customer order guides, we load them and set up each account, and most customers place their first order the same day.
+          Most distributors are set up in 24 to 48 hours. There's no IT project. We load a guide for every account and set each one up, and most customers get an order in on day one.
         </div>
       </div>
 
@@ -716,7 +715,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Ready to be the vendor your accounts find easy to order from?</h2>
-  <p>Give every account its own order guide, take orders at any hour, and give your reps more time to sell.</p>
+  <p>Set each account up with its own guide, take orders at any hour, and let your reps get back to selling.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -724,9 +723,9 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ No IT project required</span>
+    <span>✓ Works without an IT team</span>
     <span>✓ Orders in your preferred format</span>
-    <span>✓ No system replacement needed</span>
+    <span>✓ Your current software stays</span>
     <span>✓ iOS and Android apps for your accounts</span>
   </div>
 </section>

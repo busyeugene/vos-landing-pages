@@ -59,6 +59,13 @@ visibility, and it sits alongside the systems a distributor already runs.
 - Par levels inside order guides, restaurant-side stock counts, suggested reorders (Q2, Q10): not on the live site.
   Do not put these on distributor pages. Operator pages may mention them only softly and flagged.
 - Order status beyond "confirmed" and "trackable to fulfillment" (Q3).
+- Raised during the Sep 2026 review, still on the pages in modest form, confirm with client:
+  - One restaurant ordering from **several distributors in one VOS app** (core premise of restaurant purchasing).
+  - Customers **seeing availability** in their order guide as they order (the site says the catalog updates as stock changes, not what customers see).
+  - **No manual data entry** once orders arrive by EDI, API or QuickBooks (inferred; emailed PDF/Excel/Word may still be keyed in, and pages say so).
+  - **Hands-free** voice ordering vs the "Push to Speak" button in the app screenshots.
+  - Each **location of a multi-site group** having its own account and order guide.
+  - Customers seeing their **own order history** (not claimed; pages only claim confirmations and order numbers on the customer side).
 
 ## What VoiceOrder Solutions does
 Voice + web-based order entry software for restaurants placing supply orders with food distributors. Restaurants can place orders 24/7 by voice (mobile app) or online — no hold time, no errors, no system to replace.

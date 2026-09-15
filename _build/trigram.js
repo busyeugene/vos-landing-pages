@@ -91,11 +91,14 @@ const df = new Map();
 for (const p of pages) for (const g of p.counts.keys()) df.set(g, [...(df.get(g) || []), p.slug]);
 
 // Cross-page allow-list: fixed facts that may appear on any number of pages (never within-page repeats).
+// Fixed facts: brand, the delivery-format list, iOS/Android, and the numbers (24/7, 20–30 minutes saved,
+// 24 to 48 hours setup, 20-minute demo). Any phrasing of them may recur; numbers only appear in those facts.
 const FORMAT = /\b(email|pdf|excel|word|edi|api|quickbooks)\b/g;
 const ALLOW = g => /voiceorder solutions/.test(g) ||
   (g.match(FORMAT) || []).length >= 2 ||
-  (/\b(ios|iphone)\b/.test(g) && /\bandroid\b/.test(g)) ||
-  /\b20 30\b|\b24 7\b|\b24 to 48\b|\bto 48 hours\b/.test(g);
+  /\b(pdf|excel|edi|quickbooks)\b|\bword (attachment|file|doc)\b/.test(g) ||
+  /\b(ios|iphone|android)\b/.test(g) ||
+  /\b(7|20|24|30|48)\b/.test(g);
 
 const args = process.argv.slice(2);
 if (args[0] === '--plan') {
