@@ -81,10 +81,20 @@ for (const file of files) {
   bad.length ? fail(file, `dead internal link(s): ${bad.join(', ')}`) : ok(`${new Set(hrefs).size} internal link target(s) resolve`);
   if (!/href="\/"/.test(html)) warn(file, 'no link back to pillar page');
 
-  // 7. keyword density
+  // 7. keyword density, counted on page content only: nav, logo bar, integrations partial, related strip,
+  // footer and eyebrow labels are removed, so a sibling link or a label above the H1 can't make up the count.
+  // Placement detail (body uses, FAQ question + different answer, meta description) is in kwaudit.js.
   const kw = KEYWORDS[reg.slug];
   if (kw) {
-    const headings = (visible.match(/<h[1-3][^>]*>[\s\S]*?<\/h[1-3]>/gi) || []).join(' ').replace(/<[^>]+>/g, ' ');
+    const content = visible
+      .replace(/<nav[\s\S]*?<\/nav>/i, '')
+      .replace(/<section class="logo-bar"[\s\S]*?<\/section>/i, '')
+      .replace(/<section class="section-pad" id="integrations"[\s\S]*?<\/section>/i, '')
+      .replace(/<section class="related-strip"[\s\S]*?<\/section>/i, '')
+      .replace(/<footer[\s\S]*?<\/footer>/i, '')
+      .replace(/<span class="eyebrow"[^>]*>[\s\S]*?<\/span>/gi, '');
+    const textOnly = content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+    const headings = (content.match(/<h[1-3][^>]*>[\s\S]*?<\/h[1-3]>/gi) || []).join(' ').replace(/<[^>]+>/g, ' ');
     // Several secondaries contain the primary verbatim ("warehouse order fulfillment software").
     // Mask them (longest first) so the primary count reflects standalone uses only.
     const mask = t => [...kw.secondary].sort((a, b) => b.length - a.length).reduce(

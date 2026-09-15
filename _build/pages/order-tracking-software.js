@@ -27,8 +27,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>Order Tracking Software That Saves Everyone a Call.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions is order tracking software built into the app your
-        kitchens and stores order from, by voice. Each of those orders is numbered,
+        VoiceOrder Solutions is order tracking software built into the app your restaurant and store customers use to order by voice. Each of those orders is numbered,
         timestamped and trackable from placement to fulfillment. Your customer gets
         a confirmation, and your team knows where it stands without a call to ask.
       </p>
@@ -39,7 +38,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>No new back-office software</span>
+        <span>Keeps your current order system</span>
         <span class="hero-trust-dot"></span>
         <span>Most live in 24-48 hours</span>
         <span class="hero-trust-dot"></span>
@@ -91,7 +90,7 @@ module.exports = {
     <h2>The order came in. So why is your phone still ringing?</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
       When orders show up by phone, voicemail and text, nobody has one record
-      of what came in or when. Customers call to check. Your team digs for the
+      of what came in or when. So customers phone to check. Your team digs for the
       answer. Here's what that costs you:
     </p>
 
@@ -110,17 +109,15 @@ module.exports = {
         <div class="problem-icon">📉</div>
         <h4 class="mb-8">"We sent that before cutoff"</h4>
         <p class="text-muted" style="font-size:15px;">
-          The account says they ordered in time. With no timestamp to check, you
-          squeeze it onto the truck or start your morning with an unhappy customer.
+          The account says they ordered in time. Their order is buried in a voicemail or text, so proving the time takes digging. You squeeze it onto the truck or start your morning with an unhappy customer.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🔍</div>
-        <h4 class="mb-8">"What did they order last month?"</h4>
+        <h4 class="mb-8">"That's the wrong item"</h4>
         <p class="text-muted" style="font-size:15px;">
-          No one can answer without going through inboxes, texts and notepads.
-          So your rep guesses, and the account notices when the guess is wrong.
+          They say you sent the wrong thing. If the order was called in, it's their word against your rep's notes, so you end up issuing a credit.
         </p>
       </div>
 
@@ -156,8 +153,8 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Customers check every line before they send it</span></li>
             <li><span class="bullet-check">✓</span><span>Confirmation comes straight back to their phone</span></li>
-            <li><span class="bullet-check">✓</span><span>An order number set the moment it goes out</span></li>
-            <li><span class="bullet-check">✓</span><span>One order tracking tool for your office and your accounts</span></li>
+            <li><span class="bullet-check">✓</span><span>Each order gets a number the moment it's sent</span></li>
+            <li><span class="bullet-check">✓</span><span>One order tracking tool: a confirmation for your accounts, a record for your office</span></li>
           </ul>
           <a href="/vendor-management-software" class="feature-link">See how to become the easiest vendor to buy from →</a>
         </div>
@@ -177,16 +174,15 @@ module.exports = {
           <span class="eyebrow">For Your Team</span>
           <h3>Sales order tracking software that tells you who ordered, and when.</h3>
           <p class="mt-12 text-muted">
-            Each incoming order shows up in VOS, marked with the account
+            Each order sent through the app appears in VOS, marked with the account
             that sent it, its number and the time it was placed. When a customer or a driver
-            asks about one, your team opens it on screen, not in a stack of
-            voicemails. Your reps keep selling instead of searching.
+            asks about one, your team pulls it up on screen instead of hunting through voicemails. Your reps keep selling instead of searching.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Every account's orders on one screen</span></li>
+            <li><span class="bullet-check">✓</span><span>Every account's app orders on one screen</span></li>
             <li><span class="bullet-check">✓</span><span>Clear up cutoff questions with each order's send time</span></li>
             <li><span class="bullet-check">✓</span><span>Answer status calls from the record, not from memory</span></li>
-            <li><span class="bullet-check">✓</span><span>Open up in the morning to last night's orders on the order tracking platform</span></li>
+            <li><span class="bullet-check">✓</span><span>Open the office to last night's orders, already on the order tracking platform</span></li>
           </ul>
           <a href="/order-fulfillment-software" class="feature-link">See order fulfillment →</a>
         </div>
@@ -206,8 +202,7 @@ module.exports = {
           <span class="eyebrow">On Their Phone</span>
           <h3>An order tracking app in your customers' pockets.</h3>
           <p class="mt-12 text-muted">
-            From an iPhone or Android device, customers tap into the app and order
-            at any hour. If a customer stops halfway, the app saves their place. When
+            From an iPhone or Android device, customers talk the order through at any hour. No customer has to wait on hold or leave a message. When
             they send it, they get a confirmation, so a chef closing at 11pm knows
             the order is in without waiting for your office to open.
           </p>
@@ -235,8 +230,7 @@ module.exports = {
           <span class="eyebrow">Full History</span>
           <h3>Past orders saved to settle disputes.</h3>
           <p class="mt-12 text-muted">
-            VOS keeps a full log of past orders for each account, with a
-            timestamp showing when each one was sent. When an account questions
+            VOS logs every order an account sends in the app, along with the time it went out. When an account questions
             what they asked for, you open the exact order they placed. No digging
             through voicemails or texts to find it.
           </p>
@@ -275,10 +269,9 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📍</div>
-        <h4>Tracking to Fulfillment</h4>
+        <h4>On Record From Placement</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          The order record stays in your admin view from the moment it's
-          placed until it's filled.
+          Orders from the app are on record in your admin view from the moment they're placed, and they stay in each account's history.
         </p>
       </div>
 
@@ -365,10 +358,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">Find any customer order without making a call</h3>
+      <h3 style="margin-bottom:10px;">See how an app order lands in your office, no call needed</h3>
       <p class="text-muted" style="font-size:16px;">
-        In 20 minutes, we'll follow one order from the app to your admin screen,
-        then scroll back through an account's history.
+        In 20 minutes, see one order go from the app to the admin screen, then scroll back through an account's history.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -383,7 +375,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Most distributors are tracking orders within two days</h2>
+      <h2>Three steps to your first tracked order</h2>
       <p class="lead mt-16">
         No IT project, and the software in your office today stays as it is. Three steps,
         and each new app order is on file from the start.
@@ -503,11 +495,11 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 700px; margin: 0 auto;">
       <span class="eyebrow">Why VoiceOrder Solutions</span>
-      <h2>Built for supply orders.<br>Not for tracking parcels.</h2>
+      <h2>Built for wholesale food orders.<br>Not for tracking parcels.</h2>
       <p class="lead mt-16">
         Most order tracking software is built to follow a package to a doorstep.
         You need to follow each order from when it's sent in until your
-        team fills it. A portal needs a login, and the phone leaves no record. VOS pairs
+        team fills it. A portal has no voice ordering, and a phone order is only on record once someone keys it in. VOS pairs
         voice ordering with an instant confirmation.
       </p>
     </div>
@@ -551,7 +543,7 @@ module.exports = {
             <td>History for every account</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
+            <td>Manual</td>
           </tr>
           <tr>
             <td>Customer reviews the order before sending</td>
@@ -572,9 +564,9 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Customer hears back on their order</td>
+            <td>Customer gets a confirmation it went through</td>
             <td>Alert or text</td>
-            <td>Login required</td>
+            <td>Varies</td>
             <td>Business hours</td>
           </tr>
           <tr>
@@ -621,8 +613,7 @@ module.exports = {
         <div class="faq-answer">
           Yes. Nothing gets swapped out. Orders still reach you by EDI, API or
           QuickBooks, or as an email with the order attached in PDF, Excel or Word. VOS adds a
-          numbered, timestamped record of the orders customers send in the app on top of the tools your
-          office already runs.
+          numbered, timestamped record of the app orders your customers place, on top of your current office tools.
         </div>
       </div>
 
@@ -695,10 +686,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS serves small to medium independent distributors, not
-          large companies with in-house IT departments. Pricing is on
-          request, so ask us for a demo and we'll talk through how your orders
-          arrive today.
+          Yes. It suits small and midsize distributors, independent or DSD, with no enterprise setup and no in-house IT required. Pricing is quote-based, so ask about it when you book a demo.
         </div>
       </div>
 
@@ -739,7 +727,7 @@ module.exports = {
     <span>✓ Most customers order the same day</span>
     <span>✓ Orders still arrive in your format</span>
     <span>✓ Your office software doesn't change</span>
-    <span>✓ No IT work on your end</span>
+    <span>✓ No IT team needed</span>
   </div>
 </section>
 

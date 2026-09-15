@@ -24,7 +24,7 @@ module.exports = [
     file: 'vos-order-fulfillment-landing.html',
     label: 'Order Fulfillment Software',
     card: 'Order Fulfillment Software',
-    blurb: "Orders reach your pick line confirmed and complete. Customers order by voice around the clock, so no order sits in a voicemail to be typed up.",
+    blurb: "Your pick line starts from confirmed, complete orders. Accounts speak them into the app around the clock, so those orders never sit in a voicemail waiting to be typed.",
     cluster: 'order',
   },
   {
@@ -64,7 +64,7 @@ module.exports = [
     file: 'vos-inventory-replenishment-landing.html',
     label: 'Inventory Replenishment Software',
     card: 'Inventory Replenishment Software',
-    blurb: "See what is running low as customer orders land, and restock before an account's order comes up short.",
+    blurb: "Spot what is running low while orders are still landing, and restock before an account's order comes up short.",
     cluster: 'inventory',
   },
   {
@@ -80,7 +80,7 @@ module.exports = [
     file: 'vos-inventory-visibility-landing.html',
     label: 'Inventory Visibility Software',
     card: 'Inventory Visibility Software',
-    blurb: "One stock picture for your reps, your warehouse and your customers, updated as orders come in. No morning stock sheet to chase.",
+    blurb: "One stock view for your reps and warehouse that updates with each app order, plus customer catalogs that change with stock. No morning stock sheet to chase.",
     cluster: 'inventory',
   },
   {
@@ -112,7 +112,7 @@ module.exports = [
     file: 'vos-restaurant-purchasing-landing.html',
     label: 'Restaurant Purchasing Software',
     card: 'Restaurant Purchasing Software',
-    blurb: "Buy from each of your distributors on VOS in one app, by voice, at any hour. Every purchase is on record with its own order number.",
+    blurb: "Buy from each of your distributors on VOS in one app, by voice, at any hour. Each order you send in the app gets a number and a timestamp.",
     cluster: 'ops',
   },
   {
@@ -120,7 +120,7 @@ module.exports = [
     file: 'vos-vendor-management-landing.html',
     label: 'Vendor Management Software',
     card: 'Vendor Management Software',
-    blurb: "Be the vendor your restaurant accounts find easiest to buy from: their own order guide, round-the-clock ordering, orders in your format.",
+    blurb: "Be the vendor your restaurant accounts find easiest to buy from: a guide built for each account, round-the-clock ordering, orders in your format.",
     cluster: 'ops',
   },
   {

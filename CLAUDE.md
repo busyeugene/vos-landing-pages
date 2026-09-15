@@ -162,6 +162,9 @@ node build.js          # rebuild all pages (or: node build.js <slug>)
 node gen-site.js       # regenerate vercel.json, index.html cards, sitemap.xml, robots.txt
 node gen-csv.js        # export metas, H1s, keywords to vos-page-metadata.csv
 node qa.js             # QA gate: 0 failures AND 0 warnings before pushing
+node kwaudit.js        # keyword placement: 2 headings, 2 body, FAQ question + a different answer, meta; 0 issues
+node template.js       # 16-section template conformance; 0 fails
+node claims.js         # claim-rule scan: no ✗ lines; read the ? lines in context
 node structure.js      # tag balance + one h1 per page
 node trigram.js        # 3-word repetition: 0 within a page; `--cross 3` must list nothing (fixed facts allow-listed)
 node repeat.js         # 5-word phrases and sentences shared between pages
@@ -176,9 +179,18 @@ Competitor research digests for every primary keyword (Sep 2026 review) live in 
 1. Eugene produces content brief or keyword targets
 2. Claude checks the live homepage and the knowledge base, picks the page's audience (distributor or operator) and its one question, and pulls the SERP for the primary keyword (Ahrefs + Jina keys live in `E:\Claude projects\Writing\references\api-keys.local.md`; load them inside a script, never print them)
 3. Claude builds the full page using the VOS 16-section template, following the claim rules above
-4. Gates, all clean: `node qa.js` (0 failures, 0 warnings), `node structure.js`, `node trigram.js` + `node trigram.js --cross 3`, `node repeat.js <new slugs>`, `python layout.py <new slugs>`. Sitewide chrome (nav, buttons, eyebrows, integrations, footer, the Tony Luna quote, screenshot placeholders) is expected to repeat.
+4. Gates, all clean: `node qa.js` (0 failures, 0 warnings), `node kwaudit.js`, `node template.js`, `node claims.js` (no ✗), `node structure.js`, `node trigram.js` + `node trigram.js --cross 3`, `node repeat.js <new slugs>`, `python layout.py <new slugs>`. Sitewide chrome (nav, buttons, eyebrows, integrations, footer, the Tony Luna quote, screenshot placeholders) is expected to repeat.
 5. Before calling a batch strong, get a fresh-eyes read: read-only reviewers with no prior context score each page as the buyer and as a fact-checker. Verify every finding before applying it (don't delete required keywords or the client's own live wording).
 6. Push to `master` → Vercel auto-deploys; confirm the live URL shows the new copy
 7. After every new page build, output the meta title and meta description for client review
 
 **When many agents rewrite pages in parallel,** they land on the same new wording. Always finish with a central `trigram.js --cross 3` and a small sequential sweep.
+
+**Lessons from the Sep 2026 4-pass check** (duplication, keywords, structure, product relevance):
+- A green gate is only as honest as what it counts. Keywords count in page content only: never in the hero eyebrow, related strip, footer or nav. Hero eyebrows are audience labels ("For Food Distributors" / "For Restaurant Operators"), not keyword carriers.
+- The meta description must not open by repeating the title; lead with the buyer's outcome and keep the primary keyword.
+- Setup time: at most three mentions per page, each worded differently but always true ("24-48 Hrs" stat, "24-48 hours", "24 to 48 hours", or "a day or two for most"). Never "two days or less", "under 48 hrs" or "within two days".
+- Inventory pages say where stock numbers come from only as "from the system you run today; the demo shows how it connects". The catalog updates as stock changes; never write that the restaurant's guide shows what the distributor has in stock.
+- Comparison cells stay fair: phone orders can be read back ("If read back"), voicemail does take orders after hours.
+- "Also Built In" cards must not repeat a feature row, the stats or the integrations block; 6 good cards beat 9 with repeats.
+- Tap ordering is not a verified fact: describe ordering by voice.

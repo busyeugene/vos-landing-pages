@@ -13,14 +13,21 @@ node build.js order-tracking-software    # rebuild one, by slug
 node gen-site.js                         # regenerate vercel.json, index.html cards, sitemap.xml, robots.txt
 node gen-csv.js                          # export every page's metadata to vos-page-metadata.csv
 node qa.js                               # QA gate: metas, schema, keyword density, dead links
+node kwaudit.js [--detail] [<slug...>]   # keyword placement gate: body uses, FAQ split, meta; --detail prints every keyword sentence
+node template.js [<slug...>]             # 16-section template conformance: order, counts, CTA labels, audience links
+node claims.js [<slug...>]               # claim-rule scan: ✗ = banned wording, ? = sentence to read in context
 node structure.js                        # tag balance + one h1 per page
 node repeat.js <slug...>                 # 5-word repetition report (see below)
 node trigram.js [<slug...>]              # 3-word repetition: summary, or the phrases for given pages
 node trigram.js --cross 3                # 3-word phrases on 3+ pages (fixed facts allow-listed)
 python layout.py [<slug...>]             # headless Chrome render check at 1440px and 390px
+node outline.js <slug|all> [outDir]      # page copy as a tagged outline, for reviewers (no comments, CSS or JSON-LD)
+node where.js <slug...>                  # every sentence behind each within-page trigram repeat
+node apply.js <fixes.js> [--dry]         # apply exact copy fixes (text, cards, table rows, FAQs); reports anything that doesn't match once
 ```
 
-Before pushing: `node qa.js` must report 0 failures and 0 warnings, `node structure.js` must be
+Before pushing: `node qa.js` must report 0 failures and 0 warnings, `node kwaudit.js` 0 issues,
+`node template.js` 0 fails, `node claims.js` no ✗ lines, `node structure.js` must be
 clean, `node trigram.js` must show 0 within-page repeats with `--cross 3` listing nothing,
 `node repeat.js <new slugs>` should show nothing you would not defend, and
 `python layout.py <new slugs>` should report 0 flagged pages.
@@ -35,7 +42,14 @@ clean, `node trigram.js` must show 0 within-page repeats with `--cross 3` listin
 | `build.js` | Assembles `pages/*.js` + partials + generated `<head>` into the root HTML files. |
 | `gen-site.js` | Generates `vercel.json`, `sitemap.xml`, `robots.txt`, and the `index.html` card grid from `registry.js`. |
 | `gen-csv.js` | Exports url, cluster, keywords, metas with char counts, H1, canonical, and FAQ count for every page. |
-| `qa.js` | Gate: em-dash ban, canonical/OG/schema presence, JSON-LD validity, FAQ schema vs DOM parity, title/description length, dead internal links, keyword density. |
+| `qa.js` | Gate: em-dash ban, canonical/OG/schema presence, JSON-LD validity, FAQ schema vs DOM parity, title/description length, dead internal links, keyword density. Keywords are counted on page content only: nav, logo bar, integrations, related strip, footer and eyebrow labels are stripped first (until Sep 2026 a keyword in the hero eyebrow padded the count to 6). |
+| `kwaudit.js` | Keyword placement gate (Eugene's rule): primary in H1, meta title and meta description; 2 heading uses, 2 body uses, and in one FAQ question plus a *different* FAQ answer; every secondary present in content; one secondary in an H1-H3. `--detail` prints each keyword sentence for a naturalness read. |
+| `template.js` | Template conformance: the 16 sections in order, H1 length, distributor hero says customers order by voice in the app, 3 trust items, verified stat figures, 3 problem cards, alternating feature rows, feature-link counts, "Also Built In" eyebrow, cards in multiples of 3, CTA labels by audience, 3 steps, featured testimonial, comparison row widths, 7+ FAQs, same-audience related strip, a cross-audience footer link. Honest ✗ rows in the VOS column are listed as notes, not warnings. |
+| `claims.js` | Scans visible copy and metas against the CLAUDE.md claim and copy rules. ✗ lines are banned wording; ? lines are sentences to read in context ("every order" scope, no-retyping, web ordering, multi-supplier, stock counts). |
+| `outline.js` | Tagged outline of a page's visible copy in order (H1, p, li, table rows, FAQ Q/A). What reviewers read, so author comments in `pages/*.js` don't bias them. |
+| `where.js` | For each within-page trigram repeat, prints the sentences it comes from. |
+| `apply.js` | Applies a fixes file: text swaps matched across source line wraps, plus `@card`, `@removeCard`, `@row`, `@removeRow`, `@faq`, `@removeFaq`. Each op must match exactly once or it is reported and skipped. |
+| `metafix.js` | One-off (Sep 2026): rewrote 10 meta descriptions that opened by echoing the title. Kept for reference. |
 | `structure.js` | Tag balance and single-h1 check. |
 | `repeat.js` | Repetition report. Per page: phrases (5+ words) repeated within the page, sentences shared word-for-word or near-identically with other pages, and similarity to the closest pages. Keywords are masked so intended placements are not flagged; nav, logo bar, integrations, related strip and footer are ignored because they are shared by design. |
 | `trigram.js` | Stricter repetition check (Eugene's bar since 2026-09-15): content 3-word phrases repeated within a page (target 0) and phrases on 3+ pages (target 0). Keywords masked; template chrome, buttons, eyebrows and the featured testimonial stripped; fixed facts (brand, formats, iOS/Android, 24/7, 20-30, 24-48) allow-listed. `--plan` emits a per-page rewrite list that keeps each shared phrase on the 2 pages it fits best. |

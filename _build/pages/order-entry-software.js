@@ -136,8 +136,8 @@ module.exports = {
         <div class="problem-icon">📋</div>
         <h4 class="mb-8">"We ordered 5 cases. They delivered 15."</h4>
         <p class="text-muted" style="font-size:15px;">
-          Phone orders get misheard, then someone at the distributor types them in again.
-          Handwritten lists go missing between the walk-in and the office. You end up
+          Phone orders get misheard, then someone at the distributor types them up by hand.
+          Or the truck shows up short on an item nobody warned you was out. You end up
           fixing mistakes instead of running your restaurant.
         </p>
       </div>
@@ -146,8 +146,7 @@ module.exports = {
         <div class="problem-icon">⏰</div>
         <h4 class="mb-8">"We needed to order Sunday night but they were closed"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Their office shut at 5pm on Friday. You spot what's short after Sunday service,
-          but the order sits until you can make a rushed call first thing Monday.
+          Their office shut at 5pm on Friday. You spot what's short after Sunday service, try their voicemail, and still make a rushed call Monday to be sure it landed.
         </p>
       </div>
 
@@ -187,7 +186,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Check each line before you hit send</span>
+              <span>Read every line on screen before you hit send</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -216,7 +215,7 @@ module.exports = {
           <span class="eyebrow">24/7 Ordering</span>
           <h3>Order on your schedule, not your distributor's hours.</h3>
           <p class="mt-12 text-muted">
-            Place the order during closeout or before the morning crew gets in.
+            Place the order after close or before the morning crew gets in.
             Your distributor gets the order when
             you send it, even if they closed hours ago.
           </p>
@@ -256,8 +255,8 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Order from a list that updates with their stock.</h3>
           <p class="mt-12 text-muted">
-            Your distributor's catalog in VOS updates whenever their stock goes up or down.
-            So fewer "we didn't have that" calls reach you when the truck pulls in.
+            Your distributor's product list in VOS changes whenever their stock goes up or down.
+            You order from that list, not from an old printout.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -274,7 +273,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Less back-and-forth with your rep about what they carry today</span>
+              <span>Less back-and-forth with your rep over last-minute changes</span>
             </li>
           </ul>
           <a href="/restaurant-stock-management-software" class="feature-link">See the ordering side of kitchen stock →</a>
@@ -297,7 +296,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             Your distributor puts together a guide in VOS for your account, with the products you
             actually buy. You never start from a blank list. You just say how much.
-            Instead of searching a generic catalog, you get order entry system software shaped by what your kitchen buys.
+            It's order entry system software built around your account, not a generic catalog to search.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -371,32 +370,8 @@ module.exports = {
         </p>
       </div>
 
-      <div class="feature-card">
-        <div class="feature-card-icon">📄</div>
-        <h4>Multiple Delivery Formats</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          An emailed file, an EDI or API feed, or QuickBooks: VOS sends your order
-          the way your distributor's team already takes orders in.
-        </p>
-      </div>
 
-      <div class="feature-card">
-        <div class="feature-card-icon">🔗</div>
-        <h4>Linked to Their Platform</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          When VOS connects straight to your distributor's platform, your order lands
-          in their system as sent. Nobody types it in again, so there's one less place for a mistake.
-        </p>
-      </div>
 
-      <div class="feature-card">
-        <div class="feature-card-icon">🔄</div>
-        <h4>Same Distributor, Same Routine</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Your distributor, your rep and your delivery days all stay put.
-          The only thing that changes is how the order gets to them.
-        </p>
-      </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">❌</div>
@@ -622,7 +597,7 @@ module.exports = {
         </div>
         <div class="integration-badge">
           <div class="integration-logo-placeholder"></div>
-          Web Browser
+          Web Admin
         </div>
         <div class="integration-badge">
           <div class="integration-logo-placeholder"></div>
@@ -666,22 +641,22 @@ module.exports = {
             <td>Voicemail or email</td>
           </tr>
           <tr>
-            <td>Voice ordering</td>
+            <td>Spoken order shown on screen to check</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
-            <td>Partial</td>
+            <td>Rare</td>
+            <td>Rep writes it down</td>
           </tr>
           <tr>
-            <td>Web-based order entry (no install)</td>
+            <td>Order saved if you get pulled away</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
+            <td>Call back later</td>
           </tr>
           <tr>
-            <td>Order checked and confirmed before it sends</td>
+            <td>Text or push confirmation after sending</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
+            <td>Call to check</td>
           </tr>
           <tr>
             <td>Catalog that updates with distributor stock</td>
@@ -696,7 +671,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>No new system needed to receive orders</td>
+            <td>Distributor keeps its own order system</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-yes">✓</span></td>
@@ -755,8 +730,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Not as long as your distributor offers VOS. You keep buying from them and
-          dealing with them the same way. If they don't offer it yet, send us their
+          No, as long as your distributor offers VOS. You keep buying from the same distributor, on the same account. If they don't offer it yet, send us their
           name. VOS is not a POS or an ERP, and it doesn't
           replace anything you run in the restaurant. It takes the place of the phone
           call, so the order goes in faster, with fewer mistakes, at any hour.
@@ -782,7 +756,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS is on 24/7, nights and weekends included. The order is sent
+          Yes. VOS is on 24/7, weekends and late nights too. The order is sent
           right when you finish, and it's there for your distributor when their
           office opens.
         </div>
@@ -794,11 +768,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Three ways: a guide holding only your items, a review before sending, and a
-          record of every order. Every item on the guide is one your distributor has
-          already set up. You look it over on screen before it sends, instead of
+          Three ways: a guide built from your items, a review before sending, and a record of each order you send. Every item on the guide is one your distributor has already set up. You read the order on screen before it sends, instead of
           reading it out to someone taking notes. And each order logs its number, date,
-          time and who placed it, so nobody has to argue later about what went in.
+          time and who placed it, so nobody has to argue later about what went in. Need something new? Your distributor can add it to your guide.
         </div>
       </div>
 
@@ -821,9 +793,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Orders can go out by email with a PDF, Excel or Word copy attached, or by
-          EDI, API, QuickBooks, or a direct connection to their platform. Your
-          distributor picks whichever one fits their system.
+          Not to receive them. Once your distributor is on VOS, orders can go out by email with a PDF, Excel or Word copy attached, or by EDI, QuickBooks, or an API connection to their platform. Your distributor picks whichever one fits their system.
         </div>
       </div>
 

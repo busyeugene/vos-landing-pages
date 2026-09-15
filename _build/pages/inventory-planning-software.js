@@ -11,7 +11,7 @@
  */
 module.exports = {
   title: 'Inventory Planning Software for Food Distributors | VOS',
-  description: 'Inventory planning software for food distributors: dated order history per account, 24/7 order capture and a live stock view, so you plan without guesswork.',
+  description: "Plan next week's stock from real customer orders. This inventory planning software gives you dated history per account, 24/7 ordering and a live stock view.",
   related: ["inventory-replenishment-software","inventory-tracking-software","distribution-resource-planning-software"],
   relatedHeading: 'More on stock, restocking and planning',
   body: `
@@ -26,13 +26,10 @@ module.exports = {
   <div class="hero-grid">
 
     <div>
-      <span class="eyebrow">Inventory Planning Software for Food Distributors</span>
+      <span class="eyebrow">For Food Distributors</span>
       <h1>Inventory Planning Software Built on Real Customer Orders.</h1>
       <p class="lead mt-16">
-        Decide how much to bring in from what your customers actually ordered,
-        not a hunch. They speak those orders into the VOS app, and this inventory
-        planning software files each one by account and date, beside a live view
-        of your stock.
+        Your customers talk their orders into the VOS phone app. This inventory planning software files each one by account and date and shows your stock as orders land, so you decide how much to bring in from real orders, not a hunch.
       </p>
 
       <div class="hero-ctas">
@@ -41,9 +38,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Keeps the tools you run</span>
+        <span>Works beside your systems</span>
         <span class="hero-trust-dot"></span>
-        <span>Setup in a day or two for most</span>
+        <span>Most live in 24-48 hours</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android + web admin</span>
       </div>
@@ -77,8 +74,8 @@ module.exports = {
       <div class="stat-label">order capture, so late orders stay in your numbers</div>
     </div>
     <div>
-      <div class="stat-number">Real-Time</div>
-      <div class="stat-label">stock visibility that keeps pace with orders</div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">saved per order when a phone call moves to the app</div>
     </div>
   </div>
 </section>
@@ -157,7 +154,7 @@ module.exports = {
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>A unique number on every VOS order</span></li>
-            <li><span class="bullet-check">✓</span><span>Each account's full history kept in one place</span></li>
+            <li><span class="bullet-check">✓</span><span>Each account's VOS orders kept in one place</span></li>
             <li><span class="bullet-check">✓</span><span>Who sent the order, not just which account</span></li>
             <li><span class="bullet-check">✓</span><span>No piecing last month together from emails</span></li>
           </ul>
@@ -179,8 +176,7 @@ module.exports = {
           <span class="eyebrow">Orders and Stock</span>
           <h3>Any demand and inventory planning software needs two facts: orders and stock.</h3>
           <p class="mt-12 text-muted">
-            VOS supplies both. Orders from your accounts arrive stamped and filed,
-            and your stock view refreshes the moment each one lands. VOS does not
+            VOS puts both side by side. App orders from your accounts arrive stamped and filed, and your on-hand numbers move with each one as it lands. VOS does not
             predict next week for you. It shows what was ordered and what you have,
             so your buyer decides with facts.
           </p>
@@ -190,7 +186,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Your catalog updates itself when stock changes</span></li>
             <li><span class="bullet-check">✓</span><span>No forecast model to set up or second-guess</span></li>
           </ul>
-          <a href="/inventory-tracking-software" class="feature-link">See stock tracking as orders come in →</a>
+          <a href="/inventory-tracking-software" class="feature-link">See how stock tracking works →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -208,8 +204,7 @@ module.exports = {
           <span class="eyebrow">Open 24/7</span>
           <h3>Supply chain inventory planning software can't count the order that went to voicemail.</h3>
           <p class="mt-12 text-muted">
-            For an independent distributor, the hole in the plan is often simple:
-            orders left after hours that never reach the system. VOS takes orders
+            For many distributors, the hole in the plan is simple: voicemail orders left after hours that never reach your system. VOS takes orders
             around the clock, whether a chef orders after closing or before morning prep, so late
             demand lands in the same history as the rest.
           </p>
@@ -288,8 +283,7 @@ module.exports = {
         <div class="feature-card-icon">📋</div>
         <h4>Order Guide Updates</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Change the items on an account's guide as your range changes, so
-          what they order keeps matching what you stock.
+          Add or drop items on an account's guide as your product line changes, so its orders keep matching what you stock.
         </p>
       </div>
 
@@ -313,10 +307,9 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📉</div>
-        <h4>Fewer Stockout Surprises</h4>
+        <h4>Fewer Surprise Shortages</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          With real orders in view, fewer shortages sneak up on you, and fewer
-          orders need a late swap.
+          With real orders in view, fewer shortages sneak up on you, and fewer orders need a late swap.
         </p>
       </div>
 
@@ -324,7 +317,7 @@ module.exports = {
         <div class="feature-card-icon">🗣️</div>
         <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers talk through the order and save 20 to 30 minutes each time.
+          Customers say what they need instead of phoning, saving 20 to 30 minutes an order.
           VOS turns what they say into a typed order for your team.
         </p>
       </div>
@@ -366,7 +359,7 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See the order record behind your weekly buy</h3>
+      <h3 style="margin-bottom:10px;">See how order history guides the weekly buy</h3>
       <p class="text-muted" style="font-size:16px;">
         In a 20-minute demo, we'll walk through one account's order history, current
         stock and after-hours ordering.
@@ -384,7 +377,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Most distributors go live within 24 to 48 hours</h2>
+      <h2>From today's guides to a dated order record</h2>
       <p class="lead mt-16">
         Three steps, no IT hires, and your ERP and spreadsheets stay put. Then your
         buyer works from real order data.
@@ -397,8 +390,7 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>Your team sends order guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Hand us your current order guides, one per account. We load
-          them into VOS and build each account for you.
+          Hand us the order guides your team works from, one per account. We load them into VOS, build each account and show you how today's stock counts plug in.
         </p>
       </div>
 
@@ -507,8 +499,7 @@ module.exports = {
       <h2>Real orders for your stock plan.<br>Not a forecasting engine.</h2>
       <p class="lead mt-16">
         Enterprise planning suites forecast demand and set reorder points, but they
-        need clean data and a team to run them. VOS keeps the dated, per-account
-        order record that planning depends on. See how the options stack up for a
+        need clean data and a team to run them. VOS is inventory planning software that keeps the dated, per-account order record your buy depends on. See how the options stack up for a
         small or mid-size distributor.
       </p>
     </div>
@@ -551,8 +542,8 @@ module.exports = {
           <tr>
             <td>Captures customer orders 24/7</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
+            <td>Voicemail, sometimes missed</td>
           </tr>
           <tr>
             <td>Voice ordering for your customers</td>
@@ -574,13 +565,13 @@ module.exports = {
           </tr>
           <tr>
             <td>When a shortfall shows up</td>
-            <td>Seen in the live stock view</td>
+            <td>As app orders move stock</td>
             <td>Caught early</td>
             <td>Found while picking</td>
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>1-2 days for most</td>
+            <td>A day or two for most</td>
             <td>Months</td>
             <td>None needed</td>
           </tr>
@@ -658,15 +649,11 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Where do the planning numbers come from?
+          What does my buyer plan from?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          From real orders. Each order in VOS shows the account, who placed it and
-          when. Every item on it comes from that customer's guide. Your buyer reads
-          that record next to current stock, then places the buy with your suppliers
-          the way you do today. As an inventory planning tool, VOS hands your buyer
-          the facts, and the call stays with them.
+          From the orders themselves. Each order in the app shows the account, who placed it and when, and every item on it comes from that customer's guide. Orders also reach your own systems as Excel files or through EDI and the API, so your buyer can total each item across accounts in the tool you plan in, then check it against current stock. As an inventory planning tool, VOS hands your buyer the facts, and the call stays with them.
         </div>
       </div>
 
@@ -676,22 +663,17 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Forecasting tools often want a year of clean sales records before they
-          help. Inventory planning software that reads your own orders doesn't.
-          Seeing current stock helps from your first day, and the history grows more
-          useful with every order placed in the app.
+          Not to start. Forecasting tools often want a year of clean sales records first. Inventory planning software that reads your own orders can start small: current stock helps on day one, and each week of orders in the app gives your buyer a clearer pattern to plan from.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I pull up the orders for just one account?
+          What if some accounts still call in their orders?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Every account's guide and history sit apart from the rest. A busy
-          downtown restaurant is never mixed in with a quiet cafe
-          across town, so you can see what each one really buys.
+          Phone and voicemail orders get no order number, timestamp or stock movement in VOS, so they stay out of the record. As more of your customers switch to the app, the record covers more of your demand.
         </div>
       </div>
 
@@ -713,8 +695,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          A typical distributor is live within 48 hours, and there's no long
-          rollout. You send over your guides, VOS turns each one into a ready
+          Most distributors are live within 24 to 48 hours, and there's no long rollout. You send over your guides, VOS turns each one into a ready
           account, and most accounts are ordering the same day they get the app. Your order
           history starts with that first order.
         </div>

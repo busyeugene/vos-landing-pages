@@ -3,7 +3,7 @@
  */
 module.exports = {
   title: "Order Taking Software for Food Distributors | VoiceOrder",
-  description: "Order taking software for food distributors. Customers say the order into the app 24/7, confirm it, and it reaches your team in your format. No phone tag.",
+  description: 'Customers say the order into an app 24/7, check it and send it. It reaches your team in your format. Order taking software that ends phone tag.',
   related: ["order-fulfillment-software","order-tracking-software","catalog-management-software"],
   relatedHeading: "Before and after the order comes in",
   body: `
@@ -18,12 +18,10 @@ module.exports = {
   <div class="hero-grid">
 
     <div>
-      <span class="eyebrow">Order Taking Software for Food Distributors</span>
+      <span class="eyebrow">For Food Distributors</span>
       <h1>Order Taking Software Without the Phone Tag.</h1>
       <p class="lead mt-16">
-        VOS is order taking software for food distributors, independent or DSD.
-        The restaurants and stores you supply speak the order into the app at any
-        hour and confirm it. Your team gets it timestamped, in whichever format
+        VOS is order taking software for independent food distributors and DSD operators. The restaurants and stores you supply speak each order into the VOS app at any hour and confirm it. Your team gets it timestamped, in whichever format
         your office uses, and there is no call or voicemail to key in.
       </p>
 
@@ -33,11 +31,11 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Nothing to swap out on your end</span>
+        <span>Nothing to swap out</span>
         <span class="hero-trust-dot"></span>
-        <span>Most go live in 24-48 hours</span>
+        <span>Setup in 24-48 hours for most</span>
         <span class="hero-trust-dot"></span>
-        <span>Runs on iOS + Android</span>
+        <span>iOS + Android</span>
       </div>
     </div>
 
@@ -98,8 +96,7 @@ module.exports = {
     <h2>Taking orders by phone is costing your team hours.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
       Many food distributors still take orders the way they did 20 years ago:
-      calls, voicemails, texts and emailed lists, all typed in by hand. Here's
-      what that manual order entry costs you every week:
+      calls, voicemails, texts and emailed lists, all typed in by hand. Here's what that costs you every week:
     </p>
 
     <div class="problem-grid">
@@ -158,9 +155,8 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>Customers say the order. You get it in writing.</h3>
           <p class="mt-12 text-muted">
-            Your customer opens VOS on their phone, presses to speak, and calls out
-            items and quantities while walking the cooler. It is mobile order
-            taking software made for a busy kitchen: no typing, no hold time,
+            Your customer opens VOS on their phone, presses to speak, and says items and quantities while walking the cooler. It is mobile order
+            taking software made for a busy kitchen: nothing for them to type, no hold time,
             and nothing for your team to decode from a voicemail.
           </p>
           <ul class="feature-bullets mt-24">
@@ -219,7 +215,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Holidays run like any other ordering day</span>
+              <span>Customers can place orders on holidays too</span>
             </li>
           </ul>
           <a href="/order-fulfillment-software" class="feature-link">Get orders to your pick line on time →</a>
@@ -238,17 +234,14 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Inventory Visibility</span>
-          <h3>Take fewer orders you can't fill.</h3>
+          <h3>Fewer stockout surprises after the order is in.</h3>
           <p class="mt-12 text-muted">
-            VOS ties inventory to order activity in real time. When an item sells
-            out or gets restocked, the catalog updates itself to match your
-            shelves. Fewer surprise shortages. Fewer "we didn't
-            have that" calls on delivery morning.
+            VOS ties inventory to order activity in real time. Your catalog shifts to match whenever stock moves. That means fewer "we didn't have that" calls on delivery morning.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Watch on-hand stock move as orders arrive</span>
+              <span>Spot a short as soon as the order comes in</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -256,7 +249,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Cut the last-minute substitutions that frustrate customers</span>
+              <span>Cut the late swaps that frustrate customers</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -284,8 +277,7 @@ module.exports = {
             Every account gets an order guide of its own: the items it really buys,
             priced by you and tied to your SKUs. Customers pick from a list
             they know. Your team gets each order in your own product codes, with
-            nothing to match or look up. With software for order taking built on
-            your catalog, nobody starts from a blank search box.
+            nothing to match or look up. It is software for order taking built on your catalog, so no customer starts from a blank search box.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -354,8 +346,7 @@ module.exports = {
         <div class="feature-card-icon">✅</div>
         <h4>Confirmation Alerts</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Once the customer confirms, they get a push notification or a text
-          saying it went through. Your team gets the order, and nobody calls to double-check.
+          Once the customer confirms, they get an app alert or a text saying it went through. Your team gets the order, and nobody calls to double-check.
         </p>
       </div>
 
@@ -379,10 +370,9 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🔄</div>
-        <h4>No System to Replace</h4>
+        <h4>DSD Route Accounts</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your software and your process stay put. The only thing VOS
-          replaces is the phone call.
+          Stores on your routes send orders ahead of the stop, so drivers load what each store asked for.
         </p>
       </div>
 
@@ -406,10 +396,9 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📍</div>
-        <h4>Multi-Location Customers</h4>
+        <h4>Promo Messages</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Selling to a group with several kitchens? Each location can be
-          its own account, so you know which site each order came from.
+          Send customers specials and new items by text or in-app alert, on the phone they order from.
         </p>
       </div>
 
@@ -424,7 +413,7 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See VOS cut 20 to 30 minutes from each order</h3>
+      <h3 style="margin-bottom:10px;">See how VOS saves 20 to 30 minutes when an order moves off the phone</h3>
       <p class="text-muted" style="font-size:16px;">
         In a 20-minute demo, follow one order from your customer's phone to your
         team, with no call to pick up and nothing to jot down.
@@ -631,11 +620,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto;">
       <span class="eyebrow">Why VoiceOrder Solutions</span>
-      <h2>Order taking software built around food distributors.<br>Not adapted from something else.</h2>
+      <h2>Made for food distribution.<br>Not borrowed from online retail.</h2>
       <p class="lead mt-16">
-        Generic order management tools were built for online stores and
-        warehouses. VOS is for distributors whose restaurant customers still
-        phone their orders in.
+        Most order management tools were built for online stores and warehouses. VOS is order taking software for distributors whose restaurant customers still pick up the phone to order.
       </p>
     </div>
 
@@ -672,7 +659,7 @@ module.exports = {
             <td>Order confirmed before it is sent</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
+            <td>Read back, if time allows</td>
           </tr>
           <tr>
             <td>Real-time inventory visibility</td>
@@ -693,10 +680,10 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Every order numbered and timestamped</td>
+            <td>Numbered and timestamped when placed</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Once keyed in</td>
           </tr>
           <tr>
             <td>Time back on each order</td>
@@ -706,8 +693,8 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>Under 48 hrs for most</td>
-            <td>Weeks</td>
+            <td>A day or two for most</td>
+            <td>Often weeks</td>
             <td>None needed</td>
           </tr>
         </tbody>
@@ -745,7 +732,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. VOS does not try to be one, and it is not an ERP either. It handles
+          No. VOS is order taking software, not an ERP or a full order management tool. It handles
           the front of the process: getting orders from your customers to you,
           no phone needed. Each order then reaches your existing software or inbox,
           so the way you pick, invoice and ship stays the same.
@@ -758,7 +745,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most do, because ordering in the app takes less effort than calling it in. It runs on
+          Ordering in the app takes less effort than calling it in, so they have good reason to. It runs on
           their own iOS or Android phone, and their order guide already lists
           what they buy from you. They talk through the order whenever it
           suits them, then send it. If they get interrupted, the
@@ -824,9 +811,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors, setup is done within 48 hours. You send the guide
-          for every account, and we load each guide and open each account. From
-          there, most customers send an order the same day.
+          You send each account's order guide, and we load it and set that account up. From
+          there, most customers are ordering the same day.
         </div>
       </div>
 

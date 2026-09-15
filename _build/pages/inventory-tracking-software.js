@@ -3,7 +3,7 @@
  */
 module.exports = {
   title: "Inventory Tracking Software for Food Distributors | VOS",
-  description: "Inventory tracking software for food distributors. See what's on hand in real time as orders come in, keep your catalog in sync, and cut stockout surprises.",
+  description: "See what's on hand in real time as customer orders come in. Inventory tracking software that keeps your catalog in step with stock and cuts stockout surprises.",
   related: ["inventory-visibility-software","inventory-replenishment-software","inventory-control-software"],
   relatedHeading: "Go further with your stock data",
   body: `
@@ -18,13 +18,11 @@ module.exports = {
   <div class="hero-grid">
 
     <div>
-      <span class="eyebrow">Inventory Tracking Software for Food Distributors</span>
+      <span class="eyebrow">For Food Distributors</span>
       <h1>Inventory Tracking Software That Keeps Up With Orders.</h1>
       <p class="lead mt-16">
         Know what's on hand in real time, while customer orders are still coming
-        in. The restaurants and stores you supply say their orders into the VOS
-        mobile app, and your stock and your catalog both shift with each one.
-        No clipboards. No guesswork. No system to replace.
+        in. The restaurants and stores on your routes order by voice in the VOS mobile app, and on-hand stock and the catalog update with each one. This inventory tracking software runs beside the stock system you use today.
       </p>
 
       <div class="hero-ctas">
@@ -74,8 +72,8 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">Real-Time</div>
-      <div class="stat-label">stock levels, moving with customer order activity</div>
+      <div class="stat-number">Same Day</div>
+      <div class="stat-label">first order for most of your accounts, once they have the app</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
@@ -95,10 +93,9 @@ module.exports = {
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container text-center">
     <span class="eyebrow">Sound Familiar?</span>
-    <h2>Orders arrive faster than anyone can count stock.</h2>
+    <h2>Orders arrive faster than your stock sheet can keep up.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
-      Plenty of food distributors still track inventory on clipboards, spreadsheets
-      or gut instinct. The numbers lag behind, and nobody sees the gap until something goes wrong:
+      At plenty of food distributors, the stock picture runs behind the orders. Nobody sees the gap until something goes wrong:
     </p>
 
     <div class="problem-grid">
@@ -155,9 +152,7 @@ module.exports = {
           <h3>Watch stock move the moment an order lands.</h3>
           <p class="mt-12 text-muted">
             VOS links your stock to the orders your customers send. When one
-            comes through the app, stock for those items moves with it, so
-            a rep doesn't have to check the shelf first. Think of it as software for tracking
-            inventory that your customers keep current just by ordering.
+            comes through the app, stock for those items moves with it, so a rep can see what's left without walking to the shelf. Think of it as software for tracking inventory that picks up every order from the app the moment it's placed.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -170,7 +165,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No waiting for phone orders to be keyed into a sheet</span>
+              <span>App orders reach your stock view with no typing</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -203,7 +198,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Catalog updates automatically as stock levels change</span>
+              <span>The catalog adjusts by itself when levels move</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -211,11 +206,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Fewer last-minute substitutions on delivery day</span>
+              <span>Fewer substitutions once the truck is loading</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No one retypes catalog changes by hand</span>
+              <span>Catalog stays current through overnight orders</span>
             </li>
           </ul>
           <a href="/inventory-automation-software" class="feature-link">See what else your team can stop doing by hand →</a>
@@ -256,7 +251,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Stock adjusts as each order arrives, with no phone notes to type up</span>
+              <span>Items match your SKUs, so stock moves on the right product</span>
             </li>
           </ul>
           <a href="/order-taking-software" class="feature-link">See how customers order without calling →</a>
@@ -292,7 +287,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Order history for every account, saved in your admin</span>
+              <span>Slow sellers stay in view, not only the fast movers</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -320,20 +315,12 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Also Built In</span>
-      <h2>Everything your team and your accounts get with VOS</h2>
+      <h2>Ordering tools behind your stock picture</h2>
       <p class="lead mt-16">Stock tracking comes with the ordering tools that feed it.</p>
     </div>
 
     <div class="cards-grid">
 
-      <div class="feature-card">
-        <div class="feature-card-icon">📊</div>
-        <h4>Fewer Order Calls</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          A customer who orders in the app is one fewer call for your office
-          to write down.
-        </p>
-      </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔔</div>
@@ -344,14 +331,6 @@ module.exports = {
         </p>
       </div>
 
-      <div class="feature-card">
-        <div class="feature-card-icon">🗣️</div>
-        <h4>Customer Order Check</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Customers go over the order and fix a wrong item or amount before
-          they submit it.
-        </p>
-      </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔄</div>
@@ -375,19 +354,10 @@ module.exports = {
         <div class="feature-card-icon">🛒</div>
         <h4>Order Records</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order gets its own number, plus the day and time it was placed,
-          so you can see who ordered what and when.
+          Each order placed in the app gets its own number, date and time, so you can see who ordered what and when.
         </p>
       </div>
 
-      <div class="feature-card">
-        <div class="feature-card-icon">📱</div>
-        <h4>iOS + Android App</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Customers place orders from the phone already in their pocket, iPhone
-          or Android. No extra hardware.
-        </p>
-      </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🌐</div>
@@ -418,7 +388,7 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See how VOS keeps inventory current as customers order</h3>
+      <h3 style="margin-bottom:10px;">Find out how VOS keeps the on-hand view current as customers order</h3>
       <p class="text-muted" style="font-size:16px;">
         Spend 20 minutes with us on a free walkthrough. We'll show you how customer orders,
         stock levels and your catalog stay in step.
@@ -447,10 +417,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Send us the guides you use now</h4>
+        <h4>Send us your current guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          We load every account's guide into VOS, keeping the items, pricing
-          and SKU numbers on it.
+          We load every account's guide into VOS, keeping each item, price and SKU, and walk you through connecting the stock numbers you keep today.
         </p>
       </div>
 
@@ -626,8 +595,7 @@ module.exports = {
       <span class="eyebrow">Why VoiceOrder Solutions</span>
       <h2>Stock tracking that starts with the order.<br>Nothing to swap out.</h2>
       <p class="lead mt-16">
-        A typical inventory app only learns about an order after someone types
-        it in. With VOS, the order your customer places in the app is the update.
+        Many inventory apps learn about an order only once it's typed in or synced from another system. With VOS inventory tracking software, the order your customer places in the app is the update.
       </p>
     </div>
 
@@ -661,7 +629,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Each order adjusts stock</td>
+            <td>Stock moves when an order comes through the app</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
@@ -691,7 +659,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>How fast stock reflects an order</td>
+            <td>How fast stock reflects a new app order</td>
             <td>Real time</td>
             <td>Varies</td>
             <td>Hours</td>
@@ -726,7 +694,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 600px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>What distributors ask about VOS inventory tracking software</h2>
+      <h2>What distributors ask about stock tracking with VOS</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -752,7 +720,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Each order your customers place in the app is tied to your stock, so
           the on-hand picture moves as each one comes in and the catalog follows.
-          App orders don't wait for anyone to key them in. VOS works beside whatever
+          Phone and voicemail orders don't move it, so the picture is sharpest when your accounts order through the app. VOS works beside whatever
           tracks your stock today. Ask us on the demo how your existing stock
           data connects.
         </div>
@@ -773,13 +741,11 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Will VOS mean fewer stockout surprises and substitutions?
+          Will VOS cut down on surprise shortages?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It helps. When your team can spot a gap as orders land, fewer shortages
-          catch you off guard and fewer orders need a last-minute swap. VOS does
-          not forecast demand or reorder from your own suppliers.
+          It helps. When your team can spot a gap as orders land, fewer shortages catch you off guard and fewer orders need a last-minute swap. VOS does not forecast demand or reorder from your own suppliers.
         </div>
       </div>
 
@@ -802,24 +768,17 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For a busy order desk, yes. A spreadsheet is only as current as the
-          last order someone typed in. VOS ties each item's stock to incoming
-          orders and covers every product you carry, not only the handful a rep
-          looked at this morning. A rep can check stock before promising a
-          case to a customer.
+          It works best beside one. A spreadsheet only changes when someone types in the latest order. VOS ties each item's stock to app orders, for every product you carry. It doesn't count stock, so your counts stay where they are today.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How quickly can a distributor get started?
+          How quickly can I get started with VOS?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors are taking orders through VOS inside two days. There's no
-          complex implementation and no IT project. Share your
-          guides with us, we build the accounts, and most customers get an
-          order in before the day is out.
+          Most distributors are taking orders through VOS within 24 to 48 hours. There's no complex implementation and no IT project. Share your guides with us, we build the accounts, and most customers get an order in the day they get the app.
         </div>
       </div>
 
@@ -846,7 +805,7 @@ module.exports = {
   <div class="final-cta-trust">
     <span>✓ Most accounts order the same day</span>
     <span>✓ Keeps the systems you have</span>
-    <span>✓ No IT work on your side</span>
+    <span>✓ No in-house IT needed</span>
     <span>✓ Pricing on request</span>
   </div>
 </section>
