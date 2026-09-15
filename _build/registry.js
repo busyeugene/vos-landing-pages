@@ -24,7 +24,7 @@ module.exports = [
     file: 'vos-order-fulfillment-landing.html',
     label: 'Order Fulfillment Software',
     card: 'Order Fulfillment Software',
-    blurb: "Orders reach your pick line confirmed and complete. Customers order by voice around the clock, so nothing waits on a voicemail or a retype.",
+    blurb: "Orders reach your pick line confirmed and complete. Customers order by voice around the clock, so no order sits in a voicemail to be typed up.",
     cluster: 'order',
   },
   {
@@ -40,7 +40,7 @@ module.exports = [
     file: 'vos-distribution-resource-planning-landing.html',
     label: 'Distribution Resource Planning',
     card: 'Distribution Resource Planning Software',
-    blurb: "The order data your distribution planning runs on. Customer orders arrive 24/7 and structured, so tomorrow's volume is known before you plan.",
+    blurb: "The order data your distribution planning runs on. Customers order 24/7, so more of tomorrow's orders are in, itemized, before you plan.",
     cluster: 'order',
   },
   {
@@ -72,7 +72,7 @@ module.exports = [
     file: 'vos-inventory-automation-landing.html',
     label: 'Inventory Automation Software',
     card: 'Inventory Automation Software',
-    blurb: "No re-keying: orders arrive in your format while stock and your catalog update on their own. Customers still confirm every order.",
+    blurb: "Take order and stock busywork off your team: no calls to write up, orders in your format, and stock and catalog that update on their own.",
     cluster: 'inventory',
   },
   {
@@ -88,7 +88,7 @@ module.exports = [
     file: 'vos-inventory-control-landing.html',
     label: 'Inventory Control Software',
     card: 'Inventory Control Software',
-    blurb: "Find where shorts, substitutions and order errors cost you margin, with checked orders and a catalog that keeps up with your stock.",
+    blurb: "Cut the shorts, substitutions and order errors that cost you margin, with customer-confirmed orders and a catalog that keeps up with your stock.",
     cluster: 'inventory',
   },
   {

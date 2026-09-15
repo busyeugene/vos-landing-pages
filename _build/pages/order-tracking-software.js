@@ -11,7 +11,7 @@ module.exports = {
   title: 'Distributor Order Tracking Software | VoiceOrder Solutions',
   description: 'Order tracking software for food distributors. Every customer order is numbered, timestamped and confirmed, so your team sees where it stands without a call.',
   related: ["order-taking-software","order-fulfillment-software","inventory-visibility-software"],
-  relatedHeading: 'See what happens before and after tracking',
+  relatedHeading: 'Take orders, fill them and keep stock in view',
   body: `
 <!--@NAVBAR-->
 
@@ -28,7 +28,7 @@ module.exports = {
       <h1>Order Tracking Software That Saves Everyone a Call.</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions is order tracking software for the orders your
-        customers send you, from restaurants to stores. Each one is numbered,
+        customers send you, from restaurant accounts to store accounts. Each one is numbered,
         timestamped and trackable from placement to fulfillment. Your customer gets
         a confirmation, and your team knows where it stands without a call to ask.
       </p>
@@ -41,7 +41,7 @@ module.exports = {
       <div class="hero-trust">
         <span>No new back-office software</span>
         <span class="hero-trust-dot"></span>
-        <span>Live in 1 to 2 days</span>
+        <span>48-hour setup</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android + web admin</span>
       </div>
@@ -138,7 +138,7 @@ module.exports = {
 
     <div class="text-center" style="max-width: 740px; margin: 0 auto 72px;">
       <span class="eyebrow">Both Sides of the Order</span>
-      <h2>Order tracking software that gives you and your accounts one record</h2>
+      <h2>Order tracking software that keeps you and your customers informed</h2>
     </div>
 
 
@@ -150,20 +150,20 @@ module.exports = {
           <h3>Purchase order tracking software that lets customers know you got it.</h3>
           <p class="mt-12 text-muted">
             To your customer, it's a purchase order. To you, it's a sales order.
-            It's one record for both of you, from the second it's sent. So your
-            day doesn't start with a "did you get it?" call.
+            Either way, it's one order, and both of you know it went through. So
+            your day doesn't start with a "did you get it?" call.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Customers check every line before they send it</span></li>
             <li><span class="bullet-check">✓</span><span>Confirmation comes straight back to their phone</span></li>
-            <li><span class="bullet-check">✓</span><span>Matching order numbers on your side and theirs</span></li>
+            <li><span class="bullet-check">✓</span><span>An order number set the moment it goes out</span></li>
             <li><span class="bullet-check">✓</span><span>One order tracking tool for your office and your accounts</span></li>
           </ul>
-          <a href="/order-entry-software" class="feature-link">See how orders get placed →</a>
+          <a href="/vendor-management-software" class="feature-link">See how to become the easiest vendor to buy from →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Customer app order<br>confirmation with<br>order number
+            📸 Screenshot:<br>Customer app order<br>confirmation after<br>the order is sent
           </div>
         </div>
       </div>
@@ -177,8 +177,8 @@ module.exports = {
           <span class="eyebrow">For Your Team</span>
           <h3>Sales order tracking software that tells you who ordered, and when.</h3>
           <p class="mt-12 text-muted">
-            Orders from all your accounts land in your admin platform, each marked
-            with its number and the time it was placed. When a customer or a driver
+            Every order appears in your admin platform, marked with the account
+            that sent it, its number and the time it was placed. When a customer or a driver
             asks about one, your team opens it on screen, not in a stack of
             voicemails. Your reps keep selling instead of searching.
           </p>
@@ -217,7 +217,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Unfinished orders save on their own, ready to resume</span></li>
             <li><span class="bullet-check">✓</span><span>Your office sees that same order on its side</span></li>
           </ul>
-          <a href="/restaurant-stock-management-software" class="feature-link">See how kitchens handle stock →</a>
+          <a href="/order-taking-software" class="feature-link">See how customers get orders to you without calling →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -233,12 +233,12 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Full History</span>
-          <h3>Past orders saved to settle any dispute.</h3>
+          <h3>Past orders kept on file to settle disputes.</h3>
           <p class="mt-12 text-muted">
             VOS keeps a full log of past orders for each account, with a
             timestamp showing when each one was sent. When an account questions
             what they asked for, you open the exact order they placed. The record
-            is there for your books and for theirs.
+            is there whenever your books need it.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Look back at last week or last month for any account</span></li>
@@ -246,7 +246,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Know what an account usually buys before your rep calls</span></li>
             <li><span class="bullet-check">✓</span><span>No paper trail to file, since every order is already logged</span></li>
           </ul>
-          <a href="/restaurant-purchasing-software" class="feature-link">See the buyer's side of ordering →</a>
+          <a href="/distribution-resource-planning-software" class="feature-link">See how past orders feed your planning →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -267,36 +267,36 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>What comes with every order, for you and your customers.</h2>
-      <p class="lead mt-16">Both sides get all of it, from the start.</p>
+      <h2>What else is built in, on your side and theirs.</h2>
+      <p class="lead mt-16">Some of it helps your office, some helps your customers, and it's all there from the start.</p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
         <div class="feature-card-icon">📍</div>
-        <h4>Order Numbers</h4>
+        <h4>Tracking to Fulfillment</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each order gets its own number and a timestamp the moment your
-          customer sends it.
+          An order stays trackable after it's sent, all the way through
+          fulfillment.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🗂️</div>
-        <h4>Order History</h4>
+        <h4>Account Management</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Look up any account's past orders from one admin view, whenever a
-          question comes up.
+          Update customer accounts in the same admin platform that holds
+          their orders.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📱</div>
-        <h4>iOS + Android App</h4>
+        <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Ordering and confirmations live in one app on the customer's
-          phone.
+          Customers can talk their order into the app, and it's logged as soon
+          as they send it.
         </p>
       </div>
 
@@ -311,25 +311,25 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🧾</div>
-        <h4>Review Before Sending</h4>
+        <h4>Lines That Match Your Catalog</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers look over each order before it goes, so the order you get
-          matches what they placed.
+          Each order is built from the guide you set for that account, so every
+          line matches your catalog.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🏪</div>
-        <h4>Sized for Smaller Teams</h4>
+        <h4>Restaurants and Store Routes</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Order tracking software for small business distributors, with no IT
-          team needed to run it.
+          Orders from restaurants and from the stores on your delivery routes
+          are tracked the same way.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📦</div>
-        <h4>Who Ordered</h4>
+        <h4>Name Behind Each Order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Each order shows the account and the person who sent it, so questions
           go to the right place.
@@ -338,16 +338,16 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🕐</div>
-        <h4>24/7 Access</h4>
+        <h4>Quick Start for Small Teams</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Orders placed at 5am or at midnight still get a number and a
-          confirmation. VOS does not keep office hours.
+          Order tracking software for small business distributors, with no IT
+          team needed to run it.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>Fits Your Current System</h4>
+        <h4>Your Existing Formats</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Orders still land in the format your team uses today, from email to
           QuickBooks.
@@ -394,7 +394,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Share what each account buys</h4>
+        <h4>You share what each account buys</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Send VOS the order guide for every account. We load it with the items,
           SKUs and prices you set.
@@ -657,10 +657,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Customers review each order before they send it, then get a
-          confirmation by app or by text. The order carries one number on both
-          sides, so your records and theirs match. That shared record is the point of order
-          tracking software: neither side has to call the other to find out.
+          Yes. Right after they send the order, customers get a confirmation by
+          app or by text. Before sending, they look over each line, so they know what
+          you received. That is the point of order tracking software: the
+          confirmation is in hand, and nobody calls to ask.
         </div>
       </div>
 

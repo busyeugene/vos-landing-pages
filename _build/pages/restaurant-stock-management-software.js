@@ -6,7 +6,7 @@ module.exports = {
   title: 'Restaurant Stock Management Software | VoiceOrder Solutions',
   description: 'Restaurant stock management software for the reorder: check the walk-in, say what you need, and VOS sends a confirmed order to your food distributor 24/7.',
   related: ["order-entry-software","restaurant-purchasing-software","restaurant-checklist-software"],
-  relatedHeading: 'More on stock, supply, and purchasing',
+  relatedHeading: 'More on restaurant ordering and purchasing',
   body: `
 <!--@NAVBAR-->
 
@@ -25,8 +25,7 @@ module.exports = {
         VoiceOrder Solutions is restaurant stock management software for the
         ordering side of your kitchen. Check the walk-in, call out what you
         need, and the order reaches your distributor, checked and confirmed, at
-        any hour. You get VOS through that distributor: they set up your account
-        and load the items you buy. No system to replace.
+        any hour. You get VOS through that distributor, who sets up your account.
       </p>
 
       <div class="hero-ctas">
@@ -35,7 +34,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Set up through your distributor</span>
+        <span>No system to replace</span>
         <span class="hero-trust-dot"></span>
         <span>Same-day first order</span>
         <span class="hero-trust-dot"></span>
@@ -44,7 +43,7 @@ module.exports = {
     </div>
 
     <div>
-      <!-- DEVS: Replace with VOS product screenshot (stock list / on-hand view) -->
+      <!-- DEVS: Replace with VOS product screenshot (a voice order being taken in the walk-in) -->
       <div class="img-placeholder tall">
         📸 Product screenshot:<br>VOS app on a phone in<br>the walk-in, taking<br>a voice order
       </div>
@@ -64,15 +63,15 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20-30 min</div>
-      <div class="stat-label">saved on every order you place</div>
+      <div class="stat-label">time saved per order</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
-      <div class="stat-label">order the moment you notice it's low</div>
+      <div class="stat-label">ordering, whenever you notice it's low</div>
     </div>
     <div>
       <div class="stat-number">Same day</div>
-      <div class="stat-label">for most customers to send a first order</div>
+      <div class="stat-label">first order for most kitchens</div>
     </div>
   </div>
 </section>
@@ -136,7 +135,7 @@ module.exports = {
     </div>
 
 
-    <!-- Feature 1: Counts that update themselves -->
+    <!-- Feature 1: you check the shelves, VOS handles the order -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row">
         <div>
@@ -168,17 +167,18 @@ module.exports = {
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row reverse">
         <div>
-          <span class="eyebrow">On Your Phone</span>
+          <span class="eyebrow">In the Walk-In</span>
           <h3>Call out the order while you walk the cooler.</h3>
           <p class="mt-12 text-muted">
-            The VOS restaurant stock management app lives on the phone already in
-            your apron. Open it in the walk-in and say what you need as you look at
-            each shelf. Your phone does the recording while you keep moving, so
-            there's no trip back to the office to write it up.
+            Take the VOS restaurant stock management app into the walk-in and say
+            what you need as you look at each shelf. Your phone does the recording
+            while you keep moving, so there's no trip back to the office to write it
+            up. As you go, the app shows what your distributor has, so you catch a
+            missing item before you send, not on the truck.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Works on iOS and Android phones</span></li>
-            <li><span class="bullet-check">✓</span><span>Hands free, from the walk-in or dry storage</span></li>
+            <li><span class="bullet-check">✓</span><span>Order from the shelf, not from memory</span></li>
+            <li><span class="bullet-check">✓</span><span>Works in the walk-in, dry storage, or behind the bar</span></li>
             <li><span class="bullet-check">✓</span><span>See what your distributor has before you order</span></li>
             <li><span class="bullet-check">✓</span><span>Pulled away mid-order? It saves and waits for you</span></li>
           </ul>
@@ -207,7 +207,7 @@ module.exports = {
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Review each item and quantity before you send</span></li>
-            <li><span class="bullet-check">✓</span><span>Nothing lost between your kitchen and the rep</span></li>
+            <li><span class="bullet-check">✓</span><span>No voicemail for anyone to copy down</span></li>
             <li><span class="bullet-check">✓</span><span>Fewer out-of-stock surprises and last-minute swaps</span></li>
             <li><span class="bullet-check">✓</span><span>A unique order number on everything you place</span></li>
           </ul>
@@ -236,7 +236,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>No typing and no menus to scroll</span></li>
             <li><span class="bullet-check">✓</span><span>Place orders 24/7, not just 9 to 5</span></li>
-            <li><span class="bullet-check">✓</span><span>Saves 20 to 30 minutes on every order versus calling</span></li>
+            <li><span class="bullet-check">✓</span><span>Saves 20 to 30 minutes per order versus calling</span></li>
             <li><span class="bullet-check">✓</span><span>Sent right to your distributor, no hold music</span></li>
           </ul>
           <a href="/order-entry-software" class="feature-link">See voice order entry in action →</a>
@@ -270,7 +270,7 @@ module.exports = {
         <div class="feature-card-icon">📊</div>
         <h4>Distributor Stock</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your item list shows your distributor's stock in real time, so fewer
+          What you see in the app follows your distributor's stock, so fewer
           items come up missing when the truck shows up.
         </p>
       </div>
@@ -285,11 +285,11 @@ module.exports = {
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🗣️</div>
-        <h4>Voice Reordering</h4>
+        <div class="feature-card-icon">📨</div>
+        <h4>Your Distributor's Format</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Talk through the order instead of typing it. VOS turns what you say
-          into a clean, digital order.
+          VOS sends each order the way your distributor already takes them:
+          email, EDI, or a direct link to their system.
         </p>
       </div>
 
@@ -306,7 +306,7 @@ module.exports = {
         <div class="feature-card-icon">📱</div>
         <h4>iOS + Android App</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Order from the walk-in, the line, or the parking lot, on the phone
+          Order from the line, the office, or the parking lot, on the phone
           you already carry.
         </p>
       </div>
@@ -322,7 +322,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🤝</div>
-        <h4>Set Up for You</h4>
+        <h4>Done-for-You Setup</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           No setup work on your end. Your distributor builds the account, and
           you're ready to order.
@@ -340,7 +340,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>Keep the Tools You Have</h4>
+        <h4>Your Current Tools</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Keep your distributor, your count sheet, and any inventory app you use.
           VOS replaces only the call or voicemail you reorder with.
@@ -387,7 +387,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Your distributor opens your account</h4>
+        <h4>Get your account from your distributor</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           They add your restaurant and upload its order guide.
           You get an app login tied to it. Not on VOS yet? Ask them, or contact us.
@@ -398,7 +398,7 @@ module.exports = {
         <div class="step-number">2</div>
         <h4>Sign in on your phone</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Put VOS on your iPhone or Android and use that login. For most customers, the
+          Put VOS on your iPhone or Android and use that login. For most kitchens, the
           first order goes in that day.
         </p>
       </div>
@@ -615,8 +615,7 @@ module.exports = {
         </button>
         <div class="faq-answer">
           No. VOS changes only how the order gets placed. How you check stock
-          stays the same, and so do the tools you track it in. Your distributor
-          still gets the order in the format it already works with.
+          stays the same, and so do the tools you track it in.
         </div>
       </div>
 
@@ -627,10 +626,10 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Through your food distributor. Distributors set VOS up for the
-          restaurants they supply: they create your account and upload your
-          order guide, and you sign in on the app. If your distributor isn't on VOS
-          yet, ask them about it, or contact us and we'll connect you with the
-          right person.
+          restaurants they supply: they create your account with an order guide
+          of the items you buy, and you sign in on the app. If your distributor
+          doesn't use VOS yet, ask them about it, or contact us and we'll connect
+          you with the right person.
         </div>
       </div>
 
@@ -653,9 +652,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Stock levels in VOS are live: they shift with each new order, and
-          your distributor's catalog updates when items run out or come back. You
-          find out what's available while you order, not when the delivery arrives.
+          Yes. VOS updates your distributor's catalog as their stock changes and
+          as orders come in. That way you're more likely to learn an item is out
+          while you're ordering, not when the truck arrives.
         </div>
       </div>
 
@@ -666,9 +665,8 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           No. VOS doesn't run kitchen counts, cost out recipes, track waste, or
-          use your POS sales to work out food cost. It covers the ordering side:
-          you say what you need, and VOS sends it to your distributor, confirmed.
-          If another tool already handles your counts and costing, VOS runs alongside it.
+          use your POS sales to work out food cost. Its job is the reorder: you
+          say what you need, and VOS sends it to your distributor, confirmed.
         </div>
       </div>
 
@@ -691,8 +689,8 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Yes. VOS runs on iPhone and Android, and it's made to use right in the
-          walk-in. You call out items as you check each shelf. If you get pulled
-          away, your progress saves so you can finish later.
+          walk-in. If something pulls you off the order, your progress saves so
+          you can finish later.
         </div>
       </div>
 
@@ -702,10 +700,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not long, and your distributor does most of it. They build your account
-          and load what you usually buy, then you install VOS on your phone. Most customers
-          place their first order the same day. You don't need an IT team or any
-          tech skills.
+          Most kitchens place their first order the same day. Your distributor
+          does the setup, so all you do is install VOS on your phone and sign in.
+          You don't need an IT team or any tech skills.
         </div>
       </div>
 
@@ -730,7 +727,7 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ Most customers order on day one</span>
+    <span>✓ Most kitchens start ordering the same day</span>
     <span>✓ Your distributor handles setup</span>
     <span>✓ Nothing to replace</span>
     <span>✓ Order 24/7 on iOS or Android</span>

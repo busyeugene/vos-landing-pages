@@ -10,7 +10,7 @@ module.exports = {
   title: 'Restaurant Checklist Software for Ordering | VoiceOrder',
   description: 'Swap the paper order sheet for restaurant checklist software. Your distributor loads your order guide, so every shift orders the same way, by voice, 24/7.',
   related: ["order-entry-software","restaurant-stock-management-software","restaurant-purchasing-software"],
-  relatedHeading: 'The routines this connects to',
+  relatedHeading: 'More on placing orders, restocking and purchasing',
   body: `
 <!--@NAVBAR-->
 
@@ -40,7 +40,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Set up by your distributor</span>
+        <span>Distributor-led setup</span>
         <span class="hero-trust-dot"></span>
         <span>Same-day first order</span>
         <span class="hero-trust-dot"></span>
@@ -77,7 +77,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">20-30 min</div>
-      <div class="stat-label">saved on every order you place</div>
+      <div class="stat-label">back on each order you don't phone in</div>
     </div>
   </div>
 </section>
@@ -146,7 +146,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">The List Itself</span>
-          <h3>Your order guide is the checklist your team already runs.</h3>
+          <h3>Your order guide becomes your team's checklist.</h3>
           <p class="mt-12 text-muted">
             On a lot of kitchen checklists, ordering is a single line: "place the
             order." VOS is where that line actually gets done. Your distributor
@@ -160,7 +160,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>They update it when products or prices change</span></li>
             <li><span class="bullet-check">✓</span><span>The same items in the same order each time you open it</span></li>
           </ul>
-          <a href="/catalog-management-software" class="feature-link">See how order guides stay current →</a>
+          <a href="/catalog-management-software" class="feature-link">See how distributors keep order guides current →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -188,7 +188,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Nothing gets skipped because it lived in someone's head</span></li>
             <li><span class="bullet-check">✓</span><span>New managers have the full list from their first shift</span></li>
           </ul>
-          <a href="/restaurant-stock-management-software" class="feature-link">See restaurant stock management →</a>
+          <a href="/order-entry-software" class="feature-link">See how anyone on your team places an order →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -208,7 +208,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             Walk the walk-in with your phone and call out what you need as you go.
             VOS captures each item as you say it, so nobody writes a list
-            and types it in again later. That copy step is where most ordering
+            and types it in again later. That copy step is where ordering
             mistakes creep in.
           </p>
           <ul class="feature-bullets mt-24">
@@ -217,7 +217,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Review the whole order before you send it</span></li>
             <li><span class="bullet-check">✓</span><span>It reaches your distributor confirmed and timestamped</span></li>
           </ul>
-          <a href="/inventory-tracking-software" class="feature-link">See how distributors track stock →</a>
+          <a href="/restaurant-stock-management-software" class="feature-link">See reordering straight from the walk-in →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -268,73 +268,76 @@ module.exports = {
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
       <h2>What helps every shift get the order right.</h2>
-      <p class="lead mt-16">All nine come in the same VOS app.</p>
+      <p class="lead mt-16">All nine come with VOS.</p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
         <div class="feature-card-icon">✅</div>
-        <h4>Personal Order Guide</h4>
+        <h4>A Record of Who Ordered</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your items and their pricing, set up by your distributor before day
-          one.
+          Each order notes the person who sent it and the time, so you can see
+          which shift placed it.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔄</div>
-        <h4>Always Current</h4>
+        <h4>Fewer Surprise Swaps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your distributor edits the guide when products change. Nobody orders
-          from an old printout.
+          The catalog keeps pace with your distributor's stock, which means
+          fewer missing items and swaps after you order.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📱</div>
-        <h4>Run It From a Phone</h4>
+        <h4>Deals From Your Distributor</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Order on iPhone or Android, standing right where the product is.
+          Promos can arrive by text message or push notification, so whoever
+          does the ordering sees them.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🕘</div>
-        <h4>Pick Up Where You Stopped</h4>
+        <div class="feature-card-icon">📨</div>
+        <h4>A Format They Already Use</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Get pulled away and the order saves itself. Come back and carry on.
+          Your distributor gets each order by email with a PDF, Excel or Word
+          attachment, or by EDI, API or QuickBooks. No new software on their end.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🎯</div>
-        <h4>Check Before It Sends</h4>
+        <h4>The Right Item Each Time</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          See the full order on screen and confirm it before your distributor
-          gets it.
+          Each line is tied to your distributor's own item code, so every shift
+          orders the same product, not a close guess.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📍</div>
-        <h4>Multi-Location</h4>
+        <h4>Any Spot in the Building</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          One app and one set of steps at each site, with a separate guide for each.
+          Order on your phone from the office, the dock or the bar, with no
+          extra device to set up.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🗣️</div>
-        <h4>Order by Voice</h4>
+        <h4>Quicker Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Say what you need out loud. No typing and no menus to tap through.
+          Skip the call to your rep and save 20–30 minutes on each order.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🕐</div>
-        <h4>Any Hour</h4>
+        <h4>Ordering at Any Hour</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Order during closeout at 11pm or before prep at 6am. VOS is on 24/7.
         </p>
@@ -342,10 +345,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>Your POS Stays Put</h4>
+        <h4>Room for Your Other Apps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          So do your distributor and your kitchen habits. VOS only changes how
-          the order gets placed.
+          Your POS and task apps carry on as before. VOS only changes how the
+          order gets placed.
         </p>
       </div>
 
@@ -391,16 +394,15 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>Your distributor sets up your account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          They upload your item list to VOS, and you get an app login tied
-          to your account.
+          They build your guide in VOS and give you an app login.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Download the app</h4>
+        <h4>You download the app</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Get VoiceOrder Solutions on iOS or Android. Most customers place
+          Get VoiceOrder Solutions on iOS or Android. Most restaurants place
           their first order the same day.
         </p>
       </div>
@@ -503,7 +505,7 @@ module.exports = {
       <p class="lead mt-16">
         A task app can remind someone to do the order. VOS is where the order
         gets built, checked and sent. For temperature logs and staff to-do
-        lists, pick a general ops app. For the order itself, here is how the
+        lists, use a tool made for that. For the order itself, here is how the
         options stack up.
       </p>
     </div>
@@ -514,7 +516,7 @@ module.exports = {
           <tr>
             <th style="width:36%;">Feature</th>
             <th class="highlight" style="width:21%;">VoiceOrder Solutions</th>
-            <th style="width:21%;">General Ops Checklist App</th>
+            <th style="width:21%;">General Task App</th>
             <th style="width:22%;">Paper / Clipboard</th>
           </tr>
         </thead>
@@ -522,7 +524,7 @@ module.exports = {
           <tr>
             <td>An ordering list of just your items</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Generic</td>
+            <td>You build it</td>
             <td>Manual</td>
           </tr>
           <tr>
@@ -565,7 +567,7 @@ module.exports = {
             <td>Same routine across every location</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Only if copied</td>
           </tr>
           <tr>
             <td>Works standing in the walk-in</td>
@@ -574,7 +576,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Setup time</td>
+            <td>Setup time on your end</td>
             <td>Same day</td>
             <td>Days</td>
             <td>None needed</td>
@@ -619,7 +621,7 @@ module.exports = {
           schedules, temperature logs, food safety sign-offs, photo proof of tasks,
           or general shift task lists. What it does is make placing orders with
           your distributor a consistent, repeatable routine. For the rest of your
-          checklists, a dedicated ops app is the better fit.
+          checklists, a dedicated task app is the better fit.
         </div>
       </div>
 
@@ -681,8 +683,8 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Yes. Each location can have its own account and order guide, so
-          every site follows the same steps with its own items. Ask your distributor
-          to set up each location you want ordering through VOS.
+          every site follows the same steps with its own items. Your distributor
+          can add every location you want ordering through VOS.
         </div>
       </div>
 
@@ -694,8 +696,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Yes. You keep your distributor, your POS and any task or food safety app
           your team relies on. This restaurant checklist software covers the
-          ordering step only, and your distributor receives each order in a format
-          they already use. There is nothing for you to rip out.
+          ordering step only, so there is nothing for you to rip out.
         </div>
       </div>
 
@@ -705,9 +706,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your distributor handles setup. They add your order list and create your
-          account with its own app login. You install the app on your phone, and
-          most restaurants are ordering that same day. If your distributor does not
+          Most restaurants are ordering the same day their account is ready. Your
+          distributor does the setup, including your guide and your app login, so
+          all you do is install the app on your phone. If your distributor does not
           offer VOS yet, ask them about it, or reach out to VOS and we will connect
           you with the right person.
         </div>
@@ -725,7 +726,7 @@ module.exports = {
      SECTION 13: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Ready to make ordering the same job every week?</h2>
+  <h2>Ready to make ordering the same job on every shift?</h2>
   <p>Ask your food distributor to set you up on VOS, or talk to us and we'll point you to the right contact.</p>
 
   <div class="final-cta-form">
@@ -734,10 +735,10 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ Set up through your distributor</span>
+    <span>✓ Setup through your distributor</span>
     <span>✓ Ordering open 24/7</span>
-    <span>✓ Keep your POS and your task app</span>
-    <span>✓ iPhone and Android apps</span>
+    <span>✓ No change to your POS or task app</span>
+    <span>✓ iOS and Android</span>
   </div>
 </section>
 
@@ -783,7 +784,7 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs Ops Apps</a></li>
+        <li><a href="#comparison">VOS vs Task Apps</a></li>
       </ul>
     </div>
 

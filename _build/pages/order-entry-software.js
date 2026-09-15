@@ -5,7 +5,7 @@ module.exports = {
   title: "Order Entry Software for Restaurants | VoiceOrder",
   description: "Order entry software for restaurants: say your supply order, check each line, and send it to your food distributor 24/7. Set up through your distributor.",
   related: ["restaurant-purchasing-software","restaurant-checklist-software","restaurant-stock-management-software"],
-  relatedHeading: "Around the order: stock, shifts and suppliers",
+  relatedHeading: "Around the order: stock, shifts and purchasing",
   body: `
 <!-- ============================================================
      SECTION 1: STICKY NAVIGATION
@@ -52,7 +52,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Set up by your distributor</span>
+        <span>Setup by your distributor</span>
         <span class="hero-trust-dot"></span>
         <span>Same-day first order</span>
         <span class="hero-trust-dot"></span>
@@ -195,10 +195,10 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Called away mid-rush? Your order waits right where you left it</span>
+              <span>Skip the 20–30 extra minutes it takes to call it in</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See voice ordering up close →</a>
+          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See voice ordering in a demo →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -209,22 +209,21 @@ module.exports = {
     </div>
 
 
-    <!-- Feature 2: Web-Based Ordering -->
+    <!-- Feature 2: 24/7 ordering -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row reverse">
         <div>
-          <span class="eyebrow">Web-Based Order Entry</span>
+          <span class="eyebrow">24/7 Ordering</span>
           <h3>Order on your schedule, not your distributor's hours.</h3>
           <p class="mt-12 text-muted">
             Place the order during closeout or before the morning crew gets in.
-            VOS works as a phone app and as web-based order entry software, so you can
-            also log in from the office computer. Your distributor gets the order when
+            Your distributor gets the order when
             you send it, even if they closed hours ago.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Use the phone app, or log in from a browser</span>
+              <span>Send it right after you check the shelves, while the gaps are fresh</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -239,11 +238,11 @@ module.exports = {
               <span>Easy to hand off: whoever closes can send it</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See ordering after close →</a>
+          <a href="/restaurant-checklist-software" class="feature-link">Run ordering the same way on every shift →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>VOS web interface showing<br>the order guide on a desktop browser<br>with items, quantities, and submit button
+            📸 Screenshot:<br>VOS app showing an order<br>sent after hours<br>with the time it went out
           </div>
         </div>
       </div>
@@ -279,7 +278,7 @@ module.exports = {
               <span>Less back-and-forth with your rep about what they carry today</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See inventory visibility →</a>
+          <a href="/restaurant-stock-management-software" class="feature-link">See the ordering side of kitchen stock →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -319,7 +318,7 @@ module.exports = {
               <span>Your distributor updates the guide when items or prices change</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See custom order guides →</a>
+          <a href="/restaurant-purchasing-software" class="feature-link">Buy from every distributor on VOS in one app →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -340,7 +339,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>Every order checked, logged and sent in a format your distributor can use.</h2>
+      <h2>Every order confirmed, logged and sent in a format your distributor can use.</h2>
       <p class="lead mt-16">The details that keep supply orders accurate, on record and off the phone.</p>
     </div>
 
@@ -366,10 +365,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">✅</div>
-        <h4>Confirmed Before It Sends</h4>
+        <h4>Order Confirmations</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          You look over the full order and confirm it before it goes. You know
-          what went through, with no call to double-check.
+          Once your order goes through, you get a confirmation by push notice
+          or text. No calling to check that it arrived.
         </p>
       </div>
 
@@ -402,10 +401,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">❌</div>
-        <h4>Fewer Order Mix-Ups</h4>
+        <h4>Auto-Saved Orders</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          An order you've checked on screen replaces the phone handoff, where a
-          case count gets misheard or an item gets noted wrong.
+          Pulled onto the line halfway through? VOS saves the order automatically,
+          so you can pick up right where you stopped.
         </p>
       </div>
 
@@ -413,17 +412,17 @@ module.exports = {
         <div class="feature-card-icon">🌐</div>
         <h4>Web-Based Access</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Log in from any browser. Nothing to install, nothing to update,
-          nothing to break before a busy service.
+          VOS also works as web-based order entry software, so you can send the
+          order from the office computer. There's nothing to install.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔔</div>
-        <h4>Push and Text Updates</h4>
+        <h4>Promos From Your Distributor</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your distributor can send a push notice or text to your phone when
-          your order goes through, or when they run a promo.
+          Your distributor can send deals and promos straight to your phone, as
+          an app alert or a text message.
         </p>
       </div>
 
@@ -467,7 +466,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Your distributor gets you ready</h4>
+        <h4>Let your distributor get you ready</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           They load what you usually order, set your prices, and send you a login
           for your account.
@@ -665,7 +664,7 @@ module.exports = {
             <td>24/7 order placement</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-no">✗</span></td>
+            <td>Voicemail or email</td>
           </tr>
           <tr>
             <td>Voice ordering</td>
@@ -688,19 +687,19 @@ module.exports = {
           <tr>
             <td>Catalog that updates with distributor stock</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Works with the distributor you buy from now</td>
+            <td>No switching distributors</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>No new system needed to receive orders</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -795,11 +794,11 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Three ways. You order from your own guide, so each item is one your
-          distributor has already set up for your account. You check it on screen
-          before it sends, instead of reading it out to someone taking notes.
-          And every order keeps a record of its number, date, time and who placed
-          it, so nobody has to argue later about what went in.
+          Three ways: a guide built for your account, a review before sending, and a
+          record of every order. Every item on the guide is one your distributor has
+          already set up. You look it over on screen before it sends, instead of
+          reading it out to someone taking notes. And each order logs its number, date,
+          time and who placed it, so nobody has to argue later about what went in.
         </div>
       </div>
 
@@ -818,13 +817,13 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can my distributor take orders from VOS without new software?
+          Does my distributor need new software to receive VOS orders?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Orders can go out as an email with a PDF, Excel or Word file, or by
+          No. Orders can go out as an email with a PDF, Excel or Word file, or by
           EDI, API, QuickBooks, or a direct connection to their platform. Your
-          distributor uses whichever one fits their system, so nothing has to change on their end.
+          distributor picks whichever one fits their system.
         </div>
       </div>
 
@@ -834,10 +833,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          VOS order entry software reaches restaurants through their food
-          distributor. They set up your account and upload your order guide.
-          Then you get the app, and most restaurants have their first order in
-          before the day is out. Buying from a distributor that doesn't use VOS yet? Ask
+          Through your distributor, and most restaurants have their first
+          order in the same day. They create your account and load your order guide
+          into VOS order entry software, then you get the app. Buying from a distributor that doesn't use VOS yet? Ask
           them about it, or contact us and we'll connect you with the right person.
         </div>
       </div>
@@ -889,7 +887,7 @@ module.exports = {
       <h5>Features</h5>
       <ul role="list">
         <li><a href="#features">Voice Ordering</a></li>
-        <li><a href="#features">Web-Based Order Entry</a></li>
+        <li><a href="#features">24/7 Ordering</a></li>
         <li><a href="#features">Inventory Visibility</a></li>
         <li><a href="#features">Custom Order Guides</a></li>
         <li><a href="#integrations">Integrations</a></li>

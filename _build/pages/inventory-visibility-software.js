@@ -9,7 +9,7 @@ module.exports = {
   title: 'Inventory Visibility Software for Food Distributors | VOS',
   description: 'Inventory visibility software for food distributors. Your reps, warehouse and customers see the same real-time stock, with fewer stockouts and substitutions.',
   related: ["inventory-tracking-software","inventory-control-software","catalog-management-software"],
-  relatedHeading: 'More ways to stay on top of stock',
+  relatedHeading: 'More ways to keep stock and catalogs on track',
   body: `
 <!--@NAVBAR-->
 
@@ -39,14 +39,14 @@ module.exports = {
       <div class="hero-trust">
         <span>Nothing to replace</span>
         <span class="hero-trust-dot"></span>
-        <span>Live in 48 hours or less</span>
+        <span>Typical setup: a day or two</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android + web admin</span>
       </div>
     </div>
 
     <div>
-      <!-- DEVS: Replace with VOS product screenshot (multi-location stock dashboard) -->
+      <!-- DEVS: Replace with VOS product screenshot (one stock view for reps, warehouse and customers) -->
       <div class="img-placeholder tall">
         📸 Product screenshot:<br>Full catalog with stock<br>levels that change<br>as orders come in
       </div>
@@ -66,7 +66,7 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">One</div>
-      <div class="stat-label">stock number shared by your whole team and every account</div>
+      <div class="stat-label">stock picture shared by your whole team and your customers</div>
     </div>
     <div>
       <div class="stat-number">Every</div>
@@ -187,7 +187,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Stock status sits on every line of the catalog</span></li>
             <li><span class="bullet-check">✓</span><span>Reps can answer a stock question without a trip to the back</span></li>
           </ul>
-          <a href="/restaurant-stock-management-software" class="feature-link">See stock management from your customer's side →</a>
+          <a href="/catalog-management-software" class="feature-link">See how every account's catalog stays current →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -205,7 +205,7 @@ module.exports = {
           <span class="eyebrow">Out To Your Customers</span>
           <h3>Let your customers see what is in stock.</h3>
           <p class="mt-12 text-muted">
-            Each of your accounts orders from its own order guide in the VOS app.
+            In the VOS app, each account you sell to has its own order guide.
             When your stock changes, the catalog they order from changes with it.
             They know what is available before they send the order, instead of
             hearing about it from your driver.
@@ -216,7 +216,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Fewer calls asking whether an item is in</span></li>
             <li><span class="bullet-check">✓</span><span>Each account sees its own items at your prices</span></li>
           </ul>
-          <a href="/catalog-management-software" class="feature-link">See how each account's catalog stays current →</a>
+          <a href="/inventory-control-software" class="feature-link">See where shorts and substitutions cost margin →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -244,7 +244,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Connects to your ERP through the API</span></li>
             <li><span class="bullet-check">✓</span><span>Orders arrive by email (PDF, Excel or Word), EDI, API or QuickBooks</span></li>
           </ul>
-          <a href="/inventory-control-software" class="feature-link">See where shorts and substitutions cost margin →</a>
+          <a href="/order-taking-software" class="feature-link">See how order taking works with your formats →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -272,18 +272,19 @@ module.exports = {
     <div class="cards-grid">
 
       <div class="feature-card">
-        <div class="feature-card-icon">👁️</div>
-        <h4>Live Shared Stock</h4>
+        <div class="feature-card-icon">🎙️</div>
+        <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A stock view that moves with your orders, open to everyone on your team.
+          Your customers talk, and the app writes the order down for them.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">📍</div>
-        <h4>Full Catalog View</h4>
+        <div class="feature-card-icon">✅</div>
+        <h4>Confirmation Before Sending</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every item you carry, not just the ones that go out on every truck.
+          Customers review each order on screen and confirm it before it goes to
+          your team.
         </p>
       </div>
 
@@ -297,11 +298,11 @@ module.exports = {
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">📦</div>
-        <h4>Availability for Customers</h4>
+        <div class="feature-card-icon">🔢</div>
+        <h4>A Record for Every Order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers spot what is out right inside the catalog they already order
-          from.
+          Orders are logged with their own number and a time stamp, so it is
+          clear who ordered and when.
         </p>
       </div>
 
@@ -342,10 +343,11 @@ module.exports = {
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🔗</div>
-        <h4>Sits Beside Your ERP</h4>
+        <div class="feature-card-icon">⏱️</div>
+        <h4>Less Time per Order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Nothing to migrate and nothing to tear out of the systems you have.
+          A typical order goes 20–30 minutes faster than a call, which gives your
+          reps time to sell.
         </p>
       </div>
 
@@ -378,7 +380,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Up and running in two days or less</h2>
+      <h2>Live in one to two days for most distributors</h2>
       <p class="lead mt-16">
         No IT project and no new back office. Three steps, then everyone reads
         stock from the same place.
@@ -389,7 +391,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Share your order guides</h4>
+        <h4>You hand over your order guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Send us the order guide for each customer. We upload them to the admin
           platform with your prices and SKUs.
@@ -567,7 +569,7 @@ module.exports = {
           <tr>
             <td>Keeping the picture current</td>
             <td>Automatic</td>
-            <td>Batch</td>
+            <td>Varies</td>
             <td>Manual</td>
           </tr>
           <tr>
@@ -625,11 +627,11 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Inventory visibility software puts one current stock number in front of
-          everyone who needs it. Tracking tells you what is on hand. Visibility is
-          about who can see that number while it is still fresh: your sales team,
-          your warehouse and your customers. VOS does both, and this page covers
-          the second.
+          Inventory visibility software puts current stock in front of everyone
+          who needs it. Tracking tells you what is on hand. Visibility is about who
+          can see it while it is still fresh: your sales team, your warehouse and
+          your customers as they order. VOS does both, and this page covers the
+          second.
         </div>
       </div>
 
@@ -655,9 +657,8 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           No. VOS is not an ERP and not a module that plugs into one. It is a
           separate ordering and stock visibility layer that talks to ERPs and
-          distribution platforms through its API. Your ERP keeps doing its job.
-          VOS adds a customer ordering app and one stock view for your staff and
-          your accounts.
+          distribution platforms through its API. VOS adds a customer ordering app
+          and one stock view for your staff and your accounts.
         </div>
       </div>
 
@@ -723,7 +724,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Ready to give your team and your customers one stock picture?</h2>
-  <p>See how VOS fits the distribution business you run today, in one short call.</p>
+  <p>See how VOS fits the small or mid-size distribution business you run today, in one short call.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

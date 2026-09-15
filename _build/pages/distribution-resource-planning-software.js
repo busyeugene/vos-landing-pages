@@ -4,14 +4,14 @@
  * Scope limit is stated in the hero lead, made visual in the comparison table (honest ✗ rows for network
  * planning, forecasting, transport), and answered outright in FAQ #1 (open by default).
  * Audience: food distributors (seller side), like order taking + fulfillment.
- * Assumption Q12: a distributor can see incoming orders for a delivery day totalled by item.
+ * Q12 (orders totalled by item per delivery day) dropped in the Sep 2026 review; not claimed.
  * GSC note: DRP terms = 81 impressions in 16 months at pos 35-62 on the main domain. Expect weak performance.
  */
 module.exports = {
   title: 'Order Data for Distribution Resource Planning Software | VOS',
-  description: "Not a DRP system: VOS feeds your distribution resource planning software customer orders taken 24/7, so tomorrow's real demand is in before you plan.",
+  description: "Not a DRP system: VOS feeds your distribution resource planning software customer orders taken 24/7, so more of tomorrow's demand is in before you plan.",
   related: ["order-fulfillment-software","inventory-planning-software","order-tracking-software"],
-  relatedHeading: 'The rest of the distributor side',
+  relatedHeading: 'More ways to put your order data to work',
   body: `
 <!--@NAVBAR-->
 
@@ -30,8 +30,8 @@ module.exports = {
       <p class="lead mt-16">
         Every plan starts from demand data. VOS is not distribution resource
         planning software. It is the ordering layer that supplies that data: your
-        restaurant customers order by voice in the app at any hour, so tomorrow's
-        actual orders are waiting when you plan pickers, trucks, or your own buying.
+        restaurant customers order by voice in the app at any hour, so more of tomorrow's
+        orders are waiting when you plan pickers, trucks, or your own buying.
       </p>
 
       <div class="hero-ctas">
@@ -40,9 +40,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Works with your current systems</span>
+        <span>No change to your current systems</span>
         <span class="hero-trust-dot"></span>
-        <span>Live within 48 hours</span>
+        <span>Setup in 24 to 48 hours</span>
         <span class="hero-trust-dot"></span>
         <span>PDF, Excel, Word, EDI, API, QuickBooks</span>
       </div>
@@ -73,7 +73,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">Every</div>
-      <div class="stat-label">order checked by the customer before it reaches your plan</div>
+      <div class="stat-label">order confirmed by the customer before it reaches you</div>
     </div>
     <div>
       <div class="stat-number">20–30 Min</div>
@@ -147,7 +147,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Orders In Early</span>
-          <h3>Tomorrow's orders are in before you plan.</h3>
+          <h3>Tomorrow's orders can be in before you plan.</h3>
           <p class="mt-12 text-muted">
             Your customers can order at 11pm after service. By the time your team
             plans the morning, those orders are already in, so whatever distribution
@@ -179,17 +179,17 @@ module.exports = {
           <h3>Give your distribution planning software a real demand signal.</h3>
           <p class="mt-12 text-muted">
             Every order arrives as line items tied to your SKUs, at the prices you
-            set for that account. It reaches your system in the format you choose,
-            ready to become a sales order. Your planning run starts from what customers asked
-            for, not from what someone typed.
+            set for that account. It reaches you in the format you choose.
+            Your planning run starts from what customers asked
+            for, not from a call someone wrote down.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Item, quantity and account on every line</span></li>
-            <li><span class="bullet-check">✓</span><span>Written orders, not notes from a phone call</span></li>
+            <li><span class="bullet-check">✓</span><span>Digital orders, not notes from a phone call</span></li>
             <li><span class="bullet-check">✓</span><span>A running order history for each account</span></li>
             <li><span class="bullet-check">✓</span><span>Nothing to retype when orders come by EDI, API or QuickBooks</span></li>
           </ul>
-          <a href="/order-fulfillment-software" class="feature-link">See how orders get fulfilled →</a>
+          <a href="/inventory-planning-software" class="feature-link">Inventory planning from the same order data →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -200,24 +200,24 @@ module.exports = {
     </div>
 
 
-    <!-- Feature 3: known volume (Tier B secondary in body; assumption Q12) -->
+    <!-- Feature 3: orders as they land (Tier B secondary in body) -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row">
         <div>
           <span class="eyebrow">Plan On Known Volume</span>
           <h3>Plan tomorrow's capacity on orders already in.</h3>
           <p class="mt-12 text-muted">
-            See each order for tomorrow's delivery as it lands, and which account
-            placed it. Whether you plan capacity in distribution capacity planning software
-            or on a whiteboard, it only works if the volume number is real. Now it is.
+            Watch orders land one at a time, with the account and time on each.
+            Whether you plan capacity in distribution capacity planning software
+            or on a whiteboard, it works best when the volume number comes from placed orders.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Order data your own system can total by item</span></li>
-            <li><span class="bullet-check">✓</span><span>Staff the pick shift to the real volume</span></li>
-            <li><span class="bullet-check">✓</span><span>Load trucks on actual orders, not estimates</span></li>
+            <li><span class="bullet-check">✓</span><span>With EDI or API, your system can total orders by item</span></li>
+            <li><span class="bullet-check">✓</span><span>Staff the pick shift from what has been ordered</span></li>
+            <li><span class="bullet-check">✓</span><span>Decide how many trucks to run from actual orders</span></li>
             <li><span class="bullet-check">✓</span><span>Fewer late orders after the pick has started</span></li>
           </ul>
-          <a href="/order-tracking-software" class="feature-link">See how order tracking works →</a>
+          <a href="/order-fulfillment-software" class="feature-link">Order fulfillment: from placed order to pick line →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -266,24 +266,24 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>All the tools that feed a better plan.</h2>
-      <p class="lead mt-16">Each one makes the order data behind your plan more accurate.</p>
+      <h2>Everything else that comes with VOS.</h2>
+      <p class="lead mt-16">The smaller pieces that keep orders clean, on time and easy to plan from.</p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
         <div class="feature-card-icon">🕐</div>
-        <h4>24/7 Order Intake</h4>
+        <h4>Less Time per Order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts place orders after service, and each one is waiting when your
-          day starts.
+          A voice order takes 20–30 minutes less than phoning it in or leaving
+          a voicemail.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📥</div>
-        <h4>Numbered and Timestamped</h4>
+        <h4>Order Numbers and Timestamps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Each order gets a unique number and a timestamp, so you can trace it
           back to who placed it and when.
@@ -292,9 +292,9 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🧾</div>
-        <h4>Structured Line Items</h4>
+        <h4>Customer Review Before Sending</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each line carries your SKU and the quantity, ready for your system to read.
+          Customers look over the full order before they submit it, so they catch a wrong quantity themselves.
         </p>
       </div>
 
@@ -309,18 +309,18 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🗂️</div>
-        <h4>Order History by Account</h4>
+        <h4>Admin Platform on the Web</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your admin platform keeps every order each account has placed, a running
-          record of actual demand.
+          Your team edits order guides, manages accounts and pulls up past orders,
+          all in one place.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📦</div>
-        <h4>Live Availability</h4>
+        <h4>Full-Catalog Stock View</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Stock updates with each new order, and shortfalls show up before the pick, not on the dock.
+          Check stock across your whole catalog, not only the items on today's orders, before you plan your own buying.
         </p>
       </div>
 
@@ -334,18 +334,18 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📄</div>
-        <h4>Any Delivery Format</h4>
+        <h4>Your Choice of Format</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          EDI or API for bigger systems, QuickBooks or a simple email for smaller ones.
+          Pick QuickBooks, API, EDI, a direct platform link, or email with a Word, Excel or PDF file.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>Works Beside Your ERP</h4>
+        <h4>No System Swap</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Keep your ERP, your planning tool, and your routes. VOS only changes
-          how orders arrive.
+          Keep your ERP, your planning tool, and your routes. VOS changes how
+          orders arrive, not the systems that receive them.
         </p>
       </div>
 
@@ -378,10 +378,10 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Live within two days, not months</h2>
+      <h2>Up and running without an IT project</h2>
       <p class="lead mt-16">
-        No IT project and no new planning system. Three steps, and real orders
-        start feeding the tools you plan with.
+        Nothing changes in the systems you plan with. Three steps, and real orders
+        start feeding them.
       </p>
     </div>
 
@@ -389,24 +389,24 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Share every account's order guide</h4>
+        <h4>Order guides for every account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          We load its items, your prices and your SKUs, so every incoming order matches your item list.
+          You share each one. We load its items, your prices and your SKUs and set up the customer's account, so every incoming order matches your item list.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Accounts order any hour, by voice</h4>
+        <h4>Voice orders at any hour</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          They install the app on iPhone or Android and speak the order whenever
+          Customers install the app on iPhone or Android and speak the order whenever
           it suits them.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Your planning gets real numbers</h4>
+        <h4>Real numbers for your plan</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Every order lands in the format you picked, ready for the system you plan from.
         </p>
@@ -453,8 +453,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our customers send orders the night before now, so we set the pick
-            crew by what was ordered, not by last Tuesday's guess."
+            "Our customers send orders the night before now, so we schedule
+            pickers by what was ordered, not by last Tuesday's guess."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -613,8 +613,7 @@ module.exports = {
         <div class="faq-answer">
           DRP software works out how much stock each location needs, and when,
           based on demand and lead times. DRP is often a module inside an ERP. VOS is not
-          one. It does not forecast demand, plan stock across warehouses, or
-          optimize transport and capacity. It captures your customers' orders at
+          one. It does not forecast demand or plan stock across warehouses. It captures your customers' orders at
           any hour, with each line matched to your SKUs, and sends them to the planning
           system you use today. Better input, not a replacement.
         </div>
@@ -626,11 +625,11 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
+          It lets you plan from what customers really ordered, not from guesses.
           Any distribution resource planning software depends on the demand data
           going into it. When orders are phoned in at 6am and typed in by hand,
           the plan starts late and starts wrong. With VOS, orders can arrive
-          overnight, tied to your SKUs and checked by the customer, so planning
-          starts from what customers actually ordered.
+          overnight, tied to your SKUs and confirmed by the customer.
         </div>
       </div>
 
@@ -641,7 +640,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           No. VOS does not build routes, schedule drivers, or model truck and
-          warehouse capacity. What it gives you is tomorrow's orders early, with the
+          warehouse capacity. What it gives you is order data as customers place it, with the
           account and items on each one, which is the data those decisions depend on.
         </div>
       </div>
@@ -714,7 +713,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Ready to plan on real orders?</h2>
-  <p>Get tomorrow's customer orders tonight, confirmed and ready for the plan.</p>
+  <p>Let customers send tomorrow's orders tonight, confirmed and ready for your plan.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -747,9 +746,9 @@ module.exports = {
     <div class="footer-col">
       <h5>Features</h5>
       <ul role="list">
-        <li><a href="#features">24/7 Order Intake</a></li>
-        <li><a href="#features">Structured Orders</a></li>
-        <li><a href="#features">Tomorrow's Volume</a></li>
+        <li><a href="#features">Orders In Early</a></li>
+        <li><a href="#features">A Real Demand Signal</a></li>
+        <li><a href="#features">Known Volume</a></li>
         <li><a href="#features">Shorts Up Front</a></li>
         <li><a href="#integrations">Integrations</a></li>
       </ul>

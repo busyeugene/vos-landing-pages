@@ -5,7 +5,7 @@ module.exports = {
   title: "Catalog Management Software for Food Distributors | VOS",
   description: "Keep every account's order guide current, with your items, prices and SKUs. VOS catalog management software for food distributors, live in 24 to 48 hours.",
   related: ["order-taking-software","vendor-management-software","inventory-visibility-software"],
-  relatedHeading: "See the ordering side your customers use",
+  relatedHeading: "See more of what VOS does for distributors",
   body: `
 <!--@NAVBAR-->
 
@@ -22,8 +22,8 @@ module.exports = {
       <h1>Catalog Management Software for Food Distributors</h1>
       <p class="lead mt-16">
         VOS is catalog management software built on the order guide each
-        customer buys from. Every account gets its own list, at your
-        prices and on your SKUs. You change any guide from one admin screen, and
+        customer buys from. Each customer's account gets its own list, at your
+        prices and on your SKUs. You edit any guide from one place, and
         stock changes reach the catalog without anyone typing them in.
       </p>
 
@@ -35,9 +35,9 @@ module.exports = {
       <div class="hero-trust">
         <span>Fits the systems you run</span>
         <span class="hero-trust-dot"></span>
-        <span>Set up in 24 to 48 hours</span>
+        <span>Launches in 24 to 48 hours</span>
         <span class="hero-trust-dot"></span>
-        <span>Customer app on iOS and Android</span>
+        <span>Reaches customers on iOS and Android</span>
       </div>
     </div>
 
@@ -62,7 +62,7 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">Every</div>
-      <div class="stat-label">account works from a guide priced your way</div>
+      <div class="stat-label">account with its own guide at your prices</div>
     </div>
     <div>
       <div class="stat-number">Auto</div>
@@ -110,7 +110,7 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">🔀</div>
-        <h4 class="mb-8">"Every account orders from a different list"</h4>
+        <h4 class="mb-8">"No two accounts keep their list in the same place"</h4>
         <p class="text-muted" style="font-size:15px;">
           One uses last year's PDF. Another reads items off a notepad into your
           voicemail. Your team re-keys all of it and hopes the codes match.
@@ -184,8 +184,8 @@ module.exports = {
           <p class="mt-12 text-muted">
             Each customer gets a guide of its own: the items it actually orders,
             at the prices you've set, tied to your SKUs. You decide what goes on the
-            list. Your customers reorder what they already buy, without scrolling
-            past products they never touch.
+            list. Customers begin with what they already buy, so reorders
+            go fast.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -202,10 +202,10 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Only the products that customer buys, so the list stays short</span>
+              <span>Built from the products that customer buys, so the list stays short</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See a sample order guide →</a>
+          <a href="/vendor-management-software" class="feature-link">See how to become the easiest vendor to buy from →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -243,10 +243,10 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Ready 24/7 on Apple and Android phones</span>
+              <span>Works on iPhone and Android</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">Watch a voice order →</a>
+          <a href="/order-taking-software" class="feature-link">See how customer orders get to you →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -266,8 +266,8 @@ module.exports = {
           <p class="mt-12 text-muted">
             VOS also works as inventory catalog software on your side of the
             order. You see stock move in real time as accounts buy, and the
-            catalog updates itself as levels change. Customers pick from what
-            you actually have, so they hit fewer surprise stockouts.
+            catalog updates itself as levels change. Customers see a catalog
+            that follows your stock, so they hit fewer surprise stockouts.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -287,7 +287,7 @@ module.exports = {
               <span>Runs next to the tools you already have</span>
             </li>
           </ul>
-          <a href="https://www.voiceordersolutions.com/contact-us" class="feature-link">See stock and catalog together →</a>
+          <a href="/inventory-tracking-software" class="feature-link">See stock tracked as orders land →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -308,7 +308,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>The small things that keep guides accurate.</h2>
+      <h2>What else your team and your accounts get.</h2>
       <p class="lead mt-16">No spreadsheets to send around, and no software to rip out.</p>
     </div>
 
@@ -324,74 +324,73 @@ module.exports = {
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🔄</div>
-        <h4>Stock-Linked Updates</h4>
+        <div class="feature-card-icon">⏱️</div>
+        <h4>Minutes Back on Every Order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          When stock rises or falls, the catalog follows on its own. Nobody
-          edits it by hand.
+          Your customers save 20–30 minutes each time, versus phoning the
+          order in.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🗣️</div>
-        <h4>Voice Ordering</h4>
+        <div class="feature-card-icon">📞</div>
+        <h4>Reps Free to Sell</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers speak their order from the walk-in, then look it over
-          before it gets to you.
+          With prices and items current on every guide, your reps answer fewer
+          order questions and get back to selling.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🏷️</div>
-        <h4>Your Prices, Your SKUs</h4>
+        <h4>Promo Messages</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each line carries the price you chose and the item code your back
-          office already knows.
+          Point your accounts to a special through the app or by text.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">📦</div>
-        <h4>Fewer Substitutions</h4>
+        <div class="feature-card-icon">🚚</div>
+        <h4>Right Product on the Truck</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A catalog that matches your shelves means fewer out-of-stock calls
-          to the kitchens you supply.
+          For DSD distributors, clean orders off a current guide mean drivers
+          arrive with what the store ordered.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📍</div>
-        <h4>Per-Account Order History</h4>
+        <h4>Numbered, Dated Orders</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order carries its own number plus a date and timestamp, so you
-          know who ordered what.
+          Every order carries its own number plus a date and timestamp, so any
+          order is easy to find again.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🌙</div>
+        <h4>Orders After You Close</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Accounts can order at midnight or over the weekend, and each
+          order is there for your team in the morning.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📱</div>
-        <h4>iOS + Android App</h4>
+        <h4>Order Confirmations</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your customers carry their guide on their phone, whichever kind
-          they use.
-        </p>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-card-icon">🌐</div>
-        <h4>Push and Text Messages</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Announce promos to your accounts and confirm their orders by push
-          notification or text.
+          Customers get a push alert or a text confirming each order
+          they send.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>Plugs Into Your Platform</h4>
+        <h4>API Connection</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           API-ready, so VOS connects to your ERP or distribution platform
-          instead of replacing it.
+          and leaves it in place.
         </p>
       </div>
 
@@ -425,7 +424,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Most distributors go live within two days</h2>
+      <h2>Most distributors are up and running in 24 to 48 hours</h2>
       <p class="lead mt-16">
         No IT project and no systems to swap out. Three steps and your accounts
         are ordering from guides you control.
@@ -436,25 +435,25 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Hand over your order guides</h4>
+        <h4>You send us your guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Send us the guide for each customer. We load them into your admin
+          Pass along your current guides, one per customer. We load them into your admin
           platform, pricing and item codes included.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We set up each account</h4>
+        <h4>We set up every account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS provisions every customer account and gets them the app. They
-          keep dealing with your team the same way.
+          VOS turns on an account for each customer, and they get the app on
+          their phones. Nothing changes in how they work with your team.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Customers order, you keep guides fresh</h4>
+        <h4>Your accounts start ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Most of your customers are ordering the day they get access. After
           that, you change a guide whenever your catalog does.
@@ -477,7 +476,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What ordering feels like for your restaurant accounts</h2>
+      <h2>What distributors and restaurant owners say</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -507,7 +506,7 @@ module.exports = {
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
             "Every account has its own guide with our pricing on it. When a
-            price changes, we update it in the admin screen. No more
+            price changes, we update it in VOS. No more
             sending out new sheets."
           </p>
           <div class="testimonial-author">
@@ -570,9 +569,9 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Full-catalog visibility</td>
+            <td>Whole catalog in one view, kept current</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
@@ -584,17 +583,17 @@ module.exports = {
           <tr>
             <td>Each account gets its own guide</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
+            <td>Separate files</td>
           </tr>
           <tr>
-            <td>Customers order right off the guide</td>
+            <td>Ordering happens in the app, from the guide</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Hands-free voice ordering</td>
+            <td>Orders placed by voice</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
@@ -625,7 +624,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>1 to 2 days</td>
+            <td>24 to 48 hours</td>
             <td>Weeks</td>
             <td>None needed</td>
           </tr>
@@ -677,9 +676,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          In two ways. As your stock goes up or down, the catalog adjusts on its
-          own. When you add, drop, or reprice an item, you make that change in
-          your admin platform instead of sending a new sheet.
+          You edit the guide yourself in VOS. Add new items, drop old ones, or
+          update a price, and there's no fresh sheet to send out.
         </div>
       </div>
 
@@ -690,8 +688,8 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Yes. Each account gets an order guide with just the items it buys,
-          priced the way you've agreed with that customer. You manage every
-          guide from the same admin screen.
+          priced the way you've agreed with that customer. You manage all of
+          them in one place.
         </div>
       </div>
 
@@ -703,7 +701,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Not in the usual sense. Most tools sold under that label are product
           information management (PIM) systems: they write product descriptions,
-          manage images, and send listings to online stores. VOS does none of
+          manage images, and push listings out to web shops. VOS does none of
           that. It is voice-powered ordering built on each account's guide. It is also not AI procurement catalog
           management software for large buyers running supplier catalogs and
           purchase approvals. VOS sits on the distributor's side of the order.
@@ -716,8 +714,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Stock levels move with every order your accounts send, so the catalog
-          reflects what's really on your shelves. It works with the inventory
+          Yes. Orders from your accounts move stock levels as they land, and
+          the catalog keeps pace. It works with the inventory
           tools you have now rather than replacing them.
         </div>
       </div>
@@ -741,9 +739,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Setup usually takes a distributor 24 to 48 hours. You send us each
-          account's guide, we upload them and set up every account, and most
-          customers send in an order that same day. There's no IT project.
+          Setup usually takes a distributor 24 to 48 hours. You send us the
+          guides, we upload them and set up every account, and most customers
+          have ordered by the end of their first day. There's no IT project.
         </div>
       </div>
 
@@ -760,7 +758,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Give every account a guide that stays current</h2>
-  <p>Let VOS keep your catalog in step with your stock while every kitchen you serve orders off its own list.</p>
+  <p>Let VOS keep your catalog in step with your stock while every account you serve orders off its own list.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -768,7 +766,7 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ We load the guides for you</span>
+    <span>✓ Guides loaded for you</span>
     <span>✓ Nothing to replace in your back office</span>
     <span>✓ No IT staff needed</span>
     <span>✓ Pricing quoted on request</span>

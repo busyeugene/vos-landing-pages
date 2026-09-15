@@ -13,7 +13,7 @@ module.exports = {
   title: "Vendor Management Software From the Vendor's Side | VoiceOrder",
   description: 'Restaurants judge vendors on clear prices, correct orders and easy ordering. VOS helps food distributors deliver all three: a guide per account, open 24/7.',
   related: ["catalog-management-software","order-taking-software","order-tracking-software"],
-  relatedHeading: 'More on both sides of the order',
+  relatedHeading: 'More for distributors selling to restaurants',
   body: `
 <!--@NAVBAR-->
 
@@ -29,7 +29,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>Vendor Management Software, From the Vendor's Side.</h1>
       <p class="lead mt-16">
-        Your restaurant accounts keep a vendor list, in vendor management software or on a sheet by the phone. They want three things from every name on it: clear prices, correct orders and easy buying. VoiceOrder Solutions helps you deliver all three. Their staff place orders by voice from a guide built for them, at your prices and at any hour, and every order gets confirmed before it reaches your team.
+        Your restaurant accounts, the customers who buy from you, keep a vendor list in vendor management software or on a sheet by the phone. They judge every name on it by clear prices, correct orders and easy buying. VoiceOrder Solutions helps you deliver all three: their staff place orders by voice from a guide built for them, at your prices and at any hour, and every order gets confirmed before it reaches your team.
       </p>
 
       <div class="hero-ctas">
@@ -40,14 +40,14 @@ module.exports = {
       <div class="hero-trust">
         <span>Keep your current system</span>
         <span class="hero-trust-dot"></span>
-        <span>Live in 24 to 48 hours</span>
+        <span>Go live in 24 to 48 hours</span>
         <span class="hero-trust-dot"></span>
-        <span>iOS + Android</span>
+        <span>Give accounts iOS + Android apps</span>
       </div>
     </div>
 
     <div>
-      <!-- DEVS: Replace with VOS product screenshot (supplier list with pricing + order format per supplier) -->
+      <!-- DEVS: Replace with VOS product screenshot (a restaurant account's order guide at your prices) -->
       <div class="img-placeholder tall">
         📸 Product screenshot:<br>A customer's order guide<br>in the app, with your<br>items and prices
       </div>
@@ -75,7 +75,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">Same day</div>
-      <div class="stat-label">is when most new accounts start ordering</div>
+      <div class="stat-label">first order for most new accounts</div>
     </div>
   </div>
 </section>
@@ -158,7 +158,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Items tied to your own SKUs</span></li>
             <li><span class="bullet-check">✓</span><span>Guides kept current from one admin platform</span></li>
           </ul>
-          <a href="/restaurant-purchasing-software" class="feature-link">See ordering from the buyer's side →</a>
+          <a href="/catalog-management-software" class="feature-link">See how to keep your catalog and guides current →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -169,25 +169,26 @@ module.exports = {
     </div>
 
 
-    <!-- Feature 2: per-supplier order format (assumption Q11) -->
+    <!-- Feature 2: correct orders -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Correct Orders</span>
           <h3>The order they send is the order your team gets.</h3>
           <p class="mt-12 text-muted">
-            Your customer talks through the order in the app. VOS can send it to a
-            rep's inbox as a Word, Excel or PDF file, pass it along by EDI or API, or
-            put it straight into QuickBooks. Nobody re-types it, so no typing errors
-            slip in, and your back office keeps working the way it does now.
+            Your customer talks through the order in the app and checks it before
+            sending. VOS can send it to a rep's inbox as a Word, Excel or PDF file,
+            pass it along by EDI or API, or put it straight into QuickBooks. No one
+            jots down a call or replays a voicemail, so misheard quantities
+            don't slip in. Your back office keeps working the way it does now.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Email to a rep or your purchasing team</span></li>
             <li><span class="bullet-check">✓</span><span>A direct feed into the system you run</span></li>
-            <li><span class="bullet-check">✓</span><span>No typing orders in by hand</span></li>
-            <li><span class="bullet-check">✓</span><span>Nothing new for your staff to learn</span></li>
+            <li><span class="bullet-check">✓</span><span>Checked by your customer before it's sent</span></li>
+            <li><span class="bullet-check">✓</span><span>No scribbled phone notes</span></li>
           </ul>
-          <a href="/order-entry-software" class="feature-link">See how your accounts place orders →</a>
+          <a href="/order-fulfillment-software" class="feature-link">See what clean orders do for fulfillment →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -198,7 +199,7 @@ module.exports = {
     </div>
 
 
-    <!-- Feature 3: SECONDARY IN H3 (Tier A) – vendor relationship management software (assumption Q9) -->
+    <!-- Feature 3: SECONDARY IN H3 (Tier A) – vendor relationship management software -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row">
         <div>
@@ -214,7 +215,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Order history for every account, in one place</span></li>
             <li><span class="bullet-check">✓</span><span>Its own number on every order</span></li>
             <li><span class="bullet-check">✓</span><span>Who ordered, and exactly when</span></li>
-            <li><span class="bullet-check">✓</span><span>A confirmation your customer can point back to</span></li>
+            <li><span class="bullet-check">✓</span><span>Facts to settle a disputed order</span></li>
           </ul>
           <a href="/order-tracking-software" class="feature-link">See order tracking and history →</a>
         </div>
@@ -227,29 +228,29 @@ module.exports = {
     </div>
 
 
-    <!-- Feature 4: agreed pricing -->
+    <!-- Feature 4: reps freed to grow accounts -->
     <div>
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Reps Who Sell</span>
-          <h3>Your reps stop taking orders and start growing accounts.</h3>
+          <h3>Your reps stop taking phone orders and start growing accounts.</h3>
           <p class="mt-12 text-muted">
-            When orders arrive on their own, your reps get back the time they spent
-            on calls and re-typing. They can use it to answer accounts quickly, add
-            items to order guides, and find new business. And since customers
-            review each order before it's sent, fewer mistakes make it onto the truck.
+            When customers order by voice, your reps spend far less of the day on
+            the phone. Each order saves 20–30 minutes over calling it in. Reps can
+            put that time into answering accounts, adding items to order guides,
+            and finding new business.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Fewer order calls and voicemails to return</span></li>
-            <li><span class="bullet-check">✓</span><span>Customers check each order before sending</span></li>
-            <li><span class="bullet-check">✓</span><span>Fewer wrong quantities on delivery day</span></li>
+            <li><span class="bullet-check">✓</span><span>No price lists to read out over the phone</span></li>
+            <li><span class="bullet-check">✓</span><span>Quicker replies to account questions</span></li>
             <li><span class="bullet-check">✓</span><span>More rep time for new items and new accounts</span></li>
           </ul>
-          <a href="/inventory-control-software" class="feature-link">See where order errors cost you →</a>
+          <a href="/order-taking-software" class="feature-link">See order taking with no phone tag →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>Order review screen<br>before the customer<br>sends it
+            📸 Screenshot:<br>Admin platform with<br>new orders waiting<br>for your reps
           </div>
         </div>
       </div>
@@ -267,16 +268,16 @@ module.exports = {
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
       <h2>Everything that makes buying from you simple.</h2>
-      <p class="lead mt-16">It all comes with VOS, for every account you set up.</p>
+      <p class="lead mt-16">It all comes with VOS, for every account you bring on.</p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
         <div class="feature-card-icon">📋</div>
-        <h4>Personal Order Guides</h4>
+        <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A short list for each customer, built from what they really order.
+          Customers just say what they need, with no typing and no hold music.
         </p>
       </div>
 
@@ -291,27 +292,27 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🏷️</div>
-        <h4>Your Prices and SKUs</h4>
+        <h4>Catalog Tied to Stock</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each guide carries your pricing and item codes, so orders match
-          your system.
+          Items change in the catalog as your stock does, so accounts get fewer
+          surprise swaps.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📄</div>
-        <h4>Your Order Format</h4>
+        <h4>Orders After Closing</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Pick how your office gets orders, from an email attachment to a direct link.
+          A midnight order is captured and ready for your team by morning.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🗂️</div>
-        <h4>Order History by Account</h4>
+        <h4>Order Confirmations</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order from every customer, saved where your team can find
-          it.
+          Your customer's phone confirms each sent order with a notification
+          or a text.
         </p>
       </div>
 
@@ -326,10 +327,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">💰</div>
-        <h4>Promos and Confirmations</h4>
+        <h4>Promos to Your Accounts</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Push notifications and text messages reach your accounts with promos
-          and order confirmations.
+          Reach the people who order from you with promos, sent to their phones
+          as notifications and texts.
         </p>
       </div>
 
@@ -337,16 +338,16 @@ module.exports = {
         <div class="feature-card-icon">📱</div>
         <h4>iOS + Android App</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers order by voice from anywhere in the kitchen, at any hour
-          of the day.
+          Kitchen staff can order from their phones, from the walk-in to the
+          back office.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>Works With What You Run</h4>
+        <h4>Nothing to Switch Off</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Nothing to switch off. VOS adds a better front door to the order process you already run.
+          VOS sits beside what your office already uses and gives your orders a better front door.
         </p>
       </div>
 
@@ -363,8 +364,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See how your accounts would order from you on VOS</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book a free 20-minute walkthrough. We'll show you an account's guide,
-        your admin screens, and an order landing in your format.
+        Book a free 20-minute walkthrough. We'll show you an account's guide as
+        they see it and as you manage it, plus an order landing in your format.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -399,7 +400,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We set up your accounts</h4>
+        <h4>Get your accounts set up</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           We create each customer account and get your customers into the app
           on iOS or Android.
@@ -408,7 +409,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Orders flow to your team</h4>
+        <h4>Receive your first orders</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Your customers start ordering, and each order lands with your team
           in the format you chose.
@@ -456,8 +457,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "When a customer asks about an old order, we pull up the order
-            number and the time it was placed while they're still on the line."
+            "When a customer asks about an old order, we pull up its
+            number and when it was placed while they're still on the line."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -523,7 +524,7 @@ module.exports = {
             <td>Your items and prices in front of the buyer</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Manual</td>
           </tr>
           <tr>
             <td>A separate guide for each account</td>
@@ -541,7 +542,7 @@ module.exports = {
             <td>Past orders on file for each account</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-no">✗</span></td>
+            <td>Manual</td>
           </tr>
           <tr>
             <td>Order number and timestamp on every order</td>
@@ -575,7 +576,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>2 days or less</td>
+            <td>24 to 48 hours</td>
             <td>Weeks to months</td>
             <td>None needed</td>
           </tr>
@@ -615,7 +616,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. Your restaurant customers keep dealing with your team the way they do now. They just get a faster way to send you orders. On your side, every order lands in a format your office works with today, so nothing behind the scenes has to change.
+          Very little. Your restaurant customers keep dealing with your team the way they do now. The one change is how orders get to you: through the app, not by phone or email. Your office keeps its current systems, and nothing behind the scenes has to be replaced.
         </div>
       </div>
 

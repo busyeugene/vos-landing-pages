@@ -3,13 +3,13 @@
  *            small business inventory control software (body) | inventory control system software (body)
  *            warehouse / retail / manufacturing inventory control software (Tier C, ONE combined
  *            disambiguating FAQ rather than three near-identical ones)
- * Angle: the money. Food cost, waste, over-ordering, delivery-vs-invoice gaps.
+ * Angle: margin lost to shorts, substitutions and order errors (distributor side).
  */
 module.exports = {
   title: 'Inventory Control Software for Food Distributors | VoiceOrder',
   description: 'Stop losing margin to shorts, swaps and order errors. Inventory control software for food distributors, with confirmed orders and a stock-aware catalog.',
   related: ["inventory-tracking-software","inventory-visibility-software","order-fulfillment-software"],
-  relatedHeading: 'More ways to keep orders and stock in line',
+  relatedHeading: 'Track your stock, share it, and fill orders right',
   body: `
 <!--@NAVBAR-->
 
@@ -27,9 +27,9 @@ module.exports = {
       <p class="lead mt-16">
         Most lost margin starts at the order: a wrong quantity, a line you can't
         fill, a fight over what was ordered. VoiceOrder Solutions is inventory
-        control software that fixes the order first. Customers approve every order
-        themselves, and each one carries its own number and timestamp. What they
-        can order shifts as your stock does, so you ship fewer shorts.
+        control software that fixes the order first. Customers confirm every order,
+        each one carries its own number and timestamp, and their catalog moves with
+        your stock, so you ship fewer shorts.
       </p>
 
       <div class="hero-ctas">
@@ -38,16 +38,16 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Works alongside your current systems</span>
+        <span>No rip-and-replace</span>
         <span class="hero-trust-dot"></span>
-        <span>Set up in 48 hours or less</span>
+        <span>Live within 48 hours</span>
         <span class="hero-trust-dot"></span>
-        <span>iOS + Android + Web</span>
+        <span>iOS + Android apps</span>
       </div>
     </div>
 
     <div>
-      <!-- DEVS: Replace with VOS product screenshot (spend + stock control dashboard) -->
+      <!-- DEVS: Replace with VOS product screenshot (confirmed order with number and timestamp, stock-aware catalog) -->
       <div class="img-placeholder tall">
         📸 Product screenshot:<br>Confirmed customer orders<br>with order numbers, timestamps<br>and current stock levels
       </div>
@@ -67,7 +67,7 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20–30 Min</div>
-      <div class="stat-label">saved per order, with nothing re-keyed by hand</div>
+      <div class="stat-label">saved per order versus phone ordering</div>
     </div>
     <div>
       <div class="stat-number">Every</div>
@@ -143,10 +143,10 @@ module.exports = {
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row">
         <div>
-          <span class="eyebrow">Built for Food</span>
+          <span class="eyebrow">Only Items You Carry</span>
           <h3>Food inventory control software that keeps orders to items you carry.</h3>
           <p class="mt-12 text-muted">
-            Food distribution does not run on a generic item list. Every account shops
+            Food distribution does not run on a generic item list. Every customer account shops
             from its own guide: only the products it buys, at your prices, on your
             SKUs. Every line arrives with the right item number and the right
             price, so nobody has to turn "the usual cheese" into a real product.
@@ -157,7 +157,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Change a guide or an account from the admin platform</span></li>
             <li><span class="bullet-check">✓</span><span>You decide what each customer can order</span></li>
           </ul>
-          <a href="/restaurant-stock-management-software" class="feature-link">See stock management from your customer's side →</a>
+          <a href="/catalog-management-software" class="feature-link">See how catalog management keeps guides current →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -173,7 +173,7 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Fewer Shorts</span>
-          <h3>Stop selling cases you don't have.</h3>
+          <h3>Sell fewer cases you don't have.</h3>
           <p class="mt-12 text-muted">
             A short costs you twice: the sale you lose and the call your rep has to
             make. VOS links stock to every order in real time, and the catalog
@@ -186,7 +186,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Fewer stockouts found at picking</span></li>
             <li><span class="bullet-check">✓</span><span>Less rep time spent calling about missing items</span></li>
           </ul>
-          <a href="/inventory-planning-software" class="feature-link">See how to plan next week's stock →</a>
+          <a href="/inventory-replenishment-software" class="feature-link">See how to restock before a customer is shorted →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -197,11 +197,11 @@ module.exports = {
     </div>
 
 
-    <!-- Feature 3: Ordered vs delivered vs invoiced -->
+    <!-- Feature 3: order errors caught before they become credits -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row">
         <div>
-          <span class="eyebrow">Close The Gap</span>
+          <span class="eyebrow">Fewer Errors and Disputes</span>
           <h3>Catch order errors before they turn into credits.</h3>
           <p class="mt-12 text-muted">
             Customers speak or tap their order into the app, so it is digital from
@@ -213,7 +213,7 @@ module.exports = {
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Customer checks and confirms each order before sending</span></li>
-            <li><span class="bullet-check">✓</span><span>No transcription or re-entry between the customer and you</span></li>
+            <li><span class="bullet-check">✓</span><span>Nothing to transcribe from a call or voicemail</span></li>
             <li><span class="bullet-check">✓</span><span>A record to point to when a delivery is questioned</span></li>
             <li><span class="bullet-check">✓</span><span>History shows who ordered what, and when</span></li>
           </ul>
@@ -243,11 +243,11 @@ module.exports = {
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Sized for independent and DSD distributors</span></li>
-            <li><span class="bullet-check">✓</span><span>No IT project and no data migration</span></li>
+            <li><span class="bullet-check">✓</span><span>Setup with no IT project</span></li>
             <li><span class="bullet-check">✓</span><span>Orders flow to your ERP, platform or QuickBooks</span></li>
             <li><span class="bullet-check">✓</span><span>Pricing on request, quoted for your operation</span></li>
           </ul>
-          <a href="/restaurant-purchasing-software" class="feature-link">See how your accounts buy through VOS →</a>
+          <a href="/order-taking-software" class="feature-link">See how order taking works off the phone →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -276,19 +276,19 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">💰</div>
-        <h4>Confirmed Orders</h4>
+        <h4>More Selling Time for Reps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers review each order before it is sent, so the quantity you pick
-          is the quantity they meant.
+          Phone orders move into the app, so your reps get time back for
+          selling.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🎯</div>
-        <h4>Account Order Guides</h4>
+        <h4>Clean Orders for DSD Routes</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each customer orders from a list you control, so nobody guesses at
-          items you do not carry.
+          Drivers show up with the product each customer ordered, and back-office
+          staff start from a clean order.
         </p>
       </div>
 
@@ -303,10 +303,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📊</div>
-        <h4>Stock-Aware Catalog</h4>
+        <h4>Full-Catalog Stock View</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your catalog keeps pace with stock levels on its own, with no manual
-          edits from your team.
+          Check stock levels across your whole catalog at once, not one item at
+          a time.
         </p>
       </div>
 
@@ -332,17 +332,17 @@ module.exports = {
         <div class="feature-card-icon">📱</div>
         <h4>iOS + Android App</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers use their phone to order at any hour, so late orders are
-          captured instead of lost on voicemail.
+          Your customers can send orders at any hour, so late ones are not lost
+          on voicemail. Each order saves 20–30 minutes over calling it in.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🗂️</div>
-        <h4>Full Order History</h4>
+        <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order by account, with who placed it and when. Ready when a
-          customer says the order was different.
+          Customers can say their order out loud instead of typing it, and the
+          app turns it into written order lines.
         </p>
       </div>
 
@@ -366,7 +366,7 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See where orders are costing you margin</h3>
+      <h3 style="margin-bottom:10px;">See how cleaner orders protect your margin</h3>
       <p class="text-muted" style="font-size:16px;">
         Book a 20-minute demo. We'll show you confirmed orders, order records, and
         a catalog that changes when your stock does.
@@ -386,8 +386,8 @@ module.exports = {
       <span class="eyebrow">Simple Setup</span>
       <h2>Three steps to cleaner orders</h2>
       <p class="lead mt-16">
-        No IT project and no system to swap out. Confirmed orders start coming in
-        within days.
+        No IT project and no system to swap out. Most distributors are set up in
+        a day or two.
       </p>
     </div>
 
@@ -395,9 +395,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Share your customer order guides</h4>
+        <h4>You send us the order guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Send the order guides you already use. We upload them and set up each
+          Share the guides you already use. We upload them and set up each
           account with your items, prices, and SKUs.
         </p>
       </div>
@@ -406,7 +406,7 @@ module.exports = {
         <div class="step-number">2</div>
         <h4>Customers download the app</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your accounts get VOS on iOS or Android. Most send their first order
+          Your customers get VOS on iOS or Android. Most send their first order
           the same day.
         </p>
       </div>
@@ -507,7 +507,7 @@ module.exports = {
       <h2>Control built for the order.<br>Not for the warehouse floor.</h2>
       <p class="lead mt-16">
         Most inventory tools scan, count and label what sits on your shelves. VOS
-        controls the step before that: the customer's order. Here's how it stacks
+        controls what those tools leave out: the customer's order. Here's how it stacks
         up against warehouse software and the phone.
       </p>
     </div>
@@ -569,7 +569,7 @@ module.exports = {
             <td>Fits with your ERP or platform</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Manual</td>
           </tr>
           <tr>
             <td>Needs an IT project to launch</td>
@@ -621,7 +621,7 @@ module.exports = {
         <div class="faq-answer">
           No. VOS sits alongside the ERP, distribution platform, or order system you
           run today. Your customers get a better way to send orders, and those
-          orders land in the format you work with now. There is no rip-and-replace.
+          orders land in the format you work with now.
         </div>
       </div>
 
@@ -648,8 +648,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Its main job is to stop bad orders before they ship. With VOS, customers
-          confirm each order, so they fix a bad quantity before it is sent. Inventory
+          It cuts the shorts, swaps and order mistakes that eat into your margin.
+          With VOS, customers confirm each order, so they fix a bad quantity before it is sent. Inventory
           stays in step with new orders, so customers order fewer items you are out
           of. And every order has a timestamp, so a disputed delivery gets settled
           with a record, not a guess.
@@ -662,7 +662,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No tool can promise that. Product still runs out. What changes is when you
+          No, and no tool can promise that. Product still runs out. What changes is when you
           find out. Because the catalog follows your stock levels, more of those gaps
           show up before the customer orders, not on the pick line the next morning.
         </div>
@@ -711,9 +711,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors are up and running within 24 to 48 hours, with no complex
-          implementation and no IT project. You share each customer's order guide, we
-          build the account, and most customers place an order on day one.
+          Most distributors are up and running within 24 to 48 hours, with no IT
+          project. You share each customer's order guide, we build the account, and
+          most customers start ordering that same day.
         </div>
       </div>
 

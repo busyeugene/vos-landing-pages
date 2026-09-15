@@ -12,7 +12,7 @@ module.exports = {
   title: 'Inventory Replenishment Software for Food Distributors | VOS',
   description: 'VOS is inventory replenishment software for food distributors. See low stock as customer orders land, and reorder before a stockout shorts an account.',
   related: ["inventory-planning-software","inventory-tracking-software","inventory-automation-software"],
-  relatedHeading: 'Before and after the restock',
+  relatedHeading: 'More ways to stay ahead of your stock',
   body: `
 <!--@NAVBAR-->
 
@@ -29,10 +29,10 @@ module.exports = {
       <h1>Inventory Replenishment Software That Shows Low Stock Early.</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions is inventory replenishment software for food
-        distributors. Each customer order is demand you can see, and your stock
-        levels move as soon as it arrives. Your buyer spots items getting low while
-        there is still time to reorder from the supplier. Fewer stockouts catch your
-        customers by surprise, and you keep the purchasing system you have.
+        distributors. When a customer account (a restaurant or store you supply)
+        sends in an order, your stock levels move right away. Your buyer spots items
+        getting low sooner, with more time to reorder, and fewer stockouts catch
+        your customers by surprise.
       </p>
 
       <div class="hero-ctas">
@@ -41,16 +41,16 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Works alongside your current systems</span>
+        <span>No rip-and-replace</span>
         <span class="hero-trust-dot"></span>
-        <span>Live in 24-48 hours</span>
+        <span>24-48 hour setup</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android + web admin</span>
       </div>
     </div>
 
     <div>
-      <!-- DEVS: Replace with VOS product screenshot (below-par alert + suggested reorder list) -->
+      <!-- DEVS: Replace with VOS product screenshot (stock view updating as customer orders land) -->
       <div class="img-placeholder tall">
         📸 Product screenshot:<br>Admin view of stock levels<br>moving as customer<br>orders arrive
       </div>
@@ -78,7 +78,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">20-30 min</div>
-      <div class="stat-label">saved on every order your accounts place</div>
+      <div class="stat-label">saved per order your accounts place</div>
     </div>
   </div>
 </section>
@@ -151,7 +151,7 @@ module.exports = {
           <h3>Spot low stock while you can still act on it.</h3>
           <p class="mt-12 text-muted">
             Every customer order that lands moves your on-hand numbers in VOS.
-            Your team sees which items are dropping as demand comes in. That gives
+            Your team sees which items are dropping as demand comes in. That leaves
             your buyer more room to work with the supplier's lead time, instead of
             finding out when an account gets less than it ordered.
           </p>
@@ -172,15 +172,16 @@ module.exports = {
     </div>
 
 
-    <!-- Feature 2: SECONDARY IN H3 (Tier B) – automated inventory replenishment software (assumption Q10) -->
+    <!-- Feature 2: SECONDARY IN H3 (Tier B) – automated inventory replenishment software -->
     <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">The Restock Call</span>
           <h3>Automated inventory replenishment software, with your buyer in charge.</h3>
           <p class="mt-12 text-muted">
-            Nobody retypes anything: each order from an account arrives
-            digitized and timestamped, and your stock numbers change with it. The reorder
+            The automatic part is the order data. Each order from an account arrives
+            digitized and timestamped, with no voicemail to type up, and your stock
+            numbers change with it. The reorder
             decision stays with your buyer. VOS does not draft purchase orders to your
             suppliers, and it never sends an order by itself.
           </p>
@@ -220,7 +221,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Customers check every line before it goes</span></li>
             <li><span class="bullet-check">✓</span><span>A half-done order saves if someone gets called away</span></li>
           </ul>
-          <a href="/restaurant-stock-management-software" class="feature-link">See stock management from the kitchen side →</a>
+          <a href="/order-taking-software" class="feature-link">See how customers send you orders from the app →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -239,17 +240,17 @@ module.exports = {
           <h3>The 11pm order is waiting before your buyer starts.</h3>
           <p class="mt-12 text-muted">
             Your accounts can order 24/7, so a closeout order doesn't sit in voicemail
-            until morning. It lands with your team right away, in whatever format you
-            take orders today, and your buyer sees that demand before placing the
-            day's reorder.
+            until morning. It lands with your team right away, in your chosen
+            format, and your buyer sees that demand before placing the day's
+            reorder.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Orders captured around the clock, weekends included</span></li>
-            <li><span class="bullet-check">✓</span><span>Delivered in real time, not at 9am</span></li>
+            <li><span class="bullet-check">✓</span><span>Sent over in real time, not at 9am</span></li>
             <li><span class="bullet-check">✓</span><span>Email with a PDF, Excel or Word file</span></li>
             <li><span class="bullet-check">✓</span><span>Or EDI, API, QuickBooks or a platform link</span></li>
           </ul>
-          <a href="/order-entry-software" class="feature-link">See how accounts place their orders →</a>
+          <a href="/inventory-automation-software" class="feature-link">See what your team can stop doing by hand →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -270,27 +271,27 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Everything Included</span>
-      <h2>What your team works with to restock in time.</h2>
-      <p class="lead mt-16">Each piece of the restock loop, ready once you are live.</p>
+      <h2>What else comes with VOS.</h2>
+      <p class="lead mt-16">Ready once you are live, for your team and your accounts.</p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
         <div class="feature-card-icon">📊</div>
-        <h4>Real-Time Stock View</h4>
+        <h4>Fewer Substitutions</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your numbers move with order activity, so a dip shows up while you
-          can do something about it.
+          Accounts order against current stock, so fewer lines get swapped
+          just before the truck goes out.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📝</div>
-        <h4>Full-Catalog View</h4>
+        <h4>Right Product on the Truck</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          See every product you stock, not only the ones that already ran
-          out.
+          For DSD distributors, clean, early orders help drivers head out with
+          what each customer ordered.
         </p>
       </div>
 
@@ -298,7 +299,8 @@ module.exports = {
         <div class="feature-card-icon">🔄</div>
         <h4>Automatic Catalog Updates</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          When what's on hand changes, your catalog follows, so it stays current.
+          When what's on hand changes, the catalog your accounts buy from
+          follows, so they pick from what you have now.
         </p>
       </div>
 
@@ -306,23 +308,24 @@ module.exports = {
         <div class="feature-card-icon">🗣️</div>
         <h4>Voice Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your customers say what they need into the app and confirm it before it reaches you.
+          Accounts speak their order into the app, which beats phoning it in by 20–30 minutes an order.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📱</div>
-        <h4>iPhone + Android</h4>
+        <h4>Phone Notifications</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts order wherever they notice a gap, not only from a desk.
+          Accounts get confirmations and your promos by text or in-app push.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🕐</div>
-        <h4>24/7 Ordering</h4>
+        <h4>More Time for Reps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A midnight order sits ready for your team first thing.
+          Orders arrive through the app instead of your reps' phones, which
+          frees them up to sell.
         </p>
       </div>
 
@@ -330,8 +333,8 @@ module.exports = {
         <div class="feature-card-icon">📦</div>
         <h4>Per-Account Order Guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every account buys your items, at your prices, tied to your
-          SKUs.
+          Each account's guide holds the items it actually orders, tied to
+          your SKUs, so its orders line up with your stock.
         </p>
       </div>
 
@@ -346,10 +349,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🔗</div>
-        <h4>Keep Your Current Tools</h4>
+        <h4>API and Platform Connections</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Nothing to rip out. Your buyer still orders from suppliers as
-          before, with fresher numbers to work from.
+          VOS plugs into distribution management platforms, ERPs and food
+          service software through its API, adding to what you already run.
         </p>
       </div>
 
@@ -382,10 +385,10 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Up and running in a day or two</h2>
+      <h2>Up and running in 24-48 hours</h2>
       <p class="lead mt-16">
-        No IT project. No sales history to clean up first. Three steps, and low
-        stock stops catching you off guard.
+        No sales history to clean up first. Three steps, and low stock stops
+        catching you off guard.
       </p>
     </div>
 
@@ -402,7 +405,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Your accounts start ordering</h4>
+        <h4>Get your accounts ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Customers get the app on iOS or Android. Most are ordering the
           same day.
@@ -413,7 +416,7 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Restock on current numbers</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Orders arrive in your format and on-hand levels update with each one. Your buyer can see what needs restocking and orders it the usual way.
+          Orders arrive in your format and on-hand levels update with each one. Your buyer checks the levels, decides what to restock and orders it the usual way.
         </p>
       </div>
 
@@ -433,7 +436,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What the restaurants you serve say about VOS</h2>
+      <h2>What restaurants and distributors say about VOS</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -459,7 +462,7 @@ module.exports = {
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
             "We used to learn an item was low when a customer's order couldn't be
-            filled. Now orders land as they're placed, and we see the dip in time."
+            filled. Now orders land as they're placed, and we see the dip sooner."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -534,7 +537,7 @@ module.exports = {
             <td>Manual</td>
           </tr>
           <tr>
-            <td>A person sends every order, never the software</td>
+            <td>Reorders stay a person's decision</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-yes">✓</span></td>
@@ -546,7 +549,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Voice ordering</td>
+            <td>Voice orders that arrive in writing</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
@@ -577,7 +580,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>1-2 days</td>
+            <td>24-48 hrs</td>
             <td>Months</td>
             <td>None needed</td>
           </tr>
@@ -675,10 +678,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          VOS ties your stock to order activity across the whole catalog. As
-          customer orders arrive, your team can see which items are getting thin
-          before the shelf is empty. The timing of the reorder stays your buyer's
-          call.
+          It shows in VOS: stock levels drop as each customer order
+          arrives, for every item in your catalog. The timing of the reorder stays
+          your buyer's call.
         </div>
       </div>
 
@@ -688,9 +690,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your VOS catalog changes when stock does, so it matches what is on hand.
-          That means fewer stockout surprises for your accounts, fewer last-minute
-          substitutions and fewer awkward calls for your reps.
+          The catalog you offer your customers updates when stock does, so it
+          reflects what is on hand. That means fewer stockout surprises for your
+          accounts, fewer last-minute substitutions and fewer awkward calls for
+          your reps.
         </div>
       </div>
 
@@ -725,7 +728,7 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ Live within 2 days</span>
+    <span>✓ No IT project</span>
     <span>✓ Your purchasing process stays the same</span>
     <span>✓ No system replacement needed</span>
     <span>✓ Pricing on request</span>
@@ -751,7 +754,7 @@ module.exports = {
       <h5>Features</h5>
       <ul role="list">
         <li><a href="#features">Real-Time Stock View</a></li>
-        <li><a href="#features">Catalog Updates</a></li>
+        <li><a href="#features">Timestamped Orders</a></li>
         <li><a href="#features">Voice Ordering</a></li>
         <li><a href="#features">24/7 Ordering</a></li>
         <li><a href="#integrations">Integrations</a></li>
