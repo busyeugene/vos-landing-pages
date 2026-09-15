@@ -3,7 +3,7 @@
  */
 module.exports = {
   title: "Inventory Tracking Software for Food Distributors | VOS",
-  description: "Inventory tracking software for food distributors. Know what's on hand in real time as orders come in, keep your catalog in sync and see fewer stockouts.",
+  description: "Inventory tracking software for food distributors. See what's on hand in real time as orders come in, keep your catalog in sync, and cut stockout surprises.",
   related: ["inventory-visibility-software","inventory-replenishment-software","inventory-control-software"],
   relatedHeading: "Go further with your stock data",
   body: `
@@ -22,8 +22,9 @@ module.exports = {
       <h1>Inventory Tracking Software That Keeps Up With Orders.</h1>
       <p class="lead mt-16">
         Know what's on hand in real time, while customer orders are still coming
-        in. VOS ties stock levels to every order that lands, and keeps your
-        catalog in sync as levels change. No clipboards. No guesswork. No system to replace.
+        in. The restaurants and stores you supply say their orders into the VOS
+        mobile app, and your stock and your catalog both shift with each one.
+        No clipboards. No guesswork. No system to replace.
       </p>
 
       <div class="hero-ctas">
@@ -34,7 +35,7 @@ module.exports = {
       <div class="hero-trust">
         <span>No IT project required</span>
         <span class="hero-trust-dot"></span>
-        <span>Live in 24 to 48 hours</span>
+        <span>Typical setup: 24-48 hours</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -81,8 +82,8 @@ module.exports = {
       <div class="stat-label">order capture, so overnight orders are in your numbers when you open</div>
     </div>
     <div>
-      <div class="stat-number">Full Catalog</div>
-      <div class="stat-label">in view, not just the few items someone checked</div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">cut from each order when customers skip the phone and use the app</div>
     </div>
   </div>
 </section>
@@ -153,10 +154,10 @@ module.exports = {
           <span class="eyebrow">Real-Time Stock</span>
           <h3>Watch stock move the moment an order lands.</h3>
           <p class="mt-12 text-muted">
-            VOS links your stock to the orders your customers send. When an
-            order comes through the app, your stock levels move with it, so
-            a rep doesn't have to check the shelf first. This is software for tracking
-            inventory that runs on the orders you already take.
+            VOS links your stock to the orders your customers send. When one
+            comes through the app, stock for those items moves with it, so
+            a rep doesn't have to check the shelf first. Think of it as software for tracking
+            inventory that your customers keep current just by ordering.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -165,7 +166,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Every incoming order carries a timestamp</span>
+              <span>A timestamp on every order sent through the app</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -196,8 +197,8 @@ module.exports = {
           <p class="mt-12 text-muted">
             When a stock level shifts, VOS updates the catalog on its own.
             Each customer orders from a guide you control, and the catalog behind
-            it stays in sync with your stock. This inventory tracking system
-            means fewer surprise stockouts and fewer awkward calls to your customers.
+            it stays in sync with your stock. That means fewer sold-out surprises
+            and fewer awkward calls to your customers.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -233,12 +234,12 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Mobile + Voice</span>
-          <h3>No separate inventory tracking app. Orders do the work.</h3>
+          <h3>Your customers do the talking. Your stock follows.</h3>
           <p class="mt-12 text-muted">
-            Most inventory apps hand your team a scanner. VOS hands the order to
-            your customers instead. They speak it into the app on iOS or Android,
-            any time of day. Because stock is linked to those orders, what they
-            buy shows up on your side without a rep typing it in.
+            An inventory tracking app usually puts a scanner in your team's hands.
+            VOS starts with your customers instead. They say what they need into the
+            app on iOS or Android, any time of day. Stock is linked to those orders,
+            so what they buy shows up on your side without a rep typing it in.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -247,7 +248,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Speech becomes a clean digital order</span>
+              <span>Spoken items become an order on screen they can check</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -255,7 +256,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Stock moves with each order, no phone notes to type up</span>
+              <span>Stock adjusts as each order arrives, with no phone notes to type up</span>
             </li>
           </ul>
           <a href="/order-taking-software" class="feature-link">See how customers order without calling →</a>
@@ -274,12 +275,11 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Full-Catalog View</span>
-          <h3>Every item you sell, in one view.</h3>
+          <h3>An inventory tracking system that covers every item you sell.</h3>
           <p class="mt-12 text-muted">
             A spot check covers a few shelves. VOS gives your team visibility
             across your full product catalog, tied to what customers are ordering.
-            You see the stock level of each item, without adding work to
-            anyone's day.
+            You see the stock level of each item, without a walk to the back.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -299,7 +299,7 @@ module.exports = {
               <span>Spot sold-out items before anyone promises them</span>
             </li>
           </ul>
-          <a href="/inventory-visibility-software" class="feature-link">Give reps and customers the same stock picture →</a>
+          <a href="/inventory-visibility-software" class="feature-link">See how reps and the office share one stock picture →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -319,7 +319,7 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
-      <span class="eyebrow">Everything Included</span>
+      <span class="eyebrow">Also Built In</span>
       <h2>Everything your team and your accounts get with VOS</h2>
       <p class="lead mt-16">Stock tracking comes with the ordering tools that feed it.</p>
     </div>
@@ -328,10 +328,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📊</div>
-        <h4>20-30 Minutes Saved</h4>
+        <h4>Fewer Order Calls</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          That's the time saved on each order placed in the app, compared
-          with taking it by phone.
+          A customer who orders in the app is one fewer call for your office
+          to write down.
         </p>
       </div>
 
@@ -418,11 +418,10 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See how VOS keeps inventory current with every order</h3>
+      <h3 style="margin-bottom:10px;">See how VOS keeps inventory current as customers order</h3>
       <p class="text-muted" style="font-size:16px;">
         Spend 20 minutes with us on a free walkthrough. We'll show you how customer orders,
-        stock levels and your catalog stay in step, for a distributor like
-        yours.
+        stock levels and your catalog stay in step.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -439,8 +438,8 @@ module.exports = {
       <span class="eyebrow">Simple Setup</span>
       <h2>Setup takes a day or two for most distributors</h2>
       <p class="lead mt-16">
-        No IT team. No systems to rip out. Three steps, and your stock starts
-        moving with each order.
+        No IT team. No systems to rip out. Three steps, and stock starts moving
+        with orders from the app.
       </p>
     </div>
 
@@ -468,8 +467,8 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Track stock as orders arrive, 24/7</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order arrives in your usual format, and your
-          inventory view updates with it.
+          Orders from the app reach you in your usual format, and your
+          inventory view updates with each one.
         </p>
       </div>
 
@@ -589,8 +588,8 @@ module.exports = {
     </div>
 
     <p class="text-muted mt-24" style="font-size:14px;">
-      VOS also connects to distribution and food service platforms through its API,
-      so orders and catalog changes move without anyone retyping them.
+      VOS is also API-ready, so it can connect to distribution and food service
+      platforms and add to what they already do.
     </p>
 
     <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
@@ -625,10 +624,10 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">Why VoiceOrder Solutions</span>
-      <h2>Stock tracking tied to every order.<br>Not one more system to keep fed.</h2>
+      <h2>Stock tracking that starts with the order.<br>Nothing to swap out.</h2>
       <p class="lead mt-16">
-        A typical inventory app only learns about a phone order after someone
-        types it in. VOS starts from the order itself.
+        A typical inventory app only learns about an order after someone types
+        it in. With VOS, the order your customer places in the app is the update.
       </p>
     </div>
 
@@ -650,7 +649,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Catalog updates as stock changes</td>
+            <td>Catalog updates when stock levels shift</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
@@ -662,7 +661,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Stock updates with each order</td>
+            <td>Each order adjusts stock</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
@@ -699,7 +698,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>Two days or less</td>
+            <td>24-48 hrs for most</td>
             <td>Varies</td>
             <td>None needed</td>
           </tr>
@@ -739,8 +738,8 @@ module.exports = {
         </button>
         <div class="faq-answer">
           Yes. Your ERP and distribution platforms stay in place, and VOS works
-          alongside them. Your orders keep arriving the same way: email (PDF, Excel
-          or Word), EDI, API or QuickBooks. This inventory tracking software adds
+          alongside them. Orders come through in a format you already
+          accept: email (PDF, Excel or Word), EDI, API or QuickBooks. This inventory tracking software adds
           a current view of stock on top of that. Nothing gets ripped out.
         </div>
       </div>
@@ -751,9 +750,11 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Each order your customers place in the app adjusts your inventory
-          picture, and the catalog follows as levels move. Nobody has to key in phone orders before the numbers
-          are right.
+          Each order your customers place in the app is tied to your stock, so
+          the on-hand picture moves as each one comes in and the catalog follows.
+          App orders don't wait for anyone to key them in. VOS works beside whatever
+          tracks your stock today. Ask us on the demo how your existing stock
+          data connects.
         </div>
       </div>
 
@@ -772,12 +773,12 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Will VOS cut stockouts and substitutions?
+          Will VOS mean fewer stockout surprises and substitutions?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It helps. When your team can spot a gap as orders land, fewer items
-          run out by surprise and fewer orders need a last-minute swap. VOS does
+          It helps. When your team can spot a gap as orders land, fewer shortages
+          catch you off guard and fewer orders need a last-minute swap. VOS does
           not forecast demand or reorder from your own suppliers.
         </div>
       </div>
@@ -788,9 +789,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS is aimed at independent food distributors of small and mid
-          size, rather than large enterprises with their own IT staff. It is simple inventory
-          tracking software with no heavy setup and no technical team needed.
+          Yes. Small and mid-size food distributors, from independents to DSD
+          operators, are who VOS was built for. It is simple inventory tracking software: setup is light,
+          and you need no technical team to run it.
           Pricing comes as a quote, and we can go over it on a demo call.
         </div>
       </div>

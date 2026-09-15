@@ -3,7 +3,7 @@
  */
 module.exports = {
   title: "Catalog Management Software for Food Distributors | VOS",
-  description: "Keep every account's order guide current, with your items, prices and SKUs. VOS catalog management software for food distributors, live in 24 to 48 hours.",
+  description: "Catalog management software for food distributors that keeps every account's order guide current, at your prices and SKUs. Most go live in 24-48 hours.",
   related: ["order-taking-software","vendor-management-software","inventory-visibility-software"],
   relatedHeading: "See more of what VOS does for distributors",
   body: `
@@ -21,9 +21,9 @@ module.exports = {
       <span class="eyebrow">Order Guides, Kept Current</span>
       <h1>Catalog Management Software That Keeps Guides Current.</h1>
       <p class="lead mt-16">
-        VOS is catalog management software built on each customer's order
-        guide. Every account's list uses your prices and your SKUs. You edit any guide from one place, and
-        stock changes reach the catalog without anyone typing them in.
+        VOS is catalog management software for each account's order guide,
+        plus the voice app those accounts order in. Every guide carries your
+        prices and your SKUs, and you edit any of them from one place.
       </p>
 
       <div class="hero-ctas">
@@ -34,9 +34,9 @@ module.exports = {
       <div class="hero-trust">
         <span>Plugs into what you use</span>
         <span class="hero-trust-dot"></span>
-        <span>Launches in 24 to 48 hours</span>
+        <span>Most launch in 24-48 hours</span>
         <span class="hero-trust-dot"></span>
-        <span>Reaches customers on iOS and Android</span>
+        <span>iOS and Android apps</span>
       </div>
     </div>
 
@@ -60,16 +60,16 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">Every</div>
-      <div class="stat-label">account with its own guide at your prices</div>
+      <div class="stat-number">24-48 Hrs</div>
+      <div class="stat-label">for most distributors to be up and running</div>
     </div>
     <div>
       <div class="stat-number">Real-Time</div>
       <div class="stat-label">catalog updates whenever your stock shifts</div>
     </div>
     <div>
-      <div class="stat-number">One</div>
-      <div class="stat-label">screen for every guide and every account</div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">less time on each order than a phone call takes</div>
     </div>
   </div>
 </section>
@@ -102,8 +102,8 @@ module.exports = {
         <div class="problem-icon">💲</div>
         <h4 class="mb-8">"Their sheet still showed last quarter's price"</h4>
         <p class="text-muted" style="font-size:15px;">
-          The customer ordered off an old number. The invoice came in higher,
-          and your rep spends the morning smoothing it over.
+          The customer ordered at the old price. The invoice came in higher,
+          and your rep spent the morning smoothing it over.
         </p>
       </div>
 
@@ -142,8 +142,8 @@ module.exports = {
           <p class="mt-12 text-muted">
             Add an item, drop one, or change a price, right on that account's
             guide. The platform also holds every account's details
-            and order history. It works like product catalog software with
-            your customers built in.
+            and order history. Think of it as product catalog software,
+            organized around your customers.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -263,15 +263,15 @@ module.exports = {
           <span class="eyebrow">Catalog + Inventory</span>
           <h3>Your catalog moves with your stock.</h3>
           <p class="mt-12 text-muted">
-            VOS also works as inventory catalog software on your side of the
-            order. You watch stock levels move the moment an account buys, and
-            the catalog adjusts to match. Customers see a catalog that follows
-            your stock, so they run into fewer sold-out items.
+            On your side of the order, VOS doubles as inventory catalog
+            software. You watch stock levels move the moment an account buys,
+            and the catalog adjusts to match, so surprise stockouts come up
+            less often.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Availability that moves with every purchase</span>
+              <span>Stock levels that shift as app orders land</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -306,7 +306,7 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
-      <span class="eyebrow">Everything Included</span>
+      <span class="eyebrow">Also Built In</span>
       <h2>What else your team and your accounts get.</h2>
       <p class="lead mt-16">No spreadsheets to send around, and no software to rip out.</p>
     </div>
@@ -361,8 +361,8 @@ module.exports = {
         <div class="feature-card-icon">📍</div>
         <h4>Numbered, Dated Orders</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each order gets its own number and a timestamp with the date, so it
-          is simple to find again.
+          Orders sent from the app each get their own number and a dated
+          timestamp, so they are simple to find again.
         </p>
       </div>
 
@@ -404,11 +404,10 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">Watch VOS keep each customer's guide lined up with your catalog</h3>
+      <h3 style="margin-bottom:10px;">See how each customer's guide stays lined up with your catalog</h3>
       <p class="text-muted" style="font-size:16px;">
-        Set aside 20 minutes. We'll show you account setup, guide edits,
-        and the voice app, based on how your distribution business runs
-        today.
+        Set aside 20 minutes. We'll show you account setup, guide edits and
+        the ordering app, then talk through how it would fit your business.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -423,7 +422,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>We handle setup, and you're live by day two</h2>
+      <h2>We handle setup, and most distributors are live in two days</h2>
       <p class="lead mt-16">
         Nothing you run today gets replaced. Three steps and your accounts
         are ordering from guides you control.
@@ -520,8 +519,8 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our accounts pick from their own lists at any hour, and every
-            order comes through carrying our item numbers."
+            "Our accounts pick from their own lists at any hour, and each order
+            from the app comes through carrying our item numbers."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -598,7 +597,7 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Stock view that moves with orders</td>
+            <td>Customer checks the order before it goes out</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
@@ -619,11 +618,11 @@ module.exports = {
             <td>Updating account guides</td>
             <td>Edited in one place</td>
             <td>Varies</td>
-            <td>Manual</td>
+            <td>New file per account</td>
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>One to two days</td>
+            <td>Two days or less for most</td>
             <td>Weeks</td>
             <td>None needed</td>
           </tr>
@@ -663,7 +662,7 @@ module.exports = {
         </button>
         <div class="faq-answer">
           No. Whatever you run now keeps running as it does. This catalog
-          management software keeps each account's order guide. Orders reach
+          management software holds the guide for every account. Orders reach
           you by email as PDF, Excel, or Word, or through EDI, API, or
           QuickBooks.
         </div>
@@ -676,7 +675,9 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           You edit the guide yourself in VOS. Add new items, drop old ones, or
-          update a price, and there's no fresh sheet to send out.
+          update a price, and there's no fresh sheet to send out. If your
+          prices live in an ERP, the demo covers how VOS connects to it through
+          the API.
         </div>
       </div>
 
@@ -713,9 +714,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Orders from your accounts move stock levels as they land, and
-          the catalog keeps pace. It works with the inventory
-          tools you have now rather than replacing them.
+          Yes, on your side. As orders from your accounts land, you see stock
+          drop and the catalog keeps pace. Your inventory system stays as it
+          is, with VOS alongside it. During a demo, we can walk you through how
+          your stock figures connect.
         </div>
       </div>
 

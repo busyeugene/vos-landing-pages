@@ -24,11 +24,12 @@ module.exports = {
 
     <div>
       <span class="eyebrow">Inventory Automation Software for Distributors</span>
-      <h1>Inventory Automation Software That Ends Hand-Keyed Phone Orders.</h1>
+      <h1>Inventory Automation Software That Cuts Order Calls.</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions is inventory automation software for small and midsize
-        food distributors. Your customers place and confirm orders in the app at any
-        hour, so nobody types up a call. You receive each order in your format,
+        food distributors. Your customers speak orders into the app at any hour and
+        confirm each one before sending, so nobody writes down a phone order. You
+        receive each order in your format,
         and stock and the catalog update with it.
       </p>
 
@@ -40,7 +41,7 @@ module.exports = {
       <div class="hero-trust">
         <span>No systems to replace</span>
         <span class="hero-trust-dot"></span>
-        <span>Live in a day or two</span>
+        <span>Most live in 24-48 hours</span>
         <span class="hero-trust-dot"></span>
         <span>Apps for iPhone and Android</span>
       </div>
@@ -70,12 +71,12 @@ module.exports = {
       <div class="stat-label">ordering, even after hours</div>
     </div>
     <div>
-      <div class="stat-number">Zero</div>
-      <div class="stat-label">app orders to write up by hand</div>
+      <div class="stat-number">Same Day</div>
+      <div class="stat-label">first order for most customers</div>
     </div>
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">saved on every order</div>
+      <div class="stat-label">saved on each order sent by voice, not by phone</div>
     </div>
   </div>
 </section>
@@ -90,8 +91,8 @@ module.exports = {
     <h2>Hand-typed orders and stale stock sheets eat up your team's day.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
       Answering order calls, listening to voicemails, typing orders into your
-      system, updating stock counts by hand. Most of it doesn't need a person. Here's what it
-      costs when it gets one:
+      system, updating stock counts by hand. Most of it doesn't need a person. Here's where
+      those hours go:
     </p>
 
     <div class="problem-grid">
@@ -109,7 +110,7 @@ module.exports = {
         <div class="problem-icon">⌨️</div>
         <h4 class="mb-8">"Every order gets keyed in by hand"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Calls, voicemails, and emailed order sheets all get typed into your
+          Calls and voicemails all get written down and typed into your
           system by someone. Each one is another chance for a typo or the wrong amount.
         </p>
       </div>
@@ -118,7 +119,7 @@ module.exports = {
         <div class="problem-icon">🗃️</div>
         <h4 class="mb-8">"Late orders wait in voicemail"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Customers call at closeout and leave messages. Someone plays them back
+          Customers call after they close for the night and leave messages. Someone plays them back
           in the morning, and some orders never make it in.
         </p>
       </div>
@@ -147,7 +148,7 @@ module.exports = {
           <span class="eyebrow">Self-Updating Stock</span>
           <h3>Stock that moves when orders do.</h3>
           <p class="mt-12 text-muted">
-            The quantity left of each item drops as soon as a customer sends in an order. Nobody
+            The quantity left of each item drops as soon as a customer sends in an order through the app. Nobody
             has to tally the day's orders against a stock sheet once the order
             desk closes.
           </p>
@@ -173,17 +174,16 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Catalog Updates</span>
-          <h3>Inventory automation management software that keeps the catalog current.</h3>
+          <h3>A catalog that edits itself as stock moves.</h3>
           <p class="mt-12 text-muted">
             When your stock shifts, the catalog your accounts buy from shifts
             with it. Nobody edits product lists by hand each time an item sells out
-            or comes back, so the list customers pick from reflects current
-            stock.
+            or is back in stock.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Catalog follows stock levels on its own</span></li>
-            <li><span class="bullet-check">✓</span><span>No hand edits when an item runs out</span></li>
-            <li><span class="bullet-check">✓</span><span>Your accounts run into fewer stockouts</span></li>
+            <li><span class="bullet-check">✓</span><span>No hand edits when an item is gone</span></li>
+            <li><span class="bullet-check">✓</span><span>Stockouts surprise your accounts less often</span></li>
             <li><span class="bullet-check">✓</span><span>Fewer substitution calls to make</span></li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Manage each account's catalog and order guide →</a>
@@ -234,7 +234,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             Each order is numbered and stamped with the day and minute it
             goes in, and the customer receives a confirmation. Nobody
-            files a copy or writes up a phone order. If a quantity is ever
+            files a copy or types up notes from a call. If a quantity is ever
             disputed, the record shows exactly what was sent.
           </p>
           <ul class="feature-bullets mt-24">
@@ -263,9 +263,9 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
-      <span class="eyebrow">Everything Included</span>
+      <span class="eyebrow">Also Built In</span>
       <h2>More work VOS handles for your team.</h2>
-      <p class="lead mt-16">Each one is part of VOS from the day you go live.</p>
+      <p class="lead mt-16">Each one is part of how VOS works for your team.</p>
     </div>
 
     <div class="cards-grid">
@@ -334,7 +334,7 @@ module.exports = {
         <h4>Always-On Ordering</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Accounts can put an order in from their phones at any hour, even after
-          you close. It's in your queue when your team starts the day.
+          you close. It reaches your queue the moment it's sent.
         </p>
       </div>
 
@@ -360,8 +360,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See orders arrive while your phone stays quiet</h3>
       <p class="text-muted" style="font-size:16px;">
-        A free demo takes 20 minutes. Watch a customer order come through, and
-        see your stock count and catalog keep up with it.
+        A free demo takes 20 minutes. Watch a sample order come through, and
+        see how stock and the catalog follow it.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -379,7 +379,7 @@ module.exports = {
       <h2>Three steps, no IT project</h2>
       <p class="lead mt-16">
         Nothing for your team to install or code. Your part is sharing what your
-        accounts order. After that, the busywork starts running itself.
+        accounts order. After that, VOS does the busywork.
       </p>
     </div>
 
@@ -538,7 +538,7 @@ module.exports = {
             <td>Customer confirms every order</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Verbal only</td>
           </tr>
           <tr>
             <td>Orders delivered the way you process them</td>
@@ -547,7 +547,7 @@ module.exports = {
             <td>Manual</td>
           </tr>
           <tr>
-            <td>Customers can place orders by voice</td>
+            <td>Customers order by voice, no call needed</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-no">✗</span></td>
             <td><span class="check-no">✗</span></td>
@@ -572,7 +572,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>One or two days</td>
+            <td>A day or two for most</td>
             <td>Months</td>
             <td>None needed</td>
           </tr>
@@ -601,7 +601,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>What distributors ask before automating inventory</h2>
+      <h2>What to know about inventory automation management software</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -638,9 +638,9 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           No. VOS does not send purchase orders to your own suppliers when stock
           drops. On the customer side, someone reviews and confirms each order
-          before it reaches you. So for your restaurant accounts, VOS is not
-          restaurant inventory automation software that reorders on its own. It
-          takes away phone tag and busywork, not anyone's decision.
+          before it reaches you. It is also not restaurant inventory automation
+          software that reorders for a kitchen by itself. The kitchens you supply
+          still choose every order. It takes away phone tag and busywork, not anyone's decision.
         </div>
       </div>
 
@@ -651,7 +651,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           No. VOS is not built to run a warehouse. It does not scan barcodes, assign bin locations, or plan pick paths.
-          Its stock numbers follow what customers order, and it runs beside whatever you use in the warehouse today.
+          Its stock view is tied to what customers order, and it runs beside whatever you use in the warehouse today. Ask for a demo to see how the stock records you keep now would tie in.
         </div>
       </div>
 
@@ -674,7 +674,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           They come in like any other order. VOS never closes, so an order
-          placed at 11pm during closeout lands with your team right away, with no
+          placed at 11pm, after the kitchen closes, is in your queue right away, with no
           voicemail for anyone to play back.
         </div>
       </div>

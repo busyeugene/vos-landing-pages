@@ -29,7 +29,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>Vendor Management Software, From the Vendor's Side.</h1>
       <p class="lead mt-16">
-        Restaurants rate every name on their vendor list, whether it lives in vendor management software or on a sheet by the phone. They reward clear prices, correct orders and easy buying. With VOS you offer all three: voice ordering from a guide at your prices, any hour, confirmed before it reaches you.
+        Restaurants rate every vendor on their list, in vendor management software or on a sheet by the phone. They reward clear prices, correct orders and easy buying. With VOS you offer all three: customers speak each order into an app, from their own guide at your prices, at any hour, and check it before it reaches you.
       </p>
 
       <div class="hero-ctas">
@@ -40,9 +40,9 @@ module.exports = {
       <div class="hero-trust">
         <span>Keep your current system</span>
         <span class="hero-trust-dot"></span>
-        <span>Go live in a day or two</span>
+        <span>Most live in 24-48 hours</span>
         <span class="hero-trust-dot"></span>
-        <span>Give accounts iOS + Android apps</span>
+        <span>iOS + Android apps</span>
       </div>
     </div>
 
@@ -67,7 +67,7 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">saved on each order, compared with phoning it in</div>
+      <div class="stat-label">saved on each order, compared with ordering by phone</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
@@ -75,7 +75,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">Same Day</div>
-      <div class="stat-label">first order for most new accounts</div>
+      <div class="stat-label">is when most new accounts are up and ordering</div>
     </div>
   </div>
 </section>
@@ -90,7 +90,7 @@ module.exports = {
     <h2>Your accounts judge every vendor on how easy it is to order.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
       Most restaurants buy from several vendors. When ordering from you means
-      a phone call, a voicemail, a long email chain or a guess at the price,
+      a call, a voicemail, a long email chain or a guess at the price,
       you become the hard one to deal with. That's a bad spot to be in when a
       restaurant trims its vendor list. Here's where it shows:
     </p>
@@ -101,7 +101,7 @@ module.exports = {
         <div class="problem-icon">🧩</div>
         <h4 class="mb-8">"They send orders after we close"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Your accounts order at 11pm closeout or 6am before prep. If all they
+          Chefs place orders at 11pm after close or 6am before prep. If all they
           reach is voicemail, some of those orders get to you and some don't.
         </p>
       </div>
@@ -176,11 +176,10 @@ module.exports = {
           <span class="eyebrow">Correct Orders</span>
           <h3>The order they send is the order your team gets.</h3>
           <p class="mt-12 text-muted">
-            Your customer talks through the order in the app and checks it before
-            sending. VOS can send it to a rep's inbox as a Word, Excel or PDF file,
+            Your customer talks through the order in the app and fixes any wrong
+            quantity before sending. VOS can send it to a rep's inbox as a Word, Excel or PDF file,
             pass it along by EDI or API, or put it straight into QuickBooks. No one
-            jots down a call or replays a voicemail, so misheard quantities
-            don't slip in. Once an order arrives, your staff handle it just as they do today.
+            jots down a call or replays a voicemail. Once an order arrives, your staff handle it just as they do today.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Email to a rep or the order desk</span></li>
@@ -208,8 +207,8 @@ module.exports = {
           <p class="mt-12 text-muted">
             When an account asks about last Tuesday's order, nobody digs through
             voicemail. Each order has a unique order number, a date and a timestamp,
-            and shows who placed it. Buyers track vendors in vendor relationship
-            management software. VOS gives you a clean paper trail for your side of the deal.
+            and shows who placed it. Your buyer may track you in vendor relationship
+            management software. With VOS, you keep your own record of every order they place in the app, too.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Order history for every account, in one place</span></li>
@@ -233,12 +232,12 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Reps Who Sell</span>
-          <h3>Your reps stop taking phone orders and start growing accounts.</h3>
+          <h3>Your reps take fewer phone orders and spend more time growing accounts.</h3>
           <p class="mt-12 text-muted">
-            Once customers order by voice in the app, your reps spend far less
-            of the day on the phone. Every order takes 20-30 minutes less than a call.
-            Reps can put that time into answering accounts, adding items to each guide,
-            and finding new business.
+            Once accounts order through the app, your reps spend far less of the
+            day on the phone. Each order saves 20-30 minutes compared with calling
+            your office. That time can go into the accounts you have and the ones
+            you want next.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Fewer order calls and voicemails to return</span></li>
@@ -266,7 +265,7 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
-      <span class="eyebrow">Everything Included</span>
+      <span class="eyebrow">Also Built In</span>
       <h2>Everything that makes buying from you simple.</h2>
       <p class="lead mt-16">Each account you add gets the full set.</p>
     </div>
@@ -365,7 +364,7 @@ module.exports = {
       <h3 style="margin-bottom:10px;">See how your accounts would order from you on VOS</h3>
       <p class="text-muted" style="font-size:16px;">
         Take a 20-minute walkthrough at no cost. See an account's guide from
-        their side and from yours, plus an order landing in your format.
+        their side and from yours, and how an order reaches your team.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -380,9 +379,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Three steps from order guide to first order</h2>
+      <h2>Three steps from order guide to the first incoming order</h2>
       <p class="lead mt-16">
-        No IT department, and no new systems. Onboarding a new account is
+        No IT department, and nothing to replace. Onboarding a new account is
         quick, and a customer can usually order the day their account goes live.
       </p>
     </div>
@@ -575,7 +574,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>One to two days</td>
+            <td>24-48 hrs for most</td>
             <td>Weeks to months</td>
             <td>None needed</td>
           </tr>
@@ -615,7 +614,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Very little. Your restaurant customers keep dealing with your team the way they do now. The one change is how orders get to you: through the app, not by phone or email. Your office keeps its current systems, and nothing behind the scenes has to be replaced.
+          Very little. Your restaurant customers keep dealing with your team the way they do now. The one change is how orders get to you: accounts get an app to order in at any hour, so fewer orders come by phone or email. Your office keeps its current systems, and nothing behind the scenes has to be replaced.
         </div>
       </div>
 
@@ -627,7 +626,8 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Vendor management software helps a restaurant keep track of the vendors it buys from: who they are, what they charge, how orders go, and which ones are worth keeping. VOS is not that tool, and it has no supplier scorecards or onboarding portals. It works from your side as the
           vendor, on the parts a restaurant notices every week: the price it sees,
-          the order it gets, and how fast it can order from you.
+          the order it sends, and how fast it can order from you. Restaurant
+          owners get VOS through their food distributor.
         </div>
       </div>
 
@@ -664,7 +664,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes, in the format your team picks. Orders can come by email with a PDF, Word or Excel file attached, or through EDI, API or QuickBooks. VOS also has an API, so it can plug into the distribution platform you use today.
+          Yes, in the format your team picks. Orders can come by email with a PDF, Word or Excel file attached, or through EDI, API or QuickBooks. VOS is also API-ready and works with distribution platforms, and we can check yours on the demo.
         </div>
       </div>
 
@@ -675,7 +675,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Yes. Your VOS admin platform keeps every account's full order history.
-          Every order carries its own number and the exact time it came in, and shows
+          Each one carries its own number and the exact time it came in, and shows
           the person who placed it, so you can answer with facts instead of guesses.
         </div>
       </div>
@@ -686,9 +686,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Each location can get a guide of its own, tied to your pricing
-          and SKUs. You manage every location's guide from the same admin
-          platform.
+          In most cases. Each account has its own guide, tied to your pricing
+          and SKUs, and each location can be set up as its own account. We can
+          confirm your setup on the demo.
         </div>
       </div>
 
@@ -698,7 +698,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors are set up in 24 to 48 hours. There's no IT project. We load a guide for every account and set each one up, and most customers get an order in on day one.
+          Most distributors have VOS running within 24 to 48 hours. There's no IT project. We load a guide for every account and set each one up, and most customers get an order in on day one.
         </div>
       </div>
 

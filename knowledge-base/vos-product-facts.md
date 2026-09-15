@@ -66,6 +66,12 @@ visibility, and it sits alongside the systems a distributor already runs.
   - **Hands-free** voice ordering vs the "Push to Speak" button in the app screenshots.
   - Each **location of a multi-site group** having its own account and order guide.
   - Customers seeing their **own order history** (not claimed; pages only claim confirmations and order numbers on the customer side).
+- Raised by the independent page review (pass 8, 2026-09-15), confirm with client:
+  - **Where VOS stock levels come from** (API sync with the distributor's ERP/inventory system? manual upload?) and how
+    received product is added. Every inventory page gets this question first; pages currently say VOS runs alongside
+    the existing inventory system and the demo shows how stock connects.
+  - **Whether a restaurant pays anything** when its distributor offers VOS. Operator pages say to ask the distributor.
+  - **Whether catalog changes sync over the API** (pages no longer claim it).
 
 ## What VoiceOrder Solutions does
 Voice + web-based order entry software for restaurants placing supply orders with food distributors. Restaurants can place orders 24/7 by voice (mobile app) or online — no hold time, no errors, no system to replace.

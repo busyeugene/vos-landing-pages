@@ -21,7 +21,7 @@ module.exports = {
       <span class="eyebrow">Order Taking Software for Food Distributors</span>
       <h1>Order Taking Software Without the Phone Tag.</h1>
       <p class="lead mt-16">
-        VOS is order taking software for independent and DSD food distributors.
+        VOS is order taking software for food distributors, independent or DSD.
         The restaurants and stores you supply speak the order into the app at any
         hour and confirm it. Your team gets it timestamped, in whichever format
         your office uses, and there is no call or voicemail to key in.
@@ -33,9 +33,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Works with your current systems</span>
+        <span>Nothing to swap out on your end</span>
         <span class="hero-trust-dot"></span>
-        <span>Live within 48 hours</span>
+        <span>Most go live in 24-48 hours</span>
         <span class="hero-trust-dot"></span>
         <span>Runs on iOS + Android</span>
       </div>
@@ -82,8 +82,8 @@ module.exports = {
       <div class="stat-label">orders captured, even when the office is closed</div>
     </div>
     <div>
-      <div class="stat-number">Zero</div>
-      <div class="stat-label">hold times or voicemails on app orders</div>
+      <div class="stat-number">24-48 Hrs</div>
+      <div class="stat-label">is all most distributors need for setup</div>
     </div>
   </div>
 </section>
@@ -201,13 +201,13 @@ module.exports = {
           <p class="mt-12 text-muted">
             Customers tend to order when the kitchen is quiet: late after close, or
             early before the first delivery. VOS captures those orders at any hour
-            and sends each one to your team as soon as it is confirmed. There is
-            no voicemail to play back and no callback to make.
+            and sends each one to your team as soon as it is confirmed. Your team
+            can see the time every app order was placed.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Customers order at closeout, on weekends, or between shifts</span>
+              <span>Orders roll in after close, on weekends, or between shifts</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -238,11 +238,11 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Inventory Visibility</span>
-          <h3>Take orders you can actually fill.</h3>
+          <h3>Take fewer orders you can't fill.</h3>
           <p class="mt-12 text-muted">
             VOS ties inventory to order activity in real time. When an item sells
-            out or comes back in, the catalog updates itself, so incoming orders
-            line up with what you can ship. Fewer surprise stockouts. Fewer "we didn't
+            out or gets restocked, the catalog updates itself to match your
+            shelves. Fewer surprise shortages. Fewer "we didn't
             have that" calls on delivery morning.
           </p>
           <ul class="feature-bullets mt-24">
@@ -263,7 +263,7 @@ module.exports = {
               <span>Runs alongside the inventory tools you have now</span>
             </li>
           </ul>
-          <a href="/inventory-visibility-software" class="feature-link">Show reps and customers the same stock →</a>
+          <a href="/inventory-visibility-software" class="feature-link">See live stock beside incoming orders →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -281,11 +281,11 @@ module.exports = {
           <span class="eyebrow">Custom Order Guides</span>
           <h3>Each customer's items, at your prices.</h3>
           <p class="mt-12 text-muted">
-            Every account gets its own order guide: the items it really buys,
-            priced by you and tied to your SKUs. Customers order from a list
+            Every account gets an order guide of its own: the items it really buys,
+            priced by you and tied to your SKUs. Customers pick from a list
             they know. Your team gets each order in your own product codes, with
-            nothing to match or look up. It is software for order taking that
-            starts from your catalog, not a blank search box.
+            nothing to match or look up. With software for order taking built on
+            your catalog, nobody starts from a blank search box.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -325,7 +325,7 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
-      <span class="eyebrow">Everything Included</span>
+      <span class="eyebrow">Also Built In</span>
       <h2>The tools that take customer orders off the phone.</h2>
       <p class="lead mt-16">An app for your customers and a browser-based admin for your team, both working from the same orders.</p>
     </div>
@@ -337,7 +337,7 @@ module.exports = {
         <h4>iOS + Android App</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Your customers use their own phone, iPhone or Android,
-          wherever they are in the kitchen.
+          whether they're in the kitchen or the store.
         </p>
       </div>
 
@@ -345,8 +345,8 @@ module.exports = {
         <div class="feature-card-icon">⏱️</div>
         <h4>Order Number and Timestamp</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every order gets a unique number, a date and a time. You can see
-          who ordered what and when, so there are no disputes later.
+          Each order placed in VOS gets a unique number, a date and a time. You can see
+          who ordered what and when, so disputes are quick to settle.
         </p>
       </div>
 
@@ -409,7 +409,7 @@ module.exports = {
         <h4>Multi-Location Customers</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Selling to a group with several kitchens? Each location can be
-          its own account, so you know which site placed each order.
+          its own account, so you know which site each order came from.
         </p>
       </div>
 
@@ -426,7 +426,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See VOS cut 20 to 30 minutes from each order</h3>
       <p class="text-muted" style="font-size:16px;">
-        In a short demo, follow one order from your customer's phone to your
+        In a 20-minute demo, follow one order from your customer's phone to your
         team, with no call to pick up and nothing to jot down.
       </p>
     </div>
@@ -442,7 +442,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Up and running in 24 to 48 hours</h2>
+      <h2>Most distributors are up and running in 24 to 48 hours</h2>
       <p class="lead mt-16">
         No IT project. No systems to rip out. Three steps and your customers
         are sending orders without picking up the phone.
@@ -455,7 +455,7 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>You share your order guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Send us each customer's order guide. VOS loads it into your admin
+          Send us every account's current guide. VOS loads it into your admin
           platform with the items that account buys, at your prices.
         </p>
       </div>
@@ -540,7 +540,7 @@ module.exports = {
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
             "My reps used to start the day playing back voicemails. Now the
-            orders are in the system before anyone arrives, and they spend that
+            orders are there before anyone arrives, and they spend that
             time with our customers."
           </p>
           <div class="testimonial-author">
@@ -699,14 +699,14 @@ module.exports = {
             <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Time saved per order</td>
+            <td>Time back on each order</td>
             <td>20-30 minutes</td>
             <td>Varies</td>
             <td>0 minutes saved</td>
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>24-48 hours</td>
+            <td>Under 48 hrs for most</td>
             <td>Weeks</td>
             <td>None needed</td>
           </tr>
@@ -747,7 +747,7 @@ module.exports = {
         <div class="faq-answer">
           No. VOS does not try to be one, and it is not an ERP either. It handles
           the front of the process: getting orders from your customers to you,
-          no phone needed. Each order then lands in your existing software,
+          no phone needed. Each order then reaches your existing software or inbox,
           so the way you pick, invoice and ship stays the same.
         </div>
       </div>
@@ -758,7 +758,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most do, because ordering in the app takes less effort than a phone call. It runs on
+          Most do, because ordering in the app takes less effort than calling it in. It runs on
           their own iOS or Android phone, and their order guide already lists
           what they buy from you. They talk through the order whenever it
           suits them, then send it. If they get interrupted, the
@@ -785,10 +785,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your customer builds the order from the items in their guide, reviews
-          it, and confirms it before it is sent. Your team gets a digital
-          order in your SKUs, with a number and a time on it. Nobody
-          writes it down from a call, so there is nothing to mishear.
+          Your customer builds the order from the items in their guide and
+          checks every line on screen, so a misheard word gets fixed before
+          sending. Your team receives the finished order in your SKUs, with a number
+          and a time on it.
         </div>
       </div>
 
@@ -811,9 +811,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Whatever your system takes today: a PDF, Excel or Word doc in an
-          email, EDI, a QuickBooks entry, or a direct API link into your
-          ERP. Each one can land with a sales rep or your order desk, your choice. You don't
+          Whatever your office takes today. Emailed PDF, Excel or Word files go
+          to a sales rep or your office inbox, where someone may still key them in. EDI,
+          QuickBooks and direct API orders go straight into your system. You don't
           need to change anything on your side.
         </div>
       </div>
@@ -824,9 +824,9 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Plan on a 24-48 hour setup. You send over the guide for every account, we
-          add it and open the account, and most of those customers send an
-          order from the app that same day.
+          For most distributors, setup is done within 48 hours. You send the guide
+          for every account, and we load each guide and open each account. From
+          there, most customers send an order the same day.
         </div>
       </div>
 
@@ -851,7 +851,7 @@ module.exports = {
   </div>
 
   <div class="final-cta-trust">
-    <span>✓ Customers ordering the same day</span>
+    <span>✓ Accounts usually ordering the same day</span>
     <span>✓ Sends orders in your format</span>
     <span>✓ No IT project to manage</span>
     <span>✓ Ask us for a quote</span>

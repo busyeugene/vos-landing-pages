@@ -20,12 +20,12 @@ module.exports = {
 
     <div>
       <span class="eyebrow">Restaurant Stock Management Software</span>
-      <h1>Restaurant Stock Management Software That Handles the Reorder.</h1>
+      <h1>Restaurant Stock Management Software for the Reorder.</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions is restaurant stock management software for the
-        ordering side of your kitchen. Check the walk-in, call out what you
-        need, and your distributor gets a checked, confirmed order at
-        any hour. You get VOS through that distributor, who sets up your account.
+        ordering side of your kitchen. Check the walk-in, say what you need,
+        review it, and your distributor gets a confirmed order at any hour. You
+        get VOS through that distributor, who sets up your account.
       </p>
 
       <div class="hero-ctas">
@@ -36,7 +36,7 @@ module.exports = {
       <div class="hero-trust">
         <span>Keep the tools you have</span>
         <span class="hero-trust-dot"></span>
-        <span>Up and ordering same day</span>
+        <span>Most kitchens order the same day</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -113,7 +113,7 @@ module.exports = {
         <div class="problem-icon">🗒️</div>
         <h4 class="mb-8">"We saw it was low at close, then forgot"</h4>
         <p class="text-muted" style="font-size:15px;">
-          The phone line was shut when you checked the walk-in at 11pm. By the
+          Your rep's line was closed when you checked the walk-in at 11pm. By the
           morning rush the note was lost, and the order never went in.
         </p>
       </div>
@@ -147,7 +147,7 @@ module.exports = {
             say each item as you see it, and VOS turns it into an order for your distributor.
           </p>
           <ul class="feature-bullets mt-24">
-            <li><span class="bullet-check">✓</span><span>Each order is confirmed and marked with the minute you sent it</span></li>
+            <li><span class="bullet-check">✓</span><span>Each order is confirmed, with the time you sent it</span></li>
             <li><span class="bullet-check">✓</span><span>Your regular order guide, already loaded with prices</span></li>
             <li><span class="bullet-check">✓</span><span>No list to read out to a rep over the phone</span></li>
             <li><span class="bullet-check">✓</span><span>Fits next to the count sheet you already keep</span></li>
@@ -173,20 +173,20 @@ module.exports = {
             Take the VOS restaurant stock management app into the walk-in and say
             what you need as you look at each shelf. Your phone does the recording
             while you keep moving, so there's no trip back to the office to write it
-            up. As you go, the app shows what your distributor has, so you catch a
-            missing item before you send, not on the truck.
+            up. The guide in your app updates as your distributor's stock changes,
+            so fewer items come up missing on the truck.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Order from the shelf, not from memory</span></li>
             <li><span class="bullet-check">✓</span><span>Use it in the walk-in, dry storage, or behind the bar</span></li>
-            <li><span class="bullet-check">✓</span><span>See what your distributor has before you order</span></li>
+            <li><span class="bullet-check">✓</span><span>A guide kept in step with distributor stock levels</span></li>
             <li><span class="bullet-check">✓</span><span>Called to the line? The order waits right where you left it</span></li>
           </ul>
           <a href="/inventory-visibility-software" class="feature-link">See how distributor stock visibility works →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>App showing which items<br>the distributor has<br>in stock right now
+            📸 Screenshot:<br>Order guide in the app,<br>kept current with<br>distributor stock
           </div>
         </div>
       </div>
@@ -198,20 +198,20 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Fewer Surprises</span>
-          <h3>Restaurant stock control software that starts at the order.</h3>
+          <h3>Restaurant stock control software should start at the order.</h3>
           <p class="mt-12 text-muted">
             A lot of stock trouble starts with a bad order: a misheard quantity, a
             missed item, a case nobody wrote down. VOS shows you the order before
             it goes out, so you can fix it on the spot. What your distributor
-            receives matches what you placed.
+            receives is the order you checked.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Look over every line and amount before you send</span></li>
             <li><span class="bullet-check">✓</span><span>No voicemail for anyone to copy down</span></li>
-            <li><span class="bullet-check">✓</span><span>Less chance of a stockout or a surprise swap</span></li>
-            <li><span class="bullet-check">✓</span><span>Every order you send carries a number of its own</span></li>
+            <li><span class="bullet-check">✓</span><span>Less chance of a surprise short or swap</span></li>
+            <li><span class="bullet-check">✓</span><span>Each order you send is numbered</span></li>
           </ul>
-          <a href="/inventory-control-software" class="feature-link">See how distributors cut stockouts and substitutions →</a>
+          <a href="/inventory-control-software" class="feature-link">See how distributors cut down on shorts and swaps →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -230,7 +230,7 @@ module.exports = {
           <h3>Spot a gap, say it, done.</h3>
           <p class="mt-12 text-muted">
             VOS already knows what you usually order, so you name the item and say
-            how much. You can do it during closeout or first thing in the morning,
+            how much. You can do it while you close up or first thing in the morning,
             because ordering is not stuck inside your distributor's business hours.
           </p>
           <ul class="feature-bullets mt-24">
@@ -270,8 +270,8 @@ module.exports = {
         <div class="feature-card-icon">📊</div>
         <h4>Distributor Stock</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          What you see in the app follows your distributor's stock, so fewer
-          items come up missing when the truck shows up.
+          The guide you order from changes when your distributor sells out or
+          restocks, so there are fewer gaps when the truck shows up.
         </p>
       </div>
 
@@ -324,7 +324,7 @@ module.exports = {
         <div class="feature-card-icon">🤝</div>
         <h4>Done-for-You Setup</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          No setup work on your end. Your distributor builds the account, and
+          Almost nothing to do on your end. Your distributor builds the account, and
           you're ready to order.
         </p>
       </div>
@@ -360,8 +360,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See how reordering works from your walk-in</h3>
       <p class="text-muted" style="font-size:16px;">
-        The demo runs 20 minutes: watch a voice order go from the cooler to a
-        distributor. If yours doesn't offer VOS yet, we can help you reach them.
+        The demo runs 20 minutes: see a voice order go from a walk-in to the
+        distributor. If your distributor doesn't offer VOS yet, we can help you reach them.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -376,7 +376,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Simple Setup</span>
-      <h2>Set up by your distributor, ordering the same day</h2>
+      <h2>Set up by your distributor, with most kitchens ordering that day</h2>
       <p class="lead mt-16">
         No IT team and no system to rip out. Here's how you go from setup to
         your first voice order.
@@ -502,7 +502,7 @@ module.exports = {
       <h2>Made for placing the order.<br>Not a full inventory platform.</h2>
       <p class="lead mt-16">
         All-in-one restaurant inventory platforms are built around counts and
-        food cost, and they can take weeks to set up. VOS focuses on the part
+        food cost, and setup often runs for weeks. VOS focuses on the part
         of your stock check that ends in an order. Here's how it stacks up
         against the tools you probably use now.
       </p>
@@ -520,7 +520,7 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Holds an unfinished order until you return</td>
+            <td>Sent to your distributor with no phone call</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
@@ -550,7 +550,7 @@ module.exports = {
             <td>Manual</td>
           </tr>
           <tr>
-            <td>Shows distributor stock before you order</td>
+            <td>Guide changes when distributor stock does</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies</td>
             <td><span class="check-no">✗</span></td>
@@ -568,15 +568,15 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Every order stamped with its number and send time</td>
+            <td>Orders stamped with a number and send time</td>
             <td>Automatic</td>
             <td>Varies</td>
             <td>Manual</td>
           </tr>
           <tr>
             <td>Setup time</td>
-            <td>Same day</td>
-            <td>Weeks</td>
+            <td>Same day for most, once your distributor adds you</td>
+            <td>Can take weeks</td>
             <td>None needed</td>
           </tr>
         </tbody>
@@ -627,9 +627,10 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Through your food distributor. Distributors set VOS up for the
           restaurants they supply: they create your account, load the items you
-          buy with their prices, and you sign in on the app. If your distributor
-          isn't using VOS yet, bring it up with them. You can also contact us,
-          and we'll make the introduction.
+          buy with their prices, and you sign in on the app. Ask each distributor
+          you buy from whether they offer VOS and whether there is any cost to your
+          kitchen. If yours isn't using VOS yet, contact us and we'll make the
+          introduction.
         </div>
       </div>
 
@@ -648,13 +649,13 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I see what my distributor has before I order?
+          Does my order guide keep up with what my distributor has?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. VOS keeps your distributor's catalog in step with their stock and
-          the orders they receive. That way you're more likely to learn an item is out
-          while you're ordering, not when the truck arrives.
+          Your distributor's catalog in VOS updates as their stock changes, and your
+          guide is built from that catalog. So fewer of the items you order turn
+          out to be missing when the truck arrives.
         </div>
       </div>
 

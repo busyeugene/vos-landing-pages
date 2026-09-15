@@ -28,10 +28,10 @@ module.exports = {
       <h1>Restaurant Checklist Software for Your Ordering Routine.</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions is restaurant checklist software for one job:
-        ordering from your distributor. They load what you normally order into
-        the app, so whoever is on shift works down the same list, not a paper sheet
-        or someone's memory. It covers ordering only, not cleaning or opening
-        tasks.
+        ordering from your distributor, who loads what you normally buy into
+        the app. Whoever is on shift orders by voice from that same list, not a
+        paper sheet or someone's memory. It covers ordering only, not cleaning or
+        opening tasks.
       </p>
 
       <div class="hero-ctas">
@@ -42,7 +42,7 @@ module.exports = {
       <div class="hero-trust">
         <span>Distributor-led setup</span>
         <span class="hero-trust-dot"></span>
-        <span>Same-day first order</span>
+        <span>Day-one ordering for most</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -68,8 +68,8 @@ module.exports = {
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
     <div>
-      <div class="stat-number">1 List</div>
-      <div class="stat-label">your whole team orders from, whoever is working</div>
+      <div class="stat-number">Same Day</div>
+      <div class="stat-label">is all most kitchens need to start sending orders</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
@@ -102,7 +102,7 @@ module.exports = {
         <h4 class="mb-8">"Everyone does the order differently"</h4>
         <p class="text-muted" style="font-size:15px;">
           One person checks the walk-in first. Another goes by what ran out last
-          week. The totals swing from week to week and nobody can say why.
+          week. Items slip through, and nobody can say who ordered what.
         </p>
       </div>
 
@@ -110,8 +110,8 @@ module.exports = {
         <div class="problem-icon">🧑‍🍳</div>
         <h4 class="mb-8">"When the chef is off, things get missed"</h4>
         <p class="text-muted" style="font-size:15px;">
-          The routine lives in one head. Whoever covers either over-buys to be
-          safe or forgets a whole section of the order.
+          The routine lives in one head. Whoever covers forgets a whole section
+          of the order or calls the chef on their day off.
         </p>
       </div>
 
@@ -176,7 +176,7 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Shift-Proof</span>
-          <h3>Restaurant checklist software for managers on every shift.</h3>
+          <h3>Restaurant checklist software for managers, whichever shift they work.</h3>
           <p class="mt-12 text-muted">
             The same guide opens whether your chef is in or on vacation. It
             already lists what you buy, so whoever covers only has to say how
@@ -188,7 +188,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Nothing gets skipped because it lived in someone's head</span></li>
             <li><span class="bullet-check">✓</span><span>New managers have the full list from their first shift</span></li>
           </ul>
-          <a href="/order-entry-software" class="feature-link">See how anyone on your team places an order →</a>
+          <a href="/order-entry-software" class="feature-link">See how anyone on the team puts in an order →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -236,9 +236,9 @@ module.exports = {
           <h3>Multi location restaurant checklist software, same steps everywhere.</h3>
           <p class="mt-12 text-muted">
             Each location orders from a list made for that account, in the same
-            app with the same steps. As restaurant owner checklist software, it
-            also gives you a paper trail without the paper: each order is given a
-            number of its own, and the app logs exactly when it went out.
+            app with the same steps. For owners, it is restaurant owner checklist
+            software with a paper trail and no paper: each order you send gets its
+            own number and a time stamp.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Every site runs the order the same way</span></li>
@@ -266,7 +266,7 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
-      <span class="eyebrow">Everything Included</span>
+      <span class="eyebrow">Also Built In</span>
       <h2>What helps each shift send a clean, correct order.</h2>
       <p class="lead mt-16">Small details that keep the routine the same, whoever is ordering.</p>
     </div>
@@ -277,8 +277,8 @@ module.exports = {
         <div class="feature-card-icon">✅</div>
         <h4>A Record of Who Ordered</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each order notes the person who sent it and the time, so you can see
-          which shift placed it.
+          Each order is stamped with who sent it and when, so your distributor has
+          a record of which shift placed it.
         </p>
       </div>
 
@@ -286,8 +286,8 @@ module.exports = {
         <div class="feature-card-icon">🔄</div>
         <h4>Fewer Surprise Swaps</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          The catalog keeps pace with your distributor's stock, which means
-          fewer missing items and swaps after you order.
+          Your guide draws on a catalog that moves with the distributor's stock
+          levels, which cuts down on missing items and swaps after you order.
         </p>
       </div>
 
@@ -302,10 +302,10 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📨</div>
-        <h4>A Format They Already Use</h4>
+        <h4>Your Rep Still Gets It</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your distributor gets each order by email with a PDF, Excel or Word
-          attachment, or by EDI, API or QuickBooks. No new software on their end.
+          Your distributor gets each order in writing (email with a PDF, Excel or
+          Word file, EDI, API or QuickBooks), so nothing gets lost in a phone call.
         </p>
       </div>
 
@@ -339,7 +339,7 @@ module.exports = {
         <div class="feature-card-icon">🕐</div>
         <h4>Ordering at Any Hour</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Order during closeout at 11pm or before prep at 6am. VOS is on 24/7.
+          Send it at 11pm after service or at 6am before prep. VOS is on 24/7.
         </p>
       </div>
 
@@ -365,8 +365,9 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See what ordering looks like when every shift follows one list</h3>
       <p class="text-muted" style="font-size:16px;">
-        Give us 20 minutes, at no cost, and see the guide, voice ordering
-        and the confirmation step run start to finish as one routine.
+        Give us 20 minutes and see how the guide, voice ordering and the
+        confirmation step run start to finish as one routine. We'll also connect
+        you with the right person to get set up.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -570,16 +571,16 @@ module.exports = {
             <td>Only if copied</td>
           </tr>
           <tr>
-            <td>Works standing in the walk-in</td>
+            <td>Speak each item while walking the shelves</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
           </tr>
           <tr>
-            <td>Setup time on your end</td>
-            <td>Same day</td>
-            <td>Days</td>
-            <td>None needed</td>
+            <td>Your setup work</td>
+            <td>Install the app</td>
+            <td>Build every list</td>
+            <td>Print the sheet</td>
           </tr>
         </tbody>
         <tfoot>
@@ -645,10 +646,10 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          There is no published price list. VOS is priced by quote. Most
-          restaurants get VOS through their food distributor, so your distributor
-          is the first place to ask. You can also contact VOS, and pricing is
-          available on request.
+          There is no published price list, and VOS is priced by quote. Most
+          restaurants get VOS through their food distributor, so check with your
+          distributor about any cost to you. You can also contact VOS
+          directly.
         </div>
       </div>
 
@@ -659,8 +660,8 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Anyone you trust with ordering. That is usually the point: ordering no
-          longer hangs on one person being in that day. You keep accountability
-          too, because every order is logged with who placed it and when.
+          longer hangs on one person being in that day. Each order is also logged
+          with the name of whoever placed it and the time.
         </div>
       </div>
 
@@ -709,8 +710,8 @@ module.exports = {
           Most restaurants are ordering the same day their account is ready. Your
           distributor does the setup, including your guide and your app login, so
           your only job is getting VOS onto your phone. If your distributor does not
-          offer VOS yet, ask them about it, or reach out to VOS and we will connect
-          you with the right person.
+          offer VOS yet, ask them about it, or reach out to VOS for an
+          introduction.
         </div>
       </div>
 
