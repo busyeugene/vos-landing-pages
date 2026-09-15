@@ -17,7 +17,7 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - `sitemap.xml` and `robots.txt` sit at the repo root and are served as-is.
 - `.vercel/` is gitignored (holds the local project link).
 - Canonicals point at `https://vos-landing-pages.vercel.app`. If these pages ever move onto `voiceordersolutions.com`, every canonical, `og:url`, and `sitemap.xml` entry has to be updated.
-- **12 of the pages also live on `voiceordersolutions.com`** (the batch 1+2 slugs), ported into Webflow by the client. Pushing here does **not** update those copies; tell Eugene when a change should be carried over. As of 2026-09-15 the Webflow copies predate the 8-pass review and carry porting typos ("Real-trime", "resteraunt").
+- **12 of the pages also live on `voiceordersolutions.com`** (the batch 1+2 slugs), ported into Webflow by the client. Pushing here does **not** update those copies; tell Eugene when a change should be carried over. As of 2026-09-15 the Webflow copies predate both the 8-pass review and the 4-pass publish check (commit `9ceb245`: new H1 on visibility, new metas on 11 pages, claim fixes on all 16), and carry porting typos ("Real-trime", "resteraunt"). All 12 need re-porting.
 
 ## Pages built
 
@@ -169,6 +169,9 @@ node structure.js      # tag balance + one h1 per page
 node trigram.js        # 3-word repetition: 0 within a page; `--cross 3` must list nothing (fixed facts allow-listed)
 node repeat.js         # 5-word phrases and sentences shared between pages
 python layout.py       # headless Chrome at 1440px and 390px: overflow, H1 > 4 lines, wrapping trust line
+node outline.js all <dir>   # clean page copy for reviewers (no author comments)
+node apply.js <fixes.js> --dry   # apply copy fixes (text, @card, @row, @faq ops); each must match exactly once
+node where.js <slug>        # sentences behind each within-page trigram repeat
 ```
 
 Competitor research digests for every primary keyword (Sep 2026 review) live in `_build/research/digests/`.
@@ -180,11 +183,11 @@ Competitor research digests for every primary keyword (Sep 2026 review) live in 
 2. Claude checks the live homepage and the knowledge base, picks the page's audience (distributor or operator) and its one question, and pulls the SERP for the primary keyword (Ahrefs + Jina keys live in `E:\Claude projects\Writing\references\api-keys.local.md`; load them inside a script, never print them)
 3. Claude builds the full page using the VOS 16-section template, following the claim rules above
 4. Gates, all clean: `node qa.js` (0 failures, 0 warnings), `node kwaudit.js`, `node template.js`, `node claims.js` (no ✗), `node structure.js`, `node trigram.js` + `node trigram.js --cross 3`, `node repeat.js <new slugs>`, `python layout.py <new slugs>`. Sitewide chrome (nav, buttons, eyebrows, integrations, footer, the Tony Luna quote, screenshot placeholders) is expected to repeat.
-5. Before calling a batch strong, get a fresh-eyes read: read-only reviewers with no prior context score each page as the buyer and as a fact-checker. Verify every finding before applying it (don't delete required keywords or the client's own live wording).
+5. Before calling a batch strong, get a fresh-eyes read: read-only reviewers with no prior context score each page as the buyer and as a fact-checker. Verify every finding before applying it (don't delete required keywords or the client's own live wording). After applying, run a second read-only round on the changed lines only (diff the outline against HEAD, mark changed lines): the first fixes introduce their own dangling "it"s, idioms and overlong leads.
 6. Push to `master` → Vercel auto-deploys; confirm the live URL shows the new copy
 7. After every new page build, output the meta title and meta description for client review
 
-**When many agents rewrite pages in parallel,** they land on the same new wording. Always finish with a central `trigram.js --cross 3` and a small sequential sweep.
+**When many agents rewrite pages in parallel,** they land on the same new wording. Always finish with a central `trigram.js --cross 3` and a small sequential sweep. Expect several rounds: in Sep 2026, 16 reviewers' fixes put 98 trigrams on 3+ pages, and each reword round created a few new collisions (98 → 27 → 7 → 0, then again after the verification round). Use `trigram.js --plan` for the per-page list and `where.js` for context. `repeat.js` still matters: it catches filler-word repeats ("in the app at any hour") that the trigram check skips by design.
 
 **Lessons from the Sep 2026 4-pass check** (duplication, keywords, structure, product relevance):
 - A green gate is only as honest as what it counts. Keywords count in page content only: never in the hero eyebrow, related strip, footer or nav. Hero eyebrows are audience labels ("For Food Distributors" / "For Restaurant Operators"), not keyword carriers.
@@ -194,3 +197,6 @@ Competitor research digests for every primary keyword (Sep 2026 review) live in 
 - Comparison cells stay fair: phone orders can be read back ("If read back"), voicemail does take orders after hours.
 - "Also Built In" cards must not repeat a feature row, the stats or the integrations block; 6 good cards beat 9 with repeats.
 - Tap ordering is not a verified fact: describe ordering by voice.
+- More trade-language traps: "phone their orders in" / "phoning it through" (too close to "phoning it in"), "marking stock down" (a distributor hears a price cut), "catch you out" (UK idiom).
+- Stat labels must read as a phrase after the number, and "Same Day" labels say it is the start ("first order for most kitchens", "is when most kitchens start ordering"), or they read as same-day delivery ordering.
+- Hero leads creep past ~50 words when fixes add scope words; recount after every round.
