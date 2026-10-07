@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supplier Management Software for Restaurants | VOS</title>
+  <meta name="description" content="Order from every supplier on VOS in one app, by voice, with a number and a time on what you send. Supplier management software your distributor switches on." />
+  <link rel="canonical" href="https://vos-landing-pages.vercel.app/supplier-management-software" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VoiceOrder Solutions" />
+  <meta property="og:title" content="Supplier Management Software for Restaurants | VOS" />
+  <meta property="og:description" content="Order from every supplier on VOS in one app, by voice, with a number and a time on what you send. Supplier management software your distributor switches on." />
+  <meta property="og:url" content="https://vos-landing-pages.vercel.app/supplier-management-software" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Supplier Management Software for Restaurants | VOS" />
+  <meta name="twitter:description" content="Order from every supplier on VOS in one app, by voice, with a number and a time on what you send. Supplier management software your distributor switches on." />
+
+<style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+
+    /* ── Related Pages Strip ──────────────────────────────────── */
+    .related-strip { background: var(--color-light-bg); border-top: 1px solid #e4e7ed; padding: 72px 24px; }
+    .related-head  { text-align: center; max-width: 620px; margin: 0 auto 44px; }
+    .related-grid  { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: var(--max-width); margin: 0 auto; }
+    .related-card  {
+      display: flex; flex-direction: column; background: #fff;
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 26px;
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .related-card:hover { box-shadow: 0 12px 32px rgba(45,27,110,0.10); transform: translateY(-3px); border-color: #d6dbe6; }
+    .related-card-kw {
+      align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--color-primary); background: #ede9fe;
+      padding: 5px 10px; border-radius: 6px; margin-bottom: 16px;
+    }
+    .related-card h3 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
+    .related-card p  { font-size: 14.5px; color: var(--color-text-muted); margin-bottom: 18px; flex-grow: 1; line-height: 1.55; }
+    .related-card-link { font-size: 14px; font-weight: 600; color: var(--color-accent); }
+    @media (max-width: 900px) { .related-grid { grid-template-columns: 1fr; } }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is VOS supplier management software for a restaurant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For the ordering half of it, yes. You order from each supplier that is on VOS out of one app, by voice, and what you say is written out, approved by you and stamped with its own number. It does not hold contracts, score your suppliers or compare their prices, and we would rather set that expectation now than at the demo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best supplier management software for a small kitchen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The one your team will actually use at the end of a shift. Most supplier management software is built for a buyer at a desk with time to fill in fields. A kitchen needs the order out in two minutes while the walk-in door is still open, which is the thinking behind ordering by voice."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get all my suppliers in there?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only the ones that offer VOS, because each supplier loads your guide and prices on their own side. If two of your four distributors use it, those two are in the app and the others carry on as they are. If you want the others on it, we can approach them."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it stop us ordering the same thing twice?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Partly, and only by making the ordering visible. Orders go from one app rather than from three phones, and each one is confirmed back to you, so the person locking up can tell that one already went. VOS does not count your stock or block a duplicate on its own."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I look back at everything we have ever ordered?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each order you place in VOS is logged with the minute it went out, and you get a confirmation when it lands. How far back your own app view goes is worth asking your distributor, because the full history sits on their admin platform. We would rather you ask them than assume from this page."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this supplier relationship management SRM software?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. If you are shopping for supplier performance management software to run scorecards, or supplier lifecycle management software to handle onboarding, renewals and offboarding, VOS handles none of that. Those tools manage the relationship. VOS places the order and records it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it store supplier documents and certificates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Supplier information management software and supplier master data management software exist to hold that: bank details, insurance, addresses, approved vendor records. Food safety audits belong to supplier quality management software. None of it is in VOS, which holds your guides and the orders you send."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this supplier managed inventory software?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Under supplier managed inventory the supplier watches your levels and tops you up. In VOS you decide and you push it out; nothing is ordered on your behalf and nothing leaves without a person sending it. Your supplier sees what you asked for, not what is on your shelves."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does it cost us?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "That is a question for your distributor, since they are the ones who take VOS on and decide what it means for their customers. We do not publish pricing. Ask the rep you deal with, or get in touch and we will find out who to speak to."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "VoiceOrder Solutions Features",
+        "item": "https://vos-landing-pages.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Supplier Management Software",
+        "item": "https://vos-landing-pages.vercel.app/supplier-management-software"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "Order from every supplier on VOS in one app, by voice, with a number and a time on what you send. Supplier management software your distributor switches on.",
+    "url": "https://vos-landing-pages.vercel.app/supplier-management-software",
+    "publisher": {
+      "@type": "Organization",
+      "name": "VoiceOrder Solutions",
+      "url": "https://www.voiceordersolutions.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     Primary keyword in H1 (use 1 of 6). Operator hero: says VOS comes via the distributor.
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">For Restaurant Operators</span>
+      <h1>Supplier Management Software That Starts With The Order.</h1>
+      <p class="lead mt-16">
+        Every supplier you use on VOS lives in one app. Say your order, look over every line, and send it with a dated
+        record attached. Your food
+        distributors are the ones who set this up: each loads the guide you buy
+        from.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Get Set Up With VOS →</a>
+        <a href="#how-it-works" class="btn btn-outline-white btn-lg">See How It Works</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>Your distributor switches it on</span>
+        <span class="hero-trust-dot"></span>
+        <span>A record per order</span>
+        <span class="hero-trust-dot"></span>
+        <span>Runs on your phone</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (two suppliers' guides + a confirmed order) -->
+      <div class="img-placeholder tall">
+        📸 Product screenshot:<br>Two suppliers' guides and<br>one sent order showing<br>its number and time
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by food distributors and the restaurants they serve</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">off an order you used to place by phone</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">ordering, including after the last cover goes out</div>
+    </div>
+    <div>
+      <div class="stat-number">Same Day</div>
+      <div class="stat-label">is when most kitchens send something for the first time</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: PROBLEM STATEMENT
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container text-center">
+    <span class="eyebrow">Sound Familiar?</span>
+    <h2>Four suppliers, four habits, no single record.</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      One takes texts, one wants a call before ten, one has a rep who writes it
+      down. When something goes wrong, there is nothing to point at:
+    </p>
+
+    <div class="problem-grid">
+
+      <div class="problem-card">
+        <div class="problem-icon">🤔</div>
+        <h4 class="mb-8">"Did we order that or not?"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          The order lived in a Tuesday phone call. Now two cases are missing
+          and it is your word against theirs.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">📒</div>
+        <h4 class="mb-8">"It is in someone's head"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          Your sous chef knows which supplier covers which items. On her day off
+          that knowledge leaves the building.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">🔁</div>
+        <h4 class="mb-8">"We ordered it twice"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          Two people chasing the same missing case, two suppliers delivering it,
+          and a crate of waste by Friday.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: FEATURE DEEP-DIVE - ALTERNATING ROWS
+     Features H2 carries the primary (use 2 of 6).
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+
+    <div class="text-center" style="max-width: 760px; margin: 0 auto 72px;">
+      <span class="eyebrow">One Place, One Record</span>
+      <h2>What supplier management software looks like in a working kitchen</h2>
+    </div>
+
+
+    <!-- Feature 1: SECONDARY IN H3 - supplier management tool -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Each Supplier, Own Guide</span>
+          <h3>A supplier management tool that begins at the order.</h3>
+          <p class="mt-12 text-muted">
+            Each distributor that offers VOS loads the items it sells you, at the
+            rates you settled with them. You pick the supplier, speak the
+            list, and send it. No remembering who carries what, and no digging
+            out last month's email to find a code.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li><span class="bullet-check">✓</span><span>A guide of its own for each supplier, holding only what they sell you</span></li>
+            <li><span class="bullet-check">✓</span><span>The prices you negotiated, loaded by that supplier</span></li>
+            <li><span class="bullet-check">✓</span><span>Nothing for you to set up or maintain</span></li>
+            <li><span class="bullet-check">✓</span><span>Covers the suppliers who are on VOS, which may not be all of them</span></li>
+          </ul>
+          <a href="/restaurant-purchasing-software" class="feature-link">The buying side, in one app →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Supplier picker, each<br>with its own guide<br>and prices
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 2: PRIMARY in body (use 3 of 6) + SECONDARY supplier management platform -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">A Number On What You Send</span>
+          <h3>Each order you put in through the app carries a time and a number.</h3>
+          <p class="mt-12 text-muted">
+            This is the part most supplier management software skips for a
+            kitchen. The order you speak gets written out, you approve it, and it
+            goes with its own number and timestamp. A supplier management
+            platform that cannot tell you when you sent something is not much use
+            on a Monday morning.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li><span class="bullet-check">✓</span><span>You read the order right through before it sends</span></li>
+            <li><span class="bullet-check">✓</span><span>Anything you send gets its own number, dated and timed</span></li>
+            <li><span class="bullet-check">✓</span><span>A push notice or text confirms it reached the supplier</span></li>
+            <li><span class="bullet-check">✓</span><span>Pulled off the floor halfway through? The app holds your place</span></li>
+          </ul>
+          <a href="/order-entry-software" class="feature-link">How placing an order works →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>A sent order, stamped<br>and dated, as the<br>kitchen sees it
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 3: SECONDARY supplier management portal software (H3) + supplier management system (body) -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Nothing To Administer</span>
+          <h3>Supplier management portal software, without the admin.</h3>
+          <p class="mt-12 text-muted">
+            A kitchen does not have a procurement department. There is no supplier management system here for you to log into,
+            configure or keep in order. Your distributor does the loading on
+            their side, and your side is an app you talk to. Anyone on the rota can be shown it in two
+            minutes.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li><span class="bullet-check">✓</span><span>No logins to hand out, no templates to build</span></li>
+            <li><span class="bullet-check">✓</span><span>Your distributor looks after the item prices</span></li>
+            <li><span class="bullet-check">✓</span><span>Works the same on every shift, with no training day</span></li>
+            <li><span class="bullet-check">✓</span><span>Apps for iPhone and Android, on the phone you carry</span></li>
+          </ul>
+          <a href="/restaurant-stock-management-software" class="feature-link">Ordering against what is on the shelf →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>The app a cook opens,<br>with no setup screens<br>to work through
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 4: SECONDARY supplier management system software (body) -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Fewer Awkward Calls</span>
+          <h3>Something to point at when the delivery is light.</h3>
+          <p class="mt-12 text-muted">
+            A spoken order leaves no trace. One sent from the app has a number, a time and lines you approved, so
+            the conversation is about the delivery rather than about memory. That is the everyday value of supplier management system software in a
+            restaurant.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li><span class="bullet-check">✓</span><span>Lines you checked yourself, not a rep's handwriting</span></li>
+            <li><span class="bullet-check">✓</span><span>Each line tied to the item code your supplier ships</span></li>
+            <li><span class="bullet-check">✓</span><span>Your distributor gets the lines you signed off</span></li>
+            <li><span class="bullet-check">✓</span><span>Orders you still phone in carry none of this</span></li>
+          </ul>
+          <a href="/vendor-management-software" class="feature-link">What your distributor sees on their side →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>An approved order, line<br>by line, as the supplier<br>received it
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE CARDS - SUPPORTING CAPABILITIES
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 580px; margin: 0 auto;">
+      <span class="eyebrow">Also Built In</span>
+      <h2>Things a kitchen notices in week one.</h2>
+      <p class="lead mt-16">Small, practical, and the reason people keep using it past the novelty.</p>
+    </div>
+
+    <div class="cards-grid">
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🗣️</div>
+        <h4>Talk, Do Not Type</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Say what you need the way you would to a rep. Your phone does the
+          recording and the writing down.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">👩‍🍳</div>
+        <h4>Anyone On Shift Can Send It</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Ordering stops being one person's job, because the guide and the prices
+          are already in the app.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📵</div>
+        <h4>No Hold Music</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          No waiting on a line, no voicemail, no calling back twice because the
+          first message was unclear.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     HORIZONTAL MID-PAGE CTA STRIP
+     Mid CTA keeps the distributor CTA label per the template.
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">See how an order to one supplier works</h3>
+      <p class="text-muted" style="font-size:16px;">
+        A 20-minute call shows you the app a cook would use, and who to ask
+        about getting it.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">How You Get It</span>
+      <h2>It comes through the distributors you already buy from</h2>
+      <p class="lead mt-16">
+        You do not buy VOS from us and install it. A supplier brings it to you,
+        and your account arrives ready to order from.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Ask your distributor about VOS</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Or contact us and we will introduce you to someone there. Switching it
+          on is their decision, not ours.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>They load your guide</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Your items, your rates, your account. Distributors are usually running
+          inside 24 to 48 hours.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>You speak your order</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Download it, say the list, check it, off it goes. Most kitchens are
+          ordering on day one.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: the app on a phone, showing a supplier's guide ready to order from
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad bg-light" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Teams. Real Results.</span>
+      <h2>From kitchens that order this way</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "I used to spend hours every week ordering food. Now it's simple, super
+          easy, and I have free time to spend on other aspects of my restaurant."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "When a case is missing I have the order with a time on it. That
+            conversation takes a minute now."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Two of our three suppliers are in it. Whoever is closing can put
+            the order in, not just me."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Orders go out in the formats distributors already use</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Each order leaves VOS as an email with a PDF, Excel or Word file, an EDI
+      or API feed, or a QuickBooks entry. No one has to switch software to receive it.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF, Excel, Word
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        QuickBooks
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VOS is also API-ready, so it can connect to distribution and food service
+      platforms and add to what they already do.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Admin
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: COMPARISON TABLE
+     Primary in the lead (use 4 of 6). Honest ✗ rows for every real SRM function.
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 720px; margin: 0 auto;">
+      <span class="eyebrow">Why VoiceOrder Solutions</span>
+      <h2>The ordering end of it.<br>Not a buying office.</h2>
+      <p class="lead mt-16">
+        Corporate supplier management software handles contracts, scoring and
+        spend analysis. A restaurant needs it placed and recorded. Here is where the line falls.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:34%;">Feature</th>
+            <th class="highlight" style="width:22%;">VoiceOrder Solutions</th>
+            <th style="width:22%;">SRM / Procurement Suite</th>
+            <th style="width:22%;">Calls, Texts + Emails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Order spoken, sent in minutes</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td>A call takes longer</td>
+          </tr>
+          <tr>
+            <td>The suppliers you have on VOS, in one app</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Your own rates on the item list</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>If maintained</td>
+            <td>Looked up each time</td>
+          </tr>
+          <tr>
+            <td>A number and a time on each one</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Email only</td>
+          </tr>
+          <tr>
+            <td>Contracts, scorecards and supplier vetting</td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Price comparison across suppliers</td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+            <td>By hand</td>
+          </tr>
+          <tr>
+            <td>Approval steps before an order goes out</td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Who sets it up</td>
+            <td>Your distributor</td>
+            <td>You do</td>
+            <td>Nobody</td>
+          </tr>
+          <tr>
+            <td>What a new starter has to learn</td>
+            <td>How to talk</td>
+            <td>A system</td>
+            <td>Who to ring</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: FAQ
+     FAQ 1 carries the primary in the question (use 5 of 6).
+     FAQ 2 carries it in an answer (use 6 of 6).
+     FAQ 6, 7, 8 are the Tier C disambiguations (SRM family / records family / VMI).
+     FAQ 5 is the honest limit on order history, per the open question in the KB.
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Supplier questions from restaurant teams</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Is VOS supplier management software for a restaurant?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          For the ordering half of it, yes. You order from each supplier that is
+          on VOS out of one app, by voice, and what you say is written out,
+          approved by you and stamped with its own number. It does not
+          hold contracts, score your suppliers or compare their prices, and we
+          would rather set that expectation now than at the demo.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is the best supplier management software for a small kitchen?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          The one your team will actually use at the end of a shift. Most
+          supplier management software is built for a buyer at a desk with time
+          to fill in fields. A kitchen needs the order out in two minutes while
+          the walk-in door is still open, which is the thinking behind ordering
+          by voice.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can I get all my suppliers in there?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Only the ones that offer VOS, because each supplier loads your guide
+          and prices on their own side. If two of your four distributors use it,
+          those two are in the app and the others carry on as they are. If you want the others on it, we can approach them.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Does it stop us ordering the same thing twice?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Partly, and only by making the ordering visible. Orders go from one app rather than from three phones, and each one is
+          confirmed back to you, so the person locking up can tell that one already went. VOS does
+          not count your stock or block a duplicate on its own.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can I look back at everything we have ever ordered?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Each order you place in VOS is logged with the minute it went out, and
+          you get a confirmation when it lands. How far back your own app view goes is
+          worth asking your distributor, because the full history sits on their
+          admin platform. We would rather you ask them than assume from this
+          page.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is this supplier relationship management SRM software?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. If you are shopping for supplier performance management software to
+          run scorecards, or supplier lifecycle management software to handle
+          onboarding, renewals and offboarding, VOS handles none of that. Those
+          tools manage the relationship. VOS places the order and records it.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Does it store supplier documents and certificates?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. Supplier information management software and supplier master data
+          management software exist to hold that: bank details, insurance,
+          addresses, approved vendor records. Food safety audits belong to
+          supplier quality management software. None of it is in VOS, which holds your guides and the orders you send.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is this supplier managed inventory software?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. Under supplier managed inventory the supplier watches your levels
+          and tops you up. In VOS you decide and you push it out; nothing is ordered on your behalf and nothing leaves
+          without a person sending it. Your supplier sees what you asked for, not what is on your shelves.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What does it cost us?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          That is a question for your distributor, since they are the ones who
+          take VOS on and decide what it means for their customers. We do not
+          publish pricing. Ask the rep you deal with, or get in touch and we will find out who to
+          speak to.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     RELATED PAGES
+     ============================================================ -->
+<section class="related-strip" aria-label="Related pages">
+  <div class="related-head">
+    <span class="eyebrow">Keep Exploring</span>
+    <h2 style="font-size:clamp(24px,3.2vw,32px);">More for the ordering side of your kitchen</h2>
+  </div>
+  <div class="related-grid">
+
+      <a class="related-card" href="/restaurant-purchasing-software">
+        <span class="related-card-kw">Restaurant Purchasing Software</span>
+        <h3>Restaurant Purchasing Software</h3>
+        <p>Buy from each of your distributors on VOS in one app, by voice, at any hour. Each order you send in the app gets a number and a timestamp.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/order-entry-software">
+        <span class="related-card-kw">Order Entry Software</span>
+        <h3>Order Entry Software</h3>
+        <p>Voice order entry for restaurants. Say your supply order, check it, and send it any hour. Your food distributor sets up the account.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/restaurant-stock-management-software">
+        <span class="related-card-kw">Restaurant Stock Management</span>
+        <h3>Restaurant Stock Management Software</h3>
+        <p>The ordering side of restaurant stock. Check the walk-in, call out the order, and VOS sends it to your distributor.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+  </div>
+  <p class="text-center text-muted" style="margin-top:36px;font-size:14px;">
+    <a href="/" style="color:var(--color-accent);font-weight:600;text-decoration:none;">See all VoiceOrder Solutions feature pages →</a>
+  </p>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FINAL CONVERSION CTA
+     Operator final CTA label.
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Want your suppliers in one app?</h2>
+  <p>Tell us who you buy from and we will point you to the right distributor.</p>
+
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your work email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
+  </div>
+
+  <div class="final-cta-trust">
+    <span>✓ Your distributor turns it on</span>
+    <span>✓ Your rates are already loaded</span>
+    <span>✓ Speak an order at any hour</span>
+    <span>✓ Apps for iOS and Android</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 14: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Each Supplier, Own Guide</a></li>
+        <li><a href="#features">A Number On What You Send</a></li>
+        <li><a href="#features">Nothing To Administer</a></li>
+        <li><a href="#features">Fewer Awkward Calls</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>More From VOS</h5>
+      <ul role="list">
+        <li><a href="/restaurant-checklist-software">Restaurant Checklist</a></li>
+        <li><a href="/vendor-management-software">Vendor Management (distributors)</a></li>
+        <li><a href="/catalog-management-software">Catalog Management</a></li>
+        <li><a href="/order-tracking-software">Order Tracking</a></li>
+        <li><a href="/">All Features</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+        <li><a href="#comparison">VOS vs SRM Suites</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>

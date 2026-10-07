@@ -20,6 +20,7 @@ node structure.js                        # tag balance + one h1 per page
 node repeat.js <slug...>                 # 5-word repetition report (see below)
 node trigram.js [<slug...>]              # 3-word repetition: summary, or the phrases for given pages
 node trigram.js --cross 3                # 3-word phrases on 3+ pages (fixed facts allow-listed)
+node phrasecheck.js <slug> "candidate"   # BEFORE writing: would this wording land a trigram on 3+ pages?
 python layout.py [<slug...>]             # headless Chrome render check at 1440px and 390px
 node outline.js <slug|all> [outDir]      # page copy as a tagged outline, for reviewers (no comments, CSS or JSON-LD)
 node where.js <slug...>                  # every sentence behind each within-page trigram repeat
@@ -48,6 +49,7 @@ clean, `node trigram.js` must show 0 within-page repeats with `--cross 3` listin
 | `claims.js` | Scans visible copy and metas against the CLAUDE.md claim and copy rules. ✗ lines are banned wording; ? lines are sentences to read in context ("every order" scope, no-retyping, web ordering, multi-supplier, stock counts). |
 | `outline.js` | Tagged outline of a page's visible copy in order (H1, p, li, table rows, FAQ Q/A). What reviewers read, so author comments in `pages/*.js` don't bias them. |
 | `where.js` | For each within-page trigram repeat, prints the sentences it comes from. |
+| `phrasecheck.js` | **Run before writing, not after.** Given candidate copy for a slug, prints the trigrams that already sit on 2+ other pages, i.e. the ones that would land on 3+ and fail `--cross 3`. Mirrors `trigram.js` exactly (same stripping, masking and allow-list), so if that changes, change this too. Added Oct 2026 after a 10-page batch needed ~200 cross-page rewordings; checking candidates up front cuts the rounds dramatically. |
 | `apply.js` | Applies a fixes file: text swaps matched across source line wraps, plus `@card`, `@removeCard`, `@row`, `@removeRow`, `@faq`, `@removeFaq`. Each op must match exactly once or it is reported and skipped. |
 | `metafix.js` | One-off (Sep 2026): rewrote 10 meta descriptions that opened by echoing the title. Kept for reference. |
 | `structure.js` | Tag balance and single-h1 check. |
@@ -71,6 +73,10 @@ clean, `node trigram.js` must show 0 within-page repeats with `--cross 3` listin
 4. Add the page to 2 or 3 sibling pages' `related` arrays so links flow both ways.
 5. `node build.js && node gen-site.js && node gen-csv.js && node qa.js && node structure.js`
 6. `node repeat.js <new slugs>` and rewrite anything flagged within the page or shared with a sibling.
+   Use `node phrasecheck.js <slug> "..."` while drafting the replacements, and `node apply.js` to
+   apply them: it matches across source line wraps and has `@removeCard` / `@removeRow` / `@removeFaq`,
+   so there is no reason to write an ad-hoc edit script (one was tried in Oct 2026 and broke the
+   cards-grid `</div>` on five pages; `structure.js` caught it).
 7. Commit and push to `master`.
 
 ## Notes

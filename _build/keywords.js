@@ -155,4 +155,113 @@ module.exports = {
       'distribution capacity planning software', // Tier B
     ],
   },
+  // -- Batch 4 (Oct 2026), from the Airtable October plan ------
+  'b2b-portal-software': {
+    primary: 'b2b portal software',
+    secondary: [
+      'b2b order portal',
+      'b2b buyer portal',
+      'b2b customer portal',
+      'b2b portal solutions',
+      'b2b sales portal',                 // Tier B, reframed to the rep's side
+      'b2b customer portal development',  // Tier C, FAQ only (VOS is not a build project)
+      'b2b travel portal software',       // Tier C, FAQ only (wrong industry)
+    ],
+  },
+  'wholesale-ordering-software': {
+    primary: 'wholesale ordering software',
+    secondary: [
+      'wholesale ordering platform',
+      'wholesale ordering app',
+      'wholesale ordering system',
+      'wholesale order software',
+      'wholesale order management software',    // Tier B, VOS manages intake, not the warehouse
+      'wholesale order fulfillment software',   // Tier B, links to the fulfillment page
+      'wholesale order taking software',        // Tier B, links to the order taking page
+    ],
+    // Airtable listed 'wholesale order software' twice; deduped.
+  },
+  'distributor-sales-software': {
+    primary: 'distributor sales software',
+    secondary: [
+      'distributor sales rep software',
+      'distributor sales tracking software',          // Tier B, order history not a CRM pipeline
+      'distributor software with sales forecasting',  // Tier C, FAQ only (no forecasting engine)
+    ],
+  },
+  'dsd-sales-software': {
+    primary: 'dsd sales software',
+    secondary: [
+      'dsd sales app',
+      'dsd route sales software',                            // Tier B, VOS is not route software
+      'mobile direct store delivery software',
+      'direct store delivery software for small business',
+      'direct store delivery software',                      // only ever inside the two longer variants
+    ],
+    // Dropped 'direct store delivery software for business': a near-duplicate of the
+    // small-business variant, and keeping both pushes the bare phrase past qa.js's 2x cap.
+  },
+  'supplier-management-software': {
+    primary: 'supplier management software',
+    secondary: [
+      'supplier management platform',
+      'supplier management system',
+      'supplier management system software',
+      'supplier management tool',
+      'supplier management portal software',
+      'best supplier management software',
+      'supplier performance management software',        // Tier C
+      'supplier quality management software',            // Tier C
+      'supplier lifecycle management software',           // Tier C
+      'supplier relationship management srm software',    // Tier C
+      'supplier information management software',         // Tier C
+      'supplier master data management software',         // Tier C
+      'supplier managed inventory software',              // Tier C (VMI/SMI is a different model)
+    ],
+  },
+  'distributor-analytics-software': {
+    primary: 'distributor analytics software',
+    secondary: [
+      'distributor reporting & analytics',              // H3, with a LITERAL & (see page comment)
+      'applying distributor analytics',                 // Tier B
+      'how analytics improve distributor profitability', // Tier B, answered as an FAQ question
+    ],
+  },
+  'inventory-forecasting-software': {
+    primary: 'inventory forecasting software',  // REFRAME: VOS feeds a forecast, it is not one
+    secondary: [
+      'inventory forecasting tool',
+      'inventory forecast software',
+      'inventory forecasting system',
+      'inventory forecasting solution',
+      'forecasting and inventory management software',             // Tier B
+      'best inventory forecasting software',                       // Tier B, FAQ
+      'inventory forecasting software free',                       // Tier C, FAQ
+      'buy ai based inventory forecasting software',               // Tier C, FAQ (no model, no AI)
+      'inventory forecasting software for multinational forecasts', // Tier C, FAQ (wrong buyer size)
+    ],
+    // Airtable's hyphenated 'buy ai-based ...' is the same token set to qa.js and kwaudit.js; deduped.
+  },
+  'wholesale-operations-software': {
+    primary: 'wholesale operations software',
+    secondary: [
+      'erp for wholesale distribution operations',  // Tier B, in an H3: VOS is not an ERP
+    ],
+  },
+  'distribution-automation-software': {
+    primary: 'distribution automation software',
+    secondary: [
+      'distribution automation system',
+      'distribution automation solution',
+      'automated software distribution',       // Tier C: IT software deployment, FAQ only
+      'automated software distribution tool',  // Tier C: same FAQ
+    ],
+  },
+  'distribution-workflow-software': {
+    primary: 'distribution workflow software',
+    secondary: [
+      'distribution workflow management software',
+      'distribution workflow solution',
+    ],
+  },
 };

@@ -63,6 +63,57 @@
     {
       "source": "/restaurant-checklist-software",
       "destination": "/vos-restaurant-checklist-landing.html"
+    },
+    {
+      "source": "/b2b-portal-software",
+      "destination": "/vos-b2b-portal-landing.html"
+    },
+    {
+      "source": "/wholesale-ordering-software",
+      "destination": "/vos-wholesale-ordering-landing.html"
+    },
+    {
+      "source": "/distributor-sales-software",
+      "destination": "/vos-distributor-sales-landing.html"
+    },
+    {
+      "source": "/dsd-sales-software",
+      "destination": "/vos-dsd-sales-landing.html"
+    },
+    {
+      "source": "/supplier-management-software",
+      "destination": "/vos-supplier-management-landing.html"
+    },
+    {
+      "source": "/distributor-analytics-software",
+      "destination": "/vos-distributor-analytics-landing.html"
+    },
+    {
+      "source": "/inventory-forecasting-software",
+      "destination": "/vos-inventory-forecasting-landing.html"
+    },
+    {
+      "source": "/wholesale-operations-software",
+      "destination": "/vos-wholesale-operations-landing.html"
+    },
+    {
+      "source": "/distribution-automation-software",
+      "destination": "/vos-distribution-automation-landing.html"
+    },
+    {
+      "source": "/distribution-workflow-software",
+      "destination": "/vos-distribution-workflow-landing.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }

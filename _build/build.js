@@ -124,6 +124,15 @@ ${cards}
 </section>`;
 }
 
+/* NOTE: every page carries <meta name="robots" content="noindex, nofollow">.
+ * This Vercel deployment is a review mirror, not the SEO property: canonicals point
+ * here, it is not in Search Console, and 12 of these slugs also live on
+ * voiceordersolutions.com in Webflow. Indexed copies here would compete with the
+ * client's own domain. gen-site.js sets the same thing as an X-Robots-Tag header and
+ * keeps robots.txt on "Allow: /" so crawlers can actually read the directive.
+ * If these pages ever become the live SEO property, remove this AND the header,
+ * and re-point the canonicals (see CLAUDE.md "Deployment").
+ */
 function buildHead(page, jsonld) {
   const t = attr(page.title), d = attr(page.description), url = `${ORIGIN}/${page.slug}`;
   return `<!DOCTYPE html>
@@ -134,6 +143,7 @@ function buildHead(page, jsonld) {
   <title>${t}</title>
   <meta name="description" content="${d}" />
   <link rel="canonical" href="${url}" />
+  <meta name="robots" content="noindex, nofollow" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="VoiceOrder Solutions" />

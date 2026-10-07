@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const REPO = path.resolve(__dirname, '..');
 const registry = require('./registry.js');
-const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software']);
+const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software', 'supplier-management-software']);
 
 // [label, regex, severity]  severity: BAN = never allowed, CHECK = read the sentence
 const RULES = [

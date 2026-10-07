@@ -11,6 +11,13 @@ const registry = require('./registry.js');
 /* ── vercel.json ─────────────────────────────────────────────── */
 const vercel = {
   rewrites: registry.map(p => ({ source: `/${p.slug}`, destination: `/${p.file}` })),
+  // Belt and braces with the <meta name="robots"> that build.js writes: the header also
+  // covers sitemap.xml, robots.txt and anything served that is not one of our HTML pages.
+  // See the note above buildHead() in build.js for why this mirror is noindex.
+  headers: [{
+    source: '/(.*)',
+    headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+  }],
 };
 fs.writeFileSync(path.join(OUT, 'vercel.json'), JSON.stringify(vercel, null, 2) + '\n', 'utf8');
 console.log(`✓ vercel.json (${vercel.rewrites.length} rewrites)`);
@@ -31,6 +38,9 @@ ${urls.map(u => `  <url>
 console.log(`✓ sitemap.xml (${urls.length} urls)`);
 
 /* ── robots.txt ──────────────────────────────────────────────── */
+// "Allow: /" is deliberate and must stay. The pages are kept out of the index by
+// meta robots + X-Robots-Tag, and a crawler has to be able to fetch a page to see
+// those; disallowing here would hide the noindex and could leave URLs indexed.
 fs.writeFileSync(path.join(OUT, 'robots.txt'),
   `User-agent: *
 Allow: /
@@ -44,6 +54,7 @@ const GROUPS = [
   { key: 'order', label: 'Ordering', title: 'Placing, taking, fulfilling, and tracking orders' },
   { key: 'inventory', label: 'Inventory and Stock', title: 'Knowing what you have and what to stock' },
   { key: 'ops', label: 'Catalog and Operations', title: 'The catalog, the buying, and the routine around them' },
+  { key: 'distribution', label: 'Distribution and Sales', title: 'The selling side of distribution, and the data under it' },
 ];
 
 const card = p => `      <a class="hub-card" href="/${p.slug}">
@@ -81,6 +92,9 @@ idx = idx.replace(/<meta name="description" content="[^"]*" \/>/,
 idx = idx.replace(/(<title>)[^<]*(<\/title>)/, '$1VoiceOrder Solutions: Feature Landing Pages$2');
 if (!/rel="canonical"/.test(idx)) {
   idx = idx.replace(/(<meta name="description"[^>]*\/>)/, `$1\n  <link rel="canonical" href="${ORIGIN}/" />`);
+}
+if (!/name="robots"/.test(idx)) {
+  idx = idx.replace(/(<link rel="canonical"[^>]*>)/, '$1\n  <meta name="robots" content="noindex, nofollow" />');
 }
 idx = idx.replace(
   /(<header class="hub-header">[\s\S]*?)<h1>[\s\S]*?<\/h1>/,

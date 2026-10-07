@@ -17,6 +17,11 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - `sitemap.xml` and `robots.txt` sit at the repo root and are served as-is.
 - `.vercel/` is gitignored (holds the local project link).
 - Canonicals point at `https://vos-landing-pages.vercel.app`. If these pages ever move onto `voiceordersolutions.com`, every canonical, `og:url`, and `sitemap.xml` entry has to be updated.
+- **This deployment is noindex (Eugene, 2026-10-07).** It is a review mirror, not the SEO property: 12 of these slugs also live on `voiceordersolutions.com` in Webflow, so indexed copies here would compete with the client's own domain. Two layers, both generated, so never hand-edit `vercel.json` or the root HTML:
+  - `<meta name="robots" content="noindex, nofollow" />` in every page head, written by `build.js` (and patched into `index.html` by `gen-site.js`).
+  - `X-Robots-Tag: noindex, nofollow` on `/(.*)` via the `headers` block in `vercel.json`, written by `gen-site.js`. This also covers `sitemap.xml` and anything non-HTML.
+  - `robots.txt` deliberately stays on `Allow: /`: a crawler has to fetch a page to see the noindex, so a `Disallow` would hide the directive and could leave URLs indexed. The sitemap entry stays for the same reason, so the noindex is discovered quickly.
+  - **To make these pages the live SEO property**, remove both layers and re-point every canonical and `og:url` at the real domain. Removing one layer alone is not enough.
 - **12 of the pages also live on `voiceordersolutions.com`** (the batch 1+2 slugs), ported into Webflow by the client. Pushing here does **not** update those copies; tell Eugene when a change should be carried over. As of 2026-09-15 the Webflow copies predate both the 8-pass review and the 4-pass publish check (commit `9ceb245`: new H1 on visibility, new metas on 11 pages, claim fixes on all 16), and carry porting typos ("Real-trime", "resteraunt"). All 12 need re-porting.
 
 ## Pages built
@@ -40,6 +45,16 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 | `vos-restaurant-purchasing-landing.html` | restaurant purchasing software | `/restaurant-purchasing-software` | Ops (hub) |
 | `vos-vendor-management-landing.html` | vendor management software | `/vendor-management-software` | Ops |
 | `vos-restaurant-checklist-landing.html` | restaurant checklist software | `/restaurant-checklist-software` | Ops |
+| `vos-b2b-portal-landing.html` | b2b portal software | `/b2b-portal-software` | Ordering |
+| `vos-wholesale-ordering-landing.html` | wholesale ordering software | `/wholesale-ordering-software` | Ordering |
+| `vos-supplier-management-landing.html` | supplier management software | `/supplier-management-software` | Ops |
+| `vos-inventory-forecasting-landing.html` | inventory forecasting software | `/inventory-forecasting-software` | Inventory (reframe) |
+| `vos-distributor-sales-landing.html` | distributor sales software | `/distributor-sales-software` | Distribution |
+| `vos-dsd-sales-landing.html` | dsd sales software | `/dsd-sales-software` | Distribution |
+| `vos-distributor-analytics-landing.html` | distributor analytics software | `/distributor-analytics-software` | Distribution (reframe) |
+| `vos-wholesale-operations-landing.html` | wholesale operations software | `/wholesale-operations-software` | Distribution |
+| `vos-distribution-automation-landing.html` | distribution automation software | `/distribution-automation-software` | Distribution |
+| `vos-distribution-workflow-landing.html` | distribution workflow software | `/distribution-workflow-software` | Distribution |
 
 > Pillar page (`index.html`) groups cards by cluster and links to every feature page. Add a card to it whenever a new page ships.
 
@@ -66,6 +81,16 @@ Seven inventory pages, five order pages, and two supplier pages compete for over
 | restaurant purchasing | operator | "How do I buy from my suppliers in one place?" |
 | vendor management | distributor | "How do I become the vendor my restaurant accounts find easiest to buy from?" (not a VMS) |
 | restaurant checklist | operator | "How does ordering run the same way on every shift?" (ordering only) |
+| b2b portal | distributor | "Can I give accounts self-service ordering without building a portal?" (no storefront, cart or payment) |
+| wholesale ordering | distributor | "How does a wholesale order arrive itemized and priced per account?" |
+| distributor sales | distributor | "What do my reps stop writing up by hand so they can sell?" (not a CRM) |
+| dsd sales | distributor | "How do DSD accounts order ahead so the truck carries the right product?" (not route accounting) |
+| supplier management | operator | "What did I order from each supplier, and what did they confirm?" (not an SRM) |
+| distributor analytics | distributor | "Where does the clean order data behind my reports come from?" (no dashboards; a reframe) |
+| inventory forecasting | distributor | "Where does the order history my forecast is built on come from?" (**VOS runs no demand model**; a reframe) |
+| wholesale operations | distributor | "Where does VOS sit in the stack that runs my business?" (not an ERP) |
+| distribution automation | distributor | "Which manual steps on the order path can go away?" (order path only, never stock) |
+| distribution workflow | distributor | "What sequence does an order follow, and who touches it?" (no workflow builder) |
 
 ### Off-fit keyword rule (3 tiers)
 Some target keywords belong to a different buyer than VOS serves (ecommerce, warehouse, retail, manufacturing, ERP). Sort every secondary keyword into:
@@ -118,6 +143,51 @@ Each page links out to 3 cluster siblings via the Related strip, 4–5 more via 
 - **Inventory:** "real-time visibility tied to order activity", "catalog updates as stock changes", "fewer stockout surprises" (not "fewer stockouts"). VOS doesn't count stock or buy it, and is not the stock system of record: say it runs alongside the current inventory system, and that the demo shows how stock levels connect.
 - **Unconfirmed, don't assert:** customers seeing live availability while ordering; customer web ordering (order entry page only, kept modest); catalog sync over the API; order statuses beyond confirmed; one restaurant ordering from several distributors in one app (purchasing page, always scoped to "suppliers on VOS"); a separate account per location; customers viewing their own order history; whether a restaurant pays anything (operator pages send cost questions to the distributor).
 - **Never:** prices, ROI numbers, named integrations, forecasting, purchase orders to the distributor's own suppliers, WMS functions, route or shipment tracking.
+
+**Lessons from the Oct 2026 batch 4 build** (10 pages, 8 editorial passes):
+- **A fourth cluster exists:** `distribution` ("Distribution and Sales") in `gen-site.js` GROUPS.
+- **`template.js` and `claims.js` hold a hardcoded `OPERATOR` set.** Add every new operator page to
+  both or it is checked as a distributor page. `supplier-management-software` is the 5th operator page.
+- **Check the knowledge base for the page's central mechanic before building the page around it.**
+  Batch 4 built the wholesale ordering page on pack sizes and units, which appear nowhere in the
+  KB; the only shipped precedent infers pack from the SKU. Four pages had to be pulled back. See
+  Q14-Q21 in the KB.
+- **A keyword with an `&`** (`distributor reporting & analytics`) must be written as a **literal `&`**,
+  not `&amp;`: `qa.js` counts keywords on raw markup and does not decode entities.
+- **Acronyms in keywords are lowercase in Airtable** (`b2b`, `dsd`, `srm`, `ai`). House style
+  capitalizes them in copy; matching is case-insensitive, so capitalize freely.
+- **Watch for British spellings and register.** A whole batch came out with `dialling`, `programme`,
+  `organisations`, `licence`, `labelled`, `modelling`, `maths`, plus `tidy` and `nasty`. The 16
+  existing pages are US-spelled throughout.
+- **Near-duplicate secondaries blow the `qa.js` 2x cap.** `direct store delivery software` sits
+  inside three longer variants, so one had to be dropped before the bare phrase fit.
+- **The dedupe loop is the expensive part.** Writing 10 pages produced ~200 cross-page trigrams on
+  3+ pages, cleared over several rounds. Phrasings where each 3-word window holds at most one
+  non-stop word are invisible to the check: "a day or two for most", "with its own number and the
+  time it was sent", "straight into your ERP over the API". Prefer them for the canonical facts.
+- **Pass 8 is not optional.** The verification round on changed lines caught a batch that had
+  aborted before writing (the forecasting page's claim fixes), two sentences my own fixes had left
+  ungrammatical, and a comparison cell left over from a relabelled row.
+- **Two sitewide pre-existing defects** surfaced: the navbar `Login` points at `/contact-us`, and the
+  integrations block files VOS's own apps under "Also works with".
+- **Use `apply.js` for copy edits and `phrasecheck.js` before writing them.** `apply.js` already
+  matches across source line wraps and has `@removeCard`, `@removeRow`, `@removeFaq`, `@card`,
+  `@row`, `@faq`. Batch 4 wasted effort on ad-hoc edit scripts instead, and one of them ate the
+  cards-grid closing `</div>` on five pages (`structure.js` caught it). `phrasecheck.js` was added
+  in this batch: it answers "would this sentence collide?" **before** the page is written, which is
+  the only cheap way to do the dedupe on a batch this size.
+- **The "Also Built In" section does not scale across a big batch.** There are roughly 14 verified
+  product facts worth a card, so 6 cards x 10 pages (60 slots) forced heavy recycling: promos by
+  push/text ended up a card on **8 of 10 pages**, no-hardware on 4, order-number on 4, stock-view
+  on 4. Two independent buyer reviewers called the section filler on every page and said the pages
+  read as one page. Fixed by capping each proposition at **2 pages across the batch** and dropping
+  every batch-4 page to **3 cards** (`template.js` wants a multiple of 3, so 3 is valid).
+  **When adding a page, check which facts its siblings already use as cards before writing six.**
+- **Literal overlap was never the problem, and measuring it proves it.** Pairwise shared-trigram
+  overlap put the two "same page" pairs at rank 50 and 27 of 325 pairs (median 2.30%), while the
+  highest pair on the whole site is the long-shipped `order-taking` vs `order-fulfillment` at 3.90%.
+  What a reader notices is repeated **propositions**, not repeated phrases; the trigram gates cannot
+  see it. Compare feature-row H3s, card H4s and comparison-row labels side by side instead.
 
 ## Brand tokens
 
@@ -172,6 +242,7 @@ python layout.py       # headless Chrome at 1440px and 390px: overflow, H1 > 4 l
 node outline.js all <dir>   # clean page copy for reviewers (no author comments)
 node apply.js <fixes.js> --dry   # apply copy fixes (text, @card, @row, @faq ops); each must match exactly once
 node where.js <slug>        # sentences behind each within-page trigram repeat
+node phrasecheck.js <slug> "candidate copy"   # BEFORE writing: would this wording break --cross 3?
 ```
 
 Competitor research digests for every primary keyword (Sep 2026 review) live in `_build/research/digests/`.

@@ -149,3 +149,39 @@ Scope notes for this batch:
 - **Distribution resource planning** is a reframe, not a capability. The page says in the hero and the first FAQ that VOS is not a DRP system; it is the order-capture layer that feeds one.
 - **Vendor management** does not claim contract management, supplier scorecards, supplier onboarding portals, or vendor risk checks. Contract management and the staffing / risk meanings of "vendor management system" are answered as Tier C FAQs.
 - **Stock control software** was dropped: it duplicates the live inventory control page.
+
+---
+
+## Claims used across batch 4 (Oct 2026): NEEDS CLIENT CONFIRMATION
+
+Batch 4 = b2b portal, wholesale ordering, distributor sales, DSD sales, supplier management,
+distributor analytics, inventory forecasting, wholesale operations, distribution automation,
+distribution workflow. Built on stated assumptions, each flagged in the page source.
+
+Found by the fact-check pass on these 10 pages, and corrected rather than shipped:
+
+| # | Question for the client | Where it bit |
+|---|---|---|
+| Q14 | **Does an order guide carry pack size or unit of measure, and is a spoken quantity bound to it?** Nothing in CURRENT STATE mentions units or pack size. The only shipped wording infers it from SKUs (order fulfillment: "tied to your SKUs. No one has to guess which pack size they meant"). Batch 4 originally asserted a units field, per-unit quantity capture and a ✓ in a comparison table; all of it was pulled back to the SKU inference. **If the client confirms a units field, the wholesale ordering page can be made much stronger.** | wholesale ordering (problem section, feature row, comparison row, testimonial, FAQ), supplier management, distributor analytics, distribution automation |
+| Q15 | **Does VOS hold anything about what was actually delivered?** Four pages implied an ordered-vs-delivered or substitution record ("the original ask is still in the record", "what was asked for and could not be filled", "shorts show on a screen", "a short flagged against tomorrow's orders"). VOS holds the request only; the swap is decided in the distributor's own system. All removed. | inventory forecasting, distributor analytics, distribution automation, distribution workflow, DSD sales |
+| Q16 | **Can the distributor search order history, and how far back does it go?** The verified fact is only "sees order history". Claims of search and of retention ("months of earlier orders", "an order from two months back") were removed. | distributor analytics, inventory forecasting, distribution automation, distribution workflow |
+| Q17 | **Can a guide be edited for several accounts at once?** "for one account or many" / "or a group" was removed; only per-account editing is supported by the source. | b2b portal, distributor sales, wholesale operations |
+| Q18 | **Is the delivery format really one per distributor, fixed at onboarding?** Carried from batch 3 Q11 and now on four more pages. The workflow page originally stated it as a product constraint, which may be false; softened to a choice agreed up front. | all batch 4 distributor pages |
+| Q19 | **Is pricing per-seat, per-rep or per-account?** Pages asserted what it is *not* ("not by enterprise seat", "not per rep") and implied a zero adoption cost ("Setup is on us", a cost row answered with effort). All removed; only "quoted per distributor, not published" remains. | distributor sales, DSD sales, wholesale operations |
+| Q20 | **Can a restaurant see its own order history in the app, and can its distributor edit or delete that record?** The operator page sends the first question to the distributor. The second was raised by a reviewer and nobody can answer it from here; it matters because the page sells the order record as something to point at in a dispute. | supplier management |
+| Q21 | **What is voice accuracy like in a working kitchen (noise, accents, non-English-speaking staff)?** Not addressed on any of the 26 pages. Two independent buyer reviewers called it the first question a real buyer asks. The approved safeguard (the customer reviews each line before sending) is on the pages, but the question is never met head-on. | all 26 pages |
+
+Standing assumptions re-used from earlier batches, now carried by batch 4 as well:
+- **Multi-supplier in one app** (unconfirmed since batch 2) is the load-bearing premise of the
+  supplier management page, as it is for restaurant purchasing. Every mention is scoped to
+  "on VOS" and the page says outright that it covers only the suppliers who offer it.
+- **20-30 minutes saved** is attributed to the distributor's own order handling, matching how the
+  existing 16 pages word it. The file states the figure without saying whose time it is.
+- **Placeholder testimonials** (Q7) are on all 26 pages. Batch 4's were rewritten wherever they
+  asserted a capability the source does not support.
+
+Pre-existing issues found while reviewing batch 4, affecting all 26 pages (not introduced here):
+- The navbar **"Login" button links to /contact-us**, so a customer clicking Login lands on a
+  sales form. Needs the real admin URL or the button removed.
+- The integrations block labels the iOS app, Android app and Web Admin under **"Also works with"**,
+  which reads oddly for VOS's own apps.

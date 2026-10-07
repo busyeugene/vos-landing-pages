@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Distribution Automation Software for Orders | VOS</title>
+  <meta name="description" content="Take the hand-work out of the order path. VOS is distribution automation software for one stretch of it: capture, approval, then delivery into your systems." />
+  <link rel="canonical" href="https://vos-landing-pages.vercel.app/distribution-automation-software" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VoiceOrder Solutions" />
+  <meta property="og:title" content="Distribution Automation Software for Orders | VOS" />
+  <meta property="og:description" content="Take the hand-work out of the order path. VOS is distribution automation software for one stretch of it: capture, approval, then delivery into your systems." />
+  <meta property="og:url" content="https://vos-landing-pages.vercel.app/distribution-automation-software" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Distribution Automation Software for Orders | VOS" />
+  <meta name="twitter:description" content="Take the hand-work out of the order path. VOS is distribution automation software for one stretch of it: capture, approval, then delivery into your systems." />
+
+<style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+
+    /* ── Related Pages Strip ──────────────────────────────────── */
+    .related-strip { background: var(--color-light-bg); border-top: 1px solid #e4e7ed; padding: 72px 24px; }
+    .related-head  { text-align: center; max-width: 620px; margin: 0 auto 44px; }
+    .related-grid  { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: var(--max-width); margin: 0 auto; }
+    .related-card  {
+      display: flex; flex-direction: column; background: #fff;
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 26px;
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .related-card:hover { box-shadow: 0 12px 32px rgba(45,27,110,0.10); transform: translateY(-3px); border-color: #d6dbe6; }
+    .related-card-kw {
+      align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--color-primary); background: #ede9fe;
+      padding: 5px 10px; border-radius: 6px; margin-bottom: 16px;
+    }
+    .related-card h3 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
+    .related-card p  { font-size: 14.5px; color: var(--color-text-muted); margin-bottom: 18px; flex-grow: 1; line-height: 1.55; }
+    .related-card-link { font-size: 14px; font-weight: 600; color: var(--color-accent); }
+    @media (max-width: 900px) { .related-grid { grid-template-columns: 1fr; } }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which parts does distribution automation software like this cover?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "One stretch, end to end: a customer deciding what they need, the order being written up and approved, and the result landing in your systems coded, with its own reference. Everything after that, from picking to delivery to the invoice, belongs to the software you have."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will it place orders for our customers automatically?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, and that is a design decision rather than a missing feature. A person reads the lines and sends them. Nothing goes out on a customer's behalf, because an order sent by a machine on a bad assumption is a credit note with extra steps."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can we really get rid of the retyping?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On the EDI, QuickBooks and API routes, yes: the record arrives in your system without anyone touching it. If you take orders as an emailed PDF, Excel or Word file instead, somebody may still key it in. That is the one choice in setting up distribution automation software worth thinking about properly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do we need middleware or a developer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. There is nothing to host, no script to write and no integration platform in the middle. We agree the delivery method with you during onboarding and it keeps working without maintenance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can the old way keep running alongside it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Those calls still get handled by a person, exactly as now, and they carry no reference or send time from us. The place to begin is your most frequent orderers, since that is where the hours pile up."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this automated software distribution, as in deploying software?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. If you are looking for an automated software distribution tool to push applications and patches out to laptops and servers, that is a different field entirely. VOS has no part in it. We are about food orders moving from a restaurant to its distributor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does this relate to grid distribution automation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Also no. In the electricity industry the same term covers feeder switching, fault location and outage management on a power network. Nothing here touches utilities. The overlap is only in the words."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many accounts need to move for this to be worth doing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Savings land per order, not per customer, so it turns on how often they order. Start with the handful of customers ordering most often. We quote for each distributor, so ask us to run through the arithmetic on the call."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "VoiceOrder Solutions Features",
+        "item": "https://vos-landing-pages.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Distribution Automation Software",
+        "item": "https://vos-landing-pages.vercel.app/distribution-automation-software"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "Take the hand-work out of the order path. VOS is distribution automation software for one stretch of it: capture, approval, then delivery into your systems.",
+    "url": "https://vos-landing-pages.vercel.app/distribution-automation-software",
+    "publisher": {
+      "@type": "Organization",
+      "name": "VoiceOrder Solutions",
+      "url": "https://www.voiceordersolutions.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     Primary keyword in H1 (use 1 of 6).
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">For Food Distributors</span>
+      <h1>Distribution Automation Software For The Order Path.</h1>
+      <p class="lead mt-16">
+        Count the hands an order passes through before it is real. With VOS the kitchens you supply say it into the app, confirm it
+        themselves, and it arrives in your systems as a coded record.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+        <a href="#how-it-works" class="btn btn-outline-white btn-lg">See How It Works</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>Nothing sends itself</span>
+        <span class="hero-trust-dot"></span>
+        <span>A day or two for most</span>
+        <span class="hero-trust-dot"></span>
+        <span>No middleware to babysit</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (order path: spoken, confirmed, delivered) -->
+      <div class="img-placeholder tall">
+        📸 Product screenshot:<br>One order spoken,<br>confirmed, then delivered<br>as a record
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by food distributors and the restaurants they serve</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">of hand-work removed from one order</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">running, with nobody staffing the inbox</div>
+    </div>
+    <div>
+      <div class="stat-number">24-48 Hrs</div>
+      <div class="stat-label">is the whole setup for most food distributors</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: PROBLEM STATEMENT
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container text-center">
+    <span class="eyebrow">Sound Familiar?</span>
+    <h2>Six people touch an order before anything gets picked.</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Nobody designed it this way. It accumulated. Three stretches of that journey still done entirely by hand:
+    </p>
+
+    <div class="problem-grid">
+
+      <div class="problem-card">
+        <div class="problem-icon">☎️</div>
+        <h4 class="mb-8">"Listen, write, read back"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          Someone takes the call, scribbles the list, repeats it, then fixes
+          whatever got misheard. Twenty minutes per customer.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">⌨️</div>
+        <h4 class="mb-8">"Then it gets typed in again"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          The same lines go from a pad into a screen, matched to codes from
+          memory, with one more chance to go wrong.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">📣</div>
+        <h4 class="mb-8">"And somebody rings them back"</h4>
+        <p class="text-muted" style="font-size:15px;">
+          To confirm it, to query a quantity, or to say an item is out. Another
+          call, another note, another gap.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: FEATURE DEEP-DIVE - ALTERNATING ROWS
+     Features H2 carries the primary (use 2 of 6).
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+
+    <div class="text-center" style="max-width: 760px; margin: 0 auto 72px;">
+      <span class="eyebrow">Steps That Disappear</span>
+      <h2>What distribution automation software can take off your team</h2>
+    </div>
+
+
+    <!-- Feature 1: capture -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Capture Without A Person</span>
+          <h3>The order writes itself up as it is spoken.</h3>
+          <p class="mt-12 text-muted">
+            Your customer works down their own account guide and the app builds the
+            list as they go. Nobody on your side listens, writes, or reads anything back, because
+            whoever knows the order is the one creating it.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li><span class="bullet-check">✓</span><span>No call to answer and no voicemail to clear</span></li>
+            <li><span class="bullet-check">✓</span><span>Lines matched to your codes as they are said</span></li>
+            <li><span class="bullet-check">✓</span><span>Each quantity attached to one of your SKUs</span></li>
+            <li><span class="bullet-check">✓</span><span>Works at 2am as well as at 2pm</span></li>
+          </ul>
+          <a href="/order-taking-software" class="feature-link">How intake changes for your team →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>An order assembling<br>itself as the buyer<br>talks
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 2: SECONDARY IN H3 - distribution automation system + PRIMARY in body (use 3 of 6) -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Checked At Source</span>
+          <h3>A distribution automation system still needs a human yes.</h3>
+          <p class="mt-12 text-muted">
+            The buyer reads the completed order and approves it before anything
+            leaves their phone, then gets a confirmation when it lands. That is
+            deliberate: distribution automation software that fires orders off
+            without anyone looking just automates the mistakes.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li><span class="bullet-check">✓</span><span>Approval sits with the person who placed it</span></li>
+            <li><span class="bullet-check">✓</span><span>We never submit an order for somebody</span></li>
+            <li><span class="bullet-check">✓</span><span>Their confirmation arrives as an alert or a text</span></li>
+            <li><span class="bullet-check">✓</span><span>Interrupted halfway? Their place is held</span></li>
+          </ul>
+          <a href="/order-tracking-software" class="feature-link">Where a sent order stands →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Approval screen, then the<br>confirmation arriving<br>back
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 3: SECONDARY distribution automation solution (body) - delivery into systems -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Delivered, Not Dictated</span>
+          <h3>Straight into your systems on a direct feed.</h3>
+          <p class="mt-12 text-muted">
+            The last manual step on the path is somebody entering the order
+            where it belongs. Choose EDI, QuickBooks or the API and that step is gone outright,
+            which is the part of any distribution automation solution your office
+            actually feels.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li><span class="bullet-check">✓</span><span>One delivery route, agreed at onboarding</span></li>
+            <li><span class="bullet-check">✓</span><span>Nothing gets keyed again on those routes</span></li>
+            <li><span class="bullet-check">✓</span><span>A file sent by email may still need keying on your side</span></li>
+            <li><span class="bullet-check">✓</span><span>Your ERP and invoicing carry on as they are</span></li>
+          </ul>
+          <a href="/inventory-automation-software" class="feature-link">The stock side of the same idea →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>An order arriving over<br>EDI with no one<br>touching it
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 4: records -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Paperwork That Writes Itself</span>
+          <h3>Each order files itself against the customer.</h3>
+          <p class="mt-12 text-muted">
+            Reference number, time of sending and line items, kept beside the account
+            that ordered. Nobody maintains a log, nobody updates a
+            spreadsheet, and a query about last Tuesday is a search rather than
+            a conversation.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li><span class="bullet-check">✓</span><span>Its own reference on anything the app sends</span></li>
+            <li><span class="bullet-check">✓</span><span>Filed against the account automatically</span></li>
+            <li><span class="bullet-check">✓</span><span>Kept on one screen for your staff</span></li>
+            <li><span class="bullet-check">✓</span><span>Phone orders carry none of this, as before</span></li>
+          </ul>
+          <a href="/distributor-analytics-software" class="feature-link">What those records are good for →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Order log building up<br>on its own, account by<br>account
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE CARDS - SUPPORTING CAPABILITIES
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 580px; margin: 0 auto;">
+      <span class="eyebrow">Also Built In</span>
+      <h2>Other hand-work that goes quiet.</h2>
+      <p class="lead mt-16">Smaller jobs nobody counts until they stop appearing.</p>
+    </div>
+
+    <div class="cards-grid">
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📬</div>
+        <h4>Offers Without A Phone Round</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Send a promotion by a push or a text into the app, rather than working
+          down a sheet of numbers.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📊</div>
+        <h4>Stock Visible While Orders Land</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          A stock picture that moves with the ordering, drawn from the inventory
+          tools you have.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🙋</div>
+        <h4>Fewer Chasing Calls</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          A confirmation goes back on its own, so customers ring less often to
+          ask whether it arrived.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     HORIZONTAL MID-PAGE CTA STRIP
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">Count the steps that would disappear</h3>
+      <p class="text-muted" style="font-size:16px;">
+        Walk us through the journey an order makes today, and we will show you
+        what is left afterwards.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Simple Setup</span>
+      <h2>Automating this takes no developer</h2>
+      <p class="lead mt-16">
+        There is nothing to build, script or connect before you start. Three
+        steps, and the manual stretch at the front is gone.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Send the account guides over</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          What they buy, at your figures, with your codes: one guide each. A
+          spreadsheet each is fine.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>We load and provision</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Most distributors are switched on inside 24 to 48 hours. Nothing is
+          installed on a machine of yours.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>Orders begin arriving finished</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Spoken, approved and delivered by your chosen route. Most buyers send
+          one the day they are set up.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: guide loading and delivery route configuration in the VOS admin platform
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad bg-light" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Teams. Real Results.</span>
+      <h2>What stopped being done by hand</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "I used to spend hours every week ordering food. Now it's simple, super
+          easy, and I have free time to spend on other aspects of my restaurant."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Nobody reads an order back down the phone here any more. It turns up
+            finished."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "We tried scripting our way out of this twice. Changing where the orders start worked instead."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Orders go out in the formats distributors already use</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Each order leaves VOS as an email with a PDF, Excel or Word file, an EDI
+      or API feed, or a QuickBooks entry. No one has to switch software to receive it.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF, Excel, Word
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        QuickBooks
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VOS is also API-ready, so it can connect to distribution and food service
+      platforms and add to what they already do.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Admin
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: COMPARISON TABLE
+     Honest ✗ rows: VOS automates the order path and nothing else, and never
+     sends an order without a person.
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 720px; margin: 0 auto;">
+      <span class="eyebrow">Why VoiceOrder Solutions</span>
+      <h2>One stretch of the chain.<br>Automated properly.</h2>
+      <p class="lead mt-16">
+        Distribution automation software covers very different ground depending on
+        who is selling it. VOS automates the run from a customer's decision to a
+        record in your system. Trucks, warehouses and invoices are not on that list, and the ✗
+        marks say so.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:34%;">Feature</th>
+            <th class="highlight" style="width:22%;">VoiceOrder Solutions</th>
+            <th style="width:22%;">ERP Automation Module</th>
+            <th style="width:22%;">Manual Order Desk</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Removes the call from order intake</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Arrives coded, no entry step on direct routes</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Once it is inside</td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>The customer is told it arrived</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
+            <td>Another call</td>
+          </tr>
+          <tr>
+            <td>Customer approves before anything moves</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies</td>
+            <td>Only when read back</td>
+          </tr>
+          <tr>
+            <td>Sends orders with no human involved</td>
+            <td><span class="check-no">✗</span></td>
+            <td>Sometimes</td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Warehouse and picking automation</td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Routing and delivery scheduling</td>
+            <td><span class="check-no">✗</span></td>
+            <td>Varies</td>
+            <td>On a whiteboard</td>
+          </tr>
+          <tr>
+            <td>Invoice and payment automation</td>
+            <td><span class="check-no">✗</span></td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Work to get it live</td>
+            <td>Send item lists</td>
+            <td>A configuration project</td>
+            <td>None, it is people</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: FAQ
+     FAQ 1 carries the primary in the question (use 5 of 6), open by default.
+     FAQ 3 carries it in an answer (use 6 of 6).
+     FAQ 6 and 7 are the two Tier C disambiguations (IT deployment, electricity grid).
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>What gets automated, and what does not</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Which parts does distribution automation software like this cover?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          One stretch, end to end: a customer deciding what they need, the order being written up and
+          approved, and the result landing in your systems coded, with its own
+          reference. Everything after that, from picking to delivery to the invoice, belongs
+          to the software you have.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Will it place orders for our customers automatically?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No, and that is a design decision rather than a missing feature. A
+          person reads the lines and sends them. Nothing goes out on a customer's behalf, because an order sent by a
+          machine on a bad assumption is a credit note with extra steps.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can we really get rid of the retyping?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          On the EDI, QuickBooks and API routes, yes: the record arrives in your
+          system without anyone touching it. If you take orders as an emailed PDF, Excel or Word file instead,
+          somebody may still key it in. That is the one choice in setting up
+          distribution automation software worth thinking about properly.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Do we need middleware or a developer?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. There is nothing to host, no script to write and no integration
+          platform in the middle. We agree the delivery method with you during onboarding and it keeps
+          working without maintenance.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can the old way keep running alongside it?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Those calls still get handled by a person, exactly as now, and they
+          carry no reference or send time from us. The place to begin is your most frequent orderers, since that is where
+          the hours pile up.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is this automated software distribution, as in deploying software?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. If you are looking for an automated software distribution tool to
+          push applications and patches out to laptops and servers, that is a different field entirely. VOS has no part in it. We are about food
+          orders moving from a restaurant to its distributor.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Does this relate to grid distribution automation?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Also no. In the electricity industry the same term covers feeder
+          switching, fault location and outage management on a power network.
+          Nothing here touches utilities. The overlap is only in the words.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How many accounts need to move for this to be worth doing?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Savings land per order, not per customer, so it turns on how often they
+          order. Start with the handful of customers ordering most often. We quote for each distributor, so ask us to run through the arithmetic on
+          the call.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     RELATED PAGES
+     ============================================================ -->
+<section class="related-strip" aria-label="Related pages">
+  <div class="related-head">
+    <span class="eyebrow">Keep Exploring</span>
+    <h2 style="font-size:clamp(24px,3.2vw,32px);">More on the path an order takes</h2>
+  </div>
+  <div class="related-grid">
+
+      <a class="related-card" href="/distribution-workflow-software">
+        <span class="related-card-kw">Distribution Workflow Software</span>
+        <h3>Distribution Workflow Software</h3>
+        <p>One path from a buyer's phone to your systems, the same whoever is on shift. Nothing to model and no process owner to appoint.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/wholesale-operations-software">
+        <span class="related-card-kw">Wholesale Operations Software</span>
+        <h3>Wholesale Operations Software</h3>
+        <p>Your office software is fine. The hole is at the intake end, and VOS fills it without a migration or a cutover date.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/order-fulfillment-software">
+        <span class="related-card-kw">Order Fulfillment Software</span>
+        <h3>Order Fulfillment Software</h3>
+        <p>Your pick line starts from confirmed, complete orders. Accounts speak them into the app around the clock, so those orders never sit in a voicemail waiting to be typed.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+  </div>
+  <p class="text-center text-muted" style="margin-top:36px;font-size:14px;">
+    <a href="/" style="color:var(--color-accent);font-weight:600;text-decoration:none;">See all VoiceOrder Solutions feature pages →</a>
+  </p>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FINAL CONVERSION CTA
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Ready to take the hand-work out?</h2>
+  <p>See an order travel from spoken to filed with nobody typing in between.</p>
+
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your work email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+  </div>
+
+  <div class="final-cta-trust">
+    <span>✓ No scripts to maintain</span>
+    <span>✓ A person always approves</span>
+    <span>✓ No middleware</span>
+    <span>✓ Apps for iOS and Android</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 14: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Capture Without A Person</a></li>
+        <li><a href="#features">Checked At Source</a></li>
+        <li><a href="#features">Delivered, Not Dictated</a></li>
+        <li><a href="#features">Paperwork That Writes Itself</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>More From VOS</h5>
+      <ul role="list">
+        <li><a href="/inventory-automation-software">Inventory Automation</a></li>
+        <li><a href="/order-taking-software">Order Taking</a></li>
+        <li><a href="/distributor-analytics-software">Distributor Analytics</a></li>
+        <li><a href="/supplier-management-software">Supplier Management (kitchens)</a></li>
+        <li><a href="/">All Features</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+        <li><a href="#comparison">VOS vs Automation Modules</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>

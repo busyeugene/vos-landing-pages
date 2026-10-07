@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const REPO = path.resolve(__dirname, '..');
 const registry = require('./registry.js');
-const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software']);
+const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software', 'supplier-management-software']);
 const CONTACT = 'https://www.voiceordersolutions.com/contact-us';
 const txt = h => h.replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 const words = s => s.split(/\s+/).filter(Boolean).length;
