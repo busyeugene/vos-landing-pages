@@ -246,7 +246,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>No hardware, no installs, no IT staff needed</span></li>
             <li><span class="bullet-check">✓</span><span>Accounts added one at a time as you win them</span></li>
             <li><span class="bullet-check">✓</span><span>Priced by quote for your business</span></li>
-            <li><span class="bullet-check">✓</span><span>Works on the phone in a manager’s apron pocket</span></li>
+            <li><span class="bullet-check">✓</span><span>Works on the phone in a manager's apron pocket</span></li>
           </ul>
           <a href="/distributor-sales-software" class="feature-link">What it changes for your reps →</a>
         </div>
@@ -351,7 +351,7 @@ module.exports = {
         <div class="step-number">2</div>
         <h4>We open each account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Loading and provisioning is on us. Most distributors go live inside 24 to 48 hours of handing it over.
+          The loading and the setup are on us. Most distributors go live inside 24 to 48 hours of handing it over.
         </p>
       </div>
 
@@ -419,8 +419,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "No more pads in the cab. The office gets the order coded, and the
-            evening data entry is gone."
+            "No more pads in the cab. The order reaches the office coded, so nobody is deciphering handwriting at seven at night."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -451,8 +450,7 @@ module.exports = {
       <h2>The order, not the truck.<br>Know which one you are buying.</h2>
       <p class="lead mt-16">
         Plenty of DSD sales software is really route accounting: settling van
-        stock, printing invoices at the counter. VOS sits upstream of all that, and
-        the ✗ marks below say where it stops.
+        stock, printing invoices at the counter. VOS sits upstream of all that, and the table below says where it stops.
       </p>
     </div>
 

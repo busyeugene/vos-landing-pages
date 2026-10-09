@@ -1,0 +1,366 @@
+{
+ "slug": "distribution-automation-software",
+ "meta_title": "Distribution Automation Software for Orders | VOS",
+ "meta_desc": "Take the hand-work out of the order path. VOS is distribution automation software for one stretch of it: capture, approval, then delivery into your systems.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Distribution Automation Software For The Order Path.",
+  "lead": "Count the hands an order passes through before it is real. With VOS the kitchens you supply say it into the app, confirm it themselves, and it arrives in your systems as a coded record.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "of hand-work removed from one order"
+  },
+  {
+   "num": "24/7",
+   "label": "running, with nobody staffing the inbox"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "is the whole setup for most food distributors"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "Six people touch an order before anything gets picked.",
+  "lead": "Nobody designed it this way. It accumulated. Three stretches of that journey still done entirely by hand:",
+  "cards": [
+   {
+    "h3": "\"Listen, write, read back\"",
+    "body": "Someone takes the call, scribbles the list, repeats it, then fixes whatever got misheard. Twenty minutes per customer."
+   },
+   {
+    "h3": "\"Then it gets typed in again\"",
+    "body": "The same lines go from a pad into a screen, matched to codes from memory, with one more chance to go wrong."
+   },
+   {
+    "h3": "\"And somebody rings them back\"",
+    "body": "To confirm it, to query a quantity, or to say an item is out. Another call, another note, another gap."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "Steps That Disappear",
+  "h2": "What distribution automation software can take off your team",
+  "rows": [
+   {
+    "eyebrow": "Capture Without A Person",
+    "h3": "The order writes itself up as it is spoken.",
+    "body": "Your customer works down their own account guide and the app builds the list as they go. Nobody on your side listens, writes, or reads anything back, because whoever knows the order is the one creating it.",
+    "bullets": [
+     "No call to answer and no voicemail to clear",
+     "Lines matched to your codes as they are said",
+     "Each quantity attached to one of your SKUs",
+     "Works at 2am as well as at 2pm"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How intake changes for your team →"
+    }
+   },
+   {
+    "eyebrow": "Checked At Source",
+    "h3": "A distribution automation system still needs a human yes.",
+    "body": "The buyer reads the completed order and approves it before anything leaves their phone, then gets a confirmation when it lands. That is deliberate: distribution automation software that fires orders off without anyone looking just automates the mistakes.",
+    "bullets": [
+     "Approval sits with the person who placed it",
+     "We never submit an order for somebody",
+     "Their confirmation arrives as an alert or a text",
+     "Interrupted halfway? Their place is held"
+    ],
+    "link": {
+     "href": "/order-tracking-software",
+     "text": "Where a sent order stands →"
+    }
+   },
+   {
+    "eyebrow": "Delivered, Not Dictated",
+    "h3": "Straight into your systems on a direct feed.",
+    "body": "The last manual step on the path is somebody entering the order where it belongs. Choose EDI, QuickBooks or the API and that step is gone outright, which is the part of any distribution automation solution your office actually feels.",
+    "bullets": [
+     "One delivery route, agreed at onboarding",
+     "Nothing gets keyed again on those routes",
+     "A file sent by email may still need keying on your side",
+     "Your ERP and invoicing carry on as they are"
+    ],
+    "link": {
+     "href": "/inventory-automation-software",
+     "text": "The stock side of the same idea →"
+    }
+   },
+   {
+    "eyebrow": "Paperwork That Writes Itself",
+    "h3": "Each order files itself against the customer.",
+    "body": "Reference number, time of sending and line items, kept beside the account that ordered. Nobody maintains a log, nobody updates a spreadsheet, and a question about last Tuesday is answered on a screen rather than in a conversation.",
+    "bullets": [
+     "Its own reference on anything the app sends",
+     "Filed against the account automatically",
+     "Kept on one screen for your staff",
+     "Phone orders carry none of this, as before"
+    ],
+    "link": {
+     "href": "/distributor-analytics-software",
+     "text": "What those records are good for →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "Other hand-work that goes quiet.",
+  "lead": "Smaller jobs nobody counts until they stop appearing.",
+  "items": [
+   {
+    "h3": "Offers Without A Phone Round",
+    "body": "Send a promotion by a push or a text into the app, rather than working down a sheet of numbers."
+   },
+   {
+    "h3": "Stock Visible While Orders Land",
+    "body": "A stock picture that moves with the ordering, drawn from the inventory tools you have."
+   },
+   {
+    "h3": "Fewer Chasing Calls",
+    "body": "A confirmation goes back on its own, so customers ring less often to ask whether it arrived."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "Count the steps that would disappear",
+  "body": "Walk us through the journey an order makes today, and we will show you what is left afterwards.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Simple Setup",
+  "h2": "Automating this takes no developer",
+  "lead": "There is nothing to build, script or connect before you start. Three steps, and the manual stretch at the front is gone.",
+  "items": [
+   {
+    "h3": "Send the account guides over",
+    "body": "What they buy, at your figures, with your codes: one guide each. A spreadsheet each is fine."
+   },
+   {
+    "h3": "We load and provision",
+    "body": "Most distributors are switched on inside 24 to 48 hours. Nothing is installed on a machine of yours."
+   },
+   {
+    "h3": "Orders begin arriving finished",
+    "body": "Spoken, approved and delivered by your chosen route. Most buyers send one the day they are set up."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "One stretch of the chain. Automated properly.",
+  "h2_lines": [
+   "One stretch of the chain.",
+   "Automated properly."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "Distribution automation software covers very different ground depending on who is selling it. VOS automates the run from a customer's decision to a record in your system. Trucks, warehouses and invoices are not on that list, and the table says so.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "ERP Automation Module",
+   "Manual Order Desk"
+  ],
+  "rows": [
+   {
+    "label": "Removes the call from order intake",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Arrives coded, no entry step on direct routes",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Once it is inside"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "The customer is told it arrived",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "text",
+      "v": "Another call"
+     }
+    ]
+   },
+   {
+    "label": "Customer approves before anything moves",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "text",
+      "v": "Only when read back"
+     }
+    ]
+   },
+   {
+    "label": "Sends orders with no human involved",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "Sometimes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Warehouse and picking automation",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Routing and delivery scheduling",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "text",
+      "v": "On a whiteboard"
+     }
+    ]
+   },
+   {
+    "label": "Invoice and payment automation",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Work to get it live",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Send item lists"
+     },
+     {
+      "t": "text",
+      "v": "A configuration project"
+     },
+     {
+      "t": "text",
+      "v": "None, it is people"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What gets automated, and what does not",
+  "items": [
+   {
+    "q": "Which parts does distribution automation software like this cover?",
+    "a": "One stretch, end to end: a customer deciding what they need, the order being written up and approved, and the result landing in your systems coded, with its own reference. Everything after that, from picking to delivery to the invoice, belongs to the software you have."
+   },
+   {
+    "q": "Will it place orders for our customers automatically?",
+    "a": "No, and that is a design decision rather than a missing feature. A person reads the lines and sends them. Nothing goes out on a customer's behalf, because an order sent by a machine on a bad assumption is a credit note with extra steps."
+   },
+   {
+    "q": "Can we really get rid of the retyping?",
+    "a": "On the EDI, QuickBooks and API routes, yes: the record arrives in your system without anyone touching it. If you take orders as an emailed PDF, Excel or Word file instead, somebody may still key it in. That is the one choice in setting up distribution automation software worth thinking about properly."
+   },
+   {
+    "q": "Do we need middleware or a developer?",
+    "a": "No. There is nothing to host, no script to write and no integration platform in the middle. We agree the delivery method with you during onboarding and it keeps working without maintenance."
+   },
+   {
+    "q": "Can the old way keep running alongside it?",
+    "a": "Yes. Phone orders still get handled by a person, exactly as now, and they carry no reference or send time from us. The place to begin is your most frequent orderers, since that is where the hours pile up."
+   },
+   {
+    "q": "Is this automated software distribution, as in deploying software?",
+    "a": "No. If you are looking for an automated software distribution tool to push applications and patches out to laptops and servers, that is a different field entirely. VOS has no part in it. We are about food orders moving from a restaurant to its distributor."
+   },
+   {
+    "q": "Does this relate to grid distribution automation?",
+    "a": "Also no. In the electricity industry the same term covers feeder switching, fault location and outage management on a power network. Nothing here touches utilities. The overlap is only in the words."
+   },
+   {
+    "q": "How many accounts need to move for this to be worth doing?",
+    "a": "Savings land per order, not per customer, so it turns on how often they order. Start with the handful of customers ordering most often. We quote for each distributor, so ask us to run through the arithmetic on the call."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Ready to take the hand-work out?",
+  "body": "Choose the direct route and see an order arrive filed, with nobody typing it up.",
+  "cta": "Book a Free Demo →"
+ }
+}

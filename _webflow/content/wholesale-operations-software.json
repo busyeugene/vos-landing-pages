@@ -1,0 +1,366 @@
+{
+ "slug": "wholesale-operations-software",
+ "meta_title": "Wholesale Operations Software: The Order Layer | VOS",
+ "meta_desc": "Your office software is fine. The hole is at the intake end: VOS is the wholesale operations software that turns customer calls into usable order records.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Wholesale Operations Software Starts At The Order.",
+  "lead": "VOS is not an ERP and replaces nothing you own. It fills the gap at the front: the kitchens you sell to talk their orders into the app, and what reaches your office is already written up and coded.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "24-48 Hrs",
+   "label": "is all it takes to switch VOS on for most"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "of handling saved against a call per order"
+  },
+  {
+   "num": "24/7",
+   "label": "intake, with nobody on shift to answer it"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "You bought good systems. Nobody captures the order at the start.",
+  "lead": "Most wholesale businesses have perfectly decent software from the moment an order is entered onward. The trouble is everything before that:",
+  "cards": [
+   {
+    "h3": "\"Our systems start too late\"",
+    "body": "Nothing is digital until a person keys it. Up to that point the business runs on handwriting and memory."
+   },
+   {
+    "h3": "\"Two staff exist to do data entry\"",
+    "body": "Their whole morning is turning messages into records. It is the least automated job in a business full of automation."
+   },
+   {
+    "h3": "\"Fixing it means a new platform\"",
+    "body": "Every quote for it arrives as a migration, a year of work and a reason to retrain everyone."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "Mind The Gap",
+  "h2": "Where most wholesale operations software leaves a hole",
+  "rows": [
+   {
+    "eyebrow": "The Missing Layer",
+    "h3": "Close the gap between a customer and your systems.",
+    "body": "Your accounts get an app loaded with the items you sell them at your agreed figures. They talk the order through; it arrives written out against your codes. That one change moves the digital boundary of your business out to where the customer is.",
+    "bullets": [
+     "A guide of their own per account, holding your prices",
+     "Orders land coded, ready for whatever handles them next",
+     "Accounts order at any hour without reaching anyone",
+     "Each buyer checks the lines before sending"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "The mechanics of a wholesale order →"
+    }
+   },
+   {
+    "eyebrow": "Additive, Not A Swap",
+    "h3": "Nothing you own has to go.",
+    "body": "Buying wholesale operations software usually means a migration. This does not: your accounting, your invoicing, your warehouse routine and your reporting all carry on untouched, and orders turn up in whatever shape they already expect.",
+    "bullets": [
+     "Nothing to move and no switchover weekend",
+     "Delivery by emailed file, EDI, QuickBooks or a direct connection",
+     "Nothing is entered twice when the feed is direct",
+     "Made to plug in, so it stretches what your platform does"
+    ],
+    "link": {
+     "href": "/distribution-automation-software",
+     "text": "Which manual steps disappear →"
+    }
+   },
+   {
+    "eyebrow": "Beside Your ERP",
+    "h3": "Pairs with an ERP for wholesale distribution operations.",
+    "body": "An ERP is the spine of the business and VOS is not trying to be one. There is no general ledger here, no payroll, no bin locations and no buying from your own suppliers. We take the front door and leave the spine alone.",
+    "bullets": [
+     "Your ERP stays in charge of the books",
+     "Orders feed in through EDI or the API",
+     "No license to renegotiate and no module to switch off",
+     "Works the same whether you run an ERP or a spreadsheet"
+    ],
+    "link": {
+     "href": "/order-fulfillment-software",
+     "text": "What reaches your pickers →"
+    }
+   },
+   {
+    "eyebrow": "One Screen To Run It",
+    "h3": "Your office side lives on the web.",
+    "body": "Account guides, customer records and order history all sit on one screen. Changing an account's price is something your own team does, not a ticket for somebody else, and live stock shifts with the ordering, drawn from your own records.",
+    "bullets": [
+     "Edit an item or a price on one customer's list",
+     "Add an account the day you win it",
+     "Stock right across your catalog, kept current as levels move",
+     "Runs with whatever holds your stock today"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "Who sees the same stock numbers →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "Odds and ends you get anyway.",
+  "lead": "Small things, and all of them useful by week two.",
+  "items": [
+   {
+    "h3": "Interrupted Orders Survive",
+    "body": "A cook pulled away comes back to the same spot in the list, with nothing said twice."
+   },
+   {
+    "h3": "Reps Back On The Road",
+    "body": "With reorders handled in the app, your reps are out selling rather than taking dictation."
+   },
+   {
+    "h3": "Nobody To Retrain",
+    "body": "Your staff keep working in the systems they know. The only new thing is where the orders come from."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See where this would sit in your stack",
+  "body": "Tell us what you run on a 20-minute call and we will show you the join.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Simple Setup",
+  "h2": "No project, no cutover, no retraining",
+  "lead": "The reason this is quick is that nothing underneath it moves. Three steps and the front end behaves differently.",
+  "items": [
+   {
+    "h3": "Tell us what a customer buys",
+    "body": "Items, your prices, your codes. However you hold that today is almost certainly good enough."
+   },
+   {
+    "h3": "Choose where orders should land",
+    "body": "An inbox, QuickBooks, EDI or the API. Whichever your office handles best today."
+   },
+   {
+    "h3": "We provision each account",
+    "body": "For most distributors that is a day or two, then buyers download it. After go-live you change guides and prices yourself on the web; we only do the initial load."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "One layer of the stack. Clearly labeled.",
+  "h2_lines": [
+   "One layer of the stack.",
+   "Clearly labeled."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "A map of who does what, including the long list of jobs VOS has no business doing. Treat wholesale operations software as a stack rather than a single purchase: if you need those rows, you need the middle column too.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Wholesale ERP Suite",
+   "Spreadsheets + Phone"
+  ],
+  "rows": [
+   {
+    "label": "Customers place their own orders",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Spoken orders turned into coded lines",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Per-account item lists and prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Looked up each time"
+     }
+    ]
+   },
+   {
+    "label": "General ledger and invoicing",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Partly"
+     }
+    ]
+   },
+   {
+    "label": "Warehouse management and picking",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Purchasing from your own vendors",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "By phone"
+     }
+    ]
+   },
+   {
+    "label": "Payroll and HR",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "What adopting it asks of you",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Some item lists"
+     },
+     {
+      "t": "text",
+      "v": "A migration"
+     },
+     {
+      "t": "text",
+      "v": "Nothing new"
+     }
+    ]
+   },
+   {
+    "label": "How long before it is running",
+    "cells": [
+     {
+      "t": "text",
+      "v": "A day or two for most"
+     },
+     {
+      "t": "text",
+      "v": "Months"
+     },
+     {
+      "t": "text",
+      "v": "Running now"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Stack questions, answered plainly",
+  "items": [
+   {
+    "q": "Is VOS wholesale operations software or an ERP?",
+    "a": "It is one layer, not the whole thing. VOS handles how orders arrive from your customers and the record each one leaves. It does not do your ledger, your billing, your warehouse or your own buying. An ERP does those, and the two run alongside each other rather than competing."
+   },
+   {
+    "q": "We have no ERP, just spreadsheets. Does that matter?",
+    "a": "Not at all, and plenty of distributors in this trade are in that position. Orders can land as an emailed Excel or PDF file, which drops straight into how a spreadsheet operation already works. You can add heavier systems later without unpicking this."
+   },
+   {
+    "q": "Will this create two places to keep prices?",
+    "a": "Yes, in one place. The guides in VOS hold the prices your customers order at, so those have to stay right. Any wholesale operations software with guides of its own works that way, and your own team edits them on one web screen."
+   },
+   {
+    "q": "How do orders get into what we already run?",
+    "a": "You choose the route when we set you up: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. Take one of the direct feeds and the typing stops. A file sent by email may still get keyed in on your side."
+   },
+   {
+    "q": "Does it handle the warehouse or the trucks?",
+    "a": "No. Bin locations, picking routes, scanning and delivery paperwork are all outside it. What it does for those teams is get them complete, confirmed orders earlier in the day, which is usually the constraint rather than the software."
+   },
+   {
+    "q": "What happens to the staff doing order entry now?",
+    "a": "Worth thinking about before rollout. The typing was never the valuable part, so the usual answer is customer service, chasing shorts and selling. Accounts still phoning will keep them busy for a while yet."
+   },
+   {
+    "q": "Is our business too small for something like this?",
+    "a": "No. VOS is aimed at smaller distributors, DSD rounds included, and there is no IT requirement and no implementation team. Pricing is by quote for each distributor."
+   },
+   {
+    "q": "Can we start with part of the customer base?",
+    "a": "That is what we recommend. Pick the busiest accounts, get them on the app, and leave the rest exactly as they are. Nothing about the rollout is all or nothing."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Ready to plug the hole at intake?",
+  "body": "Keep every system you have. Change only how orders get in.",
+  "cta": "Book a Free Demo →"
+ }
+}

@@ -1,0 +1,366 @@
+{
+ "slug": "inventory-forecasting-software",
+ "meta_title": "Order History for Inventory Forecasting Software | VOS",
+ "meta_desc": "VOS is not a forecasting engine. It captures customer orders by voice, dated and itemized, so your inventory forecasting software starts from fact.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Real Order History For Inventory Forecasting Software.",
+  "lead": "VOS is not inventory forecasting software and runs no demand model. It supplies the thing one is computed from. The kitchens you supply talk each order into the app, so the history behind the math is dated, itemized and tied to a named buyer.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "24/7",
+   "label": "intake, so weekend demand is not invisible"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "is all most distributors wait to begin collecting"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "no longer spent writing one order down"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "A forecast is arithmetic. The hard part is what you feed it.",
+  "lead": "Distributors rarely struggle with the math. They struggle because the history underneath it was never recorded properly:",
+  "cards": [
+   {
+    "h3": "\"It lives on invoices, not orders\"",
+    "body": "You know what shipped. Nobody kept a record of what was asked for."
+   },
+   {
+    "h3": "\"Everything is dated Monday\"",
+    "body": "Calls from Friday and Sunday all get keyed in together, so the shape of the week disappears before anyone sees it."
+   },
+   {
+    "h3": "\"We bought the tool and it guessed\"",
+    "body": "Point a clever model at thin, retyped history and it produces confident nonsense. Nobody trusts it twice."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "Better Input",
+  "h2": "What your inventory forecasting software is working from",
+  "rows": [
+   {
+    "eyebrow": "Demand, Not Invoices",
+    "h3": "Give an inventory forecasting tool what customers asked for.",
+    "body": "An invoice records what left the building. The order records what the kitchen asked for, in their own words, before anyone on your side touched it. Feed inventory forecasting software the second one and you are modeling demand rather than modeling what you shipped.",
+    "bullets": [
+     "The quantity requested, as the customer said it",
+     "Each line against the code you sell it under",
+     "Confirmed by the buyer before it reached you",
+     "Kept per account, so patterns are per customer"
+    ],
+    "link": {
+     "href": "/inventory-planning-software",
+     "text": "Deciding how much to hold next week →"
+    }
+   },
+   {
+    "eyebrow": "The Clock Matters",
+    "h3": "Orders dated when they happened, not when they were typed.",
+    "body": "Each order from the app arrives with the hour it was sent. Weekend and late-night demand stops collapsing into Monday, which is usually the first thing inventory forecast software gets wrong about a food business.",
+    "bullets": [
+     "A timestamp from the moment of ordering",
+     "Its own reference number, for tracing one back",
+     "Nothing waits in voicemail to be entered",
+     "Captured whether or not your office is open"
+    ],
+    "link": {
+     "href": "/order-tracking-software",
+     "text": "Following one order through →"
+    }
+   },
+   {
+    "eyebrow": "Where VOS Stops",
+    "h3": "Next to your forecasting and inventory management software.",
+    "body": "To be unambiguous: VOS calculates nothing. There is no seasonality setting, no safety stock rule and no reorder point in it. Whatever inventory forecasting system you own keeps doing the thinking, and we hand it cleaner history to work from.",
+    "bullets": [
+     "Records delivered by whichever route you choose",
+     "On the direct routes nothing is keyed a second time",
+     "Your ERP and your inventory system stay in charge",
+     "No model, no tuning, no data science on your side"
+    ],
+    "link": {
+     "href": "/distributor-analytics-software",
+     "text": "What else the records feed →"
+    }
+   },
+   {
+    "eyebrow": "Today's Shelf",
+    "h3": "See what is on hand while orders land.",
+    "body": "A projection is one half of the decision. VOS shows live stock that shifts with the ordering, and customer guides move when levels do. Any inventory forecasting solution looks at next month; this shows what is on the shelf now.",
+    "bullets": [
+     "Stock across the full catalog, not only today's lines",
+     "Fewer surprises before a picking day",
+     "Levels are read from your own stock records",
+     "The demo shows how your stock levels connect"
+    ],
+    "link": {
+     "href": "/inventory-tracking-software",
+     "text": "Tracking what is on hand →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "What comes along with it.",
+  "lead": "None of this predicts anything. All of it is useful anyway.",
+  "items": [
+   {
+    "h3": "Per-Account Patterns",
+    "body": "Because history is filed by account, you can see which kitchens changed their ordering and which did not."
+   },
+   {
+    "h3": "One Code Per Product",
+    "body": "Orders arrive against your own catalog, so nothing has to be reconciled across three spellings afterwards."
+   },
+   {
+    "h3": "One Screen On The Web",
+    "body": "Your staff open one screen for an account, its guide and the orders it has sent."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See the history a month of app orders leaves",
+  "body": "On a 20-minute call you will know exactly which fields would reach the tool that does the calculating.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Simple Setup",
+  "h2": "Collecting properly by this time next week",
+  "lead": "There is no implementation and nothing to calibrate. You hand over item lists, we open accounts, history begins.",
+  "items": [
+   {
+    "h3": "Hand over the guides",
+    "body": "What a given account buys, priced as you agreed, carrying your codes. Whatever format you keep them in."
+   },
+   {
+    "h3": "We load them and open accounts",
+    "body": "A day or two for most distributors. Buyers get the app and talk to it; nothing is asked of your IT staff."
+   },
+   {
+    "h3": "Pick where records go",
+    "body": "Email, EDI, QuickBooks or straight into the system that does your planning. Set once, then left alone."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "We do not forecast. We fix what gets forecast from.",
+  "h2_lines": [
+   "We do not forecast.",
+   "We fix what gets forecast from."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "Read what our column does not claim as the point of the page. VOS computes nothing about the future, and a planning suite captures nothing while a buyer is talking. They are different jobs.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Forecasting / Demand Planning Suite",
+   "Spreadsheet + Phone Orders"
+  ],
+  "rows": [
+   {
+    "label": "Records what the customer actually asked for",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "If somebody notes it"
+     }
+    ]
+   },
+   {
+    "label": "Timestamps demand at the hour it arrived",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Whatever it is fed"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Statistical demand models",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "By hand"
+     }
+    ]
+   },
+   {
+    "label": "Seasonality and trend settings",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Reorder point and buffer calculations",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Machine learning on your history",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Stock on hand, as it stands",
+    "cells": [
+     {
+      "t": "text",
+      "v": "A view, from your own system"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "text",
+      "v": "A count, when someone does one"
+     }
+    ]
+   },
+   {
+    "label": "Collects orders outside working hours",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "Voicemail will take it"
+     }
+    ]
+   },
+   {
+    "label": "What it asks of your team",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Send us item lists"
+     },
+     {
+      "t": "text",
+      "v": "Setup and tuning"
+     },
+     {
+      "t": "text",
+      "v": "Daily typing"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Straight answers about forecasting and VOS",
+  "items": [
+   {
+    "q": "Is VOS inventory forecasting software?",
+    "a": "No. Nothing in it models demand, fits a seasonality curve or works out safety stock, and nothing predicts next month. VOS is the ordering front door plus a current picture of stock. We say this first because the word in your search points somewhere we deliberately do not go."
+   },
+   {
+    "q": "Then why would a distributor shopping for forecasting talk to you?",
+    "a": "Often the reason a forecast is wrong is what went into it. Phone orders retyped a day late, and invoices standing in for demand. Fix the capture and the tool you already own has something better to read."
+   },
+   {
+    "q": "What exactly would the planning tool get?",
+    "a": "For anything sent through the app: the account, the items against your own codes, the quantities as the buyer confirmed them, a reference number and the time it was sent. Inventory forecasting software reading that gets demand, dated at the hour, rather than a shipping summary."
+   },
+   {
+    "q": "What is the best inventory forecasting software to pair this with?",
+    "a": "We do not rank them and we name no products, partly because the right answer depends on what your ERP already includes. A planning module you are already paying for may become usable once the order data stops being typed in by hand."
+   },
+   {
+    "q": "Is any of this inventory forecasting software free?",
+    "a": "Nothing on this page is a forecasting product, free or paid. VOS itself is quoted per distributor and we publish no prices, so the answer is to ask on the demo call. If a no-cost forecasting tool is what you need, that is not something we sell."
+   },
+   {
+    "q": "Can we buy AI based inventory forecasting software from you?",
+    "a": "No. VOS uses no artificial intelligence to project demand and makes no claims of that kind. Voice is used to capture what a person says, and that person reviews every line before sending. Prediction is not part of the product."
+   },
+   {
+    "q": "We need inventory forecasting software for multinational forecasts. Is this it?",
+    "a": "No, on two counts. VOS does not forecast, and it is built for smaller food distributors and DSD operations rather than global supply chains. Multi-country planning, currencies and transfer flows are outside what we do."
+   },
+   {
+    "q": "Where do the stock levels in VOS come from?",
+    "a": "From whatever you count stock in today. VOS is not where your stock is recorded and it does not count anything on a shelf; it runs alongside what you have, with the catalog updating as levels change. On the demo we walk through how that connection would work for you."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Ready to forecast from something real?",
+  "body": "Keep the tool you have. Change what it is reading.",
+  "cta": "Book a Free Demo →"
+ }
+}

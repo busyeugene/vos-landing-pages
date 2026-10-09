@@ -1,0 +1,383 @@
+{
+ "_note": "Webflow element-id map for the VOS landing template. All 16 batch-1/2/3 landing pages on the site share one element-id space, because every one was duplicated from 'Landing Template' (page 6a622ea22b8b7e9538a8ac08) and duplication preserves element UUIDs. So these ids are valid on any page duplicated from any of them.",
+ "_verified": "2026-10-09 against two unrelated pages (order-tracking duplicate + inventory-planning). See _drifts for the parts that are NOT shared and must be re-derived per page.",
+ "siteId": "69bc131a5fdaa09a10456d46",
+ "contactPageId": "6a074ceb657853ebfc45df1d",
+ "_drifts": {
+  "stat_number_strong": "The <strong> inside each stat number is page-specific. Derive with style 'uui-layout12_number' scoped to the stats section, children_depth 2.",
+  "faq_question_strong": "The <strong> inside each uui-faq01_heading is page-specific. Derive with style 'uui-faq01_heading' scoped to the faq section, children_depth 2.",
+  "faq_8th_accordion": "Accordions 1-7 are shared; the 8th was added per page and has its own id. Derive with style 'uui-faq01_accordion' / 'uui-text-size-medium 20' scoped to the faq section (both return all 8 in document order)."
+ },
+ "sections": {
+  "stats": "3f7a12ca-f338-fa01-17fc-97d91ca5fe95",
+  "problem": "964de5d5-3961-b811-98b9-cfb069a7e8b5",
+  "features": "24599529-959c-8515-3ff2-44ca6d68a0e2",
+  "cards": "b1f1a02d-1126-5fc3-d0e9-a08845da64de",
+  "steps": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec0",
+  "testimonial": "c1b218dc-b1d5-034d-f07c-5690e16c236f",
+  "integrations": "4e065caf-471b-6558-74ee-a7ed99eab596",
+  "comparison": "37b58628-5e21-7c67-2967-24e3b5a7a16d",
+  "faq": "cb55ed2c-634b-b694-87d5-a43e7e3cf94e"
+ },
+ "components": {
+  "hero": {
+   "element": "989faf8b-cac3-f127-6306-f797ae33f470",
+   "props": {
+    "eyebrow": "a7704768-52e6-0ad3-2179-5447d7543ee2",
+    "h1": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
+    "lead": "d410be85-5d89-9215-6f62-195b0e3f7c44",
+    "link": "82b5fd49-0b49-df85-c65b-ea16db1ecf51",
+    "cta": "5813a60d-8c20-4700-72bd-d80ce9c60b67"
+   }
+  },
+  "mainCta": {
+   "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2",
+   "props": {
+    "h2": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+    "body": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+    "cta": "0336eaf6-adb9-6ceb-4140-3e3e57f922c4"
+   }
+  }
+ },
+ "stats": {
+  "labels": [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac"
+  ],
+  "number_blocks": [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9b",
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea0",
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feaa"
+  ],
+  "number_strongs": [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "448bf1fe-361f-3c13-6268-4572092953ba"
+  ]
+ },
+ "problem": {
+  "eyebrow": "964de5d5-3961-b811-98b9-cfb069a7e8bc",
+  "h2": "964de5d5-3961-b811-98b9-cfb069a7e8be",
+  "lead": "964de5d5-3961-b811-98b9-cfb069a7e8c1",
+  "cards": [
+   {
+    "h3": "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+    "body": "964de5d5-3961-b811-98b9-cfb069a7e8cb"
+   },
+   {
+    "h3": "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+    "body": "964de5d5-3961-b811-98b9-cfb069a7e8d2"
+   },
+   {
+    "h3": "83921d0d-4ec1-911e-4420-fee5bfd13614",
+    "body": "964de5d5-3961-b811-98b9-cfb069a7e8d9"
+   }
+  ],
+  "eyebrow_string": "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d"
+ },
+ "features": {
+  "h2": "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+  "rows": [
+   {
+    "h3": "24599529-959c-8515-3ff2-44ca6d68a0ed",
+    "body": "24599529-959c-8515-3ff2-44ca6d68a0f0",
+    "bullets": [
+     "129bd613-9d92-1e3c-fcbe-e5fdebfe4132",
+     "129bd613-9d92-1e3c-fcbe-e5fdebfe4138",
+     "129bd613-9d92-1e3c-fcbe-e5fdebfe413e",
+     "129bd613-9d92-1e3c-fcbe-e5fdebfe4144"
+    ],
+    "eyebrow_string": "d4031fde-2fc3-b283-bb1c-784e741d725b"
+   },
+   {
+    "h3": "8c148c5a-5883-9b4b-9229-358da23fdea2",
+    "body": "8c148c5a-5883-9b4b-9229-358da23fdea5",
+    "bullets": [
+     "8c148c5a-5883-9b4b-9229-358da23fdeac",
+     "8c148c5a-5883-9b4b-9229-358da23fdeb2",
+     "8c148c5a-5883-9b4b-9229-358da23fdeb8",
+     "8c148c5a-5883-9b4b-9229-358da23fdebe"
+    ],
+    "eyebrow_string": "d5d6538b-4114-51aa-7fff-aad875b7bfe3"
+   },
+   {
+    "h3": "8b079726-3463-6044-f4e9-f838b3bfb118",
+    "body": "8b079726-3463-6044-f4e9-f838b3bfb11b",
+    "bullets": [
+     "8b079726-3463-6044-f4e9-f838b3bfb122",
+     "8b079726-3463-6044-f4e9-f838b3bfb128",
+     "8b079726-3463-6044-f4e9-f838b3bfb12e",
+     "8b079726-3463-6044-f4e9-f838b3bfb134"
+    ],
+    "eyebrow_string": "6555f9fc-4dcc-b940-f384-6001ce4db69f"
+   },
+   {
+    "h3": "2af8f313-e356-7eea-3f46-cef1a39df93a",
+    "body": "2af8f313-e356-7eea-3f46-cef1a39df93d",
+    "bullets": [
+     "2af8f313-e356-7eea-3f46-cef1a39df944",
+     "2af8f313-e356-7eea-3f46-cef1a39df94a",
+     "2af8f313-e356-7eea-3f46-cef1a39df950",
+     "2af8f313-e356-7eea-3f46-cef1a39df956"
+    ],
+    "eyebrow_string": "099f67ce-06ef-dc92-c6e6-fdc4481f359f"
+   }
+  ],
+  "eyebrow_string": "f49b7c29-2a8e-b047-d714-742b52e0a34c"
+ },
+ "cards": {
+  "h2": "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+  "keep": [
+   {
+    "h3": "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+    "body": "b1f1a02d-1126-5fc3-d0e9-a08845da6509"
+   },
+   {
+    "h3": "5368ca22-de87-9362-819f-9733489b5a6d",
+    "body": "5368ca22-de87-9362-819f-9733489b5a6f"
+   },
+   {
+    "h3": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+    "body": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535626"
+   }
+  ],
+  "delete_containers": {
+   "restaurant-checklist-software": [
+    "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+    "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+    "458fcf8e-5c98-2915-581f-0d6dcd514822"
+   ]
+  },
+  "eyebrow_string": "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+  "lead": "b1f1a02d-1126-5fc3-d0e9-a08845da64eb"
+ },
+ "midcta": {
+  "h3": "4590e4b1-e797-fe36-9056-58de9ded19b4",
+  "body": "4590e4b1-e797-fe36-9056-58de9ded19b7"
+ },
+ "steps": {
+  "eyebrow": "a8a18cbf-c7e0-dde5-d76f-de007da765f9",
+  "h2": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+  "lead": "38293a1d-fb4c-9501-8014-28855f9128b5",
+  "items": [
+   {
+    "h3": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+    "body": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed9"
+   },
+   {
+    "h3": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+    "body": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee2"
+   },
+   {
+    "h3": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+    "body": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f03"
+   }
+  ],
+  "eyebrow_string": "6923bf1d-5310-eba9-bcb8-7266c5f85e97"
+ },
+ "comparison": {
+  "colheads": [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ac"
+  ],
+  "_rowshape": "Each row: label block = feature id + 1 hex; each value cell's only child = cell id + 1 hex (HtmlEmbed for an icon cell, Block>String for a text cell).",
+  "rows": [
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a1bc",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a1bd",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a1bf",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1c3"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a1c6",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a1c7",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a1c9",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1cc",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1cf"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a1d3",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a1d4",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a1d6",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1d9",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1dc"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a1e0",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a1e1",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a1e3",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1e5",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1e7"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a1ea",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a1eb",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a1ed",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1ef",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1f1"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a1f4",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a1f5",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a1f7",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1f9",
+     "37b58628-5e21-7c67-2967-24e3b5a7a1fb"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a20e",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a20f",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a211",
+     "37b58628-5e21-7c67-2967-24e3b5a7a213",
+     "37b58628-5e21-7c67-2967-24e3b5a7a215"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a218",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a219",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a21b",
+     "37b58628-5e21-7c67-2967-24e3b5a7a21d",
+     "37b58628-5e21-7c67-2967-24e3b5a7a21f"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a222",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a223",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a225",
+     "37b58628-5e21-7c67-2967-24e3b5a7a227",
+     "37b58628-5e21-7c67-2967-24e3b5a7a229"
+    ]
+   },
+   {
+    "feature": "37b58628-5e21-7c67-2967-24e3b5a7a22c",
+    "label": "37b58628-5e21-7c67-2967-24e3b5a7a22d",
+    "cells": [
+     "37b58628-5e21-7c67-2967-24e3b5a7a22f",
+     "37b58628-5e21-7c67-2967-24e3b5a7a231",
+     "37b58628-5e21-7c67-2967-24e3b5a7a233"
+    ]
+   }
+  ],
+  "text_cell_strings": {
+   "1,2": "89a5813a-10f6-6ba1-6eed-d733971a550a",
+   "1,3": "69912303-d2fb-9ab3-1702-1f1be793965e",
+   "4,3": "3e34855f-1038-e4bc-b5ca-43666592d073",
+   "8,3": "49d5bbd0-d3ae-abea-0d72-ee591beda269",
+   "10,1": "0d9d5614-82ec-176f-e117-70e0e851e392",
+   "10,2": "0f460525-d517-2fa3-f403-48d0791a818b",
+   "10,3": "7f31d426-6e4c-5e28-f4c7-2ff82a21df78"
+  },
+  "text_cell_blocks": {
+   "1,2": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "1,3": "69912303-d2fb-9ab3-1702-1f1be793965d",
+   "4,3": "3e34855f-1038-e4bc-b5ca-43666592d072",
+   "8,3": "49d5bbd0-d3ae-abea-0d72-ee591beda268"
+  },
+  "cell_children": {
+   "1,1": "37b58628-5e21-7c67-2967-24e3b5a7a1c0",
+   "1,2": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "1,3": "69912303-d2fb-9ab3-1702-1f1be793965d",
+   "2,1": "dbb407ba-0630-2e0a-33ee-d46671e62774",
+   "2,2": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "2,3": "01c57b15-41b7-26ac-60cd-cc5f416f7e09",
+   "3,1": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0",
+   "3,2": "55af8715-1c0d-7742-fde4-496073314315",
+   "3,3": "36292c7f-9656-fa14-a429-eedfe208ed17",
+   "4,1": "37b58628-5e21-7c67-2967-24e3b5a7a1e4",
+   "4,2": "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "4,3": "3e34855f-1038-e4bc-b5ca-43666592d072",
+   "5,1": "f0a25565-fe6e-c821-4974-3d153187492b",
+   "5,2": "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "5,3": "a16d84ef-02bf-5ec0-cb93-a5f713fe7193",
+   "6,1": "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "6,2": "b3289c99-5fd7-ca67-2627-99dcf1f22d44",
+   "6,3": "f40dcd31-dc18-1419-dc7d-9ae4c4991128",
+   "7,1": "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "7,2": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   "7,3": "08a9ea6e-ff0f-60b4-f337-ff9134e8f590",
+   "8,1": "37b58628-5e21-7c67-2967-24e3b5a7a21c",
+   "8,2": "d455c100-948c-a407-3bda-fdc0a7afb797",
+   "8,3": "49d5bbd0-d3ae-abea-0d72-ee591beda268",
+   "9,1": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
+   "9,2": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "9,3": "c0a38acf-ad15-6757-3a70-c9cec47703bd",
+   "10,1": "0d9d5614-82ec-176f-e117-70e0e851e391",
+   "10,2": "0f460525-d517-2fa3-f403-48d0791a818a",
+   "10,3": "7f31d426-6e4c-5e28-f4c7-2ff82a21df77"
+  },
+  "_childnote": "A cell's only child, read live from the donor. Neither cell+1 nor any other arithmetic holds: the client replaced individual cells over time, so each child carries its own uuid. Always use this table.",
+  "h2_line1": "37b58628-5e21-7c67-2967-24e3b5a7a176",
+  "h2_line2": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+  "lead_string": "37b58628-5e21-7c67-2967-24e3b5a7a179",
+  "_h2note": "The comparison h2 renders as two lines separated by a <br>, held as two sibling String nodes. Write each line separately; a single set_text would collapse the break."
+ },
+ "faq": {
+  "h2": "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+  "_note": "question/answer ids 1-7 are shared; the 8th drifts. Always re-derive per page.",
+  "headings_shared": [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf95f",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf96b",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf977",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf983",
+   "7e541655-5a68-8f96-1273-8249a5c759b5",
+   "4446ea80-4c7a-f2a8-f0de-0a222818c947",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98f"
+  ],
+  "answers_shared": [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf966",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf972",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97e",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98a",
+   "7e541655-5a68-8f96-1273-8249a5c759bc",
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94e",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf996"
+  ],
+  "question_strongs": [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "39590628-381c-9aea-6095-0746f7348939",
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "7ec95cf1-65b0-b7be-b209-990427524516"
+  ],
+  "answer_blocks": [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf966",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf972",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97e",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98a",
+   "7e541655-5a68-8f96-1273-8249a5c759bc",
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94e",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf996",
+   "7ec95cf1-65b0-b7be-b209-99042752451d"
+  ]
+ },
+ "icons": {
+  "yes": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>",
+  "no": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>",
+  "text_wrapper": "<div class=\"uui-text-size-medium-21\">%s</div>"
+ },
+ "donorPageId": "6a8872d018720c976eeab87b",
+ "donorSlug": "restaurant-checklist-software",
+ "_kinds": "Heading/Strong ids take set_text directly. Block ids are written via their String child (id+1), except the three eyebrows, whose String is nested one level deeper and is stored explicitly as *_string.",
+ "_sameDonor": "All ten pages were duplicated from the same donor, so these ids are identical on all ten. Re-derive only if a page is ever rebuilt from a different donor."
+}

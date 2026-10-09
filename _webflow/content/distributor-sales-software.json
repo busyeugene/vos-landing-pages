@@ -1,0 +1,366 @@
+{
+ "slug": "distributor-sales-software",
+ "meta_title": "Distributor Sales Software for Reps Who Sell | VOS",
+ "meta_desc": "Your reps spend the week selling instead of writing up reorders. Distributor sales software that lets accounts speak their own orders into an app.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Distributor Sales Software That Frees Up Your Reps.",
+  "lead": "Reorders do not need a salesperson. Your accounts say what they need into the app at whatever hour suits them, so a rep's day goes on new business and the relationships that pay for it.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "back for a rep on each order they no longer write"
+  },
+  {
+   "num": "24/7",
+   "label": "ordering, so nobody waits for a rep to pick up"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "is how long most distributors take to switch on"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "You hired salespeople. You got order takers.",
+  "lead": "A rep who spends the morning on reorder calls is doing admin at a sales salary. Three ways that quietly costs you:",
+  "cards": [
+   {
+    "h3": "\"My best rep is a phone operator\"",
+    "body": "Eight calls before lunch, all of them lists the account could have sent itself. Nothing new sold, nothing new quoted."
+   },
+   {
+    "h3": "\"He walks in cold\"",
+    "body": "Nobody remembers what that kitchen stopped buying in July, so the visit opens with questions instead of an offer."
+   },
+   {
+    "h3": "\"If he is off, the account stalls\"",
+    "body": "Orders that only exist in one person's voicemail go missing the week that person is on vacation."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "Give The Week Back",
+  "h2": "What distributor sales software should take off a rep's plate",
+  "rows": [
+   {
+    "eyebrow": "Reorders Handle Themselves",
+    "h3": "The best distributor sales rep software removes the reorder.",
+    "body": "An account that reorders the same 30 lines every Tuesday does not need a conversation. It needs its guide and two minutes. Once that moves into the app, your rep is no longer the bottleneck between a kitchen and its delivery.",
+    "bullets": [
+     "Accounts order from their own guide, at your agreed prices",
+     "They order at closing time, not when a rep picks up",
+     "Nothing for your rep to write down or read back",
+     "Covering for them is easy: the account is not tied to one person's phone"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How the orders actually come in →"
+    }
+   },
+   {
+    "eyebrow": "Walk In Informed",
+    "h3": "Dated buying history for the account you are about to visit.",
+    "body": "People shop for distributor sales tracking software hoping for a pipeline. What a food rep really wants is narrower: what this kitchen bought, when, and what fell off the list. That history sits on the web, and it is the part of distributor sales software a rep opens in the van.",
+    "bullets": [
+     "One order at a time, with the minute each was sent",
+     "Notice a line that has dropped off their recent orders",
+     "Read back through what they ordered and when",
+     "Covers orders placed in VOS, so phone orders are not in it"
+    ],
+    "link": {
+     "href": "/order-tracking-software",
+     "text": "What order tracking shows →"
+    }
+   },
+   {
+    "eyebrow": "Sell Without A Call",
+    "h3": "Put a deal on the phone they order from.",
+    "body": "When you are long on something, your reps should not have to ring 60 accounts about it. Send the offer straight to their phones and let the next list pick it up.",
+    "bullets": [
+     "Offers delivered where the buying happens",
+     "Add or reprice a line on a customer's own guide",
+     "New items appear where the buyer is already ordering",
+     "Reps follow up knowing the offer already reached them"
+    ],
+    "link": {
+     "href": "/vendor-management-software",
+     "text": "Becoming the easiest vendor to buy from →"
+    }
+   },
+   {
+    "eyebrow": "Keep Your Stack",
+    "h3": "Your CRM, your ERP, your commission sheet: untouched.",
+    "body": "VOS is not here to replace the tools your sales team already has. It changes where orders come from, and then hands them on in a format your systems accept. Nobody has to migrate an account list to get the benefit.",
+    "bullets": [
+     "Orders handed on in whichever shape you picked",
+     "Nobody re-enters them on an EDI, API or QuickBooks feed",
+     "No data to move out of your current sales tools",
+     "API-ready, so it extends the platform you run on"
+    ],
+    "link": {
+     "href": "/b2b-portal-software",
+     "text": "The self-service side for accounts →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "Small things a sales team notices.",
+  "lead": "Not headline features, but the ones reps mention in month two.",
+  "items": [
+   {
+    "h3": "Price Changes Nobody Has To Announce",
+    "body": "Update a guide once and the following order uses the new figure. No rep has to remember to mention it."
+   },
+   {
+    "h3": "Orders At Midnight Still Count",
+    "body": "An order sent at 11pm is in the system by morning, not lost because nobody was there to answer."
+   },
+   {
+    "h3": "No Kit For Anyone To Carry",
+    "body": "Accounts use their own phones, on iOS or Android. There is no hardware for your reps to hand out or chase."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See what a rep's week looks like without reorder calls",
+  "body": "A 20-minute walkthrough shows how an account orders and what the rep sees afterwards.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Simple Setup",
+  "h2": "Three steps, and no internal project to run first",
+  "lead": "Your reps do not have to sell this internally for six weeks first. Three steps and the first accounts are live.",
+  "items": [
+   {
+    "h3": "Pick the accounts that call most",
+    "body": "Start where the reorder hours are. Send us their guides, with the items and the prices you give them."
+   },
+   {
+    "h3": "We load and set the accounts up",
+    "body": "Most distributors are running inside 24 to 48 hours, with no IT project and nothing for a rep to install."
+   },
+   {
+    "h3": "Reps introduce it on their next visit",
+    "body": "A buyer usually gets something in that same day. After that the rep is there to sell, not to take the list."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Not a CRM. The reason your reps need one less.",
+  "h2_lines": [
+   "Not a CRM.",
+   "The reason your reps need one less."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "Most distributor sales software is built to manage selling activity. VOS removes a chunk of the activity instead. Here is the split, with the CRM jobs we do not touch marked as such.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Distributor CRM or Sales Suite",
+   "Reps Taking Orders by Phone"
+  ],
+  "rows": [
+   {
+    "label": "Takes the reorder off the rep entirely",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Customers can order outside office hours",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "text",
+      "v": "Voicemail only"
+     }
+    ]
+   },
+   {
+    "label": "What each account bought, by date",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "In a notebook"
+     }
+    ]
+   },
+   {
+    "label": "Promotions pushed to the buyer's phone",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "text",
+      "v": "A round of calls"
+     }
+    ]
+   },
+   {
+    "label": "Pipeline, quotas and commission tracking",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Territory and call planning",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Sales forecasting models",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Up and running with no IT project",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "What it asks of a rep",
+    "cells": [
+     {
+      "t": "text",
+      "v": "An introduction"
+     },
+     {
+      "t": "text",
+      "v": "Daily data entry"
+     },
+     {
+      "t": "text",
+      "v": "Their morning"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions sales managers ask us",
+  "items": [
+   {
+    "q": "Is VOS distributor sales software or a CRM?",
+    "a": "Neither, strictly. There is no pipeline, no quota, no commission calculation and no territory map in it, and a CRM does those better than we ever would. What VOS does is take the reorder away from your reps: customers place those orders themselves, in an app, at any hour. Keep the CRM and run this beside it."
+   },
+   {
+    "q": "Will my reps think this takes their job?",
+    "a": "It takes the order-writing, which is the part that does not need their skill. The account stays theirs, the relationship stays theirs, and they get the hours back for new business. Reps who were measured on order volume will need that measure revisited, and that conversation is worth having before rollout."
+   },
+   {
+    "q": "Do you offer distributor software with sales forecasting?",
+    "a": "No. VOS runs no forecasting models and makes no predictions about future demand, and we would rather say that than imply otherwise. What it gives you is a clean, dated record of what each account ordered, which is the input a forecasting tool or an analyst needs. The model stays somebody else's job."
+   },
+   {
+    "q": "Can a rep send an order for an account?",
+    "a": "The app is built for the buyer to use, and the ordering account belongs to the customer. If a rep is sitting with a chef, the practical answer is to let the chef speak the order on their own phone. Distributor sales software that keeps the rep in the middle of each order is the thing we are trying to get rid of."
+   },
+   {
+    "q": "What does a rep see about their accounts?",
+    "a": "On the web, in one place: the orders that account placed through VOS, each with its items, its number and the time it went, along with the guide and prices it is working from. Orders that came by phone or voicemail are not in there, because VOS never saw them."
+   },
+   {
+    "q": "Does it work for a team of two reps?",
+    "a": "Yes, and that is the common case. VOS was made for distributors of that size, not for enterprise sales organizations. With a small team the gain is sharper, because one person's morning is a bigger share of your selling capacity."
+   },
+   {
+    "q": "How do orders get to the systems our team already uses?",
+    "a": "You choose one route at onboarding: a PDF, Excel or Word attachment, EDI, QuickBooks, or an API feed into whatever platform your office runs on. Take any of the last three and nobody keys anything again. Emailed files may still be entered by hand."
+   },
+   {
+    "q": "What does it cost per rep?",
+    "a": "Pricing is not published. VOS is quoted for each distributor. Ask on the demo call and they will talk you through it. Enterprise pricing and enterprise complexity are not what we are selling."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Ready to let reps sell again?",
+  "body": "See the reorder leave their day, and the account history arrive in its place.",
+  "cta": "Book a Free Demo →"
+ }
+}

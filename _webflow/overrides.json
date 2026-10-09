@@ -1,0 +1,21 @@
+{
+  "_note": "Deliberate differences between the repo page and its Webflow copy, with the reason. The Webflow landing template has 8 FAQ accordions and each accordion's open/close interaction is bound to its own element id, so a 9th cannot be inserted without an interaction that would store cleanly and never animate. The two 9-FAQ pages therefore merge two related questions into one. Nothing is dropped: both answers survive in the merged answer, and the Tier C disambiguation FAQs are untouched.",
+
+  "b2b-portal-software": {
+    "faq_merge": {
+      "replace_indexes": [1, 2],
+      "reason": "Q2 (web browser) and Q3 (webshop) both answer 'is this a web storefront?'. Merged, so all three Tier C FAQs and the primary-keyword FAQ stay.",
+      "q": "Is this a wholesale webshop our customers log into?",
+      "a": "No. Ordering happens on a phone, in the app, and the web side is where your own staff edit guides, open accounts and look up past orders. A webshop is also built around browsing and checkout, and a kitchen reordering 40 familiar items every week is not browsing. VOS starts from the guide you built for that account, so the buyer talks through a list they already know, checks it, and sends it."
+    }
+  },
+
+  "supplier-management-software": {
+    "faq_merge": {
+      "replace_indexes": [0, 1],
+      "reason": "Q1 carries the primary keyword and Q2 the 'best supplier management software' phrase. Both are 'is this right for me' questions, and one question can carry both phrases, so the three Tier C FAQs and the cost FAQ all stay.",
+      "q": "Is VOS the best supplier management software for a small kitchen?",
+      "a": "For the ordering half of the job, yes. You order from each supplier that is on VOS out of one app, by voice, and what you say is written out, approved by you and stamped with its own number. The best tool is the one your team will actually use at the end of a shift, and most supplier management software is built for a buyer at a desk with time to fill in fields. VOS does not hold contracts, score your suppliers or compare their prices, and we would rather set that expectation now than at the demo."
+    }
+  }
+}

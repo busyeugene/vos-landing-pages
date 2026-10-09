@@ -1,0 +1,366 @@
+{
+ "slug": "dsd-sales-software",
+ "meta_title": "DSD Sales Software for Direct Store Delivery | VOS",
+ "meta_desc": "Your accounts send tomorrow's order tonight, so the truck loads against real demand. DSD sales software that takes spoken orders around the clock.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "DSD Sales Software For Orders Placed Ahead.",
+  "lead": "Stop building tomorrow's load from guesswork. Your stores and kitchens speak their order into the app the night before, so the load matches what accounts asked for, item by item.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "24/7",
+   "label": "ordering, so a store can send after close"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "saved against writing the order up at the stop"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "covers setup for most distributors, with no IT work"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "The order gets written at the stop. The product is on the shelf back home.",
+  "lead": "On a DSD run, the order and the load get decided hours apart. When the first one is a guess, the second one is wrong:",
+  "cards": [
+   {
+    "h3": "\"We loaded for last week\"",
+    "body": "Nobody knew what the stores wanted, so the truck went out on an average and came back carrying half of it."
+   },
+   {
+    "h3": "\"It is on a pad in the cab\"",
+    "body": "Handwritten at the counter, keyed in that evening if the driver remembers. One digit out and the next delivery is short."
+   },
+   {
+    "h3": "\"The manager was not in\"",
+    "body": "Whoever can say what to order is off shift when the driver calls, so you get whatever the closer guessed at."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "Order First, Load Second",
+  "h2": "What DSD sales software has to fix between stops",
+  "rows": [
+   {
+    "eyebrow": "Ordered The Night Before",
+    "h3": "A DSD sales app the store manager uses, not the driver.",
+    "body": "The person who knows the shelf is the one holding the phone. They talk through their list after close, check it on screen, and send it. By morning your team is loading against stated orders rather than a pattern from last month.",
+    "bullets": [
+     "Spoken from the guide you loaded for that account",
+     "Sent at 11pm if that is when the shift ends",
+     "Read back on screen before it leaves their hands",
+     "Confirmed by an alert or a text"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How orders get off the telephone →"
+    }
+   },
+   {
+    "eyebrow": "Right Product On The Truck",
+    "h3": "Load against orders you can count.",
+    "body": "This is the point of DSD sales software for a small delivery business: knowing the day's demand before the truck is packed. Orders land with the account and the items on them, and your own stock view moves with the ordering, so the two sit together before anything is loaded. Mobile direct store delivery software helps the driver, but it cannot fix an order nobody placed yet.",
+    "bullets": [
+     "Each order carries its account, its items and its send time",
+     "Stock visibility that follows the ordering, fed by your own system",
+     "On your side the catalog moves as stock levels do",
+     "Fewer surprises once the run is underway"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "Who can see the same stock numbers →"
+    }
+   },
+   {
+    "eyebrow": "Where VOS Stops",
+    "h3": "The intake layer, not the truck layer.",
+    "body": "Be clear on the boundary before you buy. If you need DSD route sales software to settle van stock, print an invoice at the counter or capture a signature, that is route accounting and VOS is not it. What VOS does is put a complete, confirmed order in front of all of that.",
+    "bullets": [
+     "Orders arrive matched to your SKUs, ready for whoever processes them",
+     "Delivered into your systems in the format you choose",
+     "Runs beside whatever route tool or ERP you have now",
+     "No route building, settlement or signature capture in VOS"
+    ],
+    "link": {
+     "href": "/order-fulfillment-software",
+     "text": "What this does for your pickers →"
+    }
+   },
+   {
+    "eyebrow": "Sized For Your Operation",
+    "h3": "Direct store delivery software for small business, not a rollout.",
+    "body": "A five-truck operation cannot carry a twelve-month implementation. You send us the guides your stops buy from, we do the loading and the account setup, and your customers download an app they already know how to talk to.",
+    "bullets": [
+     "No hardware, no installs, no IT staff needed",
+     "Accounts added one at a time as you win them",
+     "Priced by quote for your business",
+     "Works on the phone in a manager's apron pocket"
+    ],
+    "link": {
+     "href": "/distributor-sales-software",
+     "text": "What it changes for your reps →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "Details that matter on a delivery week.",
+  "lead": "The parts of the product a DSD team runs into by day three.",
+  "items": [
+   {
+    "h3": "A Record For Anything Sent",
+    "body": "Anything sent through the app carries its own number, plus the day and minute it went, filed against the store it came from. Disputes get settled by looking."
+   },
+   {
+    "h3": "A Guide For Every Store",
+    "body": "Each store orders from its own item list at its own prices, so a banner site and an independent are not sharing a catalog."
+   },
+   {
+    "h3": "Back Office Gets It Clean",
+    "body": "Orders arrive itemized and coded, so your office processes them instead of deciphering a pad from the cab."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See tomorrow's orders arrive before you pack the truck",
+  "body": "In 20 minutes you can see how a store would send its order after close.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Simple Setup",
+  "h2": "Running before your next delivery week",
+  "lead": "No handhelds to order, no training week, no change to how the trucks get loaded until the orders start arriving.",
+  "items": [
+   {
+    "h3": "Send the guides for your stops",
+    "body": "What each store buys, at the price you give them, with your item codes. A spreadsheet per account is plenty."
+   },
+   {
+    "h3": "We open each account",
+    "body": "The loading and the setup are on us. Most distributors go live inside 24 to 48 hours of handing it over."
+   },
+   {
+    "h3": "Stores order, you load to it",
+    "body": "Your office receives them in whichever shape you chose. Most accounts send their first one the day they are set up."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "The order, not the truck. Know which one you are buying.",
+  "h2_lines": [
+   "The order, not the truck.",
+   "Know which one you are buying."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "Plenty of DSD sales software is really route accounting: settling van stock, printing invoices at the counter. VOS sits upstream of all that, and the table below says where it stops.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "DSD Route Accounting Suite",
+   "Order Written at the Stop"
+  ],
+  "rows": [
+   {
+    "label": "Account places its own order before the visit",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Spoken by the customer, delivered as text",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Open after the store closes",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Per-store item list and prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "From memory"
+     }
+    ]
+   },
+   {
+    "label": "Van stock, settlement and counter invoicing",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "On paper"
+     }
+    ]
+   },
+   {
+    "label": "Route building and delivery sequencing",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Proof of delivery and signatures",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Paper ticket"
+     }
+    ]
+   },
+   {
+    "label": "Hardware your team has to carry",
+    "cells": [
+     {
+      "t": "text",
+      "v": "None"
+     },
+     {
+      "t": "text",
+      "v": "Handhelds or printers"
+     },
+     {
+      "t": "text",
+      "v": "A pad"
+     }
+    ]
+   },
+   {
+    "label": "Time to switch on",
+    "cells": [
+     {
+      "t": "text",
+      "v": "A day or two for most"
+     },
+     {
+      "t": "text",
+      "v": "Months"
+     },
+     {
+      "t": "text",
+      "v": "Already running"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "DSD questions, answered plainly",
+  "items": [
+   {
+    "q": "What does DSD sales software mean here, exactly?",
+    "a": "In our case it means one job: your direct store delivery accounts place their orders themselves, by voice, in an app, before the truck is loaded. The term gets used for everything from route settlement to merchandising audits, so it is worth pinning down. We do the ordering end and nothing past the loading bay."
+   },
+   {
+    "q": "Is this a replacement for our route accounting system?",
+    "a": "No. Route accounting handles van inventory, settlement, counter invoicing and driver reconciliation, and none of that is in VOS. Keep the system you have. VOS feeds it orders that were already confirmed by the customer, so your office starts from something clean."
+   },
+   {
+    "q": "Can drivers use it at the stop?",
+    "a": "It is designed for the account to use, not the driver, and that is the point of running DSD sales software this way. The manager who walks the shelves speaks the order on their own phone, at a time that suits them. If a store genuinely cannot do that, keep taking those orders however you do today."
+   },
+   {
+    "q": "Do we need to give our stores tablets or scanners?",
+    "a": "No. The app runs on iPhone and Android, on phones store staff already have. There is no barcode scanning, no printer and no device program to budget for, which is usually the thing that stalls a DSD technology project."
+   },
+   {
+    "q": "How do orders reach our office and our ERP?",
+    "a": "You pick one route at onboarding: a PDF, Excel or Word attachment, EDI, QuickBooks, or an API hook into the system behind your office. Pick EDI, the API or QuickBooks as the route and nobody keys the order again. An emailed file may still be entered by hand on your side."
+   },
+   {
+    "q": "Does it tell us what to put on each truck?",
+    "a": "Not as an instruction, no. What it gives you is the orders themselves, each with the account, the items and the time it was sent, plus a stock view drawn from the tools you have. The loading decision stays with your team, which is where the local knowledge is."
+   },
+   {
+    "q": "We run five trucks. Is that too small?",
+    "a": "That is the size VOS was designed around. DSD operations and independents of that size are the buyers we serve, and there is no IT project, no implementation team and no enterprise contract. We quote per distributor."
+   },
+   {
+    "q": "What about accounts that will never use an app?",
+    "a": "Some stores will keep calling, and that is fine. Those orders get written up as they are now, and they carry no number or stamp from us. The gain comes from the accounts that do switch, which is usually the ones ordering two or three times a week."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Ready to load against real orders?",
+  "body": "Watch a store send tomorrow's order once the doors are locked.",
+  "cta": "Book a Free Demo →"
+ }
+}

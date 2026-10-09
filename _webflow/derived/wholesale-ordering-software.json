@@ -1,0 +1,32 @@
+{
+ "stat_number_blocks": [
+  "3f7a12ca-f338-fa01-17fc-97d91ca5fe9b",
+  "3f7a12ca-f338-fa01-17fc-97d91ca5fea0",
+  "3f7a12ca-f338-fa01-17fc-97d91ca5feaa"
+ ],
+ "stat_number_strongs": [
+  "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+  "3027ca32-6180-79a6-1a66-d9f911e27a08",
+  "448bf1fe-361f-3c13-6268-4572092953ba"
+ ],
+ "faq_question_strongs": [
+  "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+  "ad9f0390-a776-7031-a95b-984cd1988c9e",
+  "e219e293-819b-221b-6d80-7f8d2898a4d7",
+  "39590628-381c-9aea-6095-0746f7348939",
+  "0f73d180-08e9-596f-f264-a95de40f9593",
+  "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+  "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+  "7ec95cf1-65b0-b7be-b209-990427524516"
+ ],
+ "faq_answers": [
+  "cb55ed2c-634b-b694-87d5-a43e7e3cf966",
+  "cb55ed2c-634b-b694-87d5-a43e7e3cf972",
+  "cb55ed2c-634b-b694-87d5-a43e7e3cf97e",
+  "cb55ed2c-634b-b694-87d5-a43e7e3cf98a",
+  "7e541655-5a68-8f96-1273-8249a5c759bc",
+  "4446ea80-4c7a-f2a8-f0de-0a222818c94e",
+  "cb55ed2c-634b-b694-87d5-a43e7e3cf996",
+  "7ec95cf1-65b0-b7be-b209-99042752451d"
+ ]
+}

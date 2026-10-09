@@ -1,0 +1,366 @@
+{
+ "slug": "distribution-workflow-software",
+ "meta_title": "Distribution Workflow Software for Order Handoffs | VOS",
+ "meta_desc": "One path from the customer's order to your delivery, the same on every shift. VOS is the distribution workflow software for the first leg of that path.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Distribution Workflow Software That Holds Every Shift.",
+  "lead": "VOS builds you no flowchart. It settles the first leg instead. The restaurants on your books talk their order into the app, and it reaches your team by one agreed route, in one shape, whoever happens to be working.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "24/7",
+   "label": "the same path, whether or not anyone is in"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "less handling on each order that takes it"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "to put one shared path in place for most distributors"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "There is a process. It lives in four people's heads.",
+  "lead": "Ask two staff how an order gets from a chef to the pick list and you get two answers. That is not a documentation problem, it is a path problem:",
+  "cards": [
+   {
+    "h3": "\"It depends who picks up\"",
+    "body": "One takes it on a pad, one texts it to the warehouse, one remembers to enter it. Same business, three paths."
+   },
+   {
+    "h3": "\"Only Dave knows that account\"",
+    "body": "Which items they get, what price, who to call about a short. When Dave is off, the account gets guesswork."
+   },
+   {
+    "h3": "\"It fell between two people\"",
+    "body": "The order was taken and never entered, or entered twice. Nobody can tell you where it stopped, because nothing recorded the handoff."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "One Path, Written Down",
+  "h2": "What distribution workflow software has to pin down",
+  "rows": [
+   {
+    "eyebrow": "The Path Starts Outside",
+    "h3": "The customer takes the first step, not your staff.",
+    "body": "Today the path begins when somebody of yours answers a phone, which means it begins differently every time. Move that start to the buyer and it is identical each time: their guide, their words, their approval.",
+    "bullets": [
+     "Begins with whoever knows what is needed",
+     "Items and prices come from the guide set up for them",
+     "No dependency on who is on shift",
+     "The same at 6am and at 11pm"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping account guides right →"
+    }
+   },
+   {
+    "eyebrow": "One Handoff, Not Four",
+    "h3": "Distribution workflow management software, without the build.",
+    "body": "You do not need a rules engine to fix this. Orders leave the app by one route you agree with us and land identically each time, which is most of what people want from distribution workflow software in the first place.",
+    "bullets": [
+     "One delivery method, agreed with you up front",
+     "A file by email, a QuickBooks entry, EDI or a live connection",
+     "With a direct feed nobody has to key it in",
+     "Nothing for your team to remember to forward"
+    ],
+    "link": {
+     "href": "/order-fulfillment-software",
+     "text": "What the pickers receive →"
+    }
+   },
+   {
+    "eyebrow": "Handoffs On Record",
+    "h3": "You can tell where an order got to.",
+    "body": "Anything out of the app has a reference, a stamped time and the account attached, so \"did that come in?\" has an answer. Any distribution workflow solution worth running has to make the handoff visible, and that is the piece a telephone call never provides.",
+    "bullets": [
+     "A reference number on anything sent from the app",
+     "The buyer gets a confirmation when it lands",
+     "Kept by account on one screen",
+     "Phone orders stay invisible to this, as they always were"
+    ],
+    "link": {
+     "href": "/order-tracking-software",
+     "text": "Following an order through →"
+    }
+   },
+   {
+    "eyebrow": "Exceptions Still Need People",
+    "h3": "A short is a conversation. Have it earlier.",
+    "body": "Nothing automates away a line you cannot fill. What changes is the timing: with stock visibility moving alongside the ordering, your people are looking at it while there is still a morning to act in.",
+    "bullets": [
+     "Stock across the catalog, moving as your levels do",
+     "Orders in earlier, so substitutions are not last minute",
+     "A person decides the swap, every time",
+     "Sits next to the stock tools you run now"
+    ],
+    "link": {
+     "href": "/inventory-control-software",
+     "text": "Where shorts and substitutions cost margin →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "Things that keep the path clean.",
+  "lead": "Small by themselves, and the reason the process does not drift back.",
+  "items": [
+   {
+    "h3": "Account Knowledge Out Of Heads",
+    "body": "What an account buys and at what price lives in its guide, not in one colleague's memory of a conversation."
+   },
+   {
+    "h3": "Approval Sits With The Buyer",
+    "body": "They read the lines and send them. There is no internal sign-off step to chase on your side."
+   },
+   {
+    "h3": "A Day Off Is Not A Crisis",
+    "body": "With the path outside your staffing, somebody being off does not change how an account's order arrives."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "Draw your order path with us in 20 minutes",
+  "body": "Tell us how it runs today and we will point at the legs this would replace.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Simple Setup",
+  "h2": "Agreeing the path takes one conversation",
+  "lead": "There is nothing to diagram and no process to write up. You tell us two things, we do the rest.",
+  "items": [
+   {
+    "h3": "What each account can order",
+    "body": "A guide per customer: items, your prices, your codes. However it is held today usually works."
+   },
+   {
+    "h3": "Where finished orders land",
+    "body": "The same destination for every account: an inbox, QuickBooks, EDI or the API. That decision is the whole workflow design."
+   },
+   {
+    "h3": "We set each account up and off it goes",
+    "body": "For most distributors the whole thing takes 24 to 48 hours. Buyers get the app and usually order the same day."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "No diagram to draw. One leg done properly.",
+  "h2_lines": [
+   "No diagram to draw.",
+   "One leg done properly."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "Distribution workflow software can mean a modeling platform, or it can mean one dependable path. If you want to model the whole business, you want the middle column. If you want orders turning up in one predictable shape, read ours.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Workflow / BPM Platform",
+   "However It Runs Today"
+  ],
+  "rows": [
+   {
+    "label": "Order starts the same way each time",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Once modeled"
+     },
+     {
+      "t": "text",
+      "v": "Depends who answers"
+     }
+    ]
+   },
+   {
+    "label": "A single way in to your systems",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Once built"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Handoff leaves a reference and a time",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Only on email"
+     }
+    ]
+   },
+   {
+    "label": "Works when a key person is away",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Drag-and-drop process designer",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Internal approval chains and task queues",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "By email"
+     }
+    ]
+   },
+   {
+    "label": "Covers warehouse, delivery and billing steps",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Partly"
+     }
+    ]
+   },
+   {
+    "label": "Needs somebody to own and maintain it",
+    "cells": [
+     {
+      "t": "text",
+      "v": "No"
+     },
+     {
+      "t": "text",
+      "v": "Yes"
+     },
+     {
+      "t": "text",
+      "v": "Everybody, informally"
+     }
+    ]
+   },
+   {
+    "label": "Time until it is working",
+    "cells": [
+     {
+      "t": "text",
+      "v": "A day or two for most"
+     },
+     {
+      "t": "text",
+      "v": "A project"
+     },
+     {
+      "t": "text",
+      "v": "It is working, after a fashion"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What people ask about the process",
+  "items": [
+   {
+    "q": "Is VOS distribution workflow software in the usual sense?",
+    "a": "Not in the sense of a tool you design processes in. There is no canvas, no rules engine, no task queue and no approval chain here. What VOS does is make one leg of the path fixed: how a customer's order is created and how it reaches you. Everything downstream stays yours to run."
+   },
+   {
+    "q": "Can we build different paths for different accounts?",
+    "a": "The guide is per account, so what a customer can order and at what price varies. Where a completed order goes is agreed with us up front, so it lands the same way whoever is on shift. Fewer variations is the point, and it is why this needs no maintenance."
+   },
+   {
+    "q": "Who handles it when an item is out?",
+    "a": "A person on your team, as now. VOS does not decide substitutions or notify anybody on your behalf. The difference is that orders tend to arrive earlier and stock levels are visible beside them, so the decision happens before picking rather than during it."
+   },
+   {
+    "q": "Do we need to write the process down first?",
+    "a": "No, and that is much of the appeal. Adopting distribution workflow software normally starts with weeks of mapping. Here you decide two things, the guides and the delivery method, and the path follows from those."
+   },
+   {
+    "q": "How does this work while half our accounts still phone?",
+    "a": "You will be running two paths for a while, and it is better to admit that than pretend otherwise. Calls get written up as they are now, with no reference or send time attached. The app path grows as accounts move across."
+   },
+   {
+    "q": "Does it connect to the systems we already use?",
+    "a": "Yes, by whichever single route suits you: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. Take one of the direct feeds and there is no entry step at all."
+   },
+   {
+    "q": "Will our staff have to work differently?",
+    "a": "They work in the same systems they do now. What changes is what turns up in them: finished, coded orders in place of messages to interpret. Nobody has to learn a new screen on your side of the path."
+   },
+   {
+    "q": "What size of distributor is this aimed at?",
+    "a": "Smaller food distributors, independents and DSD rounds included. You need no IT staff, nobody to own the process and no enterprise contract, and we quote per distributor rather than publishing a price list."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Ready for one way of doing it?",
+  "body": "See the path one order follows, from a kitchen's phone into your systems.",
+  "cta": "Book a Free Demo →"
+ }
+}

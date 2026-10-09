@@ -1,0 +1,142 @@
+[
+ [
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "text",
+   "v": "You build it"
+  },
+  {
+   "t": "text",
+   "v": "Manual"
+  }
+ ],
+ [
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  }
+ ],
+ [
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  }
+ ],
+ [
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  },
+  {
+   "t": "text",
+   "v": "By eye, before the call"
+  }
+ ],
+ [
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  }
+ ],
+ [
+  {
+   "t": "icon",
+   "v": "no"
+  },
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "icon",
+   "v": "yes"
+  }
+ ],
+ [
+  {
+   "t": "icon",
+   "v": "no"
+  },
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "icon",
+   "v": "yes"
+  }
+ ],
+ [
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "text",
+   "v": "Only if copied"
+  }
+ ],
+ [
+  {
+   "t": "icon",
+   "v": "yes"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  },
+  {
+   "t": "icon",
+   "v": "no"
+  }
+ ],
+ [
+  {
+   "t": "text",
+   "v": "Install the app"
+  },
+  {
+   "t": "text",
+   "v": "Build every list"
+  },
+  {
+   "t": "text",
+   "v": "Print the sheetBook a Free Demo<section id=\"faq\" class=\""
+  }
+ ]
+]

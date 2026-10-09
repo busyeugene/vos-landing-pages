@@ -1,0 +1,673 @@
+{
+ "slug": "distributor-analytics-software",
+ "meta_title": "Distributor Analytics Software Needs Clean Orders | VOS",
+ "meta_desc": "Reports are only as honest as the orders behind them. VOS hands distributor analytics software itemized, dated order records instead of phone notes.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "capture, so late orders still leave a record"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "is what switching VOS on takes for most firms"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "of handling gone from an order taken by voice"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Sound Familiar?"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "Nobody argues with the chart. They argue with the numbers in it."
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "A report built on handwritten notes and voicemail is a guess with gridlines. Three reasons the numbers do not hold up:"
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "\"Half the orders left no trace\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "A call has no record, no stamp and no line items until somebody types one up. What was never captured cannot be measured."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "\"The same item, three spellings\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "Typed in by three people over two years, so a report splits one product into three and the totals mean nothing."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "\"We know the week, not the hour\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "Without a timestamp you cannot tell an early order from a panic one, and that difference is the whole story."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "What distributor analytics software cannot fix on its own"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "Fix The Input First"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Captured, Not Transcribed"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Orders become data at the moment they are spoken."
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "A customer talks through the guide you loaded for them, so each line already arrives under the code you use. Nothing passes through a notepad on the way in, which is where meaning usually leaks out."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "Each line lands on a code from your catalog"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Each quantity sits on one of your own SKUs"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "The buyer confirms the lines, so errors get caught at source"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "One spelling per product, because there is no typing"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "A Record Per Order"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "What distributor reporting & analytics needs: a dated trail."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "An order out of the app brings its own number and the time it was sent, filed under that account. Feed that into whatever distributor analytics software you use and the output stops being a best guess about last quarter."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Its own number on anything sent from the app"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "The hour it was placed, not just the day"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "Who placed it, held against their account"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Earlier orders, still there to read"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Out To Your Tools"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Goes where your reporting already lives."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "Applying distributor analytics is easier in a tool your team already trusts, so we pass the records to it as well as holding them on your own VOS screen. Pick the route once: a file in an inbox, a QuickBooks entry, EDI, or a direct link to your ERP."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Nothing new for your analyst to learn"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "With EDI, the API or QuickBooks nothing is keyed twice"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Your ERP stays the system of record"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "No export project to schedule"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Stock In The Picture"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "What you had, beside what they asked for."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "Order records on their own tell you what was wanted. VOS also shows live stock that shifts with the ordering, fed by your own inventory system, so demand and availability sit next to each other rather than in two different meetings."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Stock view across the whole catalog, not just today's lines"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "The catalog on your side updates as stock levels change"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Works beside whatever you count stock in today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "The demo walks through how your levels would connect"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Also Built In"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "The rest of what comes with it."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "Useful next to the records, and not a reporting feature in sight."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Prices As You Agreed Them"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Each guide carries the figures you agreed with that customer, so an order shows the prices it was placed at."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Reps Freed From Order Taking"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "When customers order themselves, your reps spend the week selling instead of writing lists down."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "Additive By Design"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "Built to connect, so it extends the platform you run rather than asking you to leave it."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "See the record one app order leaves behind"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "Ask for the 20-minute demo and see the shape an order arrives in."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Simple Setup"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "Records that start out clean"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "No data warehouse, no migration, no build phase. Three steps and your order trail starts filling up on its own."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Give us the item lists"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "A list for each account, carrying your codes. That is what makes the orders comparable later."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "We provision each account"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "Most firms are switched on in 24 to 48 hours, with nothing asked of your IT people."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Records build as people order"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "The trail fills up on its own. Most buyers are ordering the day they are set up."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "We are the source."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "Not the chart."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "Worth saying plainly: distributor analytics software draws the charts, and VOS draws none of them. No dashboard, no KPI and no chart anywhere in it. Here is what each side actually does."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "BI or Analytics Tool"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ac",
+   "Phone + Email Orders"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Captures the order in the first place"
+  ],
+  [
+   "69912303-d2fb-9ab3-1702-1f1be793965e",
+   "On paper first"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "Each line sits on your own product code"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "A reference, plus a timestamp"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Dashboards, KPIs and charts"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Fill rate and margin reporting"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Demand prediction"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Hands records to your ERP by EDI or API"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Captures orders outside office hours"
+  ],
+  [
+   "49d5bbd0-d3ae-abea-0d72-ee591beda269",
+   "Voicemail takes it"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Time before it is useful"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Reporting questions, answered without spin"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Is VOS distributor analytics software?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No, and it is better to say so on the way in. VOS builds no dashboards, calculates no KPIs and draws no charts. It is the layer underneath: your customers' spoken orders captured as structured records, numbered, timed and matched to your own codes, then handed to whatever you report with."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "So what do we actually get to look at?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "On the web you get the orders each account sent from the app, the items on them, its own number and when it was sent, along with the guide it orders from. It is a record you can read back through, not a reporting suite, and nobody here will pretend otherwise."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "People ask how analytics improve distributor profitability. What is realistic?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "Honest answer: analytics change nothing by themselves, and we publish no figures claiming otherwise. What a reliable order trail lets you do is spot an account whose ordering slipped, or a product nobody reorders. Acting on those is where any gain comes from."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Can we get the records into our own warehouse or BI tool?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "Yes, through the delivery route you pick at onboarding: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. From there your own pipeline takes over. An order emailed as a file may still be keyed in by your office. Distributor analytics software downstream sees orders that never passed through a notepad."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Does it forecast anything?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "No. VOS runs no forecasting model and predicts nothing about next month. It records what was ordered and when. If a forecast is what you are after, the tool that produces one reads these records rather than retyped phone notes."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "What about the orders that still come by phone?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "They stay as they are, and they bring no reference or stamp from us, so they will not show up in anything built on VOS records. That gap is worth knowing about: the more of your customers switch, the more of the picture is real."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "Do we need an analyst to make this worth it?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "No. You do not need somebody with that job title. The records are useful on their own when a customer queries a delivery or a rep wants to know what a kitchen has stopped buying, long before anyone builds a report."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "How long until there is enough history to be useful?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "The trail starts from the first order, so a few weeks in you have patterns per account. We do not backfill your old phone orders, because we were not there for them."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Whatever it is fed</div>"
+  ],
+  [
+   "01c57b15-41b7-26ac-60cd-cc5f416f7e09",
+   "<div class=\"uui-text-size-medium-21\">Typed in later</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-text-size-medium-21\">Whatever it is fed</div>"
+  ],
+  [
+   "36292c7f-9656-fa14-a429-eedfe208ed17",
+   "<div class=\"uui-text-size-medium-21\">Email carries a time</div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e4",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "f0a25565-fe6e-c821-4974-3d153187492b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "b3289c99-5fd7-ca67-2627-99dcf1f22d44",
+   "<div class=\"uui-text-size-medium-21\">Varies</div>"
+  ],
+  [
+   "f40dcd31-dc18-1419-dc7d-9ae4c4991128",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   "<div class=\"uui-text-size-medium-21\">Reads from it</div>"
+  ],
+  [
+   "08a9ea6e-ff0f-60b4-f337-ff9134e8f590",
+   "<div class=\"uui-text-size-medium-21\">Manual</div>"
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
+   "<div class=\"uui-text-size-medium-21\">A day or two for most</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-text-size-medium-21\">After a build</div>"
+  ],
+  [
+   "c0a38acf-ad15-6757-3a70-c9cec47703bd",
+   "<div class=\"uui-text-size-medium-21\">Already running</div>"
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/catalog-management-software",
+   "Where the item codes come from"
+  ],
+  [
+   1,
+   "/order-tracking-software",
+   "Following a single order"
+  ],
+  [
+   2,
+   "/distribution-resource-planning-software",
+   "Feeding your distribution plan"
+  ],
+  [
+   3,
+   "/inventory-control-software",
+   "Where shorts cost you margin"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "no",
+   "row": 1,
+   "col": 2
+  },
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1e7",
+   "child": "3e34855f-1038-e4bc-b5ca-43666592d072",
+   "want": "no",
+   "row": 4,
+   "col": 3
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Distributor Analytics Software Runs On Clean Orders.",
+   "lead": "VOS does not draw you a dashboard. It fixes what the dashboard is drawn from: your customers say what they need into the app, and each order arrives itemized, dated and tied to an account.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Want numbers you would defend?",
+   "body": "Start with how an order reaches you. See a spoken order land as a record.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Is VOS distributor analytics software?",
+   "a": "No, and it is better to say so on the way in. VOS builds no dashboards, calculates no KPIs and draws no charts. It is the layer underneath: your customers' spoken orders captured as structured records, numbered, timed and matched to your own codes, then handed to whatever you report with."
+  },
+  {
+   "q": "So what do we actually get to look at?",
+   "a": "On the web you get the orders each account sent from the app, the items on them, its own number and when it was sent, along with the guide it orders from. It is a record you can read back through, not a reporting suite, and nobody here will pretend otherwise."
+  },
+  {
+   "q": "People ask how analytics improve distributor profitability. What is realistic?",
+   "a": "Honest answer: analytics change nothing by themselves, and we publish no figures claiming otherwise. What a reliable order trail lets you do is spot an account whose ordering slipped, or a product nobody reorders. Acting on those is where any gain comes from."
+  },
+  {
+   "q": "Can we get the records into our own warehouse or BI tool?",
+   "a": "Yes, through the delivery route you pick at onboarding: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. From there your own pipeline takes over. An order emailed as a file may still be keyed in by your office. Distributor analytics software downstream sees orders that never passed through a notepad."
+  },
+  {
+   "q": "Does it forecast anything?",
+   "a": "No. VOS runs no forecasting model and predicts nothing about next month. It records what was ordered and when. If a forecast is what you are after, the tool that produces one reads these records rather than retyped phone notes."
+  },
+  {
+   "q": "What about the orders that still come by phone?",
+   "a": "They stay as they are, and they bring no reference or stamp from us, so they will not show up in anything built on VOS records. That gap is worth knowing about: the more of your customers switch, the more of the picture is real."
+  },
+  {
+   "q": "Do we need an analyst to make this worth it?",
+   "a": "No. You do not need somebody with that job title. The records are useful on their own when a customer queries a delivery or a rep wants to know what a kitchen has stopped buying, long before anyone builds a report."
+  },
+  {
+   "q": "How long until there is enough history to be useful?",
+   "a": "The trail starts from the first order, so a few weeks in you have patterns per account. We do not backfill your old phone orders, because we were not there for them."
+  }
+ ],
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Is VOS distributor analytics software?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No, and it is better to say so on the way in. VOS builds no dashboards, calculates no KPIs and draws no charts. It is the layer underneath: your customers' spoken orders captured as structured records, numbered, timed and matched to your own codes, then handed to whatever you report with."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "So what do we actually get to look at?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "On the web you get the orders each account sent from the app, the items on them, its own number and when it was sent, along with the guide it orders from. It is a record you can read back through, not a reporting suite, and nobody here will pretend otherwise."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "People ask how analytics improve distributor profitability. What is realistic?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Honest answer: analytics change nothing by themselves, and we publish no figures claiming otherwise. What a reliable order trail lets you do is spot an account whose ordering slipped, or a product nobody reorders. Acting on those is where any gain comes from."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can we get the records into our own warehouse or BI tool?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes, through the delivery route you pick at onboarding: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. From there your own pipeline takes over. An order emailed as a file may still be keyed in by your office. Distributor analytics software downstream sees orders that never passed through a notepad."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does it forecast anything?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. VOS runs no forecasting model and predicts nothing about next month. It records what was ordered and when. If a forecast is what you are after, the tool that produces one reads these records rather than retyped phone notes."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What about the orders that still come by phone?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "They stay as they are, and they bring no reference or stamp from us, so they will not show up in anything built on VOS records. That gap is worth knowing about: the more of your customers switch, the more of the picture is real."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do we need an analyst to make this worth it?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. You do not need somebody with that job title. The records are useful on their own when a customer queries a delivery or a rep wants to know what a kitchen has stopped buying, long before anyone builds a report."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How long until there is enough history to be useful?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The trail starts from the first order, so a few weeks in you have patterns per account. We do not backfill your old phone orders, because we were not there for them."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.voiceordersolutions.com/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Distributor Analytics Software Runs On Clean Orders",
+      "item": "https://www.voiceordersolutions.com/distributor-analytics-software"
+     }
+    ]
+   },
+   {
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "Reports are only as honest as the orders behind them. VOS hands distributor analytics software itemized, dated order records instead of phone notes.",
+    "url": "https://www.voiceordersolutions.com/distributor-analytics-software",
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD",
+     "description": "Pricing is quote based. Book a demo for a quote."
+    }
+   }
+  ]
+ }
+}

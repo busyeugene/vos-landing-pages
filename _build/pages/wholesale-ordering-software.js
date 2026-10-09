@@ -93,8 +93,7 @@ module.exports = {
     <h2>A wholesale order is 40 lines. One of them is always wrong.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
       Wholesale is not one item in a basket. It is a long, repeating list with
-      pack sizes, unit counts and a price that shifts from customer to customer. Three places
-      that goes sideways:
+      pack sizes, unit counts and a price that shifts from customer to customer. Three places where that goes sideways:
     </p>
 
     <div class="problem-grid">
@@ -181,14 +180,13 @@ module.exports = {
           <p class="mt-12 text-muted">
             This is where wholesale ordering software either fits your business
             or fights it. A buyer only ever sees the items you sell them, at the
-            figures on their own sheet. You keep control of both from one web screen, so a wholesale ordering
-            platform never becomes a second set of prices to maintain.
+            figures on their own sheet. You keep control of both from one web screen, and that screen is the only part of the wholesale ordering platform your team has to learn.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Loaded straight from the sheet you send us</span></li>
             <li><span class="bullet-check">✓</span><span>Change one figure for an account without touching the rest</span></li>
             <li><span class="bullet-check">✓</span><span>Pull a line that is out, and it leaves their guide</span></li>
-            <li><span class="bullet-check">✓</span><span>One figure changes in one place, so nobody is holding a second price list</span></li>
+            <li><span class="bullet-check">✓</span><span>Change a figure once on the web and the next order uses it</span></li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Keeping account guides current →</a>
         </div>
@@ -561,8 +559,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Three things, in this trade. Let a buyer send 40 familiar lines without dialing anyone. Hold the right price and the right unit for that
-          particular account. Deliver the result to the seller in a form their
+          Three things, in this trade. Let a buyer send 40 familiar lines without dialing anyone. Hold that account's own prices and the item codes you sell under. Deliver the result to the seller in a form their
           systems can read. VOS does those three and leaves billing, credit terms
           and the warehouse to the software you have.
         </div>

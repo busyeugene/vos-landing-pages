@@ -1,0 +1,366 @@
+{
+ "slug": "wholesale-ordering-software",
+ "meta_title": "Wholesale Ordering Software for Food Distributors | VOS",
+ "meta_desc": "Buyers speak an order into an app and you receive it priced to their own list. Wholesale ordering software that writes each line against your SKU codes.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Wholesale Ordering Software With A Guide Per Buyer.",
+  "lead": "Your accounts speak an order into the app from the item list you built for them. It reaches you written out in full, at that buyer's own prices, with your SKU codes already on it.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "less work per order than taking it down a phone"
+  },
+  {
+   "num": "24/7",
+   "label": "open, so a buyer can send at 2am if they like"
+  },
+  {
+   "num": "Same Day",
+   "label": "is when most buyers put in their first app order"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "A wholesale order is 40 lines. One of them is always wrong.",
+  "lead": "Wholesale is not one item in a basket. It is a long, repeating list with pack sizes, unit counts and a price that shifts from customer to customer. Three places where that goes sideways:",
+  "cards": [
+   {
+    "h3": "\"They said two, they meant two cases\"",
+    "body": "Cases, sleeves, each: the unit never gets said out loud on a call. The short turns up on the dock next morning instead."
+   },
+   {
+    "h3": "\"That is not the price we gave them\"",
+    "body": "Each account has its own agreed list. Pull a price off the wrong one and you are either losing margin or making an awkward call."
+   },
+   {
+    "h3": "\"We key the same order in twice\"",
+    "body": "Once on the notepad while they talk, again into the system afterwards. Two chances to mistype a code nobody checks."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "Line By Line",
+  "h2": "What wholesale ordering software has to carry on each line",
+  "rows": [
+   {
+    "eyebrow": "Said, Then Checked",
+    "h3": "A wholesale ordering app your buyer talks through.",
+    "body": "The buyer works down the guide out loud: item, how many, next. The app writes it up as they go, and they read the finished list back before it leaves. Catching a stray quantity is their job, on their screen, not yours on the dock.",
+    "bullets": [
+     "Each line tied to one of your own SKUs",
+     "The buyer signs off every line before it sends",
+     "Walk off mid-order and the app keeps what was said",
+     "An alert on their phone, or a text, once it reaches you"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "Moving accounts off the telephone →"
+    }
+   },
+   {
+    "eyebrow": "Their List, Your Numbers",
+    "h3": "One guide per account, at the prices you agreed.",
+    "body": "This is where wholesale ordering software either fits your business or fights it. A buyer only ever sees the items you sell them, at the figures on their own sheet. You keep control of both from one web screen, and that screen is the only part of the wholesale ordering platform your team has to learn.",
+    "bullets": [
+     "Loaded straight from the sheet you send us",
+     "Change one figure for an account without touching the rest",
+     "Pull a line that is out, and it leaves their guide",
+     "Change a figure once on the web and the next order uses it"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping account guides current →"
+    }
+   },
+   {
+    "eyebrow": "Into Your Systems",
+    "h3": "The front door to your wholesale order management software.",
+    "body": "VOS takes the orders in; it does not replace the back office. Orders leave us in the shape you asked for, whether that is a file in an inbox, a QuickBooks entry, or a feed wired into your ERP. Whatever wholesale ordering system you run stays exactly where it is.",
+    "bullets": [
+     "SKU codes on the order when it arrives, not added later",
+     "Where the route is EDI, an API feed or QuickBooks, no one re-enters a line",
+     "One delivery format agreed with you at onboarding",
+     "Your invoicing, your credit rules and your reporting carry on"
+    ],
+    "link": {
+     "href": "/order-fulfillment-software",
+     "text": "From a sent order to the dock →"
+    }
+   },
+   {
+    "eyebrow": "A Record Per Order",
+    "h3": "Dated history for the accounts ordering in the app.",
+    "body": "Orders sent through VOS each get a number and the time they went out, filed under the account that placed them. Plain wholesale order software stops at taking the order. Having the history is what settles a \"we never asked for that\" conversation in about ten seconds.",
+    "bullets": [
+     "Who ordered it, and the minute it was sent",
+     "Look up an earlier app order from one screen on the web",
+     "Reps see an account's buying pattern before they visit",
+     "Orders taken by phone or voicemail carry no number, so fewer of those helps"
+    ],
+    "link": {
+     "href": "/order-tracking-software",
+     "text": "Checking where an order got to →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "The rest of what a wholesale week needs.",
+  "lead": "Pieces that matter once the first dozen buyers have switched.",
+  "items": [
+   {
+    "h3": "Nothing For Buyers To Learn",
+    "body": "They say what they say on the phone now. There is no catalog tree to learn and no training session to book."
+   },
+   {
+    "h3": "Admin On One Screen",
+    "body": "Guides, accounts and past orders live together on the web, so a price change takes a minute rather than a ticket."
+   },
+   {
+    "h3": "Works For DSD Routes Too",
+    "body": "Direct store delivery accounts can send ahead of the stop, so the truck is loaded against orders rather than a hunch."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See a 40-line order come in clean",
+  "body": "Book 20 minutes and follow one order from a kitchen to your office.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Simple Setup",
+  "h2": "From a spreadsheet to live orders",
+  "lead": "No migration, no data project. You give us the lists you keep already, and we do the loading.",
+  "items": [
+   {
+    "h3": "Hand over the price sheets",
+    "body": "One sheet per account: items, prices and SKU codes. However you keep them today is usually fine."
+   },
+   {
+    "h3": "We build the guides and accounts",
+    "body": "Each buyer ends up with their own list in the app, on iPhone or Android. For most distributors that is a day or two of work on our side."
+   },
+   {
+    "h3": "Pick where orders should land",
+    "body": "Email, EDI, QuickBooks or a direct connection, agreed once. App orders keep taking that route from then on."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "The order lands clean. Your office keeps the rest.",
+  "h2_lines": [
+   "The order lands clean.",
+   "Your office keeps the rest."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "Good wholesale ordering software knows its own edges. VOS is the intake layer: invoicing, credit and warehouse work stay with the systems that already do them, and this table says so plainly.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Wholesale ERP Order Module",
+   "Phone, Fax + Email"
+  ],
+  "rows": [
+   {
+    "label": "Buyers place orders themselves, any hour",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "text",
+      "v": "Fax or voicemail will take it"
+     }
+    ]
+   },
+   {
+    "label": "Order spoken, delivered as a written list",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Lines tied to your own SKUs",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Typed in later"
+     }
+    ]
+   },
+   {
+    "label": "Per-account price sheets",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Manual lookup"
+     }
+    ]
+   },
+   {
+    "label": "Up and running with no IT project",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Invoicing, credit limits and statements",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Picking, packing and warehouse moves",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "Varies"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Sends orders on by EDI, API or QuickBooks",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "It is the destination"
+     },
+     {
+      "t": "text",
+      "v": "Manual"
+     }
+    ]
+   },
+   {
+    "label": "What a buyer has to learn",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Nothing, they talk"
+     },
+     {
+      "t": "text",
+      "v": "A screen and a login"
+     },
+     {
+      "t": "text",
+      "v": "Your office hours"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Wholesale ordering, answered plainly",
+  "items": [
+   {
+    "q": "What does wholesale ordering software actually have to do?",
+    "a": "Three things, in this trade. Let a buyer send 40 familiar lines without dialing anyone. Hold that account's own prices and the item codes you sell under. Deliver the result to the seller in a form their systems can read. VOS does those three and leaves billing, credit terms and the warehouse to the software you have."
+   },
+   {
+    "q": "How do buyers get the units right when they are talking?",
+    "a": "The guide we load holds each item as a SKU you sell, so nobody has to guess which pack was meant. The buyer then sees the full order written out and approves it before sending. The safeguard is that read-back, and it belongs to the person who knows what they meant."
+   },
+   {
+    "q": "Is this wholesale order taking software, or something for the buyer?",
+    "a": "Both sides of the same order. The buyer gets an app with their own guide; you get the order in your format, with history per account. If your question is mainly about getting accounts off the phone, our order taking page covers that side in more detail."
+   },
+   {
+    "q": "Does it handle the warehouse side as well?",
+    "a": "No. If you are shopping for wholesale order fulfillment software to run bins, pick paths or packing, VOS is not that and will not pretend to be. What it does for fulfillment is hand your pickers complete, confirmed orders earlier in the day."
+   },
+   {
+    "q": "Will it fit alongside the ERP we already have?",
+    "a": "That is the normal setup. Wholesale ordering software sitting in front of an existing ERP is what VOS is built for. Orders land by email as PDF, Excel or Word, by EDI, inside QuickBooks, or down an API link, and the ERP stays the system of record. Nothing migrates."
+   },
+   {
+    "q": "Can we set order minimums or a cut-off time?",
+    "a": "VOS does not enforce order rules such as minimums, delivery days or a cut-off, so those stay where they are today, in your agreement with the account and in your own system. What changes is that orders tend to arrive earlier, which makes a cut-off easier to hold in practice."
+   },
+   {
+    "q": "Do we have to move every account over at once?",
+    "a": "No, and there is no need to. Start with the customers who order two or three times a week, because that is where the hours are. The rest keep calling, and their orders get written up the way they always were."
+   },
+   {
+    "q": "How long before we are taking orders this way?",
+    "a": "For most distributors, 24 to 48 hours. We load the guides, open the accounts and connect the delivery format you picked. There is no implementation phase and no IT work on your side. Most buyers order on the day they are set up."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Ready for orders that land priced and coded?",
+  "body": "See how a spoken list arrives as a coded, priced order.",
+  "cta": "Book a Free Demo →"
+ }
+}

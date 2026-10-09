@@ -17,12 +17,14 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - `sitemap.xml` and `robots.txt` sit at the repo root and are served as-is.
 - `.vercel/` is gitignored (holds the local project link).
 - Canonicals point at `https://vos-landing-pages.vercel.app`. If these pages ever move onto `voiceordersolutions.com`, every canonical, `og:url`, and `sitemap.xml` entry has to be updated.
-- **This deployment is noindex (Eugene, 2026-10-07).** It is a review mirror, not the SEO property: 12 of these slugs also live on `voiceordersolutions.com` in Webflow, so indexed copies here would compete with the client's own domain. Two layers, both generated, so never hand-edit `vercel.json` or the root HTML:
+- **This deployment is noindex (Eugene, 2026-10-07).** It is a review mirror, not the SEO property: every one of these slugs also lives on `voiceordersolutions.com` in Webflow, so indexed copies here would compete with the client's own domain. Two layers, both generated, so never hand-edit `vercel.json` or the root HTML:
   - `<meta name="robots" content="noindex, nofollow" />` in every page head, written by `build.js` (and patched into `index.html` by `gen-site.js`).
   - `X-Robots-Tag: noindex, nofollow` on `/(.*)` via the `headers` block in `vercel.json`, written by `gen-site.js`. This also covers `sitemap.xml` and anything non-HTML.
   - `robots.txt` deliberately stays on `Allow: /`: a crawler has to fetch a page to see the noindex, so a `Disallow` would hide the directive and could leave URLs indexed. The sitemap entry stays for the same reason, so the noindex is discovered quickly.
   - **To make these pages the live SEO property**, remove both layers and re-point every canonical and `og:url` at the real domain. Removing one layer alone is not enough.
-- **12 of the pages also live on `voiceordersolutions.com`** (the batch 1+2 slugs), ported into Webflow by the client. Pushing here does **not** update those copies; tell Eugene when a change should be carried over. As of 2026-09-15 the Webflow copies predate both the 8-pass review and the 4-pass publish check (commit `9ceb245`: new H1 on visibility, new metas on 11 pages, claim fixes on all 16), and carry porting typos ("Real-trime", "resteraunt"). All 12 need re-porting.
+- **All 26 feature pages also live on `voiceordersolutions.com`** in Webflow. Pushing here does **not** update those copies; tell Eugene when a change should be carried over. Checked 2026-10-09:
+  - The **16** batch-1/2/3 slugs were ported by the client and are published with current metas. (An earlier note here said 12; it was wrong.) Their body copy still predates the 8-pass review and the 4-pass publish check (commit `9ceb245`: new H1 on visibility, new metas on 11 pages, claim fixes on all 16) and carries porting typos ("Real-trime", "resteraunt"), so all 16 still need a copy re-port.
+  - The **10** batch-4 slugs were ported on 2026-10-09 via the Webflow MCP and are **drafts, not published**. See the Webflow port section below.
 
 ## Pages built
 
@@ -248,6 +250,107 @@ node phrasecheck.js <slug> "candidate copy"   # BEFORE writing: would this wordi
 Competitor research digests for every primary keyword (Sep 2026 review) live in `_build/research/digests/`.
 
 `_build/registry.js` is the source of truth for every page. See `_build/README.md` for how to add a page.
+
+## Webflow port (`_webflow/`)
+The client's live site is Webflow, and the batch-4 pages were ported there as **drafts** on
+2026-10-09 (site `69bc131a5fdaa09a10456d46`). Generated artifacts live in `_webflow/`; the root HTML
+stays the source of truth and the port is one-way (repo to Webflow).
+
+```
+python extract-content.py     # root HTML -> content/<slug>.json (hero, stats, rows, cards, cmp, faq)
+python gen-ops.py             # content + map.json -> ops/<slug>.json (text, embed, links, delete)
+python gen-schema.py          # -> schema/<slug>.json, the JSON-LD graph for the native schema field
+python batches.py <slug> text|embed|rest [size]   # prints ready-to-send MCP action arrays
+```
+
+**Webflow page duplication preserves element UUIDs.** Duplicate every new page from one donor
+landing page and a single element-id map (`_webflow/map.json`) then works on all of them, so there
+is no per-page element discovery. Donor: `restaurant-checklist-software`, picked because it
+minimises comparison-table cell-type conversions (16 across 10 pages, vs ~87-123 for other donors).
+Keep the author's original row order; it preserves the argument and costs fewer conversions.
+
+**Four API rules worth not rediscovering:**
+- `set_text` fails on a plain `Block`. Target its `String` child (Block id + 1 in the last hex
+  group). The three eyebrows and the comparison text cells break that rule and are stored
+  explicitly in `map.json`.
+- Component prop values take the key **`string_value`**.
+- `set_settings` wants `static_text: {value: "..."}`; `set_link` wants flat
+  `linkType: "page"` + `link: "<pageId>"`.
+- Designer style names use a space for combos: `"uui-text-size-medium 21"`.
+- About 47 actions per MCP call is safe.
+
+**Schema goes in the native page field, not page head code** (duplication does not copy head code
+anyway). `bulk_update_pages_schema_markup` takes `jsonLdSchema` as a real JSON object, so no string
+escaping, and it echoes back what it stored. An unchanged `lastUpdated` means the content was
+already identical, which is a free way to tell whether a page needed the write.
+
+**FAQ accordions cannot be added.** Webflow IX2 binds the accordion interaction per element via
+`data-w-id`, so an inserted item renders dead. The donor carries 8 slots, so a 9-FAQ page has two
+related FAQs **merged** instead; record every such decision in `_webflow/overrides.json`.
+
+**Map every slot, then prove it.** The first port wrote the feature-row H3s, bodies, bullets and
+the comparison *column heads*, but not the features section eyebrow, the four row eyebrows, or the
+comparison H2 and lead. Those were extracted and silently never written, so the **donor's** copy sat
+on all ten pages: ten pages telling a distributor "As restaurant checklist software... for
+temperature logs and staff to-do lists". Two independent buyer reviewers called it the single most
+damaging thing in the set. The detector is cheap and general, so run it after any port:
+
+> for each ported page, list every string on the Webflow page that appears in the **donor's** repo
+> page but **not** in that page's own repo source. Shared chrome appears in both and does not flag.
+> Expect zero. Do not put a length floor on it; an 11-character eyebrow hid two of the eight.
+
+The comparison H2 renders as **two lines split by a `<br>`, held as two sibling String nodes**: write
+each half separately or the break collapses. `map.json` carries both ids.
+
+**Review the ported page, not the source.** The leftover copy was invisible to every gate and to any
+reviewer reading `_build/pages/*.js`, because the repo was correct. Generate reviewer outlines from
+the live Webflow tree. Two corollaries, both seen here: a reviewer handed a faithful extract of a
+defective page will usually blame the extract ("the outlines are contaminated"), so say in the brief
+that the extract is authoritative; and **check what window a checker measured in** -- one
+fact-checker read `ops/` and `map.json` *after* the generators were patched, saw the fix, and
+reported the live pages clean. Direct measurement of the live pages beat its inference.
+
+**A `✗` reference does not survive the port.** Three comparison leads said "the ✗ marks below say
+where it stops". Webflow renders "no" as a grey dash SVG, so the sentence pointed at nothing. Reworded
+to "the table below" in the repo so both renderings stay true.
+
+**The Webflow template is narrower than the repo's 16-section one:** no related strip and no footer
+"More From VOS" column, so 4 inline sibling links rather than 8. That matches the 16 pages already
+live, so it is the expected shape, not a gap to fill.
+
+## Lessons from the Oct 2026 editorial check (4 passes, after the Webflow port)
+Run in this order, cheapest-catch-first. Passes 1 and 2 are mechanical and found the worst defect.
+
+1. **Port fidelity.** Diff the live Webflow text against `ops/*.json`. See the Webflow port section
+   for the unported-slot detector; it is the one defect class the gates cannot see.
+2. **Schema vs accordion.** The `FAQPage` JSON-LD must match the rendered FAQ exactly. Compare the
+   `Question` nodes against the page's own accordion text, not against the source.
+3. **Fresh eyes on the ported copy** (buyer x2, fact-checker x2, proposition-sameness x1).
+4. **Verification round** on everything pass 3 changed.
+
+- **A claim recorded as fixed can still be live.** The KB's Q15 says four pages' substitution claims
+  were "All removed"; one was still on `inventory-forecasting`, and a second instance sat in its
+  FAQ 2. Grep the KB's own Q14-Q21 wording against the built pages instead of trusting the log.
+- **Fixing claims breaks the keyword gates.** Removing an overclaim removed the only instance of the
+  secondary `wholesale ordering platform`, and rewriting a price FAQ dropped the
+  `wholesale operations software` primary from 6 to 5 **and** broke its FAQ split. Always re-run
+  `qa.js` + `kwaudit.js` after a claim pass; restore the phrase in a sentence that stays true.
+- **The dedupe loop recurs on every edit round**, exactly as the Sep 2026 note says: 30 fixes created
+  4 cross-page trigrams and 4 in-page repeats, cleared over three rounds (4 -> 4 -> 1 -> 0). Run
+  `phrasecheck.js` on each replacement *before* writing it; it rejected three candidates here
+  ("sits in front", "a phone call", "looks like when" were each already on 2 pages).
+- **Measure a register or typography "finding" before fixing it.** One curly apostrophe looked like a
+  port bug; counting the site showed 397 straight to 1 curly, so the repo was wrong and Webflow was
+  right. Same for British register: sweep all 26 pages, and do not "fix" correct US usage
+  ("holiday weeks", "task queue" are fine; "rota", "rostered", "Cover is easy" are not).
+- **Verify each reviewer finding against its own evidence.** One recommendation to cut a card was
+  contradicted by the reviewer's own quote of that card, which did carry a distinct consequence.
+- **Proposition sameness is a separate, larger job than a claim pass.** Measured on this batch: the
+  analytics/forecasting pair shares a proposition in all four feature rows in the same slot order,
+  the stock row is the default row 4 on four pages, and the card cap holds 9 of 11 times. Two of
+  those are separation-contract breaches (automation carrying a stock card, b2b-portal row 4 selling
+  distributor-sales) and should be fixed as defects. The rest is ~15 rows/cards across 8 pages and
+  needs its own gate cycle, so scope it with Eugene rather than folding it into an editorial pass.
 
 ## Workflow
 1. Eugene produces content brief or keyword targets

@@ -160,10 +160,7 @@ module.exports = {
           <span class="eyebrow">Demand, Not Invoices</span>
           <h3>Give an inventory forecasting tool what customers asked for.</h3>
           <p class="mt-12 text-muted">
-            An invoice records what left the building. The order records what the
-            kitchen wanted, including the lines you had to substitute or could
-            not fill. Feed inventory forecasting software the second one and you
-            are modeling demand rather than modeling your own shortages.
+            An invoice records what left the building. The order records what the kitchen asked for, in their own words, before anyone on your side touched it. Feed inventory forecasting software the second one and you are modeling demand rather than modeling what you shipped.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>The quantity requested, as the customer said it</span></li>
@@ -303,10 +300,9 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🗄️</div>
-        <h4>Searchable On The Web</h4>
+        <h4>One Screen On The Web</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Your staff open one screen to find an account, its guide, or something
-          ordered last month.
+          Your staff open one screen for an account, its guide and the orders it has sent.
         </p>
       </div>
 
@@ -463,7 +459,7 @@ module.exports = {
       <span class="eyebrow">Why VoiceOrder Solutions</span>
       <h2>We do not forecast.<br>We fix what gets forecast from.</h2>
       <p class="lead mt-16">
-        Read the ✗ marks in our column as the point of the page. VOS computes nothing about the future, and a planning suite captures
+        Read what our column does not claim as the point of the page. VOS computes nothing about the future, and a planning suite captures
         nothing while a buyer is talking. They are different jobs.
       </p>
     </div>
@@ -585,9 +581,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Often the reason a forecast is wrong is what went into it.
-          Phone orders retyped a day late, invoices standing in for demand, no
-          record of what you could not fill. Fix the capture and the tool you already own has something better to
-          read.
+          Phone orders retyped a day late, and invoices standing in for demand. Fix the capture and the tool you already own has something better to read.
         </div>
       </div>
 

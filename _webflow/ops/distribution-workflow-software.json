@@ -1,0 +1,654 @@
+{
+ "slug": "distribution-workflow-software",
+ "meta_title": "Distribution Workflow Software for Order Handoffs | VOS",
+ "meta_desc": "One path from the customer's order to your delivery, the same on every shift. VOS is the distribution workflow software for the first leg of that path.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "the same path, whether or not anyone is in"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "less handling on each order that takes it"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "to put one shared path in place for most distributors"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Sound Familiar?"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "There is a process. It lives in four people's heads."
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "Ask two staff how an order gets from a chef to the pick list and you get two answers. That is not a documentation problem, it is a path problem:"
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "\"It depends who picks up\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "One takes it on a pad, one texts it to the warehouse, one remembers to enter it. Same business, three paths."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "\"Only Dave knows that account\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "Which items they get, what price, who to call about a short. When Dave is off, the account gets guesswork."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "\"It fell between two people\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "The order was taken and never entered, or entered twice. Nobody can tell you where it stopped, because nothing recorded the handoff."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "What distribution workflow software has to pin down"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "One Path, Written Down"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "The Path Starts Outside"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "The customer takes the first step, not your staff."
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "Today the path begins when somebody of yours answers a phone, which means it begins differently every time. Move that start to the buyer and it is identical each time: their guide, their words, their approval."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "Begins with whoever knows what is needed"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Items and prices come from the guide set up for them"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "No dependency on who is on shift"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "The same at 6am and at 11pm"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "One Handoff, Not Four"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Distribution workflow management software, without the build."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "You do not need a rules engine to fix this. Orders leave the app by one route you agree with us and land identically each time, which is most of what people want from distribution workflow software in the first place."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "One delivery method, agreed with you up front"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "A file by email, a QuickBooks entry, EDI or a live connection"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "With a direct feed nobody has to key it in"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Nothing for your team to remember to forward"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Handoffs On Record"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "You can tell where an order got to."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "Anything out of the app has a reference, a stamped time and the account attached, so \"did that come in?\" has an answer. Any distribution workflow solution worth running has to make the handoff visible, and that is the piece a telephone call never provides."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "A reference number on anything sent from the app"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "The buyer gets a confirmation when it lands"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Kept by account on one screen"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Phone orders stay invisible to this, as they always were"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Exceptions Still Need People"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "A short is a conversation. Have it earlier."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "Nothing automates away a line you cannot fill. What changes is the timing: with stock visibility moving alongside the ordering, your people are looking at it while there is still a morning to act in."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Stock across the catalog, moving as your levels do"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Orders in earlier, so substitutions are not last minute"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "A person decides the swap, every time"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "Sits next to the stock tools you run now"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Also Built In"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "Things that keep the path clean."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "Small by themselves, and the reason the process does not drift back."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Account Knowledge Out Of Heads"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "What an account buys and at what price lives in its guide, not in one colleague's memory of a conversation."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Approval Sits With The Buyer"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "They read the lines and send them. There is no internal sign-off step to chase on your side."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "A Day Off Is Not A Crisis"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "With the path outside your staffing, somebody being off does not change how an account's order arrives."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "Draw your order path with us in 20 minutes"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "Tell us how it runs today and we will point at the legs this would replace."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Simple Setup"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "Agreeing the path takes one conversation"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "There is nothing to diagram and no process to write up. You tell us two things, we do the rest."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "What each account can order"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "A guide per customer: items, your prices, your codes. However it is held today usually works."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "Where finished orders land"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "The same destination for every account: an inbox, QuickBooks, EDI or the API. That decision is the whole workflow design."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "We set each account up and off it goes"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "For most distributors the whole thing takes 24 to 48 hours. Buyers get the app and usually order the same day."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "No diagram to draw."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "One leg done properly."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "Distribution workflow software can mean a modeling platform, or it can mean one dependable path. If you want to model the whole business, you want the middle column. If you want orders turning up in one predictable shape, read ours."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "Workflow / BPM Platform"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ac",
+   "However It Runs Today"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Order starts the same way each time"
+  ],
+  [
+   "89a5813a-10f6-6ba1-6eed-d733971a550a",
+   "Once modeled"
+  ],
+  [
+   "69912303-d2fb-9ab3-1702-1f1be793965e",
+   "Depends who answers"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "A single way in to your systems"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Handoff leaves a reference and a time"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Works when a key person is away"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Drag-and-drop process designer"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Internal approval chains and task queues"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Covers warehouse, delivery and billing steps"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Needs somebody to own and maintain it"
+  ],
+  [
+   "49d5bbd0-d3ae-abea-0d72-ee591beda269",
+   "Everybody, informally"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Time until it is working"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "What people ask about the process"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Is VOS distribution workflow software in the usual sense?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "Not in the sense of a tool you design processes in. There is no canvas, no rules engine, no task queue and no approval chain here. What VOS does is make one leg of the path fixed: how a customer's order is created and how it reaches you. Everything downstream stays yours to run."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Can we build different paths for different accounts?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "The guide is per account, so what a customer can order and at what price varies. Where a completed order goes is agreed with us up front, so it lands the same way whoever is on shift. Fewer variations is the point, and it is why this needs no maintenance."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Who handles it when an item is out?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "A person on your team, as now. VOS does not decide substitutions or notify anybody on your behalf. The difference is that orders tend to arrive earlier and stock levels are visible beside them, so the decision happens before picking rather than during it."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Do we need to write the process down first?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "No, and that is much of the appeal. Adopting distribution workflow software normally starts with weeks of mapping. Here you decide two things, the guides and the delivery method, and the path follows from those."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "How does this work while half our accounts still phone?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "You will be running two paths for a while, and it is better to admit that than pretend otherwise. Calls get written up as they are now, with no reference or send time attached. The app path grows as accounts move across."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "Does it connect to the systems we already use?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "Yes, by whichever single route suits you: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. Take one of the direct feeds and there is no entry step at all."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "Will our staff have to work differently?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "They work in the same systems they do now. What changes is what turns up in them: finished, coded orders in place of messages to interpret. Nobody has to learn a new screen on your side of the path."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "What size of distributor is this aimed at?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "Smaller food distributors, independents and DSD rounds included. You need no IT staff, nobody to own the process and no enterprise contract, and we quote per distributor rather than publishing a price list."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Once built</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "36292c7f-9656-fa14-a429-eedfe208ed17",
+   "<div class=\"uui-text-size-medium-21\">Only on email</div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "f0a25565-fe6e-c821-4974-3d153187492b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "f40dcd31-dc18-1419-dc7d-9ae4c4991128",
+   "<div class=\"uui-text-size-medium-21\">By email</div>"
+  ],
+  [
+   "08a9ea6e-ff0f-60b4-f337-ff9134e8f590",
+   "<div class=\"uui-text-size-medium-21\">Partly</div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21c",
+   "<div class=\"uui-text-size-medium-21\">No</div>"
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   "<div class=\"uui-text-size-medium-21\">Yes</div>"
+  ],
+  [
+   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
+   "<div class=\"uui-text-size-medium-21\">A day or two for most</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-text-size-medium-21\">A project</div>"
+  ],
+  [
+   "c0a38acf-ad15-6757-3a70-c9cec47703bd",
+   "<div class=\"uui-text-size-medium-21\">It is working, after a fashion</div>"
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/catalog-management-software",
+   "Keeping account guides right"
+  ],
+  [
+   1,
+   "/order-fulfillment-software",
+   "What the pickers receive"
+  ],
+  [
+   2,
+   "/order-tracking-software",
+   "Following an order through"
+  ],
+  [
+   3,
+   "/inventory-control-software",
+   "Where shorts and substitutions cost margin"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1e7",
+   "child": "3e34855f-1038-e4bc-b5ca-43666592d072",
+   "want": "no",
+   "row": 4,
+   "col": 3
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Distribution Workflow Software That Holds Every Shift.",
+   "lead": "VOS builds you no flowchart. It settles the first leg instead. The restaurants on your books talk their order into the app, and it reaches your team by one agreed route, in one shape, whoever happens to be working.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Ready for one way of doing it?",
+   "body": "See the path one order follows, from a kitchen's phone into your systems.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Is VOS distribution workflow software in the usual sense?",
+   "a": "Not in the sense of a tool you design processes in. There is no canvas, no rules engine, no task queue and no approval chain here. What VOS does is make one leg of the path fixed: how a customer's order is created and how it reaches you. Everything downstream stays yours to run."
+  },
+  {
+   "q": "Can we build different paths for different accounts?",
+   "a": "The guide is per account, so what a customer can order and at what price varies. Where a completed order goes is agreed with us up front, so it lands the same way whoever is on shift. Fewer variations is the point, and it is why this needs no maintenance."
+  },
+  {
+   "q": "Who handles it when an item is out?",
+   "a": "A person on your team, as now. VOS does not decide substitutions or notify anybody on your behalf. The difference is that orders tend to arrive earlier and stock levels are visible beside them, so the decision happens before picking rather than during it."
+  },
+  {
+   "q": "Do we need to write the process down first?",
+   "a": "No, and that is much of the appeal. Adopting distribution workflow software normally starts with weeks of mapping. Here you decide two things, the guides and the delivery method, and the path follows from those."
+  },
+  {
+   "q": "How does this work while half our accounts still phone?",
+   "a": "You will be running two paths for a while, and it is better to admit that than pretend otherwise. Calls get written up as they are now, with no reference or send time attached. The app path grows as accounts move across."
+  },
+  {
+   "q": "Does it connect to the systems we already use?",
+   "a": "Yes, by whichever single route suits you: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. Take one of the direct feeds and there is no entry step at all."
+  },
+  {
+   "q": "Will our staff have to work differently?",
+   "a": "They work in the same systems they do now. What changes is what turns up in them: finished, coded orders in place of messages to interpret. Nobody has to learn a new screen on your side of the path."
+  },
+  {
+   "q": "What size of distributor is this aimed at?",
+   "a": "Smaller food distributors, independents and DSD rounds included. You need no IT staff, nobody to own the process and no enterprise contract, and we quote per distributor rather than publishing a price list."
+  }
+ ],
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Is VOS distribution workflow software in the usual sense?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Not in the sense of a tool you design processes in. There is no canvas, no rules engine, no task queue and no approval chain here. What VOS does is make one leg of the path fixed: how a customer's order is created and how it reaches you. Everything downstream stays yours to run."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can we build different paths for different accounts?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The guide is per account, so what a customer can order and at what price varies. Where a completed order goes is agreed with us up front, so it lands the same way whoever is on shift. Fewer variations is the point, and it is why this needs no maintenance."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Who handles it when an item is out?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A person on your team, as now. VOS does not decide substitutions or notify anybody on your behalf. The difference is that orders tend to arrive earlier and stock levels are visible beside them, so the decision happens before picking rather than during it."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do we need to write the process down first?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No, and that is much of the appeal. Adopting distribution workflow software normally starts with weeks of mapping. Here you decide two things, the guides and the delivery method, and the path follows from those."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How does this work while half our accounts still phone?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "You will be running two paths for a while, and it is better to admit that than pretend otherwise. Calls get written up as they are now, with no reference or send time attached. The app path grows as accounts move across."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does it connect to the systems we already use?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes, by whichever single route suits you: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. Take one of the direct feeds and there is no entry step at all."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Will our staff have to work differently?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "They work in the same systems they do now. What changes is what turns up in them: finished, coded orders in place of messages to interpret. Nobody has to learn a new screen on your side of the path."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What size of distributor is this aimed at?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Smaller food distributors, independents and DSD rounds included. You need no IT staff, nobody to own the process and no enterprise contract, and we quote per distributor rather than publishing a price list."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.voiceordersolutions.com/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Distribution Workflow Software That Holds Every Shift",
+      "item": "https://www.voiceordersolutions.com/distribution-workflow-software"
+     }
+    ]
+   },
+   {
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "One path from the customer's order to your delivery, the same on every shift. VOS is the distribution workflow software for the first leg of that path.",
+    "url": "https://www.voiceordersolutions.com/distribution-workflow-software",
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD",
+     "description": "Pricing is quote based. Book a demo for a quote."
+    }
+   }
+  ]
+ }
+}

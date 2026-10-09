@@ -78,7 +78,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">24/7</div>
-      <div class="stat-label">intake, with nobody rostered to answer it</div>
+      <div class="stat-label">intake, with nobody on shift to answer it</div>
     </div>
   </div>
 </section>
@@ -90,7 +90,7 @@ module.exports = {
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container text-center">
     <span class="eyebrow">Sound Familiar?</span>
-    <h2>You bought good systems. The orders still arrive by voice.</h2>
+    <h2>You bought good systems. Nobody captures the order at the start.</h2>
     <p class="lead mt-16" style="margin: 16px auto 0;">
       Most wholesale businesses have perfectly decent software from the moment
       an order is entered onward. The trouble is everything before that:
@@ -419,8 +419,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "The morning typing is gone. Same team, same software, different
-            start to the day."
+            "The morning pile of messages is gone. Same team, same software, different start to the day."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -585,9 +584,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It does mean the guides in VOS hold the prices your customers order
-          at, so those need to stay right. In practice that is one screen on the web, and your own team does it. Decent wholesale operations software
-          should not make price upkeep somebody's new job, and this does not.
+          Yes, in one place. The guides in VOS hold the prices your customers order at, so those have to stay right. Any wholesale operations software with guides of its own works that way, and your own team edits them on one web screen.
         </div>
       </div>
 
@@ -633,9 +630,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Unlikely. VOS is aimed at smaller distributors, DSD rounds included, and there is
-          no IT requirement and no implementation team.
-          Pricing is by quote for each distributor.
+          No. VOS is aimed at smaller distributors, DSD rounds included, and there is no IT requirement and no implementation team. Pricing is by quote for each distributor.
         </div>
       </div>
 

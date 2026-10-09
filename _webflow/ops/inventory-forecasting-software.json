@@ -1,0 +1,673 @@
+{
+ "slug": "inventory-forecasting-software",
+ "meta_title": "Order History for Inventory Forecasting Software | VOS",
+ "meta_desc": "VOS is not a forecasting engine. It captures customer orders by voice, dated and itemized, so your inventory forecasting software starts from fact.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "intake, so weekend demand is not invisible"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "is all most distributors wait to begin collecting"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "no longer spent writing one order down"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Sound Familiar?"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "A forecast is arithmetic. The hard part is what you feed it."
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "Distributors rarely struggle with the math. They struggle because the history underneath it was never recorded properly:"
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "\"It lives on invoices, not orders\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "You know what shipped. Nobody kept a record of what was asked for."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "\"Everything is dated Monday\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "Calls from Friday and Sunday all get keyed in together, so the shape of the week disappears before anyone sees it."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "\"We bought the tool and it guessed\""
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "Point a clever model at thin, retyped history and it produces confident nonsense. Nobody trusts it twice."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "What your inventory forecasting software is working from"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "Better Input"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Demand, Not Invoices"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Give an inventory forecasting tool what customers asked for."
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "An invoice records what left the building. The order records what the kitchen asked for, in their own words, before anyone on your side touched it. Feed inventory forecasting software the second one and you are modeling demand rather than modeling what you shipped."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "The quantity requested, as the customer said it"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Each line against the code you sell it under"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Confirmed by the buyer before it reached you"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "Kept per account, so patterns are per customer"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "The Clock Matters"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Orders dated when they happened, not when they were typed."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "Each order from the app arrives with the hour it was sent. Weekend and late-night demand stops collapsing into Monday, which is usually the first thing inventory forecast software gets wrong about a food business."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "A timestamp from the moment of ordering"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "Its own reference number, for tracing one back"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "Nothing waits in voicemail to be entered"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Captured whether or not your office is open"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Where VOS Stops"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Next to your forecasting and inventory management software."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "To be unambiguous: VOS calculates nothing. There is no seasonality setting, no safety stock rule and no reorder point in it. Whatever inventory forecasting system you own keeps doing the thinking, and we hand it cleaner history to work from."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Records delivered by whichever route you choose"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "On the direct routes nothing is keyed a second time"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Your ERP and your inventory system stay in charge"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "No model, no tuning, no data science on your side"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Today's Shelf"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "See what is on hand while orders land."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "A projection is one half of the decision. VOS shows live stock that shifts with the ordering, and customer guides move when levels do. Any inventory forecasting solution looks at next month; this shows what is on the shelf now."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Stock across the full catalog, not only today's lines"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer surprises before a picking day"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Levels are read from your own stock records"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "The demo shows how your stock levels connect"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Also Built In"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "What comes along with it."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "None of this predicts anything. All of it is useful anyway."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Per-Account Patterns"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Because history is filed by account, you can see which kitchens changed their ordering and which did not."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "One Code Per Product"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "Orders arrive against your own catalog, so nothing has to be reconciled across three spellings afterwards."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "One Screen On The Web"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "Your staff open one screen for an account, its guide and the orders it has sent."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "See the history a month of app orders leaves"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "On a 20-minute call you will know exactly which fields would reach the tool that does the calculating."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Simple Setup"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "Collecting properly by this time next week"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "There is no implementation and nothing to calibrate. You hand over item lists, we open accounts, history begins."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Hand over the guides"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "What a given account buys, priced as you agreed, carrying your codes. Whatever format you keep them in."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "We load them and open accounts"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "A day or two for most distributors. Buyers get the app and talk to it; nothing is asked of your IT staff."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Pick where records go"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Email, EDI, QuickBooks or straight into the system that does your planning. Set once, then left alone."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "We do not forecast."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "We fix what gets forecast from."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "Read what our column does not claim as the point of the page. VOS computes nothing about the future, and a planning suite captures nothing while a buyer is talking. They are different jobs."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "Forecasting / Demand Planning Suite"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ac",
+   "Spreadsheet + Phone Orders"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Records what the customer actually asked for"
+  ],
+  [
+   "69912303-d2fb-9ab3-1702-1f1be793965e",
+   "If somebody notes it"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "Timestamps demand at the hour it arrived"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Statistical demand models"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Seasonality and trend settings"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Reorder point and buffer calculations"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Machine learning on your history"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Stock on hand, as it stands"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Collects orders outside working hours"
+  ],
+  [
+   "49d5bbd0-d3ae-abea-0d72-ee591beda269",
+   "Voicemail will take it"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "What it asks of your team"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Straight answers about forecasting and VOS"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Is VOS inventory forecasting software?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. Nothing in it models demand, fits a seasonality curve or works out safety stock, and nothing predicts next month. VOS is the ordering front door plus a current picture of stock. We say this first because the word in your search points somewhere we deliberately do not go."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Then why would a distributor shopping for forecasting talk to you?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "Often the reason a forecast is wrong is what went into it. Phone orders retyped a day late, and invoices standing in for demand. Fix the capture and the tool you already own has something better to read."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "What exactly would the planning tool get?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "For anything sent through the app: the account, the items against your own codes, the quantities as the buyer confirmed them, a reference number and the time it was sent. Inventory forecasting software reading that gets demand, dated at the hour, rather than a shipping summary."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "What is the best inventory forecasting software to pair this with?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "We do not rank them and we name no products, partly because the right answer depends on what your ERP already includes. A planning module you are already paying for may become usable once the order data stops being typed in by hand."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Is any of this inventory forecasting software free?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "Nothing on this page is a forecasting product, free or paid. VOS itself is quoted per distributor and we publish no prices, so the answer is to ask on the demo call. If a no-cost forecasting tool is what you need, that is not something we sell."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "Can we buy AI based inventory forecasting software from you?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "No. VOS uses no artificial intelligence to project demand and makes no claims of that kind. Voice is used to capture what a person says, and that person reviews every line before sending. Prediction is not part of the product."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "We need inventory forecasting software for multinational forecasts. Is this it?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "No, on two counts. VOS does not forecast, and it is built for smaller food distributors and DSD operations rather than global supply chains. Multi-country planning, currencies and transfer flows are outside what we do."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the stock levels in VOS come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "From whatever you count stock in today. VOS is not where your stock is recorded and it does not count anything on a shelf; it runs alongside what you have, with the catalog updating as levels change. On the demo we walk through how that connection would work for you."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Whatever it is fed</div>"
+  ],
+  [
+   "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "36292c7f-9656-fa14-a429-eedfe208ed17",
+   "<div class=\"uui-text-size-medium-21\">By hand</div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e4",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "f0a25565-fe6e-c821-4974-3d153187492b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "b3289c99-5fd7-ca67-2627-99dcf1f22d44",
+   "<div class=\"uui-text-size-medium-21\">Varies</div>"
+  ],
+  [
+   "f40dcd31-dc18-1419-dc7d-9ae4c4991128",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-text-size-medium-21\">A view, from your own system</div>"
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   "<div class=\"uui-text-size-medium-21\">Varies</div>"
+  ],
+  [
+   "08a9ea6e-ff0f-60b4-f337-ff9134e8f590",
+   "<div class=\"uui-text-size-medium-21\">A count, when someone does one</div>"
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
+   "<div class=\"uui-text-size-medium-21\">Send us item lists</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-text-size-medium-21\">Setup and tuning</div>"
+  ],
+  [
+   "c0a38acf-ad15-6757-3a70-c9cec47703bd",
+   "<div class=\"uui-text-size-medium-21\">Daily typing</div>"
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/inventory-planning-software",
+   "Deciding how much to hold next week"
+  ],
+  [
+   1,
+   "/order-tracking-software",
+   "Following one order through"
+  ],
+  [
+   2,
+   "/distributor-analytics-software",
+   "What else the records feed"
+  ],
+  [
+   3,
+   "/inventory-tracking-software",
+   "Tracking what is on hand"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "no",
+   "row": 1,
+   "col": 2
+  },
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1e7",
+   "child": "3e34855f-1038-e4bc-b5ca-43666592d072",
+   "want": "no",
+   "row": 4,
+   "col": 3
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Real Order History For Inventory Forecasting Software.",
+   "lead": "VOS is not inventory forecasting software and runs no demand model. It supplies the thing one is computed from. The kitchens you supply talk each order into the app, so the history behind the math is dated, itemized and tied to a named buyer.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Ready to forecast from something real?",
+   "body": "Keep the tool you have. Change what it is reading.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Is VOS inventory forecasting software?",
+   "a": "No. Nothing in it models demand, fits a seasonality curve or works out safety stock, and nothing predicts next month. VOS is the ordering front door plus a current picture of stock. We say this first because the word in your search points somewhere we deliberately do not go."
+  },
+  {
+   "q": "Then why would a distributor shopping for forecasting talk to you?",
+   "a": "Often the reason a forecast is wrong is what went into it. Phone orders retyped a day late, and invoices standing in for demand. Fix the capture and the tool you already own has something better to read."
+  },
+  {
+   "q": "What exactly would the planning tool get?",
+   "a": "For anything sent through the app: the account, the items against your own codes, the quantities as the buyer confirmed them, a reference number and the time it was sent. Inventory forecasting software reading that gets demand, dated at the hour, rather than a shipping summary."
+  },
+  {
+   "q": "What is the best inventory forecasting software to pair this with?",
+   "a": "We do not rank them and we name no products, partly because the right answer depends on what your ERP already includes. A planning module you are already paying for may become usable once the order data stops being typed in by hand."
+  },
+  {
+   "q": "Is any of this inventory forecasting software free?",
+   "a": "Nothing on this page is a forecasting product, free or paid. VOS itself is quoted per distributor and we publish no prices, so the answer is to ask on the demo call. If a no-cost forecasting tool is what you need, that is not something we sell."
+  },
+  {
+   "q": "Can we buy AI based inventory forecasting software from you?",
+   "a": "No. VOS uses no artificial intelligence to project demand and makes no claims of that kind. Voice is used to capture what a person says, and that person reviews every line before sending. Prediction is not part of the product."
+  },
+  {
+   "q": "We need inventory forecasting software for multinational forecasts. Is this it?",
+   "a": "No, on two counts. VOS does not forecast, and it is built for smaller food distributors and DSD operations rather than global supply chains. Multi-country planning, currencies and transfer flows are outside what we do."
+  },
+  {
+   "q": "Where do the stock levels in VOS come from?",
+   "a": "From whatever you count stock in today. VOS is not where your stock is recorded and it does not count anything on a shelf; it runs alongside what you have, with the catalog updating as levels change. On the demo we walk through how that connection would work for you."
+  }
+ ],
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Is VOS inventory forecasting software?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. Nothing in it models demand, fits a seasonality curve or works out safety stock, and nothing predicts next month. VOS is the ordering front door plus a current picture of stock. We say this first because the word in your search points somewhere we deliberately do not go."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Then why would a distributor shopping for forecasting talk to you?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Often the reason a forecast is wrong is what went into it. Phone orders retyped a day late, and invoices standing in for demand. Fix the capture and the tool you already own has something better to read."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What exactly would the planning tool get?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "For anything sent through the app: the account, the items against your own codes, the quantities as the buyer confirmed them, a reference number and the time it was sent. Inventory forecasting software reading that gets demand, dated at the hour, rather than a shipping summary."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the best inventory forecasting software to pair this with?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "We do not rank them and we name no products, partly because the right answer depends on what your ERP already includes. A planning module you are already paying for may become usable once the order data stops being typed in by hand."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is any of this inventory forecasting software free?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Nothing on this page is a forecasting product, free or paid. VOS itself is quoted per distributor and we publish no prices, so the answer is to ask on the demo call. If a no-cost forecasting tool is what you need, that is not something we sell."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can we buy AI based inventory forecasting software from you?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. VOS uses no artificial intelligence to project demand and makes no claims of that kind. Voice is used to capture what a person says, and that person reviews every line before sending. Prediction is not part of the product."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "We need inventory forecasting software for multinational forecasts. Is this it?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No, on two counts. VOS does not forecast, and it is built for smaller food distributors and DSD operations rather than global supply chains. Multi-country planning, currencies and transfer flows are outside what we do."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Where do the stock levels in VOS come from?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "From whatever you count stock in today. VOS is not where your stock is recorded and it does not count anything on a shelf; it runs alongside what you have, with the catalog updating as levels change. On the demo we walk through how that connection would work for you."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.voiceordersolutions.com/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Real Order History For Inventory Forecasting Software",
+      "item": "https://www.voiceordersolutions.com/inventory-forecasting-software"
+     }
+    ]
+   },
+   {
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "VOS is not a forecasting engine. It captures customer orders by voice, dated and itemized, so your inventory forecasting software starts from fact.",
+    "url": "https://www.voiceordersolutions.com/inventory-forecasting-software",
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD",
+     "description": "Pricing is quote based. Book a demo for a quote."
+    }
+   }
+  ]
+ }
+}

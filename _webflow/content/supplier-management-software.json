@@ -1,0 +1,370 @@
+{
+ "slug": "supplier-management-software",
+ "meta_title": "Supplier Management Software for Restaurants | VOS",
+ "meta_desc": "Order from every supplier on VOS in one app, by voice, with a number and a time on what you send. Supplier management software your distributor switches on.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Supplier Management Software That Starts With The Order.",
+  "lead": "Every supplier you use on VOS lives in one app. Say your order, look over every line, and send it with a dated record attached. Your food distributors are the ones who set this up: each loads the guide you buy from.",
+  "cta": "Get Set Up With VOS →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "off an order you used to place by phone"
+  },
+  {
+   "num": "24/7",
+   "label": "ordering, including after the last cover goes out"
+  },
+  {
+   "num": "Same Day",
+   "label": "is when most kitchens send something for the first time"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "Four suppliers, four habits, no single record.",
+  "lead": "One takes texts, one wants a call before ten, one has a rep who writes it down. When something goes wrong, there is nothing to point at:",
+  "cards": [
+   {
+    "h3": "\"Did we order that or not?\"",
+    "body": "The order lived in a Tuesday phone call. Now two cases are missing and it is your word against theirs."
+   },
+   {
+    "h3": "\"It is in someone's head\"",
+    "body": "Your sous chef knows which supplier covers which items. On her day off that knowledge leaves the building."
+   },
+   {
+    "h3": "\"We ordered it twice\"",
+    "body": "Two people chasing the same missing case, two suppliers delivering it, and a crate of waste by Friday."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "One Place, One Record",
+  "h2": "What supplier management software looks like in a working kitchen",
+  "rows": [
+   {
+    "eyebrow": "Each Supplier, Own Guide",
+    "h3": "A supplier management tool that begins at the order.",
+    "body": "Each distributor that offers VOS loads the items it sells you, at the rates you settled with them. You pick the supplier, speak the list, and send it. No remembering who carries what, and no digging out last month's email to find a code.",
+    "bullets": [
+     "A guide of its own for each supplier, holding only what they sell you",
+     "The prices you negotiated, loaded by that supplier",
+     "Nothing for you to set up or maintain",
+     "Covers the suppliers who are on VOS, which may not be all of them"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "The buying side, in one app →"
+    }
+   },
+   {
+    "eyebrow": "A Number On What You Send",
+    "h3": "Each order you put in through the app carries a time and a number.",
+    "body": "This is the part most supplier management software skips for a kitchen. The order you speak gets written out, you approve it, and it goes with its own number and timestamp. A supplier management platform that cannot tell you when you sent something is not much use on a Monday morning.",
+    "bullets": [
+     "You read the order right through before it sends",
+     "Anything you send gets its own number, dated and timed",
+     "A push notice or text confirms it reached the supplier",
+     "Pulled off the floor halfway through? The app holds your place"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "How placing an order works →"
+    }
+   },
+   {
+    "eyebrow": "Nothing To Administer",
+    "h3": "Supplier management portal software, without the admin.",
+    "body": "A kitchen does not have a procurement department. There is no supplier management system here for you to log into, configure or keep in order. Your distributor does the loading on their side, and your side is an app you talk to. Anyone on the schedule can be shown it in two minutes.",
+    "bullets": [
+     "No logins to hand out, no templates to build",
+     "Your distributor looks after the item prices",
+     "Works the same on every shift, with no training day",
+     "Apps for iPhone and Android, on the phone you carry"
+    ],
+    "link": {
+     "href": "/restaurant-stock-management-software",
+     "text": "Ordering against what is on the shelf →"
+    }
+   },
+   {
+    "eyebrow": "Fewer Awkward Calls",
+    "h3": "Something to point at when the delivery is light.",
+    "body": "A spoken order leaves no trace. One sent from the app has a number, a time and lines you approved, so the conversation is about the delivery rather than about memory. That is the everyday value of supplier management system software in a restaurant.",
+    "bullets": [
+     "Lines you checked yourself, not a rep's handwriting",
+     "Each line tied to the item code your supplier ships",
+     "Your distributor gets the lines you signed off",
+     "Orders you still phone in carry none of this"
+    ],
+    "link": {
+     "href": "/vendor-management-software",
+     "text": "What your distributor sees on their side →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "Things a kitchen notices in week one.",
+  "lead": "Small, practical, and the reason people keep using it past the novelty.",
+  "items": [
+   {
+    "h3": "Talk, Do Not Type",
+    "body": "Say what you need the way you would to a rep. Your phone does the recording and the writing down."
+   },
+   {
+    "h3": "Anyone On Shift Can Send It",
+    "body": "Ordering stops being one person's job, because the guide and the prices are already in the app."
+   },
+   {
+    "h3": "No Hold Music",
+    "body": "No waiting on a line, no voicemail, no calling back twice because the first message was unclear."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See how an order to one supplier works",
+  "body": "A 20-minute call shows you the app a cook would use, and who to ask about getting it.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "How You Get It",
+  "h2": "It comes through the distributors you already buy from",
+  "lead": "You do not buy VOS from us and install it. A supplier brings it to you, and your account arrives ready to order from.",
+  "items": [
+   {
+    "h3": "Ask your distributor about VOS",
+    "body": "Or contact us and we will introduce you to someone there. Switching it on is their decision, not ours."
+   },
+   {
+    "h3": "They load your guide",
+    "body": "Your items, your rates, your account. Distributors are usually running inside 24 to 48 hours."
+   },
+   {
+    "h3": "You speak your order",
+    "body": "Download it, say the list, check it, off it goes. Most kitchens are ordering the same day."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "The ordering end of it. Not a buying office.",
+  "h2_lines": [
+   "The ordering end of it.",
+   "Not a buying office."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "Corporate supplier management software handles contracts, scoring and spend analysis. A restaurant needs it placed and recorded. Here is where the line falls.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "SRM / Procurement Suite",
+   "Calls, Texts + Emails"
+  ],
+  "rows": [
+   {
+    "label": "Order spoken, sent in minutes",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "A call takes longer"
+     }
+    ]
+   },
+   {
+    "label": "The suppliers you have on VOS, in one app",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Your own rates on the item list",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "If maintained"
+     },
+     {
+      "t": "text",
+      "v": "Looked up each time"
+     }
+    ]
+   },
+   {
+    "label": "A number and a time on each one",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Email only"
+     }
+    ]
+   },
+   {
+    "label": "Contracts, scorecards and supplier vetting",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Price comparison across suppliers",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "By hand"
+     }
+    ]
+   },
+   {
+    "label": "Approval steps before an order goes out",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Who sets it up",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Your distributor"
+     },
+     {
+      "t": "text",
+      "v": "You do"
+     },
+     {
+      "t": "text",
+      "v": "Nobody"
+     }
+    ]
+   },
+   {
+    "label": "What a new starter has to learn",
+    "cells": [
+     {
+      "t": "text",
+      "v": "How to talk"
+     },
+     {
+      "t": "text",
+      "v": "A system"
+     },
+     {
+      "t": "text",
+      "v": "Who to ring"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Supplier questions from restaurant teams",
+  "items": [
+   {
+    "q": "Is VOS supplier management software for a restaurant?",
+    "a": "For the ordering half of it, yes. You order from each supplier that is on VOS out of one app, by voice, and what you say is written out, approved by you and stamped with its own number. It does not hold contracts, score your suppliers or compare their prices, and we would rather set that expectation now than at the demo."
+   },
+   {
+    "q": "What is the best supplier management software for a small kitchen?",
+    "a": "The one your team will actually use at the end of a shift. Most supplier management software is built for a buyer at a desk with time to fill in fields. A kitchen needs the order out in two minutes while the walk-in door is still open, which is the thinking behind ordering by voice."
+   },
+   {
+    "q": "Can I get all my suppliers in there?",
+    "a": "Only the ones that offer VOS, because each supplier loads your guide and prices on their own side. If two of your four distributors use it, those two are in the app and the others carry on as they are. If you want the others on it, we can approach them."
+   },
+   {
+    "q": "Does it stop us ordering the same thing twice?",
+    "a": "Partly, and only by making the ordering visible. Orders go from one app rather than from three phones, and each one is confirmed back to you, so the person locking up can tell that one already went. VOS does not count your stock or block a duplicate on its own."
+   },
+   {
+    "q": "Can I look back at everything we have ever ordered?",
+    "a": "Each order you place in VOS is logged with the minute it went out, and you get a confirmation when it lands. How far back your own app view goes is worth asking your distributor, because the full history sits on their admin platform. We would rather you ask them than assume from this page."
+   },
+   {
+    "q": "Is this supplier relationship management SRM software?",
+    "a": "No. If you are shopping for supplier performance management software to run scorecards, or supplier lifecycle management software to handle onboarding, renewals and offboarding, VOS handles none of that. Those tools manage the relationship. VOS places the order and records it."
+   },
+   {
+    "q": "Does it store supplier documents and certificates?",
+    "a": "No. Supplier information management software and supplier master data management software exist to hold that: bank details, insurance, addresses, approved vendor records. Food safety audits belong to supplier quality management software. None of it is in VOS, which holds your guides and the orders you send."
+   },
+   {
+    "q": "Is this supplier managed inventory software?",
+    "a": "No. Under supplier managed inventory the supplier watches your levels and tops you up. In VOS you decide and you push it out; nothing is ordered on your behalf and nothing leaves without a person sending it. Your supplier sees what you asked for, not what is on your shelves."
+   },
+   {
+    "q": "What does it cost us?",
+    "a": "That is a question for your distributor, since they are the ones who take VOS on and decide what it means for their customers. We do not publish pricing. Ask the rep you deal with, or get in touch and we will find out who to speak to."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Want your suppliers in one app?",
+  "body": "Tell us who you buy from and we will point you to the right distributor.",
+  "cta": "Ask About Getting Started →"
+ }
+}

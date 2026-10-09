@@ -121,8 +121,7 @@ module.exports = {
         <div class="problem-icon">🕳️</div>
         <h4 class="mb-8">"If he is off, the account stalls"</h4>
         <p class="text-muted" style="font-size:15px;">
-          Orders that only exist in one person's voicemail go missing the week
-          that person is on holiday.
+          Orders that only exist in one person's voicemail go missing the week that person is on vacation.
         </p>
       </div>
 
@@ -160,7 +159,7 @@ module.exports = {
             <li><span class="bullet-check">✓</span><span>Accounts order from their own guide, at your agreed prices</span></li>
             <li><span class="bullet-check">✓</span><span>They order at closing time, not when a rep picks up</span></li>
             <li><span class="bullet-check">✓</span><span>Nothing for your rep to write down or read back</span></li>
-            <li><span class="bullet-check">✓</span><span>Cover is easy: the account is not tied to one person's phone</span></li>
+            <li><span class="bullet-check">✓</span><span>Covering for them is easy: the account is not tied to one person's phone</span></li>
           </ul>
           <a href="/order-taking-software" class="feature-link">How the orders actually come in →</a>
         </div>
@@ -244,7 +243,7 @@ module.exports = {
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Orders handed on in whichever shape you picked</span></li>
-            <li><span class="bullet-check">✓</span><span>On the direct routes nobody re-enters them</span></li>
+            <li><span class="bullet-check">✓</span><span>Nobody re-enters them on an EDI, API or QuickBooks feed</span></li>
             <li><span class="bullet-check">✓</span><span>No data to move out of your current sales tools</span></li>
             <li><span class="bullet-check">✓</span><span>API-ready, so it extends the platform you run on</span></li>
           </ul>

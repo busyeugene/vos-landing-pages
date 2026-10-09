@@ -239,9 +239,7 @@ module.exports = {
           <h3>Each order files itself against the customer.</h3>
           <p class="mt-12 text-muted">
             Reference number, time of sending and line items, kept beside the account
-            that ordered. Nobody maintains a log, nobody updates a
-            spreadsheet, and a query about last Tuesday is a search rather than
-            a conversation.
+            that ordered. Nobody maintains a log, nobody updates a spreadsheet, and a question about last Tuesday is answered on a screen rather than in a conversation.
           </p>
           <ul class="feature-bullets mt-24">
             <li><span class="bullet-check">✓</span><span>Its own reference on anything the app sends</span></li>
@@ -457,8 +455,7 @@ module.exports = {
       <p class="lead mt-16">
         Distribution automation software covers very different ground depending on
         who is selling it. VOS automates the run from a customer's decision to a
-        record in your system. Trucks, warehouses and invoices are not on that list, and the ✗
-        marks say so.
+        record in your system. Trucks, warehouses and invoices are not on that list, and the table says so.
       </p>
     </div>
 
@@ -615,9 +612,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Those calls still get handled by a person, exactly as now, and they
-          carry no reference or send time from us. The place to begin is your most frequent orderers, since that is where
-          the hours pile up.
+          Yes. Phone orders still get handled by a person, exactly as now, and they carry no reference or send time from us. The place to begin is your most frequent orderers, since that is where the hours pile up.
         </div>
       </div>
 
@@ -670,7 +665,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Ready to take the hand-work out?</h2>
-  <p>See an order travel from spoken to filed with nobody typing in between.</p>
+  <p>Choose the direct route and see an order arrive filed, with nobody typing it up.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

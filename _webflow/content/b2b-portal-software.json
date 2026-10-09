@@ -1,0 +1,370 @@
+{
+ "slug": "b2b-portal-software",
+ "meta_title": "B2B Portal Software for Food Distributors | VOS",
+ "meta_desc": "Your accounts serve themselves and you build nothing. VOS is B2B portal software your customers speak to, and most distributors are live in 24 to 48 hours.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "B2B Portal Software Your Accounts Can Speak To.",
+  "lead": "Give the restaurants you supply a self-service way to order, with no portal to build. The kitchens you sell to talk an order into the app, straight from the guide you set up, and it lands with your team itemized against your SKUs.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "24/7",
+   "label": "self-service, including hours nobody is in your office"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "of setup for most, and then buyers can order"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "comes off an order that once meant waiting on hold"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Sound Familiar?",
+  "h2": "Your buyers want to help themselves. You do not want a software project.",
+  "lead": "Sooner or later, writing orders down by hand stops scaling. The usual answer is a development project. Here is what that choice looks like from the inside:",
+  "cards": [
+   {
+    "h3": "\"We looked into it and gave up\"",
+    "body": "The quotes assumed an IT team we do not have, so the whole idea went back in the drawer and buyers kept calling."
+   },
+   {
+    "h3": "\"We launched one and nobody signed in\"",
+    "body": "A chef with flour on both hands will not hunt through a menu tree. If the new way is slower than calling you, calling you wins."
+   },
+   {
+    "h3": "\"The kitchen decides at 11pm\"",
+    "body": "Service ends long after your office shuts. It sits in voicemail until morning, then somebody writes it out by hand."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What Self-Service Needs",
+  "h2": "What B2B portal software has to get right in food distribution",
+  "rows": [
+   {
+    "eyebrow": "An Account Of Their Own",
+    "h3": "Hand each buyer a B2B order portal in their pocket.",
+    "body": "You send us the guide an account buys from. We load those items, the prices you agreed with them and the SKUs behind them, then open the account. Nothing for your buyer to configure, nothing for you to host.",
+    "bullets": [
+     "One guide per account, holding what that kitchen actually buys",
+     "The prices you set for them, never a public list",
+     "We create the accounts, so your team configures nothing",
+     "Apps for iPhone and Android, nothing to install on a PC"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping a buyer's guide current →"
+    }
+   },
+   {
+    "eyebrow": "Ordering By Voice",
+    "h3": "Talking beats hunting through a catalog.",
+    "body": "Most B2B portal software asks a buyer to search, filter and click a path to 40 line items. In VOS your customer says them instead, reads the whole list back on screen, and sends it. That difference decides whether a B2B buyer portal gets used again next week.",
+    "bullets": [
+     "Talk down the list in that account's own guide",
+     "Each line shown for review before anything is sent",
+     "Interrupted mid-order? The app holds their place",
+     "A push notice or a text says the order arrived"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "The order taking side of the same flow →"
+    }
+   },
+   {
+    "eyebrow": "Orders In Your Format",
+    "h3": "Orders turn up in a shape your office can use.",
+    "body": "A B2B customer portal is only worth having if what comes out of it fits the way your office works. We agree the delivery route with you up front, and orders take it from then on: a file in your inbox, a QuickBooks entry, or a feed wired straight into the system you run.",
+    "bullets": [
+     "You pick the format once, during onboarding",
+     "With EDI, QuickBooks or the API, nobody keys the order again",
+     "Each line already matched to one of your SKUs",
+     "Your ERP, your pricing rules and your invoicing stay put"
+    ],
+    "link": {
+     "href": "/order-tracking-software",
+     "text": "Numbers and timestamps on app orders →"
+    }
+   },
+   {
+    "eyebrow": "Your Team's Side",
+    "h3": "One screen on the web for the people who sell.",
+    "body": "Plenty of B2B portal solutions leave your staff maintaining the thing forever. Your staff work from the VOS admin platform instead: edit a guide, reprice a line, look up an earlier order. Reps get the account view a B2B sales portal is usually bought for, and stop writing the orders up themselves.",
+    "bullets": [
+     "Change a price or pull an item from a customer's own guide",
+     "Dated order history, kept per account",
+     "Push a deal to your accounts, or send it as a text",
+     "Reps walk in knowing what that kitchen has been buying"
+    ],
+    "link": {
+     "href": "/distributor-sales-software",
+     "text": "What this frees your reps up to do →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Also Built In",
+  "h2": "Smaller pieces that make self-service stick.",
+  "lead": "Details that decide whether an account keeps ordering this way after week one.",
+  "items": [
+   {
+    "h3": "Numbered The Moment It Sends",
+    "body": "Any order the app sends carries its own number plus the minute it left, so a question about one has an answer."
+   },
+   {
+    "h3": "Confirmed Before It Sends",
+    "body": "The buyer sees the finished order written out and approves it, which is where a bad quantity gets caught."
+   },
+   {
+    "h3": "Accounts Added As You Win Them",
+    "body": "Send over a new customer's guide and we set that account up. Growth does not mean another round of development."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See self-service ordering without the build",
+  "body": "Give us 20 minutes to show how an account gets its own guide and starts ordering.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Simple Setup",
+  "h2": "Three steps, no IT project",
+  "lead": "There is no server to stand up and no launch to schedule. You hand over guides, we switch accounts on.",
+  "items": [
+   {
+    "h3": "Send us the guides you keep",
+    "body": "One per account, with the items, the agreed prices and your SKU codes. A spreadsheet is fine."
+   },
+   {
+    "h3": "We load them and open the accounts",
+    "body": "Your buyers download the app, reach their own account, and see only their own items at their own prices."
+   },
+   {
+    "h3": "Orders come to you, not to voicemail",
+    "body": "Spoken, checked and sent in the format you chose. Most buyers order on the day they first open it."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Buy the ordering channel. Skip the build.",
+  "h2_lines": [
+   "Buy the ordering channel.",
+   "Skip the build."
+  ],
+  "eyebrow": "Why VoiceOrder Solutions",
+  "lead": "Three ways to put B2B portal software in front of your accounts, and what each one asks of you. VOS is not a webshop: there is no storefront, cart or card payment in it.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Custom Portal Build",
+   "Phone + Email Orders"
+  ],
+  "rows": [
+   {
+    "label": "Goes live without an IT project",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Buyers order by speaking, not searching",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "text",
+      "v": "Spoken, nothing written"
+     }
+    ]
+   },
+   {
+    "label": "Per-account items and agreed prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "If built that way"
+     },
+     {
+      "t": "text",
+      "v": "Manual"
+     }
+    ]
+   },
+   {
+    "label": "Open outside your office hours",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Voicemail takes it"
+     }
+    ]
+   },
+   {
+    "label": "A number and a time on arrival",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Depends on the spec"
+     },
+     {
+      "t": "text",
+      "v": "Email has a send time"
+     }
+    ]
+   },
+   {
+    "label": "Storefront, cart and card payment",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "no"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "no"
+     }
+    ]
+   },
+   {
+    "label": "Who maintains the software",
+    "cells": [
+     {
+      "t": "text",
+      "v": "We do"
+     },
+     {
+      "t": "text",
+      "v": "You do, forever"
+     },
+     {
+      "t": "text",
+      "v": "Nothing to maintain"
+     }
+    ]
+   },
+   {
+    "label": "What adding your next account takes",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Send us a guide"
+     },
+     {
+      "t": "text",
+      "v": "Developer time"
+     },
+     {
+      "t": "text",
+      "v": "More phone calls"
+     }
+    ]
+   },
+   {
+    "label": "Time to first order",
+    "cells": [
+     {
+      "t": "text",
+      "v": "A day or two for most"
+     },
+     {
+      "t": "text",
+      "v": "Months"
+     },
+     {
+      "t": "text",
+      "v": "Already running"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Straight answers on portals and VOS",
+  "items": [
+   {
+    "q": "Is VOS B2B portal software, or something else?",
+    "a": "It does the job distributors buy a portal for: your customers serve themselves, from their own item list, at the prices you gave them, at any hour. It does it through an app they speak to rather than a website they browse, and it holds no storefront, shopping cart or payment handling. Your team's side, where guides and accounts are managed, runs on the web."
+   },
+   {
+    "q": "Can our customers order from a web browser?",
+    "a": "Ordering happens on a phone, in the app. The web side is where your own staff edit guides, open accounts and look up past orders. We would rather be plain about that than have you promise your accounts a desktop screen."
+   },
+   {
+    "q": "How is this different from a webshop for wholesale?",
+    "a": "A webshop is built around browsing and checkout. A kitchen reordering 40 familiar items every week is not browsing. VOS starts from the guide you built for that account, so the buyer talks through a list they already know, checks it, and sends it. Nothing to search for."
+   },
+   {
+    "q": "What does getting started take from our side?",
+    "a": "A guide for every buyer, and a decision on how orders should reach you. That is the whole lift. Unlike B2B portal software you commission, there is nothing to design, host or patch. Most distributors are up and running in 24 to 48 hours, and most of their customers send something in that same day."
+   },
+   {
+    "q": "Will orders drop into the system we already run?",
+    "a": "Yes. Orders can arrive as a PDF, Excel or Word attachment, through EDI, into QuickBooks, or over an API link to whatever platform your office runs on. On the EDI, QuickBooks and API routes nobody enters it a second time. Emailed files may still be keyed in, which is worth weighing when you choose."
+   },
+   {
+    "q": "Do you take on B2B customer portal development for us?",
+    "a": "No. We are not an agency and we do not take build work, custom front-ends, or bespoke integrations beyond the delivery formats listed above. VOS is a finished product you switch on. If what you need really is a bespoke portal, a development shop is the right call, not us."
+   },
+   {
+    "q": "We were looking for B2B travel portal software. Is this it?",
+    "a": "No. Travel portals book flights, hotels and cars out of global distribution systems, and VOS does none of that. VOS serves food distributors who supply restaurants and grocery stores. If you arrived here after travel booking, this is the wrong product."
+   },
+   {
+    "q": "What happens to accounts that keep phoning?",
+    "a": "Nothing breaks. Your team writes those up the way it does today, and those calls carry no VOS number or timestamp. A sensible start is the customers who order most often, then let the rest follow once they see it working."
+   },
+   {
+    "q": "Are we too small for this?",
+    "a": "No. VOS exists for exactly that kind of operation, with no IT department required. You need no developer, no IT staff and no project plan. Pricing is quoted per distributor, so ask us what it looks like at your account count."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Ready to let buyers serve themselves?",
+  "body": "See what an account sees, and what lands in your office afterwards.",
+  "cta": "Book a Free Demo →"
+ }
+}

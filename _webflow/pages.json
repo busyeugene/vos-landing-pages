@@ -1,0 +1,53 @@
+{
+ "siteId": "69bc131a5fdaa09a10456d46",
+ "donorPageId": "6a8872d018720c976eeab87b",
+ "scratchToDelete": "6ac86de907cae110d0d61c64",
+ "pages": {
+  "wholesale-ordering-software": "6ac87340d30cd9d65138161d",
+  "b2b-portal-software": "6ac87341701beff1f6d38d66",
+  "distributor-sales-software": "6ac87341701beff1f6d38df4",
+  "dsd-sales-software": "6ac8734337bb42540317dae1",
+  "supplier-management-software": "6ac873433f0886a3b09eb1aa",
+  "distributor-analytics-software": "6ac8734fcbb76cfe56a691b0",
+  "inventory-forecasting-software": "6ac87350d09138c3747de48d",
+  "wholesale-operations-software": "6ac8735137bb42540317de1e",
+  "distribution-automation-software": "6ac8735137bb42540317de64",
+  "distribution-workflow-software": "6ac87352d30cd9d651381c77"
+ },
+ "existing": {
+  "vendor-management-software": "6aa828e3a603bdfe7a150dfd",
+  "inventory-automation-software": "6aa826f06dfcb76b36e324cb",
+  "distribution-resource-planning-software": "6aa8235b0275891250fc8084",
+  "inventory-replenishment-software": "6aa81f60bcc14d868a7486f1",
+  "inventory-control-software": "6a8879fa686bd169b315d54f",
+  "restaurant-stock-management-software": "6a8877721297f1950d8e7ea0",
+  "restaurant-purchasing-software": "6a88751918720c976eec0411",
+  "restaurant-checklist-software": "6a8872d018720c976eeab87b",
+  "order-tracking-software": "6a886fcaf95887f393e5e8d2",
+  "order-taking-software": "6a886c65f128fbd289d0cea7",
+  "inventory-planning-software": "6a868ef07941d5a2e83ca6db",
+  "order-fulfillment-software": "6a868afec7f0381b2e0d1e41",
+  "inventory-visibility-software": "6a73a785a108f62cdecdee33",
+  "catalog-management-software": "6a73a777a9a14bd4436ca47a",
+  "inventory-tracking-software": "6a73a761403094903a4c3863",
+  "order-entry-software": "6a73a72520a0786c962b15b8"
+ },
+ "links": {
+  "0": {
+   "a": "3eb238a9-794c-5623-3970-f5b533eca107",
+   "t": "62c65bfe-03f5-d4ff-c643-2ff168830cfd"
+  },
+  "1": {
+   "a": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+   "t": "2a9c5f49-46db-737d-95ef-b9312d351221"
+  },
+  "2": {
+   "a": "8b079726-3463-6044-f4e9-f838b3bfb137",
+   "t": "32a53d8c-0269-f0df-ac7c-d8a8567f0b8f"
+  },
+  "3": {
+   "a": "2af8f313-e356-7eea-3f46-cef1a39df959",
+   "t": "7fd74404-bc36-46b7-cbcd-41511283be49"
+  }
+ }
+}
