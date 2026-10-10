@@ -458,6 +458,56 @@
    "<div class=\"uui-text-size-medium-21\">Their morning</div>"
   ]
  ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "01c57b15-41b7-26ac-60cd-cc5f416f7e09",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "36292c7f-9656-fa14-a429-eedfe208ed17",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "c0a38acf-ad15-6757-3a70-c9cec47703bd",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
  "links": [
   [
    0,
@@ -492,21 +542,24 @@
    "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
    "want": "no",
    "row": 1,
-   "col": 2
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
   },
   {
    "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c3",
    "child": "69912303-d2fb-9ab3-1702-1f1be793965d",
    "want": "no",
    "row": 1,
-   "col": 3
+   "col": 3,
+   "style": "uui-icon-1x1-xsmall 12"
   },
   {
    "cell": "37b58628-5e21-7c67-2967-24e3b5a7a21f",
    "child": "49d5bbd0-d3ae-abea-0d72-ee591beda268",
    "want": "yes",
    "row": 8,
-   "col": 3
+   "col": 3,
+   "style": "uui-icon-1x1-xsmall 12"
   }
  ],
  "props": {

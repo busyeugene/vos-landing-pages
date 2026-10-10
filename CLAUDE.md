@@ -314,6 +314,28 @@ reported the live pages clean. Direct measurement of the live pages beat its inf
 where it stops". Webflow renders "no" as a grey dash SVG, so the sentence pointed at nothing. Reworded
 to "the table below" in the repo so both renderings stay true.
 
+**A comparison cell's STYLE carries its kind, so converting one is two operations.**
+`uui-icon-1x1-xsmall 12` is a 24px 1:1 box and `uui-text-size-medium 21` is the text style. The
+first port swapped a cell's *contents* from icon to text but left the icon style on it, so on
+2026-10-09 **89 cells across all ten pages** rendered as one word per line, overflowing into the row
+below. Every icon/text conversion needs `set_settings` (or `set_text`) **and** `set_style`.
+`gen-ops.py` now emits a `styles[]` list for exactly this, and `map.json` holds both style names.
+Combo classes are one string with a space, the way `styleNames` reports them.
+
+**Run `python cellcheck.py <tree-dir> [slug ...]` after any port.** It compares each cell's style
+against what the cell holds, which is the thing a text diff cannot see.
+
+**A string-level verification is not a rendering verification.** The port reported 1004/1004 text ops
+and 160/160 schema nodes green while the tables were visibly broken; Eugene found it from a
+screenshot. Strings being right says nothing about the elements around them. Before calling a port
+done, look at the rendered page (Designer preview, or ask for a screenshot) at least once per
+template section. `layout.py` does this for the Vercel copy; there is no equivalent for Webflow
+while the pages are unpublished, so the eyeball is the check.
+
+**Check what window your own checker measured in, including a new one.** `cellcheck.py` first ran
+against a directory of captures where most predated the fix, and cheerfully reported 79 defects that
+no longer existed. It now takes the newest capture per page and warns when any capture is stale.
+
 **The Webflow template is narrower than the repo's 16-section one:** no related strip and no footer
 "More From VOS" column, so 4 inline sibling links rather than 8. That matches the 16 pages already
 live, so it is the expected shape, not a gap to fill.

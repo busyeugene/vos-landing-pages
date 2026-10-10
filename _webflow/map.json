@@ -374,7 +374,10 @@
  "icons": {
   "yes": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>",
   "no": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 12H19\" stroke=\"#98A2B3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>",
-  "text_wrapper": "<div class=\"uui-text-size-medium-21\">%s</div>"
+  "text_wrapper": "<div class=\"uui-text-size-medium-21\">%s</div>",
+  "icon_style": "uui-icon-1x1-xsmall 12",
+  "text_style": "uui-text-size-medium 21",
+  "_stylenote": "A comparison cell's child carries the style for its KIND. The icon style is a 24px 1:1 box: leave it on a cell and inject text, and the text wraps one word per line and overflows into the row below. Converting a cell between icon and text means set_text/set_settings AND set_style. Combo classes are one string with a space, as styleNames reports them."
  },
  "donorPageId": "6a8872d018720c976eeab87b",
  "donorSlug": "restaurant-checklist-software",

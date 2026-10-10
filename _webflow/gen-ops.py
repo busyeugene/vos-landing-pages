@@ -44,7 +44,7 @@ def faq_items(d, slug):
 
 def build(slug):
     d = json.load(io.open(os.path.join(HERE, 'content', slug + '.json'), encoding='utf-8'))
-    text, embed, links, delete, hard = [], [], [], [], []
+    text, embed, links, delete, hard, styles = [], [], [], [], [], []
 
     # ---- stats (number blocks: set_text replaces the inner <strong>; the block itself
     # carries the number styling, so the figure still renders large) ----
@@ -134,10 +134,15 @@ def build(slug):
                         embed.append([child, MAP['icons'][cell['v']]])
                 else:
                     hard.append({'cell': cid, 'child': child, 'want': cell['v'],
-                                 'row': i + 1, 'col': k + 1})       # text block -> embed
+                                 'row': i + 1, 'col': k + 1,
+                                 'style': MAP['icons']['icon_style']})  # text block -> embed
             else:
                 if have['t'] == 'icon':
                     embed.append([child, MAP['icons']['text_wrapper'] % cell['v']])
+                    # The donor cell is a 24px icon box. Swapping its contents for text
+                    # without restyling leaves the text wrapping one word per line and
+                    # spilling into the next row, so restyle it as a text cell.
+                    styles.append([child, [MAP['icons']['text_style']]])
                 elif have['v'] != cell['v']:
                     # A donor text cell's String does not follow the cell+1 rule.
                     text.append([MAP['comparison']['text_cell_strings']['%d,%d' % (i + 1, k + 1)],
@@ -183,7 +188,7 @@ def build(slug):
     }
 
     return {'slug': slug, 'meta_title': d['meta_title'], 'meta_desc': d['meta_desc'],
-            'text': text, 'embed': embed, 'links': links, 'delete': delete,
+            'text': text, 'embed': embed, 'styles': styles, 'links': links, 'delete': delete,
             'hard': hard, 'props': props, 'faq': fq, 'schema': schema}
 
 
@@ -203,11 +208,12 @@ def bump(uuid_str, step=1):
 
 if __name__ == '__main__':
     slugs = sys.argv[1:] or [f[:-5] for f in sorted(os.listdir(os.path.join(HERE, 'content')))]
-    print('%-34s %5s %6s %5s %6s %5s %5s' % ('slug', 'text', 'embed', 'link', 'delete', 'icon', 'faq'))
+    print('%-34s %5s %6s %6s %5s %6s %5s %5s' % ('slug', 'text', 'embed', 'styles', 'link', 'delete', 'icon', 'faq'))
     for s in slugs:
         o = build(s)
         json.dump(o, io.open(os.path.join(OUT, s + '.json'), 'w', encoding='utf-8'),
                   indent=1, ensure_ascii=False)
-        print('%-34s %5d %6d %5d %6d %5d %5d' % (s, len(o['text']), len(o['embed']),
-                                                 len(o['links']), len(o['delete']),
-                                                 len(o['hard']), len(o['faq'])))
+        print('%-34s %5d %6d %6d %5d %6d %5d %5d' % (s, len(o['text']), len(o['embed']),
+                                                     len(o['styles']), len(o['links']),
+                                                     len(o['delete']), len(o['hard']),
+                                                     len(o['faq'])))

@@ -458,6 +458,56 @@
    "<div class=\"uui-text-size-medium-21\">Already running</div>"
   ]
  ],
+ "styles": [
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "a16d84ef-02bf-5ec0-cb93-a5f713fe7193",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "08a9ea6e-ff0f-60b4-f337-ff9134e8f590",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21c",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "c0a38acf-ad15-6757-3a70-c9cec47703bd",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
  "links": [
   [
    0,
@@ -492,7 +542,8 @@
    "child": "69912303-d2fb-9ab3-1702-1f1be793965d",
    "want": "no",
    "row": 1,
-   "col": 3
+   "col": 3,
+   "style": "uui-icon-1x1-xsmall 12"
   }
  ],
  "props": {
