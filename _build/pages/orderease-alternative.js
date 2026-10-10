@@ -20,7 +20,7 @@
 module.exports = {
   title: "OrderEase Alternative for Food Distributors in 2026",
   description: 'Your accounts speak the order into the app and approve the lines, so it arrives itemized against your codes. An OrderEase alternative for food distributors.',
-  related: ["order-taking-software","wholesale-ordering-software","bluecart-alternative"],
+  related: ["wizcommerce-alternative","rekki-alternative","necs-entree-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

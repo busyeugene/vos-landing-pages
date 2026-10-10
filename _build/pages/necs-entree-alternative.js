@@ -14,7 +14,7 @@
 module.exports = {
   title: "NECS Entree Alternative for Distributors in 2026",
   description: 'Keep the ERP that runs your business and change one thing: your accounts speak orders instead of typing them. A NECS Entree alternative that replaces nothing.',
-  related: ["pepper-alternative","burnt-ai-alternative","distribution-workflow-software"],
+  related: ["fresho-alternative","orderease-alternative","pepperi-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

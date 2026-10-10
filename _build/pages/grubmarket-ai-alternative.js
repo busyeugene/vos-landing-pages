@@ -13,7 +13,7 @@
 module.exports = {
   title: "GrubMarket AI Alternative for Distributors in 2026",
   description: 'GrubAssist hands your team a voice assistant. This GrubMarket AI alternative hands your customers the app, so nobody keys the order at all.',
-  related: ["pepper-alternative","burnt-ai-alternative","choco-alternative"],
+  related: ["rekki-alternative","wizcommerce-alternative","cut-dry-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

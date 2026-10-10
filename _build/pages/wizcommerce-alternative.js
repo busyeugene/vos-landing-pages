@@ -22,7 +22,7 @@
 module.exports = {
   title: "WizCommerce Alternative for Distributors in 2026",
   description: 'Your accounts build the order as lines in the app and approve it before sending, so nothing needs reading back. A WizCommerce alternative for distributors.',
-  related: ["order-taking-software","burnt-ai-alternative","distribution-automation-software"],
+  related: ["rekki-alternative","orderease-alternative","burnt-ai-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

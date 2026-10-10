@@ -11,7 +11,7 @@
 module.exports = {
   title: "BlueCart Alternative for Food Distributors in 2026",
   description: 'No marketplace, no price grading, no other vendors on the shelf. A BlueCart alternative where your account orders from your guide, at your prices.',
-  related: ["cut-dry-alternative","choco-alternative","wholesale-ordering-software"],
+  related: ["cut-dry-alternative","choco-alternative","orderease-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

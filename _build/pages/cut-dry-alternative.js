@@ -12,7 +12,7 @@
 module.exports = {
   title: "Cut+Dry Alternative for Food Distributors in 2026",
   description: 'Your account speaks an order from your guide, at your prices, with nobody promoting into it. A Cut+Dry alternative with one job and no network.',
-  related: ["bluecart-alternative","choco-alternative","b2b-portal-software"],
+  related: ["bluecart-alternative","choco-alternative","grubmarket-ai-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

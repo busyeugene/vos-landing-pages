@@ -23,7 +23,7 @@
 module.exports = {
   title: "REKKI Alternative for Food Distributors in 2026",
   description: 'The buyer picks the lines off their own guide and confirms them, so no robot has to read the order right. A REKKI alternative for food distributors.',
-  related: ["order-taking-software","burnt-ai-alternative","inventory-control-software"],
+  related: ["wizcommerce-alternative","grubmarket-ai-alternative","burnt-ai-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

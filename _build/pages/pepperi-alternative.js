@@ -17,7 +17,7 @@
 module.exports = {
   title: "Pepperi Alternative for Food Distributors in 2026",
   description: 'Your accounts speak each order into the app and approve the lines before it sends. A Pepperi alternative for small to mid-size food distributors.',
-  related: ["distributor-sales-software","dsd-sales-software","choco-alternative"],
+  related: ["fresho-alternative","necs-entree-alternative","choco-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

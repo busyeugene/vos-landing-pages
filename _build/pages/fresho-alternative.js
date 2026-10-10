@@ -26,7 +26,7 @@
 module.exports = {
   title: "Fresho Alternative for Food Distributors in 2026",
   description: 'Add one step instead of adopting a platform: your accounts order by voice and confirm the lines. A Fresho alternative for small to mid-size food distributors.',
-  related: ["order-taking-software","choco-alternative","inventory-tracking-software"],
+  related: ["necs-entree-alternative","pepperi-alternative","orderease-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

@@ -9,7 +9,7 @@
 module.exports = {
   title: "Choco Alternative for Food Distributors in 2026",
   description: 'Your accounts speak each order into an app and approve every line. See how this Choco alternative covers ordering and leaves the rest alone.',
-  related: ["pepper-alternative","order-taking-software","b2b-portal-software"],
+  related: ["pepper-alternative","cut-dry-alternative","bluecart-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

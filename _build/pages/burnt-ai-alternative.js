@@ -11,7 +11,7 @@
 module.exports = {
   title: "Burnt AI Alternative for Food Distributors in 2026",
   description: 'One app your accounts speak into, with every line approved before it sends. A Burnt AI alternative scoped to ordering, not your whole back office.',
-  related: ["pepper-alternative","choco-alternative","order-taking-software"],
+  related: ["wizcommerce-alternative","rekki-alternative","pepper-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
 <!--@NAVBAR-->

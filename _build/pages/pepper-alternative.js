@@ -5,7 +5,7 @@
 module.exports = {
   title: "Pepper Alternative for Food Distributors in 2026",
   description: 'Your accounts speak each order into an app and check it before sending. This Pepper alternative is up and running in 24 to 48 hours for most.',
-  related: ["order-taking-software","wholesale-ordering-software","b2b-portal-software"],
+  related: ["choco-alternative","burnt-ai-alternative","cut-dry-alternative"],
   relatedHeading: "More ways VOS works at the order desk",
   body: `
 <!--@NAVBAR-->
