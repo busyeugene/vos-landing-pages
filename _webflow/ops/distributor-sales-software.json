@@ -336,7 +336,7 @@
    "What it asks of a rep"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -616,110 +616,5 @@
    "q": "What does it cost per rep?",
    "a": "Pricing is not published. VOS is quoted for each distributor. Ask on the demo call and they will talk you through it. Enterprise pricing and enterprise complexity are not what we are selling."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "Is VOS distributor sales software or a CRM?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Neither, strictly. There is no pipeline, no quota, no commission calculation and no territory map in it, and a CRM does those better than we ever would. What VOS does is take the reorder away from your reps: customers place those orders themselves, in an app, at any hour. Keep the CRM and run this beside it."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Will my reps think this takes their job?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "It takes the order-writing, which is the part that does not need their skill. The account stays theirs, the relationship stays theirs, and they get the hours back for new business. Reps who were measured on order volume will need that measure revisited, and that conversation is worth having before rollout."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Do you offer distributor software with sales forecasting?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. VOS runs no forecasting models and makes no predictions about future demand, and we would rather say that than imply otherwise. What it gives you is a clean, dated record of what each account ordered, which is the input a forecasting tool or an analyst needs. The model stays somebody else's job."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can a rep send an order for an account?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "The app is built for the buyer to use, and the ordering account belongs to the customer. If a rep is sitting with a chef, the practical answer is to let the chef speak the order on their own phone. Distributor sales software that keeps the rep in the middle of each order is the thing we are trying to get rid of."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What does a rep see about their accounts?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "On the web, in one place: the orders that account placed through VOS, each with its items, its number and the time it went, along with the guide and prices it is working from. Orders that came by phone or voicemail are not in there, because VOS never saw them."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Does it work for a team of two reps?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Yes, and that is the common case. VOS was made for distributors of that size, not for enterprise sales organizations. With a small team the gain is sharper, because one person's morning is a bigger share of your selling capacity."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "How do orders get to the systems our team already uses?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "You choose one route at onboarding: a PDF, Excel or Word attachment, EDI, QuickBooks, or an API feed into whatever platform your office runs on. Take any of the last three and nobody keys anything again. Emailed files may still be entered by hand."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What does it cost per rep?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Pricing is not published. VOS is quoted for each distributor. Ask on the demo call and they will talk you through it. Enterprise pricing and enterprise complexity are not what we are selling."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Distributor Sales Software That Frees Up Your Reps",
-      "item": "https://www.voiceordersolutions.com/distributor-sales-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "Your reps spend the week selling instead of writing up reorders. Distributor sales software that lets accounts speak their own orders into an app.",
-    "url": "https://www.voiceordersolutions.com/distributor-sales-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

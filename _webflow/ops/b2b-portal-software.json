@@ -340,7 +340,7 @@
    "Time to first order"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -646,110 +646,5 @@
    "q": "Are we too small for this?",
    "a": "No. VOS exists for exactly that kind of operation, with no IT department required. You need no developer, no IT staff and no project plan. Pricing is quoted per distributor, so ask us what it looks like at your account count."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "Is VOS B2B portal software, or something else?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "It does the job distributors buy a portal for: your customers serve themselves, from their own item list, at the prices you gave them, at any hour. It does it through an app they speak to rather than a website they browse, and it holds no storefront, shopping cart or payment handling. Your team's side, where guides and accounts are managed, runs on the web."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Is this a wholesale webshop our customers log into?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. Ordering happens on a phone, in the app, and the web side is where your own staff edit guides, open accounts and look up past orders. A webshop is also built around browsing and checkout, and a kitchen reordering 40 familiar items every week is not browsing. VOS starts from the guide you built for that account, so the buyer talks through a list they already know, checks it, and sends it."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What does getting started take from our side?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "A guide for every buyer, and a decision on how orders should reach you. That is the whole lift. Unlike B2B portal software you commission, there is nothing to design, host or patch. Most distributors are up and running in 24 to 48 hours, and most of their customers send something in that same day."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Will orders drop into the system we already run?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Yes. Orders can arrive as a PDF, Excel or Word attachment, through EDI, into QuickBooks, or over an API link to whatever platform your office runs on. On the EDI, QuickBooks and API routes nobody enters it a second time. Emailed files may still be keyed in, which is worth weighing when you choose."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Do you take on B2B customer portal development for us?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. We are not an agency and we do not take build work, custom front-ends, or bespoke integrations beyond the delivery formats listed above. VOS is a finished product you switch on. If what you need really is a bespoke portal, a development shop is the right call, not us."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "We were looking for B2B travel portal software. Is this it?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. Travel portals book flights, hotels and cars out of global distribution systems, and VOS does none of that. VOS serves food distributors who supply restaurants and grocery stores. If you arrived here after travel booking, this is the wrong product."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What happens to accounts that keep phoning?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Nothing breaks. Your team writes those up the way it does today, and those calls carry no VOS number or timestamp. A sensible start is the customers who order most often, then let the rest follow once they see it working."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Are we too small for this?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. VOS exists for exactly that kind of operation, with no IT department required. You need no developer, no IT staff and no project plan. Pricing is quoted per distributor, so ask us what it looks like at your account count."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "B2B Portal Software Your Accounts Can Speak To",
-      "item": "https://www.voiceordersolutions.com/b2b-portal-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "Your accounts serve themselves and you build nothing. VOS is B2B portal software your customers speak to, and most distributors are live in 24 to 48 hours.",
-    "url": "https://www.voiceordersolutions.com/b2b-portal-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

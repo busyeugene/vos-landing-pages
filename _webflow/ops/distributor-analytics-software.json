@@ -340,7 +340,7 @@
    "Time before it is useful"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -636,110 +636,5 @@
    "q": "How long until there is enough history to be useful?",
    "a": "The trail starts from the first order, so a few weeks in you have patterns per account. We do not backfill your old phone orders, because we were not there for them."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "Is VOS distributor analytics software?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No, and it is better to say so on the way in. VOS builds no dashboards, calculates no KPIs and draws no charts. It is the layer underneath: your customers' spoken orders captured as structured records, numbered, timed and matched to your own codes, then handed to whatever you report with."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "So what do we actually get to look at?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "On the web you get the orders each account sent from the app, the items on them, its own number and when it was sent, along with the guide it orders from. It is a record you can read back through, not a reporting suite, and nobody here will pretend otherwise."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "People ask how analytics improve distributor profitability. What is realistic?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Honest answer: analytics change nothing by themselves, and we publish no figures claiming otherwise. What a reliable order trail lets you do is spot an account whose ordering slipped, or a product nobody reorders. Acting on those is where any gain comes from."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can we get the records into our own warehouse or BI tool?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Yes, through the delivery route you pick at onboarding: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. From there your own pipeline takes over. An order emailed as a file may still be keyed in by your office. Distributor analytics software downstream sees orders that never passed through a notepad."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Does it forecast anything?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. VOS runs no forecasting model and predicts nothing about next month. It records what was ordered and when. If a forecast is what you are after, the tool that produces one reads these records rather than retyped phone notes."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What about the orders that still come by phone?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "They stay as they are, and they bring no reference or stamp from us, so they will not show up in anything built on VOS records. That gap is worth knowing about: the more of your customers switch, the more of the picture is real."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Do we need an analyst to make this worth it?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. You do not need somebody with that job title. The records are useful on their own when a customer queries a delivery or a rep wants to know what a kitchen has stopped buying, long before anyone builds a report."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "How long until there is enough history to be useful?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "The trail starts from the first order, so a few weeks in you have patterns per account. We do not backfill your old phone orders, because we were not there for them."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Distributor Analytics Software Runs On Clean Orders",
-      "item": "https://www.voiceordersolutions.com/distributor-analytics-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "Reports are only as honest as the orders behind them. VOS hands distributor analytics software itemized, dated order records instead of phone notes.",
-    "url": "https://www.voiceordersolutions.com/distributor-analytics-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

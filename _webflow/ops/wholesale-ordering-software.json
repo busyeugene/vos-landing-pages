@@ -348,7 +348,7 @@
    "What a buyer has to learn"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -579,110 +579,5 @@
    "q": "How long before we are taking orders this way?",
    "a": "For most distributors, 24 to 48 hours. We load the guides, open the accounts and connect the delivery format you picked. There is no implementation phase and no IT work on your side. Most buyers order on the day they are set up."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "What does wholesale ordering software actually have to do?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Three things, in this trade. Let a buyer send 40 familiar lines without dialing anyone. Hold that account's own prices and the item codes you sell under. Deliver the result to the seller in a form their systems can read. VOS does those three and leaves billing, credit terms and the warehouse to the software you have."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "How do buyers get the units right when they are talking?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "The guide we load holds each item as a SKU you sell, so nobody has to guess which pack was meant. The buyer then sees the full order written out and approves it before sending. The safeguard is that read-back, and it belongs to the person who knows what they meant."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Is this wholesale order taking software, or something for the buyer?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Both sides of the same order. The buyer gets an app with their own guide; you get the order in your format, with history per account. If your question is mainly about getting accounts off the phone, our order taking page covers that side in more detail."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Does it handle the warehouse side as well?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. If you are shopping for wholesale order fulfillment software to run bins, pick paths or packing, VOS is not that and will not pretend to be. What it does for fulfillment is hand your pickers complete, confirmed orders earlier in the day."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Will it fit alongside the ERP we already have?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "That is the normal setup. Wholesale ordering software sitting in front of an existing ERP is what VOS is built for. Orders land by email as PDF, Excel or Word, by EDI, inside QuickBooks, or down an API link, and the ERP stays the system of record. Nothing migrates."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can we set order minimums or a cut-off time?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "VOS does not enforce order rules such as minimums, delivery days or a cut-off, so those stay where they are today, in your agreement with the account and in your own system. What changes is that orders tend to arrive earlier, which makes a cut-off easier to hold in practice."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Do we have to move every account over at once?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No, and there is no need to. Start with the customers who order two or three times a week, because that is where the hours are. The rest keep calling, and their orders get written up the way they always were."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "How long before we are taking orders this way?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "For most distributors, 24 to 48 hours. We load the guides, open the accounts and connect the delivery format you picked. There is no implementation phase and no IT work on your side. Most buyers order on the day they are set up."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Wholesale Ordering Software With A Guide Per Buyer",
-      "item": "https://www.voiceordersolutions.com/wholesale-ordering-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "Buyers speak an order into an app and you receive it priced to their own list. Wholesale ordering software that writes each line against your SKU codes.",
-    "url": "https://www.voiceordersolutions.com/wholesale-ordering-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

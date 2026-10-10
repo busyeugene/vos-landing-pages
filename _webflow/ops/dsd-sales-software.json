@@ -344,7 +344,7 @@
    "Time to switch on"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -600,110 +600,5 @@
    "q": "What about accounts that will never use an app?",
    "a": "Some stores will keep calling, and that is fine. Those orders get written up as they are now, and they carry no number or stamp from us. The gain comes from the accounts that do switch, which is usually the ones ordering two or three times a week."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "What does DSD sales software mean here, exactly?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "In our case it means one job: your direct store delivery accounts place their orders themselves, by voice, in an app, before the truck is loaded. The term gets used for everything from route settlement to merchandising audits, so it is worth pinning down. We do the ordering end and nothing past the loading bay."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Is this a replacement for our route accounting system?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. Route accounting handles van inventory, settlement, counter invoicing and driver reconciliation, and none of that is in VOS. Keep the system you have. VOS feeds it orders that were already confirmed by the customer, so your office starts from something clean."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can drivers use it at the stop?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "It is designed for the account to use, not the driver, and that is the point of running DSD sales software this way. The manager who walks the shelves speaks the order on their own phone, at a time that suits them. If a store genuinely cannot do that, keep taking those orders however you do today."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Do we need to give our stores tablets or scanners?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. The app runs on iPhone and Android, on phones store staff already have. There is no barcode scanning, no printer and no device program to budget for, which is usually the thing that stalls a DSD technology project."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "How do orders reach our office and our ERP?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "You pick one route at onboarding: a PDF, Excel or Word attachment, EDI, QuickBooks, or an API hook into the system behind your office. Pick EDI, the API or QuickBooks as the route and nobody keys the order again. An emailed file may still be entered by hand on your side."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Does it tell us what to put on each truck?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Not as an instruction, no. What it gives you is the orders themselves, each with the account, the items and the time it was sent, plus a stock view drawn from the tools you have. The loading decision stays with your team, which is where the local knowledge is."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "We run five trucks. Is that too small?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "That is the size VOS was designed around. DSD operations and independents of that size are the buyers we serve, and there is no IT project, no implementation team and no enterprise contract. We quote per distributor."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What about accounts that will never use an app?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Some stores will keep calling, and that is fine. Those orders get written up as they are now, and they carry no number or stamp from us. The gain comes from the accounts that do switch, which is usually the ones ordering two or three times a week."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "DSD Sales Software For Orders Placed Ahead",
-      "item": "https://www.voiceordersolutions.com/dsd-sales-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "Your accounts send tomorrow's order tonight, so the truck loads against real demand. DSD sales software that takes spoken orders around the clock.",
-    "url": "https://www.voiceordersolutions.com/dsd-sales-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

@@ -344,7 +344,7 @@
    "Time until it is working"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -610,110 +610,5 @@
    "q": "What size of distributor is this aimed at?",
    "a": "Smaller food distributors, independents and DSD rounds included. You need no IT staff, nobody to own the process and no enterprise contract, and we quote per distributor rather than publishing a price list."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "Is VOS distribution workflow software in the usual sense?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Not in the sense of a tool you design processes in. There is no canvas, no rules engine, no task queue and no approval chain here. What VOS does is make one leg of the path fixed: how a customer's order is created and how it reaches you. Everything downstream stays yours to run."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can we build different paths for different accounts?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "The guide is per account, so what a customer can order and at what price varies. Where a completed order goes is agreed with us up front, so it lands the same way whoever is on shift. Fewer variations is the point, and it is why this needs no maintenance."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Who handles it when an item is out?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "A person on your team, as now. VOS does not decide substitutions or notify anybody on your behalf. The difference is that orders tend to arrive earlier and stock levels are visible beside them, so the decision happens before picking rather than during it."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Do we need to write the process down first?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No, and that is much of the appeal. Adopting distribution workflow software normally starts with weeks of mapping. Here you decide two things, the guides and the delivery method, and the path follows from those."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "How does this work while half our accounts still phone?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "You will be running two paths for a while, and it is better to admit that than pretend otherwise. Calls get written up as they are now, with no reference or send time attached. The app path grows as accounts move across."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Does it connect to the systems we already use?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Yes, by whichever single route suits you: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. Take one of the direct feeds and there is no entry step at all."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Will our staff have to work differently?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "They work in the same systems they do now. What changes is what turns up in them: finished, coded orders in place of messages to interpret. Nobody has to learn a new screen on your side of the path."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What size of distributor is this aimed at?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Smaller food distributors, independents and DSD rounds included. You need no IT staff, nobody to own the process and no enterprise contract, and we quote per distributor rather than publishing a price list."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Distribution Workflow Software That Holds Every Shift",
-      "item": "https://www.voiceordersolutions.com/distribution-workflow-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "One path from the customer's order to your delivery, the same on every shift. VOS is the distribution workflow software for the first leg of that path.",
-    "url": "https://www.voiceordersolutions.com/distribution-workflow-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

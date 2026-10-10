@@ -344,7 +344,7 @@
    "What a new starter has to learn"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -604,110 +604,5 @@
    "q": "What does it cost us?",
    "a": "That is a question for your distributor, since they are the ones who take VOS on and decide what it means for their customers. We do not publish pricing. Ask the rep you deal with, or get in touch and we will find out who to speak to."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "Is VOS the best supplier management software for a small kitchen?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "For the ordering half of the job, yes. You order from each supplier that is on VOS out of one app, by voice, and what you say is written out, approved by you and stamped with its own number. The best tool is the one your team will actually use at the end of a shift, and most supplier management software is built for a buyer at a desk with time to fill in fields. VOS does not hold contracts, score your suppliers or compare their prices, and we would rather set that expectation now than at the demo."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can I get all my suppliers in there?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Only the ones that offer VOS, because each supplier loads your guide and prices on their own side. If two of your four distributors use it, those two are in the app and the others carry on as they are. If you want the others on it, we can approach them."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Does it stop us ordering the same thing twice?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Partly, and only by making the ordering visible. Orders go from one app rather than from three phones, and each one is confirmed back to you, so the person locking up can tell that one already went. VOS does not count your stock or block a duplicate on its own."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can I look back at everything we have ever ordered?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Each order you place in VOS is logged with the minute it went out, and you get a confirmation when it lands. How far back your own app view goes is worth asking your distributor, because the full history sits on their admin platform. We would rather you ask them than assume from this page."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Is this supplier relationship management SRM software?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. If you are shopping for supplier performance management software to run scorecards, or supplier lifecycle management software to handle onboarding, renewals and offboarding, VOS handles none of that. Those tools manage the relationship. VOS places the order and records it."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Does it store supplier documents and certificates?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. Supplier information management software and supplier master data management software exist to hold that: bank details, insurance, addresses, approved vendor records. Food safety audits belong to supplier quality management software. None of it is in VOS, which holds your guides and the orders you send."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Is this supplier managed inventory software?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. Under supplier managed inventory the supplier watches your levels and tops you up. In VOS you decide and you push it out; nothing is ordered on your behalf and nothing leaves without a person sending it. Your supplier sees what you asked for, not what is on your shelves."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What does it cost us?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "That is a question for your distributor, since they are the ones who take VOS on and decide what it means for their customers. We do not publish pricing. Ask the rep you deal with, or get in touch and we will find out who to speak to."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Supplier Management Software That Starts With The Order",
-      "item": "https://www.voiceordersolutions.com/supplier-management-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "Order from every supplier on VOS in one app, by voice, with a number and a time on what you send. Supplier management software your distributor switches on.",
-    "url": "https://www.voiceordersolutions.com/supplier-management-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

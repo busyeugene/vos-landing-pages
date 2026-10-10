@@ -340,7 +340,7 @@
    "What it asks of your team"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -630,110 +630,5 @@
    "q": "Where do the stock levels in VOS come from?",
    "a": "From whatever you count stock in today. VOS is not where your stock is recorded and it does not count anything on a shelf; it runs alongside what you have, with the catalog updating as levels change. On the demo we walk through how that connection would work for you."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "Is VOS inventory forecasting software?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. Nothing in it models demand, fits a seasonality curve or works out safety stock, and nothing predicts next month. VOS is the ordering front door plus a current picture of stock. We say this first because the word in your search points somewhere we deliberately do not go."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Then why would a distributor shopping for forecasting talk to you?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Often the reason a forecast is wrong is what went into it. Phone orders retyped a day late, and invoices standing in for demand. Fix the capture and the tool you already own has something better to read."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What exactly would the planning tool get?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "For anything sent through the app: the account, the items against your own codes, the quantities as the buyer confirmed them, a reference number and the time it was sent. Inventory forecasting software reading that gets demand, dated at the hour, rather than a shipping summary."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What is the best inventory forecasting software to pair this with?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "We do not rank them and we name no products, partly because the right answer depends on what your ERP already includes. A planning module you are already paying for may become usable once the order data stops being typed in by hand."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Is any of this inventory forecasting software free?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Nothing on this page is a forecasting product, free or paid. VOS itself is quoted per distributor and we publish no prices, so the answer is to ask on the demo call. If a no-cost forecasting tool is what you need, that is not something we sell."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can we buy AI based inventory forecasting software from you?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. VOS uses no artificial intelligence to project demand and makes no claims of that kind. Voice is used to capture what a person says, and that person reviews every line before sending. Prediction is not part of the product."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "We need inventory forecasting software for multinational forecasts. Is this it?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No, on two counts. VOS does not forecast, and it is built for smaller food distributors and DSD operations rather than global supply chains. Multi-country planning, currencies and transfer flows are outside what we do."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Where do the stock levels in VOS come from?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "From whatever you count stock in today. VOS is not where your stock is recorded and it does not count anything on a shelf; it runs alongside what you have, with the catalog updating as levels change. On the demo we walk through how that connection would work for you."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Real Order History For Inventory Forecasting Software",
-      "item": "https://www.voiceordersolutions.com/inventory-forecasting-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "VOS is not a forecasting engine. It captures customer orders by voice, dated and itemized, so your inventory forecasting software starts from fact.",
-    "url": "https://www.voiceordersolutions.com/inventory-forecasting-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

@@ -290,15 +290,21 @@ primary x6 and 4/4 secondaries. See "Passes 9 to 11" below.
 the component props on a re-push was verified safe by diffing every content JSON's hero and
 final-CTA fields against the first push, not assumed.
 
-**Only two things are left on this cluster:**
-1. **Push the 12 per-page JSON-LD files.** They are generated and sitting in `_webflow/schema/`
-   (14 graph nodes, 8 FAQ questions each, matching the merged accordion) and have NOT been sent.
-   Use `bulk_update_pages_schema_markup` with `site_id` + `pages: [{id, jsonLdSchema}]`; the
-   `/alternatives` hub's schema is already pushed, so that call is the worked example.
-2. **Look at a rendered page.** Everything verified so far is string and structure level, and the
+**The JSON-LD is pushed and verified on all 12** (2026-10-10 evening). Verified the hard way, from
+**stored** state rather than the push reports: `query_pages_schema_markup` on all 12, each stored
+graph compared for **exact JSON equality** against its `_webflow/schema/<slug>.json`, plus the
+folder path on every `WebPage` node. **12/12 identical, 0 problems.** The `/alternatives` hub's own
+`CollectionPage` + `BreadcrumbList` + 12-item `ItemList` were read back the same way and are
+correct. Separately, `verify-schema.py --all` is **12/12 at questions 8/8 and answers 8/8** against
+the live element trees.
+
+**Only one thing is left on this cluster:**
+1. **Look at a rendered page.** Everything verified so far is string and structure level, and the
    2026-10-09 lesson is that string-level green says nothing about rendering. Open a Designer
    preview, one pass per template section, before anything is published. Nothing is published:
-   all 13 pages are `draft: true`.
+   all 13 pages are `draft: true`, and all 13 were re-confirmed to carry their `openGraph`
+   `titleCopied`/`descriptionCopied` and SEO title (duplication does not copy the OG pair, so
+   that was a real risk, and it is clean).
 
 Then, if Eugene wants it: a `/solutions` card per comparison page (the `/alternatives` hub covers
 the hub-page ask). See "▶ Compare-cluster port state" in the Webflow section for what was done and
@@ -992,6 +998,50 @@ what cleared the last donor leaks: the sampled pages now verify at **0 donor lea
 `.uui-pricing11_top-row` are **global** and shared by all 26 landing pages, so editing them would
 reflow every table on the site. `set_style` REPLACES the style list, so always pass the base class.
 
+### ⚠ The 12 compare pages live in an `/alternatives` FOLDER, so their URL is not their slug
+Found 2026-10-10 while reading page metadata before the schema push, and confirmed by Eugene as
+intended. All 12 sit inside a Webflow folder (parent `6aca479288343be0cbba1beb`), so:
+
+    repo slug        pepper-alternative
+    Webflow URL      /alternatives/pepper-alternative     <- what publishes
+    NOT              /pepper-alternative
+
+It mirrors `/free-tools`, which has held the 23 calculators the same way all along.
+
+- **A Webflow folder never appears in `list_pages`.** It shows up only as a `parentId` on its
+  children and in their `publishedPath`. That is why this went unnoticed through a full port: every
+  page-level call succeeded and nothing in the element tree hints at it. **Read `publishedPath`
+  before generating any URL**, rather than composing it from the slug.
+- The damage would have been real: the generated canonical, `@id` and `BreadcrumbList` on all 12,
+  plus the hub's 12 `ItemList` URLs, all pointed at a path that 404s.
+- **`pages.json` `comparePaths` is now the source of truth** and `gen-schema.py` reads it instead of
+  assuming `'/' + slug`. `altHubPath` holds `/alternatives`.
+- The repo is unaffected: its slugs stay `<slug>` and its canonicals point at the Vercel mirror, so
+  only the Webflow JSON-LD ever depended on this. The hub's card links are page-id links, so they
+  resolve wherever the pages sit.
+- **Still unreconciled, for Eugene:** the Airtable plan and this file's own slug decision ("slug =
+  the primary keyword, like every other page on the site") both assume a root-level URL. The folder
+  is a better fit for the site, but somebody should decide which record is authoritative before
+  these publish.
+
+⚠ **Never regenerate a file while delegated workers are reading it.** The schema push was running
+in the background when the folder was discovered and the 12 schema files were regenerated. The
+workers read `schema/<slug>.json` at whatever moment they reached each page, so the result was
+split: 2 pages got the corrected URLs, 8 got the stale ones and 2 were not written yet. Nothing was
+lost, because `bulk_update_pages_schema_markup` is idempotent and the pages are drafts, but the only
+way to know the real state was to read it back with `query_pages_schema_markup` and compare. Either
+finish the generation before delegating, or stop the workers first. **And always read back what is
+STORED rather than trusting the push reports**, which all said success and were all individually
+true.
+
+**Schema verification.** `_webflow/verify-schema.py` compares BOTH halves of every FAQ pair against
+the live element tree, counts the rendered accordion and checks that page-scoped nodes point at the
+right page. All 12: **questions 8/8 and answers 8/8**, 8 live question strings each, URLs correct.
+`verify-compare.py` only ever checked the questions, so a wrong ANSWER, which is the half Google
+reads, had been invisible. ⚠ Its first run reported 24 "wrong url" findings on 12 clean pages
+because `Organization` and `WebSite` correctly carry the SITE ROOT; only
+WebPage/CollectionPage/FAQPage/ItemPage/AboutPage are page-scoped.
+
 ### The `/alternatives` hub (Webflow only, no repo counterpart)
 `/alternatives` (page `6aca44dad218825392222a7d`, **draft**, created 2026-10-10) is the third hub
 after `/solutions` and `/free-tools`, with one card per comparison page. Blueprint in
@@ -1077,6 +1127,28 @@ unported-slot detector with **no length floor**, as the Webflow port section ins
 > Because `gen-ops.py` now writes both eyebrows, the ten batch-4 `ops/*.json` each gained two ops
 > that have **not been pushed**. Their live comparison eyebrow is still the donor's. Harmless, but
 > it is two MCP calls to clean up whenever those pages are next touched.
+
+**Two latent generator defects found 2026-10-10 by regenerating `ops/` and diffing against HEAD**,
+which is worth doing after any map or generator change because both were invisible otherwise:
+- **`gen-ops.py` built a SECOND, thinner JSON-LD graph that nothing ever read**, and it carried an
+  `Offer` with **`price: '0'`** (asserting the product is free, which the claim rules forbid and
+  which its own sibling description contradicted with "quote based") and URLs composed as
+  `LIVE + '/' + slug`, which 404 for all 12 comparison pages. It was never pushed, because
+  `batches.py schema`, `verify-schema.py` and `verify-compare.py` all read `schema/<slug>.json`
+  from `gen-schema.py` instead. **Removed**, with the reason in a comment, so a future wiring-up
+  cannot ship either defect. Checked first that no file of any type read it.
+- **The ten batch-4 `ops/*.json` in git carried an FAQ-eyebrow element id that exists nowhere.**
+  `map.json` was corrected after those ops were generated (the id had originally been transcribed
+  from truncated output), but the ops were never regenerated, so the committed op pointed at a
+  dead uuid and would have returned "Element not found". Proved by grepping both ids against a
+  captured live tree: the new one appears once, the old one zero times. The text is `FAQ` either
+  way, which is why nothing visible ever broke.
+
+**When you regenerate a generated directory, diff it against HEAD field by field, not with
+`git diff`.** A whole-file diff here showed "22 files changed, 2342 deletions" and buried the one
+finding that mattered. Parsing both versions and comparing per key showed instantly that the 12
+compare pages changed in nothing but the dead key, and that the 10 batch-4 pages differed in
+exactly one `text` op. That is also what made it safe to keep the regenerated files.
 
 **`gen-ops.py` now carries a coverage guard** for exactly that defect class: after building, every
 non-trivial string in `content/` that reaches no op prints

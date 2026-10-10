@@ -344,7 +344,7 @@
    "How long before it is running"
   ],
   [
-   "30f8c397-7c47-09f5-59c2-3b3e4a00ad61",
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
    "FAQ"
   ],
   [
@@ -608,110 +608,5 @@
    "q": "Can we start with part of the customer base?",
    "a": "That is what we recommend. Pick the busiest accounts, get them on the app, and leave the rest exactly as they are. Nothing about the rollout is all or nothing."
   }
- ],
- "schema": {
-  "@context": "https://schema.org",
-  "@graph": [
-   {
-    "@type": "FAQPage",
-    "mainEntity": [
-     {
-      "@type": "Question",
-      "name": "Is VOS wholesale operations software or an ERP?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "It is one layer, not the whole thing. VOS handles how orders arrive from your customers and the record each one leaves. It does not do your ledger, your billing, your warehouse or your own buying. An ERP does those, and the two run alongside each other rather than competing."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "We have no ERP, just spreadsheets. Does that matter?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Not at all, and plenty of distributors in this trade are in that position. Orders can land as an emailed Excel or PDF file, which drops straight into how a spreadsheet operation already works. You can add heavier systems later without unpicking this."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Will this create two places to keep prices?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Yes, in one place. The guides in VOS hold the prices your customers order at, so those have to stay right. Any wholesale operations software with guides of its own works that way, and your own team edits them on one web screen."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "How do orders get into what we already run?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "You choose the route when we set you up: by email as a PDF, Excel or Word file, through EDI, into QuickBooks, or straight into your ERP over the API. Take one of the direct feeds and the typing stops. A file sent by email may still get keyed in on your side."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Does it handle the warehouse or the trucks?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. Bin locations, picking routes, scanning and delivery paperwork are all outside it. What it does for those teams is get them complete, confirmed orders earlier in the day, which is usually the constraint rather than the software."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "What happens to the staff doing order entry now?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "Worth thinking about before rollout. The typing was never the valuable part, so the usual answer is customer service, chasing shorts and selling. Accounts still phoning will keep them busy for a while yet."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Is our business too small for something like this?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "No. VOS is aimed at smaller distributors, DSD rounds included, and there is no IT requirement and no implementation team. Pricing is by quote for each distributor."
-      }
-     },
-     {
-      "@type": "Question",
-      "name": "Can we start with part of the customer base?",
-      "acceptedAnswer": {
-       "@type": "Answer",
-       "text": "That is what we recommend. Pick the busiest accounts, get them on the app, and leave the rest exactly as they are. Nothing about the rollout is all or nothing."
-      }
-     }
-    ]
-   },
-   {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.voiceordersolutions.com/"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Wholesale Operations Software Starts At The Order",
-      "item": "https://www.voiceordersolutions.com/wholesale-operations-software"
-     }
-    ]
-   },
-   {
-    "@type": "SoftwareApplication",
-    "name": "VoiceOrder Solutions",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "iOS, Android, Web",
-    "description": "Your office software is fine. The hole is at the intake end: VOS is the wholesale operations software that turns customer calls into usable order records.",
-    "url": "https://www.voiceordersolutions.com/wholesale-operations-software",
-    "offers": {
-     "@type": "Offer",
-     "price": "0",
-     "priceCurrency": "USD",
-     "description": "Pricing is quote based. Book a demo for a quote."
-    }
-   }
-  ]
- }
+ ]
 }

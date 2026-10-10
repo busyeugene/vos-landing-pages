@@ -7,8 +7,9 @@ Writes ops/<slug>.json:
     "links":   [ [element_id, href, text], ... ]    -> set_link + set_text
     "delete":  [ element_id, ... ]                  -> remove_element
     "hard":    [ {cell, want, text} ... ]           -> text cell that must become an icon cell
-    "props":   { hero: {...}, mainCta: {...} }      -> component prop overrides
-    "schema":  { ...JSON-LD... } }
+    "props":   { hero: {...}, mainCta: {...} } }    -> component prop overrides
+
+The JSON-LD is NOT here: gen-schema.py owns it and writes schema/<slug>.json.
 
 Usage: python gen-ops.py            (all pages)
        python gen-ops.py <slug>     (one page)
@@ -180,27 +181,13 @@ def build(slug):
                     'cta': clean_cta(d['mainCta']['cta'])},
     }
 
-    schema = {
-        '@context': 'https://schema.org',
-        '@graph': [
-            {'@type': 'FAQPage',
-             'mainEntity': [{'@type': 'Question', 'name': x['q'],
-                             'acceptedAnswer': {'@type': 'Answer', 'text': x['a']}} for x in fq]},
-            {'@type': 'BreadcrumbList',
-             'itemListElement': [
-                 {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': LIVE + '/'},
-                 {'@type': 'ListItem', 'position': 2, 'name': d['hero']['h1'].rstrip('.'),
-                  'item': '%s/%s' % (LIVE, slug)}]},
-            {'@type': 'SoftwareApplication', 'name': 'VoiceOrder Solutions',
-             'applicationCategory': 'BusinessApplication',
-             'operatingSystem': 'iOS, Android, Web',
-             'description': d['meta_desc'],
-             'url': '%s/%s' % (LIVE, slug),
-             'offers': {'@type': 'Offer', 'price': '0',
-                        'priceCurrency': 'USD',
-                        'description': 'Pricing is quote based. Book a demo for a quote.'}},
-        ],
-    }
+    # The JSON-LD is NOT built here. gen-schema.py owns it and writes schema/<slug>.json, which is
+    # what batches.py, verify-schema.py and verify-compare.py all read; nothing ever read the copy
+    # this function used to emit. Removed 2026-10-10 because that dead copy carried two defects a
+    # future wiring-up would have shipped: an Offer with `price: '0'`, which asserts the product is
+    # free (the claim rules forbid stating any price, and its own sibling description said "quote
+    # based"), and URLs composed as LIVE + '/' + slug, which 404 for the 12 comparison pages now
+    # that they sit in the /alternatives folder. gen-schema.py reads pages.json `comparePaths`.
 
     # Coverage guard. The 2026-10-09 port extracted eight slots and silently never wrote
     # them, so the donor's copy shipped on ten pages. Any non-trivial string declared in
@@ -241,7 +228,7 @@ def build(slug):
 
     return {'slug': slug, 'meta_title': d['meta_title'], 'meta_desc': d['meta_desc'],
             'text': text, 'embed': embed, 'styles': styles, 'links': links, 'delete': delete,
-            'hard': hard, 'props': props, 'faq': fq, 'schema': schema}
+            'hard': hard, 'props': props, 'faq': fq}
 
 
 def S(block_id):
