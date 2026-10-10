@@ -354,4 +354,22 @@ module.exports = {
       'better than wizcommerce',
     ],
   },
+  'rekki-alternative': {
+    primary: 'rekki alternative',
+    secondary: [
+      'rekki competitor',
+      'rekki replacement',
+      'alternative to rekki',
+      'better than rekki',
+    ],
+  },
+  'fresho-alternative': {
+    primary: 'fresho alternative',
+    secondary: [
+      'fresho competitor',
+      'fresho replacement',
+      'alternative to fresho',
+      'better than fresho',
+    ],
+  },
 };

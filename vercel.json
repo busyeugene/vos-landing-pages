@@ -143,6 +143,14 @@
     {
       "source": "/wizcommerce-alternative",
       "destination": "/vos-wizcommerce-alternative-landing.html"
+    },
+    {
+      "source": "/rekki-alternative",
+      "destination": "/vos-rekki-alternative-landing.html"
+    },
+    {
+      "source": "/fresho-alternative",
+      "destination": "/vos-fresho-alternative-landing.html"
     }
   ],
   "headers": [
