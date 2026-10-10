@@ -285,6 +285,11 @@ and cross-page repetition at 0 for the first time, `claims.js` 0 bans with every
 re-grepped clean, `promote.js` tilt 1.0/11, and all 12 verified against the live Airtable base at
 primary x6 and 4/4 secondaries. See "Passes 9 to 11" below.
 
+**The 12 Webflow drafts match this copy.** They were re-pushed after those passes and read back:
+12/12 at 100% text coverage, 0 donor leaks, 8/8 schema FAQ questions. Skipping the `rest` batch and
+the component props on a re-push was verified safe by diffing every content JSON's hero and
+final-CTA fields against the first push, not assumed.
+
 **Only two things are left on this cluster:**
 1. **Push the 12 per-page JSON-LD files.** They are generated and sitting in `_webflow/schema/`
    (14 graph nodes, 8 FAQ questions each, matching the merged accordion) and have NOT been sent.
