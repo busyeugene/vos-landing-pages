@@ -318,4 +318,13 @@ module.exports = {
       'better than bluecart',
     ],
   },
+  'necs-entree-alternative': {
+    primary: 'necs entree alternative',
+    secondary: [
+      'necs entree competitor',
+      'necs entree replacement',
+      'alternative to necs entree',
+      'better than necs entree',
+    ],
+  },
 };

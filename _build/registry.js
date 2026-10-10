@@ -272,4 +272,14 @@ module.exports = [
     kind: 'compare',
     competitor: 'BlueCart',
   },
+  {
+    slug: 'necs-entree-alternative',
+    file: 'vos-necs-entree-alternative-landing.html',
+    label: 'NECS Entree Alternative',
+    card: 'VOS vs NECS Entree',
+    blurb: "Entree runs your business and should keep running it. VOS changes one thing: your accounts speak the order instead of typing it.",
+    cluster: 'compare',
+    kind: 'compare',
+    competitor: 'Entree',
+  },
 ];

@@ -127,6 +127,10 @@
     {
       "source": "/bluecart-alternative",
       "destination": "/vos-bluecart-alternative-landing.html"
+    },
+    {
+      "source": "/necs-entree-alternative",
+      "destination": "/vos-necs-entree-alternative-landing.html"
     }
   ],
   "headers": [
