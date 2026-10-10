@@ -121,11 +121,6 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Time to go live</td>
-            <td>24-48 hours for most</td>
-            <td>No distributor go-live published</td>
-          </tr>
-          <tr>
             <td>Parks itself next to the systems you have</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
@@ -141,8 +136,13 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Who it is built for</td>
-            <td>The smaller end of the trade only</td>
+            <td>Time to go live</td>
+            <td>24-48 hours for most</td>
+            <td>No distributor go-live published</td>
+          </tr>
+          <tr>
+            <td>Built for your size of operation</td>
+            <td><span class="check-yes">✓</span></td>
             <td>Distributors of all sizes</td>
           </tr>
           <tr>
@@ -198,8 +198,7 @@ module.exports = {
         <div class="problem-icon">📐</div>
         <h4>Built for everyone is not built for you</h4>
         <p class="text-muted mt-12">
-          Choco says it wants to serve distributors of every size, and their own homepage puts 30,000 distributors on it. We went the other way and picked one end of that range. Small and mid-size
-          independents and DSD operations are the only buyer VOS is shaped around.
+          Choco says it wants to serve distributors of every size. We went the other way and picked one end of that range. Small and mid-size independents and DSD operations are the only buyer VOS is shaped around.
         </p>
       </div>
 
@@ -246,7 +245,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Works from the cooler, the prep bench or the office</span>
+              <span>Works from the cooler or the prep bench, at any hour</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -254,7 +253,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Roughly 20 to 30 minutes back against the same order by phone</span>
+              <span>20 to 30 minutes back against the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Reorders stop reaching your reps, so that time goes into selling</span>
             </li>
           </ul>
           <a href="/order-taking-software" class="feature-link">How order taking works →</a>

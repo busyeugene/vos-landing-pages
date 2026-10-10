@@ -106,3 +106,11 @@ and no inbox step, because nothing was ever a document.
 channels are portal, EDI, email, marketplace and rep app, and all of them are typed or uploaded.
 **Do not claim VOS replaces them.** A distributor with heavy EDI retailer compliance and a wall of
 emailed POs should buy OrderEase, and the page can say so.
+
+## ⚠ ADDED 2026-10-10 (re-check): they DO publish a rollout claim
+`orderease.com/edi-integration-platform`: **"Each connection comes fully managed from onboarding to
+compliance testing so you can go live in days, not months"**, with a customer line that onboarding
+new retail partners "takes days, not months". Their /pricing adds **"Basic onboarding is included
+in your plan"**. So "timeline not published" is wrong for them; VOS's 24 to 48 hours still leads.
+Their email page also publishes **"Our system flags exceptions for review"** plus an **"Exception
+handling workflow"**, so the exception-queue premise is theirs, not an inference.

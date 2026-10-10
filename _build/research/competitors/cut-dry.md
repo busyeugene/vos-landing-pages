@@ -60,3 +60,12 @@ Cut+Dry is a **three-sided network**, and its own site says so. The honest, chec
 **Concede plainly:** Cut+Dry does things VOS does not, and the page should say so: digital
 payments and invoicing, a sales control centre, product-data syndication, and an ecommerce
 storefront with search and discovery. VOS has none of that.
+
+## ⚠ ADDED 2026-10-10 (re-check): they DO publish a general go-live window
+`cutanddry.com/distributors/reduce-costs/`: heading **"Launch fast. Operate smarter."**, bullet
+**"Go Live in Under 90 Days"**, beside "Integrate With Your Existing Systems" and "Train Your Team
+Quickly". This supersedes the earlier note that the only data point was Y. Hata & Co.'s 90 days from
+contract to launch; that customer figure is still live on the homepage and is a separate point.
+**Also added:** `cutanddry.com/distributors/` lists **AI Order Desk** - "Transcribe texts, emails,
+voicemails, and calls into orders in minutes." So Cut+Dry DOES read voice. Their help centre
+documents a required review before submit.

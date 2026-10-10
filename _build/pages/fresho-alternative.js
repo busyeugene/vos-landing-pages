@@ -129,14 +129,29 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
+            <td>Works on ten accounts without a wider rollout</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Modules and volume priced together</td>
+          </tr>
+          <tr>
             <td>Invoicing and taking payment</td>
             <td>Not offered</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
+            <td>The order is spoken and confirmed by the buyer</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Portal, or the message they already send</td>
+          </tr>
+          <tr>
             <td>Picking and packing on the floor</td>
             <td>Not offered</td>
             <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Starts without choosing modules</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Around 4 weeks, plus AI training</td>
           </tr>
           <tr>
             <td>Margin and price list management</td>
@@ -147,21 +162,6 @@ module.exports = {
             <td>Reads voicemails, texts and PDFs for you</td>
             <td>Not offered</td>
             <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Works on ten accounts without a wider rollout</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>Modules and volume priced together</td>
-          </tr>
-          <tr>
-            <td>The order is spoken and confirmed by the buyer</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>Portal, or the message they already send</td>
-          </tr>
-          <tr>
-            <td>Starts without choosing modules</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>Around 4 weeks, plus AI training</td>
           </tr>
           <tr>
             <td>What you are buying</td>
@@ -258,7 +258,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Done at the bench, in the cooler or at the desk</span>
+              <span>Done in the cooler or at the desk, at any hour</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -266,7 +266,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Around 20 to 30 minutes back against the same order by phone</span>
+              <span>20 to 30 minutes back against the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Interrupted halfway? It holds the order until they come back</span>
             </li>
           </ul>
           <a href="/order-taking-software" class="feature-link">How order capture works →</a>

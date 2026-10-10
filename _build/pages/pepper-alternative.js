@@ -121,16 +121,6 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Up and running</td>
-            <td>24-48 hours for most</td>
-            <td>Published 35-90 days</td>
-          </tr>
-          <tr>
-            <td>What the rollout asks of you</td>
-            <td>Hand over your guides</td>
-            <td>Five phases, managed</td>
-          </tr>
-          <tr>
             <td>Its own guide for every account, at your prices</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
@@ -144,6 +134,16 @@ module.exports = {
             <td>Orders out as PDF, Excel, Word, EDI or the API</td>
             <td><span class="check-yes">✓</span></td>
             <td>Not described</td>
+          </tr>
+          <tr>
+            <td>Up and running</td>
+            <td>24-48 hours for most</td>
+            <td>Published 35-90 days</td>
+          </tr>
+          <tr>
+            <td>What the rollout asks of you</td>
+            <td>Hand over your guides</td>
+            <td>Five phases, managed</td>
           </tr>
           <tr>
             <td>What the product covers</td>
@@ -249,7 +249,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Order from the cooler, the line or the office out back</span>
+              <span>From the cooler or the line, whatever time the shift ends</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -257,7 +257,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Saves about 20 to 30 minutes against the same order on the phone</span>
+              <span>20 to 30 minutes back against the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Nobody writes up a reorder, so the reps get that time to sell</span>
             </li>
           </ul>
           <a href="/order-taking-software" class="feature-link">How VOS takes orders →</a>

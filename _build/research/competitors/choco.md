@@ -56,3 +56,10 @@ a sales hub, a foodservice CRM, and a published 20% larger-basket claim. The hon
 ## Open question for Eugene
 A live blog post `/blog/choco-alternatives` already targets the plural. This landing page targets
 the singular. Cross-link them.
+
+## ⚠ ADDED 2026-10-10 (re-check): Choco HAS a free restaurant ordering app
+`choco.com/us/restaurants`: **"Order and chat with your distributors in one intuitive and free
+app"**, **"Place orders in just three taps"**, **"Send perfect orders to your distributor"**,
+**"Choco is free for restaurants. No catches. No hidden fees."**, and **"Choco requires no setup
+time."** The kitchen builds and sees its own order there. Any argument on this page about a parsed
+message must be scoped to OrderAgent, not to Choco as a whole.

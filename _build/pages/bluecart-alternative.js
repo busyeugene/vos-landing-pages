@@ -112,8 +112,18 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
+            <td>Your buyer signs the order off before it sends</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>On their storefront, yes</td>
+          </tr>
+          <tr>
             <td>Free delivery and promotions to win first-time buyers</td>
             <td>Not offered</td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Each account has its own guide, at your prices</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -130,16 +140,6 @@ module.exports = {
             <td>What the buyer can see while ordering</td>
             <td>Your guide only</td>
             <td>A marketplace catalog alongside yours</td>
-          </tr>
-          <tr>
-            <td>Your buyer signs the order off before it sends</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>On their storefront, yes</td>
-          </tr>
-          <tr>
-            <td>Each account has its own guide, at your prices</td>
-            <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>How long until it is running</td>
@@ -176,7 +176,7 @@ module.exports = {
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Why an alternative to BlueCart comes up</h2>
       <p class="lead mt-16">
-        BlueCart sells reach. Join the marketplace, get listed in the endless aisle, be seen by the 48,000 restaurants their headline claims. For a supplier chasing new accounts that is the whole
+        BlueCart sells reach. Join the marketplace, get listed in the endless aisle, be seen by the restaurants their headline counts. For a supplier chasing new accounts that is the whole
         appeal. For a distributor whose book is already full, a BlueCart competitor starts to look
         like the simpler buy.
       </p>
@@ -247,7 +247,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Spoken from the cooler, the bench or the office</span>
+              <span>Done in the cooler or at the desk, at any hour</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -255,7 +255,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Roughly 20 to 30 minutes back against the same order by phone</span>
+              <span>20 to 30 minutes back against the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Interrupted halfway? It holds the order until they come back</span>
             </li>
           </ul>
           <a href="/order-taking-software" class="feature-link">How order capture works →</a>
@@ -356,8 +360,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock in view as each order lands</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to what is being ordered, and the
-            catalog tracks the levels. It is not the system of record for stock: yours stays in
+            VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
             charge, and a demo walks the connection between them.
           </p>
           <ul class="feature-bullets mt-24">

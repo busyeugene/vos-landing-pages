@@ -94,3 +94,14 @@ on-call support. VOS has none of it. Give REKKI the first rows.
 ⚠ **Do not reuse the Burnt angle** ("agents across the back office, who stays in the loop") or the
 WizCommerce angle ("handled or ended"). Both are close. Keep this page on the measurement: an error
 rate exists because there is something to be accurate about.
+
+## ⚠ ADDED 2026-10-10 (re-check): what they publish AROUND the accuracy figure
+`rekki.com/order-ai`: H1 **"Error-free orders, from inbox to your ERP"**; **"Our robot checks every
+detail twice, catching errors before they happen"**; **"All without any need for manual data entry
+or human intervention"**; stat block **"100% Complete automation with 1 integration"** and a
+**0.1%** error rate (the /for-customer-service page says 0.01%, so their own two figures disagree).
+Homepage: **fail-safe systems to prevent mistakes**, and a **"Money back guarantee ... full refund
+guarantee if you're not satisfied"**. Also `/order-ai` FAQ: **"It's very quick to get started -
+OrderAI can start processing orders and training itself on your business right away"**, so do NOT
+imply they need a month of corrections. ⚠ Because they claim NO human step, never write that their
+customer's team checks the order.

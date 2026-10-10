@@ -123,24 +123,14 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Looks after your EDI trading partners for you</td>
-            <td>Sends orders over EDI</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Marketplace and online store connectors</td>
-            <td>Not offered</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Splits fulfillment across warehouses</td>
-            <td>Not offered</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
             <td>Your account's price list is the only setup</td>
             <td><span class="check-yes">✓</span></td>
             <td>Rules and channels to configure</td>
+          </tr>
+          <tr>
+            <td>Looks after your EDI trading partners for you</td>
+            <td>Sends orders over EDI</td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>The buyer builds the order, not your desk</td>
@@ -148,8 +138,18 @@ module.exports = {
             <td>Types it, or sends a file</td>
           </tr>
           <tr>
+            <td>Marketplace and online store connectors</td>
+            <td>Not offered</td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
             <td>Each account has its own guide, at your prices</td>
             <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Splits fulfillment across warehouses</td>
+            <td>Not offered</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -254,7 +254,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Said from the walk-in, the bench or the back office</span>
+              <span>Said from a walk-in or an office, at any hour</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -262,7 +262,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Around 20 to 30 minutes back against the same order by phone</span>
+              <span>20 to 30 minutes back against the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Interrupted halfway? It holds the order until they come back</span>
             </li>
           </ul>
           <a href="/order-entry-software" class="feature-link">How an order gets placed →</a>
@@ -659,8 +663,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They are more open than we are here, and credit where it is due: their site publishes a
-          starting figure and says there is no free tier. Ours is quoted on how many accounts you
+          They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quoted on how many accounts you
           want opened, with nothing published. Ask us and you will get a number for your own book.
         </div>
       </div>
