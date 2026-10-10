@@ -222,4 +222,14 @@ module.exports = [
     kind: 'compare',
     competitor: 'Pepper',
   },
+  {
+    slug: 'choco-alternative',
+    file: 'vos-choco-alternative-landing.html',
+    label: 'Choco Alternative',
+    card: 'VOS vs Choco',
+    blurb: "Choco sells a growth platform: storefront, sales hub, CRM. VOS does the ordering step, and your accounts approve each line before it sends.",
+    cluster: 'compare',
+    kind: 'compare',
+    competitor: 'Choco',
+  },
 ];

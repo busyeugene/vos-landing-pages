@@ -56,8 +56,17 @@ for (const p of registry) {
   const sents = [title, desc, ...body.split('\n').map(s => s.replace(/\s+/g, ' ').trim()).filter(Boolean)]
     .flatMap(t => t.split(/(?<=[.!?])\s+/));
   const hits = [];
+  // A compare page names its competitor on purpose, so that one name is exempt from the
+  // named-integrations ban. Every OTHER name on that list still bans: the Choco page may say
+  // "Choco" and still must not say "NetSuite".
+  const ownName = p.kind === 'compare' && p.competitor ? p.competitor : null;
+  const exempt = (label, s) => {
+    if (label !== 'named integrations' || !ownName) return s;
+    return s.replace(new RegExp('(^|[^A-Za-z])' + ownName + '([^A-Za-z]|$)', 'g'), '$1@COMPETITOR@$2');
+  };
   for (const [label, re, sev] of RULES) {
-    for (const s of sents) {
+    for (const raw of sents) {
+      const s = exempt(label, raw);
       if (!re.test(s)) continue;
       if (sev === 'CHECK-MOST' && /\bmost\b|usually|typical|often|many/i.test(s)) continue;
       if (sev === 'CHECK-WEB' && p.slug === 'order-entry-software') { hits.push([label, 'CHECK', s]); continue; }

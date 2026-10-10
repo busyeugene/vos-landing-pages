@@ -273,4 +273,13 @@ module.exports = {
       'better than pepper',
     ],
   },
+  'choco-alternative': {
+    primary: 'choco alternative',
+    secondary: [
+      'choco competitor',
+      'choco replacement',
+      'alternative to choco',
+      'better than choco',
+    ],
+  },
 };

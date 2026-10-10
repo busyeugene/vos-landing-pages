@@ -107,6 +107,10 @@
     {
       "source": "/pepper-alternative",
       "destination": "/vos-pepper-alternative-landing.html"
+    },
+    {
+      "source": "/choco-alternative",
+      "destination": "/vos-choco-alternative-landing.html"
     }
   ],
   "headers": [
