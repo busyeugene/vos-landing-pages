@@ -251,6 +251,94 @@ Competitor research digests for every primary keyword (Sep 2026 review) live in 
 
 `_build/registry.js` is the source of truth for every page. See `_build/README.md` for how to add a page.
 
+## Competitor comparison pages (`compare` cluster, opened 2026-10-10)
+Twelve `<competitor> alternative` pages from the **October** Airtable batch (base
+`appyUSl7qCyguvABD`, table `Content plan`, product `rec10EFwKwaOcCpK7`, `Asset type = Landing page`,
+`Status = Planned`). Each row already carries the primary keyword, four secondaries, a meta title, a
+5-point outline and the competitor's homepage. **November holds 8 more** (apicbase, craftable,
+marginedge, marketman, orderly, restaurant365, wisk, xtrachef), so do not treat the plan as 12 total.
+
+**The twelve (October):** pepper, choco, cut+dry, burnt ai, bluecart, fresho, grubmarket ai,
+necs entree, orderease, pepperi, rekki, wizcommerce. **Pepper shipped first as the pattern.**
+
+**Decisions Eugene made 2026-10-10, apply to all twelve:**
+- **Slug = the primary keyword** (`/pepper-alternative`), like every other page on the site, not
+  SimplyDepo's `/x-vs-y` shape. "VoiceOrder Solutions vs <competitor>" is the comparison H2 and the
+  footer anchor, so one page serves both searches. (SimplyDepo did the same thing: their H1 is
+  "Repsly Alternative"; only their URL says vs.)
+- **Repo first, then port.** The gates are the reason: on page 1 they caught a meta description
+  missing "most", a keyword a heading short, and 77 cross-page trigrams.
+- **Block order is the `compare` variant**, not the 16-section feature template.
+
+### The `compare` block order (registry `kind: 'compare'`)
+`navbar, hero, logos, split, comparison, midcta, whatis, features, stats, cards, midcta, steps,
+testimonials, integrations, faq, related, finalcta, footer`
+
+The comparison table moves to **section 5**, because that is what a comparison searcher came for,
+and the **mid-CTA block repeats**. Two blocks are new but use **only existing classes, so there is
+no new CSS**:
+- **`split`** (`id="split"`), a with/without 2-col built from one `.feature-row` (it is already
+  `1fr 1fr`) with a `.feature-bullets` list in each column. Needs an eyebrow, an h2 and exactly 2 h3s.
+- **`whatis`** (`id="what-is-*"`), a short factual explainer of the competitor. Needs an h2 and an h3.
+
+`template.js` knows the variant and adds three checks: a compare page must name its `competitor`
+(a new registry field) in the `whatis` section, **every** mid-CTA is checked rather than only the
+first, and the two mid-CTA headings must differ.
+
+### Writing one of these honestly
+- **Research the competitor live and date it.** Digests live in `_build/research/competitors/<slug>.md`.
+  The entries in `E:\Claude projects\Writing\Clients\VOS\_system\competitors.md` are dated
+  2026-07 and are past their own 60-day window, so they are a baseline, not a source.
+- **Cite the competitor's own published words**, and say on the page where and when they were read
+  ("read off usepepper.com on 10 October 2026"). Pepper's own `/post/how-long-does-it-take-to-implement-pepper`
+  gives "35 to 90 days", which is the strongest honest contrast with VOS's 24 to 48 hours.
+- **Never repeat a competitor's unaudited marketing numbers** (Pepper's "500+ distributors",
+  "3x sales"). Describe the model, quote only what is checkable.
+- **Pricing is parity.** Every one of these competitors is quote-based and so is VOS, so never fault
+  them for quote-only pricing in terms VOS would fail. One fair row: "On request" both sides.
+- **Give the competitor real ✓ marks.** Pepper has 3 on the Pepper page. A table where the
+  competitor loses every row reads as marketing and invites a fact-check.
+- **Turn VOS's narrowness into the sell, do not hide it.** "Pepper is a platform you move onto; VOS
+  is a layer you add beside what you run today" says VOS is smaller and makes that the reason to
+  buy. The page says plainly "VOS is not a full Pepper replacement, and it does not try to be."
+- **Competitors run these pages too.** Pepper has `/compare/pepper-vs-bluecart`, `-cut-dry`,
+  `-grubmarket`, `-ziizii`, three of which are in our twelve. They cite no source or date for a
+  single competitor claim; ours do, which is the differentiator if a buyer reads both.
+
+### What bit on page 1
+- **The dedupe loop is the whole cost.** A comparison page restates every canonical VOS fact, so it
+  collides with all 26 existing pages: **77 cross-page trigrams, cleared over four rounds
+  (77 -> 43 -> 5 -> 0)** plus ~12 in-page repeats. **Measure the baseline first** (temporarily drop
+  the slug from `registry.js` and run `trigram.js --cross 3`): it was 0, which proved all 77 were
+  the new page's. Batch candidate wordings through `phrasecheck.js` **before** writing, about 10 per
+  call; roughly a third come back colliding.
+- **Setup-time mentions run away on this page type**, because speed is the argument. The first draft
+  had **10** against a house norm of 4 to 6. Keep four, each worded differently: hero lead
+  "24 to 48 hours", the `24-48 Hrs` stat, the comparison row "24-48 hours for most", one FAQ
+  "a day or two".
+- **Rewording for the dedupe gate breaks grammar.** The verification read found "The app lists it out
+  as a list", a dangling "priced the way you set it", "the guides each kitchen buys from today"
+  (reads as "from today onward") and a "Will VOS replace...?" answered "It does not." **Always read
+  the outline after a reword round**; no gate sees any of these.
+- **A `` written into a JS gate through a Python heredoc becomes a backspace, not a word
+  boundary**, so the new competitor check passed nothing and failed everything. Same family as the
+  Writing repo's `brand_shorthand` bug. The fix was to drop backslashes entirely:
+  `new RegExp('(^|[^A-Za-z])' + name + '([^A-Za-z]|$)')`, negative-tested both ways (matches
+  "Pepper", rejects "Pepperi"). **Also: `io.open(...).write()` without closing the handle silently
+  did not land**, and the next grep showed the old bytes. Use `with`, then read the file back.
+
+### Open on this batch
+- **8 of the 12 competitors are outside the client-approved set.** The VOS knowledge base §7 approves
+  only **Pepper, Choco, Cut+Dry, Burnt**. BlueCart, Fresho, GrubMarket AI, NECS Entree, OrderEase,
+  Pepperi, REKKI and WizCommerce come only from the Airtable plan, which is being treated as
+  approval. Confirm with Eugene.
+- **The related strips point at feature pages** (order-taking, wholesale-ordering, b2b-portal) because
+  no compare siblings existed when Pepper shipped. **Re-point all twelve at each other** once the
+  batch is built, then re-run `template.js` (it checks 3 same-audience cards).
+- **`cut+dry` needs a slug ruling:** the `+` cannot go in a URL. Their domain is cutanddry.com.
+- The hub page (one card per comparison, plus a reused table and CTAs) and the `/solutions` card come
+  after the twelve.
+
 ## Webflow port (`_webflow/`)
 The client's live site is Webflow, and the batch-4 pages were ported there as **drafts** on
 2026-10-09 (site `69bc131a5fdaa09a10456d46`). Generated artifacts live in `_webflow/`; the root HTML
