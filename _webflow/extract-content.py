@@ -44,7 +44,9 @@ def build(slug):
         m = re.search(r'<section[^>]*aria-label="%s"[\s\S]*?(?=<section|</body)' % aria, b)
         return m.group(0) if m else ''
 
-    d = {'slug': slug + '-software',
+    # Feature slugs are stored without the '-software' suffix; compare slugs are complete.
+    out_slug = slug if slug.endswith('-alternative') else slug + '-software'
+    d = {'slug': out_slug,
          'meta_title': one(r'<title>([^<]*)</title>', head),
          'meta_desc': one(r'<meta name="description" content="([^"]*)"', head)}
 
@@ -116,13 +118,15 @@ def build(slug):
             heads = [txt(x) for x in re.findall(r'<th[^>]*>([\s\S]*?)</th>', tr)]
             continue
         cells = re.findall(r'<td[^>]*>([\s\S]*?)</td>', tr)
-        if len(cells) < 4:
+        # Column-count agnostic: feature pages run 1 label + 3 values, compare pages
+        # 1 label + 2. Hardcoding 4 made a compare table extract zero rows.
+        if len(cells) < 2:
             continue
         lab = txt(cells[0])
         if not lab:
             continue
         vals = []
-        for c in cells[1:4]:
+        for c in cells[1:]:
             if 'check-yes' in c:
                 vals.append({'t': 'icon', 'v': 'yes'})
             elif 'check-no' in c:
@@ -162,7 +166,8 @@ def build(slug):
 
 if __name__ == '__main__':
     rows = []
-    for s in SLUGS:
+    todo = [a for a in sys.argv[1:] if not a.startswith('-')] or SLUGS
+    for s in todo:
         d = build(s)
         json.dump(d, io.open(os.path.join(OUT, d['slug'] + '.json'), 'w', encoding='utf-8'),
                   indent=1, ensure_ascii=False)

@@ -1,5 +1,4 @@
 {
- "_note": "Hand-authored, not produced by extract-content.py. The repo page uses the `compare` block order (table at section 5, two mid-CTAs, a with/without split and a what-is explainer); the Webflow template has none of those, so this file maps the same argument onto the donor's existing 16-section blocks. Divergences from the repo page are listed in overrides.json under pepper-alternative.",
  "slug": "pepper-alternative",
  "meta_title": "Pepper Alternative for Food Distributors in 2026",
  "meta_desc": "Your accounts speak each order into an app and check it before sending. This Pepper alternative is up and running in 24 to 48 hours for most.",
@@ -25,20 +24,20 @@
  ],
  "problem": {
   "eyebrow": "Why Teams Compare",
-  "h2": "Why teams compare Pepper alternatives",
-  "lead": "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product. Here is where distributors start looking for something smaller.",
+  "h2": "Why teams look for an alternative to Pepper",
+  "lead": "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product. Here is what gets weighed when a buyer shortlists one Pepper competitor against another.",
   "cards": [
    {
-    "h3": "The rollout runs into next quarter",
-    "body": "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. That is a fair number for the amount of platform it stands up. It is a long wait if what you wanted was orders arriving without a call to take."
+    "h3": "Go-live lands a quarter out",
+    "body": "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. That is a fair number for the amount of platform it stands up. It is a long wait if what you wanted was orders arriving with nobody having to take a call."
    },
    {
     "h3": "You buy the whole stack to fix one step",
-    "body": "Storefront, sales, finance, pricing, marketing. If your ERP suits you and your office runs fine, most of that is ground you already cover, and each module is another thing to configure, train and keep current."
+    "body": "Every one of those modules is another thing to configure, train and keep current. If your ERP suits you and the office is fine, most of it is ground you already cover."
    },
    {
     "h3": "The checking lands on your side",
-    "body": "Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the customer confirms what was read, so your order desk is the first person to see it written down."
+    "body": "Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the kitchen confirms what was read, so your order desk is the first person to see it written down."
    }
   ]
  },
@@ -111,11 +110,11 @@
  "cards": {
   "eyebrow": "Not Either Or",
   "h2": "When VOS and Pepper work together",
-  "lead": "VOS is additive. Nothing has to come out for it to go in, so plenty of distributors run both.",
+  "lead": "VOS is not a Pepper replacement and does not try to be. It is additive: nothing has to come out for it to go in, so plenty of distributors run both.",
   "items": [
    {
     "h3": "Keep the storefront, add the voice",
-    "body": "Some accounts are never going to browse a catalog. They will talk instead, at the end of a shift, from the walk-in. The storefront stays for the ones who tap, and VOS covers the ones who talk."
+    "body": "Some accounts are never going to browse a catalog. They will talk instead, at the end of a shift, from the walk-in. The storefront stays for the ones who tap, and VOS picks up the ones who talk."
    },
    {
     "h3": "Try it on the accounts still phoning",
@@ -123,7 +122,7 @@
    },
    {
     "h3": "The ERP keeps being the one destination",
-    "body": "Both feed the system you have, so adding VOS does not change where an order ends up. It arrives over EDI, the API or QuickBooks, into the same place your team already works."
+    "body": "Both feed the system you have, so adding VOS does not change where an order ends up. It arrives over EDI, the API or QuickBooks, into the same place your people already work."
    }
   ]
  },
@@ -152,12 +151,12 @@
   ]
  },
  "comparison": {
-  "eyebrow": "Side By Side",
   "h2": "VoiceOrder Solutions vs Pepper. A layer, not a platform.",
   "h2_lines": [
    "VoiceOrder Solutions vs Pepper.",
    "A layer, not a platform."
   ],
+  "eyebrow": "Side By Side",
   "lead": "Pepper sells a broad platform to independents. VOS is the ordering layer that bolts on beside the stack you have now, so most distributors weighing a Pepper alternative are really choosing between those two shapes. Read down the VOS column for what changes, and the Pepper column for what stays as it is.",
   "heads": [
    "Feature",
@@ -213,7 +212,7 @@
      },
      {
       "t": "text",
-      "v": "35 to 90 days, published"
+      "v": "Published 35-90 days"
      }
     ]
    },
@@ -226,7 +225,7 @@
      },
      {
       "t": "text",
-      "v": "Five phases, with a manager"
+      "v": "Five phases, managed"
      }
     ]
    },
@@ -257,7 +256,7 @@
     ]
    },
    {
-    "label": "Orders out as PDF, Excel, Word, EDI, API or QuickBooks",
+    "label": "Orders out as PDF, Excel, Word, EDI or the API",
     "cells": [
      {
       "t": "icon",
@@ -278,7 +277,7 @@
      },
      {
       "t": "text",
-      "v": "Storefront, sales, finance, pricing, marketing"
+      "v": "A platform, hub by hub"
      }
     ]
    }
@@ -298,11 +297,11 @@
    },
    {
     "q": "How quickly can we actually be taking orders?",
-    "a": "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for the amount of platform it stands up."
+    "a": "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for how much it is standing up."
    },
    {
     "q": "Do we have to drop Pepper to bring VOS in?",
-    "a": "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. Plenty of distributors come to us with an ERP they like and a storefront they are keeping, and VOS covers how the order arrives."
+    "a": "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. Many distributors come to us with an ERP they like and a storefront they are keeping, and VOS covers how the order arrives."
    },
    {
     "q": "Will VOS replace our ERP or order management system?",
@@ -314,7 +313,7 @@
    },
    {
     "q": "Do our customers need new hardware or a tablet?",
-    "a": "No. VOS works on the iOS or Android phone the kitchen already has. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
+    "a": "No. VOS works on the iOS or Android phone that is already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
    },
    {
     "q": "What happens to the customers who still call their order in?",
@@ -322,7 +321,7 @@
    },
    {
     "q": "Where do the Pepper details on this page come from?",
-    "a": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the 35 to 90 day implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
+    "a": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
    }
   ]
  },

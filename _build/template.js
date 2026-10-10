@@ -39,8 +39,11 @@ for (const p of registry) {
       : cls.includes('related-strip') ? 'related' : cls.includes('final-cta') ? 'finalcta' : '?' + (label || cls || id);
     blocks.push({ k, start: m.index });
   }
+  // Compare order approved by Eugene 2026-10-10, and it mirrors what the Webflow template holds:
+  // stats straight after the hero, the comparison table high, one mid-CTA after the coexistence
+  // cards, and no "Also Built In" section.
   const want = isCmp
-    ? ['navbar', 'hero', 'logos', 'split', 'comparison', 'midcta', 'whatis', 'features', 'stats', 'cards', 'midcta', 'steps', 'testimonials', 'integrations', 'faq', 'related', 'finalcta', 'footer']
+    ? ['navbar', 'hero', 'logos', 'stats', 'comparison', 'problem', 'features', 'steps', 'testimonials', 'integrations', 'cards', 'midcta', 'faq', 'related', 'finalcta', 'footer']
     : ['navbar', 'hero', 'logos', 'stats', 'problem', 'features', 'cards', 'midcta', 'steps', 'testimonials', 'integrations', 'comparison', 'faq', 'related', 'finalcta', 'footer'];
   const got = blocks.map(b => b.k);
   if (got.join() !== want.join()) fail('section order: ' + got.join(' > '));
@@ -71,21 +74,20 @@ for (const p of registry) {
   if (/<h2/.test(sec('stats'))) fail('heading above stats grid');
 
   // Problem (feature pages) / With-and-without split (compare pages)
+  const prob = sec('problem');
+  const pc = (prob.match(/class="problem-card"/g) || []).length;
+  if (pc !== 3) fail(`problem cards ${pc}`);
+  if (!/class="eyebrow"/.test(prob) || !/<h2/.test(prob)) fail('problem section needs eyebrow + h2');
   if (isCmp) {
-    const sp = sec('split');
-    const spH3 = (sp.match(/<h3/g) || []).length;
-    if (spH3 !== 2) fail(`split section has ${spH3} h3 (want 2: with VOS / without)`);
-    if ((sp.match(/class="feature-row"/g) || []).length !== 1) fail('split section needs one 2-col feature-row');
-    if (!/class="eyebrow"/.test(sp) || !/<h2/.test(sp)) fail('split section needs eyebrow + h2');
-    const wi = sec('whatis');
-    if (!/<h2/.test(wi) || !/<h3/.test(wi)) fail('what-is section needs an h2 and an h3');
+    // A compare page must name its competitor where it explains what the competitor is, and
+    // must not claim distributors "switch from" it: we have no evidence of that.
     if (!p.competitor) fail('compare page has no `competitor` in registry.js');
-    else if (!new RegExp('(^|[^A-Za-z])' + p.competitor + '([^A-Za-z]|$)').test(txt(wi))) fail(`what-is section never names ${p.competitor}`);
-  } else {
-    const prob = sec('problem');
-    const pc = (prob.match(/class="problem-card"/g) || []).length;
-    if (pc !== 3) fail(`problem cards ${pc}`);
-    if (!/class="eyebrow"/.test(prob) || !/<h2/.test(prob)) fail('problem section needs eyebrow + h2');
+    else {
+      const names = new RegExp('(^|[^A-Za-z])' + p.competitor + '([^A-Za-z]|$)');
+      if (!names.test(txt(prob))) fail(`"why teams compare" section never names ${p.competitor}`);
+      if (!names.test(txt(sec('cards')))) fail(`coexistence section never names ${p.competitor}`);
+    }
+    if (new RegExp('switch(es|ed|ing)? (from|off) ' + p.competitor, 'i').test(txt(body))) fail(`claims distributors switch from ${p.competitor}`);
   }
 
   // Features
@@ -107,7 +109,8 @@ for (const p of registry) {
   const cc = (cards.match(/class="feature-card"/g) || []).length;
   if (cc % 3 !== 0 || cc < 3) fail(`feature cards ${cc} (want multiple of 3)`);
   const cEye = txt((cards.match(/<span class="eyebrow"[^>]*>([\s\S]*?)<\/span>/) || [])[1] || '');
-  if (cEye !== 'Also Built In') fail(`cards eyebrow "${cEye}"`);
+  if (!isCmp && cEye !== 'Also Built In') fail(`cards eyebrow "${cEye}"`);
+  if (isCmp && !cEye) fail('coexistence section has no eyebrow');
 
   // Mid CTA (compare pages carry more than one; every one is checked)
   const mids = secAll('midcta');
@@ -192,7 +195,7 @@ for (const p of registry) {
   if (overlap.length) warn('footer repeats related-strip links: ' + overlap.join(', '));
 
   // Heading sanity: an h2 per content section
-  for (const k of [isCmp ? 'split' : 'problem', ...(isCmp ? ['whatis'] : []), 'features', 'cards', 'steps', 'testimonials', 'comparison', 'faq', 'related', 'finalcta'])
+  for (const k of ['problem', 'features', 'cards', 'steps', 'testimonials', 'comparison', 'faq', 'related', 'finalcta'])
     if (!/<h2/.test(sec(k))) fail(`section ${k} has no h2`);
 
   console.log(`${out.some(l => l.includes('FAIL')) ? '✗' : out.length ? '!' : '✓'} ${p.slug}  [${op ? 'operator' : 'distributor'}] rows ${rows.length}, cards ${cc}, FAQ ${fq}, compare ${thCells.length} cols x ${trs.length} rows, links: feature ${fSib}+${fContact}c, footer ${ml.length}`);

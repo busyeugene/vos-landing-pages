@@ -33,19 +33,19 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8be",
-   "Why teams compare Pepper alternatives"
+   "Why teams look for an alternative to Pepper"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8c2",
-   "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product. Here is where distributors start looking for something smaller."
+   "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product. Here is what gets weighed when a buyer shortlists one Pepper competitor against another."
   ],
   [
    "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
-   "The rollout runs into next quarter"
+   "Go-live lands a quarter out"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8cc",
-   "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. That is a fair number for the amount of platform it stands up. It is a long wait if what you wanted was orders arriving without a call to take."
+   "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. That is a fair number for the amount of platform it stands up. It is a long wait if what you wanted was orders arriving with nobody having to take a call."
   ],
   [
    "bacfcf90-d337-55e1-9a02-49b2f6962e16",
@@ -53,7 +53,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8d3",
-   "Storefront, sales, finance, pricing, marketing. If your ERP suits you and your office runs fine, most of that is ground you already cover, and each module is another thing to configure, train and keep current."
+   "Every one of those modules is another thing to configure, train and keep current. If your ERP suits you and the office is fine, most of it is ground you already cover."
   ],
   [
    "83921d0d-4ec1-911e-4420-fee5bfd13614",
@@ -61,7 +61,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8da",
-   "Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the customer confirms what was read, so your order desk is the first person to see it written down."
+   "Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the kitchen confirms what was read, so your order desk is the first person to see it written down."
   ],
   [
    "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
@@ -193,7 +193,7 @@
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
-   "VOS is additive. Nothing has to come out for it to go in, so plenty of distributors run both."
+   "VOS is not a Pepper replacement and does not try to be. It is additive: nothing has to come out for it to go in, so plenty of distributors run both."
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
@@ -201,7 +201,7 @@
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
-   "Some accounts are never going to browse a catalog. They will talk instead, at the end of a shift, from the walk-in. The storefront stays for the ones who tap, and VOS covers the ones who talk."
+   "Some accounts are never going to browse a catalog. They will talk instead, at the end of a shift, from the walk-in. The storefront stays for the ones who tap, and VOS picks up the ones who talk."
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a6d",
@@ -217,7 +217,7 @@
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
-   "Both feed the system you have, so adding VOS does not change where an order ends up. It arrives over EDI, the API or QuickBooks, into the same place your team already works."
+   "Both feed the system you have, so adding VOS does not change where an order ends up. It arrives over EDI, the API or QuickBooks, into the same place your people already work."
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
@@ -325,7 +325,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a21a",
-   "Orders out as PDF, Excel, Word, EDI, API or QuickBooks"
+   "Orders out as PDF, Excel, Word, EDI or the API"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a224",
@@ -353,7 +353,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
-   "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for the amount of platform it stands up."
+   "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for how much it is standing up."
   ],
   [
    "e219e293-819b-221b-6d80-7f8d2898a4d7",
@@ -361,7 +361,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
-   "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. Plenty of distributors come to us with an ERP they like and a storefront they are keeping, and VOS covers how the order arrives."
+   "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. Many distributors come to us with an ERP they like and a storefront they are keeping, and VOS covers how the order arrives."
   ],
   [
    "39590628-381c-9aea-6095-0746f7348939",
@@ -385,7 +385,7 @@
   ],
   [
    "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
-   "No. VOS works on the iOS or Android phone the kitchen already has. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
+   "No. VOS works on the iOS or Android phone that is already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
   ],
   [
    "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
@@ -401,7 +401,7 @@
   ],
   [
    "7ec95cf1-65b0-b7be-b209-99042752451e",
-   "Pepper's own website. The module list, the storefront and Order Agent descriptions and the 35 to 90 day implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
+   "Pepper's own website. The module list, the storefront and Order Agent descriptions and the implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
   ]
  ],
  "embed": [
@@ -419,7 +419,7 @@
   ],
   [
    "5539a8dc-3999-60a4-e63a-01a711a5373d",
-   "<div class=\"uui-text-size-medium-21\">35 to 90 days, published</div>"
+   "<div class=\"uui-text-size-medium-21\">Published 35-90 days</div>"
   ],
   [
    "f0a25565-fe6e-c821-4974-3d153187492b",
@@ -427,7 +427,7 @@
   ],
   [
    "20efde0c-69cd-a8c3-92cb-38100394bc2d",
-   "<div class=\"uui-text-size-medium-21\">Five phases, with a manager</div>"
+   "<div class=\"uui-text-size-medium-21\">Five phases, managed</div>"
   ],
   [
    "ed160918-90b4-10e3-a7f7-076cd6158a3b",
@@ -447,7 +447,7 @@
   ],
   [
    "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
-   "<div class=\"uui-text-size-medium-21\">Storefront, sales, finance, pricing, marketing</div>"
+   "<div class=\"uui-text-size-medium-21\">A platform, hub by hub</div>"
   ]
  ],
  "styles": [
@@ -543,11 +543,11 @@
   },
   {
    "q": "How quickly can we actually be taking orders?",
-   "a": "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for the amount of platform it stands up."
+   "a": "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for how much it is standing up."
   },
   {
    "q": "Do we have to drop Pepper to bring VOS in?",
-   "a": "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. Plenty of distributors come to us with an ERP they like and a storefront they are keeping, and VOS covers how the order arrives."
+   "a": "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. Many distributors come to us with an ERP they like and a storefront they are keeping, and VOS covers how the order arrives."
   },
   {
    "q": "Will VOS replace our ERP or order management system?",
@@ -559,7 +559,7 @@
   },
   {
    "q": "Do our customers need new hardware or a tablet?",
-   "a": "No. VOS works on the iOS or Android phone the kitchen already has. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
+   "a": "No. VOS works on the iOS or Android phone that is already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
   },
   {
    "q": "What happens to the customers who still call their order in?",
@@ -567,7 +567,7 @@
   },
   {
    "q": "Where do the Pepper details on this page come from?",
-   "a": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the 35 to 90 day implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
+   "a": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
   }
  ],
  "schema": {
@@ -589,7 +589,7 @@
       "name": "How quickly can we actually be taking orders?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for the amount of platform it stands up."
+       "text": "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for how much it is standing up."
       }
      },
      {
@@ -597,7 +597,7 @@
       "name": "Do we have to drop Pepper to bring VOS in?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. Plenty of distributors come to us with an ERP they like and a storefront they are keeping, and VOS covers how the order arrives."
+       "text": "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. Many distributors come to us with an ERP they like and a storefront they are keeping, and VOS covers how the order arrives."
       }
      },
      {
@@ -621,7 +621,7 @@
       "name": "Do our customers need new hardware or a tablet?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "No. VOS works on the iOS or Android phone the kitchen already has. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
+       "text": "No. VOS works on the iOS or Android phone that is already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
       }
      },
      {
@@ -637,7 +637,7 @@
       "name": "Where do the Pepper details on this page come from?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the 35 to 90 day implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
+       "text": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
       }
      }
     ]
