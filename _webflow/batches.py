@@ -4,7 +4,7 @@
 All ten pages were duplicated from the same donor, so every element id lives in map.json
 and nothing needs substituting at apply time.
 
-Usage: python batches.py <slug> text|embed|styles|rest [batch_size]
+Usage: python batches.py <slug> text|embed|styles|rest|schema [batch_size]
 """
 import io, os, sys, json
 
@@ -48,6 +48,19 @@ def main():
         print()
         print('HARD (text cell -> icon cell):', json.dumps(ops['hard'], ensure_ascii=False))
         print('PROPS:', json.dumps(ops['props'], ensure_ascii=False))
+        return
+
+    if what == 'schema':
+        # The native page schema field. bulk_update_pages_schema_markup wants site_id alongside
+        # pages, and jsonLdSchema as a real JSON object (no string escaping). The response echoes
+        # back what it stored, so a transmission error cannot land as valid data unnoticed.
+        sch = json.load(io.open(os.path.join(HERE, 'schema', slug + '.json'), encoding='utf-8'))
+        site = pg['siteId']
+        acts = [{'label': 'schema ' + slug,
+                 'bulk_update_pages_schema_markup': {
+                     'site_id': site,
+                     'pages': [{'id': pid, 'jsonLdSchema': sch}]}}]
+        print(json.dumps(acts, ensure_ascii=False))
         return
 
     if what == 'styles':
