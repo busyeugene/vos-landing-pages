@@ -310,10 +310,33 @@ live before writing, including ones you think you know.**
 1. ~~Re-point all twelve related strips at each other~~ **done 2026-10-10.** Grouped by argument
    affinity (platforms and growth / AI and order intake / systems of record); every page has 2 to
    4 inbound sibling links and the footers still carry the feature-page and cross-audience links.
-2. The three verification passes Eugene asked for: competitor facts, VOS facts and the distributor
-   tie, then logic/flow/repetition. See "The three verification passes" at the end of this section.
-3. The hub page (one card per comparison, plus the table and CTAs reused), then a `/solutions` card
-   for each, then the Webflow ports.
+2. ~~The verification passes~~ **done 2026-10-10, all four.** Competitor accuracy, are-we-selling-
+   VOS, repetition, and Airtable keyword coverage. See "The four review passes" below for what they
+   found and the two tools they produced. **The repo copy is now Webflow-ready.**
+3. **NEXT: the Webflow ports**, then the hub page (one card per comparison, plus the table and CTAs
+   reused), then a `/solutions` card for each.
+
+### Open for Eugene, carried forward
+- **Two meta titles drift from the Airtable plan**, left as shipped because "Food Distributors" is
+  closer to the ICP than the plan's wording. One line to change either way: `orderease` plan
+  "OrderEase Alternative for Distributors in 2026" vs shipped "...for Food Distributors..."; and
+  `pepperi` plan "Pepperi Alternative for B2B Distributors in 2026" vs shipped the same way.
+- **8 of 12 competitors are outside the client-approved set** (KB section 7 approves only Pepper,
+  Choco, Cut+Dry, Burnt). Treated as approved via the Airtable plan on Eugene's instruction
+  2026-10-10, still unconfirmed with the client.
+- **The NECS Entree H1, "You May Not Need A NECS Entree Alternative."** The buyer reviewer called it
+  an instruction to stop reading, in the largest type on the page. It is also the page's whole angle
+  and the reason the page is honest. Eugene's call, deliberately not changed.
+- **What the inventory half actually gives the buyer.** Every table says "Ordering plus stock
+  visibility", then the feature row says VOS does not hold, count or buy stock and the numbers come
+  from your own system. The buyer reviewer could not say what the visibility gives them. This is a
+  KB gap, not a copy gap: the KB itself lists "where VOS stock levels come from" as an open client
+  question. Do not invent a benefit to close it.
+- **grubmarket-ai's angle rests on an unverified premise.** The digest and an older CLAUDE.md note
+  both say GrubMarket's own site does not support describing them as a distributor or marketplace.
+  That came from reading grubmarket.ai only; grubmarket.com describes a wholesale network, an ERP
+  suite and Enterprise AI. Nothing on the VOS page states a falsehood, but re-pull that digest
+  against grubmarket.com before editing the page again.
 
 ⚠ **Pre-existing within-page trigram debt on the first six compare pages**, which the last six do
 not carry: necs-entree 17, cut-dry 17, bluecart 11, grubmarket 4, and a handful on pepper and
@@ -414,6 +437,71 @@ it must not claim distributors **"switch from"** the competitor. Both negative-t
    `phrasecheck.js <slug> "..." "..."` (about 10 per call, roughly a third come back colliding),
    apply, re-measure. **Steady state is ~16-30 rewordings per page.**
 7. Read the outline before calling it done. Rewording breaks grammar and no gate sees it.
+
+### The four review passes (run 2026-10-10 on all twelve; replaces the older three-pass plan)
+Four read-only, no-context reviewers (three fact-checkers split 3/2/7 pages, one buyer) plus two
+new mechanical tools. **Every finding was re-verified by hand before anything changed**, and
+several reviewer claims were right about the fact but wrong about the fix.
+
+**`_build/grid.js`** prints every template slot across the twelve side by side (H1, hero lead and
+trust, stat labels, comparison eyebrow/H2/lead/row labels/VOS cells, problem H2+lead+cards, feature
+H2/eyebrows/H3s, steps, coexistence H2+lead+cards, mid-CTA, FAQ H2 and questions, final H2),
+masking the competitor name so real sameness shows. `--dupes` lists only values on 2+ pages. It
+prints, it never fails: the judgement is human. **This is the tool the proposition-sameness note
+asked for and never had.**
+
+**`_build/balance.js`** counts who takes each comparison row per page: VOS tick, competitor tick,
+both, negative cells, text/text.
+
+What they found, and the lessons:
+- **The compare-sections exemption is how four pages went word-for-word identical with every gate
+  green.** burnt-ai, grubmarket-ai, cut-dry and bluecart shared an IDENTICAL stats strip, identical
+  feature-row H3s for rows 3 and 4, and identical step headings. All VOS-side slots, all exempt
+  from the cross-page trigram count by design. **Run `grid.js --dupes` whenever you add a compare
+  page**; the trigram gate cannot see this and never will.
+- **Conceding generously has an opposite failure, and we hit it.** On five pages the VOS column had
+  ZERO ticks against the competitor's 5 or 6, so the table read as a wall of "Not offered". A buyer
+  closes the tab before row 6. Fix it by giving VOS a tick for what it genuinely does, NOT by
+  deleting concessions. CLAUDE.md already had the rule ("phrase rows so VOS's strengths get a
+  tick"); nothing enforced it. `balance.js` now shows it.
+- **Every final CTA closed on a promise of limitations** ("a plain account of where VOS stops", all
+  twelve). The honest-about-a-specific-limit material is what the buyer trusted; honest-about-our-
+  overall-worth in the last line before the button is what lost them. Keep the limits in the FAQ.
+- **Honest about a specific limit = persuasive. Honest about your overall worth = fatal.** The
+  reviewer's own formulation, and the test to apply to any self-deprecating line.
+- **Do not write a marketing choice up as a product deficiency.** Three tables had a row conceding
+  that the competitor publishes a price and VOS does not, which contradicted the same page's cost
+  FAQ arguing quote-only is parity. That concession belongs in the FAQ.
+- **FETCH THE PRODUCT SUB-PAGES, not just the homepage and pricing.** This caused all five HIGH
+  findings. Per competitor, read every product/module page, the industry pages, pricing, and
+  onboarding/implementation. The reviewers found: Choco's free restaurant ordering app, Cut+Dry's
+  AI Order Desk transcribing voicemails and calls, Cut+Dry's general "Go Live in Under 90 Days",
+  Pepperi's barcode scanning / quick order / CSV import, WizCommerce's published price tiers,
+  REKKI's "without any need for ... human intervention", and Fresho's two published timelines.
+- **A capability you treat as absent is the recurring failure of this whole cluster.** Six of twelve
+  pages did it at least once. Before writing any sentence of the form "they cannot" or "nobody
+  does", search their site for that capability by name.
+- **Check whether the page contradicts its own table.** The grubmarket page's problem lead said none
+  of their products move the order off your desk, two sections below a table row conceding exactly
+  that. Internal contradiction is the cheapest finding a buyer gets for free.
+- **Scope a claim to the product it is true of.** Several errors were true of one module and false
+  of the vendor: "nothing changes for them" is OrderPilot only, "your team checks it" is
+  WizCommerce's AI path only, "you do the checking" is Pepper's Order Agent only.
+- **A competitor's unaudited number must not be repeated even as paraphrase.** "tens of thousands
+  are on it" is Choco's 30K homepage stat; "tens of thousands of restaurants" is BlueCart's 48,000+
+  headline (their own blog says 119,000). Attribute it or drop the magnitude.
+- **Fixing one within-page repeat exposes the next.** rekki went 0 to 7 to 3 to 0 over three rounds.
+  Budget for rounds and re-measure after every single one.
+- **Not every measured repeat is a defect.** The residual counts on cut-dry and necs-entree are
+  table labels matching the prose that explains them, plus each page's central concept recurring.
+  That is consistency. Judge the idea, not the trigram.
+- **Airtable is reachable without the MCP.** A PAT sits in `E:\Claude projects\Link building
+  OS\.env.local` as `AIRTABLE_API_KEY`. Read it inside a script, never print it. Base
+  `appyUSl7qCyguvABD`, table `Content plan`; filter `Asset type = Landing page` because the
+  September blog rows target the PLURAL keyword and are a different asset.
+- **All 12 pages carry their Airtable primary and all four secondaries, verified against the live
+  base, 0 missing.** Re-run that check after any claim or copy pass, because fixing claims is what
+  breaks keywords.
 
 ### Lessons from pages 11 and 12 (REKKI, Fresho, 2026-10-10)
 - **Re-pull every competitor live before writing, even one you think you know.** Both of these had
