@@ -347,77 +347,78 @@
      {
       "@type": "ListItem",
       "position": 1,
-      "url": "https://www.voiceordersolutions.com/pepper-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/pepper-alternative",
       "name": "Pepper Alternative"
      },
      {
       "@type": "ListItem",
       "position": 2,
-      "url": "https://www.voiceordersolutions.com/choco-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/choco-alternative",
       "name": "Choco Alternative"
      },
      {
       "@type": "ListItem",
       "position": 3,
-      "url": "https://www.voiceordersolutions.com/burnt-ai-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/burnt-ai-alternative",
       "name": "Burnt AI Alternative"
      },
      {
       "@type": "ListItem",
       "position": 4,
-      "url": "https://www.voiceordersolutions.com/grubmarket-ai-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/grubmarket-ai-alternative",
       "name": "GrubMarket AI Alternative"
      },
      {
       "@type": "ListItem",
       "position": 5,
-      "url": "https://www.voiceordersolutions.com/cut-dry-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/cut-dry-alternative",
       "name": "Cut+Dry Alternative"
      },
      {
       "@type": "ListItem",
       "position": 6,
-      "url": "https://www.voiceordersolutions.com/bluecart-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/bluecart-alternative",
       "name": "BlueCart Alternative"
      },
      {
       "@type": "ListItem",
       "position": 7,
-      "url": "https://www.voiceordersolutions.com/necs-entree-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/necs-entree-alternative",
       "name": "NECS Entree Alternative"
      },
      {
       "@type": "ListItem",
       "position": 8,
-      "url": "https://www.voiceordersolutions.com/pepperi-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/pepperi-alternative",
       "name": "Pepperi Alternative"
      },
      {
       "@type": "ListItem",
       "position": 9,
-      "url": "https://www.voiceordersolutions.com/orderease-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/orderease-alternative",
       "name": "OrderEase Alternative"
      },
      {
       "@type": "ListItem",
       "position": 10,
-      "url": "https://www.voiceordersolutions.com/wizcommerce-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/wizcommerce-alternative",
       "name": "WizCommerce Alternative"
      },
      {
       "@type": "ListItem",
       "position": 11,
-      "url": "https://www.voiceordersolutions.com/rekki-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/rekki-alternative",
       "name": "REKKI Alternative"
      },
      {
       "@type": "ListItem",
       "position": 12,
-      "url": "https://www.voiceordersolutions.com/fresho-alternative",
+      "url": "https://www.voiceordersolutions.com/alternatives/fresho-alternative",
       "name": "Fresho Alternative"
      }
     ]
    }
   ]
- }
+ },
+ "_pathNote": "The 12 comparison pages live under the /alternatives folder in Webflow, so the ItemList URLs are /alternatives/<slug>. Source of truth: pages.json comparePaths."
 }

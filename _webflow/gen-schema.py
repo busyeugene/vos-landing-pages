@@ -98,7 +98,13 @@ def faq_items(d, slug):
 def build(slug):
     d = json.load(io.open(os.path.join(HERE, 'content', slug + '.json'), encoding='utf-8'))
     kw = keywords_for(slug)
-    url = '%s/%s' % (LIVE, slug)
+    # The Webflow published path is NOT always '/' + slug. On 2026-10-10 the 12 comparison pages
+    # were moved into an `/alternatives` folder, exactly as the 23 calculators sit under
+    # `/free-tools`, so their live URL is /alternatives/<slug>. A folder never shows up in
+    # list_pages, only as a parentId on its children, which is why this was easy to miss: the
+    # generated canonical, @id and BreadcrumbList would all have pointed at a URL that 404s.
+    # pages.json `comparePaths` holds the real paths; fall back to the slug for everything else.
+    url = LIVE + (_PG.get('comparePaths') or {}).get(slug, '/' + slug)
     fq = faq_items(d, slug)
     # Feature slugs are "<keyword>-software", so the label is "<Keyword> Software".
     # Comparison slugs are "<competitor>-alternative" and must NOT get a " Software"
