@@ -310,9 +310,10 @@ live before writing, including ones you think you know.**
 1. ~~Re-point all twelve related strips at each other~~ **done 2026-10-10.** Grouped by argument
    affinity (platforms and growth / AI and order intake / systems of record); every page has 2 to
    4 inbound sibling links and the footers still carry the feature-page and cross-audience links.
-2. ~~The verification passes~~ **done 2026-10-10, all four.** Competitor accuracy, are-we-selling-
-   VOS, repetition, and Airtable keyword coverage. See "The four review passes" below for what they
-   found and the two tools they produced. **The repo copy is now Webflow-ready.**
+2. ~~The verification passes~~ **done 2026-10-10, all six.** Competitor accuracy, are-we-selling-
+   VOS, repetition, Airtable keyword coverage, then two more on promotion (over-conceding, and
+   whether the pages sell at all) plus a closing repetition sweep. See "The six review passes"
+   below. **The repo copy is now Webflow-ready.**
 3. **NEXT: the Webflow ports**, then the hub page (one card per comparison, plus the table and CTAs
    reused), then a `/solutions` card for each.
 
@@ -332,6 +333,18 @@ live before writing, including ones you think you know.**
   from your own system. The buyer reviewer could not say what the visibility gives them. This is a
   KB gap, not a copy gap: the KB itself lists "where VOS stock levels come from" as an open client
   question. Do not invent a benefit to close it.
+- **Push and text promos are on 1 of 12 pages.** The KB verifies "Push notifications and text
+  messages for promos and confirmations" but not WHO triggers them, so "you can send the promo"
+  is unconfirmed. Safe form: "promos and confirmations reach accounts by notification and text".
+  Worth using on the marketplace pages (cut-dry, bluecart) once the client confirms who sends.
+- **The only real testimonial is in the wrong buyer's voice.** Tony Luna is an owner-chef and these
+  are distributor pages, so the one piece of genuine social proof is a restaurant operator talking
+  about their own week. The two quotes that do speak to a distributor are `[Customer Name]`
+  placeholders. Ask the client for one distributor-side quote; it would lift all twelve.
+- **The final-CTA trust line is four pieces of friction removal and no benefit**, identical on all
+  twelve by design ("No IT project to run / Nothing to rip out / Sends orders in your format / Ask
+  us for a quote"). It is allow-listed sitewide chrome, so it was not changed in a review pass, but
+  one of the four could carry a benefit instead. Eugene's call.
 - **grubmarket-ai's angle rests on an unverified premise.** The digest and an older CLAUDE.md note
   both say GrubMarket's own site does not support describing them as a distributor or marketplace.
   That came from reading grubmarket.ai only; grubmarket.com describes a wholesale network, an ERP
@@ -438,7 +451,7 @@ it must not claim distributors **"switch from"** the competitor. Both negative-t
    apply, re-measure. **Steady state is ~16-30 rewordings per page.**
 7. Read the outline before calling it done. Rewording breaks grammar and no gate sees it.
 
-### The four review passes (run 2026-10-10 on all twelve; replaces the older three-pass plan)
+### The six review passes (run 2026-10-10 on all twelve; replaces the older three-pass plan)
 Four read-only, no-context reviewers (three fact-checkers split 3/2/7 pages, one buyer) plus two
 new mechanical tools. **Every finding was re-verified by hand before anything changed**, and
 several reviewer claims were right about the fact but wrong about the fix.
@@ -495,6 +508,44 @@ What they found, and the lessons:
 - **Not every measured repeat is a defect.** The residual counts on cut-dry and necs-entree are
   table labels matching the prose that explains them, plus each page's central concept recurring.
   That is consistency. Judge the idea, not the trigram.
+**Passes 5 and 6 (promotion), and what they changed:**
+- **The pages explained the product and did not sell it.** Measured, not opined: **ZERO of twelve
+  claimed "Available 24/7 / Never Miss An Order"**, a verified client homepage fact, while FIVE of
+  the twelve competitors publish a 24/7 claim of their own. Every Voice Ordering bullet said WHERE
+  the order is spoken and never WHEN. Now 12/12. **Run `node vosfacts.js` on any new page**: it
+  shows which verified VOS proof points the page actually uses.
+- **Two verified VOS facts were unused or used only as a LOSING comparison cell:** interruption
+  recovery (which no competitor in the set publishes) and "Free Your Sales Reps to Sell". A
+  capability spent inside a row VOS loses is worse than not mentioning it.
+- **Do not hedge the client's own flat figure.** Every page wrote "Roughly"/"Around" 20 to 30
+  minutes while its own stats strip stated it flat. The hedge was strictly weaker than the source.
+- **`_build/interleave.js`** reorders comparison rows so VOS never shows a long vertical run of
+  negative cells, changing no cell content. The first VOS tick had been at row 6 of 9 on six pages.
+  "Put the competitor's biggest win first" had been applied as "put ALL of them first".
+- **Draw the row label, and you have chosen who wins it.** Pepper and Choco read as comparisons
+  because their rows describe the ordering job ("A number and a timestamp on the order"). The later
+  pages read as confessions because their rows describe the competitor's product surface, where VOS
+  can only answer "Not offered". When a table looks lopsided, change the labels, not the facts.
+- **A competitor win belongs in the table when it bears on the order, and in the coexistence
+  section when it does not.** Still open: cut-dry, pepperi, wizcommerce and fresho each carry two
+  or three rows (payments, store audits, AI catalog photography, delivery runs) that are nothing to
+  do with how an order arrives. Relocating them is a real improvement nobody has done yet.
+- ⚠ **FOUR of pass 5's "unsourced concession" findings were WRONG, all for one reason: it measured
+  against the DIGESTS, which predated the pass-1 re-check.** Cut+Dry does publish "Go Live in Under
+  90 Days", OrderEase does publish "go live in days, not months", REKKI does publish "checks every
+  detail twice" and a "full refund guarantee", and Choco does have a free restaurant ordering app.
+  The pages were right and the digests were stale. **When a reviewer says a page claim is
+  unsourced, check the live site before believing it**, and update the digest either way: all four
+  now carry a dated re-check section. Third occurrence of "check what window your checker measured
+  in".
+- **Audit your own measurement tool too.** `vosfacts.js` reported 0/12 on a fact that was by then
+  on seven pages, because its regexes predated the new wording. A tool that under-reports is worse
+  than no tool. Update the pattern whenever you add a phrasing.
+- **Two defects my own fixes introduced, both invisible to every gate:** a broken sentence on the
+  REKKI page ("lands on the people who were also something your team has to do") and a doubled
+  sentence on Choco, where a replacement duplicated the clause that already followed it. Read the
+  outline after every edit round, and prefer replacing a WHOLE sentence over its tail.
+
 - **Airtable is reachable without the MCP.** A PAT sits in `E:\Claude projects\Link building
   OS\.env.local` as `AIRTABLE_API_KEY`. Read it inside a script, never print it. Base
   `appyUSl7qCyguvABD`, table `Content plan`; filter `Asset type = Landing page` because the
