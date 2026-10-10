@@ -757,11 +757,18 @@ The client's live site is Webflow, and the batch-4 pages were ported there as **
 stays the source of truth and the port is one-way (repo to Webflow).
 
 ```
-python extract-content.py     # root HTML -> content/<slug>.json (hero, stats, rows, cards, cmp, faq)
+python extract-content.py     # root HTML -> content/<slug>.json (16-section feature pages)
+python extract-compare.py     # root HTML -> content/<slug>.json (the 12 `compare` pages)
 python gen-ops.py             # content + map.json -> ops/<slug>.json (text, embed, links, delete)
 python gen-schema.py          # -> schema/<slug>.json, the JSON-LD graph for the native schema field
-python batches.py <slug> text|embed|rest [size]   # prints ready-to-send MCP action arrays
+python batches.py <slug> text|embed|styles|rest [size]   # ready-to-send MCP action arrays
+python gen-2col.py <slug>     # drop the comparison table's 4th column (is-2col + 10 removals)
+python gen-alternatives.py header|cards|removes|all      # the /alternatives hub
+python verify-compare.py <slug> <tree.json>   # coverage + donor leak + schema, on a live tree read
+python cellcheck.py <tree-dir> [slug ...]     # does each cell's style match what it holds
 ```
+**Read `_webflow/PUSH-RUNBOOK.md` before pushing a page**: it carries the proven four-batch order
+and every MCP call shape, each of which was wrong on the first attempt.
 
 **Webflow page duplication preserves element UUIDs.** Duplicate every new page from one donor
 landing page and a single element-id map (`_webflow/map.json`) then works on all of them, so there
@@ -906,10 +913,36 @@ and 8/8 schema FAQ questions live.**
   landed. Confirm with `get_settings` + `type: "all_raw_settings"`. Fourth instance of "check what
   window your checker measured in".
 
-**What is left:** drop the 4th comparison column on the 11 non-Pepper pages (the page-scoped
-`is-2col` combo plus the cell removals) **which is what the 4 remaining donor leaks per page are**;
-push the 12 schema files; and **look at a rendered page** (string-level green says nothing about
-rendering, which is the 2026-10-09 lesson). Everything stays `draft: true` until then.
+**The 4th comparison column is gone on all 12** (Eugene, 2026-10-10: "we don't need it"), which is
+what cleared the last donor leaks: the sampled pages now verify at **0 donor leaks, 10/10 grids with
+3 children and `is-2col`**. Done with `_webflow/gen-2col.py`, 20 actions per page (10 `set_style`,
+10 `remove_element`). The combo-class rule from the Pepper revision is why: `.uui-pricing11_row` and
+`.uui-pricing11_top-row` are **global** and shared by all 26 landing pages, so editing them would
+reflow every table on the site. `set_style` REPLACES the style list, so always pass the base class.
+
+### The `/alternatives` hub (Webflow only, no repo counterpart)
+`/alternatives` (page `6aca44dad218825392222a7d`, **draft**, created 2026-10-10) is the third hub
+after `/solutions` and `/free-tools`, with one card per comparison page. Blueprint in
+`_webflow/alternatives.json`; the copy lives in `_webflow/gen-alternatives.py`, which is the source
+of truth. Built the same way as `/free-tools`: duplicate `/solutions`, reuse the card element ids
+`free-tools.json` already records (same donor, so the same UUIDs, probed before use), fill 12 cards,
+remove the 14 spare. Verified by reading the tree back: 12 cards, 12 distinct and correct target page
+ids, no leftover donor cards. Its `ItemList` + `CollectionPage` + `BreadcrumbList` schema is pushed
+and echoed back.
+
+- **All 12 cards deliberately share one icon**, `vos-balance-scale.svg` (asset
+  `6ac9dd518486af1b33e38258`, already uploaded for `/free-tools` so no upload leg was needed). This
+  is NOT the `/solutions` defect where 17 cards for 17 different features all showed cutlery: every
+  card here is the same KIND of thing and is identified by the competitor's name in its heading.
+- **The image action is `set_image_asset` and its key is `image_asset_id`.** `set_image` and
+  `asset_id` are both rejected.
+- ⚠ Pre-existing, worth raising with Eugene: the **Main CTA component arrives with Link 1 and Link 2
+  set to `#`** (`hasOverride: false`) on all three hubs. It is a sitewide component default, not
+  something the hub introduced.
+
+**What is left on the port:** push the 12 per-page schema files (generated, sitting in
+`_webflow/schema/`, NOT pushed) and **look at a rendered page** (string-level green says nothing
+about rendering, which is the 2026-10-09 lesson). Everything stays `draft: true` until then.
 
 ### Porting a comparison page (first done 2026-10-10, Pepper)
 `/pepper-alternative` (page `6ac9efa5b080336cebb1456a`, **draft**) is the first compare page in

@@ -1,0 +1,423 @@
+{
+ "_note": "The /alternatives hub is Webflow-only, with no counterpart in this repo, exactly like /solutions and /free-tools. Created 2026-10-10 with create_page duplicateOf the /solutions donor, so the card element UUIDs are the same ones free-tools.json records and this file reuses them rather than re-deriving. 12 cards kept, 14 donor cards removed. Copy lives in gen-alternatives.py, which is the source of truth; this file is the durable record.",
+ "pageId": "6aca44dad218825392222a7d",
+ "slug": "alternatives",
+ "donorPageId": "6a73a33a046f0997fdcf7964",
+ "draft": true,
+ "icon": {
+  "file": "vos-balance-scale.svg",
+  "assetId": "6ac9dd518486af1b33e38258",
+  "shared": true,
+  "_why": "All 12 cards use the same balance-scale icon deliberately. This is NOT the /solutions defect where 17 cards for 17 different features all showed cutlery: here every card is the same KIND of thing, a head-to-head comparison, and each is identified by the competitor name in its heading. The file is already white 256x256, which the untinted tile requires, and was already uploaded for /free-tools so no new asset was needed."
+ },
+ "header": {
+  "h1": {
+   "element": "a25ebb8e-7e84-68b5-0646-10375ec0ec7d",
+   "text": "Compare VOS With The Tool You Are Weighing Up"
+  },
+  "lead": {
+   "element": "a25ebb8e-7e84-68b5-0646-10375ec0ec80",
+   "text": "Twelve head-to-head pages, one per product. Every competitor detail was read off their own site and dated on the page. Where VOS is the narrower tool, the page says so rather than hiding it."
+  },
+  "h2": {
+   "element": "06636c0c-4834-594c-09d3-ac6ee7d49832",
+   "textElement": "06636c0c-4834-594c-09d3-ac6ee7d49833",
+   "text": "Pick the product you are comparing"
+  }
+ },
+ "seo": {
+  "title": "Compare VoiceOrder Solutions With 12 Tools",
+  "description": "Twelve head-to-head comparisons for food distributors, each read off the other vendor's own site and dated. See where VOS fits and where it stops."
+ },
+ "buttonLabel": "See the comparison",
+ "removedCards": [
+  {
+   "fromFreeToolsIndex": 12,
+   "link": "40ba3bf6-45c4-aadf-8876-301f0f5852d1"
+  },
+  {
+   "fromFreeToolsIndex": 13,
+   "link": "d443af44-12fd-f1e3-2610-396b06930f27"
+  },
+  {
+   "fromFreeToolsIndex": 14,
+   "link": "3e718a2f-0134-306e-c7e4-faaa918279c1"
+  },
+  {
+   "fromFreeToolsIndex": 15,
+   "link": "79f7d6ba-2390-b7f0-935e-796134c40cce"
+  },
+  {
+   "fromFreeToolsIndex": 16,
+   "link": "78bfa5fa-8372-2b60-7a50-7f7d692315c8"
+  },
+  {
+   "fromFreeToolsIndex": 17,
+   "link": "6dff52e1-20e0-69b3-1ce2-41adc930bd80"
+  },
+  {
+   "fromFreeToolsIndex": 18,
+   "link": "1d86f27a-a493-f927-d5d1-6e70963cc18d"
+  },
+  {
+   "fromFreeToolsIndex": 19,
+   "link": "5f2e17a3-d394-323b-0d0e-1f9d98f2ef1d"
+  },
+  {
+   "fromFreeToolsIndex": 20,
+   "link": "8f956ead-12e8-2f40-7ea5-14e67e7ea8ad"
+  },
+  {
+   "fromFreeToolsIndex": 21,
+   "link": "03991069-a72c-7424-d824-14265f4369ca"
+  },
+  {
+   "fromFreeToolsIndex": 22,
+   "link": "a6156017-b675-18c9-8a8f-a3a86d977bad"
+  },
+  {
+   "donorTitle": "Wholesale Operations Software",
+   "link": "37de5f8f-683e-169b-e6d4-ae409bb8c399"
+  },
+  {
+   "donorTitle": "Distribution Automation Software",
+   "link": "f7ba6a6c-1fe7-73e0-691d-f7a138a8b671"
+  },
+  {
+   "donorTitle": "Distribution Workflow Software",
+   "link": "098b7cd5-d52b-90df-b1bc-6e0bda6ee890"
+  }
+ ],
+ "openGraph": {
+  "titleCopied": true,
+  "descriptionCopied": true,
+  "_why": "Duplication leaves these null, which ships empty OG tags."
+ },
+ "knownPreExisting": {
+  "mainCtaLinks": "The Main CTA component instance arrives with Link 1 and Link 2 set to '#' and hasOverride false, inherited from the /solutions donor. Same on /solutions and /free-tools, so it is a sitewide component default rather than anything this page introduced. Worth raising with Eugene."
+ },
+ "cards": [
+  {
+   "i": 0,
+   "title": "Pepper Alternative",
+   "slug": "pepper-alternative",
+   "targetPageId": "6ac9efa5b080336cebb1456a",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Their published rollout runs 35 to 90 days. Most distributors are live on VOS in 24 to 48 hours.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "06636c0c-4834-594c-09d3-ac6ee7d49835",
+    "image": "06636c0c-4834-594c-09d3-ac6ee7d49838",
+    "titleString": "06636c0c-4834-594c-09d3-ac6ee7d4983b",
+    "descString": "20e44b24-596f-e6eb-1704-5ad64c24998a",
+    "buttonString": "06636c0c-4834-594c-09d3-ac6ee7d49843"
+   }
+  },
+  {
+   "i": 1,
+   "title": "Choco Alternative",
+   "slug": "choco-alternative",
+   "targetPageId": "6aca3a56a6caad0812b5c2cd",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Choco sells growth: a storefront, a CRM, bigger baskets. VOS sells one clean order and stops there.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "91140da8-c0bb-16b9-4a5c-57b669e15c77",
+    "image": "91140da8-c0bb-16b9-4a5c-57b669e15c7a",
+    "titleString": "91140da8-c0bb-16b9-4a5c-57b669e15c7d",
+    "descString": "fbf29a1b-376f-09cf-39a4-c09ec882fab8",
+    "buttonString": "91140da8-c0bb-16b9-4a5c-57b669e15c85"
+   }
+  },
+  {
+   "i": 2,
+   "title": "Burnt AI Alternative",
+   "slug": "burnt-ai-alternative",
+   "targetPageId": "6aca3a58ca02f812a31bf517",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Burnt puts agents across the back office. VOS covers the order, with your buyer signing it off.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "29987a19-57fd-2141-4b84-ea8049f8bd65",
+    "image": "29987a19-57fd-2141-4b84-ea8049f8bd68",
+    "titleString": "29987a19-57fd-2141-4b84-ea8049f8bd6b",
+    "descString": "29987a19-57fd-2141-4b84-ea8049f8bd6e",
+    "buttonString": "29987a19-57fd-2141-4b84-ea8049f8bd73"
+   }
+  },
+  {
+   "i": 3,
+   "title": "GrubMarket AI Alternative",
+   "slug": "grubmarket-ai-alternative",
+   "targetPageId": "6aca3a59a6caad0812b5c623",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Both products run on voice. The difference is whose hands the microphone is in.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "6f20970f-a079-6da3-9c63-cf35420cc8e9",
+    "image": "6f20970f-a079-6da3-9c63-cf35420cc8ec",
+    "titleString": "6f20970f-a079-6da3-9c63-cf35420cc8ef",
+    "descString": "6f20970f-a079-6da3-9c63-cf35420cc8f2",
+    "buttonString": "6f20970f-a079-6da3-9c63-cf35420cc8f7"
+   }
+  },
+  {
+   "i": 4,
+   "title": "Cut+Dry Alternative",
+   "slug": "cut-dry-alternative",
+   "targetPageId": "6aca3a59f340d29ae03c3ad7",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "On a three-sided network, somebody else is in the room when your customer orders. Here nobody is.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "390a6cbe-54a4-21b7-6016-c32deeb24e1d",
+    "image": "390a6cbe-54a4-21b7-6016-c32deeb24e20",
+    "titleString": "390a6cbe-54a4-21b7-6016-c32deeb24e23",
+    "descString": "273cdfe8-b8cd-7577-4100-0a9dd5f3bb52",
+    "buttonString": "390a6cbe-54a4-21b7-6016-c32deeb24e2b"
+   }
+  },
+  {
+   "i": 5,
+   "title": "BlueCart Alternative",
+   "slug": "bluecart-alternative",
+   "targetPageId": "6aca3a5ad4674c1a37e56403",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "A marketplace grades your prices against other vendors. Your own order guide does not.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "3a32c3f4-37d6-9992-2e6b-19b09ce040ca",
+    "image": "3a32c3f4-37d6-9992-2e6b-19b09ce040cd",
+    "titleString": "3a32c3f4-37d6-9992-2e6b-19b09ce040d0",
+    "descString": "3a32c3f4-37d6-9992-2e6b-19b09ce040d3",
+    "buttonString": "3a32c3f4-37d6-9992-2e6b-19b09ce040d8"
+   }
+  },
+  {
+   "i": 6,
+   "title": "NECS Entree Alternative",
+   "slug": "necs-entree-alternative",
+   "targetPageId": "6aca3a5bdafc7a7656fa9b4c",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Keep the ERP that runs your company. Change only the way an order reaches it.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69754",
+    "image": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69757",
+    "titleString": "8c03c7d6-9be4-5202-d5ff-b8f8e3a6975a",
+    "descString": "8c03c7d6-9be4-5202-d5ff-b8f8e3a6975d",
+    "buttonString": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69762"
+   }
+  },
+  {
+   "i": 7,
+   "title": "Pepperi Alternative",
+   "slug": "pepperi-alternative",
+   "targetPageId": "6aca3a6aa40f1fed87074445",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Pepperi arms the visit: routes, shelf audits, van sales. VOS is for the reorder nobody attends.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "1a6cf711-ae29-2e40-dd5e-86d9f8b3043f",
+    "image": "1a6cf711-ae29-2e40-dd5e-86d9f8b30442",
+    "titleString": "1a6cf711-ae29-2e40-dd5e-86d9f8b30445",
+    "descString": "1a6cf711-ae29-2e40-dd5e-86d9f8b30448",
+    "buttonString": "1a6cf711-ae29-2e40-dd5e-86d9f8b3044d"
+   }
+  },
+  {
+   "i": 8,
+   "title": "OrderEase Alternative",
+   "slug": "orderease-alternative",
+   "targetPageId": "6aca3a6bf0c2375ec4151513",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "They tidy up every order channel. VOS removes the channel that makes your desk the most work.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "2ddbdd41-58be-7ee9-ab88-f51516842de5",
+    "image": "2ddbdd41-58be-7ee9-ab88-f51516842de8",
+    "titleString": "2ddbdd41-58be-7ee9-ab88-f51516842deb",
+    "descString": "d4ed66ee-959f-4b5f-3ecf-0329c0310b88",
+    "buttonString": "2ddbdd41-58be-7ee9-ab88-f51516842df3"
+   }
+  },
+  {
+   "i": 9,
+   "title": "WizCommerce Alternative",
+   "slug": "wizcommerce-alternative",
+   "targetPageId": "6aca3a6c06da357dd6d261d7",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Their AI reads whatever arrived. In VOS there is nothing to read, because the buyer built the lines.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebaf",
+    "image": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebb2",
+    "titleString": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebb5",
+    "descString": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebb8",
+    "buttonString": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebbd"
+   }
+  },
+  {
+   "i": 10,
+   "title": "REKKI Alternative",
+   "slug": "rekki-alternative",
+   "targetPageId": "6aca3a6c8b1e86523e69bf86",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "They publish an accuracy rate. A rate exists because something is inferring what the order said.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "51a5ea11-aba5-624d-7a30-08c7f6587f5a",
+    "image": "51a5ea11-aba5-624d-7a30-08c7f6587f5d",
+    "titleString": "51a5ea11-aba5-624d-7a30-08c7f6587f60",
+    "descString": "51a5ea11-aba5-624d-7a30-08c7f6587f63",
+    "buttonString": "51a5ea11-aba5-624d-7a30-08c7f6587f68"
+   }
+  },
+  {
+   "i": 11,
+   "title": "Fresho Alternative",
+   "slug": "fresho-alternative",
+   "targetPageId": "6aca3a6e5e834cc8aaf7a7ff",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Fresho runs a whole fresh-food operation. VOS adds one step and leaves the rest of it alone.",
+   "button": "See the comparison",
+   "elements": {
+    "link": "260ab7fd-903a-e943-2006-5f0b383a2d1d",
+    "image": "260ab7fd-903a-e943-2006-5f0b383a2d20",
+    "titleString": "260ab7fd-903a-e943-2006-5f0b383a2d23",
+    "descString": "260ab7fd-903a-e943-2006-5f0b383a2d26",
+    "buttonString": "260ab7fd-903a-e943-2006-5f0b383a2d2b"
+   }
+  }
+ ],
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "CollectionPage",
+    "@id": "https://www.voiceordersolutions.com/alternatives",
+    "url": "https://www.voiceordersolutions.com/alternatives",
+    "name": "Compare VoiceOrder Solutions With 12 Tools",
+    "description": "Twelve head-to-head comparisons for food distributors, each read off the other vendor's own site and dated. See where VOS fits and where it stops.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.voiceordersolutions.com/alternatives#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.voiceordersolutions.com/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Alternatives",
+      "item": "https://www.voiceordersolutions.com/alternatives"
+     }
+    ]
+   },
+   {
+    "@type": "ItemList",
+    "@id": "https://www.voiceordersolutions.com/alternatives#comparisons",
+    "name": "VoiceOrder Solutions compared with other ordering tools",
+    "description": "Head-to-head comparison pages for food distributors, one per competing product, each sourced from that vendor’s own site and dated.",
+    "numberOfItems": 12,
+    "itemListOrder": "https://schema.org/ItemListUnordered",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "url": "https://www.voiceordersolutions.com/pepper-alternative",
+      "name": "Pepper Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "url": "https://www.voiceordersolutions.com/choco-alternative",
+      "name": "Choco Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "url": "https://www.voiceordersolutions.com/burnt-ai-alternative",
+      "name": "Burnt AI Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "url": "https://www.voiceordersolutions.com/grubmarket-ai-alternative",
+      "name": "GrubMarket AI Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 5,
+      "url": "https://www.voiceordersolutions.com/cut-dry-alternative",
+      "name": "Cut+Dry Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 6,
+      "url": "https://www.voiceordersolutions.com/bluecart-alternative",
+      "name": "BlueCart Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 7,
+      "url": "https://www.voiceordersolutions.com/necs-entree-alternative",
+      "name": "NECS Entree Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 8,
+      "url": "https://www.voiceordersolutions.com/pepperi-alternative",
+      "name": "Pepperi Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://www.voiceordersolutions.com/orderease-alternative",
+      "name": "OrderEase Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 10,
+      "url": "https://www.voiceordersolutions.com/wizcommerce-alternative",
+      "name": "WizCommerce Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 11,
+      "url": "https://www.voiceordersolutions.com/rekki-alternative",
+      "name": "REKKI Alternative"
+     },
+     {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://www.voiceordersolutions.com/fresho-alternative",
+      "name": "Fresho Alternative"
+     }
+    ]
+   }
+  ]
+ }
+}
