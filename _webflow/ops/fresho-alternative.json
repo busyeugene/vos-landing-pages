@@ -341,7 +341,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
-   "Much smaller, deliberately, and we would rather you heard it from us. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, we think VOS is the better buy. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all: we do none of them and are not going to. If that is what you need the software to be, theirs is a serious answer."
+   "Much smaller, deliberately, and you should hear that from us rather than later. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, VOS wins that one. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all, and none of it is planned. If that is what you need the software to be, theirs is a serious answer."
   ],
   [
    "ad9f0390-a776-7031-a95b-984cd1988c9e",
@@ -349,7 +349,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
-   "Not for either of us, and it is only fair to say so. Their order automation is described as working with the ERP you already have, and their own pricing notes say the parts can sit beside an existing system. VOS is additive too. The real difference is how much of your operation each one expects to be involved in."
+   "Not for either of us, and it is only fair to say so. Their order automation is described as working with the ERP you already have, and their own pricing notes say the parts can sit beside an existing system. VOS is additive too. The real difference is how much of the business each one expects to touch."
   ],
   [
    "e219e293-819b-221b-6d80-7f8d2898a4d7",
@@ -411,7 +411,7 @@
   ],
   [
    "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0",
-   "<div class=\"uui-text-size-medium-21\">Your own systems</div>"
+   "<div class=\"uui-text-size-medium-21\">Your finance system</div>"
   ],
   [
    "55af8715-1c0d-7742-fde4-496073314315",
@@ -564,11 +564,11 @@
  "faq": [
   {
    "q": "Is VOS a Fresho alternative, and is it better than Fresho?",
-   "a": "Much smaller, deliberately, and we would rather you heard it from us. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, we think VOS is the better buy. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all: we do none of them and are not going to. If that is what you need the software to be, theirs is a serious answer."
+   "a": "Much smaller, deliberately, and you should hear that from us rather than later. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, VOS wins that one. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all, and none of it is planned. If that is what you need the software to be, theirs is a serious answer."
   },
   {
    "q": "Would we have to rip out what we run now?",
-   "a": "Not for either of us, and it is only fair to say so. Their order automation is described as working with the ERP you already have, and their own pricing notes say the parts can sit beside an existing system. VOS is additive too. The real difference is how much of your operation each one expects to be involved in."
+   "a": "Not for either of us, and it is only fair to say so. Their order automation is described as working with the ERP you already have, and their own pricing notes say the parts can sit beside an existing system. VOS is additive too. The real difference is how much of the business each one expects to touch."
   },
   {
    "q": "Their AI handles voicemails. Does VOS do that?",
@@ -606,7 +606,7 @@
       "name": "Is VOS a Fresho alternative, and is it better than Fresho?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Much smaller, deliberately, and we would rather you heard it from us. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, we think VOS is the better buy. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all: we do none of them and are not going to. If that is what you need the software to be, theirs is a serious answer."
+       "text": "Much smaller, deliberately, and you should hear that from us rather than later. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, VOS wins that one. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all, and none of it is planned. If that is what you need the software to be, theirs is a serious answer."
       }
      },
      {
@@ -614,7 +614,7 @@
       "name": "Would we have to rip out what we run now?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Not for either of us, and it is only fair to say so. Their order automation is described as working with the ERP you already have, and their own pricing notes say the parts can sit beside an existing system. VOS is additive too. The real difference is how much of your operation each one expects to be involved in."
+       "text": "Not for either of us, and it is only fair to say so. Their order automation is described as working with the ERP you already have, and their own pricing notes say the parts can sit beside an existing system. VOS is additive too. The real difference is how much of the business each one expects to touch."
       }
      },
      {

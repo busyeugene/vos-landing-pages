@@ -113,7 +113,7 @@ module.exports = {
         <tbody>
           <tr>
             <td>Where routes and van selling are handled</td>
-            <td>Your own systems</td>
+            <td>Your route system, if you run one</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>

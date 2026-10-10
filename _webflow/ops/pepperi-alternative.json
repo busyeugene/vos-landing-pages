@@ -341,7 +341,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
-   "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling an order out of a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
+   "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling a reorder from a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
   ],
   [
    "ad9f0390-a776-7031-a95b-984cd1988c9e",
@@ -403,7 +403,7 @@
  "embed": [
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1c0",
-   "<div class=\"uui-text-size-medium-21\">Your own systems</div>"
+   "<div class=\"uui-text-size-medium-21\">Your route system, if you run one</div>"
   ],
   [
    "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
@@ -574,7 +574,7 @@
  "faq": [
   {
    "q": "Is VOS a Pepperi alternative, and is it better than Pepperi?",
-   "a": "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling an order out of a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
+   "a": "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling a reorder from a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
   },
   {
    "q": "Does Pepperi not already let customers order for themselves?",
@@ -616,7 +616,7 @@
       "name": "Is VOS a Pepperi alternative, and is it better than Pepperi?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling an order out of a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
+       "text": "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling a reorder from a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
       }
      },
      {

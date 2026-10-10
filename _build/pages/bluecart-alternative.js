@@ -600,8 +600,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          It depends entirely on why you were looking. If you want to be found by restaurants you
-          do not supply, VOS cannot help and a marketplace is the right tool. If you want the
+          It depends entirely on why you were looking. If you want to be found by kitchens that have never bought from you, VOS cannot help and a marketplace is the right tool. If you want the
           accounts you already have to stop telephoning every order, then yes, and the comparison
           is a fair one.
         </div>

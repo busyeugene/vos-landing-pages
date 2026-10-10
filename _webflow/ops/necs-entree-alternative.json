@@ -45,7 +45,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8cc",
-   "Entree offers web and mobile order entry, and both work by a buyer finding items and entering quantities. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
+   "Entree already offers customer ordering on web and mobile, and both routes have the buyer keying quantities against a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
   ],
   [
    "bacfcf90-d337-55e1-9a02-49b2f6962e16",
@@ -53,7 +53,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8d3",
-   "When ordering is a module of the system of record, changing it is a change to the system of record, and it is their module to license and support. Some distributors would rather improve the order without opening that up."
+   "When ordering lives inside the software that runs your company, changing it means changing that software, and it is their module to license and support. Some distributors would rather improve the order without opening that up."
   ],
   [
    "83921d0d-4ec1-911e-4420-fee5bfd13614",
@@ -61,7 +61,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8da",
-   "If your real plan is to move off Entree entirely, be honest that you are replacing accounting, ledger, payables, EDI and the warehouse at once. VOS is not that, and we would sooner say so now than sit through the wrong demo with you."
+   "If your real plan is to move off Entree entirely, be honest that the whole back office goes with it. VOS is not that, and we would sooner say so now than sit through the wrong demo with you."
   ],
   [
    "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
@@ -125,7 +125,7 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdebf",
-   "No module to license and no version to be on"
+   "Nothing of theirs to add or upgrade"
   ],
   [
    "6555f9fc-4dcc-b940-f384-6001ce4db69f",
@@ -197,11 +197,11 @@
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
-   "The system of record does not move"
+   "Your records stay where they are"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
-   "Every number your business runs on keeps living where it lives. VOS hands over a finished order and leaves your records where they are."
+   "Every number your business runs on keeps living where it lives. VOS passes the order across and leaves your own records alone."
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a6d",
@@ -213,11 +213,11 @@
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
-   "No version to be on, no module to license"
+   "Your accounts get the app, your office gets the order"
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
-   "Because it sits outside, your upgrade path is unaffected either way. Nothing here has to wait for a release, and nothing here blocks one."
+   "Because VOS is not inside it, your upgrade path is unaffected either way. Nothing here has to wait for a release, and nothing here blocks one."
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
@@ -225,7 +225,7 @@
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b8",
-   "Twenty minutes. A buyer talks, the order shows up in the formats your desk already takes, and nothing in your distribution software was altered to allow it."
+   "Twenty minutes. A buyer talks, the order shows up in the formats your desk already takes, and nothing in Entree was altered to allow it."
   ],
   [
    "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
@@ -237,7 +237,7 @@
   ],
   [
    "38293a1d-fb4c-9501-8014-28855f9128b6",
-   "Nobody logs into your distribution software to do this. You export lists, we open accounts, your customers order."
+   "Nobody has to log into Entree to do this. You export lists, we open accounts, your customers order."
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
@@ -245,7 +245,7 @@
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
-   "A spreadsheet out of the system you have is plenty. Items and prices per account go into a single admin screen against your codes."
+   "A spreadsheet out of the system you have is plenty. Items and prices per account go into a single admin screen under the codes you use."
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
@@ -293,7 +293,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1be",
-   "System of record for the business"
+   "The core system of the business"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
@@ -357,7 +357,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
-   "No. Nobody signs into your distribution software to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
+   "No. We never need an account in it to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
   ],
   [
    "39590628-381c-9aea-6095-0746f7348939",
@@ -373,7 +373,7 @@
   ],
   [
    "7e541655-5a68-8f96-1273-8249a5c759bd",
-   "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the system your whole company runs on."
+   "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the platform the whole company depends on."
   ],
   [
    "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
@@ -451,7 +451,7 @@
   ],
   [
    "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
-   "<div class=\"uui-text-size-medium-21\">The system that runs the company</div>"
+   "<div class=\"uui-text-size-medium-21\">Everything from the ledger to the warehouse</div>"
   ]
  ],
  "styles": [
@@ -566,7 +566,7 @@
   },
   {
    "q": "Will this touch our installation or our version?",
-   "a": "No. Nobody signs into your distribution software to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
+   "a": "No. We never need an account in it to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
   },
   {
    "q": "We are thinking of moving off Entree. Can you help?",
@@ -574,7 +574,7 @@
   },
   {
    "q": "How do the costs compare?",
-   "a": "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the system your whole company runs on."
+   "a": "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the platform the whole company depends on."
   },
   {
    "q": "How fast could this be live?",
@@ -616,7 +616,7 @@
       "name": "Will this touch our installation or our version?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "No. Nobody signs into your distribution software to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
+       "text": "No. We never need an account in it to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
       }
      },
      {
@@ -632,7 +632,7 @@
       "name": "How do the costs compare?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the system your whole company runs on."
+       "text": "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the platform the whole company depends on."
       }
      },
      {

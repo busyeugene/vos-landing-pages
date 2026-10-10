@@ -37,7 +37,7 @@
    },
    {
     "h3": "A parsed message still gets read by you",
-    "body": "Choco's OrderAgent lifts an order out of a voicemail, a text, even a photo of a handwritten pad, which is a genuinely clever bit of engineering. The catch is the same either way: the person who wrote that note did not see the lines your desk ended up with. Choco does have a free app its restaurant customers order in; this is about the messages that arrive instead."
+    "body": "Choco's OrderAgent lifts an order out of a voicemail, a text, even a snapshot of a handwritten pad, which is a genuinely clever bit of engineering. The catch is the same either way: the person who wrote that note did not see the lines your desk ended up with. Choco does have a free app its restaurant customers order in; this is about the messages that arrive instead."
    }
   ]
  },
@@ -274,7 +274,7 @@
     "cells": [
      {
       "t": "text",
-      "v": "The ordering step"
+      "v": "Ordering, and nothing else"
      },
      {
       "t": "text",

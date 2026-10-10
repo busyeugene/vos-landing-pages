@@ -353,7 +353,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
-   "No. You can see what an account has ordered, in the admin screens, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and none of it is on ours. Worth knowing before you shortlist us against them."
+   "No. You can see what an account has ordered, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and none of it is on ours. Worth knowing before you shortlist us against them."
   ],
   [
    "e219e293-819b-221b-6d80-7f8d2898a4d7",
@@ -563,7 +563,7 @@
   },
   {
    "q": "Can VOS tell us how a customer is performing?",
-   "a": "No. You can see what an account has ordered, in the admin screens, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and none of it is on ours. Worth knowing before you shortlist us against them."
+   "a": "No. You can see what an account has ordered, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and none of it is on ours. Worth knowing before you shortlist us against them."
   },
   {
    "q": "Do we have to teach VOS our catalog?",
@@ -609,7 +609,7 @@
       "name": "Can VOS tell us how a customer is performing?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "No. You can see what an account has ordered, in the admin screens, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and none of it is on ours. Worth knowing before you shortlist us against them."
+       "text": "No. You can see what an account has ordered, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and none of it is on ours. Worth knowing before you shortlist us against them."
       }
      },
      {

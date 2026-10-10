@@ -25,7 +25,7 @@
  "problem": {
   "eyebrow": "Why Teams Compare",
   "h2": "Where an alternative to Cut+Dry starts to appeal",
-  "lead": "Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves distributors, manufacturers and restaurants from the same platform. That breadth is the product. It is also what sends some buyers looking at a Cut+Dry competitor instead.",
+  "lead": "Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves all three sides of that trade from one platform. That breadth is the product. It is also what sends some buyers looking at a Cut+Dry competitor instead.",
   "cards": [
    {
     "h3": "Someone else can buy that moment",
@@ -33,11 +33,11 @@
    },
    {
     "h3": "Cashback has to come from somewhere",
-    "body": "Restaurants on the platform are offered cashback on eligible purchases from participating distributors and manufacturers. A lot of distributors will want to know exactly where that sits before they sign, and reasonably so."
+    "body": "Restaurants on the platform earn money back on qualifying orders from participating distributors and manufacturers. A lot of distributors will want to know exactly where that sits before they sign, and reasonably so."
    },
    {
-    "h3": "Launch is measured in weeks, not hours",
-    "body": "Their own distributor page publishes a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the phone stops ringing."
+    "h3": "Going live takes weeks, not hours",
+    "body": "They publish a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the phone stops ringing."
    }
   ]
  },
@@ -47,7 +47,7 @@
   "rows": [
    {
     "eyebrow": "Voice Ordering",
-    "h3": "Nothing to browse, so nothing to browse past",
+    "h3": "Nothing to browse, so nothing to scroll past",
     "body": "Your account holds the button and says what is short. Items come up as lines with quantities, they correct anything off, and they send. No search results, no recommendations, no other brand in the way of the thing they meant to buy.",
     "bullets": [
      "The buyer looks at the list before anything leaves",
@@ -118,7 +118,7 @@
     "body": "Discovery, search and a published catalog are real work, and none of it happens here. The accounts who want to browse keep browsing. The ones who just want Friday's order reordered get a quicker route to it."
    },
    {
-    "h3": "Payments and invoicing stay put",
+    "h3": "Money and paperwork stay put",
     "body": "VOS never touches money. Nothing about adding it asks you to move how customers pay or how invoices go out, which is usually the part nobody wants to disturb."
    },
    {
@@ -265,7 +265,7 @@
      },
      {
       "t": "text",
-      "v": "Under 90 days, they publish"
+      "v": "Published at under three months"
      }
     ]
    },
@@ -298,7 +298,7 @@
    },
    {
     "q": "Can another brand advertise to my customer inside VOS?",
-    "a": "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees the list you built, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is building an order, which suits some distributors and is exactly what others are avoiding."
+    "a": "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees your own range, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is ordering, which suits some distributors and is exactly what others are avoiding."
    },
    {
     "q": "Does VOS do payments or invoicing?",

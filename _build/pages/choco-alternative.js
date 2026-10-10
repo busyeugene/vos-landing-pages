@@ -144,7 +144,7 @@ module.exports = {
           </tr>
           <tr>
             <td>What you are adding</td>
-            <td>The ordering step</td>
+            <td>Ordering, and nothing else</td>
             <td>Ordering, storefront, sales and CRM</td>
           </tr>
         </tbody>
@@ -203,8 +203,7 @@ module.exports = {
         <div class="problem-icon">🖊️</div>
         <h4>A parsed message still gets read by you</h4>
         <p class="text-muted mt-12">
-          Choco's OrderAgent lifts an order out of a voicemail, a text, even a photo of a
-          handwritten pad, which is a genuinely clever bit of engineering. The catch is the same
+          Choco's OrderAgent lifts an order out of a voicemail, a text, even a snapshot of a handwritten pad, which is a genuinely clever bit of engineering. The catch is the same
           either way: the person who wrote that note did not see the lines your desk ended up with. Choco does have a free app its restaurant customers order in; this is about the messages that arrive instead.
         </p>
       </div>

@@ -248,7 +248,7 @@
     "cells": [
      {
       "t": "text",
-      "v": "Your own systems"
+      "v": "Your warehouse system"
      },
      {
       "t": "icon",
@@ -294,7 +294,7 @@
    },
    {
     "q": "Is VOS better than OrderEase?",
-    "a": "At lifting an order out of a kitchen with nobody typing, we think so. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: we do none of those. If that is the job, buy theirs."
+    "a": "At getting a kitchen's order in with nobody typing, we think so. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: we do none of those. If that is the job, buy theirs."
    },
    {
     "q": "We get a lot of emailed POs. Does VOS read those?",

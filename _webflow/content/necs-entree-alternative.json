@@ -29,15 +29,15 @@
   "cards": [
    {
     "h3": "Ordering still means someone typing",
-    "body": "Entree offers web and mobile order entry, and both work by a buyer finding items and entering quantities. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
+    "body": "Entree already offers customer ordering on web and mobile, and both routes have the buyer keying quantities against a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
    },
    {
     "h3": "Everything new is inside the same system",
-    "body": "When ordering is a module of the system of record, changing it is a change to the system of record, and it is their module to license and support. Some distributors would rather improve the order without opening that up."
+    "body": "When ordering lives inside the software that runs your company, changing it means changing that software, and it is their module to license and support. Some distributors would rather improve the order without opening that up."
    },
    {
     "h3": "Actually replacing it is a different project",
-    "body": "If your real plan is to move off Entree entirely, be honest that you are replacing accounting, ledger, payables, EDI and the warehouse at once. VOS is not that, and we would sooner say so now than sit through the wrong demo with you."
+    "body": "If your real plan is to move off Entree entirely, be honest that the whole back office goes with it. VOS is not that, and we would sooner say so now than sit through the wrong demo with you."
    }
   ]
  },
@@ -69,7 +69,7 @@
      "A kitchen sees nothing but the lines it buys",
      "Pricing and the catalog remain yours to set",
      "Change a guide once and it stands on the orders after",
-     "No module to license and no version to be on"
+     "Nothing of theirs to add or upgrade"
     ],
     "link": {
      "href": "/catalog-management-software",
@@ -114,32 +114,32 @@
   "lead": "This is the normal case, not the exception. VOS is no sort of NECS Entree replacement: it is the way orders get in, on a system you keep exactly as it is. That is what a NECS Entree alternative usually turns out to mean.",
   "items": [
    {
-    "h3": "The system of record does not move",
-    "body": "Every number your business runs on keeps living where it lives. VOS hands over a finished order and leaves your records where they are."
+    "h3": "Your records stay where they are",
+    "body": "Every number your business runs on keeps living where it lives. VOS passes the order across and leaves your own records alone."
    },
    {
     "h3": "Give the web ordering the accounts that like it",
     "body": "Buyers who happily work through a screen can carry on. VOS is for the part of the book that never adopted it and still telephones, which is where a lot of the morning goes."
    },
    {
-    "h3": "No version to be on, no module to license",
-    "body": "Because it sits outside, your upgrade path is unaffected either way. Nothing here has to wait for a release, and nothing here blocks one."
+    "h3": "Your accounts get the app, your office gets the order",
+    "body": "Because VOS is not inside it, your upgrade path is unaffected either way. Nothing here has to wait for a release, and nothing here blocks one."
    }
   ]
  },
  "midcta": {
   "h3": "See it land in a system like yours",
-  "body": "Twenty minutes. A buyer talks, the order shows up in the formats your desk already takes, and nothing in your distribution software was altered to allow it.",
+  "body": "Twenty minutes. A buyer talks, the order shows up in the formats your desk already takes, and nothing in Entree was altered to allow it.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
   "eyebrow": "Getting Started",
   "h2": "Three steps, and nothing opened up",
-  "lead": "Nobody logs into your distribution software to do this. You export lists, we open accounts, your customers order.",
+  "lead": "Nobody has to log into Entree to do this. You export lists, we open accounts, your customers order.",
   "items": [
    {
     "h3": "Export your lists",
-    "body": "A spreadsheet out of the system you have is plenty. Items and prices per account go into a single admin screen against your codes."
+    "body": "A spreadsheet out of the system you have is plenty. Items and prices per account go into a single admin screen under the codes you use."
    },
    {
     "h3": "We open each customer up",
@@ -166,7 +166,7 @@
   ],
   "rows": [
    {
-    "label": "System of record for the business",
+    "label": "The core system of the business",
     "cells": [
      {
       "t": "text",
@@ -278,7 +278,7 @@
      },
      {
       "t": "text",
-      "v": "The system that runs the company"
+      "v": "Everything from the ledger to the warehouse"
      }
     ]
    }
@@ -290,7 +290,7 @@
   "items": [
    {
     "q": "Is VOS a NECS Entree alternative, or a different kind of thing?",
-    "a": "Something else entirely, and we would rather lead with that. Entree is the software your company runs on. VOS handles how an order gets in. If you are comparing them as like for like, one of the two will disappoint you badly, so the better question is which part of the day you are actually trying to fix."
+    "a": "Something else entirely, and we would rather lead with that. Entree is the software your company runs on. VOS handles how an order gets in. If you are comparing them as equivalents, one of the two will disappoint you badly, so the better question is which part of the day you are actually trying to fix."
    },
    {
     "q": "Is VOS better than NECS Entree?",
@@ -302,7 +302,7 @@
    },
    {
     "q": "Will this touch our installation or our version?",
-    "a": "No. Nobody signs into your distribution software to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
+    "a": "No. We never need an account in it to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
    },
    {
     "q": "We are thinking of moving off Entree. Can you help?",
@@ -310,7 +310,7 @@
    },
    {
     "q": "How do the costs compare?",
-    "a": "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the system your whole company runs on."
+    "a": "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the platform the whole company depends on."
    },
    {
     "q": "How fast could this be live?",

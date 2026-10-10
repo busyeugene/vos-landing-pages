@@ -146,7 +146,7 @@ module.exports = {
           <tr>
             <td>Which step it covers</td>
             <td>The order itself</td>
-            <td>Agents across the operation</td>
+            <td>A platform of agents</td>
           </tr>
         </tbody>
         <tfoot>

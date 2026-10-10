@@ -280,6 +280,11 @@ page's angle, live in `_build/research/competitors/`.**
 `/alternatives` hub page. Current as of 2026-10-10 evening. The repo copy is final; `master` is
 pushed and clean.
 
+**All three final passes are clean** (repetition / VOS presented + promoted / keywords): within-page
+and cross-page repetition at 0 for the first time, `claims.js` 0 bans with every KB open question
+re-grepped clean, `promote.js` tilt 1.0/11, and all 12 verified against the live Airtable base at
+primary x6 and 4/4 secondaries. See "Passes 9 to 11" below.
+
 **Only two things are left on this cluster:**
 1. **Push the 12 per-page JSON-LD files.** They are generated and sitting in `_webflow/schema/`
    (14 graph nodes, 8 FAQ questions each, matching the merged accordion) and have NOT been sent.
@@ -572,6 +577,59 @@ What they found, and the lessons:
   REKKI page ("lands on the people who were also something your team has to do") and a doubled
   sentence on Choco, where a replacement duplicated the clause that already followed it. Read the
   outline after every edit round, and prefer replacing a WHOLE sentence over its tail.
+
+### Passes 9 to 11 (Eugene's ask, 2026-10-10 evening): repetition, VOS, keywords
+Three final passes. All three now measure clean, and two of them only after the measuring tool was
+fixed.
+
+**Repetition: the cluster is at ZERO for the first time.** Within-page trigrams 32 -> 0 on all 12
+(the long-standing debt was cut-dry 11 and necs-entree 18), cross-page trigrams on 3+ still 0, and
+`repeat.js` within-page 5-word repeats 6 -> 0. It took four measured rounds, because every round
+exposes the next pair.
+- **necs-entree was genuinely repetitive, not just technically.** It said "nothing in your
+  distribution software is touched" four different ways, carried two bullets that were the same two
+  facts reversed ("No module to license and no version to be on" / "No version to be on, no module
+  to license"), described Entree's web+mobile order entry twice, and listed "accounting, ledger,
+  payables, EDI" twice. Those are reader-visible, not gate artifacts.
+- **cut-dry stated Cut+Dry's launch window three times** (a problem-card H4, a prose sentence and a
+  table cell) and its manufacturer-marketing point twice.
+- **Do not paraphrase a VOS fact just to satisfy a counter.** `grid.js --dupes` shows the
+  per-account-guide row on 9 of 12 and "24-48 hours for most" in 7 VOS cells. Those stay: this file
+  already warns that measuring the VOS half for cross-page repetition "just forces a twelfth
+  paraphrase of a sentence that was already correct". What WAS fixed is wording I had introduced
+  myself, five identical "Your own systems" cells and three "The ordering step" cells.
+- ⚠ **The Webflow-only copy had never been repetition-checked at all**, because it lives in
+  `overrides.json` and `gen-alternatives.py` where no gate reaches: 4 of the 11 merged FAQ answers
+  opened their verdict with "we think VOS is better", 3 said "we do none of", 3 shared "a kitchen
+  that will". Now capped at 2 per construction. The one phrase left on all 12 is "it better than",
+  which is the required `better than <competitor>` secondary.
+- **I nearly dismissed a real repeat as a checker artifact.** `repeat.js` flagged rekki's "from its
+  own guide and" twice when my own strip showed one; the second was in the HERO LEAD, which my
+  ad-hoc regex had cut. Suspecting the checker is right often enough to be dangerous: confirm which
+  text the checker actually saw before overruling it.
+
+**VOS presented and promoted.** `claims.js` 0 bans; a fresh grep of every KB open question
+(Q14-Q21) plus the unconfirmed list and the banned phrases comes back clean on all 12, including
+the Q19 pricing basis; `promote.js` mean tilt 1.0/11 with four pages at 0; `balance.js` shows every
+page giving VOS ticks and the competitor keeping its genuine wins.
+- ⚠ **`vosfacts.js` misreported twice more and is now split and broadened.** It claimed the 24/7
+  fact on 12/12 when the LITERAL claim was on 6/12, so that row is now two rows ("stated literally"
+  vs "after hours, any wording") and the file's header states plainly that a Y means *mentioned*,
+  not *promoted*. It then reported "push + text promos" at 0/12 on a fact that was live, because its
+  pattern did not know the KB-safe wording "by notification and text"; and it missed "Reps get that
+  hour back to sell" because it matched a fixed list of phrasings rather than the idea. **Three
+  misreports from one tool in one session: treat its output as a prompt to go and read, never as a
+  verdict.**
+- **Full coverage of every fact on every page is NOT the goal.** Carrying all 18 proof points on
+  all 12 pages is how the pages become clones, which is the exact defect the October reviewers
+  found. The spread (frees-reps 6/12, interruption recovery 7/12, 24/7 literal 6/12) is deliberate;
+  judge whether a page promotes the facts that support ITS argument.
+
+**Keywords.** `kwaudit.js` 0 issues and `qa.js` 0/0, and all 12 verified against the LIVE Airtable
+base: **primary x6 and 4/4 secondaries on every page**, with identical placement (title, meta,
+H1, an H2/H3, 2 body, a FAQ question plus a DIFFERENT FAQ answer). The 8 rows that report "page not
+found" are the November batch and are not defects. This is the check this file says to re-run after
+any claim or copy pass, and this session had several.
 
 ### Passes 7 and 8 (Eugene's ask, 2026-10-10): "did we describe VOS right" and "are we overselling them"
 Eight no-context reviewers (four fact-checkers against the KB, four distributor-buyers with the

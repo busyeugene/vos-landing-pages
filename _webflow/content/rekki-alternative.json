@@ -29,7 +29,7 @@
   "cards": [
    {
     "h3": "An error rate is still a rate",
-    "body": "REKKI publishes theirs, which is more than most vendors will do. It is also an admission worth pausing on: a number exists because a machine is working out what the order said. They stand behind it with double checks and a refund guarantee. VOS publishes no such number because the account picks from its own guide and reads the lines before sending."
+    "body": "REKKI publishes theirs, which is more than most vendors will do. It is also an admission worth pausing on: a number exists because a machine is working out what the order said. They stand behind it with double checks and a refund guarantee. VOS publishes no such number because the lines are the account's own items and the buyer reads them before sending."
    },
    {
     "h3": "Your team ends up teaching it",
@@ -158,7 +158,7 @@
    "Measured, or confirmed."
   ],
   "eyebrow": "Two Ways To Trust An Order",
-  "lead": "In VOS the account builds the lines from its own guide and signs them off. REKKI reads orders out of whatever your customers send and reports how often that goes right, so a REKKI alternative is a question about whether anything has to interpret it. Read the table for where each one is measured.",
+  "lead": "In VOS the account assembles its own order and signs it off. REKKI reads orders out of whatever your customers send and reports how often that goes right, so a REKKI alternative is a question about whether anything has to interpret it. Read the table for where each one is measured.",
   "heads": [
    "Feature",
    "VoiceOrder Solutions",
@@ -306,7 +306,7 @@
    },
    {
     "q": "How much do we have to train it?",
-    "a": "Nothing at all, and that is a real difference rather than a slogan. Their site says your team trains the robot on your business, which is fair and is why the accuracy is theirs to claim. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
+    "a": "Nothing at all, and that is a real difference rather than a slogan. They are open that the training is yours to do, which is fair. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
    },
    {
     "q": "Some of our customers already use the REKKI app. What happens?",

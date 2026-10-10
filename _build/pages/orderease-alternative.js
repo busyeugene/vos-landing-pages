@@ -147,7 +147,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Where multi-warehouse fulfillment happens</td>
-            <td>Your own systems</td>
+            <td>Your warehouse system</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -612,7 +612,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At lifting an order out of a kitchen with nobody typing, we think so. At reading an
+          At getting a kitchen's order in with nobody typing, we think so. At reading an
           emailed purchase order, running your EDI partners or wiring up a marketplace, no, and
           not slightly: we do none of those. If that is the job, buy theirs.
         </div>

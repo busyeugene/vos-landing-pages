@@ -128,7 +128,7 @@
   ]
  },
  "midcta": {
-  "h3": "See one arrive already in lines",
+  "h3": "See what lands on the desk",
   "body": "Twenty minutes. A buyer speaks, the lines come up from their guide, and what reaches you is already in lines.",
   "cta": "Book a Free Demo →"
  },
@@ -196,7 +196,7 @@
     "cells": [
      {
       "t": "text",
-      "v": "Your own systems"
+      "v": "However you quote today"
      },
      {
       "t": "icon",
@@ -248,7 +248,7 @@
     "cells": [
      {
       "t": "text",
-      "v": "Your own systems"
+      "v": "Your CRM and your processor"
      },
      {
       "t": "icon",
@@ -274,7 +274,7 @@
     "cells": [
      {
       "t": "text",
-      "v": "The ordering step"
+      "v": "One step at the front"
      },
      {
       "t": "text",

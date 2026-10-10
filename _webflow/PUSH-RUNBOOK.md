@@ -64,3 +64,23 @@ call by hand with `data_component_props_tool`:
 ## Report back
 Per slug: the counts applied per step, and any action whose status was not `success`, quoted. If a
 call is rejected, report the error verbatim rather than guessing a new shape.
+
+## Re-pushing a page after a repo copy change
+
+The repo is the source of truth, so a copy pass makes the Webflow draft stale and it has to be
+re-pushed. A re-push is NOT the full four batches:
+
+- **Push `text`, `embed` and `styles`.** All three are idempotent and carry whatever changed.
+- **Skip `rest`.** Its 4 `set_link` ops were already set and have not changed, and its 4
+  `remove_element` ops delete the donor's spare cards, which are already gone: re-running them
+  returns "Element not found" four times. That is expected, not a failure, but there is no reason
+  to send it.
+- **Skip the component props** unless the hero eyebrow/H1/lead/CTA or the final CTA H2/body/CTA
+  actually changed. `batches.py <slug> rest` prints the current values on its `PROPS:` line, so
+  diff those against the page before deciding.
+- **The `HARD` line can be ignored on a re-push** for necs-entree, pepperi and fresho. Those three
+  cells were already converted from a text Block to an `HtmlEmbed` by hand, and `donor-cells.json`
+  describes the unchanged DONOR, so the generator keeps reporting them. The ops never touch that
+  cell, so a re-push leaves the converted icon alone.
+- **A re-push does not undo the 4th-column drop.** `gen-2col.py`'s style and removal ops are not
+  part of `ops/<slug>.json`.

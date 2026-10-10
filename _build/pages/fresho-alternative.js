@@ -133,7 +133,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Where invoicing and payment happen</td>
-            <td>Your own systems</td>
+            <td>Your finance system</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -633,8 +633,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Not for either of us, and it is only fair to say so. Their order automation is described
           as working with the ERP you already have, and their own pricing notes say the parts can
-          sit beside an existing system. VOS is additive too. The real difference is how much of
-          your operation each one expects to be involved in.
+          sit beside an existing system. VOS is additive too. The real difference is how much of the business each one expects to touch.
         </div>
       </div>
 

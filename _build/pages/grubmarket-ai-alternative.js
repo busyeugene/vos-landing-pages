@@ -624,7 +624,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. You can see what an account has ordered, in the admin screens, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and
+          No. You can see what an account has ordered, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and
           none of it is on ours. Worth knowing before you shortlist us against them.
         </div>
       </div>

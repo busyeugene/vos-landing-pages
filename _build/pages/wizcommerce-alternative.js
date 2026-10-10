@@ -129,7 +129,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Where quoting happens</td>
-            <td>Your own systems</td>
+            <td>However you quote today</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -149,7 +149,7 @@ module.exports = {
           </tr>
           <tr>
             <td>Where CRM and payments live</td>
-            <td>Your own systems</td>
+            <td>Your CRM and your processor</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -159,7 +159,7 @@ module.exports = {
           </tr>
           <tr>
             <td>What you are adding to</td>
-            <td>The ordering step</td>
+            <td>One step at the front</td>
             <td>A wholesale platform with AI</td>
           </tr>
         </tbody>
@@ -578,7 +578,7 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See one arrive already in lines</h3>
+      <h3 style="margin-bottom:10px;">See what lands on the desk</h3>
       <p class="text-muted" style="font-size:16px;">
         Twenty minutes. A buyer speaks, the lines come up from their guide, and what reaches you is already in lines.
       </p>

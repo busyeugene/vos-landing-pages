@@ -37,7 +37,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8c2",
-   "Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves distributors, manufacturers and restaurants from the same platform. That breadth is the product. It is also what sends some buyers looking at a Cut+Dry competitor instead."
+   "Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves all three sides of that trade from one platform. That breadth is the product. It is also what sends some buyers looking at a Cut+Dry competitor instead."
   ],
   [
    "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
@@ -53,15 +53,15 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8d3",
-   "Restaurants on the platform are offered cashback on eligible purchases from participating distributors and manufacturers. A lot of distributors will want to know exactly where that sits before they sign, and reasonably so."
+   "Restaurants on the platform earn money back on qualifying orders from participating distributors and manufacturers. A lot of distributors will want to know exactly where that sits before they sign, and reasonably so."
   ],
   [
    "83921d0d-4ec1-911e-4420-fee5bfd13614",
-   "Launch is measured in weeks, not hours"
+   "Going live takes weeks, not hours"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8da",
-   "Their own distributor page publishes a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the phone stops ringing."
+   "They publish a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the phone stops ringing."
   ],
   [
    "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
@@ -77,7 +77,7 @@
   ],
   [
    "24599529-959c-8515-3ff2-44ca6d68a0ed",
-   "Nothing to browse, so nothing to browse past"
+   "Nothing to browse, so nothing to scroll past"
   ],
   [
    "24599529-959c-8515-3ff2-44ca6d68a0f1",
@@ -205,7 +205,7 @@
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a6d",
-   "Payments and invoicing stay put"
+   "Money and paperwork stay put"
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a70",
@@ -353,7 +353,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
-   "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees the list you built, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is building an order, which suits some distributors and is exactly what others are avoiding."
+   "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees your own range, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is ordering, which suits some distributors and is exactly what others are avoiding."
   ],
   [
    "e219e293-819b-221b-6d80-7f8d2898a4d7",
@@ -443,7 +443,7 @@
   ],
   [
    "d455c100-948c-a407-3bda-fdc0a7afb797",
-   "<div class=\"uui-text-size-medium-21\">Under 90 days, they publish</div>"
+   "<div class=\"uui-text-size-medium-21\">Published at under three months</div>"
   ],
   [
    "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
@@ -553,7 +553,7 @@
   },
   {
    "q": "Can another brand advertise to my customer inside VOS?",
-   "a": "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees the list you built, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is building an order, which suits some distributors and is exactly what others are avoiding."
+   "a": "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees your own range, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is ordering, which suits some distributors and is exactly what others are avoiding."
   },
   {
    "q": "Does VOS do payments or invoicing?",
@@ -599,7 +599,7 @@
       "name": "Can another brand advertise to my customer inside VOS?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees the list you built, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is building an order, which suits some distributors and is exactly what others are avoiding."
+       "text": "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees your own range, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is ordering, which suits some distributors and is exactly what others are avoiding."
       }
      },
      {

@@ -143,7 +143,7 @@ module.exports = {
           <tr>
             <td>How long until it is running</td>
             <td>24-48 hours for most</td>
-            <td>Under 90 days, they publish</td>
+            <td>Published at under three months</td>
           </tr>
           <tr>
             <td>Where it fits</td>
@@ -175,8 +175,7 @@ module.exports = {
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Where an alternative to Cut+Dry starts to appeal</h2>
       <p class="lead mt-16">
-        Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it
-        serves distributors, manufacturers and restaurants from the same platform. That breadth is
+        Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves all three sides of that trade from one platform. That breadth is
         the product. It is also what sends some buyers looking at a Cut+Dry competitor instead.
       </p>
     </div>
@@ -197,17 +196,16 @@ module.exports = {
         <div class="problem-icon">💸</div>
         <h4>Cashback has to come from somewhere</h4>
         <p class="text-muted mt-12">
-          Restaurants on the platform are offered cashback on eligible purchases from
-          participating distributors and manufacturers. A lot of distributors will want to know
+          Restaurants on the platform earn money back on qualifying orders from participating distributors and manufacturers. A lot of distributors will want to know
           exactly where that sits before they sign, and reasonably so.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🗓️</div>
-        <h4>Launch is measured in weeks, not hours</h4>
+        <h4>Going live takes weeks, not hours</h4>
         <p class="text-muted mt-12">
-          Their own distributor page publishes a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the
+          They publish a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the
           phone stops ringing.
         </p>
       </div>
@@ -232,7 +230,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Voice Ordering</span>
-          <h3>Nothing to browse, so nothing to browse past</h3>
+          <h3>Nothing to browse, so nothing to scroll past</h3>
           <p class="mt-12 text-muted">
             Your account holds the button and says what is short. Items come up as lines with
             quantities, they correct anything off, and they send. No search results, no
@@ -544,7 +542,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">💳</div>
-        <h4>Payments and invoicing stay put</h4>
+        <h4>Money and paperwork stay put</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           VOS never touches money. Nothing about adding it asks you to move how customers pay or
           how invoices go out, which is usually the part nobody wants to disturb.
@@ -624,9 +622,8 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           No. There is no advertising surface in the app, and we do not sell placement to anyone.
-          Your account sees the list you built, priced the way you hold it. Cut+Dry openly offers
-          manufacturers targeted marketing at the moment an operator is building an order, which
-          suits some distributors and is exactly what others are avoiding.
+          Your account sees your own range, priced the way you hold it. Cut+Dry openly offers
+          manufacturers targeted marketing at the moment an operator is ordering, which suits some distributors and is exactly what others are avoiding.
         </div>
       </div>
 

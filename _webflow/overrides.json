@@ -192,7 +192,7 @@
    ],
    "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
    "q": "Is VOS a Pepperi alternative, and is it better than Pepperi?",
-   "a": "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling an order out of a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
+   "a": "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling a reorder from a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
   }
  },
  "orderease-alternative": {
@@ -212,7 +212,7 @@
    ],
    "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
    "q": "Is VOS an OrderEase alternative, and is it better than OrderEase?",
-   "a": "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At lifting an order out of a kitchen with nobody typing, we think VOS is better. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: we do none of those. If that is the job, buy theirs."
+   "a": "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At getting a kitchen's order in with nobody typing, VOS is the stronger answer. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: those are not ours to do. If that is the job, buy theirs."
   }
  },
  "wizcommerce-alternative": {
@@ -232,7 +232,7 @@
    ],
    "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
    "q": "Is VOS a WizCommerce alternative, and is it better than WizCommerce?",
-   "a": "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and work the order out of it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order out of a kitchen that will not use an order form, we think VOS is better. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: we do none of it and are not building any of it."
+   "a": "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and reconstruct the order from it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order from a busy kitchen that skips forms, we would back VOS. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: none of that is ours, and none of it is being built."
   }
  },
  "rekki-alternative": {
@@ -272,7 +272,7 @@
    ],
    "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
    "q": "Is VOS a Fresho alternative, and is it better than Fresho?",
-   "a": "Much smaller, deliberately, and we would rather you heard it from us. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, we think VOS is the better buy. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all: we do none of them and are not going to. If that is what you need the software to be, theirs is a serious answer."
+   "a": "Much smaller, deliberately, and you should hear that from us rather than later. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, VOS wins that one. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all, and none of it is planned. If that is what you need the software to be, theirs is a serious answer."
   }
  }
 }

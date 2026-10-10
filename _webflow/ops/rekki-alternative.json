@@ -45,7 +45,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8cc",
-   "REKKI publishes theirs, which is more than most vendors will do. It is also an admission worth pausing on: a number exists because a machine is working out what the order said. They stand behind it with double checks and a refund guarantee. VOS publishes no such number because the account picks from its own guide and reads the lines before sending."
+   "REKKI publishes theirs, which is more than most vendors will do. It is also an admission worth pausing on: a number exists because a machine is working out what the order said. They stand behind it with double checks and a refund guarantee. VOS publishes no such number because the lines are the account's own items and the buyer reads them before sending."
   ],
   [
    "bacfcf90-d337-55e1-9a02-49b2f6962e16",
@@ -277,7 +277,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a179",
-   "In VOS the account builds the lines from its own guide and signs them off. REKKI reads orders out of whatever your customers send and reports how often that goes right, so a REKKI alternative is a question about whether anything has to interpret it. Read the table for where each one is measured."
+   "In VOS the account assembles its own order and signs it off. REKKI reads orders out of whatever your customers send and reports how often that goes right, so a REKKI alternative is a question about whether anything has to interpret it. Read the table for where each one is measured."
   ],
   [
    "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
@@ -369,7 +369,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
-   "Nothing at all, and that is a real difference rather than a slogan. Their site says your team trains the robot on your business, which is fair and is why the accuracy is theirs to claim. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
+   "Nothing at all, and that is a real difference rather than a slogan. They are open that the training is yours to do, which is fair. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
   ],
   [
    "0f73d180-08e9-596f-f264-a95de40f9593",
@@ -593,7 +593,7 @@
   },
   {
    "q": "How much do we have to train it?",
-   "a": "Nothing at all, and that is a real difference rather than a slogan. Their site says your team trains the robot on your business, which is fair and is why the accuracy is theirs to claim. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
+   "a": "Nothing at all, and that is a real difference rather than a slogan. They are open that the training is yours to do, which is fair. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
   },
   {
    "q": "Some of our customers already use the REKKI app. What happens?",
@@ -647,7 +647,7 @@
       "name": "How much do we have to train it?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Nothing at all, and that is a real difference rather than a slogan. Their site says your team trains the robot on your business, which is fair and is why the accuracy is theirs to claim. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
+       "text": "Nothing at all, and that is a real difference rather than a slogan. They are open that the training is yours to do, which is fair. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
       }
      },
      {

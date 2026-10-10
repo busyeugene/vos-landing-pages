@@ -221,7 +221,7 @@
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
-   "See one arrive already in lines"
+   "See what lands on the desk"
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b8",
@@ -345,7 +345,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
-   "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and work the order out of it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order out of a kitchen that will not use an order form, we think VOS is better. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: we do none of it and are not building any of it."
+   "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and reconstruct the order from it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order from a busy kitchen that skips forms, we would back VOS. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: none of that is ours, and none of it is being built."
   ],
   [
    "ad9f0390-a776-7031-a95b-984cd1988c9e",
@@ -415,7 +415,7 @@
   ],
   [
    "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0",
-   "<div class=\"uui-text-size-medium-21\">Your own systems</div>"
+   "<div class=\"uui-text-size-medium-21\">However you quote today</div>"
   ],
   [
    "55af8715-1c0d-7742-fde4-496073314315",
@@ -439,7 +439,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a212",
-   "<div class=\"uui-text-size-medium-21\">Your own systems</div>"
+   "<div class=\"uui-text-size-medium-21\">Your CRM and your processor</div>"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a21c",
@@ -447,7 +447,7 @@
   ],
   [
    "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
-   "<div class=\"uui-text-size-medium-21\">The ordering step</div>"
+   "<div class=\"uui-text-size-medium-21\">One step at the front</div>"
   ],
   [
    "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
@@ -549,7 +549,7 @@
  "faq": [
   {
    "q": "Is VOS a WizCommerce alternative, and is it better than WizCommerce?",
-   "a": "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and work the order out of it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order out of a kitchen that will not use an order form, we think VOS is better. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: we do none of it and are not building any of it."
+   "a": "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and reconstruct the order from it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order from a busy kitchen that skips forms, we would back VOS. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: none of that is ours, and none of it is being built."
   },
   {
    "q": "Do they not handle voice already?",
@@ -591,7 +591,7 @@
       "name": "Is VOS a WizCommerce alternative, and is it better than WizCommerce?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and work the order out of it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order out of a kitchen that will not use an order form, we think VOS is better. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: we do none of it and are not building any of it."
+       "text": "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and reconstruct the order from it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order from a busy kitchen that skips forms, we would back VOS. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: none of that is ours, and none of it is being built."
       }
      },
      {

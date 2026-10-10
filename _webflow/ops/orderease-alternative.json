@@ -345,7 +345,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
-   "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At lifting an order out of a kitchen with nobody typing, we think VOS is better. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: we do none of those. If that is the job, buy theirs."
+   "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At getting a kitchen's order in with nobody typing, VOS is the stronger answer. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: those are not ours to do. If that is the job, buy theirs."
   ],
   [
    "ad9f0390-a776-7031-a95b-984cd1988c9e",
@@ -435,7 +435,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a212",
-   "<div class=\"uui-text-size-medium-21\">Your own systems</div>"
+   "<div class=\"uui-text-size-medium-21\">Your warehouse system</div>"
   ],
   [
    "d455c100-948c-a407-3bda-fdc0a7afb797",
@@ -545,7 +545,7 @@
  "faq": [
   {
    "q": "Is VOS an OrderEase alternative, and is it better than OrderEase?",
-   "a": "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At lifting an order out of a kitchen with nobody typing, we think VOS is better. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: we do none of those. If that is the job, buy theirs."
+   "a": "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At getting a kitchen's order in with nobody typing, VOS is the stronger answer. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: those are not ours to do. If that is the job, buy theirs."
   },
   {
    "q": "We get a lot of emailed POs. Does VOS read those?",
@@ -587,7 +587,7 @@
       "name": "Is VOS an OrderEase alternative, and is it better than OrderEase?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At lifting an order out of a kitchen with nobody typing, we think VOS is better. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: we do none of those. If that is the job, buy theirs."
+       "text": "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At getting a kitchen's order in with nobody typing, VOS is the stronger answer. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: those are not ours to do. If that is the job, buy theirs."
       }
      },
      {
