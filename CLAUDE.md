@@ -64,6 +64,9 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 | `vos-cut-dry-alternative-landing.html` | cut+dry alternative | `/cut-dry-alternative` | Compared |
 | `vos-bluecart-alternative-landing.html` | bluecart alternative | `/bluecart-alternative` | Compared |
 | `vos-necs-entree-alternative-landing.html` | necs entree alternative | `/necs-entree-alternative` | Compared |
+| `vos-pepperi-alternative-landing.html` | pepperi alternative | `/pepperi-alternative` | Compared |
+| `vos-orderease-alternative-landing.html` | orderease alternative | `/orderease-alternative` | Compared |
+| `vos-wizcommerce-alternative-landing.html` | wizcommerce alternative | `/wizcommerce-alternative` | Compared |
 
 > Pillar page (`index.html`) groups cards by cluster and links to every feature page. Add a card to it whenever a new page ships.
 
@@ -272,7 +275,7 @@ page's angle, live in `_build/research/competitors/`.**
 ## Competitor comparison pages (`compare` cluster, opened 2026-10-10)
 
 ### ▶ RESUME HERE
-**7 of 12 built, gated and pushed. 5 to go.** Everything below is current as of 2026-10-10.
+**10 of 12 built, gated and pushed. 2 to go, and both need Eugene first.** Current as of 2026-10-10.
 
 | # | Slug | Competitor | Angle (never reuse another page's) | State |
 |---|---|---|---|---|
@@ -283,9 +286,9 @@ page's angle, live in `_build/research/competitors/`.**
 | 5 | `/cut-dry-alternative` | Cut+Dry | Three-sided network: who else is in the room when your customer orders | repo |
 | 6 | `/bluecart-alternative` | BlueCart | A marketplace that grades your prices; whose shelf is it | repo |
 | 7 | `/necs-entree-alternative` | Entree | Argues against its own keyword: keep the ERP, change the order | repo |
-| 8 | `/pepperi-alternative` | Pepperi | **not started** — B2B/retail execution built for CPG reps | — |
-| 9 | `/orderease-alternative` | OrderEase | **not started** — horizontal B2B order hub, not food native | — |
-| 10 | `/wizcommerce-alternative` | WizCommerce | **not started** — AI B2B order taking for wholesale | — |
+| 8 | `/pepperi-alternative` | Pepperi | Its centre of gravity is **the visit**: routes, van sales, store audits, merchandisers. VOS is the reorder nobody attends | repo |
+| 9 | `/orderease-alternative` | OrderEase | They orchestrate every order channel; VOS removes the one that makes the most work | repo |
+| 10 | `/wizcommerce-alternative` | WizCommerce | Whether an **interpretation step exists at all**: read back from an artifact, or authored as lines | repo |
 | 11 | `/rekki-alternative` | REKKI | **not started** — ⚠ see below | — |
 | 12 | `/fresho-alternative` | Fresho | **not started** — ⚠ see below | — |
 
@@ -397,6 +400,61 @@ it must not claim distributors **"switch from"** the competitor. Both negative-t
    `phrasecheck.js <slug> "..." "..."` (about 10 per call, roughly a third come back colliding),
    apply, re-measure. **Steady state is ~16-30 rewordings per page.**
 7. Read the outline before calling it done. Rewording breaks grammar and no gate sees it.
+
+### Lessons from pages 8 to 10 (Pepperi, OrderEase, WizCommerce, 2026-10-10)
+- **`trigram.js` had a latent crash, now fixed.** A trigram that is VOS-side on EVERY page it
+  appears on is never added to `df` (compare-sections.js skips it), so `df.get(g)` returned
+  undefined and `.length` threw. It only fires when a new compare page introduces VOS-side wording
+  that exists nowhere else, which is why seven pages never hit it. All reads now go through
+  `dfOf(g)`, where a missing entry means "measured on no pages", exactly what the exemption
+  intends. If you add a gate that reads `df`, use `dfOf`.
+- **"Pricing is parity" is NOT universal.** OrderEase publishes a starting price and says there is
+  no free tier; VOS publishes nothing. So on that page pricing is a row OrderEase **wins**, and the
+  page concedes it. Check each competitor's pricing page rather than assuming quote-only.
+  **Keep the figure off the page**: a published price goes stale and a stale number is the one
+  thing a fact-checking buyer catches. Say they publish a starting price, let the sourcing FAQ
+  carry the date, and never pair it with anything implying a VOS price.
+- **The "they type, we speak" argument is dead on arrival for some competitors.** WizCommerce's AI
+  reads "emails, PDFs, spreadsheets, scans, **voice notes**, and handwritten documents". Third
+  instance of the same class of near-miss after NECS Entree and GrubMarket. **Grep the
+  competitor's own feature list for "voice" before building any page on it.** The honest axis there
+  was whether an interpretation step exists at all, not the input method.
+- **Check the competitor's industry pages before writing "not food native".** WizCommerce has a
+  real Food & Beverage page (promotions, multi-warehouse, route-level stock, UOM pricing) and food
+  customers. OrderEase lists food as 1 of 8 industries, which is breadth, not absence: write it as
+  breadth or it is simply false.
+- **A competitor's own anti-narrow-tool argument has to be answered, not dodged.** OrderEase's site
+  says "OrderEase covers the whole order path, not one piece of it" over a grid where narrow tools
+  lose. VOS **is** one piece, deliberately. The page meets it directly; pretending they never made
+  the argument is what a buyer reading both pages would catch.
+- **Writing all three pages before the dedupe loop was cheaper than one at a time.** Registering
+  all three slugs up front breaks `trigram.js` until every file exists (it reads every registry
+  page), but one central dedupe pass across the batch beat three sequential loops: 55 cross-page
+  trigrams and 24 within-page repeats cleared in three rounds.
+- **Rewriting the shared slots DIFFERENTLY per page fixes the trigrams and the proposition
+  sameness in one pass.** The collisions clustered in exactly the slots copied from a sibling:
+  comparison lead, problem H2 and lead, FAQ section H2, FAQ 1, the setup FAQ, the sourcing FAQ and
+  coexistence card 3. Those are the same slots the October reviewers meant by "the pages read as
+  one page", so treat a cluster of collisions there as an editorial signal, not a gate chore.
+- **These three carry 0 within-page trigram repeats.** The shipped compare pages carry 17
+  (necs-entree), 17 (cut-dry), 11 (bluecart) and 4 (grubmarket). That debt is still open and
+  `where.js <slug>` lists it.
+- **Read the outline, every time.** On top of the usual broken grammar, the dedupe rewrites
+  introduced two dangling pronouns ("Three of those..." after the antecedent was reworded away),
+  three comma splices, one incomplete sentence, a British idiom ("call round"), British register
+  ("tidies") and two British spellings ("unrecognised"). No gate saw any of it.
+- **Sweep British spellings WITHOUT a leading word-boundary anchor.** A pattern anchored to the
+  start of a word misses "un**recognis**ed", and the prefixed forms are the ones that survive.
+  Match the stem alone (`recognis`, `organis`, `realis`) and eyeball the hits, because
+  `specialists` and `realistic` are correct US English. The sweep also turned up four
+  pre-existing ones in this cluster: `licence` x2 (necs-entree), `labelled` (bluecart), `programme`
+  (burnt-ai), all now fixed.
+- **`template.js` accepts only `voice|speak|say|talk` plus "app" in a distributor hero lead.**
+  "A buyer **dictates** the order in the app" fails. It does not require the literal "VOS app",
+  so "into the app" is fine when the dedupe gate wants "the VOS app" gone.
+- **`apply.js` `@row` rewrites EVERY cell**, so read the row first. Guessing the other two cells
+  nearly overwrote BlueCart's "Pricing Insights grades value" with invented copy. For a one-word
+  change use a plain text swap.
 
 ### Recurring gotchas, every one of which has bitten
 - **kwaudit wants the primary in a FAQ ANSWER too**, not just a question: "2 headings, 2 body, in
