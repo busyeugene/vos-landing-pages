@@ -57,6 +57,13 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 | `vos-wholesale-operations-landing.html` | wholesale operations software | `/wholesale-operations-software` | Distribution |
 | `vos-distribution-automation-landing.html` | distribution automation software | `/distribution-automation-software` | Distribution |
 | `vos-distribution-workflow-landing.html` | distribution workflow software | `/distribution-workflow-software` | Distribution |
+| `vos-pepper-alternative-landing.html` | pepper alternative | `/pepper-alternative` | Compared |
+| `vos-choco-alternative-landing.html` | choco alternative | `/choco-alternative` | Compared |
+| `vos-burnt-ai-alternative-landing.html` | burnt ai alternative | `/burnt-ai-alternative` | Compared |
+| `vos-grubmarket-ai-alternative-landing.html` | grubmarket ai alternative | `/grubmarket-ai-alternative` | Compared |
+| `vos-cut-dry-alternative-landing.html` | cut+dry alternative | `/cut-dry-alternative` | Compared |
+| `vos-bluecart-alternative-landing.html` | bluecart alternative | `/bluecart-alternative` | Compared |
+| `vos-necs-entree-alternative-landing.html` | necs entree alternative | `/necs-entree-alternative` | Compared |
 
 > Pillar page (`index.html`) groups cards by cluster and links to every feature page. Add a card to it whenever a new page ships.
 
@@ -235,7 +242,7 @@ node gen-site.js       # regenerate vercel.json, index.html cards, sitemap.xml, 
 node gen-csv.js        # export metas, H1s, keywords to vos-page-metadata.csv
 node qa.js             # QA gate: 0 failures AND 0 warnings before pushing
 node kwaudit.js        # keyword placement: 2 headings, 2 body, FAQ question + a different answer, meta; 0 issues
-node template.js       # 16-section template conformance; 0 fails
+node template.js       # template conformance, both variants (16-section and `compare`); 0 fails
 node claims.js         # claim-rule scan: no ✗ lines; read the ? lines in context
 node structure.js      # tag balance + one h1 per page
 node trigram.js        # 3-word repetition: 0 within a page; `--cross 3` must list nothing (fixed facts allow-listed)
@@ -247,97 +254,194 @@ node where.js <slug>        # sentences behind each within-page trigram repeat
 node phrasecheck.js <slug> "candidate copy"   # BEFORE writing: would this wording break --cross 3?
 ```
 
-Competitor research digests for every primary keyword (Sep 2026 review) live in `_build/research/digests/`.
+Three modules the gates REQUIRE, and which have no CLI of their own:
+```
+_build/allowlist.js        # cross-page trigram allow-list, shared by trigram.js and phrasecheck.js
+_build/compare-sections.js # which parts of a compare page are VOS copy vs the argument
+_build/names.js            # whole-word competitor matching, no regex (a name can contain "+")
+```
+Read the comment at the top of each before touching a gate: each exists because of a specific
+bug, and the comment names it.
+
+Competitor research digests for every primary keyword (Sep 2026 review) live in
+`_build/research/digests/`. **Per-competitor digests for the comparison pages, dated and with the
+page's angle, live in `_build/research/competitors/`.**
 
 `_build/registry.js` is the source of truth for every page. See `_build/README.md` for how to add a page.
 
 ## Competitor comparison pages (`compare` cluster, opened 2026-10-10)
+
+### ▶ RESUME HERE
+**7 of 12 built, gated and pushed. 5 to go.** Everything below is current as of 2026-10-10.
+
+| # | Slug | Competitor | Angle (never reuse another page's) | State |
+|---|---|---|---|---|
+| 1 | `/pepper-alternative` | Pepper | Rollout length: their published 35-90 days vs 24-48 hours | repo + **Webflow draft** |
+| 2 | `/choco-alternative` | Choco | They sell growth (storefront, CRM, bigger baskets); we sell a clean order | repo |
+| 3 | `/burnt-ai-alternative` | Burnt | Agents across the back office; who stays in the loop; on-site onboarding | repo |
+| 4 | `/grubmarket-ai-alternative` | GrubMarket | Both are voice. Whose hands the microphone is in | repo |
+| 5 | `/cut-dry-alternative` | Cut+Dry | Three-sided network: who else is in the room when your customer orders | repo |
+| 6 | `/bluecart-alternative` | BlueCart | A marketplace that grades your prices; whose shelf is it | repo |
+| 7 | `/necs-entree-alternative` | Entree | Argues against its own keyword: keep the ERP, change the order | repo |
+| 8 | `/pepperi-alternative` | Pepperi | **not started** — B2B/retail execution built for CPG reps | — |
+| 9 | `/orderease-alternative` | OrderEase | **not started** — horizontal B2B order hub, not food native | — |
+| 10 | `/wizcommerce-alternative` | WizCommerce | **not started** — AI B2B order taking for wholesale | — |
+| 11 | `/rekki-alternative` | REKKI | **not started** — ⚠ see below | — |
+| 12 | `/fresho-alternative` | Fresho | **not started** — ⚠ see below | — |
+
+⚠ **REKKI and Fresho are the hard two and were left last on purpose.** They are supplier ordering
+apps, the same SHAPE as VOS, not platforms. "A layer, not a platform" does not apply to them, and
+neither does "you are buying a growth engine". They need a genuinely different argument, most
+likely about whose app it is and whose catalog it runs on. **Work that out with Eugene before
+writing them** rather than inventing it.
+
+**After all twelve, in this order:**
+1. Re-point all twelve related strips at each other (they currently point at feature pages because
+   no siblings existed early on), then re-run `template.js`, which checks 3 same-audience cards.
+2. The three verification passes Eugene asked for: competitor facts, VOS facts and the distributor
+   tie, then logic/flow/repetition. See "The three verification passes" at the end of this section.
+3. The hub page (one card per comparison, plus the table and CTAs reused), then a `/solutions` card
+   for each, then the Webflow ports.
+
+### The batch
 Twelve `<competitor> alternative` pages from the **October** Airtable batch (base
 `appyUSl7qCyguvABD`, table `Content plan`, product `rec10EFwKwaOcCpK7`, `Asset type = Landing page`,
-`Status = Planned`). Each row already carries the primary keyword, four secondaries, a meta title, a
+`Status = Planned`). Each row carries the primary keyword, four secondaries, a meta title, a
 5-point outline and the competitor's homepage. **November holds 8 more** (apicbase, craftable,
-marginedge, marketman, orderly, restaurant365, wisk, xtrachef), so do not treat the plan as 12 total.
+marginedge, marketman, orderly, restaurant365, wisk, xtrachef), so the plan is not 12 in total.
 
-**The twelve (October):** pepper, choco, cut+dry, burnt ai, bluecart, fresho, grubmarket ai,
-necs entree, orderease, pepperi, rekki, wizcommerce. **Pepper shipped first as the pattern.**
-
-**Decisions Eugene made 2026-10-10, apply to all twelve:**
-- **Slug = the primary keyword** (`/pepper-alternative`), like every other page on the site, not
-  SimplyDepo's `/x-vs-y` shape. "VoiceOrder Solutions vs <competitor>" is the comparison H2 and the
-  footer anchor, so one page serves both searches. (SimplyDepo did the same thing: their H1 is
-  "Repsly Alternative"; only their URL says vs.)
-- **Repo first, then port.** The gates are the reason: on page 1 they caught a meta description
-  missing "most", a keyword a heading short, and 77 cross-page trigrams.
-- **Block order is the `compare` variant**, not the 16-section feature template.
+**Decisions Eugene made 2026-10-10, applying to all twelve:**
+- **Slug = the primary keyword**, like every other page on the site, not SimplyDepo's `/x-vs-y`.
+  "VoiceOrder Solutions vs <competitor>" is the comparison H2 and the footer anchor, so one page
+  serves both searches. SimplyDepo did the same: their H1 is "Repsly Alternative", only their URL
+  says vs. **`cut+dry` resolved:** a `+` cannot go in a URL and the client's own live blog post is
+  at `/blog/cut-dry-alternatives`, so the slug is `/cut-dry-alternative`.
+- **Repo first, then port.** The gates are the reason.
+- **The comparison table carries two value columns only**, VOS and the competitor, no third option.
+- **Stats sit immediately after the hero**, then the table.
 
 ### The `compare` block order (registry `kind: 'compare'`)
-`navbar, hero, logos, split, comparison, midcta, whatis, features, stats, cards, midcta, steps,
-testimonials, integrations, faq, related, finalcta, footer`
+`navbar, hero, logos, stats, comparison, problem, features, steps, testimonials, integrations,
+cards, midcta, faq, related, finalcta, footer`
 
-The comparison table moves to **section 5**, because that is what a comparison searcher came for,
-and the **mid-CTA block repeats**. Two blocks are new but use **only existing classes, so there is
-no new CSS**:
-- **`split`** (`id="split"`), a with/without 2-col built from one `.feature-row` (it is already
-  `1fr 1fr`) with a `.feature-bullets` list in each column. Needs an eyebrow, an h2 and exactly 2 h3s.
-- **`whatis`** (`id="what-is-*"`), a short factual explainer of the competitor. Needs an h2 and an h3.
+No new CSS and no new blocks: every section is an existing one, repointed.
+- **`problem`** (3 cards) is "Why teams look for an alternative to X".
+- **`cards`** (3 cards) is "When VOS and X work together", and its eyebrow is NOT "Also Built In"
+  on a compare page. There is no "Also Built In" section; the coexistence section replaced it.
+- The comparison table is 3 columns x 9 rows.
 
-`template.js` knows the variant and adds three checks: a compare page must name its `competitor`
-(a new registry field) in the `whatis` section, **every** mid-CTA is checked rather than only the
-first, and the two mid-CTA headings must differ.
+`template.js` knows the variant and adds three checks beyond the feature-page ones: the page must
+name its `competitor` (a registry field) in **both** the problem and the coexistence sections, and
+it must not claim distributors **"switch from"** the competitor. Both negative-tested.
 
 ### Writing one of these honestly
-- **Research the competitor live and date it.** Digests live in `_build/research/competitors/<slug>.md`.
-  The entries in `E:\Claude projects\Writing\Clients\VOS\_system\competitors.md` are dated
-  2026-07 and are past their own 60-day window, so they are a baseline, not a source.
-- **Cite the competitor's own published words**, and say on the page where and when they were read
-  ("read off usepepper.com on 10 October 2026"). Pepper's own `/post/how-long-does-it-take-to-implement-pepper`
-  gives "35 to 90 days", which is the strongest honest contrast with VOS's 24 to 48 hours.
-- **Never repeat a competitor's unaudited marketing numbers** (Pepper's "500+ distributors",
-  "3x sales"). Describe the model, quote only what is checkable.
-- **Pricing is parity.** Every one of these competitors is quote-based and so is VOS, so never fault
-  them for quote-only pricing in terms VOS would fail. One fair row: "On request" both sides.
-- **Give the competitor real ✓ marks.** Pepper has 3 on the Pepper page. A table where the
-  competitor loses every row reads as marketing and invites a fact-check.
-- **Turn VOS's narrowness into the sell, do not hide it.** "Pepper is a platform you move onto; VOS
-  is a layer you add beside what you run today" says VOS is smaller and makes that the reason to
-  buy. The page says plainly "VOS is not a full Pepper replacement, and it does not try to be."
-- **Competitors run these pages too.** Pepper has `/compare/pepper-vs-bluecart`, `-cut-dry`,
-  `-grubmarket`, `-ziizii`, three of which are in our twelve. They cite no source or date for a
-  single competitor claim; ours do, which is the differentiator if a buyer reads both.
+- **Research the competitor live and date it.** Digests live in
+  `_build/research/competitors/<slug>.md`. The entries in
+  `E:\Claude projects\Writing\Clients\VOS\_system\competitors.md` are from 2026-07, past their own
+  60-day window: a baseline, not a source. Several competitors had changed materially.
+- **Say on the page where the facts came from and when.** Every page carries a sourcing FAQ
+  ("Where do the X details on this page come from?") naming the site and the date. Competitors
+  running their own comparison pages cite nothing; this is the differentiator if a buyer reads both.
+- **Never repeat a competitor's unaudited marketing numbers.** Describe the model, quote only what
+  is checkable.
+- **Pricing is parity.** All seven researched so far are quote-based, as is VOS. Never fault them
+  for quote-only pricing in terms VOS would fail.
+- **Give the competitor real wins, and put the biggest one first.** Cut+Dry takes five rows,
+  Entree takes the first four, BlueCart's first row is "finds you restaurants you do not supply".
+  A table where the other column loses everything reads as marketing and invites a fact-check.
+- **Check what the competitor actually does before building an argument on an absence.** The NECS
+  Entree page nearly shipped claiming they had no customer ordering; they have three such modules.
+  The GrubMarket page nearly shipped on "your software vendor is also a distributor", which their
+  own site does not support. Both digests record the check so nobody re-derives the wrong thing.
+- **"Compare", never "switch from".** There is no evidence of distributors leaving any named
+  competitor, and `template.js` fails the page if it claims otherwise. SimplyDepo's own page says
+  "Why teams compare Repsly alternatives" for the same reason.
+- **The coexistence section must stay inside what is verifiable.** VOS being additive is published.
+  Never imply a partnership, an integration or joint support with the competitor.
 
-### What bit on page 1
-- **The dedupe loop is the whole cost.** A comparison page restates every canonical VOS fact, so it
-  collides with all 26 existing pages: **77 cross-page trigrams, cleared over four rounds
-  (77 -> 43 -> 5 -> 0)** plus ~12 in-page repeats. **Measure the baseline first** (temporarily drop
-  the slug from `registry.js` and run `trigram.js --cross 3`): it was 0, which proved all 77 were
-  the new page's. Batch candidate wordings through `phrasecheck.js` **before** writing, about 10 per
-  call; roughly a third come back colliding.
-- **Setup-time mentions run away on this page type**, because speed is the argument. The first draft
-  had **10** against a house norm of 4 to 6. Keep four, each worded differently: hero lead
-  "24 to 48 hours", the `24-48 Hrs` stat, the comparison row "24-48 hours for most", one FAQ
-  "a day or two".
-- **Rewording for the dedupe gate breaks grammar.** The verification read found "The app lists it out
-  as a list", a dangling "priced the way you set it", "the guides each kitchen buys from today"
-  (reads as "from today onward") and a "Will VOS replace...?" answered "It does not." **Always read
-  the outline after a reword round**; no gate sees any of these.
-- **A `` written into a JS gate through a Python heredoc becomes a backspace, not a word
-  boundary**, so the new competitor check passed nothing and failed everything. Same family as the
-  Writing repo's `brand_shorthand` bug. The fix was to drop backslashes entirely:
-  `new RegExp('(^|[^A-Za-z])' + name + '([^A-Za-z]|$)')`, negative-tested both ways (matches
-  "Pepper", rejects "Pepperi"). **Also: `io.open(...).write()` without closing the handle silently
-  did not land**, and the next grep showed the old bytes. Use `with`, then read the file back.
+### The gate architecture for this cluster (three new files, read these before editing a gate)
+- **`_build/allowlist.js`** — the cross-page trigram allow-list, required by BOTH `trigram.js` and
+  `phrasecheck.js` so the two cannot drift. Holds the original fixed facts plus the canonical VOS
+  product statements and the sitewide final-CTA trust line. Keep it tight: anything in here stops
+  being measured.
+- **`_build/compare-sections.js`** — the structural rule that makes this batch affordable. On a
+  compare page the VOS-side sections (features, setup, stats, testimonials, final CTA) are the same
+  product described twelve times, so a trigram found ONLY there is excluded from the CROSS-page
+  count. FAQ items and comparison rows are classified one by one: **an item that never names the
+  competitor counts as VOS copy**. The rule is self-enforcing, because wanting a sentence measured
+  means naming who it is about. **`.problem-card` and `.feature-card` are deliberately NOT exempt**,
+  because they carry the argument and twelve pages making the same one is the proposition sameness
+  the October reviewers caught by hand. Nothing is ever exempt WITHIN a page.
+- **`_build/names.js`** — whole-word name matching with no regex and no backslashes. Exists because
+  **a competitor name can contain regex metacharacters**: `Cut+Dry` compiled into a RegExp makes the
+  `+` mean "one or more t", so the template and claims checks silently matched "Cuttttdry" and
+  missed the real name. Unit-tested: matches "on Cut+Dry today" and "with BlueCart.", rejects
+  "Cuttttdry", does not match "Pepper" inside "Pepperi".
+- **`claims.js` exempts the page's own `competitor`** from the named-integrations ban, and only that
+  rule. The ban list includes Choco, BlueCart, Entree, Restaurant365 and MarketMan, so without this
+  a correct Choco page raised 28 bans. Negative-tested: the Choco page may say "Choco" and still
+  bans "NetSuite".
+- **`trigram.js` and `phrasecheck.js` also strip `.feature-link` labels**, as they already did
+  button labels. A link label is navigation, not prose.
+
+### The per-page build recipe
+1. Research live, write `_build/research/competitors/<slug>.md` with the date and the angle.
+2. Add the `registry.js` entry (`kind: 'compare'`, `competitor`, `cluster: 'compare'`) and the
+   `keywords.js` entry.
+3. Write `_build/pages/<slug>.js`. Copy the VOS-side sections from a sibling verbatim: they are
+   meant to be identical and the gate now knows it.
+4. `node build.js <slug> && node gen-site.js`
+5. Gates: `structure.js`, `template.js`, `kwaudit.js`, `qa.js`, `claims.js`, then the dedupe loop
+   (`trigram.js --cross 3`, `where.js <slug>`), then `python layout.py <slug>`.
+6. Dedupe: map each collision to its sentence, batch candidate rewordings through
+   `phrasecheck.js <slug> "..." "..."` (about 10 per call, roughly a third come back colliding),
+   apply, re-measure. **Steady state is ~16-30 rewordings per page.**
+7. Read the outline before calling it done. Rewording breaks grammar and no gate sees it.
+
+### Recurring gotchas, every one of which has bitten
+- **kwaudit wants the primary in a FAQ ANSWER too**, not just a question: "2 headings, 2 body, in
+  >=1 FAQ question AND in a DIFFERENT FAQ answer". Three pages needed a fix for exactly this.
+- **A secondary must appear with the full brand**, e.g. "necs entree replacement", not "Entree
+  replacement".
+- **Fixing a keyword count by extending the hero lead breaks the ~50 word cap.** Put the extra
+  instance in a section lead instead.
+- **A shell heredoc collapses double backslashes before Python sees them**, so a pattern written as
+  `\\b` arrives as a backspace. Write replacements with no backslashes at all, or they silently
+  fail to match. This has caused three separate bugs now.
+- **Page source wraps mid-sentence**, so exact-string replacement misses roughly a third of targets.
+  Join the search words with `\s+` and it always hits.
+- **`io.open(...).write()` without closing the handle can silently not land.** Use `with`, then read
+  the file back and assert.
+- **A failed assertion in a chained heredoc does not reliably stop the `&&` chain**, so stale gate
+  output can read as success. Check the output, not the exit code.
+- **Spell a competitor the way the registry does.** "entrée" with the accent is not masked by an
+  exemption keyed on "Entree".
+- **`<tfoot>` closed with `</tbody>`** slipped through authoring once; `structure.js` catches it.
 
 ### Open on this batch
-- **8 of the 12 competitors are outside the client-approved set.** The VOS knowledge base §7 approves
-  only **Pepper, Choco, Cut+Dry, Burnt**. BlueCart, Fresho, GrubMarket AI, NECS Entree, OrderEase,
-  Pepperi, REKKI and WizCommerce come only from the Airtable plan, which is being treated as
-  approval. Confirm with Eugene.
-- **The related strips point at feature pages** (order-taking, wholesale-ordering, b2b-portal) because
-  no compare siblings existed when Pepper shipped. **Re-point all twelve at each other** once the
-  batch is built, then re-run `template.js` (it checks 3 same-audience cards).
-- **`cut+dry` needs a slug ruling:** the `+` cannot go in a URL. Their domain is cutanddry.com.
-- The hub page (one card per comparison, plus a reused table and CTAs) and the `/solutions` card come
-  after the twelve.
+- **8 of the 12 competitors are outside the client-approved set.** The VOS knowledge base §7
+  approves only **Pepper, Choco, Cut+Dry, Burnt**. BlueCart, Fresho, GrubMarket AI, NECS Entree,
+  OrderEase, Pepperi, REKKI and WizCommerce come only from the Airtable plan, which is being
+  treated as approval. **Still unconfirmed with Eugene.**
+- **Three competitors already have live blog posts targeting the plural** (`/blog/pepper-alternatives`,
+  `/blog/choco-alternatives`, `/blog/cut-dry-alternatives`). Recommendation given, not yet actioned:
+  keep both and cross-link them, keeping the landing page head-to-head rather than a listicle.
+- **The Pepper Webflow draft is one schema push behind** its latest FAQ answers, and has never been
+  looked at rendered. Both are one action each.
+
+### The three verification passes (Eugene's ask, to run after all twelve)
+1. **Competitor facts.** Every competitor claim must trace to a dated line in its digest, and each
+   digest gets re-pulled live at review time. The mechanical half does not exist yet: a gate that
+   extracts competitor-attributed sentences and fails any with no source line. The human half is a
+   fact-checker per page with the competitor's site open and no prior context.
+2. **VOS facts and the distributor tie.** `claims.js` at 0 bans, plus grepping the knowledge base's
+   own wording against the built pages rather than trusting its log (a claim recorded as fixed was
+   still live on two pages in October). Plus the distributor-ICP rule: "you" is the distributor,
+   never a restaurant-side usage scene, never "hands-free", never "nothing to mishear".
+3. **Logic, flow and repetition.** `trigram.js` and `repeat.js` cover phrasing. The third layer is
+   the one no gate sees: a side-by-side grid of all twelve pages' feature-row H3s, card H4s,
+   problem-card H4s and comparison row labels, read as a table. That is what caught batch 4's
+   "the pages read as one page" while every gate was green.
 
 ## Webflow port (`_webflow/`)
 The client's live site is Webflow, and the batch-4 pages were ported there as **drafts** on
