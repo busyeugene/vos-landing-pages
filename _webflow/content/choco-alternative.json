@@ -1,0 +1,334 @@
+{
+ "slug": "choco-alternative",
+ "meta_title": "Choco Alternative for Food Distributors in 2026",
+ "meta_desc": "Your accounts speak each order into an app and approve every line. See how this Choco alternative covers ordering and leaves the rest alone.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "The Choco Alternative Your Kitchens Talk To.",
+  "lead": "VOS is a Choco alternative with a narrower job. Your accounts say an order into the app, approve each line, then send. It reaches your desk numbered and dated, in one of the formats you handle today. No storefront to launch, no CRM to fill in, nothing else to learn.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved on each order that moves off the phone"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Is how long setup runs for most"
+  },
+  {
+   "num": "24/7",
+   "label": "Covers the hours your desk does not"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "Why teams look for an alternative to Choco",
+  "lead": "Choco calls itself an AI platform for food and beverage wholesalers. It digitizes inbound orders, runs an online catalog that recommends items, and carries a sales hub and a foodservice CRM. None of that is a flaw. It is just a bigger purchase than some buyers want, and here is where a Choco competitor gets a second look.",
+  "cards": [
+   {
+    "h3": "You came for order taking, not a growth engine",
+    "body": "Choco leads on selling more: a catalog that suggests extra lines, rep tooling, bigger baskets. Worth paying for if growth is the project. If the actual complaint is that two people spend every morning on the phone, most of that spend sits idle."
+   },
+   {
+    "h3": "Built for everyone is not built for you",
+    "body": "Choco says it wants to serve distributors of every size. We went the other way and picked one end of that range. Small and mid-size independents and DSD operations are the only buyer VOS is shaped around."
+   },
+   {
+    "h3": "A parsed message still gets read by you",
+    "body": "Choco's OrderAgent lifts an order out of a voicemail, a text, even a photo of a handwritten pad, which is a genuinely clever bit of engineering. The catch is the same either way: the person who wrote that note did not see the lines your desk ended up with. Choco does have a free app its restaurant customers order in; this is about the messages that arrive instead."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "What this Choco alternative actually does",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Built by whoever is standing in the cooler",
+    "body": "Your account opens the app, presses to speak, and says what the kitchen is short of. Every item appears as a line with a quantity against it. They scan it, change what needs changing, and only then does it leave.",
+    "bullets": [
+     "Nothing is sent until your customer has looked at the list",
+     "Works from the cooler or the prep bench, at any hour",
+     "Their own phone, iOS or Android, nothing issued",
+     "20 to 30 minutes back against the same order by phone",
+     "Reorders from accounts on the app stop reaching your reps, so that time goes into selling"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order taking works →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "One item list per account, built from yours",
+    "body": "Pass us the guides you keep per customer. We load them against your SKUs at the price you hold for that account, so a spoken item lands on the right row against your own SKU.",
+    "bullets": [
+     "A kitchen only ever sees what it actually buys",
+     "The catalog and the pricing stay yours to set",
+     "Edit a list once and it holds on the orders after",
+     "No browsing, no search, no cart to abandon"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "It arrives however your office likes it",
+    "body": "Nobody has to move desks for this. A finished order goes out as an email with a PDF, Excel or Word file attached, or straight into your ERP over the API, over EDI, or into QuickBooks.",
+    "bullets": [
+     "Addressed to a rep, or to the purchasing desk",
+     "On a direct feed there is no rekeying at your end",
+     "Picking, billing and delivery carry on unchanged",
+     "No part of your stack has to be retired first"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock you can see while the orders arrive",
+    "body": "VOS shows real-time inventory visibility tied to what is being ordered, and the catalog follows the levels as they move. It is not the system of record for stock: yours stays in charge, and a demo walks the connection between them.",
+    "bullets": [
+     "Every line you carry, not only the quick movers",
+     "Fewer stockout surprises on a late, heavy order",
+     "Numbers come out of whatever you count with now",
+     "No counting happens inside VOS"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Not Either Or",
+  "h2": "When VOS and Choco work together",
+  "lead": "VOS is no kind of Choco replacement, and it does not pretend to be. It adds on, so if a storefront is already in place there is nothing to unpick before trying this.",
+  "items": [
+   {
+    "h3": "Let the catalog sell and the voice order",
+    "body": "A storefront that suggests items earns its keep on a buyer who is browsing with time to spare. The reorder at the end of a shift is not that moment. The two jobs can sit together without arguing."
+   },
+   {
+    "h3": "Same account, two different moments",
+    "body": "A chef might click through a catalog on a quiet Tuesday and speak the Friday order standing in the walk-in. Nobody has to pick one way of ordering for good."
+   },
+   {
+    "h3": "Orders land where they already land",
+    "body": "Whatever you add, the order still arrives into the system you nominated, by EDI, API or QuickBooks. Your desk does not acquire a second place to look."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See the narrow version before you buy the wide one",
+  "body": "Twenty minutes. One spoken order, end to end, and the time it gives back on the next one.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Short enough to finish this week",
+  "lead": "There is no data project at the front of this. You send item lists, we set the customers up, and your customers begin sending orders.",
+  "items": [
+   {
+    "h3": "Hand us the item lists",
+    "body": "A spreadsheet is fine. Each account's items and your prices go into a single admin screen, lined up with your SKUs."
+   },
+   {
+    "h3": "We set each customer up",
+    "body": "Each customer gets set up and shown the app. Most have sent something in by the end of the day."
+   },
+   {
+    "h3": "It lands finished",
+    "body": "Approved by the customer, carrying a number and a time, in the shape your system expects."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "VoiceOrder Solutions vs Choco. Narrow on purpose.",
+  "h2_lines": [
+   "VoiceOrder Solutions vs Choco.",
+   "Narrow on purpose."
+  ],
+  "eyebrow": "Head To Head",
+  "lead": "VOS does one job: an account says what it needs and checks each line before it sends. Choco is a growth platform with ordering inside it, which is the whole reason a Choco alternative comes up at all. Choco details here were taken from their own site.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Choco"
+  ],
+  "rows": [
+   {
+    "label": "Your customer approves every line before it sends",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies by channel"
+     }
+    ]
+   },
+   {
+    "label": "Orders captured with no phone call to answer",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Reads a photo of a paper order",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Spoken in instead"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Parks itself next to the systems you have",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Each account has its own list, at your prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Order number and time stamped on arrival",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Time to go live",
+    "cells": [
+     {
+      "t": "text",
+      "v": "24-48 hours for most"
+     },
+     {
+      "t": "text",
+      "v": "No distributor go-live published"
+     }
+    ]
+   },
+   {
+    "label": "Built for your size of operation",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Distributors of all sizes"
+     }
+    ]
+   },
+   {
+    "label": "What you are adding",
+    "cells": [
+     {
+      "t": "text",
+      "v": "The ordering step"
+     },
+     {
+      "t": "text",
+      "v": "Ordering, storefront, sales and CRM"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What buyers ask when they weigh the two",
+  "items": [
+   {
+    "q": "Is VOS a fair Choco alternative, or a smaller tool entirely?",
+    "a": "It is smaller, deliberately. On order capture the two are worth lining up next to each other, and that is the comparison this page makes. On storefronts, sales tooling and CRM, Choco is doing things VOS has never set out to do, and no table we could draw would change that."
+   },
+   {
+    "q": "Is VOS better than Choco?",
+    "a": "At getting an accurate order out of a busy kitchen with nobody keying it in, we would argue yes, mainly because the customer approves the lines rather than software interpreting a message. At growing the average basket with a recommending catalog, no. That is their pitch, and it is a real one."
+   },
+   {
+    "q": "How soon can our accounts start?",
+    "a": "Most distributors are up and running within 24 to 48 hours, and most of their customers send a first order the same day. There is no IT project, which is often the reason a Choco alternative is on the shortlist at all. Choco does not publish a go-live time, so ask them for one rather than take a number from us."
+   },
+   {
+    "q": "Can VOS read a photo of a handwritten order?",
+    "a": "No, and that is a real gap against Choco, whose OrderAgent does exactly that. VOS works the other way round: rather than decode what a kitchen already wrote down, it gives them an app that turns speech into an itemized list they confirm. If reading paper matters more to you than that, say so early and we will tell you so."
+   },
+   {
+    "q": "Does VOS take over from our ERP?",
+    "a": "Never. VOS works at the intake end and hands the order on, itemized and approved. Everything behind that, picking, invoicing, delivery, runs exactly as it does now in the software you already pay for."
+   },
+   {
+    "q": "What does VOS cost next to Choco?",
+    "a": "Both are quoted on the distributor side, and their restaurant app is published as free. Choco's own pricing page says it charges a monthly fee based on usage and asks you to talk to sales; we quote per distributor and publish nothing. So the only honest comparison is two quotes, read together."
+   },
+   {
+    "q": "Will the kitchens need training?",
+    "a": "Very little. Saying what they are short of is not new, and that is the whole interaction. There is no catalog to search and no basket to fill, so the habit lands faster than a storefront usually does."
+   },
+   {
+    "q": "What about the accounts that will only ever telephone?",
+    "a": "Let them telephone. Your desk takes those exactly as it does today. Be clear with yourself about one thing though: a call or a voicemail gets no VOS order number, no timestamp and no stock movement. Only what arrives through the app does."
+   },
+   {
+    "q": "Where do the Choco details on this page come from?",
+    "a": "Choco's own site, read on 10 October 2026: the module names and descriptions off the homepage and the usage-based line off their pricing page. We have not repeated the growth figures they publish, because those are their numbers and not ours to vouch for. If any of it has moved on since, this page is what needs correcting."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Get the phone orders off your morning",
+  "body": "Twenty minutes, one real order, and a clear view of what changes.",
+  "cta": "Book a Free Demo →"
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "slug": "wizcommerce-alternative",
+ "meta_title": "WizCommerce Alternative for Distributors in 2026",
+ "meta_desc": "Your accounts build the order as lines in the app and approve it before sending, so nothing needs reading back. A WizCommerce alternative for distributors.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "A WizCommerce Alternative That Needs No Reading.",
+  "lead": "VOS skips the round trip. The kitchen says what it needs in the app, straight off its own guide, and approves the lines before it sends. WizCommerce's AI reads whatever an account sent you and turns it into an order for your team to check.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Off an order that would have been phoned"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Has most distributors running it"
+  },
+  {
+   "num": "Same Day",
+   "label": "Is the first order for most kitchens"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "Why distributors look for an alternative to WizCommerce",
+  "lead": "Searching for a WizCommerce competitor usually means one of a few quite different things, and only some of them are about reading documents. Three of them recur enough to be worth telling apart.",
+  "cards": [
+   {
+    "h3": "Something inferred still has to be checked",
+    "body": "Their own description includes a final review step for your team before orders reach the ERP, which is the honest way to build it. It does mean the accuracy question stays with you: did it read that right, and did we spot it if not."
+   },
+   {
+    "h3": "The platform arrives with the part you wanted",
+    "body": "Store, CRM, payments, quoting and catalog imagery all come as one product family. They sit in the same product set, so ask what you are actually licensing and what you will realistically open."
+   },
+   {
+    "h3": "Reading the mess is not the same as ending it",
+    "body": "A tool that copes with scraps of paper and voice notes works because the scraps keep coming. Some would rather the kitchen stopped producing them at all, which is a different thing to buy."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "What a WizCommerce alternative does differently",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Spoken into lines, not onto a note",
+    "body": "A chef says what is short and the items appear from that account's guide, already against your codes and your prices. The words become the lines as they are said, so nothing is left over afterwards for anybody to work out.",
+    "bullets": [
+     "The person who placed it approves the list",
+     "Spoken in the cooler or the office, at any hour",
+     "Their own handset, iOS or Android, nothing issued",
+     "20 to 30 minutes back against the same order by phone",
+     "Nobody writes up a reorder from an account on the app, so the reps get that time to sell"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order capture works →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "A short list that can only hold what you sell",
+    "body": "Each account works from the items it actually buys, carrying your codes at the figure you hold for that customer. An order comes back in your own items and codes, because the guide it was built from only holds what you sell that account.",
+    "bullets": [
+     "No unknown items and no codes to match up",
+     "The catalog and the pricing stay yours to set",
+     "Edit a guide once and the next order already has it",
+     "Nobody else is promoting into your customer's list"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "Delivered the way your office already takes it",
+    "body": "The order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. No part of your stack has to move to make room for it.",
+    "bullets": [
+     "Addressed to a named rep, or to the purchasing desk",
+     "On a direct feed nobody retypes it at your end",
+     "Its own number, with the date and time it was sent",
+     "Picking, billing and delivery carry on unchanged"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock on view as the orders come through",
+    "body": "VOS carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: whatever you run today keeps that role, and a demo shows how the levels connect.",
+    "bullets": [
+     "Across the whole catalog, not just the quick movers",
+     "Fewer stockout surprises on a late, heavy order",
+     "Levels come out of the system you count with now",
+     "No counting and no buying happens inside VOS"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Not Either Or",
+  "h2": "When VOS and WizCommerce work together",
+  "lead": "Running both is a perfectly sensible outcome. VOS is not a WizCommerce replacement: it moves one group of accounts off producing paperwork at all, and anything still arriving as a scan or a spreadsheet keeps being read. For many distributors that is what a WizCommerce alternative amounts to.",
+  "items": [
+   {
+    "h3": "Less arrives needing a verdict",
+    "body": "Accounts on the app stop sending anything that has to be interpreted. Whatever reads documents for you has a smaller and stranger pile left, which is where it earns its keep."
+   },
+   {
+    "h3": "Quotes, payments and the store stay put",
+    "body": "None of that is on offer here and none of it is affected. VOS hands over a finished order and takes no view on what the rest of your stack does with it."
+   },
+   {
+    "h3": "Point it at the accounts that phone most",
+    "body": "Adding VOS removes nothing, so begin with a handful of the kitchens that ring the desk and leave every other arrangement exactly where it is."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See one arrive already in lines",
+  "body": "Twenty minutes. A buyer speaks, the lines come up from their guide, and what reaches you is already in lines.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and nothing to train",
+  "lead": "No model has to learn your paperwork and no sample orders are needed. You hand over the lists, we open the accounts, your customers order.",
+  "items": [
+   {
+    "h3": "Give us your guides",
+    "body": "A spreadsheet is enough. Items and the price per account land in one admin screen, against the codes you already use."
+   },
+   {
+    "h3": "Each customer is set up",
+    "body": "Accounts get provisioned and the kitchen sees the app once. Most will have sent something in before the day ends."
+   },
+   {
+    "h3": "Orders come in whole",
+    "body": "Approved by the buyer, numbered and timed, set out in a format your desk already takes."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "VoiceOrder Solutions vs WizCommerce. Read back, or built as lines.",
+  "h2_lines": [
+   "VoiceOrder Solutions vs WizCommerce.",
+   "Read back, or built as lines."
+  ],
+  "eyebrow": "Two Ways To Get A Clean Order",
+  "lead": "VOS has the order itemized from the outset, with nothing to read back. WizCommerce reads what arrived and rebuilds the order from it, so a WizCommerce alternative is really about whether an interpretation step exists at all. The table shows where each approach lands.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "WizCommerce"
+  ],
+  "rows": [
+   {
+    "label": "What has to be read at your end",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Nothing, the order arrives as lines"
+     },
+     {
+      "t": "text",
+      "v": "Scans, spreadsheets and handwritten sheets"
+     }
+    ]
+   },
+   {
+    "label": "The order is approved by the buyer, not your team",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Your team checks it before the ERP"
+     }
+    ]
+   },
+   {
+    "label": "Where quoting happens",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Your own systems"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Each account has its own guide, at your prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "How an account orders without ringing you",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Starts without a training period",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies with the setup"
+     }
+    ]
+   },
+   {
+    "label": "Where CRM and payments live",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Your own systems"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Catalog imagery produced for you",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Not part of ordering"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "What you are adding to",
+    "cells": [
+     {
+      "t": "text",
+      "v": "The ordering step"
+     },
+     {
+      "t": "text",
+      "v": "A wholesale platform with AI"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions from distributors looking at AI order entry",
+  "items": [
+   {
+    "q": "Is VOS a WizCommerce alternative, or something narrower?",
+    "a": "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and work the order out of it. We change what the account sends, so there is no working out. Feature for feature their list is far longer, so the real question is whether you want the mess handled or ended."
+   },
+   {
+    "q": "Is VOS better than WizCommerce?",
+    "a": "At getting an accurate order out of a kitchen that will not use a screen, we think so. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: we do none of it and are not building any of it."
+   },
+   {
+    "q": "Do they not handle voice already?",
+    "a": "They do, and anybody claiming otherwise has not read their site: voice notes are on their own list of things the assistant reads, alongside scans and handwriting. The difference is not voice. It is that a note gets interpreted after the fact, while in VOS the speaking builds the lines and the buyer approves them before anything is sent."
+   },
+   {
+    "q": "Are they not built for food distribution too?",
+    "a": "They are, and we are not going to pretend differently. Food and beverage is one of their named industries, with promotions, warehouse-level availability and unit-of-measure pricing in it. Our claim is narrower: one step, done one way, for the accounts that ring rather than log in."
+   },
+   {
+    "q": "Who checks the order before it reaches us?",
+    "a": "In VOS it is the customer, on their own screen, before it sends. That matters because the only person who knows whether the order is right is the one who wants the goods. Be clear on the limit, though: this applies to orders placed in the app. A call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock."
+   },
+   {
+    "q": "Does one of them have to go?",
+    "a": "No, and we would not advise it if you have a real paperwork problem. They are aimed at different halves of it: one shrinks what arrives as a document, the other deals with what still does. Neither needs the other switched off."
+   },
+   {
+    "q": "How do the costs compare?",
+    "a": "They quote the platform, the same as we do. The one price they publish is for their AI photo product, which is sold on its own page with its own tiers. The one thing worth noting is scope: ours covers one step, theirs covers a product family, so you are not comparing like for like anyway."
+   },
+   {
+    "q": "How fast could this be running?",
+    "a": "Most distributors have it live in 24 to 48 hours, and most kitchens manage a first order that day. There is no model to train and nothing to connect, which is why a WizCommerce alternative gets looked at by teams who want one thing fixed this week."
+   },
+   {
+    "q": "Where do the WizCommerce details on this page come from?",
+    "a": "The WizCommerce facts above were checked at wizcommerce.com, dated 10 October 2026: the product family, the assistant's own list of what it reads, the review step and their industry pages. We do not repeat their performance numbers, which are theirs to stand behind. Anything that has moved since is a mistake at our end."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Stop guessing what the order said",
+  "body": "Twenty minutes, one order that needed no reading back.",
+  "cta": "Book a Free Demo →"
+ }
+}

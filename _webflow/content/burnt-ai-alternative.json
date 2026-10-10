@@ -1,0 +1,334 @@
+{
+ "slug": "burnt-ai-alternative",
+ "meta_title": "Burnt AI Alternative for Food Distributors in 2026",
+ "meta_desc": "One app your accounts speak into, with every line approved before it sends. A Burnt AI alternative scoped to ordering, not your whole back office.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "A Burnt AI Alternative With One Job.",
+  "lead": "VOS is a Burnt AI alternative that stops at the order: your accounts speak what they need into an app, check it over, and approve before anything reaches you. Burnt deploys agents right across the operation. No agents to configure here, and nobody deciding on your behalf.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Handed back on each order that was a call"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Is the window most distributors go live in"
+  },
+  {
+   "num": "Same Day",
+   "label": "Sees most kitchens send order one"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "Why teams want an alternative to Burnt AI",
+  "lead": "Burnt calls itself an AI watchtower for food distribution and deploys agents by team: one for order intake, one for purchasing, one that rings customers about money they owe. It is a serious piece of engineering. It is also a lot to take on, and that is where a Burnt AI competitor gets looked at.",
+  "cards": [
+   {
+    "h3": "Software deciding, rather than your buyer",
+    "body": "Burnt's own page says confidence thresholds decide when a human needs to look. That is a sensible design, and it still means the judgement call sits with the software and the exceptions land on your desk. Nowhere does it say the customer sees the order first."
+   },
+   {
+    "h3": "Three agents when you wanted one habit",
+    "body": "Intake, procurement, credit control. Each is a workflow to map, configure and trust. If the thing actually hurting you is the morning spent replaying voicemails, you are buying a program to solve a routine."
+   },
+   {
+    "h3": "Someone has to come to you",
+    "body": "Their onboarding is white-glove and, by their own description, their team works on your premises to understand the operation and set the agents up. A lot of distributors would rather not host a project at all."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "What a Burnt AI alternative covers when it is narrow",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Said out loud, checked on screen, then sent",
+    "body": "Nothing is interpreted after the fact here, because nothing was left to interpret. Your buyer holds the button down, the items appear as a list with quantities, and they fix or confirm it themselves. The order you receive is the order they signed off.",
+    "bullets": [
+     "No threshold decides whether a person should look",
+     "Spoken in the cooler or the office, at any hour",
+     "Their own phone, iOS or Android, nothing issued",
+     "20 to 30 minutes back against the same order by phone",
+     "Interrupted halfway? It holds the order until they come back"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order capture works →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "Your item list is the whole configuration",
+    "body": "There is no model to train and no workflow to draw. You hand over the item lists you keep per customer, we load them against your SKUs at your prices, and that is the setup finished.",
+    "bullets": [
+     "A kitchen sees nothing but the lines it buys",
+     "Pricing and the catalog remain yours to set",
+     "Change a list once and it stands on the orders after",
+     "Nothing to tune as volumes grow"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "It reaches you in a format you already read",
+    "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. Your desk does not move anywhere new.",
+    "bullets": [
+     "Addressed to a rep, or to the purchasing desk",
+     "On a direct feed there is no rekeying at your end",
+     "Picking, billing and delivery carry on unchanged",
+     "No part of your stack has to be retired first"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock visible as the orders arrive",
+    "body": "VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo walks the connection between them.",
+    "bullets": [
+     "Every line you carry, not only the quick movers",
+     "Fewer stockout surprises on a late, heavy order",
+     "Numbers come out of whatever you count with now",
+     "No counting happens inside VOS"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Not Either Or",
+  "h2": "When VOS and Burnt work together",
+  "lead": "VOS is not a Burnt AI replacement and has no ambition to be one. It bolts on, so having one in place already is not a reason to rule it out.",
+  "items": [
+   {
+    "h3": "Give the agent less to guess at",
+    "body": "Every account moved onto VOS is one more sending structured, approved orders instead of a voicemail to transcribe. Whatever is parsing the rest has a smaller and messier pile left to work through."
+   },
+   {
+    "h3": "Leave purchasing and chasing alone",
+    "body": "VOS has no view on your purchasing and never touches an invoice. If those agents are earning their money, nothing here asks you to unpick them."
+   },
+   {
+    "h3": "One destination, however many tools",
+    "body": "Orders still arrive into the system you nominated, by EDI, API or QuickBooks. Adding this does not give your desk a second place to check."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See a signed-off order land",
+  "body": "Twenty minutes. One order spoken by a buyer, approved by that buyer, landing in the format your desk already opens.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and nobody visits",
+  "lead": "This is done over email and a call. There is no discovery phase and no IT project, and no agent to brief.",
+  "items": [
+   {
+    "h3": "Send over the lists",
+    "body": "Whatever format they are already in. Each account's lines and your prices go into a single admin screen, lined up with your codes."
+   },
+   {
+    "h3": "Each buyer gets a login",
+    "body": "Accounts get created and the kitchen gets shown the app. Most send something in before the day is out."
+   },
+   {
+    "h3": "It arrives complete",
+    "body": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "VoiceOrder Solutions vs Burnt. One step, not every step.",
+  "h2_lines": [
+   "VoiceOrder Solutions vs Burnt.",
+   "One step, not every step."
+  ],
+  "eyebrow": "Point By Point",
+  "lead": "VOS is the order-taking step, with a person signing the order off. Burnt is an agent platform spanning intake, buying and collections, which is the useful distinction when a Burnt AI alternative comes up. The table marks which rows go which way.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Burnt"
+  ],
+  "rows": [
+   {
+    "label": "Your buyer signs the order off before it sends",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Reviewed by exception"
+     }
+    ]
+   },
+   {
+    "label": "Each account has its own list, at your prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Lifts orders out of email, WhatsApp and EDI",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Spoken in instead"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Order number and the time it was sent",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Chases an overdue invoice for you",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Not what it does"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Time to go live",
+    "cells": [
+     {
+      "t": "text",
+      "v": "24-48 hours for most"
+     },
+     {
+      "t": "text",
+      "v": "1-2 weeks mostly, to 30-60 days"
+     }
+    ]
+   },
+   {
+    "label": "Live without an IT project",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Onboarding is done on site"
+     }
+    ]
+   },
+   {
+    "label": "Nothing to train or tune",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "One agent, or the full platform"
+     }
+    ]
+   },
+   {
+    "label": "Which step it covers",
+    "cells": [
+     {
+      "t": "text",
+      "v": "The order itself"
+     },
+     {
+      "t": "text",
+      "v": "Agents across the operation"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What gets asked when the two are compared",
+  "items": [
+   {
+    "q": "Is VOS a genuine Burnt AI alternative, or a different category?",
+    "a": "On order intake the two overlap properly, and that is the part worth comparing. Beyond it they diverge: Burnt automates purchasing and collections as well, and VOS does neither. If your shortlist is about getting orders in cleanly, compare them. If it is about automating the office behind it, we are not on that list."
+   },
+   {
+    "q": "Is VOS better than Burnt AI?",
+    "a": "On one specific thing, we would say yes: with VOS the buyer approves the order, so correctness is settled by whoever knows the kitchen rather than by a confidence score. On breadth, no, and it would be silly to pretend otherwise. Burnt reads channels we never touch and automates work we never go near."
+   },
+   {
+    "q": "How soon could our accounts be ordering?",
+    "a": "Most distributors are up and running within 24 to 48 hours, and most kitchens place one the same day. Burnt publishes 1 to 2 weeks for most customers, stretching to 30 to 60 days on complex or legacy systems, which is quick for the amount it is wiring in. Ours is shorter because there is far less to wire, which is the usual reason a Burnt AI alternative gets a look."
+   },
+   {
+    "q": "Can VOS read orders out of email or WhatsApp?",
+    "a": "No. Burnt does that and lists email, phone, voicemail, WhatsApp, SMS, EDI, portals and spreadsheets. VOS takes the opposite route: instead of decoding whatever arrived, it gives the kitchen an app that turns speech into a list they confirm. If you need those channels parsed, that is a point for them, and better said here than at a demo."
+   },
+   {
+    "q": "Will VOS take over our ERP?",
+    "a": "No. It works at the intake end and passes each order on, itemized and approved. Everything after that, picking, invoicing, delivery, runs exactly as it does now in the software you pay for today."
+   },
+   {
+    "q": "How does VOS price against Burnt?",
+    "a": "Neither of us publishes a rate card, so this comes down to two quotes. We quote per distributor, once we know what you are running. Burnt quotes after a demo. Worth asking both what the figure covers, because the scope either side of it is very different."
+   },
+   {
+    "q": "Will anyone need to come to our site?",
+    "a": "Not for VOS. We set up from the guides you send over, with no implementation project. Burnt describes white-glove onboarding with their team working on your premises, which suits some operations very well and is exactly what others are trying to avoid."
+   },
+   {
+    "q": "What happens to accounts that will only ever telephone?",
+    "a": "They keep telephoning and your team handles those as it does today. Be clear about the limit though: a call or a voicemail gets no order number from VOS, no timestamp and no stock movement. Only what comes through the app does."
+   },
+   {
+    "q": "Where do the Burnt details on this page come from?",
+    "a": "Burnt's own website, read on 10 October 2026: the agent list and the on-site onboarding line off their homepage, and the channel list, the confidence-threshold wording and the rollout range off their sales and operations product page. We have left their accuracy and time-saving figures out, because those are their numbers to stand behind. If any of it has changed, this page is what needs correcting."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "See the order land already approved",
+  "body": "Twenty minutes, one order, and the chef's own sign-off on screen.",
+  "cta": "Book a Free Demo →"
+ }
+}

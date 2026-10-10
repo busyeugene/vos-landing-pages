@@ -50,5 +50,20 @@
    "a": "2af8f313-e356-7eea-3f46-cef1a39df959",
    "t": "7fd74404-bc36-46b7-cbcd-41511283be49"
   }
- }
+ },
+ "compare": {
+  "pepper-alternative": "6ac9efa5b080336cebb1456a",
+  "choco-alternative": "6aca3a56a6caad0812b5c2cd",
+  "burnt-ai-alternative": "6aca3a58ca02f812a31bf517",
+  "grubmarket-ai-alternative": "6aca3a59a6caad0812b5c623",
+  "cut-dry-alternative": "6aca3a59f340d29ae03c3ad7",
+  "bluecart-alternative": "6aca3a5ad4674c1a37e56403",
+  "necs-entree-alternative": "6aca3a5bdafc7a7656fa9b4c",
+  "pepperi-alternative": "6aca3a6aa40f1fed87074445",
+  "orderease-alternative": "6aca3a6bf0c2375ec4151513",
+  "wizcommerce-alternative": "6aca3a6c06da357dd6d261d7",
+  "rekki-alternative": "6aca3a6c8b1e86523e69bf86",
+  "fresho-alternative": "6aca3a6e5e834cc8aaf7a7ff"
+ },
+ "_compare_note": "The 12 comparison-page ids. All created from donorPageId with create_page duplicateOf, so map.json element UUIDs apply unchanged. All draft:true and unpublished. pepper was created 2026-10-10 am and its copy is a full rewrite behind the repo (passes 5-8); re-port it rather than patching."
 }

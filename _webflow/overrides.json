@@ -1,46 +1,178 @@
 {
-  "_note": "Deliberate differences between the repo page and its Webflow copy, with the reason. The Webflow landing template has 8 FAQ accordions and each accordion's open/close interaction is bound to its own element id, so a 9th cannot be inserted without an interaction that would store cleanly and never animate. The two 9-FAQ pages therefore merge two related questions into one. Nothing is dropped: both answers survive in the merged answer, and the Tier C disambiguation FAQs are untouched.",
-  "b2b-portal-software": {
-    "faq_merge": {
-      "replace_indexes": [
-        1,
-        2
-      ],
-      "reason": "Q2 (web browser) and Q3 (webshop) both answer 'is this a web storefront?'. Merged, so all three Tier C FAQs and the primary-keyword FAQ stay.",
-      "q": "Is this a wholesale webshop our customers log into?",
-      "a": "No. Ordering happens on a phone, in the app, and the web side is where your own staff edit guides, open accounts and look up past orders. A webshop is also built around browsing and checkout, and a kitchen reordering 40 familiar items every week is not browsing. VOS starts from the guide you built for that account, so the buyer talks through a list they already know, checks it, and sends it."
-    }
-  },
-  "supplier-management-software": {
-    "faq_merge": {
-      "replace_indexes": [
-        0,
-        1
-      ],
-      "reason": "Q1 carries the primary keyword and Q2 the 'best supplier management software' phrase. Both are 'is this right for me' questions, and one question can carry both phrases, so the three Tier C FAQs and the cost FAQ all stay.",
-      "q": "Is VOS the best supplier management software for a small kitchen?",
-      "a": "For the ordering half of the job, yes. You order from each supplier that is on VOS out of one app, by voice, and what you say is written out, approved by you and stamped with its own number. The best tool is the one your team will actually use at the end of a shift, and most supplier management software is built for a buyer at a desk with time to fill in fields. VOS does not hold contracts, score your suppliers or compare their prices, and we would rather set that expectation now than at the demo."
-    }
-  },
-  "pepper-alternative": {
-    "_structure": "The repo page uses the `compare` block order: comparison table at section 5, two mid-CTA blocks, a with/without 2-col split, and a factual 'what is Pepper' explainer. The Webflow landing template has none of those and Eugene asked for existing blocks only, so the Webflow copy is the standard 16-section order. The split and the explainer are carried by the problem section (its lead states what Pepper is, its three cards carry the reasons to look elsewhere) and by FAQ 1; the second mid-CTA is dropped because the template has one.",
-    "_comparison": "Now 3 columns x 9 rows: Feature / VoiceOrder Solutions / Pepper. Eugene asked for no third option. Row labels read as the with/without question, so the VOS column is the 'with' and the Pepper column the 'without'; that is how one table covers both asks. Pepper keeps 4 check marks and 5 factual text cells and takes no false cross.",
-    "faq_merge": {
-      "replace_indexes": [
-        0,
-        1
-      ],
-      "reason": "Q1 carries the primary keyword 'Pepper alternative' and Q2 the secondary 'better than Pepper'. Both ask the same thing from two angles, so one question carries both phrases and all seven other FAQs survive, including the cost and the phone-orders ones.",
-      "q": "Is VOS a true Pepper alternative, and is it better than Pepper?",
-      "a": "Those have the same answer: it depends what you are fixing. If the goal is to get orders off the phone and into something structured, VOS does that job, your customers approve each line themselves, and getting started does not take a quarter. If the goal is one platform running your storefront, your reps, your collections and your pricing, Pepper is built wide for that and VOS is not. We would rather say so now than at the demo."
-    },
-    "_revision_2026_10_10": "Eugene's revisions after review: comparison table cut to VOS + Pepper only (4th column deleted, page-scoped combo class `is-2col` added to the row and header grids so the grid drops to 3 tracks without touching the global class the other 26 pages share); table moved to section 3; the problem section reused as 'Why teams compare Pepper alternatives'; the cards section reused as 'When VOS and Pepper work together' and moved before the FAQ, carrying the nested mid-CTA with it; the usepepper.com sourcing note moved out of the comparison lead into its own FAQ, replacing the restaurants-or-stores question; 'Also Built In' dropped."
-  },
-  "_unmapped": {
-    "_note": "Content paths that legitimately reach no Webflow element, with the reason. gen-ops.py's coverage guard skips exactly these and reports everything else, so a genuinely unmapped slot (the 2026-10-09 defect) stands out instead of hiding in noise.",
-    ".meta_title": "Goes to the page's native SEO title field via data_pages_tool, not to an element.",
-    ".meta_desc": "Goes to the page's native SEO description field, not to an element.",
-    ".comparison.h2": "The joined form. The two halves are sent separately as h2_line1 / h2_line2, because the heading renders as two sibling String nodes split by a <br>.",
-    ".midcta.cta": "The Webflow mid-CTA block is a heading plus body with NO button (verified on the live tree 2026-10-10). The repo page has a button there. Adding one would be a design change, so the label has nowhere to go."
+ "_note": "Deliberate differences between the repo page and its Webflow copy, with the reason. The Webflow landing template has 8 FAQ accordions and each accordion's open/close interaction is bound to its own element id, so a 9th cannot be inserted without an interaction that would store cleanly and never animate. The two 9-FAQ pages therefore merge two related questions into one. Nothing is dropped: both answers survive in the merged answer, and the Tier C disambiguation FAQs are untouched.",
+ "b2b-portal-software": {
+  "faq_merge": {
+   "replace_indexes": [
+    1,
+    2
+   ],
+   "reason": "Q2 (web browser) and Q3 (webshop) both answer 'is this a web storefront?'. Merged, so all three Tier C FAQs and the primary-keyword FAQ stay.",
+   "q": "Is this a wholesale webshop our customers log into?",
+   "a": "No. Ordering happens on a phone, in the app, and the web side is where your own staff edit guides, open accounts and look up past orders. A webshop is also built around browsing and checkout, and a kitchen reordering 40 familiar items every week is not browsing. VOS starts from the guide you built for that account, so the buyer talks through a list they already know, checks it, and sends it."
   }
+ },
+ "supplier-management-software": {
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "Q1 carries the primary keyword and Q2 the 'best supplier management software' phrase. Both are 'is this right for me' questions, and one question can carry both phrases, so the three Tier C FAQs and the cost FAQ all stay.",
+   "q": "Is VOS the best supplier management software for a small kitchen?",
+   "a": "For the ordering half of the job, yes. You order from each supplier that is on VOS out of one app, by voice, and what you say is written out, approved by you and stamped with its own number. The best tool is the one your team will actually use at the end of a shift, and most supplier management software is built for a buyer at a desk with time to fill in fields. VOS does not hold contracts, score your suppliers or compare their prices, and we would rather set that expectation now than at the demo."
+  }
+ },
+ "pepper-alternative": {
+  "_structure": "The repo page uses the `compare` block order: comparison table at section 5, two mid-CTA blocks, a with/without 2-col split, and a factual 'what is Pepper' explainer. The Webflow landing template has none of those and Eugene asked for existing blocks only, so the Webflow copy is the standard 16-section order. The split and the explainer are carried by the problem section (its lead states what Pepper is, its three cards carry the reasons to look elsewhere) and by FAQ 1; the second mid-CTA is dropped because the template has one.",
+  "_comparison": "Now 3 columns x 9 rows: Feature / VoiceOrder Solutions / Pepper. Eugene asked for no third option. Row labels read as the with/without question, so the VOS column is the 'with' and the Pepper column the 'without'; that is how one table covers both asks. Pepper keeps 4 check marks and 5 factual text cells and takes no false cross.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "Q1 carries the primary keyword 'Pepper alternative' and Q2 the secondary 'better than Pepper'. Both ask the same thing from two angles, so one question carries both phrases and all seven other FAQs survive, including the cost and the phone-orders ones.",
+   "q": "Is VOS a true Pepper alternative, and is it better than Pepper?",
+   "a": "Those have the same answer: it depends what you are fixing. If the goal is to get orders off the phone and into something structured, VOS does that job, your customers approve each line themselves, and getting started does not take a quarter. If the goal is one platform running your storefront, your reps, your collections and your pricing, Pepper is built wide for that and VOS is not. We would rather say so now than at the demo."
+  },
+  "_revision_2026_10_10": "Eugene's revisions after review: comparison table cut to VOS + Pepper only (4th column deleted, page-scoped combo class `is-2col` added to the row and header grids so the grid drops to 3 tracks without touching the global class the other 26 pages share); table moved to section 3; the problem section reused as 'Why teams compare Pepper alternatives'; the cards section reused as 'When VOS and Pepper work together' and moved before the FAQ, carrying the nested mid-CTA with it; the usepepper.com sourcing note moved out of the comparison lead into its own FAQ, replacing the restaurants-or-stores question; 'Also Built In' dropped.",
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "_revision_2026_10_10_pm": "Re-port. Passes 5 to 8 changed this page's H1 is unchanged but the hero lead, comparison lead, five comparison rows, both CTAs, two problem-card headings, four feature bullets, the stats strip (Same Day -> 24/7) and the cost FAQ all moved. The repo is the source of truth, so the Webflow comparison row ORDER now follows the repo order too (pass 8 reordered rows for promotion reasons via interleave.js; the earlier Webflow order was chosen to minimise icon/text cell conversions). The 'Through its ERP integrations' Pepper cell is replaced by the repo's 'Not described'."
+ },
+ "_unmapped": {
+  "_note": "Content paths that legitimately reach no Webflow element, with the reason. gen-ops.py's coverage guard skips exactly these and reports everything else, so a genuinely unmapped slot (the 2026-10-09 defect) stands out instead of hiding in noise.",
+  ".meta_title": "Goes to the page's native SEO title field via data_pages_tool, not to an element.",
+  ".meta_desc": "Goes to the page's native SEO description field, not to an element.",
+  ".comparison.h2": "The joined form. The two halves are sent separately as h2_line1 / h2_line2, because the heading renders as two sibling String nodes split by a <br>.",
+  ".midcta.cta": "The Webflow mid-CTA block is a heading plus body with NO button (verified on the live tree 2026-10-10). The repo page has a button there. Adding one would be a design change, so the label has nowhere to go."
+ },
+ "_compare_structural": "Two donor constraints bite on every compare page, and both are DECISIONS, not truncations. (1) A feature row has 4 bullet slots and the repo rows carry 5. On all 12 pages bullet index 2 is the 'their own handset, iOS or Android' fact, which the hero trust line already states as 'iOS + Android', so index 2 is the one dropped and index 4 is KEPT: index 4 carries either 'frees reps to sell' or interruption recovery, both verified facts that review pass 8 deliberately promoted off 5/12 and 7/12 coverage. Dropping 4 instead would quietly undo that. (2) The accordion has 8 slots and the pages carry 9 FAQs; IX2 binds the interaction per element so an inserted item renders dead. Every compare page's FAQ 1 and FAQ 2 ask the same thing from two angles ('Is VOS an <X> alternative?' and 'Is VOS better than <X>?'), so those two merge, as pepper-alternative.faq_merge already does. The merged question must carry BOTH the primary keyword '<X> alternative' and the secondary 'better than <X>'.",
+ "choco-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "burnt-ai-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "grubmarket-ai-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "cut-dry-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "bluecart-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "necs-entree-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "pepperi-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "orderease-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "wizcommerce-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "rekki-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "fresho-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ }
 }

@@ -840,6 +840,35 @@ no longer existed. It now takes the newest capture per page and warns when any c
 "More From VOS" column, so 4 inline sibling links rather than 8. That matches the 16 pages already
 live, so it is the expected shape, not a gap to fill.
 
+### ▶ Compare-cluster port state (2026-10-10, afternoon)
+**All 12 Webflow pages now exist as drafts and the content JSONs are generated.** What is done:
+- **11 pages created** with `create_page` + `duplicateOf` the usual donor, so `map.json` applies
+  unchanged. **Their ids are in `_webflow/pages.json` under `compare`.** All `draft: true`.
+- **UUID preservation verified** on a fresh page, including the drifting `Strong` nodes that
+  `map.json._drifts` warns are page-specific: they come across because every page is duplicated
+  from the same donor. Probed `stats.labels[0]`, `faq.h2` and `stats.number_strongs[0]`, 3/3 match.
+- **`openGraph.titleCopied` / `descriptionCopied` set true on all 11.** Duplication leaves them
+  null, which would ship empty OG tags while the SEO fields look correct.
+- **`_webflow/extract-compare.py` is new**: it projects a `compare` page onto the same content
+  slots `extract-content.py` produces, so the 12 content JSONs are generated rather than
+  hand-authored (Pepper's was hand-authored and drifted). Validated by regenerating Pepper and
+  diffing against the reviewed hand-authored file: shapes matched exactly and every content delta
+  was a pass 5-8 copy change. **Two bugs it was written around, both of which returned empty
+  values silently: a nested icon/answer `<div>` means "lazily match to `</div></div>`" swallows
+  the sibling cards (1 card instead of 3, and every FAQ answer blank) so slice on the next
+  container opening instead; and the metas are not in `registry.js`, they come off the built head.**
+- **The two donor constraints are decided and recorded** in `overrides.json` under
+  `_compare_structural`: bullet index 2 (the handset fact, already in the hero trust line) is the
+  one dropped from each 5-bullet feature row, keeping index 4 because it carries a verified fact
+  pass 8 promoted; and FAQ 1 + FAQ 2 merge on every page, since both ask "is this an alternative /
+  is it better" and the merged question must carry both keyword phrases.
+
+**What is left, in order:** write the 11 `faq_merge` entries (Pepper's is the model), run
+`gen-ops.py` + `gen-schema.py`, push the text ops (~110 per page, ~31-47 actions per call), do the
+per-page structural work (drop the 4th comparison column via the existing page-scoped `is-2col`
+combo, then the section moves), push the schema, then run all four verifications **and look at a
+rendered page**. Pepper needs the same treatment: its draft is a full rewrite behind the repo.
+
 ### Porting a comparison page (first done 2026-10-10, Pepper)
 `/pepper-alternative` (page `6ac9efa5b080336cebb1456a`, **draft**) is the first compare page in
 Webflow. Eugene's instruction was **existing blocks only, no design changes**, and the Webflow

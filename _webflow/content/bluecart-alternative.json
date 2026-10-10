@@ -1,0 +1,334 @@
+{
+ "slug": "bluecart-alternative",
+ "meta_title": "BlueCart Alternative for Food Distributors in 2026",
+ "meta_desc": "No marketplace, no price grading, no other vendors on the shelf. A BlueCart alternative where your account orders from your guide, at your prices.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "A BlueCart Alternative Your Accounts Reorder In.",
+  "lead": "VOS is a BlueCart alternative with no shelf to share. Your account picks up the app, says what the kitchen is short of, and approves the list. Nobody grades your prices, nobody lists a rival beside you, and the only catalog in there is yours.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Back on each order once the phone is out of it"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Covers go-live for most distributors"
+  },
+  {
+   "num": "Same Day",
+   "label": "Is first-order day for most kitchens"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "Why an alternative to BlueCart comes up",
+  "lead": "BlueCart sells reach. Join the marketplace, get listed in the endless aisle, be seen by the restaurants their headline counts. For a supplier chasing new accounts that is the whole appeal. For a distributor whose book is already full, a BlueCart competitor starts to look like the simpler buy.",
+  "cards": [
+   {
+    "h3": "The platform has an opinion on your pricing",
+    "body": "Pricing Insights labels products as great, good or fair value so vendors can price competitively. That is a sensible marketplace feature. If you win on service and reliability rather than being the cheapest, it is a label you did not ask for."
+   },
+   {
+    "h3": "Your account is browsing a shared aisle",
+    "body": "An endless aisle is wider than your range by design, because that is what makes a marketplace useful to a buyer. The same breadth means a reorder can turn into a comparison you were not part of."
+   },
+   {
+    "h3": "A long product list for one job",
+    "body": "Order management, vendor management, invoicing, a rep app, a digital catalog, analytics, plus a set of restaurant-side tools. If the complaint is the phone ringing at seven in the morning, most of that list is not an answer to it."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "What this BlueCart alternative does instead",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "A reorder, not a shopping trip",
+    "body": "Your account holds the button and says what the kitchen needs. Items appear as lines with quantities, they fix anything wrong, and they send. There is no aisle to walk down, so the order stays the order they meant to place.",
+    "bullets": [
+     "The buyer looks at the list before anything leaves",
+     "Done in the cooler or at the desk, at any hour",
+     "Their own handset, iOS or Android, nothing issued",
+     "20 to 30 minutes back against the same order by phone",
+     "Interrupted halfway? It holds the order until they come back"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order capture works →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "Your range at your prices, ungraded",
+    "body": "You send the guides you keep per customer. We load them against your SKUs at the price you hold for that account. No value badge appears next to a line and no competing vendor appears under it.",
+    "bullets": [
+     "A kitchen sees nothing but the lines it buys",
+     "Pricing and the catalog remain yours to set",
+     "Change a guide once and it stands on the orders after",
+     "No listings fee, no placement, no ranking"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "It turns up the way your desk expects",
+    "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks, in a shape your desk opens daily.",
+    "bullets": [
+     "Addressed to a rep, or to the purchasing desk",
+     "On a direct feed there is no rekeying at your end",
+     "Picking, billing and delivery carry on unchanged",
+     "No part of your stack has to be retired first"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock in view as each order lands",
+    "body": "VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo walks the connection between them.",
+    "bullets": [
+     "Every line you carry, not only the quick movers",
+     "Fewer stockout surprises on a late, heavy order",
+     "Numbers come out of whatever you count with now",
+     "No counting happens inside VOS"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Not Either Or",
+  "h2": "When VOS and BlueCart work together",
+  "lead": "VOS is not a BlueCart replacement, because it cannot do the thing BlueCart is for. It adds on, so being listed on a marketplace is no reason to skip this.",
+  "items": [
+   {
+    "h3": "Win them there, keep them here",
+    "body": "A marketplace is a good way to meet an account you had no route to. Once they are yours, the weekly reorder does not need a marketplace, and moving it off one is how the relationship stops being a price comparison."
+   },
+   {
+    "h3": "Different jobs, no overlap to argue about",
+    "body": "Theirs is acquisition. Ours is the order from an account you already serve. Nobody has to decide which one wins, because they are not competing for the same hour of the day."
+   },
+   {
+    "h3": "Orders keep arriving in one place",
+    "body": "It shows up in whichever system you picked, over EDI, the API or QuickBooks. So no second queue appears."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See a reorder that nobody else can bid on",
+  "body": "Twenty minutes. One account, one order spoken off a guide like yours, carrying your own prices and signed off before it sends.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and no listing to build",
+  "lead": "There is no catalog to upload for strangers and no profile to fill in. You send guides, we open accounts, your customers order.",
+  "items": [
+   {
+    "h3": "Email us your guides",
+    "body": "Whatever format they are already in. Each account's lines and your prices go into a single admin screen, lined up with your codes."
+   },
+   {
+    "h3": "We open each customer up",
+    "body": "Accounts get created and the kitchen gets shown the app. Most send something in before the day is out."
+   },
+   {
+    "h3": "It arrives whole",
+    "body": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "VoiceOrder Solutions vs BlueCart. Your shelf, or a shared one.",
+  "h2_lines": [
+   "VoiceOrder Solutions vs BlueCart.",
+   "Your shelf, or a shared one."
+  ],
+  "eyebrow": "Side By Side",
+  "lead": "The reorder stays between you and the customers you supply now. BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to, so a BlueCart alternative is really a decision about whose shelf the order sits on. Read the table for which rows bear on a reorder.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "BlueCart"
+  ],
+  "rows": [
+   {
+    "label": "Which accounts it works for",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Any account on your book today"
+     },
+     {
+      "t": "text",
+      "v": "Also restaurants you do not supply yet"
+     }
+    ]
+   },
+   {
+    "label": "Your buyer signs the order off before it sends",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "On their storefront, yes"
+     }
+    ]
+   },
+   {
+    "label": "Getting a promo in front of an account",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Promos and confirmations reach accounts by notification and text"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Each account has its own guide, at your prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Stock visibility for whoever is ordering",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Levels beside your incoming orders"
+     },
+     {
+      "t": "text",
+      "v": "Restaurant-side inventory and food costing"
+     }
+    ]
+   },
+   {
+    "label": "Your prices shown as you set them",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Pricing Insights grades value"
+     }
+    ]
+   },
+   {
+    "label": "Your own guide is the only thing on screen",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "A marketplace catalog alongside yours"
+     }
+    ]
+   },
+   {
+    "label": "How long until it is running",
+    "cells": [
+     {
+      "t": "text",
+      "v": "24-48 hours for most"
+     },
+     {
+      "t": "text",
+      "v": "Within days, they say"
+     }
+    ]
+   },
+   {
+    "label": "Where it sits",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Alongside the systems you have"
+     },
+     {
+      "t": "text",
+      "v": "A marketplace you list on"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What distributors ask before they pick one",
+  "items": [
+   {
+    "q": "Is VOS a real BlueCart alternative if it has no marketplace?",
+    "a": "It depends entirely on why you were looking. If you want to be found by restaurants you do not supply, VOS cannot help and a marketplace is the right tool. If you want the accounts you already have to stop telephoning every order, then yes, and the comparison is a fair one."
+   },
+   {
+    "q": "Is VOS better than BlueCart?",
+    "a": "On the repeat order from an account already on your book, we would say yes: your range only, your prices, approved by the buyer, with nothing rating you on the way through. At finding new customers, no, and it is not a close call. That is their product and we do not have one."
+   },
+   {
+    "q": "Will VOS bring us new customers?",
+    "a": "No. VOS only serves the accounts on your own book, since each guide is built from what they buy from you. Anyone promising both acquisition and a private ordering channel in one product is worth a second question."
+   },
+   {
+    "q": "Does anything in VOS compare our prices for the buyer?",
+    "a": "Nothing. There is no value label, no benchmark and no other vendor in the app. BlueCart offers Pricing Insights that rank a listing by how good the value looks, which is a genuinely useful marketplace feature and the opposite of what a service-led distributor usually wants beside its catalog."
+   },
+   {
+    "q": "Does any of this touch our ERP?",
+    "a": "Only to hand it the order. VOS works at the intake end and passes each one on, itemized and approved. Everything downstream behaves exactly as it did yesterday."
+   },
+   {
+    "q": "How do the costs compare?",
+    "a": "Neither of us publishes a figure. Theirs follows a demo; ours comes as a quote once we have talked. On a marketplace it is also worth asking what the commercial terms are around being listed, because being listed carries its own commercial terms, not a fee you are quoted."
+   },
+   {
+    "q": "How fast can accounts begin ordering?",
+    "a": "For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart say theirs can be live within days, so on speed there is very little between us, and a BlueCart alternative is rarely chosen on that alone."
+   },
+   {
+    "q": "And the accounts that will only ever call?",
+    "a": "They carry on calling, and your desk deals with those the way it always has. Be clear about the limit though: a call or a voicemail gets no order number from VOS, no timestamp and nothing moving in stock. Only what comes through the app does."
+   },
+   {
+    "q": "Where do the BlueCart details on this page come from?",
+    "a": "Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If any of it has moved on, the fault is here, not there."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Keep the reorder off the open shelf",
+  "body": "Twenty minutes, one order, priced off one distributor's own guide, with nobody rating it.",
+  "cta": "Book a Free Demo →"
+ }
+}

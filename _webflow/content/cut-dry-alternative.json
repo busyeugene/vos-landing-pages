@@ -1,0 +1,334 @@
+{
+ "slug": "cut-dry-alternative",
+ "meta_title": "Cut+Dry Alternative for Food Distributors in 2026",
+ "meta_desc": "Your account speaks an order from your guide, at your prices, with nobody promoting into it. A Cut+Dry alternative with one job and no network.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "A Cut+Dry Alternative Built On Your Own Guide.",
+  "lead": "VOS is a Cut+Dry alternative that is not a network. Your account picks up the app, says what is short from the list you built, and approves it. There is no marketplace around it, no other brand bidding for that moment, and no third party earning off the purchase.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Freed up on each order taken off the phone"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Is the go-live window for most distributors"
+  },
+  {
+   "num": "Same Day",
+   "label": "Is order one for most kitchens"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "Where an alternative to Cut+Dry starts to appeal",
+  "lead": "Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves distributors, manufacturers and restaurants from the same platform. That breadth is the product. It is also what sends some buyers looking at a Cut+Dry competitor instead.",
+  "cards": [
+   {
+    "h3": "Someone else can buy that moment",
+    "body": "Their own manufacturer pitch is targeted marketing that puts a SKU in front of an operator at the exact moment they are building an order. That is a real product sold to real brands. It is also your customer, mid-order, being sold to by somebody else."
+   },
+   {
+    "h3": "Cashback has to come from somewhere",
+    "body": "Restaurants on the platform are offered cashback on eligible purchases from participating distributors and manufacturers. A lot of distributors will want to know exactly where that sits before they sign, and reasonably so."
+   },
+   {
+    "h3": "Launch is measured in weeks, not hours",
+    "body": "Their own distributor page publishes a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the phone stops ringing."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "What this Cut+Dry alternative covers, and only that",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Nothing to browse, so nothing to browse past",
+    "body": "Your account holds the button and says what is short. Items come up as lines with quantities, they correct anything off, and they send. No search results, no recommendations, no other brand in the way of the thing they meant to buy.",
+    "bullets": [
+     "The buyer looks at the list before anything leaves",
+     "Said in the kitchen at any hour you are shut",
+     "Their own handset, iOS or Android, nothing issued",
+     "20 to 30 minutes back against the same order by phone",
+     "Interrupted halfway? It holds the order until they come back"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order capture works →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "One guide, yours, and no shelf beside it",
+    "body": "You send the guides you keep per customer. We load them against your SKUs at the price you hold for that account. What the kitchen sees is your range and nothing wider, so the catalog never becomes a place to compare you.",
+    "bullets": [
+     "A kitchen sees nothing but the lines it buys",
+     "Pricing and the catalog remain yours to set",
+     "Change a guide once and it stands on the orders after",
+     "No promoted placements and no sponsored lines"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "It turns up the way your desk expects",
+    "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks, in a shape your desk opens daily.",
+    "bullets": [
+     "Addressed to a rep, or to the purchasing desk",
+     "On a direct feed there is no rekeying at your end",
+     "Picking, billing and delivery carry on unchanged",
+     "No part of your stack has to be retired first"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock beside the orders as they come",
+    "body": "VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo walks the connection between them.",
+    "bullets": [
+     "Every line you carry, not only the quick movers",
+     "Fewer stockout surprises on a late, heavy order",
+     "Numbers come out of whatever you count with now",
+     "No counting happens inside VOS"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Not Either Or",
+  "h2": "When VOS and Cut+Dry work together",
+  "lead": "VOS is not a Cut+Dry replacement and could not be one. It adds on, so a platform already carrying your payments and your storefront is no reason to rule this out.",
+  "items": [
+   {
+    "h3": "Let the storefront do the storefront",
+    "body": "Discovery, search and a published catalog are real work, and none of it happens here. The accounts who want to browse keep browsing. The ones who just want Friday's order reordered get a quicker route to it."
+   },
+   {
+    "h3": "Payments and invoicing stay put",
+    "body": "VOS never touches money. Nothing about adding it asks you to move how customers pay or how invoices go out, which is usually the part nobody wants to disturb."
+   },
+   {
+    "h3": "Still one place for the order to arrive",
+    "body": "Whichever system you picked is where it shows up, over EDI, the API or QuickBooks. So nobody is watching two queues."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See how one guide, one order works",
+  "body": "Twenty minutes. One account, one order said out loud off a guide like yours, and the minutes your desk spends on each call come back.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and no launch date",
+  "lead": "Nothing here needs a project plan or a go-live. You send guides, we open accounts, your customers order.",
+  "items": [
+   {
+    "h3": "Hand us your guides",
+    "body": "Whatever format they are already in. Each account's lines and your prices go into a single admin screen, lined up with your codes."
+   },
+   {
+    "h3": "We enable each account",
+    "body": "Accounts get created and the kitchen gets shown the app. Most send something in before the day is out."
+   },
+   {
+    "h3": "It turns up priced",
+    "body": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "VoiceOrder Solutions vs Cut+Dry. A tool, not a network.",
+  "h2_lines": [
+   "VoiceOrder Solutions vs Cut+Dry.",
+   "A tool, not a network."
+  ],
+  "eyebrow": "Two Models",
+  "lead": "VOS sells one app to your accounts, and every line is drawn from the guide you built. Cut+Dry sells ecommerce, payments and sales tooling across distributors, manufacturers and restaurants, which is why a Cut+Dry alternative is a choice between two shapes rather than two feature lists. The table below marks what each one covers.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Cut+Dry"
+  ],
+  "rows": [
+   {
+    "label": "Only your catalog in front of the buyer",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Manufacturers can promote SKUs"
+     }
+    ]
+   },
+   {
+    "label": "Your buyer signs the order off before it sends",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies by route in"
+     }
+    ]
+   },
+   {
+    "label": "A self-serve way for accounts to order",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Each account has its own guide, at your prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Payments and invoicing in the same product",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Your own systems keep it"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Third-party rebate attached to the purchase",
+    "cells": [
+     {
+      "t": "text",
+      "v": "None"
+     },
+     {
+      "t": "text",
+      "v": "Cashback on eligible purchases"
+     }
+    ]
+   },
+   {
+    "label": "Every order an account has placed, in one screen",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "How long until it is running",
+    "cells": [
+     {
+      "t": "text",
+      "v": "24-48 hours for most"
+     },
+     {
+      "t": "text",
+      "v": "Under 90 days, they publish"
+     }
+    ]
+   },
+   {
+    "label": "Where it fits",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Beside the systems you run today"
+     },
+     {
+      "t": "text",
+      "v": "A platform the business moves onto"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions that come up against a platform",
+  "items": [
+   {
+    "q": "Is VOS a fair Cut+Dry alternative, given how much less it does?",
+    "a": "On order capture, yes, and that is the comparison worth making. Everywhere else the honest answer is that they are not the same purchase. Cut+Dry runs a storefront, takes payments, raises invoices and carries a sales tool. VOS moves one order from your account to your desk. One of those is a platform decision and one is not."
+   },
+   {
+    "q": "Is VOS better than Cut+Dry?",
+    "a": "For a reorder from an account you already have, we would say yes: no browsing, nobody promoting into it, and live in a day or two for most. For selling a catalog, collecting money, or putting your product data in front of a wider market, no, and not close. Those are the things they built."
+   },
+   {
+    "q": "Can another brand advertise to my customer inside VOS?",
+    "a": "No. There is no advertising surface in the app, and we do not sell placement to anyone. Your account sees the list you built, priced the way you hold it. Cut+Dry openly offers manufacturers targeted marketing at the moment an operator is building an order, which suits some distributors and is exactly what others are avoiding."
+   },
+   {
+    "q": "Does VOS do payments or invoicing?",
+    "a": "Neither. Money never passes through it. If digital payments and automated invoicing are what you are shopping for, that is a genuine Cut+Dry strength and we would point you back to them for it."
+   },
+   {
+    "q": "Does any of this touch our ERP?",
+    "a": "Only to hand it the order. VOS works at the intake end and passes each one on, itemized and approved. Everything downstream behaves exactly as it did yesterday."
+   },
+   {
+    "q": "How do the costs compare?",
+    "a": "Neither of us publishes a figure. They have a pricing page with no prices on it, and ours comes as a quote and is not on the site either. Given the difference in scope, the thing to compare is not the number but what each number is buying."
+   },
+   {
+    "q": "How quickly can accounts start sending orders?",
+    "a": "For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. Cut+Dry publishes \"Go Live in Under 90 Days\" on their own distributor page, which is respectable for a platform that size and still most of a quarter, and the common reason a Cut+Dry alternative gets weighed at all."
+   },
+   {
+    "q": "And the accounts that will only ever call?",
+    "a": "They carry on calling, and your desk deals with those the way it always has. Be clear about the limit though: a call or a voicemail gets no order number from VOS, no timestamp and nothing moving in stock. Only what comes through the app does."
+   },
+   {
+    "q": "Where do the Cut+Dry details on this page come from?",
+    "a": "All of the above was read on their own site, 10 October 2026: the module descriptions, the manufacturer marketing pitch, the cashback offer and the published 90 day launch, and the named customer they credit it to. We have left their growth percentages alone, because those are their numbers. If any of it has moved on, the fault is here, not there."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Keep the ordering moment yours",
+  "body": "Twenty minutes, one order, and one guide on the screen.",
+  "cta": "Book a Free Demo →"
+ }
+}

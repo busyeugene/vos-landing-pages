@@ -1,0 +1,334 @@
+{
+ "slug": "necs-entree-alternative",
+ "meta_title": "NECS Entree Alternative for Distributors in 2026",
+ "meta_desc": "Keep the ERP that runs your business and change one thing: your accounts speak orders instead of typing them. A NECS Entree alternative that replaces nothing.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "You May Not Need A NECS Entree Alternative.",
+  "lead": "VOS changes one thing only: instead of typing orders in, the kitchen speaks them into the app and signs it off. What arrives is the order they approved, in one of the formats Entree already takes. Entree carries on running your accounting, your warehouse and your EDI.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Back on each order once the phone is out of it"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Is the setup window for most distributors"
+  },
+  {
+   "num": "24/7",
+   "label": "Is when the app will take an order"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "What people mean by an alternative to NECS Entree",
+  "lead": "Almost nobody typing that phrase wants to tear out four decades of distribution software. They want one part of the day to improve. Three versions of that come up often enough to be worth separating, and only one of them is a NECS Entree competitor question at all.",
+  "cards": [
+   {
+    "h3": "Ordering still means someone typing",
+    "body": "Entree offers web and mobile order entry, and both work by a buyer finding items and entering quantities. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
+   },
+   {
+    "h3": "Everything new is inside the same system",
+    "body": "When ordering is a module of the system of record, changing it is a change to the system of record, and it is their module to license and support. Some distributors would rather improve the order without opening that up."
+   },
+   {
+    "h3": "Actually replacing it is a different project",
+    "body": "If your real plan is to move off Entree entirely, be honest that you are replacing accounting, ledger, payables, EDI and the warehouse at once. VOS is not that, and we would sooner say so now than sit through the wrong demo with you."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "What a NECS Entree alternative changes, and what it leaves alone",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Nothing to find, nothing to type",
+    "body": "A chef counts what is low and says it. No search box, no quantity field, no screen to learn. Items come up as a list, they fix anything wrong, and they send. That is the part a web order form has never managed for the accounts who will not use one.",
+    "bullets": [
+     "The buyer looks at the list before anything leaves",
+     "Spoken from the cooler or the bench, at any hour",
+     "Their own handset, iOS or Android, nothing issued",
+     "20 to 30 minutes back against the same order by phone",
+     "Interrupted halfway? It holds the order until they come back"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order capture works →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "Built from the lists you already maintain",
+    "body": "Export what you have. We load each account's items against your codes at the price you hold for them, and that is the setup finished. Nothing inside your distribution software is touched to make it work.",
+    "bullets": [
+     "A kitchen sees nothing but the lines it buys",
+     "Pricing and the catalog remain yours to set",
+     "Change a guide once and it stands on the orders after",
+     "No module to license and no version to be on"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "It arrives in the formats your system already takes",
+    "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight in over the API, over EDI, or into QuickBooks. Whichever route your office already trusts is the one it uses.",
+    "bullets": [
+     "Addressed to a rep, or to the purchasing desk",
+     "On a direct feed there is no rekeying at your end",
+     "Picking, billing and delivery carry on unchanged",
+     "No part of your stack has to be retired first"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock in view as each order lands",
+    "body": "VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo walks the connection between them.",
+    "bullets": [
+     "Every line you carry, not only the quick movers",
+     "Fewer stockout surprises on a late, heavy order",
+     "Numbers come out of whatever you count with now",
+     "No counting happens inside VOS"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Not Either Or",
+  "h2": "When VOS and Entree work together",
+  "lead": "This is the normal case, not the exception. VOS is no sort of NECS Entree replacement: it is the way orders get in, on a system you keep exactly as it is. That is what a NECS Entree alternative usually turns out to mean.",
+  "items": [
+   {
+    "h3": "The system of record does not move",
+    "body": "Every number your business runs on keeps living where it lives. VOS hands over a finished order and leaves your records where they are."
+   },
+   {
+    "h3": "Give the web ordering the accounts that like it",
+    "body": "Buyers who happily work through a screen can carry on. VOS is for the part of the book that never adopted it and still telephones, which is where a lot of the morning goes."
+   },
+   {
+    "h3": "No version to be on, no module to license",
+    "body": "Because it sits outside, your upgrade path is unaffected either way. Nothing here has to wait for a release, and nothing here blocks one."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See it land in a system like yours",
+  "body": "Twenty minutes. A buyer talks, the order shows up in the formats your desk already takes, and nothing in your distribution software was altered to allow it.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and nothing opened up",
+  "lead": "Nobody logs into your distribution software to do this. You export lists, we open accounts, your customers order.",
+  "items": [
+   {
+    "h3": "Export your lists",
+    "body": "A spreadsheet out of the system you have is plenty. Items and prices per account go into a single admin screen against your codes."
+   },
+   {
+    "h3": "We open each customer up",
+    "body": "Accounts get created and the kitchen gets shown the app. Most send something in before the day is out."
+   },
+   {
+    "h3": "It lands finished",
+    "body": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "VoiceOrder Solutions vs Entree. One of these runs your business.",
+  "h2_lines": [
+   "VoiceOrder Solutions vs Entree.",
+   "One of these runs your business."
+  ],
+  "eyebrow": "Not The Same Thing",
+  "lead": "VOS alters one thing only: how the order gets to your desk. Entree has been food distribution software since 1987 and carries the accounting, the warehouse and the EDI, so a NECS Entree alternative is not a like-for-like swap. Entree wins every row about running the company; read on for the rows about ordering.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Entree"
+  ],
+  "rows": [
+   {
+    "label": "System of record for the business",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Not what it does"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Sits outside your ERP and its upgrade path",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "It is the ERP"
+     }
+    ]
+   },
+   {
+    "label": "Where the accounting lives",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Stays in Entree, untouched"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Each account has its own guide, at your prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Where picking and delivery live",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Handled in Entree today"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Hands the finished order over by EDI, API or QuickBooks",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Placed by speaking, with every line approved first",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Typed on web or mobile"
+     }
+    ]
+   },
+   {
+    "label": "In use without an IT project",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "No timeline published"
+     }
+    ]
+   },
+   {
+    "label": "Where it fits",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Added beside Entree"
+     },
+     {
+      "t": "text",
+      "v": "The system that runs the company"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions from distributors already running an ERP",
+  "items": [
+   {
+    "q": "Is VOS a NECS Entree alternative, or a different kind of thing?",
+    "a": "Something else entirely, and we would rather lead with that. Entree is the software your company runs on. VOS handles how an order gets in. If you are comparing them as like for like, one of the two will disappoint you badly, so the better question is which part of the day you are actually trying to fix."
+   },
+   {
+    "q": "Is VOS better than NECS Entree?",
+    "a": "At getting an order out of a kitchen that will not use an order form, yes. At everything else Entree does, the question does not apply: we have no ledger, no payables, no warehouse module and no proof of delivery, and no plan to build any of them."
+   },
+   {
+    "q": "Does Entree not already have customer ordering?",
+    "a": "It does, and anyone telling you otherwise has not looked. They offer web order entry and mobile order entry, plus a rep order pad. All of it works by a person finding items and typing quantities. The accounts who were never going to do that are the ones this is for."
+   },
+   {
+    "q": "Will this touch our installation or our version?",
+    "a": "No. Nobody signs into your distribution software to set this up. We work from an export of your item lists, and the order comes back to you as a file or a feed. Your version, your upgrade schedule and your support arrangement are all unaffected."
+   },
+   {
+    "q": "We are thinking of moving off Entree. Can you help?",
+    "a": "Not with the migration itself, no. Replacing it means replacing accounting, ledger, payables, EDI and warehouse functions together, and that is an ERP selection rather than an ordering decision. VOS can run before or after such a project, and orders can keep arriving as a file while the rest moves."
+   },
+   {
+    "q": "How do the costs compare?",
+    "a": "They are not comparable, and a quote for one tells you nothing about the other. Neither of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the system your whole company runs on."
+   },
+   {
+    "q": "How fast could this be live?",
+    "a": "For most distributors this goes live inside 24 to 48 hours, and most kitchens get a first order in that day. There is no project here because there is nothing to integrate into, which is the main reason a NECS Entree alternative gets looked at without anybody intending to replace anything."
+   },
+   {
+    "q": "And the accounts that will only ever call?",
+    "a": "They carry on calling, and your desk deals with those the way it always has. Be clear about the limit though: a call or a voicemail gets no order number from VOS, no timestamp and nothing moving in stock. Only what comes through the app does."
+   },
+   {
+    "q": "Where do the Entree details on this page come from?",
+    "a": "Read off necs.com on 10 October 2026: the module list, the 1987 founding date, the Windows description and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any of it has moved on, the fault is here, not there."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Change the order, not the system",
+  "body": "Twenty minutes, one order, and not a thing touched in your ERP.",
+  "cta": "Book a Free Demo →"
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "slug": "pepperi-alternative",
+ "meta_title": "Pepperi Alternative for Food Distributors in 2026",
+ "meta_desc": "Your accounts speak each order into the app and approve the lines before it sends. A Pepperi alternative for small to mid-size food distributors.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "A Pepperi Alternative Built For The Reorder.",
+  "lead": "VOS is for the reorder nobody had to go and collect. A customer talks the order into the app, checks the lines, and sends it. Pepperi arms the people who go out to your accounts: routes, shelf audits, promotions. Nobody has to stop by to write this one up.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved on each order that used to be a call"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Has most distributors up and running"
+  },
+  {
+   "num": "Same Day",
+   "label": "Is when most accounts first order"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "Why distributors look at an alternative to Pepperi",
+  "lead": "Hardly anybody searching for a Pepperi competitor wants to rebuild how their sales force works. They want one part of the week to stop costing so much. Three such cases turn up a lot, and they are worth keeping apart.",
+  "cards": [
+   {
+    "h3": "The product is wider than the problem",
+    "body": "Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If what you came for was a better way to receive orders, you are being asked to weigh up a platform decision to get at one of its channels."
+   },
+   {
+    "h3": "A storefront does not end the calls",
+    "body": "Self-service ordering only helps with the accounts who use it. The rest ring the desk at the worst hour of the day, and somebody keys those in by hand regardless of what the portal cost."
+   },
+   {
+    "h3": "Nobody is visiting a kitchen every week",
+    "body": "Shelf audits and merchandising matter when your product sits in a store. A chef reordering the same forty lines every week is a different motion, and much of that toolkit may never be opened."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "What a Pepperi alternative actually changes",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "A chef talks, and that is the order",
+    "body": "No search field, no quantity box, no screen anybody has to be trained on. They walk the cooler, say what is short, and the items come up as a list. They correct whatever looks wrong and send it. That is the step a portal does not always win over.",
+    "bullets": [
+     "The buyer reads the lines before anything leaves",
+     "Said from a walk-in or an office, at any hour",
+     "Their own handset, iOS or Android, nothing issued",
+     "20 to 30 minutes back against the same order by phone",
+     "Reorders from accounts on the app stop reaching your reps, so that time goes into selling"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order capture works →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "One list per account, priced the way you priced it",
+    "body": "Send over the lists you keep today. Each account gets the items it buys against your codes, at the figure you hold for that customer, and setup is done. You keep the catalog and the pricing; they get the convenience.",
+    "bullets": [
+     "A kitchen never sees a line it does not buy",
+     "Nobody else is promoting into your customer's list",
+     "Edit a guide once and the next order already has it",
+     "Your team works in the same admin platform, account by account"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "It turns up the way your office already works",
+    "body": "A finished order goes out as an email carrying a PDF, Excel or Word file, or straight into your system over the API, over EDI, or into QuickBooks. Whichever route your desk already trusts is the route it takes.",
+    "bullets": [
+     "Sent to a named rep, or to the purchasing desk",
+     "On a direct feed nobody retypes it at your end",
+     "Its own number, with the date and time it was sent",
+     "Picking, billing and delivery go on exactly as now"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock in view as the orders come in",
+    "body": "VOS carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the one you run today stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "The whole catalog, not just the fast movers",
+     "Fewer stockout surprises on a late, heavy order",
+     "Levels come from the system you count with now",
+     "No counting and no buying happens inside VOS"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Not Either Or",
+  "h2": "When VOS and Pepperi work together",
+  "lead": "That is the common case here, not the exception. VOS is no sort of Pepperi replacement: your field team keeps its routes, its audits and its promotions, and the orders that never needed a visit arrive on their own. For most distributors that is what a Pepperi alternative turns out to mean.",
+  "items": [
+   {
+    "h3": "Your reps keep every tool they have",
+    "body": "Routes, audits, van stock and promotions carry on where they are. VOS takes nothing out of a rep's hands. It just stops the app accounts' reorders landing there first."
+   },
+   {
+    "h3": "Self-service keeps the accounts that like it",
+    "body": "Buyers who are happy clicking through a catalog should carry on. This is for the part of the book that never took to one and still telephones instead."
+   },
+   {
+    "h3": "Start with the accounts nobody gets around to visiting",
+    "body": "Pick the kitchens your reps rarely reach and open those first. Nothing about the territory or the route plan has to change to try it."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See one order go the whole way through",
+  "body": "Twenty minutes. A chef speaks one, you see how it reaches the desk laid out as your desk reads it, and how much of that stops landing on your desk.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and no rollout to manage",
+  "lead": "There is no territory to map and no team to train. You hand over the lists, we open the accounts, your customers start ordering.",
+  "items": [
+   {
+    "h3": "Hand over your guides",
+    "body": "A spreadsheet is plenty. Items and the price per account load into one admin screen, against the codes you already use."
+   },
+   {
+    "h3": "We open each account",
+    "body": "Logins get created and the kitchen is shown the app once. Most of them send something in before the day is out."
+   },
+   {
+    "h3": "Orders arrive finished",
+    "body": "Approved by the buyer, carrying a number and a time, laid out as your office expects."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "VoiceOrder Solutions vs Pepperi. Built for different moments.",
+  "h2_lines": [
+   "VoiceOrder Solutions vs Pepperi.",
+   "Built for different moments."
+  ],
+  "eyebrow": "Two Different Jobs",
+  "lead": "In VOS the repeat order happens without a rep attending it. Pepperi is a field sales platform covering van routes, store audits, promotions and CRM, so a Pepperi alternative is a question about which moment you are buying for. The table sets the two jobs against each other.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Pepperi"
+  ],
+  "rows": [
+   {
+    "label": "Where routes and van selling are handled",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Your own systems"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Your account speaks the order and approves it",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Taps, scans or uploads it there"
+     }
+    ]
+   },
+   {
+    "label": "Where shelf audits happen",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Not part of ordering"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Each account has its own guide, at your prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Reaching an account with a promo",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Promos and confirmations arrive by notification and text"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Live without an IT project",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies with the setup"
+     }
+    ]
+   },
+   {
+    "label": "Where customer records live",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Your own CRM"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Where the order gets placed",
+    "cells": [
+     {
+      "t": "text",
+      "v": "On the customer's own phone, in their kitchen"
+     },
+     {
+      "t": "text",
+      "v": "In the field, online or offline"
+     }
+    ]
+   },
+   {
+    "label": "Which moment it covers",
+    "cells": [
+     {
+      "t": "text",
+      "v": "The order between visits"
+     },
+     {
+      "t": "text",
+      "v": "The platform their reps work from"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What distributors with field reps ask us",
+  "items": [
+   {
+    "q": "Is VOS a Pepperi alternative, or another sort of product?",
+    "a": "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. Treat them as equivalents and one of them will let you down, so the better question is which part of the week hurts."
+   },
+   {
+    "q": "Is VOS better than Pepperi?",
+    "a": "At pulling an order out of a kitchen that will never log in, we think so. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
+   },
+   {
+    "q": "Does Pepperi not already let customers order for themselves?",
+    "a": "It does, and anyone who tells you otherwise has not read their site. They offer a branded self-service portal with each buyer's own catalog and pricing. Every route into it still means working a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones this suits."
+   },
+   {
+    "q": "Do we give up route accounting and van sales?",
+    "a": "Only if you drop the tool that does them, and we are not asking you to. VOS has never planned a route, loaded a van or reconciled a day's selling, and it does not track a shipment either. If those are what you are shopping for, Pepperi is the right call and we will say so."
+   },
+   {
+    "q": "We are a smaller operation. Does that change the answer?",
+    "a": "It is most of the answer. Their own site describes their customers as medium and enterprise. Ours says we are built for small to mid-size distributors, and that enterprise pricing and enterprise complexity are not your problem. Both companies are telling you who they are for, and it is worth taking them at their word."
+   },
+   {
+    "q": "How do the costs compare?",
+    "a": "Pepperi publishes no price on its own site, and nor do we. Be aware that third-party directories carry figures for them, so check any number you are shown against their own site. What we will say is that the scope is narrower here: you are buying one step, not the system your field force lives in."
+   },
+   {
+    "q": "How fast could this be running?",
+    "a": "For most distributors this is running in 24 to 48 hours, and most kitchens get a first order in the same day. There is no integration project, which is why a Pepperi alternative often gets shortlisted by people with no intention of replacing anything."
+   },
+   {
+    "q": "What about accounts that will only ever telephone?",
+    "a": "They go on telephoning, and your desk handles those as always. Be clear on the limit, though: a call or a voicemail gets no order number out of VOS, no timestamp, and nothing moving against stock. Only what comes through the app does."
+   },
+   {
+    "q": "Where do the Pepperi details on this page come from?",
+    "a": "Sourced from pepperi.com as it stood on 10 October 2026: their product modules, the buyer portal, the offline apps and their own words about the market they sell to. No price or rollout time is published by them, so neither is guessed at here. Anything out of date since is our error, not theirs."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Let the reorders look after themselves",
+  "body": "Twenty minutes, one reorder that nobody had to drive out for.",
+  "cta": "Book a Free Demo →"
+ }
+}
