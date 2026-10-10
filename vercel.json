@@ -131,6 +131,18 @@
     {
       "source": "/necs-entree-alternative",
       "destination": "/vos-necs-entree-alternative-landing.html"
+    },
+    {
+      "source": "/pepperi-alternative",
+      "destination": "/vos-pepperi-alternative-landing.html"
+    },
+    {
+      "source": "/orderease-alternative",
+      "destination": "/vos-orderease-alternative-landing.html"
+    },
+    {
+      "source": "/wizcommerce-alternative",
+      "destination": "/vos-wizcommerce-alternative-landing.html"
     }
   ],
   "headers": [

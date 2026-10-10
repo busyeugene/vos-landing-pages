@@ -133,6 +133,14 @@ for (const p of pages) for (const g of p.counts.keys()) {
   df.set(g, [...(df.get(g) || []), p.slug]);
 }
 
+/* A trigram that is VOS-side on EVERY page it appears on is never added to `df` above, so
+ * `df.get(g)` is undefined for it, not an empty array. Reading `.length` off that threw a
+ * TypeError as soon as a new compare page introduced VOS-side wording that existed nowhere else
+ * (hit 2026-10-10 adding the Pepperi, OrderEase and WizCommerce pages). Treating a missing entry
+ * as "measured on no pages" is exactly what compare-sections.js intends: the gram is excluded
+ * from the cross-page count, not shared. Always read `df` through this. */
+const dfOf = g => df.get(g) || [];
+
 // Cross-page allow-list: fixed facts that may appear on any number of pages (never within-page repeats).
 // Fixed facts: brand, the delivery-format list, iOS/Android, and the numbers (24/7, 20–30 minutes saved,
 // 24 to 48 hours setup, 20-minute demo). Any phrasing of them may recur; numbers only appear in those facts.
@@ -163,8 +171,8 @@ if (args[0] === '--plan') {
   for (const p of pages) {
     out[p.slug] = {
       within: [...p.counts].filter(([, c]) => c >= 2).map(([g, c]) => ({ phrase: g, times: c, example: p.where.get(g) })),
-      cross: [...keep].filter(([g, k]) => df.get(g).includes(p.slug) && !k.includes(p.slug))
-        .map(([g, k]) => ({ phrase: g, onPages: df.get(g).length, keptOn: k, example: p.where.get(g) })),
+      cross: [...keep].filter(([g, k]) => dfOf(g).includes(p.slug) && !k.includes(p.slug))
+        .map(([g, k]) => ({ phrase: g, onPages: dfOf(g).length, keptOn: k, example: p.where.get(g) })),
     };
   }
   console.log(JSON.stringify(out, null, 1));
@@ -175,7 +183,7 @@ if (args[0] === '--json') {
   for (const p of pages) {
     out[p.slug] = {
       within: [...p.counts].filter(([, c]) => c >= 2).map(([g, c]) => ({ g, c, s: p.where.get(g) })),
-      cross: [...p.counts.keys()].filter(g => df.get(g).length >= 2).map(g => ({ g, pages: df.get(g), s: p.where.get(g) })),
+      cross: [...p.counts.keys()].filter(g => dfOf(g).length >= 2).map(g => ({ g, pages: dfOf(g), s: p.where.get(g) })),
     };
   }
   console.log(JSON.stringify(out, null, 1));
@@ -194,7 +202,7 @@ let tw = 0, tc = 0;
 console.log('page'.padEnd(42) + 'trigrams  within-page repeats  shared with other pages');
 for (const p of pages) {
   const within = [...p.counts].filter(([, c]) => c >= 2).length;
-  const cross = [...p.counts.keys()].filter(g => df.get(g).length >= 2).length;
+  const cross = [...p.counts.keys()].filter(g => dfOf(g).length >= 2).length;
   tw += within; tc += cross;
   console.log(p.slug.padEnd(42) + String(p.counts.size).padStart(8) + String(within).padStart(21) + String(cross).padStart(25));
 }
@@ -208,7 +216,7 @@ for (const slug of args) {
   console.log('  Within page:');
   for (const [g, c] of [...p.counts].filter(([, c]) => c >= 2).sort((a, b) => b[1] - a[1])) console.log('    x' + c + '  ' + g);
   console.log('  Shared with other pages:');
-  for (const g of [...p.counts.keys()].filter(g => df.get(g).length >= 2).sort((a, b) => df.get(b).length - df.get(a).length)) {
-    console.log('    [' + (df.get(g).length - 1) + '] ' + g);
+  for (const g of [...p.counts.keys()].filter(g => dfOf(g).length >= 2).sort((a, b) => dfOf(b).length - dfOf(a).length)) {
+    console.log('    [' + (dfOf(g).length - 1) + '] ' + g);
   }
 }

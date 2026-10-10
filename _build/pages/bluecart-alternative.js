@@ -123,7 +123,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Your prices labelled for buyers against other vendors</td>
+            <td>Your prices labeled for buyers against other vendors</td>
             <td>Never</td>
             <td>Pricing Insights grades value</td>
           </tr>

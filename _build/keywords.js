@@ -327,4 +327,31 @@ module.exports = {
       'better than necs entree',
     ],
   },
+  'pepperi-alternative': {
+    primary: 'pepperi alternative',
+    secondary: [
+      'pepperi competitor',
+      'pepperi replacement',
+      'alternative to pepperi',
+      'better than pepperi',
+    ],
+  },
+  'orderease-alternative': {
+    primary: 'orderease alternative',
+    secondary: [
+      'orderease competitor',
+      'orderease replacement',
+      'alternative to orderease',
+      'better than orderease',
+    ],
+  },
+  'wizcommerce-alternative': {
+    primary: 'wizcommerce alternative',
+    secondary: [
+      'wizcommerce competitor',
+      'wizcommerce replacement',
+      'alternative to wizcommerce',
+      'better than wizcommerce',
+    ],
+  },
 };

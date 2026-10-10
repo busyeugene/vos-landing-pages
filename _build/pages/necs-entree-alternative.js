@@ -300,7 +300,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No module to licence and no version to be on</span>
+              <span>No module to license and no version to be on</span>
             </li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Keeping guides current →</a>
@@ -556,7 +556,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🧷</div>
-        <h4>No version to be on, no module to licence</h4>
+        <h4>No version to be on, no module to license</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Because it sits outside, your upgrade path is unaffected either way. Nothing here has to
           wait for a release, and nothing here blocks one.
