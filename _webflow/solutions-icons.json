@@ -1,0 +1,449 @@
+{
+ "_note": "The /solutions page is Webflow-only; it has no counterpart in this repo. It holds one card per feature page. Each card's icon is an Image element styled walsh-solid-icon, which recolours a MONOCHROME WHITE 256x256 SVG. Multicolour 48x48 icons and ones with a hard-coded colour (#2c94d1 etc) render wrong on the purple tile, so only the 'usable' pool below may be assigned. Verified 2026-10-10: 26 cards, 26 distinct icons.",
+ "pageId": "6a73a33a046f0997fdcf7964",
+ "iconStyleClass": "walsh-solid-icon",
+ "requiredIconStyle": {
+  "viewBox": "0 0 256 256",
+  "colors": [
+   "#ffffff"
+  ]
+ },
+ "cards": [
+  {
+   "title": "B2B Portal Software",
+   "targetPageId": "6ac87341701beff1f6d38d66",
+   "imageElement": "6dff52e1-20e0-69b3-1ce2-41adc930bd83",
+   "assetId": "6a20627f378f71f4e718941d",
+   "icon": "icons8-admin.svg"
+  },
+  {
+   "title": "Catalog Management Software",
+   "targetPageId": "6a73a777a9a14bd4436ca47a",
+   "imageElement": "2ddbdd41-58be-7ee9-ab88-f51516842de8",
+   "assetId": "6a73a67020a0786c962a9eec",
+   "icon": "icons8-order-history (1).svg"
+  },
+  {
+   "title": "DSD Sales Software",
+   "targetPageId": "6ac8734337bb42540317dae1",
+   "imageElement": "5f2e17a3-d394-323b-0d0e-1f9d98f2ef20",
+   "assetId": "6a205d4847fd5104fd41cf28",
+   "icon": "icons8-truck (7).svg"
+  },
+  {
+   "title": "Distribution Automation Software",
+   "targetPageId": "6ac8735137bb42540317de64",
+   "imageElement": "f7ba6a6c-1fe7-73e0-691d-f7a138a8b674",
+   "assetId": "69cd718c52e435341252e9ab",
+   "icon": "icons8-flash-on.svg"
+  },
+  {
+   "title": "Distribution Resource Planning Software",
+   "targetPageId": "6aa8235b0275891250fc8084",
+   "imageElement": "3e718a2f-0134-306e-c7e4-faaa918279c4",
+   "assetId": "6a2061b157bf5abc3cb844e5",
+   "icon": "icons8-import.svg"
+  },
+  {
+   "title": "Distribution Workflow Software",
+   "targetPageId": "6ac87352d30cd9d651381c77",
+   "imageElement": "098b7cd5-d52b-90df-b1bc-6e0bda6ee893",
+   "assetId": "6a20625743e95a6b21fdea38",
+   "icon": "icons8-custom (4).svg"
+  },
+  {
+   "title": "Distributor Analytics Software",
+   "targetPageId": "6ac8734fcbb76cfe56a691b0",
+   "imageElement": "03991069-a72c-7424-d824-14265f4369cd",
+   "assetId": "6a2061eae7878b3e5db04f1a",
+   "icon": "icons8-history (1).svg"
+  },
+  {
+   "title": "Distributor Sales Software",
+   "targetPageId": "6ac87341701beff1f6d38df4",
+   "imageElement": "1d86f27a-a493-f927-d5d1-6e70963cc190",
+   "assetId": "6a2063de16f7c6c661295802",
+   "icon": "icons8-new (1).svg"
+  },
+  {
+   "title": "Inventory Automation Software",
+   "targetPageId": "6aa826f06dfcb76b36e324cb",
+   "imageElement": "d443af44-12fd-f1e3-2610-396b06930f2a",
+   "assetId": "69cd6604eb0d58b4091ad0b9",
+   "icon": "icons8-lightning.svg"
+  },
+  {
+   "title": "Inventory Control Software",
+   "targetPageId": "6a8879fa686bd169b315d54f",
+   "imageElement": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69757",
+   "assetId": "6a20600b5bf7f60376d636f0",
+   "icon": "icons8-error (2).svg"
+  },
+  {
+   "title": "Inventory Forecasting Software",
+   "targetPageId": "6ac87350d09138c3747de48d",
+   "imageElement": "a6156017-b675-18c9-8a8f-a3a86d977bb0",
+   "assetId": "69cdad58b2f5f4d603b826e3",
+   "icon": "icons8-upgrade (1).svg"
+  },
+  {
+   "title": "Inventory Planning Software",
+   "targetPageId": "6a868ef07941d5a2e83ca6db",
+   "imageElement": "3a32c3f4-37d6-9992-2e6b-19b09ce040cd",
+   "assetId": "6a20604037384a6f759c9c38",
+   "icon": "icons8-clock (1).svg"
+  },
+  {
+   "title": "Inventory Replenishment Software",
+   "targetPageId": "6aa81f60bcc14d868a7486f1",
+   "imageElement": "79f7d6ba-2390-b7f0-935e-796134c40cd1",
+   "assetId": "69cd657c3f19d2c1bb94bddd",
+   "icon": "icons8-update (1).svg"
+  },
+  {
+   "title": "Inventory Tracking Software",
+   "targetPageId": "6a73a761403094903a4c3863",
+   "imageElement": "390a6cbe-54a4-21b7-6016-c32deeb24e20",
+   "assetId": "6a205da4f667f378f79a6acb",
+   "icon": "icons8-delivery-handcart (2).svg"
+  },
+  {
+   "title": "Inventory Visibility Software",
+   "targetPageId": "6a73a785a108f62cdecdee33",
+   "imageElement": "1a6cf711-ae29-2e40-dd5e-86d9f8b30442",
+   "assetId": "6a205c7a20136616f9d02f97",
+   "icon": "icons8-smartphone-tablet.svg"
+  },
+  {
+   "title": "Order Entry Software",
+   "targetPageId": "6a73a72520a0786c962b15b8",
+   "imageElement": "06636c0c-4834-594c-09d3-ac6ee7d49838",
+   "assetId": "6a73a63b284538928c63d39b",
+   "icon": "icons8-create-order (1).svg"
+  },
+  {
+   "title": "Order Fulfillment Software",
+   "targetPageId": "6a868afec7f0381b2e0d1e41",
+   "imageElement": "29987a19-57fd-2141-4b84-ea8049f8bd68",
+   "assetId": "6a73a6d0403094903a4be096",
+   "icon": "icons8-full-shopping-basket.svg"
+  },
+  {
+   "title": "Order Taking Software",
+   "targetPageId": "6a886c65f128fbd289d0cea7",
+   "imageElement": "91140da8-c0bb-16b9-4a5c-57b669e15c7a",
+   "assetId": "6a2060652eb4e4ccde69f444",
+   "icon": "icons8-ringer-volume.svg"
+  },
+  {
+   "title": "Order Tracking Software",
+   "targetPageId": "6a886fcaf95887f393e5e8d2",
+   "imageElement": "6f20970f-a079-6da3-9c63-cf35420cc8ec",
+   "assetId": "6a2060fe1178dc03506c20b3",
+   "icon": "icons8-hourglass.svg"
+  },
+  {
+   "title": "Restaurant Checklist Software",
+   "targetPageId": "6a8872d018720c976eeab87b",
+   "imageElement": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebb2",
+   "assetId": "69cd71289311270c8a839501",
+   "icon": "icons8-correct.svg"
+  },
+  {
+   "title": "Restaurant Purchasing Software",
+   "targetPageId": "6a88751918720c976eec0411",
+   "imageElement": "51a5ea11-aba5-624d-7a30-08c7f6587f5d",
+   "assetId": "6a9054d1a2c52e8d8a2113bd",
+   "icon": "icons8-restaurant.svg"
+  },
+  {
+   "title": "Restaurant Stock Management Software",
+   "targetPageId": "6a8877721297f1950d8e7ea0",
+   "imageElement": "260ab7fd-903a-e943-2006-5f0b383a2d20",
+   "assetId": "69cd70f94acc8796bef6cf86",
+   "icon": "icons8-handcart.svg"
+  },
+  {
+   "title": "Supplier Management Software",
+   "targetPageId": "6ac873433f0886a3b09eb1aa",
+   "imageElement": "8f956ead-12e8-2f40-7ea5-14e67e7ea8b0",
+   "assetId": "69cd70b004544264939938f7",
+   "icon": "icons8-knife-and-spatchula.svg"
+  },
+  {
+   "title": "Vendor Management Software",
+   "targetPageId": "6aa828e3a603bdfe7a150dfd",
+   "imageElement": "40ba3bf6-45c4-aadf-8876-301f0f5852d4",
+   "assetId": "69cd70304bb92dfe3993456d",
+   "icon": "icons8-thumbs-up.svg"
+  },
+  {
+   "title": "Wholesale Operations Software",
+   "targetPageId": "6ac8735137bb42540317de1e",
+   "imageElement": "37de5f8f-683e-169b-e6d4-ae409bb8c39c",
+   "assetId": "6a206222f658ff951481759a",
+   "icon": "icons8-cloud-sync.svg"
+  },
+  {
+   "title": "Wholesale Ordering Software",
+   "targetPageId": "6ac87340d30cd9d65138161d",
+   "imageElement": "78bfa5fa-8372-2b60-7a50-7f7d692315cb",
+   "assetId": "69cd70b7ef3a2f43d3f552f4",
+   "icon": "icons8-hand-with-smartphone.svg"
+  }
+ ],
+ "iconPool": {
+  "usable": [
+   {
+    "name": "icons8-admin.svg",
+    "id": "6a20627f378f71f4e718941d"
+   },
+   {
+    "name": "icons8-boy-on-the-rocket.svg",
+    "id": "69cd707d5e8a74ae4d5c7b9c"
+   },
+   {
+    "name": "icons8-clock (1).svg",
+    "id": "6a20604037384a6f759c9c38"
+   },
+   {
+    "name": "icons8-cloud-sync.svg",
+    "id": "6a206222f658ff951481759a"
+   },
+   {
+    "name": "icons8-correct.svg",
+    "id": "69cd71289311270c8a839501"
+   },
+   {
+    "name": "icons8-create-order (1).svg",
+    "id": "6a73a63b284538928c63d39b"
+   },
+   {
+    "name": "icons8-custom (4).svg",
+    "id": "6a20625743e95a6b21fdea38"
+   },
+   {
+    "name": "icons8-cutlery.svg",
+    "id": "6a205c5554cf71c61ffe79f3"
+   },
+   {
+    "name": "icons8-delivery-handcart (2).svg",
+    "id": "6a205da4f667f378f79a6acb"
+   },
+   {
+    "name": "icons8-error (2).svg",
+    "id": "6a20600b5bf7f60376d636f0"
+   },
+   {
+    "name": "icons8-flash-on.svg",
+    "id": "69cd718c52e435341252e9ab"
+   },
+   {
+    "name": "icons8-full-shopping-basket.svg",
+    "id": "6a73a6d0403094903a4be096"
+   },
+   {
+    "name": "icons8-google-pixel-6.svg",
+    "id": "6a206179d0b884cbfd629324"
+   },
+   {
+    "name": "icons8-hand-with-smartphone.svg",
+    "id": "69cd70b7ef3a2f43d3f552f4"
+   },
+   {
+    "name": "icons8-handcart.svg",
+    "id": "69cd70f94acc8796bef6cf86"
+   },
+   {
+    "name": "icons8-history (1).svg",
+    "id": "6a2061eae7878b3e5db04f1a"
+   },
+   {
+    "name": "icons8-hourglass.svg",
+    "id": "6a2060fe1178dc03506c20b3"
+   },
+   {
+    "name": "icons8-import.svg",
+    "id": "6a2061b157bf5abc3cb844e5"
+   },
+   {
+    "name": "icons8-knife-and-spatchula.svg",
+    "id": "69cd70b004544264939938f7"
+   },
+   {
+    "name": "icons8-lightning.svg",
+    "id": "69cd6604eb0d58b4091ad0b9"
+   },
+   {
+    "name": "icons8-new (1).svg",
+    "id": "6a2063de16f7c6c661295802"
+   },
+   {
+    "name": "icons8-order-history (1).svg",
+    "id": "6a73a67020a0786c962a9eec"
+   },
+   {
+    "name": "icons8-restaurant.svg",
+    "id": "6a9054d1a2c52e8d8a2113bd"
+   },
+   {
+    "name": "icons8-ringer-volume.svg",
+    "id": "6a2060652eb4e4ccde69f444"
+   },
+   {
+    "name": "icons8-smartphone-tablet.svg",
+    "id": "6a205c7a20136616f9d02f97"
+   },
+   {
+    "name": "icons8-thumbs-up.svg",
+    "id": "69cd70304bb92dfe3993456d"
+   },
+   {
+    "name": "icons8-truck (5).svg",
+    "id": "69cd6fc2d34255f50f9f193f"
+   },
+   {
+    "name": "icons8-truck (6).svg",
+    "id": "69cd7154c1bfe874e1dc9c9d"
+   },
+   {
+    "name": "icons8-truck (7).svg",
+    "id": "6a205d4847fd5104fd41cf28"
+   },
+   {
+    "name": "icons8-truck (8).svg",
+    "id": "6a206367abb65865fd147011"
+   },
+   {
+    "name": "icons8-update (1).svg",
+    "id": "69cd657c3f19d2c1bb94bddd"
+   },
+   {
+    "name": "icons8-upgrade (1).svg",
+    "id": "69cdad58b2f5f4d603b826e3"
+   }
+  ],
+  "unusable": [
+   {
+    "name": "icons8-api.svg",
+    "id": "6a73985779507c06bdd1173b"
+   },
+   {
+    "name": "icons8-app-store.svg",
+    "id": "6a73987dde00dfb3557d3188"
+   },
+   {
+    "name": "icons8-boy-on-the-rocket (1).svg",
+    "id": "69cd779641e1c4096d5bdff6"
+   },
+   {
+    "name": "icons8-closed.svg",
+    "id": "6a73a17e374b7bc88d5f5835"
+   },
+   {
+    "name": "icons8-delivery-time.svg",
+    "id": "6a73a0287a398128c055200c"
+   },
+   {
+    "name": "icons8-edi.svg",
+    "id": "6a739874be31b3c262531550"
+   },
+   {
+    "name": "icons8-email (8).svg",
+    "id": "6a73984267068047dd32d308"
+   },
+   {
+    "name": "icons8-error (4).svg",
+    "id": "6a73a16a416170b2fd168387"
+   },
+   {
+    "name": "icons8-excel.svg",
+    "id": "6a7397c67c0171d50b862886"
+   },
+   {
+    "name": "icons8-fast-cart.svg",
+    "id": "6a73a07f34566231b1d68631"
+   },
+   {
+    "name": "icons8-flash-on (1).svg",
+    "id": "69cd762c036252221a939462"
+   },
+   {
+    "name": "icons8-google-play.svg",
+    "id": "6a7398869e33546599f921a9"
+   },
+   {
+    "name": "icons8-hand-with-smartphone (1).svg",
+    "id": "69cd77af23e37d73529ce7b2"
+   },
+   {
+    "name": "icons8-in-progress.svg",
+    "id": "69cd76f01c4859d828dec37e"
+   },
+   {
+    "name": "icons8-in-transit.svg",
+    "id": "69cd771421baffed56589b37"
+   },
+   {
+    "name": "icons8-integration.svg",
+    "id": "6a73a09a943df8a6d83fd786"
+   },
+   {
+    "name": "icons8-knife-and-spatchula (1).svg",
+    "id": "69cd779072333147ad86cdbc"
+   },
+   {
+    "name": "icons8-move-up (1).svg",
+    "id": "69cd8ac65479394a54664798"
+   },
+   {
+    "name": "icons8-omnichannel.svg",
+    "id": "6a7398949e33546599f9277b"
+   },
+   {
+    "name": "icons8-order-confirm.svg",
+    "id": "6a739fb9369371d6ea8d432f"
+   },
+   {
+    "name": "icons8-pdf.svg",
+    "id": "6a73984bd76406ff6e190482"
+   },
+   {
+    "name": "icons8-phone (3).svg",
+    "id": "6a739f8a5b3518826e377d38"
+   },
+   {
+    "name": "icons8-phone-ringing.svg",
+    "id": "6a73a0f2f9ce73bc2d73d3b4"
+   },
+   {
+    "name": "icons8-rest-api.svg",
+    "id": "6a73989a875335ea99e1ff51"
+   },
+   {
+    "name": "icons8-shop-location.svg",
+    "id": "6a73a05a34ee5315c107561e"
+   },
+   {
+    "name": "icons8-synchronize.svg",
+    "id": "69cd658d7a7be4071113db38"
+   },
+   {
+    "name": "icons8-unavailable.svg",
+    "id": "6a73a00797ff177d0d56c56d"
+   },
+   {
+    "name": "icons8-update.svg",
+    "id": "69cd6520c4af2358d5e1be65"
+   },
+   {
+    "name": "icons8-upgrade.svg",
+    "id": "69cd8ae50a512a8a89fd55a3"
+   },
+   {
+    "name": "icons8-web.svg",
+    "id": "6a73988dd76406ff6e19255a"
+   }
+  ]
+ }
+}

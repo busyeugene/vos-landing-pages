@@ -340,6 +340,32 @@ no longer existed. It now takes the newest capture per page and warns when any c
 "More From VOS" column, so 4 inline sibling links rather than 8. That matches the 16 pages already
 live, so it is the expected shape, not a gap to fill.
 
+### The `/solutions` page (Webflow only, no repo counterpart)
+`/solutions` (page `6a73a33a046f0997fdcf7964`) holds **one card per feature page**, so it needs a new
+card whenever a page ships. Each card is a `Link` wrapping an `Image` (the icon), a `Heading` and an
+`HtmlEmbed` (the arrow, `uui-button-icon 4`, not the icon). The card's icon is the **Image**, and the
+Image comes **before** the heading in the DOM, so pair them by containment, never by proximity.
+
+**Only monochrome-white 256x256 SVGs may be used as icons.** The Image carries `walsh-solid-icon`,
+which recolours a white glyph. Of the 62 `icons8-*` files in the library only **32** qualify; the
+other 30 are multicolour 48x48 or carry a fixed colour (`#2c94d1`, `#107c41`, ...) and render as a
+coloured blob on the purple tile. `icons8-phone-ringing`, `icons8-web`, `icons8-integration` and
+`icons8-synchronize` all look right by name and are all unusable. The vetted pool, the rejects and
+the current card-to-icon mapping are in **`_webflow/solutions-icons.json`**.
+
+**To judge an icon, render it; do not read its name.** `get_asset_preview` returns the raw SVG, which
+cannot be looked at. Fetch the `hostedUrl`, inline the SVGs on a dark tile in an HTML sheet, screenshot
+it with the same headless Chrome `layout.py` uses, and read the PNG. That is how the near-duplicate
+traps turned up: `icons8-restaurant` and `icons8-cutlery` are both fork-and-knife, and
+`icons8-flash-on` and `icons8-lightning` are both bolts.
+
+State on 2026-10-10: 26 cards, 26 distinct icons, verified by re-reading the page. Before the fix,
+**17 of 26 cards shared `icons8-restaurant`**, so most pages (including all ten batch-4 ones) showed
+cutlery. Three picks are still weak and are noted in the JSON: Distribution Workflow (a wrench),
+Distributor Sales (a "NEW" badge) and the two automation pages (two near-identical bolts). Fixing
+them needs 3-4 new white 256x256 icons uploaded. Changes made in the Designer need a Webflow
+publish to go live.
+
 ## Lessons from the Oct 2026 editorial check (4 passes, after the Webflow port)
 Run in this order, cheapest-catch-first. Passes 1 and 2 are mechanical and found the worst defect.
 
