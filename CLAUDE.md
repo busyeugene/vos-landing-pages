@@ -883,12 +883,33 @@ final-CTA component props by hand. **50 actions per call is confirmed safe**, wh
 - its `styles` mode emitted the key `styles`; the API wants **`style_names`**. That is the key the
   89-broken-cells defect of 2026-10-09 turns on, so it would have failed every cell conversion.
 
-**What is left:** the per-page structural work (drop the 4th comparison column via the page-scoped
-`is-2col` combo plus 10 `remove_element` calls, then the section moves to match Pepper's reviewed
-order), the schema push, the four verifications, and **a look at a rendered page** (string-level
-green says nothing about rendering). Three ops rows across necs-entree, pepperi and fresho sit in
-the ops `hard` list: a donor text cell that must become an icon cell, needing both an embed and a
-style change.
+**ALL 12 PAGES NOW CARRY THEIR OWN COPY AND ARE VERIFIED** (2026-10-10 pm). 1196 text ops,
+~150 embed operations, ~100 styles, 48 links + 48 labels, 44 deletes, 24 prop groups.
+`_webflow/verify-compare.py` reads each page back and reports **12/12 pages at 100% text coverage
+and 8/8 schema FAQ questions live.**
+
+- **Pepper was further behind than its note said:** not one schema push, but passes 5 to 8. It still
+  carried "The checking lands on your side" where pass 5 had scoped that limit to the Order Agent
+  path only. Re-ported from the repo and verified; it is the only page with **0 donor leaks**,
+  because Eugene's restructuring had already dropped its 4th column.
+- **Pepper's 4 `remove_element` ops failed with "Element not found", correctly.** Those elements
+  (the donor's spare cards and a comparison cell) had already been removed in that restructuring.
+  Verified by listing the page's 655 element ids and confirming all four are absent: a failure on
+  Pepper is not evidence of a bad shape, because its structure legitimately differs from the other 11.
+- **The `hard` cell (a donor TEXT cell that must become an ICON cell) cannot be done with
+  `set_settings`:** the cell is `Block > Block > String` and an SVG needs an `HtmlEmbed`. Use
+  `data_element_builder` with `{build_label, parent_element_id, creation_position, element_schema:
+  {type: "HtmlEmbed"}}`, then set its `code`, then `set_style` the icon class, then
+  `remove_element` the old text Block. Done on necs-entree, pepperi and fresho; each page's leak
+  count fell from 5 to 4, which is how the fix was confirmed.
+- ⚠ **`get_all_elements` omits an HtmlEmbed's `code`**, so a tree read cannot confirm an icon
+  landed. Confirm with `get_settings` + `type: "all_raw_settings"`. Fourth instance of "check what
+  window your checker measured in".
+
+**What is left:** drop the 4th comparison column on the 11 non-Pepper pages (the page-scoped
+`is-2col` combo plus the cell removals) **which is what the 4 remaining donor leaks per page are**;
+push the 12 schema files; and **look at a rendered page** (string-level green says nothing about
+rendering, which is the 2026-10-09 lesson). Everything stays `draft: true` until then.
 
 ### Porting a comparison page (first done 2026-10-10, Pepper)
 `/pepper-alternative` (page `6ac9efa5b080336cebb1456a`, **draft**) is the first compare page in
