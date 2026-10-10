@@ -352,8 +352,8 @@ Image comes **before** the heading in the DOM, so pair them by containment, neve
 image**, so the SVG has to be white already. (An earlier note here called it a purple tile that
 recolours a white glyph. Both halves were wrong, measured 2026-10-10.) Of the 62 `icons8-*` files in
 the library only **32** qualify; the other 30 are multicolour 48x48 or carry a fixed colour
-(`#2c94d1`, `#107c41`, ...) and render as a
-coloured blob on the blue tile. `icons8-phone-ringing`, `icons8-web`, `icons8-integration` and
+(`#2c94d1`, `#107c41`, ...) and render as a coloured blob on the blue tile.
+`icons8-phone-ringing`, `icons8-web`, `icons8-integration` and
 `icons8-synchronize` all look right by name and are all unusable. The vetted pool, the rejects and
 the current card-to-icon mapping are in **`_webflow/solutions-icons.json`**.
 
@@ -371,8 +371,8 @@ them needs 3-4 new white 256x256 icons uploaded. Changes made in the Designer ne
 publish to go live.
 
 `/solutions` also carries the **wrong JSON-LD**: its native schema field holds an `AboutPage` node
-named "About VoiceOrder Solutions" with `url: /about`, copied from the About page. Not fixed here
-because it is outside this task; worth telling Eugene.
+named "About VoiceOrder Solutions" with `url: /about`, copied from the About page. Found 2026-10-10
+and left as-is pending Eugene's call; it is live.
 
 ### The `/free-tools` page (Webflow only, no repo counterpart)
 `/free-tools` (page `6ac9dd37e59829e6290b8e2b`, created 2026-10-10, **still a draft**) is the hub for
@@ -410,6 +410,21 @@ the API, but every one of them 404s on `voiceordersolutions.com` while the batch
 `/solutions` return 200, so the site has not been published since they came out of draft. The card
 links are page-id links and will resolve on publish, but **`/free-tools` must not be published before
 the calculators are**, or it ships 23 dead links and an `ItemList` of 23 dead URLs.
+
+**Nav dropdown icons are a third icon family**, unrelated to the card icons above. They are inline
+icons8 glyphs pasted into the nav, not Webflow assets: `24x24`, `viewBox="0,0,256,256"`,
+`fill="currentColor"`, `fill-rule="nonzero"`, wrapped in `<g transform="scale(5.12,5.12)">`, so the
+path is authored in a **50x50** space and inherits the menu's text colour. The Free Tools entry is
+`_webflow/free-tools-icons/_nav-dropdown-calculator.svg`.
+
+> **Holes are counter-wound subpaths.** Under `fill-rule="nonzero"` the calculator's screen and keys
+> read as holes only because they are drawn in the opposite direction to the body (body clockwise,
+> `sweep-flag 1`; holes counter-clockwise, `sweep-flag 0`). Redraw one the same way round as the body
+> and it fills in solid. This is also how to add a knockout to any of these glyphs.
+
+Size them by rendering against the glyph they will sit next to, never by eye in the markup: the first
+Free Tools draft was optically small beside Solutions (body 11-39 of 50; 9-41 matches), and a 4-row
+keypad that looked fine at 72px went muddy at the real 24px.
 
 ## Lessons from the Oct 2026 editorial check (4 passes, after the Webflow port)
 Run in this order, cheapest-catch-first. Passes 1 and 2 are mechanical and found the worst defect.
