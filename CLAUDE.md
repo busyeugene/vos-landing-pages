@@ -514,6 +514,61 @@ before calling the port done.**
 ⚠ **Never transcribe a UUID from truncated output.** The FAQ eyebrow id was typed from an 8-char
 display and the rest invented; `set_text` returned "Element not found". Read the id from the tree.
 
+#### Restructuring a ported page (Eugene's revisions, 2026-10-10)
+Eugene revised the Pepper draft after seeing it: two comparison columns only, table much higher, the
+sourcing note moved into its own FAQ, a "why teams compare" card section, and a coexistence section
+at the end. All of it was done with existing blocks, deletions, moves and one combo class.
+
+**`move_element` works and keeps bindings and styles** (`{id, anchor_element_id, creation_position}`,
+positions `append`/`prepend`/`before`/`after`). This is how the table got to section 3. Earlier notes
+here said reordering was not possible; it is.
+
+**Two structural facts about this template that only a tree read reveals:**
+- **The mid-CTA block is nested INSIDE the cards section** (`tools-section`), not a sibling of it. Move
+  the cards section and the mid-CTA travels with it. That is usually what you want (cards then CTA),
+  but never assume a section is top level: read `tree.children` first.
+- **There is no logo bar.** The repo page has one via `@LOGOBAR`; the Webflow template does not. The
+  top level is navbar, hero, then the content sections, then Main CTA and Final Footer.
+
+**Dropping a comparison column needs a combo class, and nothing else will do.**
+`.uui-pricing11_row` and `.uui-pricing11_top-row` are **global** classes with a fixed
+`grid-template-columns: 1.5fr 1fr 1fr 1fr`, shared by all 26 landing pages. Deleting the fourth cell
+alone leaves an empty fourth track, and editing the global class would reflow every other page's
+table. The fix is a page-scoped combo:
+
+```
+create_style  name "is-2col", parent_style_names ["uui-pricing11_row"],
+              properties [{grid-template-columns: "1.5fr 1fr 1fr"}]
+create_style  same under ["uui-pricing11_top-row"]
+set_style     each row grid -> ["uui-pricing11_row", "is-2col"]
+set_style     the header grid -> ["uui-pricing11_top-row", "is-2col"]
+remove_element the 4th child of the header grid and of each row grid
+```
+
+Only elements carrying both classes change, so the other 26 pages are untouched. **Verify by counting
+children per row grid (want 3) and checking `is-2col` is on all ten grids**, which is cheap and exact.
+`set_style` replaces the whole list, so always pass the base class too or the row loses its styling.
+
+**Content shape follows the table shape.** Trim each row's `cells` to 2 and `heads` to 3 in
+`content/`, or `gen-ops.py` writes into the cell you just deleted.
+
+**Reallocating blocks is how you add a section without adding elements.** The page now reads:
+hero, **comparison** (3rd), **problem reused as "Why teams compare Pepper alternatives"**, stats,
+features, steps, testimonials, integrations, **cards reused as "When VOS and Pepper work together"**
+(+ the nested mid-CTA), FAQ, Main CTA. "Also Built In" was dropped, which the batch-4 reviewers had
+called filler anyway.
+
+⚠ **"Why teams switch from X" is a claim we cannot make.** We have no evidence of distributors leaving
+a named competitor. SimplyDepo's own page says "Why teams **compare** Repsly alternatives", which is
+both honest and carries the keyword. Use *compare*, not *switch*.
+
+⚠ **The coexistence section has to stay honest too.** VOS being additive is a verified fact, so
+"nothing has to come out for it to go in" is safe. Do not imply a partnership, an integration or any
+joint support arrangement with the competitor, because none exists.
+
+**Apostrophes: straight, not curly.** The page had one curly apostrophe from hand-authored JSON
+against 7 straight. Normalise before pushing; the site runs 397 straight to 1 curly.
+
 ### The `/solutions` page (Webflow only, no repo counterpart)
 `/solutions` (page `6a73a33a046f0997fdcf7964`) holds **one card per feature page**, so it needs a new
 card whenever a page ships. Each card is a `Link` wrapping an `Image` (the icon), a `Heading` and an

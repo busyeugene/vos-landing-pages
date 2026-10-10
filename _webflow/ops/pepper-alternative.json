@@ -29,15 +29,15 @@
   ],
   [
    "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
-   "Why Look Elsewhere"
+   "Why Teams Compare"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8be",
-   "Pepper is a platform. You wanted orders off the phone."
+   "Why teams compare Pepper alternatives"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8c2",
-   "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront for digital ordering, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. Everything here was read off usepepper.com on 10 October 2026. These are the three places distributors start looking at something smaller."
+   "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product. Here is where distributors start looking for something smaller."
   ],
   [
    "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
@@ -185,39 +185,39 @@
   ],
   [
    "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
-   "Also Built In"
+   "Not Either Or"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
-   "Smaller things that save you a call"
+   "When VOS and Pepper work together"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
-   "The small stuff that stops a call before it starts."
+   "VOS is additive. Nothing has to come out for it to go in, so plenty of distributors run both."
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
-   "One place to manage it"
+   "Keep the storefront, add the voice"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
-   "Update a guide, add an account, or look back over what a customer has ordered. It is all in the same place, and your team does not need a ticket to change anything."
+   "Some accounts are never going to browse a catalog. They will talk instead, at the end of a shift, from the walk-in. The storefront stays for the ones who tap, and VOS covers the ones who talk."
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a6d",
-   "A record per order"
+   "Try it on the accounts still phoning"
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a70",
-   "Everything sent this way gets a number of its own, with the time on it and the account behind it. Orders still phoned in do not get that."
+   "VOS goes in beside what you run in a day or two, so you can put it on the handful of accounts that never adopted and judge it on those before you decide anything bigger."
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
-   "Nothing to buy for the kitchen"
+   "The ERP keeps being the one destination"
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
-   "VOS is an iOS and Android app on handsets your accounts own already. Nothing to ship to a kitchen, nothing to mount on a wall, nothing that needs replacing in two years."
+   "Both feed the system you have, so adding VOS does not change where an order ends up. It arrives over EDI, the API or QuickBooks, into the same place your team already works."
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
@@ -277,7 +277,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a179",
-   "Pepper sells a broad platform to independents. VOS is the ordering layer that bolts on beside the stack you have now, so most distributors weighing a Pepper alternative are really choosing between those two shapes. The third column is where most of their accounts order from today."
+   "Pepper sells a broad platform to independents. VOS is the ordering layer that bolts on beside the stack you have now, so most distributors weighing a Pepper alternative are really choosing between those two shapes. Read down the VOS column for what changes, and the Pepper column for what stays as it is."
   ],
   [
    "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
@@ -292,20 +292,12 @@
    "Pepper"
   ],
   [
-   "37b58628-5e21-7c67-2967-24e3b5a7a1ac",
-   "Phone + Email"
-  ],
-  [
    "37b58628-5e21-7c67-2967-24e3b5a7a1be",
    "Customer signs off on every line first"
   ],
   [
    "89a5813a-10f6-6ba1-6eed-d733971a550a",
    "Varies by channel"
-  ],
-  [
-   "69912303-d2fb-9ab3-1702-1f1be793965e",
-   "If read back"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
@@ -318,10 +310,6 @@
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
    "Up and running"
-  ],
-  [
-   "3e34855f-1038-e4bc-b5ca-43666592d073",
-   "None needed"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
@@ -338,10 +326,6 @@
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a21a",
    "Orders out as PDF, Excel, Word, EDI, API or QuickBooks"
-  ],
-  [
-   "49d5bbd0-d3ae-abea-0d72-ee591beda269",
-   "Keyed in by hand"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a224",
@@ -413,21 +397,17 @@
   ],
   [
    "7ec95cf1-65b0-b7be-b209-990427524516",
-   "Is VOS only for restaurants, or do store accounts work too?"
+   "Where do the Pepper details on this page come from?"
   ],
   [
    "7ec95cf1-65b0-b7be-b209-99042752451e",
-   "Both. We sell to independent distributors and to DSD, not to enterprise, and the accounts on it are restaurants, kitchens and retail stores. For DSD, the orders are in before the truck loads, so drivers carry what the account asked for."
+   "Pepper's own website. The module list, the storefront and Order Agent descriptions and the 35 to 90 day implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
   ]
  ],
  "embed": [
   [
    "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
    "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
-  ],
-  [
-   "01c57b15-41b7-26ac-60cd-cc5f416f7e09",
-   "<div class=\"uui-text-size-medium-21\">Voicemail gets played back</div>"
   ],
   [
    "55af8715-1c0d-7742-fde4-496073314315",
@@ -450,24 +430,12 @@
    "<div class=\"uui-text-size-medium-21\">Five phases, with a manager</div>"
   ],
   [
-   "a16d84ef-02bf-5ec0-cb93-a5f713fe7193",
-   "<div class=\"uui-text-size-medium-21\">Nothing</div>"
-  ],
-  [
    "ed160918-90b4-10e3-a7f7-076cd6158a3b",
    "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
   ],
   [
-   "f40dcd31-dc18-1419-dc7d-9ae4c4991128",
-   "<div class=\"uui-text-size-medium-21\">Paper only</div>"
-  ],
-  [
    "37b58628-5e21-7c67-2967-24e3b5a7a212",
    "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
-  ],
-  [
-   "08a9ea6e-ff0f-60b4-f337-ff9134e8f590",
-   "<div class=\"uui-text-size-medium-21\">Once keyed in</div>"
   ],
   [
    "d455c100-948c-a407-3bda-fdc0a7afb797",
@@ -480,19 +448,9 @@
   [
    "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
    "<div class=\"uui-text-size-medium-21\">Storefront, sales, finance, pricing, marketing</div>"
-  ],
-  [
-   "c0a38acf-ad15-6757-3a70-c9cec47703bd",
-   "<div class=\"uui-text-size-medium-21\">One order at a time</div>"
   ]
  ],
  "styles": [
-  [
-   "01c57b15-41b7-26ac-60cd-cc5f416f7e09",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1e4",
    [
@@ -518,24 +476,6 @@
    ]
   ],
   [
-   "a16d84ef-02bf-5ec0-cb93-a5f713fe7193",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "f40dcd31-dc18-1419-dc7d-9ae4c4991128",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "08a9ea6e-ff0f-60b4-f337-ff9134e8f590",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
    "d455c100-948c-a407-3bda-fdc0a7afb797",
    [
     "uui-text-size-medium 21"
@@ -549,12 +489,6 @@
   ],
   [
    "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "c0a38acf-ad15-6757-3a70-c9cec47703bd",
    [
     "uui-text-size-medium 21"
    ]
@@ -632,8 +566,8 @@
    "a": "They can keep phoning, and your team handles those exactly as it does now. Worth being clear though: a call or a voicemail does not get a VOS order number, a timestamp or a stock movement. Only what comes through the app does."
   },
   {
-   "q": "Is VOS only for restaurants, or do store accounts work too?",
-   "a": "Both. We sell to independent distributors and to DSD, not to enterprise, and the accounts on it are restaurants, kitchens and retail stores. For DSD, the orders are in before the truck loads, so drivers carry what the account asked for."
+   "q": "Where do the Pepper details on this page come from?",
+   "a": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the 35 to 90 day implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
   }
  ],
  "schema": {
@@ -700,10 +634,10 @@
      },
      {
       "@type": "Question",
-      "name": "Is VOS only for restaurants, or do store accounts work too?",
+      "name": "Where do the Pepper details on this page come from?",
       "acceptedAnswer": {
        "@type": "Answer",
-       "text": "Both. We sell to independent distributors and to DSD, not to enterprise, and the accounts on it are restaurants, kitchens and retail stores. For DSD, the orders are in before the truck loads, so drivers carry what the account asked for."
+       "text": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the 35 to 90 day implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
       }
      }
     ]

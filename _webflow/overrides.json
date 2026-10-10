@@ -24,7 +24,7 @@
   },
   "pepper-alternative": {
     "_structure": "The repo page uses the `compare` block order: comparison table at section 5, two mid-CTA blocks, a with/without 2-col split, and a factual 'what is Pepper' explainer. The Webflow landing template has none of those and Eugene asked for existing blocks only, so the Webflow copy is the standard 16-section order. The split and the explainer are carried by the problem section (its lead states what Pepper is, its three cards carry the reasons to look elsewhere) and by FAQ 1; the second mid-CTA is dropped because the template has one.",
-    "_comparison": "The repo table is 3 columns x 11 rows; the Webflow block is 4 columns x 9 rows. Rebuilt as Feature / VoiceOrder Solutions / Pepper / Phone + Email, 9 rows, which keeps the manual baseline the other 16 live pages show. Pepper keeps 4 check marks and 5 factual text cells, and takes no false crosses.",
+    "_comparison": "Now 3 columns x 9 rows: Feature / VoiceOrder Solutions / Pepper. Eugene asked for no third option. Row labels read as the with/without question, so the VOS column is the 'with' and the Pepper column the 'without'; that is how one table covers both asks. Pepper keeps 4 check marks and 5 factual text cells and takes no false cross.",
     "faq_merge": {
       "replace_indexes": [
         0,
@@ -33,7 +33,8 @@
       "reason": "Q1 carries the primary keyword 'Pepper alternative' and Q2 the secondary 'better than Pepper'. Both ask the same thing from two angles, so one question carries both phrases and all seven other FAQs survive, including the cost and the phone-orders ones.",
       "q": "Is VOS a true Pepper alternative, and is it better than Pepper?",
       "a": "Those have the same answer: it depends what you are fixing. If the goal is to get orders off the phone and into something structured, VOS does that job, your customers approve each line themselves, and getting started does not take a quarter. If the goal is one platform running your storefront, your reps, your collections and your pricing, Pepper is built wide for that and VOS is not. We would rather say so now than at the demo."
-    }
+    },
+    "_revision_2026_10_10": "Eugene's revisions after review: comparison table cut to VOS + Pepper only (4th column deleted, page-scoped combo class `is-2col` added to the row and header grids so the grid drops to 3 tracks without touching the global class the other 26 pages share); table moved to section 3; the problem section reused as 'Why teams compare Pepper alternatives'; the cards section reused as 'When VOS and Pepper work together' and moved before the FAQ, carrying the nested mid-CTA with it; the usepepper.com sourcing note moved out of the comparison lead into its own FAQ, replacing the restaurants-or-stores question; 'Also Built In' dropped."
   },
   "_unmapped": {
     "_note": "Content paths that legitimately reach no Webflow element, with the reason. gen-ops.py's coverage guard skips exactly these and reports everything else, so a genuinely unmapped slot (the 2026-10-09 defect) stands out instead of hiding in noise.",

@@ -3,24 +3,30 @@
  "slug": "pepper-alternative",
  "meta_title": "Pepper Alternative for Food Distributors in 2026",
  "meta_desc": "Your accounts speak each order into an app and check it before sending. This Pepper alternative is up and running in 24 to 48 hours for most.",
-
  "hero": {
   "eyebrow": "For Food Distributors",
   "h1": "The Pepper Alternative Built On Voice Ordering.",
   "lead": "VOS is a Pepper alternative built for independents and DSD operations. Your accounts put each order into the app by voice, read it over, then send it. It lands on your desk with a timestamp, in whichever format you take orders in now. Most distributors are up and running in 24 to 48 hours.",
   "cta": "Book a Free Demo →"
  },
-
  "stats": [
-  {"num": "20-30 Min", "label": "Saved on each order that moves off the phone"},
-  {"num": "24-48 Hrs", "label": "Is when most distributors go live"},
-  {"num": "Same Day", "label": "Is when the first orders usually arrive"}
+  {
+   "num": "20-30 Min",
+   "label": "Saved on each order that moves off the phone"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Is when most distributors go live"
+  },
+  {
+   "num": "Same Day",
+   "label": "Is when the first orders usually arrive"
+  }
  ],
-
  "problem": {
-  "eyebrow": "Why Look Elsewhere",
-  "h2": "Pepper is a platform. You wanted orders off the phone.",
-  "lead": "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront for digital ordering, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. Everything here was read off usepepper.com on 10 October 2026. These are the three places distributors start looking at something smaller.",
+  "eyebrow": "Why Teams Compare",
+  "h2": "Why teams compare Pepper alternatives",
+  "lead": "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product. Here is where distributors start looking for something smaller.",
   "cards": [
    {
     "h3": "The rollout runs into next quarter",
@@ -36,7 +42,6 @@
    }
   ]
  },
-
  "features": {
   "eyebrow": "What You Get",
   "h2": "What this Pepper alternative covers",
@@ -51,7 +56,10 @@
      "Runs on the iPhone or Android handset they already carry",
      "Saves about 20 to 30 minutes against the same order on the phone"
     ],
-    "link": {"href": "/order-taking-software", "text": "How VOS takes orders →"}
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How VOS takes orders →"
+    }
    },
    {
     "eyebrow": "Order Guides",
@@ -63,7 +71,10 @@
      "Change a guide once and it holds from then on",
      "You keep the catalog; the customer gets the convenience"
     ],
-    "link": {"href": "/catalog-management-software", "text": "Keeping guides current →"}
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
    },
    {
     "eyebrow": "Delivery Formats",
@@ -75,7 +86,10 @@
      "Your pick, invoice and delivery steps stay exactly as they are",
      "Nothing in your stack has to come out first"
     ],
-    "link": {"href": "/wholesale-ordering-software", "text": "What an order looks like →"}
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
    },
    {
     "eyebrow": "Inventory Visibility",
@@ -87,37 +101,37 @@
      "Stock figures come from the system doing your counting today",
      "Nothing to count by hand inside VOS"
     ],
-    "link": {"href": "/inventory-visibility-software", "text": "More on stock visibility →"}
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
    }
   ]
  },
-
  "cards": {
-  "eyebrow": "Also Built In",
-  "h2": "Smaller things that save you a call",
-  "lead": "The small stuff that stops a call before it starts.",
+  "eyebrow": "Not Either Or",
+  "h2": "When VOS and Pepper work together",
+  "lead": "VOS is additive. Nothing has to come out for it to go in, so plenty of distributors run both.",
   "items": [
    {
-    "h3": "One place to manage it",
-    "body": "Update a guide, add an account, or look back over what a customer has ordered. It is all in the same place, and your team does not need a ticket to change anything."
+    "h3": "Keep the storefront, add the voice",
+    "body": "Some accounts are never going to browse a catalog. They will talk instead, at the end of a shift, from the walk-in. The storefront stays for the ones who tap, and VOS covers the ones who talk."
    },
    {
-    "h3": "A record per order",
-    "body": "Everything sent this way gets a number of its own, with the time on it and the account behind it. Orders still phoned in do not get that."
+    "h3": "Try it on the accounts still phoning",
+    "body": "VOS goes in beside what you run in a day or two, so you can put it on the handful of accounts that never adopted and judge it on those before you decide anything bigger."
    },
    {
-    "h3": "Nothing to buy for the kitchen",
-    "body": "VOS is an iOS and Android app on handsets your accounts own already. Nothing to ship to a kitchen, nothing to mount on a wall, nothing that needs replacing in two years."
+    "h3": "The ERP keeps being the one destination",
+    "body": "Both feed the system you have, so adding VOS does not change where an order ends up. It arrives over EDI, the API or QuickBooks, into the same place your team already works."
    }
   ]
  },
-
  "midcta": {
   "h3": "Watch one order travel from a kitchen to your desk",
   "body": "Book 20 minutes. We follow one spoken order all the way through to what your office opens, and you can judge the fit against anything else on your shortlist.",
   "cta": "Book a Free Demo →"
  },
-
  "steps": {
   "eyebrow": "Getting Started",
   "h2": "Three steps, and no migration to schedule",
@@ -137,89 +151,139 @@
    }
   ]
  },
-
  "comparison": {
   "eyebrow": "Side By Side",
   "h2": "VoiceOrder Solutions vs Pepper. A layer, not a platform.",
-  "h2_lines": ["VoiceOrder Solutions vs Pepper.", "A layer, not a platform."],
-  "lead": "Pepper sells a broad platform to independents. VOS is the ordering layer that bolts on beside the stack you have now, so most distributors weighing a Pepper alternative are really choosing between those two shapes. The third column is where most of their accounts order from today.",
-  "heads": ["Feature", "VoiceOrder Solutions", "Pepper", "Phone + Email"],
+  "h2_lines": [
+   "VoiceOrder Solutions vs Pepper.",
+   "A layer, not a platform."
+  ],
+  "lead": "Pepper sells a broad platform to independents. VOS is the ordering layer that bolts on beside the stack you have now, so most distributors weighing a Pepper alternative are really choosing between those two shapes. Read down the VOS column for what changes, and the Pepper column for what stays as it is.",
+  "heads": [
+   "Feature",
+   "VoiceOrder Solutions",
+   "Pepper"
+  ],
   "rows": [
    {
     "label": "Customer signs off on every line first",
     "cells": [
-     {"t": "icon", "v": "yes"},
-     {"t": "text", "v": "Varies by channel"},
-     {"t": "text", "v": "If read back"}
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Varies by channel"
+     }
     ]
    },
    {
     "label": "Orders arrive with no call for anyone to take",
     "cells": [
-     {"t": "icon", "v": "yes"},
-     {"t": "icon", "v": "yes"},
-     {"t": "text", "v": "Voicemail gets played back"}
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
     ]
    },
    {
     "label": "An app the customer's own staff open",
     "cells": [
-     {"t": "icon", "v": "yes"},
-     {"t": "icon", "v": "yes"},
-     {"t": "icon", "v": "no"}
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
     ]
    },
    {
     "label": "Up and running",
     "cells": [
-     {"t": "text", "v": "24-48 hours for most"},
-     {"t": "text", "v": "35 to 90 days, published"},
-     {"t": "text", "v": "None needed"}
+     {
+      "t": "text",
+      "v": "24-48 hours for most"
+     },
+     {
+      "t": "text",
+      "v": "35 to 90 days, published"
+     }
     ]
    },
    {
     "label": "What the rollout asks of you",
     "cells": [
-     {"t": "text", "v": "Hand over your guides"},
-     {"t": "text", "v": "Five phases, with a manager"},
-     {"t": "text", "v": "Nothing"}
+     {
+      "t": "text",
+      "v": "Hand over your guides"
+     },
+     {
+      "t": "text",
+      "v": "Five phases, with a manager"
+     }
     ]
    },
    {
     "label": "Its own guide for every account, at your prices",
     "cells": [
-     {"t": "icon", "v": "yes"},
-     {"t": "icon", "v": "yes"},
-     {"t": "text", "v": "Paper only"}
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
     ]
    },
    {
     "label": "A number and a timestamp on the order",
     "cells": [
-     {"t": "icon", "v": "yes"},
-     {"t": "icon", "v": "yes"},
-     {"t": "text", "v": "Once keyed in"}
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
     ]
    },
    {
     "label": "Orders out as PDF, Excel, Word, EDI, API or QuickBooks",
     "cells": [
-     {"t": "icon", "v": "yes"},
-     {"t": "text", "v": "Through its ERP integrations"},
-     {"t": "text", "v": "Keyed in by hand"}
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Through its ERP integrations"
+     }
     ]
    },
    {
     "label": "What the product covers",
     "cells": [
-     {"t": "text", "v": "Ordering plus stock visibility"},
-     {"t": "text", "v": "Storefront, sales, finance, pricing, marketing"},
-     {"t": "text", "v": "One order at a time"}
+     {
+      "t": "text",
+      "v": "Ordering plus stock visibility"
+     },
+     {
+      "t": "text",
+      "v": "Storefront, sales, finance, pricing, marketing"
+     }
     ]
    }
   ]
  },
-
  "faq": {
   "eyebrow": "FAQ",
   "h2": "Questions distributors ask when they compare the two",
@@ -257,12 +321,11 @@
     "a": "They can keep phoning, and your team handles those exactly as it does now. Worth being clear though: a call or a voicemail does not get a VOS order number, a timestamp or a stock movement. Only what comes through the app does."
    },
    {
-    "q": "Is VOS only for restaurants, or do store accounts work too?",
-    "a": "Both. We sell to independent distributors and to DSD, not to enterprise, and the accounts on it are restaurants, kitchens and retail stores. For DSD, the orders are in before the truck loads, so drivers carry what the account asked for."
+    "q": "Where do the Pepper details on this page come from?",
+    "a": "Pepper's own website. The module list, the storefront and Order Agent descriptions and the 35 to 90 day implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them."
    }
   ]
  },
-
  "mainCta": {
   "h2": "Compare it against your shortlist",
   "body": "Twenty minutes, one real order, and a straight answer on what VOS does and does not cover.",
