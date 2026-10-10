@@ -119,6 +119,14 @@
     {
       "source": "/grubmarket-ai-alternative",
       "destination": "/vos-grubmarket-ai-alternative-landing.html"
+    },
+    {
+      "source": "/cut-dry-alternative",
+      "destination": "/vos-cut-dry-alternative-landing.html"
+    },
+    {
+      "source": "/bluecart-alternative",
+      "destination": "/vos-bluecart-alternative-landing.html"
     }
   ],
   "headers": [

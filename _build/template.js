@@ -7,6 +7,7 @@ const fs = require('fs');
 const path = require('path');
 const REPO = path.resolve(__dirname, '..');
 const registry = require('./registry.js');
+const { namesWord, maskWord, claimsSwitchFrom } = require('./names.js');
 const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software', 'supplier-management-software']);
 const CONTACT = 'https://www.voiceordersolutions.com/contact-us';
 const txt = h => h.replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
@@ -83,11 +84,10 @@ for (const p of registry) {
     // must not claim distributors "switch from" it: we have no evidence of that.
     if (!p.competitor) fail('compare page has no `competitor` in registry.js');
     else {
-      const names = new RegExp('(^|[^A-Za-z])' + p.competitor + '([^A-Za-z]|$)');
-      if (!names.test(txt(prob))) fail(`"why teams compare" section never names ${p.competitor}`);
-      if (!names.test(txt(sec('cards')))) fail(`coexistence section never names ${p.competitor}`);
+      if (!namesWord(txt(prob), p.competitor)) fail(`"why teams compare" section never names ${p.competitor}`);
+      if (!namesWord(txt(sec('cards')), p.competitor)) fail(`coexistence section never names ${p.competitor}`);
     }
-    if (new RegExp('switch(es|ed|ing)? (from|off) ' + p.competitor, 'i').test(txt(body))) fail(`claims distributors switch from ${p.competitor}`);
+    if (claimsSwitchFrom(txt(body), p.competitor)) fail(`claims distributors switch from ${p.competitor}`);
   }
 
   // Features

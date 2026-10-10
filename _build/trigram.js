@@ -98,7 +98,7 @@ function analyse(p) {
   let vosOnly = new Set();
   if (p.kind === 'compare') {
     const html = fs.readFileSync(path.join(REPO, p.file), 'utf8');
-    const vosHtml = vosSideHtml(html);
+    const vosHtml = vosSideHtml(html, p.competitor);
     const inVos = gramsOf(vosHtml, masks);
     const whole = gramsOf(html, masks);
     const rest = new Set();

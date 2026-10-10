@@ -1,28 +1,36 @@
-/* Which sections of a comparison page are about VOS, and which are about the competitor.
+/* Which parts of a comparison page are about VOS, and which are about the competitor.
  *
- * Why this exists. The twelve `<competitor> alternative` pages share a feature deep-dive, a
- * setup section, an inventory disclaimer and a set of VOS-only FAQs. Those are all descriptions
- * of one product, so they are the same on every page BY DESIGN, and the knowledge base fixes the
- * wording of several of them. Measuring them for cross-page repetition just forces a twelfth
- * paraphrase of a sentence that was already correct.
+ * WHY THIS EXISTS
+ * The twelve `<competitor> alternative` pages all describe one product, VOS, alongside twelve
+ * different competitors. The VOS half is the same on every page BY DESIGN, and the knowledge
+ * base fixes the wording of several of its claims ("fewer stockout surprises", not "fewer
+ * stockouts"). Measuring that half for cross-page repetition just forces a twelfth paraphrase
+ * of a sentence that was already correct, and the paraphrases get worse each time.
  *
- * What a reader actually notices is whether the ARGUMENT is the same, and the argument lives in
- * the competitor-facing sections: the hero, the comparison table, "why teams look elsewhere", the
- * coexistence cards and the competitor FAQs. Those stay fully measured, so a lazy second page
- * still fails the gate.
+ * What a reader notices is whether the ARGUMENT repeats, and the argument is wherever the
+ * competitor is named.
  *
- * So: on a compare page, a trigram that occurs ONLY inside the VOS-side sections is excluded from
- * the CROSS-page count. It is still counted WITHIN the page, because saying the same thing twice
- * on one page is a writing defect no matter which section it sits in. A trigram that appears in
- * both a VOS-side and a competitor-facing section stays measured, so nothing hides by being
- * mentioned once in a feature bullet.
+ * THE RULE, which is self-enforcing
+ * On a compare page, a chunk of copy that never names the competitor counts as VOS-side and is
+ * excluded from the CROSS-page trigram count. Name the competitor and the chunk is measured in
+ * full. So if you want a sentence held to the no-repetition bar, say who it is about: on a
+ * comparison page that is what you should be doing anyway.
  *
- * Eugene approved the principle on 2026-10-10 ("widen the allow-list... the canonical VOS product
- * facts"); this is the structural form of it, which is tighter than a growing regex list.
+ * Two safeguards:
+ *   - WITHIN one page nothing is exempt. Saying the same thing twice on a single page is a
+ *     writing defect wherever it sits, and `where.js` still reports it.
+ *   - A trigram appearing in BOTH a VOS-side and a competitor-facing chunk stays measured, so
+ *     nothing hides by being mentioned once in a feature bullet.
+ *
+ * Eugene approved the principle on 2026-10-10 ("widen the allow-list... the canonical VOS
+ * product facts"). This is the structural form of it, and it is tighter than the regex allow-list
+ * it replaces: it exempts a sentence for a reason you can read off the page.
  */
 
-// The VOS-side sections, by the ids and aria-labels the template gives them.
-const VOS_SIDE = [
+const { namesWord } = require('./names.js');
+
+// Whole sections that are about VOS on every compare page.
+const VOS_SIDE_SECTIONS = [
   /<section[^>]*id="features"[\s\S]*?(?=<section|<footer|<\/body)/i,
   /<section[^>]*id="how-it-works"[\s\S]*?(?=<section|<footer|<\/body)/i,
   /<section[^>]*class="stats-strip"[\s\S]*?(?=<section|<footer|<\/body)/i,
@@ -30,14 +38,45 @@ const VOS_SIDE = [
   /<section[^>]*id="testimonials"[\s\S]*?(?=<section|<footer|<\/body)/i,
 ];
 
-/* Returns the concatenated VOS-side HTML of a page, or '' when there is none. */
-function vosSideHtml(html) {
+// FAQ items and comparison rows are classified one by one, because a FAQ list holds both
+// "Is VOS better than X?" (an argument) and "Does this touch our ERP?" (a VOS fact that happens
+// to live in the FAQ).
+const ITEM_PATTERNS = [
+  /<div class="faq-item">[\s\S]*?<\/div>\s*<\/div>/gi,
+  /<tr>[\s\S]*?<\/tr>/gi,
+];
+
+/* Deliberately NOT in the list above: .problem-card and .feature-card.
+ * Those carry the argument ("why teams look elsewhere", "when the two work together"), so they
+ * stay measured on every page whether or not they name the competitor. A card headed "You buy
+ * the whole stack to fix one step" is an argument about a competitor even without the name in
+ * it, and twelve pages making that same argument is exactly the proposition sameness the
+ * Oct 2026 reviewers caught by hand. Only FAQ items and table rows get the unnamed exemption,
+ * because those are where a generic VOS fact genuinely lives ("Does this touch our ERP?").
+ */
+
+/* The VOS-side HTML of a page: the always-VOS sections, plus every item in a competitor-facing
+ * section that never names the competitor. */
+function vosSideHtml(html, competitor) {
   let out = '';
-  for (const re of VOS_SIDE) {
+  for (const re of VOS_SIDE_SECTIONS) {
     const m = html.match(re);
     if (m) out += '\n' + m[0];
+  }
+  if (!competitor) return out;
+
+  // Look for unnamed items only outside the sections already counted as VOS-side, so an item is
+  // not classified twice.
+  let rest = html;
+  for (const re of VOS_SIDE_SECTIONS) rest = rest.replace(re, ' ');
+
+  for (const re of ITEM_PATTERNS) {
+    for (const m of rest.match(re) || []) {
+      const text = m.replace(/<[^>]+>/g, ' ');
+      if (!namesWord(text, competitor)) out += '\n' + m;
+    }
   }
   return out;
 }
 
-module.exports = { vosSideHtml, VOS_SIDE };
+module.exports = { vosSideHtml, VOS_SIDE_SECTIONS, ITEM_PATTERNS };

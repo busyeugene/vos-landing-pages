@@ -114,7 +114,7 @@ for (const p of registry) {
   if (p.kind === 'compare') {
     const html = fs.readFileSync(path.join(REPO, p.file), 'utf8');
     const vos = new Set();
-    for (const raw of sentencesFrom(vosSideHtml(html))) for (const g of grams(raw, p.slug)) vos.add(g);
+    for (const raw of sentencesFrom(vosSideHtml(html, p.competitor))) for (const g of grams(raw, p.slug)) vos.add(g);
     const rest = new Set();
     for (const raw of sentences(p.file)) for (const g of grams(raw, p.slug)) if (!vos.has(g)) rest.add(g);
     for (const g of vos) if (!rest.has(g)) s.delete(g);

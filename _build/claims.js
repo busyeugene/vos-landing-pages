@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const REPO = path.resolve(__dirname, '..');
 const registry = require('./registry.js');
+const { namesWord, maskWord, claimsSwitchFrom } = require('./names.js');
 const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software', 'supplier-management-software']);
 
 // [label, regex, severity]  severity: BAN = never allowed, CHECK = read the sentence
@@ -62,7 +63,7 @@ for (const p of registry) {
   const ownName = p.kind === 'compare' && p.competitor ? p.competitor : null;
   const exempt = (label, s) => {
     if (label !== 'named integrations' || !ownName) return s;
-    return s.replace(new RegExp('(^|[^A-Za-z])' + ownName + '([^A-Za-z]|$)', 'g'), '$1@COMPETITOR@$2');
+    return maskWord(s, ownName, '@COMPETITOR@');
   };
   for (const [label, re, sev] of RULES) {
     for (const raw of sents) {

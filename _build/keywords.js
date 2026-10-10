@@ -300,4 +300,22 @@ module.exports = {
       'better than grubmarket ai',
     ],
   },
+  'cut-dry-alternative': {
+    primary: 'cut+dry alternative',
+    secondary: [
+      'cut+dry competitor',
+      'cut+dry replacement',
+      'alternative to cut+dry',
+      'better than cut+dry',
+    ],
+  },
+  'bluecart-alternative': {
+    primary: 'bluecart alternative',
+    secondary: [
+      'bluecart competitor',
+      'bluecart replacement',
+      'alternative to bluecart',
+      'better than bluecart',
+    ],
+  },
 };
