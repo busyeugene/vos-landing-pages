@@ -242,4 +242,14 @@ module.exports = [
     kind: 'compare',
     competitor: 'Burnt',
   },
+  {
+    slug: 'grubmarket-ai-alternative',
+    file: 'vos-grubmarket-ai-alternative-landing.html',
+    label: 'GrubMarket AI Alternative',
+    card: 'VOS vs GrubMarket AI',
+    blurb: "GrubAssist puts a voice assistant in your team's hands. VOS puts the app in your customers' hands, so there is no order left to create.",
+    cluster: 'compare',
+    kind: 'compare',
+    competitor: 'GrubMarket',
+  },
 ];

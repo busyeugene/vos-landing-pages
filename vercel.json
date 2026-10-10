@@ -115,6 +115,10 @@
     {
       "source": "/burnt-ai-alternative",
       "destination": "/vos-burnt-ai-alternative-landing.html"
+    },
+    {
+      "source": "/grubmarket-ai-alternative",
+      "destination": "/vos-grubmarket-ai-alternative-landing.html"
     }
   ],
   "headers": [

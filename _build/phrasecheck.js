@@ -23,6 +23,7 @@ const path = require('path');
 const REPO = path.resolve(__dirname, '..');
 const registry = require('./registry.js');
 const keywords = require('./keywords.js');
+const { vosSideHtml } = require('./compare-sections.js');
 
 const STOP = new Set(('a an the and or but if so of to in on at by for with from into onto up out off over as is are was were be been ' +
   'being it its it\'s this that these those there here then than you your you\'re yours we our us they their them he she his her ' +
@@ -34,7 +35,11 @@ const STOP = new Set(('a an the and or but if so of to in on at by for with from
 const norm = s => s.toLowerCase().replace(/[’']/g, '').replace(/[^a-z0-9% ]+/g, ' ').replace(/\s+/g, ' ').trim();
 
 function sentences(file) {
-  let h = fs.readFileSync(path.join(REPO, file), 'utf8');
+  return sentencesFrom(fs.readFileSync(path.join(REPO, file), 'utf8'));
+}
+
+function sentencesFrom(src) {
+  let h = src;
   h = h.replace(/<head>[\s\S]*?<\/head>/i, '')
     .replace(/<(style|script)[\s\S]*?<\/(style|script)>/gi, '')
     .replace(/<!--[\s\S]*?-->/g, '')
@@ -100,10 +105,20 @@ if (!registry.some(p => p.slug === slug)) {
   process.exit(2);
 }
 
+// Mirrors trigram.js: on a compare page, a trigram that occurs ONLY in the VOS-side sections is
+// shared by design, so it must not make a candidate look colliding. See compare-sections.js.
 const byPage = new Map();
 for (const p of registry) {
   const s = new Set();
   for (const raw of sentences(p.file)) for (const g of grams(raw, p.slug)) s.add(g);
+  if (p.kind === 'compare') {
+    const html = fs.readFileSync(path.join(REPO, p.file), 'utf8');
+    const vos = new Set();
+    for (const raw of sentencesFrom(vosSideHtml(html))) for (const g of grams(raw, p.slug)) vos.add(g);
+    const rest = new Set();
+    for (const raw of sentences(p.file)) for (const g of grams(raw, p.slug)) if (!vos.has(g)) rest.add(g);
+    for (const g of vos) if (!rest.has(g)) s.delete(g);
+  }
   byPage.set(p.slug, s);
 }
 

@@ -21,6 +21,7 @@ const path = require('path');
 const REPO = path.resolve(__dirname, '..');
 const registry = require('./registry.js');
 const keywords = require('./keywords.js');
+const { vosSideHtml } = require('./compare-sections.js');
 
 const STOP = new Set(('a an the and or but if so of to in on at by for with from into onto up out off over as is are was were be been ' +
   'being it its it\'s this that these those there here then than you your you\'re yours we our us they their them he she his her ' +
@@ -32,7 +33,12 @@ const STOP = new Set(('a an the and or but if so of to in on at by for with from
 const norm = s => s.toLowerCase().replace(/[’']/g, '').replace(/[^a-z0-9% ]+/g, ' ').replace(/\s+/g, ' ').trim();
 
 function sentences(file) {
-  let h = fs.readFileSync(path.join(REPO, file), 'utf8');
+  return sentencesFrom(fs.readFileSync(path.join(REPO, file), 'utf8'));
+}
+
+/* The same text pipeline, over an HTML string rather than a file. */
+function sentencesFrom(src) {
+  let h = src;
   h = h.replace(/<head>[\s\S]*?<\/head>/i, '')
     .replace(/<(style|script)[\s\S]*?<\/(style|script)>/gi, '')
     .replace(/<!--[\s\S]*?-->/g, '')
@@ -86,12 +92,46 @@ function analyse(p) {
       }
     }
   }
-  return { slug: p.slug, counts, where };
+  // On a compare page the VOS-side sections (features, setup, stats, testimonials, final CTA)
+  // describe one product and are identical across the twelve by design. A trigram found ONLY
+  // there is excluded from the cross-page count, but still counted within the page.
+  let vosOnly = new Set();
+  if (p.kind === 'compare') {
+    const html = fs.readFileSync(path.join(REPO, p.file), 'utf8');
+    const vosHtml = vosSideHtml(html);
+    const inVos = gramsOf(vosHtml, masks);
+    const whole = gramsOf(html, masks);
+    const rest = new Set();
+    for (const g of whole) if (!inVos.has(g)) rest.add(g);
+    for (const g of inVos) if (!rest.has(g)) vosOnly.add(g);
+  }
+  return { slug: p.slug, counts, where, vosOnly };
+}
+
+/* Trigrams present in an HTML fragment, using the same normalisation as analyse(). */
+function gramsOf(html, masks) {
+  const set = new Set();
+  for (const raw of sentencesFrom(html)) {
+    let n = ' ' + norm(raw) + ' ';
+    for (const m of masks) n = n.split(' ' + m + ' ').join(' | ');
+    for (const chunk of n.split('|')) {
+      const w = chunk.trim().split(' ').filter(Boolean);
+      for (let i = 0; i + 3 <= w.length; i++) {
+        const g = w.slice(i, i + 3);
+        if (g.filter(x => !STOP.has(x)).length < 2) continue;
+        set.add(g.join(' '));
+      }
+    }
+  }
+  return set;
 }
 
 const pages = registry.map(analyse);
 const df = new Map();
-for (const p of pages) for (const g of p.counts.keys()) df.set(g, [...(df.get(g) || []), p.slug]);
+for (const p of pages) for (const g of p.counts.keys()) {
+  if (p.vosOnly && p.vosOnly.has(g)) continue;   // shared VOS copy, see compare-sections.js
+  df.set(g, [...(df.get(g) || []), p.slug]);
+}
 
 // Cross-page allow-list: fixed facts that may appear on any number of pages (never within-page repeats).
 // Fixed facts: brand, the delivery-format list, iOS/Android, and the numbers (24/7, 20–30 minutes saved,

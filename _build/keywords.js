@@ -291,4 +291,13 @@ module.exports = {
       'better than burnt ai',
     ],
   },
+  'grubmarket-ai-alternative': {
+    primary: 'grubmarket ai alternative',
+    secondary: [
+      'grubmarket ai competitor',
+      'grubmarket ai replacement',
+      'alternative to grubmarket ai',
+      'better than grubmarket ai',
+    ],
+  },
 };
