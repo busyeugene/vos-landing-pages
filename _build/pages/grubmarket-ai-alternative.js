@@ -12,7 +12,7 @@
  */
 module.exports = {
   title: "GrubMarket AI Alternative for Distributors in 2026",
-  description: 'GrubAssist hands your team a voice assistant. This GrubMarket AI alternative hands your customers the app, so nobody keys the order at all.',
+  description: 'GrubAssist hands your team a voice assistant. This GrubMarket AI alternative hands your customers the app, so your team never builds the order.',
   related: ["rekki-alternative","wizcommerce-alternative","cut-dry-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
@@ -31,7 +31,7 @@ module.exports = {
       <p class="lead mt-16">
         Both products run on voice. The difference is who is talking. VOS is a GrubMarket AI
         alternative where the kitchen speaks the order into the app on its own phone and approves it,
-        so what reaches your desk is finished. Nobody on your side keys anything.
+        so what reaches your desk is finished. Nobody on your side builds the order.
       </p>
 
       <div class="hero-ctas">
@@ -40,9 +40,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Nothing to teach it</span>
+        <span>Your customer holds the mic</span>
         <span class="hero-trust-dot"></span>
-        <span>Your ERP is untouched</span>
+        <span>Nothing to change in your ERP</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -76,8 +76,7 @@ module.exports = {
       <div class="stat-label">Is all most distributors wait to go live</div>
     </div>
     <div>
-      <div class="stat-number">Same Day</div>
-      <div class="stat-label">Carries a first order for most kitchens</div>
+      <div class="stat-number">24/7</div> <div class="stat-label">Is when an account can send one</div>
     </div>
   </div>
 </section>
@@ -93,9 +92,7 @@ module.exports = {
       <span class="eyebrow">Who Is Talking</span>
       <h2>VoiceOrder Solutions vs GrubMarket AI.<br>Same technology, other end.</h2>
       <p class="lead mt-16">
-        GrubAssist is an assistant for your own staff that can also build an order. VOS is an app
-        your customers speak into, which is the distinction that matters when a GrubMarket AI
-        alternative comes up. Two rows go to them outright, and they are marked that way.
+        VOS puts the app in your customers' hands. GrubAssist is an assistant for your own staff that can also build an order, which is the distinction that matters when a GrubMarket AI alternative comes up. Both products use it, so the rows below mark whose hands it is in.
       </p>
     </div>
 
@@ -150,8 +147,8 @@ module.exports = {
             <td>No timeline published</td>
           </tr>
           <tr>
-            <td>What you are buying</td>
-            <td>Ordering plus stock visibility</td>
+            <td>What changes on your order desk</td>
+            <td>The order arrives built and approved</td>
             <td>An assistant, extraction, chatbots, pricing data</td>
           </tr>
         </tbody>
@@ -363,8 +360,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>What is on hand, as the orders come in</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to what is being ordered, and the
-            catalog tracks the levels. It is not the system of record for stock: yours stays in
+            VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
             charge, and a demo walks the connection between them.
           </p>
           <ul class="feature-bullets mt-24">
@@ -502,8 +498,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Nobody had to teach it our catalog. We sent the lists on a Tuesday
-            and accounts were speaking orders in on the Wednesday."
+            "Nobody had to teach it our catalog. We sent the lists and accounts were speaking orders in within a couple of days."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -577,9 +572,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">Hear it from the customer's side for once</h3>
+      <h3 style="margin-bottom:10px;">See an order arrive already finished</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. A buyer speaks an order, approves it, and it arrives on the desk in whatever your office opens.
+        Twenty minutes. A buyer speaks an order, approves it, and it arrives on the desk as a PDF, over EDI or over the API.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -616,7 +611,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For getting an order in without anyone on your side touching it, we think so, because
+          For getting an order in without anyone on your side building it, we think so, because
           the buyer does the work and signs it off. For asking your data questions out loud, no,
           and not by a little: VOS does not do that at all. This is the usual reason a GrubMarket
           AI alternative is weighed rather than simply chosen.
@@ -640,7 +635,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No, and there is no module for it because it arrives knowing your lists. The item list you
+          No, and there is no module for it, because nothing has to be taught. The item list you
           keep for an account is the configuration. Load it, and spoken items land on the right
           rows at the price you hold.
         </div>
@@ -652,7 +647,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. It never goes near your ERP beyond handing in what the buyer approved. GrubAssist connects to an ERP so it can answer questions about the business; VOS only ever delivers into one. Everything downstream behaves exactly as it did yesterday.
+          Only to hand it the order. It never goes near your ERP beyond handing in what the buyer approved. GrubAssist connects to an ERP so it can answer questions about the business; VOS only ever delivers into one. Everything downstream behaves exactly as it did yesterday.
         </div>
       </div>
 
@@ -662,7 +657,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither of us publishes a figure. Our figure depends on how many accounts you want opened. Theirs comes after a demo. With that much on their side, the thing to
+          Neither of us publishes a figure. Ours arrives as a quote once we know your setup. Theirs comes after a demo. With that much on their side, the thing to
           pin down is which ones the quote actually covers.
         </div>
       </div>

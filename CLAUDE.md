@@ -251,6 +251,7 @@ node structure.js      # tag balance + one h1 per page
 node trigram.js        # 3-word repetition: 0 within a page; `--cross 3` must list nothing (fixed facts allow-listed)
 node repeat.js         # 5-word phrases and sentences shared between pages
 python layout.py       # headless Chrome at 1440px and 390px: overflow, H1 > 4 lines, wrapping trust line
+node promote.js        # compare pages: is each slot selling VOS or the competitor? prints, never fails
 node outline.js all <dir>   # clean page copy for reviewers (no author comments)
 node apply.js <fixes.js> --dry   # apply copy fixes (text, @card, @row, @faq ops); each must match exactly once
 node where.js <slug>        # sentences behind each within-page trigram repeat
@@ -275,9 +276,20 @@ page's angle, live in `_build/research/competitors/`.**
 ## Competitor comparison pages (`compare` cluster, opened 2026-10-10)
 
 ### ▶ RESUME HERE
-**ALL 12 BUILT, GATED AND PUSHED, and the related strips are re-pointed at each other.**
-Current as of 2026-10-10. What is left is the verification passes, the hub page, the `/solutions`
-cards and the Webflow ports: see "What is left" below.
+**ALL 12 BUILT, GATED, AND REVIEWED IN EIGHT PASSES. The repo copy is final and Webflow-ready.**
+Current as of 2026-10-10. **The current job is the Webflow ports as drafts** (11 pages to port, plus
+a re-port of Pepper, whose draft is now a full rewrite behind the repo). After that: the hub page and
+a `/solutions` card per page. See "Passes 7 and 8" below for what changed, and "Porting a comparison
+page" in the Webflow section for how.
+
+⚠ **The Pepper Webflow draft is stale.** Passes 7 and 8 changed its H1, hero lead, comparison lead,
+five comparison rows, both CTAs and the cost FAQ. Re-port it rather than patching it.
+
+⚠ **One claim needs the client before these go live:** 10 of 12 pages had come to state that VOS is
+"quoted on how many accounts you want opened". The KB's own **Q19 lists the pricing basis as an open
+question** and batch 4 had this class of claim removed once already. It is now stripped from all 10
+(each worded differently, so do not "restore consistency"). If Eugene confirms per-account pricing,
+the stronger wording can go back.
 
 | # | Slug | Competitor | Angle (never reuse another page's) | State |
 |---|---|---|---|---|
@@ -310,14 +322,20 @@ live before writing, including ones you think you know.**
 1. ~~Re-point all twelve related strips at each other~~ **done 2026-10-10.** Grouped by argument
    affinity (platforms and growth / AI and order intake / systems of record); every page has 2 to
    4 inbound sibling links and the footers still carry the feature-page and cross-audience links.
-2. ~~The verification passes~~ **done 2026-10-10, all six.** Competitor accuracy, are-we-selling-
-   VOS, repetition, Airtable keyword coverage, then two more on promotion (over-conceding, and
-   whether the pages sell at all) plus a closing repetition sweep. See "The six review passes"
-   below. **The repo copy is now Webflow-ready.**
-3. **NEXT: the Webflow ports**, then the hub page (one card per comparison, plus the table and CTAs
-   reused), then a `/solutions` card for each.
+2. ~~The verification passes~~ **done 2026-10-10, all eight.** Competitor accuracy, are-we-selling-
+   VOS, repetition, Airtable keyword coverage, two on promotion plus a closing repetition sweep, then
+   Eugene's passes 7 and 8 (VOS-description accuracy, and over-conceding). See "The six review
+   passes" and "Passes 7 and 8" below. **The repo copy is now final and Webflow-ready.**
+3. **NEXT: the Webflow ports as drafts** (11 to port + Pepper to re-port), then the hub page (one card
+   per comparison, plus the table and CTAs reused), then a `/solutions` card for each.
 
 ### Open for Eugene, carried forward
+- **Per-account pricing is unconfirmed and now stripped from 10 pages.** KB Q19 lists the pricing
+  basis as an open client question. Confirm it and the stronger wording can return; until then the
+  pages say only that pricing is quoted with nothing published.
+- **One H1 still sells by absence on purpose:** `wizcommerce` "A WizCommerce Alternative That Needs
+  No Reading", because the page's whole axis is whether an interpretation step exists. `promote.js`
+  flags it; it is a deliberate keep, like the NECS Entree H1 below.
 - **Two meta titles drift from the Airtable plan**, left as shipped because "Food Distributors" is
   closer to the ICP than the plan's wording. One line to change either way: `orderease` plan
   "OrderEase Alternative for Distributors in 2026" vs shipped "...for Food Distributors..."; and
@@ -545,6 +563,47 @@ What they found, and the lessons:
   REKKI page ("lands on the people who were also something your team has to do") and a doubled
   sentence on Choco, where a replacement duplicated the clause that already followed it. Read the
   outline after every edit round, and prefer replacing a WHOLE sentence over its tail.
+
+### Passes 7 and 8 (Eugene's ask, 2026-10-10): "did we describe VOS right" and "are we overselling them"
+Eight no-context reviewers (four fact-checkers against the KB, four distributor-buyers with the
+tables) plus one new tool. **Every finding was re-verified by hand before anything changed**, and
+several reviewer claims were right about the fact and wrong about the fix.
+
+**`_build/promote.js`** is the answer to "are we promoting VOS, not competitors". It scores only the
+HIGH-ATTENTION slots, because a fact buried in bullet 5 of 5 is not promoted: H1, the hero lead's
+first sentence, the trust line, the stats, the comparison lead, the problem cards, the table, both
+CTAs. It prints, it never fails. **Mean tilt went 5.4/11 to 0.9/11**; five pages now score 0. Run it
+whenever a compare page is added or its copy changes.
+
+What the two passes found, and the lessons:
+- ⚠ **`interleave.js` silently made six pages lie about their own tables.** The leads said "the first
+  five rows all go to them" and "all six belong to them", written against the pre-interleave row
+  order; after the reorder, rows 2 and 4 were VOS wins on six pages, and OrderEase's lead pointed at
+  a pricing row that does not exist. **After any transform over structured content, re-verify the
+  prose that describes it**, and prefer prose that does not encode the arrangement ("the rows below
+  mark where each one answers" survives a reorder). Scripting the check found all six in one pass.
+- ⚠ **A claim removed once can come back in new wording.** 10 of 12 pages asserted a pricing BASIS
+  ("quoted on how many accounts you want opened") that KB Q19 lists as an open client question and
+  that batch 4 had already had stripped. All four fact-checkers caught it independently. **Grep the
+  KB's open questions against the built pages; never trust the log.**
+- **`vosfacts.js` OVER-reported, having previously under-reported.** It claimed the 24/7 fact on
+  12/12 while the literal claim was on 0/12, because its regex matched the loose bullet "at any
+  hour" and scored it as the promoted claim. A tool that misreports in either direction is worse
+  than no tool. 24/7 now holds a stats slot on five pages, replacing a duplicate setup-speed stat.
+- **Fixing a lopsided table can overshoot into the opposite defect.** Relabelling cut-dry and
+  bluecart left the competitor with **zero** ticks, which reads as marketing and invites a
+  fact-check. Restore their genuine wins; the goal is that VOS does not lose, not that they do.
+- **Three competitors legitimately keep more ticks** (pepperi 2/4, wizcommerce 2/3, fresho 3/4).
+  They are broader. Forcing a tie there would be the dishonest fix.
+- **The mid-CTA was the pass-6 defect's hiding place.** Pass 6 removed "a plain account of where VOS
+  stops" from every FINAL CTA and 8 of 12 MID CTAs still closed on a promise of limitations. When
+  you fix a pattern, grep for it in the sibling slot.
+- **Two pages promised the demo would run on the visitor's own guide, prices or account.** A
+  20-minute demo cannot: the guide upload is onboarding. "See how", never "watch your".
+- **My own edit rounds added 43 within-page repeats**, cleared over three measured rounds to 32,
+  below the 35 I started with. Budget for the rounds and re-measure after each one.
+- **Check a register "finding" before fixing it.** "realistically" on the wizcommerce page tripped a
+  British-spelling sweep and is correct US English, exactly as this file already warns.
 
 - **Airtable is reachable without the MCP.** A PAT sits in `E:\Claude projects\Link building
   OS\.env.local` as `AIRTABLE_API_KEY`. Read it inside a script, never print it. Base

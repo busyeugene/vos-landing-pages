@@ -27,9 +27,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>A Burnt AI Alternative With One Job.</h1>
       <p class="lead mt-16">
-        Burnt deploys agents right across the operation. VOS is a Burnt AI alternative that stops at
-        the order: your accounts speak what they need into an app, check it over, and approve
-        before anything reaches you. No agents to configure, and nobody deciding on your behalf.
+        VOS is a Burnt AI alternative that stops at the order: your accounts speak what they need into an app, check it over, and approve before anything reaches you. Burnt deploys agents right across the operation. No agents to configure here, and nobody deciding on your behalf.
       </p>
 
       <div class="hero-ctas">
@@ -38,7 +36,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Nobody on site needed</span>
+        <span>Orders land 24/7</span>
         <span class="hero-trust-dot"></span>
         <span>The ERP stays where it is</span>
         <span class="hero-trust-dot"></span>
@@ -91,8 +89,7 @@ module.exports = {
       <span class="eyebrow">Point By Point</span>
       <h2>VoiceOrder Solutions vs Burnt.<br>One step, not every step.</h2>
       <p class="lead mt-16">
-        Burnt is an agent platform: order intake, purchasing, chasing money. VOS is the order-taking step with a person signing it off, which is the useful distinction when a Burnt AI
-        alternative comes up. Two rows below go to Burnt outright, and they are marked that way.
+        VOS is the order-taking step, with a person signing the order off. Burnt is an agent platform spanning intake, buying and collections, which is the useful distinction when a Burnt AI alternative comes up. The table marks which rows go which way.
       </p>
     </div>
 
@@ -137,9 +134,9 @@ module.exports = {
             <td>1-2 weeks mostly, to 30-60 days</td>
           </tr>
           <tr>
-            <td>Goes live without anyone on site</td>
+            <td>Live without an IT project</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Their team works on your premises</td>
+            <td>Onboarding is done on site</td>
           </tr>
           <tr>
             <td>Nothing to train or tune</td>
@@ -147,9 +144,9 @@ module.exports = {
             <td>One agent, or the full platform</td>
           </tr>
           <tr>
-            <td>What you are buying</td>
-            <td>Ordering plus stock visibility</td>
-            <td>Intake, buying and collections agents</td>
+            <td>Which step it covers</td>
+            <td>The order itself</td>
+            <td>Agents across the operation</td>
           </tr>
         </tbody>
         <tfoot>
@@ -360,8 +357,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock visible as the orders arrive</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to what is being ordered, and the
-            catalog tracks the levels. It is not the system of record for stock: yours stays
+            VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays
             in charge, and a demo walks the connection between them.
           </p>
           <ul class="feature-bullets mt-24">
@@ -405,8 +401,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and nobody visits</h2>
       <p class="lead mt-16">
-        This is done over email and a call. There is no discovery phase, no site visit and
-        no agent to brief.
+        This is done over email and a call. There is no discovery phase and no IT project, and no agent to brief.
       </p>
     </div>
 
@@ -484,7 +479,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We did not want a consultant in the building for a fortnight. This
+            "We did not want a consultant in the building for two weeks. This
             was two emails and a list, and the orders started arriving."
           </p>
           <div class="testimonial-author">
@@ -576,7 +571,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See a signed-off order land</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One order spoken by a buyer, approved by that buyer, landing in whatever your desk opens.
+        Twenty minutes. One order spoken by a buyer, approved by that buyer, landing in the format your desk already opens.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -663,8 +658,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither of us publishes a rate card, so this comes down to two quotes. We quote per
-          distributor on the number of accounts you want set up. Burnt quotes after a demo. Worth
+          Neither of us publishes a rate card, so this comes down to two quotes. We quote per distributor, once we know what you are running. Burnt quotes after a demo. Worth
           asking both what the figure covers, because the scope either side of it is very
           different.
         </div>
@@ -676,7 +670,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not for VOS. Setup happens remotely, from what you send over. Burnt describes
+          Not for VOS. We set up from the guides you send over, with no implementation project. Burnt describes
           white-glove onboarding with their team working on your premises, which suits some
           operations very well and is exactly what others are trying to avoid.
         </div>
@@ -719,7 +713,7 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Put the narrow tool on your shortlist</h2>
+  <h2>See the order land already approved</h2>
   <p>Twenty minutes, one order, and the chef's own sign-off on screen.</p>
 
   <div class="final-cta-form">

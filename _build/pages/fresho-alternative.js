@@ -42,7 +42,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>A Fresho Alternative That Stays One Step Wide.</h1>
       <p class="lead mt-16">
-        Fresho runs a whole fresh-food operation, down to the run sheet and the invoice. VOS stays narrow. An account talks its order into the app, checks it over, and it reaches you in a layout your office handles already.
+        Ordering is all VOS does. An account talks its order into the app, checks it over, and it reaches you in one of the formats you take today. Fresho runs a whole fresh-food operation, down to the run sheet and the invoice.
       </p>
 
       <div class="hero-ctas">
@@ -51,9 +51,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>One step, not a suite</span>
+        <span>Timestamped the moment it is sent</span>
         <span class="hero-trust-dot"></span>
-        <span>Ten accounts is fine</span>
+        <span>Start on a few accounts</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -107,9 +107,7 @@ module.exports = {
       <span class="eyebrow">Deep Or Narrow</span>
       <h2>VoiceOrder Solutions vs Fresho.<br>A whole operation, or one step.</h2>
       <p class="lead mt-16">
-        Fresho covers ordering, stock, margins, delivery, picking, invoicing and payments, and it
-        knows produce, meat and seafood properly. Anyone judging a Fresho alternative should read
-        the first six rows first, because all six belong to them.
+        In VOS an account speaks its order, and nothing else in your operation moves. Fresho covers ordering, stock, margins, delivery, picking, invoicing and payments, and it knows produce, meat and seafood properly, so a Fresho alternative is a choice about scope. The table marks the one step against the whole operation.
       </p>
     </div>
 
@@ -124,8 +122,8 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Delivery runs and the last mile</td>
-            <td>Not offered</td>
+            <td>Where delivery and the last mile happen</td>
+            <td>Your own operation</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -134,8 +132,8 @@ module.exports = {
             <td>Modules and volume priced together</td>
           </tr>
           <tr>
-            <td>Invoicing and taking payment</td>
-            <td>Not offered</td>
+            <td>Where invoicing and payment happen</td>
+            <td>Your own systems</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -144,8 +142,8 @@ module.exports = {
             <td>Portal, or the message they already send</td>
           </tr>
           <tr>
-            <td>Picking and packing on the floor</td>
-            <td>Not offered</td>
+            <td>Where picking and packing happen</td>
+            <td>Your own floor, unchanged</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -154,8 +152,8 @@ module.exports = {
             <td>Around 4 weeks, plus AI training</td>
           </tr>
           <tr>
-            <td>Margin and price list management</td>
-            <td>You set prices per account</td>
+            <td>Each account's prices and codes are yours to set</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -164,9 +162,9 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>What you are buying</td>
-            <td>Ordering plus stock visibility</td>
-            <td>Operations end to end, or AI on your system</td>
+            <td>Where it fits in the operation</td>
+            <td>The ordering step</td>
+            <td>Operations end to end</td>
           </tr>
         </tbody>
         <tfoot>
@@ -436,7 +434,7 @@ module.exports = {
         <div class="step-number">2</div>
         <h4>Accounts are opened</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          We provision each customer and show the kitchen the app once. Most
+          We provision each customer and the kitchen downloads the app. Most
           will have ordered before the day is finished.
         </p>
       </div>
@@ -445,7 +443,7 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Orders turn up sorted</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Confirmed by the buyer, numbered and timed, set out the way your office asked.
+          Confirmed by the buyer, numbered and timed, in whichever of your formats you chose.
         </p>
       </div>
 
@@ -559,7 +557,7 @@ module.exports = {
         <h4>Fewer messages left to be read</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Accounts that move across stop leaving voicemails and texts. Anything you have reading
-          those gets a shorter list, which is the cheapest way to improve it.
+          those gets a shorter list, which is the simplest way to improve it.
         </p>
       </div>
 
@@ -585,7 +583,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See the narrow version of this</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One account, a single order spoken aloud, and an honest list of everything VOS does not touch.
+        Twenty minutes. One account, a single order spoken aloud, and the rest of your operation never moves.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -670,7 +668,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Their published promise for OrderPilot is that customers carry on ordering exactly as they always have. They also sell an online ordering portal, where the habit does move. VOS only does the second of those, and only by voice, which is why nothing needs checking at your end.
+          Yes. Their published promise for OrderPilot is that customers carry on ordering exactly as they always have. They also sell an online ordering portal, where the habit does move. VOS only does the second of those, and only by voice, so what reaches you is already the buyer's own list. Worth stating the limit: that covers what comes through the app. A call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock.
         </div>
       </div>
 
@@ -681,8 +679,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           They are the most open about this of anyone we compare against: a published starting
-          figure, a setup fee, worked examples and a calculator, with prices by region. We publish
-          nothing and quote on how many accounts you want opened. Ask us and you will get a number
+          figure, a setup fee, worked examples and a calculator, with prices by region. We publish nothing at all and give you a quote instead. Ask us and you will get a number
           for your own book rather than a table to interpret.
         </div>
       </div>
@@ -693,7 +690,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this runs inside 24 to 48 hours, and most kitchens have ordered by the end of day one.
+          For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one.
           There are no modules to scope, which is why a Fresho alternative gets a look from people with one problem to solve rather than a program of work.
         </div>
       </div>
@@ -722,7 +719,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Fix the front door, leave the rest</h2>
-  <p>Twenty minutes, one voice order, and nothing else in your operation moved.</p>
+  <p>Twenty minutes, one voice order, and the minutes your desk loses to each call come back.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

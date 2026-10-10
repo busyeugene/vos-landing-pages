@@ -30,8 +30,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>You May Not Need A NECS Entree Alternative.</h1>
       <p class="lead mt-16">
-        Entree can run your accounting, your warehouse and your EDI, and it should carry on doing
-        that. VOS changes one thing only: instead of typing orders in, the kitchen speaks them into the app and signs it off. What arrives is the order they approved, in whatever format Entree already takes.
+        VOS changes one thing only: instead of typing orders in, the kitchen speaks them into the app and signs it off. What arrives is the order they approved, in one of the formats Entree already takes. Entree carries on running your accounting, your warehouse and your EDI.
       </p>
 
       <div class="hero-ctas">
@@ -40,7 +39,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>No migration, ever</span>
+        <span>Reps get that hour back to sell</span>
         <span class="hero-trust-dot"></span>
         <span>Your version stays put</span>
         <span class="hero-trust-dot"></span>
@@ -73,11 +72,10 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Covers a typical setup, start to end</div>
+      <div class="stat-label">Is the setup window for most distributors</div>
     </div>
     <div>
-      <div class="stat-number">Same Day</div>
-      <div class="stat-label">Is when the first ones typically land</div>
+      <div class="stat-number">24/7</div> <div class="stat-label">Is when the app will take an order</div>
     </div>
   </div>
 </section>
@@ -95,9 +93,7 @@ module.exports = {
       <span class="eyebrow">Not The Same Thing</span>
       <h2>VoiceOrder Solutions vs Entree.<br>One of these runs your business.</h2>
       <p class="lead mt-16">
-        Entree has been food distribution software since 1987 and carries the accounting, the
-        warehouse and the EDI. VOS does not. Anyone searching for a NECS Entree alternative should
-        see the first four rows before anything else, because they all go the other way.
+        VOS alters one thing only: how the order gets to your desk. Entree has been food distribution software since 1987 and carries the accounting, the warehouse and the EDI, so a NECS Entree alternative is not a like-for-like swap. Entree wins every row about running the company; read on for the rows about ordering.
       </p>
     </div>
 
@@ -122,8 +118,8 @@ module.exports = {
             <td>It is the ERP</td>
           </tr>
           <tr>
-            <td>Accounting, ledger and payables</td>
-            <td>Not offered</td>
+            <td>Where the accounting lives</td>
+            <td>Stays in Entree, untouched</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -132,8 +128,8 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Warehouse management and proof of delivery</td>
-            <td>Not offered</td>
+            <td>Where picking and delivery live</td>
+            <td>Handled in Entree today</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -142,18 +138,18 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>How your customer places the order</td>
-            <td>Speaks it, then approves it</td>
-            <td>Types it on web or mobile</td>
+            <td>Placed by speaking, with every line approved first</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Typed on web or mobile</td>
           </tr>
           <tr>
-            <td>How long until it is running</td>
-            <td>24-48 hours for most</td>
+            <td>In use without an IT project</td>
+            <td><span class="check-yes">✓</span></td>
             <td>No timeline published</td>
           </tr>
           <tr>
-            <td>What you are buying</td>
-            <td>Ordering plus stock visibility</td>
+            <td>Where it fits</td>
+            <td>Added beside Entree</td>
             <td>The system that runs the company</td>
           </tr>
         </tbody>
@@ -323,7 +319,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Delivery Formats</span>
-          <h3>It arrives the way your system already accepts</h3>
+          <h3>It arrives in the formats your system already takes</h3>
           <p class="mt-12 text-muted">
             A finished order leaves as an email carrying a PDF, Excel or Word file, or goes
             straight in over the API, over EDI, or into QuickBooks. Whichever route your office
@@ -543,8 +539,7 @@ module.exports = {
         <div class="feature-card-icon">🏛️</div>
         <h4>The system of record does not move</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every number your business runs on keeps living where it lives. VOS reads nothing out of
-          it and writes nothing into it beyond handing over a finished order.
+          Every number your business runs on keeps living where it lives. VOS hands over a finished order and leaves your records where they are.
         </p>
       </div>
 
@@ -552,8 +547,7 @@ module.exports = {
         <div class="feature-card-icon">🙋</div>
         <h4>Give the web ordering the accounts that like it</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Buyers who happily work through a screen can carry on. VOS is for the half of the book
-          that never adopted it and still telephones, which is usually where the morning goes.
+          Buyers who happily work through a screen can carry on. VOS is for the part of the book that never adopted it and still telephones, which is where a lot of the morning goes.
         </p>
       </div>
 
@@ -577,9 +571,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See it hand an order to the system you have</h3>
+      <h3 style="margin-bottom:10px;">See it land in a system like yours</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. A buyer talks, the order shows up in the layout your desk is used to, and
+        Twenty minutes. A buyer talks, the order shows up in the formats your desk already takes, and
         nothing in your distribution software was altered to allow it.
       </p>
     </div>
@@ -619,7 +613,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At getting an order out of a kitchen that will not use a screen, yes. At everything else
+          At getting an order out of a kitchen that will not use an order form, yes. At everything else
           Entree does, the question does not apply: we have no ledger, no payables, no warehouse
           module and no proof of delivery, and no plan to build any of them.
         </div>
@@ -657,8 +651,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Not with the migration itself, no. Replacing it means replacing accounting, ledger,
           payables, EDI and warehouse functions together, and that is an ERP selection rather than
-          an ordering decision. VOS can run before, during or after such a project without caring
-          which stage you are at.
+          an ordering decision. VOS can run before or after such a project, and orders can keep arriving as a file while the rest moves.
         </div>
       </div>
 
@@ -669,8 +662,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           They are not comparable, and a quote for one tells you nothing about the other. Neither
-          of us publishes figures. Ours is priced on how many accounts you want opened, which is a
-          much smaller decision than what an ERP costs you a year.
+          of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the system your whole company runs on.
         </div>
       </div>
 
@@ -680,7 +672,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this goes live inside 24 to 48 hours, with a first order in that day. There is no project here because there is nothing to integrate into,
+          For most distributors this goes live inside 24 to 48 hours, and most kitchens get a first order in that day. There is no project here because there is nothing to integrate into,
           which is the main reason a NECS Entree alternative gets looked at without anybody
           intending to replace anything.
         </div>

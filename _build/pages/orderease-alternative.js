@@ -36,8 +36,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>An OrderEase Alternative That Shortens The Queue.</h1>
       <p class="lead mt-16">
-        OrderEase pulls every order channel into one clean flow: EDI, portals, emailed POs. VOS
-        works a step earlier. A buyer talks it through in the app and signs off the lines, so what lands on your desk is itemized against your codes.
+        VOS works a step earlier. A buyer talks it through in the app and signs off the lines, so what lands on your desk is itemized against your codes. OrderEase pulls every order channel into one clean flow: EDI, portals, emailed POs.
       </p>
 
       <div class="hero-ctas">
@@ -46,9 +45,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>No channel to plumb</span>
+        <span>Live in 24-48 hours for most</span>
         <span class="hero-trust-dot"></span>
-        <span>Nothing to reconcile</span>
+        <span>Nothing to reconcile on app orders</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -102,8 +101,7 @@ module.exports = {
       <span class="eyebrow">Different Ends Of The Path</span>
       <h2>VoiceOrder Solutions vs OrderEase.<br>One cleans up the path, one shortens it.</h2>
       <p class="lead mt-16">
-        OrderEase is order management plumbing, and good plumbing: many channels in, one checked
-        flow out to your ERP. If you are judging an OrderEase alternative, begin at the top: the first five rows all go to them, pricing included.
+        VOS sits at the front of that path, where the order is spoken and approved before it is sent. OrderEase is order management plumbing, and good plumbing: many channels in, one checked flow out to your ERP. So an OrderEase alternative is a choice between cleaning up the path and shortening it.
       </p>
     </div>
 
@@ -118,9 +116,9 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Reads emailed PDF and spreadsheet purchase orders</td>
-            <td>Not offered</td>
-            <td><span class="check-yes">✓</span></td>
+            <td>How the order reaches your desk</td>
+            <td>Itemized under your codes, approved by the buyer</td>
+            <td>Lifted out of the PDF or spreadsheet they sent</td>
           </tr>
           <tr>
             <td>Your account's price list is the only setup</td>
@@ -128,8 +126,8 @@ module.exports = {
             <td>Rules and channels to configure</td>
           </tr>
           <tr>
-            <td>Looks after your EDI trading partners for you</td>
-            <td>Sends orders over EDI</td>
+            <td>Hands the completed order over by EDI, API or QuickBooks</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -138,8 +136,8 @@ module.exports = {
             <td>Types it, or sends a file</td>
           </tr>
           <tr>
-            <td>Marketplace and online store connectors</td>
-            <td>Not offered</td>
+            <td>Where marketplace and store connections live</td>
+            <td>Your own stack</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -148,8 +146,8 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Splits fulfillment across warehouses</td>
-            <td>Not offered</td>
+            <td>Where multi-warehouse fulfillment happens</td>
+            <td>Your own systems</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -158,8 +156,8 @@ module.exports = {
             <td>Days, not months, they say</td>
           </tr>
           <tr>
-            <td>What you are buying</td>
-            <td>Ordering plus stock visibility</td>
+            <td>Where it sits on the path</td>
+            <td>At the front, before the queue forms</td>
             <td>One flow for every channel</td>
           </tr>
         </tbody>
@@ -244,8 +242,7 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>The order is built, not worked out afterwards</h3>
           <p class="mt-12 text-muted">
-            A chef says what is short and the lines come up from that account's own guide, under the codes you use. There is no attachment, no form and no inbox step, because the
-            order was itemized the second it was spoken.
+            A chef says what is short and the lines come up from that account's own guide, under the codes you use. There is nothing for them to attach and no form to work through, because the order was itemized the second it was spoken.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -412,7 +409,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and no integration phase</h2>
       <p class="lead mt-16">
-        Nothing gets mapped, validated or connected to make this start. You send the lists, we
+        There is no implementation project and no IT work to schedule to make this start. You send the lists, we
         open the accounts, the orders begin arriving.
       </p>
     </div>
@@ -562,7 +559,7 @@ module.exports = {
         <div class="feature-card-icon">🧷</div>
         <h4>Try it on the accounts that ring the most</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Adding VOS takes nothing away, so there is no contract to end and no migration to schedule. Ten accounts is a perfectly reasonable place to stop.
+          Adding VOS takes nothing away, so there is no contract to end and no migration to schedule. Start with the ones that call most and ask us what that looks like.
         </p>
       </div>
 
@@ -579,7 +576,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">Watch one arrive already itemized</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. A chef speaks an order, you watch it reach the desk itemized, and we are straight with you about the limits.
+        Twenty minutes. A chef speaks an order, you see it reach the desk itemized, and the minutes your desk spends on each one come back.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -629,7 +626,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           No. There is no parser here and we will not imply otherwise. VOS
           moves accounts off sending a document, which shrinks that pile instead of processing it.
-          For whatever stays on email, their tooling is pointed exactly at it.
+          For whatever stays on email, their tooling is pointed exactly at it. One limit worth stating: only what comes through the app gets a VOS order number, a timestamp or a stock movement. A call or a voicemail does not.
         </div>
       </div>
 
@@ -663,8 +660,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quoted on how many accounts you
-          want opened, with nothing published. Ask us and you will get a number for your own book.
+          They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quote-based, with nothing published at all. Ask us and you will get a number for your own book.
         </div>
       </div>
 

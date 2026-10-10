@@ -25,7 +25,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A BlueCart Alternative That Is Not A Marketplace.</h1>
+      <h1>A BlueCart Alternative Your Accounts Reorder In.</h1>
       <p class="lead mt-16">
         VOS is a BlueCart alternative with no shelf to share. Your account picks up the app, says what the kitchen is short of, and approves the list. Nobody grades your prices, nobody
         lists a rival beside you, and the only catalog in there is yours.
@@ -39,7 +39,7 @@ module.exports = {
       <div class="hero-trust">
         <span>No one else on the shelf</span>
         <span class="hero-trust-dot"></span>
-        <span>No listing to maintain</span>
+        <span>Orders in after you close</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -70,11 +70,11 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Covers a typical setup, start to end</div>
+      <div class="stat-label">Covers go-live for most distributors</div>
     </div>
     <div>
       <div class="stat-number">Same Day</div>
-      <div class="stat-label">Is when the first ones typically land</div>
+      <div class="stat-label">Is first-order day for most kitchens</div>
     </div>
   </div>
 </section>
@@ -91,8 +91,7 @@ module.exports = {
       <span class="eyebrow">Side By Side</span>
       <h2>VoiceOrder Solutions vs BlueCart.<br>Your shelf, or a shared one.</h2>
       <p class="lead mt-16">
-        BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to. VOS has no marketplace at all. The first row below is the concession that
-        matters most, and anyone weighing a BlueCart alternative should read it before the rest.
+        The reorder stays between you and the customers you supply now. BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to, so a BlueCart alternative is really a decision about whose shelf the order sits on. Read the table for which rows bear on a reorder.
       </p>
     </div>
 
@@ -107,9 +106,9 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Finds you restaurants you do not supply yet</td>
-            <td>Not what it does</td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Which accounts it works for</td>
+            <td>Any account on your book today</td>
+            <td>Also restaurants you do not supply yet</td>
           </tr>
           <tr>
             <td>Your buyer signs the order off before it sends</td>
@@ -117,8 +116,8 @@ module.exports = {
             <td>On their storefront, yes</td>
           </tr>
           <tr>
-            <td>Free delivery and promotions to win first-time buyers</td>
-            <td>Not offered</td>
+            <td>Getting a promo in front of an account</td>
+            <td>Promos and confirmations reach accounts by notification and text</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -127,18 +126,18 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Restaurant-side inventory and food costing tools</td>
-            <td>Not offered</td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Stock visibility for whoever is ordering</td>
+            <td>Levels beside your incoming orders</td>
+            <td>Restaurant-side inventory and food costing</td>
           </tr>
           <tr>
-            <td>Your prices labeled for buyers against other vendors</td>
-            <td>Never</td>
+            <td>Your prices shown as you set them</td>
+            <td><span class="check-yes">✓</span></td>
             <td>Pricing Insights grades value</td>
           </tr>
           <tr>
-            <td>What the buyer can see while ordering</td>
-            <td>Your guide only</td>
+            <td>Your own guide is the only thing on screen</td>
+            <td><span class="check-yes">✓</span></td>
             <td>A marketplace catalog alongside yours</td>
           </tr>
           <tr>
@@ -147,9 +146,9 @@ module.exports = {
             <td>Within days, they say</td>
           </tr>
           <tr>
-            <td>What you are buying</td>
-            <td>Ordering plus stock visibility</td>
-            <td>A marketplace, ordering, payments, CRM</td>
+            <td>Where it sits</td>
+            <td>Alongside the systems you have</td>
+            <td>A marketplace you list on</td>
           </tr>
         </tbody>
         <tfoot>
@@ -575,7 +574,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See a reorder that nobody else can bid on</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One existing account, one order spoken off your own range, and a frank list of what VOS will never do.
+        Twenty minutes. One account, one order spoken off a guide like yours, carrying your own prices and signed off before it sends.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -603,7 +602,7 @@ module.exports = {
         <div class="faq-answer">
           It depends entirely on why you were looking. If you want to be found by restaurants you
           do not supply, VOS cannot help and a marketplace is the right tool. If you want the
-          accounts you already have to stop phoning their orders in, then yes, and the comparison
+          accounts you already have to stop telephoning every order, then yes, and the comparison
           is a fair one.
         </div>
       </div>
@@ -660,10 +659,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither of us publishes a figure. Theirs follows a demo; ours is quoted on how many
-          accounts you want opened. On a marketplace it is also worth asking what the commercial
-          terms are around being listed, because that is a different kind of cost from a
-          subscription.
+          Neither of us publishes a figure. Theirs follows a demo; ours comes as a quote once we have talked. On a marketplace it is also worth asking what the commercial
+          terms are around being listed, because being listed carries its own commercial terms, not a fee you are quoted.
         </div>
       </div>
 
@@ -718,7 +715,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Keep the reorder off the open shelf</h2>
-  <p>Twenty minutes, one order, at your prices, with nobody rating them.</p>
+  <p>Twenty minutes, one order, priced off one distributor's own guide, with nobody rating it.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

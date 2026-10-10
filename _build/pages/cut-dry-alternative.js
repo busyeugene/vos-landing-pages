@@ -26,7 +26,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A Cut+Dry Alternative With Nobody Else In It.</h1>
+      <h1>A Cut+Dry Alternative Built On Your Own Guide.</h1>
       <p class="lead mt-16">
         VOS is a Cut+Dry alternative that is not a network. Your account picks up the app, says what is short from the list you built, and approves it. There is no marketplace around it, no
         other brand bidding for that moment, and no third party earning off the purchase.
@@ -40,7 +40,7 @@ module.exports = {
       <div class="hero-trust">
         <span>Your catalog only</span>
         <span class="hero-trust-dot"></span>
-        <span>Nothing to migrate</span>
+        <span>Orders in after you close</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -91,9 +91,7 @@ module.exports = {
       <span class="eyebrow">Two Models</span>
       <h2>VoiceOrder Solutions vs Cut+Dry.<br>A tool, not a network.</h2>
       <p class="lead mt-16">
-        Cut+Dry sells ecommerce, payments and sales tooling across distributors, manufacturers and
-        restaurants. VOS sells one app to your accounts. Five rows below go to them, which is what
-        happens when you compare a Cut+Dry alternative that does far less on purpose.
+        VOS sells one app to your accounts, and every line is drawn from the guide you built. Cut+Dry sells ecommerce, payments and sales tooling across distributors, manufacturers and restaurants, which is why a Cut+Dry alternative is a choice between two shapes rather than two feature lists. The table below marks what each one covers.
       </p>
     </div>
 
@@ -108,8 +106,8 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Other brands can be promoted while your customer orders</td>
-            <td>Never</td>
+            <td>Only your catalog in front of the buyer</td>
+            <td><span class="check-yes">✓</span></td>
             <td>Manufacturers can promote SKUs</td>
           </tr>
           <tr>
@@ -118,8 +116,8 @@ module.exports = {
             <td>Varies by route in</td>
           </tr>
           <tr>
-            <td>Online storefront with search and product discovery</td>
-            <td>Not offered</td>
+            <td>A self-serve way for accounts to order</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -128,18 +126,18 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Digital payments and automated invoicing</td>
-            <td>Not offered</td>
+            <td>Payments and invoicing in the same product</td>
+            <td>Your own systems keep it</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Buyer earns cashback on eligible purchases</td>
-            <td>Not offered</td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Third-party rebate attached to the purchase</td>
+            <td>None</td>
+            <td>Cashback on eligible purchases</td>
           </tr>
           <tr>
-            <td>Central place for rep notes and customer data</td>
-            <td>Order history only</td>
+            <td>Every order an account has placed, in one screen</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -148,9 +146,9 @@ module.exports = {
             <td>Under 90 days, they publish</td>
           </tr>
           <tr>
-            <td>What you are buying</td>
-            <td>Ordering plus stock visibility</td>
-            <td>Ecommerce, payments, sales tools, product data</td>
+            <td>Where it fits</td>
+            <td>Beside the systems you run today</td>
+            <td>A platform the business moves onto</td>
           </tr>
         </tbody>
         <tfoot>
@@ -360,8 +358,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock beside the orders as they come</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to what is being ordered, and the
-            catalog tracks the levels. It is not the system of record for stock: yours stays in
+            VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
             charge, and a demo walks the connection between them.
           </p>
           <ul class="feature-bullets mt-24">
@@ -499,8 +496,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our quarter was already full. Being live in two days instead of three
-            months was most of the reason we chose it."
+            "Our quarter was already full. Being live inside a couple of days instead of a quarter was most of the reason we chose it."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -574,9 +570,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See what your own guide looks like</h3>
+      <h3 style="margin-bottom:10px;">See how one guide, one order works</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One account, one order said out loud off your own guide, and a straight list of what VOS leaves to the rest of your stack.
+        Twenty minutes. One account, one order said out loud off a guide like yours, and the minutes your desk spends on each call come back.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -615,7 +611,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           For a reorder from an account you already have, we would say yes: no browsing, nobody
-          promoting into it, and live in a day or two. For selling a catalog, collecting money, or
+          promoting into it, and live in a day or two for most. For selling a catalog, collecting money, or
           putting your product data in front of a wider market, no, and not close. Those are the
           things they built.
         </div>
@@ -662,8 +658,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither of us publishes a figure. They have a pricing page with no prices on it, and
-          ours is quoted on how many accounts you want opened. Given the difference in scope, the
+          Neither of us publishes a figure. They have a pricing page with no prices on it, and ours comes as a quote and is not on the site either. Given the difference in scope, the
           thing to compare is not the number but what each number is buying.
         </div>
       </div>
@@ -717,7 +712,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Keep the ordering moment yours</h2>
-  <p>Twenty minutes, one order, and only your guide on the screen.</p>
+  <p>Twenty minutes, one order, and one guide on the screen.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
