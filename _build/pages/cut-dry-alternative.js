@@ -67,15 +67,15 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">Back on each order once the phone is out of it</div>
+      <div class="stat-label">Freed up on each order taken off the phone</div>
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Covers a typical setup, start to end</div>
+      <div class="stat-label">Is the go-live window for most distributors</div>
     </div>
     <div>
       <div class="stat-number">Same Day</div>
-      <div class="stat-label">Is when the first ones typically land</div>
+      <div class="stat-label">Is order one for most kitchens</div>
     </div>
   </div>
 </section>
@@ -88,7 +88,7 @@ module.exports = {
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Side By Side</span>
+      <span class="eyebrow">Two Models</span>
       <h2>VoiceOrder Solutions vs Cut+Dry.<br>A tool, not a network.</h2>
       <p class="lead mt-16">
         Cut+Dry sells ecommerce, payments and sales tooling across distributors, manufacturers and
@@ -108,7 +108,7 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Other brands can pay to appear while your customer orders</td>
+            <td>Other brands can be promoted while your customer orders</td>
             <td>Never</td>
             <td>Manufacturers can promote SKUs</td>
           </tr>
@@ -145,7 +145,7 @@ module.exports = {
           <tr>
             <td>How long until it is running</td>
             <td>24-48 hours for most</td>
-            <td>90 days, in their published case</td>
+            <td>Under 90 days, they publish</td>
           </tr>
           <tr>
             <td>What you are buying</td>
@@ -207,10 +207,9 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">🗓️</div>
-        <h4>Launch is a quarter, on their own figures</h4>
+        <h4>Launch is measured in weeks, not hours</h4>
         <p class="text-muted mt-12">
-          The one launch time they publish is a named customer going from contract to live in 90
-          days. For a platform of that size it is a good result. It is still a quarter before the
+          Their own distributor page publishes a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the
           phone stops ringing.
         </p>
       </div>
@@ -355,7 +354,7 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Inventory Visibility</span>
-          <h3>Stock in view as each order lands</h3>
+          <h3>Stock beside the orders as they come</h3>
           <p class="mt-12 text-muted">
             VOS carries real-time inventory visibility tied to what is being ordered, and the
             catalog tracks the levels. It is not the system of record for stock: yours stays in
@@ -411,7 +410,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Email us your guides</h4>
+        <h4>Hand us your guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Whatever format they are already in. Each account's lines and your prices
           go into a single admin screen, lined up with your codes.
@@ -420,7 +419,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We open each customer up</h4>
+        <h4>We enable each account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Accounts get created and the kitchen gets shown the app. Most send
           something in before the day is out.
@@ -429,7 +428,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>It lands finished</h4>
+        <h4>It turns up priced</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Signed off by the buyer, carrying a number and a time, in the shape
           your system expects.
@@ -571,7 +570,7 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See an order with nobody else in it</h3>
+      <h3 style="margin-bottom:10px;">See what your own guide looks like</h3>
       <p class="text-muted" style="font-size:16px;">
         Twenty minutes. One account, one order said out loud off your own guide, and a straight list of what VOS leaves to the rest of your stack.
       </p>
@@ -638,8 +637,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           Neither. Money never passes through it. If digital payments and automated invoicing are
-          what you are shopping for, that is a genuine Cut+Dry strength and we would point you
-          back to them rather than waste your demo slot.
+          what you are shopping for, that is a genuine Cut+Dry strength and we would point you back to them for it.
         </div>
       </div>
 
@@ -649,7 +647,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only to hand it a finished order. VOS works at the intake end and passes each one on,
+          Only to hand it the order. VOS works at the intake end and passes each one on,
           itemized and approved. Everything downstream behaves exactly as it did yesterday.
         </div>
       </div>
@@ -673,9 +671,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           For most distributors this is live inside 24 to 48 hours, with a first order usually in on
-          the same day. The only launch figure Cut+Dry publishes belongs to one named customer who
-          went from contract to live in 90 days, which is respectable for a platform that size and still a quarter of your year, and
-          and the common reason a Cut+Dry alternative gets weighed at all.
+          the same day. Cut+Dry publishes "Go Live in Under 90 Days" on their own distributor page, which is respectable for a platform that size and still most of a quarter, and the common reason a Cut+Dry alternative gets weighed at all.
         </div>
       </div>
 
@@ -698,7 +694,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           All of the above was read on their own site, 10 October 2026: the module descriptions, the manufacturer
-          marketing pitch, the cashback offer and the 90 day launch, which belongs to the named
+          marketing pitch, the cashback offer and the published 90 day launch, and the named
           customer they credit it to. We have left their growth percentages alone, because those
           are their numbers. If any of it has moved on, the fault is here, not there.
         </div>
@@ -717,7 +713,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Keep the ordering moment yours</h2>
-  <p>A twenty minute call, one order followed right through, and a plain account of where VOS stops.</p>
+  <p>Twenty minutes, one order, and only your guide on the screen.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

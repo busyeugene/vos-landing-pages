@@ -25,7 +25,7 @@
  */
 module.exports = {
   title: "Fresho Alternative for Food Distributors in 2026",
-  description: 'Add one step instead of adopting a platform: your accounts order by voice and confirm the lines. A Fresho alternative for small to mid-size food distributors.',
+  description: 'One step, not a suite: the kitchen speaks its order and confirms the lines before it sends. A Fresho alternative for small to mid-size food distributors.',
   related: ["necs-entree-alternative","pepperi-alternative","orderease-alternative"],
   relatedHeading: "Other tools distributors weigh against VOS",
   body: `
@@ -40,10 +40,9 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A Fresho Alternative You Add, Not Adopt.</h1>
+      <h1>A Fresho Alternative That Stays One Step Wide.</h1>
       <p class="lead mt-16">
-        Fresho runs a whole fresh-food operation, down to the run sheet and the invoice. VOS
-        is one step wide. An account talks its order into the app, checks it over, and it reaches you in a layout your office handles already.
+        Fresho runs a whole fresh-food operation, down to the run sheet and the invoice. VOS stays narrow. An account talks its order into the app, checks it over, and it reaches you in a layout your office handles already.
       </p>
 
       <div class="hero-ctas">
@@ -150,24 +149,24 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Publishes prices and worked examples</td>
-            <td>Quoted per operation</td>
+            <td>Works on ten accounts without a wider rollout</td>
             <td><span class="check-yes">✓</span></td>
+            <td>Modules and volume priced together</td>
           </tr>
           <tr>
-            <td>What happens to the ordering habit</td>
-            <td>It moves into the app</td>
-            <td>Nothing changes for them</td>
+            <td>The order is spoken and confirmed by the buyer</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Portal, or the message they already send</td>
           </tr>
           <tr>
-            <td>How long until it is running</td>
-            <td>24-48 hours for most</td>
-            <td>Setup fee, timeline not published</td>
+            <td>Starts without choosing modules</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Around 4 weeks, plus AI training</td>
           </tr>
           <tr>
             <td>What you are buying</td>
             <td>Ordering plus stock visibility</td>
-            <td>A system to run the business on</td>
+            <td>Operations end to end, or AI on your system</td>
           </tr>
         </tbody>
         <tfoot>
@@ -205,9 +204,7 @@ module.exports = {
         <div class="problem-icon">🧰</div>
         <h4>Most of it is already running here</h4>
         <p class="text-muted mt-12">
-          Fresho reaches from the order through to the payment. If you have an invoicing system
-          that works, a warehouse that works and a delivery plan that works, the overlap is the
-          expensive part and the ordering was all you came for.
+          Fresho reaches from the order through to the payment, and their pricing lets you take only the parts you want. The question is how much of your operation you want one vendor inside.
         </p>
       </div>
 
@@ -216,7 +213,7 @@ module.exports = {
         <h4>Keeping the habit keeps the habit</h4>
         <p class="text-muted mt-12">
           Their AI is built so a customer need not change a thing, which is a deliberate choice and a sound one. The flip side is that the voicemails and the texts
-          carry on, and a machine is in the middle of all of them for good.
+          carry on, and a machine reads every one of them while your team approves what it produces.
         </p>
       </div>
 
@@ -224,8 +221,7 @@ module.exports = {
         <div class="problem-icon">📏</div>
         <h4>The opening move is sized like a project</h4>
         <p class="text-muted mt-12">
-          There is an up-front fee and a monthly figure tied to your order volume and the modules you take. That is clear and fair. It is still a bigger first move than some distributors want
-          when the whole aim is to stop the phone ringing at four.
+          They publish around four weeks to get set up, plus two to four weeks training the AI before it goes live, on top of the one-off fee. That is clear and fair. It is still a bigger first move than some distributors want when the whole aim is to stop the phone ringing at four.
         </p>
       </div>
 
@@ -611,7 +607,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Much smaller, deliberately, and we would rather you heard it from us. Fresho is an operations system built for perishable wholesale, from the order to the payment. VOS covers ordering only. Lined up module for module we lose badly, so the real choice is whether you are replacing an operation or fixing a front door.
+          Much smaller, deliberately, and we would rather you heard it from us. Fresho is an operations system built for perishable wholesale, from the order to the payment. VOS covers ordering only. Module for module that is not a contest worth having, so the real choice is whether you are replacing an operation or fixing a front door.
         </div>
       </div>
 
@@ -660,8 +656,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It matters for them in a good way: their guides and their named customers are in fresh protein and produce, and that depth is real. VOS cares less about the category, because a guide of tomatoes works the same way as a guide of dry goods. Neither point
-          is a criticism of the other.
+          It matters for them in a good way: their guides and their named customers are in fresh protein and produce, and that depth is real. They also sell to general food service, so this is depth rather than a boundary. VOS cares less about the category, because a guide of tomatoes works the same way as a guide of dry goods.
         </div>
       </div>
 
@@ -671,10 +666,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes, and this is the honest fork between the two products. Their published promise is
-          that customers carry on ordering exactly as they always have. Ours is the opposite: the
-          account places it in the app and checks the lines, which is why nothing needs working out
-          at your end. Both are reasonable bets and you should pick knowingly.
+          Yes. Their published promise for OrderPilot is that customers carry on ordering exactly as they always have. They also sell an online ordering portal, where the habit does move. VOS only does the second of those, and only by voice, which is why nothing needs checking at your end.
         </div>
       </div>
 
@@ -726,7 +718,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Fix the front door, leave the rest</h2>
-  <p>Twenty minutes, one order followed end to end, and a straight account of where VOS stops.</p>
+  <p>Twenty minutes, one voice order, and nothing else in your operation moved.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

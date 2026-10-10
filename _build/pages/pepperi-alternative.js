@@ -132,14 +132,14 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Keeps working with no signal</td>
-            <td>Needs a connection to send</td>
+            <td>Works where there is no signal</td>
+            <td>Saves and resumes instead</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>How your customer places the order</td>
-            <td>Speaks it, then approves it</td>
-            <td>Taps it into a storefront</td>
+            <td>Your account speaks the order and approves it</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Taps, scans or uploads it there</td>
           </tr>
           <tr>
             <td>Each account has its own guide, at your prices</td>
@@ -147,14 +147,14 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>How long until it is running</td>
-            <td>24-48 hours for most</td>
-            <td>No timeline published</td>
+            <td>Live without an IT project</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies with the setup</td>
           </tr>
           <tr>
             <td>What you are buying</td>
             <td>Ordering plus stock visibility</td>
-            <td>A platform for the sales force</td>
+            <td>A unified B2B commerce platform</td>
           </tr>
         </tbody>
         <tfoot>
@@ -213,8 +213,7 @@ module.exports = {
         <h4>Nobody is visiting a kitchen every week</h4>
         <p class="text-muted mt-12">
           Shelf audits and merchandising matter when your product sits in a store. A chef
-          reordering the same forty lines every week is a different motion, and most of that
-          toolkit never gets opened.
+          reordering the same forty lines every week is a different motion, and much of that toolkit may never be opened.
         </p>
       </div>
 
@@ -242,7 +241,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             No search field, no quantity box, no screen anybody has to be trained on. They walk
             the cooler, say what is short, and the items come up as a list. They correct whatever
-            looks wrong and send it. That is the step a portal has never won over.
+            looks wrong and send it. That is the step a portal does not always win over.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -622,8 +621,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           It does, and anyone who tells you otherwise has not read their site. They offer a
-          branded self-service portal with each buyer's own catalog and pricing. Every bit of it
-          works by somebody finding items and entering quantities. The accounts that were not going to do that are the ones this suits.
+          branded self-service portal with each buyer's own catalog and pricing. Every route into it still means working a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones this suits.
         </div>
       </div>
 
@@ -635,8 +633,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Only if you drop the tool that does them, and we are not asking you to. VOS has never
           planned a route, loaded a van or reconciled a day's selling, and it does not track a
-          shipment either. If those are what you are shopping for, Pepperi is the serious answer
-          and this page is not.
+          shipment either. If those are what you are shopping for, Pepperi is the right call and we will say so.
         </div>
       </div>
 
@@ -659,10 +656,8 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither of us publishes a figure, so anyone quoting you one of ours against one of
-          theirs is guessing. Both are quoted per operation. What we will say is that the decision
-          is a smaller one here, because you are buying one step rather than the system your sales
-          team lives in.
+          Pepperi publishes no price on its own site, and nor do we. Be aware that third-party directories carry figures for them, so check any number you are shown against their own site. What we will say is that the decision
+          is a smaller one here, because you are buying one step rather than the system your field force lives in.
         </div>
       </div>
 
@@ -711,7 +706,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Let the reorders look after themselves</h2>
-  <p>Twenty minutes, one order followed end to end, and a straight account of where VOS stops.</p>
+  <p>Twenty minutes, one reorder that nobody had to drive out for.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

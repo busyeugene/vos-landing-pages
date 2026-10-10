@@ -91,8 +91,7 @@ module.exports = {
       <span class="eyebrow">Side By Side</span>
       <h2>VoiceOrder Solutions vs BlueCart.<br>Your shelf, or a shared one.</h2>
       <p class="lead mt-16">
-        BlueCart's own pitch is a marketplace that puts you in front of restaurants you do not
-        supply yet. VOS has no marketplace at all. The first row below is the concession that
+        BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to. VOS has no marketplace at all. The first row below is the concession that
         matters most, and anyone weighing a BlueCart alternative should read it before the rest.
       </p>
     </div>
@@ -130,12 +129,12 @@ module.exports = {
           <tr>
             <td>What the buyer can see while ordering</td>
             <td>Your guide only</td>
-            <td>A catalog wider than yours</td>
+            <td>A marketplace catalog alongside yours</td>
           </tr>
           <tr>
             <td>Your buyer signs the order off before it sends</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies by route in</td>
+            <td>On their storefront, yes</td>
           </tr>
           <tr>
             <td>Each account has its own guide, at your prices</td>
@@ -177,8 +176,7 @@ module.exports = {
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Why an alternative to BlueCart comes up</h2>
       <p class="lead mt-16">
-        BlueCart sells reach. Join the marketplace, get listed in the endless aisle, be seen by
-        tens of thousands of restaurants. For a supplier chasing new accounts that is the whole
+        BlueCart sells reach. Join the marketplace, get listed in the endless aisle, be seen by the 48,000 restaurants their headline claims. For a supplier chasing new accounts that is the whole
         appeal. For a distributor whose book is already full, a BlueCart competitor starts to look
         like the simpler buy.
       </p>
@@ -238,7 +236,7 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>A reorder, not a shopping trip</h3>
           <p class="mt-12 text-muted">
-            Your account holds the button and says what the kitchen is short of. Items appear as
+            Your account holds the button and says what the kitchen needs. Items appear as
             lines with quantities, they fix anything wrong, and they send. There is no aisle to
             walk down, so the order stays the order they meant to place.
           </p>
@@ -276,7 +274,7 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Order Guides</span>
-          <h3>Your range, your prices, nobody rating either</h3>
+          <h3>Your range at your prices, ungraded</h3>
           <p class="mt-12 text-muted">
             You send the guides you keep per customer. We load them against your SKUs at the price
             you hold for that account. No value badge appears next to a line and no competing
@@ -430,7 +428,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>It lands finished</h4>
+        <h4>It arrives whole</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Signed off by the buyer, carrying a number and a time, in the shape
           your system expects.
@@ -613,7 +611,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At the weekly reorder from an existing account, we would say yes: your range only, your
+          On the repeat order from an account already on your book, we would say yes: your range only, your
           prices, approved by the buyer, with nothing rating you on the way through. At finding
           new customers, no, and it is not a close call. That is their product and we do not have
           one.
@@ -626,8 +624,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS only serves accounts you already supply, because your guide is built from what
-          that account buys from you. Anyone promising both acquisition and a private ordering
+          No. VOS only serves the accounts on your own book, since each guide is built from what they buy from you. Anyone promising both acquisition and a private ordering
           channel in one product is worth a second question.
         </div>
       </div>
@@ -638,9 +635,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Nothing. There is no value label, no benchmark and no other vendor in the app. BlueCart
-          offers Pricing Insights that grade products as great, good or fair value, which is a
-          genuinely useful marketplace feature and the opposite of what a service-led distributor
+          Nothing. There is no value label, no benchmark and no other vendor in the app. BlueCart offers Pricing Insights that rank a listing by how good the value looks, which is a genuinely useful marketplace feature and the opposite of what a service-led distributor
           usually wants beside its catalog.
         </div>
       </div>
@@ -651,7 +646,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only to hand it a finished order. VOS works at the intake end and passes each one on,
+          Only to hand it the order. VOS works at the intake end and passes each one on,
           itemized and approved. Everything downstream behaves exactly as it did yesterday.
         </div>
       </div>
@@ -720,7 +715,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Keep the reorder off the open shelf</h2>
-  <p>A twenty minute call, one order followed right through, and a plain account of where VOS stops.</p>
+  <p>Twenty minutes, one order, at your prices, with nobody rating them.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

@@ -39,7 +39,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>A REKKI Alternative With No Reading Step.</h1>
       <p class="lead mt-16">
-        REKKI puts robots on the order desk and publishes how often they get it right. VOS removes the guesswork a step earlier: your account talks its order into the app, picks from its
+        REKKI puts robots on the order desk and publishes how often they get it right. VOS works a step earlier, where there is nothing to read: your account talks its order into the app, picks from its
         own guide, and confirms the lines before they reach you.
       </p>
 
@@ -131,7 +131,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Mines customer menus for things to sell them</td>
+            <td>Finds products an account does not buy from you yet</td>
             <td>Not offered</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -141,24 +141,24 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Publishes a starting price</td>
-            <td>Quoted per operation</td>
+            <td>Your accounts order from your guide, not a marketplace</td>
             <td><span class="check-yes">✓</span></td>
+            <td>App carries a marketplace</td>
           </tr>
           <tr>
-            <td>Who signs the order off</td>
-            <td>The buyer, before it sends</td>
-            <td>Your team, after the robot</td>
+            <td>The buyer signs the order off before it sends</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>No human step, by their account</td>
           </tr>
           <tr>
-            <td>Something has to be trained on your business</td>
-            <td>Nothing to teach it</td>
+            <td>Runs without being trained first</td>
+            <td><span class="check-yes">✓</span></td>
             <td>Trained by your team</td>
           </tr>
           <tr>
             <td>How long until it is running</td>
             <td>24-48 hours for most</td>
-            <td>No timeline published</td>
+            <td>Quick to start, no duration given</td>
           </tr>
           <tr>
             <td>What you are buying</td>
@@ -202,7 +202,7 @@ module.exports = {
         <h4>An error rate is still a rate</h4>
         <p class="text-muted mt-12">
           REKKI publishes theirs, which is more than most vendors will do. It is also an admission worth pausing on: a number exists because a machine is working out
-          what the order said, and somebody on your side owns whatever lands outside it.
+          what the order said. They stand behind it with double checks and a refund guarantee, and VOS has no such number, because there is no machine in that step at all.
         </p>
       </div>
 
@@ -212,7 +212,7 @@ module.exports = {
         <p class="text-muted mt-12">
           Their own page says you train the robot to fit your business, which is honest and is why
           the accuracy belongs to them. It is work, though, and it lands on the people who were
-          already the busiest in the building.
+          also something your team has to do, and there is nothing here to teach.
         </p>
       </div>
 
@@ -412,7 +412,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and no training period</h2>
       <p class="lead mt-16">
-        Nobody has to feed it examples or correct it for a month. You send the guides, we open the
+        Nothing has to be taught here: your guides are the configuration. You send the guides, we open the
         accounts, the orders start arriving finished.
       </p>
     </div>
@@ -554,7 +554,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🛒</div>
-        <h4>Your marketplace listing is untouched</h4>
+        <h4>Whatever wins you new accounts is untouched</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Anything bringing you new buyers should carry on bringing them. VOS has no marketplace
           and no interest in who finds you; it only handles the ordering once they have.
@@ -582,7 +582,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">An order nothing had to decipher</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. The chef talks, the lines come off their guide, and we say plainly which parts stay yours.
+        Twenty minutes. The chef talks, their own guide supplies the lines, and we say plainly which parts stay yours.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -621,10 +621,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          That is the wrong shape of question and we are not going to claim a better percentage.
-          Theirs is a measure of how well a machine reads an order a person wrote. In VOS no
-          reading happens: the lines are selected from the guide and the buyer looks at them before
-          sending. Different check, not a tidier number.
+          Not in those terms, and the reason is stronger than a percentage. In VOS nothing reads the order, so there is no accuracy figure for you to take on trust: the lines come off the guide and the buyer looks at them before sending. Theirs measures how well a machine reads an order a person wrote. We would rather have that than a tidier number.
         </div>
       </div>
 
@@ -662,7 +659,7 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Nothing at all, and that is a real difference rather than a slogan. Their site says your
           team trains the robot on your business, which is fair and is why the accuracy is theirs to claim. We load your guides and open accounts, so there is no learning period
-          and no month of corrections.
+          and nothing to correct afterwards.
         </div>
       </div>
 
@@ -686,7 +683,7 @@ module.exports = {
         </button>
         <div class="faq-answer" style="display:none;">
           They are more open here than we are, and that deserves saying: their site carries an opening figure per customer and what it includes. It is quoted in pounds, and their
-          marketplace is described as being in the UK only. Ours is quoted on how many accounts
+          marketplace is described as UK only, while the app itself is described as working anywhere in the world. Ours is quoted on how many accounts
           you open, with nothing published, so ask and you will get a figure for your own book.
         </div>
       </div>
@@ -724,8 +721,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Take the guesswork out of the order</h2>
-  <p>Twenty minutes, one order followed end to end, and a straight account of where VOS stops.</p>
+  <h2>Take the reading step out of the order</h2>
+  <p>Twenty minutes, one order, and no error rate to inherit.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

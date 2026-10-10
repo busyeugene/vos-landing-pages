@@ -69,15 +69,15 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">Back on each order once the phone is out of it</div>
+      <div class="stat-label">Won back on each order that leaves the phone</div>
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Covers a typical setup, start to end</div>
+      <div class="stat-label">Is all most distributors wait to go live</div>
     </div>
     <div>
       <div class="stat-number">Same Day</div>
-      <div class="stat-label">Is when the first ones typically land</div>
+      <div class="stat-label">Carries a first order for most kitchens</div>
     </div>
   </div>
 </section>
@@ -112,7 +112,7 @@ module.exports = {
           <tr>
             <td>Who holds the microphone</td>
             <td>Your customer</td>
-            <td>Your own team</td>
+            <td>Described for your own team</td>
           </tr>
           <tr>
             <td>Answers questions about your business by voice</td>
@@ -181,7 +181,7 @@ module.exports = {
       <p class="lead mt-16">
         GrubMarket AI calls GrubAssist a virtual assistant for the food supply chain, and the
         jobs it advertises are business analysis, performance, cash flow and spotting anomalies,
-        with order creation among them. All useful. None of it moves the order off your desk,
+        with order creation among them. All useful. None of it stops your customer sending a message for somebody to interpret,
         which is where a GrubMarket AI competitor usually gets raised.
       </p>
     </div>
@@ -210,7 +210,7 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">🧩</div>
-        <h4>Four products when you needed one</h4>
+        <h4>A product set when you needed one</h4>
         <p class="text-muted mt-12">
           An assistant, order extraction, chatbots, market pricing data. Buying the piece you
           actually want can mean sitting through a demo of three you do not, and then deciding
@@ -318,7 +318,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Delivery Formats</span>
-          <h3>It turns up the way your desk expects</h3>
+          <h3>Delivered in whatever shape you asked for</h3>
           <p class="mt-12 text-muted">
             A finished order leaves as an email carrying a PDF, Excel or Word file, or goes
             straight into your ERP over the API, over EDI, or into QuickBooks, in a shape your desk opens daily.
@@ -357,7 +357,7 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Inventory Visibility</span>
-          <h3>Stock in view as each order lands</h3>
+          <h3>What is on hand, as the orders come in</h3>
           <p class="mt-12 text-muted">
             VOS carries real-time inventory visibility tied to what is being ordered, and the
             catalog tracks the levels. It is not the system of record for stock: yours stays in
@@ -404,7 +404,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and no model to teach</h2>
       <p class="lead mt-16">
-        There is no model to teach and no pilot to design. You send lists, we open accounts,
+        Nothing has to be trained and no pilot has to be designed. You send lists, we open accounts,
         your customers order.
       </p>
     </div>
@@ -413,7 +413,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Email us your guides</h4>
+        <h4>Share your price lists</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Whatever format they are already in. Each account's lines and your prices
           go into a single admin screen, lined up with your codes.
@@ -422,7 +422,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We open each customer up</h4>
+        <h4>We switch each account on</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Accounts get created and the kitchen gets shown the app. Most send
           something in before the day is out.
@@ -431,7 +431,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>It lands finished</h4>
+        <h4>It shows up done</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Signed off by the buyer, carrying a number and a time, in the shape
           your system expects.
@@ -528,8 +528,7 @@ module.exports = {
       <span class="eyebrow">Not Either Or</span>
       <h2>When VOS and GrubMarket AI work together</h2>
       <p class="lead mt-16">
-        VOS is not a GrubMarket AI replacement and does not try to be. It adds on, so an assistant
-        your staff already lean on is no reason to leave this alone.
+        VOS is not a GrubMarket AI replacement and does not try to be. It adds on, so an assistant the team already leans on is no reason to leave this alone.
       </p>
     </div>
 
@@ -637,7 +636,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No, and there is no module for it because there is nothing to teach. The item list you
+          No, and there is no module for it because it arrives knowing your lists. The item list you
           keep for an account is the configuration. Load it, and spoken items land on the right
           rows at the price you hold.
         </div>
@@ -649,7 +648,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. It never goes near your ERP beyond handing it a finished order. GrubAssist connects to an ERP so it can answer questions about the business; VOS only ever delivers into one. Everything downstream behaves exactly as it did yesterday.
+          No. It never goes near your ERP beyond handing in what the buyer approved. GrubAssist connects to an ERP so it can answer questions about the business; VOS only ever delivers into one. Everything downstream behaves exactly as it did yesterday.
         </div>
       </div>
 
@@ -659,7 +658,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither of us publishes a figure. Our figure depends on how many accounts you want opened. Theirs comes after a demo. With four products on their side, the thing to
+          Neither of us publishes a figure. Our figure depends on how many accounts you want opened. Theirs comes after a demo. With that much on their side, the thing to
           pin down is which ones the quote actually covers.
         </div>
       </div>
@@ -692,7 +691,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Taken from their own site on 10 October 2026: the GrubAssist description, the list of
+          Taken from grubmarket.ai on 10 October 2026, which is the GrubMarket AI product rather than GrubMarket the company: the GrubAssist description, the list of
           advertised jobs, the training module and the other products all come off that page.
           They publish no price and no rollout time, so this page does not guess at either. If
           any of it has moved on, the fault is here, not there.
@@ -712,7 +711,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Put the microphone in the right hands</h2>
-  <p>A twenty minute call, one order followed right through, and a plain account of where VOS stops.</p>
+  <p>Twenty minutes, with the microphone in your customer's hand, not your clerk's.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

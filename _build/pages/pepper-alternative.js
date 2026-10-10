@@ -143,7 +143,7 @@ module.exports = {
           <tr>
             <td>Orders out as PDF, Excel, Word, EDI or the API</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Through its ERP integrations</td>
+            <td>Not described</td>
           </tr>
           <tr>
             <td>What the product covers</td>
@@ -188,7 +188,7 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">🗓️</div>
-        <h4>Go-live lands a quarter out</h4>
+        <h4>Go-live runs from five weeks to three months</h4>
         <p class="text-muted mt-12">
           Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an
           implementation manager and a deployed engineer assigned. That is a fair number for the
@@ -208,7 +208,7 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">✍️</div>
-        <h4>The checking lands on your side</h4>
+        <h4>On the Order Agent path, you do the checking</h4>
         <p class="text-muted mt-12">
           Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's
           own product page describes no step where the kitchen confirms what was read, so your
@@ -727,7 +727,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Compare it against your shortlist</h2>
-  <p>Twenty minutes, one real order, and a straight answer on what VOS does and does not cover.</p>
+  <p>Twenty minutes, one real order, and a date you could be live by.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

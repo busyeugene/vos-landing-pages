@@ -317,7 +317,7 @@ module.exports = [
     file: 'vos-rekki-alternative-landing.html',
     label: 'REKKI Alternative',
     card: 'VOS vs REKKI',
-    blurb: "REKKI publishes an error rate because a robot reads the order. VOS has no reading step: the buyer confirms the lines before they send.",
+    blurb: "REKKI's AI reads the order and publishes an accuracy figure for it. VOS has no reading step: the buyer confirms the lines before they send.",
     cluster: 'compare',
     kind: 'compare',
     competitor: 'REKKI',

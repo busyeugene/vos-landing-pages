@@ -38,7 +38,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>A WizCommerce Alternative With Nothing To Read Back.</h1>
       <p class="lead mt-16">
-        WizCommerce turns whatever an account sent you into an order for your team to check. VOS
+        WizCommerce's AI reads whatever an account sent you and turns it into an order for your team to check. VOS
         skips that round trip. The kitchen says what it needs in the app, straight off its own guide, and approves the lines before it sends.
       </p>
 
@@ -144,9 +144,9 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Who gives the order its last check</td>
-            <td>The buyer, before sending</td>
-            <td>Your team, before the ERP</td>
+            <td>The order is approved by the buyer, not your team</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Your team checks it before the ERP</td>
           </tr>
           <tr>
             <td>Each account has its own guide, at your prices</td>
@@ -154,9 +154,9 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>How long until it is running</td>
-            <td>24-48 hours for most</td>
-            <td>No timeline published</td>
+            <td>Starts without a training period</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Varies with the setup</td>
           </tr>
           <tr>
             <td>What you are buying</td>
@@ -209,8 +209,7 @@ module.exports = {
         <div class="problem-icon">📦</div>
         <h4>The platform arrives with the part you wanted</h4>
         <p class="text-muted mt-12">
-          Store, CRM, payments, quoting and catalog imagery all come as one product family. Buy it
-          for the order intake and you are taking on the rest, whether or not anyone will open it.
+          Store, CRM, payments, quoting and catalog imagery all come as one product family. They sit in the same product set, so ask what you are actually licensing and what you will realistically open.
         </p>
       </div>
 
@@ -218,7 +217,7 @@ module.exports = {
         <div class="problem-icon">🧑‍🍳</div>
         <h4>Reading the mess is not the same as ending it</h4>
         <p class="text-muted mt-12">
-          A tool that copes with scraps of paper and voicemails works because the scraps keep
+          A tool that copes with scraps of paper and voice notes works because the scraps keep
           coming. Some would rather the kitchen stopped producing them at all, which is a different thing to buy.
         </p>
       </div>
@@ -576,7 +575,7 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">Watch an order that needed no interpreting</h3>
+      <h3 style="margin-bottom:10px;">Watch one arrive already in lines</h3>
       <p class="text-muted" style="font-size:16px;">
         Twenty minutes. Somebody speaks, the lines come up from their guide, and we are honest about what VOS does not cover.
       </p>
@@ -677,8 +676,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither platform publishes a figure, so nobody can line them up for you honestly. Both
-          are quoted. The one thing worth noting is scope: ours is priced on accounts opened,
+          They quote the platform, the same as we do. The one price they publish is for their AI photo product, which is sold on its own page with its own tiers. The one thing worth noting is scope: ours is priced on accounts opened,
           theirs covers a product family, so you are not comparing like for like anyway.
         </div>
       </div>
@@ -716,7 +714,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Stop guessing what the order said</h2>
-  <p>Twenty minutes, one order followed end to end, and a straight account of where VOS stops.</p>
+  <p>Twenty minutes, one order that needed no reading back.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

@@ -30,7 +30,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>You May Not Need A NECS Entree Alternative.</h1>
       <p class="lead mt-16">
-        Entree runs your accounting, your warehouse and your EDI, and it should carry on doing
+        Entree can run your accounting, your warehouse and your EDI, and it should carry on doing
         that. VOS changes one thing only: instead of typing orders in, the kitchen speaks them into the app and signs it off. What arrives is the order they approved, in whatever format Entree already takes.
       </p>
 
@@ -127,7 +127,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>EDI built into the product</td>
+            <td>An EDI module</td>
             <td>Sends orders over EDI</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -204,7 +204,7 @@ module.exports = {
         <h4>Everything new is inside the same system</h4>
         <p class="text-muted mt-12">
           When ordering is a module of the system of record, changing it is a change to the
-          system of record, with versions and upgrade paths attached. Some distributors would
+          system of record, and it is their module to license and support. Some distributors would
           rather improve the order without opening that up.
         </p>
       </div>
@@ -721,7 +721,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Change the order, not the system</h2>
-  <p>A twenty minute call, one order followed right through, and a plain account of where VOS stops.</p>
+  <p>Twenty minutes, one order, and not a thing touched in your ERP.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

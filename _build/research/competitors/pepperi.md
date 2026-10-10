@@ -50,7 +50,11 @@ field-sales platform. None of it is voice.
   write that they have no food distributors. They have at least two and feature one.
 
 ## Pricing
-**No figures published anywhere.** /pricing routes to "Contact Sales" / "Let's Talk".
+**No figures published anywhere, and there is no pricing page at all**: /pricing and
+/pricing/ return 404, no pricing URL appears in page-sitemap.xml, and no figure appears on the
+homepage or any product page (re-checked 2026-10-10). ⚠ Third-party directories do carry
+$500/month figures attributed to Pepperi, so never tell a reader that any number they have
+seen is invented; tell them to check it against Pepperi's own site.
 **Parity with VOS**, which is also quote-based. Never fault them for it.
 
 ## Not published

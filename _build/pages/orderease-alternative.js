@@ -138,13 +138,13 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Shows a starting price on its own site</td>
-            <td>Quoted per operation</td>
+            <td>Your account's price list is the only setup</td>
             <td><span class="check-yes">✓</span></td>
+            <td>Rules and channels to configure</td>
           </tr>
           <tr>
-            <td>How your customer places the order</td>
-            <td>Speaks it, then approves it</td>
+            <td>The buyer builds the order, not your desk</td>
+            <td><span class="check-yes">✓</span></td>
             <td>Types it, or sends a file</td>
           </tr>
           <tr>
@@ -153,9 +153,9 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>How long until it is running</td>
-            <td>24-48 hours for most</td>
-            <td>Varies with the setup</td>
+            <td>Starts without an integration phase</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Days, not months, they say</td>
           </tr>
           <tr>
             <td>What you are buying</td>
@@ -198,8 +198,7 @@ module.exports = {
         <div class="problem-icon">🧮</div>
         <h4>You are quoted the whole path for one step</h4>
         <p class="text-muted mt-12">
-          OrderEase says itself that it covers the full path rather than one piece of it, and for a lot of sellers that is the right buy. If five of your six channels already
-          behave, you are paying to rebuild the five that work.
+          OrderEase says itself that it covers the full path rather than one piece of it, and for a lot of sellers that is the right buy. The platform is scoped to every channel, and your problem may be one of them.
         </p>
       </div>
 
@@ -503,8 +502,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We had a quote for a project that would have run into next year.
-            This was answering the phones for us by Friday."
+            "We costed a project to join up every channel we have. What we actually needed was those forty kitchens to stop ringing."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -625,7 +623,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. There is no parser here, and we would rather lose the deal than imply there is. VOS
+          No. There is no parser here and we will not imply otherwise. VOS
           moves accounts off sending a document, which shrinks that pile instead of processing it.
           For whatever stays on email, their tooling is pointed exactly at it.
         </div>
@@ -684,7 +682,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not on its own, no, and food service is on their published list of industries. The narrower point is about defaults: a product built to suit eight trades at once starts from generic ordering habits, and a kitchen reordering late at night is not the case it was designed around.
+          Not on its own, no, and that industry is on their published list. The narrower point is about defaults: a product built to suit eight trades at once starts from generic ordering habits, and a kitchen reordering late at night is not the case it was designed around.
         </div>
       </div>
 
@@ -711,7 +709,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Shorten the queue instead of sorting it</h2>
-  <p>Twenty minutes, one order followed end to end, and a straight account of where VOS stops.</p>
+  <p>Twenty minutes, one order arriving itemized, with no new channel to wire up.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
