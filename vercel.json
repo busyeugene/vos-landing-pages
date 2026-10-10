@@ -103,6 +103,10 @@
     {
       "source": "/distribution-workflow-software",
       "destination": "/vos-distribution-workflow-landing.html"
+    },
+    {
+      "source": "/pepper-alternative",
+      "destination": "/vos-pepper-alternative-landing.html"
     }
   ],
   "headers": [

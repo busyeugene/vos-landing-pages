@@ -212,4 +212,14 @@ module.exports = [
     blurb: "One path from a buyer's phone to your systems, the same whoever is on shift. Nothing to model and no process owner to appoint.",
     cluster: 'distribution',
   },
+  {
+    slug: 'pepper-alternative',
+    file: 'vos-pepper-alternative-landing.html',
+    label: 'Pepper Alternative',
+    card: 'VOS vs Pepper',
+    blurb: "Pepper is a platform you move onto. VOS is the ordering layer you add beside it, live in 24 to 48 hours for most distributors.",
+    cluster: 'compare',
+    kind: 'compare',
+    competitor: 'Pepper',
+  },
 ];

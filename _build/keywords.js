@@ -264,4 +264,13 @@ module.exports = {
       'distribution workflow solution',
     ],
   },
+  'pepper-alternative': {
+    primary: 'pepper alternative',
+    secondary: [
+      'pepper competitor',
+      'pepper replacement',
+      'alternative to pepper',
+      'better than pepper',
+    ],
+  },
 };

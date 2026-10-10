@@ -1,4 +1,6 @@
-/* Template conformance check for the 16-section VOS page structure (CLAUDE.md "Page structure").
+/* Template conformance check for VOS page structure (CLAUDE.md "Page structure").
+ * Two variants: the 16-section feature page, and the `compare` variant (registry kind:'compare'),
+ * which moves the comparison table to section 5 and repeats the mid-CTA block.
  * Usage: node template.js [slug...]   Exit 1 on any FAIL. WARN = worth a look, not blocking.
  */
 const fs = require('fs');
@@ -15,6 +17,7 @@ let F = 0, W = 0;
 for (const p of registry) {
   if (only.length && !only.includes(p.slug)) continue;
   const op = OPERATOR.has(p.slug);
+  const isCmp = p.kind === 'compare';
   const html = fs.readFileSync(path.join(REPO, p.file), 'utf8');
   const body = html.replace(/<head>[\s\S]*?<\/head>/i, '').replace(/<(style|script)[\s\S]*?<\/(style|script)>/gi, '').replace(/<!--[\s\S]*?-->/g, '');
   const out = [];
@@ -30,16 +33,19 @@ for (const p of registry) {
     const label = (a.match(/aria-label="([^"]*)"/) || [])[1] || '';
     let k = m[1] === 'nav' ? 'navbar' : m[1] === 'footer' ? 'footer'
       : cls.includes('hero') ? 'hero' : cls.includes('logo-bar') ? 'logos' : cls.includes('stats-strip') ? 'stats'
-      : id === 'problem' ? 'problem' : id === 'features' ? 'features' : /Additional features/i.test(label) ? 'cards'
+      : id === 'problem' ? 'problem' : id === 'split' ? 'split' : /^what-is/.test(id) ? 'whatis' : id === 'features' ? 'features' : /Additional features/i.test(label) ? 'cards'
       : /Mid-page/i.test(label) ? 'midcta' : id === 'how-it-works' ? 'steps' : id === 'testimonials' ? 'testimonials'
       : id === 'integrations' ? 'integrations' : id === 'comparison' ? 'comparison' : id === 'faq' ? 'faq'
       : cls.includes('related-strip') ? 'related' : cls.includes('final-cta') ? 'finalcta' : '?' + (label || cls || id);
     blocks.push({ k, start: m.index });
   }
-  const want = ['navbar', 'hero', 'logos', 'stats', 'problem', 'features', 'cards', 'midcta', 'steps', 'testimonials', 'integrations', 'comparison', 'faq', 'related', 'finalcta', 'footer'];
+  const want = isCmp
+    ? ['navbar', 'hero', 'logos', 'split', 'comparison', 'midcta', 'whatis', 'features', 'stats', 'cards', 'midcta', 'steps', 'testimonials', 'integrations', 'faq', 'related', 'finalcta', 'footer']
+    : ['navbar', 'hero', 'logos', 'stats', 'problem', 'features', 'cards', 'midcta', 'steps', 'testimonials', 'integrations', 'comparison', 'faq', 'related', 'finalcta', 'footer'];
   const got = blocks.map(b => b.k);
   if (got.join() !== want.join()) fail('section order: ' + got.join(' > '));
   const sec = k => { const i = blocks.findIndex(b => b.k === k); if (i < 0) return ''; return body.slice(blocks[i].start, i + 1 < blocks.length ? blocks[i + 1].start : undefined); };
+  const secAll = k => blocks.map((b, i) => b.k === k ? body.slice(b.start, i + 1 < blocks.length ? blocks[i + 1].start : undefined) : null).filter(Boolean);
 
   // Hero
   const hero = sec('hero');
@@ -64,11 +70,23 @@ for (const p of registry) {
   for (const n of nums) if (!['20-30 Min', '24/7', '24-48 Hrs', 'Same Day'].includes(n)) warn(`stat number "${n}" not in verified set`);
   if (/<h2/.test(sec('stats'))) fail('heading above stats grid');
 
-  // Problem
-  const prob = sec('problem');
-  const pc = (prob.match(/class="problem-card"/g) || []).length;
-  if (pc !== 3) fail(`problem cards ${pc}`);
-  if (!/class="eyebrow"/.test(prob) || !/<h2/.test(prob)) fail('problem section needs eyebrow + h2');
+  // Problem (feature pages) / With-and-without split (compare pages)
+  if (isCmp) {
+    const sp = sec('split');
+    const spH3 = (sp.match(/<h3/g) || []).length;
+    if (spH3 !== 2) fail(`split section has ${spH3} h3 (want 2: with VOS / without)`);
+    if ((sp.match(/class="feature-row"/g) || []).length !== 1) fail('split section needs one 2-col feature-row');
+    if (!/class="eyebrow"/.test(sp) || !/<h2/.test(sp)) fail('split section needs eyebrow + h2');
+    const wi = sec('whatis');
+    if (!/<h2/.test(wi) || !/<h3/.test(wi)) fail('what-is section needs an h2 and an h3');
+    if (!p.competitor) fail('compare page has no `competitor` in registry.js');
+    else if (!new RegExp('(^|[^A-Za-z])' + p.competitor + '([^A-Za-z]|$)').test(txt(wi))) fail(`what-is section never names ${p.competitor}`);
+  } else {
+    const prob = sec('problem');
+    const pc = (prob.match(/class="problem-card"/g) || []).length;
+    if (pc !== 3) fail(`problem cards ${pc}`);
+    if (!/class="eyebrow"/.test(prob) || !/<h2/.test(prob)) fail('problem section needs eyebrow + h2');
+  }
 
   // Features
   const feat = sec('features');
@@ -91,12 +109,18 @@ for (const p of registry) {
   const cEye = txt((cards.match(/<span class="eyebrow"[^>]*>([\s\S]*?)<\/span>/) || [])[1] || '');
   if (cEye !== 'Also Built In') fail(`cards eyebrow "${cEye}"`);
 
-  // Mid CTA
-  const mid = sec('midcta');
-  const midBtn = mid.match(/<a href="([^"]*)" class="btn[^"]*"[^>]*>([\s\S]*?)<\/a>/);
-  if (!midBtn || midBtn[1] !== CONTACT) fail('mid CTA link');
-  else if (txt(midBtn[2]) !== 'Book a Free Demo →') fail(`mid CTA "${txt(midBtn[2])}"`);
-  if (/watch your/i.test(txt(mid))) fail('mid CTA says "watch your"');
+  // Mid CTA (compare pages carry more than one; every one is checked)
+  const mids = secAll('midcta');
+  const midH3s = [];
+  mids.forEach((mid, i) => {
+    const n = mids.length > 1 ? ` #${i + 1}` : '';
+    const midBtn = mid.match(/<a href="([^"]*)" class="btn[^"]*"[^>]*>([\s\S]*?)<\/a>/);
+    if (!midBtn || midBtn[1] !== CONTACT) fail(`mid CTA${n} link`);
+    else if (txt(midBtn[2]) !== 'Book a Free Demo →') fail(`mid CTA${n} "${txt(midBtn[2])}"`);
+    if (/watch your/i.test(txt(mid))) fail(`mid CTA${n} says "watch your"`);
+    midH3s.push(txt((mid.match(/<h3[^>]*>([\s\S]*?)<\/h3>/) || [])[1] || ''));
+  });
+  if (midH3s.length > 1 && new Set(midH3s).size !== midH3s.length) fail('repeated mid-CTA heading: ' + midH3s.join(' | '));
 
   // Steps
   const sc = (sec('steps').match(/class="step-card"/g) || []).length;
@@ -168,7 +192,7 @@ for (const p of registry) {
   if (overlap.length) warn('footer repeats related-strip links: ' + overlap.join(', '));
 
   // Heading sanity: an h2 per content section
-  for (const k of ['problem', 'features', 'cards', 'steps', 'testimonials', 'comparison', 'faq', 'related', 'finalcta'])
+  for (const k of [isCmp ? 'split' : 'problem', ...(isCmp ? ['whatis'] : []), 'features', 'cards', 'steps', 'testimonials', 'comparison', 'faq', 'related', 'finalcta'])
     if (!/<h2/.test(sec(k))) fail(`section ${k} has no h2`);
 
   console.log(`${out.some(l => l.includes('FAIL')) ? '✗' : out.length ? '!' : '✓'} ${p.slug}  [${op ? 'operator' : 'distributor'}] rows ${rows.length}, cards ${cc}, FAQ ${fq}, compare ${thCells.length} cols x ${trs.length} rows, links: feature ${fSib}+${fContact}c, footer ${ml.length}`);

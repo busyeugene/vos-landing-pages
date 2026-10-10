@@ -55,6 +55,7 @@ const GROUPS = [
   { key: 'inventory', label: 'Inventory and Stock', title: 'Knowing what you have and what to stock' },
   { key: 'ops', label: 'Catalog and Operations', title: 'The catalog, the buying, and the routine around them' },
   { key: 'distribution', label: 'Distribution and Sales', title: 'The selling side of distribution, and the data under it' },
+  { key: 'compare', label: 'Compared', title: 'How VOS stacks up against the tools you are weighing' },
 ];
 
 const card = p => `      <a class="hub-card" href="/${p.slug}">
