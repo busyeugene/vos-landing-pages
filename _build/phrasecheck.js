@@ -45,6 +45,9 @@ function sentences(file) {
     .replace(/<footer[\s\S]*?<\/footer>/i, '')
     .replace(/<span class="eyebrow"[^>]*>[\s\S]*?<\/span>/gi, '')
     .replace(/<a [^>]*class="btn[^"]*"[^>]*>[\s\S]*?<\/a>/gi, '')
+    // .feature-link labels are navigation, exactly like buttons: the same handful of labels
+    // recur by design across pages, and a label is not prose. Added 2026-10-10.
+    .replace(/<a [^>]*class="feature-link"[^>]*>[\s\S]*?<\/a>/gi, '')
     .replace(/<thead>[\s\S]*?<\/thead>/gi, '')
     .replace(/(<div class="testimonial-card featured">[\s\S]*?)<p class="testimonial-quote"[^>]*>[\s\S]*?<\/p>/i, '$1')
     .replace(/<div class="testimonial-author">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>/gi, '')

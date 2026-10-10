@@ -54,6 +54,13 @@ const CANONICAL = [
   /a direct feed|nothing to retype/,
   // sitewide chrome: the final-CTA trust line, identical on every page on purpose
   /sends orders in|nothing to rip|project to run|ask us for/,
+  // the sourcing FAQ every compare page carries, and the date it was read. Deliberate and
+  // required: the transparency line is the same promise on all twelve pages.
+  /details on this|this page come|page come from/,
+  /on \d{1,2} (january|february|march|april|may|june|july|august|september|october|november|december) \d{4}/,
+  /\d{1,2} (january|february|march|april|may|june|july|august|september|october|november|december)/,
+  // the scope cell, worded identically on every compare table on purpose
+  /ordering plus stock/,
 ];
 
 const ALLOW = g =>

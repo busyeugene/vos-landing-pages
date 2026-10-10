@@ -232,4 +232,14 @@ module.exports = [
     kind: 'compare',
     competitor: 'Choco',
   },
+  {
+    slug: 'burnt-ai-alternative',
+    file: 'vos-burnt-ai-alternative-landing.html',
+    label: 'Burnt AI Alternative',
+    card: 'VOS vs Burnt',
+    blurb: "Burnt runs agents across intake, buying and collections. VOS does one step, and the person who built the order is the one who approves it.",
+    cluster: 'compare',
+    kind: 'compare',
+    competitor: 'Burnt',
+  },
 ];

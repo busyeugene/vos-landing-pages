@@ -282,4 +282,13 @@ module.exports = {
       'better than choco',
     ],
   },
+  'burnt-ai-alternative': {
+    primary: 'burnt ai alternative',
+    secondary: [
+      'burnt ai competitor',
+      'burnt ai replacement',
+      'alternative to burnt ai',
+      'better than burnt ai',
+    ],
+  },
 };

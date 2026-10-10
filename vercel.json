@@ -111,6 +111,10 @@
     {
       "source": "/choco-alternative",
       "destination": "/vos-choco-alternative-landing.html"
+    },
+    {
+      "source": "/burnt-ai-alternative",
+      "destination": "/vos-burnt-ai-alternative-landing.html"
     }
   ],
   "headers": [
