@@ -346,10 +346,14 @@ card whenever a page ships. Each card is a `Link` wrapping an `Image` (the icon)
 `HtmlEmbed` (the arrow, `uui-button-icon 4`, not the icon). The card's icon is the **Image**, and the
 Image comes **before** the heading in the DOM, so pair them by containment, never by proximity.
 
-**Only monochrome-white 256x256 SVGs may be used as icons.** The Image carries `walsh-solid-icon`,
-which recolours a white glyph. Of the 62 `icons8-*` files in the library only **32** qualify; the
-other 30 are multicolour 48x48 or carry a fixed colour (`#2c94d1`, `#107c41`, ...) and render as a
-coloured blob on the purple tile. `icons8-phone-ringing`, `icons8-web`, `icons8-integration` and
+**Only monochrome-white 256x256 SVGs may be used as icons.** The tile is
+`walsh-icon-wrapper-circle gradient solid`, which the live stylesheet renders as a **solid `#0099e6`
+56x56 rounded square**, and `walsh-solid-icon` only sets `height: 32px`: **nothing recolours the
+image**, so the SVG has to be white already. (An earlier note here called it a purple tile that
+recolours a white glyph. Both halves were wrong, measured 2026-10-10.) Of the 62 `icons8-*` files in
+the library only **32** qualify; the other 30 are multicolour 48x48 or carry a fixed colour
+(`#2c94d1`, `#107c41`, ...) and render as a
+coloured blob on the blue tile. `icons8-phone-ringing`, `icons8-web`, `icons8-integration` and
 `icons8-synchronize` all look right by name and are all unusable. The vetted pool, the rejects and
 the current card-to-icon mapping are in **`_webflow/solutions-icons.json`**.
 
@@ -365,6 +369,47 @@ cutlery. Three picks are still weak and are noted in the JSON: Distribution Work
 Distributor Sales (a "NEW" badge) and the two automation pages (two near-identical bolts). Fixing
 them needs 3-4 new white 256x256 icons uploaded. Changes made in the Designer need a Webflow
 publish to go live.
+
+`/solutions` also carries the **wrong JSON-LD**: its native schema field holds an `AboutPage` node
+named "About VoiceOrder Solutions" with `url: /about`, copied from the About page. Not fixed here
+because it is outside this task; worth telling Eugene.
+
+### The `/free-tools` page (Webflow only, no repo counterpart)
+`/free-tools` (page `6ac9dd37e59829e6290b8e2b`, created 2026-10-10, **still a draft**) is the hub for
+the **23 free calculators** that live in the sister project `Lead magnets VOS`. Same template as
+`/solutions`, one card per calculator. The full card map (element ids, target page ids, icons, asset
+ids, copy) and the JSON-LD are in **`_webflow/free-tools.json`**; the 23 icons are committed in
+`_webflow/free-tools-icons/`.
+
+**`create_page` duplicates a page and preserves every element UUID**, exactly like duplicating in the
+Designer: pass `duplicateOf: "<pageId>"` plus `title`, `slug`, `draft`, `seo`. Verified: all 26 card
+UUIDs came across identical, so a map built from the donor works on the copy with only the `component`
+half of the id changed. It does **not** copy the donor's schema markup, which was a mercy here.
+
+**Element-tool call shapes that cost a round trip each** (the guide does not spell them out):
+- every `id` is an **object**, `{"component": "<pageId>", "element": "<uuid>"}`, never a bare string;
+- `set_link` is **flat**: `{"id": ..., "linkType": "page", "link": "<pageId>"}`, not a nested `link` object;
+- `query_pages_schema_markup` and `bulk_update_pages_schema_markup` take `pages: [{"id": ...}]`;
+- ~31 actions per call ran fine.
+
+**Asset upload needs the S3 leg, and the presigned details are too bulky to retype.**
+`data_assets_tool > create_asset` (site_id, file_name, MD5 `file_hash`) only creates a metadata row;
+the bytes go in a separate multipart POST to the returned `uploadUrl` with every `uploadDetails`
+property as a form field (camelCase keys map to AWS names: `xAmzAlgorithm` -> `X-Amz-Algorithm`,
+`successActionStatus` -> `success_action_status`, `contentType` -> `Content-Type`). Until the POST
+lands the asset exists with `size: 0`. **Batch all the `create_asset` calls into one MCP call**: the
+result then overflows the inline limit and is persisted to a file, which a script can read and POST
+from directly. Transcribing the policy and signature by hand is the slow way. Re-creating an asset
+with the same name and hash **revives the soft-deleted row and reuses its id**.
+
+**The three cards the donor has spare must be removed, not left blank**, and `remove_element` needs
+the card's full `Link` UUID.
+
+**None of the 23 calculators are reachable on the live domain yet.** All 23 report `draft: false` in
+the API, but every one of them 404s on `voiceordersolutions.com` while the batch-4 landing pages and
+`/solutions` return 200, so the site has not been published since they came out of draft. The card
+links are page-id links and will resolve on publish, but **`/free-tools` must not be published before
+the calculators are**, or it ships 23 dead links and an `ItemList` of 23 dead URLs.
 
 ## Lessons from the Oct 2026 editorial check (4 passes, after the Webflow port)
 Run in this order, cheapest-catch-first. Passes 1 and 2 are mechanical and found the worst defect.

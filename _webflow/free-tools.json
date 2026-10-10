@@ -1,0 +1,679 @@
+{
+ "_note": "The /free-tools page is Webflow-only; it has no counterpart in this repo, exactly like /solutions. It was created on 2026-10-10 with data_pages_tool > create_page using duplicateOf the /solutions page, which preserves every element UUID, so the card element ids below are the same ids /solutions uses. It holds one card per free calculator. The 23 calculators themselves live in the sister project 'Lead magnets VOS' and are already published in Webflow. Card order is a reading flow: pricing and margin, then buying and supplier cost, then stock levels, then space, routes and cash. The donor had 26 cards, so the last 3 were removed.",
+ "pageId": "6ac9dd37e59829e6290b8e2b",
+ "slug": "free-tools",
+ "donorPageId": "6a73a33a046f0997fdcf7964",
+ "draft": true,
+ "iconStyleClass": "walsh-solid-icon",
+ "iconTile": {
+  "_measured": "2026-10-10 from the live stylesheet voiceorder-solutions.webflow.shared.5f9fc6fb0.min.css",
+  "wrapperStyle": "walsh-icon-wrapper-circle gradient solid",
+  "background": "#0099e6 (var(--vo-teal)), border-radius 8px, 56x56",
+  "imgHeight": "32px",
+  "recolour": "NONE. The img is not filtered, so the SVG must already be white.",
+  "correction": "solutions-icons.json calls this a purple tile that recolours a white glyph. The tile is brand blue and nothing recolours; only the white requirement is real."
+ },
+ "requiredIconStyle": {
+  "viewBox": "0 0 256 256",
+  "colors": [
+   "#ffffff"
+  ]
+ },
+ "iconSource": {
+  "from": "E:/Claude projects/Lead magnets VOS/webflow-images/_icons/vos-*.svg",
+  "original": "48x48 viewBox, fill none, stroke #0099e6, stroke-width 2.5, 7 of them also carry inner fill=#0099e6",
+  "conversion": "inner markup wrapped in <g transform='scale(5.333333)'>, viewBox set to 0 0 256 256, every #0099e6 replaced with #ffffff, stroke-width raised 2.5 -> 3.2 so the line weight reads like the icons8 solid glyphs on /solutions at 32px",
+  "verified": "all 23 rendered in headless Chrome on a 56x56 #0099e6 tile at 32px before assignment, and re-fetched from the CDN after upload"
+ },
+ "header": {
+  "h1": {
+   "element": "a25ebb8e-7e84-68b5-0646-10375ec0ec7d",
+   "text": "Free Calculators for Food Distributors"
+  },
+  "lead": {
+   "element": "a25ebb8e-7e84-68b5-0646-10375ec0ec80",
+   "text": "Work out your margin, your reorder point, your carrying cost and your route cost. Every calculator runs in your browser, free, with nothing to sign up for."
+  },
+  "h2": {
+   "element": "06636c0c-4834-594c-09d3-ac6ee7d49832",
+   "textElement": "06636c0c-4834-594c-09d3-ac6ee7d49833",
+   "text": "Pick a calculator and run your own numbers"
+  }
+ },
+ "seo": {
+  "title": "Free Calculators for Food Distributors | VoiceOrder",
+  "description": "Price a case, size a buffer, cost a route. Free calculators for independent food distributors and DSD operators, all running in your browser."
+ },
+ "buttonLabel": "Open Calculator",
+ "removedCards": [
+  {
+   "donorTitle": "Wholesale Operations Software",
+   "link": "37de5f8f-683e-169b-e6d4-ae409bb8c399"
+  },
+  {
+   "donorTitle": "Distribution Automation Software",
+   "link": "f7ba6a6c-1fe7-73e0-691d-f7a138a8b671"
+  },
+  {
+   "donorTitle": "Distribution Workflow Software",
+   "link": "098b7cd5-d52b-90df-b1bc-6e0bda6ee890"
+  }
+ ],
+ "cards": [
+  {
+   "i": 0,
+   "title": "Product Pricing Calculator",
+   "slug": "product-pricing-calculator",
+   "targetPageId": "6ac718c668be300e93fb7203",
+   "icon": "vos-price-tag.svg",
+   "assetId": "6ac9dd4f9e72e28b538e3aaf",
+   "desc": "Price one case three ways at once: cost-plus, a target profit, or matching a competitor. See the margin each route actually leaves you.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "06636c0c-4834-594c-09d3-ac6ee7d49835",
+    "image": "06636c0c-4834-594c-09d3-ac6ee7d49838",
+    "titleString": "06636c0c-4834-594c-09d3-ac6ee7d4983b",
+    "descString": "20e44b24-596f-e6eb-1704-5ad64c24998a",
+    "buttonString": "06636c0c-4834-594c-09d3-ac6ee7d49843"
+   },
+   "donorTitle": "Order Entry Software"
+  },
+  {
+   "i": 1,
+   "title": "Product Markup Calculator",
+   "slug": "product-markup-calculator",
+   "targetPageId": "6ac7866ff16ee3a82e89dd76",
+   "icon": "vos-percent.svg",
+   "assetId": "6ac9dd4fa97e86e194cd596a",
+   "desc": "Line up price and margin at every markup rung, plus the markup a target margin needs. A 50% markup is a 33.3% margin, not the same number.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "91140da8-c0bb-16b9-4a5c-57b669e15c77",
+    "image": "91140da8-c0bb-16b9-4a5c-57b669e15c7a",
+    "titleString": "91140da8-c0bb-16b9-4a5c-57b669e15c7d",
+    "descString": "fbf29a1b-376f-09cf-39a4-c09ec882fab8",
+    "buttonString": "91140da8-c0bb-16b9-4a5c-57b669e15c85"
+   },
+   "donorTitle": "Order Taking Software"
+  },
+  {
+   "i": 2,
+   "title": "Material Markup Calculator",
+   "slug": "material-markup-calculator",
+   "targetPageId": "6ac72b95bdfb92fbc692e782",
+   "icon": "vos-invoice.svg",
+   "assetId": "6ac9dd4f4017280c1d75fff1",
+   "desc": "Build a case price from freight, handling and shrink, then see what your markup leaves once shrink comes back out of it.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "29987a19-57fd-2141-4b84-ea8049f8bd65",
+    "image": "29987a19-57fd-2141-4b84-ea8049f8bd68",
+    "titleString": "29987a19-57fd-2141-4b84-ea8049f8bd6b",
+    "descString": "29987a19-57fd-2141-4b84-ea8049f8bd6e",
+    "buttonString": "29987a19-57fd-2141-4b84-ea8049f8bd73"
+   },
+   "donorTitle": "Order Fulfillment Software"
+  },
+  {
+   "i": 3,
+   "title": "Retail Margin Calculator",
+   "slug": "retail-margin-calculator",
+   "targetPageId": "6ac76528743f1f2a6f8ae6e6",
+   "icon": "vos-target.svg",
+   "assetId": "6ac9de2ddf21f39cf8f027f9",
+   "desc": "Turn a cost and a shelf price into the retail margin, the markup that matches it, and the price a target margin would need.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "6f20970f-a079-6da3-9c63-cf35420cc8e9",
+    "image": "6f20970f-a079-6da3-9c63-cf35420cc8ec",
+    "titleString": "6f20970f-a079-6da3-9c63-cf35420cc8ef",
+    "descString": "6f20970f-a079-6da3-9c63-cf35420cc8f2",
+    "buttonString": "6f20970f-a079-6da3-9c63-cf35420cc8f7"
+   },
+   "donorTitle": "Order Tracking Software"
+  },
+  {
+   "i": 4,
+   "title": "Wholesale Markup Calculator",
+   "slug": "wholesale-markup-calculator",
+   "targetPageId": "6ac73521a469d3c306f7aa87",
+   "icon": "vos-trend-up.svg",
+   "assetId": "6ac9dd51f5afce06c9b30848",
+   "desc": "Take a landed cost up to a wholesale price, then watch low-margin staples pull the blended number below what you quoted.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "390a6cbe-54a4-21b7-6016-c32deeb24e1d",
+    "image": "390a6cbe-54a4-21b7-6016-c32deeb24e20",
+    "titleString": "390a6cbe-54a4-21b7-6016-c32deeb24e23",
+    "descString": "273cdfe8-b8cd-7577-4100-0a9dd5f3bb52",
+    "buttonString": "390a6cbe-54a4-21b7-6016-c32deeb24e2b"
+   },
+   "donorTitle": "Inventory Tracking Software"
+  },
+  {
+   "i": 5,
+   "title": "Food Markup Calculator",
+   "slug": "food-markup-calculator",
+   "targetPageId": "6ac79be2180bc9b3c91fb79c",
+   "icon": "vos-shrink.svg",
+   "assetId": "6ac9dd50d7dee86616710b17",
+   "desc": "Price cut and portioned product on the pounds you can really sell. Trim runs 6 lb a case, so pricing off the 40 lb you bought comes up short.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "3a32c3f4-37d6-9992-2e6b-19b09ce040ca",
+    "image": "3a32c3f4-37d6-9992-2e6b-19b09ce040cd",
+    "titleString": "3a32c3f4-37d6-9992-2e6b-19b09ce040d0",
+    "descString": "3a32c3f4-37d6-9992-2e6b-19b09ce040d3",
+    "buttonString": "3a32c3f4-37d6-9992-2e6b-19b09ce040d8"
+   },
+   "donorTitle": "Inventory Planning Software"
+  },
+  {
+   "i": 6,
+   "title": "Wholesale to Retail Markup Calculator",
+   "slug": "wholesale-to-retail-markup-calculator",
+   "targetPageId": "6ac73522edd07accabdbe401",
+   "icon": "vos-balance-scale.svg",
+   "assetId": "6ac9dd518486af1b33e38258",
+   "desc": "Follow one case from your cost to the shelf price, and check your wholesale still leaves the retailer enough margin to keep stocking you.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69754",
+    "image": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69757",
+    "titleString": "8c03c7d6-9be4-5202-d5ff-b8f8e3a6975a",
+    "descString": "8c03c7d6-9be4-5202-d5ff-b8f8e3a6975d",
+    "buttonString": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69762"
+   },
+   "donorTitle": "Inventory Control Software"
+  },
+  {
+   "i": 7,
+   "title": "Price Change Calculator",
+   "slug": "price-change-calculator",
+   "targetPageId": "6ac735253fe7317c927e4447",
+   "icon": "vos-trend-down.svg",
+   "assetId": "6ac9dd51b29fabf5d625804c",
+   "desc": "Before you move a price, see the profit swing per case and how much volume you can afford to lose before the raise costs you money.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "1a6cf711-ae29-2e40-dd5e-86d9f8b3043f",
+    "image": "1a6cf711-ae29-2e40-dd5e-86d9f8b30442",
+    "titleString": "1a6cf711-ae29-2e40-dd5e-86d9f8b30445",
+    "descString": "1a6cf711-ae29-2e40-dd5e-86d9f8b30448",
+    "buttonString": "1a6cf711-ae29-2e40-dd5e-86d9f8b3044d"
+   },
+   "donorTitle": "Inventory Visibility Software"
+  },
+  {
+   "i": 8,
+   "title": "Landed Cost Calculator",
+   "slug": "landed-cost-calculator",
+   "targetPageId": "6ac7652962cd713ecd056f43",
+   "icon": "vos-compare-bars.svg",
+   "assetId": "6ac9dd518486af1b33e38284",
+   "desc": "Rank three supplier quotes on landed cost per unit with freight counted. The cheapest case price is rarely the cheapest unit.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "2ddbdd41-58be-7ee9-ab88-f51516842de5",
+    "image": "2ddbdd41-58be-7ee9-ab88-f51516842de8",
+    "titleString": "2ddbdd41-58be-7ee9-ab88-f51516842deb",
+    "descString": "d4ed66ee-959f-4b5f-3ecf-0329c0310b88",
+    "buttonString": "2ddbdd41-58be-7ee9-ab88-f51516842df3"
+   },
+   "donorTitle": "Catalog Management Software"
+  },
+  {
+   "i": 9,
+   "title": "Unit Price Calculator",
+   "slug": "unit-price-calculator",
+   "targetPageId": "6ac72b948f277e012d8d7584",
+   "icon": "vos-stack.svg",
+   "assetId": "6ac9dd514017280c1d7600cb",
+   "desc": "Compare two pack sizes on the same base, per unit and per pound, so the box that looks cheaper is not just the bigger one.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebaf",
+    "image": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebb2",
+    "titleString": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebb5",
+    "descString": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebb8",
+    "buttonString": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebbd"
+   },
+   "donorTitle": "Restaurant Checklist Software"
+  },
+  {
+   "i": 10,
+   "title": "Purchase Price Variance Calculator",
+   "slug": "purchase-price-variance-calculator",
+   "targetPageId": "6ac7866c27806c8148c2855e",
+   "icon": "vos-order-guide.svg",
+   "assetId": "6ac9dd52ac9eb247822a68f2",
+   "desc": "Set what you actually paid against your standard price, per case and as a percent, then see what the gap is worth over a year.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "51a5ea11-aba5-624d-7a30-08c7f6587f5a",
+    "image": "51a5ea11-aba5-624d-7a30-08c7f6587f5d",
+    "titleString": "51a5ea11-aba5-624d-7a30-08c7f6587f60",
+    "descString": "51a5ea11-aba5-624d-7a30-08c7f6587f63",
+    "buttonString": "51a5ea11-aba5-624d-7a30-08c7f6587f68"
+   },
+   "donorTitle": "Restaurant Purchasing Software"
+  },
+  {
+   "i": 11,
+   "title": "Early Payment Discount Calculator",
+   "slug": "early-payment-discount-calculator",
+   "targetPageId": "6ac79be4b863c26cbc9698b6",
+   "icon": "vos-cash.svg",
+   "assetId": "6ac9dd535a7e78e026180892",
+   "desc": "See what 2/10 net 30 is really worth. Paying 20 days early for 2% off annualizes to 37.2%, cheaper than any line of credit.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "260ab7fd-903a-e943-2006-5f0b383a2d1d",
+    "image": "260ab7fd-903a-e943-2006-5f0b383a2d20",
+    "titleString": "260ab7fd-903a-e943-2006-5f0b383a2d23",
+    "descString": "260ab7fd-903a-e943-2006-5f0b383a2d26",
+    "buttonString": "260ab7fd-903a-e943-2006-5f0b383a2d2b"
+   },
+   "donorTitle": "Restaurant Stock Management Software"
+  },
+  {
+   "i": 12,
+   "title": "Procurement Savings Calculator",
+   "slug": "procurement-savings-calculator",
+   "targetPageId": "6ac78670c218082afa38ac6f",
+   "icon": "vos-chart-up.svg",
+   "assetId": "6ac9dd505e6893dfb5b8ba84",
+   "desc": "Split hard savings from the increases you avoided, size both against spend, and see which part actually reaches the P&L.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "40ba3bf6-45c4-aadf-8876-301f0f5852d1",
+    "image": "40ba3bf6-45c4-aadf-8876-301f0f5852d4",
+    "titleString": "40ba3bf6-45c4-aadf-8876-301f0f5852d7",
+    "descString": "40ba3bf6-45c4-aadf-8876-301f0f5852da",
+    "buttonString": "40ba3bf6-45c4-aadf-8876-301f0f5852df"
+   },
+   "donorTitle": "Vendor Management Software"
+  },
+  {
+   "i": 13,
+   "title": "Marginal Cost Calculator",
+   "slug": "marginal-cost-calculator",
+   "targetPageId": "6ac69810ef654fbdecf37f4b",
+   "icon": "vos-case.svg",
+   "assetId": "6ac9de2ddeb7179cd74e2b22",
+   "desc": "Find what one more case really costs, including the step cost when that volume needs another truck or another route.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "d443af44-12fd-f1e3-2610-396b06930f27",
+    "image": "d443af44-12fd-f1e3-2610-396b06930f2a",
+    "titleString": "d443af44-12fd-f1e3-2610-396b06930f2d",
+    "descString": "d443af44-12fd-f1e3-2610-396b06930f30",
+    "buttonString": "d443af44-12fd-f1e3-2610-396b06930f35"
+   },
+   "donorTitle": "Inventory Automation Software"
+  },
+  {
+   "i": 14,
+   "title": "Reorder Point Calculator",
+   "slug": "reorder-point-calculator",
+   "targetPageId": "6ac7652a2a715d3e702a0559",
+   "icon": "vos-calendar.svg",
+   "assetId": "6ac9de2e5a7e78e026185d68",
+   "desc": "Get the stock level that should trigger your next order, the days of cover left, and what a late supplier costs you in cases.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "3e718a2f-0134-306e-c7e4-faaa918279c1",
+    "image": "3e718a2f-0134-306e-c7e4-faaa918279c4",
+    "titleString": "3e718a2f-0134-306e-c7e4-faaa918279c7",
+    "descString": "3e718a2f-0134-306e-c7e4-faaa918279ca",
+    "buttonString": "3e718a2f-0134-306e-c7e4-faaa918279cf"
+   },
+   "donorTitle": "Distribution Resource Planning Software"
+  },
+  {
+   "i": 15,
+   "title": "Safety Stock Calculator",
+   "slug": "safety-stock-calculator",
+   "targetPageId": "6ac735249b6f12d26ba60ce1",
+   "icon": "vos-buffer.svg",
+   "assetId": "6ac9de2e817c37fbf1643a9f",
+   "desc": "Size a buffer from how much your demand and lead times move, pick a service level, then check it against shelf life.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "79f7d6ba-2390-b7f0-935e-796134c40cce",
+    "image": "79f7d6ba-2390-b7f0-935e-796134c40cd1",
+    "titleString": "79f7d6ba-2390-b7f0-935e-796134c40cd4",
+    "descString": "79f7d6ba-2390-b7f0-935e-796134c40cd7",
+    "buttonString": "79f7d6ba-2390-b7f0-935e-796134c40cdc"
+   },
+   "donorTitle": "Inventory Replenishment Software"
+  },
+  {
+   "i": 16,
+   "title": "Par Level Calculator",
+   "slug": "par-level-calculator",
+   "targetPageId": "6ac79be1b863c26cbc96979a",
+   "icon": "vos-racking.svg",
+   "assetId": "6ac9de2e5a7e78e026185ddf",
+   "desc": "Set the level you top up to between deliveries, and see the cash every extra buffer day ties up in stock on your floor.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "78bfa5fa-8372-2b60-7a50-7f7d692315c8",
+    "image": "78bfa5fa-8372-2b60-7a50-7f7d692315cb",
+    "titleString": "6ad7f33a-9b6f-c3d7-6cd5-1dcafd0caaef",
+    "descString": "78bfa5fa-8372-2b60-7a50-7f7d692315d1",
+    "buttonString": "78bfa5fa-8372-2b60-7a50-7f7d692315d6"
+   },
+   "donorTitle": "Wholesale Ordering Software"
+  },
+  {
+   "i": 17,
+   "title": "Inventory Turnover Calculator",
+   "slug": "inventory-turnover-calculator",
+   "targetPageId": "6ac7252ae188e18d1d906bba",
+   "icon": "vos-turnover.svg",
+   "assetId": "6ac9de2ec7da9f1afa7f4e36",
+   "desc": "Count how many times a year you turn stock, how long a case sits before it sells, and the cash a slow turn keeps tied up.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "6dff52e1-20e0-69b3-1ce2-41adc930bd80",
+    "image": "6dff52e1-20e0-69b3-1ce2-41adc930bd83",
+    "titleString": "efcd3a35-5ff3-364d-4448-cca4823dc166",
+    "descString": "6dff52e1-20e0-69b3-1ce2-41adc930bd89",
+    "buttonString": "6dff52e1-20e0-69b3-1ce2-41adc930bd8e"
+   },
+   "donorTitle": "B2B Portal Software"
+  },
+  {
+   "i": 18,
+   "title": "Inventory Carrying Cost Calculator",
+   "slug": "inventory-carrying-cost-calculator",
+   "targetPageId": "6ac7866e071fb41c4807eab0",
+   "icon": "vos-dollar.svg",
+   "assetId": "6ac9de2e817c37fbf1643af8",
+   "desc": "Add up capital, storage, spoilage, insurance and obsolescence into a carrying rate, instead of reaching for the 25% rule of thumb.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "1d86f27a-a493-f927-d5d1-6e70963cc18d",
+    "image": "1d86f27a-a493-f927-d5d1-6e70963cc190",
+    "titleString": "c9742480-186b-2afc-ab96-9519ca3ccebb",
+    "descString": "1d86f27a-a493-f927-d5d1-6e70963cc196",
+    "buttonString": "1d86f27a-a493-f927-d5d1-6e70963cc19b"
+   },
+   "donorTitle": "Distributor Sales Software"
+  },
+  {
+   "i": 19,
+   "title": "Warehouse Space Calculator",
+   "slug": "warehouse-space-calculator",
+   "targetPageId": "6ac735232408756f9071e095",
+   "icon": "vos-floorplan.svg",
+   "assetId": "6ac9de2fe936ba48e9d1c42d",
+   "desc": "Work out the square feet your inventory needs once aisles, dock and staging are counted, and what stacking one pallet higher saves.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "5f2e17a3-d394-323b-0d0e-1f9d98f2ef1d",
+    "image": "5f2e17a3-d394-323b-0d0e-1f9d98f2ef20",
+    "titleString": "72314baa-f663-e2c2-3d50-9616653301aa",
+    "descString": "5f2e17a3-d394-323b-0d0e-1f9d98f2ef26",
+    "buttonString": "5f2e17a3-d394-323b-0d0e-1f9d98f2ef2b"
+   },
+   "donorTitle": "DSD Sales Software"
+  },
+  {
+   "i": 20,
+   "title": "Warehouse Size Calculator",
+   "slug": "warehouse-size-calculator",
+   "targetPageId": "6ac72b9663b2850d53a5f878",
+   "icon": "vos-warehouse.svg",
+   "assetId": "6ac9de2fe59829e6290bdb21",
+   "desc": "See how many cases the building you already have will hold, and how many weeks of flow that covers at your throughput.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "8f956ead-12e8-2f40-7ea5-14e67e7ea8ad",
+    "image": "8f956ead-12e8-2f40-7ea5-14e67e7ea8b0",
+    "titleString": "8edb2df7-b3b9-0070-9909-53ed23caabb3",
+    "descString": "8f956ead-12e8-2f40-7ea5-14e67e7ea8b6",
+    "buttonString": "8f956ead-12e8-2f40-7ea5-14e67e7ea8bb"
+   },
+   "donorTitle": "Supplier Management Software"
+  },
+  {
+   "i": 21,
+   "title": "Delivery Cost Calculator",
+   "slug": "delivery-cost-calculator",
+   "targetPageId": "6ac7652b0d7b366d7fd65177",
+   "icon": "vos-truck.svg",
+   "assetId": "6ac9de30e936ba48e9d1c471",
+   "desc": "Break a route down to cost per drop, per case and per mile, so you can see where your delivery minimum should really sit.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "03991069-a72c-7424-d824-14265f4369ca",
+    "image": "03991069-a72c-7424-d824-14265f4369cd",
+    "titleString": "6d9319f7-48c1-3b18-8893-c99a9ac6cac4",
+    "descString": "03991069-a72c-7424-d824-14265f4369d3",
+    "buttonString": "03991069-a72c-7424-d824-14265f4369d8"
+   },
+   "donorTitle": "Distributor Analytics Software"
+  },
+  {
+   "i": 22,
+   "title": "Accounts Receivable Turnover Calculator",
+   "slug": "accounts-receivable-turnover-calculator",
+   "targetPageId": "6ac72b932e36cb4efe865399",
+   "icon": "vos-clock.svg",
+   "assetId": "6ac9de30817c37fbf1643bc0",
+   "desc": "Check how fast you collect, how many days past terms customers really pay, and what financing that delay costs you.",
+   "button": "Open Calculator",
+   "elements": {
+    "link": "a6156017-b675-18c9-8a8f-a3a86d977bad",
+    "image": "a6156017-b675-18c9-8a8f-a3a86d977bb0",
+    "titleString": "cfef887d-07ee-d587-f8a1-c0e388db0beb",
+    "descString": "a6156017-b675-18c9-8a8f-a3a86d977bb6",
+    "buttonString": "a6156017-b675-18c9-8a8f-a3a86d977bbb"
+   },
+   "donorTitle": "Inventory Forecasting Software"
+  }
+ ],
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "CollectionPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools",
+    "name": "Free Calculators for Food Distributors",
+    "description": "Price a case, size a buffer, cost a route. Free calculators for independent food distributors and DSD operators, all running in your browser.",
+    "inLanguage": "en",
+    "isPartOf": {
+     "@type": "WebSite",
+     "@id": "https://www.voiceordersolutions.com#website",
+     "name": "VoiceOrder Solutions",
+     "url": "https://www.voiceordersolutions.com/"
+    },
+    "about": {
+     "@type": "Organization",
+     "@id": "https://www.voiceordersolutions.com#organization",
+     "name": "VoiceOrder Solutions",
+     "url": "https://www.voiceordersolutions.com/",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/69bc166c0e1d00dd7986930b_voiceorder_solutions_logo_color%20(1).webp"
+     }
+    },
+    "breadcrumb": {
+     "@id": "https://www.voiceordersolutions.com/free-tools#breadcrumb"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools#calculators"
+    }
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.voiceordersolutions.com/free-tools#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.voiceordersolutions.com/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Free Calculators",
+      "item": "https://www.voiceordersolutions.com/free-tools"
+     }
+    ]
+   },
+   {
+    "@type": "ItemList",
+    "@id": "https://www.voiceordersolutions.com/free-tools#calculators",
+    "name": "Free calculators for food distributors",
+    "description": "Browser-based calculators for pricing, margin, purchasing, stock levels, warehouse space and route cost.",
+    "numberOfItems": 23,
+    "itemListOrder": "https://schema.org/ItemListUnordered",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "url": "https://www.voiceordersolutions.com/product-pricing-calculator",
+      "name": "Product Pricing Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "url": "https://www.voiceordersolutions.com/product-markup-calculator",
+      "name": "Product Markup Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "url": "https://www.voiceordersolutions.com/material-markup-calculator",
+      "name": "Material Markup Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "url": "https://www.voiceordersolutions.com/retail-margin-calculator",
+      "name": "Retail Margin Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 5,
+      "url": "https://www.voiceordersolutions.com/food-markup-calculator",
+      "name": "Food Markup Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 6,
+      "url": "https://www.voiceordersolutions.com/wholesale-markup-calculator",
+      "name": "Wholesale Markup Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 7,
+      "url": "https://www.voiceordersolutions.com/wholesale-to-retail-markup-calculator",
+      "name": "Wholesale to Retail Markup Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 8,
+      "url": "https://www.voiceordersolutions.com/price-change-calculator",
+      "name": "Price Change Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://www.voiceordersolutions.com/landed-cost-calculator",
+      "name": "Landed Cost Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 10,
+      "url": "https://www.voiceordersolutions.com/unit-price-calculator",
+      "name": "Unit Price Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 11,
+      "url": "https://www.voiceordersolutions.com/purchase-price-variance-calculator",
+      "name": "Purchase Price Variance Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://www.voiceordersolutions.com/early-payment-discount-calculator",
+      "name": "Early Payment Discount Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 13,
+      "url": "https://www.voiceordersolutions.com/procurement-savings-calculator",
+      "name": "Procurement Savings Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 14,
+      "url": "https://www.voiceordersolutions.com/marginal-cost-calculator",
+      "name": "Marginal Cost Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 15,
+      "url": "https://www.voiceordersolutions.com/reorder-point-calculator",
+      "name": "Reorder Point Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 16,
+      "url": "https://www.voiceordersolutions.com/safety-stock-calculator",
+      "name": "Safety Stock Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 17,
+      "url": "https://www.voiceordersolutions.com/par-level-calculator",
+      "name": "Par Level Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 18,
+      "url": "https://www.voiceordersolutions.com/inventory-turnover-calculator",
+      "name": "Inventory Turnover Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 19,
+      "url": "https://www.voiceordersolutions.com/inventory-carrying-cost-calculator",
+      "name": "Inventory Carrying Cost Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 20,
+      "url": "https://www.voiceordersolutions.com/warehouse-space-calculator",
+      "name": "Warehouse Space Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 21,
+      "url": "https://www.voiceordersolutions.com/warehouse-size-calculator",
+      "name": "Warehouse Size Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 22,
+      "url": "https://www.voiceordersolutions.com/delivery-cost-calculator",
+      "name": "Delivery Cost Calculator"
+     },
+     {
+      "@type": "ListItem",
+      "position": 23,
+      "url": "https://www.voiceordersolutions.com/accounts-receivable-turnover-calculator",
+      "name": "Accounts Receivable Turnover Calculator"
+     }
+    ]
+   }
+  ]
+ }
+}

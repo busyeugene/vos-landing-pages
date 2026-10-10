@@ -445,5 +445,6 @@
     "id": "6a73988dd76406ff6e19255a"
    }
   ]
- }
+ },
+ "_correction_2026_10_10": "The tile description in _note is wrong, measured against the live stylesheet while building /free-tools: walsh-icon-wrapper-circle.gradient.solid is a SOLID #0099e6 (var(--vo-teal)) 56x56 rounded square, not a purple circle, and walsh-solid-icon only sets height:32px, so NOTHING recolours the image. The white requirement is real, but it is real because an un-white icon simply shows its own colour on a blue tile, not because a filter recolours a white glyph. See _webflow/free-tools.json > iconTile."
 }
