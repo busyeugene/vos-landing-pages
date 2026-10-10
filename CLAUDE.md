@@ -275,7 +275,9 @@ page's angle, live in `_build/research/competitors/`.**
 ## Competitor comparison pages (`compare` cluster, opened 2026-10-10)
 
 ### ▶ RESUME HERE
-**10 of 12 built, gated and pushed. 2 to go, and both need Eugene first.** Current as of 2026-10-10.
+**ALL 12 BUILT, GATED AND PUSHED, and the related strips are re-pointed at each other.**
+Current as of 2026-10-10. What is left is the verification passes, the hub page, the `/solutions`
+cards and the Webflow ports: see "What is left" below.
 
 | # | Slug | Competitor | Angle (never reuse another page's) | State |
 |---|---|---|---|---|
@@ -289,22 +291,34 @@ page's angle, live in `_build/research/competitors/`.**
 | 8 | `/pepperi-alternative` | Pepperi | Its centre of gravity is **the visit**: routes, van sales, store audits, merchandisers. VOS is the reorder nobody attends | repo |
 | 9 | `/orderease-alternative` | OrderEase | They orchestrate every order channel; VOS removes the one that makes the most work | repo |
 | 10 | `/wizcommerce-alternative` | WizCommerce | Whether an **interpretation step exists at all**: read back from an artifact, or authored as lines | repo |
-| 11 | `/rekki-alternative` | REKKI | **not started** — ⚠ see below | — |
-| 12 | `/fresho-alternative` | Fresho | **not started** — ⚠ see below | — |
+| 11 | `/rekki-alternative` | REKKI | Engages their published **error rate**: a rate exists because a robot is inferring the order. VOS has no reading step | repo |
+| 12 | `/fresho-alternative` | Fresho | **Fresh-food depth versus one step**: add, not adopt. Concedes their whole operations suite | repo |
 
-⚠ **REKKI and Fresho are the hard two and were left last on purpose.** They are supplier ordering
-apps, the same SHAPE as VOS, not platforms. "A layer, not a platform" does not apply to them, and
-neither does "you are buying a growth engine". They need a genuinely different argument, most
-likely about whose app it is and whose catalog it runs on. **Work that out with Eugene before
-writing them** rather than inventing it.
+⚠ **REKKI and Fresho had BOTH MOVED by the time they were written, and the plan's premise for
+them was wrong.** The plan called them "supplier ordering apps, the same SHAPE as VOS, not
+platforms", from the 2026-07 baseline. Researched live 2026-10-10:
+- **REKKI now sells "Office robots built for wholesale distributors"** (OrderAI, InboxAI, MenuAI,
+  a marketplace). The buyer is the distributor and the chef app is one nav item. The reserved
+  "whose app is it" angle did not apply at all.
+- **Fresho is now an "Order & Operations Management System"**: ordering, inventory, margins,
+  delivery, invoicing, payments, picking, reporting, plus an AI order-entry product. The opposite
+  of a narrow app.
+This is the second time the 2026-07 baseline has been materially stale. **Re-pull every competitor
+live before writing, including ones you think you know.**
 
-**After all twelve, in this order:**
-1. Re-point all twelve related strips at each other (they currently point at feature pages because
-   no siblings existed early on), then re-run `template.js`, which checks 3 same-audience cards.
+### What is left on this cluster
+1. ~~Re-point all twelve related strips at each other~~ **done 2026-10-10.** Grouped by argument
+   affinity (platforms and growth / AI and order intake / systems of record); every page has 2 to
+   4 inbound sibling links and the footers still carry the feature-page and cross-audience links.
 2. The three verification passes Eugene asked for: competitor facts, VOS facts and the distributor
    tie, then logic/flow/repetition. See "The three verification passes" at the end of this section.
 3. The hub page (one card per comparison, plus the table and CTAs reused), then a `/solutions` card
    for each, then the Webflow ports.
+
+⚠ **Pre-existing within-page trigram debt on the first six compare pages**, which the last six do
+not carry: necs-entree 17, cut-dry 17, bluecart 11, grubmarket 4, and a handful on pepper and
+choco. Pages 7 to 12 all ship at 0. `node where.js <slug>` lists each one with its sentences. Worth
+a pass before the Webflow port, since the port copies whatever the repo says.
 
 ### The batch
 Twelve `<competitor> alternative` pages from the **October** Airtable batch (base
@@ -400,6 +414,44 @@ it must not claim distributors **"switch from"** the competitor. Both negative-t
    `phrasecheck.js <slug> "..." "..."` (about 10 per call, roughly a third come back colliding),
    apply, re-measure. **Steady state is ~16-30 rewordings per page.**
 7. Read the outline before calling it done. Rewording breaks grammar and no gate sees it.
+
+### Lessons from pages 11 and 12 (REKKI, Fresho, 2026-10-10)
+- **Re-pull every competitor live before writing, even one you think you know.** Both of these had
+  changed shape so completely that the planned angle was unusable. Second time the 2026-07
+  baseline has been materially stale.
+- **FOUR of the twelve competitors touch voice:** WizCommerce (voice notes), Fresho (voicemails),
+  GrubMarket (a voice assistant) and REKKI (messages of every kind). "They type, we speak" is the
+  single most tempting and most wrong sentence in this cluster. Grep the competitor's feature list
+  for "voice" and "voicemail" before drafting a word.
+- **THREE of the twelve publish prices**, so "pricing is parity" is the exception, not the rule:
+  OrderEase (a monthly floor), REKKI (per customer, in GBP) and Fresho (a floor, a setup fee,
+  worked examples, a calculator and per-region pages). Each of those pages gives the competitor
+  the ✓ on that row. **Keep their figures off the page**: a published price goes stale and that is
+  what a fact-checking buyer catches. Say they publish one, and let the sourcing FAQ carry the date.
+- **Engaging a competitor's strongest published claim beats ignoring it.** REKKI advertises an
+  accuracy rate; the page takes it seriously, concedes that publishing one is more than most
+  vendors do, and makes the argument that a rate exists because something is being inferred. That
+  required two guard FAQs: one refusing to claim a better percentage, one saying plainly that a
+  VOS order can still be wrong. **Never let an argument like this drift into implying VOS is
+  100% accurate**, and restate the phone/voicemail limit on the same page.
+- **Do not repeat the competitor's number even as colour.** A problem card read "which is more
+  than most vendors will do, and it is low" — that last clause endorses an unaudited figure as
+  fact. Cut it.
+- **Watch for accidental price implications in coexistence copy.** "Adding VOS costs you nothing
+  elsewhere" reads as "VOS is free". Reworded to "Nothing else has to give way for it".
+- **A competitor whose own promise is the inverse of ours is a gift, not a threat.** Fresho
+  publishes "customers continue ordering the same way they always have"; VOS's whole value is that
+  the habit moves. Written as a fork in the road the buyer should choose knowingly, which is more
+  persuasive than claiming they are wrong.
+- **Check a competitor's additive story before arguing scope.** Fresho's OrderPilot explicitly
+  "works with your existing ERP", so Pepper's "a platform you move onto" does not transfer and the
+  page says neither product is a rip-and-replace.
+- **`template.js` fails a cross-audience related card.** `/order-entry-software` is an OPERATOR
+  page, so it cannot sit in a distributor page's strip; `/order-taking-software` is its
+  distributor counterpart.
+- **Fixing one within-page repeat exposes the next.** Fresho went 2 → 8 → 2 → 0 over three rounds
+  because each reword surfaced a pair the previous wording had masked. Budget for the rounds
+  rather than one pass.
 
 ### Lessons from pages 8 to 10 (Pepperi, OrderEase, WizCommerce, 2026-10-10)
 - **`trigram.js` had a latent crash, now fixed.** A trigram that is VOS-side on EVERY page it
