@@ -94,7 +94,7 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock in the picture while orders land",
-    "body": "VOS carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the system you run today keeps that job, and a demo walks through how the two connect.",
+    "body": "VOS carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the system you run today keeps that job, and a demo shows how the levels connect.",
     "bullets": [
      "Across everything you list, not only the fast movers",
      "Fewer stockout surprises on a late, heavy order",

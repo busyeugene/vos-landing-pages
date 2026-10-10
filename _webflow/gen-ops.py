@@ -74,7 +74,18 @@ def build(slug):
             text.append([m['eyebrow_string'], r['eyebrow']])
         text.append([m['h3'], r['h3']])
         text.append([S(m['body']), r['body']])
-        for k, b in enumerate(r['bullets'][:4]):
+        # The donor row has 4 bullet slots. A repo row with 5 must DROP one, and which one is an
+        # editorial decision, not "the last": on the compare pages bullet 4 carries a verified fact
+        # (reps freed to sell, or interruption recovery) that review pass 8 deliberately promoted,
+        # while bullet 2 repeats the hero trust line's "iOS + Android". `bullets_keep` in
+        # overrides.json names the indexes to keep; without it, a naive [:4] would silently undo
+        # pass 8. See overrides.json `_compare_structural`.
+        keep = (OVR.get(slug, {}).get('bullets_keep') or {}).get(str(i))
+        bl = [r['bullets'][x] for x in keep if x < len(r['bullets'])] if keep else r['bullets']
+        if len(bl) > 4:
+            raise SystemExit('%s feature row %d: %d bullets for 4 slots and no bullets_keep override'
+                             % (slug, i + 1, len(bl)))
+        for k, b in enumerate(bl):
             text.append([S(m['bullets'][k]), b])
         if r.get('link'):
             href = r['link']['href']

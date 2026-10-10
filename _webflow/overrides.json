@@ -51,7 +51,8 @@
   ".meta_title": "Goes to the page's native SEO title field via data_pages_tool, not to an element.",
   ".meta_desc": "Goes to the page's native SEO description field, not to an element.",
   ".comparison.h2": "The joined form. The two halves are sent separately as h2_line1 / h2_line2, because the heading renders as two sibling String nodes split by a <br>.",
-  ".midcta.cta": "The Webflow mid-CTA block is a heading plus body with NO button (verified on the live tree 2026-10-10). The repo page has a button there. Adding one would be a design change, so the label has nowhere to go."
+  ".midcta.cta": "The Webflow mid-CTA block is a heading plus body with NO button (verified on the live tree 2026-10-10). The repo page has a button there. Adding one would be a design change, so the label has nowhere to go.",
+  ".features.rows[0].bullets[2]": "The donor feature row has 4 bullet slots and the compare rows carry 5. Index 2 is the handset fact, which the hero trust line already states as iOS + Android, so it is the one dropped; index 4 is kept because it carries a verified fact pass 8 promoted. Decided per page in bullets_keep. See _compare_structural."
  },
  "_compare_structural": "Two donor constraints bite on every compare page, and both are DECISIONS, not truncations. (1) A feature row has 4 bullet slots and the repo rows carry 5. On all 12 pages bullet index 2 is the 'their own handset, iOS or Android' fact, which the hero trust line already states as 'iOS + Android', so index 2 is the one dropped and index 4 is KEPT: index 4 carries either 'frees reps to sell' or interruption recovery, both verified facts that review pass 8 deliberately promoted off 5/12 and 7/12 coverage. Dropping 4 instead would quietly undo that. (2) The accordion has 8 slots and the pages carry 9 FAQs; IX2 binds the interaction per element so an inserted item renders dead. Every compare page's FAQ 1 and FAQ 2 ask the same thing from two angles ('Is VOS an <X> alternative?' and 'Is VOS better than <X>?'), so those two merge, as pepper-alternative.faq_merge already does. The merged question must carry BOTH the primary keyword '<X> alternative' and the secondary 'better than <X>'.",
  "choco-alternative": {
@@ -63,7 +64,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a fair Choco alternative, and is it better than Choco?",
+   "a": "Both answers turn on the same thing. On order capture the two are worth lining up next to each other, and at getting an accurate order out of a busy kitchen with nobody keying it in we would argue VOS is the better fit, because the customer approves the lines rather than software interpreting a message. On storefronts, sales tooling, CRM and growing the average basket, Choco is doing things VOS has never set out to do, and no table we could draw would change that."
+  }
  },
  "burnt-ai-alternative": {
   "bullets_keep": {
@@ -74,7 +84,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a genuine Burnt AI alternative, and is it better than Burnt AI?",
+   "a": "On order intake the two overlap properly, and on that one job we would say yes: with VOS the buyer approves the order, so correctness is settled by whoever knows the kitchen rather than by a confidence score. Past intake they diverge. Burnt automates purchasing and collections as well, reads channels we never touch, and VOS does none of it. If your shortlist is about getting orders in cleanly, compare them. If it is about automating the office behind that, we are not on the list."
+  }
  },
  "grubmarket-ai-alternative": {
   "bullets_keep": {
@@ -85,7 +104,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a real GrubMarket AI alternative, and is it better than GrubMarket AI?",
+   "a": "They use the same technology at opposite ends. GrubAssist is for your staff: ask it about the business, have it write up an order. VOS is for your customers: they speak it and approve it, so your staff never build one. For getting an order in without anyone on your side building it, we think VOS is better, because the buyer does the work and signs it off. For asking your data questions out loud, no, and not by a little: VOS does not do that at all."
+  }
  },
  "cut-dry-alternative": {
   "bullets_keep": {
@@ -96,7 +124,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a fair Cut+Dry alternative, and is it better than Cut+Dry?",
+   "a": "On order capture, yes to both, and that is the comparison worth making: a reorder from an account you already have arrives with no browsing, nobody promoting into it, and go-live in a day or two for most. Everywhere else they are not the same purchase. Cut+Dry runs a storefront, takes payments, raises invoices and carries a sales tool, and VOS moves one order from your account to your desk. One of those is a platform decision and one is not."
+  }
  },
  "bluecart-alternative": {
   "bullets_keep": {
@@ -107,7 +144,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a real BlueCart alternative, and is it better than BlueCart?",
+   "a": "It depends entirely on why you were looking. On the repeat order from an account already on your book we would say VOS is better: your range only, your prices, approved by the buyer, with nothing rating you on the way through. If you want to be found by restaurants you do not supply, VOS cannot help and a marketplace is the right tool. That is their product and we do not have one."
+  }
  },
  "necs-entree-alternative": {
   "bullets_keep": {
@@ -118,7 +164,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a NECS Entree alternative, and is it better than NECS Entree?",
+   "a": "Neither question quite fits, and we would rather lead with that. Entree is the software your company runs on, and VOS handles how an order gets in. At getting an order out of a kitchen that will not use an order form, VOS is the better answer. At everything else Entree does the question does not apply: we have no ledger, no payables, no warehouse module and no proof of delivery, and no plan to build any of them. Compare them as like for like and one of the two will disappoint you badly."
+  }
  },
  "pepperi-alternative": {
   "bullets_keep": {
@@ -129,7 +184,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a Pepperi alternative, and is it better than Pepperi?",
+   "a": "Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. At pulling an order out of a kitchen that will never log in, we think VOS wins. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine, and none of it is planned."
+  }
  },
  "orderease-alternative": {
   "bullets_keep": {
@@ -140,7 +204,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS an OrderEase alternative, and is it better than OrderEase?",
+   "a": "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At lifting an order out of a kitchen with nobody typing, we think VOS is better. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: we do none of those. If that is the job, buy theirs."
+  }
  },
  "wizcommerce-alternative": {
   "bullets_keep": {
@@ -151,7 +224,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a WizCommerce alternative, and is it better than WizCommerce?",
+   "a": "Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and work the order out of it, while VOS changes what the account sends so there is nothing to work out. At getting an accurate order out of a kitchen that will not use an order form, we think VOS is better. At reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments, no: we do none of it and are not building any of it."
+  }
  },
  "rekki-alternative": {
   "bullets_keep": {
@@ -162,7 +244,16 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a REKKI alternative, and is it better than REKKI?",
+   "a": "Different propositions, so take it in two parts. They automate the work your office does on orders that have already arrived, plus the inbox and the upselling, and VOS changes the way one group of customers orders so that less of that work exists. On accuracy we will not claim a better percentage. In VOS nothing reads the order, so there is no figure for you to take on trust: the lines come off the account's own guide and the buyer looks at them before sending. An order can still be wrong if somebody confirms the wrong quantity."
+  }
  },
  "fresho-alternative": {
   "bullets_keep": {
@@ -173,6 +264,15 @@
     4
    ]
   },
-  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted.",
+  "faq_merge": {
+   "replace_indexes": [
+    0,
+    1
+   ],
+   "reason": "FAQ 1 and FAQ 2 ask the same thing from two angles, so one question carries both the primary keyword and the 'better than' secondary, and all seven other FAQs survive the donor's 8 accordion slots.",
+   "q": "Is VOS a Fresho alternative, and is it better than Fresho?",
+   "a": "Much smaller, deliberately, and we would rather you heard it from us. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, we think VOS is the better buy. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all: we do none of them and are not going to. If that is what you need the software to be, theirs is a serious answer."
+  }
  }
 }

@@ -863,11 +863,32 @@ live, so it is the expected shape, not a gap to fill.
   pass 8 promoted; and FAQ 1 + FAQ 2 merge on every page, since both ask "is this an alternative /
   is it better" and the merged question must carry both keyword phrases.
 
-**What is left, in order:** write the 11 `faq_merge` entries (Pepper's is the model), run
-`gen-ops.py` + `gen-schema.py`, push the text ops (~110 per page, ~31-47 actions per call), do the
-per-page structural work (drop the 4th comparison column via the existing page-scoped `is-2col`
-combo, then the section moves), push the schema, then run all four verifications **and look at a
-rendered page**. Pepper needs the same treatment: its draft is a full rewrite behind the repo.
+**The copy push is proven and written up in `_webflow/PUSH-RUNBOOK.md`** (choco first, 2026-10-10:
+100/100 text, 11/11 embed, 6/6 styles, 4 links, 4 deletes, 2 prop groups, all success). Four
+generated batches per page via `batches.py <slug> text|embed|styles|rest`, then the hero and
+final-CTA component props by hand. **50 actions per call is confirmed safe**, which is more than the
+~31-47 recorded earlier.
+
+**Three shapes that cost a round trip each, on top of the six already recorded:**
+- `set_component_instance_prop_values` wraps on **`element_id`** and **`values`**.
+  `component_instance_id` and `prop_values` are both rejected.
+- `data_element_tool`, `data_element_settings_tool` and `data_component_props_tool` all take
+  `session_id`, `siteId` and `pageId` at the **tool's top level**, not inside the action. The first
+  call of a session issues the `session_id` in its error message.
+- `data_pages_tool` takes `actions: [{label, <action_name>: {...}}]`. There is no bare `action` key.
+
+**Two latent bugs in `batches.py`, both of which failed silently or would have:**
+- it looked page ids up in `pages.json['pages']` only, so a compare slug printed **nothing** rather
+  than failing. It now resolves across `pages` + `compare` and raises on an unknown slug.
+- its `styles` mode emitted the key `styles`; the API wants **`style_names`**. That is the key the
+  89-broken-cells defect of 2026-10-09 turns on, so it would have failed every cell conversion.
+
+**What is left:** the per-page structural work (drop the 4th comparison column via the page-scoped
+`is-2col` combo plus 10 `remove_element` calls, then the section moves to match Pepper's reviewed
+order), the schema push, the four verifications, and **a look at a rendered page** (string-level
+green says nothing about rendering). Three ops rows across necs-entree, pepperi and fresho sit in
+the ops `hard` list: a donor text cell that must become an icon cell, needing both an embed and a
+style change.
 
 ### Porting a comparison page (first done 2026-10-10, Pepper)
 `/pepper-alternative` (page `6ac9efa5b080336cebb1456a`, **draft**) is the first compare page in

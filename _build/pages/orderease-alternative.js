@@ -366,7 +366,7 @@ module.exports = {
           <p class="mt-12 text-muted">
             VOS carries real-time inventory visibility tied to order activity, and the catalog
             updates as stock levels change. It is not the system of record for stock: the system
-            you run today keeps that job, and a demo walks through how the two connect.
+            you run today keeps that job, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>

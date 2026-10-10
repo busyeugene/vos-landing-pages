@@ -361,7 +361,7 @@ module.exports = {
           <h3>What is on hand, as the orders come in</h3>
           <p class="mt-12 text-muted">
             VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
-            charge, and a demo walks the connection between them.
+            charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>

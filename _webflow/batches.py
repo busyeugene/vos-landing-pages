@@ -16,11 +16,18 @@ def main():
     slug, what = sys.argv[1], sys.argv[2]
     size = int(sys.argv[3]) if len(sys.argv) > 3 else 30
     ops = json.load(io.open(os.path.join(HERE, 'ops', slug + '.json'), encoding='utf-8'))
-    pid = json.load(io.open(os.path.join(HERE, 'pages.json'), encoding='utf-8'))['pages'][slug]
+    pg = json.load(io.open(os.path.join(HERE, 'pages.json'), encoding='utf-8'))
+    # Page ids live in `pages` (batch 4) and `compare` (the 12 comparison pages). Looking in only
+    # one of them printed NOTHING for a compare slug instead of failing, so resolve across both and
+    # raise on an unknown slug: a silent empty batch is the defect class this port keeps hitting.
+    ALL_PAGES = dict(pg.get('pages') or {})
+    ALL_PAGES.update(pg.get('compare') or {})
+    if slug not in ALL_PAGES:
+        raise SystemExit('unknown slug %r: not in pages.json `pages` or `compare`' % slug)
+    pid = ALL_PAGES[slug]
 
     if what == 'rest':
-        pg = json.load(io.open(os.path.join(HERE, 'pages.json'), encoding='utf-8'))
-        known = dict(pg['existing']); known.update(pg['pages'])
+        known = dict(pg['existing']); known.update(ALL_PAGES)
         acts = []
         for i, (row, href, txt) in enumerate(ops['links']):
             slot = pg['links'][str(row)]
@@ -47,8 +54,11 @@ def main():
         # gen-ops emits these so an icon-sized cell that now holds text gets the text style.
         # Without them the cell renders one word per line and spills into the row below,
         # which is the defect that shipped on 89 cells on 2026-10-09.
+        # set_style lives on data_element_tool and the key is `style_names`, NOT `styles`.
+        # It also REPLACES the element's whole style list, so st must carry every class the
+        # cell needs, base classes included.
         acts = [{'label': 'st%d' % i,
-                 'set_style': {'id': {'component': pid, 'element': e}, 'styles': st}}
+                 'set_style': {'id': {'component': pid, 'element': e}, 'style_names': st}}
                 for i, (e, st) in enumerate(ops['styles'])]
         print(json.dumps(acts, ensure_ascii=False))
         return

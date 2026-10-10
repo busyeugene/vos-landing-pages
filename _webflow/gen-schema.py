@@ -20,7 +20,11 @@ LIVE = 'https://www.voiceordersolutions.com'
 OPERATOR = {'supplier-management-software'}
 
 OVR = json.load(io.open(os.path.join(HERE, 'overrides.json'), encoding='utf-8'))
-PAGES = json.load(io.open(os.path.join(HERE, 'pages.json'), encoding='utf-8'))['pages']
+_PG = json.load(io.open(os.path.join(HERE, 'pages.json'), encoding='utf-8'))
+# Page ids live in `pages` (batch 4) and `compare` (the 12 comparison pages). Reading only
+# `pages` meant the compare slugs were skipped in silence, the same defect batches.py had.
+PAGES = dict(_PG.get('pages') or {})
+PAGES.update(_PG.get('compare') or {})
 
 HERO_IMG = ('https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/'
             '6a208bdc32c3aee3e914c9e7_update-order%20(3)-p-1080.png')
