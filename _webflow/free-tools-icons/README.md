@@ -16,3 +16,15 @@ invisible on the tile. (`solutions-icons.json` describes this tile as purple and
 white glyph; both are wrong, see `free-tools.json` > `iconTile.correction`.)
 
 Asset ids in Webflow are recorded per card in `_webflow/free-tools.json`.
+
+## Nav dropdown icons
+
+`_nav-dropdown-calculator.svg` is the Free Tools entry for the nav dropdown, drawn to match the
+Solutions entry's icons8 wrapper exactly: 24x24, `viewBox="0,0,256,256"`, `fill="currentColor"`,
+`fill-rule="nonzero"`, inner `<g transform="scale(5.12,5.12)">`, so the path is authored in a 50x50
+space. The screen and the nine buttons are **counter-wound subpaths**, which is what makes them read
+as holes under `nonzero`; reversing their direction would fill them in solid.
+
+Sized to sit level with the Solutions glyph (body spans x 9-41 of the 50 unit box). A narrower body
+looked small beside it, and a four-row button grid turned muddy at 24px. `_nav-dropdown-percent-alt.svg`
+is the alternative; it is heavier than the rest of the menu.
