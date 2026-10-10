@@ -117,6 +117,8 @@ def build(slug):
     if len(cmp_.get('h2_lines') or []) == 2:
         text.append([MAP['comparison']['h2_line1'], cmp_['h2_lines'][0]])
         text.append([MAP['comparison']['h2_line2'], cmp_['h2_lines'][1]])
+    if cmp_.get('eyebrow') and MAP['comparison'].get('eyebrow_string'):
+        text.append([MAP['comparison']['eyebrow_string'], cmp_['eyebrow']])
     if cmp_.get('lead'):
         text.append([MAP['comparison']['lead_string'], cmp_['lead']])
     for i, hd in enumerate(cmp_['heads'][:4]):
@@ -152,6 +154,8 @@ def build(slug):
 
     # ---- faq ----
     fq = faq_items(d, slug)
+    if d['faq'].get('eyebrow') and MAP['faq'].get('eyebrow_string'):
+        text.append([MAP['faq']['eyebrow_string'], d['faq']['eyebrow']])
     text.append([MAP['faq']['h2'], d['faq']['h2']])
     for i, x in enumerate(fq[:8]):
         text.append([MAP['faq']['question_strongs'][i], x['q']])
@@ -186,6 +190,43 @@ def build(slug):
                         'description': 'Pricing is quote based. Book a demo for a quote.'}},
         ],
     }
+
+    # Coverage guard. The 2026-10-09 port extracted eight slots and silently never wrote
+    # them, so the donor's copy shipped on ten pages. Any non-trivial string declared in
+    # content/ that reaches no op is a slot we forgot to map: say so loudly, here, every run.
+    sent = set()
+    for _, v in text: sent.add(v.strip())
+    for _, v in embed: sent.add(re.sub(r'<[^>]+>', '', v).strip())
+    for _, _h, t in links: sent.add(t.strip())
+    for grp in props.values():
+        for v in grp.values(): sent.add(str(v).strip())
+    for c in cmp_['rows'][:9]:
+        for cell in c['cells'][:3]: sent.add(str(cell['v']).strip())
+    unsent = []
+    def scan(node, path=''):
+        if isinstance(node, dict):
+            for k, v in node.items():
+                if not k.startswith('_'):
+                    scan(v, path + '.' + k)
+        elif isinstance(node, list):
+            for i, v in enumerate(node):
+                scan(v, '%s[%d]' % (path, i))
+        elif isinstance(node, str) and len(node.strip()) > 2:
+            t = node.strip()
+            # .t holds a cell's KIND ('icon'/'text'), not copy; hrefs and the slug are not copy;
+            # and the two FAQs an override merges away are deliberately unsent.
+            if path.endswith('.t') or t.startswith('/') or t == slug:
+                return
+            if path in OVR.get('_unmapped', {}):
+                return
+            ov = OVR.get(slug, {}).get('faq_merge')
+            if ov and re.match(r'\.faq\.items\[(%d|%d)\]\.' % tuple(ov['replace_indexes']), path):
+                return
+            if t not in sent and clean_cta(t) not in sent:
+                unsent.append((path, t))
+    scan(d)
+    for path, t in unsent:
+        print('  ! DECLARED BUT NEVER SENT  %s  %r' % (path, t[:70]))
 
     return {'slug': slug, 'meta_title': d['meta_title'], 'meta_desc': d['meta_desc'],
             'text': text, 'embed': embed, 'styles': styles, 'links': links, 'delete': delete,

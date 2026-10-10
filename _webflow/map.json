@@ -327,7 +327,9 @@
   "h2_line1": "37b58628-5e21-7c67-2967-24e3b5a7a176",
   "h2_line2": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
   "lead_string": "37b58628-5e21-7c67-2967-24e3b5a7a179",
-  "_h2note": "The comparison h2 renders as two lines separated by a <br>, held as two sibling String nodes. Write each line separately; a single set_text would collapse the break."
+  "_h2note": "The comparison h2 renders as two lines separated by a <br>, held as two sibling String nodes. Write each line separately; a single set_text would collapse the break.",
+  "eyebrow_string": "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+  "_eyebrownote": "The comparison section's eyebrow. Nothing wrote it until 2026-10-10, so the donor's 'Why VoiceOrder Solutions' sat on every ported page. Harmless there because it is generic, but it was a silently dropped content field, the same defect class as the eight unmapped slots."
  },
  "faq": {
   "h2": "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
@@ -369,7 +371,8 @@
    "4446ea80-4c7a-f2a8-f0de-0a222818c94e",
    "cb55ed2c-634b-b694-87d5-a43e7e3cf996",
    "7ec95cf1-65b0-b7be-b209-99042752451d"
-  ]
+  ],
+  "eyebrow_string": "30f8c397-6bf9-f190-2eb1-183dc2b44d9e"
  },
  "icons": {
   "yes": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>",

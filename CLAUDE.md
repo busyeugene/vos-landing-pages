@@ -428,6 +428,92 @@ no longer existed. It now takes the newest capture per page and warns when any c
 "More From VOS" column, so 4 inline sibling links rather than 8. That matches the 16 pages already
 live, so it is the expected shape, not a gap to fill.
 
+### Porting a comparison page (first done 2026-10-10, Pepper)
+`/pepper-alternative` (page `6ac9efa5b080336cebb1456a`, **draft**) is the first compare page in
+Webflow. Eugene's instruction was **existing blocks only, no design changes**, and the Webflow
+template cannot hold the repo's `compare` order, so the Webflow copy is the standard 16-section
+shape. Divergences and their reasons are in `_webflow/overrides.json` under `pepper-alternative`:
+- **No `split` block and no `whatis` block.** The with/without split and the "what is Pepper"
+  explainer are carried by the **problem section** (its lead states factually what Pepper is; its
+  three cards carry the reasons to look elsewhere) and by FAQ 1.
+- **One mid-CTA, and it has no button.** The Webflow mid-CTA block is a heading plus body only
+  (verified on the live tree), so the repo's second CTA and the button label have nowhere to go.
+- **The table is 4 columns x 9 rows**, not the repo's 3 x 11. Rebuilt as
+  Feature / VoiceOrder Solutions / Pepper / Phone + Email, which keeps the manual baseline the
+  other 26 pages show. Pepper keeps 4 check marks and 5 factual text cells and takes no false mark.
+- **9 FAQs merge to 8**, same IX2 accordion limit as batch 4.
+
+`content/<slug>.json` is **hand-authored** for these (extract-content.py reads the 16-section
+shape and the repo compare page is not that shape). Lift the copy from the gated repo page, then
+**diff it back**: on Pepper, 132 of 162 strings matched the repo page verbatim and the 30 deltas
+were reviewed one by one. Do that diff, or claim drift goes unnoticed.
+
+**Six API shapes that cost a round trip each** (all verified against the live API 2026-10-10;
+`batches.py` now emits the right ones):
+- `set_settings` is **one action carrying an `operations` array**, each entry
+  `{element_id, settings}`. Not one action per element, and the key is `element_id`, not `id`.
+- `set_style` lives on **`data_element_tool`**, not `data_style_tool`, and takes
+  `{id, style_names}`, not `styles`. It **replaces the element's whole style list**.
+- `bulk_update_pages_schema_markup` needs **`site_id`** alongside `pages`.
+- `query_elements` takes `siteId`/`pageId` at the top level and each query's `element_id` as an
+  **object**, like every other id.
+- Component prop values: `set_component_instance_prop_values` with
+  `{prop_id, type: "string", string_value}`. `type` must be one of
+  string/number/boolean/null/link/video/richText/bindable: **"text" is rejected**.
+- `update_page_settings` (not `update_static_page_settings`) sets `openGraph`.
+
+**`create_page` with `duplicateOf` preserves the three `_drifts` id groups too**, because the new
+page is duplicated from the same donor. Verified by probing the stat-number and FAQ-question
+`Strong` ids on the fresh page before pushing 104 ops. Re-derive only if the donor ever changes.
+
+**Duplication does NOT copy `openGraph.titleCopied` / `descriptionCopied`.** They come back null,
+so the page would ship with empty OG tags while the SEO fields look fine. Set both to true.
+
+**`get_all_elements` does not include an HtmlEmbed's `code` setting.** A checker that reads the
+tree will report every comparison cell as unwritten: it said **0/16 embeds** while all 16 were
+correct. Verify embeds with `get_settings` (`type: "all_raw_settings"`) on a sample instead. Third
+instance of the same lesson: check what window your checker measured in.
+
+**Three slots were unmapped on every page ported before today**, found by running the
+unported-slot detector with **no length floor**, as the Webflow port section insists:
+- the **comparison section eyebrow** (`comparison.eyebrow_string`), so the donor's
+  "Why VoiceOrder Solutions" sits on all ten batch-4 pages. Generic, so harmless there, but it was
+  a silently dropped content field.
+- the **FAQ eyebrow** (`faq.eyebrow_string`). The donor's value is "FAQ", which is what every page
+  wants, so nothing visible broke.
+- **`cards.lead` written as `""` makes `gen-ops.py` skip it**, so the donor's "Small details that
+  keep the routine the same, whoever is ordering." was live on a Pepper comparison page.
+  **Never leave a content field empty to mean "keep the donor's"**: there is no such thing, the
+  donor's copy is always wrong for the new page.
+
+> Because `gen-ops.py` now writes both eyebrows, the ten batch-4 `ops/*.json` each gained two ops
+> that have **not been pushed**. Their live comparison eyebrow is still the donor's. Harmless, but
+> it is two MCP calls to clean up whenever those pages are next touched.
+
+**`gen-ops.py` now carries a coverage guard** for exactly that defect class: after building, every
+non-trivial string in `content/` that reaches no op prints
+`! DECLARED BUT NEVER SENT <path> <text>`. Paths that legitimately have no Webflow slot live in
+`overrides.json` under `_unmapped`, each with its reason, so the guard stays silent (0 warnings
+across all 11 pages) and a real finding is visible. **Read its output on every run.**
+
+**Verification, all four green on Pepper:** 104/104 text ops match the live Strings, 27/27
+comparison cells carry the style matching their kind, 8/8 schema questions and 8/8 answers match
+the rendered accordion, and 0 donor leaks with no length floor. Trees are archived in
+`_webflow/derived/tree-<slug>-<date>.json`.
+
+**Two of those four checks were green only after fixing the checker, not the page.** The embed
+check read the tree (which omits `code`) and the schema check read `textContent` on a `Strong`
+node instead of its `String` child. Both reported total failure on a correct page. When a check
+fails wholesale rather than partially, suspect the checker first.
+
+⚠ **Still not done on Pepper: the eyeball.** Every check above is string level, and the 2026-10-09
+lesson is that string-level green says nothing about rendering. The page is unpublished, so
+`layout.py` cannot reach it. **Look at it in the Designer preview, one pass per template section,
+before calling the port done.**
+
+⚠ **Never transcribe a UUID from truncated output.** The FAQ eyebrow id was typed from an 8-char
+display and the rest invented; `set_text` returned "Element not found". Read the id from the tree.
+
 ### The `/solutions` page (Webflow only, no repo counterpart)
 `/solutions` (page `6a73a33a046f0997fdcf7964`) holds **one card per feature page**, so it needs a new
 card whenever a page ships. Each card is a `Link` wrapping an `Image` (the icon), a `Heading` and an

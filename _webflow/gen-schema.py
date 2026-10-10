@@ -96,9 +96,26 @@ def build(slug):
     kw = keywords_for(slug)
     url = '%s/%s' % (LIVE, slug)
     fq = faq_items(d, slug)
-    label = ' '.join(w if w.isupper() else w.capitalize()
-                     for w in slug.replace('-software', '').split('-')) + ' Software'
-    label = label.replace('B2b', 'B2B').replace('Dsd', 'DSD')
+    # Feature slugs are "<keyword>-software", so the label is "<Keyword> Software".
+    # Comparison slugs are "<competitor>-alternative" and must NOT get a " Software"
+    # suffix: it produced "VoiceOrder Solutions Pepper Alternative Software", which
+    # reads as a product category that does not exist.
+    is_compare = slug.endswith('-alternative')
+    base = slug[:-len('-alternative')] if is_compare else slug.replace('-software', '')
+    label = ' '.join(w if w.isupper() else w.capitalize() for w in base.split('-'))
+    if not is_compare:
+        label += ' Software'
+    label = label.replace('B2b', 'B2B').replace('Dsd', 'DSD').replace('Ai', 'AI')
+    if is_compare:
+        crumb = label + ' Alternative'
+        app_name = 'VoiceOrder Solutions'
+        app_alt = ['VOS', 'VoiceOrder']
+        app_sub = 'Order Management'
+    else:
+        crumb = label
+        app_name = 'VoiceOrder Solutions ' + label
+        app_alt = ['VOS ' + label, label + ' by VoiceOrder Solutions']
+        app_sub = label
     operator = slug in OPERATOR
 
     # featureList: the page's own feature-row bullets plus its three card headings,
@@ -138,19 +155,19 @@ def build(slug):
         'itemListElement': [
             {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': LIVE + '/'},
             {'@type': 'ListItem', 'position': 2, 'name': 'Solutions', 'item': LIVE + '/solutions'},
-            {'@type': 'ListItem', 'position': 3, 'name': label},
+            {'@type': 'ListItem', 'position': 3, 'name': crumb},
         ],
     })
 
     graph.append({
         '@type': 'SoftwareApplication', '@id': url + '#software',
-        'name': 'VoiceOrder Solutions ' + label,
-        'alternateName': ['VOS ' + label, label + ' by VoiceOrder Solutions'],
+        'name': app_name,
+        'alternateName': app_alt,
         'url': url,
         'headline': d['hero']['h1'],
         'description': d['hero']['lead'],
         'applicationCategory': 'BusinessApplication',
-        'applicationSubCategory': label,
+        'applicationSubCategory': app_sub,
         'operatingSystem': 'iOS, Android, Web browser',
         'availableOnDevice': 'iPhone, iPad, Android smartphone, Android tablet, desktop web browser',
         'softwareRequirements': (
@@ -177,7 +194,7 @@ def build(slug):
                               'restaurants and grocery stores')}),
         'offers': {
             '@type': 'Offer', '@id': url + '#offer',
-            'name': 'VoiceOrder Solutions %s subscription' % label,
+            'name': '%s subscription' % app_name,
             'description': ('Pricing is quoted per distributor based on the number of accounts and '
                             'the setup required; there is no public list price. '
                             + ('Ask the distributor who supplies you.' if operator

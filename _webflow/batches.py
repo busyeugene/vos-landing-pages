@@ -4,7 +4,7 @@
 All ten pages were duplicated from the same donor, so every element id lives in map.json
 and nothing needs substituting at apply time.
 
-Usage: python batches.py <slug> text|embed|rest [batch_size]
+Usage: python batches.py <slug> text|embed|styles|rest [batch_size]
 """
 import io, os, sys, json
 
@@ -43,6 +43,16 @@ def main():
         print('PROPS:', json.dumps(ops['props'], ensure_ascii=False))
         return
 
+    if what == 'styles':
+        # gen-ops emits these so an icon-sized cell that now holds text gets the text style.
+        # Without them the cell renders one word per line and spills into the row below,
+        # which is the defect that shipped on 89 cells on 2026-10-09.
+        acts = [{'label': 'st%d' % i,
+                 'set_style': {'id': {'component': pid, 'element': e}, 'styles': st}}
+                for i, (e, st) in enumerate(ops['styles'])]
+        print(json.dumps(acts, ensure_ascii=False))
+        return
+
     items = ops['text'] if what == 'text' else ops['embed']
     for n in range(0, len(items), size):
         chunk = items[n:n + size]
@@ -51,10 +61,14 @@ def main():
                      'set_text': {'id': {'component': pid, 'element': e}, 'text': v}}
                     for i, (e, v) in enumerate(chunk)]
         else:
-            acts = [{'label': 'e%d' % (n + i),
-                     'element_id': {'component': pid, 'element': e},
-                     'settings': [{'key': 'code', 'static_text': {'value': v}}]}
-                    for i, (e, v) in enumerate(chunk)]
+            # data_element_settings_tool wants ONE action carrying an `operations` array,
+            # each operation {element_id, settings}. Not one action per element, and the key
+            # is element_id, not id (verified against the live API 2026-10-10).
+            acts = [{'label': 'embed%d' % (n // size + 1),
+                     'set_settings': {'operations': [
+                         {'element_id': {'component': pid, 'element': e},
+                          'settings': [{'key': 'code', 'static_text': {'value': v}}]}
+                         for e, v in chunk]}}]
         print('----- %s batch %d (%d) -----' % (what, n // size + 1, len(chunk)))
         print(json.dumps(acts, ensure_ascii=False))
         print()

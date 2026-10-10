@@ -12,7 +12,8 @@
   "inventory-forecasting-software": "6ac87350d09138c3747de48d",
   "wholesale-operations-software": "6ac8735137bb42540317de1e",
   "distribution-automation-software": "6ac8735137bb42540317de64",
-  "distribution-workflow-software": "6ac87352d30cd9d651381c77"
+  "distribution-workflow-software": "6ac87352d30cd9d651381c77",
+  "pepper-alternative": "6ac9efa5b080336cebb1456a"
  },
  "existing": {
   "vendor-management-software": "6aa828e3a603bdfe7a150dfd",
