@@ -276,14 +276,23 @@ page's angle, live in `_build/research/competitors/`.**
 ## Competitor comparison pages (`compare` cluster, opened 2026-10-10)
 
 ### ▶ RESUME HERE
-**ALL 12 BUILT, GATED, AND REVIEWED IN EIGHT PASSES. The repo copy is final and Webflow-ready.**
-Current as of 2026-10-10. **The current job is the Webflow ports as drafts** (11 pages to port, plus
-a re-port of Pepper, whose draft is now a full rewrite behind the repo). After that: the hub page and
-a `/solutions` card per page. See "Passes 7 and 8" below for what changed, and "Porting a comparison
-page" in the Webflow section for how.
+**ALL 12 BUILT, GATED, REVIEWED IN EIGHT PASSES, AND PORTED TO WEBFLOW AS VERIFIED DRAFTS**, plus an
+`/alternatives` hub page. Current as of 2026-10-10 evening. The repo copy is final; `master` is
+pushed and clean.
 
-⚠ **The Pepper Webflow draft is stale.** Passes 7 and 8 changed its H1, hero lead, comparison lead,
-five comparison rows, both CTAs and the cost FAQ. Re-port it rather than patching it.
+**Only two things are left on this cluster:**
+1. **Push the 12 per-page JSON-LD files.** They are generated and sitting in `_webflow/schema/`
+   (14 graph nodes, 8 FAQ questions each, matching the merged accordion) and have NOT been sent.
+   Use `bulk_update_pages_schema_markup` with `site_id` + `pages: [{id, jsonLdSchema}]`; the
+   `/alternatives` hub's schema is already pushed, so that call is the worked example.
+2. **Look at a rendered page.** Everything verified so far is string and structure level, and the
+   2026-10-09 lesson is that string-level green says nothing about rendering. Open a Designer
+   preview, one pass per template section, before anything is published. Nothing is published:
+   all 13 pages are `draft: true`.
+
+Then, if Eugene wants it: a `/solutions` card per comparison page (the `/alternatives` hub covers
+the hub-page ask). See "▶ Compare-cluster port state" in the Webflow section for what was done and
+every API shape, and "Passes 7 and 8" below for what the last review round changed.
 
 ⚠ **One claim needs the client before these go live:** 10 of 12 pages had come to state that VOS is
 "quoted on how many accounts you want opened". The KB's own **Q19 lists the pricing basis as an open
@@ -293,18 +302,18 @@ the stronger wording can go back.
 
 | # | Slug | Competitor | Angle (never reuse another page's) | State |
 |---|---|---|---|---|
-| 1 | `/pepper-alternative` | Pepper | Rollout length: their published 35-90 days vs 24-48 hours | repo + **Webflow draft** |
-| 2 | `/choco-alternative` | Choco | They sell growth (storefront, CRM, bigger baskets); we sell a clean order | repo |
-| 3 | `/burnt-ai-alternative` | Burnt | Agents across the back office; who stays in the loop; on-site onboarding | repo |
-| 4 | `/grubmarket-ai-alternative` | GrubMarket | Both are voice. Whose hands the microphone is in | repo |
-| 5 | `/cut-dry-alternative` | Cut+Dry | Three-sided network: who else is in the room when your customer orders | repo |
-| 6 | `/bluecart-alternative` | BlueCart | A marketplace that grades your prices; whose shelf is it | repo |
-| 7 | `/necs-entree-alternative` | Entree | Argues against its own keyword: keep the ERP, change the order | repo |
-| 8 | `/pepperi-alternative` | Pepperi | Its centre of gravity is **the visit**: routes, van sales, store audits, merchandisers. VOS is the reorder nobody attends | repo |
-| 9 | `/orderease-alternative` | OrderEase | They orchestrate every order channel; VOS removes the one that makes the most work | repo |
-| 10 | `/wizcommerce-alternative` | WizCommerce | Whether an **interpretation step exists at all**: read back from an artifact, or authored as lines | repo |
-| 11 | `/rekki-alternative` | REKKI | Engages their published **error rate**: a rate exists because a robot is inferring the order. VOS has no reading step | repo |
-| 12 | `/fresho-alternative` | Fresho | **Fresh-food depth versus one step**: add, not adopt. Concedes their whole operations suite | repo |
+| 1 | `/pepper-alternative` | Pepper | Rollout length: their published 35-90 days vs 24-48 hours | repo + **Webflow draft, verified** |
+| 2 | `/choco-alternative` | Choco | They sell growth (storefront, CRM, bigger baskets); we sell a clean order | repo + **Webflow draft, verified** |
+| 3 | `/burnt-ai-alternative` | Burnt | Agents across the back office; who stays in the loop; on-site onboarding | repo + **Webflow draft, verified** |
+| 4 | `/grubmarket-ai-alternative` | GrubMarket | Both are voice. Whose hands the microphone is in | repo + **Webflow draft, verified** |
+| 5 | `/cut-dry-alternative` | Cut+Dry | Three-sided network: who else is in the room when your customer orders | repo + **Webflow draft, verified** |
+| 6 | `/bluecart-alternative` | BlueCart | A marketplace that grades your prices; whose shelf is it | repo + **Webflow draft, verified** |
+| 7 | `/necs-entree-alternative` | Entree | Argues against its own keyword: keep the ERP, change the order | repo + **Webflow draft, verified** |
+| 8 | `/pepperi-alternative` | Pepperi | Its centre of gravity is **the visit**: routes, van sales, store audits, merchandisers. VOS is the reorder nobody attends | repo + **Webflow draft, verified** |
+| 9 | `/orderease-alternative` | OrderEase | They orchestrate every order channel; VOS removes the one that makes the most work | repo + **Webflow draft, verified** |
+| 10 | `/wizcommerce-alternative` | WizCommerce | Whether an **interpretation step exists at all**: read back from an artifact, or authored as lines | repo + **Webflow draft, verified** |
+| 11 | `/rekki-alternative` | REKKI | Engages their published **error rate**: a rate exists because a robot is inferring the order. VOS has no reading step | repo + **Webflow draft, verified** |
+| 12 | `/fresho-alternative` | Fresho | **Fresh-food depth versus one step**: add, not adopt. Concedes their whole operations suite | repo + **Webflow draft, verified** |
 
 ⚠ **REKKI and Fresho had BOTH MOVED by the time they were written, and the plan's premise for
 them was wrong.** The plan called them "supplier ordering apps, the same SHAPE as VOS, not
