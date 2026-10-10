@@ -26,13 +26,12 @@ module.exports = {
       <h1>The Choco Alternative That Only Does Ordering.</h1>
       <p class="lead mt-16">
         VOS is a Choco alternative with a narrower job. Your accounts say an order into the app,
-        approve every line, and send. It reaches your desk numbered and dated, in whatever format
-        your office takes. No storefront to launch, no CRM to fill in, nothing else to learn.
+        approve each line, then send. It reaches your desk numbered and dated, in whatever shape your office takes. No storefront to launch, no CRM to fill in, nothing else to learn.
       </p>
 
       <div class="hero-ctas">
         <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
-        <a href="#comparison" class="btn btn-outline-white btn-lg">See It Side By Side</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
       <div class="hero-trust">
@@ -69,7 +68,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Is when most distributors go live</div>
+      <div class="stat-label">Is how long a typical setup runs</div>
     </div>
     <div>
       <div class="stat-number">Same Day</div>
@@ -87,7 +86,7 @@ module.exports = {
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Side By Side</span>
+      <span class="eyebrow">Head To Head</span>
       <h2>VoiceOrder Solutions vs Choco.<br>Narrow on purpose.</h2>
       <p class="lead mt-16">
         Choco is a growth platform with ordering inside it. VOS is the ordering part and nothing
@@ -127,7 +126,7 @@ module.exports = {
             <td>No timeline published</td>
           </tr>
           <tr>
-            <td>Sits beside the systems you run</td>
+            <td>Parks itself next to the systems you have</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -235,9 +234,9 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Voice Ordering</span>
-          <h3>The order is built by the person who knows it</h3>
+          <h3>Built by whoever is standing in the cooler</h3>
           <p class="mt-12 text-muted">
-            Your account opens the app, holds the button, and says what the kitchen is short of.
+            Your account opens the app, presses to speak, and says what the kitchen is short of.
             Every item appears as a line with a quantity against it. They scan it, change what
             needs changing, and only then does it leave.
           </p>
@@ -259,7 +258,7 @@ module.exports = {
               <span>Roughly 20 to 30 minutes back against the same order by phone</span>
             </li>
           </ul>
-          <a href="/order-taking-software" class="feature-link">How VOS takes orders →</a>
+          <a href="/order-taking-software" class="feature-link">How order taking works →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -277,14 +276,14 @@ module.exports = {
           <span class="eyebrow">Order Guides</span>
           <h3>One item list per account, built from yours</h3>
           <p class="mt-12 text-muted">
-            Send the guides you keep for each customer. We load them against your SKUs at the
+            Pass us the guides you keep per customer. We load them against your SKUs at the
             price you hold for that account, so a spoken item lands on the right row and the pack
             is never in question.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>A kitchen only ever sees the items it buys from you</span>
+              <span>A kitchen only ever sees what it actually buys</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -364,7 +363,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>The whole catalog, not only the lines that move weekly</span>
+              <span>Every line you carry, not only the quick movers</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -402,8 +401,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Short enough to finish this week</h2>
       <p class="lead mt-16">
-        There is no data project at the front of this. You send item lists, we set the
-        accounts up, and your customers start ordering.
+        There is no data project at the front of this. You send item lists, we set the customers up, and your customers begin sending orders.
       </p>
     </div>
 
@@ -413,14 +411,13 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>Hand us the item lists</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A spreadsheet is fine. Each account's items and your prices go into one
-          admin screen, lined up with your SKUs.
+          A spreadsheet is fine. Each account's items and your prices go into a single admin screen, lined up with your SKUs.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We open the accounts</h4>
+        <h4>We set each customer up</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Each customer gets set up and shown the app. Most have sent something
           in by the end of the day.
@@ -429,7 +426,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Orders turn up finished</h4>
+        <h4>It lands finished</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Approved by the customer, carrying a number and a time, in the shape
           your system expects.
@@ -526,8 +523,7 @@ module.exports = {
       <span class="eyebrow">Not Either Or</span>
       <h2>When VOS and Choco work together</h2>
       <p class="lead mt-16">
-        VOS is no kind of Choco replacement, and it does not pretend to be. It adds on, so if you
-        already run a storefront there is nothing to unpick before trying this.
+        VOS is no kind of Choco replacement, and it does not pretend to be. It adds on, so if a storefront is already in place there is nothing to unpick before trying this.
       </p>
     </div>
 
@@ -574,8 +570,8 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See the narrow version before you buy the wide one</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One spoken order, start to finish, and a straight account of what VOS
-        leaves to everything else you run.
+        Twenty minutes. One spoken order, end to end, and a straight account of what VOS
+        leaves alone.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -590,7 +586,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>What buyers ask when they put the two side by side</h2>
+      <h2>What buyers ask when they weigh the two</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -601,7 +597,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          It is smaller, deliberately. On the ordering step the two are worth lining up next to
+          It is smaller, deliberately. On order capture the two are worth lining up next to
           each other, and that is the comparison this page makes. On storefronts, sales tooling
           and CRM, Choco is doing things VOS has never set out to do, and no table we could draw
           would change that.
@@ -614,7 +610,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At getting a clean order out of a busy kitchen with nobody keying it in, we would argue
+          At getting an accurate order out of a busy kitchen with nobody keying it in, we would argue
           yes, mainly because the customer approves the lines rather than software interpreting a
           message. At growing the average basket with a recommending catalog, no. That is their
           pitch, and it is a real one.
@@ -623,13 +619,13 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How long before our accounts are ordering?
+          How soon can our accounts start?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
           Most distributors are up and running within 24 to 48 hours, and most of their customers
           send a first order the same day. There is no IT project, which is often the reason a
-          Choco alternative is on the shortlist in the first place. Choco does not publish a
+          Choco alternative is on the shortlist at all. Choco does not publish a
           go-live time, so ask them for one rather than take a number from us.
         </div>
       </div>
@@ -653,9 +649,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Never. VOS sits at the front, where the order comes in, and passes it along itemized and
-          approved. Everything behind that, picking, invoicing, delivery, runs exactly as it runs
-          today in the software you already pay for.
+          Never. VOS works at the intake end and hands the order on, itemized and approved. Everything behind that, picking, invoicing, delivery, runs exactly as it does now in the software you already pay for.
         </div>
       </div>
 
@@ -667,17 +661,17 @@ module.exports = {
         <div class="faq-answer" style="display:none;">
           Both are quoted rather than listed. Choco's own pricing page says it charges a monthly
           fee based on usage and asks you to talk to sales; we quote per distributor on the number
-          of accounts. So the only honest comparison is two quotes, side by side.
+          of accounts. So the only honest comparison is two quotes, read together.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Do our customers need to be taught anything?
+          Will the kitchens need training?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Very little. They already know how to say what they are short of, and that is the whole
+          Very little. Saying what you are short of is not new, and that is the whole
           interaction. There is no catalog to search and no basket to fill, so the habit lands
           faster than a storefront usually does.
         </div>

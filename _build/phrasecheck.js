@@ -84,12 +84,8 @@ function grams(raw, slug) {
 }
 
 /* Fixed facts that may recur on any number of pages (same list as trigram.js). */
-const FORMAT = /\b(email|pdf|excel|word|edi|api|quickbooks)\b/g;
-const ALLOW = g => /voiceorder solutions/.test(g) ||
-  (g.match(FORMAT) || []).length >= 2 ||
-  /\b(pdf|excel|edi|quickbooks)\b|\bword (attachment|file|doc)\b/.test(g) ||
-  /\b(ios|iphone|android)\b/.test(g) ||
-  /\b(7|20|24|30|48)\b/.test(g);
+// Shared by trigram.js and phrasecheck.js through one module so the two cannot drift.
+const { ALLOW, FORMAT } = require('./allowlist.js');
 
 const [slug, ...candidates] = process.argv.slice(2);
 if (!slug || !candidates.length) {
