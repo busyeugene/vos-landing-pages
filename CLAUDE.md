@@ -1264,7 +1264,7 @@ named "About VoiceOrder Solutions" with `url: /about`, copied from the About pag
 and left as-is pending Eugene's call; it is live.
 
 ### The `/free-tools` page (Webflow only, no repo counterpart)
-`/free-tools` (page `6ac9dd37e59829e6290b8e2b`, created 2026-10-10, **still a draft**) is the hub for
+`/free-tools` (page `6ac9dd37e59829e6290b8e2b`, created 2026-10-10, **live since by 2026-10-13**) is the hub for
 the **23 free calculators** that live in the sister project `Lead magnets VOS`. Same template as
 `/solutions`, one card per calculator. The full card map (element ids, target page ids, icons, asset
 ids, copy) and the JSON-LD are in **`_webflow/free-tools.json`**; the 23 icons are committed in
@@ -1288,17 +1288,26 @@ property as a form field (camelCase keys map to AWS names: `xAmzAlgorithm` -> `X
 `successActionStatus` -> `success_action_status`, `contentType` -> `Content-Type`). Until the POST
 lands the asset exists with `size: 0`. **Batch all the `create_asset` calls into one MCP call**: the
 result then overflows the inline limit and is persisted to a file, which a script can read and POST
-from directly. Transcribing the policy and signature by hand is the slow way. Re-creating an asset
+from directly. Transcribing the policy and signature by hand is the slow way. **A small batch will not
+overflow**: add a `list_assets` action with `limit: 100` to the same call and it always does (used
+for all 92 square images on 2026-10-13; `Lead magnets VOS/webflow-images/_kit/wf_upload.py` reads
+that file, POSTs to S3 and checks every CDN copy by MD5). Re-creating an asset
 with the same name and hash **revives the soft-deleted row and reuses its id**.
 
 **The three cards the donor has spare must be removed, not left blank**, and `remove_element` needs
 the card's full `Link` UUID.
 
-**None of the 23 calculators are reachable on the live domain yet.** All 23 report `draft: false` in
-the API, but every one of them 404s on `voiceordersolutions.com` while the batch-4 landing pages and
-`/solutions` return 200, so the site has not been published since they came out of draft. The card
-links are page-id links and will resolve on publish, but **`/free-tools` must not be published before
-the calculators are**, or it ships 23 dead links and an `ItemList` of 23 dead URLs.
+**The 23 calculators and `/free-tools` are live** (checked 2026-10-13: `/free-tools` and
+`/free-tools/<slug>` return 200; the calculators sit in a `/free-tools` folder, so the flat
+`/<slug>` URLs 404). Until 2026-10-10 they were `draft: false` but unpublished, which is why
+`/free-tools` was held back then; that blocker has cleared.
+
+**2026-10-13, on all 23 calculator pages (Eugene's ask):** the four feature-row images are now 1:1
+squares carrying a page-scoped `lm-square` combo class, and the hero image is hidden at 991px and
+below by a per-page CSS embed; `landing-hero` (62 instances) and the shared image classes were not
+touched. Saved and verified 23/23 from stored state, **not yet on the live site** (it ships with
+the next site publish). The record and the resume point are in the sister project:
+`Lead magnets VOS/CLAUDE.md` "RESUME HERE" and its skill's `STATE.md`.
 
 **Nav dropdown icons are a third icon family**, unrelated to the card icons above. They are inline
 icons8 glyphs pasted into the nav, not Webflow assets: `24x24`, `viewBox="0,0,256,256"`,
