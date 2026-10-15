@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac7652b0d7b366d7fd65177",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-delivery"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac7652b0d7b366d7fd65177",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-delivery"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac7652b0d7b366d7fd65177",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-delivery"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac7652b0d7b366d7fd65177",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-delivery"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-delivery",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-delivery",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-delivery",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-delivery"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/delivery-cost-calculator#calculator",
+    "name": "Delivery Cost Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/delivery-cost-calculator",
+    "description": "Work out what a route costs per drop, per case and per mile, so you can see where your delivery minimum should really sit.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "What one delivery costs before a case comes off",
+     "Where the $380.50 actually goes",
+     "What the load does to the cost of a case",
+     "The same route costed for a month"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/delivery-cost-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do you calculate the cost per delivery?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Add the driver, the fuel and the truck for one day, then divide by the stops. A $28.00 driver over 8 hours is $224.00, 120 miles at 8 mpg is $61.50 of fuel at $4.10, and the truck day is $95.00. That $380.50 across 14 drops is $27.18 a delivery."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Where should a delivery minimum be set?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Above the margin a stop has to earn, not at a round number. At $27.18 a drop, an account buying at a 20% margin has to order $135.90 of product before the stop pays for itself. Set the minimum so the smallest order on the truck still clears that."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should you charge customers for delivery?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Either charge for it or price it in, but do it knowing the number. At $0.54 a case, a 50 case drop absorbs the stop without anyone noticing. At $2.72 a case, a 10 case drop does not, so that is where a delivery charge or a minimum belongs."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What does a light drop do to your margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It takes it a case at a time. The same $27.18 stop spread over 10 cases is $2.72 a case against a $0.91 route average. If the gross margin on those cases is under $2.72, the delivery costs more than the order earns."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should you drop an account that orders too little?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Change the frequency or the minimum before you drop it. An account taking a stop every week at 10 cases can take one every other week at 20 cases, and the route cost falls from $2.72 a case to $1.36 with the same volume sold."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you count the truck's fixed cost in a delivery cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "As a cost per route day, not a cost per mile. Take the lease or depreciation, insurance, maintenance and plates for the year, then divide by the days the truck actually runs. At $95.00 a day that is 25.0% of a $380.50 route before the truck leaves the yard."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the cost per case on a delivery route?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Route cost over the cases that route carries. $380.50 across 420 cases is $0.91 a case, and $3.17 a mile across 120 miles. Load 840 cases on the same day and the case cost falls to $0.45, while the cost per drop stays at $27.18."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/delivery-cost-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/delivery-cost-calculator",
+    "name": "Delivery Cost Calculator",
+    "description": "Work out what a route costs per drop, per case and per mile, so you can see where your delivery minimum should really sit.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/delivery-cost-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/delivery-cost-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

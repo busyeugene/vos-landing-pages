@@ -1,0 +1,4745 @@
+{
+ "questions|order entry": {
+  "total": 9,
+  "keywords": [
+   {
+    "keyword": "what is computerized physician order entry",
+    "cpc": 0,
+    "difficulty": 20,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is order entry",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 210,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is computerized provider order entry system",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 30,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is a computerized provider order entry system",
+    "cpc": 0,
+    "difficulty": 20,
+    "volume": 30,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is a notice of entry of order",
+    "cpc": 0,
+    "difficulty": 7,
+    "volume": 20,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is order entry system",
+    "cpc": 0,
+    "difficulty": 9,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "works cited entries are listed in what order",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to automate accounting entries from sales orders",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to make purchase order entry in tally erp 9",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|order taking": {
+  "total": 242,
+  "keywords": [
+   {
+    "keyword": "how long does it take a money order to clear",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 480,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does a restraining order take to be served",
+    "cpc": 0,
+    "difficulty": 25,
+    "volume": 390,
+    "competition": 0.01,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does it take to get a restraining order",
+    "cpc": 0,
+    "difficulty": 26,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "featured_snippets",
+     "people_also_ask"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to file a restraining order",
+    "cpc": 0.03,
+    "difficulty": 31,
+    "volume": 320,
+    "competition": 0.01,
+    "serp_features": [
+     "people_also_ask"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long do temu orders take",
+    "cpc": 0,
+    "difficulty": 9,
+    "volume": 260,
+    "competition": 0.06,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to order a birth certificate",
+    "cpc": 0.92,
+    "difficulty": 31,
+    "volume": 260,
+    "competition": 0.19,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does amazon take to refund a cancelled order",
+    "cpc": 0,
+    "difficulty": 8,
+    "volume": 210,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does a restraining order take",
+    "cpc": 0,
+    "difficulty": 25,
+    "volume": 210,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to take out a restraining order",
+    "cpc": 0.04,
+    "difficulty": 22,
+    "volume": 170,
+    "competition": 0.19,
+    "serp_features": [
+     "featured_snippets",
+     "people_also_ask"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do you take out a restraining order",
+    "cpc": 0.04,
+    "difficulty": 13,
+    "volume": 170,
+    "competition": 0.19,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how can i take out a restraining order",
+    "cpc": 0.04,
+    "difficulty": 30,
+    "volume": 170,
+    "competition": 0.19,
+    "serp_features": [
+     "featured_snippets"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take amazon to cancel an order",
+    "cpc": 0,
+    "difficulty": 7,
+    "volume": 170,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to order a wedding gown",
+    "cpc": 1.43,
+    "difficulty": 12,
+    "volume": 170,
+    "competition": 0.44,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to order a wedding dress",
+    "cpc": 1.43,
+    "difficulty": 14,
+    "volume": 170,
+    "competition": 0.44,
+    "serp_features": [
+     "reviews",
+     "video",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do i take out a restraining order",
+    "cpc": 0.04,
+    "difficulty": 20,
+    "volume": 170,
+    "competition": 0.19,
+    "serp_features": [
+     "featured_snippets",
+     "people_also_ask"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to drop a restraining order",
+    "cpc": 0,
+    "difficulty": 23,
+    "volume": 170,
+    "competition": 0.01,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to order checks",
+    "cpc": 1.56,
+    "difficulty": 7,
+    "volume": 140,
+    "competition": 0.27,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to get a protection order",
+    "cpc": 0,
+    "difficulty": 20,
+    "volume": 140,
+    "competition": 0.01,
+    "serp_features": [
+     "people_also_ask"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to get a protective order",
+    "cpc": 0,
+    "difficulty": 29,
+    "volume": 140,
+    "competition": 0.01,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to serve a restraining order",
+    "cpc": 0,
+    "difficulty": 21,
+    "volume": 140,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to get a court order",
+    "cpc": 0,
+    "difficulty": 13,
+    "volume": 110,
+    "competition": 0,
+    "serp_features": [
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how much to tip on take out orders",
+    "cpc": 0,
+    "difficulty": 12,
+    "volume": 110,
+    "competition": 0.01,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does a restraining order take to process",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 110,
+    "competition": 0.01,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long do etsy orders take",
+    "cpc": 0,
+    "difficulty": 7,
+    "volume": 110,
+    "competition": 0,
+    "serp_features": [
+     "featured_snippets",
+     "reviews",
+     "video",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long do etsy orders take to arrive",
+    "cpc": 0,
+    "difficulty": 8,
+    "volume": 90,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does restraining order take",
+    "cpc": 0,
+    "difficulty": 25,
+    "volume": 90,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what to order for chinese take out",
+    "cpc": 0,
+    "difficulty": 24,
+    "volume": 90,
+    "competition": 0.01,
+    "serp_features": [
+     "local_pack",
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "L",
+     "T"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how long does it take to order contacts",
+    "cpc": 7.99,
+    "difficulty": 8,
+    "volume": 90,
+    "competition": 1,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what order to take cpa exam",
+    "cpc": 6.57,
+    "difficulty": 7,
+    "volume": 90,
+    "competition": 0.1,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does it take to file a restraining order",
+    "cpc": 0,
+    "difficulty": 17,
+    "volume": 90,
+    "competition": 0,
+    "serp_features": [
+     "featured_snippets",
+     "people_also_ask"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|inventory tracking": {
+  "total": 53,
+  "keywords": [
+   {
+    "keyword": "how to keep track of stock inventory",
+    "cpc": 3.73,
+    "difficulty": 21,
+    "volume": 110,
+    "competition": 0.6,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of inventory",
+    "cpc": 3.73,
+    "difficulty": 5,
+    "volume": 110,
+    "competition": 0.6,
+    "serp_features": [
+     "people_also_ask",
+     "images",
+     "sge",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do i keep track of inventory",
+    "cpc": 3.73,
+    "difficulty": 27,
+    "volume": 110,
+    "competition": 0.6,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory",
+    "cpc": 3.65,
+    "difficulty": 18,
+    "volume": 90,
+    "competition": 0.36,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of inventory for small business",
+    "cpc": 6.24,
+    "difficulty": 26,
+    "volume": 70,
+    "competition": 0.68,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory for small business",
+    "cpc": 5.96,
+    "difficulty": 33,
+    "volume": 70,
+    "competition": 0.19,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory with excel",
+    "cpc": 2.8,
+    "difficulty": 24,
+    "volume": 50,
+    "competition": 0.35,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory in excel",
+    "cpc": 2.8,
+    "difficulty": 7,
+    "volume": 50,
+    "competition": 0.35,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "find_results_on",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory in quickbooks",
+    "cpc": 10.88,
+    "difficulty": 18,
+    "volume": 50,
+    "competition": 0.28,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do i track inventory in quickbooks",
+    "cpc": 10.88,
+    "difficulty": 22,
+    "volume": 50,
+    "competition": 0.28,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is inventory tracking system",
+    "cpc": 0,
+    "difficulty": 24,
+    "volume": 40,
+    "competition": 0.06,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of inventory in excel",
+    "cpc": 2.47,
+    "difficulty": 6,
+    "volume": 40,
+    "competition": 0.28,
+    "serp_features": [
+     "reviews",
+     "people_also_ask",
+     "images",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is inventory tracking",
+    "cpc": 0,
+    "difficulty": 19,
+    "volume": 40,
+    "competition": 0.06,
+    "serp_features": [
+     "reviews",
+     "video",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of inventory on excel",
+    "cpc": 2.47,
+    "difficulty": 29,
+    "volume": 40,
+    "competition": 0.28,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory in quickbooks online",
+    "cpc": 7.01,
+    "difficulty": 22,
+    "volume": 30,
+    "competition": 0.32,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory on shopify",
+    "cpc": 2.78,
+    "difficulty": 6,
+    "volume": 30,
+    "competition": 0.41,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of inventory manually",
+    "cpc": 2.91,
+    "difficulty": 13,
+    "volume": 30,
+    "competition": 0.25,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory in shopify",
+    "cpc": 3.57,
+    "difficulty": 7,
+    "volume": 20,
+    "competition": 0.45,
+    "serp_features": [
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the best way to keep track of inventory",
+    "cpc": 5.31,
+    "difficulty": 13,
+    "volume": 20,
+    "competition": 0.85,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of clothing inventory",
+    "cpc": 3.16,
+    "difficulty": 7,
+    "volume": 20,
+    "competition": 0.24,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how is walmart able to keep track of its inventory",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do grocery stores track inventory",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 10,
+    "competition": 0.02,
+    "serp_features": [
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of inventory and sales",
+    "cpc": 0,
+    "difficulty": 12,
+    "volume": 10,
+    "competition": 0.86,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of inventory in quickbooks",
+    "cpc": 2.66,
+    "difficulty": 20,
+    "volume": 10,
+    "competition": 0.63,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory and sales",
+    "cpc": 0,
+    "difficulty": 15,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches",
+     "image_in_block",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to use excel to keep track of inventory",
+    "cpc": 0,
+    "difficulty": 12,
+    "volume": 10,
+    "competition": 0.43,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep track of sales and inventory",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 10,
+    "competition": 0.86,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how does amazon track inventory",
+    "cpc": 0,
+    "difficulty": 24,
+    "volume": 10,
+    "competition": 0.09,
+    "serp_features": [
+     "reviews",
+     "sitelinks",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "intents": [
+     "I",
+     "N"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do grocery stores keep track of inventory",
+    "cpc": 0,
+    "difficulty": 5,
+    "volume": 10,
+    "competition": 0.05,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track inventory with barcodes",
+    "cpc": 3.43,
+    "difficulty": 10,
+    "volume": 10,
+    "competition": 0.52,
+    "serp_features": [
+     "reviews",
+     "video",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|catalog management": {
+  "total": 4,
+  "keywords": [
+   {
+    "keyword": "how to optimize product catalog management",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to add catalog in business manager",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage multilingual product catalogs",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is distributed catalog management",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|inventory planning": {
+  "total": 9,
+  "keywords": [
+   {
+    "keyword": "what is inventory planning",
+    "cpc": 0,
+    "difficulty": 22,
+    "volume": 70,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to do inventory planning",
+    "cpc": 0,
+    "difficulty": 27,
+    "volume": 20,
+    "competition": 0.07,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to plan inventory",
+    "cpc": 0,
+    "difficulty": 13,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is inventory planning and control",
+    "cpc": 0,
+    "difficulty": 25,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is abc inventory planning",
+    "cpc": 0,
+    "difficulty": 34,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to calculate planned end of month inventory",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how does inventory planning help you increase sales on amazon",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to plan inventory management",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how inventory improvements enhance your business plan",
+    "cpc": 0,
+    "difficulty": 8,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|order fulfillment": {
+  "total": 64,
+  "keywords": [
+   {
+    "keyword": "what does order fulfilled mean",
+    "cpc": 0,
+    "difficulty": 21,
+    "volume": 480,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does order in fulfillment mean",
+    "cpc": 0,
+    "difficulty": 20,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does fulfilling order mean",
+    "cpc": 0,
+    "difficulty": 20,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does fulfillment mean on an order",
+    "cpc": 0,
+    "difficulty": 25,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does fulfilled mean on an order",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is order fulfillment",
+    "cpc": 0,
+    "difficulty": 13,
+    "volume": 320,
+    "competition": 0.01,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does awaiting fulfillment for an order mean",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 170,
+    "competition": 0.01,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does awaiting fulfillment mean on an order",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 170,
+    "competition": 0.01,
+    "serp_features": [
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to fulfill orders on shopify",
+    "cpc": 3.07,
+    "difficulty": 37,
+    "volume": 110,
+    "competition": 0.26,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to fulfill order shopify",
+    "cpc": 3.07,
+    "difficulty": 36,
+    "volume": 110,
+    "competition": 0.26,
+    "serp_features": [
+     "reviews",
+     "video",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does order status fulfillment mean",
+    "cpc": 0,
+    "difficulty": 14,
+    "volume": 70,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does order status fulfilled mean",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 70,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does it mean when an order is fulfilled",
+    "cpc": 0,
+    "difficulty": 28,
+    "volume": 50,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to fulfill orders on shopify dropshipping",
+    "cpc": 2.3,
+    "difficulty": 14,
+    "volume": 50,
+    "competition": 0.39,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does it mean when an order is awaiting fulfillment",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 40,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to fulfill an order on shopify",
+    "cpc": 5.4,
+    "difficulty": 37,
+    "volume": 30,
+    "competition": 0.36,
+    "serp_features": [
+     "reviews",
+     "video",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does it mean when an order is in fulfillment",
+    "cpc": 0,
+    "difficulty": 28,
+    "volume": 20,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "find_results_on",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the initial step in the order fulfillment process",
+    "cpc": 0,
+    "difficulty": 18,
+    "volume": 20,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does it mean when order is fulfilled",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what are the six steps in the order fulfillment process",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to fulfill orders on oberlo",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does order fulfilment mean",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how much does printful charge for order fulfillment",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to calculate perfect order fulfillment",
+    "cpc": 0,
+    "difficulty": 16,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is order fulfillment services",
+    "cpc": 0,
+    "difficulty": 30,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "local_pack",
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "L",
+     "T"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to use amazon fba to fulfill ebay orders",
+    "cpc": 0,
+    "difficulty": 10,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "people_also_ask",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to fulfill orders on amazon",
+    "cpc": 0,
+    "difficulty": 29,
+    "volume": 10,
+    "competition": 0.07,
+    "serp_features": [
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does order status fulfillment completed mean",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to fulfill orders on ebay",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the order fulfillment process",
+    "cpc": 0,
+    "difficulty": 29,
+    "volume": 10,
+    "competition": 0.05,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|order tracking": {
+  "total": 436,
+  "keywords": [
+   {
+    "keyword": "how to track my order on amazon",
+    "cpc": 0.05,
+    "difficulty": 31,
+    "volume": 590,
+    "competition": 0.04,
+    "serp_features": [
+     "top_stories",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track order",
+    "cpc": 0.04,
+    "difficulty": 56,
+    "volume": 590,
+    "competition": 0.23,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track an order with an order number",
+    "cpc": 0.04,
+    "difficulty": 43,
+    "volume": 590,
+    "competition": 0.24,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do i track my orders on amazon",
+    "cpc": 0.05,
+    "difficulty": 18,
+    "volume": 590,
+    "competition": 0.04,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do i track my order on amazon",
+    "cpc": 0.05,
+    "difficulty": 26,
+    "volume": 590,
+    "competition": 0.04,
+    "serp_features": [
+     "sitelinks",
+     "video",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I",
+     "N"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track a order number",
+    "cpc": 0.04,
+    "difficulty": 43,
+    "volume": 590,
+    "competition": 0.24,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track order numbers",
+    "cpc": 0.04,
+    "difficulty": 4,
+    "volume": 590,
+    "competition": 0.24,
+    "serp_features": [
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track order number",
+    "cpc": 0.02,
+    "difficulty": 49,
+    "volume": 590,
+    "competition": 0.28,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track an order number",
+    "cpc": 0.04,
+    "difficulty": 5,
+    "volume": 590,
+    "competition": 0.24,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track my order from amazon",
+    "cpc": 0.05,
+    "difficulty": 30,
+    "volume": 590,
+    "competition": 0.04,
+    "serp_features": [
+     "reviews",
+     "sitelinks",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I",
+     "N"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how can i track my order from walmart",
+    "cpc": 0.05,
+    "difficulty": 22,
+    "volume": 390,
+    "competition": 0.16,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "can you track money orders",
+    "cpc": 0,
+    "difficulty": 21,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track aliexpress orders",
+    "cpc": 0.05,
+    "difficulty": 16,
+    "volume": 390,
+    "competition": 0.13,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "can you track money order",
+    "cpc": 0,
+    "difficulty": 14,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "can you track a money order",
+    "cpc": 0,
+    "difficulty": 7,
+    "volume": 390,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track an order",
+    "cpc": 0.04,
+    "difficulty": 44,
+    "volume": 360,
+    "competition": 0.23,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track my order",
+    "cpc": 0.04,
+    "difficulty": 12,
+    "volume": 360,
+    "competition": 0.12,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track aliexpress order",
+    "cpc": 0.06,
+    "difficulty": 16,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do you track your order on aliexpress",
+    "cpc": 0.06,
+    "difficulty": 15,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track your order on amazon",
+    "cpc": 0.05,
+    "difficulty": 30,
+    "volume": 320,
+    "competition": 0.06,
+    "serp_features": [
+     "reviews",
+     "video",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track order from aliexpress",
+    "cpc": 0.06,
+    "difficulty": 23,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do i track my order on aliexpress",
+    "cpc": 0.06,
+    "difficulty": 7,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how can i track my aliexpress order",
+    "cpc": 0.06,
+    "difficulty": 15,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track your amazon orders",
+    "cpc": 0.05,
+    "difficulty": 22,
+    "volume": 320,
+    "competition": 0.06,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track your order on aliexpress",
+    "cpc": 0.06,
+    "difficulty": 16,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track your orders on amazon",
+    "cpc": 0.05,
+    "difficulty": 22,
+    "volume": 320,
+    "competition": 0.06,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track your aliexpress order",
+    "cpc": 0.06,
+    "difficulty": 16,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track my order on aliexpress",
+    "cpc": 0.06,
+    "difficulty": 21,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "reviews",
+     "video",
+     "bads",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track an order on aliexpress",
+    "cpc": 0.06,
+    "difficulty": 23,
+    "volume": 320,
+    "competition": 0.15,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to track a usps money order",
+    "cpc": 0,
+    "difficulty": 32,
+    "volume": 260,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|inventory visibility": {
+  "total": 3,
+  "keywords": [
+   {
+    "keyword": "how to improve inventory visibility",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "explain what inventory visibility means",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is meant by inventory visibility",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|inventory control": {
+  "total": 99,
+  "keywords": [
+   {
+    "keyword": "what inventory control",
+    "cpc": 0.57,
+    "difficulty": 30,
+    "volume": 590,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is inventory control",
+    "cpc": 0.57,
+    "difficulty": 30,
+    "volume": 590,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is an inventory control",
+    "cpc": 0.57,
+    "difficulty": 31,
+    "volume": 590,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the inventory control",
+    "cpc": 0.57,
+    "difficulty": 23,
+    "volume": 590,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "find_results_on",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what's inventory control",
+    "cpc": 0.57,
+    "difficulty": 29,
+    "volume": 590,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is store inventory control",
+    "cpc": 0,
+    "difficulty": 20,
+    "volume": 210,
+    "competition": 0,
+    "serp_features": [
+     "featured_snippets",
+     "reviews",
+     "video",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "why inventory control is important",
+    "cpc": 0.24,
+    "difficulty": 12,
+    "volume": 210,
+    "competition": 0.04,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "why is inventory control important",
+    "cpc": 0.24,
+    "difficulty": 18,
+    "volume": 210,
+    "competition": 0.04,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is inventory control software",
+    "cpc": 2.36,
+    "difficulty": 62,
+    "volume": 170,
+    "competition": 0.12,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does inventory control mean",
+    "cpc": 0,
+    "difficulty": 23,
+    "volume": 70,
+    "competition": 0.04,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to control inventory in warehouse",
+    "cpc": 4.17,
+    "difficulty": 11,
+    "volume": 40,
+    "competition": 0.37,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is an inventory control specialist",
+    "cpc": 0,
+    "difficulty": 7,
+    "volume": 40,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does an inventory control specialist do",
+    "cpc": 0,
+    "difficulty": 7,
+    "volume": 40,
+    "competition": 0.03,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what are inventory control systems",
+    "cpc": 0,
+    "difficulty": 25,
+    "volume": 30,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is an inventory control system",
+    "cpc": 0,
+    "difficulty": 19,
+    "volume": 30,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is inventory control system",
+    "cpc": 0,
+    "difficulty": 20,
+    "volume": 30,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to control inventory in a small business",
+    "cpc": 8.08,
+    "difficulty": 24,
+    "volume": 30,
+    "competition": 0.28,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does an inventory controller do",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 30,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to control inventory",
+    "cpc": 8.11,
+    "difficulty": 19,
+    "volume": 20,
+    "competition": 0.37,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "tads",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to control the inventory",
+    "cpc": 8.11,
+    "difficulty": 44,
+    "volume": 20,
+    "competition": 0.37,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to inventory control",
+    "cpc": 8.11,
+    "difficulty": 42,
+    "volume": 20,
+    "competition": 0.37,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is a inventory control clerk",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 20,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is just in time inventory control",
+    "cpc": 0,
+    "difficulty": 35,
+    "volume": 20,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches",
+     "mads"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is abc analysis in inventory control",
+    "cpc": 0,
+    "difficulty": 34,
+    "volume": 20,
+    "competition": 0.03,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is abc analysis of inventory control",
+    "cpc": 0,
+    "difficulty": 31,
+    "volume": 20,
+    "competition": 0.03,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the purpose of inventory control",
+    "cpc": 0,
+    "difficulty": 23,
+    "volume": 10,
+    "competition": 0.2,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to do inventory control",
+    "cpc": 5.49,
+    "difficulty": 5,
+    "volume": 10,
+    "competition": 0.56,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "in inventory control the economic order quantity is the",
+    "cpc": 0,
+    "difficulty": 19,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how often must schedule ii controlled substances be physically inventoried",
+    "cpc": 0,
+    "difficulty": 22,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to keep inventory control",
+    "cpc": 0,
+    "difficulty": 43,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|restaurant inventory": {
+  "total": 6,
+  "keywords": [
+   {
+    "keyword": "how to do restaurant inventory",
+    "cpc": 4,
+    "difficulty": 13,
+    "volume": 50,
+    "competition": 0.48,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to do inventory in a restaurant",
+    "cpc": 4,
+    "difficulty": 12,
+    "volume": 50,
+    "competition": 0.48,
+    "serp_features": [
+     "video",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is restaurant inventory management",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage restaurant inventory",
+    "cpc": 4.72,
+    "difficulty": 13,
+    "volume": 10,
+    "competition": 0.56,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to control inventory in a restaurant",
+    "cpc": 0,
+    "difficulty": 33,
+    "volume": 10,
+    "competition": 0.71,
+    "serp_features": [
+     "images",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to make an inventory list for a restaurant",
+    "cpc": 0,
+    "difficulty": 21,
+    "volume": 10,
+    "competition": 0.96,
+    "serp_features": [
+     "images",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|restaurant purchasing": {
+  "total": 2,
+  "keywords": [
+   {
+    "keyword": "how to purchase a restaurant",
+    "cpc": 1.13,
+    "difficulty": 11,
+    "volume": 110,
+    "competition": 0.32,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to purchase a franchise restaurant",
+    "cpc": 1.7,
+    "difficulty": 5,
+    "volume": 90,
+    "competition": 0.56,
+    "serp_features": [
+     "video",
+     "sge",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|restaurant checklist": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|vendor management": {
+  "total": 56,
+  "keywords": [
+   {
+    "keyword": "what is a vendor manager",
+    "cpc": 0.97,
+    "difficulty": 13,
+    "volume": 590,
+    "competition": 0.03,
+    "serp_features": [
+     "reviews",
+     "video",
+     "images",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is vendor management",
+    "cpc": 0.97,
+    "difficulty": 6,
+    "volume": 590,
+    "competition": 0.03,
+    "serp_features": [
+     "video",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is it vendor management",
+    "cpc": 0.97,
+    "difficulty": 6,
+    "volume": 590,
+    "competition": 0.03,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the vendor management",
+    "cpc": 0.97,
+    "difficulty": 21,
+    "volume": 590,
+    "competition": 0.03,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is vendor relationship management",
+    "cpc": 0,
+    "difficulty": 26,
+    "volume": 140,
+    "competition": 0.01,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is a vendor management system",
+    "cpc": 6.97,
+    "difficulty": 14,
+    "volume": 110,
+    "competition": 0.13,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is vendor management system",
+    "cpc": 6.97,
+    "difficulty": 7,
+    "volume": 110,
+    "competition": 0.13,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is vendor risk management",
+    "cpc": 6.61,
+    "difficulty": 24,
+    "volume": 70,
+    "competition": 0.03,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is vendor invoice management in sap",
+    "cpc": 0,
+    "difficulty": 14,
+    "volume": 50,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what does vendor management mean",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 40,
+    "competition": 0.03,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is vendor management process",
+    "cpc": 0.92,
+    "difficulty": 5,
+    "volume": 30,
+    "competition": 0.21,
+    "serp_features": [
+     "reviews",
+     "images",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage vendors",
+    "cpc": 2.29,
+    "difficulty": 8,
+    "volume": 30,
+    "competition": 0.56,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage vendor",
+    "cpc": 2.29,
+    "difficulty": 35,
+    "volume": 30,
+    "competition": 0.56,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the vendor management process",
+    "cpc": 0.92,
+    "difficulty": 24,
+    "volume": 30,
+    "competition": 0.21,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how does vendor invoice management improve vendor relationships",
+    "cpc": 0,
+    "difficulty": 11,
+    "volume": 30,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is third party vendor management",
+    "cpc": 4.11,
+    "difficulty": 15,
+    "volume": 20,
+    "competition": 0.25,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is vendor management software",
+    "cpc": 0,
+    "difficulty": 16,
+    "volume": 20,
+    "competition": 0.05,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to do vendor management",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 10,
+    "competition": 0.86,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage third party vendors",
+    "cpc": 0,
+    "difficulty": 16,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what do you mean by vendor management",
+    "cpc": 0,
+    "difficulty": 27,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how does a vendor management system work",
+    "cpc": 0,
+    "difficulty": 22,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "sitelinks",
+     "people_also_ask",
+     "images",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I",
+     "N"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is enterprise vendor risk management program",
+    "cpc": 0,
+    "difficulty": 17,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to improve vendor management",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "which process is responsible for managing relationships with vendors",
+    "cpc": 0,
+    "difficulty": 18,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is managed by vendor in saas",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage vendors in a project",
+    "cpc": 0,
+    "difficulty": 24,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage vendor relationships",
+    "cpc": 0,
+    "difficulty": 24,
+    "volume": 10,
+    "competition": 0.86,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "why is vendor management important",
+    "cpc": 0,
+    "difficulty": 23,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage vendors effectively",
+    "cpc": 0,
+    "difficulty": 12,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is vendor management inventory",
+    "cpc": 3.33,
+    "difficulty": 30,
+    "volume": 10,
+    "competition": 0.03,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|inventory replenishment": {
+  "total": 1,
+  "keywords": [
+   {
+    "keyword": "what is inventory replenishment",
+    "cpc": 0,
+    "difficulty": 8,
+    "volume": 50,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|inventory automation": {
+  "total": 5,
+  "keywords": [
+   {
+    "keyword": "how to automate inventory management",
+    "cpc": 5.56,
+    "difficulty": 0,
+    "volume": 20,
+    "competition": 0.7,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "automate internal announcements when inventory is low",
+    "cpc": 0,
+    "difficulty": 21,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is automated inventory system",
+    "cpc": 0,
+    "difficulty": 24,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is automated inventory management system",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is an automated inventory system",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|distribution requirements planning": {
+  "total": 1,
+  "keywords": [
+   {
+    "keyword": "what is distribution requirements planning",
+    "cpc": 2.7,
+    "difficulty": 7,
+    "volume": 70,
+    "competition": 0.13,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|b2b portal": {
+  "total": 5,
+  "keywords": [
+   {
+    "keyword": "what is a b2b portal",
+    "cpc": 6.37,
+    "difficulty": 12,
+    "volume": 20,
+    "competition": 0.2,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is b2b portal",
+    "cpc": 6.37,
+    "difficulty": 21,
+    "volume": 20,
+    "competition": 0.2,
+    "serp_features": [
+     "video",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is b2b portal in business",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0.71,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to develop a secure b2b web portal",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how much does a custom b2b portal cost",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|wholesale ordering": {
+  "total": 12,
+  "keywords": [
+   {
+    "keyword": "how to order wholesale",
+    "cpc": 1.3,
+    "difficulty": 34,
+    "volume": 590,
+    "competition": 0.54,
+    "serp_features": [
+     "top_stories",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order fabric wholesale",
+    "cpc": 0.5,
+    "difficulty": 25,
+    "volume": 90,
+    "competition": 1,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "where to order wholesale products",
+    "cpc": 2.69,
+    "difficulty": 37,
+    "volume": 10,
+    "competition": 0.79,
+    "serp_features": [
+     "local_pack",
+     "reviews",
+     "sitelinks",
+     "people_also_ask",
+     "related_searches",
+     "image_in_block",
+     "places_sites_products"
+    ],
+    "intents": [
+     "L",
+     "N"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order from china wholesale",
+    "cpc": 1.96,
+    "difficulty": 7,
+    "volume": 10,
+    "competition": 0.92,
+    "serp_features": [
+     "local_pack",
+     "reviews",
+     "video",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "L",
+     "T"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order wholesale clothing",
+    "cpc": 1.49,
+    "difficulty": 27,
+    "volume": 10,
+    "competition": 0.83,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "where to order wholesale clothing",
+    "cpc": 2.29,
+    "difficulty": 46,
+    "volume": 10,
+    "competition": 0.77,
+    "serp_features": [
+     "reviews",
+     "people_also_ask",
+     "shopping_results",
+     "gmb",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "L",
+     "T"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order wholesale from china",
+    "cpc": 2.08,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 1,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order wholesale clothing from china",
+    "cpc": 0,
+    "difficulty": 7,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "top_stories",
+     "people_also_ask",
+     "related_searches",
+     "image_in_block"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order shein wholesale",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order wholesale items",
+    "cpc": 0,
+    "difficulty": 29,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order from wholesale 268",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to order from a peptide wholesale supplier",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|distributor sales": {
+  "total": 5,
+  "keywords": [
+   {
+    "keyword": "super sales company is the exclusive distributor",
+    "cpc": 0,
+    "difficulty": 7,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "images",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is a sales distributor",
+    "cpc": 0,
+    "difficulty": 5,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to excel at distributor sales",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what sales incentive programs for distributors",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to become a medical sales distributor",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|dsd sales": {
+  "total": 1,
+  "keywords": [
+   {
+    "keyword": "what does dsd mean in sales",
+    "cpc": 0,
+    "difficulty": 6,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|supplier management": {
+  "total": 18,
+  "keywords": [
+   {
+    "keyword": "what is supplier relationship management",
+    "cpc": 1.18,
+    "difficulty": 42,
+    "volume": 590,
+    "competition": 0.01,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier management",
+    "cpc": 1.85,
+    "difficulty": 32,
+    "volume": 260,
+    "competition": 0.06,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier chain management",
+    "cpc": 1.07,
+    "difficulty": 37,
+    "volume": 110,
+    "competition": 0.07,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier risk management",
+    "cpc": 0,
+    "difficulty": 15,
+    "volume": 40,
+    "competition": 0.02,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier performance management",
+    "cpc": 0,
+    "difficulty": 28,
+    "volume": 20,
+    "competition": 0.28,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do you manage suppliers in project management",
+    "cpc": 0,
+    "difficulty": 24,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how do you manage suppliers",
+    "cpc": 0,
+    "difficulty": 31,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage suppliers",
+    "cpc": 0,
+    "difficulty": 17,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage supplier relationships",
+    "cpc": 0,
+    "difficulty": 34,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier management system",
+    "cpc": 0,
+    "difficulty": 12,
+    "volume": 10,
+    "competition": 0.14,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "mads"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier relationship management and why does it matter",
+    "cpc": 0,
+    "difficulty": 39,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier quality management",
+    "cpc": 0,
+    "difficulty": 21,
+    "volume": 10,
+    "competition": 0.07,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is your procurement risk management strategy against unreliable suppliers",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier management in procurement",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0.04,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is supplier managed inventory",
+    "cpc": 3.33,
+    "difficulty": 37,
+    "volume": 10,
+    "competition": 0.03,
+    "serp_features": [
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to manage supplier returns",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the meaning of supplier management",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to write a supplier risk management oversight model policy",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|distributor software": {
+  "total": 1,
+  "keywords": [
+   {
+    "keyword": "how to become a software distributor",
+    "cpc": 0,
+    "difficulty": 12,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|inventory forecasting": {
+  "total": 10,
+  "keywords": [
+   {
+    "keyword": "how to forecast inventory",
+    "cpc": 6.83,
+    "difficulty": 27,
+    "volume": 50,
+    "competition": 0.39,
+    "serp_features": [
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is inventory forecasting",
+    "cpc": 0,
+    "difficulty": 16,
+    "volume": 40,
+    "competition": 0.1,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to forecast inventory levels",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0.04,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to forecast inventory in excel",
+    "cpc": 0,
+    "difficulty": 8,
+    "volume": 10,
+    "competition": 0.23,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "find_results_on",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to forecast inventory for the next year",
+    "cpc": 0,
+    "difficulty": 16,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to forecast inventory formulas",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to forecast inventory needs",
+    "cpc": 0,
+    "difficulty": 19,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to forecast inventory demand",
+    "cpc": 0,
+    "difficulty": 30,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to forecast inventory on balance sheet",
+    "cpc": 0,
+    "difficulty": 8,
+    "volume": 10,
+    "competition": 0.12,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to do inventory forecasting",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|wholesale distribution": {
+  "total": 7,
+  "keywords": [
+   {
+    "keyword": "what is wholesale distribution",
+    "cpc": 0,
+    "difficulty": 8,
+    "volume": 260,
+    "competition": 0.01,
+    "serp_features": [
+     "video",
+     "images",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is a wholesale distribution company",
+    "cpc": 1.43,
+    "difficulty": 17,
+    "volume": 30,
+    "competition": 0.09,
+    "serp_features": [
+     "reviews",
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to start a wholesale distribution business",
+    "cpc": 1.61,
+    "difficulty": 13,
+    "volume": 10,
+    "competition": 0.28,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "bads",
+     "sge",
+     "related_searches",
+     "places_sites_products"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "explain how wholesalers add value in the channel of distribution",
+    "cpc": 0,
+    "difficulty": 17,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "how does wholesale distribution work",
+    "cpc": 0,
+    "difficulty": 19,
+    "volume": 10,
+    "competition": 0.33,
+    "serp_features": [
+     "video",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is a wholesale distribution business",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "how to start a wholesale distribution business pdf",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|distribution automation": {
+  "total": 1,
+  "keywords": [
+   {
+    "keyword": "what is not measured by automated call distribution systems",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 10,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|order management software": {
+  "total": 2,
+  "keywords": [
+   {
+    "keyword": "what is order management software",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 20,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is work order management software",
+    "cpc": 2.23,
+    "difficulty": 0,
+    "volume": 20,
+    "competition": 0.11,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ }
+}

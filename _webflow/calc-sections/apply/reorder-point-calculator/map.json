@@ -1,0 +1,510 @@
+{
+ "slug": "reorder-point-calculator",
+ "pageId": "6ac7652a2a715d3e702a0559",
+ "roots": {
+  "whatis": "7537a1c2-1d6b-8c74-ce28-2719aa44fc0b",
+  "who": "9560bf44-3de2-fc26-f082-ad18ed4aefeb",
+  "look": "817317d6-c823-7de9-7532-fa09d011b946",
+  "vos": "c0c08585-0b5c-9bb0-5d0e-b7f30b07baaf",
+  "next": "08a22dea-6343-a3de-86f1-b75d30800b5d"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71235",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71236",
+   "how": "heading",
+   "expected": "What is a reorder point?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec7123b",
+   "how": "string",
+   "expected": "A reorder point is the stock level on a line that says the next order has to go in now. It holds enough stock to cover sales until the truck unloads, plus a buffer for surprises. With this calculator's defaults, that level is 709 cases."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71243",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71246",
+   "how": "string",
+   "expected": "Time, priced in cases. It takes the days you wait on a supplier and states them as a stock level you can check on the floor."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71240",
+   "how": "image",
+   "expected": "Floor plan grid, for the wait on a supplier priced in cases"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec7124b",
+   "how": "heading",
+   "expected": "What it leaves out"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec7124e",
+   "how": "string",
+   "expected": "Cases already on the way. The basic sum checks the floor only, so hold the trigger against stock on hand plus stock on order, or you order twice."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71248",
+   "how": "image",
+   "expected": "Stacked cases, for stock already on order"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71253",
+   "how": "heading",
+   "expected": "When accounts order on one day"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71256",
+   "how": "string",
+   "expected": "A day of usage is an average. When most accounts order for Monday's trucks, 141 cases of headroom can go in a single morning."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "76639e50-7ac0-f59c-6a87-2ca81ec71250",
+   "how": "image",
+   "expected": "Case box, for headroom that goes in one busy morning"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48eefa",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48eefb",
+   "how": "heading",
+   "expected": "Who uses a reorder point calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef00",
+   "how": "string",
+   "expected": "It is built for independent food distributors who buy from their own suppliers and hold stock in their own warehouse. Anyone who decides when the next supplier order goes out should run it line by line."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef05",
+   "how": "heading",
+   "expected": "Owners setting buying rules"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef03",
+   "how": "image",
+   "expected": "Dollar sign, for owners setting buying rules"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef0a",
+   "how": "heading",
+   "expected": "Buyers comparing supplier lead times"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef08",
+   "how": "image",
+   "expected": "Balance scale, for buyers comparing supplier lead times"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef0f",
+   "how": "heading",
+   "expected": "Category managers watching fast movers"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef0d",
+   "how": "image",
+   "expected": "Rising chart, for category managers watching fast movers"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef14",
+   "how": "heading",
+   "expected": "Receivers logging real unload dates"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef12",
+   "how": "image",
+   "expected": "Delivery truck, for receivers logging real unload dates"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef19",
+   "how": "heading",
+   "expected": "Controllers questioning rush freight"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef17",
+   "how": "image",
+   "expected": "Cash bills, for controllers questioning the cost of rush freight"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef1e",
+   "how": "heading",
+   "expected": "DSD teams timing warehouse restocks"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef1c",
+   "how": "image",
+   "expected": "Cycling arrows, for DSD teams timing warehouse restocks"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef23",
+   "how": "heading",
+   "expected": "Purchasing teams timing deal buys"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef21",
+   "how": "image",
+   "expected": "Price tag, for purchasing teams timing deal buys"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef28",
+   "how": "heading",
+   "expected": "Warehouse leads flagging low lines"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef26",
+   "how": "image",
+   "expected": "Downward trend line, for warehouse leads flagging low lines"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef2d",
+   "how": "heading",
+   "expected": "Analysts comparing triggers across SKUs"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "97f1fccd-9ed9-2010-5549-14e9ba48ef2b",
+   "how": "image",
+   "expected": "Side by side bars, for analysts comparing triggers across SKUs"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb61845",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb61846",
+   "how": "heading",
+   "expected": "What to look for before you trust the trigger"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb6184a",
+   "how": "string",
+   "expected": "The sum is simple. The trouble is in the stock and the buffer you feed it. Check these three before you set a trigger."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb61850",
+   "how": "heading",
+   "expected": "On hand means free to sell"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb61854",
+   "how": "string",
+   "expected": "Take out cases already picked or promised to orders that are in. 850 cases on the floor is less than 850 free if tomorrow's orders already claim part of it."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb61858",
+   "how": "heading",
+   "expected": "A buffer sized for this supplier"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb6185c",
+   "how": "string",
+   "expected": "The 229 cases you type in were sized for one lead time. Change the supplier or the lead time and size the buffer again before you trust the trigger."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb61860",
+   "how": "heading",
+   "expected": "One unit in every field"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "243523a4-0d73-45a8-d313-77e76fb61864",
+   "how": "string",
+   "expected": "Usage, buffer and the count all have to be in full cases. A count taken in eaches or broken cases makes the days left read wrong."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb330e",
+   "how": "string",
+   "expected": "Inventory Visibility"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb330f",
+   "how": "heading",
+   "expected": "Where VOS fits around your trigger"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb3318",
+   "how": "string",
+   "expected": "Your Days Left"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb3319",
+   "how": "heading",
+   "expected": "Customer orders draw each line toward its trigger"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb331d",
+   "how": "string",
+   "expected": "VOS does not set your reorder point, count your stock or order from your suppliers. It works on the demand side: your customers order by voice in the VOS app, and inventory visibility moves with that order activity."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb333a",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb3324",
+   "how": "string",
+   "expected": "Real-time inventory visibility tied to order activity"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb332a",
+   "how": "string",
+   "expected": "Fewer stockout surprises across the catalog"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb3330",
+   "how": "string",
+   "expected": "Each app order shows who ordered and when"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb3336",
+   "how": "string",
+   "expected": "Stock figures stay in the system you run today"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "e5cd8bef-40a6-1f65-cfdc-e2adebdb3314",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf059680e",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf059680f",
+   "how": "heading",
+   "expected": "What to run after the reorder point"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596814",
+   "how": "string",
+   "expected": "The reorder point says when to order. These free calculators answer how big the buffer should be, how far to top up, and how fast the stock sells."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf059681c",
+   "how": "heading",
+   "expected": "Size the buffer you typed in"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf059681f",
+   "how": "string",
+   "expected": "Work out a buffer from how much your demand and lead times move, pick a service level, then check it against shelf life."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596823",
+   "how": "string",
+   "expected": "Open the safety stock calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596819",
+   "how": "image",
+   "expected": "Percent sign, for sizing the buffer you typed in"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596821",
+   "how": "link",
+   "expected": "6ac735249b6f12d26ba60ce1"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596829",
+   "how": "heading",
+   "expected": "Set how far each order tops up"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf059682c",
+   "how": "string",
+   "expected": "Find the level each line returns to between deliveries, and see the cash every buffer day ties up on your floor."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596830",
+   "how": "string",
+   "expected": "Open the par level calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596826",
+   "how": "image",
+   "expected": "Rising line, for the level each order tops up to"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf059682e",
+   "how": "link",
+   "expected": "6ac79be1b863c26cbc96979a"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596836",
+   "how": "heading",
+   "expected": "See how fast the stock turns"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596839",
+   "how": "string",
+   "expected": "Count your turns a year, how long a case sits before it sells, and the cash a slow turn keeps tied up."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf059683d",
+   "how": "string",
+   "expected": "Open the inventory turnover calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf0596833",
+   "how": "image",
+   "expected": "Check mark, for how fast the stock turns"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "14a34b3b-de20-5ad9-e419-4d7cf059683b",
+   "how": "link",
+   "expected": "6ac7252ae188e18d1d906bba"
+  }
+ ]
+}

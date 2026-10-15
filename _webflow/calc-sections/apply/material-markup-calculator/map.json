@@ -1,0 +1,510 @@
+{
+ "slug": "material-markup-calculator",
+ "pageId": "6ac72b95bdfb92fbc692e782",
+ "roots": {
+  "whatis": "fa02f680-90f1-c7ae-f581-563fe6b0f96c",
+  "who": "72ac2b2b-df89-fef7-bc16-dd7bf2df5789",
+  "look": "96528f2d-6dcc-4e64-b7ae-03cd6d798a27",
+  "vos": "a2bdda31-bcdb-ae25-16b8-9a5fce33c1b5",
+  "next": "02dabede-c891-2b1e-2b6e-b347b41e89dc"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197ead8e",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197ead8f",
+   "how": "heading",
+   "expected": "What is material markup?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197ead94",
+   "how": "string",
+   "expected": "Material markup is the percentage added to what goods cost you, to set their selling price. The term is common in contracting, where materials are marked up on a job. For a distributor the material is the case, costed all the way to your dock."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197ead9c",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197ead9f",
+   "how": "string",
+   "expected": "Everything you pay to get the case onto your dock and ready to ship: the supplier price, freight in and handling. The markup goes on top of that total."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197ead99",
+   "how": "image",
+   "expected": "Floor plan grid, for the costs that land a case on your dock"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197eada4",
+   "how": "heading",
+   "expected": "What it leaves out"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197eada7",
+   "how": "string",
+   "expected": "Rent, sales pay, insurance and the office. They belong to the business, not the case, so the margin the markup leaves has to pay for them."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197eada1",
+   "how": "image",
+   "expected": "Stacked cases, for overhead the margin has to cover"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197eadac",
+   "how": "heading",
+   "expected": "Freight in, not freight out"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197eadaf",
+   "how": "string",
+   "expected": "The $1.40 to bring a case in is part of its cost. The truck that takes it to your account is a cost to serve, and it comes out of margin."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "50aa35cd-aee6-38db-4684-1bfd197eada9",
+   "how": "image",
+   "expected": "Case box, for inbound freight against delivery to the account"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d38",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d39",
+   "how": "heading",
+   "expected": "Who uses a material markup calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d3e",
+   "how": "string",
+   "expected": "It is built for independent food distributors who buy product in and resell it by the case. Anyone who builds a case cost, sets the markup rule or tracks freight should run it."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d43",
+   "how": "heading",
+   "expected": "Owners setting the markup rule"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d41",
+   "how": "image",
+   "expected": "Dollar sign, for owners setting the markup rule"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d48",
+   "how": "heading",
+   "expected": "Buyers comparing delivered supplier prices"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d46",
+   "how": "image",
+   "expected": "Balance scale, for buyers comparing delivered supplier prices"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d4d",
+   "how": "heading",
+   "expected": "Managers tracking cost increases"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d4b",
+   "how": "image",
+   "expected": "Rising chart, for managers tracking cost increases"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d52",
+   "how": "heading",
+   "expected": "Receiving teams logging inbound freight"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d50",
+   "how": "image",
+   "expected": "Delivery truck, for receiving teams logging inbound freight"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d57",
+   "how": "heading",
+   "expected": "Controllers costing handling labor"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d55",
+   "how": "image",
+   "expected": "Cash bills, for controllers costing handling labor"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d5c",
+   "how": "heading",
+   "expected": "Pricing teams rerunning the markup"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d5a",
+   "how": "image",
+   "expected": "Cycling arrows, for pricing teams rerunning the markup"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d61",
+   "how": "heading",
+   "expected": "Pricing staff building case costs"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d5f",
+   "how": "image",
+   "expected": "Price tag, for pricing staff building case costs"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d66",
+   "how": "heading",
+   "expected": "Ops managers measuring shrink"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d64",
+   "how": "image",
+   "expected": "Downward trend line, for ops managers measuring shrink"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d6b",
+   "how": "heading",
+   "expected": "Finance comparing two margins"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "3b1749aa-bbc7-35b6-770f-acc417427d69",
+   "how": "image",
+   "expected": "Side by side bars, for finance comparing paper and real margin"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58c9a",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58c9b",
+   "how": "heading",
+   "expected": "What to check before you trust the margin"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58c9f",
+   "how": "string",
+   "expected": "The markup is the one number you choose. Freight, handling and shrink are estimates, and estimates are where the margin goes wrong."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58ca5",
+   "how": "heading",
+   "expected": "Freight split over what really arrived"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58ca9",
+   "how": "string",
+   "expected": "A load charge divided by a full truck's worth of cases understates freight when the truck came half full. Divide by the cases that arrived."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58cad",
+   "how": "heading",
+   "expected": "Handling from timed work, not a guess"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58cb1",
+   "how": "string",
+   "expected": "Time a few pallets from the dock to the shelf, and cost the hours at the full wage with taxes. Then divide by the cases."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58cb5",
+   "how": "heading",
+   "expected": "Shrink from your own write-offs"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "2c639199-1a57-8562-cbdc-9eb60fd58cb9",
+   "how": "string",
+   "expected": "Use the credits and write-offs in your own books, not a rule of thumb. The 3% default is a starting point, and perishables can run higher."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a19",
+   "how": "string",
+   "expected": "Order Review"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a1a",
+   "how": "heading",
+   "expected": "Where VOS fits after the markup"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a23",
+   "how": "string",
+   "expected": "Your Real Margin"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a24",
+   "how": "heading",
+   "expected": "A markup only holds on the right line"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a28",
+   "how": "string",
+   "expected": "VOS does not calculate your costs or set your markup. Its part comes after the price: customers order by voice in the VOS app and check each line before they send it."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a45",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a2f",
+   "how": "string",
+   "expected": "Orders arrive confirmed, numbered and timestamped"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a35",
+   "how": "string",
+   "expected": "Each item tied to your own SKUs"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a3b",
+   "how": "string",
+   "expected": "Catalog updates as stock changes, for fewer stockout surprises"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a41",
+   "how": "string",
+   "expected": "Sent by email as PDF, Excel or Word, or by EDI or API"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "c3f3f125-1a3a-df21-12e1-8aa0c50c0a1f",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973a93",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973a94",
+   "how": "heading",
+   "expected": "What to run after material markup"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973a99",
+   "how": "string",
+   "expected": "Material markup turns a landed cost into a price. These free calculators check the cost going in and the margin coming out."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973aa1",
+   "how": "heading",
+   "expected": "Rank supplier quotes on landed cost"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973aa4",
+   "how": "string",
+   "expected": "Compare three supplier quotes per unit with freight counted, since the cheapest case price is rarely the cheapest unit."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973aa8",
+   "how": "string",
+   "expected": "Open the landed cost calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973a9e",
+   "how": "image",
+   "expected": "Percent sign, for ranking supplier quotes on landed cost"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973aa6",
+   "how": "link",
+   "expected": "6ac7652962cd713ecd056f43"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973aae",
+   "how": "heading",
+   "expected": "See what staples do to the blend"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973ab1",
+   "how": "string",
+   "expected": "Take a landed cost to a wholesale price, then watch thin staple markups pull your blended margin down."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973ab5",
+   "how": "string",
+   "expected": "Open the wholesale markup calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973aab",
+   "how": "image",
+   "expected": "Rising line, for the blended margin across staples and specialty"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973ab3",
+   "how": "link",
+   "expected": "6ac73521a469d3c306f7aa87"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973abb",
+   "how": "heading",
+   "expected": "Read every markup rung at once"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973abe",
+   "how": "string",
+   "expected": "Enter one cost and see the price and margin at four markup rungs, plus the markup a target margin needs."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973ac2",
+   "how": "string",
+   "expected": "Open the product markup calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973ab8",
+   "how": "image",
+   "expected": "Check mark, for reading price and margin at each markup rung"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "eadb9345-c69b-b435-fb88-3d3bda973ac0",
+   "how": "link",
+   "expected": "6ac7866ff16ee3a82e89dd76"
+  }
+ ]
+}

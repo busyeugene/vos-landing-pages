@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac72b932e36cb4efe865399",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-ar"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac72b932e36cb4efe865399",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-ar"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac72b932e36cb4efe865399",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-ar"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac72b932e36cb4efe865399",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-ar"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-ar",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-ar",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-ar",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-ar"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/accounts-receivable-turnover-calculator#calculator",
+    "name": "Accounts Receivable Turnover Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/accounts-receivable-turnover-calculator",
+    "description": "See how fast you collect, how many days past terms customers really pay, and what that delay costs you to finance.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "How many times a year you collect your book",
+     "The gap between what you wrote and what you get",
+     "What the delay is costing you to finance",
+     "What collecting five days sooner releases"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/accounts-receivable-turnover-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is the formula for accounts receivable turnover?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Annual credit sales divided by average accounts receivable. $9,600,000 of credit sales against an average book of $1,020,000 gives 9.4 turns a year."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the turnover of accounts receivable?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It is how many times a year you collect your whole receivables book. Nine point four turns means the average invoice is paid and replaced about every 39 days."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a good AR turnover ratio?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Judge it against your own terms rather than a benchmark. On net 30 a ratio near 12 means you collect on time; 9.4 means you are running 8.8 days behind what you wrote."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is days sales outstanding?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The average days from invoice to cash, which is 365 divided by your turnover. It is the same measure as the ratio, in the unit your terms are written in."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why use credit sales instead of total sales?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Cash and card sales never become receivables. Counting them inflates the numerator and makes a slow book look faster than it is."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What does slow collection actually cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The cash sits elsewhere and you finance the gap. At 8.8 days past terms that is $230,959 of your money, costing $20,786 a year at a 9% cost of money."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How is this different from inventory turnover?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Receivables turnover measures how fast customers pay you. Inventory turnover measures how fast stock leaves the warehouse. Both park cash, in different places."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/accounts-receivable-turnover-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/accounts-receivable-turnover-calculator",
+    "name": "Accounts Receivable Turnover Calculator",
+    "description": "See how fast you collect, how many days past terms customers really pay, and what that delay costs you to finance.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/accounts-receivable-turnover-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/accounts-receivable-turnover-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

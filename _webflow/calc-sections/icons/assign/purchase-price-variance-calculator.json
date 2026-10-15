@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "lightbulb"
+ ],
+ "who": [
+  "person",
+  "verified",
+  "team",
+  "clipboard",
+  "office",
+  "chat",
+  "sliders",
+  "phone",
+  "search"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "cash"
+ ],
+ "notes": "verified (buyers holding suppliers to contract) is in the who section, kept away from plus in what-is. cash is kept for next 3 (payment terms)."
+}

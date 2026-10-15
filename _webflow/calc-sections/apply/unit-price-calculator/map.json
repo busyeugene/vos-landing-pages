@@ -1,0 +1,510 @@
+{
+ "slug": "unit-price-calculator",
+ "pageId": "6ac72b948f277e012d8d7584",
+ "roots": {
+  "whatis": "8698479c-34c9-3d62-45a7-ab3702d9c309",
+  "who": "829376ee-7786-11f1-1cda-ab0f1ece488b",
+  "look": "7dc79b7e-210b-350d-9bba-e1539e12a994",
+  "vos": "3955454d-e39e-4d62-858f-a1c1d19976b5",
+  "next": "68265783-9038-9535-b7fc-cdbfe9abc09d"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1d3",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1d4",
+   "how": "heading",
+   "expected": "What is a unit price?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1d9",
+   "how": "string",
+   "expected": "A unit price is the cost of one unit of a product: the pack price divided by how many units the pack holds. The unit can be an item, a pound or an ounce. Two packs only compare fairly when both are priced on the same unit."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1e1",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1e4",
+   "how": "string",
+   "expected": "Price against quantity, and nothing about quality. Option A's $1.00 a pound only beats Option B's $1.11 if the product inside is the same grade."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1de",
+   "how": "image",
+   "expected": "Floor plan grid, for the price and quantity a unit price counts"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1e9",
+   "how": "heading",
+   "expected": "Net weight is not always usable weight"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1ec",
+   "how": "string",
+   "expected": "A can's net weight includes the liquid it is packed in. When the account uses only the solids, compare on drained weight instead."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1e6",
+   "how": "image",
+   "expected": "Stacked cases, for drained weight against net weight"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1f1",
+   "how": "heading",
+   "expected": "Catch weight cases price by the pound"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1f4",
+   "how": "string",
+   "expected": "Meat and cheese often ship catch weight, so every case weighs a little differently. There the price per pound is the real price, and the case price moves each time."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "249ee490-7db2-535a-9876-bdf59438b1ee",
+   "how": "image",
+   "expected": "Case box, for catch weight cases priced by the pound"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c3e",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c3f",
+   "how": "heading",
+   "expected": "Who uses a unit price calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c44",
+   "how": "string",
+   "expected": "It is built for independent food distributors choosing which pack to stock and quote. Anyone comparing two sizes of the same product should put them on one base first."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c49",
+   "how": "heading",
+   "expected": "Buyers choosing a pack size"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c47",
+   "how": "image",
+   "expected": "Dollar sign, for buyers choosing which pack size to stock"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c4e",
+   "how": "heading",
+   "expected": "Category managers weighing two sizes"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c4c",
+   "how": "image",
+   "expected": "Balance scale, for category managers weighing two sizes of one item"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c53",
+   "how": "heading",
+   "expected": "Reps upselling a bigger pack"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c51",
+   "how": "image",
+   "expected": "Rising chart, for reps moving an account to a bigger pack"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c58",
+   "how": "heading",
+   "expected": "DSD reps swapping store packs"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c56",
+   "how": "image",
+   "expected": "Delivery truck, for DSD reps swapping the pack a store carries"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c5d",
+   "how": "heading",
+   "expected": "Controllers checking cost per pound"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c5b",
+   "how": "image",
+   "expected": "Cash bills, for controllers checking cost per pound"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c62",
+   "how": "heading",
+   "expected": "Purchasing teams spotting spec changes"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c60",
+   "how": "image",
+   "expected": "Cycling arrows, for purchasing teams spotting a supplier spec change"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c67",
+   "how": "heading",
+   "expected": "Pricing staff setting pound prices"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c65",
+   "how": "image",
+   "expected": "Price tag, for pricing staff setting a price per pound"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c6c",
+   "how": "heading",
+   "expected": "Owners cutting cost of goods"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c6a",
+   "how": "image",
+   "expected": "Downward trend line, for owners cutting cost of goods"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c71",
+   "how": "heading",
+   "expected": "Sales teams comparing competitor packs"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "3f59c076-bdb6-2859-0e77-d55cf2249c6f",
+   "how": "image",
+   "expected": "Side by side bars, for sales teams comparing a competitor's pack"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e478633c",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e478633d",
+   "how": "heading",
+   "expected": "What to look for before you trust the comparison"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e4786341",
+   "how": "string",
+   "expected": "The division is simple. The weights and counts you type in are where most comparisons slip, and these three checks catch it."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e4786347",
+   "how": "heading",
+   "expected": "Weights in the same measure"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e478634b",
+   "how": "string",
+   "expected": "Pounds against pounds. A spec sheet in ounces or grams has to be converted before it goes in, or the per pound line comes out badly wrong."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e478634f",
+   "how": "heading",
+   "expected": "A count that matches the price"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e4786353",
+   "how": "string",
+   "expected": "A case may be listed by the sleeve or the inner pack, and a price sheet may quote either one. Count the units the price actually covers."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e4786357",
+   "how": "heading",
+   "expected": "Prices from the same date"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "5a2b8521-a42f-b1a4-3f4c-e4c6e478635b",
+   "how": "string",
+   "expected": "Take both prices from the same week. A pack quoted last month against one quoted today mixes a price change into a size comparison."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e1577d",
+   "how": "string",
+   "expected": "Order Review"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e1577e",
+   "how": "heading",
+   "expected": "Where VOS fits once you pick a pack"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e15787",
+   "how": "string",
+   "expected": "Your Chosen Pack"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e15788",
+   "how": "heading",
+   "expected": "Customers check each line before it reaches you"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e1578c",
+   "how": "string",
+   "expected": "VOS does not compare packs or buy stock. It works on the selling side, where the pack you chose meets the order. Customers order by voice in the VOS app from a guide tied to your SKUs, and review each line before sending."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e157a9",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e15793",
+   "how": "string",
+   "expected": "Orders arrive confirmed, with a number and timestamp"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e15799",
+   "how": "string",
+   "expected": "Guides updated per account in one admin platform"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e1579f",
+   "how": "string",
+   "expected": "The catalog updates as stock changes"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "f8710a66-6931-6200-5632-b778d1e157a5",
+   "how": "string",
+   "expected": "Most customers place a first order the same day"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "f8710a66-6931-6200-5632-b778d1e15783",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f381c",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f381d",
+   "how": "heading",
+   "expected": "What to run after unit price"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3822",
+   "how": "string",
+   "expected": "Unit price tells you which pack is the better buy. These three free calculators carry that choice into freight, trim and the invoice."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f382a",
+   "how": "heading",
+   "expected": "Add freight and rank three offers"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f382d",
+   "how": "string",
+   "expected": "Rank three supplier quotes on landed cost per unit with freight counted, since the cheapest case is rarely the cheapest unit."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3831",
+   "how": "string",
+   "expected": "Open the landed cost calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3827",
+   "how": "image",
+   "expected": "Percent sign, for ranking three offers with freight counted"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f382f",
+   "how": "link",
+   "expected": "6ac7652962cd713ecd056f43"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3837",
+   "how": "heading",
+   "expected": "Price on the pounds you can sell"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f383a",
+   "how": "string",
+   "expected": "Price cut and portioned product on the pounds left after trim, not on the weight you bought."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f383e",
+   "how": "string",
+   "expected": "Open the food markup calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3834",
+   "how": "image",
+   "expected": "Rising line, for pricing on the pounds left after trim"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f383c",
+   "how": "link",
+   "expected": "6ac79be2180bc9b3c91fb79c"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3844",
+   "how": "heading",
+   "expected": "Check the invoice against your standard"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3847",
+   "how": "string",
+   "expected": "Set what you paid against your standard price, per case and as a percent, then see what the gap is worth in a year."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f384b",
+   "how": "string",
+   "expected": "Open the purchase price variance calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3841",
+   "how": "image",
+   "expected": "Check mark, for checking an invoice against your standard price"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "b5f8f61d-cd39-321d-182d-af06358f3849",
+   "how": "link",
+   "expected": "6ac7866c27806c8148c2855e"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "_note": "TEMPORARY site components made 2026-10-15 from the finished sections on the draft test page 6ad05858af84441219bf54be. Insert an instance, unlink it, then rewrite its copy. Unregister all five when the rollout is done (check instanceCount 0 first).",
+  "siteId": "69bc131a5fdaa09a10456d46",
+  "draftTestPage": "6ad05858af84441219bf54be",
+  "components": {
+    "whatis": "8b579f0b-b087-f1ab-6fed-cd9683434da3",
+    "who": "cdaa97ee-81c3-4130-08dc-43fb2ba36962",
+    "look": "6ab65907-7799-40c6-90d3-ae25db999ed3",
+    "vos": "06c259ba-d227-3b6b-9bb4-6aa0fd0a4734",
+    "next": "c3513d29-ab53-62f6-3e9d-5fa3cd0bce47"
+  }
+}

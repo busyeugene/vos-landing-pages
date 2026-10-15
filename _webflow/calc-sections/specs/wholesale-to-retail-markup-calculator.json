@@ -1,0 +1,165 @@
+{
+ "slug": "wholesale-to-retail-markup-calculator",
+ "status": "DRAFT 2026-10-15: written from BRIEF.md against the marginal cost reference. Not yet approved.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is a wholesale to retail markup?",
+  "intro": "A wholesale to retail markup is what a store adds to your wholesale price to set its shelf price. It is stated as a share of the store's cost. For a distributor it is the second of two steps: your markup sets the case price, then the store's markup sets the shelf.",
+  "cards": [
+   {
+    "title": "Two markups that multiply",
+    "body": "Your markup and the store's stack on top of each other. They multiply rather than add: your 30% and the store's 66.8% take a $22.00 case to 2.17 times its cost on the shelf.",
+    "alt": "Light bulb, for two markups stacking on one case"
+   },
+   {
+    "title": "What the store's share pays for",
+    "body": "The $1.59 a unit the store keeps is gross margin. Shelf labor, rent, spoilage and promotions all come out of it before any of it is profit.",
+    "alt": "Storefront, for the costs a store's margin has to cover"
+   },
+   {
+    "title": "Which accounts it fits",
+    "body": "The chain fits accounts that resell your case one unit at a time, such as grocers, markets and convenience stores. A restaurant turns a case into plates and prices on food cost instead.",
+    "alt": "Map pin, for the accounts that resell a case unit by unit"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a wholesale to retail markup calculator",
+  "intro": "Selling into grocery and specialty retail means pricing a case the store will mark up again. Sales staff and owners who set that case price should check the shelf it leads to.",
+  "chips": [
+   {
+    "label": "Owners setting case prices",
+    "alt": "Person, for owners setting case prices"
+   },
+   {
+    "label": "Sales managers splitting the margin",
+    "alt": "Slider controls, for sales managers splitting margin with a store"
+   },
+   {
+    "label": "Brokers pitching a new item",
+    "alt": "Speech bubble, for brokers pitching a new item to stores"
+   },
+   {
+    "label": "DSD reps pricing store routes",
+    "alt": "Floor plan grid, for DSD reps pricing the stores on a route"
+   },
+   {
+    "label": "Controllers checking gross profit",
+    "alt": "Office building, for controllers checking gross profit per case"
+   },
+   {
+    "label": "Category managers reviewing lines",
+    "alt": "Clipboard, for category managers reviewing lines each season"
+   },
+   {
+    "label": "Teams setting suggested retail prices",
+    "alt": "Two people, for teams setting a suggested retail price"
+   },
+   {
+    "label": "Reps answering shelf price pushback",
+    "alt": "Headset, for reps answering pushback on a shelf price"
+   },
+   {
+    "label": "Managers comparing retail and foodservice",
+    "alt": "Magnifying glass, for comparing retail accounts with foodservice ones"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Three places the shelf price math slips",
+  "intro": "The math in both steps is fixed. Real accounts break it at the inputs, most often in one of these three places.",
+  "steps": [
+   {
+    "title": "Units the store actually prices",
+    "body": "Count the units the store puts a price on, not the items packed inside. If the items come in twin packs, the store prices half as many units at twice the cost."
+   },
+   {
+    "title": "The case price after deals",
+    "body": "If the case carries an off-invoice deal, the store's real cost sits below your list case price. Enter what the buyer actually pays, or the shelf comes out too high."
+   },
+   {
+    "title": "The price ending the store uses",
+    "body": "The calculator sets the shelf on the target margin, to the cent. Stores round to their own price endings, so ask how this one rounds before you defend a case price."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Taking",
+  "h2": "Where VOS fits next to the markup chain",
+  "row_badge": "Your Reps' Time",
+  "h3": "Reps sell the shelf instead of taking the order",
+  "body": "VOS does not calculate markups or shelf prices. It takes the routine order off your reps. Stores order by voice in the VOS app, from their own guide at your case prices.",
+  "bullets": [
+   "Frees sales reps to sell instead of taking orders",
+   "20-30 minutes saved on each order versus a phone call",
+   "Orders arrive confirmed after the customer checks each line",
+   "Orders captured 24/7, including after hours"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after wholesale to retail markup",
+  "intro": "The chain shows where your case lands on the shelf. These three free calculators take each step of it further.",
+  "cards": [
+   {
+    "title": "Work the store's side on its own",
+    "body": "Start from a store's cost and shelf price to see its margin, the markup behind it and the shelf price a target needs.",
+    "link_label": "Open the retail margin calculator",
+    "link_slug": "retail-margin-calculator",
+    "alt": "Calculator, for working the store's margin on its own"
+   },
+   {
+    "title": "See your markup across the book",
+    "body": "Check your own step first: how a mix of staple and specialty markups blends into one margin for the business.",
+    "link_label": "Open the wholesale markup calculator",
+    "link_slug": "wholesale-markup-calculator",
+    "alt": "Right arrow, for your margin blended across the book"
+   },
+   {
+    "title": "Keep markup and margin apart",
+    "body": "Line up price and margin at every markup step, so a markup never gets quoted as if it were the margin.",
+    "link_label": "Open the product markup calculator",
+    "link_slug": "product-markup-calculator",
+    "alt": "Open book, for keeping markup and margin apart"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "30%",
+   "source": "calculator default: your markup 30"
+  },
+  {
+   "figure": "66.8%",
+   "source": "copy spec figures table: retailer markup on your price, 3.97 / 2.38 - 1"
+  },
+  {
+   "figure": "$22.00 case",
+   "source": "calculator default: landed cost per case 22"
+  },
+  {
+   "figure": "2.17 times its cost on the shelf",
+   "source": "copy spec figures table: chain multiple 47.64 / 22.00 = 2.165 (also 1.30 x 1.668 = 2.168)"
+  },
+  {
+   "figure": "$1.59 a unit the store keeps",
+   "source": "copy spec figures table: retailer keeps per unit, 3.97 - 2.38"
+  },
+  {
+   "figure": "half as many units at twice the cost",
+   "source": "worded, no figure: twin packs halve the unit count and double the unit cost"
+  },
+  {
+   "figure": "20-30 minutes saved on each order",
+   "source": "VOS KB CURRENT STATE, homepage figure, stated flat"
+  },
+  {
+   "figure": "24/7",
+   "source": "VOS KB CURRENT STATE, 'Available 24/7', after-hours orders captured"
+  }
+ ]
+}

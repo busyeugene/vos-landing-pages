@@ -1,0 +1,212 @@
+{
+ "balance-scale": {
+  "id": "6ac71f2cbe3f2790ec88dca7",
+  "reads": "a floor, a rule, a fair comparison",
+  "set": "original"
+ },
+ "buffer": {
+  "id": "6ac71f2c44e677760b6845f4",
+  "reads": "stock level against a par line",
+  "set": "original"
+ },
+ "calendar": {
+  "id": "6ac71f2d9ea129dd6bd199d9",
+  "reads": "days, terms, a period",
+  "set": "original"
+ },
+ "case": {
+  "id": "6ac71f2ddacb5c302d9d5c0a",
+  "reads": "one case, a unit of product",
+  "set": "original"
+ },
+ "cash": {
+  "id": "6ac71f2edacb5c302d9d5cab",
+  "reads": "cash, money tied up, buying terms",
+  "set": "original"
+ },
+ "chart-up": {
+  "id": "6ac71f2e6a53ab9c5d7f6eee",
+  "reads": "growth, volume, a rising number",
+  "set": "original"
+ },
+ "clock": {
+  "id": "6ac71f2ec5df5e4f685ec3fd",
+  "reads": "lead time, hours, how long",
+  "set": "original"
+ },
+ "compare-bars": {
+  "id": "6ac71f2e2c3d8300eaf3b21d",
+  "reads": "comparing options side by side",
+  "set": "original"
+ },
+ "dollar": {
+  "id": "6ac71f2fdacb5c302d9d5d15",
+  "reads": "price, a dollar figure",
+  "set": "original"
+ },
+ "floorplan": {
+  "id": "6ac71f2fdacb5c302d9d5d2f",
+  "reads": "floor space, layout, a route map",
+  "set": "original"
+ },
+ "invoice": {
+  "id": "6ac71f2f2c3d8300eaf3b24f",
+  "reads": "an invoice, terms, what you bill",
+  "set": "original"
+ },
+ "order-guide": {
+  "id": "6ac71f3144e677760b6847c4",
+  "reads": "the order guide, a list, a catalog",
+  "set": "original"
+ },
+ "percent": {
+  "id": "6ac71fed026c60b59b375bd5",
+  "reads": "margin, markup, a rate",
+  "set": "original"
+ },
+ "price-tag": {
+  "id": "6ac71fee42eabd1f12ce8ea0",
+  "reads": "the quoted price",
+  "set": "original"
+ },
+ "racking": {
+  "id": "6ac71feed74c17b09757a220",
+  "reads": "racking, shelving, stack height",
+  "set": "original"
+ },
+ "shrink": {
+  "id": "6ac71fef256e0b537b409eaa",
+  "reads": "shrink, spoilage, product lost",
+  "set": "original"
+ },
+ "stack": {
+  "id": "6ac71ff07ce357cf4ca9c199",
+  "reads": "pallets, pack size, stacking",
+  "set": "original"
+ },
+ "target": {
+  "id": "6ac71ff053ee10fc55aeaa7f",
+  "reads": "a target, a benchmark to hit",
+  "set": "original"
+ },
+ "trend-down": {
+  "id": "6ac71ff042eabd1f12ce8f74",
+  "reads": "a thinning margin, a cut, a fall",
+  "set": "original"
+ },
+ "trend-up": {
+  "id": "6ac71ff0081aaf502c3a5b4f",
+  "reads": "a raise, an improvement",
+  "set": "original"
+ },
+ "truck": {
+  "id": "6ac71ff0361a2660da2daed3",
+  "reads": "a route, a drop, delivery",
+  "set": "original"
+ },
+ "turnover": {
+  "id": "6ac71ff16a53ab9c5d7fb081",
+  "reads": "turns, a cycle, rechecking",
+  "set": "original"
+ },
+ "verified": {
+  "id": "6ac71ff1081aaf502c3a5bb2",
+  "reads": "accuracy, consistency, confirmed",
+  "set": "original"
+ },
+ "warehouse": {
+  "id": "6ac71ff1d74c17b09757a391",
+  "reads": "the building, the DC",
+  "set": "original"
+ },
+ "alert": {
+  "id": "6ad07a8582ff418bc8a6c6b6",
+  "reads": "a warning, a trap",
+  "set": "extension 2026-10-15"
+ },
+ "arrow-right": {
+  "id": "6ad07a8582b4c538b5789ee3",
+  "reads": "the next step",
+  "set": "extension 2026-10-15"
+ },
+ "book": {
+  "id": "6ad07a86a7398c6342ee4976",
+  "reads": "a definition, the basics",
+  "set": "extension 2026-10-15"
+ },
+ "calculator": {
+  "id": "6ad07a86f43d7bfc43f824d1",
+  "reads": "a calculator, running the numbers",
+  "set": "extension 2026-10-15"
+ },
+ "chat": {
+  "id": "6ad07a860941cf0d0c62fa17",
+  "reads": "a conversation, a quote talk",
+  "set": "extension 2026-10-15"
+ },
+ "clipboard": {
+  "id": "6ad07a8636601c73ce216e84",
+  "reads": "a checklist, a count sheet",
+  "set": "extension 2026-10-15"
+ },
+ "headset": {
+  "id": "6ad07a87835ef439cc7910a2",
+  "reads": "sales or support on the phone",
+  "set": "extension 2026-10-15"
+ },
+ "lightbulb": {
+  "id": "6ad07a870941cf0d0c62fa49",
+  "reads": "an idea, an insight",
+  "set": "extension 2026-10-15"
+ },
+ "minus": {
+  "id": "6ad07a88927330500c3958ed",
+  "reads": "what is left out",
+  "set": "extension 2026-10-15"
+ },
+ "office": {
+  "id": "6ad07a89b4f90466dd7c4e90",
+  "reads": "the office, back office, admin",
+  "set": "extension 2026-10-15"
+ },
+ "person": {
+  "id": "6ad07a89927330500c3959e0",
+  "reads": "one person, a role",
+  "set": "extension 2026-10-15"
+ },
+ "phone": {
+  "id": "6ad07a8a27aa3ab4d513d988",
+  "reads": "a phone, the app",
+  "set": "extension 2026-10-15"
+ },
+ "pin": {
+  "id": "6ad07a8ac909350d3ff080bd",
+  "reads": "a location, a stop",
+  "set": "extension 2026-10-15"
+ },
+ "plus": {
+  "id": "6ad07a8a27aa3ab4d513d9f3",
+  "reads": "what is counted in",
+  "set": "extension 2026-10-15"
+ },
+ "search": {
+  "id": "6ad07a8b1207c22da70d53ca",
+  "reads": "looking closely, checking",
+  "set": "extension 2026-10-15"
+ },
+ "sliders": {
+  "id": "6ad07a8c46e29627d6ef796b",
+  "reads": "inputs, settings, adjusting",
+  "set": "extension 2026-10-15"
+ },
+ "store": {
+  "id": "6ad07a8e55a095f6d8321efc",
+  "reads": "a store or retail account",
+  "set": "extension 2026-10-15"
+ },
+ "team": {
+  "id": "6ad07a8f36601c73ce217313",
+  "reads": "a team, several people",
+  "set": "extension 2026-10-15"
+ }
+}

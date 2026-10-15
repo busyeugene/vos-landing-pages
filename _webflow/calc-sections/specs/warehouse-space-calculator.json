@@ -1,0 +1,153 @@
+{
+ "slug": "warehouse-space-calculator",
+ "status": "DRAFT: written to BRIEF.md 2026-10-15, not yet reviewed. VOS is not a WMS: no bins, pick paths or scanning. Touchpoint is after-hours order capture only.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is a warehouse space requirement?",
+  "intro": "A warehouse space requirement is the floor area your stock needs at its busiest, with room for people and pallet jacks to move. You get it from cases, pallets and stack height, then add aisles, dock and staging. It is the figure a lease should be sized on.",
+  "cards": [
+   {
+    "title": "What it measures",
+    "body": "The floor your stock needs, not what a building holds. Start from 3,000 cases at peak and it works forward to 725 sq ft.",
+    "alt": "Open book, for the floor your peak stock needs"
+   },
+   {
+    "title": "Rooms it does not count",
+    "body": "Offices, restrooms, a returns cage and forklift charging. The aisle share covers aisles, dock and staging only, so add the rest on top.",
+    "alt": "Minus sign, for the rooms the estimate does not include"
+   },
+   {
+    "title": "Staging grows with routes",
+    "body": "The calculator folds staging into the 45%. For a distributor, it tracks how many trucks you load at once, not how much stock you hold.",
+    "alt": "Light bulb, for staging space sized by the trucks you load"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a warehouse space calculator",
+  "intro": "Owners planning a move or an expansion use it to work out how much building a distributor's stock needs. Anyone briefing a broker, signing a lease or adding a range should run it first.",
+  "chips": [
+   {
+    "label": "Owners pricing a new lease",
+    "alt": "Person, for owners pricing a new lease"
+   },
+   {
+    "label": "Ops weighing two buildings",
+    "alt": "Office building, for weighing one building against another"
+   },
+   {
+    "label": "Teams planning for growth",
+    "alt": "Two people, for planning the space growth will need"
+   },
+   {
+    "label": "Ops planning dock and staging",
+    "alt": "Clipboard, for planning dock and staging space"
+   },
+   {
+    "label": "Finance budgeting rent per case",
+    "alt": "Cash bills, for budgeting rent per case held"
+   },
+   {
+    "label": "Buyers adding a seasonal range",
+    "alt": "Plus sign, for adding a seasonal range"
+   },
+   {
+    "label": "Owners briefing a property broker",
+    "alt": "Speech bubble, for briefing a property broker"
+   },
+   {
+    "label": "Teams cutting overflow storage",
+    "alt": "Downward trend line, for cutting overflow storage"
+   },
+   {
+    "label": "Ops sizing cooler against dry",
+    "alt": "Magnifying glass, for sizing cooler space against dry space"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Keep the square footage estimate honest",
+  "intro": "Every result on the page comes from the first few inputs. These three are where a space estimate tends to drift.",
+  "steps": [
+   {
+    "title": "One real peak, not a sum of peaks",
+    "body": "In shared storage, adding each line's busiest week overstates it, because lines do not all peak together. Use the most cases you held on one actual day."
+   },
+   {
+    "title": "Stack height the product can bear",
+    "body": "Not every case can carry a pallet on top. Soft or fragile lines often stay one high, so run them on their own before you enter 2."
+   },
+   {
+    "title": "Each temperature zone on its own",
+    "body": "Run dry, cooler and freezer as three separate estimates. One blended run lets spare dry floor hide a freezer that is already full."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Intake",
+  "h2": "Where VOS sits next to your warehouse",
+  "row_badge": "Not A Warehouse System",
+  "h3": "Sizing the building stays with you",
+  "body": "VOS does not size buildings or run a warehouse: no bins, pick paths or scanning. It works on the orders coming in. Customers order by voice in the VOS app at any hour, so overnight orders are waiting when the day's picking is planned.",
+  "bullets": [
+   "After-hours orders captured and waiting",
+   "Stock visibility that follows order activity",
+   "Your stock numbers stay in your own system",
+   "Runs alongside your current systems, nothing to rip out"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after warehouse space",
+  "intro": "You know the floor your stock needs. These three check the building you have, what holding the stock costs, and how fast it moves.",
+  "cards": [
+   {
+    "title": "Check what your building holds",
+    "body": "See how many cases the building you already have will hold, and how many weeks of flow that covers.",
+    "link_label": "Open the warehouse size calculator",
+    "link_slug": "warehouse-size-calculator",
+    "alt": "Calculator, for checking what your current building holds"
+   },
+   {
+    "title": "Price the stock you hold",
+    "body": "Floor space is only one cost of holding stock, so add capital, spoilage and the rest into one yearly carrying rate.",
+    "link_label": "Open the carrying cost calculator",
+    "link_slug": "inventory-carrying-cost-calculator",
+    "alt": "Percent sign, for pricing the cost of holding stock"
+   },
+   {
+    "title": "Count how often the stock turns",
+    "body": "Get your yearly turns and the days a case spends in the building before it ships.",
+    "link_label": "Open the inventory turnover calculator",
+    "link_slug": "inventory-turnover-calculator",
+    "alt": "Right arrow, for how fast your stock turns"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "3,000 cases at peak",
+   "source": "calculator default: cases on hand at peak 3000"
+  },
+  {
+   "figure": "725 sq ft",
+   "source": "spec: 30 positions x 13.3 = 399 sq ft, / 0.55 = 725"
+  },
+  {
+   "figure": "45%",
+   "source": "calculator default: aisles, dock and staging 45"
+  },
+  {
+   "figure": "enter 2",
+   "source": "calculator default: pallets stacked 2 high"
+  },
+  {
+   "figure": "24/7 (written as 'at any hour')",
+   "source": "VOS KB CURRENT STATE, after-hours orders are captured"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "lightbulb",
+  "store",
+  "pin"
+ ],
+ "who": [
+  "person",
+  "sliders",
+  "chat",
+  "floorplan",
+  "office",
+  "clipboard",
+  "team",
+  "headset",
+  "search"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "book"
+ ],
+ "notes": "whatis 1 (two markups that multiply) deliberately avoids plus, since the card says they multiply rather than add. who 4 DSD reps is floorplan (route map); truck is already on the page."
+}

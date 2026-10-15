@@ -1,0 +1,212 @@
+{
+ "el": [
+  {
+   "label": "faq[0].q",
+   "set_text": {
+    "id": {
+     "component": "6ac79be4b863c26cbc9698b6",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf960"
+    },
+    "text": "What is the formula for calculating an early payment discount?"
+   }
+  },
+  {
+   "label": "faq[0].a",
+   "set_text": {
+    "id": {
+     "component": "6ac79be4b863c26cbc9698b6",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+    },
+    "text": "Take any volume discount off first, then the early pay discount. $24.00 less 6% is $22.56, and 2% off that is $22.11. Freight of $1.40 goes on after both, so the case costs $23.51."
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac79be4b863c26cbc9698b6",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-purchprice"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac79be4b863c26cbc9698b6",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-purchprice"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac79be4b863c26cbc9698b6",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-purchprice"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac79be4b863c26cbc9698b6",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-purchprice"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf960": "What is the formula for calculating an early payment discount?",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967": "Take any volume discount off first, then the early pay discount. $24.00 less 6% is $22.56, and 2% off that is $22.11. Freight of $1.40 goes on after both, so the case costs $23.51."
+  },
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-purchprice",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-purchprice",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-purchprice",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-purchprice"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/early-payment-discount-calculator#calculator",
+    "name": "Early Payment Discount Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/early-payment-discount-calculator",
+    "description": "See what 2/10 net 30 is really worth. Paying 20 days early for 2% off annualizes to 37.2%, cheaper than any line of credit.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "What paying early is worth as a yearly rate",
+     "What the case actually costs you",
+     "How much of the list price you actually kept",
+     "What the discount is worth across a month"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/early-payment-discount-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is the formula for calculating an early payment discount?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Take any volume discount off first, then the early pay discount. $24.00 less 6% is $22.56, and 2% off that is $22.11. Freight of $1.40 goes on after both, so the case costs $23.51."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the typical discount for early payment?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Two percent inside ten days is the common one, and one percent inside ten days turns up almost as often. The points matter more than the window: 2% over 20 days annualizes to 37.2%, while 1% over the same 20 days is only 18.4%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What does 2% 10 net 30 mean?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Keep 2% if you pay inside 10 days, or pay the full amount by day 30. All the discount buys is 20 days of float, which is why it is worth pricing as a rate. On this invoice that rate is 37.2% a year."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How does a prompt pay discount work?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The order of operations decides the number. Your volume discount comes off first, so $24.00 becomes $22.56, then the early pay discount comes off that for $22.11. Freight is added back last at $1.40 and never gets discounted."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What are the four types of discounts?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Trade or volume, cash or early pay, seasonal, and promotional. This calculator handles the first two, the 6% volume discount and the 2% early pay discount. Rebates paid back to you later belong on their own line, not inside the case price."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you record an early payment discount in accounting?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Your accountant decides where it lands, usually as a reduction of the purchase price rather than as income. The decision is the useful part. Taking 2/10 net 30 earns 37.2% a year on the cash, which beats what any credit line charges you."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Are prompt pay discounts legal?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes. An early payment discount is an ordinary commercial term you and your supplier agree, printed on the invoice as something like 2/10 net 30. Get it in writing alongside the volume tier, then check the remittance actually applied the 2% you took."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/early-payment-discount-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/early-payment-discount-calculator",
+    "name": "Early Payment Discount Calculator",
+    "description": "See what 2/10 net 30 is really worth. Paying 20 days early for 2% off annualizes to 37.2%, cheaper than any line of credit.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/early-payment-discount-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/early-payment-discount-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

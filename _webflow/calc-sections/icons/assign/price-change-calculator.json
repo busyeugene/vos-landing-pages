@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "truck",
+  "alert",
+  "minus"
+ ],
+ "who": [
+  "person",
+  "headset",
+  "team",
+  "pin",
+  "office",
+  "clipboard",
+  "chat",
+  "phone",
+  "search"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "sliders"
+ ],
+ "notes": "truck sits on whatis 1 ('The truck still stops'), the reader's own delivery cost. minus for contract accounts that sit outside the breakeven."
+}

@@ -1,0 +1,525 @@
+{
+ "slug": "product-pricing-calculator",
+ "pageId": "6ac718c668be300e93fb7203",
+ "roots": {
+  "whatis": "195e2f48-dff4-b2e6-1986-14b8fa3ef33a",
+  "who": "1ffa96e6-1f01-c540-4f99-693ab4f27a1a",
+  "look": "2ffbcd3b-c6aa-fea0-d475-d6a559d77a67",
+  "vos": "41bbe8ef-e3f0-3ebb-422e-f1a8083fc027",
+  "next": "43437ac1-a9a8-0003-3488-e4e4a6c242a3"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a0b",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a0c",
+   "how": "heading",
+   "expected": "What is product pricing?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a11",
+   "how": "string",
+   "expected": "Product pricing is choosing what a case sells for. The price has to clear what the case costs you and stay close to what the account could pay elsewhere. For a distributor, a pricing rule decides where in that range each case lands."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a19",
+   "how": "heading",
+   "expected": "The floor is your cost"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a1c",
+   "how": "string",
+   "expected": "Nothing sells below landed cost for long. In the calculator's example the floor is $22.00 a case, and every rule's margin is measured from it."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a16",
+   "how": "image",
+   "expected": "Warning sign, for the cost floor under every price",
+   "asset": "6ad07a8582ff418bc8a6c6b6"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a21",
+   "how": "heading",
+   "expected": "The ceiling is the account's other option"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a24",
+   "how": "string",
+   "expected": "A competitor at $31.00 sets the price your account compares you against. Reliable delivery can stretch that ceiling a little, not remove it."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a1e",
+   "how": "image",
+   "expected": "Magnifying glass, for the competitor price that caps a case",
+   "asset": "6ad07a8b1207c22da70d53ca"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a29",
+   "how": "heading",
+   "expected": "The rule picks a spot in between"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a2c",
+   "how": "string",
+   "expected": "Here the room between cost and the market is $9.00 a case. The rule you choose decides how much of it you keep and how much you give up to hold the account."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "3449b26d-ab3c-d28a-3762-ccfea99c6a26",
+   "how": "image",
+   "expected": "Slider controls, for the room between cost and the market",
+   "asset": "6ad07a8c46e29627d6ef796b"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152d2",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152d3",
+   "how": "heading",
+   "expected": "Who uses a product pricing calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152d8",
+   "how": "string",
+   "expected": "Independent distributors that set their own prices use it to weigh one case against several pricing rules. Anyone who quotes a case, answers a rival quote or adds a new line should run it before the price goes out."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152dd",
+   "how": "heading",
+   "expected": "Owners setting the price list"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152db",
+   "how": "image",
+   "expected": "Person, for owners setting the price list",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152e2",
+   "how": "heading",
+   "expected": "Sales managers weighing a match"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152e0",
+   "how": "image",
+   "expected": "Headset, for sales managers weighing a price match",
+   "asset": "6ad07a87835ef439cc7910a2"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152e7",
+   "how": "heading",
+   "expected": "Buyers passing on cost increases"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152e5",
+   "how": "image",
+   "expected": "Clipboard, for buyers passing on cost increases",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152ec",
+   "how": "heading",
+   "expected": "Route reps fielding price questions"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152ea",
+   "how": "image",
+   "expected": "Map pin, for route reps fielding price questions",
+   "asset": "6ad07a8ac909350d3ff080bd"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152f1",
+   "how": "heading",
+   "expected": "Controllers checking monthly profit"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152ef",
+   "how": "image",
+   "expected": "Office building, for controllers checking monthly profit",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152f6",
+   "how": "heading",
+   "expected": "Teams reviewing prices each quarter"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152f4",
+   "how": "image",
+   "expected": "Two people, for teams reviewing prices each quarter",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152fb",
+   "how": "heading",
+   "expected": "Category managers pricing new SKUs"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152f9",
+   "how": "image",
+   "expected": "Plus sign, for category managers pricing new SKUs",
+   "asset": "6ad07a8a27aa3ab4d513d9f3"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee6481015300",
+   "how": "heading",
+   "expected": "Reps answering a lower quote"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee64810152fe",
+   "how": "image",
+   "expected": "Speech bubble, for reps answering a lower competitor quote",
+   "asset": "6ad07a860941cf0d0c62fa17"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "d5fd5a95-37e4-222d-a94e-ee6481015305",
+   "how": "heading",
+   "expected": "Owners comparing pricing rules"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "d5fd5a95-37e4-222d-a94e-ee6481015303",
+   "how": "image",
+   "expected": "Open book, for owners comparing pricing rules",
+   "asset": "6ad07a86a7398c6342ee4976"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b24",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b25",
+   "how": "heading",
+   "expected": "Feed the pricing rules honest numbers first"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b29",
+   "how": "string",
+   "expected": "Each rule is only as honest as the numbers you feed it. A rep quoting off the result is trusting all three of these."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b2f",
+   "how": "heading",
+   "expected": "A competitor price that is like for like"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b33",
+   "how": "string",
+   "expected": "A $31.00 quote may be a different pack, a different brand or a one-week deal. Match only the same case on the same delivery terms."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b37",
+   "how": "heading",
+   "expected": "Rebates counted only once they are earned"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b3b",
+   "how": "string",
+   "expected": "Leave a supplier rebate out of the $22.00 unless you are sure to earn it. Miss the volume target and every case was priced off a cost lower than the one you paid."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b3f",
+   "how": "heading",
+   "expected": "Volume that holds at the price"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "d5d38a9b-92f4-a3c9-6a7c-7846aacd8b43",
+   "how": "string",
+   "expected": "The $51,360 a month assumes all 6,000 cases still sell at $30.56. If a raise costs you accounts, the real month is smaller."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c0202714",
+   "how": "string",
+   "expected": "Order Guides"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c0202715",
+   "how": "heading",
+   "expected": "Where VOS fits in your pricing"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c020271e",
+   "how": "string",
+   "expected": "Your Price List"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c020271f",
+   "how": "heading",
+   "expected": "The price you choose is the price they order at"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c0202723",
+   "how": "string",
+   "expected": "VOS does not set or calculate your prices. It carries yours onto the order. Each account has its own order guide at the prices you set, and orders from it by voice in the VOS app."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c0202740",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c020272a",
+   "how": "string",
+   "expected": "Guides updated in one admin platform when you reprice"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c0202730",
+   "how": "string",
+   "expected": "Each item tied to your own SKUs"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c0202736",
+   "how": "string",
+   "expected": "Each app order arrives confirmed, with a number and a timestamp"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "fdb81582-abe0-588b-6cc3-3070c020273c",
+   "how": "string",
+   "expected": "Most distributors are live in 24 to 48 hours"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "fdb81582-abe0-588b-6cc3-3070c020271a",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e41358a",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e41358b",
+   "how": "heading",
+   "expected": "What to run after product pricing"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e413590",
+   "how": "string",
+   "expected": "A pricing rule settles one case. These free calculators check the markup behind it, the volume a price change needs and the floor under extra volume."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e413598",
+   "how": "heading",
+   "expected": "Read the markup behind a price"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e41359b",
+   "how": "string",
+   "expected": "Line up four markup rungs on one cost, with the margin each keeps, and find the markup a target margin needs."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e41359f",
+   "how": "string",
+   "expected": "Open the product markup calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "cd0399f1-6f75-d624-d551-15498e413595",
+   "how": "image",
+   "expected": "Calculator, for the markup behind a price",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "cd0399f1-6f75-d624-d551-15498e41359d",
+   "how": "link",
+   "expected": "6ac7866ff16ee3a82e89dd76"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135a5",
+   "how": "heading",
+   "expected": "Check the volume a new price needs"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135a8",
+   "how": "string",
+   "expected": "Once you pick a price, see how the profit per case shifts and how many cases a raise can lose before profit drops."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135ac",
+   "how": "string",
+   "expected": "Open the price change calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135a2",
+   "how": "image",
+   "expected": "Rising chart, for the volume a new price needs",
+   "asset": "6ac71f2e6a53ab9c5d7f6eee"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135aa",
+   "how": "link",
+   "expected": "6ac735253fe7317c927e4447"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135b2",
+   "how": "heading",
+   "expected": "Find the floor for extra volume"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135b5",
+   "how": "string",
+   "expected": "See what added volume costs per case, including the jump when it takes a second truck or a new route."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135b9",
+   "how": "string",
+   "expected": "Open the marginal cost calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135af",
+   "how": "image",
+   "expected": "Right arrow, for the cost floor under extra volume",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "cd0399f1-6f75-d624-d551-15498e4135b7",
+   "how": "link",
+   "expected": "6ac69810ef654fbdecf37f4b"
+  }
+ ]
+}

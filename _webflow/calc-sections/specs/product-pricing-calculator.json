@@ -1,0 +1,161 @@
+{
+ "slug": "product-pricing-calculator",
+ "status": "DRAFT 2026-10-15: written from copy-spec-product-pricing.md. Not pushed.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is product pricing?",
+  "intro": "Product pricing is choosing what a case sells for. The price has to clear what the case costs you and stay close to what the account could pay elsewhere. For a distributor, a pricing rule decides where in that range each case lands.",
+  "cards": [
+   {
+    "title": "The floor is your cost",
+    "body": "Nothing sells below landed cost for long. In the calculator's example the floor is $22.00 a case, and every rule's margin is measured from it.",
+    "alt": "Warning sign, for the cost floor under every price"
+   },
+   {
+    "title": "The ceiling is the account's other option",
+    "body": "A competitor at $31.00 sets the price your account compares you against. Reliable delivery can stretch that ceiling a little, not remove it.",
+    "alt": "Magnifying glass, for the competitor price that caps a case"
+   },
+   {
+    "title": "The rule picks a spot in between",
+    "body": "Here the room between cost and the market is $9.00 a case. The rule you choose decides how much of it you keep and how much you give up to hold the account.",
+    "alt": "Slider controls, for the room between cost and the market"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a product pricing calculator",
+  "intro": "Independent distributors that set their own prices use it to weigh one case against several pricing rules. Anyone who quotes a case, answers a rival quote or adds a new line should run it before the price goes out.",
+  "chips": [
+   {
+    "label": "Owners setting the price list",
+    "alt": "Person, for owners setting the price list"
+   },
+   {
+    "label": "Sales managers weighing a match",
+    "alt": "Headset, for sales managers weighing a price match"
+   },
+   {
+    "label": "Buyers passing on cost increases",
+    "alt": "Clipboard, for buyers passing on cost increases"
+   },
+   {
+    "label": "Route reps fielding price questions",
+    "alt": "Map pin, for route reps fielding price questions"
+   },
+   {
+    "label": "Controllers checking monthly profit",
+    "alt": "Office building, for controllers checking monthly profit"
+   },
+   {
+    "label": "Teams reviewing prices each quarter",
+    "alt": "Two people, for teams reviewing prices each quarter"
+   },
+   {
+    "label": "Category managers pricing new SKUs",
+    "alt": "Plus sign, for category managers pricing new SKUs"
+   },
+   {
+    "label": "Reps answering a lower quote",
+    "alt": "Speech bubble, for reps answering a lower competitor quote"
+   },
+   {
+    "label": "Owners comparing pricing rules",
+    "alt": "Open book, for owners comparing pricing rules"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Feed the pricing rules honest numbers first",
+  "intro": "Each rule is only as honest as the numbers you feed it. A rep quoting off the result is trusting all three of these.",
+  "steps": [
+   {
+    "title": "A competitor price that is like for like",
+    "body": "A $31.00 quote may be a different pack, a different brand or a one-week deal. Match only the same case on the same delivery terms."
+   },
+   {
+    "title": "Rebates counted only once they are earned",
+    "body": "Leave a supplier rebate out of the $22.00 unless you are sure to earn it. Miss the volume target and every case was priced off a cost lower than the one you paid."
+   },
+   {
+    "title": "Volume that holds at the price",
+    "body": "The $51,360 a month assumes all 6,000 cases still sell at $30.56. If a raise costs you accounts, the real month is smaller."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Guides",
+  "h2": "Where VOS fits in your pricing",
+  "row_badge": "Your Price List",
+  "h3": "The price you choose is the price they order at",
+  "body": "VOS does not set or calculate your prices. It carries yours onto the order. Each account has its own order guide at the prices you set, and orders from it by voice in the VOS app.",
+  "bullets": [
+   "Guides updated in one admin platform when you reprice",
+   "Each item tied to your own SKUs",
+   "Each app order arrives confirmed, with a number and a timestamp",
+   "Most distributors are live in 24 to 48 hours"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after product pricing",
+  "intro": "A pricing rule settles one case. These free calculators check the markup behind it, the volume a price change needs and the floor under extra volume.",
+  "cards": [
+   {
+    "title": "Read the markup behind a price",
+    "body": "Line up four markup rungs on one cost, with the margin each keeps, and find the markup a target margin needs.",
+    "link_label": "Open the product markup calculator",
+    "link_slug": "product-markup-calculator",
+    "alt": "Calculator, for the markup behind a price"
+   },
+   {
+    "title": "Check the volume a new price needs",
+    "body": "Once you pick a price, see how the profit per case shifts and how many cases a raise can lose before profit drops.",
+    "link_label": "Open the price change calculator",
+    "link_slug": "price-change-calculator",
+    "alt": "Rising chart, for the volume a new price needs"
+   },
+   {
+    "title": "Find the floor for extra volume",
+    "body": "See what added volume costs per case, including the jump when it takes a second truck or a new route.",
+    "link_label": "Open the marginal cost calculator",
+    "link_slug": "marginal-cost-calculator",
+    "alt": "Right arrow, for the cost floor under extra volume"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "$22.00 a case (cost floor)",
+   "source": "calculator default: cost 22"
+  },
+  {
+   "figure": "$31.00 competitor price",
+   "source": "calculator default: competitor 31"
+  },
+  {
+   "figure": "$9.00 a case between cost and the market",
+   "source": "verified figures table: competitor profit 31.00 - 22.00 = 9.00"
+  },
+  {
+   "figure": "$51,360 a month",
+   "source": "verified figures table: monthly profit at cost-plus, 8.56 x 6,000"
+  },
+  {
+   "figure": "6,000 cases",
+   "source": "calculator default: volume 6000"
+  },
+  {
+   "figure": "$30.56",
+   "source": "verified figures table: cost-plus price, 22 / (1 - 0.28)"
+  },
+  {
+   "figure": "24 to 48 hours",
+   "source": "VOS KB CURRENT STATE, carries 'Most'"
+  }
+ ]
+}

@@ -1,0 +1,510 @@
+{
+ "slug": "par-level-calculator",
+ "pageId": "6ac79be1b863c26cbc96979a",
+ "roots": {
+  "whatis": "5388df8e-60b6-b8ba-fcc5-6b2a87121ea0",
+  "who": "700ab3f1-8afb-f6ae-1403-e710b87c4a78",
+  "look": "409aca95-ee6d-f157-f56a-265e198b911e",
+  "vos": "5ad4a50d-a7a2-5b78-9d3b-7e6a33a81eef",
+  "next": "2479e1cd-b7e8-6757-be89-fec94992a826"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e66",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e67",
+   "how": "heading",
+   "expected": "What is a par level?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e6c",
+   "how": "string",
+   "expected": "A par level is the full mark for one line: the stock level each order brings it back up to. The order is the gap between today's count and that mark. At 120 cases a day, a 7 day cycle and 2 buffer days, the mark is 1,080 cases."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e74",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e77",
+   "how": "string",
+   "expected": "The whole gap between two deliveries, plus your reserve. That is why par should look high on delivery day: it has to last until the next truck."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e71",
+   "how": "image",
+   "expected": "Floor plan grid, for the gap between two deliveries"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e7c",
+   "how": "heading",
+   "expected": "What it leaves out"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e7f",
+   "how": "string",
+   "expected": "Which days run busy. Par prices every day at the average, so a short cycle that holds your heaviest days draws on the 2 buffer days."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e79",
+   "how": "image",
+   "expected": "Stacked cases, for the busy days an average hides"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e84",
+   "how": "heading",
+   "expected": "Peak cash, not average cash"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e87",
+   "how": "string",
+   "expected": "The $23,760 at par is the most the line holds, on delivery day. Across the cycle the floor averages well below it, and that average is what carrying costs run on."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "e5947883-7553-bd07-0d9e-b7a740449e81",
+   "how": "image",
+   "expected": "Case box, for the peak cash a line holds at par"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d3495856",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d3495857",
+   "how": "heading",
+   "expected": "Who uses a par level calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d349585c",
+   "how": "string",
+   "expected": "It is built for independent food distributors who restock their own warehouse on a regular delivery cycle. Anyone who sizes the next top up order, or answers for the cash it ties up, should run it."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d3495861",
+   "how": "heading",
+   "expected": "Owners capping cash at par"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d349585f",
+   "how": "image",
+   "expected": "Dollar sign, for owners capping the cash held at par"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d3495866",
+   "how": "heading",
+   "expected": "Buyers pricing a buffer day"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d3495864",
+   "how": "image",
+   "expected": "Balance scale, for buyers pricing a buffer day"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d349586b",
+   "how": "heading",
+   "expected": "Category managers resetting busy lines"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d3495869",
+   "how": "image",
+   "expected": "Rising chart, for category managers resetting busy lines"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d3495870",
+   "how": "heading",
+   "expected": "DSD teams sizing route stock"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d349586e",
+   "how": "image",
+   "expected": "Delivery truck, for DSD teams sizing route stock"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d3495875",
+   "how": "heading",
+   "expected": "Controllers checking cash in stock"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d3495873",
+   "how": "image",
+   "expected": "Cash bills, for controllers checking the cash in stock"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d349587a",
+   "how": "heading",
+   "expected": "Purchasing teams running weekly restocks"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d3495878",
+   "how": "image",
+   "expected": "Cycling arrows, for purchasing teams running weekly restocks"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d349587f",
+   "how": "heading",
+   "expected": "Product managers costing new lines"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d349587d",
+   "how": "image",
+   "expected": "Price tag, for product managers costing new lines"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d3495884",
+   "how": "heading",
+   "expected": "Warehouse leads trimming over par"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d3495882",
+   "how": "image",
+   "expected": "Downward trend line, for warehouse leads trimming stock over par"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "65760273-35d1-a316-632e-d288d3495889",
+   "how": "heading",
+   "expected": "Analysts comparing par across suppliers"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "65760273-35d1-a316-632e-d288d3495887",
+   "how": "image",
+   "expected": "Side by side bars, for analysts comparing par across suppliers"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a69511c",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a69511d",
+   "how": "heading",
+   "expected": "What to look for before you trust the level"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a695121",
+   "how": "string",
+   "expected": "Par is one multiplication. The count and the days you feed it are where a top up goes wrong. Check these three first."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a695127",
+   "how": "heading",
+   "expected": "A count of what can sell"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a69512b",
+   "how": "string",
+   "expected": "Leave damaged and short dated cases out of the 340 on hand. Count them in and the 740 case top up comes in short."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a69512f",
+   "how": "heading",
+   "expected": "Days on the same footing"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a695133",
+   "how": "string",
+   "expected": "If 120 cases a day is per shipping day, count the cycle in shipping days too. Mix shipping days with calendar days and par reads high."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a695137",
+   "how": "heading",
+   "expected": "How your supplier ships"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "9b08a41b-99dd-8d29-bba3-578c0a69513b",
+   "how": "string",
+   "expected": "Par settles to whole cases, but a supplier who sells by the layer or the pallet rounds the order again. Check that the rounding does not leave the line over par every cycle."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b804",
+   "how": "string",
+   "expected": "Order Guides"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b805",
+   "how": "heading",
+   "expected": "Where VOS fits around a par level"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b80e",
+   "how": "string",
+   "expected": "Your Usage Per Line"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b80f",
+   "how": "heading",
+   "expected": "Orders arrive line by line, on your own SKUs"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b813",
+   "how": "string",
+   "expected": "VOS does not set par levels, count your stock or buy from your suppliers. Par is set line by line, and that is how orders reach you. Your customers order by voice in the VOS app from guides tied to your SKUs."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b830",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b81a",
+   "how": "string",
+   "expected": "Each account's guide carries the prices you set"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b820",
+   "how": "string",
+   "expected": "Catalog updates as stock levels change"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b826",
+   "how": "string",
+   "expected": "Orders arrive confirmed, in the format you use"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b82c",
+   "how": "string",
+   "expected": "Additive to your ERP, with nothing to rip out"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "7bbeccd7-8104-415c-1a64-593884f5b80a",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9b9f",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9ba0",
+   "how": "heading",
+   "expected": "What to run after a par level"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9ba5",
+   "how": "string",
+   "expected": "Par says how far to top up. These free calculators answer when the order goes in, how big the reserve should be, and what holding it all costs."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bad",
+   "how": "heading",
+   "expected": "Decide when the order goes in"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bb0",
+   "how": "string",
+   "expected": "Find the stock level that should start the next order, the days of cover left, and what a late supplier costs in cases."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bb4",
+   "how": "string",
+   "expected": "Open the reorder point calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9baa",
+   "how": "image",
+   "expected": "Percent sign, for deciding when the order goes in"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bb2",
+   "how": "link",
+   "expected": "6ac7652a2a715d3e702a0559"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bba",
+   "how": "heading",
+   "expected": "Size the reserve from real swings"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bbd",
+   "how": "string",
+   "expected": "Turn how much your demand and lead times move into a buffer, at a service level you choose, checked against shelf life."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bc1",
+   "how": "string",
+   "expected": "Open the safety stock calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bb7",
+   "how": "image",
+   "expected": "Rising line, for sizing the reserve from real swings"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bbf",
+   "how": "link",
+   "expected": "6ac735249b6f12d26ba60ce1"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bc7",
+   "how": "heading",
+   "expected": "Price the stock par keeps on hand"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bca",
+   "how": "string",
+   "expected": "Build a carrying rate from capital, storage, spoilage, insurance and obsolescence, then read what holding stock costs a year."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bce",
+   "how": "string",
+   "expected": "Open the inventory carrying cost calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bc4",
+   "how": "image",
+   "expected": "Check mark, for pricing the stock par keeps on hand"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "cf7f75ca-d90a-63ba-c432-76bcff8f9bcc",
+   "how": "link",
+   "expected": "6ac7866e071fb41c4807eab0"
+  }
+ ]
+}

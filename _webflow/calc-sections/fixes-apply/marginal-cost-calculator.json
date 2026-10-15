@@ -1,0 +1,212 @@
+{
+ "el": [
+  {
+   "label": "faq[0].q",
+   "set_text": {
+    "id": {
+     "component": "6ac69810ef654fbdecf37f4b",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf960"
+    },
+    "text": "What is an example of marginal cost?"
+   }
+  },
+  {
+   "label": "faq[0].a",
+   "set_text": {
+    "id": {
+     "component": "6ac69810ef654fbdecf37f4b",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+    },
+    "text": "A distributor moving 6,000 cases a month takes on 1,200 more. Those cases add $21,600 of variable cost plus a $6,000 new route, $27,600 in all, so each extra case costs $23.00."
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac69810ef654fbdecf37f4b",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-marginal"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac69810ef654fbdecf37f4b",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-marginal"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac69810ef654fbdecf37f4b",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-marginal"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac69810ef654fbdecf37f4b",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-marginal"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf960": "What is an example of marginal cost?",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967": "A distributor moving 6,000 cases a month takes on 1,200 more. Those cases add $21,600 of variable cost plus a $6,000 new route, $27,600 in all, so each extra case costs $23.00."
+  },
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-marginal",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-marginal",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-marginal",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-marginal"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/marginal-cost-calculator#calculator",
+    "name": "Marginal Cost Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/marginal-cost-calculator",
+    "description": "Find the true cost of one more case, including a step cost for an added truck or route. Free calculator for independent food distributors.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The cost of the next case, not the average",
+     "How many cases cover a new route",
+     "What the volume does to monthly profit",
+     "The lowest price the volume can carry"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/marginal-cost-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is an example of marginal cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A distributor moving 6,000 cases a month takes on 1,200 more. Those cases add $21,600 of variable cost plus a $6,000 new route, $27,600 in all, so each extra case costs $23.00."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you calculate marginal cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Divide the change in total cost by the change in cases. Work out total cost before and after the new volume, including any step cost, subtract one from the other, then divide by the extra cases."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the difference between marginal cost and average cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Average cost spreads every cost across every case. Marginal cost counts only the next case, which is usually cheaper because your fixed costs are already covered by today's volume."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why does marginal cost matter for pricing?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It sets the floor for new volume. As long as the price clears the marginal cost and covers any new route, the account makes you money, even when the price sits below your average cost."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a step cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A fixed cost that appears all at once when volume crosses a line, like a second truck, a driver or extra cooler space. It belongs in the marginal cost of the volume that triggered it."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How can a distributor lower marginal cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Fill the trucks and routes you already run before adding new ones, since an added truck raises the cost of every case on it until the volume catches up."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should you ever price below your average cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes, when the price still clears the marginal cost and any step cost the volume adds. Below that floor the volume costs you money."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/marginal-cost-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/marginal-cost-calculator",
+    "name": "Marginal Cost Calculator",
+    "description": "Find the true cost of one more case, including a step cost for an added truck or route. Free calculator for independent food distributors.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/marginal-cost-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/marginal-cost-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

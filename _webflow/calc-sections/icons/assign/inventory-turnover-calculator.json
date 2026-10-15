@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "alert"
+ ],
+ "who": [
+  "person",
+  "office",
+  "team",
+  "clipboard",
+  "sliders",
+  "trend-up",
+  "headset",
+  "case",
+  "search"
+ ],
+ "next": [
+  "percent",
+  "arrow-right",
+  "buffer"
+ ],
+ "notes": "who 8 (warehouse leads clearing dead stock) is case, a weak fit; warehouse, racking and stack are taken. next 3 (reorder trigger) is buffer, which reads stock against a par line."
+}

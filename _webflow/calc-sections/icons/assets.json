@@ -1,0 +1,128 @@
+{
+ "alert": {
+  "id": "6ad07a8582ff418bc8a6c6b6",
+  "file": "vos-alert.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8582ff418bc8a6c6b6_vos-alert.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "arrow-right": {
+  "id": "6ad07a8582b4c538b5789ee3",
+  "file": "vos-arrow-right.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8582b4c538b5789ee3_vos-arrow-right.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "book": {
+  "id": "6ad07a86a7398c6342ee4976",
+  "file": "vos-book.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a86a7398c6342ee4976_vos-book.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "calculator": {
+  "id": "6ad07a86f43d7bfc43f824d1",
+  "file": "vos-calculator.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a86f43d7bfc43f824d1_vos-calculator.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "chat": {
+  "id": "6ad07a860941cf0d0c62fa17",
+  "file": "vos-chat.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a860941cf0d0c62fa17_vos-chat.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "clipboard": {
+  "id": "6ad07a8636601c73ce216e84",
+  "file": "vos-clipboard.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8636601c73ce216e84_vos-clipboard.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "headset": {
+  "id": "6ad07a87835ef439cc7910a2",
+  "file": "vos-headset.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a87835ef439cc7910a2_vos-headset.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "lightbulb": {
+  "id": "6ad07a870941cf0d0c62fa49",
+  "file": "vos-lightbulb.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a870941cf0d0c62fa49_vos-lightbulb.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "minus": {
+  "id": "6ad07a88927330500c3958ed",
+  "file": "vos-minus.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a88927330500c3958ed_vos-minus.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "office": {
+  "id": "6ad07a89b4f90466dd7c4e90",
+  "file": "vos-office.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a89b4f90466dd7c4e90_vos-office.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "person": {
+  "id": "6ad07a89927330500c3959e0",
+  "file": "vos-person.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a89927330500c3959e0_vos-person.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "phone": {
+  "id": "6ad07a8a27aa3ab4d513d988",
+  "file": "vos-phone.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8a27aa3ab4d513d988_vos-phone.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "pin": {
+  "id": "6ad07a8ac909350d3ff080bd",
+  "file": "vos-pin.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8ac909350d3ff080bd_vos-pin.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "plus": {
+  "id": "6ad07a8a27aa3ab4d513d9f3",
+  "file": "vos-plus.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8a27aa3ab4d513d9f3_vos-plus.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "search": {
+  "id": "6ad07a8b1207c22da70d53ca",
+  "file": "vos-search.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8b1207c22da70d53ca_vos-search.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "sliders": {
+  "id": "6ad07a8c46e29627d6ef796b",
+  "file": "vos-sliders.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8c46e29627d6ef796b_vos-sliders.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "store": {
+  "id": "6ad07a8e55a095f6d8321efc",
+  "file": "vos-store.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8e55a095f6d8321efc_vos-store.svg",
+  "s3": 201,
+  "cdn_ok": true
+ },
+ "team": {
+  "id": "6ad07a8f36601c73ce217313",
+  "file": "vos-team.svg",
+  "hostedUrl": "https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/6ad07a8f36601c73ce217313_vos-team.svg",
+  "s3": 201,
+  "cdn_ok": true
+ }
+}

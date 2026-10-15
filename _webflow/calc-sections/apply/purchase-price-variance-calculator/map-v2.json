@@ -1,0 +1,525 @@
+{
+ "slug": "purchase-price-variance-calculator",
+ "pageId": "6ac7866c27806c8148c2855e",
+ "roots": {
+  "whatis": "266e1ce5-d0d0-7797-fd01-17f5521545af",
+  "who": "351284a4-9250-306c-0c4b-af0af4aee870",
+  "look": "0ca637c5-6bbd-12d1-7497-e443d785ea8b",
+  "vos": "cf6c8443-cce6-94b0-2484-18b8a961249a",
+  "next": "3ce127c2-54b5-6df3-ed95-a66ffb3dab0c"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b062c",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b062d",
+   "how": "heading",
+   "expected": "What is purchase price variance?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b0632",
+   "how": "string",
+   "expected": "Purchase price variance is the gap between what you paid for an item and its standard price, times the quantity bought. Paying more is unfavorable and paying less is favorable. It measures price alone, with quantity held still. It is how a buyer checks whether a supplier held the agreed price."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b063a",
+   "how": "heading",
+   "expected": "When the gap is counted"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b063d",
+   "how": "string",
+   "expected": "Teams differ on when they count it: when the goods arrive or when the invoice posts. Pick one point and hold it, or one month will not compare with the next."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b0637",
+   "how": "image",
+   "expected": "Plus sign, for the point at which the variance is recorded",
+   "asset": "6ad07a8a27aa3ab4d513d9f3"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b0642",
+   "how": "heading",
+   "expected": "Shorter payment terms slip past it"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b0645",
+   "how": "string",
+   "expected": "Payment terms. A supplier can hold the $22.00 price and give you fewer days to pay. Your cost of buying rises, and no variance shows it."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b063f",
+   "how": "image",
+   "expected": "Minus sign, for payment terms a price variance does not see",
+   "asset": "6ad07a88927330500c3958ed"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b064a",
+   "how": "heading",
+   "expected": "Where a distributor starts"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b064d",
+   "how": "string",
+   "expected": "Start with the lines you buy most. A 1.8% gap on a slow item is small change. The same gap on your busiest line repeats on every delivery."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "7686803a-798f-1821-e1b2-c90fec1b0647",
+   "how": "image",
+   "expected": "Light bulb, for starting with the lines bought in the most volume",
+   "asset": "6ad07a870941cf0d0c62fa49"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fa7",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fa8",
+   "how": "heading",
+   "expected": "Who uses a purchase price variance calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fad",
+   "how": "string",
+   "expected": "Purchasing and finance teams at food distributors use it when supplier invoices are checked against agreed prices. Anyone who approves invoices or owns a cost budget should see each gap in dollars."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fb2",
+   "how": "heading",
+   "expected": "Owners watching cost of goods"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fb0",
+   "how": "image",
+   "expected": "Person, for owners watching cost of goods",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fb7",
+   "how": "heading",
+   "expected": "Buyers holding suppliers to contract"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fb5",
+   "how": "image",
+   "expected": "Check mark, for buyers holding suppliers to the contract price",
+   "asset": "6ac71ff1081aaf502c3a5bb2"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fbc",
+   "how": "heading",
+   "expected": "Finance teams tracking cost trends"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fba",
+   "how": "image",
+   "expected": "Two people, for finance teams tracking cost trends by item",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fc1",
+   "how": "heading",
+   "expected": "Receiving clerks checking deliveries"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fbf",
+   "how": "image",
+   "expected": "Clipboard, for receiving clerks checking deliveries against the invoice",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fc6",
+   "how": "heading",
+   "expected": "Accounts payable approving invoices"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fc4",
+   "how": "image",
+   "expected": "Office building, for accounts payable approving supplier invoices",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fcb",
+   "how": "heading",
+   "expected": "Category managers renewing contracts"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fc9",
+   "how": "image",
+   "expected": "Speech bubble, for category managers renewing supplier contracts",
+   "asset": "6ad07a860941cf0d0c62fa17"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fd0",
+   "how": "heading",
+   "expected": "Pricing staff passing on increases"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fce",
+   "how": "image",
+   "expected": "Slider controls, for pricing staff passing a cost increase on",
+   "asset": "6ad07a8c46e29627d6ef796b"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fd5",
+   "how": "heading",
+   "expected": "Purchasing leads recovering overcharges"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fd3",
+   "how": "image",
+   "expected": "Mobile phone, for purchasing leads recovering overcharges",
+   "asset": "6ad07a8a27aa3ab4d513d988"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fda",
+   "how": "heading",
+   "expected": "Controllers comparing standard and actual"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "689f4c43-f40c-f3f5-68ac-8521c5296fd8",
+   "how": "image",
+   "expected": "Magnifying glass, for controllers comparing standard and actual price",
+   "asset": "6ad07a8b1207c22da70d53ca"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e959a",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e959b",
+   "how": "heading",
+   "expected": "Make the price variance compare like with like"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e959f",
+   "how": "string",
+   "expected": "The subtraction is exact. The variance is only as honest as three inputs, and each one fails in a familiar way."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e95a5",
+   "how": "heading",
+   "expected": "Overcharges already credited"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e95a9",
+   "how": "string",
+   "expected": "If the supplier has already credited an overcharge, use the corrected price. Otherwise the variance flags a gap that has been settled."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e95ad",
+   "how": "heading",
+   "expected": "The same unit on both sides"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e95b1",
+   "how": "string",
+   "expected": "Check that the standard and the invoice price the same unit. A standard per case against an invoice priced per pound gives a gap that is only arithmetic."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e95b5",
+   "how": "heading",
+   "expected": "Supplier item codes matched to yours"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "1635d733-8e70-4e26-f8fd-83ecb36e95b9",
+   "how": "string",
+   "expected": "A supplier that renumbers an item can make it look new, with no standard at all. Match their item code to your own before you compare."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a89796",
+   "how": "string",
+   "expected": "Order Formats"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a89797",
+   "how": "heading",
+   "expected": "Where VOS fits next to purchase price variance"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a897a0",
+   "how": "string",
+   "expected": "Your Selling Side"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a897a1",
+   "how": "heading",
+   "expected": "Customer orders arrive in a format you already use"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a897a5",
+   "how": "string",
+   "expected": "VOS does not read supplier invoices or calculate variance. It covers the same items on the way out, as customer orders. Each one placed in the VOS app reaches you by email, EDI, API or QuickBooks."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a897c2",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a897ac",
+   "how": "string",
+   "expected": "PDF, Excel or Word by email to a rep or purchasing team"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a897b2",
+   "how": "string",
+   "expected": "Each account orders at the prices you set"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a897b8",
+   "how": "string",
+   "expected": "Guide prices updated from one admin platform"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a897be",
+   "how": "string",
+   "expected": "Works alongside your ERP, with nothing to rip out"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "9d1ac7fb-6734-e13d-2209-b29ed6a8979c",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95eaa",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95eab",
+   "how": "heading",
+   "expected": "What to run after purchase price variance"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95eb0",
+   "how": "string",
+   "expected": "The variance tells you what a price cost you. These three free calculators look at savings, freight and the terms you pay on."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95eb8",
+   "how": "heading",
+   "expected": "Separate real savings from avoided ones"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ebb",
+   "how": "string",
+   "expected": "See which part of a reported saving reaches the P&L, with hard savings kept apart from the increases you avoided."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ebf",
+   "how": "string",
+   "expected": "Open the procurement savings calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95eb5",
+   "how": "image",
+   "expected": "Calculator, for separating hard savings from avoided increases",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ebd",
+   "how": "link",
+   "expected": "6ac78670c218082afa38ac6f"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ec5",
+   "how": "heading",
+   "expected": "Rank offers with freight counted"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ec8",
+   "how": "string",
+   "expected": "Weigh three supplier offers unit by unit, freight in, before the next standard price is set."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ecc",
+   "how": "string",
+   "expected": "Open the landed cost calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ec2",
+   "how": "image",
+   "expected": "Right arrow, for ranking supplier offers with freight in",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95eca",
+   "how": "link",
+   "expected": "6ac7652962cd713ecd056f43"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ed2",
+   "how": "heading",
+   "expected": "Put a price on payment terms"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ed5",
+   "how": "string",
+   "expected": "See what a discount for paying a supplier early is worth once it is turned into a yearly rate."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ed9",
+   "how": "string",
+   "expected": "Open the early payment discount calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ecf",
+   "how": "image",
+   "expected": "Cash bills, for putting a price on payment terms",
+   "asset": "6ac71f2edacb5c302d9d5cab"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "ba2e353b-78d9-acaf-2db8-8584d0f95ed7",
+   "how": "link",
+   "expected": "6ac79be4b863c26cbc9698b6"
+  }
+ ]
+}

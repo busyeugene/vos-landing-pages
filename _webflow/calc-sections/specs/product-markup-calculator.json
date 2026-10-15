@@ -1,0 +1,161 @@
+{
+ "slug": "product-markup-calculator",
+ "status": "DRAFT 2026-10-15: written from copy-spec-product-markup.md. Not pushed.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is markup?",
+  "intro": "Markup is the amount you add to a cost to set a price, written as a share of that cost. It is a rule for reaching a price, not the share of the price you keep.",
+  "cards": [
+   {
+    "title": "What it is measured on",
+    "body": "What you paid, not what you charge. Because the base is the cost, a markup can run past 100%, while a margin never reaches it.",
+    "alt": "Open book, for the cost a markup is measured on"
+   },
+   {
+    "title": "Markup on cost, markup on retail",
+    "body": "Distributors usually state markup on cost. Retail pricing often states it on the selling price instead, so a store buyer's 40% may already be a margin.",
+    "alt": "Warning sign, for the two ways the trade states a markup"
+   },
+   {
+    "title": "Why the trade keeps using it",
+    "body": "It is one multiplication on a number you already know. Cost times 1.40 prices a $22.00 case at $30.80 on the spot. Hitting a margin takes a division instead.",
+    "alt": "Light bulb, for pricing a case with one multiplication"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a product markup calculator",
+  "intro": "Pricing teams at distributors that work from a cost sheet use it to turn a markup into a price and a margin. Anyone who sets a markup, translates a buyer's percentage or checks a price list should run it.",
+  "chips": [
+   {
+    "label": "Owners setting markup rungs",
+    "alt": "Person, for owners setting markup rungs"
+   },
+   {
+    "label": "Reps translating a buyer's percentage",
+    "alt": "Speech bubble, for reps translating a buyer's percentage"
+   },
+   {
+    "label": "Managers raising a category's rung",
+    "alt": "Stacked cases, for managers raising a category's markup rung"
+   },
+   {
+    "label": "DSD reps pricing store lines",
+    "alt": "Storefront, for DSD reps pricing store lines"
+   },
+   {
+    "label": "Finance reconciling markup to margin",
+    "alt": "Office building, for finance reconciling markup to margin"
+   },
+   {
+    "label": "Teams converting margin targets",
+    "alt": "Two people, for teams converting margin targets into markups"
+   },
+   {
+    "label": "Reps pricing a new item",
+    "alt": "Plus sign, for reps pricing a new item"
+   },
+   {
+    "label": "Controllers spotting thin rungs",
+    "alt": "Magnifying glass, for controllers spotting thin markup rungs"
+   },
+   {
+    "label": "Anyone comparing two markup rungs",
+    "alt": "Slider controls, for comparing two markup rungs"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Before you pick a markup rung",
+  "intro": "The ladder is exact arithmetic. What goes wrong is the cost you start from and the target you aim at.",
+  "steps": [
+   {
+    "title": "A cost for the unit you sell",
+    "body": "If you split cases and sell eaches, divide the $22.00 by the pack before you mark it up. A rung on the case cost does not price a single each."
+   },
+   {
+    "title": "A gross target, not a net one",
+    "body": "The 30% target is gross margin, before delivery, sales pay and rent. Type the net margin you hope to keep and the markup comes out far too low."
+   },
+   {
+    "title": "Price endings that round up",
+    "body": "If your list rounds prices to set endings, round $31.43 up, not down. Rounding down to the nearest ending puts the case under its target."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order History",
+  "h2": "Where VOS fits next to the ladder",
+  "row_badge": "Your Case Counts",
+  "h3": "The orders behind your case counts",
+  "body": "VOS does not calculate markups or set prices. It touches one input, the case count behind your monthly gross profit. Every order a customer speaks into the VOS app is saved to that account's history, in one admin platform.",
+  "bullets": [
+   "Each app order carries a number, date and timestamp",
+   "Order guides updated in the same place when a price moves",
+   "Each account orders at the prices you set, tied to your SKUs",
+   "Orders captured 24/7, after hours included"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after markup",
+  "intro": "A markup rung prices one case from one cost. These free calculators test it against other rules, against the shelf and across your whole book.",
+  "cards": [
+   {
+    "title": "Test the rung against two other rules",
+    "body": "Price the same case off a target margin, a flat dollar profit and a competitor's price, with the margin each one leaves.",
+    "link_label": "Open the product pricing calculator",
+    "link_slug": "product-pricing-calculator",
+    "alt": "Calculator, for testing a markup against other pricing rules"
+   },
+   {
+    "title": "See the margin at the store's shelf",
+    "body": "Turn a store's unit cost and shelf price into its retail margin, the markup that matches it and the price a target needs.",
+    "link_label": "Open the retail margin calculator",
+    "link_slug": "retail-margin-calculator",
+    "alt": "Warehouse racking, for the margin at the store's shelf"
+   },
+   {
+    "title": "Find what your whole book earns",
+    "body": "Set staple and specialty markups side by side and read the blended margin the two leave together.",
+    "link_label": "Open the wholesale markup calculator",
+    "link_slug": "wholesale-markup-calculator",
+    "alt": "Right arrow, for the margin across your whole book"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "50% markup on $22.00 adds $11.00, price $33.00",
+   "source": "verified figures table: 50% rung, 22.00 x 1.50 = 33.00, profit 11.00"
+  },
+  {
+   "figure": "Cost times 1.40 prices $22.00 at $30.80",
+   "source": "verified figures table: 40% rung, 22.00 x 1.40 = 30.80"
+  },
+  {
+   "figure": "40% (a retail buyer's percentage)",
+   "source": "illustrative percentage, the 40% rung the calculator renders"
+  },
+  {
+   "figure": "100% (markup can pass it, margin cannot)",
+   "source": "definition, not a calculator output"
+  },
+  {
+   "figure": "30% target",
+   "source": "calculator default: target margin 30"
+  },
+  {
+   "figure": "$31.43",
+   "source": "verified figures table: price for a 30% margin, 22.00 / 0.70"
+  },
+  {
+   "figure": "$22.00",
+   "source": "calculator default: cost per case 22.00"
+  }
+ ]
+}

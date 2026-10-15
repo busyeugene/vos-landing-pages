@@ -1,0 +1,149 @@
+{
+ "slug": "procurement-savings-calculator",
+ "status": "DRAFT: written to BRIEF.md 2026-10-15, not yet reviewed. Buy-side page: VOS touchpoint is the sell price in each account's order guide, never the supplier negotiation.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What counts as a procurement saving?",
+  "intro": "A procurement saving is money a negotiation takes off what you pay suppliers, measured from a baseline price. A hard saving lowers the price on the invoice. Cost avoidance stops a rise that was on its way. Both count, but only the first shows up in spend.",
+  "cards": [
+   {
+    "title": "Lower prices on cases you already buy",
+    "body": "Lower prices on cases you were already buying, on the same terms. A new line has no old price to beat, so its first price is spend, not a saving.",
+    "alt": "Plus sign, for lower prices on cases you already buy"
+   },
+   {
+    "title": "Rebates, terms and free goods sit apart",
+    "body": "Rebates paid back later, better payment terms and free goods. Each can be worth real money, but each belongs on its own line, not in the case price.",
+    "alt": "Minus sign, for rebates, terms and free goods kept on their own lines"
+   },
+   {
+    "title": "Where a distributor's saving goes",
+    "body": "You resell what you buy. If the $1.44 a case goes straight into lower sell prices, your accounts keep the saving and your margin stays put.",
+    "alt": "Light bulb, for a saving passed on in sell prices"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a procurement savings calculator",
+  "intro": "Supplier negotiations at a food distributor end in a savings figure, and this is where buyers and finance test it. Anyone who reports a saving, checks one or signs off a renewal should run it.",
+  "chips": [
+   {
+    "label": "Owners checking a buyer's results",
+    "alt": "Person, for owners checking a buyer's results"
+   },
+   {
+    "label": "Controllers auditing savings claims",
+    "alt": "Magnifying glass, for controllers auditing savings claims"
+   },
+   {
+    "label": "Category managers reporting wins",
+    "alt": "Clipboard, for category managers reporting a year's wins"
+   },
+   {
+    "label": "Purchasing teams checking delivered prices",
+    "alt": "Warehouse, for checking delivered case prices"
+   },
+   {
+    "label": "Finance setting next year's budget",
+    "alt": "Office building, for setting next year's purchasing budget"
+   },
+   {
+    "label": "Buyers renewing annual contracts",
+    "alt": "Speech bubble, for buyers renewing annual contracts"
+   },
+   {
+    "label": "Buyers pushing back on increases",
+    "alt": "Mobile phone, for pushing back on a supplier's price increase"
+   },
+   {
+    "label": "Controllers tracking falling case costs",
+    "alt": "Open book, for tracking falling case costs"
+   },
+   {
+    "label": "Managers comparing two buyers' results",
+    "alt": "Two people, for comparing two buyers' results"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Test a saving before it goes in the report",
+  "intro": "A savings figure is only as good as the comparison under it. These three checks catch the claims that look fine in a deck and fail in review.",
+  "steps": [
+   {
+    "title": "The same case on both prices",
+    "body": "$22.56 has to buy the same pack, brand and grade that $24.00 did. A smaller pack or a cheaper brand is a different product, not a saving."
+   },
+   {
+    "title": "Cases bought at the new price",
+    "body": "The calculator assumes the new price ran all year. If the deal started partway through, enter only the cases bought since, not the full 72,000."
+   },
+   {
+    "title": "An increase someone put in writing",
+    "body": "Cost avoidance needs a real ask, such as a supplier letter or a new price list. A rise you expected but were never quoted does not count, so set it to 0%."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Guides",
+  "h2": "Where VOS picks up after a supplier deal",
+  "row_badge": "Your Sell Prices",
+  "h3": "Your sell price is where a saving lands",
+  "body": "VOS does not measure savings or deal with your suppliers. It comes in after the deal: each account orders from its own guide, at the prices you set. When a deal changes a sell price, you update the guides in the VOS admin platform.",
+  "bullets": [
+   "Order guides tied to your own SKUs and prices",
+   "Guides and accounts updated in one admin platform",
+   "Order history per account, showing who ordered when",
+   "Promos and confirmations reach accounts by notification and text"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after procurement savings",
+  "intro": "A saving is one number from one negotiation. These three check the invoice, the delivered cost and the payment terms behind it.",
+  "cards": [
+   {
+    "title": "Check the invoice held the deal",
+    "body": "Compare the price on each invoice with your standard, per case and as a percent, and see what the gap is worth a year.",
+    "link_label": "Open the price variance calculator",
+    "link_slug": "purchase-price-variance-calculator",
+    "alt": "Calculator, for checking invoices against the agreed price"
+   },
+   {
+    "title": "Rank supplier offers on landed cost",
+    "body": "Before you book a lower case price as a saving, check that it still wins per unit once freight is in.",
+    "link_label": "Open the landed cost calculator",
+    "link_slug": "landed-cost-calculator",
+    "alt": "Right arrow, for ranking supplier offers on landed cost"
+   },
+   {
+    "title": "Price the payment terms too",
+    "body": "See what paying a supplier early is worth as a yearly rate, and what the case costs after discounts and freight.",
+    "link_label": "Open the early payment discount calculator",
+    "link_slug": "early-payment-discount-calculator",
+    "alt": "Clock face, for pricing a supplier's payment terms"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "$1.44 a case",
+   "source": "spec: old price 24.00 less negotiated 22.56, settled to cents"
+  },
+  {
+   "figure": "$22.56 and $24.00",
+   "source": "calculator defaults: negotiated price per case, old price per case"
+  },
+  {
+   "figure": "the full 72,000",
+   "source": "calculator default: annual volume 72000"
+  },
+  {
+   "figure": "set it to 0%",
+   "source": "the increase-avoided input, default 3%, slider runs 0% to 20%; spec what-if at 0% drops avoidance to $0"
+  }
+ ]
+}

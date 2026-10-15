@@ -1,0 +1,525 @@
+{
+ "slug": "safety-stock-calculator",
+ "pageId": "6ac735249b6f12d26ba60ce1",
+ "roots": {
+  "whatis": "b0a46c3d-7dac-92bd-3293-9833f0f21e04",
+  "who": "6cab814c-8801-f971-8519-75a80f9df00a",
+  "look": "a2ba03e6-1fb6-03e7-fb94-12fee6481f30",
+  "vos": "7f2801f0-3185-669a-b342-55327a7dfdf6",
+  "next": "ea2276aa-792c-abec-d139-7d9b7cb92496"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e65c",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e65d",
+   "how": "heading",
+   "expected": "What is safety stock?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e662",
+   "how": "string",
+   "expected": "Safety stock is the extra stock you hold for days that do not go to plan. A busier day or a late truck draws on it. It is sized from how much demand and lead time swing, not from the averages alone. Here that comes to 229 cases."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e66a",
+   "how": "heading",
+   "expected": "How far demand and lead time stray"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e66d",
+   "how": "string",
+   "expected": "How far demand and lead time stray from their averages. Two lines that both sell 120 cases a day can need very different buffers."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e667",
+   "how": "image",
+   "expected": "Plus sign, for how far demand and lead time stray",
+   "asset": "6ad07a8a27aa3ab4d513d9f3"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e672",
+   "how": "heading",
+   "expected": "Partial deliveries are not in it"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e675",
+   "how": "string",
+   "expected": "Supplier shorts. A truck that arrives late is in the formula, but one that arrives with part of the order is not. A partial delivery eats the buffer without warning."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e66f",
+   "how": "image",
+   "expected": "Minus sign, for a supplier delivery that arrives short",
+   "asset": "6ad07a88927330500c3958ed"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e67a",
+   "how": "heading",
+   "expected": "A swing with names on it"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e67d",
+   "how": "string",
+   "expected": "For a distributor, the 35 case swing can trace back to a few accounts that order big and irregularly. Part of the buffer is paying for their pattern."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "4b2dec21-2a8d-a0b3-45e4-f4669d78e677",
+   "how": "image",
+   "expected": "Storefront, for the accounts behind the demand swing",
+   "asset": "6ad07a8e55a095f6d8321efc"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf69fd",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf69fe",
+   "how": "heading",
+   "expected": "Who uses a safety stock calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a03",
+   "how": "string",
+   "expected": "Inventory planners at distributors carrying dated and dry lines use it to size the buffer under each one. Anyone who decides how much spare stock to keep, or defends that call in cash, should run it."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a08",
+   "how": "heading",
+   "expected": "Owners capping cash in buffers"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a06",
+   "how": "image",
+   "expected": "Person, for owners capping the cash held in buffers",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a0d",
+   "how": "heading",
+   "expected": "Buyers weighing service against cash"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a0b",
+   "how": "image",
+   "expected": "Dollar sign, for buyers weighing service against cash",
+   "asset": "6ac71f2fdacb5c302d9d5d15"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a12",
+   "how": "heading",
+   "expected": "Category managers handling volatile lines"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a10",
+   "how": "image",
+   "expected": "Warning sign, for category managers handling volatile lines",
+   "asset": "6ad07a8582ff418bc8a6c6b6"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a17",
+   "how": "heading",
+   "expected": "Purchasing teams scoring supplier reliability"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a15",
+   "how": "image",
+   "expected": "Clipboard, for purchasing teams scoring supplier reliability",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a1c",
+   "how": "heading",
+   "expected": "Controllers pricing extra service points"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a1a",
+   "how": "image",
+   "expected": "Office building, for controllers pricing extra service points",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a21",
+   "how": "heading",
+   "expected": "Planners rerunning after supplier changes"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a1f",
+   "how": "image",
+   "expected": "Slider controls, for planners rerunning the buffer after a supplier change",
+   "asset": "6ad07a8c46e29627d6ef796b"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a26",
+   "how": "heading",
+   "expected": "Sales managers setting service promises"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a24",
+   "how": "image",
+   "expected": "Headset, for sales managers setting service promises",
+   "asset": "6ad07a87835ef439cc7910a2"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a2b",
+   "how": "heading",
+   "expected": "Ops teams cutting spoiled buffer"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a29",
+   "how": "image",
+   "expected": "Two people, for ops teams cutting spoiled buffer stock",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a30",
+   "how": "heading",
+   "expected": "Analysts comparing lines by swing"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "3987e627-7415-be05-4136-c09b74bf6a2e",
+   "how": "image",
+   "expected": "Magnifying glass, for analysts comparing lines by swing",
+   "asset": "6ad07a8b1207c22da70d53ca"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e7513",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e7514",
+   "how": "heading",
+   "expected": "How a safety stock buffer gets sized wrong"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e7518",
+   "how": "string",
+   "expected": "The formula does the hard part. The swings you feed it decide the answer, so get them right before cash goes into a buffer."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e751e",
+   "how": "heading",
+   "expected": "A swing measured day by day"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e7522",
+   "how": "string",
+   "expected": "The 35 case swing is how far one day strays from 120. Work it out from weekly totals divided by seven and it comes out too small."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e7526",
+   "how": "heading",
+   "expected": "Demand, not shipments"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e752a",
+   "how": "string",
+   "expected": "In a week you ran short, shipments look calmer than what accounts asked for. Build the swing from orders, or the short weeks shrink the buffer meant to cover them."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e752e",
+   "how": "heading",
+   "expected": "What 95% really promises"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "d4e21acd-1028-79b7-cfce-9c2dba8e7532",
+   "how": "string",
+   "expected": "It means a 5.0% chance of running out in each restock cycle. It is not a 95% fill rate, which counts the cases you ship."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf6215a",
+   "how": "string",
+   "expected": "Order History"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf6215b",
+   "how": "heading",
+   "expected": "Where VOS fits in your buffer"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf62164",
+   "how": "string",
+   "expected": "Your Demand Swing"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf62165",
+   "how": "heading",
+   "expected": "The swing starts with what each account orders"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf62169",
+   "how": "string",
+   "expected": "VOS does not size your buffer or forecast demand. It keeps a record to check your swing against: each order placed by voice in the VOS app, by account and time."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf62186",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf62170",
+   "how": "string",
+   "expected": "Order history per account in one admin platform"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf62176",
+   "how": "string",
+   "expected": "Each app order carries a date and a timestamp"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf6217c",
+   "how": "string",
+   "expected": "Customers review each line before sending"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf62182",
+   "how": "string",
+   "expected": "Works alongside your ERP, with nothing to rip out"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "a8f80bb6-6a4f-5545-4a31-af378bf62160",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef2f",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef30",
+   "how": "heading",
+   "expected": "What to run after safety stock"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef35",
+   "how": "string",
+   "expected": "Safety stock sizes the buffer. These free calculators turn it into a trigger, price what holding it costs, and set the level each order restores."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef3d",
+   "how": "heading",
+   "expected": "Turn the buffer into a trigger"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef40",
+   "how": "string",
+   "expected": "Add the buffer to lead time demand for the stock level that starts the next order, plus the days of cover you have left."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef44",
+   "how": "string",
+   "expected": "Open the reorder point calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef3a",
+   "how": "image",
+   "expected": "Right arrow, for turning the buffer into a trigger",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef42",
+   "how": "link",
+   "expected": "6ac7652a2a715d3e702a0559"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef4a",
+   "how": "heading",
+   "expected": "Price the cost of holding it"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef4d",
+   "how": "string",
+   "expected": "Find what a bigger buffer costs to keep each year, using a carrying rate you build from your own numbers."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef51",
+   "how": "string",
+   "expected": "Open the inventory carrying cost calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef47",
+   "how": "image",
+   "expected": "Calculator, for pricing what the buffer costs to hold",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef4f",
+   "how": "link",
+   "expected": "6ac7866e071fb41c4807eab0"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef57",
+   "how": "heading",
+   "expected": "Set the level each order restores"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef5a",
+   "how": "string",
+   "expected": "Work out the level each line tops back up to between deliveries, and what each buffer day ties up in cash."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef5e",
+   "how": "string",
+   "expected": "Open the par level calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef54",
+   "how": "image",
+   "expected": "Warehouse racking, for the level each order restores",
+   "asset": "6ac71feed74c17b09757a220"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "fe483b97-c77d-1e06-c9d0-5cf68bf8ef5c",
+   "how": "link",
+   "expected": "6ac79be1b863c26cbc96979a"
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "slug": "par-level-calculator",
+ "status": "DRAFT spec, 2026-10-15. Distributor page (the copy spec makes the distributor topping up its own warehouse the reader, not an operator). Not yet on Webflow.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is a par level?",
+  "intro": "A par level is the full mark for one line: the stock level each order brings it back up to. The order is the gap between today's count and that mark. At 120 cases a day, a 7 day cycle and 2 buffer days, the mark is 1,080 cases.",
+  "cards": [
+   {
+    "title": "A full cycle plus a reserve",
+    "body": "The whole gap between two deliveries, plus your reserve. That is why par should look high on delivery day: it has to last until the next truck.",
+    "alt": "Plus sign, for the gap between two deliveries"
+   },
+   {
+    "title": "Busy days look like average ones",
+    "body": "Which days run busy. Par prices every day at the average, so a short cycle that holds your heaviest days draws on the 2 buffer days.",
+    "alt": "Minus sign, for the busy days an average hides"
+   },
+   {
+    "title": "Peak cash, not average cash",
+    "body": "The $23,760 at par is the most the line holds, on delivery day. Across the cycle the floor averages well below it, and that average is what carrying costs run on.",
+    "alt": "Light bulb, for the peak cash a line holds at par"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a par level calculator",
+  "intro": "Whoever restocks a distributor's warehouse on a regular supplier delivery cycle uses it to set par, one line at a time. Anyone who sizes the next top up order, or answers for the cash it ties up, should run it.",
+  "chips": [
+   {
+    "label": "Owners capping cash at par",
+    "alt": "Person, for owners capping the cash held at par"
+   },
+   {
+    "label": "Buyers pricing a buffer day",
+    "alt": "Price tag, for buyers pricing a buffer day"
+   },
+   {
+    "label": "Category managers resetting busy lines",
+    "alt": "Slider controls, for category managers resetting busy lines"
+   },
+   {
+    "label": "DSD teams sizing route stock",
+    "alt": "Map pin, for DSD teams sizing route stock"
+   },
+   {
+    "label": "Controllers checking cash in stock",
+    "alt": "Office building, for controllers checking the cash in stock"
+   },
+   {
+    "label": "Purchasing teams running weekly restocks",
+    "alt": "Two people, for purchasing teams running weekly restocks"
+   },
+   {
+    "label": "Product managers costing new lines",
+    "alt": "Clipboard, for product managers costing new lines"
+   },
+   {
+    "label": "Warehouse leads trimming over par",
+    "alt": "Warehouse, for warehouse leads trimming stock over par"
+   },
+   {
+    "label": "Analysts comparing par across suppliers",
+    "alt": "Magnifying glass, for analysts comparing par across suppliers"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "When a par level comes out wrong",
+  "intro": "Par is one multiplication. The count, the days and the way your supplier ships are where a top up goes wrong.",
+  "steps": [
+   {
+    "title": "A count of what can sell",
+    "body": "Leave damaged and short dated cases out of the 340 on hand. Count them in and the 740 case top up comes in short."
+   },
+   {
+    "title": "Days on the same footing",
+    "body": "If 120 cases a day is per shipping day, count the cycle in shipping days too. Mix shipping days with calendar days and par reads high."
+   },
+   {
+    "title": "How your supplier ships",
+    "body": "Par settles to whole cases, but a supplier who sells by the layer or the pallet rounds the order again. Check that the rounding does not leave the line over par every cycle."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Guides",
+  "h2": "Where VOS fits around a par level",
+  "row_badge": "Your Usage Per Line",
+  "h3": "Orders arrive line by line, on your own SKUs",
+  "body": "VOS does not set par levels, count your stock or buy from your suppliers. Par is set line by line, and that is how orders reach you. Each account orders by voice in the VOS app, from a guide tied to your SKUs.",
+  "bullets": [
+   "Each account's guide carries the prices you set",
+   "Catalog updates as stock levels change",
+   "Orders arrive confirmed, in the format you use",
+   "Additive to your ERP, with nothing to rip out"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after a par level",
+  "intro": "Par says how far to top up. These free calculators answer when the order goes in, how big the reserve should be, and what holding it all costs.",
+  "cards": [
+   {
+    "title": "Decide when the order goes in",
+    "body": "Find the stock level that should start the next order, the days of cover left, and what a late supplier costs in cases.",
+    "link_label": "Open the reorder point calculator",
+    "link_slug": "reorder-point-calculator",
+    "alt": "Calculator, for deciding when the order goes in"
+   },
+   {
+    "title": "Size the reserve from real swings",
+    "body": "Turn how much your demand and lead times move into a buffer, at a service level you choose, checked against shelf life.",
+    "link_label": "Open the safety stock calculator",
+    "link_slug": "safety-stock-calculator",
+    "alt": "Right arrow, for sizing the reserve from real swings"
+   },
+   {
+    "title": "Price the stock par keeps on hand",
+    "body": "See what holding that stock costs a year, at a rate built from your own capital, space and spoilage figures.",
+    "link_label": "Open the inventory carrying cost calculator",
+    "link_slug": "inventory-carrying-cost-calculator",
+    "alt": "Percent sign, for pricing the stock par keeps on hand"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "120 cases a day",
+   "source": "calculator default: average daily usage 120"
+  },
+  {
+   "figure": "7 day cycle",
+   "source": "calculator default: days between deliveries 7"
+  },
+  {
+   "figure": "2 buffer days",
+   "source": "calculator default: buffer days 2"
+  },
+  {
+   "figure": "1,080 cases",
+   "source": "rendered par level: 120 x (7 + 2)"
+  },
+  {
+   "figure": "$23,760 at par",
+   "source": "rendered cash tied up at par: 1,080 x $22.00"
+  },
+  {
+   "figure": "340 on hand",
+   "source": "calculator default: stock on hand 340"
+  },
+  {
+   "figure": "740 case top up",
+   "source": "rendered top up to par today: 1,080 - 340"
+  }
+ ]
+}

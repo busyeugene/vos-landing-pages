@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "lightbulb",
+  "alert"
+ ],
+ "who": [
+  "person",
+  "store",
+  "chat",
+  "pin",
+  "office",
+  "sliders",
+  "clipboard",
+  "search",
+  "team"
+ ],
+ "next": [
+  "calculator",
+  "warehouse",
+  "arrow-right"
+ ],
+ "notes": "who 7 (owners pricing delivery fees) is clipboard, a weak fit: price-tag, dollar, cash and invoice are all taken. who 4 transport managers is pin; truck and floorplan are taken. whatis 2 (every stop priced the same) is lightbulb."
+}

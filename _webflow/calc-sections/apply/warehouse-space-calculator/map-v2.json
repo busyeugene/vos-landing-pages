@@ -1,0 +1,525 @@
+{
+ "slug": "warehouse-space-calculator",
+ "pageId": "6ac735232408756f9071e095",
+ "roots": {
+  "whatis": "f804bc8e-fe81-005d-5f52-9871f9e990c8",
+  "who": "32c4e532-2404-b087-70d5-b5cf1e403f82",
+  "look": "727d137e-506c-96ec-4f09-f857319a384d",
+  "vos": "b71bf44c-a612-c31e-541d-5c5c49090ba7",
+  "next": "6e3d438d-151e-e6f2-7a4f-d2ddf9b19d9e"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613ac",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613ad",
+   "how": "heading",
+   "expected": "What is a warehouse space requirement?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613b2",
+   "how": "string",
+   "expected": "A warehouse space requirement is the floor area your stock needs at its busiest, with room for people and pallet jacks to move. You get it from cases, pallets and stack height, then add aisles, dock and staging. It is the figure a lease should be sized on."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613ba",
+   "how": "heading",
+   "expected": "What it measures"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613bd",
+   "how": "string",
+   "expected": "The floor your stock needs, not what a building holds. Start from 3,000 cases at peak and it works forward to 725 sq ft."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613b7",
+   "how": "image",
+   "expected": "Open book, for the floor your peak stock needs",
+   "asset": "6ad07a86a7398c6342ee4976"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613c2",
+   "how": "heading",
+   "expected": "Rooms it does not count"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613c5",
+   "how": "string",
+   "expected": "Offices, restrooms, a returns cage and forklift charging. The aisle share covers aisles, dock and staging only, so add the rest on top."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613bf",
+   "how": "image",
+   "expected": "Minus sign, for the rooms the estimate does not include",
+   "asset": "6ad07a88927330500c3958ed"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613ca",
+   "how": "heading",
+   "expected": "Staging grows with routes"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613cd",
+   "how": "string",
+   "expected": "The calculator folds staging into the 45%. For a distributor, it tracks how many trucks you load at once, not how much stock you hold."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "04101b5e-ec1b-caec-d148-c81ff92613c7",
+   "how": "image",
+   "expected": "Light bulb, for staging space sized by the trucks you load",
+   "asset": "6ad07a870941cf0d0c62fa49"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f56",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f57",
+   "how": "heading",
+   "expected": "Who uses a warehouse space calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f5c",
+   "how": "string",
+   "expected": "Owners planning a move or an expansion use it to work out how much building a distributor's stock needs. Anyone briefing a broker, signing a lease or adding a range should run it first."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f61",
+   "how": "heading",
+   "expected": "Owners pricing a new lease"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f5f",
+   "how": "image",
+   "expected": "Person, for owners pricing a new lease",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f66",
+   "how": "heading",
+   "expected": "Ops weighing two buildings"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f64",
+   "how": "image",
+   "expected": "Office building, for weighing one building against another",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f6b",
+   "how": "heading",
+   "expected": "Teams planning for growth"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f69",
+   "how": "image",
+   "expected": "Two people, for planning the space growth will need",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f70",
+   "how": "heading",
+   "expected": "Ops planning dock and staging"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f6e",
+   "how": "image",
+   "expected": "Clipboard, for planning dock and staging space",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f75",
+   "how": "heading",
+   "expected": "Finance budgeting rent per case"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f73",
+   "how": "image",
+   "expected": "Cash bills, for budgeting rent per case held",
+   "asset": "6ac71f2edacb5c302d9d5cab"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f7a",
+   "how": "heading",
+   "expected": "Buyers adding a seasonal range"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f78",
+   "how": "image",
+   "expected": "Plus sign, for adding a seasonal range",
+   "asset": "6ad07a8a27aa3ab4d513d9f3"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f7f",
+   "how": "heading",
+   "expected": "Owners briefing a property broker"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f7d",
+   "how": "image",
+   "expected": "Speech bubble, for briefing a property broker",
+   "asset": "6ad07a860941cf0d0c62fa17"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f84",
+   "how": "heading",
+   "expected": "Teams cutting overflow storage"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f82",
+   "how": "image",
+   "expected": "Downward trend line, for cutting overflow storage",
+   "asset": "6ac71ff042eabd1f12ce8f74"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f89",
+   "how": "heading",
+   "expected": "Ops sizing cooler against dry"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "f1a8dd8c-246d-5c22-669f-abce47e79f87",
+   "how": "image",
+   "expected": "Magnifying glass, for sizing cooler space against dry space",
+   "asset": "6ad07a8b1207c22da70d53ca"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e79715",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e79716",
+   "how": "heading",
+   "expected": "Keep the square footage estimate honest"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e7971a",
+   "how": "string",
+   "expected": "Every result on the page comes from the first few inputs. These three are where a space estimate tends to drift."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e79720",
+   "how": "heading",
+   "expected": "One real peak, not a sum of peaks"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e79724",
+   "how": "string",
+   "expected": "In shared storage, adding each line's busiest week overstates it, because lines do not all peak together. Use the most cases you held on one actual day."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e79728",
+   "how": "heading",
+   "expected": "Stack height the product can bear"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e7972c",
+   "how": "string",
+   "expected": "Not every case can carry a pallet on top. Soft or fragile lines often stay one high, so run them on their own before you enter 2."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e79730",
+   "how": "heading",
+   "expected": "Each temperature zone on its own"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "dc3e4f04-1c78-f3d9-c3b0-40d0a8e79734",
+   "how": "string",
+   "expected": "Run dry, cooler and freezer as three separate estimates. One blended run lets spare dry floor hide a freezer that is already full."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9ab3",
+   "how": "string",
+   "expected": "Order Intake"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9ab4",
+   "how": "heading",
+   "expected": "Where VOS sits next to your warehouse"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9abd",
+   "how": "string",
+   "expected": "Not A Warehouse System"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9abe",
+   "how": "heading",
+   "expected": "Sizing the building stays with you"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9ac2",
+   "how": "string",
+   "expected": "VOS does not size buildings or run a warehouse: no bins, pick paths or scanning. It works on the orders coming in. Customers order by voice in the VOS app at any hour, so overnight orders are waiting when the day's picking is planned."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9adf",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9ac9",
+   "how": "string",
+   "expected": "After-hours orders captured and waiting"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9acf",
+   "how": "string",
+   "expected": "Stock visibility that follows order activity"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9ad5",
+   "how": "string",
+   "expected": "Your stock numbers stay in your own system"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9adb",
+   "how": "string",
+   "expected": "Runs alongside your current systems, nothing to rip out"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "b99db44d-00a4-7904-f4ec-3695dbdf9ab9",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe84",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe85",
+   "how": "heading",
+   "expected": "What to run after warehouse space"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe8a",
+   "how": "string",
+   "expected": "You know the floor your stock needs. These three check the building you have, what holding the stock costs, and how fast it moves."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe92",
+   "how": "heading",
+   "expected": "Check what your building holds"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe95",
+   "how": "string",
+   "expected": "See how many cases the building you already have will hold, and how many weeks of flow that covers."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe99",
+   "how": "string",
+   "expected": "Open the warehouse size calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe8f",
+   "how": "image",
+   "expected": "Calculator, for checking what your current building holds",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe97",
+   "how": "link",
+   "expected": "6ac72b9663b2850d53a5f878"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe9f",
+   "how": "heading",
+   "expected": "Price the stock you hold"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabea2",
+   "how": "string",
+   "expected": "Floor space is only one cost of holding stock, so add capital, spoilage and the rest into one yearly carrying rate."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabea6",
+   "how": "string",
+   "expected": "Open the carrying cost calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabe9c",
+   "how": "image",
+   "expected": "Percent sign, for pricing the cost of holding stock",
+   "asset": "6ac71fed026c60b59b375bd5"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabea4",
+   "how": "link",
+   "expected": "6ac7866e071fb41c4807eab0"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabeac",
+   "how": "heading",
+   "expected": "Count how often the stock turns"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabeaf",
+   "how": "string",
+   "expected": "Get your yearly turns and the days a case spends in the building before it ships."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabeb3",
+   "how": "string",
+   "expected": "Open the inventory turnover calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabea9",
+   "how": "image",
+   "expected": "Right arrow, for how fast your stock turns",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "61e5d8e8-d8e7-94bd-6b06-219d9edabeb1",
+   "how": "link",
+   "expected": "6ac7252ae188e18d1d906bba"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "store"
+ ],
+ "who": [
+  "person",
+  "dollar",
+  "alert",
+  "clipboard",
+  "office",
+  "sliders",
+  "headset",
+  "team",
+  "search"
+ ],
+ "next": [
+  "arrow-right",
+  "calculator",
+  "racking"
+ ],
+ "notes": "whatis 3 (a swing with names on it) is store for the few accounts behind it. next 3 (set the level each order restores) is racking for stack height."
+}

@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "alert"
+ ],
+ "who": [
+  "person",
+  "headset",
+  "chat",
+  "clipboard",
+  "sliders",
+  "store",
+  "team",
+  "office",
+  "phone"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "pin"
+ ],
+ "notes": "who 4 (route planners adding stops) is clipboard so pin can carry next 3 (cost each stop); truck and floorplan are taken. who 5 (ops weighing a second truck) is sliders, keeping warehouse out of the section that holds store."
+}

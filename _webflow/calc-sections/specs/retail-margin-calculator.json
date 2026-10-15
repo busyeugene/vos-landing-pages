@@ -1,0 +1,157 @@
+{
+ "slug": "retail-margin-calculator",
+ "status": "DRAFT 2026-10-15: written from copy-spec-retail-margin.md. Not pushed.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is retail margin?",
+  "intro": "Retail margin is the share of the shelf price a store keeps once the item is paid for. It is the number store buyers plan in. For a distributor, the store's unit cost is your case price split by the pack, so your price sits inside their margin.",
+  "cards": [
+   {
+    "title": "The store's share of the tag",
+    "body": "The gap between the tag and the unit cost, divided by the tag. A $2.38 unit on a $3.97 tag keeps $1.59, which is 40.1%.",
+    "alt": "Plus sign, for what a store keeps on each tag"
+   },
+   {
+    "title": "Gross, before the store's running costs",
+    "body": "The store's labor, rent and power for the cold case. Retail margin is gross, so all of that is paid out of it later.",
+    "alt": "Minus sign, for store costs that sit outside the margin"
+   },
+   {
+    "title": "Why a supplier runs it",
+    "body": "Shelf space goes to the lines that earn the store money. Your case price is the one input in that margin you control.",
+    "alt": "Light bulb, for the case price inside a store's margin"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a retail margin calculator",
+  "intro": "Sales teams at DSD and independent distributors that sell into stores run it to see the shelf from the store buyer's side. Anyone who meets a buyer, suggests a shelf price or defends a line should run it first.",
+  "chips": [
+   {
+    "label": "Owners pricing store accounts",
+    "alt": "Person, for owners pricing store accounts"
+   },
+   {
+    "label": "Reps preparing a category review",
+    "alt": "Clipboard, for reps preparing a category review"
+   },
+   {
+    "label": "Sales managers pitching new lines",
+    "alt": "Speech bubble, for sales managers pitching new lines"
+   },
+   {
+    "label": "DSD reps checking store shelves",
+    "alt": "Delivery truck, for DSD reps checking store shelves"
+   },
+   {
+    "label": "Key account managers defending margin",
+    "alt": "Headset, for key account managers defending margin"
+   },
+   {
+    "label": "Merchandisers checking tags after resets",
+    "alt": "Warehouse racking, for merchandisers checking tags after shelf resets"
+   },
+   {
+    "label": "Reps suggesting a shelf price",
+    "alt": "Storefront, for reps suggesting a shelf price"
+   },
+   {
+    "label": "Managers reviewing slow lines",
+    "alt": "Clock face, for managers reviewing slow lines"
+   },
+   {
+    "label": "Reps comparing against rival lines",
+    "alt": "Magnifying glass, for reps comparing against rival lines"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Store numbers to confirm before quoting margin",
+  "intro": "Two of the inputs come from the store's side, and both drift. Confirm all three below before a margin goes in front of a buyer.",
+  "steps": [
+   {
+    "title": "The tag on the shelf today",
+    "body": "Use the price the store charges now, not the suggested price on your sell sheet. Stores move tags without telling their suppliers."
+   },
+   {
+    "title": "The store's cost after allowances",
+    "body": "If you pay a store a billback or a promotional allowance, take it off their unit cost for the weeks it runs. Leave it in and their margin reads lower than they see it."
+   },
+   {
+    "title": "The unit the shelf really sells",
+    "body": "Split the case by the units that scan. A 12-unit case sold as six twin packs has a different unit cost and a different tag."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Store Accounts",
+  "h2": "Where VOS fits with your store accounts",
+  "row_badge": "Your Case Price",
+  "h3": "The case price behind their margin",
+  "body": "VOS does not calculate a store's margin or set its shelf price. It keeps your side clear: each store orders by voice in the VOS app from a guide at the prices you set.",
+  "bullets": [
+   "Promos and confirmations reach stores by notification and text",
+   "For DSD, drivers arrive with the right product",
+   "Orders captured 24/7, after hours included",
+   "Most customers place a first order the same day"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after retail margin",
+  "intro": "Retail margin shows the store's side of the sum. These free calculators work back to your markup, the full chain and your own case price.",
+  "cards": [
+   {
+    "title": "Put your own markup on a ladder",
+    "body": "Switch to your own side: one case cost priced at four markup rungs, with the margin each one keeps.",
+    "link_label": "Open the product markup calculator",
+    "link_slug": "product-markup-calculator",
+    "alt": "Calculator, for your own markup at each rung"
+   },
+   {
+    "title": "Follow one case to the shelf",
+    "body": "Trace a case from your cost to the shelf price, and check your price still leaves the retailer enough margin to stock you.",
+    "link_label": "Open the wholesale to retail markup calculator",
+    "link_slug": "wholesale-to-retail-markup-calculator",
+    "alt": "Right arrow, for following a case from your cost to the shelf"
+   },
+   {
+    "title": "Set your case price three ways",
+    "body": "Work out your case price from a target margin, a dollar profit per case or a competitor's price, and compare what each keeps.",
+    "link_label": "Open the product pricing calculator",
+    "link_slug": "product-pricing-calculator",
+    "alt": "Slider controls, for setting your case price three ways"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "$2.38 unit cost",
+   "source": "calculator default: cost 2.38"
+  },
+  {
+   "figure": "$3.97 shelf price",
+   "source": "calculator default: price 3.97"
+  },
+  {
+   "figure": "$1.59 kept per unit",
+   "source": "verified figures table: 3.97 - 2.38"
+  },
+  {
+   "figure": "40.1% retail margin",
+   "source": "verified figures table: 1.59 / 3.97 = 40.05%"
+  },
+  {
+   "figure": "12-unit case",
+   "source": "calculator default: units per case 12"
+  },
+  {
+   "figure": "six twin packs",
+   "source": "illustration of the same 12 units repacked, not a calculator output"
+  }
+ ]
+}

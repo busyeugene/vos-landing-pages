@@ -1,0 +1,157 @@
+{
+ "slug": "safety-stock-calculator",
+ "status": "DRAFT spec, 2026-10-15. Distributor page. Not yet on Webflow.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is safety stock?",
+  "intro": "Safety stock is the extra stock you hold for days that do not go to plan. A busier day or a late truck draws on it. It is sized from how much demand and lead time swing, not from the averages alone. Here that comes to 229 cases.",
+  "cards": [
+   {
+    "title": "How far demand and lead time stray",
+    "body": "How far demand and lead time stray from their averages. Two lines that both sell 120 cases a day can need very different buffers.",
+    "alt": "Plus sign, for how far demand and lead time stray"
+   },
+   {
+    "title": "Partial deliveries are not in it",
+    "body": "Supplier shorts. A truck that arrives late is in the formula, but one that arrives with part of the order is not. A partial delivery eats the buffer without warning.",
+    "alt": "Minus sign, for a supplier delivery that arrives short"
+   },
+   {
+    "title": "A swing with names on it",
+    "body": "For a distributor, the 35 case swing can trace back to a few accounts that order big and irregularly. Part of the buffer is paying for their pattern.",
+    "alt": "Storefront, for the accounts behind the demand swing"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a safety stock calculator",
+  "intro": "Inventory planners at distributors carrying dated and dry lines use it to size the buffer under each one. Anyone who decides how much spare stock to keep, or defends that call in cash, should run it.",
+  "chips": [
+   {
+    "label": "Owners capping cash in buffers",
+    "alt": "Person, for owners capping the cash held in buffers"
+   },
+   {
+    "label": "Buyers weighing service against cash",
+    "alt": "Dollar sign, for buyers weighing service against cash"
+   },
+   {
+    "label": "Category managers handling volatile lines",
+    "alt": "Warning sign, for category managers handling volatile lines"
+   },
+   {
+    "label": "Purchasing teams scoring supplier reliability",
+    "alt": "Clipboard, for purchasing teams scoring supplier reliability"
+   },
+   {
+    "label": "Controllers pricing extra service points",
+    "alt": "Office building, for controllers pricing extra service points"
+   },
+   {
+    "label": "Planners rerunning after supplier changes",
+    "alt": "Slider controls, for planners rerunning the buffer after a supplier change"
+   },
+   {
+    "label": "Sales managers setting service promises",
+    "alt": "Headset, for sales managers setting service promises"
+   },
+   {
+    "label": "Ops teams cutting spoiled buffer",
+    "alt": "Two people, for ops teams cutting spoiled buffer stock"
+   },
+   {
+    "label": "Analysts comparing lines by swing",
+    "alt": "Magnifying glass, for analysts comparing lines by swing"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "How a safety stock buffer gets sized wrong",
+  "intro": "The formula does the hard part. The swings you feed it decide the answer, so get them right before cash goes into a buffer.",
+  "steps": [
+   {
+    "title": "A swing measured day by day",
+    "body": "The 35 case swing is how far one day strays from 120. Work it out from weekly totals divided by seven and it comes out too small."
+   },
+   {
+    "title": "Demand, not shipments",
+    "body": "In a week you ran short, shipments look calmer than what accounts asked for. Build the swing from orders, or the short weeks shrink the buffer meant to cover them."
+   },
+   {
+    "title": "What 95% really promises",
+    "body": "It means a 5.0% chance of running out in each restock cycle. It is not a 95% fill rate, which counts the cases you ship."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order History",
+  "h2": "Where VOS fits in your buffer",
+  "row_badge": "Your Demand Swing",
+  "h3": "The swing starts with what each account orders",
+  "body": "VOS does not size your buffer or forecast demand. It keeps a record to check your swing against: each order placed by voice in the VOS app, by account and time.",
+  "bullets": [
+   "Order history per account in one admin platform",
+   "Each app order carries a date and a timestamp",
+   "Customers review each line before sending",
+   "Works alongside your ERP, with nothing to rip out"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after safety stock",
+  "intro": "Safety stock sizes the buffer. These free calculators turn it into a trigger, price what holding it costs, and set the level each order restores.",
+  "cards": [
+   {
+    "title": "Turn the buffer into a trigger",
+    "body": "Add the buffer to lead time demand for the stock level that starts the next order, plus the days of cover you have left.",
+    "link_label": "Open the reorder point calculator",
+    "link_slug": "reorder-point-calculator",
+    "alt": "Right arrow, for turning the buffer into a trigger"
+   },
+   {
+    "title": "Price the cost of holding it",
+    "body": "Find what a bigger buffer costs to keep each year, using a carrying rate you build from your own numbers.",
+    "link_label": "Open the inventory carrying cost calculator",
+    "link_slug": "inventory-carrying-cost-calculator",
+    "alt": "Calculator, for pricing what the buffer costs to hold"
+   },
+   {
+    "title": "Set the level each order restores",
+    "body": "Work out the level each line tops back up to between deliveries, and what each buffer day ties up in cash.",
+    "link_label": "Open the par level calculator",
+    "link_slug": "par-level-calculator",
+    "alt": "Warehouse racking, for the level each order restores"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "229 cases",
+   "source": "rendered safety stock at 95%: ceil(1.6449 x 138.92)"
+  },
+  {
+   "figure": "120 cases a day",
+   "source": "calculator default: average daily demand 120"
+  },
+  {
+   "figure": "35 case swing",
+   "source": "calculator default: demand swing on a busy day 35"
+  },
+  {
+   "figure": "seven (weekly totals divided by seven)",
+   "source": "days in a week; the point is that a weekly standard deviation divided by 7 understates the daily swing by the square root of 7"
+  },
+  {
+   "figure": "95%",
+   "source": "calculator default: service level 95%"
+  },
+  {
+   "figure": "5.0% chance of running out",
+   "source": "rendered stockout risk at 95%: 100 - 95"
+  }
+ ]
+}

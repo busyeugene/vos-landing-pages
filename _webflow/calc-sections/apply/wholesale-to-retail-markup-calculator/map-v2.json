@@ -1,0 +1,525 @@
+{
+ "slug": "wholesale-to-retail-markup-calculator",
+ "pageId": "6ac73522edd07accabdbe401",
+ "roots": {
+  "whatis": "590c0f97-bfbf-1f44-a407-d9cfcec7dcb7",
+  "who": "77e1ec28-ae10-d6fb-8a42-965e9dbbefef",
+  "look": "b88dde42-bb62-9259-419f-65f9814be8ed",
+  "vos": "cd267d1a-e9f3-fbba-43c3-a2a9e017e168",
+  "next": "359c6cc9-e52f-6660-987b-1992f6f46558"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb38208b",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb38208c",
+   "how": "heading",
+   "expected": "What is a wholesale to retail markup?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb382091",
+   "how": "string",
+   "expected": "A wholesale to retail markup is what a store adds to your wholesale price to set its shelf price. It is stated as a share of the store's cost. For a distributor it is the second of two steps: your markup sets the case price, then the store's markup sets the shelf."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb382099",
+   "how": "heading",
+   "expected": "Two markups that multiply"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb38209c",
+   "how": "string",
+   "expected": "Your markup and the store's stack on top of each other. They multiply rather than add: your 30% and the store's 66.8% take a $22.00 case to 2.17 times its cost on the shelf."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "7a43253b-6479-b058-23be-7daebb382096",
+   "how": "image",
+   "expected": "Light bulb, for two markups stacking on one case",
+   "asset": "6ad07a870941cf0d0c62fa49"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb3820a1",
+   "how": "heading",
+   "expected": "What the store's share pays for"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb3820a4",
+   "how": "string",
+   "expected": "The $1.59 a unit the store keeps is gross margin. Shelf labor, rent, spoilage and promotions all come out of it before any of it is profit."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "7a43253b-6479-b058-23be-7daebb38209e",
+   "how": "image",
+   "expected": "Storefront, for the costs a store's margin has to cover",
+   "asset": "6ad07a8e55a095f6d8321efc"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb3820a9",
+   "how": "heading",
+   "expected": "Which accounts it fits"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "7a43253b-6479-b058-23be-7daebb3820ac",
+   "how": "string",
+   "expected": "The chain fits accounts that resell your case one unit at a time, such as grocers, markets and convenience stores. A restaurant turns a case into plates and prices on food cost instead."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "7a43253b-6479-b058-23be-7daebb3820a6",
+   "how": "image",
+   "expected": "Map pin, for the accounts that resell a case unit by unit",
+   "asset": "6ad07a8ac909350d3ff080bd"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd25e",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd25f",
+   "how": "heading",
+   "expected": "Who uses a wholesale to retail markup calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd264",
+   "how": "string",
+   "expected": "Selling into grocery and specialty retail means pricing a case the store will mark up again. Sales staff and owners who set that case price should check the shelf it leads to."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd269",
+   "how": "heading",
+   "expected": "Owners setting case prices"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd267",
+   "how": "image",
+   "expected": "Person, for owners setting case prices",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd26e",
+   "how": "heading",
+   "expected": "Sales managers splitting the margin"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd26c",
+   "how": "image",
+   "expected": "Slider controls, for sales managers splitting margin with a store",
+   "asset": "6ad07a8c46e29627d6ef796b"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd273",
+   "how": "heading",
+   "expected": "Brokers pitching a new item"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd271",
+   "how": "image",
+   "expected": "Speech bubble, for brokers pitching a new item to stores",
+   "asset": "6ad07a860941cf0d0c62fa17"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd278",
+   "how": "heading",
+   "expected": "DSD reps pricing store routes"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd276",
+   "how": "image",
+   "expected": "Floor plan grid, for DSD reps pricing the stores on a route",
+   "asset": "6ac71f2fdacb5c302d9d5d2f"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd27d",
+   "how": "heading",
+   "expected": "Controllers checking gross profit"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd27b",
+   "how": "image",
+   "expected": "Office building, for controllers checking gross profit per case",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd282",
+   "how": "heading",
+   "expected": "Category managers reviewing lines"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd280",
+   "how": "image",
+   "expected": "Clipboard, for category managers reviewing lines each season",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd287",
+   "how": "heading",
+   "expected": "Teams setting suggested retail prices"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd285",
+   "how": "image",
+   "expected": "Two people, for teams setting a suggested retail price",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd28c",
+   "how": "heading",
+   "expected": "Reps answering shelf price pushback"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd28a",
+   "how": "image",
+   "expected": "Headset, for reps answering pushback on a shelf price",
+   "asset": "6ad07a87835ef439cc7910a2"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd291",
+   "how": "heading",
+   "expected": "Managers comparing retail and foodservice"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "1cad1503-b8a1-720d-895e-8f7ed14fd28f",
+   "how": "image",
+   "expected": "Magnifying glass, for comparing retail accounts with foodservice ones",
+   "asset": "6ad07a8b1207c22da70d53ca"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433b9",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433ba",
+   "how": "heading",
+   "expected": "Three places the shelf price math slips"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433be",
+   "how": "string",
+   "expected": "The math in both steps is fixed. Real accounts break it at the inputs, most often in one of these three places."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433c4",
+   "how": "heading",
+   "expected": "Units the store actually prices"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433c8",
+   "how": "string",
+   "expected": "Count the units the store puts a price on, not the items packed inside. If the items come in twin packs, the store prices half as many units at twice the cost."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433cc",
+   "how": "heading",
+   "expected": "The case price after deals"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433d0",
+   "how": "string",
+   "expected": "If the case carries an off-invoice deal, the store's real cost sits below your list case price. Enter what the buyer actually pays, or the shelf comes out too high."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433d4",
+   "how": "heading",
+   "expected": "The price ending the store uses"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "2147bfc4-0044-81f3-ce71-89b7aec433d8",
+   "how": "string",
+   "expected": "The calculator sets the shelf on the target margin, to the cent. Stores round to their own price endings, so ask how this one rounds before you defend a case price."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e934933",
+   "how": "string",
+   "expected": "Order Taking"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e934934",
+   "how": "heading",
+   "expected": "Where VOS fits next to the markup chain"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e93493d",
+   "how": "string",
+   "expected": "Your Reps' Time"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e93493e",
+   "how": "heading",
+   "expected": "Reps sell the shelf instead of taking the order"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e934942",
+   "how": "string",
+   "expected": "VOS does not calculate markups or shelf prices. It takes the routine order off your reps. Stores order by voice in the VOS app, from their own guide at your case prices."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e93495f",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e934949",
+   "how": "string",
+   "expected": "Frees sales reps to sell instead of taking orders"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e93494f",
+   "how": "string",
+   "expected": "20-30 minutes saved on each order versus a phone call"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e934955",
+   "how": "string",
+   "expected": "Orders arrive confirmed after the customer checks each line"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e93495b",
+   "how": "string",
+   "expected": "Orders captured 24/7, including after hours"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "f2154cbf-2280-14ea-7b62-7ed48e934939",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c7898",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c7899",
+   "how": "heading",
+   "expected": "What to run after wholesale to retail markup"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c789e",
+   "how": "string",
+   "expected": "The chain shows where your case lands on the shelf. These three free calculators take each step of it further."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78a6",
+   "how": "heading",
+   "expected": "Work the store's side on its own"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78a9",
+   "how": "string",
+   "expected": "Start from a store's cost and shelf price to see its margin, the markup behind it and the shelf price a target needs."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78ad",
+   "how": "string",
+   "expected": "Open the retail margin calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78a3",
+   "how": "image",
+   "expected": "Calculator, for working the store's margin on its own",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78ab",
+   "how": "link",
+   "expected": "6ac76528743f1f2a6f8ae6e6"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78b3",
+   "how": "heading",
+   "expected": "See your markup across the book"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78b6",
+   "how": "string",
+   "expected": "Check your own step first: how a mix of staple and specialty markups blends into one margin for the business."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78ba",
+   "how": "string",
+   "expected": "Open the wholesale markup calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78b0",
+   "how": "image",
+   "expected": "Right arrow, for your margin blended across the book",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78b8",
+   "how": "link",
+   "expected": "6ac73521a469d3c306f7aa87"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78c0",
+   "how": "heading",
+   "expected": "Keep markup and margin apart"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78c3",
+   "how": "string",
+   "expected": "Line up price and margin at every markup step, so a markup never gets quoted as if it were the margin."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78c7",
+   "how": "string",
+   "expected": "Open the product markup calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78bd",
+   "how": "image",
+   "expected": "Open book, for keeping markup and margin apart",
+   "asset": "6ad07a86a7398c6342ee4976"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "b7f12ec0-6b31-1860-96e6-8572d38c78c5",
+   "how": "link",
+   "expected": "6ac7866ff16ee3a82e89dd76"
+  }
+ ]
+}

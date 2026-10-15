@@ -1,0 +1,510 @@
+{
+ "slug": "inventory-carrying-cost-calculator",
+ "pageId": "6ac7866e071fb41c4807eab0",
+ "roots": {
+  "whatis": "efa82fef-2d1e-c7aa-cf1e-bfbb6fa57b61",
+  "who": "37b22415-0d1b-76a0-dd89-d112b31ea118",
+  "look": "17995fa6-b394-ca65-b45a-f64f3d86c3bb",
+  "vos": "57fb0005-4654-2915-08d8-0fba00d794a3",
+  "next": "4e63cc12-4c4d-bf6e-0787-e2fe7b9f8937"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060bd",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060be",
+   "how": "heading",
+   "expected": "What is inventory carrying cost?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060c3",
+   "how": "string",
+   "expected": "Inventory carrying cost is what you pay to keep stock you already own. It covers the money tied up in it, the space it fills and the product lost before it sells. It runs as a yearly rate on average inventory: 27% here, or $35,640 a year."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060cb",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060ce",
+   "how": "string",
+   "expected": "The cost of time on the floor. Every week a case sits, it keeps paying for the money, space and risk behind it."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060c8",
+   "how": "image",
+   "expected": "Floor plan grid, for the cost of time on the floor"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060d3",
+   "how": "heading",
+   "expected": "What it leaves out"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060d6",
+   "how": "string",
+   "expected": "The cost of running short. A lost sale or a substitution has a price too, so the cheapest stock to hold is not always the least stock."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060d0",
+   "how": "image",
+   "expected": "Stacked cases, for the cost of running short"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060db",
+   "how": "heading",
+   "expected": "Not every case carries $0.50"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060de",
+   "how": "string",
+   "expected": "The $0.50 a case is an average across 72,000 cases. The rate rides on what each case cost, so a case of beef carries far more than a case of napkins held as long."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "f6fa7678-9c1a-8631-f36f-26724e3060d8",
+   "how": "image",
+   "expected": "Case box, for the carrying cost one case really holds"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ec2",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ec3",
+   "how": "heading",
+   "expected": "Who uses an inventory carrying cost calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ec8",
+   "how": "string",
+   "expected": "It is built for independent food distributors who hold dated and dry stock in their own warehouse. Anyone who decides how much stock to hold, or signs off on a large buy, should know what holding it costs."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ecd",
+   "how": "heading",
+   "expected": "Owners pricing working capital"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ecb",
+   "how": "image",
+   "expected": "Dollar sign, for owners pricing working capital"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ed2",
+   "how": "heading",
+   "expected": "Buyers weighing a deal buy"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ed0",
+   "how": "image",
+   "expected": "Balance scale, for buyers weighing a deal buy against holding cost"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ed7",
+   "how": "heading",
+   "expected": "Controllers tracking the rate yearly"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ed5",
+   "how": "image",
+   "expected": "Rising chart, for controllers tracking the rate year to year"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0edc",
+   "how": "heading",
+   "expected": "Purchasing teams sizing truckload buys"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0eda",
+   "how": "image",
+   "expected": "Delivery truck, for purchasing teams sizing truckload buys"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ee1",
+   "how": "heading",
+   "expected": "Finance teams setting capital cost"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0edf",
+   "how": "image",
+   "expected": "Cash bills, for finance teams setting the cost of capital"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ee6",
+   "how": "heading",
+   "expected": "Category managers reviewing slow lines"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ee4",
+   "how": "image",
+   "expected": "Cycling arrows, for category managers reviewing slow lines"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0eeb",
+   "how": "heading",
+   "expected": "Sales managers costing a promotion"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ee9",
+   "how": "image",
+   "expected": "Price tag, for sales managers costing a promotion"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ef0",
+   "how": "heading",
+   "expected": "Warehouse leads cutting spoilage"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0eee",
+   "how": "image",
+   "expected": "Downward trend line, for warehouse leads cutting spoilage"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ef5",
+   "how": "heading",
+   "expected": "Analysts comparing cooler and dry"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "f5dbac6c-894b-8660-2a82-9ab4d90f0ef3",
+   "how": "image",
+   "expected": "Side by side bars, for analysts comparing cooler and dry lines"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab65",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab66",
+   "how": "heading",
+   "expected": "What to look for before you trust the rate"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab6a",
+   "how": "string",
+   "expected": "Five rates add up in seconds. Whether each one is honest takes longer. Check these three before the 27% goes into a buying decision."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab70",
+   "how": "heading",
+   "expected": "Only costs that move with stock"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab74",
+   "how": "string",
+   "expected": "A lease you pay at any stock level is not a carrying cost unless holding less would free the space. Count it anyway and the 7 storage points read high."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab78",
+   "how": "heading",
+   "expected": "Losses priced at cost"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab7c",
+   "how": "string",
+   "expected": "Value the dump log at what you paid, the same basis as the $132,000. Price it at sell price and the 6 spoilage points come out too high."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab80",
+   "how": "heading",
+   "expected": "A normal year in the dump log"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "f31fc820-52bd-2ac3-c0e0-8151bb03ab84",
+   "how": "string",
+   "expected": "One freezer failure or recall can swamp a year of spoilage. Take it out, or price it on its own, before it sets the rate for years after."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c15a",
+   "how": "string",
+   "expected": "Selling Side"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c15b",
+   "how": "heading",
+   "expected": "Where VOS fits in your carrying cost"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c164",
+   "how": "string",
+   "expected": "Your Spoilage Line"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c165",
+   "how": "heading",
+   "expected": "Dated stock costs least when it sells in time"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c169",
+   "how": "string",
+   "expected": "VOS does not price your holding costs or change any of the five rates. It works on the selling side: your customers order by voice in the VOS app, and promos reach them by notification and text."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c186",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c170",
+   "how": "string",
+   "expected": "Order guides and prices updated in one admin platform"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c176",
+   "how": "string",
+   "expected": "Sales reps freed to sell, not to take orders"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c17c",
+   "how": "string",
+   "expected": "Orders captured 24/7, after hours included"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c182",
+   "how": "string",
+   "expected": "Most customers place a first order the same day"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "673f7f14-a000-bb6f-db99-52bf2b90c160",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc000",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc001",
+   "how": "heading",
+   "expected": "What to run after carrying cost"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc006",
+   "how": "string",
+   "expected": "The rate prices a dollar of stock for a year. These free calculators show how long the stock sits, what a buffer parks, and how much floor it fills."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc00e",
+   "how": "heading",
+   "expected": "See how long a case sits"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc011",
+   "how": "string",
+   "expected": "Find how many times a year your stock turns, how long a case sits, and the cash a slow turn ties up."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc015",
+   "how": "string",
+   "expected": "Open the inventory turnover calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc00b",
+   "how": "image",
+   "expected": "Percent sign, for how long a case sits"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc013",
+   "how": "link",
+   "expected": "6ac7252ae188e18d1d906bba"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc01b",
+   "how": "heading",
+   "expected": "Check what the buffer parks in cash"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc01e",
+   "how": "string",
+   "expected": "Size a buffer from how much demand and lead times move, pick a service level, and see the cash it ties up."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc022",
+   "how": "string",
+   "expected": "Open the safety stock calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc018",
+   "how": "image",
+   "expected": "Rising line, for the cash a buffer parks"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc020",
+   "how": "link",
+   "expected": "6ac735249b6f12d26ba60ce1"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc028",
+   "how": "heading",
+   "expected": "Size the floor your stock fills"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc02b",
+   "how": "string",
+   "expected": "Work out the square feet your inventory needs once aisles, dock and staging count, and what stacking one pallet higher saves."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc02f",
+   "how": "string",
+   "expected": "Open the warehouse space calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc025",
+   "how": "image",
+   "expected": "Check mark, for sizing the floor your stock fills"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "71afd5bd-232e-ecff-6888-7c9689bdc02d",
+   "how": "link",
+   "expected": "6ac735232408756f9071e095"
+  }
+ ]
+}

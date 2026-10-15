@@ -1,0 +1,212 @@
+{
+ "el": [
+  {
+   "label": "faq[0].q",
+   "set_text": {
+    "id": {
+     "component": "6ac79be1b863c26cbc96979a",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf960"
+    },
+    "text": "What is another name for par-level inventory?"
+   }
+  },
+  {
+   "label": "faq[0].a",
+   "set_text": {
+    "id": {
+     "component": "6ac79be1b863c26cbc96979a",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+    },
+    "text": "Par is also called the order-up-to level or the max level. Whatever the name, it is the stock a line should hold right after a delivery lands: 1,080 cases on these defaults."
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac79be1b863c26cbc96979a",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-parlevel"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac79be1b863c26cbc96979a",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-parlevel"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac79be1b863c26cbc96979a",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-parlevel"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac79be1b863c26cbc96979a",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-parlevel"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf960": "What is another name for par-level inventory?",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967": "Par is also called the order-up-to level or the max level. Whatever the name, it is the stock a line should hold right after a delivery lands: 1,080 cases on these defaults."
+  },
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-parlevel",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-parlevel",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-parlevel",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-parlevel"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/par-level-calculator#calculator",
+    "name": "Par Level Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/par-level-calculator",
+    "description": "Work out the level you top up to between deliveries, and the cash every extra buffer day ties up in stock sitting on your floor.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The level every cycle tops this line back up to",
+     "How many cases this cycle's order has to bring in",
+     "What the level you chose is holding in stock",
+     "What one day of buffer actually costs"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/par-level-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is another name for par-level inventory?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Par is also called the order-up-to level or the max level. Whatever the name, it is the stock a line should hold right after a delivery lands: 1,080 cases on these defaults."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the par level formula?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Average daily usage times the days you have to cover, where those days are your delivery cycle plus your buffer. Here that is 120 x 9, so 1,080 cases. The par level calculation rounds up to whole cases, and today's order is par less whatever the count says is on the floor."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How is a par level different from a reorder point?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A par level answers how much, and a reorder point answers when. Par here is 1,080 cases, the level the next delivery brings this line back to. A reorder point is a level on the way down that says place the order now. On a line that matters you want both numbers, and they are two separate calculations."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How many buffer days should a par level carry?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Price the day before you pick it. One buffer day on this line is $2,640 of stock, so 2 days is $5,280 sitting there for a supplier who misses dates. On a supplier who unloads on the promised day, carry one day or none and put the $2,640 somewhere it earns."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much cash does a par level tie up?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Multiply par by your landed case cost. 1,080 cases at $22.00 is $23,760 on the floor at the top of every cycle. Take out one buffer day and par falls to 960 cases, which is $21,120, so the day you were carrying was worth $2,640 of working capital."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you work out how much to order up to par?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Subtract today's count from par. 1,080 par less 340 cases on hand is a 740 case order, $16,280 at $22.00 a case. If the count comes in over par, the calculator names how many cases you are carrying above the level instead of sizing an order."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How often should you reset your par levels?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Whenever usage or the delivery cycle moves, and on a quarterly sweep otherwise. Going from a weekly drop to a 3 day route takes this par level from 1,080 cases to 600 and the cash at par from $23,760 to $13,200. A par level definition set last spring is still priced at last spring's case cost."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/par-level-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/par-level-calculator",
+    "name": "Par Level Calculator",
+    "description": "Work out the level you top up to between deliveries, and the cash every extra buffer day ties up in stock sitting on your floor.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/par-level-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/par-level-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "slug": "inventory-turnover-calculator",
+ "status": "DRAFT spec, 2026-10-15. Distributor page. H1 keyword is 'inventory turnover ratio calculator'. Not yet on Webflow.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is inventory turnover?",
+  "intro": "Inventory turnover counts how many times a year the stock on your floor is sold and bought again. It measures the speed of the shelf, not the size of it. At this calculator's defaults, the shelf empties and refills 12.0 times a year.",
+  "cards": [
+   {
+    "title": "Speed, with costly lines weighing most",
+    "body": "Speed, weighted by dollars. Every line feeds the same 12.0 turns, and the lines holding the most cost pull it hardest.",
+    "alt": "Plus sign, for speed weighted by the dollars on each line"
+   },
+   {
+    "title": "Fast is not the same as profitable",
+    "body": "Profit. A line can turn fast and earn little, or turn slowly at a margin worth waiting for. Turns say how fast, not how well.",
+    "alt": "Minus sign, for the margin turns do not measure"
+   },
+   {
+    "title": "Lines held for one account",
+    "body": "Items you stock for a single customer turn at that customer's pace. When that customer stops ordering one, the stock stops moving and still sits inside the average.",
+    "alt": "Warning sign, for lines stocked for a single account"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses an inventory turnover ratio calculator",
+  "intro": "Finance leads, buyers and owners at independent distributors use it to ask one question: how hard is the stock working? It helps them set turn targets and spot cash sitting still.",
+  "chips": [
+   {
+    "label": "Owners freeing cash from stock",
+    "alt": "Person, for owners freeing cash from stock"
+   },
+   {
+    "label": "Controllers preparing lender reviews",
+    "alt": "Office building, for controllers preparing lender reviews"
+   },
+   {
+    "label": "Finance teams tracking monthly turns",
+    "alt": "Two people, for finance teams tracking monthly turns"
+   },
+   {
+    "label": "Purchasing teams cutting lead times",
+    "alt": "Clipboard, for purchasing teams cutting supplier lead times"
+   },
+   {
+    "label": "Buyers weighing a deal buy",
+    "alt": "Slider controls, for buyers weighing a deal buy"
+   },
+   {
+    "label": "Category managers ranking line turns",
+    "alt": "Rising line, for category managers ranking turns by line"
+   },
+   {
+    "label": "Sales managers pushing slow lines",
+    "alt": "Headset, for sales managers pushing slow lines"
+   },
+   {
+    "label": "Warehouse leads clearing dead stock",
+    "alt": "Case box, for warehouse leads clearing dead stock"
+   },
+   {
+    "label": "Analysts comparing year on year",
+    "alt": "Magnifying glass, for analysts comparing turns year on year"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "What can skew an inventory turnover ratio",
+  "intro": "Turns come from one division, and the division never fails. The two numbers you divide are where the ratio drifts, so look here before setting a target.",
+  "steps": [
+   {
+    "title": "The same twelve months on both sides",
+    "body": "Cost of goods and average inventory have to cover the same period. Pair a calendar year of sales with a fiscal year of stock and the ratio measures neither year."
+   },
+   {
+    "title": "Sales that never touched the shelf",
+    "body": "Drop shipped and cross docked product lands in cost of goods without sitting in stock. Leave it in and 12.0 turns reads faster than your shelf moves."
+   },
+   {
+    "title": "Write offs that flatter the ratio",
+    "body": "Writing off dead stock lowers average inventory without selling a single case. Turns go up, and nothing moved any faster."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Taking",
+  "h2": "Where VOS sits next to your turns",
+  "row_badge": "Your Cost of Goods Sold",
+  "h3": "Every turn starts with an account's order",
+  "body": "VOS does not calculate your turns or keep your books. It handles the order that takes stock off the shelf: customers speak it into the VOS app and review each line first.",
+  "bullets": [
+   "Sales reps freed to sell instead of taking orders",
+   "Orders reach you by email, EDI or API",
+   "Order history per account in one admin platform",
+   "Promos and confirmations reach accounts by notification and text"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after inventory turnover",
+  "intro": "Turns show how fast the shelf moves. These free calculators price the holding, follow the cash to collection, and set when to reorder.",
+  "cards": [
+   {
+    "title": "Build the rate behind the carrying cost",
+    "body": "Add capital, storage, spoilage, insurance and obsolescence into a carrying rate of your own, instead of a borrowed one.",
+    "link_label": "Open the inventory carrying cost calculator",
+    "link_slug": "inventory-carrying-cost-calculator",
+    "alt": "Percent sign, for building your own carrying rate"
+   },
+   {
+    "title": "Follow the cash after the case sells",
+    "body": "Check how fast accounts pay, how many days past terms they really run, and what financing that delay costs.",
+    "link_label": "Open the accounts receivable turnover calculator",
+    "link_slug": "accounts-receivable-turnover-calculator",
+    "alt": "Right arrow, for following the cash after a sale"
+   },
+   {
+    "title": "Set a trigger on the lines that matter",
+    "body": "Get the stock level that should start the next order, the days of cover left, and what a late truck costs in cases.",
+    "link_label": "Open the reorder point calculator",
+    "link_slug": "reorder-point-calculator",
+    "alt": "Stock level gauge, for setting a trigger per line"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "12.0 turns (intro, card 1, look step 2)",
+   "source": "rendered inventory turnover: $1,584,000 COGS / $132,000 average inventory defaults"
+  },
+  {
+   "figure": "the same twelve months",
+   "source": "not a calculator figure: the annual period both inputs must share"
+  }
+ ]
+}

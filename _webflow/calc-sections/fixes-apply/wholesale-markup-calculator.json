@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac73521a469d3c306f7aa87",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-wmarkup"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac73521a469d3c306f7aa87",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-wmarkup"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac73521a469d3c306f7aa87",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-wmarkup"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac73521a469d3c306f7aa87",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-wmarkup"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-wmarkup",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-wmarkup",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-wmarkup",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-wmarkup"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-markup-calculator#calculator",
+    "name": "Wholesale Markup Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/wholesale-markup-calculator",
+    "description": "Turn a landed cost into a wholesale price, see the real margin behind your markup, and what staples do to the blend.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The price your markup actually produces",
+     "The nine points between the two numbers",
+     "What the thin end of the book really holds",
+     "The one margin number worth planning against"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-markup-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is a good margin for a wholesaler?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Judge the blend, not the best line. Food distribution runs thin, and a book holding 19.5% across staples and specialty is doing better than one quoting 25.9% on a third of its sales."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the average markup from wholesale to retail?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It varies by category and by what the retailer needs to clear. Work it from their end: take the margin they require on the shelf and check the wholesale price that leaves them."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a blended margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Each tier's margin weighted by its share of sales. Staples at 15.3% across 60% of sales and specialty at 25.9% across the rest come to 19.5%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why is a 35% markup only a 25.9% margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The $7.70 of profit is the same either way. Markup divides it by the $22.00 you paid; margin divides it by the $29.70 you charged, and the bigger denominator gives the smaller number."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should staples carry the same markup as specialty?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Rarely. They are price-checked constantly, so they carry less. What matters is knowing the share of sales running through them, because that is what sets the blend."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you lift a blended margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Move sales mix before you move price. A point of sales shifting from staples to specialty does more for the blend than a point on the staple markup."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should a markup go on the supplier price or the landed cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Landed cost, always. Freight and handling are in the case before you price it, so marking up the invoice leaves that money uncollected on every case you sell."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-markup-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/wholesale-markup-calculator",
+    "name": "Wholesale Markup Calculator",
+    "description": "Turn a landed cost into a wholesale price, see the real margin behind your markup, and what staples do to the blend.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-markup-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-markup-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

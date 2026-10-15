@@ -1,0 +1,2790 @@
+{
+ "marginal cost calculator": {
+  "cost": 0.00215,
+  "status": "Ok.",
+  "result": {
+   "keyword": "marginal cost calculator",
+   "type": "organic",
+   "se_domain": "google.com",
+   "location_code": 2840,
+   "language_code": "en",
+   "check_url": "https://www.google.com/search?q=marginal%20cost%20calculator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+   "datetime": "2026-10-15 04:37:45 +00:00",
+   "spell": null,
+   "refinement_chips": null,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "video",
+    "related_searches"
+   ],
+   "se_results_count": 70,
+   "pages_count": 1,
+   "items_count": 12,
+   "items": [
+    {
+     "type": "organic",
+     "rank_group": 1,
+     "rank_absolute": 1,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+     "domain": "tipalti.com",
+     "title": "What is Marginal Cost? Formula & Examples",
+     "url": "https://tipalti.com/resources/learn/marginal-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://tipalti.com \u203a resources \u203a learn \u203a marginal-cost",
+     "website_name": "Tipalti",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Dec 17, 2025 \u2014 Marginal cost is the incremental cost when one additional unit of a product or service is produced, computed as change in total costs divided by\u00a0... Read more",
+     "pre_snippet": "12/17/2025 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal cost"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Read more",
+       "description": null,
+       "url": "https://tipalti.com/resources/learn/marginal-cost/#:~:text=Marginal%20cost%20is%20the%20incremental,divided%20by%20change%20in%20quantity.",
+       "domain": "tipalti.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2025-12-17 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "ai_overview",
+     "rank_group": 1,
+     "rank_absolute": 2,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+     "asynchronous_ai_overview": false,
+     "markdown": "Use the [Omni Calculator Marginal Cost](https://www.omnicalculator.com/finance/marginal-cost) or the [Pearson Marginal Cost Calculator](https://www.pearson.com/channels/calculators/marginal-cost-calculator) to compute extra production expenses.[[1]](https://www.omnicalculator.com/finance/marginal-cost)[[2]](https://www.pearson.com/channels/calculators/marginal-cost-calculator)\n\n### Formula\n\n- **Marginal Cost (MC):** \u0394 T C/\u0394 Q\n- **Change in Total Cost (\ud835\udeab\ud835\udc13\ud835\udc02):** New Total Cost minus Old Total Cost\n- **Change in Quantity (\ud835\udeab\ud835\udc10):** New Quantity minus Old Quantity[[1]](https://www.omnicalculator.com/finance/marginal-cost)[[2]](https://captaincalculator.com/economics/marginal-cost/)\n\n### How to Calculate\n\n1. Find your starting total cost and quantity.\n2. Find your new total cost and quantity after making more or fewer items.\n3. Subtract the old total cost from the new total cost.\n4. Subtract the old quantity from the new quantity.\n5. Divide the change in cost by the change in quantity.[[1]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)[[2]](https://corporatefinanceinstitute.com/resources/accounting/marginal-cost-formula/)[[3]](https://captaincalculator.com/economics/marginal-cost/)\n\n### Example\n\n- **Old Production:** 40 units cost $620\n- **New Production:** 50 units cost $800\n- **Change in Cost (\ud835\udeab\ud835\udc13\ud835\udc02):** $800 - $620 = $180\n- **Change in Quantity (\ud835\udeab\ud835\udc10):** 50 - 40 = 10\n- **Marginal Cost:** $180 / 10 = $18 per extra unit[[1]](https://www.pearson.com/channels/calculators/marginal-cost-calculator)\n\nIf you want to run a calculation, tell me:\n\n- Your **old quantity and total cost** \n- Your **new quantity and total cost** \n\nI can compute the marginal cost for you.",
+     "items": [
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Use the Omni Calculator Marginal Cost or the Pearson Marginal Cost Calculator to compute extra production expenses.",
+       "markdown": "Use the [Omni Calculator Marginal Cost](https://www.omnicalculator.com/finance/marginal-cost) or the [Pearson Marginal Cost Calculator](https://www.pearson.com/channels/calculators/marginal-cost-calculator) to compute extra production expenses.[[1]](https://www.omnicalculator.com/finance/marginal-cost)[[2]](https://www.pearson.com/channels/calculators/marginal-cost-calculator)",
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Omni Calculator Marginal Cost",
+         "description": null,
+         "url": "https://www.omnicalculator.com/finance/marginal-cost",
+         "domain": "www.omnicalculator.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Pearson Marginal Cost Calculator",
+         "description": null,
+         "url": "https://www.pearson.com/channels/calculators/marginal-cost-calculator",
+         "domain": "www.pearson.com"
+        }
+       ],
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Omni Calculator",
+         "domain": "www.omnicalculator.com",
+         "url": "https://www.omnicalculator.com/finance/marginal-cost",
+         "title": "Marginal Cost Calculator",
+         "text": "Definition: Marginal cost (MC) is the change in total cost (\u0394TC) divided by the change in total quantity (\u0394Q). Formula: MC = \u0394TC /"
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "www.pearson.com",
+         "domain": "www.pearson.com",
+         "url": "https://www.pearson.com/channels/calculators/marginal-cost-calculator",
+         "title": "Marginal Cost Calculator | MC, AC, AFC, AVC with Steps & Graphs",
+         "text": "Enter values. ... Best for the classic formula MC = \u0394TC / \u0394Q. ... Use Two production levels for questions like \u201cwhat is the margin..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Formula",
+       "text": "Marginal Cost (MC): \u0394 T C / \u0394 Q Change in Total Cost ( \ud835\udeab \ud835\udc13 \ud835\udc02 ): New Total Cost minus Old Total Cost Change in Quantity ( \ud835\udeab \ud835\udc10 ): New Quantity minus Old Quantity",
+       "markdown": "- **Marginal Cost (MC):** \u0394 T C/\u0394 Q\n- **Change in Total Cost (\ud835\udeab\ud835\udc13\ud835\udc02):** New Total Cost minus Old Total Cost\n- **Change in Quantity (\ud835\udeab\ud835\udc10):** New Quantity minus Old Quantity[[1]](https://www.omnicalculator.com/finance/marginal-cost)[[2]](https://captaincalculator.com/economics/marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Captain Calculator",
+         "domain": "captaincalculator.com",
+         "url": "https://captaincalculator.com/economics/marginal-cost/",
+         "title": "Marginal Cost Calculator (MC)",
+         "text": "Marginal Cost (MC) = Change in Total Cost (\u0394TC) \u00f7 Change in Quantity (\u0394Q) Where: Marginal Cost (MC) is the additional cost of prod..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "How to Calculate",
+       "text": "Find your starting total cost and quantity. Find your new total cost and quantity after making more or fewer items. Subtract the old total cost from the new total cost. Subtract the old quantity from the new quantity. Divide the change in cost by the change in quantity.",
+       "markdown": "1. Find your starting total cost and quantity.\n2. Find your new total cost and quantity after making more or fewer items.\n3. Subtract the old total cost from the new total cost.\n4. Subtract the old quantity from the new quantity.\n5. Divide the change in cost by the change in quantity.[[1]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)[[2]](https://corporatefinanceinstitute.com/resources/accounting/marginal-cost-formula/)[[3]](https://captaincalculator.com/economics/marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Oracle NetSuite",
+         "domain": "www.netsuite.com",
+         "url": "https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml",
+         "title": "How to Calculate Marginal Cost: Formula and Examples",
+         "text": "What industries benefit from knowing marginal cost? What's the difference between marginal cost and marginal revenue? Marginal cos..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Corporate Finance Institute",
+         "domain": "corporatefinanceinstitute.com",
+         "url": "https://corporatefinanceinstitute.com/resources/accounting/marginal-cost-formula/",
+         "title": "Marginal Cost Formula",
+         "text": "How to Use CFI's Marginal Cost Calculator How do you calculate the marginal cost? Download CFI's free Marginal Cost Calculator. If..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Example",
+       "text": "Old Production: 40 units cost $620 New Production: 50 units cost $800 Change in Cost ( \ud835\udeab \ud835\udc13 \ud835\udc02 ): $800 - $620 = $180 Change in Quantity ( \ud835\udeab \ud835\udc10 ): 50 - 40 = 10 Marginal Cost: $180 / 10 = $18 per extra unit",
+       "markdown": "- **Old Production:** 40 units cost $620\n- **New Production:** 50 units cost $800\n- **Change in Cost (\ud835\udeab\ud835\udc13\ud835\udc02):** $800 - $620 = $180\n- **Change in Quantity (\ud835\udeab\ud835\udc10):** 50 - 40 = 10\n- **Marginal Cost:** $180 / 10 = $18 per extra unit[[1]](https://www.pearson.com/channels/calculators/marginal-cost-calculator)",
+       "links": null,
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "If you want to run a calculation, tell me:Your old quantity and total cost\nYour new quantity and total cost\nI can compute the marginal cost for you.",
+       "markdown": "If you want to run a calculation, tell me:\n\n- Your **old quantity and total cost** \n- Your **new quantity and total cost** \n\nI can compute the marginal cost for you.",
+       "links": null,
+       "images": null,
+       "references": null
+      }
+     ],
+     "references": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 2,
+     "rank_absolute": 3,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]",
+     "domain": "www.symbolab.com",
+     "title": "Cost Problems Calculator",
+     "url": "https://www.symbolab.com/solver/cost-problems-calculator",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.symbolab.com \u203a solver \u203a cost-problems-calc...",
+     "website_name": "Symbolab Math Solver",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Free Cost Problems Calculator - solve cost word problems step by step.",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Free Cost Problems Calculator"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "people_also_ask",
+     "rank_group": 1,
+     "rank_absolute": 4,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]",
+     "items": [
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the formula for marginal average cost?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "How do I calculate MC?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "How to find TC from MC?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "Can you provide an example of a marginal cost?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "How do you calculate marginal cost?",
+       "seed_question": "Can you provide an example of a marginal cost?",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the marginal cost for dummies?",
+       "seed_question": "Can you provide an example of a marginal cost?",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 3,
+     "rank_absolute": 5,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+     "domain": "math.stackexchange.com",
+     "title": "derivatives - How do I calculate marginal cost?",
+     "url": "https://math.stackexchange.com/questions/3984300/how-do-i-calculate-marginal-cost",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://math.stackexchange.com \u203a questions \u203a how-do-i...",
+     "website_name": "Mathematics Stack Exchange",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Jan 13, 2021 \u2014 Link to excel Marginal calculation I want to know if I did the calculations for the terms mentioned in the question correctly. I am trying to see how ...",
+     "pre_snippet": "01/13/2021 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": null,
+     "links": [
+      {
+       "type": "link_element",
+       "title": "1 answer",
+       "description": null,
+       "url": "https://math.stackexchange.com/a/3984554",
+       "domain": "math.stackexchange.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2021-01-13 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 4,
+     "rank_absolute": 6,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]",
+     "domain": "play.google.com",
+     "title": "Marginal Cost Calculator - Apps on Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.calcon.marginal_cost_calculator&hl=en_CA",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://play.google.com \u203a store \u203a apps \u203a details \u203a id=com...",
+     "website_name": "Google Play",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Oct 13, 2022 \u2014 This marginal cost calculator helps you calculate the cost of an additional units produced. Easily calculate Marginal Cost. Updated on. Read more",
+     "pre_snippet": "10/13/2022 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "calculate the cost of an additional units produced"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Read more",
+       "description": null,
+       "url": "https://play.google.com/store/apps/details?id=com.calcon.marginal_cost_calculator&hl=en_CA",
+       "domain": "play.google.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2022-10-13 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "video",
+     "rank_group": 1,
+     "rank_absolute": 7,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[11]/div[1]",
+     "items": [
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Econ Examples",
+       "title": "How to calculate marginal cost from a table with example",
+       "timestamp": "2026-02-02 00:00:00 +00:00",
+       "url": "https://www.youtube.com/shorts/tiHRUW4wmTA"
+      },
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Corporate Finance Institute",
+       "title": "How To Calculate Marginal Cost (Formula)",
+       "timestamp": "2018-07-19 00:00:00 +00:00",
+       "url": "https://www.youtube.com/watch?v=Ualnn_YTMfI"
+      },
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Econ Examples",
+       "title": "How to find marginal cost from a table #marginalcost # ...",
+       "timestamp": "2025-08-29 00:00:00 +00:00",
+       "url": "https://www.youtube.com/shorts/wMMfD83y6aE"
+      },
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Zach's Math Zone",
+       "title": "How to Find Marginal Cost from Total Cost Function",
+       "timestamp": "2025-08-21 00:00:00 +00:00",
+       "url": "https://www.youtube.com/watch?v=Wf3BlNjNqmM"
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 5,
+     "rank_absolute": 8,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[12]/div[1]/div[1]/div[1]",
+     "domain": "www.youtube.com",
+     "title": "Marginal Cost and Average Total Cost",
+     "url": "https://www.youtube.com/watch?v=uPp1QZZKc8E",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "312.7K+ views  \u00b7  8 years ago",
+     "website_name": "YouTube\u00a0\u00b7\u00a0The Organic Chemistry Tutor",
+     "is_image": false,
+     "is_video": true,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": [
+      "is_video"
+     ],
+     "description": null,
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": null,
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2018-03-06 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 6,
+     "rank_absolute": 9,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[14]/div[1]/div[1]",
+     "domain": "ryanoconnellfinance.com",
+     "title": "Cost Curves Calculator (MC, ATC, AVC)",
+     "url": "https://ryanoconnellfinance.com/calculators/cost-curves-calculator/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://ryanoconnellfinance.com \u203a Calculators",
+     "website_name": "Ryan O'Connell, CFA",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Calculate and graph marginal cost, average total cost, average variable cost, and average fixed cost curves. Find the efficient scale of production.",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Calculate and graph marginal cost"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 7,
+     "rank_absolute": 10,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[16]/div[1]/div[1]",
+     "domain": "www.xero.com",
+     "title": "Marginal Cost Calculation: Everything you Need to Know",
+     "url": "https://www.xero.com/guides/calculating-marginal-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.xero.com \u203a calculating-marginal-cost",
+     "website_name": "Xero",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Oct 31, 2024 \u2014 You work out your contribution costs by subtracting your variable costs from your sales revenue. In general, when marginal cost is less than\u00a0... Read more",
+     "pre_snippet": "10/31/2024 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "marginal cost"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Read more",
+       "description": null,
+       "url": "https://www.xero.com/guides/calculating-marginal-cost/#:~:text=You%20work%20out%20your%20contribution,producing%20more%20units%20is%20profitable.",
+       "domain": "www.xero.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2024-10-31 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 8,
+     "rank_absolute": 11,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[18]/div[1]/div[1]",
+     "domain": "www.mathos.ai",
+     "title": "Free Marginal Cost Calculator",
+     "url": "https://www.mathos.ai/app/calculator/marginal-cost-calculator",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.mathos.ai \u203a app \u203a marginal-cost-calculator",
+     "website_name": "Mathos AI",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Solve math problems instantly with our marginal cost calculator ! Upload images, get step-by-step solutions, create graphs, and understand complex equations\u00a0...",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Solve math problems instantly with our marginal cost calculator"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "related_searches",
+     "rank_group": 1,
+     "rank_absolute": 12,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+     "items": [
+      "Marginal cost calculator excel",
+      "Marginal cost calculator economics",
+      "How to calculate marginal cost from a table",
+      "Marginal cost curve",
+      "Marginal cost and average cost",
+      "Average marginal cost",
+      "Marginal cost function",
+      "Marginal costing format"
+     ],
+     "rectangle": null
+    }
+   ]
+  }
+ },
+ "what is marginal cost": {
+  "cost": 0.00215,
+  "status": "Ok.",
+  "result": {
+   "keyword": "what is marginal cost",
+   "type": "organic",
+   "se_domain": "google.com",
+   "location_code": 2840,
+   "language_code": "en",
+   "check_url": "https://www.google.com/search?q=what%20is%20marginal%20cost&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+   "datetime": "2026-10-15 04:37:45 +00:00",
+   "spell": null,
+   "refinement_chips": null,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "video",
+    "related_searches"
+   ],
+   "se_results_count": 114,
+   "pages_count": 1,
+   "items_count": 12,
+   "items": [
+    {
+     "type": "ai_overview",
+     "rank_group": 1,
+     "rank_absolute": 1,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+     "asynchronous_ai_overview": false,
+     "markdown": "Marginal cost is `the extra cost a business spends to produce one additional unit of a product or service`.[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)\n\nAccording to the [Investopedia Guide to Marginal Cost](https://www.investopedia.com/terms/m/marginalcostofproduction.asp) , this concept is a core pillar of microeconomic theory and business decision-making.[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)\n\n### How to Calculate It\n\nYou find marginal cost by dividing the change in total production cost by the change in the number of units produced:[[1]](https://www.sage.com/en-us/blog/what-is-marginal-cost/)\n\nMarginal Cost (MC)=Change in Total Cost (\u0394 TC)Change in Quantity (\u0394 Q)Marginal Cost (MC) equals the fraction with numerator Change in Total Cost ( cap delta TC) and denominator Change in Quantity ( cap delta Q) end-fraction M a r g i n a l C o s t(M C)=C h a n g e i n T o t a l C o s t(\u0394 T C)C h a n g e i n Q u a n t i t y(\u0394 Q)\n\n- **Example:** If making 100 widgets costs $1,000, and making 101 widgets costs $1,009, the marginal cost of that 101st widget is **$9**.[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)\n\n### Key Components: Variable vs. Fixed Costs\n\n- **Variable costs drive marginal cost:** These are expenses that change depending on your production volume, such as raw materials, direct labor, and packaging.\n- **Fixed costs do not count:** Expenses like rent, insurance, or full-time office salaries stay the same whether you make one unit or a thousand, so they are ignored in marginal cost calculations.[[1]](https://en.wikipedia.org/wiki/Marginal_cost)[[2]](https://www.salesforce.com/au/commerce/marginal-cost/)[[3]](https://cashflowfrog.com/glossary/marginal-cost/)\n\n### Why Marginal Cost Matters\n\n- **Profit Maximization:** Companies achieve maximum profit when **marginal cost equals marginal revenue** (the money gained from selling that extra unit).\n- **Pricing & Scaling:** If the marginal cost to make an extra item is lower than its selling price, the business should scale production. If the marginal cost is higher than the price, producing more will lose money.\n- **Economies of Scale:** Early on, marginal costs often drop as a company becomes more efficient. Eventually, once facilities reach full capacity, diminishing returns kick in and marginal costs rise.[[1]](https://www.blockadvisors.com/resource-center/finance/how-to-calculate-marginal-cost/)[[2]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)[[3]](https://www.sage.com/en-us/blog/what-is-marginal-cost/)\n\nWould you like to walk through a **specific numerical example** for a business idea, or learn how marginal cost compares to **average cost**?",
+     "items": [
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Marginal cost is the extra cost a business spends to produce one additional unit of a product or service.",
+       "markdown": "Marginal cost is `the extra cost a business spends to produce one additional unit of a product or service`.[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Investopedia",
+         "domain": "www.investopedia.com",
+         "url": "https://www.investopedia.com/terms/m/marginalcostofproduction.asp",
+         "title": "Understanding Marginal Cost: Definition, Formula & Key Examples",
+         "text": "Key Takeaways * Marginal cost is the cost to produce one additional unit. * It helps determine optimal production levels and prici..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "According to the Investopedia Guide to Marginal Cost, this concept is a core pillar of microeconomic theory and business decision-making.",
+       "markdown": "According to the [Investopedia Guide to Marginal Cost](https://www.investopedia.com/terms/m/marginalcostofproduction.asp) , this concept is a core pillar of microeconomic theory and business decision-making.[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)",
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Investopedia Guide to Marginal Cost",
+         "description": null,
+         "url": "https://www.investopedia.com/terms/m/marginalcostofproduction.asp",
+         "domain": "www.investopedia.com"
+        }
+       ],
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "How to Calculate It",
+       "text": "You find marginal cost by dividing the change in total production cost by the change in the number of units produced:",
+       "markdown": "You find marginal cost by dividing the change in total production cost by the change in the number of units produced:[[1]](https://www.sage.com/en-us/blog/what-is-marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "www.sage.com",
+         "domain": "www.sage.com",
+         "url": "https://www.sage.com/en-us/blog/what-is-marginal-cost/",
+         "title": "Marginal Cost: definition and examples | Sage Advice US",
+         "text": "Definition: Marginal cost is the change in total production cost resulting from producing one additional unit. Formula: Marginal c..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Marginal Cost (MC) = Change in Total Cost ( \u0394 TC) Change in Quantity ( \u0394 Q) Marginal Cost (MC) equals the fraction with numerator Change in Total Cost ( cap delta TC) and denominator Change in Quantity ( cap delta Q) end-fraction M a r g i n a l C o s t ( M C ) = C h a n g e i n T o t a l C o s t ( \u0394 T C ) C h a n g e i n Q u a n t i t y ( \u0394 Q )",
+       "markdown": "Marginal Cost (MC)=Change in Total Cost (\u0394 TC)Change in Quantity (\u0394 Q)Marginal Cost (MC) equals the fraction with numerator Change in Total Cost ( cap delta TC) and denominator Change in Quantity ( cap delta Q) end-fraction M a r g i n a l C o s t(M C)=C h a n g e i n T o t a l C o s t(\u0394 T C)C h a n g e i n Q u a n t i t y(\u0394 Q)",
+       "links": null,
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Example: If making 100 widgets costs $1,000, and making 101 widgets costs $1,009, the marginal cost of that 101st widget is $9.",
+       "markdown": "- **Example:** If making 100 widgets costs $1,000, and making 101 widgets costs $1,009, the marginal cost of that 101st widget is **$9**.[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)",
+       "links": null,
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Key Components: Variable vs. Fixed Costs",
+       "text": "Variable costs drive marginal cost: These are expenses that change depending on your production volume, such as raw materials, direct labor, and packaging. Fixed costs do not count: Expenses like rent, insurance, or full-time office salaries stay the same whether you make one unit or a thousand, so they are ignored in marginal cost calculations.",
+       "markdown": "- **Variable costs drive marginal cost:** These are expenses that change depending on your production volume, such as raw materials, direct labor, and packaging.\n- **Fixed costs do not count:** Expenses like rent, insurance, or full-time office salaries stay the same whether you make one unit or a thousand, so they are ignored in marginal cost calculations.[[1]](https://en.wikipedia.org/wiki/Marginal_cost)[[2]](https://www.salesforce.com/au/commerce/marginal-cost/)[[3]](https://cashflowfrog.com/glossary/marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Wikipedia",
+         "domain": "en.wikipedia.org",
+         "url": "https://en.wikipedia.org/wiki/Marginal_cost",
+         "title": "Marginal cost",
+         "text": "Marginal cost In economics, marginal cost (MC) is the change in the total cost that arises when the quantity produced is increased..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Salesforce",
+         "domain": "www.salesforce.com",
+         "url": "https://www.salesforce.com/au/commerce/marginal-cost/",
+         "title": "What Is Marginal Cost, and How Do You Calculate It? | Salesforce AU",
+         "text": "Marginal cost (also known as incremental cost) is an economic term that refers to the extra cost of producing one additional unit ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Cash Flow Frog",
+         "domain": "cashflowfrog.com",
+         "url": "https://cashflowfrog.com/glossary/marginal-cost/",
+         "title": "Marginal Cost: Formula and Examples",
+         "text": "What Is Marginal Cost? The meaning of marginal cost is the cost to your business of producing an additional unit. The definition o..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Why Marginal Cost Matters",
+       "text": "Profit Maximization: Companies achieve maximum profit when marginal cost equals marginal revenue (the money gained from selling that extra unit). Pricing & Scaling: If the marginal cost to make an extra item is lower than its selling price, the business should scale production. If the marginal cost is higher than the price, producing more will lose money. Economies of Scale: Early on, marginal costs often drop as a company becomes more efficient. Eventually, once facilities reach full capacity, diminishing returns kick in and marginal costs rise.",
+       "markdown": "- **Profit Maximization:** Companies achieve maximum profit when **marginal cost equals marginal revenue** (the money gained from selling that extra unit).\n- **Pricing & Scaling:** If the marginal cost to make an extra item is lower than its selling price, the business should scale production. If the marginal cost is higher than the price, producing more will lose money.\n- **Economies of Scale:** Early on, marginal costs often drop as a company becomes more efficient. Eventually, once facilities reach full capacity, diminishing returns kick in and marginal costs rise.[[1]](https://www.blockadvisors.com/resource-center/finance/how-to-calculate-marginal-cost/)[[2]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)[[3]](https://www.sage.com/en-us/blog/what-is-marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Block Advisors",
+         "domain": "www.blockadvisors.com",
+         "url": "https://www.blockadvisors.com/resource-center/finance/how-to-calculate-marginal-cost/",
+         "title": "Marginal Cost: Definition, Formula, and Examples",
+         "text": "Key Takeaways \u2022 Marginal cost definition and formula: Marginal cost (MC) is the expense required to produce one additional unit of..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Would you like to walk through a specific numerical example for a business idea, or learn how marginal cost compares to average cost ?",
+       "markdown": "Would you like to walk through a **specific numerical example** for a business idea, or learn how marginal cost compares to **average cost**?",
+       "links": null,
+       "images": null,
+       "references": null
+      }
+     ],
+     "references": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 1,
+     "rank_absolute": 2,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+     "domain": "www.xero.com",
+     "title": "Marginal Cost Calculation: Everything you Need to Know",
+     "url": "https://www.xero.com/guides/calculating-marginal-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.xero.com \u203a calculating-marginal-cost",
+     "website_name": "Xero",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "A marginal cost is the incremental cost to a business of producing one extra unit of a product or service. It's an important concept in cost accounting",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "the incremental cost to a business of producing one extra unit of a product or service"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "people_also_ask",
+     "rank_group": 1,
+     "rank_absolute": 3,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]",
+     "items": [
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the best definition of a marginal cost?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "How do I calculate mc?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the definition of marginal cost Quizlet?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the difference between average cost and marginal cost?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "How do I calculate marginal cost?",
+       "seed_question": "What is the difference between average cost and marginal cost?",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What happens if marginal cost is less than average cost?",
+       "seed_question": "What is the difference between average cost and marginal cost?",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 2,
+     "rank_absolute": 4,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+     "domain": "study.com",
+     "title": "Marginal Cost | Definition, Equation, Formula & Examples",
+     "url": "https://study.com/academy/lesson/marginal-cost-definition-equation-formula.html",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://study.com \u203a ... \u203a Business 100: Intro to Business",
+     "website_name": "Study.com",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal cost is the increase or decrease in the total cost a business will incur by producing one more unit of a product or serving one more customer.",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "the increase or decrease in the total cost a business will incur"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 3,
+     "rank_absolute": 5,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+     "domain": "medium.com",
+     "title": "Understanding Marginal Costs",
+     "url": "https://medium.com/alpha-beta-blog/understanding-marginal-costs-34b9f6f42f61",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "20+ likes  \u00b7  6 years ago",
+     "website_name": "Medium\u00a0\u00b7\u00a0Tony Yiu",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "marginal cost is the derivative of total cost (with respect to quantity produced). In other words, it tells us how total cost changes as we\u00a0...",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "marginal cost is the derivative of total cost"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "video",
+     "rank_group": 1,
+     "rank_absolute": 6,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]",
+     "items": [
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Helpful Professor Explains!",
+       "title": "What are Marginal Costs? (Easy Explanation)",
+       "timestamp": "2025-03-16 00:00:00 +00:00",
+       "url": "https://www.youtube.com/watch?v=tG0U9NdR1WM"
+      },
+      {
+       "type": "video_element",
+       "source": "Study.com",
+       "title": "Video: Marginal Cost | Definition, Equation, Formula & Examples",
+       "timestamp": "2015-05-18 00:00:00 +00:00",
+       "url": "https://study.com/academy/lesson/video/marginal-cost-definition-equation-formula.html"
+      },
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 VPcontroller",
+       "title": "Understanding Marginal Cost: The Key to Economic Decision ...",
+       "timestamp": "2025-04-26 00:00:00 +00:00",
+       "url": "https://www.youtube.com/watch?v=EpLUh1ehv6A"
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 4,
+     "rank_absolute": 7,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+     "domain": "pilot.com",
+     "title": "What is Marginal Cost? | Pilot Glossary",
+     "url": "https://pilot.com/glossary/marginal-cost",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://pilot.com \u203a glossary \u203a marginal-cost",
+     "website_name": "Pilot: Bookkeeping",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal Cost refers to the additional cost incurred when producing one more unit of a product or service. Marginal Cost (MC) = Change in Total Cost / Change\u00a0...",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal Cost",
+      "cost",
+      "Cost"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 5,
+     "rank_absolute": 8,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+     "domain": "quickbooks.intuit.com",
+     "title": "Marginal cost: Definition, formula & examples - QuickBooks",
+     "url": "https://quickbooks.intuit.com/ca/resources/running-a-business/what-is-marginal-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://quickbooks.intuit.com \u203a running-a-business \u203a w...",
+     "website_name": "QuickBooks",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Jul 25, 2025 \u2014 Marginal cost is the additional cost to produce one extra unit of a good or service. It's widely known as the marginal cost of production or\u00a0... Read more",
+     "pre_snippet": "07/25/2025 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "the additional cost to produce one extra unit of a good or service"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Read more",
+       "description": null,
+       "url": "https://quickbooks.intuit.com/ca/resources/running-a-business/what-is-marginal-cost/#:~:text=Marginal%20cost%20is%20the%20additional,of%20production%20or%20incremental%20cost.",
+       "domain": "quickbooks.intuit.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2025-07-25 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 6,
+     "rank_absolute": 9,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+     "domain": "www.quora.com",
+     "title": "What is an easy-to-understand definition of marginal cost?",
+     "url": "https://www.quora.com/What-is-an-easy-to-understand-definition-of-marginal-cost",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "50+ answers  \u00b7  10 years ago",
+     "website_name": "Quora",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "What is an easy-to-understand definition of marginal cost?",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": null,
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 7,
+     "rank_absolute": 10,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+     "domain": "www.princeps.com",
+     "title": "Marginal cost: meaning and utilization - Princeps",
+     "url": "https://www.princeps.com/savings/marginal-cost-meaning-and-utilization/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.princeps.com \u203a savings \u203a marginal-cost-me...",
+     "website_name": "princeps.com",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal cost, on the other hand, corresponds to the cost of producing the last unit produced (or one additional unit), which is different from average cost. Read more",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "cost of producing the last unit produced"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Read more",
+       "description": null,
+       "url": "https://www.princeps.com/savings/marginal-cost-meaning-and-utilization/#:~:text=Marginal%20cost%2C%20on%20the%20other,is%20different%20from%20average%20cost.",
+       "domain": "www.princeps.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 8,
+     "rank_absolute": 11,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+     "domain": "www.masterclass.com",
+     "title": "Economics 101: What Is the Marginal Cost Formula? Learn ...",
+     "url": "https://www.masterclass.com/articles/economics-101-what-is-the-marginal-cost-formula",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.masterclass.com \u203a articles \u203a economics-101...",
+     "website_name": "MasterClass",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Oct 12, 2022 \u2014 Marginal cost is a representation of the costs incurred when additional units of a product are produced. When physical products (such as a steel\u00a0... Read more",
+     "pre_snippet": "10/12/2022 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal cost"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Read more",
+       "description": null,
+       "url": "https://www.masterclass.com/articles/economics-101-what-is-the-marginal-cost-formula#:~:text=Marginal%20cost%20is%20a%20representation,the%20primary%20cost%20factors%20are%3A",
+       "domain": "www.masterclass.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2022-10-12 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "related_searches",
+     "rank_group": 1,
+     "rank_absolute": 12,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+     "items": [
+      "What is marginal cost in business",
+      "What is marginal cost example",
+      "What is marginal cost formula",
+      "How to calculate marginal cost from a table",
+      "Marginal revenue",
+      "Marginal cost calculator",
+      "Marginal cost curve",
+      "Marginal cost function"
+     ],
+     "rectangle": null
+    }
+   ]
+  }
+ },
+ "how to calculate marginal cost": {
+  "cost": 0.00215,
+  "status": "Ok.",
+  "result": {
+   "keyword": "how to calculate marginal cost",
+   "type": "organic",
+   "se_domain": "google.com",
+   "location_code": 2840,
+   "language_code": "en",
+   "check_url": "https://www.google.com/search?q=how%20to%20calculate%20marginal%20cost&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+   "datetime": "2026-10-15 04:37:46 +00:00",
+   "spell": null,
+   "refinement_chips": null,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "video",
+    "short_videos",
+    "related_searches"
+   ],
+   "se_results_count": 99,
+   "pages_count": 1,
+   "items_count": 12,
+   "items": [
+    {
+     "type": "ai_overview",
+     "rank_group": 1,
+     "rank_absolute": 1,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+     "asynchronous_ai_overview": false,
+     "markdown": "To calculate marginal cost, `divide the change in total production costs by the change in the quantity of output produced`.[[1]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)[[2]](https://www.sage.com/en-us/blog/what-is-marginal-cost/)\n\nYou can find a tool to run these numbers using the [Omni Calculator Marginal Cost Tool](https://www.omnicalculator.com/finance/marginal-cost) , or follow the standard formula outlined by the [NetSuite Marginal Cost Guide](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml).[[1]](https://www.omnicalculator.com/finance/marginal-cost)[[2]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)\n\n### The Formula\n\nMarginal Cost (MC)=Change in Total Cost(\u0394 T C)Change in Quantity(\u0394 Q)Marginal Cost (MC) equals the fraction with numerator Change in Total Cost  open paren cap delta cap T cap C close paren and denominator Change in Quantity  open paren cap delta cap Q close paren end-fraction M a r g i n a l C o s t(M C)=C h a n g e i n T o t a l C o s t(\u0394\ud835\udc47\ud835\udc36)C h a n g e i n Q u a n t i t y(\u0394\ud835\udc44)\n\nAlternatively, because fixed costs do not change as production increases, you can calculate it using only variable costs:[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)\n\nMarginal Cost (MC)=Change in Variable Cost(\u0394 V C)Change in Quantity(\u0394 Q)Marginal Cost (MC) equals the fraction with numerator Change in Variable Cost  open paren cap delta cap V cap C close paren and denominator Change in Quantity  open paren cap delta cap Q close paren end-fraction M a r g i n a l C o s t(M C)=C h a n g e i n V a r i a b l e C o s t(\u0394\ud835\udc49\ud835\udc36)C h a n g e i n Q u a n t i t y(\u0394\ud835\udc44)\n\n\n\n---\n\n### Key Components\n\n- **Change in Total Cost (\u0394 TC):** The difference between your total production cost after increasing output and your total cost before the increase.[[1]](https://uk.indeed.com/career-advice/career-development/how-to-calculate-marginal-cost)[[2]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)\n- **Change in Quantity (\u0394 Q):** The difference in the number of units produced.[[1]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)[[2]](https://uk.indeed.com/career-advice/career-development/how-to-calculate-marginal-cost)\n- **Variable Costs:** Expenses that shift with production volume, such as raw materials, packaging, and direct labor.[[1]](https://www.xero.com/us/glossary/marginal-cost/)[[2]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)\n- **Fixed Costs:** Expenses that stay the same regardless of how many units you make (such as rent or insurance), which are excluded from the calculation.[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)[[2]](https://www.xero.com/us/glossary/marginal-cost/)\n\n\n\n---\n\n### Step-by-Step Example\n\n1. **Current Production:** It costs $320 to produce 100 candles.\n2. **Increased Production:** It costs $325 to produce 101 candles.\n3. **Calculate the Change in Cost (\u0394 TC):** $325 - $320 = $5\n4. **Calculate the Change in Quantity (\u0394 Q):** 101 - 100 = 1\n5. **Divide Cost by Quantity:**$5 1=$5[[1]](https://www.xero.com/us/glossary/marginal-cost/)\n\nThe marginal cost to produce the 101st candle is **$5**.[[1]](https://www.xero.com/us/glossary/marginal-cost/)If you have **specific numbers** for your production costs and quantities, share them here and I can help walk you through the math.",
+     "items": [
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "To calculate marginal cost, divide the change in total production costs by the change in the quantity of output produced.",
+       "markdown": "To calculate marginal cost, `divide the change in total production costs by the change in the quantity of output produced`.[[1]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)[[2]](https://www.sage.com/en-us/blog/what-is-marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Oracle NetSuite",
+         "domain": "www.netsuite.com",
+         "url": "https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml",
+         "title": "How to Calculate Marginal Cost: Formula and Examples",
+         "text": "What industries benefit from knowing marginal cost? What's the difference between marginal cost and marginal revenue? Marginal cos..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "www.sage.com",
+         "domain": "www.sage.com",
+         "url": "https://www.sage.com/en-us/blog/what-is-marginal-cost/",
+         "title": "Marginal Cost: definition and examples | Sage Advice US",
+         "text": "What is the formula for marginal cost? To effectively calculate marginal cost, you need to understand the formula behind it. This ..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "You can find a tool to run these numbers using the Omni Calculator Marginal Cost Tool, or follow the standard formula outlined by the NetSuite Marginal Cost Guide.",
+       "markdown": "You can find a tool to run these numbers using the [Omni Calculator Marginal Cost Tool](https://www.omnicalculator.com/finance/marginal-cost) , or follow the standard formula outlined by the [NetSuite Marginal Cost Guide](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml).[[1]](https://www.omnicalculator.com/finance/marginal-cost)[[2]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)",
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Omni Calculator Marginal Cost Tool",
+         "description": null,
+         "url": "https://www.omnicalculator.com/finance/marginal-cost",
+         "domain": "www.omnicalculator.com"
+        },
+        {
+         "type": "link_element",
+         "title": "NetSuite Marginal Cost Guide",
+         "description": null,
+         "url": "https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml",
+         "domain": "www.netsuite.com"
+        }
+       ],
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Omni Calculator",
+         "domain": "www.omnicalculator.com",
+         "url": "https://www.omnicalculator.com/finance/marginal-cost",
+         "title": "Marginal Cost Calculator",
+         "text": "Knowing how to calculate the marginal cost is the first step toward finding the best quantity to produce. The second step is to co..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "The Formula",
+       "text": "Marginal Cost (MC) = Change in Total Cost ( \u0394 T C ) Change in Quantity ( \u0394 Q ) Marginal Cost (MC) equals the fraction with numerator Change in Total Cost  open paren cap delta cap T cap C close paren and denominator Change in Quantity  open paren cap delta cap Q close paren end-fraction M a r g i n a l C o s t ( M C ) = C h a n g e i n T o t a l C o s t ( \u0394 \ud835\udc47 \ud835\udc36 ) C h a n g e i n Q u a n t i t y ( \u0394 \ud835\udc44 )",
+       "markdown": "Marginal Cost (MC)=Change in Total Cost(\u0394 T C)Change in Quantity(\u0394 Q)Marginal Cost (MC) equals the fraction with numerator Change in Total Cost  open paren cap delta cap T cap C close paren and denominator Change in Quantity  open paren cap delta cap Q close paren end-fraction M a r g i n a l C o s t(M C)=C h a n g e i n T o t a l C o s t(\u0394\ud835\udc47\ud835\udc36)C h a n g e i n Q u a n t i t y(\u0394\ud835\udc44)",
+       "links": null,
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Alternatively, because fixed costs do not change as production increases, you can calculate it using only variable costs:",
+       "markdown": "Alternatively, because fixed costs do not change as production increases, you can calculate it using only variable costs:[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Investopedia",
+         "domain": "www.investopedia.com",
+         "url": "https://www.investopedia.com/terms/m/marginalcostofproduction.asp",
+         "title": "Understanding Marginal Cost: Definition, Formula & Key Examples",
+         "text": "How to Calculate Marginal Cost The basic formula for marginal cost is: Marginal Cost = (Change in Total Cost) \u00f7 (Change in Quantit..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Marginal Cost (MC) = Change in Variable Cost ( \u0394 V C ) Change in Quantity ( \u0394 Q ) Marginal Cost (MC) equals the fraction with numerator Change in Variable Cost  open paren cap delta cap V cap C close paren and denominator Change in Quantity  open paren cap delta cap Q close paren end-fraction M a r g i n a l C o s t ( M C ) = C h a n g e i n V a r i a b l e C o s t ( \u0394 \ud835\udc49 \ud835\udc36 ) C h a n g e i n Q u a n t i t y ( \u0394 \ud835\udc44 )",
+       "markdown": "Marginal Cost (MC)=Change in Variable Cost(\u0394 V C)Change in Quantity(\u0394 Q)Marginal Cost (MC) equals the fraction with numerator Change in Variable Cost  open paren cap delta cap V cap C close paren and denominator Change in Quantity  open paren cap delta cap Q close paren end-fraction M a r g i n a l C o s t(M C)=C h a n g e i n V a r i a b l e C o s t(\u0394\ud835\udc49\ud835\udc36)C h a n g e i n Q u a n t i t y(\u0394\ud835\udc44)",
+       "links": null,
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Key Components",
+       "text": "Change in Total Cost (\u0394 TC): The difference between your total production cost after increasing output and your total cost before the increase. Change in Quantity (\u0394 Q): The difference in the number of units produced. Variable Costs: Expenses that shift with production volume, such as raw materials, packaging, and direct labor. Fixed Costs: Expenses that stay the same regardless of how many units you make (such as rent or insurance), which are excluded from the calculation.",
+       "markdown": "- **Change in Total Cost (\u0394 TC):** The difference between your total production cost after increasing output and your total cost before the increase.[[1]](https://uk.indeed.com/career-advice/career-development/how-to-calculate-marginal-cost)[[2]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)\n- **Change in Quantity (\u0394 Q):** The difference in the number of units produced.[[1]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)[[2]](https://uk.indeed.com/career-advice/career-development/how-to-calculate-marginal-cost)\n- **Variable Costs:** Expenses that shift with production volume, such as raw materials, packaging, and direct labor.[[1]](https://www.xero.com/us/glossary/marginal-cost/)[[2]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)\n- **Fixed Costs:** Expenses that stay the same regardless of how many units you make (such as rent or insurance), which are excluded from the calculation.[[1]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)[[2]](https://www.xero.com/us/glossary/marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Indeed",
+         "domain": "uk.indeed.com",
+         "url": "https://uk.indeed.com/career-advice/career-development/how-to-calculate-marginal-cost",
+         "title": "How to calculate marginal cost and why it's useful | Indeed.com UK",
+         "text": "How to calculate marginal cost. Before we can explore the marginal cost formula, it's important to understand two key components o..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Xero",
+         "domain": "www.xero.com",
+         "url": "https://www.xero.com/us/glossary/marginal-cost/",
+         "title": "What is marginal cost? Definition, formula and examples | Xero US",
+         "text": "Learn what marginal cost is, how to calculate it and why it matters for your small business. * Published Thursday 23 July 2026 * U..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Step-by-Step Example",
+       "text": "Current Production: It costs $320 to produce 100 candles. Increased Production: It costs $325 to produce 101 candles. Calculate the Change in Cost (\u0394 TC): $325 - $320 = $5 Calculate the Change in Quantity (\u0394 Q): 101 - 100 = 1 Divide Cost by Quantity: $ 5 1 = $ 5",
+       "markdown": "1. **Current Production:** It costs $320 to produce 100 candles.\n2. **Increased Production:** It costs $325 to produce 101 candles.\n3. **Calculate the Change in Cost (\u0394 TC):** $325 - $320 = $5\n4. **Calculate the Change in Quantity (\u0394 Q):** 101 - 100 = 1\n5. **Divide Cost by Quantity:**$5 1=$5[[1]](https://www.xero.com/us/glossary/marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "The marginal cost to produce the 101st candle is $5.",
+       "markdown": "The marginal cost to produce the 101st candle is **$5**.[[1]](https://www.xero.com/us/glossary/marginal-cost/)",
+       "links": null,
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "If you have specific numbers for your production costs and quantities, share them here and I can help walk you through the math.",
+       "markdown": "If you have **specific numbers** for your production costs and quantities, share them here and I can help walk you through the math.",
+       "links": null,
+       "images": null,
+       "references": null
+      }
+     ],
+     "references": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 1,
+     "rank_absolute": 2,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+     "domain": "www.omnicalculator.com",
+     "title": "Marginal Cost Calculator",
+     "url": "https://www.omnicalculator.com/finance/marginal-cost",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.omnicalculator.com \u203a finance \u203a marginal-c...",
+     "website_name": "Omni Calculator",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "The formula for the marginal cost is quite simple: MC = \u0394TC/\u0394Q where: MC - marginal cost; \u0394TC - revenue: \u0394TC = \u0394TR",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "MC = \u0394TC/\u0394Q"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "people_also_ask",
+     "rank_group": 1,
+     "rank_absolute": 3,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]",
+     "items": [
+      {
+       "type": "people_also_ask_element",
+       "title": "How to calculate margin cost?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the formula for calculating marginal cost per unit?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "How to calculate the mc?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the MC formula?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "Is there a formula for marginal cost?",
+       "seed_question": "What is the MC formula?",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "How to calculate the marginal?",
+       "seed_question": "What is the MC formula?",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "video",
+     "rank_group": 1,
+     "rank_absolute": 4,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[6]/div[1]",
+     "items": [
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Econ Examples",
+       "title": "How to find marginal cost from a table #marginalcost # ...",
+       "timestamp": "2025-08-29 00:00:00 +00:00",
+       "url": "https://www.youtube.com/shorts/wMMfD83y6aE"
+      },
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Econ Examples",
+       "title": "How to calculate marginal cost from total cost table #economics ...",
+       "timestamp": "2025-08-20 00:00:00 +00:00",
+       "url": "https://www.youtube.com/shorts/UU3KXyoKNg8"
+      },
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Econ Examples",
+       "title": "How to find marginal cost #economicsterm #marginalcost # ...",
+       "timestamp": "2025-08-27 00:00:00 +00:00",
+       "url": "https://www.youtube.com/shorts/mz8jjQk3PMU"
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 2,
+     "rank_absolute": 5,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[1]",
+     "domain": "www.wallstreetprep.com",
+     "title": "Marginal Cost | Formula + Calculator",
+     "url": "https://www.wallstreetprep.com/knowledge/marginal-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.wallstreetprep.com \u203a knowledge \u203a margina...",
+     "website_name": "Wall Street Prep",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "The final step is to calculate the marginal cost by dividing the change in total costs by the change in quantity. Marginal Cost = (Change in Costs) \u00f7 (Change\u00a0...",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "calculate",
+      "marginal cost",
+      "costs",
+      "Marginal Cost",
+      "Costs"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "short_videos",
+     "rank_group": 1,
+     "rank_absolute": 6,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]",
+     "title": "Short videos",
+     "items": [
+      {
+       "type": "short_videos_element",
+       "title": "How to find marginal cost from a table #marginalcost # ...",
+       "url": "https://www.youtube.com/shorts/wMMfD83y6aE",
+       "domain": "google.com",
+       "source": "Econ Examples"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "How to calculate marginal cost from total cost table #economics ...",
+       "url": "https://www.youtube.com/shorts/UU3KXyoKNg8",
+       "domain": "google.com",
+       "source": "Econ Examples"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "How to find marginal cost #economicsterm #marginalcost # ...",
+       "url": "https://www.youtube.com/shorts/mz8jjQk3PMU",
+       "domain": "google.com",
+       "source": "Econ Examples"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "What Is Marginal Cost in Economics?",
+       "url": "https://www.facebook.com/sanskritiias/videos/what-is-marginal-cost-in-economics-marginal-cost-formula-marginalcost-economics-/4516217795359740/",
+       "domain": "google.com",
+       "source": "Sanskriti IAS"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "How to calculate marginal cost from a table with example",
+       "url": "https://www.youtube.com/shorts/tiHRUW4wmTA",
+       "domain": "google.com",
+       "source": "Econ Examples"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "Calculating Marginal Cost Formula Explained",
+       "url": "https://www.youtube.com/shorts/6XnlFLCLj7E",
+       "domain": "google.com",
+       "source": "VedSquare"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "What Is Marginal Cost in Economics? - Sanskriti IAS |UPSC",
+       "url": "https://www.youtube.com/shorts/nvB4d9KbTJw",
+       "domain": "google.com",
+       "source": "SANSKRITI IAS"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "How to Determine the Marginal Cost (MC) Function",
+       "url": "https://www.youtube.com/shorts/JoO1DywJbaA",
+       "domain": "google.com",
+       "source": "Musa Nectar"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "Calculate Marginal Factor Cost (MFC) in under 3 minutes! \u23f1",
+       "url": "https://www.youtube.com/shorts/eulWFZIySVw",
+       "domain": "google.com",
+       "source": "Econ Examples"
+      },
+      {
+       "type": "short_videos_element",
+       "title": "What Is Marginal Cost in Economics?",
+       "url": "https://x.com/sanskritiias/status/2108535451275460888/video/1",
+       "domain": "google.com",
+       "source": "Sanskriti IAS"
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 3,
+     "rank_absolute": 7,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]",
+     "domain": "www.sage.com",
+     "title": "Marginal Cost: definition and examples | Sage Advice US",
+     "url": "https://www.sage.com/en-us/blog/what-is-marginal-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.sage.com \u203a Blog \u203a Money Matters",
+     "website_name": "sage.com",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Nov 12, 2024 \u2014 Marginal Cost (MC) = Change in Total Cost (\u0394TC) / Change in Quantity (\u0394Q) You calculate marginal cost by dividing the change in total cost by\u00a0...",
+     "pre_snippet": "11/12/2024 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal Cost (MC) = Change in Total Cost (\u0394TC) / Change in Quantity (\u0394Q"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2024-11-12 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 4,
+     "rank_absolute": 8,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[14]/div[1]/div[1]",
+     "domain": "www.ebsco.com",
+     "title": "Marginal cost | Business and Management",
+     "url": "https://www.ebsco.com/research-starters/business-and-management/marginal-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.ebsco.com \u203a research-starters \u203a marginal-cost",
+     "website_name": "EBSCO",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "To calculate marginal cost, one of two equations can be used. For the first equation, divide the change in total cost by the change in quantity of output.",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "divide the change in total cost by the change in quantity of output"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 5,
+     "rank_absolute": 9,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]",
+     "domain": "www.netsuite.com",
+     "title": "How to Calculate Marginal Cost: Formula and Examples",
+     "url": "https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.netsuite.com \u203a ... \u203a Accounting",
+     "website_name": "Oracle NetSuite",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Jun 24, 2024 \u2014 The formula for marginal cost is: Marginal cost (MC) = Change in total cost / Change in quantity of output",
+     "pre_snippet": "06/24/2024 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "formula",
+      "marginal cost",
+      "Marginal cost",
+      "cost"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Marginal Cost Explained",
+       "description": null,
+       "url": "https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml#target2",
+       "domain": "www.netsuite.com"
+      },
+      {
+       "type": "link_element",
+       "title": "Marginal Cost Formula",
+       "description": null,
+       "url": "https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml#target3",
+       "domain": "www.netsuite.com"
+      },
+      {
+       "type": "link_element",
+       "title": "How to Calculate Marginal Cost",
+       "description": null,
+       "url": "https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml#target4",
+       "domain": "www.netsuite.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2024-06-24 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 6,
+     "rank_absolute": 10,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]",
+     "domain": "www.mida.so",
+     "title": "Calculate Marginal Cost: Formula and Examples",
+     "url": "https://www.mida.so/blog/marginal-cost",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.mida.so \u203a Blog",
+     "website_name": "Mida.so",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Dec 5, 2025 \u2014 Marginal cost = change in total cost \u00f7 change in quantity \u2014 it tells you whether producing the next unit is profitable at your current price\u00a0... Read more",
+     "pre_snippet": "12/05/2025 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal cost = change in total cost \u00f7 change in quantity"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Read more",
+       "description": null,
+       "url": "https://www.mida.so/blog/marginal-cost#:~:text=Marginal%20cost%20%3D%20change%20in,at%20your%20current%20price%20point.",
+       "domain": "www.mida.so"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2025-12-05 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 7,
+     "rank_absolute": 11,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[20]/div[1]/div[1]",
+     "domain": "www.reddit.com",
+     "title": "How do I figure out the marginal cost here? : r/askmath",
+     "url": "https://www.reddit.com/r/askmath/comments/1i9yp72/how_do_i_figure_out_the_marginal_cost_here/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "4 comments  \u00b7  1 year ago",
+     "website_name": "Reddit\u00a0\u00b7\u00a0r/askmath",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Hello! I have been having trouble with this problem for the past hour or so as I'm stuck on what exactly I'm supposed to do here\n\nI know Marginal ...",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": null,
+     "links": [
+      {
+       "type": "link_element",
+       "title": "4 answers",
+       "description": null,
+       "url": "https://www.reddit.com/r/askmath/comments/1i9yp72/comment/m962j4j/",
+       "domain": "www.reddit.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "related_searches",
+     "rank_group": 1,
+     "rank_absolute": 12,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+     "items": [
+      "How to calculate marginal cost from a table",
+      "How to calculate marginal revenue",
+      "How to calculate marginal cost with example",
+      "How to calculate marginal cost percentage",
+      "How to calculate marginal cost using differentiation",
+      "How to calculate marginal cost in Excel",
+      "How to calculate marginal cost using Variable cost",
+      "How to calculate marginal cost and benefit"
+     ],
+     "rectangle": null
+    }
+   ]
+  }
+ },
+ "marginal cost vs average cost": {
+  "cost": 0.00215,
+  "status": "Ok.",
+  "result": {
+   "keyword": "marginal cost vs average cost",
+   "type": "organic",
+   "se_domain": "google.com",
+   "location_code": 2840,
+   "language_code": "en",
+   "check_url": "https://www.google.com/search?q=marginal%20cost%20vs%20average%20cost&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+   "datetime": "2026-10-15 04:37:48 +00:00",
+   "spell": null,
+   "refinement_chips": null,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "video",
+    "related_searches"
+   ],
+   "se_results_count": 109,
+   "pages_count": 1,
+   "items_count": 12,
+   "items": [
+    {
+     "type": "ai_overview",
+     "rank_group": 1,
+     "rank_absolute": 1,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+     "asynchronous_ai_overview": false,
+     "markdown": "`Average cost (AC) is the total cost divided by the total quantity of output produced, while marginal cost (MC) is the change in total cost that comes from producing one additional unit of output`.[[1]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)[[2]](https://www.scribd.com/presentation/897472550/Average-Costs-and-Marginal-Costs)\n\n### Average Cost (AC)\n\n- **Definition:** Total cost (T C cap T cap C\ud835\udc47\ud835\udc36) divided by the total number of units (Q cap Q\ud835\udc44).[[1]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)\n- **Formula:** (\\text{Average Cost} = \\frac{\\text{Total Cost}}{\\text{Output (Q cap Q\ud835\udc44)}} = \\text{Average Fixed Cost (AFC)} + \\text{Average Variable Cost (AVC)})[[1]](https://courses.lumenlearning.com/wm-microeconomics/chapter/average-costs-and-curves/)[[2]](https://en.wikipedia.org/wiki/Cost_curve)\n- **Purpose:** Measures overall production efficiency and guides pricing strategies.[[1]](https://study.com/academy/lesson/video/how-marginal-costs-differ-from-average-total-costs.html)[[2]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)\n- **Shape:** Typically **U-shaped** on a graph because initial fixed costs spread out over more units (lowering average cost), while diminishing returns eventually cause costs to rise at higher outputs.[[1]](https://www.youtube.com/watch?v=D0P0fo9fqFI&t=6)[[2]](https://en.wikipedia.org/wiki/Average_cost)\n\n### Marginal Cost (MC)\n\n- **Definition:** The incremental or added cost of producing **one extra unit** of a product or service.[[1]](https://www.scribd.com/presentation/897472550/Average-Costs-and-Marginal-Costs)[[2]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)\n- **Formula:** (\\text{Marginal Cost} = \\frac{\\text{Change in Total Cost (\u0394\ud835\udc47\ud835\udc36)}}{\\text{Change in Quantity (\u0394\ud835\udc44)}})[[1]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)\n- **Purpose:** Helps companies decide whether to expand production by comparing it to marginal revenue. As detailed on [Investopedia](https://www.investopedia.com/terms/m/marginalcostofproduction.asp) , production is generally optimized where marginal cost equals marginal revenue.[[1]](https://tipalti.com/resources/learn/marginal-cost/)[[2]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)[[3]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)\n- **Shape:** Also U-shaped and primarily driven by variable costs (such as labor and raw materials) since fixed costs do not change with an extra unit.[[1]](https://en.wikipedia.org/wiki/Marginal_cost)[[2]](https://tipalti.com/resources/learn/marginal-cost/)[[3]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)\n\n### Key Relationship Between AC and MC\n\n- **When MC is below AC:** Average cost **decreases**.\n- **When MC is above AC:** Average cost **increases**.\n- **When MC equals AC:** Average cost is at its **minimum point** (the optimal scale of production).[[1]](https://www.pearson.com/channels/microeconomics/learn/brian/ch-10-the-costs-of-production/the-relationship-between-average-cost-and-marginal-cost)[[2]](https://en.wikipedia.org/wiki/Cost_curve)[[3]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)\n\nFor a deeper breakdown of cost curves and production theory, you can review resources like [Tipalti](https://tipalti.com/resources/learn/marginal-cost/) or [Wikipedia](https://en.wikipedia.org/wiki/Marginal_cost).[[1]](https://tipalti.com/resources/learn/marginal-cost/)[[2]](https://en.wikipedia.org/wiki/Marginal_cost)Would you like to work through a **numerical example** or look at how these curves behave in the **short run versus the long run**?",
+     "items": [
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Average cost (AC) is the total cost divided by the total quantity of output produced, while marginal cost (MC) is the change in total cost that comes from producing one additional unit of output.",
+       "markdown": "`Average cost (AC) is the total cost divided by the total quantity of output produced, while marginal cost (MC) is the change in total cost that comes from producing one additional unit of output`.[[1]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)[[2]](https://www.scribd.com/presentation/897472550/Average-Costs-and-Marginal-Costs)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Scribd",
+         "domain": "www.scribd.com",
+         "url": "https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2",
+         "title": "Average and Marginal Cost Analysis | PDF | Marginal Cost | Average Cost",
+         "text": "Definitions: Average cost (AC) is total cost divided by output (TC/Q), comprising average fixed and variable costs; marginal cost ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Scribd",
+         "domain": "www.scribd.com",
+         "url": "https://www.scribd.com/presentation/897472550/Average-Costs-and-Marginal-Costs",
+         "title": "Average vs Marginal Costs Explained | PDF",
+         "text": "AVERAGE COSTS AND MARGINAL COSTS Average Costs \uf0b4 Average Cost, also called average total cost (ATC), is the cost per output unit. ..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Average Cost (AC)",
+       "text": "Definition: Total cost ( T C cap T cap C \ud835\udc47 \ud835\udc36 ) divided by the total number of units ( Q cap Q \ud835\udc44 ). Formula: (\\text{Average Cost} = \\frac{\\text{Total Cost}}{\\text{Output ( Q cap Q \ud835\udc44 )}} = \\text{Average Fixed Cost (AFC)} + \\text{Average Variable Cost (AVC)}) Purpose: Measures overall production efficiency and guides pricing strategies. Shape: Typically U-shaped on a graph because initial fixed costs spread out over more units (lowering average cost), while diminishing returns eventually cause costs to rise at higher outputs.",
+       "markdown": "- **Definition:** Total cost (T C cap T cap C\ud835\udc47\ud835\udc36) divided by the total number of units (Q cap Q\ud835\udc44).[[1]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)\n- **Formula:** (\\text{Average Cost} = \\frac{\\text{Total Cost}}{\\text{Output (Q cap Q\ud835\udc44)}} = \\text{Average Fixed Cost (AFC)} + \\text{Average Variable Cost (AVC)})[[1]](https://courses.lumenlearning.com/wm-microeconomics/chapter/average-costs-and-curves/)[[2]](https://en.wikipedia.org/wiki/Cost_curve)\n- **Purpose:** Measures overall production efficiency and guides pricing strategies.[[1]](https://study.com/academy/lesson/video/how-marginal-costs-differ-from-average-total-costs.html)[[2]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)\n- **Shape:** Typically **U-shaped** on a graph because initial fixed costs spread out over more units (lowering average cost), while diminishing returns eventually cause costs to rise at higher outputs.[[1]](https://www.youtube.com/watch?v=D0P0fo9fqFI&t=6)[[2]](https://en.wikipedia.org/wiki/Average_cost)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Lumen Learning",
+         "domain": "courses.lumenlearning.com",
+         "url": "https://courses.lumenlearning.com/wm-microeconomics/chapter/average-costs-and-curves/",
+         "title": "Average Costs and Curves | Microeconomics",
+         "text": "Cost Categories: Fixed costs remain constant regardless of output; variable costs change with production levels; total cost equals..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Wikipedia",
+         "domain": "en.wikipedia.org",
+         "url": "https://en.wikipedia.org/wiki/Cost_curve",
+         "title": "Cost curve",
+         "text": "short-run average fixed cost (SRAFC) * Relationship between different curves Total Cost = Fixed Costs (FC) + Variable Costs (VC) ="
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Study.com",
+         "domain": "study.com",
+         "url": "https://study.com/academy/lesson/video/how-marginal-costs-differ-from-average-total-costs.html",
+         "title": "Video: How Marginal Costs Differ from Average & Total Costs - Study.com",
+         "text": "This video explains the concept of marginal cost, which is the cost to produce one additional unit of a good. The video uses a toy..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=D0P0fo9fqFI&t=6",
+         "title": "Average vs. Marginal Costs | Microeconomics",
+         "text": "it's important for firms to understand the different ways that the cost of items can be measured. the average cost is used to meas..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Wikipedia",
+         "domain": "en.wikipedia.org",
+         "url": "https://en.wikipedia.org/wiki/Average_cost",
+         "title": "Average cost",
+         "text": "Average cost Short-run costs are those that vary with almost no time lagging. Labor cost and the cost of raw materials are short-r..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Marginal Cost (MC)",
+       "text": "Definition: The incremental or added cost of producing one extra unit of a product or service. Formula: (\\text{Marginal Cost} = \\frac{\\text{Change in Total Cost ( \u0394 \ud835\udc47 \ud835\udc36 )}}{\\text{Change in Quantity ( \u0394 \ud835\udc44 )}}) Purpose: Helps companies decide whether to expand production by comparing it to marginal revenue. As detailed on Investopedia, production is generally optimized where marginal cost equals marginal revenue. Shape: Also U-shaped and primarily driven by variable costs (such as labor and raw materials) since fixed costs do not change with an extra unit.",
+       "markdown": "- **Definition:** The incremental or added cost of producing **one extra unit** of a product or service.[[1]](https://www.scribd.com/presentation/897472550/Average-Costs-and-Marginal-Costs)[[2]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)\n- **Formula:** (\\text{Marginal Cost} = \\frac{\\text{Change in Total Cost (\u0394\ud835\udc47\ud835\udc36)}}{\\text{Change in Quantity (\u0394\ud835\udc44)}})[[1]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)\n- **Purpose:** Helps companies decide whether to expand production by comparing it to marginal revenue. As detailed on [Investopedia](https://www.investopedia.com/terms/m/marginalcostofproduction.asp) , production is generally optimized where marginal cost equals marginal revenue.[[1]](https://tipalti.com/resources/learn/marginal-cost/)[[2]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)[[3]](https://www.investopedia.com/terms/m/marginalcostofproduction.asp)\n- **Shape:** Also U-shaped and primarily driven by variable costs (such as labor and raw materials) since fixed costs do not change with an extra unit.[[1]](https://en.wikipedia.org/wiki/Marginal_cost)[[2]](https://tipalti.com/resources/learn/marginal-cost/)[[3]](https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml)",
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Investopedia",
+         "description": null,
+         "url": "https://www.investopedia.com/terms/m/marginalcostofproduction.asp",
+         "domain": "www.investopedia.com"
+        }
+       ],
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Oracle NetSuite",
+         "domain": "www.netsuite.com",
+         "url": "https://www.netsuite.com/portal/resource/articles/accounting/marginal-cost.shtml",
+         "title": "How to Calculate Marginal Cost: Formula and Examples",
+         "text": "What Is Marginal Cost? Marginal Cost Explained Marginal cost \u2014 the incremental cost of producing one extra unit of a product \u2014 goe..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Tipalti",
+         "domain": "tipalti.com",
+         "url": "https://tipalti.com/resources/learn/marginal-cost/",
+         "title": "What is Marginal Cost? Formula & Examples - Tipalti",
+         "text": "What is Marginal Cost? Marginal cost is the incremental cost when one additional unit of a product or service is produced, compute..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Investopedia",
+         "domain": "www.investopedia.com",
+         "url": "https://www.investopedia.com/terms/m/marginalcostofproduction.asp",
+         "title": "Understanding Marginal Cost: Definition, Formula & Key Examples",
+         "text": "Definition: Marginal cost is the change in total or variable cost incurred from producing one additional unit of output. Formula: ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "Wikipedia",
+         "domain": "en.wikipedia.org",
+         "url": "https://en.wikipedia.org/wiki/Marginal_cost",
+         "title": "Marginal cost - Wikipedia",
+         "text": "Marginal cost is different from average cost, which is the total cost divided by the number of units produced. At each level of pr..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": "Key Relationship Between AC and MC",
+       "text": "When MC is below AC: Average cost decreases. When MC is above AC: Average cost increases. When MC equals AC: Average cost is at its minimum point (the optimal scale of production).",
+       "markdown": "- **When MC is below AC:** Average cost **decreases**.\n- **When MC is above AC:** Average cost **increases**.\n- **When MC equals AC:** Average cost is at its **minimum point** (the optimal scale of production).[[1]](https://www.pearson.com/channels/microeconomics/learn/brian/ch-10-the-costs-of-production/the-relationship-between-average-cost-and-marginal-cost)[[2]](https://en.wikipedia.org/wiki/Cost_curve)[[3]](https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2)",
+       "links": null,
+       "images": null,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "left",
+         "source": "www.pearson.com",
+         "domain": "www.pearson.com",
+         "url": "https://www.pearson.com/channels/microeconomics/learn/brian/ch-10-the-costs-of-production/the-relationship-between-average-cost-and-marginal-cost",
+         "title": "The Relationship Between Average Cost and Marginal Cost - Pearson",
+         "text": "What is the relationship between marginal cost and average total cost in production? Marginal cost (MC) is the cost of producing o..."
+        }
+       ]
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "For a deeper breakdown of cost curves and production theory, you can review resources like Tipalti or Wikipedia.",
+       "markdown": "For a deeper breakdown of cost curves and production theory, you can review resources like [Tipalti](https://tipalti.com/resources/learn/marginal-cost/) or [Wikipedia](https://en.wikipedia.org/wiki/Marginal_cost).[[1]](https://tipalti.com/resources/learn/marginal-cost/)[[2]](https://en.wikipedia.org/wiki/Marginal_cost)",
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Tipalti",
+         "description": null,
+         "url": "https://tipalti.com/resources/learn/marginal-cost/",
+         "domain": "tipalti.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Wikipedia",
+         "description": null,
+         "url": "https://en.wikipedia.org/wiki/Marginal_cost",
+         "domain": "en.wikipedia.org"
+        }
+       ],
+       "images": null,
+       "references": null
+      },
+      {
+       "type": "ai_overview_element",
+       "position": "left",
+       "title": null,
+       "text": "Would you like to work through a numerical example or look at how these curves behave in the short run versus the long run ?",
+       "markdown": "Would you like to work through a **numerical example** or look at how these curves behave in the **short run versus the long run**?",
+       "links": null,
+       "images": null,
+       "references": null
+      }
+     ],
+     "references": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 1,
+     "rank_absolute": 2,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+     "domain": "www.reddit.com",
+     "title": "I'm confused tho. What's the diff between marginal cost and ...",
+     "url": "https://www.reddit.com/r/Accounting/comments/ham7o7/im_confused_tho_whats_the_diff_between_marginal/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "4 comments  \u00b7  6 years ago",
+     "website_name": "Reddit\u00a0\u00b7\u00a0r/Accounting",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal cost refers to the change in total cost to every quantity produced. Variable cost, on the other end, refers to a component of the total\u00a0... Read more",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal cost refers to the change in total cost to every quantity produced"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Read more",
+       "description": null,
+       "url": "https://www.reddit.com/r/Accounting/comments/ham7o7/im_confused_tho_whats_the_diff_between_marginal/#:~:text=Marginal%20cost%20refers%20to%20the,which%20is%20fixed%20per%20unit.",
+       "domain": "www.reddit.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "people_also_ask",
+     "rank_group": 1,
+     "rank_absolute": 3,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]",
+     "items": [
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the relationship between average cost and marginal cost?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What is the difference between marginal average and total costs?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What happens if marginal cost is less than average cost?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "What is a marginal cost example?",
+       "seed_question": null,
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "Can you explain marginal cost in a simple way?",
+       "seed_question": "What is a marginal cost example?",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      },
+      {
+       "type": "people_also_ask_element",
+       "title": "How do I calculate marginal cost?",
+       "seed_question": "What is a marginal cost example?",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+       "expanded_element": [
+        {
+         "type": "people_also_ask_ai_overview_expanded_element",
+         "items": null,
+         "references": null,
+         "asynchronous_ai_overview": true
+        }
+       ]
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 2,
+     "rank_absolute": 4,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+     "domain": "en.wikipedia.org",
+     "title": "Marginal cost",
+     "url": "https://en.wikipedia.org/wiki/Marginal_cost",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://en.wikipedia.org \u203a wiki \u203a Marginal_cost",
+     "website_name": "Wikipedia",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal cost is different from average cost, which is the total cost divided by the number of units produced. marginal cost includes all costs that vary with\u00a0...",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "total cost divided by the number of units produced"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Cost functions and relationship...",
+       "description": null,
+       "url": "https://en.wikipedia.org/wiki/Marginal_cost#Cost_functions_and_relationship_to_average_cost",
+       "domain": "en.wikipedia.org"
+      },
+      {
+       "type": "link_element",
+       "title": "Private versus social marginal...",
+       "description": null,
+       "url": "https://en.wikipedia.org/wiki/Marginal_cost#Private_versus_social_marginal_cost",
+       "domain": "en.wikipedia.org"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 3,
+     "rank_absolute": 5,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+     "domain": "www.pearson.com",
+     "title": "The Relationship Between Average Cost and Marginal Cost",
+     "url": "https://www.pearson.com/channels/microeconomics/learn/brian/ch-10-the-costs-of-production/the-relationship-between-average-cost-and-marginal-cost",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.pearson.com \u203a ... \u203a Microeconomics",
+     "website_name": "pearson.com",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal cost refers to the cost of producing one additional unit of a good or service, while average cost is the total cost divided by the number of units\u00a0...",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal cost refers to the cost of producing one additional unit of a good or service"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "video",
+     "rank_group": 1,
+     "rank_absolute": 6,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]",
+     "items": [
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 The Organic Chemistry Tutor",
+       "title": "Marginal Cost and Average Total Cost",
+       "timestamp": "2018-03-06 00:00:00 +00:00",
+       "url": "https://www.youtube.com/watch?v=uPp1QZZKc8E"
+      },
+      {
+       "type": "video_element",
+       "source": "YouTube \u00b7 Course Hero",
+       "title": "Average vs. Marginal Costs | Microeconomics",
+       "timestamp": "2018-11-09 00:00:00 +00:00",
+       "url": "https://www.youtube.com/watch?v=D0P0fo9fqFI"
+      },
+      {
+       "type": "video_element",
+       "source": "Study.com",
+       "title": "Video: How Marginal Costs Differ from Average & Total Costs",
+       "timestamp": "2025-07-04 00:00:00 +00:00",
+       "url": "https://study.com/academy/lesson/video/how-marginal-costs-differ-from-average-total-costs.html"
+      }
+     ],
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 4,
+     "rank_absolute": 7,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+     "domain": "tipalti.com",
+     "title": "What is Marginal Cost? Formula & Examples",
+     "url": "https://tipalti.com/resources/learn/marginal-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://tipalti.com \u203a resources \u203a learn \u203a marginal-cost",
+     "website_name": "Tipalti",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Dec 17, 2025 \u2014 When average cost increases, marginal cost is greater than average cost. When average cost decreases, marginal cost is less than average cost. Read more",
+     "pre_snippet": "12/17/2025 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "When average cost increases, marginal cost is greater than average cost"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Understanding Marginal Cost...",
+       "description": null,
+       "url": "https://tipalti.com/resources/learn/marginal-cost/#understanding-marginal-cost-in-business",
+       "domain": "tipalti.com"
+      },
+      {
+       "type": "link_element",
+       "title": "What is Marginal Cost Pricing?",
+       "description": null,
+       "url": "https://tipalti.com/resources/learn/marginal-cost/#what-is-marginal-cost-pricing?",
+       "domain": "tipalti.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2025-12-17 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 5,
+     "rank_absolute": 8,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+     "domain": "www.scribd.com",
+     "title": "Average and Marginal Cost Analysis | PDF",
+     "url": "https://www.scribd.com/document/579699959/Economics-Non-graded-Assignment-2",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.scribd.com \u203a document \u203a Economics-Non-...",
+     "website_name": "Scribd",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal cost is used to determine if producing another unit is profitable, while average cost measures overall performance.",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal cost is used to determine if producing another unit is profitable"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 6,
+     "rank_absolute": 9,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+     "domain": "economics.stackexchange.com",
+     "title": "What is the difference between average cost and marginal ...",
+     "url": "https://economics.stackexchange.com/questions/8648/what-is-the-difference-between-average-cost-and-marginal-cost",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://economics.stackexchange.com \u203a questions \u203a wha...",
+     "website_name": "Economics Stack Exchange",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Oct 11, 2015 \u2014 AC(q)=C(q)q MC(q)=\u2202C(q)\u2202q These are the definitions. But I don't understand what the difference is.  Is the average cost the cost per unit while ...",
+     "pre_snippet": "10/11/2015 00:00:00",
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": null,
+     "links": [
+      {
+       "type": "link_element",
+       "title": "What is the difference between marginal cost and ...",
+       "description": null,
+       "url": "https://economics.stackexchange.com/questions/9561/what-is-the-difference-between-marginal-cost-and-average-cost",
+       "domain": "economics.stackexchange.com"
+      },
+      {
+       "type": "link_element",
+       "title": "Relationship between average cost and marginal cost",
+       "description": null,
+       "url": "https://economics.stackexchange.com/questions/56068/relationship-between-average-cost-and-marginal-cost",
+       "domain": "economics.stackexchange.com"
+      },
+      {
+       "type": "link_element",
+       "title": "More results from economics.stackexchange.com",
+       "description": null,
+       "url": "https://www.google.com/search?q=marginal+cost+vs+average+cost+site:economics.stackexchange.com&sca_esv=3d2c9b4d72a2561a&hl=en&gl=US&sxsrf=APpeQnubFBbKwUP1nlJMNXUZkxv1aEImZA:1792039066862&sa=X&ved=2ahUKEwi9woPgmbuXAxUsibAFHRdtNUwQrQIoAnoECEkQAw",
+       "domain": "www.google.com"
+      }
+     ],
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": "2015-10-11 00:00:00 +00:00",
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 7,
+     "rank_absolute": 10,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+     "domain": "courses.worldcampus.psu.edu",
+     "title": "Unit Cost, Average Cost, Marginal and Variable Cost",
+     "url": "https://courses.worldcampus.psu.edu/welcome/acctg340/001/content/02_lesson/03_topic/05_page.html",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://courses.worldcampus.psu.edu \u203a content \u203a 05_page",
+     "website_name": "Penn State World Campus",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal cost is not an average. It is the cost of providing one more unit of a good or service. marginal cost is curvilinear, simply meaning a curved line.",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal cost is not an average"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "organic",
+     "rank_group": 8,
+     "rank_absolute": 11,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+     "domain": "www.studypug.com",
+     "title": "Marginal Cost and Minimizing Average Cost",
+     "url": "https://www.studypug.com/calculus-help/marginal-cost-and-minimizing-cost-and-average-cost/",
+     "cache_url": null,
+     "related_search_url": null,
+     "breadcrumb": "https://www.studypug.com \u203a calculus-help \u203a marginal-co...",
+     "website_name": "StudyPug",
+     "is_image": false,
+     "is_video": false,
+     "is_featured_snippet": false,
+     "is_malicious": false,
+     "is_web_story": false,
+     "checks": null,
+     "description": "Marginal cost is the cost of one more unit; average cost is cost per unit. Learn why marginal cost crosses average cost at its minimum, with calculus.",
+     "pre_snippet": null,
+     "extended_snippet": null,
+     "images": null,
+     "amp_version": false,
+     "rating": null,
+     "price": null,
+     "highlighted": [
+      "Marginal cost is the cost of one more unit; average cost is cost per unit"
+     ],
+     "links": null,
+     "faq": null,
+     "extended_people_also_search": null,
+     "about_this_result": null,
+     "related_result": null,
+     "timestamp": null,
+     "rectangle": null
+    },
+    {
+     "type": "related_searches",
+     "rank_group": 1,
+     "rank_absolute": 12,
+     "page": 1,
+     "position": "left",
+     "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+     "items": [
+      "Marginal cost vs average cost reddit",
+      "Marginal cost vs average cost graph",
+      "Marginal cost vs average cost formula",
+      "Marginal cost vs average cost examples",
+      "Marginal cost example",
+      "Marginal cost vs average cost pdf",
+      "Marginal cost vs average variable cost",
+      "Marginal cost meaning"
+     ],
+     "rectangle": null
+    }
+   ]
+  }
+ }
+}

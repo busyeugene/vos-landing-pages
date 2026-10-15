@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac7866e071fb41c4807eab0",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-carrycost"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac7866e071fb41c4807eab0",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-carrycost"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac7866e071fb41c4807eab0",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-carrycost"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac7866e071fb41c4807eab0",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-carrycost"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-carrycost",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-carrycost",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-carrycost",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-carrycost"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/inventory-carrying-cost-calculator#calculator",
+    "name": "Inventory Carrying Cost Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/inventory-carrying-cost-calculator",
+    "description": "Build your carrying rate from capital, storage, spoilage, insurance, and obsolescence, then see what holding inventory actually costs you a year.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "A carrying rate built, not borrowed",
+     "Which component is actually costing you",
+     "The same rate in three units",
+     "What 10% less stock is worth"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/inventory-carrying-cost-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What are examples of carrying costs?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Five lines you already pay: the cost of capital tied up in the stock, storage and handling, shrink and spoilage, insurance and taxes, and obsolescence. On $132,000 of average inventory they run $11,880, $9,240, $7,920, $2,640 and $3,960, which is $35,640 a year. The purchase cost of the goods is not one of them."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What are the four types of inventory costs?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Purchase cost, ordering cost, carrying cost and shortage cost. This tool does the third one only, so the $35,640 is what holding the stock costs you and not what buying it cost. Carrying cost is the one that never arrives as an invoice, which is why it gets left at a guess."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the formula for calculating annual inventory carrying cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Add the five component rates to get your carrying rate, then multiply it by average inventory at cost. 9 plus 7 plus 6 plus 2 plus 3 is 27%, and 27% of $132,000 is $35,640 a year. Use an average of twelve month end balances, because a peak month reads high."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How to determine inventory carrying cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Build it from the lines you already pay. Capital is what your credit line costs. Storage is rent plus racking plus the labor to touch a case twice, spoilage is last year's dump log over average inventory, insurance comes off the policy, and obsolescence is what you marked down to clear. Added up they are 9, 7, 6, 2 and 3 points, a 27% rate, which is $35,640 on $132,000 of average stock."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the formula for calculating inventory cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The inventory carrying cost formula is your carrying rate times average inventory value. Divide the answer by twelve for a month, $2,970 here, or by cases a year to cost one case. Inventory cost in the wider sense also carries the purchase price of the goods, which this leaves out on purpose."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much inventory should you carry?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Less than feels comfortable, because every dollar of average stock costs you 27 cents a year. Taking average inventory down 10% to $118,800 saves $3,564 a year and no price has to change. Set the floor on the service you owe your accounts, then stop."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the 80/20 rule in inventory?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Roughly a fifth of your items carry most of the inventory value, so price those first. The rate is the same across the warehouse, but it lands unevenly: the lines that sit longest pay the spoilage and obsolescence points hardest, 6 points and 3 points of the 27. Work the top of that list and the $35,640 moves."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/inventory-carrying-cost-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/inventory-carrying-cost-calculator",
+    "name": "Inventory Carrying Cost Calculator",
+    "description": "Build your carrying rate from capital, storage, spoilage, insurance, and obsolescence, then see what holding inventory actually costs you a year.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/inventory-carrying-cost-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/inventory-carrying-cost-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

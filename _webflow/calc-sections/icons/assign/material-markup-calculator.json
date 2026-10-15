@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "alert"
+ ],
+ "who": [
+  "person",
+  "price-tag",
+  "trend-up",
+  "clipboard",
+  "office",
+  "team",
+  "stack",
+  "warehouse",
+  "search"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "sliders"
+ ],
+ "notes": "whatis 3 (freight in, not freight out) is alert: truck is already on the page."
+}

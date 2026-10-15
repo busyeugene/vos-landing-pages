@@ -1,0 +1,266 @@
+{
+ "el": [
+  {
+   "label": "tools_banner.heading",
+   "set_text": {
+    "id": {
+     "component": "6ac72b948f277e012d8d7584",
+     "element": "4590e4b1-e797-fe36-9056-58de9ded19b5"
+    },
+    "text": "See how VOS keeps every account's order guide current"
+   }
+  },
+  {
+   "label": "tools_banner.body",
+   "set_text": {
+    "id": {
+     "component": "6ac72b948f277e012d8d7584",
+     "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
+    },
+    "text": "VoiceOrder Solutions builds each customer a personalized order guide from your own SKUs and pricing, and your team updates it from one admin platform."
+   }
+  },
+  {
+   "label": "tools_cards[5].body",
+   "set_text": {
+    "id": {
+     "component": "6ac72b948f277e012d8d7584",
+     "element": "458fcf8e-5c98-2915-581f-0d6dcd51482a"
+    },
+    "text": "If the pack size on a price sheet is stale, every comparison run off it is wrong."
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac72b948f277e012d8d7584",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-unit"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac72b948f277e012d8d7584",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-unit"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac72b948f277e012d8d7584",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-unit"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac72b948f277e012d8d7584",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-unit"
+   }
+  }
+ ],
+ "alt": [
+  {
+   "label": "icons.tools[5]",
+   "element_id": {
+    "component": "6ac72b948f277e012d8d7584",
+    "element": "6a32c258-b80e-da12-2c5f-d0ea57f499d8"
+   },
+   "settings": [
+    {
+     "key": "altText",
+     "static_text": {
+      "value": "Verified check icon for keeping pack sizes accurate on price sheets"
+     }
+    }
+   ]
+  }
+ ],
+ "props": [
+  {
+   "label": "cta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6ac72b948f277e012d8d7584",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+      "type": "string",
+      "string_value": "Put the right items in front of every account"
+     },
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "VoiceOrder Solutions gives every customer a personalized order guide built from your own SKUs and pricing, so each account orders the items you mean to sell it."
+     }
+    ]
+   }
+  }
+ ],
+ "expect": {
+  "text": {
+   "4590e4b1-e797-fe36-9056-58de9ded19b5": "See how VOS keeps every account's order guide current",
+   "4590e4b1-e797-fe36-9056-58de9ded19b8": "VoiceOrder Solutions builds each customer a personalized order guide from your own SKUs and pricing, and your team updates it from one admin platform.",
+   "458fcf8e-5c98-2915-581f-0d6dcd51482a": "If the pack size on a price sheet is stale, every comparison run off it is wrong."
+  },
+  "alt": {
+   "6a32c258-b80e-da12-2c5f-d0ea57f499d8": "Verified check icon for keeping pack sizes accurate on price sheets"
+  },
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-unit",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-unit",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-unit",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-unit"
+  },
+  "props": {
+   "cta/be41c71a-4d6f-3276-eb73-5cf5dd4f25f6": "Put the right items in front of every account",
+   "cta/5e0d3c39-9fde-6661-5b10-e1aef4f809a4": "VoiceOrder Solutions gives every customer a personalized order guide built from your own SKUs and pricing, so each account orders the items you mean to sell it."
+  }
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/unit-price-calculator#calculator",
+    "name": "Unit Price Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/unit-price-calculator",
+    "description": "Compare two pack sizes on the same base, per unit and per pound, and see which one is actually the cheaper buy.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "What each pack costs you per unit",
+     "What each pack costs you per pound",
+     "Which pack is actually the better buy",
+     "The number to quote and the number to check"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/unit-price-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do you calculate the unit price?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Divide the pack price by the number of units in the pack. A $24.00 case of 12 works out at $2.00 a unit."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you calculate cost per pound?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Multiply the units by the net weight of each, then divide the pack price by that total. $24.00 over 12 units of 2 lb is 24 lb, so $1.00 a pound."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Which one should you compare on?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Per pound, whenever the two packs hold different unit sizes. Per unit is only a fair comparison when a unit of one is the same thing as a unit of the other."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can the cheaper pack per unit be the more expensive buy?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes, and it is the usual case. Option B is $1.67 a unit against A's $2.00, but B's units are lighter, so per pound B costs $1.11 and A costs $1.00."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What if you do not know the net weight?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The calculator falls back to a per-unit comparison. Treat that as a rough answer and get the weight off the spec sheet before you move an account onto the pack."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should landed cost go in instead of the supplier price?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes, if you have it. Freight and handling attach to the pack, so a bulky case can lose a comparison it won on the supplier invoice."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you spot a supplier shrinking a pack?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Watch cost per pound, not pack price. A unit going from 2 lb to 1.5 lb at the same price is a price rise that never shows on the invoice."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/unit-price-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/unit-price-calculator",
+    "name": "Unit Price Calculator",
+    "description": "Compare two pack sizes on the same base, per unit and per pound, and see which one is actually the cheaper buy.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/unit-price-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/unit-price-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "slug": "purchase-price-variance-calculator",
+ "status": "DRAFT 2026-10-15: written from BRIEF.md against the marginal cost reference. Not yet approved. Fragment is price-variance-calculator.html; buy-side cost accounting only, nothing statistical.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is purchase price variance?",
+  "intro": "Purchase price variance is the gap between what you paid for an item and its standard price, times the quantity bought. Paying more is unfavorable and paying less is favorable. It measures price alone, with quantity held still. It is how a buyer checks whether a supplier held the agreed price.",
+  "cards": [
+   {
+    "title": "When the gap is counted",
+    "body": "Teams differ on when they count it: when the goods arrive or when the invoice posts. Pick one point and hold it, or one month will not compare with the next.",
+    "alt": "Plus sign, for the point at which the variance is recorded"
+   },
+   {
+    "title": "Shorter payment terms slip past it",
+    "body": "Payment terms. A supplier can hold the $22.00 price and give you fewer days to pay. Your cost of buying rises, and no variance shows it.",
+    "alt": "Minus sign, for payment terms a price variance does not see"
+   },
+   {
+    "title": "Where a distributor starts",
+    "body": "Start with the lines you buy most. A 1.8% gap on a slow item is small change. The same gap on your busiest line repeats on every delivery.",
+    "alt": "Light bulb, for starting with the lines bought in the most volume"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a purchase price variance calculator",
+  "intro": "Purchasing and finance teams at food distributors use it when supplier invoices are checked against agreed prices. Anyone who approves invoices or owns a cost budget should see each gap in dollars.",
+  "chips": [
+   {
+    "label": "Owners watching cost of goods",
+    "alt": "Person, for owners watching cost of goods"
+   },
+   {
+    "label": "Buyers holding suppliers to contract",
+    "alt": "Check mark, for buyers holding suppliers to the contract price"
+   },
+   {
+    "label": "Finance teams tracking cost trends",
+    "alt": "Two people, for finance teams tracking cost trends by item"
+   },
+   {
+    "label": "Receiving clerks checking deliveries",
+    "alt": "Clipboard, for receiving clerks checking deliveries against the invoice"
+   },
+   {
+    "label": "Accounts payable approving invoices",
+    "alt": "Office building, for accounts payable approving supplier invoices"
+   },
+   {
+    "label": "Category managers renewing contracts",
+    "alt": "Speech bubble, for category managers renewing supplier contracts"
+   },
+   {
+    "label": "Pricing staff passing on increases",
+    "alt": "Slider controls, for pricing staff passing a cost increase on"
+   },
+   {
+    "label": "Purchasing leads recovering overcharges",
+    "alt": "Mobile phone, for purchasing leads recovering overcharges"
+   },
+   {
+    "label": "Controllers comparing standard and actual",
+    "alt": "Magnifying glass, for controllers comparing standard and actual price"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Make the price variance compare like with like",
+  "intro": "The subtraction is exact. The variance is only as honest as three inputs, and each one fails in a familiar way.",
+  "steps": [
+   {
+    "title": "Overcharges already credited",
+    "body": "If the supplier has already credited an overcharge, use the corrected price. Otherwise the variance flags a gap that has been settled."
+   },
+   {
+    "title": "The same unit on both sides",
+    "body": "Check that the standard and the invoice price the same unit. A standard per case against an invoice priced per pound gives a gap that is only arithmetic."
+   },
+   {
+    "title": "Supplier item codes matched to yours",
+    "body": "A supplier that renumbers an item can make it look new, with no standard at all. Match their item code to your own before you compare."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Formats",
+  "h2": "Where VOS fits next to purchase price variance",
+  "row_badge": "Your Selling Side",
+  "h3": "Customer orders arrive in a format you already use",
+  "body": "VOS does not read supplier invoices or calculate variance. It covers the same items on the way out, as customer orders. Each one placed in the VOS app reaches you by email, EDI, API or QuickBooks.",
+  "bullets": [
+   "PDF, Excel or Word by email to a rep or purchasing team",
+   "Each account orders at the prices you set",
+   "Guide prices updated from one admin platform",
+   "Works alongside your ERP, with nothing to rip out"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after purchase price variance",
+  "intro": "The variance tells you what a price cost you. These three free calculators look at savings, freight and the terms you pay on.",
+  "cards": [
+   {
+    "title": "Separate real savings from avoided ones",
+    "body": "See which part of a reported saving reaches the P&L, with hard savings kept apart from the increases you avoided.",
+    "link_label": "Open the procurement savings calculator",
+    "link_slug": "procurement-savings-calculator",
+    "alt": "Calculator, for separating hard savings from avoided increases"
+   },
+   {
+    "title": "Rank offers with freight counted",
+    "body": "Weigh three supplier offers unit by unit, freight in, before the next standard price is set.",
+    "link_label": "Open the landed cost calculator",
+    "link_slug": "landed-cost-calculator",
+    "alt": "Right arrow, for ranking supplier offers with freight in"
+   },
+   {
+    "title": "Put a price on payment terms",
+    "body": "See what a discount for paying a supplier early is worth once it is turned into a yearly rate.",
+    "link_label": "Open the early payment discount calculator",
+    "link_slug": "early-payment-discount-calculator",
+    "alt": "Cash bills, for putting a price on payment terms"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "$22.00 price",
+   "source": "calculator default: standard price per case 22.00"
+  },
+  {
+   "figure": "1.8% gap",
+   "source": "copy spec figures table: variance as a percent of standard, 0.40 / 22.00 = 1.818%"
+  },
+  {
+   "figure": "6,000 cases a month",
+   "source": "calculator default: cases bought this month 6000"
+  },
+  {
+   "figure": "$28,800 a year",
+   "source": "copy spec figures table: a year at this variance, 2,400 x 12"
+  }
+ ]
+}

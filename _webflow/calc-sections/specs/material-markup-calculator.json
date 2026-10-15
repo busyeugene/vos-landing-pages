@@ -1,0 +1,153 @@
+{
+ "slug": "material-markup-calculator",
+ "status": "DRAFT 2026-10-15: written from copy-spec-material-markup.md. Not pushed.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is material markup?",
+  "intro": "Material markup is the percentage added to what goods cost you, to set their selling price. The term is common in contracting, where materials are marked up on a job. For a distributor the material is the case, costed all the way to your dock.",
+  "cards": [
+   {
+    "title": "Everything it takes to reach your dock",
+    "body": "Everything you pay to get the case onto your dock and ready to ship: the supplier price, freight in and handling. The markup goes on top of that total.",
+    "alt": "Plus sign, for the costs that land a case on your dock"
+   },
+   {
+    "title": "Overhead stays out of the case",
+    "body": "Rent, sales pay, insurance and the office. They belong to the business, not the case, so the margin the markup leaves has to pay for them.",
+    "alt": "Minus sign, for overhead the margin has to cover"
+   },
+   {
+    "title": "Freight in, not freight out",
+    "body": "The $1.40 to bring a case in is part of its cost. The truck that takes it to your account is a cost to serve, and it comes out of margin.",
+    "alt": "Warning sign, for inbound freight against delivery to the account"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a material markup calculator",
+  "intro": "A distributor that buys product in and resells it by the case needs a true case cost before any markup goes on. Anyone who builds a case cost, sets the markup rule or tracks freight should run it.",
+  "chips": [
+   {
+    "label": "Owners setting the markup rule",
+    "alt": "Person, for owners setting the markup rule"
+   },
+   {
+    "label": "Buyers comparing delivered supplier prices",
+    "alt": "Price tag, for buyers comparing delivered supplier prices"
+   },
+   {
+    "label": "Managers tracking cost increases",
+    "alt": "Rising line, for managers tracking cost increases"
+   },
+   {
+    "label": "Receiving teams logging inbound freight",
+    "alt": "Clipboard, for receiving teams logging inbound freight"
+   },
+   {
+    "label": "Controllers costing handling labor",
+    "alt": "Office building, for controllers costing handling labor"
+   },
+   {
+    "label": "Pricing teams rerunning the markup",
+    "alt": "Two people, for pricing teams rerunning the markup"
+   },
+   {
+    "label": "Pricing staff building case costs",
+    "alt": "Stacked cases, for pricing staff building case costs"
+   },
+   {
+    "label": "Ops managers measuring shrink",
+    "alt": "Warehouse, for ops managers measuring shrink"
+   },
+   {
+    "label": "Finance comparing two margins",
+    "alt": "Magnifying glass, for finance comparing paper and real margin"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Where a material markup leaks margin",
+  "intro": "The markup is the one number you choose. Freight, handling and shrink are estimates, and estimates are where the margin goes wrong.",
+  "steps": [
+   {
+    "title": "Freight split over what really arrived",
+    "body": "A load charge divided by a full truck's worth of cases understates freight when the truck came half full. Divide by the cases that arrived."
+   },
+   {
+    "title": "Handling from timed work, not a guess",
+    "body": "Time a few pallets from the dock to the shelf, and cost the hours at the full wage with taxes. Then divide by the cases."
+   },
+   {
+    "title": "Shrink from your own write-offs",
+    "body": "Use the credits and write-offs in your own books, not a rule of thumb. The 3% default is a starting point, and perishables can run higher."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Review",
+  "h2": "Where VOS fits after the markup",
+  "row_badge": "Your Real Margin",
+  "h3": "A markup only holds on the right line",
+  "body": "VOS does not calculate your costs or set your markup. Its part comes after the price: customers order by voice in the VOS app and check each line before they send it.",
+  "bullets": [
+   "Orders arrive confirmed, numbered and timestamped",
+   "Each item tied to your own SKUs",
+   "Catalog updates as stock changes, for fewer stockout surprises",
+   "Sent by email as PDF, Excel or Word, or by EDI or API"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after material markup",
+  "intro": "Material markup turns a landed cost into a price. These free calculators check the cost going in and the margin coming out.",
+  "cards": [
+   {
+    "title": "Rank supplier quotes on landed cost",
+    "body": "Line up three suppliers once freight is added, and see which one gives the lowest cost per unit.",
+    "link_label": "Open the landed cost calculator",
+    "link_slug": "landed-cost-calculator",
+    "alt": "Calculator, for ranking supplier quotes on landed cost"
+   },
+   {
+    "title": "See what staples do to the blend",
+    "body": "Price a case at wholesale, then watch how thin staple markups drag the margin across your whole mix.",
+    "link_label": "Open the wholesale markup calculator",
+    "link_slug": "wholesale-markup-calculator",
+    "alt": "Right arrow, for the blended margin across staples and specialty"
+   },
+   {
+    "title": "Read every markup rung at once",
+    "body": "Enter one cost and see the price and margin at four markup rungs, plus the markup a target margin needs.",
+    "link_label": "Open the product markup calculator",
+    "link_slug": "product-markup-calculator",
+    "alt": "Slider controls, for reading price and margin at each markup rung"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "$18.00 supplier price",
+   "source": "calculator default: case 18"
+  },
+  {
+   "figure": "$1.40 freight in",
+   "source": "calculator default: freight 1.40"
+  },
+  {
+   "figure": "$0.90 handling",
+   "source": "calculator default: handling 0.90"
+  },
+  {
+   "figure": "$20.30 landed cost",
+   "source": "verified figures table: 18.00 + 1.40 + 0.90"
+  },
+  {
+   "figure": "3% shrink",
+   "source": "calculator default: shrink 3"
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "slug": "warehouse-size-calculator",
+ "status": "DRAFT: written to BRIEF.md 2026-10-15, not yet reviewed. VOS is not a WMS and does not measure throughput. Touchpoint is the dated record of app orders, framed as one check only.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is warehouse capacity?",
+  "intro": "Warehouse capacity is how much stock a building can hold once aisles, dock and office are taken out. It is best counted in cases, through pallet positions and stack height. Square feet on a lease is only where the count starts.",
+  "cards": [
+   {
+    "title": "Three units, one building",
+    "body": "Square feet is the landlord's unit, pallet positions are the warehouse's, and cases are the buyer's. Capacity means the last one: 12,400 cases here.",
+    "alt": "Open book, for square feet, positions and cases"
+   },
+   {
+    "title": "What full really means",
+    "body": "The ceiling assumes every position is filled. Receiving needs open slots to put product away, so a working building runs below it.",
+    "alt": "Warning sign, for the open slots a working building needs"
+   },
+   {
+    "title": "Dated stock takes extra room",
+    "body": "Food ships oldest first, so a new delivery often cannot go in front of older stock. One item can then hold two positions at once.",
+    "alt": "Light bulb, for dated stock that needs a second position"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a warehouse size calculator",
+  "intro": "Warehouse and operations managers at distributors reach for it when the question is what today's building holds. Anyone buying a bulk deal, booking a big inbound load or pricing new racking should check it.",
+  "chips": [
+   {
+    "label": "Owners deciding rack or lease",
+    "alt": "Person, for owners deciding between racking and leasing"
+   },
+   {
+    "label": "Ops leads planning peak season",
+    "alt": "Clipboard, for ops leads planning peak season"
+   },
+   {
+    "label": "Owners planning next year's volume",
+    "alt": "Rising line, for planning next year's volume"
+   },
+   {
+    "label": "Receiving leads booking inbound loads",
+    "alt": "Mobile phone, for booking inbound loads"
+   },
+   {
+    "label": "Buyers taking a bulk deal",
+    "alt": "Dollar sign, for checking room before a bulk deal"
+   },
+   {
+    "label": "Ops planning a re-rack",
+    "alt": "Two people, for planning a re-rack"
+   },
+   {
+    "label": "Buyers sizing a promo buy",
+    "alt": "Price tag, for sizing a promotional buy"
+   },
+   {
+    "label": "Managers trimming slow lines",
+    "alt": "Minus sign, for trimming slow lines"
+   },
+   {
+    "label": "Owners comparing two layouts",
+    "alt": "Magnifying glass, for comparing two warehouse layouts"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Before you plan a buy around capacity",
+  "intro": "Capacity is only as true as the building figure and the flow you enter. A buyer planning against it should confirm each of these.",
+  "steps": [
+   {
+    "title": "The floor, not the lease",
+    "body": "A lease can measure to the outside of the walls, so measure the floor itself before you enter 3,000. Leave the office in it: the 55% usable share already takes the office out."
+   },
+   {
+    "title": "Cases a pallet across the range",
+    "body": "The default of 50 cases a pallet will not fit every line. Bulky lines such as paper goods pallet far fewer, so weight the average by what sits on your racks."
+   },
+   {
+    "title": "Throughput that never sits on a rack",
+    "body": "Weeks of cover divides capacity by every case you move. Leave out product that arrives and leaves the same day, or cover looks shorter than it is."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order History",
+  "h2": "Where VOS fits, and where it stops",
+  "row_badge": "Your Monthly Cases",
+  "h3": "The cases you move start as orders",
+  "body": "VOS does not measure your building or run your warehouse. It sits on the order side: every order placed by voice in the VOS app arrives with a number, date and timestamp. Those dated app orders give one check on the monthly cases you enter.",
+  "bullets": [
+   "Each account's order history in the admin platform",
+   "Catalog updates as stock levels change",
+   "Runs alongside your stock system, not instead of it",
+   "Fewer stockout surprises and last-minute substitutions"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after warehouse capacity",
+  "intro": "You know what the building holds. These three size what your stock needs, how long it sits, and what each route costs to run.",
+  "cards": [
+   {
+    "title": "Size the floor your stock needs",
+    "body": "Work out the square feet your inventory needs once aisles, dock and staging are counted, and what stacking higher saves.",
+    "link_label": "Open the warehouse space calculator",
+    "link_slug": "warehouse-space-calculator",
+    "alt": "Calculator, for sizing the floor your stock needs"
+   },
+   {
+    "title": "Check how long a case sits",
+    "body": "Find your days on hand and turns a year, and how much cash a shorter stay on the shelf would free.",
+    "link_label": "Open the inventory turnover calculator",
+    "link_slug": "inventory-turnover-calculator",
+    "alt": "Right arrow, for how long a case sits before it sells"
+   },
+   {
+    "title": "Cost the routes that empty it",
+    "body": "Break a route into cost per drop, per case and per mile, and see where a delivery minimum belongs.",
+    "link_label": "Open the delivery cost calculator",
+    "link_slug": "delivery-cost-calculator",
+    "alt": "Map pin, for costing the routes that empty the building"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "12,400 cases",
+   "source": "spec: 124 floor positions x 2 high x 50 cases a pallet"
+  },
+  {
+   "figure": "enter 3,000",
+   "source": "calculator default: building size 3000 sq ft"
+  },
+  {
+   "figure": "50 cases a pallet",
+   "source": "calculator default: cases per pallet 50"
+  },
+  {
+   "figure": "55% usable share",
+   "source": "calculator default: usable for storage 55; its hint says it is what is left after aisles, dock, staging and office"
+  }
+ ]
+}

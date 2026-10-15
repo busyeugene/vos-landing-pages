@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac78670c218082afa38ac6f",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-procsave"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac78670c218082afa38ac6f",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-procsave"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac78670c218082afa38ac6f",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-procsave"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac78670c218082afa38ac6f",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-procsave"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-procsave",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-procsave",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-procsave",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-procsave"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/procurement-savings-calculator#calculator",
+    "name": "Procurement Savings Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/procurement-savings-calculator",
+    "description": "Separate hard savings from cost avoidance, measure both against spend, and see which part of your procurement result actually reaches the P&L.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The savings that reach the P&L",
+     "The increase that never reached an invoice",
+     "The percentage finance will check",
+     "What the deal is worth each month"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/procurement-savings-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What are the different types of savings in procurement?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Two of them matter. Hard savings change what you pay, so $24.00 down to $22.56 takes $103,680 a year out of spend. Cost avoidance changes what you would have paid, so a 3% increase you blocked is worth $51,840 and never reaches an account. Report them on separate lines."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What are procurement savings?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The money a negotiation takes out of what you actually pay. On 72,000 cases, $1.44 a case is $103,680 a year, which is 6.0% of $1,728,000 of baseline spend. If spend does not fall, it was avoidance rather than a saving."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is cost avoidance in procurement?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "An increase that was asked for and did not happen. A 3% rise would have put the case at $24.72 and cost you $51,840 a year across 72,000 cases. Blocking it is worth exactly that, and no line on the P&L will ever show it."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you calculate savings as a percentage of spend?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Divide the saving by baseline spend, never by the new spend. $103,680 against $1,728,000 is 6.0%. Add the $51,840 of avoidance and the same line reads 9.0%, so say which percentage you are quoting before you are asked."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you save cost in procurement?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Start with the cases you buy most of, because the volume does the work. Moving one price from $24.00 to $22.56 across 72,000 cases is $103,680, which beats a bigger percentage on a line nobody orders. Blocking an increase counts too, and a 3% rise avoided is worth $51,840."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What baseline should you measure a saving against?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The price you were paying before the negotiation, on the same freight terms. $24.00 a case gives $1,728,000 of baseline spend and a defensible 6.0%. Use the supplier's opening ask instead and the saving is measured on a price nobody paid."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why can finance not find the savings procurement reported?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Because only hard savings move the accounts. Baseline spend of $1,728,000 becomes $1,624,320, so the $103,680 is findable. The $51,840 of avoidance never reached an invoice, which is why one combined $155,520 total looks wrong the moment anyone checks it."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/procurement-savings-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/procurement-savings-calculator",
+    "name": "Procurement Savings Calculator",
+    "description": "Separate hard savings from cost avoidance, measure both against spend, and see which part of your procurement result actually reaches the P&L.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/procurement-savings-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/procurement-savings-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

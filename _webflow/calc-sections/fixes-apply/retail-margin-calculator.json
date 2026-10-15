@@ -1,0 +1,201 @@
+{
+ "el": [
+  {
+   "label": "tools_banner.heading",
+   "set_text": {
+    "id": {
+     "component": "6ac76528743f1f2a6f8ae6e6",
+     "element": "5c7a026b-f410-70e0-5c20-76ebda868976"
+    },
+    "text": "See how VOS keeps your price on every order guide"
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac76528743f1f2a6f8ae6e6",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-retmargin"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac76528743f1f2a6f8ae6e6",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-retmargin"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac76528743f1f2a6f8ae6e6",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-retmargin"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac76528743f1f2a6f8ae6e6",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-retmargin"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {
+   "5c7a026b-f410-70e0-5c20-76ebda868976": "See how VOS keeps your price on every order guide"
+  },
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-retmargin",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-retmargin",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-retmargin",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-retmargin"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/retail-margin-calculator#calculator",
+    "name": "Retail Margin Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/retail-margin-calculator",
+    "description": "Turn a cost and a shelf price into the retail margin, the markup that matches it, and the price a target margin needs. Free to use.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The margin, and the markup that means the same money",
+     "The shelf price a target margin actually needs",
+     "The same margin in units, cases and dollars",
+     "What the item is worth across a month"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/retail-margin-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do you calculate retail margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Subtract the cost from the shelf price, then divide by the shelf price. A $3.97 unit costing $2.38 keeps $1.59, and $1.59 divided by $3.97 is 40.1%. It reads 40.1% rather than 40.0% because an exact 40% needs $3.9667, and a real shelf tag settles that to $3.97."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is 50% margin the same as 100% markup?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes, and it is the one place the two numbers meet. A 50% margin means half the shelf price is profit, so the profit equals the cost. On a $2.38 unit the price has to be $4.76, which keeps $2.38, and $2.38 on a $2.38 cost is a 100% markup. Above 50% margin the markup climbs much faster."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What markup do I need for a 60% margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A 150% markup. Divide 1 by 1 minus the margin and subtract 1, which turns 60% into 150%. On a $2.38 unit that is a $5.95 shelf price keeping $3.57, and $3.57 divided by $5.95 comes back to 60%. Set the target in the calculator and it prints the price for you."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a good retail markup percentage?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Most grocery categories run a 25% to 45% retail margin, which is a 33.3% to 81.8% markup on cost. Dry grocery sits at the bottom of that band and fresh or specialty sits at the top, because shrink eats into it. Quote the band for the category, then the dollars a case behind it."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is a 50% profit margin too much?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It is high for grocery and normal in other categories. A 50% margin doubles the cost, so a $2.38 unit shelves at $4.76 instead of $3.97. Shoppers price-check against the next store, so that level usually holds only on specialty, prepared or slow-moving lines where nobody carries a reference price."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is contribution margin, and how is it calculated?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Contribution margin is the price less the variable cost of selling one more unit. On this item the only variable cost is the $2.38, so contribution and gross profit are the same $1.59 a unit, or $19.08 a case. They separate once delivery, shrink or a promotion is counted, and none of those sit inside the 40.1%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a good profit margin for a food distributor?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Gross and net are different questions, and this calculator answers neither for you. The 40.1% here is the store's gross margin on one unit. Judge an item on the dollars it earns, $19.08 a case and $9,540 a month at 500 cases, because a wide percentage on a slow unit is worth less than a thin one on a mover."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/retail-margin-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/retail-margin-calculator",
+    "name": "Retail Margin Calculator",
+    "description": "Turn a cost and a shelf price into the retail margin, the markup that matches it, and the price a target margin needs. Free to use.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/retail-margin-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/retail-margin-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

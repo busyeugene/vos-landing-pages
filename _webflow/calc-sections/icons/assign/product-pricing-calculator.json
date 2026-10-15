@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "alert",
+  "search",
+  "sliders"
+ ],
+ "who": [
+  "person",
+  "headset",
+  "clipboard",
+  "pin",
+  "office",
+  "team",
+  "plus",
+  "chat",
+  "book"
+ ],
+ "next": [
+  "calculator",
+  "chart-up",
+  "arrow-right"
+ ],
+ "notes": "whatis 1 (cost floor) is alert: the only free floor icon is floorplan, which reads floor space. who 9 (owners comparing pricing rules) is book, as a rule book. who 4 route reps is pin because truck is already on the page."
+}

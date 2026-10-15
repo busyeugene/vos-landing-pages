@@ -1,0 +1,525 @@
+{
+ "slug": "landed-cost-calculator",
+ "pageId": "6ac7652962cd713ecd056f43",
+ "roots": {
+  "whatis": "4aaad1ea-2d2c-0184-f5fc-2457720e85b1",
+  "who": "a5af6e30-2be4-dbf2-5e92-baa3bc7dbdc2",
+  "look": "fda4193c-475a-4f93-903f-bde6ad22385d",
+  "vos": "3c613012-6718-cc09-76eb-85354ff7a440",
+  "next": "5165e48d-703d-f4f1-4f01-6d56fe27cb73"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892225",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892226",
+   "how": "heading",
+   "expected": "What is landed cost?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa831589222b",
+   "how": "string",
+   "expected": "Landed cost is what a product costs you at your dock: the supplier's price plus the freight and fees to get it there. Split per unit, it lets you compare supplier offers that come in different case sizes. It is the number to rank on, not the quoted price."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892233",
+   "how": "heading",
+   "expected": "Case price plus freight, per unit"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892236",
+   "how": "string",
+   "expected": "The case price plus freight per case, split across the units inside. Option C's $19.00 case lands at $20.20, which is $2.02 a unit."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892230",
+   "how": "image",
+   "expected": "Plus sign, for the case price and freight that landed cost counts",
+   "asset": "6ad07a8a27aa3ab4d513d9f3"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa831589223b",
+   "how": "heading",
+   "expected": "The cash a bigger case ties up"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa831589223e",
+   "how": "string",
+   "expected": "The cost of holding what you bought. A 24 unit case can win on landed cost and still tie up more cash and warehouse space while it sells through."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892238",
+   "how": "image",
+   "expected": "Minus sign, for the holding cost a bigger case adds",
+   "asset": "6ad07a88927330500c3958ed"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892243",
+   "how": "heading",
+   "expected": "A backhaul still has a freight cost"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892246",
+   "how": "string",
+   "expected": "If your own truck collects the order on a return trip, freight is not zero. Put your truck's cost for that stop in the freight box, split down to the case."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "a8128c45-52fe-8f37-a7fa-fa8315892240",
+   "how": "image",
+   "expected": "Warning sign, for the freight cost of a pickup on your own truck",
+   "asset": "6ad07a8582ff418bc8a6c6b6"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cc5",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cc6",
+   "how": "heading",
+   "expected": "Who uses a landed cost calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14ccb",
+   "how": "string",
+   "expected": "When the same item can come from more than one supplier, a distributor's buyer runs it before choosing. Anyone who signs off on a supplier switch should see the per unit ranking first."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cd0",
+   "how": "heading",
+   "expected": "Owners approving a supplier switch"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cce",
+   "how": "image",
+   "expected": "Person, for owners approving a supplier switch",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cd5",
+   "how": "heading",
+   "expected": "Buyers weighing three quotes"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cd3",
+   "how": "image",
+   "expected": "Speech bubble, for buyers weighing three supplier quotes",
+   "asset": "6ad07a860941cf0d0c62fa17"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cda",
+   "how": "heading",
+   "expected": "Category managers adding a line"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cd8",
+   "how": "image",
+   "expected": "Clipboard, for category managers adding a new line",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cdf",
+   "how": "heading",
+   "expected": "Transport leads costing a backhaul"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cdd",
+   "how": "image",
+   "expected": "Map pin, for transport leads costing a backhaul pickup",
+   "asset": "6ad07a8ac909350d3ff080bd"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14ce4",
+   "how": "heading",
+   "expected": "Controllers checking cost of goods"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14ce2",
+   "how": "image",
+   "expected": "Office building, for controllers checking cost of goods",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14ce9",
+   "how": "heading",
+   "expected": "Purchasing teams rebidding at renewal"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14ce7",
+   "how": "image",
+   "expected": "Mobile phone, for purchasing teams rebidding a contract at renewal",
+   "asset": "6ad07a8a27aa3ab4d513d988"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cee",
+   "how": "heading",
+   "expected": "Pricing staff setting sell prices"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cec",
+   "how": "image",
+   "expected": "Slider controls, for pricing staff setting sell prices on a new pack",
+   "asset": "6ad07a8c46e29627d6ef796b"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cf3",
+   "how": "heading",
+   "expected": "Ops leads trimming unit cost"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cf1",
+   "how": "image",
+   "expected": "Magnifying glass, for ops leads trimming cost per unit",
+   "asset": "6ad07a8b1207c22da70d53ca"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cf8",
+   "how": "heading",
+   "expected": "Teams comparing case sizes"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "a4201960-640a-6b8d-78d5-777d1ed14cf6",
+   "how": "image",
+   "expected": "Two people, for teams comparing case sizes across suppliers",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a4409042",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a4409043",
+   "how": "heading",
+   "expected": "Match the quotes before ranking landed cost"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a4409047",
+   "how": "string",
+   "expected": "The division is exact. The quotes you feed it are not always alike, and these three gaps are the usual reason."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a440904d",
+   "how": "heading",
+   "expected": "The same item in all three quotes"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a4409051",
+   "how": "string",
+   "expected": "Check grade, brand and spec before you rank. A cheaper unit of a lower grade is a different product, and the ranking cannot tell the difference."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a4409055",
+   "how": "heading",
+   "expected": "Prices that hold for the same term"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a4409059",
+   "how": "string",
+   "expected": "A spot price good for this week and a contract price held for a year do not belong in one ranking. Note how long each quote stands."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a440905d",
+   "how": "heading",
+   "expected": "A price you can actually buy at"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "a45171a4-a190-e258-b94e-9324a4409061",
+   "how": "string",
+   "expected": "Each quote assumes you meet its terms. If the cheapest unit depends on a volume tier above your 6,000 units a month, that price is not on offer."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172d1",
+   "how": "string",
+   "expected": "Order Record"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172d2",
+   "how": "heading",
+   "expected": "Where VOS fits next to a supplier decision"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172db",
+   "how": "string",
+   "expected": "Units You Need"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172dc",
+   "how": "heading",
+   "expected": "Your units a month start with what accounts order"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172e0",
+   "how": "string",
+   "expected": "VOS does not compare supplier quotes or buy stock. The units a month you enter come from what your accounts order, and that is the side it works on. Each order placed in the VOS app arrives with a number, a date and a timestamp."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172fd",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172e7",
+   "how": "string",
+   "expected": "Order history per account in one admin platform"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172ed",
+   "how": "string",
+   "expected": "Real-time inventory visibility tied to order activity"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172f3",
+   "how": "string",
+   "expected": "Runs alongside the inventory system you use today"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172f9",
+   "how": "string",
+   "expected": "Customers order by voice in the app, 24/7"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "463e91fc-280d-64f9-a1c0-633e109172d7",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c6c",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c6d",
+   "how": "heading",
+   "expected": "What to run after landed cost"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c72",
+   "how": "string",
+   "expected": "Landed cost picks the offer. These three free calculators check the pack, the saving and the price you sell at."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c7a",
+   "how": "heading",
+   "expected": "Compare two packs by the pound"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c7d",
+   "how": "string",
+   "expected": "Put two pack sizes on the same base, per unit and per pound, so a lighter unit cannot pass for a cheaper one."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c81",
+   "how": "string",
+   "expected": "Open the unit price calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c77",
+   "how": "image",
+   "expected": "Calculator, for comparing two packs by the pound",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c7f",
+   "how": "link",
+   "expected": "6ac72b948f277e012d8d7584"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c87",
+   "how": "heading",
+   "expected": "Report the saving honestly"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c8a",
+   "how": "string",
+   "expected": "Split hard savings from increases you avoided, size both against spend, and see which part reaches the P&L."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c8e",
+   "how": "string",
+   "expected": "Open the procurement savings calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c84",
+   "how": "image",
+   "expected": "Open book, for reporting a supplier saving honestly",
+   "asset": "6ad07a86a7398c6342ee4976"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c8c",
+   "how": "link",
+   "expected": "6ac78670c218082afa38ac6f"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c94",
+   "how": "heading",
+   "expected": "Price the case you switched to"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c97",
+   "how": "string",
+   "expected": "Build a case price from freight, handling and shrink, then see what your markup leaves once shrink comes back out."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c9b",
+   "how": "string",
+   "expected": "Open the material markup calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c91",
+   "how": "image",
+   "expected": "Right arrow, for pricing the case you switched to",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "a46337c5-b14f-769e-d3c1-0d4b64144c99",
+   "how": "link",
+   "expected": "6ac72b95bdfb92fbc692e782"
+  }
+ ]
+}

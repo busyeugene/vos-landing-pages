@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "book",
+  "alert",
+  "lightbulb"
+ ],
+ "who": [
+  "person",
+  "chat",
+  "stack",
+  "store",
+  "office",
+  "team",
+  "plus",
+  "search",
+  "sliders"
+ ],
+ "next": [
+  "calculator",
+  "racking",
+  "arrow-right"
+ ],
+ "notes": "who 3 (raising a category rung) is stack, read as tiers or rungs. next 2 (margin at the store shelf) is racking for the shelf."
+}

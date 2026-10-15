@@ -1,0 +1,208 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac7252ae188e18d1d906bba",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-invturn"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac7252ae188e18d1d906bba",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-invturn"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac7252ae188e18d1d906bba",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-invturn"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac7252ae188e18d1d906bba",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-invturn"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [
+  {
+   "label": "cta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6ac7252ae188e18d1d906bba",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "VoiceOrder Solutions keeps inventory visible against live order activity, every app order arrives digitized and confirmed, and most distributors are live in 24 to 48 hours."
+     }
+    ]
+   }
+  }
+ ],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-invturn",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-invturn",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-invturn",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-invturn"
+  },
+  "props": {
+   "cta/5e0d3c39-9fde-6661-5b10-e1aef4f809a4": "VoiceOrder Solutions keeps inventory visible against live order activity, every app order arrives digitized and confirmed, and most distributors are live in 24 to 48 hours."
+  }
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/inventory-turnover-calculator#calculator",
+    "name": "Inventory Turnover Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/inventory-turnover-calculator",
+    "description": "See how many times a year you turn stock, how long a case sits before it sells, and the cash a slow turn ties up.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "How many times a year you actually turn",
+     "How long a case sits before it sells",
+     "What the shelf costs you to hold",
+     "What five days faster is worth"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/inventory-turnover-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do I calculate inventory turnover ratio?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Divide annual cost of goods sold by average inventory, both at cost. $1,584,000 of cost of goods against $132,000 of average inventory gives 12.0 turns a year."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the turnover ratio formula?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Turnover equals cost of goods sold divided by average inventory. For days, divide 365 by the turnover: 365 divided by 12.0 is 30.4 days on hand."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is 1.5 a good inventory turnover ratio?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Not for food distribution. At 1.5 turns a case sits about 243 days, which is far past the shelf life of most of what you carry. That figure comes from slower industries like heavy equipment."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How many times should inventory be turned over per year?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It depends on what you carry. Dry goods and canned stock often run 10 to 15 turns, while fresh and short-dated items need far more. Compare against your own last year before any benchmark."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is days inventory outstanding?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The number of days an average case sits before it sells, which is 365 divided by your turnover. It is the same measure as turns, in a unit you can match against shelf life."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What does slow inventory actually cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Capital, space, insurance, spoilage and obsolescence. The 25% in the field is only a placeholder. Build the rate from your own five lines, as the inventory carrying cost calculator does, and it comes to 27%. The same $132,000 then costs $35,640 a year, not $33,000."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How is this different from accounts receivable turnover?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Inventory turnover measures how fast stock leaves the warehouse. Accounts receivable turnover measures how fast customers pay you for it. Both park cash, in different places."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/inventory-turnover-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/inventory-turnover-calculator",
+    "name": "Inventory Turnover Calculator",
+    "description": "See how many times a year you turn stock, how long a case sits before it sells, and the cash a slow turn ties up.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/inventory-turnover-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/inventory-turnover-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

@@ -1,0 +1,510 @@
+{
+ "slug": "product-markup-calculator",
+ "pageId": "6ac7866ff16ee3a82e89dd76",
+ "roots": {
+  "whatis": "6747dc7b-f5a6-1011-5f90-28a9fa8c0fea",
+  "who": "22e7c8c0-75e5-1dd5-4add-4228e527bc2a",
+  "look": "7307bbe8-2907-3b54-a06f-86ebb28e4fff",
+  "vos": "0dd59346-2ab1-ccd4-ad10-cb6f607f796b",
+  "next": "24bd3b51-f77e-609b-4c48-221fd2236702"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09955",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09956",
+   "how": "heading",
+   "expected": "What is markup?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d0995b",
+   "how": "string",
+   "expected": "Markup is the amount you add to a cost to set a price, written as a share of that cost. It is a rule for reaching a price, not the share of the price you keep."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09963",
+   "how": "heading",
+   "expected": "What it is measured on"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09966",
+   "how": "string",
+   "expected": "What you paid, not what you charge. Because the base is the cost, a markup can run past 100%, while a margin never reaches it."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09960",
+   "how": "image",
+   "expected": "Floor plan grid, for the cost a markup is measured on"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d0996b",
+   "how": "heading",
+   "expected": "Markup on cost, markup on retail"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d0996e",
+   "how": "string",
+   "expected": "Distributors usually state markup on cost. Retail pricing often states it on the selling price instead, so a store buyer's 40% may already be a margin."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09968",
+   "how": "image",
+   "expected": "Stacked cases, for the two ways the trade states a markup"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09973",
+   "how": "heading",
+   "expected": "Why the trade keeps using it"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09976",
+   "how": "string",
+   "expected": "It is one multiplication on a number you already know. Cost times 1.40 prices a $22.00 case at $30.80 on the spot. Hitting a margin takes a division instead."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "3bf0d65e-999d-cd03-8645-9d80d0d09970",
+   "how": "image",
+   "expected": "Case box, for pricing a case with one multiplication"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f66",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f67",
+   "how": "heading",
+   "expected": "Who uses a product markup calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f6c",
+   "how": "string",
+   "expected": "It is built for independent food distributors who price off a cost sheet. Anyone who sets a markup, translates a buyer's percentage or checks a price list should run it."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f71",
+   "how": "heading",
+   "expected": "Owners setting markup rungs"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f6f",
+   "how": "image",
+   "expected": "Dollar sign, for owners setting markup rungs"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f76",
+   "how": "heading",
+   "expected": "Reps translating a buyer's percentage"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f74",
+   "how": "image",
+   "expected": "Balance scale, for reps translating a buyer's percentage"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f7b",
+   "how": "heading",
+   "expected": "Managers raising a category's rung"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f79",
+   "how": "image",
+   "expected": "Rising chart, for managers raising a category's markup rung"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f80",
+   "how": "heading",
+   "expected": "DSD reps pricing store lines"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f7e",
+   "how": "image",
+   "expected": "Delivery truck, for DSD reps pricing store lines"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f85",
+   "how": "heading",
+   "expected": "Finance reconciling markup to margin"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f83",
+   "how": "image",
+   "expected": "Cash bills, for finance reconciling markup to margin"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f8a",
+   "how": "heading",
+   "expected": "Teams converting margin targets"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f88",
+   "how": "image",
+   "expected": "Cycling arrows, for teams converting margin targets into markups"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f8f",
+   "how": "heading",
+   "expected": "Reps pricing a new item"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f8d",
+   "how": "image",
+   "expected": "Price tag, for reps pricing a new item"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f94",
+   "how": "heading",
+   "expected": "Controllers spotting thin rungs"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f92",
+   "how": "image",
+   "expected": "Downward trend line, for controllers spotting thin markup rungs"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f99",
+   "how": "heading",
+   "expected": "Anyone comparing two markup rungs"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "f7f8b3f4-8f3e-064b-6629-6d6eaa696f97",
+   "how": "image",
+   "expected": "Side by side bars, for comparing two markup rungs"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd2246b",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd2246c",
+   "how": "heading",
+   "expected": "What to check before you set the rung"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd22470",
+   "how": "string",
+   "expected": "The ladder is exact arithmetic. What goes wrong is the cost you start from and the target you aim at."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd22476",
+   "how": "heading",
+   "expected": "A cost for the unit you sell"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd2247a",
+   "how": "string",
+   "expected": "If you split cases and sell eaches, divide the $22.00 by the pack before you mark it up. A rung on the case cost does not price a single each."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd2247e",
+   "how": "heading",
+   "expected": "A gross target, not a net one"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd22482",
+   "how": "string",
+   "expected": "The 30% target is gross margin, before delivery, sales pay and rent. Type the net margin you hope to keep and the markup comes out far too low."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd22486",
+   "how": "heading",
+   "expected": "Price endings that round up"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "b2cd3559-eb61-7d51-0a84-a506dfd2248a",
+   "how": "string",
+   "expected": "If your list rounds prices to set endings, round $31.43 up, not down. Rounding down to the nearest ending puts the case under its target."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e72b",
+   "how": "string",
+   "expected": "Order History"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e72c",
+   "how": "heading",
+   "expected": "Where VOS fits next to the ladder"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e735",
+   "how": "string",
+   "expected": "Your Case Counts"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e736",
+   "how": "heading",
+   "expected": "The orders behind your case counts"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e73a",
+   "how": "string",
+   "expected": "VOS does not calculate markups or set prices. It touches one input, the case count behind your monthly gross profit. Customers order by voice in the VOS app, and you see each account's order history in one admin platform."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e757",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e741",
+   "how": "string",
+   "expected": "Each app order carries a number, date and timestamp"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e747",
+   "how": "string",
+   "expected": "Order guides updated in the same place when a price moves"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e74d",
+   "how": "string",
+   "expected": "Each account orders at the prices you set, tied to your SKUs"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e753",
+   "how": "string",
+   "expected": "Orders captured 24/7, after hours included"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "8558ce73-7581-3b66-592e-14c1e614e731",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb3a",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb3b",
+   "how": "heading",
+   "expected": "What to run after markup"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb40",
+   "how": "string",
+   "expected": "A markup rung prices one case from one cost. These free calculators test it against other rules, against the shelf and across your whole book."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb48",
+   "how": "heading",
+   "expected": "Test the rung against two other rules"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb4b",
+   "how": "string",
+   "expected": "Price the same case off a target margin, a flat dollar profit and a competitor's price, with the margin each one leaves."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb4f",
+   "how": "string",
+   "expected": "Open the product pricing calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb45",
+   "how": "image",
+   "expected": "Percent sign, for testing a markup against other pricing rules"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb4d",
+   "how": "link",
+   "expected": "6ac718c668be300e93fb7203"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb55",
+   "how": "heading",
+   "expected": "See the margin at the store's shelf"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb58",
+   "how": "string",
+   "expected": "Turn a store's unit cost and shelf price into its retail margin, the markup that matches it and the price a target needs."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb5c",
+   "how": "string",
+   "expected": "Open the retail margin calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb52",
+   "how": "image",
+   "expected": "Rising line, for the margin at the store's shelf"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb5a",
+   "how": "link",
+   "expected": "6ac76528743f1f2a6f8ae6e6"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb62",
+   "how": "heading",
+   "expected": "Find what your whole book earns"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb65",
+   "how": "string",
+   "expected": "Take a landed cost to a wholesale price, then see low-markup staples pull your blended margin below the quote."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb69",
+   "how": "string",
+   "expected": "Open the wholesale markup calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb5f",
+   "how": "image",
+   "expected": "Check mark, for the margin across your whole book"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "dfc38588-c157-6d6a-a05b-db6833f6cb67",
+   "how": "link",
+   "expected": "6ac73521a469d3c306f7aa87"
+  }
+ ]
+}

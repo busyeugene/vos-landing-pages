@@ -1,0 +1,149 @@
+{
+ "slug": "reorder-point-calculator",
+ "status": "DRAFT spec, 2026-10-15. Distributor page. Not yet on Webflow.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is a reorder point?",
+  "intro": "A reorder point is the stock level on a line that says the next order has to go in now. It holds enough stock to cover sales until the truck unloads, plus a buffer for surprises. With this calculator's defaults, that level is 709 cases.",
+  "cards": [
+   {
+    "title": "Supplier wait time, stated in cases",
+    "body": "Time, priced in cases. It takes the days you wait on a supplier and states them as a stock level you can check on the floor.",
+    "alt": "Plus sign, for the wait on a supplier priced in cases"
+   },
+   {
+    "title": "It misses cases already on order",
+    "body": "Cases already on the way. The basic sum checks the floor only, so hold the trigger against stock on hand plus stock on order, or you order twice.",
+    "alt": "Minus sign, for stock already on order"
+   },
+   {
+    "title": "When accounts order on one day",
+    "body": "A day of usage is an average. When most accounts order for Monday's trucks, 141 cases of headroom can go in a single morning.",
+    "alt": "Light bulb, for headroom that goes in one busy morning"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a reorder point calculator",
+  "intro": "Buyers at distributors that hold stock in their own warehouse use it to decide when each line needs a supplier order. Whoever places supplier orders should run it for each line, not once for the whole range.",
+  "chips": [
+   {
+    "label": "Owners setting buying rules",
+    "alt": "Person, for owners setting buying rules"
+   },
+   {
+    "label": "Buyers comparing supplier lead times",
+    "alt": "Mobile phone, for buyers comparing supplier lead times"
+   },
+   {
+    "label": "Category managers watching fast movers",
+    "alt": "Rising line, for category managers watching fast movers"
+   },
+   {
+    "label": "Receivers logging real unload dates",
+    "alt": "Clipboard, for receivers logging real unload dates"
+   },
+   {
+    "label": "Controllers questioning rush freight",
+    "alt": "Office building, for controllers questioning the cost of rush freight"
+   },
+   {
+    "label": "DSD teams timing warehouse restocks",
+    "alt": "Two people, for DSD teams timing warehouse restocks"
+   },
+   {
+    "label": "Purchasing teams timing deal buys",
+    "alt": "Price tag, for purchasing teams timing deal buys"
+   },
+   {
+    "label": "Warehouse leads flagging low lines",
+    "alt": "Warning sign, for warehouse leads flagging low lines"
+   },
+   {
+    "label": "Analysts comparing triggers across SKUs",
+    "alt": "Magnifying glass, for analysts comparing triggers across SKUs"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Three checks before you trust a reorder point",
+  "intro": "The sum is simple. The trouble is in the stock and the buffer you feed it, and in the units you count them in.",
+  "steps": [
+   {
+    "title": "On hand means free to sell",
+    "body": "Take out cases already picked or promised to orders that are in. 850 cases on the floor is less than 850 free if tomorrow's orders already claim part of it."
+   },
+   {
+    "title": "A buffer sized for this supplier",
+    "body": "The 229 cases you type in were sized for one lead time. Change the supplier or the lead time and size the buffer again before you trust the trigger."
+   },
+   {
+    "title": "One unit in every field",
+    "body": "Usage, buffer and the count all have to be in full cases. A count taken in eaches or broken cases makes the days left read wrong."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Inventory Visibility",
+  "h2": "Where VOS fits around your trigger",
+  "row_badge": "Your Days Left",
+  "h3": "Customer orders draw each line toward its trigger",
+  "body": "VOS does not set your reorder point, count your stock or order from your suppliers. It works on the demand side, where inventory visibility follows order activity as customers order by voice in the VOS app.",
+  "bullets": [
+   "Real-time inventory visibility tied to order activity",
+   "Fewer stockout surprises across the catalog",
+   "Each app order shows who ordered and when",
+   "Stock figures stay in the system you run today"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after the reorder point",
+  "intro": "The reorder point says when to order. These free calculators answer how big the buffer should be, how far to top up, and how fast the stock sells.",
+  "cards": [
+   {
+    "title": "Size the buffer you typed in",
+    "body": "Work out a buffer from how much your demand and lead times move, pick a service level, then check it against shelf life.",
+    "link_label": "Open the safety stock calculator",
+    "link_slug": "safety-stock-calculator",
+    "alt": "Slider controls, for sizing the buffer you typed in"
+   },
+   {
+    "title": "Set how far each order tops up",
+    "body": "Find the level each line returns to between deliveries, and see the cash every buffer day ties up on your floor.",
+    "link_label": "Open the par level calculator",
+    "link_slug": "par-level-calculator",
+    "alt": "Right arrow, for the level each order tops up to"
+   },
+   {
+    "title": "See how fast the stock turns",
+    "body": "Step back from single lines to the whole stock: turns per year, days on hand, and the cash that sits idle.",
+    "link_label": "Open the inventory turnover calculator",
+    "link_slug": "inventory-turnover-calculator",
+    "alt": "Calculator, for how fast the stock turns"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "709 cases",
+   "source": "rendered reorder point: 120 x 4 = 480, plus the 229 case buffer default"
+  },
+  {
+   "figure": "141 cases of headroom",
+   "source": "rendered 'cases above the trigger today': 850 on hand minus 709"
+  },
+  {
+   "figure": "850 cases on the floor",
+   "source": "calculator default: stock on hand now 850"
+  },
+  {
+   "figure": "229 cases you type in",
+   "source": "calculator default: safety stock on hand 229 (typed input, not derived)"
+  }
+ ]
+}

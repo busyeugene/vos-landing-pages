@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac72b95bdfb92fbc692e782",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-markup"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac72b95bdfb92fbc692e782",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-markup"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac72b95bdfb92fbc692e782",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-markup"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac72b95bdfb92fbc692e782",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-markup"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-markup",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-markup",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-markup",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-markup"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/material-markup-calculator#calculator",
+    "name": "Material Markup Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/material-markup-calculator",
+    "description": "Build a case price from freight, handling and shrink, then see what your markup leaves you as a real margin.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "What the case really costs before you price it",
+     "What your markup leaves as a margin",
+     "What spoilage takes off the top",
+     "The same case, across a month of orders"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/material-markup-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Is a 30% markup the same as a 30% margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. Markup is a share of your cost, margin is a share of your price. A 30% markup leaves a 23.1% margin, because the profit is divided by the larger number."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a 20% markup on $100?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "$120. The $20 of profit is 20% of the $100 cost but only 16.7% of the $120 price, which is the margin you would report."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you convert a margin into a markup?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Flip the toggle from markup to margin and type the target. Ask for 33% here and it prints a $31.24 price, a 54% markup on your $20.30 landed cost. The textbook conversion says 49.3%, and the gap is the 3% shrink sitting between cost and price."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What should a markup be applied to?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Landed cost, not the supplier invoice. An $18.00 case with $1.40 freight and $0.90 handling costs you $20.30, and marking up the $18.00 leaves $2.30 a case unrecovered."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How does shrink change the margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It raises the cost of everything you do sell. At 3%, a $20.30 landed cost behaves like $20.93, which turns a 31.0% paper margin into 28.9%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why does a 45% markup leave under 29%?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Two reasons compound. Markup measured on price is always smaller, which takes 45% to 31.0%, and then 3% shrink takes it to 28.9%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should targets be set in markup or margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Margin. It is the number that appears in your accounts, and it cannot be misread. Convert to a markup once, write it down, and have every rep use the same one."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/material-markup-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/material-markup-calculator",
+    "name": "Material Markup Calculator",
+    "description": "Build a case price from freight, handling and shrink, then see what your markup leaves you as a real margin.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/material-markup-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/material-markup-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

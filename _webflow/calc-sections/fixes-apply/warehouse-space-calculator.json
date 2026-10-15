@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac735232408756f9071e095",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-wspace"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac735232408756f9071e095",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-wspace"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac735232408756f9071e095",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-wspace"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac735232408756f9071e095",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-wspace"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-wspace",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-wspace",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-wspace",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-wspace"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-space-calculator#calculator",
+    "name": "Warehouse Space Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/warehouse-space-calculator",
+    "description": "See the square feet you need for your inventory once aisles, dock and staging are counted, and what stacking higher saves.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "How your cases turn into floor positions",
+     "The square feet your product actually covers",
+     "What the rest of the building is doing",
+     "The number to put in front of a landlord"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-space-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do you calculate the warehouse space you need?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Turn cases into pallets, pallets into floor positions, then add the aisles. 3,000 cases at 50 a pallet is 60 pallets. Stacked two high that is 30 positions, and 30 positions at 13.3 sq ft is 399 sq ft of product. Add 45% for aisles, dock and staging and you need 725 sq ft."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much space do 3,000 cases need?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "About 725 sq ft stacked two high, which works out at 0.24 sq ft a case. That figure moves a long way with stack height. The same 3,000 cases fit in 484 sq ft at three high."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should you size for peak inventory or average?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Peak. The average never has to fit through the door at once. Size on the high-water mark, because the few weeks you are over it are exactly when overflow storage is hardest to find and costs the most."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How many cases fit on a pallet?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "50 is a fair default for dry goods, and it moves with case size and stacking strength. It matters more than it looks. Ten more cases a pallet takes 60 pallets down to 50, which is five fewer floor positions and 120 sq ft less building."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does stacking higher cut the space you need?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "More than anything else you can change. Two high to three takes 725 sq ft down to 484, a 33.2% saving, because you are using height you already pay rent on. Check your racking rating and your ceiling before you count on it."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much should you add for growth?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Work it in cases, not as a percentage of floor. Let peak drift from 3,000 cases to 3,600 and the space goes from 725 sq ft to 871. Put the peak you expect straight into the calculator rather than padding the answer at the end."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does turning stock faster cut the space you need?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes, and it is the cheapest way to do it. The space is driven by cases on hand at peak, so anything that lowers the peak lowers the building. Ordering smaller and more often cuts the number without touching a wall."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-space-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/warehouse-space-calculator",
+    "name": "Warehouse Space Calculator",
+    "description": "See the square feet you need for your inventory once aisles, dock and staging are counted, and what stacking higher saves.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-space-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-space-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

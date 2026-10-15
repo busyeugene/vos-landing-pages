@@ -1,0 +1,510 @@
+{
+ "slug": "procurement-savings-calculator",
+ "pageId": "6ac78670c218082afa38ac6f",
+ "roots": {
+  "whatis": "c9598a7a-1f2d-931f-0b4f-01ea69685748",
+  "who": "0318c681-1f64-55b0-76c9-9886b1d172e0",
+  "look": "b3cff22a-76db-1ddd-80c4-4b26b8a639a9",
+  "vos": "5badd814-a680-8b8a-2e2e-254cba2dc721",
+  "next": "43205ad4-ecd6-91a7-f373-82a371e1cc47"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02cfd",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02cfe",
+   "how": "heading",
+   "expected": "What counts as a procurement saving?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d03",
+   "how": "string",
+   "expected": "A procurement saving is money a negotiation takes off what you pay suppliers, measured from a baseline price. A hard saving lowers the price on the invoice. Cost avoidance stops a rise that was on its way. Both count, but only the first shows up in spend."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d0b",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d0e",
+   "how": "string",
+   "expected": "Lower prices on cases you were already buying, on the same terms. A new line has no old price to beat, so its first price is spend, not a saving."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d08",
+   "how": "image",
+   "expected": "Floor plan grid, for lower prices on cases you already buy"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d13",
+   "how": "heading",
+   "expected": "What it leaves out"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d16",
+   "how": "string",
+   "expected": "Rebates paid back later, better payment terms and free goods. Each can be worth real money, but each belongs on its own line, not in the case price."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d10",
+   "how": "image",
+   "expected": "Stacked cases, for rebates, terms and free goods kept on their own lines"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d1b",
+   "how": "heading",
+   "expected": "Where a distributor's saving goes"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d1e",
+   "how": "string",
+   "expected": "You resell what you buy. If the $1.44 a case goes straight into lower sell prices, your accounts keep the saving and your margin stays put."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "9d695194-cbfe-13d0-32bd-4a74fdc02d18",
+   "how": "image",
+   "expected": "Case box, for a saving passed on in sell prices"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e37",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e38",
+   "how": "heading",
+   "expected": "Who uses a procurement savings calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e3d",
+   "how": "string",
+   "expected": "It is for independent food distributors whose buyers negotiate supplier prices. Anyone who reports a saving, checks one or signs off a renewal should run it."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e42",
+   "how": "heading",
+   "expected": "Owners checking a buyer's results"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e40",
+   "how": "image",
+   "expected": "Dollar sign, for owners checking a buyer's results"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e47",
+   "how": "heading",
+   "expected": "Controllers auditing savings claims"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e45",
+   "how": "image",
+   "expected": "Balance scale, for controllers auditing savings claims"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e4c",
+   "how": "heading",
+   "expected": "Category managers reporting wins"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e4a",
+   "how": "image",
+   "expected": "Rising chart, for category managers reporting a year's wins"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e51",
+   "how": "heading",
+   "expected": "Purchasing teams checking delivered prices"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e4f",
+   "how": "image",
+   "expected": "Delivery truck, for checking delivered case prices"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e56",
+   "how": "heading",
+   "expected": "Finance setting next year's budget"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e54",
+   "how": "image",
+   "expected": "Cash bills, for setting next year's purchasing budget"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e5b",
+   "how": "heading",
+   "expected": "Buyers renewing annual contracts"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e59",
+   "how": "image",
+   "expected": "Cycling arrows, for buyers renewing annual contracts"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e60",
+   "how": "heading",
+   "expected": "Buyers pushing back on increases"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e5e",
+   "how": "image",
+   "expected": "Price tag, for pushing back on a supplier's price increase"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e65",
+   "how": "heading",
+   "expected": "Controllers tracking falling case costs"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e63",
+   "how": "image",
+   "expected": "Downward trend line, for tracking falling case costs"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e6a",
+   "how": "heading",
+   "expected": "Managers comparing two buyers' results"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "69bfa8b1-cda9-5878-9c7c-47c8f9cb5e68",
+   "how": "image",
+   "expected": "Side by side bars, for comparing two buyers' results"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c5488495d",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c5488495e",
+   "how": "heading",
+   "expected": "What to check before you report the saving"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c54884962",
+   "how": "string",
+   "expected": "A savings figure is only as good as the comparison under it. These three checks catch the claims that look fine in a deck and fail in review."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c54884968",
+   "how": "heading",
+   "expected": "The same case on both prices"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c5488496c",
+   "how": "string",
+   "expected": "$22.56 has to buy the same pack, brand and grade that $24.00 did. A smaller pack or a cheaper brand is a different product, not a saving."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c54884970",
+   "how": "heading",
+   "expected": "Cases bought at the new price"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c54884974",
+   "how": "string",
+   "expected": "The calculator assumes the new price ran all year. If the deal started partway through, enter only the cases bought since, not the full 72,000."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c54884978",
+   "how": "heading",
+   "expected": "An increase someone put in writing"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "9a5ee337-7c4d-daef-8eec-404c5488497c",
+   "how": "string",
+   "expected": "Cost avoidance needs a real ask, such as a supplier letter or a new price list. A rise you expected but were never quoted does not count, so set it to 0%."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602ef1",
+   "how": "string",
+   "expected": "Order Guides"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602ef2",
+   "how": "heading",
+   "expected": "Where VOS picks up after a supplier deal"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602efb",
+   "how": "string",
+   "expected": "Your Sell Prices"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602efc",
+   "how": "heading",
+   "expected": "Your sell price is where a saving lands"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602f00",
+   "how": "string",
+   "expected": "VOS does not measure savings or deal with your suppliers. It works on the selling side, where each account orders from its own guide at the prices you set. When a deal changes a sell price, you update the guides in the VOS admin platform."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602f1d",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602f07",
+   "how": "string",
+   "expected": "Order guides tied to your own SKUs and prices"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602f0d",
+   "how": "string",
+   "expected": "Guides and accounts updated in one admin platform"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602f13",
+   "how": "string",
+   "expected": "Order history per account, showing who ordered when"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "2da9766d-0e45-a24f-48b2-996706602f19",
+   "how": "string",
+   "expected": "Promos and confirmations reach accounts by notification and text"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "2da9766d-0e45-a24f-48b2-996706602ef7",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04243",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04244",
+   "how": "heading",
+   "expected": "What to run after procurement savings"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04249",
+   "how": "string",
+   "expected": "A saving is one number from one negotiation. These three check the invoice, the delivered cost and the payment terms behind it."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04251",
+   "how": "heading",
+   "expected": "Check the invoice held the deal"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04254",
+   "how": "string",
+   "expected": "Compare the price on each invoice with your standard, per case and as a percent, and see what the gap is worth a year."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04258",
+   "how": "string",
+   "expected": "Open the price variance calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb0424e",
+   "how": "image",
+   "expected": "Percent sign, for checking invoices against the agreed price"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04256",
+   "how": "link",
+   "expected": "6ac7866c27806c8148c2855e"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb0425e",
+   "how": "heading",
+   "expected": "Rank supplier offers on landed cost"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04261",
+   "how": "string",
+   "expected": "Compare three supplier quotes on landed cost per unit, because the cheapest case price is rarely the cheapest unit."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04265",
+   "how": "string",
+   "expected": "Open the landed cost calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb0425b",
+   "how": "image",
+   "expected": "Rising line, for ranking supplier offers on landed cost"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04263",
+   "how": "link",
+   "expected": "6ac7652962cd713ecd056f43"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb0426b",
+   "how": "heading",
+   "expected": "Price the payment terms too"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb0426e",
+   "how": "string",
+   "expected": "See what paying a supplier early is worth as a yearly rate, and what the case costs after discounts and freight."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04272",
+   "how": "string",
+   "expected": "Open the early payment discount calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04268",
+   "how": "image",
+   "expected": "Check mark, for pricing a supplier's payment terms"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "b1ec5a1b-cda3-6dee-9887-e4566cb04270",
+   "how": "link",
+   "expected": "6ac79be4b863c26cbc9698b6"
+  }
+ ]
+}

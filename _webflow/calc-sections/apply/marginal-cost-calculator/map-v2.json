@@ -1,0 +1,525 @@
+{
+ "slug": "marginal-cost-calculator",
+ "pageId": "6ac69810ef654fbdecf37f4b",
+ "roots": {
+  "whatis": "7b49d182-bb7d-a3e1-4e82-6ff27d11b22b",
+  "who": "9dd70258-8701-184a-8aa3-2d4aeb761cf3",
+  "look": "4c4075da-2d8e-ca7f-6ee9-cb49c8758681",
+  "vos": "e6e3a3ab-2754-ed73-bb33-c3a1d5ca6ea4",
+  "next": "08a085c1-ea22-dda9-646e-57afcd671e23"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa735",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa736",
+   "how": "heading",
+   "expected": "What is marginal cost?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa73b",
+   "how": "string",
+   "expected": "Marginal cost is what one more case costs you to buy, pick and deliver. You find it by dividing the change in total cost by the change in cases. For a distributor, that includes any truck or route the new volume adds."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa743",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa746",
+   "how": "string",
+   "expected": "The costs that rise with every case you ship: product, picking labor and fuel per drop. In the calculator's example, that is $18.00 a case."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa740",
+   "how": "image",
+   "expected": "Plus sign, for the costs each extra case adds",
+   "asset": "6ad07a8a27aa3ab4d513d9f3"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa74b",
+   "how": "heading",
+   "expected": "What it leaves out"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa74e",
+   "how": "string",
+   "expected": "Rent, insurance and office pay you already carry at today's volume. They stay put when one more account comes on, so the next case does not pay for them."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa748",
+   "how": "image",
+   "expected": "Minus sign, for fixed costs today's volume already carries",
+   "asset": "6ad07a88927330500c3958ed"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa753",
+   "how": "heading",
+   "expected": "When a fixed cost steps in"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa756",
+   "how": "string",
+   "expected": "A second truck or a new route lands all at once. Spread $6,000 across the 1,200 extra cases that need it, and each case carries $5.00 more."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "d63f5253-01a3-a43c-00b4-82ba904fa750",
+   "how": "image",
+   "expected": "Warning sign, for a step cost spread across new cases",
+   "asset": "6ad07a8582ff418bc8a6c6b6"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7d8b",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7d8c",
+   "how": "heading",
+   "expected": "Who uses a marginal cost calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7d91",
+   "how": "string",
+   "expected": "It is built for independent food distributors who run their own trucks. Anyone who prices volume, quotes an account or plans a route should run it before saying yes."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7d96",
+   "how": "heading",
+   "expected": "Owners pricing a new account"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7d94",
+   "how": "image",
+   "expected": "Person, for owners pricing a new account",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7d9b",
+   "how": "heading",
+   "expected": "Sales managers setting floors"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7d99",
+   "how": "image",
+   "expected": "Headset, for sales managers setting price floors",
+   "asset": "6ad07a87835ef439cc7910a2"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7da0",
+   "how": "heading",
+   "expected": "Reps quoting a volume deal"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7d9e",
+   "how": "image",
+   "expected": "Speech bubble, for reps quoting a volume deal",
+   "asset": "6ad07a860941cf0d0c62fa17"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7da5",
+   "how": "heading",
+   "expected": "Route planners adding stops"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7da3",
+   "how": "image",
+   "expected": "Clipboard, for route planners adding stops",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7daa",
+   "how": "heading",
+   "expected": "Ops weighing a second truck"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7da8",
+   "how": "image",
+   "expected": "Slider controls, for weighing the cost of a second truck",
+   "asset": "6ad07a8c46e29627d6ef796b"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7daf",
+   "how": "heading",
+   "expected": "DSD teams adding stores"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7dad",
+   "how": "image",
+   "expected": "Storefront, for DSD teams adding stores to a route",
+   "asset": "6ad07a8e55a095f6d8321efc"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7db4",
+   "how": "heading",
+   "expected": "Teams bidding on chain contracts"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7db2",
+   "how": "image",
+   "expected": "Two people, for teams bidding on chain contracts",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7db9",
+   "how": "heading",
+   "expected": "Controllers checking thin accounts"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7db7",
+   "how": "image",
+   "expected": "Office building, for controllers checking thin accounts",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7dbe",
+   "how": "heading",
+   "expected": "Anyone asked for a discount"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "1e34f1e5-a419-d29f-3205-c94ac47b7dbc",
+   "how": "image",
+   "expected": "Mobile phone, for weighing a discount request against the floor",
+   "asset": "6ad07a8a27aa3ab4d513d988"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28ac8",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28ac9",
+   "how": "heading",
+   "expected": "What to look for before you trust the number"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28acd",
+   "how": "string",
+   "expected": "The math is simple. The inputs are where it goes wrong. Check these three before you quote off the result."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28ad3",
+   "how": "heading",
+   "expected": "Costs in the right bucket"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28ad7",
+   "how": "string",
+   "expected": "A driver's wage stays fixed until you add a route. Fuel and picking labor move with every case. File one in the wrong place and the answer moves."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28adb",
+   "how": "heading",
+   "expected": "Cases that are really new"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28adf",
+   "how": "string",
+   "expected": "Count only volume you would not ship anyway. An account that moves its Tuesday order to Friday adds no cases."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28ae3",
+   "how": "heading",
+   "expected": "The same time period"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "f79f7e46-f342-16c8-4e49-225294a28ae7",
+   "how": "string",
+   "expected": "Monthly fixed costs need monthly cases. Mix in a weekly case count and the step cost per case comes out about four times too high."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad49651",
+   "how": "string",
+   "expected": "Order Entry"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad49652",
+   "how": "heading",
+   "expected": "Where VOS fits in the calculation"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad4965b",
+   "how": "string",
+   "expected": "Your Variable Cost"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad4965c",
+   "how": "heading",
+   "expected": "Order taking sits inside your cost per case"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad49660",
+   "how": "string",
+   "expected": "VOS does not calculate your costs. It changes one input: the time your team spends taking each order. Your customers order by voice in the VOS app, and each order reaches you confirmed, in the format you already use."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad4967d",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad49667",
+   "how": "string",
+   "expected": "20-30 minutes saved per order compared with a phone call"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad4966d",
+   "how": "string",
+   "expected": "Each app order arrives with a number and a timestamp"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad49673",
+   "how": "string",
+   "expected": "Order history per account to check your case counts"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad49679",
+   "how": "string",
+   "expected": "Most distributors are live in 24 to 48 hours"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "fcce3542-2ef0-2969-c150-f3624ad49657",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd087",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd088",
+   "how": "heading",
+   "expected": "What to run after marginal cost"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd08d",
+   "how": "string",
+   "expected": "Marginal cost gives you the floor. These free calculators answer the next three questions a pricing decision raises."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd095",
+   "how": "heading",
+   "expected": "Price the case three ways"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd098",
+   "how": "string",
+   "expected": "Compare cost-plus, a target profit and a competitor's price for the same case, and see the margin each one leaves."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd09c",
+   "how": "string",
+   "expected": "Open the pricing calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd092",
+   "how": "image",
+   "expected": "Calculator, for pricing a case three ways",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd09a",
+   "how": "link",
+   "expected": "6ac718c668be300e93fb7203"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0a2",
+   "how": "heading",
+   "expected": "Test a discount before you give it"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0a5",
+   "how": "string",
+   "expected": "See how much volume a price cut has to add, or a raise can afford to lose, before profit drops."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0a9",
+   "how": "string",
+   "expected": "Open the price change calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd09f",
+   "how": "image",
+   "expected": "Right arrow, for the volume a price change needs",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0a7",
+   "how": "link",
+   "expected": "6ac735253fe7317c927e4447"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0af",
+   "how": "heading",
+   "expected": "Cost each stop on the route"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0b2",
+   "how": "string",
+   "expected": "Break a route into cost per drop and per case, then check whether a new account's drop size covers the stop."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0b6",
+   "how": "string",
+   "expected": "Open the delivery cost calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0ac",
+   "how": "image",
+   "expected": "Map pin, for costing each stop on a route",
+   "asset": "6ad07a8ac909350d3ff080bd"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "fd5ea763-d61d-9791-45da-0b1aa26dd0b4",
+   "how": "link",
+   "expected": "6ac7652b0d7b366d7fd65177"
+  }
+ ]
+}

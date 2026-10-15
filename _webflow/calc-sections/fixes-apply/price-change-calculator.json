@@ -1,0 +1,201 @@
+{
+ "el": [
+  {
+   "label": "tools_banner.heading",
+   "set_text": {
+    "id": {
+     "component": "6ac735253fe7317c927e4447",
+     "element": "51694cc7-6e25-fd57-662c-d3712113813c"
+    },
+    "text": "See how VOS puts your current pricing on every order guide"
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac735253fe7317c927e4447",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-pricechg"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac735253fe7317c927e4447",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-pricechg"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac735253fe7317c927e4447",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-pricechg"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac735253fe7317c927e4447",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-pricechg"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {
+   "51694cc7-6e25-fd57-662c-d3712113813c": "See how VOS puts your current pricing on every order guide"
+  },
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-pricechg",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-pricechg",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-pricechg",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-pricechg"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/price-change-calculator#calculator",
+    "name": "Price Change Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/price-change-calculator",
+    "description": "See what a price move does to your margin, and how much volume you can afford to lose before you are worse off.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "What the move does to your price and your margin",
+     "The dollars the move adds or takes away",
+     "How much volume you can afford to lose",
+     "The same move in monthly dollars"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/price-change-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How much volume can you lose after a price increase?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "More than most people expect. On a $30.00 case costing $22.00, a 5% increase lets you lose 15.8% of the volume and still match today's profit. That is the number to weigh an account's reaction against, rather than deciding on instinct."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you work out the breakeven volume for a price change?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Compare your contribution before and after. $30.00 less $22.00 is $8.00 today, and $31.50 less $22.00 is $9.50 after. Divide the old by the new and you keep 84.2% of the volume to break even, so you can lose 15.8%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why does a small price increase move profit so much?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Because the increase lands entirely on what you keep. 5% of a $30.00 price is $1.50, and that $1.50 goes straight onto $8.00 of contribution. The price moved 5% and your profit per case moved 18.8%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is a price cut ever worth it?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sometimes, but it asks much more of volume than a raise gives back. A 5% cut takes contribution to $6.50 and needs 23.1% more cases just to hold profit. If the cut takes the price below your cost, no amount of volume can pay it back."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does the breakeven depend on how much you sell today?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No, and that is what makes it useful. The breakeven is only the ratio of your old contribution to your new one, so 15.8% is the answer whether you move 600 cases a month or 60,000. Volume only changes the dollars, not the decision."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should you raise prices across the board or item by item?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Item by item, because the same percentage does very different things to a thin line and a wide one. Run the thin lines first, since those are where a few cents of contribution change the breakeven most."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you explain a price increase to an account?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "With the reason, the date and the number, in writing, before the invoice shows it. Say whether the move follows a cost increase or not. An account that hears it from a rep first argues less than one that finds it on a statement."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/price-change-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/price-change-calculator",
+    "name": "Price Change Calculator",
+    "description": "See what a price move does to your margin, and how much volume you can afford to lose before you are worse off.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/price-change-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/price-change-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

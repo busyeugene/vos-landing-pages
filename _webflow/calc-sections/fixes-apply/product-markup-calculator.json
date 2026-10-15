@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac7866ff16ee3a82e89dd76",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-prodmarkup"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac7866ff16ee3a82e89dd76",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-prodmarkup"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac7866ff16ee3a82e89dd76",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-prodmarkup"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac7866ff16ee3a82e89dd76",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-prodmarkup"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-prodmarkup",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-prodmarkup",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-prodmarkup",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-prodmarkup"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/product-markup-calculator#calculator",
+    "name": "Product Markup Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/product-markup-calculator",
+    "description": "See the price and margin at every markup rung, plus the markup a target margin needs. A 50% markup is a 33.3% margin, not the same number.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "Price and margin at every markup rung",
+     "The markup a target margin needs",
+     "What a rung is worth on one case",
+     "What the markup is worth across a month"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/product-markup-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do you calculate markup on a product?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Take the price, subtract the cost, then divide by the cost. A $22.00 case sold at $33.00 keeps $11.00, so the markup is 50%. Divide the same $11.00 by the $33.00 price and you get a 33.3% margin, which is what your P&L reports."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is it better to use markup or margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Set the target in margin, then price in markup. Margin is the share of the price you keep, so 30% of a $31.43 case is $9.43. Type the margin you need and the calculator prints the markup, 42.9% here, so nobody converts by hand."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What does 5% markup mean?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It means the price is the cost plus 5% of the cost. On a $22.00 case that adds $1.10, so the price is $23.10 and the margin is 4.8%. Five points of markup is always under five points of margin, and on food it will not cover shrink."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a 40% markup on $100?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The price is $140.00. The markup adds $40.00 to the $100.00 cost, and that $40.00 is a 28.6% margin on the $140.00 price. Type a $100.00 cost into the calculator and the 40% rung reads exactly that."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What margin does a 20% markup leave?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "16.7%, and it does not matter what the case cost. A $22.00 case at a 20% markup prices at $26.40 and keeps $4.40, which is 16.7% of $26.40. Type a $500.00 cost and the same rung prices at $600.00 and keeps $100.00, still 16.7%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is 30% a good markup?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "On a $22.00 case a 30% markup prices at $28.60 and keeps 23.1%, which is thin once shrink and delivery come out of it. Name the margin you need first, then read the markup off the ladder. A 30% margin on that case takes 42.9%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you work out a selling price from a markup?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Multiply the cost by one plus the markup. A $22.00 case at a 40% markup is $30.80, and at a 50% markup it is $33.00. Going the other way, divide the cost by one minus the margin, so $22.00 divided by 0.70 gives $31.43."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/product-markup-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/product-markup-calculator",
+    "name": "Product Markup Calculator",
+    "description": "See the price and margin at every markup rung, plus the markup a target margin needs. A 50% markup is a 33.3% margin, not the same number.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/product-markup-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/product-markup-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

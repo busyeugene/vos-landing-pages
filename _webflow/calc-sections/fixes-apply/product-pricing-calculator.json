@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac718c668be300e93fb7203",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-pricing"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac718c668be300e93fb7203",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-pricing"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac718c668be300e93fb7203",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-pricing"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac718c668be300e93fb7203",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-pricing"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-pricing",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-pricing",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-pricing",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-pricing"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/product-pricing-calculator#calculator",
+    "name": "Product Pricing Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/product-pricing-calculator",
+    "description": "Price a case three ways at once, cost-plus, target profit, or matching a competitor, and see the margin each approach really leaves you.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The price your target margin actually needs",
+     "What a flat dollar target does to margin",
+     "Whether matching them still pays",
+     "The same case, multiplied by your volume"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/product-pricing-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do you calculate a product price?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Start from landed cost, then apply one rule. For a target margin, divide the cost by one minus the margin: a $22.00 case at 28% prices at $30.56."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the difference between markup and margin?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Markup is a percentage of your cost, margin is a percentage of the price. A 28% markup on a $22.00 case gives $28.16, while a 28% margin needs $30.56, a $2.40 gap."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a good margin on a case of food?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It varies by category, so compare against your own blend rather than a benchmark. Staples run thin and specialty runs wide, and the mix is what pays the overhead."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should you price off a flat profit per case?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Only on a narrow catalog. A flat $8.00 gives 26.7% on a $22.00 case, but the same $8.00 on a cheaper case is a much fatter margin and on a dearer one it is far too thin."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is it worth matching a competitor's price?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Check the margin before you match. At $31.00 against a $22.00 case the match leaves 29.0%, which beats both other rules here. That will not hold if your cost is higher than theirs."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What costs belong in the price of a case?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Product cost, inbound freight, handling, and the shrink you expect on that item. Leave any of them out and the margin on screen is not the margin you bank."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How often should you reprice?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Whenever landed cost moves enough to matter. A $0.56 change per case looks small until you multiply it: across 6,000 cases a month it is $3,360."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/product-pricing-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/product-pricing-calculator",
+    "name": "Product Pricing Calculator",
+    "description": "Price a case three ways at once, cost-plus, target profit, or matching a competitor, and see the margin each approach really leaves you.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/product-pricing-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/product-pricing-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

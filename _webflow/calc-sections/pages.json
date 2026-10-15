@@ -1,0 +1,439 @@
+{
+ "product-pricing-calculator": {
+  "pageId": "6ac718c668be300e93fb7203",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-product-pricing.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\product-pricing-calculator.html",
+  "related": [
+   {
+    "slug": "product-markup-calculator",
+    "pageId": "6ac7866ff16ee3a82e89dd76"
+   },
+   {
+    "slug": "price-change-calculator",
+    "pageId": "6ac735253fe7317c927e4447"
+   },
+   {
+    "slug": "marginal-cost-calculator",
+    "pageId": "6ac69810ef654fbdecf37f4b"
+   }
+  ]
+ },
+ "product-markup-calculator": {
+  "pageId": "6ac7866ff16ee3a82e89dd76",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-product-markup.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\product-markup-calculator.html",
+  "related": [
+   {
+    "slug": "product-pricing-calculator",
+    "pageId": "6ac718c668be300e93fb7203"
+   },
+   {
+    "slug": "retail-margin-calculator",
+    "pageId": "6ac76528743f1f2a6f8ae6e6"
+   },
+   {
+    "slug": "wholesale-markup-calculator",
+    "pageId": "6ac73521a469d3c306f7aa87"
+   }
+  ]
+ },
+ "material-markup-calculator": {
+  "pageId": "6ac72b95bdfb92fbc692e782",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-material-markup.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\material-markup-calculator.html",
+  "related": [
+   {
+    "slug": "landed-cost-calculator",
+    "pageId": "6ac7652962cd713ecd056f43"
+   },
+   {
+    "slug": "wholesale-markup-calculator",
+    "pageId": "6ac73521a469d3c306f7aa87"
+   },
+   {
+    "slug": "product-markup-calculator",
+    "pageId": "6ac7866ff16ee3a82e89dd76"
+   }
+  ]
+ },
+ "retail-margin-calculator": {
+  "pageId": "6ac76528743f1f2a6f8ae6e6",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-retail-margin.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\retail-margin-calculator.html",
+  "related": [
+   {
+    "slug": "product-markup-calculator",
+    "pageId": "6ac7866ff16ee3a82e89dd76"
+   },
+   {
+    "slug": "wholesale-to-retail-markup-calculator",
+    "pageId": "6ac73522edd07accabdbe401"
+   },
+   {
+    "slug": "product-pricing-calculator",
+    "pageId": "6ac718c668be300e93fb7203"
+   }
+  ]
+ },
+ "wholesale-markup-calculator": {
+  "pageId": "6ac73521a469d3c306f7aa87",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-wholesale-markup.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\wholesale-markup-calculator.html",
+  "related": [
+   {
+    "slug": "material-markup-calculator",
+    "pageId": "6ac72b95bdfb92fbc692e782"
+   },
+   {
+    "slug": "wholesale-to-retail-markup-calculator",
+    "pageId": "6ac73522edd07accabdbe401"
+   },
+   {
+    "slug": "price-change-calculator",
+    "pageId": "6ac735253fe7317c927e4447"
+   }
+  ]
+ },
+ "food-markup-calculator": {
+  "pageId": "6ac79be2180bc9b3c91fb79c",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-food-markup.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\food-markup-calculator.html",
+  "related": [
+   {
+    "slug": "material-markup-calculator",
+    "pageId": "6ac72b95bdfb92fbc692e782"
+   },
+   {
+    "slug": "unit-price-calculator",
+    "pageId": "6ac72b948f277e012d8d7584"
+   },
+   {
+    "slug": "product-pricing-calculator",
+    "pageId": "6ac718c668be300e93fb7203"
+   }
+  ]
+ },
+ "wholesale-to-retail-markup-calculator": {
+  "pageId": "6ac73522edd07accabdbe401",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-wholesale-retail.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\wholesale-retail-markup-calculator.html",
+  "related": [
+   {
+    "slug": "retail-margin-calculator",
+    "pageId": "6ac76528743f1f2a6f8ae6e6"
+   },
+   {
+    "slug": "wholesale-markup-calculator",
+    "pageId": "6ac73521a469d3c306f7aa87"
+   },
+   {
+    "slug": "product-markup-calculator",
+    "pageId": "6ac7866ff16ee3a82e89dd76"
+   }
+  ]
+ },
+ "price-change-calculator": {
+  "pageId": "6ac735253fe7317c927e4447",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-price-change.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\price-change-calculator.html",
+  "related": [
+   {
+    "slug": "product-pricing-calculator",
+    "pageId": "6ac718c668be300e93fb7203"
+   },
+   {
+    "slug": "marginal-cost-calculator",
+    "pageId": "6ac69810ef654fbdecf37f4b"
+   },
+   {
+    "slug": "wholesale-markup-calculator",
+    "pageId": "6ac73521a469d3c306f7aa87"
+   }
+  ]
+ },
+ "landed-cost-calculator": {
+  "pageId": "6ac7652962cd713ecd056f43",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-landed-cost.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\price-comparison-calculator.html",
+  "related": [
+   {
+    "slug": "unit-price-calculator",
+    "pageId": "6ac72b948f277e012d8d7584"
+   },
+   {
+    "slug": "procurement-savings-calculator",
+    "pageId": "6ac78670c218082afa38ac6f"
+   },
+   {
+    "slug": "material-markup-calculator",
+    "pageId": "6ac72b95bdfb92fbc692e782"
+   }
+  ]
+ },
+ "unit-price-calculator": {
+  "pageId": "6ac72b948f277e012d8d7584",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-unit-price.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\unit-price-calculator.html",
+  "related": [
+   {
+    "slug": "landed-cost-calculator",
+    "pageId": "6ac7652962cd713ecd056f43"
+   },
+   {
+    "slug": "food-markup-calculator",
+    "pageId": "6ac79be2180bc9b3c91fb79c"
+   },
+   {
+    "slug": "purchase-price-variance-calculator",
+    "pageId": "6ac7866c27806c8148c2855e"
+   }
+  ]
+ },
+ "purchase-price-variance-calculator": {
+  "pageId": "6ac7866c27806c8148c2855e",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-price-variance.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\price-variance-calculator.html",
+  "related": [
+   {
+    "slug": "procurement-savings-calculator",
+    "pageId": "6ac78670c218082afa38ac6f"
+   },
+   {
+    "slug": "landed-cost-calculator",
+    "pageId": "6ac7652962cd713ecd056f43"
+   },
+   {
+    "slug": "early-payment-discount-calculator",
+    "pageId": "6ac79be4b863c26cbc9698b6"
+   }
+  ]
+ },
+ "early-payment-discount-calculator": {
+  "pageId": "6ac79be4b863c26cbc9698b6",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-early-payment-discount.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\purchase-price-calculator.html",
+  "related": [
+   {
+    "slug": "accounts-receivable-turnover-calculator",
+    "pageId": "6ac72b932e36cb4efe865399"
+   },
+   {
+    "slug": "purchase-price-variance-calculator",
+    "pageId": "6ac7866c27806c8148c2855e"
+   },
+   {
+    "slug": "procurement-savings-calculator",
+    "pageId": "6ac78670c218082afa38ac6f"
+   }
+  ]
+ },
+ "procurement-savings-calculator": {
+  "pageId": "6ac78670c218082afa38ac6f",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-procurement-savings.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\procurement-savings-calculator.html",
+  "related": [
+   {
+    "slug": "purchase-price-variance-calculator",
+    "pageId": "6ac7866c27806c8148c2855e"
+   },
+   {
+    "slug": "landed-cost-calculator",
+    "pageId": "6ac7652962cd713ecd056f43"
+   },
+   {
+    "slug": "early-payment-discount-calculator",
+    "pageId": "6ac79be4b863c26cbc9698b6"
+   }
+  ]
+ },
+ "marginal-cost-calculator": {
+  "pageId": "6ac69810ef654fbdecf37f4b",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\example-copy-spec-marginal-cost.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\marginal-cost-calculator.html",
+  "related": [
+   {
+    "slug": "product-pricing-calculator",
+    "pageId": "6ac718c668be300e93fb7203"
+   },
+   {
+    "slug": "price-change-calculator",
+    "pageId": "6ac735253fe7317c927e4447"
+   },
+   {
+    "slug": "delivery-cost-calculator",
+    "pageId": "6ac7652b0d7b366d7fd65177"
+   }
+  ]
+ },
+ "reorder-point-calculator": {
+  "pageId": "6ac7652a2a715d3e702a0559",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-reorder-point.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\reorder-point-calculator.html",
+  "related": [
+   {
+    "slug": "safety-stock-calculator",
+    "pageId": "6ac735249b6f12d26ba60ce1"
+   },
+   {
+    "slug": "par-level-calculator",
+    "pageId": "6ac79be1b863c26cbc96979a"
+   },
+   {
+    "slug": "inventory-turnover-calculator",
+    "pageId": "6ac7252ae188e18d1d906bba"
+   }
+  ]
+ },
+ "safety-stock-calculator": {
+  "pageId": "6ac735249b6f12d26ba60ce1",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-safety-stock.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\safety-stock-calculator.html",
+  "related": [
+   {
+    "slug": "reorder-point-calculator",
+    "pageId": "6ac7652a2a715d3e702a0559"
+   },
+   {
+    "slug": "inventory-carrying-cost-calculator",
+    "pageId": "6ac7866e071fb41c4807eab0"
+   },
+   {
+    "slug": "par-level-calculator",
+    "pageId": "6ac79be1b863c26cbc96979a"
+   }
+  ]
+ },
+ "par-level-calculator": {
+  "pageId": "6ac79be1b863c26cbc96979a",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-par-level.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\par-level-calculator.html",
+  "related": [
+   {
+    "slug": "reorder-point-calculator",
+    "pageId": "6ac7652a2a715d3e702a0559"
+   },
+   {
+    "slug": "safety-stock-calculator",
+    "pageId": "6ac735249b6f12d26ba60ce1"
+   },
+   {
+    "slug": "inventory-carrying-cost-calculator",
+    "pageId": "6ac7866e071fb41c4807eab0"
+   }
+  ]
+ },
+ "inventory-turnover-calculator": {
+  "pageId": "6ac7252ae188e18d1d906bba",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-inventory-turnover.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\inventory-turnover-calculator.html",
+  "related": [
+   {
+    "slug": "inventory-carrying-cost-calculator",
+    "pageId": "6ac7866e071fb41c4807eab0"
+   },
+   {
+    "slug": "accounts-receivable-turnover-calculator",
+    "pageId": "6ac72b932e36cb4efe865399"
+   },
+   {
+    "slug": "reorder-point-calculator",
+    "pageId": "6ac7652a2a715d3e702a0559"
+   }
+  ]
+ },
+ "inventory-carrying-cost-calculator": {
+  "pageId": "6ac7866e071fb41c4807eab0",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-carrying-cost.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\inventory-carrying-cost-calculator.html",
+  "related": [
+   {
+    "slug": "inventory-turnover-calculator",
+    "pageId": "6ac7252ae188e18d1d906bba"
+   },
+   {
+    "slug": "safety-stock-calculator",
+    "pageId": "6ac735249b6f12d26ba60ce1"
+   },
+   {
+    "slug": "warehouse-space-calculator",
+    "pageId": "6ac735232408756f9071e095"
+   }
+  ]
+ },
+ "warehouse-space-calculator": {
+  "pageId": "6ac735232408756f9071e095",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-warehouse-space.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\warehouse-space-calculator.html",
+  "related": [
+   {
+    "slug": "warehouse-size-calculator",
+    "pageId": "6ac72b9663b2850d53a5f878"
+   },
+   {
+    "slug": "inventory-carrying-cost-calculator",
+    "pageId": "6ac7866e071fb41c4807eab0"
+   },
+   {
+    "slug": "inventory-turnover-calculator",
+    "pageId": "6ac7252ae188e18d1d906bba"
+   }
+  ]
+ },
+ "warehouse-size-calculator": {
+  "pageId": "6ac72b9663b2850d53a5f878",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-warehouse-size.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\warehouse-size-calculator.html",
+  "related": [
+   {
+    "slug": "warehouse-space-calculator",
+    "pageId": "6ac735232408756f9071e095"
+   },
+   {
+    "slug": "inventory-turnover-calculator",
+    "pageId": "6ac7252ae188e18d1d906bba"
+   },
+   {
+    "slug": "delivery-cost-calculator",
+    "pageId": "6ac7652b0d7b366d7fd65177"
+   }
+  ]
+ },
+ "delivery-cost-calculator": {
+  "pageId": "6ac7652b0d7b366d7fd65177",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-delivery-cost.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\delivery-cost-calculator.html",
+  "related": [
+   {
+    "slug": "marginal-cost-calculator",
+    "pageId": "6ac69810ef654fbdecf37f4b"
+   },
+   {
+    "slug": "warehouse-size-calculator",
+    "pageId": "6ac72b9663b2850d53a5f878"
+   },
+   {
+    "slug": "landed-cost-calculator",
+    "pageId": "6ac7652962cd713ecd056f43"
+   }
+  ]
+ },
+ "accounts-receivable-turnover-calculator": {
+  "pageId": "6ac72b932e36cb4efe865399",
+  "copySpec": "E:\\Claude projects\\Lead magnets VOS\\.claude\\skills\\vos-webflow-lead-magnet\\reference\\copy-spec-ar-turnover.md",
+  "fragment": "E:\\Claude projects\\Lead magnets VOS\\webflow\\accounts-receivable-turnover-calculator.html",
+  "related": [
+   {
+    "slug": "early-payment-discount-calculator",
+    "pageId": "6ac79be4b863c26cbc9698b6"
+   },
+   {
+    "slug": "inventory-turnover-calculator",
+    "pageId": "6ac7252ae188e18d1d906bba"
+   },
+   {
+    "slug": "price-change-calculator",
+    "pageId": "6ac735253fe7317c927e4447"
+   }
+  ]
+ }
+}

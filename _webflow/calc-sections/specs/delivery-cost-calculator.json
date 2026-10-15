@@ -1,0 +1,157 @@
+{
+ "slug": "delivery-cost-calculator",
+ "status": "DRAFT: written to BRIEF.md 2026-10-15, not yet reviewed. VOS does no routing, dispatch or tracking. Touchpoint is order timing (24/7 capture) and the DSD fact only; nothing about the truck is attributed to VOS.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is cost per delivery?",
+  "intro": "Cost per delivery is the share of a route day that one stop uses up, whatever it carries. It comes from the day's driver, fuel and truck costs, split evenly across every drop. It is the cost a delivery minimum has to clear.",
+  "cards": [
+   {
+    "title": "Only the route day is counted",
+    "body": "The route day and nothing before it. Picking in the warehouse and the time spent taking the order sit outside the $27.18, so serving a stop costs more.",
+    "alt": "Plus sign, for the route costs a drop carries"
+   },
+   {
+    "title": "Every stop priced the same",
+    "body": "The calculator splits the day evenly, but a long unload or a detour uses more of the 8 hours than a quick drop.",
+    "alt": "Light bulb, for the difference between a long stop and a quick one"
+   },
+   {
+    "title": "The order that misses the route",
+    "body": "An order that arrives after the route is built waits a day or gets a trip of its own. A trip of its own puts driver time, fuel and the truck behind one drop.",
+    "alt": "Warning sign, for an order that arrives after the route is built"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a delivery cost calculator",
+  "intro": "Any distributor running its own trucks can use it, from a single route to a full fleet. Whoever sets the delivery minimum, quotes a new stop or cuts a route should have that figure.",
+  "chips": [
+   {
+    "label": "Owners setting a delivery minimum",
+    "alt": "Person, for owners setting a delivery minimum"
+   },
+   {
+    "label": "Sales managers weighing small accounts",
+    "alt": "Storefront, for weighing small accounts against the cost of a stop"
+   },
+   {
+    "label": "Reps adding a new stop",
+    "alt": "Speech bubble, for reps adding a new stop"
+   },
+   {
+    "label": "Transport managers costing a route",
+    "alt": "Map pin, for transport managers costing a route"
+   },
+   {
+    "label": "Controllers budgeting the fleet",
+    "alt": "Office building, for controllers budgeting the fleet"
+   },
+   {
+    "label": "DSD teams setting visit frequency",
+    "alt": "Slider controls, for DSD teams setting how often stores get a visit"
+   },
+   {
+    "label": "Owners pricing delivery fees",
+    "alt": "Clipboard, for owners pricing delivery fees"
+   },
+   {
+    "label": "Ops reviewing light drops",
+    "alt": "Magnifying glass, for reviewing light drops"
+   },
+   {
+    "label": "Teams comparing two routes",
+    "alt": "Two people, for comparing two routes"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Count the whole route day in the drop cost",
+  "intro": "Driver cost is most of the day, so two of these checks start with the driver. The third is the miles.",
+  "steps": [
+   {
+    "title": "Hours from the timesheet",
+    "body": "Enter the hours the driver is paid, clock in to clock out, not just time on the road. If overtime is regular, build it into the hourly rate."
+   },
+   {
+    "title": "A wage with the extras on",
+    "body": "$28.00 should carry payroll taxes, benefits and insurance, not just the pay rate. A bare wage makes every drop look cheaper than it is."
+   },
+   {
+    "title": "Miles from yard to yard",
+    "body": "Use odometer miles for the whole day, out and back. Distance between stops on a map leaves out the run to the first drop and home again."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Timing",
+  "h2": "Where VOS sits before the route leaves",
+  "row_badge": "Your Route Day",
+  "h3": "Orders can land before the route is built",
+  "body": "VOS does not plan routes, dispatch trucks or track deliveries. It works a step earlier. Customers order by voice in the VOS app, 24/7, and after-hours orders are in before the truck is loaded.",
+  "bullets": [
+   "Customers order 24/7, after hours included",
+   "Each line reviewed by the customer before it is sent",
+   "For DSD, drivers show up with the right product",
+   "20-30 minutes saved per order compared with a phone order"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after cost per delivery",
+  "intro": "A drop cost prices one stop. These three follow it to the next case, the building the cases ship from, and what they cost to bring in.",
+  "cards": [
+   {
+    "title": "Find the cost of the next case",
+    "body": "Split variable from fixed cost and see what extra volume costs per case once a new truck or route is needed.",
+    "link_label": "Open the marginal cost calculator",
+    "link_slug": "marginal-cost-calculator",
+    "alt": "Calculator, for the cost of one more case"
+   },
+   {
+    "title": "See what your warehouse can hold",
+    "body": "Count how many cases your building holds once aisles and dock are out, and the weeks of flow that covers.",
+    "link_label": "Open the warehouse size calculator",
+    "link_slug": "warehouse-size-calculator",
+    "alt": "Warehouse, for what your warehouse can hold"
+   },
+   {
+    "title": "Cost what comes in, freight and all",
+    "body": "Put inbound freight on each supplier's case and rank three offers by what one unit really costs you.",
+    "link_label": "Open the landed cost calculator",
+    "link_slug": "landed-cost-calculator",
+    "alt": "Right arrow, for costing inbound supplier offers with freight"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "$27.18 a drop",
+   "source": "spec: $380.50 day / 14 drops = 27.1786, settled to cents"
+  },
+  {
+   "figure": "8 hours",
+   "source": "calculator default: route hours 8"
+  },
+  {
+   "figure": "$28.00",
+   "source": "calculator default: driver cost per hour 28.00, a fully loaded wage"
+  },
+  {
+   "figure": "Driver cost is most of the day",
+   "source": "spec: driver $224.00 of $380.50 = 58.9%"
+  },
+  {
+   "figure": "24/7",
+   "source": "VOS KB CURRENT STATE, 'Available 24/7'; after-hours orders are captured"
+  },
+  {
+   "figure": "20-30 minutes saved per order",
+   "source": "VOS KB CURRENT STATE, homepage figure"
+  }
+ ]
+}

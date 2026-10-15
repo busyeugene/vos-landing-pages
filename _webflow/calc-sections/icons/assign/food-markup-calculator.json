@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "lightbulb"
+ ],
+ "who": [
+  "person",
+  "clipboard",
+  "racking",
+  "warehouse",
+  "office",
+  "team",
+  "chat",
+  "chart-up",
+  "search"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "sliders"
+ ],
+ "notes": "who 3 (managers adding portioned products) is racking, a weak fit; plus is taken by whatis 1. who 4 dock teams is warehouse."
+}

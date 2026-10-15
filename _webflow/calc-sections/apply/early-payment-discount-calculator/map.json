@@ -1,0 +1,510 @@
+{
+ "slug": "early-payment-discount-calculator",
+ "pageId": "6ac79be4b863c26cbc9698b6",
+ "roots": {
+  "whatis": "064552d1-0f30-ae02-740b-c617e580f939",
+  "who": "5d9b70e1-5fe5-fc91-246c-cf492b6c55ec",
+  "look": "adb81d5c-018d-298c-bd58-2a2ceb2396a6",
+  "vos": "90791e9e-38ca-ec4f-7d0b-59131f06aae6",
+  "next": "b4a40cd3-72a4-775c-82a9-ebbe27dd01c6"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580dda",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580ddb",
+   "how": "heading",
+   "expected": "What is an early payment discount?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580de0",
+   "how": "string",
+   "expected": "An early payment discount is a price cut your supplier offers if you pay an invoice before the due date. It is written as terms such as 2/10 net 30: 2% off within 10 days, or the full amount by day 30. In effect, the supplier pays you to settle 20 days sooner."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580de8",
+   "how": "heading",
+   "expected": "An offer, not a term you owe"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580deb",
+   "how": "string",
+   "expected": "Skip it and you simply pay $22.56 a case by day 30. Take it and the same case is $22.11, paid by day 10."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580de5",
+   "how": "image",
+   "expected": "Floor plan grid, for taking or skipping the early pay offer"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580df0",
+   "how": "heading",
+   "expected": "A deadline with no grace"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580df3",
+   "how": "string",
+   "expected": "Day 11 is too late. Taking the 2% after the window is called an unearned discount, and suppliers often bill it back."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580ded",
+   "how": "image",
+   "expected": "Stacked cases, for the hard deadline on the discount window"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580df8",
+   "how": "heading",
+   "expected": "Offering it costs the same rate"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580dfb",
+   "how": "string",
+   "expected": "If you offer 2/10 net 30 to your own accounts, the math runs the other way. An account that would otherwise pay on day 30 costs you 37.2% a year to pay 20 days sooner."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "5e8e5d56-1d5e-59f9-bfd1-962221580df5",
+   "how": "image",
+   "expected": "Case box, for offering early pay terms to your own accounts"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89d9ef",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89d9f0",
+   "how": "heading",
+   "expected": "Who uses an early payment discount calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89d9f5",
+   "how": "string",
+   "expected": "It is for independent food distributors who buy from suppliers on terms. Whoever approves supplier invoices, plans the payment run or negotiates terms should run it first."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89d9fa",
+   "how": "heading",
+   "expected": "Owners deciding where cash goes"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89d9f8",
+   "how": "image",
+   "expected": "Dollar sign, for owners deciding where cash goes"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89d9ff",
+   "how": "heading",
+   "expected": "Controllers weighing discounts against credit"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89d9fd",
+   "how": "image",
+   "expected": "Balance scale, for controllers weighing early pay against a credit line"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da04",
+   "how": "heading",
+   "expected": "Finance ranking invoices by rate"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da02",
+   "how": "image",
+   "expected": "Rising chart, for ranking supplier invoices by their yearly rate"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da09",
+   "how": "heading",
+   "expected": "Buyers weighing freight against discounts"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da07",
+   "how": "image",
+   "expected": "Delivery truck, for weighing inbound freight against discounts"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da0e",
+   "how": "heading",
+   "expected": "Payables clerks scheduling payments"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da0c",
+   "how": "image",
+   "expected": "Cash bills, for scheduling supplier payments"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da13",
+   "how": "heading",
+   "expected": "Teams planning weekly payment runs"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da11",
+   "how": "image",
+   "expected": "Cycling arrows, for planning a weekly payment run"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da18",
+   "how": "heading",
+   "expected": "Purchasing managers comparing net prices"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da16",
+   "how": "image",
+   "expected": "Price tag, for comparing net case prices"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da1d",
+   "how": "heading",
+   "expected": "Owners getting through tight months"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da1b",
+   "how": "image",
+   "expected": "Downward trend line, for managing cash in a tight month"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da22",
+   "how": "heading",
+   "expected": "Anyone offered new payment terms"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "6593b25f-d169-73e7-2d95-04c8ff89da20",
+   "how": "image",
+   "expected": "Side by side bars, for comparing new payment terms with old ones"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f6a",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f6b",
+   "how": "heading",
+   "expected": "What to check before you take the discount"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f6f",
+   "how": "string",
+   "expected": "The yearly rate is plain arithmetic. The risk sits in the terms you enter and the invoice behind them. Check these three against a real invoice first."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f75",
+   "how": "heading",
+   "expected": "When the 10 days start"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f79",
+   "how": "string",
+   "expected": "Most terms count the 10 days from the invoice date, not the day the product arrives. Slow approvals eat into that window before any payment can go out."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f7d",
+   "how": "heading",
+   "expected": "How your volume tier is paid"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f81",
+   "how": "string",
+   "expected": "The calculator takes the 6% off the invoice before the 2%. If your tier comes back later as a rebate, the invoice stays at $24.00, so enter the volume discount as 0%."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f85",
+   "how": "heading",
+   "expected": "Whether the invoice is right"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "0f1a3cff-238a-bb56-406d-b7c18a1c7f89",
+   "how": "string",
+   "expected": "The calculator trusts the $24.00 you type. Ten days is not long to check a delivery against its invoice, and paying early on a wrong one leaves you chasing a credit."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda2e1",
+   "how": "string",
+   "expected": "Order Desk"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda2e2",
+   "how": "heading",
+   "expected": "Where VOS fits when you are the buyer"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda2eb",
+   "how": "string",
+   "expected": "Your Accounts"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda2ec",
+   "how": "heading",
+   "expected": "Supplier payments stay with you and your books"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda2f0",
+   "how": "string",
+   "expected": "VOS does not calculate discounts, pay suppliers or touch your payables. It works on the selling side: orders your accounts place by voice in the VOS app, each one confirmed and timestamped. Paying early stays your decision, made in your own books."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda30d",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda2f7",
+   "how": "string",
+   "expected": "Accounts order by voice in the app, day or night"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda2fd",
+   "how": "string",
+   "expected": "A number, date and timestamp on every app order"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda303",
+   "how": "string",
+   "expected": "Order history for each account, kept in one place"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda309",
+   "how": "string",
+   "expected": "Runs alongside your ERP, with nothing to rip out"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "d393ab1d-b18c-5008-0fb4-921216eda2e7",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab0e",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab0f",
+   "how": "heading",
+   "expected": "What to run after the early payment discount"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab14",
+   "how": "string",
+   "expected": "The discount decides when you pay suppliers. These three cover when your accounts pay you, what you paid against standard, and what a deal really saved."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab1c",
+   "how": "heading",
+   "expected": "See how fast your accounts pay you"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab1f",
+   "how": "string",
+   "expected": "Check how many days past terms your customers really pay, and what financing that delay costs you a year."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab23",
+   "how": "string",
+   "expected": "Open the AR turnover calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab19",
+   "how": "image",
+   "expected": "Percent sign, for checking how fast your accounts pay you"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab21",
+   "how": "link",
+   "expected": "6ac72b932e36cb4efe865399"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab29",
+   "how": "heading",
+   "expected": "Check what you paid against standard"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab2c",
+   "how": "string",
+   "expected": "Set what you actually paid against your standard price, per case and as a percent, and size the gap over a year."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab30",
+   "how": "string",
+   "expected": "Open the price variance calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab26",
+   "how": "image",
+   "expected": "Rising line, for the gap between paid price and standard price"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab2e",
+   "how": "link",
+   "expected": "6ac7866c27806c8148c2855e"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab36",
+   "how": "heading",
+   "expected": "Split a real saving from an avoided one"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab39",
+   "how": "string",
+   "expected": "Separate hard savings from the increases you kept off the table, and see which part actually reaches the P&L."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab3d",
+   "how": "string",
+   "expected": "Open the procurement savings calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab33",
+   "how": "image",
+   "expected": "Check mark, for separating hard savings from avoided increases"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "6725eb18-6bcd-551c-034a-3f87e8daab3b",
+   "how": "link",
+   "expected": "6ac78670c218082afa38ac6f"
+  }
+ ]
+}

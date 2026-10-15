@@ -1,0 +1,169 @@
+{
+ "slug": "inventory-carrying-cost-calculator",
+ "status": "DRAFT spec, 2026-10-15. Distributor page. Not yet on Webflow.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is inventory carrying cost?",
+  "intro": "Inventory carrying cost is what you pay to keep stock you already own. It covers the money tied up in it, the space it fills and the product lost before it sells. It runs as a yearly rate on average inventory: 27% here, or $35,640 a year.",
+  "cards": [
+   {
+    "title": "A cost that grows by the week",
+    "body": "The cost of time on the floor. Every week a case sits, it keeps paying for the money, space and risk behind it.",
+    "alt": "Plus sign, for the cost of time on the floor"
+   },
+   {
+    "title": "Running short has a cost too",
+    "body": "The cost of running short. A lost sale or a substitution has a price too, so the cheapest stock to hold is not always the least stock.",
+    "alt": "Minus sign, for the cost of running short"
+   },
+   {
+    "title": "Not every case carries $0.50",
+    "body": "The $0.50 a case is an average across 72,000 cases. The rate rides on what each case cost, so a case of beef carries far more than a case of napkins held as long.",
+    "alt": "Light bulb, for the carrying cost one case really holds"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses an inventory carrying cost calculator",
+  "intro": "The people who decide how much dated and dry stock a distributor keeps run it to put a rate on holding it. Whoever signs off on a large buy should know that rate before the order goes out.",
+  "chips": [
+   {
+    "label": "Owners pricing working capital",
+    "alt": "Person, for owners pricing working capital"
+   },
+   {
+    "label": "Buyers weighing a deal buy",
+    "alt": "Speech bubble, for buyers weighing a deal buy against holding cost"
+   },
+   {
+    "label": "Controllers tracking the rate yearly",
+    "alt": "Office building, for controllers tracking the rate year to year"
+   },
+   {
+    "label": "Purchasing teams sizing truckload buys",
+    "alt": "Clipboard, for purchasing teams sizing truckload buys"
+   },
+   {
+    "label": "Finance teams setting capital cost",
+    "alt": "Two people, for finance teams setting the cost of capital"
+   },
+   {
+    "label": "Category managers reviewing slow lines",
+    "alt": "Magnifying glass, for category managers reviewing slow lines"
+   },
+   {
+    "label": "Sales managers costing a promotion",
+    "alt": "Headset, for sales managers costing a promotion"
+   },
+   {
+    "label": "Warehouse leads cutting spoilage",
+    "alt": "Warning sign, for warehouse leads cutting spoilage"
+   },
+   {
+    "label": "Analysts comparing cooler and dry",
+    "alt": "Slider controls, for analysts comparing cooler and dry lines"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Each carrying cost rate needs a second look",
+  "intro": "Five rates add up in seconds. Whether each one is honest takes longer. Run through the points below before the 27% steers a buying decision.",
+  "steps": [
+   {
+    "title": "Only costs that move with stock",
+    "body": "A lease you pay at any stock level is not a carrying cost unless holding less would free the space. Count it anyway and the 7 storage points read high."
+   },
+   {
+    "title": "Losses priced at cost",
+    "body": "Value the dump log at what you paid, the same basis as the $132,000. Price it at sell price and the 6 spoilage points come out too high."
+   },
+   {
+    "title": "A normal year in the dump log",
+    "body": "One freezer failure or recall can swamp a year of spoilage. Take it out, or price it on its own, before it sets the rate for years after."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Selling Side",
+  "h2": "Where VOS fits in your carrying cost",
+  "row_badge": "Your Spoilage Line",
+  "h3": "Dated stock costs least when it sells in time",
+  "body": "VOS does not price your holding costs or change any of the five rates. Its part is on the selling side, where dated stock goes out. Promos reach your customers by notification and text, and they order by voice in the VOS app.",
+  "bullets": [
+   "Order guides and prices updated in one admin platform",
+   "Sales reps freed to sell, not to take orders",
+   "Orders captured 24/7, after hours included",
+   "Most customers place a first order the same day"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after carrying cost",
+  "intro": "The rate prices a dollar of stock for a year. These free calculators show how long the stock sits, what a buffer parks, and how much floor it fills.",
+  "cards": [
+   {
+    "title": "See how long a case sits",
+    "body": "Turn cost of goods and average stock into turns a year, days on hand, and the dollars a slow turn leaves sitting.",
+    "link_label": "Open the inventory turnover calculator",
+    "link_slug": "inventory-turnover-calculator",
+    "alt": "Calculator, for how long a case sits"
+   },
+   {
+    "title": "Check what the buffer parks in cash",
+    "body": "Size a buffer from how much demand and lead times move, pick a service level, and see the cash it ties up.",
+    "link_label": "Open the safety stock calculator",
+    "link_slug": "safety-stock-calculator",
+    "alt": "Right arrow, for the cash a buffer parks"
+   },
+   {
+    "title": "Size the floor your stock fills",
+    "body": "Work out the square feet your inventory needs once aisles, dock and staging count, and what stacking one pallet higher saves.",
+    "link_label": "Open the warehouse space calculator",
+    "link_slug": "warehouse-space-calculator",
+    "alt": "Floor plan grid, for sizing the floor your stock fills"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "27%",
+   "source": "rendered total carrying rate: defaults 9 + 7 + 6 + 2 + 3"
+  },
+  {
+   "figure": "$35,640 a year",
+   "source": "rendered annual carrying cost: $132,000 x 0.27"
+  },
+  {
+   "figure": "$0.50 a case",
+   "source": "rendered carrying cost per case: $35,640 / 72,000 = 49.5 cents, shown as $0.50"
+  },
+  {
+   "figure": "72,000 cases",
+   "source": "calculator default: cases a year 72,000"
+  },
+  {
+   "figure": "$132,000",
+   "source": "calculator default: average inventory value 132,000"
+  },
+  {
+   "figure": "7 storage points",
+   "source": "calculator default: storage and handling 7"
+  },
+  {
+   "figure": "6 spoilage points",
+   "source": "calculator default: shrink and spoilage 6"
+  },
+  {
+   "figure": "24/7",
+   "source": "VOS KB CURRENT STATE: 'Available 24/7', after-hours orders are captured"
+  },
+  {
+   "figure": "first order the same day",
+   "source": "VOS KB CURRENT STATE, carries 'Most'"
+  }
+ ]
+}

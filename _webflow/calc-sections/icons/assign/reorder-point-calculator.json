@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "lightbulb"
+ ],
+ "who": [
+  "person",
+  "phone",
+  "trend-up",
+  "clipboard",
+  "office",
+  "team",
+  "price-tag",
+  "alert",
+  "search"
+ ],
+ "next": [
+  "sliders",
+  "arrow-right",
+  "calculator"
+ ],
+ "notes": "next 1 (size the buffer you typed in) is sliders for the input; buffer is taken. who 8 (warehouse leads flagging low lines) is alert; warehouse and racking are taken. who 6 DSD teams is team; truck is taken."
+}

@@ -1,0 +1,169 @@
+{
+ "slug": "early-payment-discount-calculator",
+ "status": "DRAFT: written to BRIEF.md 2026-10-15, not yet reviewed. Buy-side page: VOS kept on the selling side, never near supplier payments or payables.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is an early payment discount?",
+  "intro": "An early payment discount is a price cut your supplier offers if you pay an invoice before the due date. It is written as terms such as 2/10 net 30: 2% off within 10 days, or the full amount by day 30. In effect, the supplier pays you to settle 20 days sooner.",
+  "cards": [
+   {
+    "title": "An offer, not a term you owe",
+    "body": "Skip it and you simply pay $22.56 a case by day 30. Take it and the same case is $22.11, paid by day 10.",
+    "alt": "Open book, for taking or skipping the early pay offer"
+   },
+   {
+    "title": "A deadline with no grace",
+    "body": "Day 11 is too late. Taking the 2% after the window is called an unearned discount, and suppliers often bill it back.",
+    "alt": "Warning sign, for the hard deadline on the discount window"
+   },
+   {
+    "title": "Offering it costs the same rate",
+    "body": "If you offer 2/10 net 30 to your own accounts, the math runs the other way. An account that would otherwise pay on day 30 costs you 37.2% a year to pay 20 days sooner.",
+    "alt": "Light bulb, for offering early pay terms to your own accounts"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses an early payment discount calculator",
+  "intro": "Each invoice on early pay terms asks a distributor's payables team the same thing: pay early for the discount, or keep the cash? The person who approves supplier invoices, plans the payment run or negotiates terms should run it first.",
+  "chips": [
+   {
+    "label": "Owners deciding where cash goes",
+    "alt": "Person, for owners deciding where cash goes"
+   },
+   {
+    "label": "Controllers weighing discounts against credit",
+    "alt": "Office building, for controllers weighing early pay against a credit line"
+   },
+   {
+    "label": "Finance ranking invoices by rate",
+    "alt": "Side by side bars, for ranking supplier invoices by their yearly rate"
+   },
+   {
+    "label": "Buyers weighing freight against discounts",
+    "alt": "Slider controls, for weighing inbound freight against discounts"
+   },
+   {
+    "label": "Payables clerks scheduling payments",
+    "alt": "Clipboard, for scheduling supplier payments"
+   },
+   {
+    "label": "Teams planning weekly payment runs",
+    "alt": "Two people, for planning a weekly payment run"
+   },
+   {
+    "label": "Purchasing managers comparing net prices",
+    "alt": "Magnifying glass, for comparing net case prices"
+   },
+   {
+    "label": "Owners getting through tight months",
+    "alt": "Minus sign, for managing cash in a tight month"
+   },
+   {
+    "label": "Anyone offered new payment terms",
+    "alt": "Speech bubble, for comparing new payment terms with old ones"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Read the terms before you take the discount",
+  "intro": "The yearly rate is plain arithmetic. The risk sits in the terms you enter and the invoice behind them, so test both against a real invoice.",
+  "steps": [
+   {
+    "title": "When the 10 days start",
+    "body": "Most terms count the 10 days from the invoice date, not the day the product arrives. Slow approvals eat into that window before any payment can go out."
+   },
+   {
+    "title": "How your volume tier is paid",
+    "body": "The calculator takes the 6% off the invoice before the 2%. If your tier comes back later as a rebate, the invoice stays at $24.00, so enter the volume discount as 0%."
+   },
+   {
+    "title": "Whether the invoice is right",
+    "body": "The calculator trusts the $24.00 you type. Ten days is not long to check a delivery against its invoice, and paying early on a wrong one leaves you chasing a credit."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Desk",
+  "h2": "Where VOS fits when you are the buyer",
+  "row_badge": "Your Accounts",
+  "h3": "Supplier payments stay with you and your books",
+  "body": "VOS does not calculate discounts, pay suppliers or touch your payables. Its part is the sale, not the purchase: each order your accounts place by voice in the VOS app comes in confirmed and timestamped. Paying early stays your decision, made in your own books.",
+  "bullets": [
+   "Accounts order by voice in the app, day or night",
+   "A number, date and timestamp on every app order",
+   "Order history for each account, kept in one place",
+   "Runs alongside your ERP, with nothing to rip out"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after the early payment discount",
+  "intro": "The discount decides when you pay suppliers. These three cover when your accounts pay you, what you paid against standard, and what a deal really saved.",
+  "cards": [
+   {
+    "title": "See how fast your accounts pay you",
+    "body": "Check how many days past terms your customers really pay, and what financing that delay costs you a year.",
+    "link_label": "Open the AR turnover calculator",
+    "link_slug": "accounts-receivable-turnover-calculator",
+    "alt": "Cycling arrows, for checking how fast your accounts pay you"
+   },
+   {
+    "title": "Check what you paid against standard",
+    "body": "Set what you actually paid against your standard price, per case and as a percent, and size the gap over a year.",
+    "link_label": "Open the price variance calculator",
+    "link_slug": "purchase-price-variance-calculator",
+    "alt": "Calculator, for the gap between paid price and standard price"
+   },
+   {
+    "title": "Split a real saving from an avoided one",
+    "body": "Separate hard savings from the increases you kept off the table, and see which part actually reaches the P&L.",
+    "link_label": "Open the procurement savings calculator",
+    "link_slug": "procurement-savings-calculator",
+    "alt": "Right arrow, for separating hard savings from avoided increases"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "2/10 net 30: 2% off within 10 days, full amount by day 30",
+   "source": "calculator defaults: early pay discount 2, pay within 10, net terms 30"
+  },
+  {
+   "figure": "20 days sooner",
+   "source": "net terms 30 less the 10 day window, the figure the rate card's subline names"
+  },
+  {
+   "figure": "$22.56 a case by day 30",
+   "source": "spec: $24.00 list less the default 6% volume discount, settled to cents"
+  },
+  {
+   "figure": "$22.11 a case by day 10",
+   "source": "spec: $22.56 x 0.98, settled to cents, the second card on screen"
+  },
+  {
+   "figure": "Day 11",
+   "source": "one day past the default 10 day window, no new data"
+  },
+  {
+   "figure": "37.2% a year",
+   "source": "spec: (2 / 98) x (365 / 20), rendered as 37.2%. A general payment-terms fact, also true from the seller's side; never a VOS claim"
+  },
+  {
+   "figure": "6% before the 2%, invoice at $24.00, enter 0%",
+   "source": "calculator defaults: list 24.00, volume discount 6; 0% is the input instruction (spec what-if at 0% volume)"
+  },
+  {
+   "figure": "Ten days to check the invoice",
+   "source": "the default 10 day discount window"
+  },
+  {
+   "figure": "24/7",
+   "source": "VOS KB CURRENT STATE, 'Available 24/7'"
+  }
+ ]
+}

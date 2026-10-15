@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "lightbulb"
+ ],
+ "who": [
+  "person",
+  "chat",
+  "office",
+  "clipboard",
+  "team",
+  "search",
+  "headset",
+  "alert",
+  "sliders"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "floorplan"
+ ],
+ "notes": "who 4 (purchasing teams sizing truckload buys) is clipboard, not truck: a truckload buy is inbound purchasing, not the reader's route. who 8 (warehouse leads cutting spoilage) is alert; shrink and warehouse are taken. floorplan is kept for next 3 (warehouse space)."
+}

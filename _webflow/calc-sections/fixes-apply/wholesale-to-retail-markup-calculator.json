@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac73522edd07accabdbe401",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-w2r"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac73522edd07accabdbe401",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-w2r"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac73522edd07accabdbe401",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-w2r"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac73522edd07accabdbe401",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-w2r"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-w2r",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-w2r",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-w2r",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-w2r"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-to-retail-markup-calculator#calculator",
+    "name": "Wholesale to Retail Markup Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/wholesale-to-retail-markup-calculator",
+    "description": "Follow a case from your cost to the shelf price, and check your wholesale still leaves the retailer the margin they need.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "What your markup produces, and what it leaves you",
+     "What your case becomes on your buyer's shelf",
+     "The margin the retailer keeps, in dollars",
+     "Cost to shelf, end to end on one case"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-to-retail-markup-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is a standard wholesale markup?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "There is no single standard, and anyone quoting one is averaging across categories that behave nothing alike. Work it from your own landed cost instead. A 30% markup on a $22.00 case gives $28.60 and keeps $6.60, which is a 23.1% margin. Judge the margin, because the markup always sounds bigger than what you keep."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is keystone pricing?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Keystone means the retailer doubles their cost. On a $2.38 unit that puts the shelf at $4.76 and leaves them a 50% margin. Grocery rarely keystones. At a 40% target the same unit shelves at $3.97, which is why the pack size and the target margin matter more than any rule of thumb."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you work out the retail price from a wholesale price?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Divide the case price by the units, then divide that by one minus the retail margin. A $28.60 case over 12 units is $2.38, and $2.38 divided by 0.60 is $3.97. Do not multiply by 1.40 instead, because that gives $3.33 and a 28.5% margin, not 40%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why is the retailer's markup so much bigger than mine?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "You are each measuring against a different number. Your 30% is measured on your cost. Their 66.8% is what it takes, on top of your price, to leave 40% of the shelf price. Markup is always measured on cost, margin on the selling price."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What margin does a grocery retailer need?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It varies by category and by store format, so ask rather than assume. 40% is a common target on center store, and the calculator takes any figure you put in. Change it to 35% and the same case shelves at $3.67 instead of $3.97."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should I quote a case price or a unit price?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Quote the case, but know the unit. Your buyer decides on the shelf price, and the shelf price comes from your case divided by the pack. Walking in with $28.60 and no idea it means $3.97 leaves you arguing about the wrong number."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What happens to the shelf price when my cost goes up?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It moves by more than your cost does. Every dollar you add to a case adds about $1.67 across the retail case, because the retailer takes their margin as a share of the shelf. A small freight increase you absorb is cheaper than one the shelf has to carry."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-to-retail-markup-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/wholesale-to-retail-markup-calculator",
+    "name": "Wholesale to Retail Markup Calculator",
+    "description": "Follow a case from your cost to the shelf price, and check your wholesale still leaves the retailer the margin they need.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-to-retail-markup-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/wholesale-to-retail-markup-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

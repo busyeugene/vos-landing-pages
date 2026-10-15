@@ -1,0 +1,165 @@
+{
+ "questions|order entry software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|order taking software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|inventory tracking software": {
+  "total": 1,
+  "keywords": [
+   {
+    "keyword": "how to keep track of inventory software",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|catalog management software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|inventory planning software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|order fulfillment software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|order tracking software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|inventory visibility software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|inventory control software": {
+  "total": 1,
+  "keywords": [
+   {
+    "keyword": "what is inventory control software",
+    "cpc": 2.36,
+    "difficulty": 62,
+    "volume": 170,
+    "competition": 0.12,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|restaurant stock management software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|restaurant purchasing software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|restaurant checklist software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|vendor management software": {
+  "total": 2,
+  "keywords": [
+   {
+    "keyword": "what is vendor management software",
+    "cpc": 0,
+    "difficulty": 16,
+    "volume": 20,
+    "competition": 0.05,
+    "serp_features": [
+     "reviews",
+     "video",
+     "people_also_ask",
+     "sge",
+     "related_searches"
+    ],
+    "intents": [
+     "I"
+    ],
+    "history_trend": null
+   },
+   {
+    "keyword": "what is the best vendor management software",
+    "cpc": 0,
+    "difficulty": 0,
+    "volume": 0,
+    "competition": 0,
+    "serp_features": [],
+    "intents": [],
+    "history_trend": null
+   }
+  ]
+ },
+ "questions|inventory replenishment software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|inventory automation software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|distribution resource planning software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|b2b portal software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|wholesale ordering software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|distributor sales software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|dsd sales software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|supplier management software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|distributor analytics software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|inventory forecasting software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|wholesale operations software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|distribution automation software": {
+  "total": 0,
+  "keywords": []
+ },
+ "questions|distribution workflow software": {
+  "total": 0,
+  "keywords": []
+ }
+}

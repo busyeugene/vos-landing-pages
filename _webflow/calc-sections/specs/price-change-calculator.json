@@ -1,0 +1,145 @@
+{
+ "slug": "price-change-calculator",
+ "status": "DRAFT 2026-10-15: written from BRIEF.md against the marginal cost reference. Not yet approved.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is the breakeven on a price change?",
+  "intro": "The breakeven on a price change is how much volume you can lose after a raise before profit drops below today's. After a cut, it is how much volume you must add. It compares contribution per case before and after the move.",
+  "cards": [
+   {
+    "title": "The truck still stops",
+    "body": "The breakeven treats the $22.00 product cost as your only cost per case. Lose cases at an account and the truck still stops there, so each remaining case costs more to deliver.",
+    "alt": "Delivery truck, for delivery costs that a lost case does not remove"
+   },
+   {
+    "title": "Lost volume can hide in the mix",
+    "body": "An account can answer a raise by switching to a cheaper line you also carry. Its total cases hold steady, so the loss hides unless you check the item itself.",
+    "alt": "Warning sign, for volume that trades down to a cheaper line"
+   },
+   {
+    "title": "Contract accounts sit outside it",
+    "body": "An account on a fixed price term or a cost-plus contract cannot take a 5% list move mid-term. Run the breakeven on the volume you can actually reprice.",
+    "alt": "Minus sign, for contract accounts a list price move does not reach"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a price change calculator",
+  "intro": "Before a distributor moves a price, someone has to say how much volume the change can survive. Anyone who defends a raise or signs off on a cut should know the volume line first.",
+  "chips": [
+   {
+    "label": "Owners approving a price increase",
+    "alt": "Person, for owners approving a price increase"
+   },
+   {
+    "label": "Sales managers weighing a cut",
+    "alt": "Headset, for sales managers weighing a price cut"
+   },
+   {
+    "label": "Pricing teams planning a raise",
+    "alt": "Two people, for pricing teams planning a raise"
+   },
+   {
+    "label": "DSD teams repricing a route",
+    "alt": "Map pin, for DSD teams repricing the stores on a route"
+   },
+   {
+    "label": "Controllers protecting gross profit",
+    "alt": "Office building, for controllers protecting gross profit"
+   },
+   {
+    "label": "Buyers passing on supplier increases",
+    "alt": "Clipboard, for buyers passing a supplier increase through"
+   },
+   {
+    "label": "Reps defending a new price",
+    "alt": "Speech bubble, for reps defending a new price to an account"
+   },
+   {
+    "label": "Managers asked to match competitors",
+    "alt": "Mobile phone, for managers asked to match a competitor's price"
+   },
+   {
+    "label": "Analysts comparing raise and cut",
+    "alt": "Magnifying glass, for analysts comparing a raise with a cut"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Get the inputs right before you read the breakeven",
+  "intro": "The ratio itself is exact. The inputs behind it are where a price decision goes wrong, usually in one of these three.",
+  "steps": [
+   {
+    "title": "A cost per case that is current",
+    "body": "Enter what the case costs you today, freight in, not last quarter's invoice. An old cost makes the contribution look bigger or smaller than it really is."
+   },
+   {
+    "title": "The price accounts actually pay",
+    "body": "Start from the net price after rebates, deals and contract discounts, not the list. A raise worked off a list price nobody pays tells you very little."
+   },
+   {
+    "title": "A month that is typical",
+    "body": "The monthly dollars use the case count you type in. Take it from a normal month, not a holiday peak or a slow stretch, or the swing reads wrong."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order History",
+  "h2": "Where VOS fits after a price move",
+  "row_badge": "Volume After the Move",
+  "h3": "See which accounts kept ordering",
+  "body": "VOS does not set prices or work out the breakeven. It helps with the check that comes after. Orders from the VOS app build each account's order history, which you see in one admin platform.",
+  "bullets": [
+   "Order history per account, to check volume after a move",
+   "Each account's guide carries the prices you set",
+   "Each app order has a number, date and timestamp",
+   "Most distributors are live in 24 to 48 hours"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after a price change",
+  "intro": "The breakeven says whether a move can pay. These three free calculators help you decide where the price should sit.",
+  "cards": [
+   {
+    "title": "Rebuild the case price three ways",
+    "body": "Price one case by cost-plus, a target profit and a competitor's price, and see the margin each route leaves.",
+    "link_label": "Open the pricing calculator",
+    "link_slug": "product-pricing-calculator",
+    "alt": "Calculator, for rebuilding a case price three ways"
+   },
+   {
+    "title": "Find the floor before a cut",
+    "body": "Learn what each extra case costs you to buy, pick and deliver, so a price cut has a floor to stop at.",
+    "link_label": "Open the marginal cost calculator",
+    "link_slug": "marginal-cost-calculator",
+    "alt": "Right arrow, for the floor a price cut has to stay above"
+   },
+   {
+    "title": "Check the blend across your book",
+    "body": "Start from landed cost and see how low-margin staples drag the blended margin below the number you quoted.",
+    "link_label": "Open the wholesale markup calculator",
+    "link_slug": "wholesale-markup-calculator",
+    "alt": "Slider controls, for checking the margin blended across your book"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "$22.00 product cost",
+   "source": "calculator default: cost per case 22"
+  },
+  {
+   "figure": "5% list move",
+   "source": "calculator default: price change 5"
+  },
+  {
+   "figure": "24 to 48 hours",
+   "source": "VOS KB CURRENT STATE, carries 'Most'"
+  }
+ ]
+}

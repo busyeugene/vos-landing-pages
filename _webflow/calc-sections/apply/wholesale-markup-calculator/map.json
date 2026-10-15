@@ -1,0 +1,510 @@
+{
+ "slug": "wholesale-markup-calculator",
+ "pageId": "6ac73521a469d3c306f7aa87",
+ "roots": {
+  "whatis": "474d8ae1-140e-7a32-ea92-12dc14e992ef",
+  "who": "4dfb3697-e377-6e64-31c5-a9441b5e01f3",
+  "look": "fd642aa3-d6be-fe1f-9f92-df7e2ba5c086",
+  "vos": "0adc1439-5397-cd6f-1450-54a0cf8167dc",
+  "next": "7ddc368c-d6d4-d08a-4b06-a7220825200c"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa231",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa232",
+   "how": "heading",
+   "expected": "What is a wholesale markup?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa237",
+   "how": "string",
+   "expected": "A wholesale markup is what a distributor adds to its landed cost to set the price it charges its accounts. It is stated as a share of cost. A 35% markup on a $22.00 case gives a $29.70 wholesale price, before the account adds its own."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa23f",
+   "how": "heading",
+   "expected": "Where it sits in the chain"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa242",
+   "how": "string",
+   "expected": "Between your supplier and your account. The store or kitchen adds its own markup on top of your price, so yours is one step of several."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa23c",
+   "how": "image",
+   "expected": "Floor plan grid, for where a wholesale markup sits in the chain"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa247",
+   "how": "heading",
+   "expected": "Street accounts"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa24a",
+   "how": "string",
+   "expected": "Independent accounts usually buy off your price list at the markup you choose. They tend to carry more margin, and more cost to serve per case."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa244",
+   "how": "image",
+   "expected": "Stacked cases, for street accounts priced off your list"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa24f",
+   "how": "heading",
+   "expected": "Contract accounts"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa252",
+   "how": "string",
+   "expected": "Chains and groups often buy at landed cost plus a set markup or a fee per case. A fixed fee does not grow when cost rises, so its margin thins."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "a1a3531c-e636-c4e8-e6d4-c86aadcfa24c",
+   "how": "image",
+   "expected": "Case box, for contract accounts on cost plus a fee"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c6e",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c6f",
+   "how": "heading",
+   "expected": "Who uses a wholesale markup calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c74",
+   "how": "string",
+   "expected": "It is built for independent food distributors who carry both staples and specialty lines. Anyone who sets category markups, prices a contract or plans overhead should run it."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c79",
+   "how": "heading",
+   "expected": "Owners planning against the blend"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c77",
+   "how": "image",
+   "expected": "Dollar sign, for owners planning against the blended margin"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c7e",
+   "how": "heading",
+   "expected": "Managers balancing staples and specialty"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c7c",
+   "how": "image",
+   "expected": "Balance scale, for managers balancing staples and specialty"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c83",
+   "how": "heading",
+   "expected": "Reps growing specialty sales"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c81",
+   "how": "image",
+   "expected": "Rising chart, for reps growing specialty sales"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c88",
+   "how": "heading",
+   "expected": "Route managers pricing small drops"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c86",
+   "how": "image",
+   "expected": "Delivery truck, for route managers pricing small drops"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c8d",
+   "how": "heading",
+   "expected": "Finance budgeting overhead against margin"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c8b",
+   "how": "image",
+   "expected": "Cash bills, for finance budgeting overhead against margin"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c92",
+   "how": "heading",
+   "expected": "Teams renewing contract accounts"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c90",
+   "how": "image",
+   "expected": "Cycling arrows, for teams renewing contract accounts"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c97",
+   "how": "heading",
+   "expected": "Category managers setting markups"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c95",
+   "how": "image",
+   "expected": "Price tag, for category managers setting markups"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c9c",
+   "how": "heading",
+   "expected": "Controllers watching staple share"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c9a",
+   "how": "image",
+   "expected": "Downward trend line, for controllers watching staple share"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042ca1",
+   "how": "heading",
+   "expected": "Owners ranking accounts by mix"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "e966ffac-c3ee-30cf-a177-6a7707042c9f",
+   "how": "image",
+   "expected": "Side by side bars, for owners ranking accounts by mix"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef16",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef17",
+   "how": "heading",
+   "expected": "What to check before you plan on the blend"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef1b",
+   "how": "string",
+   "expected": "The blend is only as true as the split you type. Check these three before anyone builds a budget on it."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef21",
+   "how": "heading",
+   "expected": "Staple share in dollars, not cases"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef25",
+   "how": "string",
+   "expected": "Weight the 60% by sales dollars. Staples are often the cheaper cases, so a share counted in cases overstates their pull on the blend."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef29",
+   "how": "heading",
+   "expected": "One markup that stands for specialty"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef2d",
+   "how": "string",
+   "expected": "The 35% stands in for every line that is not a staple. If those lines carry different markups, type one combined markup: their total profit divided by their total cost."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef31",
+   "how": "heading",
+   "expected": "Contract sales at their own rate"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "e74766aa-6e79-7094-b162-0059787bef35",
+   "how": "string",
+   "expected": "Cases sold to chains on cost plus a fee do not carry your list markup. Leave them in at 35% and the blend reads wrong, usually high."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f352271f3",
+   "how": "string",
+   "expected": "Sales Reps"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f352271f4",
+   "how": "heading",
+   "expected": "Where VOS fits in your sales mix"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f352271fd",
+   "how": "string",
+   "expected": "Your Sales Mix"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f352271fe",
+   "how": "heading",
+   "expected": "Reps free to sell, not take orders"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f35227202",
+   "how": "string",
+   "expected": "VOS does not calculate markups or measure your blend. It moves routine order taking off your reps: customers order by voice in the VOS app, and orders arrive confirmed."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f3522721f",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f35227209",
+   "how": "string",
+   "expected": "20-30 minutes saved per order compared with a phone order"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f3522720f",
+   "how": "string",
+   "expected": "Each account orders from its own guide, at your prices"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f35227215",
+   "how": "string",
+   "expected": "Order history per account in one admin platform"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f3522721b",
+   "how": "string",
+   "expected": "Works alongside your ERP, with nothing to rip out"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "b3ec81f2-249a-e4e1-b20c-0d4f352271f9",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741bb",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741bc",
+   "how": "heading",
+   "expected": "What to run after wholesale markup"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741c1",
+   "how": "string",
+   "expected": "The blend shows what the book really earns. These free calculators check the cost under it, the shelf above it and a price move."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741c9",
+   "how": "heading",
+   "expected": "Build the case cost first"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741cc",
+   "how": "string",
+   "expected": "Start from the supplier price, add freight, handling and shrink, and read the margin your markup really leaves."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741d0",
+   "how": "string",
+   "expected": "Open the material markup calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741c6",
+   "how": "image",
+   "expected": "Percent sign, for building a case cost before the markup"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741ce",
+   "how": "link",
+   "expected": "6ac72b95bdfb92fbc692e782"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741d6",
+   "how": "heading",
+   "expected": "Check the shelf price above yours"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741d9",
+   "how": "string",
+   "expected": "See your wholesale price become a shelf price, and whether the store's margin is wide enough to keep your line."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741dd",
+   "how": "string",
+   "expected": "Open the wholesale to retail markup calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741d3",
+   "how": "image",
+   "expected": "Rising line, for the shelf price above your wholesale price"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741db",
+   "how": "link",
+   "expected": "6ac73522edd07accabdbe401"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741e3",
+   "how": "heading",
+   "expected": "Test a price move on a staple"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741e6",
+   "how": "string",
+   "expected": "Before you move a staple's price, see the profit swing per case and how much volume a raise can lose before profit falls."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741ea",
+   "how": "string",
+   "expected": "Open the price change calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741e0",
+   "how": "image",
+   "expected": "Check mark, for testing a price move before you make it"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "651d1240-80a3-493e-3076-61e6eb2741e8",
+   "how": "link",
+   "expected": "6ac735253fe7317c927e4447"
+  }
+ ]
+}

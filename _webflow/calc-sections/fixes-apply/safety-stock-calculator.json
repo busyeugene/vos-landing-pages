@@ -1,0 +1,248 @@
+{
+ "el": [
+  {
+   "label": "tools_cards[1].body",
+   "set_text": {
+    "id": {
+     "component": "6ac735249b6f12d26ba60ce1",
+     "element": "5368ca22-de87-9362-819f-9733489b5a70"
+    },
+    "text": "The 35 case daily swing is the smaller part here, about a quarter of what the buffer covers. Late deliveries are the rest. Steadier ordering from your accounts still trims it."
+   }
+  },
+  {
+   "label": "tools_banner.heading",
+   "set_text": {
+    "id": {
+     "component": "6ac735249b6f12d26ba60ce1",
+     "element": "82c318c6-8f5b-5cd8-3198-d14e6fdd36e5"
+    },
+    "text": "See how VOS shows what each account orders, and when"
+   }
+  },
+  {
+   "label": "tools_banner.body",
+   "set_text": {
+    "id": {
+     "component": "6ac735249b6f12d26ba60ce1",
+     "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
+    },
+    "text": "VoiceOrder Solutions gives each account an order guide built from your own SKUs and pricing, and every app order arrives confirmed, numbered and dated."
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac735249b6f12d26ba60ce1",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-safety"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac735249b6f12d26ba60ce1",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-safety"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac735249b6f12d26ba60ce1",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-safety"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac735249b6f12d26ba60ce1",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-safety"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [
+  {
+   "label": "cta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6ac735249b6f12d26ba60ce1",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+      "type": "string",
+      "string_value": "Size the buffer from real orders"
+     },
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "VoiceOrder Solutions lets each account order against a guide built from your own SKUs and pricing, so each order arrives confirmed and dated, day or night."
+     }
+    ]
+   }
+  }
+ ],
+ "expect": {
+  "text": {
+   "5368ca22-de87-9362-819f-9733489b5a70": "The 35 case daily swing is the smaller part here, about a quarter of what the buffer covers. Late deliveries are the rest. Steadier ordering from your accounts still trims it.",
+   "82c318c6-8f5b-5cd8-3198-d14e6fdd36e5": "See how VOS shows what each account orders, and when",
+   "4590e4b1-e797-fe36-9056-58de9ded19b8": "VoiceOrder Solutions gives each account an order guide built from your own SKUs and pricing, and every app order arrives confirmed, numbered and dated."
+  },
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-safety",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-safety",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-safety",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-safety"
+  },
+  "props": {
+   "cta/be41c71a-4d6f-3276-eb73-5cf5dd4f25f6": "Size the buffer from real orders",
+   "cta/5e0d3c39-9fde-6661-5b10-e1aef4f809a4": "VoiceOrder Solutions lets each account order against a guide built from your own SKUs and pricing, so each order arrives confirmed and dated, day or night."
+  }
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/safety-stock-calculator#calculator",
+    "name": "Safety Stock Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/safety-stock-calculator",
+    "description": "Size a buffer from your demand and lead time variability, pick a service level, and check it against shelf life.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The buffer your variability actually needs",
+     "The number that should trigger the order",
+     "What the buffer costs you to hold",
+     "Whether the buffer will outlive the product"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/safety-stock-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do you calculate safety stock?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Take the square root of the lead time times the demand swing squared, plus the demand squared times the lead time swing squared. That gives a combined swing of 138.92 cases here. Multiply it by the factor for your service level, 1.65 at 95%, and you get 229 cases."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is safety stock the same as a reorder point?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. Safety stock is the buffer itself, 229 cases here, sized from how much your demand and lead time vary. The reorder point is the level that triggers the order, 709 cases here, because it also counts the demand you will sell while you wait. This tool sizes the buffer, and a reorder point calculator tells you when to order."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the 50% rule for safety stock?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It sets the buffer at half the demand during lead time, which is 240 cases here against a real answer of 229. The agreement is luck. The rule never looks at how much your demand or your lead time varies, so when a supplier becomes reliable it still tells you to hold 240 cases."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What service level should a food distributor use?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "95% is a sensible starting point, and the last points get expensive quickly. Going from 95% to 99% adds 95 cases and $2,090. Going from 99% to 99.9% adds another 106 cases and $2,332, which is more money for about a fifth of the gain."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why does shelf life limit safety stock?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Because buffer you cannot sell in time is spoilage. 229 cases is 1.9 days of cover against a 14 day shelf life, so it clears comfortably. Raise the service level far enough on a short life item and the buffer starts outliving the product."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does a bigger buffer always mean better service?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No, and past a point it mostly means parked cash. A flat week of stock here is 840 cases and $18,480, which is $13,442 more than the 95% answer without fixing why you ran short. Fewer stockout surprises come from steadier lead times, not from a larger pile."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What makes safety stock go up?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Four things, and only one of them is demand. A wider demand swing, a longer lead time, a less reliable supplier and a higher service level all raise it. Supplier reliability is usually the cheapest of the four to fix."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/safety-stock-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/safety-stock-calculator",
+    "name": "Safety Stock Calculator",
+    "description": "Size a buffer from your demand and lead time variability, pick a service level, and check it against shelf life.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/safety-stock-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/safety-stock-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

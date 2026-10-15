@@ -1,0 +1,145 @@
+{
+ "slug": "unit-price-calculator",
+ "status": "DRAFT 2026-10-15: written from BRIEF.md against the marginal cost reference. Not yet approved. No pack-size claim for order guides (KB Q14 open); guides are tied to SKUs only.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is a unit price?",
+  "intro": "A unit price is the cost of one unit of a product: the pack price divided by how many units the pack holds. The unit can be an item, a pound or an ounce. Two packs only compare fairly when both are priced on the same unit.",
+  "cards": [
+   {
+    "title": "Price per quantity, blind to grade",
+    "body": "Price against quantity, and nothing about quality. Option A's $1.00 a pound only beats Option B's $1.11 if the product inside is the same grade.",
+    "alt": "Plus sign, for the price and quantity a unit price counts"
+   },
+   {
+    "title": "Net weight is not always usable weight",
+    "body": "A can's net weight includes the liquid it is packed in. When the account uses only the solids, compare on drained weight instead.",
+    "alt": "Warning sign, for drained weight against net weight"
+   },
+   {
+    "title": "Catch weight cases price by the pound",
+    "body": "Meat and cheese often ship catch weight, so every case weighs a little differently. There the price per pound is the real price, and the case price moves each time.",
+    "alt": "Light bulb, for catch weight cases priced by the pound"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a unit price calculator",
+  "intro": "Pack choice falls to a distributor's buyers and pricing staff, who run it whenever two sizes of one product compete. Anyone comparing them should put both on one base before either is quoted.",
+  "chips": [
+   {
+    "label": "Buyers choosing a pack size",
+    "alt": "Clipboard, for buyers choosing which pack size to stock"
+   },
+   {
+    "label": "Category managers weighing two sizes",
+    "alt": "Warehouse racking, for category managers weighing two sizes of one item"
+   },
+   {
+    "label": "Reps upselling a bigger pack",
+    "alt": "Rising line, for reps moving an account to a bigger pack"
+   },
+   {
+    "label": "DSD reps swapping store packs",
+    "alt": "Storefront, for DSD reps swapping the pack a store carries"
+   },
+   {
+    "label": "Controllers checking cost per pound",
+    "alt": "Office building, for controllers checking cost per pound"
+   },
+   {
+    "label": "Purchasing teams spotting spec changes",
+    "alt": "Magnifying glass, for purchasing teams spotting a supplier spec change"
+   },
+   {
+    "label": "Pricing staff setting pound prices",
+    "alt": "Slider controls, for pricing staff setting a price per pound"
+   },
+   {
+    "label": "Owners cutting cost of goods",
+    "alt": "Person, for owners cutting cost of goods"
+   },
+   {
+    "label": "Sales teams comparing competitor packs",
+    "alt": "Two people, for sales teams comparing a competitor's pack"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Put both unit prices on the same footing",
+  "intro": "The division is simple. The weights and counts you type in are where most comparisons slip, and these three checks catch it.",
+  "steps": [
+   {
+    "title": "Weights in the same measure",
+    "body": "Pounds against pounds. A spec sheet in ounces or grams has to be converted before it goes in, or the per pound line comes out badly wrong."
+   },
+   {
+    "title": "A count that matches the price",
+    "body": "A case may be listed by the sleeve or the inner pack, and a price sheet may quote either one. Count the units the price actually covers."
+   },
+   {
+    "title": "Prices from the same date",
+    "body": "Take both prices from the same week. A pack quoted last month against one quoted today mixes a price change into a size comparison."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Review",
+  "h2": "Where VOS fits once you pick a pack",
+  "row_badge": "Your Chosen Pack",
+  "h3": "Customers check each line before it reaches you",
+  "body": "VOS does not compare packs or buy stock. Once you choose a pack, you put it on each account's guide, tied to your SKUs. Customers build the order by voice in the VOS app, then review each line before sending.",
+  "bullets": [
+   "Orders arrive confirmed, with a number and timestamp",
+   "Guides updated per account in one admin platform",
+   "The catalog updates as stock changes",
+   "Most customers place a first order the same day"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after unit price",
+  "intro": "Unit price tells you which pack is the better buy. These three free calculators carry that choice into freight, trim and the invoice.",
+  "cards": [
+   {
+    "title": "Add freight and rank three offers",
+    "body": "Carry the pack comparison further: add each supplier's freight and see which of three quotes lands cheapest per unit.",
+    "link_label": "Open the landed cost calculator",
+    "link_slug": "landed-cost-calculator",
+    "alt": "Calculator, for ranking three offers with freight counted"
+   },
+   {
+    "title": "Price on the pounds you can sell",
+    "body": "Price cut and portioned product on the pounds left after trim, not on the weight you bought.",
+    "link_label": "Open the food markup calculator",
+    "link_slug": "food-markup-calculator",
+    "alt": "Right arrow, for pricing on the pounds left after trim"
+   },
+   {
+    "title": "Check the invoice against your standard",
+    "body": "Set what you paid against your standard price, per case and as a percent, then see what the gap is worth in a year.",
+    "link_label": "Open the purchase price variance calculator",
+    "link_slug": "purchase-price-variance-calculator",
+    "alt": "Invoice sheet, for checking an invoice against your standard price"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "Option A's $1.00 a pound",
+   "source": "copy spec figures table: option A per lb, $24.00 / 24 lb (defaults 24, 12 units, 2 lb)"
+  },
+  {
+   "figure": "Option B's $1.11",
+   "source": "copy spec figures table: option B per lb, $40.00 / 36 lb = 1.1111 (defaults 40, 24 units, 1.5 lb)"
+  },
+  {
+   "figure": "same day",
+   "source": "VOS KB CURRENT STATE: most customers place a first order the same day, carries 'Most'"
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "slug": "food-markup-calculator",
+ "status": "DRAFT 2026-10-15: written from copy-spec-food-markup.md. Not pushed.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is food markup?",
+  "intro": "Food markup is what you add to the cost of food product to set its selling price. For a distributor that cuts, trims or portions product, that cost has to sit on the pounds that sell. Trim is paid for but does not sell at the cut's price.",
+  "cards": [
+   {
+    "title": "Only the pounds you can bill",
+    "body": "The pounds that leave on an invoice. A 40 lb case at an 85% yield gives 34 lb, and the full $48.00 has to come back from those 34.",
+    "alt": "Plus sign, for the usable pounds in a case"
+   },
+   {
+    "title": "Saw hours and packaging stay outside",
+    "body": "Cutting labor and packaging. The $48.00 landed cost covers freight and handling in, not the hours on the saw, so the margin has to pay for them.",
+    "alt": "Minus sign, for cutting labor outside the case cost"
+   },
+   {
+    "title": "Catch-weight cases",
+    "body": "Catch-weight items are billed by the pound, so a light case also costs less. The price per usable lb holds whatever a case weighs, as long as the yield holds.",
+    "alt": "Light bulb, for cases billed by the pound"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a food markup calculator",
+  "intro": "Distributors with a cut room of their own need it: the ones that cut, trim or portion product before it ships. Anyone who prices a cut item, sets a yield standard or manages cutters should run it.",
+  "chips": [
+   {
+    "label": "Owners pricing cut lines",
+    "alt": "Person, for owners pricing cut lines"
+   },
+   {
+    "label": "Cut room leads weighing yields",
+    "alt": "Clipboard, for cut room leads weighing yields"
+   },
+   {
+    "label": "Managers adding portioned products",
+    "alt": "Warehouse racking, for managers adding portioned products"
+   },
+   {
+    "label": "Dock teams checking case weights",
+    "alt": "Warehouse, for dock teams checking case weights"
+   },
+   {
+    "label": "Controllers costing trim",
+    "alt": "Office building, for controllers costing trim"
+   },
+   {
+    "label": "Teams repricing on grade changes",
+    "alt": "Two people, for teams repricing on grade changes"
+   },
+   {
+    "label": "Reps quoting by the pound",
+    "alt": "Speech bubble, for reps quoting by the pound"
+   },
+   {
+    "label": "Supervisors tracking cutter yields",
+    "alt": "Rising chart, for supervisors tracking cutter yields"
+   },
+   {
+    "label": "Buyers comparing supplier yields",
+    "alt": "Magnifying glass, for buyers comparing supplier yields"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Three checks on yield before you price a cut",
+  "intro": "Yield moves this price the most, and it is the input most often guessed. Pin down these three before a rep quotes the cut.",
+  "steps": [
+   {
+    "title": "The case weight that arrives",
+    "body": "If the supplier bills by the case, weigh what comes off the truck. A 40 lb case that weighs in light costs more per pound than the label says."
+   },
+   {
+    "title": "Weight lost before it ships",
+    "body": "Product gives up liquid in the cooler and on the saw. Measure usable weight as it leaves, not right after cutting, or the yield reads high."
+   },
+   {
+    "title": "Trim you sell, taken off the cost",
+    "body": "If trim goes out as ground product or to a renderer, take what it earns off the $48.00. Skip that and the cut carries a cost the trim already pays back."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Intake",
+  "h2": "Where VOS fits around the cut room",
+  "row_badge": "Your Cut Room",
+  "h3": "A confirmed order to cut against",
+  "body": "VOS does not price cut product or calculate yield. It works on the order: customers order by voice in the VOS app, review each line, and the order reaches you confirmed and timestamped.",
+  "bullets": [
+   "Orders captured 24/7, overnight ones included",
+   "Each app order carries a number, so who ordered what is on record",
+   "Delivered by email, EDI or API, in the format you use",
+   "Most distributors are live in 24 to 48 hours"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after food markup",
+  "intro": "The yield price takes care of the trim. These free calculators take care of shrink, pack sizes and the pricing rule itself.",
+  "cards": [
+   {
+    "title": "Count shrink as well as trim",
+    "body": "Build a case cost from freight, handling and shrink, then see what your markup keeps once shrink comes out.",
+    "link_label": "Open the material markup calculator",
+    "link_slug": "material-markup-calculator",
+    "alt": "Calculator, for counting shrink as well as trim"
+   },
+   {
+    "title": "Compare two pack sizes",
+    "body": "Put two packs on the same base, per unit and per pound, so the bigger box does not just look cheaper.",
+    "link_label": "Open the unit price calculator",
+    "link_slug": "unit-price-calculator",
+    "alt": "Right arrow, for comparing two pack sizes on one base"
+   },
+   {
+    "title": "Check the price against the market",
+    "body": "Test your case price against a competitor's price and a flat profit target, not just a margin goal.",
+    "link_label": "Open the product pricing calculator",
+    "link_slug": "product-pricing-calculator",
+    "alt": "Slider controls, for checking a case price against the market"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "40 lb case",
+   "source": "calculator default: case weight 40"
+  },
+  {
+   "figure": "85% yield",
+   "source": "calculator default: yield 85"
+  },
+  {
+   "figure": "34 lb usable",
+   "source": "verified figures table: 40 x 85%"
+  },
+  {
+   "figure": "$48.00 landed case",
+   "source": "calculator default: case cost 48.00"
+  },
+  {
+   "figure": "24 to 48 hours",
+   "source": "VOS KB CURRENT STATE, carries 'Most'"
+  }
+ ]
+}

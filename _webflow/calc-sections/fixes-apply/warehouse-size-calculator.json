@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac72b9663b2850d53a5f878",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-wsize"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac72b9663b2850d53a5f878",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-wsize"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac72b9663b2850d53a5f878",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-wsize"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac72b9663b2850d53a5f878",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-wsize"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-wsize",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-wsize",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-wsize",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-wsize"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-size-calculator#calculator",
+    "name": "Warehouse Size Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/warehouse-size-calculator",
+    "description": "See how many cases a building you already have will hold, and how many weeks of flow that covers.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "How much of the building you can actually store in",
+     "How many pallets fit, on the floor and in the air",
+     "What that is in the unit you buy in",
+     "How long the building holds you for"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-size-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How many square feet is one pallet?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A standard GMA pallet is 48 by 40 inches, which is 13.3 sq ft of floor. That is the footprint, before any aisle space around it."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you calculate warehouse capacity?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Take the usable floor, divide by the pallet footprint, multiply by stack height, then by cases per pallet. Here that is 1,650 sq ft, 124 spots, 248 positions, 12,400 cases."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much of a warehouse is actually usable for storage?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Often around half to two thirds. At 55%, a 3,000 sq ft building leaves 1,650 sq ft of storage and 1,350 sq ft of aisles, dock, staging and office."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much space does a food distributor need?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Work back from weeks of cover rather than a square footage. 12,400 cases is 9.0 weeks at 6,000 a month, so the question is how many weeks your lead times force you to hold."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is it cheaper to rack higher or to lease more space?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Racking, nearly always. Going from 2 pallets high to 3 adds about 6,200 cases here, paid once, against rent every month for the same room."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What limits how high you can stack?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Clear height, the reach of your truck, product weight and what the pallet below can carry. Check all four before you buy racking."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Why count cases instead of square feet?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Because you buy in cases. A buyer cannot hold a purchase order against 1,650 sq ft, but they can hold it against a ceiling of 12,400 cases."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-size-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/warehouse-size-calculator",
+    "name": "Warehouse Size Calculator",
+    "description": "See how many cases a building you already have will hold, and how many weeks of flow that covers.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-size-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/warehouse-size-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

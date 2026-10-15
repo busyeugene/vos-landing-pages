@@ -1,0 +1,510 @@
+{
+ "slug": "inventory-turnover-calculator",
+ "pageId": "6ac7252ae188e18d1d906bba",
+ "roots": {
+  "whatis": "533f1ece-74bc-c64a-a497-5a3e4136e00a",
+  "who": "34400c8c-98b7-2900-76af-ac2ac4d01b12",
+  "look": "ed1a9756-2fe1-7731-7c7d-8c23bb8e6974",
+  "vos": "8d8cd081-2d59-68e3-d040-d1d2c856492f",
+  "next": "45189025-f6ff-1e05-ca58-b3188e542d8f"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db3e3",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db3e4",
+   "how": "heading",
+   "expected": "What is inventory turnover?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db3e9",
+   "how": "string",
+   "expected": "Inventory turnover counts how many times a year the stock on your floor is sold and bought again. It measures the speed of the shelf, not the size of it. At this calculator's defaults, the shelf empties and refills 12.0 times a year."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db3f1",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db3f4",
+   "how": "string",
+   "expected": "Speed, weighted by dollars. Every line feeds the same 12.0 turns, and the lines holding the most cost pull it hardest."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "58224624-577f-04af-a329-979daf5db3ee",
+   "how": "image",
+   "expected": "Floor plan grid, for speed weighted by the dollars on each line"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db3f9",
+   "how": "heading",
+   "expected": "What it leaves out"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db3fc",
+   "how": "string",
+   "expected": "Profit. A line can turn fast and earn little, or turn slowly at a margin worth waiting for. Turns say how fast, not how well."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "58224624-577f-04af-a329-979daf5db3f6",
+   "how": "image",
+   "expected": "Stacked cases, for the margin turns do not measure"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db401",
+   "how": "heading",
+   "expected": "Lines held for one account"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "58224624-577f-04af-a329-979daf5db404",
+   "how": "string",
+   "expected": "Items you stock for a single customer turn at that customer's pace. When that customer stops ordering one, the stock stops moving and still sits inside the average."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "58224624-577f-04af-a329-979daf5db3fe",
+   "how": "image",
+   "expected": "Case box, for lines stocked for a single account"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9eb8",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9eb9",
+   "how": "heading",
+   "expected": "Who uses an inventory turnover ratio calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ebe",
+   "how": "string",
+   "expected": "It is built for independent food distributors who want to know how hard their stock is working. Owners, finance and buying teams use it to set targets and to spot cash sitting still."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ec3",
+   "how": "heading",
+   "expected": "Owners freeing cash from stock"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ec1",
+   "how": "image",
+   "expected": "Dollar sign, for owners freeing cash from stock"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ec8",
+   "how": "heading",
+   "expected": "Controllers preparing lender reviews"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ec6",
+   "how": "image",
+   "expected": "Balance scale, for controllers preparing lender reviews"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ecd",
+   "how": "heading",
+   "expected": "Finance teams tracking monthly turns"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ecb",
+   "how": "image",
+   "expected": "Rising chart, for finance teams tracking monthly turns"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ed2",
+   "how": "heading",
+   "expected": "Purchasing teams cutting lead times"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ed0",
+   "how": "image",
+   "expected": "Delivery truck, for purchasing teams cutting supplier lead times"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ed7",
+   "how": "heading",
+   "expected": "Buyers weighing a deal buy"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ed5",
+   "how": "image",
+   "expected": "Cash bills, for buyers weighing a deal buy"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9edc",
+   "how": "heading",
+   "expected": "Category managers ranking line turns"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9eda",
+   "how": "image",
+   "expected": "Cycling arrows, for category managers ranking turns by line"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ee1",
+   "how": "heading",
+   "expected": "Sales managers pushing slow lines"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9edf",
+   "how": "image",
+   "expected": "Price tag, for sales managers pushing slow lines"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ee6",
+   "how": "heading",
+   "expected": "Warehouse leads clearing dead stock"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ee4",
+   "how": "image",
+   "expected": "Downward trend line, for warehouse leads clearing dead stock"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9eeb",
+   "how": "heading",
+   "expected": "Analysts comparing year on year"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "c40542e6-da8e-0896-13c5-b31b9fea9ee9",
+   "how": "image",
+   "expected": "Side by side bars, for analysts comparing turns year on year"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be85d",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be85e",
+   "how": "heading",
+   "expected": "What to look for before you trust the ratio"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be862",
+   "how": "string",
+   "expected": "The division is simple. The two numbers you divide are where the ratio drifts. Check these three before you set a target off it."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be868",
+   "how": "heading",
+   "expected": "The same twelve months on both sides"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be86c",
+   "how": "string",
+   "expected": "Cost of goods and average inventory have to cover the same period. Pair a calendar year of sales with a fiscal year of stock and the ratio measures neither year."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be870",
+   "how": "heading",
+   "expected": "Sales that never touched the shelf"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be874",
+   "how": "string",
+   "expected": "Drop shipped and cross docked product lands in cost of goods without sitting in stock. Leave it in and 12.0 turns reads faster than your shelf moves."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be878",
+   "how": "heading",
+   "expected": "Write offs that flatter the ratio"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "c03931a6-a165-dec7-3ef4-477be13be87c",
+   "how": "string",
+   "expected": "Writing off dead stock lowers average inventory without selling a single case. Turns go up, and nothing moved any faster."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6d3",
+   "how": "string",
+   "expected": "Order Taking"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6d4",
+   "how": "heading",
+   "expected": "Where VOS sits next to your turns"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6dd",
+   "how": "string",
+   "expected": "Your Cost of Goods Sold"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6de",
+   "how": "heading",
+   "expected": "Every turn starts with an account's order"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6e2",
+   "how": "string",
+   "expected": "VOS does not calculate your turns or keep your books. It works where stock leaves the shelf: your customers order by voice in the VOS app and review each line first."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6ff",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6e9",
+   "how": "string",
+   "expected": "Sales reps freed to sell instead of taking orders"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6ef",
+   "how": "string",
+   "expected": "Orders reach you by email, EDI or API"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6f5",
+   "how": "string",
+   "expected": "Order history per account in one admin platform"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6fb",
+   "how": "string",
+   "expected": "Promos and confirmations reach accounts by notification and text"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "4a53b61c-659c-d34a-f579-cbb662e7d6d9",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b87",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b88",
+   "how": "heading",
+   "expected": "What to run after inventory turnover"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b8d",
+   "how": "string",
+   "expected": "Turns show how fast the shelf moves. These free calculators price the holding, follow the cash to collection, and set when to reorder."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b95",
+   "how": "heading",
+   "expected": "Build the rate behind the carrying cost"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b98",
+   "how": "string",
+   "expected": "Add capital, storage, spoilage, insurance and obsolescence into a carrying rate of your own, instead of a borrowed one."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b9c",
+   "how": "string",
+   "expected": "Open the inventory carrying cost calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b92",
+   "how": "image",
+   "expected": "Percent sign, for building your own carrying rate"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b9a",
+   "how": "link",
+   "expected": "6ac7866e071fb41c4807eab0"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30ba2",
+   "how": "heading",
+   "expected": "Follow the cash after the case sells"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30ba5",
+   "how": "string",
+   "expected": "Check how fast accounts pay, how many days past terms they really run, and what financing that delay costs."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30ba9",
+   "how": "string",
+   "expected": "Open the accounts receivable turnover calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30b9f",
+   "how": "image",
+   "expected": "Rising line, for following the cash after a sale"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30ba7",
+   "how": "link",
+   "expected": "6ac72b932e36cb4efe865399"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30baf",
+   "how": "heading",
+   "expected": "Set a trigger on the lines that matter"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30bb2",
+   "how": "string",
+   "expected": "Get the stock level that should start the next order, the days of cover left, and what a late truck costs in cases."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30bb6",
+   "how": "string",
+   "expected": "Open the reorder point calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30bac",
+   "how": "image",
+   "expected": "Check mark, for setting a trigger per line"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "dd2ddcd7-bb5c-16f7-de83-aa2325a30bb4",
+   "how": "link",
+   "expected": "6ac7652a2a715d3e702a0559"
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac7866c27806c8148c2855e",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-pricevar"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac7866c27806c8148c2855e",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-pricevar"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac7866c27806c8148c2855e",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-pricevar"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac7866c27806c8148c2855e",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-pricevar"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-pricevar",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-pricevar",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-pricevar",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-pricevar"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/purchase-price-variance-calculator#calculator",
+    "name": "Purchase Price Variance Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/purchase-price-variance-calculator",
+    "description": "Compare what you actually paid against your standard price, see the variance per case and as a percent, and what the gap is worth over a year.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The total variance, with its sign",
+     "The same gap in both units",
+     "Budget against what you actually paid",
+     "What the gap is worth if nothing changes"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/purchase-price-variance-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is PPV and how is it calculated?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "PPV is purchase price variance, the gap between the price you budgeted for an item and the price you were charged for it. Subtract the standard price from the actual price, then multiply by the cases you bought. $22.40 against a $22.00 standard across 6,000 cases is $2,400 unfavorable for the month."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you calculate the purchase price variance (PPV)?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Per item, per month, straight off the invoices. Pull every receipt line for that item, take the price each one charged, and set it against the $22.00 standard. Multiply the gap by the cases you received, not the cases you ordered. Hold the quantity still on both sides, because this answers price and nothing else."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a good PPV value?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "There is no published benchmark, so judge it in dollars and by direction. A 1.8% gap reads like rounding and is $28,800 a year, which is worth a phone call. A good PPV is small, explained and shrinking, and a favorable one still needs a reason."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the formula for price variance?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Price variance is actual price less standard price, times the quantity you bought, which accounting also calls the material price variance. $0.40 times 6,000 cases is $2,400. This is the cost accounting kind of variance, not the statistical kind, so nothing here gets averaged or squared."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the formula for PPV?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "PPV equals actual unit price less standard unit price, times units purchased. A positive answer is unfavorable, because you paid more than you planned. Pay $21.60 against the same $22.00 standard and the figure is $2,400 favorable, with actual spend at $129,600 rather than $134,400."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is a PPV calculation?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It is a monthly check that your invoices match the prices you planned, run item by item. Here it holds $132,000 of spend at standard against the $134,400 you really spent. It is not a full cost variance calculation, because the quantity and the mix you bought are held still."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How is MUV calculated?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Material usage variance takes the quantity side: actual quantity less standard quantity, times the standard price. Price variance and usage variance split the same total gap between them, so run both before you blame the supplier. This tool does the price half, with the 6,000 cases held constant."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/purchase-price-variance-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/purchase-price-variance-calculator",
+    "name": "Purchase Price Variance Calculator",
+    "description": "Compare what you actually paid against your standard price, see the variance per case and as a percent, and what the gap is worth over a year.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/purchase-price-variance-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/purchase-price-variance-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

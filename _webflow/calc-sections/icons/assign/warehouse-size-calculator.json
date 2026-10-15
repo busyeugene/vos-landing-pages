@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "book",
+  "alert",
+  "lightbulb"
+ ],
+ "who": [
+  "person",
+  "clipboard",
+  "trend-up",
+  "phone",
+  "dollar",
+  "team",
+  "price-tag",
+  "minus",
+  "search"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "pin"
+ ],
+ "notes": "who 8 (managers trimming slow lines) is minus, a loose fit. next 3 (cost the routes) is pin; truck is taken."
+}

@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "alert",
+  "search",
+  "warehouse"
+ ],
+ "who": [
+  "person",
+  "office",
+  "chat",
+  "clipboard",
+  "phone",
+  "book",
+  "headset",
+  "store",
+  "chart-up"
+ ],
+ "next": [
+  "calculator",
+  "racking",
+  "arrow-right"
+ ],
+ "notes": "whatis 3 (you sit in the middle) is warehouse for your DC. who 6 (clerks running monthly statements) is book as a ledger; invoice and calendar are taken. who 8 (owners spotting slower payers) is store for the accounts."
+}

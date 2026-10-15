@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "lightbulb"
+ ],
+ "who": [
+  "person",
+  "search",
+  "clipboard",
+  "warehouse",
+  "office",
+  "chat",
+  "phone",
+  "book",
+  "team"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "clock"
+ ],
+ "notes": "who 8 (controllers tracking falling case costs) is book, read as the ledger: weak, trend-down is taken. next 3 (payment terms) is clock for days."
+}

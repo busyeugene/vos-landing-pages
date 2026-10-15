@@ -1,0 +1,189 @@
+{
+ "el": [
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac79be2180bc9b3c91fb79c",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-foodmarkup"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac79be2180bc9b3c91fb79c",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-foodmarkup"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac79be2180bc9b3c91fb79c",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-foodmarkup"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac79be2180bc9b3c91fb79c",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-foodmarkup"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {},
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-foodmarkup",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-foodmarkup",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-foodmarkup",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-foodmarkup"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/food-markup-calculator#calculator",
+    "name": "Food Markup Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/food-markup-calculator",
+    "description": "Price cut and portioned product on the pounds you can actually sell. Trim is 6 lb a case, so pricing off the 40 lb you bought comes up short.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "What a pound has to sell for once trim is out",
+     "How many pounds of the case you can sell",
+     "What pricing off the bought weight costs you",
+     "The margin the price lands, and the food cost behind it"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/food-markup-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How to calculate markup on food?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Put the cost on the pounds you can sell, then mark that up. A $48.00 case at 40 lb and an 85% yield gives 34 usable lb, so cost is $1.41 a lb, and a 32% target margin prices it at $2.08. Mark up the $1.20 you paid per bought pound instead and you get $1.76, which leaves the trim unpaid for."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much mark up should you charge on food?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Enough to cover the trim, not a round number off a chart. On this case $22.72 of gross profit against a $48.00 cost is a 47.3% markup, and the same $22.72 against $70.72 of revenue is a 32.1% margin. Decide the margin the line has to carry, then read off the markup it needs."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does trim belong in the cost or in the markup?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "In the cost, not the markup. Spread the $48.00 case over the 34 lb you can sell and cost is $1.41 a usable lb. Mark that up to $2.08. Price off the 40 lb you bought and the same target gives $1.76, which is $0.32 a lb short."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you calculate food cost on product you cut yourself?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Divide the case cost by the usable pounds, not the pounds on the invoice. $48.00 over 34 usable lb is $1.41, against $1.20 over the 40 lb you bought. The food cost percentage then comes off what the case really earns, so $48.00 of $70.72 is 67.9%."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is trim the same as shrink?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No, and they belong in different places. Shrink is product you lose to spoilage, damage or a short count, and it goes into your landed cost. Trim is weight you never intended to sell, 6 lb of every 40 lb case here, and it belongs in the price per pound. Budgeting for one does not cover the other."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How does yield change the price you need?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Every point of yield you lose is carried by the pounds that are left. At an 85% yield this case needs $2.08 a lb. At 75% it needs $2.35, and at 90% it needs $1.96, a $0.39 spread on the same $48.00 case. Yield moves the price more than the case cost usually does."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What yield should you use on a cut item?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Your own, measured. Weigh the case in, weigh the saleable product out, and do it across a few cases and a few cutters. Assume 85% and really get 75% and you sell 30 lb at a price built for 34, so the case earns $62.40 instead of $70.72 and the margin goes with it."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/food-markup-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/food-markup-calculator",
+    "name": "Food Markup Calculator",
+    "description": "Price cut and portioned product on the pounds you can actually sell. Trim is 6 lb a case, so pricing off the 40 lb you bought comes up short.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/food-markup-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/food-markup-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

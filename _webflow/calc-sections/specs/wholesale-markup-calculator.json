@@ -1,0 +1,153 @@
+{
+ "slug": "wholesale-markup-calculator",
+ "status": "DRAFT 2026-10-15: written from copy-spec-wholesale-markup.md. Not pushed.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is a wholesale markup?",
+  "intro": "A wholesale markup is what a distributor adds to its landed cost to set the price it charges its accounts. It is stated as a share of cost. A 35% markup on a $22.00 case gives a $29.70 wholesale price, before the account adds its own.",
+  "cards": [
+   {
+    "title": "Where it sits in the chain",
+    "body": "Between your supplier and your account. The store or kitchen adds its own markup on top of your price, so yours is one step of several.",
+    "alt": "Warehouse, for where a wholesale markup sits in the chain"
+   },
+   {
+    "title": "Street accounts",
+    "body": "Independent accounts usually buy off your price list at the markup you choose. They tend to carry more margin, and more cost to serve per case.",
+    "alt": "Map pin, for street accounts priced off your list"
+   },
+   {
+    "title": "Contract accounts",
+    "body": "Chains and groups often buy at landed cost plus a set markup or a fee per case. A fixed fee does not grow when cost rises, so its margin thins.",
+    "alt": "Warning sign, for contract accounts on cost plus a fee"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a wholesale markup calculator",
+  "intro": "Category managers and owners at distributors carrying both staples and specialty lines use it to check the blended margin. Anyone who sets category markups, prices a contract or plans overhead should run it.",
+  "chips": [
+   {
+    "label": "Owners planning against the blend",
+    "alt": "Person, for owners planning against the blended margin"
+   },
+   {
+    "label": "Managers balancing staples and specialty",
+    "alt": "Slider controls, for managers balancing staples and specialty"
+   },
+   {
+    "label": "Reps growing specialty sales",
+    "alt": "Headset, for reps growing specialty sales"
+   },
+   {
+    "label": "Route managers pricing small drops",
+    "alt": "Floor plan grid, for route managers pricing small drops"
+   },
+   {
+    "label": "Finance budgeting overhead against margin",
+    "alt": "Office building, for finance budgeting overhead against margin"
+   },
+   {
+    "label": "Teams renewing contract accounts",
+    "alt": "Two people, for teams renewing contract accounts"
+   },
+   {
+    "label": "Category managers setting markups",
+    "alt": "Plus sign, for category managers setting markups"
+   },
+   {
+    "label": "Controllers watching staple share",
+    "alt": "Magnifying glass, for controllers watching staple share"
+   },
+   {
+    "label": "Owners ranking accounts by mix",
+    "alt": "Clipboard, for owners ranking accounts by mix"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Check the mix before you budget on the blend",
+  "intro": "The blend is only as true as the split you type. Anyone building a budget on it should settle these three questions first.",
+  "steps": [
+   {
+    "title": "Staple share in dollars, not cases",
+    "body": "Weight the 60% by sales dollars. Staples are often the cheaper cases, so a share counted in cases overstates their pull on the blend."
+   },
+   {
+    "title": "One markup that stands for specialty",
+    "body": "The 35% stands in for every line that is not a staple. If those lines carry different markups, type one combined markup: their total profit divided by their total cost."
+   },
+   {
+    "title": "Contract sales at their own rate",
+    "body": "Cases sold to chains on cost plus a fee do not carry your list markup. Leave them in at 35% and the blend reads wrong, usually high."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Sales Reps",
+  "h2": "Where VOS fits in your sales mix",
+  "row_badge": "Your Sales Mix",
+  "h3": "Reps free to sell, not take orders",
+  "body": "VOS does not calculate markups or measure your blend. Routine order taking moves off your reps: orders arrive confirmed once customers place them by voice in the VOS app.",
+  "bullets": [
+   "20-30 minutes saved per order compared with a phone order",
+   "Each account orders from its own guide, at your prices",
+   "Order history per account in one admin platform",
+   "Works alongside your ERP, with nothing to rip out"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after wholesale markup",
+  "intro": "The blend shows what the book really earns. These free calculators check the cost under it, the shelf above it and a price move.",
+  "cards": [
+   {
+    "title": "Build the case cost first",
+    "body": "Start from the supplier price, add freight, handling and shrink, and read the margin your markup really leaves.",
+    "link_label": "Open the material markup calculator",
+    "link_slug": "material-markup-calculator",
+    "alt": "Calculator, for building a case cost before the markup"
+   },
+   {
+    "title": "Check the shelf price above yours",
+    "body": "See your wholesale price become a shelf price, and whether the store's margin is wide enough to keep your line.",
+    "link_label": "Open the wholesale to retail markup calculator",
+    "link_slug": "wholesale-to-retail-markup-calculator",
+    "alt": "Warehouse racking, for the shelf price above your wholesale price"
+   },
+   {
+    "title": "Test a price move on a staple",
+    "body": "Move a staple's price on paper first, and find the case volume that holds profit steady after the change.",
+    "link_label": "Open the price change calculator",
+    "link_slug": "price-change-calculator",
+    "alt": "Right arrow, for testing a price move before you make it"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "35% markup",
+   "source": "calculator default: markup 35"
+  },
+  {
+   "figure": "$22.00 landed cost",
+   "source": "calculator default: cost 22"
+  },
+  {
+   "figure": "$29.70 wholesale price",
+   "source": "verified figures table: 22.00 x 1.35"
+  },
+  {
+   "figure": "60% staple share",
+   "source": "calculator default: staples 60% of sales"
+  },
+  {
+   "figure": "20-30 minutes saved per order",
+   "source": "VOS KB CURRENT STATE, homepage figure"
+  }
+ ]
+}

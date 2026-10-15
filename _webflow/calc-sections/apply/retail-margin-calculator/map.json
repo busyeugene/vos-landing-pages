@@ -1,0 +1,510 @@
+{
+ "slug": "retail-margin-calculator",
+ "pageId": "6ac76528743f1f2a6f8ae6e6",
+ "roots": {
+  "whatis": "b6f995d8-9726-d819-b553-a8ffe299ba23",
+  "who": "0a2f9490-fa66-6f0c-bd28-f90f74b9ad56",
+  "look": "857e9e3e-affa-8b70-337f-dc349d3c8d33",
+  "vos": "12ea15ec-1fbd-ab2a-84ac-3c0ba02d2695",
+  "next": "c2a61d21-9974-8129-344a-be7cca72f544"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b75c",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b75d",
+   "how": "heading",
+   "expected": "What is retail margin?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b762",
+   "how": "string",
+   "expected": "Retail margin is the share of the shelf price a store keeps once the item is paid for. It is the number store buyers plan in. For a distributor, the store's unit cost is your case price split by the pack, so your price sits inside their margin."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b76a",
+   "how": "heading",
+   "expected": "What it counts"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b76d",
+   "how": "string",
+   "expected": "The gap between the tag and the unit cost, divided by the tag. A $2.38 unit on a $3.97 tag keeps $1.59, which is 40.1%."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b767",
+   "how": "image",
+   "expected": "Floor plan grid, for what a store keeps on each tag"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b772",
+   "how": "heading",
+   "expected": "What it leaves out"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b775",
+   "how": "string",
+   "expected": "The store's labor, rent and power for the cold case. Retail margin is gross, so all of that is paid out of it later."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b76f",
+   "how": "image",
+   "expected": "Stacked cases, for store costs that sit outside the margin"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b77a",
+   "how": "heading",
+   "expected": "Why a supplier runs it"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b77d",
+   "how": "string",
+   "expected": "Shelf space goes to the lines that earn the store money. Your case price is the one input in that margin you control."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "cd44b7a2-2c0d-5680-ff40-10ad4b19b777",
+   "how": "image",
+   "expected": "Case box, for the case price inside a store's margin"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c787f",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c7880",
+   "how": "heading",
+   "expected": "Who uses a retail margin calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c7885",
+   "how": "string",
+   "expected": "It is built for independent and DSD food distributors who sell into stores. Anyone who meets a store buyer, suggests a shelf price or defends a line should run it first."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c788a",
+   "how": "heading",
+   "expected": "Owners pricing store accounts"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c7888",
+   "how": "image",
+   "expected": "Dollar sign, for owners pricing store accounts"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c788f",
+   "how": "heading",
+   "expected": "Reps preparing a category review"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c788d",
+   "how": "image",
+   "expected": "Balance scale, for reps preparing a category review"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c7894",
+   "how": "heading",
+   "expected": "Sales managers pitching new lines"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c7892",
+   "how": "image",
+   "expected": "Rising chart, for sales managers pitching new lines"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c7899",
+   "how": "heading",
+   "expected": "DSD reps checking store shelves"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c7897",
+   "how": "image",
+   "expected": "Delivery truck, for DSD reps checking store shelves"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c789e",
+   "how": "heading",
+   "expected": "Key account managers defending margin"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c789c",
+   "how": "image",
+   "expected": "Cash bills, for key account managers defending margin"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c78a3",
+   "how": "heading",
+   "expected": "Merchandisers checking tags after resets"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c78a1",
+   "how": "image",
+   "expected": "Cycling arrows, for merchandisers checking tags after shelf resets"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c78a8",
+   "how": "heading",
+   "expected": "Reps suggesting a shelf price"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c78a6",
+   "how": "image",
+   "expected": "Price tag, for reps suggesting a shelf price"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c78ad",
+   "how": "heading",
+   "expected": "Managers reviewing slow lines"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c78ab",
+   "how": "image",
+   "expected": "Downward trend line, for managers reviewing slow lines"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c78b2",
+   "how": "heading",
+   "expected": "Reps comparing against rival lines"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "d024d6c0-dd23-426b-637e-7a394e4c78b0",
+   "how": "image",
+   "expected": "Side by side bars, for reps comparing against rival lines"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb910",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb911",
+   "how": "heading",
+   "expected": "What to check before you quote the margin"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb915",
+   "how": "string",
+   "expected": "Two of the inputs come from the store's side, and both drift. Check these three before a number goes in front of a buyer."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb91b",
+   "how": "heading",
+   "expected": "The tag on the shelf today"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb91f",
+   "how": "string",
+   "expected": "Use the price the store charges now, not the suggested price on your sell sheet. Stores move tags without telling their suppliers."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb923",
+   "how": "heading",
+   "expected": "The store's cost after allowances"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb927",
+   "how": "string",
+   "expected": "If you pay a store a billback or a promotional allowance, take it off their unit cost for the weeks it runs. Leave it in and their margin reads lower than they see it."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb92b",
+   "how": "heading",
+   "expected": "The unit the shelf really sells"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "a42eba35-d95b-52d2-b914-017673fcb92f",
+   "how": "string",
+   "expected": "Split the case by the units that scan. A 12-unit case sold as six twin packs has a different unit cost and a different tag."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b600",
+   "how": "string",
+   "expected": "Store Accounts"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b601",
+   "how": "heading",
+   "expected": "Where VOS fits with your store accounts"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b60a",
+   "how": "string",
+   "expected": "Your Case Price"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b60b",
+   "how": "heading",
+   "expected": "The case price behind their margin"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b60f",
+   "how": "string",
+   "expected": "VOS does not calculate a store's margin or set its shelf price. It keeps your side clear: each store orders by voice in the VOS app from a guide at the prices you set."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b62c",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b616",
+   "how": "string",
+   "expected": "Promos and confirmations reach stores by notification and text"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b61c",
+   "how": "string",
+   "expected": "For DSD, drivers arrive with the right product"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b622",
+   "how": "string",
+   "expected": "Orders captured 24/7, after hours included"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b628",
+   "how": "string",
+   "expected": "Most customers place a first order the same day"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "0bae9749-e889-a783-22e6-a9ae7817b606",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa45",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa46",
+   "how": "heading",
+   "expected": "What to run after retail margin"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa4b",
+   "how": "string",
+   "expected": "Retail margin shows the store's side of the sum. These free calculators work back to your markup, the full chain and your own case price."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa53",
+   "how": "heading",
+   "expected": "Put your own markup on a ladder"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa56",
+   "how": "string",
+   "expected": "Switch to your own side: one case cost priced at four markup rungs, with the margin each one keeps."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa5a",
+   "how": "string",
+   "expected": "Open the product markup calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa50",
+   "how": "image",
+   "expected": "Percent sign, for your own markup at each rung"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa58",
+   "how": "link",
+   "expected": "6ac7866ff16ee3a82e89dd76"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa60",
+   "how": "heading",
+   "expected": "Follow one case to the shelf"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa63",
+   "how": "string",
+   "expected": "Trace a case from your cost to the shelf price, and check your price still leaves the retailer enough margin to stock you."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa67",
+   "how": "string",
+   "expected": "Open the wholesale to retail markup calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa5d",
+   "how": "image",
+   "expected": "Rising line, for following a case from your cost to the shelf"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa65",
+   "how": "link",
+   "expected": "6ac73522edd07accabdbe401"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa6d",
+   "how": "heading",
+   "expected": "Set your case price three ways"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa70",
+   "how": "string",
+   "expected": "Work out your case price from a target margin, a dollar profit per case or a competitor's price, and compare what each keeps."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa74",
+   "how": "string",
+   "expected": "Open the product pricing calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa6a",
+   "how": "image",
+   "expected": "Check mark, for setting your case price three ways"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "31760d9e-5504-7350-ffe2-bee11413aa72",
+   "how": "link",
+   "expected": "6ac718c668be300e93fb7203"
+  }
+ ]
+}

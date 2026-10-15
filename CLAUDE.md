@@ -1324,6 +1324,82 @@ Size them by rendering against the glyph they will sit next to, never by eye in 
 Free Tools draft was optically small beside Solutions (body 11-39 of 50; 9-41 matches), and a 4-row
 keypad that looked fine at 72px went muddy at the real 24px.
 
+## Calculator pages: five new sections, fixes, icons and header (2026-10-15)
+Done from THIS repo on the 23 live `/free-tools/<slug>` calculator pages (built originally in the
+sister project `Lead magnets VOS`, whose STATE.md does not know about this round). Everything is
+**saved in Webflow, not published**: it ships with the client's next site publish. Never call
+`publish_site`. Tooling, specs and logs: `_webflow/calc-sections/` (start with `RUNBOOK.md`).
+
+**Why these sections.** `_build/research/sections-2026-10/FINDINGS.md` (DataForSEO SERPs + On-Page
+headings for the 26 feature-page keywords, SE Ranking questions): the AI Overview shows on 26/26 and
+always opens with a definition, 25/26 carry a "features to look for" block, YouTube is cited on 20/26,
+and the only VOS URL cited is a blog post built exactly from definition / what to look for / embedded
+calculator / how to choose. Rerunnable scripts sit in its `scripts/`.
+
+**What each page now carries**, in this order: calculator, results, **What is <concept>?** (copy of
+the tools-section card grid, 3 cards, banner removed), **Who uses a <calculator>** (copy of the 9-chip
+grid), how to use, what the calculator shows you, **What to look for before you trust the number**
+(copy of setup-process: input checks, never a recap of the output), sound familiar, the table, the
+levers + VOS banner, **Where VOS fits** (one copied feature row with the app's order-review
+screenshot; says plainly VOS does not do the calculation, then one verified touchpoint), after the
+numbers, **What to run next** (copy of the pain-card grid, 3 related calculators with copied row
+links), hidden testimonial, FAQ, Main CTA. Copy lives in `specs/<slug>.json` (source of truth);
+`lint.py` (claim, style and VOS-count rules) and `repeats.py --strict` (cross-page sameness) both
+pass on all 23. Each page names VOS 6 times, not the old 3-mention convention, by Eugene's request.
+
+**How a block is copied headlessly (there is no clone API):** `data_component_tool`
+`transform_element_to_component` with **`replace: false`** (the original stays untouched) ->
+`insert_component_instance` -> `unlink_component_instance` -> confirm `instanceCount: 0` ->
+`unregister_component`. The copy is exact (Grid elements, image assets, alts, embeds, combo classes)
+but **inherits the source's DOM id**, so `set_dom_id` the copy or the page has two `#integrations`.
+The same trick carried the five finished sections from the approved draft to all 23 pages as
+temporary "TMP" components (all unregistered at 0 instances afterwards; `query_components TMP` = 0).
+
+**How copy was written into the copies without typing an id:** `gen_apply.py` locates every slot
+in a freshly unlinked template by the REFERENCE text it still carries, then emits batches;
+`verify_apply.py` reads the stored tree back (text, alt, link target, icon asset id). To get an
+exact tree, add a `pad` query on the big features section so the result spills to a file rather
+than being retyped. New sections were inserted hidden and shown only after 0 mismatches, so a
+client publish mid-build could never show marginal cost copy on another page.
+
+**Also fixed on the live pages this round** (`fixes.json` -> `gen_fixes.py`, which refuses any
+fix whose "before" text does not match the collected live text; result in `fixes-apply/RESULT.md`):
+- safety stock lever card said the demand swing is "most" of the buffer; it is 25% (lead time 75%,
+  and the tool's own tip says so). Its banner and CTA promised VOS steadies demand: removed.
+- "pack sizes" on order guides (KB Q14, unconfirmed) on unit price and landed cost; "every order"
+  promises on four banners and one CTA; "dearest" (British) on landed cost.
+- 5 FAQ q1s that repeated the new What-is H2 word for word, replaced with real PAA questions.
+- all 92 feature-row buttons (donor leftovers pointing at Contact Us and restaurant pages) now
+  jump to the page's own calculator anchor (`#vos-...`; landed cost is `#vos-pricecomp`, early pay
+  `#vos-purchprice`).
+- **JSON-LD URLs were flat on all 23** (`/<slug>`, a 404); now `/free-tools/<slug>`, and the stored
+  FAQPage matches the accordion pair for pair. Same folder trap as the `/alternatives` pages:
+  always build URLs from `publishedPath`.
+
+**Icons: the set is now 42.** 18 new brand icons (person, team, chat, headset, store, office,
+phone, pin, clipboard, calculator, search, lightbulb, book, alert, plus, minus, sliders,
+arrow-right) drawn in the house style (`icons/make_icons.py`, contact sheet `icons/sheet.png`),
+uploaded with `icons/upload_icons.py` (CDN copies MD5-verified) and added to the sister project's
+`icon-manifest.md`. Each page has 33 icon slots and all 33 are distinct (`icons/assign/<slug>.json`,
+checked by `icons/check_assign.py`). Alt text is always "<icon label>, for <topic>".
+
+**Header:** all 23 now use the homepage's main `Navbar` component
+(`d1d68e62-9100-5fcc-c190-da89dbbb0f8e`) instead of `Landing Navbar`, matching `/free-tools`. Same
+layout classes, different menu. Log: `header-swap.md`.
+
+**Lessons that cost time:**
+- **Eugene wants new sections ADDED, never existing ones rewritten.** A first build that repurposed
+  existing blocks was rejected and restored from a saved read-back.
+- **Python's `csv` module strips a field's surrounding double quotes.** Three pain-card headings that
+  ARE quotes came back without them in that restore; a live-vs-draft diff caught it.
+- **The auto-mode classifier refuses the first write to a live page** until the user approves it
+  explicitly in the conversation. Do the local work (specs, checks) while waiting; never route around it.
+- **Two fact-check passes found 22 errors in specs that already passed lint**, e.g. "booked when the
+  order is placed" for PPV and an office subtracted twice on warehouse size. Lint is style, not truth.
+- **A slot regex `[a-z_]+` silently cut "h2" to "h"** in `gen_update.py`; a helper caught it.
+- Still open: the draft test page `6ad05858af84441219bf54be` (`/marginal-cost-calculator-sections-test`)
+  can only be deleted in the Designer; nobody has looked at a rendered page yet.
+
 ## Lessons from the Oct 2026 editorial check (4 passes, after the Webflow port)
 Run in this order, cheapest-catch-first. Passes 1 and 2 are mechanical and found the worst defect.
 

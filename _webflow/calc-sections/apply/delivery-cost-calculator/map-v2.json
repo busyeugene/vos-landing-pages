@@ -1,0 +1,525 @@
+{
+ "slug": "delivery-cost-calculator",
+ "pageId": "6ac7652b0d7b366d7fd65177",
+ "roots": {
+  "whatis": "24f1abc5-3c06-56cd-fbbb-092c83921250",
+  "who": "99189308-588a-c2b9-ff60-7ecd798972a5",
+  "look": "b32898ff-32e1-d80f-7d3b-e8210b5bd4cf",
+  "vos": "27874b4d-2ad2-60db-41e0-e119680e2cbe",
+  "next": "060a8185-1e62-cbca-884a-986b07318fdf"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907db",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907dc",
+   "how": "heading",
+   "expected": "What is cost per delivery?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907e1",
+   "how": "string",
+   "expected": "Cost per delivery is the share of a route day that one stop uses up, whatever it carries. It comes from the day's driver, fuel and truck costs, split evenly across every drop. It is the cost a delivery minimum has to clear."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907e9",
+   "how": "heading",
+   "expected": "Only the route day is counted"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907ec",
+   "how": "string",
+   "expected": "The route day and nothing before it. Picking in the warehouse and the time spent taking the order sit outside the $27.18, so serving a stop costs more."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907e6",
+   "how": "image",
+   "expected": "Plus sign, for the route costs a drop carries",
+   "asset": "6ad07a8a27aa3ab4d513d9f3"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907f1",
+   "how": "heading",
+   "expected": "Every stop priced the same"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907f4",
+   "how": "string",
+   "expected": "The calculator splits the day evenly, but a long unload or a detour uses more of the 8 hours than a quick drop."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907ee",
+   "how": "image",
+   "expected": "Light bulb, for the difference between a long stop and a quick one",
+   "asset": "6ad07a870941cf0d0c62fa49"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907f9",
+   "how": "heading",
+   "expected": "The order that misses the route"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907fc",
+   "how": "string",
+   "expected": "An order that arrives after the route is built waits a day or gets a trip of its own. A trip of its own puts driver time, fuel and the truck behind one drop."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "a74247f0-bfec-d3f5-be5b-6803204907f6",
+   "how": "image",
+   "expected": "Warning sign, for an order that arrives after the route is built",
+   "asset": "6ad07a8582ff418bc8a6c6b6"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c7f",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c80",
+   "how": "heading",
+   "expected": "Who uses a delivery cost calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c85",
+   "how": "string",
+   "expected": "Any distributor running its own trucks can use it, from a single route to a full fleet. Whoever sets the delivery minimum, quotes a new stop or cuts a route should have that figure."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c8a",
+   "how": "heading",
+   "expected": "Owners setting a delivery minimum"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c88",
+   "how": "image",
+   "expected": "Person, for owners setting a delivery minimum",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c8f",
+   "how": "heading",
+   "expected": "Sales managers weighing small accounts"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c8d",
+   "how": "image",
+   "expected": "Storefront, for weighing small accounts against the cost of a stop",
+   "asset": "6ad07a8e55a095f6d8321efc"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c94",
+   "how": "heading",
+   "expected": "Reps adding a new stop"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c92",
+   "how": "image",
+   "expected": "Speech bubble, for reps adding a new stop",
+   "asset": "6ad07a860941cf0d0c62fa17"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c99",
+   "how": "heading",
+   "expected": "Transport managers costing a route"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c97",
+   "how": "image",
+   "expected": "Map pin, for transport managers costing a route",
+   "asset": "6ad07a8ac909350d3ff080bd"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c9e",
+   "how": "heading",
+   "expected": "Controllers budgeting the fleet"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1c9c",
+   "how": "image",
+   "expected": "Office building, for controllers budgeting the fleet",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1ca3",
+   "how": "heading",
+   "expected": "DSD teams setting visit frequency"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1ca1",
+   "how": "image",
+   "expected": "Slider controls, for DSD teams setting how often stores get a visit",
+   "asset": "6ad07a8c46e29627d6ef796b"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1ca8",
+   "how": "heading",
+   "expected": "Owners pricing delivery fees"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1ca6",
+   "how": "image",
+   "expected": "Clipboard, for owners pricing delivery fees",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1cad",
+   "how": "heading",
+   "expected": "Ops reviewing light drops"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1cab",
+   "how": "image",
+   "expected": "Magnifying glass, for reviewing light drops",
+   "asset": "6ad07a8b1207c22da70d53ca"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1cb2",
+   "how": "heading",
+   "expected": "Teams comparing two routes"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "9ff09b7f-3b26-144e-2ee7-60621f6b1cb0",
+   "how": "image",
+   "expected": "Two people, for comparing two routes",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-5386479148f8",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-5386479148f9",
+   "how": "heading",
+   "expected": "Count the whole route day in the drop cost"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-5386479148fd",
+   "how": "string",
+   "expected": "Driver cost is most of the day, so two of these checks start with the driver. The third is the miles."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-538647914903",
+   "how": "heading",
+   "expected": "Hours from the timesheet"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-538647914907",
+   "how": "string",
+   "expected": "Enter the hours the driver is paid, clock in to clock out, not just time on the road. If overtime is regular, build it into the hourly rate."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-53864791490b",
+   "how": "heading",
+   "expected": "A wage with the extras on"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-53864791490f",
+   "how": "string",
+   "expected": "$28.00 should carry payroll taxes, benefits and insurance, not just the pay rate. A bare wage makes every drop look cheaper than it is."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-538647914913",
+   "how": "heading",
+   "expected": "Miles from yard to yard"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "2e5da571-744f-72b1-f8e2-538647914917",
+   "how": "string",
+   "expected": "Use odometer miles for the whole day, out and back. Distance between stops on a map leaves out the run to the first drop and home again."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014ab",
+   "how": "string",
+   "expected": "Order Timing"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014ac",
+   "how": "heading",
+   "expected": "Where VOS sits before the route leaves"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014b5",
+   "how": "string",
+   "expected": "Your Route Day"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014b6",
+   "how": "heading",
+   "expected": "Orders can land before the route is built"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014ba",
+   "how": "string",
+   "expected": "VOS does not plan routes, dispatch trucks or track deliveries. It works a step earlier. Customers order by voice in the VOS app, 24/7, and after-hours orders are in before the truck is loaded."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014d7",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014c1",
+   "how": "string",
+   "expected": "Customers order 24/7, after hours included"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014c7",
+   "how": "string",
+   "expected": "Each line reviewed by the customer before it is sent"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014cd",
+   "how": "string",
+   "expected": "For DSD, drivers show up with the right product"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014d3",
+   "how": "string",
+   "expected": "20-30 minutes saved per order compared with a phone order"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "a68ebfd4-23e2-b939-0670-d77a42b014b1",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf2b",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf2c",
+   "how": "heading",
+   "expected": "What to run after cost per delivery"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf31",
+   "how": "string",
+   "expected": "A drop cost prices one stop. These three follow it to the next case, the building the cases ship from, and what they cost to bring in."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf39",
+   "how": "heading",
+   "expected": "Find the cost of the next case"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf3c",
+   "how": "string",
+   "expected": "Split variable from fixed cost and see what extra volume costs per case once a new truck or route is needed."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf40",
+   "how": "string",
+   "expected": "Open the marginal cost calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf36",
+   "how": "image",
+   "expected": "Calculator, for the cost of one more case",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf3e",
+   "how": "link",
+   "expected": "6ac69810ef654fbdecf37f4b"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf46",
+   "how": "heading",
+   "expected": "See what your warehouse can hold"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf49",
+   "how": "string",
+   "expected": "Count how many cases your building holds once aisles and dock are out, and the weeks of flow that covers."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf4d",
+   "how": "string",
+   "expected": "Open the warehouse size calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf43",
+   "how": "image",
+   "expected": "Warehouse, for what your warehouse can hold",
+   "asset": "6ac71ff1d74c17b09757a391"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf4b",
+   "how": "link",
+   "expected": "6ac72b9663b2850d53a5f878"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf53",
+   "how": "heading",
+   "expected": "Cost what comes in, freight and all"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf56",
+   "how": "string",
+   "expected": "Put inbound freight on each supplier's case and rank three offers by what one unit really costs you."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf5a",
+   "how": "string",
+   "expected": "Open the landed cost calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf50",
+   "how": "image",
+   "expected": "Right arrow, for costing inbound supplier offers with freight",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "7e543664-f5a0-6411-93af-9782a78eaf58",
+   "how": "link",
+   "expected": "6ac7652962cd713ecd056f43"
+  }
+ ]
+}

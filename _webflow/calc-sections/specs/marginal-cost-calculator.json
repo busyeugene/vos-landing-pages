@@ -1,0 +1,153 @@
+{
+ "slug": "marginal-cost-calculator",
+ "status": "REFERENCE: exactly what the approved draft test page 6ad05858af84441219bf54be carries. Do not edit.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is marginal cost?",
+  "intro": "Marginal cost is what one more case costs you to buy, pick and deliver. You find it by dividing the change in total cost by the change in cases. For a distributor, that includes any truck or route the new volume adds.",
+  "cards": [
+   {
+    "title": "What it counts",
+    "body": "The costs that rise with every case you ship: product, picking labor and fuel per drop. In the calculator's example, that is $18.00 a case.",
+    "alt": "Plus sign, for the costs each extra case adds"
+   },
+   {
+    "title": "What it leaves out",
+    "body": "Rent, insurance and office pay you already carry at today's volume. They stay put when one more account comes on, so the next case does not pay for them.",
+    "alt": "Minus sign, for fixed costs today's volume already carries"
+   },
+   {
+    "title": "When a fixed cost steps in",
+    "body": "A second truck or a new route lands all at once. Spread $6,000 across the 1,200 extra cases that need it, and each case carries $5.00 more.",
+    "alt": "Warning sign, for a step cost spread across new cases"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a marginal cost calculator",
+  "intro": "It is built for independent food distributors who run their own trucks. Anyone who prices volume, quotes an account or plans a route should run it before saying yes.",
+  "chips": [
+   {
+    "label": "Owners pricing a new account",
+    "alt": "Person, for owners pricing a new account"
+   },
+   {
+    "label": "Sales managers setting floors",
+    "alt": "Headset, for sales managers setting price floors"
+   },
+   {
+    "label": "Reps quoting a volume deal",
+    "alt": "Speech bubble, for reps quoting a volume deal"
+   },
+   {
+    "label": "Route planners adding stops",
+    "alt": "Clipboard, for route planners adding stops"
+   },
+   {
+    "label": "Ops weighing a second truck",
+    "alt": "Slider controls, for weighing the cost of a second truck"
+   },
+   {
+    "label": "DSD teams adding stores",
+    "alt": "Storefront, for DSD teams adding stores to a route"
+   },
+   {
+    "label": "Teams bidding on chain contracts",
+    "alt": "Two people, for teams bidding on chain contracts"
+   },
+   {
+    "label": "Controllers checking thin accounts",
+    "alt": "Office building, for controllers checking thin accounts"
+   },
+   {
+    "label": "Anyone asked for a discount",
+    "alt": "Mobile phone, for weighing a discount request against the floor"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "What to look for before you trust the number",
+  "intro": "The math is simple. The inputs are where it goes wrong. Check these three before you quote off the result.",
+  "steps": [
+   {
+    "title": "Costs in the right bucket",
+    "body": "A driver's wage stays fixed until you add a route. Fuel and picking labor move with every case. File one in the wrong place and the answer moves."
+   },
+   {
+    "title": "Cases that are really new",
+    "body": "Count only volume you would not ship anyway. An account that moves its Tuesday order to Friday adds no cases."
+   },
+   {
+    "title": "The same time period",
+    "body": "Monthly fixed costs need monthly cases. Mix in a weekly case count and the step cost per case comes out about four times too high."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Entry",
+  "h2": "Where VOS fits in the calculation",
+  "row_badge": "Your Variable Cost",
+  "h3": "Order taking sits inside your cost per case",
+  "body": "VOS does not calculate your costs. It changes one input: the time your team spends taking each order. Your customers order by voice in the VOS app, and each order reaches you confirmed, in the format you already use.",
+  "bullets": [
+   "20-30 minutes saved per order compared with a phone call",
+   "Each app order arrives with a number and a timestamp",
+   "Order history per account to check your case counts",
+   "Most distributors are live in 24 to 48 hours"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after marginal cost",
+  "intro": "Marginal cost gives you the floor. These free calculators answer the next three questions a pricing decision raises.",
+  "cards": [
+   {
+    "title": "Price the case three ways",
+    "body": "Compare cost-plus, a target profit and a competitor's price for the same case, and see the margin each one leaves.",
+    "link_label": "Open the pricing calculator",
+    "link_slug": "product-pricing-calculator",
+    "alt": "Calculator, for pricing a case three ways"
+   },
+   {
+    "title": "Test a discount before you give it",
+    "body": "See how much volume a price cut has to add, or a raise can afford to lose, before profit drops.",
+    "link_label": "Open the price change calculator",
+    "link_slug": "price-change-calculator",
+    "alt": "Right arrow, for the volume a price change needs"
+   },
+   {
+    "title": "Cost each stop on the route",
+    "body": "Break a route into cost per drop and per case, then check whether a new account's drop size covers the stop.",
+    "link_label": "Open the delivery cost calculator",
+    "link_slug": "delivery-cost-calculator",
+    "alt": "Map pin, for costing each stop on a route"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "$18.00 a case",
+   "source": "calculator default: variable cost per case 18"
+  },
+  {
+   "figure": "$6,000 across 1,200 extra cases, $5.00 a case",
+   "source": "defaults: step cost 6000, new volume 7200 minus current 6000"
+  },
+  {
+   "figure": "about four times too high",
+   "source": "monthly vs weekly: 4.33 weeks a month"
+  },
+  {
+   "figure": "20-30 minutes saved per order",
+   "source": "VOS KB CURRENT STATE, homepage figure"
+  },
+  {
+   "figure": "24 to 48 hours",
+   "source": "VOS KB CURRENT STATE, carries 'Most'"
+  }
+ ]
+}

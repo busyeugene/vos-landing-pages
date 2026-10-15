@@ -1,0 +1,265 @@
+{
+ "el": [
+  {
+   "label": "faq[1].a",
+   "set_text": {
+    "id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
+    },
+    "text": "Three quotes for one item. By case price the sheet reads C $19.00, A $24.00, B $45.00. With freight added and the pack count divided out it reads B $1.96, C $2.02, A $2.12. The most expensive case is the cheapest unit, and the cheapest case lands in the middle."
+   }
+  },
+  {
+   "label": "faq[0].q",
+   "set_text": {
+    "id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf960"
+    },
+    "text": "How do you calculate landed cost?"
+   }
+  },
+  {
+   "label": "faq[0].a",
+   "set_text": {
+    "id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+    },
+    "text": "Add the freight to the case price, then divide by the units in the case. Option C is $19.00 plus $1.20 of freight, $20.20 landed, and 10 units makes it $2.02 a unit."
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-pricecomp"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-pricecomp"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-pricecomp"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-pricecomp"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [
+  {
+   "label": "hero",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "989faf8b-cac3-f127-6306-f797ae33f470"
+    },
+    "values": [
+     {
+      "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
+      "type": "string",
+      "string_value": "Compare three supplier quotes on landed cost per unit, freight in. The price comparison tool below ranks all three and names the winner, because the most expensive case on the sheet is often the cheapest unit."
+     }
+    ]
+   }
+  },
+  {
+   "label": "cta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+      "type": "string",
+      "string_value": "Make the item you chose the one your accounts order"
+     },
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "VoiceOrder Solutions gives each account a personalized order guide built from your own SKUs and pricing, so a price change reaches every account's guide instead of sitting in an email."
+     }
+    ]
+   }
+  }
+ ],
+ "expect": {
+  "text": {
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973": "Three quotes for one item. By case price the sheet reads C $19.00, A $24.00, B $45.00. With freight added and the pack count divided out it reads B $1.96, C $2.02, A $2.12. The most expensive case is the cheapest unit, and the cheapest case lands in the middle.",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf960": "How do you calculate landed cost?",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967": "Add the freight to the case price, then divide by the units in the case. Option C is $19.00 plus $1.20 of freight, $20.20 landed, and 10 units makes it $2.02 a unit."
+  },
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-pricecomp",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-pricecomp",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-pricecomp",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-pricecomp"
+  },
+  "props": {
+   "hero/d410be85-5d89-9215-6f62-195b0e3f7c44": "Compare three supplier quotes on landed cost per unit, freight in. The price comparison tool below ranks all three and names the winner, because the most expensive case on the sheet is often the cheapest unit.",
+   "cta/be41c71a-4d6f-3276-eb73-5cf5dd4f25f6": "Make the item you chose the one your accounts order",
+   "cta/5e0d3c39-9fde-6661-5b10-e1aef4f809a4": "VoiceOrder Solutions gives each account a personalized order guide built from your own SKUs and pricing, so a price change reaches every account's guide instead of sitting in an email."
+  }
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/landed-cost-calculator#calculator",
+    "name": "Landed Cost Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/landed-cost-calculator",
+    "description": "Rank three supplier offers on landed cost per unit, freight included, and see why the cheapest case price is rarely the cheapest unit.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "All three offers on one comparable number",
+     "Which offer wins, and which one only looks like it",
+     "The decision in dollars a month",
+     "What a pack change does to the ranking"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/landed-cost-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do you calculate landed cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Add the freight to the case price, then divide by the units in the case. Option C is $19.00 plus $1.20 of freight, $20.20 landed, and 10 units makes it $2.02 a unit."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is an example of landed cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Three quotes for one item. By case price the sheet reads C $19.00, A $24.00, B $45.00. With freight added and the pack count divided out it reads B $1.96, C $2.02, A $2.12. The most expensive case is the cheapest unit, and the cheapest case lands in the middle."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What should be included in landed costs?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A full landed cost can carry freight, handling, storage, insurance and, on an import, duties and brokerage. This calculator covers the one that decides most domestic supplier comparisons, freight per case, and it does not calculate duties, tariffs or customs. Put any drop fee or delivery minimum in the freight box and the three offers stay comparable."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is landed cost the same as COGS?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. Landed cost is per case and per unit, which is why you can rank offers with it. Buying 6,000 units a month at $1.96 is $11,760 of goods, and the cost of goods sold counts what left the building over a period. Pick the supplier on the unit cost, report on the period total."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is FOB versus landed cost on a domestic quote?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "FOB tells you where the freight stops being the supplier's problem. FOB destination means delivery is already in the case price, and FOB origin means you are paying it on top. Read that line first, because it decides whether an offer needs $1.20 or $2.10 added before you compare it."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the difference between standard cost and landed cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Standard cost is the price you planned against and budget off. Landed cost is what the case really costs you delivered, which can drift the moment freight or a pack count changes. Compare offers on landed cost, then check the winner against your standard so the variance does not surprise you later."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Should landed cost be included in inventory?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Freight into your warehouse belongs in what the goods are worth, so your accountant will want it there rather than in overhead. The practical reason to track it is the choice in front of you: at $0.16 a unit, the gap between the best and dearest offer here is $960 a month and $11,520 a year."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/landed-cost-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/landed-cost-calculator",
+    "name": "Landed Cost Calculator",
+    "description": "Rank three supplier offers on landed cost per unit, freight included, and see why the cheapest case price is rarely the cheapest unit.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/landed-cost-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/landed-cost-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

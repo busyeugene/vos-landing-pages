@@ -1,0 +1,234 @@
+{
+ "el": [
+  {
+   "label": "tools_banner.heading",
+   "set_text": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "c4a10396-4eab-6d48-0bce-33e9aed345fd"
+    },
+    "text": "See how VOS captures orders the day they are placed"
+   }
+  },
+  {
+   "label": "tools_banner.body",
+   "set_text": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
+    },
+    "text": "Each account orders from a guide built on your own SKUs, and VoiceOrder Solutions captures orders placed after hours, each with its date and timestamp."
+   }
+  },
+  {
+   "label": "faq[0].q",
+   "set_text": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf960"
+    },
+    "text": "Is reorder point the same as safety stock?"
+   }
+  },
+  {
+   "label": "faq[0].a",
+   "set_text": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+    },
+    "text": "No. Safety stock is the buffer, 229 cases here. The reorder point adds the demand you sell while you wait on the truck, 480 cases over a 4 day lead time, so the trigger sits at 709 cases."
+   }
+  },
+  {
+   "label": "rowlink1",
+   "set_link": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "url",
+    "link": "#vos-reorder"
+   }
+  },
+  {
+   "label": "rowlink2",
+   "set_link": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "url",
+    "link": "#vos-reorder"
+   }
+  },
+  {
+   "label": "rowlink3",
+   "set_link": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "url",
+    "link": "#vos-reorder"
+   }
+  },
+  {
+   "label": "rowlink4",
+   "set_link": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "url",
+    "link": "#vos-reorder"
+   }
+  }
+ ],
+ "alt": [],
+ "props": [],
+ "expect": {
+  "text": {
+   "c4a10396-4eab-6d48-0bce-33e9aed345fd": "See how VOS captures orders the day they are placed",
+   "4590e4b1-e797-fe36-9056-58de9ded19b8": "Each account orders from a guide built on your own SKUs, and VoiceOrder Solutions captures orders placed after hours, each with its date and timestamp.",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf960": "Is reorder point the same as safety stock?",
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967": "No. Safety stock is the buffer, 229 cases here. The reorder point adds the demand you sell while you wait on the truck, 480 cases over a 4 day lead time, so the trigger sits at 709 cases."
+  },
+  "alt": {},
+  "links": {
+   "3eb238a9-794c-5623-3970-f5b533eca107": "#vos-reorder",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1": "#vos-reorder",
+   "8b079726-3463-6044-f4e9-f838b3bfb137": "#vos-reorder",
+   "2af8f313-e356-7eea-3f46-cef1a39df959": "#vos-reorder"
+  },
+  "props": {}
+ },
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "WebApplication",
+    "@id": "https://www.voiceordersolutions.com/free-tools/reorder-point-calculator#calculator",
+    "name": "Reorder Point Calculator",
+    "url": "https://www.voiceordersolutions.com/free-tools/reorder-point-calculator",
+    "description": "Find the stock level that should trigger your next order, how many days of cover you have left, and what a late supplier costs you in cases.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Calculator",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "isAccessibleForFree": true,
+    "offers": {
+     "@type": "Offer",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    "featureList": [
+     "The stock level that has to start the next order",
+     "How long you have before you have to order",
+     "What the trigger is actually buying you",
+     "What a lead time slip costs you"
+    ],
+    "audience": {
+     "@type": "Audience",
+     "audienceType": "Independent food distributors"
+    },
+    "provider": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "FAQPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/reorder-point-calculator#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Is reorder point the same as safety stock?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. Safety stock is the buffer, 229 cases here. The reorder point adds the demand you sell while you wait on the truck, 480 cases over a 4 day lead time, so the trigger sits at 709 cases."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How is ROP calculated?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Average daily usage times the lead time, plus the safety stock you already hold. 120 cases a day across 4 days is 480 cases, and a 229 case buffer takes the trigger to 709 cases. Measure the lead time from order placed to truck unloaded, because every extra day adds 120 cases."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the formula for calculating reorder level?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Reorder level, order point and ROP are three names for the same figure, usage across the lead time plus the buffer. Do not confuse it with a par level, which is the quantity you top up to. The reorder level is 709 cases here and says nothing about how much to order."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What happens if the reorder point is too low?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "You run out before the truck arrives, and the buffer absorbs the gap until it cannot. A 2 day slip adds 240 cases of demand against a 229 case buffer, which leaves you 11 cases short. The answer is a trigger of 949 cases, not a call to the account on the day."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you find the normal reorder period?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Divide the trigger by your daily usage to see what it covers, then count down from today's stock. 709 cases is 5.9 days of cover at 120 cases a day, and 850 cases on hand leaves 1.2 days before you hit it. How often you order after that is set by how much you buy each time."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the formula for calculating inventory level?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Count what is on the floor, then hold it against the trigger. 850 cases on hand against a 709 case trigger leaves 141 cases of headroom, which is 1.2 days at 120 cases a day. If the count is a week old, so is the answer."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you calculate the order point?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Set it per line, then make sure somebody sees the count cross it. A trigger of 709 cases is worth nothing if stock gets checked once a week. Reset it whenever the lead time moves, since a 6 day lead time takes the same line to 949 cases."
+      }
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://www.voiceordersolutions.com/free-tools/reorder-point-calculator#webpage",
+    "url": "https://www.voiceordersolutions.com/free-tools/reorder-point-calculator",
+    "name": "Reorder Point Calculator",
+    "description": "Find the stock level that should trigger your next order, how many days of cover you have left, and what a late supplier costs you in cases.",
+    "isPartOf": {
+     "@id": "https://www.voiceordersolutions.com/#website"
+    },
+    "about": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/reorder-point-calculator#calculator"
+    },
+    "mainEntity": {
+     "@id": "https://www.voiceordersolutions.com/free-tools/reorder-point-calculator#calculator"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://www.voiceordersolutions.com/#website",
+    "url": "https://www.voiceordersolutions.com/",
+    "name": "VoiceOrder Solutions",
+    "publisher": {
+     "@id": "https://www.voiceordersolutions.com/#organization"
+    }
+   },
+   {
+    "@type": "Organization",
+    "@id": "https://www.voiceordersolutions.com/#organization",
+    "name": "VoiceOrder Solutions",
+    "url": "https://www.voiceordersolutions.com/"
+   }
+  ]
+ }
+}

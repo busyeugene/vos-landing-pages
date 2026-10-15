@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "warehouse",
+  "pin",
+  "alert"
+ ],
+ "who": [
+  "person",
+  "sliders",
+  "headset",
+  "floorplan",
+  "office",
+  "team",
+  "plus",
+  "search",
+  "clipboard"
+ ],
+ "next": [
+  "calculator",
+  "racking",
+  "arrow-right"
+ ],
+ "notes": "whatis: warehouse is your DC between supplier and account, pin is street accounts (store kept out of this section because it would sit next to warehouse). who 4 route managers is floorplan (route map) because truck is already on the page. who 7 category managers setting markups is plus (markup added on cost)."
+}

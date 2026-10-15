@@ -1,0 +1,525 @@
+{
+ "slug": "price-change-calculator",
+ "pageId": "6ac735253fe7317c927e4447",
+ "roots": {
+  "whatis": "3bccc3df-333a-b865-babd-f10a4f4ca0ed",
+  "who": "a17030cd-4e44-0b0e-747b-73d5faa2d372",
+  "look": "370ff28b-999f-e51e-ea82-879808f11dbd",
+  "vos": "f5db652a-945f-a48c-7403-d2f3636c8cea",
+  "next": "10e97696-cfd3-df09-f648-6ffa197e0469"
+ },
+ "slots": [
+  {
+   "slot": "whatis.eyebrow",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d33671",
+   "how": "string",
+   "expected": "The Basics"
+  },
+  {
+   "slot": "whatis.h2",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d33672",
+   "how": "heading",
+   "expected": "What is the breakeven on a price change?"
+  },
+  {
+   "slot": "whatis.intro",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d33677",
+   "how": "string",
+   "expected": "The breakeven on a price change is how much volume you can lose after a raise before profit drops below today's. After a cut, it is how much volume you must add. It compares contribution per case before and after the move."
+  },
+  {
+   "slot": "whatis.cards[0].title",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d3367f",
+   "how": "heading",
+   "expected": "The truck still stops"
+  },
+  {
+   "slot": "whatis.cards[0].body",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d33682",
+   "how": "string",
+   "expected": "The breakeven treats the $22.00 product cost as your only cost per case. Lose cases at an account and the truck still stops there, so each remaining case costs more to deliver."
+  },
+  {
+   "slot": "whatis.cards[0].alt",
+   "kind": "alt",
+   "element": "57802722-5382-236a-2d04-701d53d3367c",
+   "how": "image",
+   "expected": "Delivery truck, for delivery costs that a lost case does not remove",
+   "asset": "6ac71ff0361a2660da2daed3"
+  },
+  {
+   "slot": "whatis.cards[1].title",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d33687",
+   "how": "heading",
+   "expected": "Lost volume can hide in the mix"
+  },
+  {
+   "slot": "whatis.cards[1].body",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d3368a",
+   "how": "string",
+   "expected": "An account can answer a raise by switching to a cheaper line you also carry. Its total cases hold steady, so the loss hides unless you check the item itself."
+  },
+  {
+   "slot": "whatis.cards[1].alt",
+   "kind": "alt",
+   "element": "57802722-5382-236a-2d04-701d53d33684",
+   "how": "image",
+   "expected": "Warning sign, for volume that trades down to a cheaper line",
+   "asset": "6ad07a8582ff418bc8a6c6b6"
+  },
+  {
+   "slot": "whatis.cards[2].title",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d3368f",
+   "how": "heading",
+   "expected": "Contract accounts sit outside it"
+  },
+  {
+   "slot": "whatis.cards[2].body",
+   "kind": "text",
+   "element": "57802722-5382-236a-2d04-701d53d33692",
+   "how": "string",
+   "expected": "An account on a fixed price term or a cost-plus contract cannot take a 5% list move mid-term. Run the breakeven on the volume you can actually reprice."
+  },
+  {
+   "slot": "whatis.cards[2].alt",
+   "kind": "alt",
+   "element": "57802722-5382-236a-2d04-701d53d3368c",
+   "how": "image",
+   "expected": "Minus sign, for contract accounts a list price move does not reach",
+   "asset": "6ad07a88927330500c3958ed"
+  },
+  {
+   "slot": "who.eyebrow",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f31",
+   "how": "string",
+   "expected": "Who It's For"
+  },
+  {
+   "slot": "who.h2",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f32",
+   "how": "heading",
+   "expected": "Who uses a price change calculator"
+  },
+  {
+   "slot": "who.intro",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f37",
+   "how": "string",
+   "expected": "Before a distributor moves a price, someone has to say how much volume the change can survive. Anyone who defends a raise or signs off on a cut should know the volume line first."
+  },
+  {
+   "slot": "who.chips[0].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f3c",
+   "how": "heading",
+   "expected": "Owners approving a price increase"
+  },
+  {
+   "slot": "who.chips[0].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f3a",
+   "how": "image",
+   "expected": "Person, for owners approving a price increase",
+   "asset": "6ad07a89927330500c3959e0"
+  },
+  {
+   "slot": "who.chips[1].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f41",
+   "how": "heading",
+   "expected": "Sales managers weighing a cut"
+  },
+  {
+   "slot": "who.chips[1].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f3f",
+   "how": "image",
+   "expected": "Headset, for sales managers weighing a price cut",
+   "asset": "6ad07a87835ef439cc7910a2"
+  },
+  {
+   "slot": "who.chips[2].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f46",
+   "how": "heading",
+   "expected": "Pricing teams planning a raise"
+  },
+  {
+   "slot": "who.chips[2].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f44",
+   "how": "image",
+   "expected": "Two people, for pricing teams planning a raise",
+   "asset": "6ad07a8f36601c73ce217313"
+  },
+  {
+   "slot": "who.chips[3].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f4b",
+   "how": "heading",
+   "expected": "DSD teams repricing a route"
+  },
+  {
+   "slot": "who.chips[3].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f49",
+   "how": "image",
+   "expected": "Map pin, for DSD teams repricing the stores on a route",
+   "asset": "6ad07a8ac909350d3ff080bd"
+  },
+  {
+   "slot": "who.chips[4].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f50",
+   "how": "heading",
+   "expected": "Controllers protecting gross profit"
+  },
+  {
+   "slot": "who.chips[4].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f4e",
+   "how": "image",
+   "expected": "Office building, for controllers protecting gross profit",
+   "asset": "6ad07a89b4f90466dd7c4e90"
+  },
+  {
+   "slot": "who.chips[5].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f55",
+   "how": "heading",
+   "expected": "Buyers passing on supplier increases"
+  },
+  {
+   "slot": "who.chips[5].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f53",
+   "how": "image",
+   "expected": "Clipboard, for buyers passing a supplier increase through",
+   "asset": "6ad07a8636601c73ce216e84"
+  },
+  {
+   "slot": "who.chips[6].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f5a",
+   "how": "heading",
+   "expected": "Reps defending a new price"
+  },
+  {
+   "slot": "who.chips[6].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f58",
+   "how": "image",
+   "expected": "Speech bubble, for reps defending a new price to an account",
+   "asset": "6ad07a860941cf0d0c62fa17"
+  },
+  {
+   "slot": "who.chips[7].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f5f",
+   "how": "heading",
+   "expected": "Managers asked to match competitors"
+  },
+  {
+   "slot": "who.chips[7].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f5d",
+   "how": "image",
+   "expected": "Mobile phone, for managers asked to match a competitor's price",
+   "asset": "6ad07a8a27aa3ab4d513d988"
+  },
+  {
+   "slot": "who.chips[8].label",
+   "kind": "text",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f64",
+   "how": "heading",
+   "expected": "Analysts comparing raise and cut"
+  },
+  {
+   "slot": "who.chips[8].alt",
+   "kind": "alt",
+   "element": "4e5d306c-6db0-6484-fb73-cc3d0af56f62",
+   "how": "image",
+   "expected": "Magnifying glass, for analysts comparing a raise with a cut",
+   "asset": "6ad07a8b1207c22da70d53ca"
+  },
+  {
+   "slot": "look.eyebrow",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba93f",
+   "how": "string",
+   "expected": "What to Look For"
+  },
+  {
+   "slot": "look.h2",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba940",
+   "how": "heading",
+   "expected": "Get the inputs right before you read the breakeven"
+  },
+  {
+   "slot": "look.intro",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba944",
+   "how": "string",
+   "expected": "The ratio itself is exact. The inputs behind it are where a price decision goes wrong, usually in one of these three."
+  },
+  {
+   "slot": "look.steps[0].title",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba94a",
+   "how": "heading",
+   "expected": "A cost per case that is current"
+  },
+  {
+   "slot": "look.steps[0].body",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba94e",
+   "how": "string",
+   "expected": "Enter what the case costs you today, freight in, not last quarter's invoice. An old cost makes the contribution look bigger or smaller than it really is."
+  },
+  {
+   "slot": "look.steps[1].title",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba952",
+   "how": "heading",
+   "expected": "The price accounts actually pay"
+  },
+  {
+   "slot": "look.steps[1].body",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba956",
+   "how": "string",
+   "expected": "Start from the net price after rebates, deals and contract discounts, not the list. A raise worked off a list price nobody pays tells you very little."
+  },
+  {
+   "slot": "look.steps[2].title",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba95a",
+   "how": "heading",
+   "expected": "A month that is typical"
+  },
+  {
+   "slot": "look.steps[2].body",
+   "kind": "text",
+   "element": "0ba30408-a9d4-a9f6-2bad-9a108b7ba95e",
+   "how": "string",
+   "expected": "The monthly dollars use the case count you type in. Take it from a normal month, not a holiday peak or a slow stretch, or the swing reads wrong."
+  },
+  {
+   "slot": "vos.badge",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aa88",
+   "how": "string",
+   "expected": "Order History"
+  },
+  {
+   "slot": "vos.h2",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aa89",
+   "how": "heading",
+   "expected": "Where VOS fits after a price move"
+  },
+  {
+   "slot": "vos.row_badge",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aa92",
+   "how": "string",
+   "expected": "Volume After the Move"
+  },
+  {
+   "slot": "vos.h3",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aa93",
+   "how": "heading",
+   "expected": "See which accounts kept ordering"
+  },
+  {
+   "slot": "vos.body",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aa97",
+   "how": "string",
+   "expected": "VOS does not set prices or work out the breakeven. It helps with the check that comes after. Orders from the VOS app build each account's order history, which you see in one admin platform."
+  },
+  {
+   "slot": "vos.link_label",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aab4",
+   "how": "string",
+   "expected": "Book A Demo"
+  },
+  {
+   "slot": "vos.bullets[0]",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aa9e",
+   "how": "string",
+   "expected": "Order history per account, to check volume after a move"
+  },
+  {
+   "slot": "vos.bullets[1]",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aaa4",
+   "how": "string",
+   "expected": "Each account's guide carries the prices you set"
+  },
+  {
+   "slot": "vos.bullets[2]",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aaaa",
+   "how": "string",
+   "expected": "Each app order has a number, date and timestamp"
+  },
+  {
+   "slot": "vos.bullets[3]",
+   "kind": "text",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aab0",
+   "how": "string",
+   "expected": "Most distributors are live in 24 to 48 hours"
+  },
+  {
+   "slot": "vos.img_alt",
+   "kind": "alt",
+   "element": "c1f2fed8-cb94-6cd6-65f0-d5eb5837aa8e",
+   "how": "image",
+   "expected": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+  },
+  {
+   "slot": "next.eyebrow",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bcf",
+   "how": "string",
+   "expected": "What to Do Next"
+  },
+  {
+   "slot": "next.h2",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bd0",
+   "how": "heading",
+   "expected": "What to run after a price change"
+  },
+  {
+   "slot": "next.intro",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bd5",
+   "how": "string",
+   "expected": "The breakeven says whether a move can pay. These three free calculators help you decide where the price should sit."
+  },
+  {
+   "slot": "next.cards[0].title",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bdd",
+   "how": "heading",
+   "expected": "Rebuild the case price three ways"
+  },
+  {
+   "slot": "next.cards[0].body",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907be0",
+   "how": "string",
+   "expected": "Price one case by cost-plus, a target profit and a competitor's price, and see the margin each route leaves."
+  },
+  {
+   "slot": "next.cards[0].link_label",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907be4",
+   "how": "string",
+   "expected": "Open the pricing calculator"
+  },
+  {
+   "slot": "next.cards[0].alt",
+   "kind": "alt",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bda",
+   "how": "image",
+   "expected": "Calculator, for rebuilding a case price three ways",
+   "asset": "6ad07a86f43d7bfc43f824d1"
+  },
+  {
+   "slot": "next.cards[0].link",
+   "kind": "link",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907be2",
+   "how": "link",
+   "expected": "6ac718c668be300e93fb7203"
+  },
+  {
+   "slot": "next.cards[1].title",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bea",
+   "how": "heading",
+   "expected": "Find the floor before a cut"
+  },
+  {
+   "slot": "next.cards[1].body",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bed",
+   "how": "string",
+   "expected": "Learn what each extra case costs you to buy, pick and deliver, so a price cut has a floor to stop at."
+  },
+  {
+   "slot": "next.cards[1].link_label",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bf1",
+   "how": "string",
+   "expected": "Open the marginal cost calculator"
+  },
+  {
+   "slot": "next.cards[1].alt",
+   "kind": "alt",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907be7",
+   "how": "image",
+   "expected": "Right arrow, for the floor a price cut has to stay above",
+   "asset": "6ad07a8582b4c538b5789ee3"
+  },
+  {
+   "slot": "next.cards[1].link",
+   "kind": "link",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bef",
+   "how": "link",
+   "expected": "6ac69810ef654fbdecf37f4b"
+  },
+  {
+   "slot": "next.cards[2].title",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bf7",
+   "how": "heading",
+   "expected": "Check the blend across your book"
+  },
+  {
+   "slot": "next.cards[2].body",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bfa",
+   "how": "string",
+   "expected": "Start from landed cost and see how low-margin staples drag the blended margin below the number you quoted."
+  },
+  {
+   "slot": "next.cards[2].link_label",
+   "kind": "text",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bfe",
+   "how": "string",
+   "expected": "Open the wholesale markup calculator"
+  },
+  {
+   "slot": "next.cards[2].alt",
+   "kind": "alt",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bf4",
+   "how": "image",
+   "expected": "Slider controls, for checking the margin blended across your book",
+   "asset": "6ad07a8c46e29627d6ef796b"
+  },
+  {
+   "slot": "next.cards[2].link",
+   "kind": "link",
+   "element": "5be3f14e-566c-dcae-c831-65bd0e907bfc",
+   "how": "link",
+   "expected": "6ac73521a469d3c306f7aa87"
+  }
+ ]
+}

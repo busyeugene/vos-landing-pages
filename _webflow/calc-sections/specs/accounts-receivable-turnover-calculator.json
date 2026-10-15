@@ -1,0 +1,149 @@
+{
+ "slug": "accounts-receivable-turnover-calculator",
+ "status": "DRAFT: written to BRIEF.md 2026-10-15, not yet reviewed. VOS does not invoice, collect or keep books. Touchpoint is the dated app order record, with no claim that it speeds collection.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is accounts receivable turnover?",
+  "intro": "Accounts receivable turnover counts how many times a year your customers pay off what they owe you. You get it by dividing credit sales by the average amount owed. Turned into days, it shows how long an invoice really takes to become cash.",
+  "cards": [
+   {
+    "title": "How fast, not whether",
+    "body": "A book turning 9.4 times a year can still hold a debt that will never be paid. The ratio measures speed, not the risk in any one account.",
+    "alt": "Warning sign, for collection speed rather than credit risk"
+   },
+   {
+    "title": "Which accounts it hides",
+    "body": "The ratio blends every customer, so the 8.8 days past terms could sit with one account or with all of them. An aging report by account shows which.",
+    "alt": "Magnifying glass, for the accounts the average blends together"
+   },
+   {
+    "title": "You sit in the middle",
+    "body": "You collect from accounts in 38.8 days, and that clock only starts once a case sells. Every day between paying your supplier and getting paid is cash you fund yourself.",
+    "alt": "Warehouse, for a distributor caught between account terms and supplier terms"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses an accounts receivable turnover calculator",
+  "intro": "Food distributors that sell to accounts on credit use it to see how fast those accounts pay. Whoever sets terms, grants credit or answers to a lender about cash should know the number.",
+  "chips": [
+   {
+    "label": "Owners watching cash flow",
+    "alt": "Person, for owners watching cash flow"
+   },
+   {
+    "label": "Controllers setting credit limits",
+    "alt": "Office building, for controllers setting credit limits"
+   },
+   {
+    "label": "Finance leads briefing a lender",
+    "alt": "Speech bubble, for finance leads briefing a lender"
+   },
+   {
+    "label": "Ops settling delivery disputes",
+    "alt": "Clipboard, for settling disputes over a delivery"
+   },
+   {
+    "label": "Credit teams chasing past due",
+    "alt": "Mobile phone, for credit teams chasing past due balances"
+   },
+   {
+    "label": "Clerks running monthly statements",
+    "alt": "Open book, for running monthly account statements"
+   },
+   {
+    "label": "Sales managers setting account terms",
+    "alt": "Headset, for sales managers setting account terms"
+   },
+   {
+    "label": "Owners spotting slower payers",
+    "alt": "Storefront, for spotting accounts that pay slower"
+   },
+   {
+    "label": "Controllers comparing year over year",
+    "alt": "Rising chart, for comparing this year's turnover with last year's"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Inputs that bend a receivables turnover ratio",
+  "intro": "The result rests on a handful of inputs. These three can shift it without anyone noticing, so check them first.",
+  "steps": [
+   {
+    "title": "A terms figure that fits the book",
+    "body": "The calculator takes one set of terms. If accounts run on a mix, weight the terms by credit sales before you enter them, or the days past terms will be off."
+   },
+   {
+    "title": "Debt that will never be paid",
+    "body": "Balances you no longer expect to collect still sit in average receivables and drag the ratio down. Written-off debt has left it, so compare years on the same basis."
+   },
+   {
+    "title": "The rate you actually pay",
+    "body": "The 9% should be what your credit line charges, or what the cash would earn. A guess there moves the yearly cost, though never the days."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Before Billing",
+  "h2": "Where VOS sits before the invoice",
+  "row_badge": "Your Order Trail",
+  "h3": "The order comes before the invoice",
+  "body": "VOS does not invoice, collect or keep your books. Its part comes earlier: customers review each line before sending, and each VOS app order carries a number, date and timestamp. If an account questions an invoice, you have a record of what was ordered and when.",
+  "bullets": [
+   "Order history per account in one admin platform",
+   "Confirmations reach accounts by notification and text",
+   "Orders reach you in the format you already use",
+   "Works alongside your ERP, nothing to rip out"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after receivables turnover",
+  "intro": "Turnover shows how fast cash comes in. These three look at paying suppliers early, stock that holds cash, and what a price move does to profit.",
+  "cards": [
+   {
+    "title": "Weigh paying a supplier early",
+    "body": "Price a supplier's early pay discount as a yearly rate, and see what the case costs after discounts and freight.",
+    "link_label": "Open the early payment discount calculator",
+    "link_slug": "early-payment-discount-calculator",
+    "alt": "Calculator, for pricing a supplier's early pay discount"
+   },
+   {
+    "title": "See where stock holds your cash",
+    "body": "Measure the cash sitting in stock and the days a case waits on your shelf, then see what trimming those days frees.",
+    "link_label": "Open the inventory turnover calculator",
+    "link_slug": "inventory-turnover-calculator",
+    "alt": "Warehouse racking, for the cash a slow stock turn ties up"
+   },
+   {
+    "title": "Check a price change before it lands",
+    "body": "Work out the volume a raise can lose, or a cut must win, before the change starts costing you profit.",
+    "link_label": "Open the price change calculator",
+    "link_slug": "price-change-calculator",
+    "alt": "Right arrow, for testing a price change before it lands"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "9.4 times a year",
+   "source": "spec: $9,600,000 credit sales / $1,020,000 average AR = 9.4118"
+  },
+  {
+   "figure": "8.8 days past terms",
+   "source": "spec: 38.781 days less net 30"
+  },
+  {
+   "figure": "38.8 days",
+   "source": "spec: 365 / 9.4118 = 38.781 days sales outstanding"
+  },
+  {
+   "figure": "The 9%",
+   "source": "calculator default: cost of money 9"
+  }
+ ]
+}

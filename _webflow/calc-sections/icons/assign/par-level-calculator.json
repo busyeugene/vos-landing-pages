@@ -1,0 +1,24 @@
+{
+ "whatis": [
+  "plus",
+  "minus",
+  "lightbulb"
+ ],
+ "who": [
+  "person",
+  "price-tag",
+  "sliders",
+  "pin",
+  "office",
+  "team",
+  "clipboard",
+  "warehouse",
+  "search"
+ ],
+ "next": [
+  "calculator",
+  "arrow-right",
+  "percent"
+ ],
+ "notes": "who 4 DSD teams is pin; truck is taken. next 3 (carrying cost) is percent for the rate."
+}

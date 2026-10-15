@@ -1,0 +1,157 @@
+{
+ "slug": "landed-cost-calculator",
+ "status": "DRAFT 2026-10-15: written from BRIEF.md against the marginal cost reference. Not yet approved. Fragment is price-comparison-calculator.html; no duty, tariff or customs claim anywhere.",
+ "whatis": {
+  "eyebrow": "The Basics",
+  "h2": "What is landed cost?",
+  "intro": "Landed cost is what a product costs you at your dock: the supplier's price plus the freight and fees to get it there. Split per unit, it lets you compare supplier offers that come in different case sizes. It is the number to rank on, not the quoted price.",
+  "cards": [
+   {
+    "title": "Case price plus freight, per unit",
+    "body": "The case price plus freight per case, split across the units inside. Option C's $19.00 case lands at $20.20, which is $2.02 a unit.",
+    "alt": "Plus sign, for the case price and freight that landed cost counts"
+   },
+   {
+    "title": "The cash a bigger case ties up",
+    "body": "The cost of holding what you bought. A 24 unit case can win on landed cost and still tie up more cash and warehouse space while it sells through.",
+    "alt": "Minus sign, for the holding cost a bigger case adds"
+   },
+   {
+    "title": "A backhaul still has a freight cost",
+    "body": "If your own truck collects the order on a return trip, freight is not zero. Put your truck's cost for that stop in the freight box, split down to the case.",
+    "alt": "Warning sign, for the freight cost of a pickup on your own truck"
+   }
+  ]
+ },
+ "who": {
+  "eyebrow": "Who It's For",
+  "h2": "Who uses a landed cost calculator",
+  "intro": "When the same item can come from more than one supplier, a distributor's buyer runs it before choosing. Anyone who signs off on a supplier switch should see the per unit ranking first.",
+  "chips": [
+   {
+    "label": "Owners approving a supplier switch",
+    "alt": "Person, for owners approving a supplier switch"
+   },
+   {
+    "label": "Buyers weighing three quotes",
+    "alt": "Speech bubble, for buyers weighing three supplier quotes"
+   },
+   {
+    "label": "Category managers adding a line",
+    "alt": "Clipboard, for category managers adding a new line"
+   },
+   {
+    "label": "Transport leads costing a backhaul",
+    "alt": "Map pin, for transport leads costing a backhaul pickup"
+   },
+   {
+    "label": "Controllers checking cost of goods",
+    "alt": "Office building, for controllers checking cost of goods"
+   },
+   {
+    "label": "Purchasing teams rebidding at renewal",
+    "alt": "Mobile phone, for purchasing teams rebidding a contract at renewal"
+   },
+   {
+    "label": "Pricing staff setting sell prices",
+    "alt": "Slider controls, for pricing staff setting sell prices on a new pack"
+   },
+   {
+    "label": "Ops leads trimming unit cost",
+    "alt": "Magnifying glass, for ops leads trimming cost per unit"
+   },
+   {
+    "label": "Teams comparing case sizes",
+    "alt": "Two people, for teams comparing case sizes across suppliers"
+   }
+  ]
+ },
+ "look": {
+  "eyebrow": "What to Look For",
+  "h2": "Match the quotes before ranking landed cost",
+  "intro": "The division is exact. The quotes you feed it are not always alike, and these three gaps are the usual reason.",
+  "steps": [
+   {
+    "title": "The same item in all three quotes",
+    "body": "Check grade, brand and spec before you rank. A cheaper unit of a lower grade is a different product, and the ranking cannot tell the difference."
+   },
+   {
+    "title": "Prices that hold for the same term",
+    "body": "A spot price good for this week and a contract price held for a year do not belong in one ranking. Note how long each quote stands."
+   },
+   {
+    "title": "A price you can actually buy at",
+    "body": "Each quote assumes you meet its terms. If the cheapest unit depends on a volume tier above your 6,000 units a month, that price is not on offer."
+   }
+  ]
+ },
+ "vos": {
+  "badge": "Order Record",
+  "h2": "Where VOS fits next to a supplier decision",
+  "row_badge": "Units You Need",
+  "h3": "Your units a month start with what accounts order",
+  "body": "VOS does not compare supplier quotes or buy stock. The units a month you enter come from what your accounts order, and that is the side it works on. Each order placed in the VOS app arrives with a number, a date and a timestamp.",
+  "bullets": [
+   "Order history per account in one admin platform",
+   "Real-time inventory visibility tied to order activity",
+   "Runs alongside the inventory system you use today",
+   "Customers order by voice in the app, 24/7"
+  ],
+  "link_label": "Book A Demo",
+  "img_alt": "Order review screen in the VOS app, listing each item and quantity before the order is placed"
+ },
+ "next": {
+  "eyebrow": "What to Do Next",
+  "h2": "What to run after landed cost",
+  "intro": "Landed cost picks the offer. These three free calculators check the pack, the saving and the price you sell at.",
+  "cards": [
+   {
+    "title": "Compare two packs by the pound",
+    "body": "Put two pack sizes on the same base, per unit and per pound, so a lighter unit cannot pass for a cheaper one.",
+    "link_label": "Open the unit price calculator",
+    "link_slug": "unit-price-calculator",
+    "alt": "Calculator, for comparing two packs by the pound"
+   },
+   {
+    "title": "Report the saving honestly",
+    "body": "Split hard savings from increases you avoided, size both against spend, and see which part reaches the P&L.",
+    "link_label": "Open the procurement savings calculator",
+    "link_slug": "procurement-savings-calculator",
+    "alt": "Open book, for reporting a supplier saving honestly"
+   },
+   {
+    "title": "Price the case you switched to",
+    "body": "Build a case price from freight, handling and shrink, then see what your markup leaves once shrink comes back out.",
+    "link_label": "Open the material markup calculator",
+    "link_slug": "material-markup-calculator",
+    "alt": "Right arrow, for pricing the case you switched to"
+   }
+  ]
+ },
+ "figures": [
+  {
+   "figure": "Option C's $19.00 case",
+   "source": "calculator default: option C case price 19"
+  },
+  {
+   "figure": "lands at $20.20",
+   "source": "copy spec figures table: option C landed case cost, 19.00 + 1.20"
+  },
+  {
+   "figure": "$2.02 a unit",
+   "source": "copy spec figures table: option C landed cost per unit, 20.20 / 10"
+  },
+  {
+   "figure": "A 24 unit case",
+   "source": "calculator default: option B pack count 24"
+  },
+  {
+   "figure": "6,000 units a month",
+   "source": "calculator default: units needed 6000"
+  },
+  {
+   "figure": "24/7",
+   "source": "VOS KB CURRENT STATE, 'Available 24/7'"
+  }
+ ]
+}
