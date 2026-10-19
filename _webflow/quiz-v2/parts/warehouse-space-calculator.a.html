@@ -1,0 +1,446 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+    .vos-calc{
+      --vos-blue:#0099e6; --vos-blue-dark:#014b7d; --vos-blue-soft:#eaeef1;
+      --vos-navy:#023c64; --vos-slate:#344054; --vos-muted:#667085;
+      --vos-border:#eaecf0; --vos-bg:#f9fafb; --vos-white:#ffffff;
+      --vos-green:#02b845; --vos-green-soft:#ecfdf3;
+      --vos-radius:12px; --vos-shadow:0 1px 3px rgba(2,60,100,.08),0 8px 24px rgba(2,60,100,.06);
+      all:revert;
+      box-sizing:border-box;
+      font-family:'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--vos-slate); line-height:1.5; max-width:760px; margin:0 auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    .vos-calc *,.vos-calc *::before,.vos-calc *::after{box-sizing:border-box;}
+    .vos-calc input,.vos-calc select,.vos-calc button,.vos-calc textarea{font-family:inherit;}
+    .vos-calc .vos-card{
+      background:var(--vos-white); border:1px solid var(--vos-border);
+      border-radius:var(--vos-radius); box-shadow:var(--vos-shadow); overflow:hidden;
+    }
+    .vos-calc .vos-head{background:var(--vos-navy); color:#fff; padding:22px 24px;}
+    .vos-calc .vos-head h3{margin:0;font-family:'Montserrat',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#fff;line-height:1.3;}
+    .vos-calc .vos-head p{margin:6px 0 0;font-size:14px;color:#c7dced;}
+    .vos-calc .vos-body{padding:24px;}
+    .vos-calc .vos-legend{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--vos-muted);margin:0 0 12px;}
+    .vos-calc .vos-legend.vos-sep{margin-top:24px;padding-top:20px;border-top:1px solid var(--vos-border);}
+    .vos-calc .vos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media(max-width:560px){.vos-calc .vos-grid{grid-template-columns:1fr;}}
+    .vos-calc label{display:block;font-size:13px;font-weight:600;color:var(--vos-slate);margin-bottom:6px;}
+    .vos-calc .vos-hint{display:block;font-size:11.5px;font-weight:400;color:var(--vos-muted);margin-top:5px;}
+    .vos-calc .vos-field{position:relative;margin-bottom:4px;}
+    .vos-calc .vos-prefix{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:15px;font-weight:600;pointer-events:none;}
+    .vos-calc input[type=number]{
+      width:100%;padding:12px 14px 12px 28px;font-size:16px;color:var(--vos-navy);
+      background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;transition:border-color .15s,box-shadow .15s;-moz-appearance:textfield;
+    }
+    .vos-calc input.vos-plain{padding-left:14px;}
+    .vos-calc input[type=number]:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background:#fff;}
+    .vos-calc input[type=number]::-webkit-outer-spin-button,
+    .vos-calc input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+    .vos-calc .vos-suffix{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:13px;font-weight:600;pointer-events:none;}
+    .vos-calc input.vos-hassuffix{padding-right:74px;}
+    .vos-calc .vos-slider-wrap{margin-top:12px;}
+    .vos-calc input[type=range]{width:100%;-webkit-appearance:none;appearance:none;height:6px;border-radius:6px;background:var(--vos-border);outline:none;margin:0;}
+    .vos-calc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:22px;height:22px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc .vos-toggle{display:inline-flex;background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;padding:4px;margin-bottom:18px;}
+    .vos-calc .vos-toggle button{border:none;background:transparent;padding:7px 16px;font-size:13px;font-weight:600;color:var(--vos-muted);border-radius:7px;cursor:pointer;transition:all .15s;}
+    .vos-calc .vos-toggle button.vos-on{background:#fff;color:var(--vos-blue-dark);box-shadow:0 1px 2px rgba(2,60,100,.1);}
+    .vos-calc .vos-results{margin-top:22px;border-top:1px solid var(--vos-border);padding-top:22px;}
+    .vos-calc .vos-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.vos-calc .vos-result-grid{grid-template-columns:1fr;}}
+    .vos-calc .vos-stat{background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:12px;padding:16px;}
+    .vos-calc .vos-stat .vos-k{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--vos-muted);margin-bottom:4px;}
+    .vos-calc .vos-stat .vos-v{font-family:'Montserrat',sans-serif;font-size:24px;font-weight:800;color:var(--vos-navy);letter-spacing:-.02em;}
+    .vos-calc .vos-stat .vos-sub{font-size:11.5px;color:var(--vos-muted);margin-top:3px;}
+    .vos-calc .vos-stat.vos-hero{background:var(--vos-blue-soft);border-color:#c3d5e3;}
+    .vos-calc .vos-stat.vos-hero .vos-v{color:var(--vos-blue-dark);}
+    .vos-calc .vos-stat.vos-profit{background:var(--vos-green-soft);border-color:#b6f0cd;}
+    .vos-calc .vos-stat.vos-profit .vos-v{color:#02914f;}
+    .vos-calc .vos-stat.vos-loss{background:#fef3f2;border-color:#fecdca;}
+    .vos-calc .vos-stat.vos-loss .vos-v{color:#b42318;}
+    .vos-calc .vos-tip{display:flex;gap:10px;margin-top:18px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#854d0e;}
+    .vos-calc .vos-tip b{color:#713f12;}
+    .vos-calc .vos-tip svg{flex:0 0 auto;margin-top:1px;}
+    .vos-calc .vos-cta{margin-top:18px;background:var(--vos-navy);border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+    .vos-calc .vos-cta .vos-cta-txt{font-size:14px;color:#c7dced;max-width:62%;min-width:220px;}
+    .vos-calc .vos-cta .vos-cta-txt b{color:#fff;display:block;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;margin-bottom:2px;}
+    .vos-calc .vos-cta a{background:var(--vos-blue);color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:8px;white-space:nowrap;transition:background .15s;}
+    .vos-calc .vos-cta a:hover{background:#00add4;}
+    .vos-calc .vos-reset{margin-top:14px;background:none;border:none;color:var(--vos-muted);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline;padding:0;}
+    .vos-calc .vos-foot{text-align:center;font-size:11.5px;color:var(--vos-muted);margin-top:14px;}
+  </style>
+<!-- ============================================================
+     VOICEORDER SOLUTIONS V2 QUIZ: Will the stock you are taking on actually fit?
+     GENERATED by scripts/build_v2.js. Do not hand-edit.
+     Source: lead-magnets-v2/specs/warehouse-space.js
+             lead-magnets-v2/_engine/
+             lead-magnets/warehouse-space-calculator.html
+
+     The shipped calculator is inlined below, hidden, and driven by
+     the quiz. Nothing in this file does arithmetic, so the numbers
+     here are the calculator's own.
+     ============================================================ -->
+<div class="vos-quiz" id="vos-q-warehouse-space">
+
+  <div class="vos-calc-host" aria-hidden="true">
+<!-- ============================================================
+     VOICEORDER SOLUTIONS LEAD MAGNET: Warehouse Space Calculator
+     Self-contained. No external libraries. Paste this whole
+     block into a blog "Custom HTML" / "Raw HTML" embed.
+     All styles are scoped under .vos-calc so they won't
+     touch the rest of your page. Recolor in one place via
+     the CSS variables on .vos-calc.
+     ============================================================ -->
+<div class="vos-calc" id="vos-wspace">
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Warehouse Space Calculator</h3>
+      <p>See how many square feet you need to hold your inventory once aisles, dock and staging are counted, and how much stacking higher saves.</p>
+    </div>
+    <div class="vos-body">
+
+      <p class="vos-legend">What you need to store</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-cases">Cases on hand at peak</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-cases" min="0" step="any" value="3000" inputmode="decimal">
+            <span class="vos-suffix">cases</span>
+          </div>
+          <span class="vos-hint">The most you hold at once, not your monthly throughput.</span>
+        </div>
+        <div>
+          <label for="vos-cpp">Cases per pallet</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-cpp" min="1" step="any" value="50" inputmode="decimal">
+            <span class="vos-suffix">cases</span>
+          </div>
+          <span class="vos-hint">A rough average across your order guide.</span>
+        </div>
+        <div>
+          <label for="vos-stack">Pallets you stack high</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-stack" min="1" step="1" value="2" inputmode="numeric">
+            <span class="vos-suffix">high</span>
+          </div>
+          <span class="vos-hint">Floor stacked or rack levels. Food crushes, so most go 2 or 3.</span>
+        </div>
+        <div>
+          <label for="vos-foot">Pallet footprint</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-foot" min="0" step="any" value="13.3" inputmode="decimal">
+            <span class="vos-suffix">sq ft</span>
+          </div>
+          <span class="vos-hint">A standard 48 by 40 inch pallet is 13.3 square feet.</span>
+        </div>
+      </div>
+
+      <p class="vos-legend vos-sep">Room for the work</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-aisle">Aisles, dock and staging</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-aisle" min="0" max="95" step="any" value="45" inputmode="decimal">
+            <span class="vos-suffix">% of floor</span>
+          </div>
+          <span class="vos-hint">Share of the building that moves product but does not store it.</span>
+        </div>
+      </div>
+
+      <div class="vos-results">
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Total space you need</div>
+            <div class="vos-v" id="vos-total">725 sq ft</div>
+            <div class="vos-sub" id="vos-total-sub">Storage plus aisles, dock and staging</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Pallets to store</div>
+            <div class="vos-v" id="vos-pallets">60</div>
+            <div class="vos-sub" id="vos-pallets-sub">At 50 cases per pallet</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Floor positions</div>
+            <div class="vos-v" id="vos-floor">30</div>
+            <div class="vos-sub" id="vos-floor-sub">Stacked 2 high</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Storage footprint</div>
+            <div class="vos-v" id="vos-storage">399 sq ft</div>
+            <div class="vos-sub">Pallet footprint only</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Space per case</div>
+            <div class="vos-v" id="vos-percase">0.24 sq ft</div>
+            <div class="vos-sub">Total space divided by cases</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Aisles and overhead</div>
+            <div class="vos-v" id="vos-aislespace">326 sq ft</div>
+            <div class="vos-sub" id="vos-aislespace-sub">45% of the building</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="vos-tip-text">Aisles, dock and staging take <b>45%</b> of the floor, so nearly half the building moves no product. Stacking one pallet higher, from 2 to 3, would cut the space you need from <b>725 sq ft</b> to <b>484 sq ft</b>.</div>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="vos-reset">Reset calculator</button>
+        </div>
+        <div class="vos-foot">A planning estimate. Confirm rack layout, clear height and fire code with your building before you sign a lease.</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Warehouse Space Calculator ============ -->
+  </div>
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Will the stock you are taking on actually fit?</h3>
+      <p>Seven quick questions. At the end you get the square feet you need once aisles, dock and staging are counted, which is the part people forget.</p>
+      <div class="vos-prog" role="progressbar" aria-valuemin="0" aria-valuemax="7" aria-valuenow="1" aria-label="Quiz progress" id="q-prog">
+        <div class="vos-prog-bar" id="q-bar"></div>
+      </div>
+      <div class="vos-prog-txt" id="q-progtxt">Step 1 of 7</div>
+    </div>
+
+    <div class="vos-body" aria-live="polite">
+
+      <section class="vos-step is-on" id="warehouse-space-s1">
+        <p class="vos-eyebrow">The situation</p>
+        <h4 class="vos-q">What is pushing on your space?</h4>
+        <p class="vos-qsub">Pick the closest one.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What is pushing on your space?">
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-situation" data-group="situation" value="new-account"><span class="vos-dot"></span><span>A new account is about to add stock</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-situation" data-group="situation" value="seasonal"><span class="vos-dot"></span><span>A seasonal build up is coming</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-situation" data-group="situation" value="outgrown"><span class="vos-dot"></span><span>We have simply outgrown the building</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-situation" data-group="situation" value="planning"><span class="vos-dot"></span><span>Nothing urgent, I am planning ahead</span></label>
+        </div>
+        <div class="vos-err" id="warehouse-space-s1-err">Pick one to carry on.</div>
+        <div class="vos-nav vos-armed" data-arm="situation">
+          <button type="button" class="vos-next" data-next>Continue</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="warehouse-space-s2">
+        <p class="vos-eyebrow">What you need to hold</p>
+        <h4 class="vos-q">How much stock sits on the floor at peak?</h4>
+        <p class="vos-qsub">Peak, not average. The building has to hold the worst week, not the normal one.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-cases">Cases on hand at peak</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-cases" min="0" step="any" value="3000" inputmode="decimal">
+              <span class="vos-suffix">cases</span>
+            </div>
+            <span class="vos-hint">The most you ever have in the building at once.</span>
+          </div>
+          <div>
+            <label for="q-vos-cpp">Cases per pallet</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-cpp" min="0" step="any" value="50" inputmode="decimal">
+              <span class="vos-suffix">cases</span>
+            </div>
+            <span class="vos-hint">Blended across what you carry.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="warehouse-space-s2-err">Enter a case count and a pallet quantity above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="warehouse-space-s3">
+        <p class="vos-eyebrow">How you rack it</p>
+        <h4 class="vos-q">And how does it stack?</h4>
+        <p class="vos-qsub">Stacking is the cheapest lever you have. It costs racking, not rent.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-stack">Pallets you stack high</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-stack" min="0" step="any" value="2" inputmode="decimal">
+              <span class="vos-suffix">high</span>
+            </div>
+            <span class="vos-hint">Count the positions, not the pallets on the floor.</span>
+          </div>
+          <div>
+            <label for="q-vos-foot">Pallet footprint</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-foot" min="0" step="any" value="13.3" inputmode="decimal">
+              <span class="vos-suffix">sq ft</span>
+            </div>
+            <span class="vos-hint">A standard 48 by 40 pallet is about 13.3 square feet.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="warehouse-space-s3-err">Enter a stack height and a footprint above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="warehouse-space-s4">
+        <p class="vos-eyebrow">Everything that is not product</p>
+        <h4 class="vos-q">How much of the floor is aisles, dock and staging?</h4>
+        <p class="vos-qsub">This is the number that catches people out. It is rarely under 40 percent.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-aisle">Aisles, dock and staging</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-aisle" min="0" step="any" value="45" inputmode="decimal">
+              <span class="vos-suffix">%</span>
+            </div>
+            <span class="vos-hint">Forklift aisles, the dock apron, staging lanes, returns. Everything you cannot rack.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="warehouse-space-s4-err">That cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="warehouse-space-s5">
+        <p class="vos-eyebrow">How you run it today</p>
+        <h4 class="vos-q">How do you know what is on the floor right now?</h4>
+        <p class="vos-qsub">Space planning only works if the count it starts from is real.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="How do you know what is on the floor right now?">
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-visibility" data-group="visibility" value="walk-it"><span class="vos-dot"></span><span>Someone walks it and counts</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-visibility" data-group="visibility" value="spreadsheet"><span class="vos-dot"></span><span>A spreadsheet we update as we go</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-visibility" data-group="visibility" value="system"><span class="vos-dot"></span><span>The system tells us, and we trust it</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-visibility" data-group="visibility" value="system-doubt"><span class="vos-dot"></span><span>The system tells us, but we check it anyway</span></label>
+        </div>
+        <div class="vos-err" id="warehouse-space-s5-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="visibility" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="warehouse-space-s6">
+        <p class="vos-eyebrow">The hidden cost of a tight floor</p>
+        <h4 class="vos-q">How often does a case get picked onto the wrong order?</h4>
+        <p class="vos-qsub">Last one before your numbers. Tight aisles and mixed pallets make this worse.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="How often does a case get picked onto the wrong order?">
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-mispicks" data-group="mispicks" value="weekly"><span class="vos-dot"></span><span>Most weeks, and we credit it back</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-mispicks" data-group="mispicks" value="monthly"><span class="vos-dot"></span><span>Once or twice a month</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-mispicks" data-group="mispicks" value="rare"><span class="vos-dot"></span><span>Rarely, it is not really a problem</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-warehouse-space-mispicks" data-group="mispicks" value="unknown"><span class="vos-dot"></span><span>We would not reliably know</span></label>
+        </div>
+        <div class="vos-err" id="warehouse-space-s6-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="mispicks" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="warehouse-space-gate">
+        <p class="vos-eyebrow">Your breakdown is ready</p>
+
+        <div class="vos-preview">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Total space you need</div>
+            <div class="vos-v" id="q-preview">--</div>
+            <div class="vos-sub">The headline number. The rest are below.</div>
+          </div>
+        </div>
+
+        <h4 class="vos-q">Want to see your results?</h4>
+        <p class="vos-qsub">You have given us enough to work this out. Fill this in and the full breakdown opens up.</p>
+
+        <div class="vos-hsform" id="q-hsform">
+          
+          <div class="hs-form-frame" data-region="na1" data-form-id="f854c1d7-fedd-4ba0-a8fb-98af24925dfc" data-portal-id="51996060"></div>
+          <div class="vos-hsload" id="q-hsload">Loading the form.</div>
+          <div class="vos-hsfail" id="q-hsfail">
+            <b>The form did not load.</b>
+            <span>Your browser or your network is most likely blocking it. That should not cost you the numbers you just worked out.</span>
+            <button type="button" class="vos-next" id="q-hsskip">Show my numbers anyway</button>
+          </div>
+        </div>
+        <div class="vos-nav">
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+        <p class="vos-privacy">Your details go straight to our team, who will follow up about these numbers.</p>
+      </section>
+
+      <section class="vos-step" id="warehouse-space-results">
+        <div class="vos-verdict is-go" id="q-verdict">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <div>
+            <h4 id="q-vtitle">Your result</h4>
+            <p id="q-vtext">Working it out.</p>
+          </div>
+        </div>
+
+        <p class="vos-greet" id="q-greet">Here is your breakdown.</p>
+        <p class="vos-greetsub" id="q-greetsub"></p>
+
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero" id="qcard-vos-total">
+            <div class="vos-k">Total space you need</div>
+            <div class="vos-v" id="qc-vos-total">--</div>
+            <div class="vos-sub" id="qcs-vos-total"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-storage">
+            <div class="vos-k">Storage footprint</div>
+            <div class="vos-v" id="qc-vos-storage">--</div>
+            <div class="vos-sub">The racked product itself</div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-aislespace">
+            <div class="vos-k">Aisles and overhead</div>
+            <div class="vos-v" id="qc-vos-aislespace">--</div>
+            <div class="vos-sub" id="qcs-vos-aislespace"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-pallets">
+            <div class="vos-k">Pallets to store</div>
+            <div class="vos-v" id="qc-vos-pallets">--</div>
+            <div class="vos-sub" id="qcs-vos-pallets"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-floor">
+            <div class="vos-k">Floor positions</div>
+            <div class="vos-v" id="qc-vos-floor">--</div>
+            <div class="vos-sub" id="qcs-vos-floor"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-percase">
+            <div class="vos-k">Space per case</div>
+            <div class="vos-v" id="qc-vos-percase">--</div>
+            <div class="vos-sub">Total floor divided by cases held</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="q-tip"></div>
+        </div>
+
+        <div class="vos-cta">
+          <div class="vos-cta-txt">
+            <b>Space fills up when stock does not move.</b>
+            VoiceOrder Solutions keeps inventory live and orders confirmed, so you carry what you actually sell instead of buying space for product that sits.
+          </div>
+          <a href="https://www.voiceordersolutions.com/contact-us" target="_blank" rel="noopener">Book A Demo &rarr;</a>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="q-again">Change my numbers</button>
+        </div>
+        <div class="vos-foot" id="q-foot">Estimates only. Confirm your rack layout and fire lanes before signing anything.</div>
+        <div class="vos-debug" id="q-debug"></div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Will the stock you are taking on actually fit? ============ -->

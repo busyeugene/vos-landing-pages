@@ -1,0 +1,391 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-ar');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var sales=$('vos-sales'), terms=$('vos-terms'), begar=$('vos-begar'), endar=$('vos-endar'),
+        rate=$('vos-rate'), cut=$('vos-cut'), cutSlider=$('vos-cut-slider'),
+        turnEl=$('vos-turn'), turnSub=$('vos-turn-sub'), dsoEl=$('vos-dso'), dsoSub=$('vos-dso-sub'),
+        beyondEl=$('vos-beyond'), beyondSub=$('vos-beyond-sub'), beyondCard=$('vos-beyond-card'),
+        stuckEl=$('vos-stuck'), carryEl=$('vos-carry'), carrySub=$('vos-carry-sub'),
+        freedEl=$('vos-freed'), freedK=$('vos-freed-k'), freedSub=$('vos-freed-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-sales':9600000,'vos-terms':30,'vos-begar':980000,'vos-endar':1060000,'vos-rate':9,'vos-cut':5};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money(n){ if(!isFinite(n)) n=0; return '$'+Math.round(n).toLocaleString('en-US'); }
+    function days(n){ if(!isFinite(n)) n=0; return n.toFixed(1); }
+
+    function calc(){
+      var S=num(sales), T=num(terms), B=num(begar), E=num(endar), R=num(rate);
+      var CUT=parseFloat(cut.value); if(!isFinite(CUT)||CUT<0) CUT=0;
+
+      var avgAR = (B+E)/2;
+      var valid = S>0 && avgAR>0;
+
+      var turnover = valid ? S/avgAR : NaN;
+      var dso      = valid ? 365*avgAR/S : NaN;
+      var perDay   = S/365;                        // cash released per day of DSO cut
+      var beyond   = valid ? dso - T : NaN;
+      // Cash tied up beyond terms. Never negative: paying early does not owe you money.
+      var stuck    = valid ? Math.max(0, beyond)/365*S : NaN;
+      var carry    = valid ? stuck*(R/100) : NaN;
+
+      if(!valid){
+        turnEl.textContent='--'; dsoEl.textContent='--'; beyondEl.textContent='--';
+        stuckEl.textContent='--'; carryEl.textContent='--'; freedEl.textContent='--';
+        turnSub.textContent='Enter your credit sales and AR balances.';
+        dsoSub.textContent=''; beyondSub.textContent=''; carrySub.textContent='';
+        tip.innerHTML='Enter your <b>annual sales on credit</b> and both <b>AR balances</b> to see how fast you really collect.';
+        return;
+      }
+
+      // A DSO cut can never exceed the DSO you actually have.
+      var realCut = Math.min(CUT, dso);
+      var freed = realCut*perDay;
+
+      turnEl.textContent  = turnover.toFixed(1)+'x';
+      turnSub.textContent = 'You collect your book '+turnover.toFixed(1)+' times a year';
+      dsoEl.textContent   = days(dso)+' days';
+      dsoSub.textContent  = 'Average time from invoice to cash. Average AR is '+money(avgAR)+'.';
+
+      if(beyond>0){
+        beyondEl.textContent = days(beyond)+' days';
+        beyondSub.textContent= 'How far customers run past net '+T.toFixed(0);
+        beyondCard.className = 'vos-stat vos-loss';
+      } else {
+        beyondEl.textContent = days(Math.abs(beyond))+' days early';
+        beyondSub.textContent= 'You collect inside net '+T.toFixed(0)+'. Rare, and worth protecting.';
+        beyondCard.className = 'vos-stat vos-profit';
+      }
+
+      stuckEl.textContent = money(stuck);
+      carryEl.textContent = money(carry);
+      carrySub.textContent= 'At '+R.toFixed(1)+'% cost of money';
+      freedK.textContent  = 'Cash freed by collecting '+realCut.toFixed(0)+' day'+(realCut===1?'':'s')+' sooner';
+      freedEl.textContent = money(freed);
+      freedSub.textContent= 'One-time cash release, plus '+money(freed*(R/100))+' a year in interest you stop paying';
+
+      // Dynamic tip: benchmark against terms first, then against the industry norm.
+      var t;
+      if(beyond>14){
+        t = 'You write net '+T.toFixed(0)+' but collect in <b>'+days(dso)+' days</b>, more than two weeks past terms. <b>'+money(stuck)+'</b> of your cash is financing your customers and it costs you <b>'+money(carry)+'</b> a year. At this gap the problem is usually process, not credit risk: late invoices, wrong quantities, and disputed deliveries.';
+      } else if(beyond>0){
+        t = 'You write net '+T.toFixed(0)+' but collect in <b>'+days(dso)+' days</b>. That gap leaves <b>'+money(stuck)+'</b> of your cash on someone else\'s balance sheet and costs you <b>'+money(carry)+'</b> a year to finance. Most of it is not customers refusing to pay, it is invoices that went out late or wrong.';
+      } else if(turnover>=12){
+        t = 'A turnover of <b>'+turnover.toFixed(1)+'x</b> means you collect your whole book more than once a month, inside your own terms. That is strong for food distribution. Guard it: every day of DSO you give back costs you <b>'+money(perDay)+'</b> in cash.';
+      } else {
+        t = 'You collect in <b>'+days(dso)+' days</b>, inside your net '+T.toFixed(0)+' terms. Good. Keep an eye on the trend rather than the snapshot: every extra day of DSO ties up another <b>'+money(perDay)+'</b> of cash.';
+      }
+      tip.innerHTML = t;
+    }
+
+    function syncSlider(){
+      var v = parseFloat(cut.value);
+      if(isFinite(v)){ cutSlider.value = Math.max(0, Math.min(30, v)); }
+    }
+
+    [sales,terms,begar,endar,rate].forEach(function(el){ el.addEventListener('input', calc); });
+    cut.addEventListener('input', function(){ syncSlider(); calc(); });
+    cutSlider.addEventListener('input', function(){ cut.value = cutSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "ar-turnover",
+  "rootId": "vos-q-ar-turnover",
+  "calcRootId": "vos-ar",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "ar-turnover-s1",
+    "ar-turnover-s2",
+    "ar-turnover-s3",
+    "ar-turnover-s4",
+    "ar-turnover-s5",
+    "ar-turnover-s6"
+  ],
+  "gateId": "ar-turnover-gate",
+  "resultsId": "ar-turnover-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter annual credit sales above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-sales",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-terms",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Receivables cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-begar",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-endar",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-rate",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-cut",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "invoicing",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "disputes",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-sales",
+      "calcId": "vos-sales",
+      "qid": "q-vos-sales"
+    },
+    {
+      "id": "vos-terms",
+      "calcId": "vos-terms",
+      "qid": "q-vos-terms"
+    },
+    {
+      "id": "vos-begar",
+      "calcId": "vos-begar",
+      "qid": "q-vos-begar"
+    },
+    {
+      "id": "vos-endar",
+      "calcId": "vos-endar",
+      "qid": "q-vos-endar"
+    },
+    {
+      "id": "vos-rate",
+      "calcId": "vos-rate",
+      "qid": "q-vos-rate"
+    },
+    {
+      "id": "vos-cut",
+      "calcId": "vos-cut",
+      "qid": "q-vos-cut"
+    }
+  ],
+  "groups": [
+    "situation",
+    "invoicing",
+    "disputes"
+  ],
+  "autoGroups": [
+    "situation",
+    "invoicing",
+    "disputes"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-dso",
+      "qid": "qc-vos-dso",
+      "cardId": "qcard-vos-dso",
+      "qsubId": "qcs-vos-dso",
+      "subFrom": "vos-dso-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-beyond",
+      "qid": "qc-vos-beyond",
+      "cardId": "qcard-vos-beyond",
+      "qsubId": "qcs-vos-beyond",
+      "subFrom": "vos-beyond-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-beyond-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-stuck",
+      "qid": "qc-vos-stuck",
+      "cardId": "qcard-vos-stuck",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-carry",
+      "qid": "qc-vos-carry",
+      "cardId": "qcard-vos-carry",
+      "qsubId": "qcs-vos-carry",
+      "subFrom": "vos-carry-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-turn",
+      "qid": "qc-vos-turn",
+      "cardId": "qcard-vos-turn",
+      "qsubId": "qcs-vos-turn",
+      "subFrom": "vos-turn-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-freed",
+      "qid": "qc-vos-freed",
+      "cardId": "qcard-vos-freed",
+      "qsubId": "qcs-vos-freed",
+      "subFrom": "vos-freed-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your receivables figures against your year end before acting on them.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "disputes",
+      "weights": {
+        "wrong-item": 30,
+        "unknown": 26,
+        "price-mismatch": 22,
+        "just-slow": 8
+      }
+    },
+    {
+      "group": "invoicing",
+      "weights": {
+        "with-driver": 25,
+        "mixed": 20,
+        "email": 16,
+        "portal-edi": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "cash-tight": 15,
+        "bad-payer": 12,
+        "terms-review": 10,
+        "benchmark": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-sales",
+    "bands": [
+      [
+        20000000,
+        30
+      ],
+      [
+        5000000,
+        22
+      ],
+      [
+        1000000,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read) {
+    if (read['vos-turn'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to work it out.',
+        text: 'Go back and put in your credit sales and what you were owed at each end of the year.' };
+    }
+    if (/early/.test(String(read['vos-beyond']))) {
+      return { tone: 'is-go', title: 'You are collecting inside terms.',
+        text: 'Days sales outstanding is ' + read['vos-dso'] + ' against the terms you write, which '
+            + 'is the right side of the line. Collecting ' + read['vos-freed'] + ' sooner is still '
+            + 'cash you could put to work.' };
+    }
+    return { tone: 'is-no', title: 'You are financing your customers.',
+      text: 'You write terms and collect in ' + read['vos-dso'] + ', which is ' + read['vos-beyond']
+          + ' past them. That leaves ' + read['vos-stuck'] + ' sitting out there and costs you '
+          + read['vos-carry'] + ' a year to carry.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on $' + (f['vos-sales'] || 0).toLocaleString('en-US') + ' a year on credit at net '
+         + (f['vos-terms'] || 0) + '.';
+  },
+  "echoes": []
+};
+  </script>

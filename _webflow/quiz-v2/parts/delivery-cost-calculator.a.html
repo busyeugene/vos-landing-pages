@@ -1,0 +1,514 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+    .vos-calc{
+      --vos-blue:#0099e6; --vos-blue-dark:#014b7d; --vos-blue-soft:#eaeef1;
+      --vos-navy:#023c64; --vos-slate:#344054; --vos-muted:#667085;
+      --vos-border:#eaecf0; --vos-bg:#f9fafb; --vos-white:#ffffff;
+      --vos-green:#02b845; --vos-green-soft:#ecfdf3;
+      --vos-radius:12px; --vos-shadow:0 1px 3px rgba(2,60,100,.08),0 8px 24px rgba(2,60,100,.06);
+      all:revert;
+      box-sizing:border-box;
+      font-family:'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--vos-slate); line-height:1.5; max-width:760px; margin:0 auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    .vos-calc *,.vos-calc *::before,.vos-calc *::after{box-sizing:border-box;}
+    .vos-calc input,.vos-calc select,.vos-calc button,.vos-calc textarea{font-family:inherit;}
+    .vos-calc .vos-card{
+      background:var(--vos-white); border:1px solid var(--vos-border);
+      border-radius:var(--vos-radius); box-shadow:var(--vos-shadow); overflow:hidden;
+    }
+    .vos-calc .vos-head{background:var(--vos-navy); color:#fff; padding:22px 24px;}
+    .vos-calc .vos-head h3{margin:0;font-family:'Montserrat',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#fff;line-height:1.3;}
+    .vos-calc .vos-head p{margin:6px 0 0;font-size:14px;color:#c7dced;}
+    .vos-calc .vos-body{padding:24px;}
+    .vos-calc .vos-legend{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--vos-muted);margin:0 0 12px;}
+    .vos-calc .vos-legend.vos-sep{margin-top:24px;padding-top:20px;border-top:1px solid var(--vos-border);}
+    .vos-calc .vos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media(max-width:560px){.vos-calc .vos-grid{grid-template-columns:1fr;}}
+    .vos-calc label{display:block;font-size:13px;font-weight:600;color:var(--vos-slate);margin-bottom:6px;}
+    .vos-calc .vos-hint{display:block;font-size:11.5px;font-weight:400;color:var(--vos-muted);margin-top:5px;}
+    .vos-calc .vos-field{position:relative;margin-bottom:4px;}
+    .vos-calc .vos-prefix{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:15px;font-weight:600;pointer-events:none;}
+    .vos-calc input[type=number]{
+      width:100%;padding:12px 14px 12px 28px;font-size:16px;color:var(--vos-navy);
+      background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;transition:border-color .15s,box-shadow .15s;-moz-appearance:textfield;
+    }
+    .vos-calc input.vos-plain{padding-left:14px;}
+    .vos-calc input[type=number]:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background:#fff;}
+    .vos-calc input[type=number]::-webkit-outer-spin-button,
+    .vos-calc input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+    .vos-calc .vos-suffix{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:13px;font-weight:600;pointer-events:none;}
+    .vos-calc input.vos-hassuffix{padding-right:74px;}
+    .vos-calc .vos-slider-wrap{margin-top:12px;}
+    .vos-calc input[type=range]{width:100%;-webkit-appearance:none;appearance:none;height:6px;border-radius:6px;background:var(--vos-border);outline:none;margin:0;}
+    .vos-calc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:22px;height:22px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc .vos-toggle{display:inline-flex;background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;padding:4px;margin-bottom:18px;}
+    .vos-calc .vos-toggle button{border:none;background:transparent;padding:7px 16px;font-size:13px;font-weight:600;color:var(--vos-muted);border-radius:7px;cursor:pointer;transition:all .15s;}
+    .vos-calc .vos-toggle button.vos-on{background:#fff;color:var(--vos-blue-dark);box-shadow:0 1px 2px rgba(2,60,100,.1);}
+    .vos-calc .vos-results{margin-top:22px;border-top:1px solid var(--vos-border);padding-top:22px;}
+    .vos-calc .vos-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.vos-calc .vos-result-grid{grid-template-columns:1fr;}}
+    .vos-calc .vos-stat{background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:12px;padding:16px;}
+    .vos-calc .vos-stat .vos-k{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--vos-muted);margin-bottom:4px;}
+    .vos-calc .vos-stat .vos-v{font-family:'Montserrat',sans-serif;font-size:24px;font-weight:800;color:var(--vos-navy);letter-spacing:-.02em;}
+    .vos-calc .vos-stat .vos-sub{font-size:11.5px;color:var(--vos-muted);margin-top:3px;}
+    .vos-calc .vos-stat.vos-hero{background:var(--vos-blue-soft);border-color:#c3d5e3;}
+    .vos-calc .vos-stat.vos-hero .vos-v{color:var(--vos-blue-dark);}
+    .vos-calc .vos-stat.vos-profit{background:var(--vos-green-soft);border-color:#b6f0cd;}
+    .vos-calc .vos-stat.vos-profit .vos-v{color:#02914f;}
+    .vos-calc .vos-stat.vos-loss{background:#fef3f2;border-color:#fecdca;}
+    .vos-calc .vos-stat.vos-loss .vos-v{color:#b42318;}
+    .vos-calc .vos-tip{display:flex;gap:10px;margin-top:18px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#854d0e;}
+    .vos-calc .vos-tip b{color:#713f12;}
+    .vos-calc .vos-tip svg{flex:0 0 auto;margin-top:1px;}
+    .vos-calc .vos-cta{margin-top:18px;background:var(--vos-navy);border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+    .vos-calc .vos-cta .vos-cta-txt{font-size:14px;color:#c7dced;max-width:62%;min-width:220px;}
+    .vos-calc .vos-cta .vos-cta-txt b{color:#fff;display:block;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;margin-bottom:2px;}
+    .vos-calc .vos-cta a{background:var(--vos-blue);color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:8px;white-space:nowrap;transition:background .15s;}
+    .vos-calc .vos-cta a:hover{background:#00add4;}
+    .vos-calc .vos-reset{margin-top:14px;background:none;border:none;color:var(--vos-muted);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline;padding:0;}
+    .vos-calc .vos-foot{text-align:center;font-size:11.5px;color:var(--vos-muted);margin-top:14px;}
+  </style>
+<!-- ============================================================
+     VOICEORDER SOLUTIONS V2 QUIZ: What does one drop actually cost you?
+     GENERATED by scripts/build_v2.js. Do not hand-edit.
+     Source: lead-magnets-v2/specs/delivery-cost.js
+             lead-magnets-v2/_engine/
+             lead-magnets/delivery-cost-calculator.html
+
+     The shipped calculator is inlined below, hidden, and driven by
+     the quiz. Nothing in this file does arithmetic, so the numbers
+     here are the calculator's own.
+     ============================================================ -->
+<div class="vos-quiz" id="vos-q-delivery-cost">
+
+  <div class="vos-calc-host" aria-hidden="true">
+<!-- ============================================================
+     VOICEORDER SOLUTIONS LEAD MAGNET: Delivery Cost Calculator
+     Self-contained. No external libraries. Paste this whole
+     block into a blog "Custom HTML" / "Raw HTML" embed.
+     All styles are scoped under .vos-calc so they won't
+     touch the rest of your page. Recolor in one place via
+     the CSS variables on .vos-calc.
+     ============================================================ -->
+<div class="vos-calc" id="vos-delivery">
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Delivery Cost Calculator</h3>
+      <p>The cost per delivery formula is route cost divided by drops. Put in one day on one of your own routes and it splits that cost out per drop, per case and per mile.</p>
+    </div>
+    <div class="vos-body">
+
+      <p class="vos-legend">The driver</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-dc-wage">Driver cost per hour</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-dc-wage" min="0" step="any" value="28.00" inputmode="decimal">
+          </div>
+          <span class="vos-hint">Wage plus payroll taxes and benefits, not the rate on the offer letter.</span>
+        </div>
+        <div>
+          <label for="vos-dc-hours">Route hours</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-dc-hours" min="0" step="any" value="8" inputmode="decimal">
+            <span class="vos-suffix">hours</span>
+          </div>
+          <span class="vos-hint">Clock in to clock out, including the pre-trip check and the load.</span>
+        </div>
+      </div>
+
+      <p class="vos-legend vos-sep">The truck</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-dc-miles">Route miles</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-dc-miles" min="0" step="any" value="120" inputmode="decimal">
+            <span class="vos-suffix">miles</span>
+          </div>
+          <span class="vos-hint">Dock back to dock, so the empty miles at both ends are counted.</span>
+        </div>
+        <div>
+          <label for="vos-dc-mpg">Miles per gallon</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-dc-mpg" min="0" step="any" value="8" inputmode="decimal">
+            <span class="vos-suffix">mpg</span>
+          </div>
+          <span class="vos-hint">A loaded straight truck on close city stops lands near 8.</span>
+        </div>
+        <div>
+          <label for="vos-dc-fuel">Fuel price per gallon</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-dc-fuel" min="0" step="any" value="4.10" inputmode="decimal">
+          </div>
+          <span class="vos-hint">What you pay at the pump or on a fuel contract.</span>
+        </div>
+        <div>
+          <label for="vos-dc-fixed">Vehicle cost per day</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-dc-fixed" min="0" step="any" value="95.00" inputmode="decimal">
+          </div>
+          <span class="vos-hint">Lease or depreciation, insurance, maintenance and plates, divided by route days.</span>
+        </div>
+      </div>
+
+      <p class="vos-legend vos-sep">What the route delivers</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-dc-drops">Drops on the route</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-dc-drops" min="0" step="any" value="14" inputmode="decimal">
+            <span class="vos-suffix">drops</span>
+          </div>
+          <span class="vos-hint">Stops the driver makes in the day. Cost per drop doubles as a delivery price calculator: it is the floor any delivery charge has to clear.</span>
+        </div>
+        <div>
+          <label for="vos-dc-cases">Cases on the truck</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-dc-cases" min="0" step="any" value="420" inputmode="decimal">
+            <span class="vos-suffix">cases</span>
+          </div>
+          <span class="vos-hint">Total cases loaded for the day. This is how to calculate freight cost per unit: route cost over the cases that route carries.</span>
+        </div>
+        <div>
+          <label for="vos-dc-days">Route days per month</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-dc-days" min="0" step="any" value="22" inputmode="decimal">
+            <span class="vos-suffix">days</span>
+          </div>
+          <span class="vos-hint">A weekday route usually runs 21 or 22 days a month.</span>
+        </div>
+      </div>
+
+      <div class="vos-results">
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Cost per drop</div>
+            <div class="vos-v" id="vos-dc-perdrop">$27.18</div>
+            <div class="vos-sub" id="vos-dc-perdrop-sub">$380.50 of route cost across 14 drops</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Total cost for the day</div>
+            <div class="vos-v" id="vos-dc-total">$380.50</div>
+            <div class="vos-sub" id="vos-dc-total-sub">$224.00 driver, $61.50 fuel, $95.00 vehicle</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Cost per case</div>
+            <div class="vos-v" id="vos-dc-percase">$0.91</div>
+            <div class="vos-sub" id="vos-dc-percase-sub">$380.50 across 420 cases, about 30 a drop</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Cost per mile</div>
+            <div class="vos-v" id="vos-dc-permile">$3.17</div>
+            <div class="vos-sub" id="vos-dc-permile-sub">Across 120 route miles</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Fuel for the route</div>
+            <div class="vos-v" id="vos-dc-fuelcost">$61.50</div>
+            <div class="vos-sub" id="vos-dc-fuelcost-sub">15 gallons at $4.10 a gallon</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Monthly cost of the route</div>
+            <div class="vos-v" id="vos-dc-monthly">$8,371</div>
+            <div class="vos-sub" id="vos-dc-monthly-sub">At 22 route days a month</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="vos-tip-text">The drop costs <b>$27.18</b> whether it is 10 cases or 50. At 10 cases that is <b>$2.72</b> a case against a <b>$0.91</b> average, which is what a delivery minimum is actually for.</div>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="vos-reset">Reset calculator</button>
+        </div>
+        <div class="vos-foot">Estimates only. A route level distribution cost calculation, so it does not carry warehouse overhead, admin, or the cost of a redelivery.</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Delivery Cost Calculator ============ -->
+  </div>
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>What does one drop actually cost you?</h3>
+      <p>Seven quick questions about one route. At the end you get the cost of a drop, a case and a mile, which is the whole argument for a delivery minimum.</p>
+      <div class="vos-prog" role="progressbar" aria-valuemin="0" aria-valuemax="7" aria-valuenow="1" aria-label="Quiz progress" id="q-prog">
+        <div class="vos-prog-bar" id="q-bar"></div>
+      </div>
+      <div class="vos-prog-txt" id="q-progtxt">Step 1 of 7</div>
+    </div>
+
+    <div class="vos-body" aria-live="polite">
+
+      <section class="vos-step is-on" id="delivery-cost-s1">
+        <p class="vos-eyebrow">The situation</p>
+        <h4 class="vos-q">What put the route under the microscope?</h4>
+        <p class="vos-qsub">Pick the closest one.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What put the route under the microscope?">
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-situation" data-group="situation" value="small-drops"><span class="vos-dot"></span><span>Too many small drops on one run</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-situation" data-group="situation" value="minimum"><span class="vos-dot"></span><span>We are thinking about a delivery minimum</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-situation" data-group="situation" value="new-territory"><span class="vos-dot"></span><span>We are costing a new route or territory</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-situation" data-group="situation" value="fuel"><span class="vos-dot"></span><span>Fuel and wages have moved and nobody re-costed it</span></label>
+        </div>
+        <div class="vos-err" id="delivery-cost-s1-err">Pick one to carry on.</div>
+        <div class="vos-nav vos-armed" data-arm="situation">
+          <button type="button" class="vos-next" data-next>Continue</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="delivery-cost-s2">
+        <p class="vos-eyebrow">The driver</p>
+        <h4 class="vos-q">What does the driver cost, and how long is the run?</h4>
+        <p class="vos-qsub">Fully loaded cost, with payroll taxes and benefits in it.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-dc-wage">Driver cost per hour</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-dc-wage" min="0" step="any" value="28.00" inputmode="decimal">
+            </div>
+            <span class="vos-hint">Loaded, not the hourly rate on the payslip.</span>
+          </div>
+          <div>
+            <label for="q-vos-dc-hours">Route hours</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-dc-hours" min="0" step="any" value="8" inputmode="decimal">
+              <span class="vos-suffix">hours</span>
+            </div>
+            <span class="vos-hint">Door to door, including loading and returns.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="delivery-cost-s2-err">Enter a wage and route hours above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="delivery-cost-s3">
+        <p class="vos-eyebrow">The truck</p>
+        <h4 class="vos-q">And what does the truck cost to run?</h4>
+        <p class="vos-qsub">The vehicle cost per day is the part that does not care how many drops you make.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-dc-miles">Route miles</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-dc-miles" min="0" step="any" value="120" inputmode="decimal">
+              <span class="vos-suffix">miles</span>
+            </div>
+            <span class="vos-hint">Round trip.</span>
+          </div>
+          <div>
+            <label for="q-vos-dc-mpg">Miles per gallon</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-dc-mpg" min="0" step="any" value="8" inputmode="decimal">
+              <span class="vos-suffix">mpg</span>
+            </div>
+            <span class="vos-hint">Loaded, in traffic. Be honest.</span>
+          </div>
+          <div>
+            <label for="q-vos-dc-fuel">Fuel price per gallon</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-dc-fuel" min="0" step="any" value="4.10" inputmode="decimal">
+            </div>
+            <span class="vos-hint">What you are paying this week.</span>
+          </div>
+          <div>
+            <label for="q-vos-dc-fixed">Vehicle cost per day</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-dc-fixed" min="0" step="any" value="95.00" inputmode="decimal">
+            </div>
+            <span class="vos-hint">Lease or depreciation, insurance, maintenance, spread across a working day.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="delivery-cost-s3-err">Those cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="delivery-cost-s4">
+        <p class="vos-eyebrow">What the run carries</p>
+        <h4 class="vos-q">How many stops and how much product?</h4>
+        <p class="vos-qsub">This is where a cost per drop turns into an argument about minimums.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-dc-drops">Drops on the route</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-dc-drops" min="0" step="any" value="14" inputmode="decimal">
+              <span class="vos-suffix">drops</span>
+            </div>
+            <span class="vos-hint">Stops where something comes off the truck.</span>
+          </div>
+          <div>
+            <label for="q-vos-dc-cases">Cases on the truck</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-dc-cases" min="0" step="any" value="420" inputmode="decimal">
+              <span class="vos-suffix">cases</span>
+            </div>
+            <span class="vos-hint">Total across the whole run.</span>
+          </div>
+          <div>
+            <label for="q-vos-dc-days">Route days per month</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-dc-days" min="0" step="any" value="22" inputmode="decimal">
+              <span class="vos-suffix">days</span>
+            </div>
+            <span class="vos-hint">How often this run goes out.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="delivery-cost-s4-err">Enter a drop count above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="delivery-cost-s5">
+        <p class="vos-eyebrow">How the run gets built</p>
+        <h4 class="vos-q">When do most orders for tomorrow's truck land?</h4>
+        <p class="vos-qsub">A route built on half the orders gets rebuilt, and that is a cost nobody books.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="When do most orders for tomorrow's truck land?">
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-ordertiming" data-group="ordertiming" value="last-minute"><span class="vos-dot"></span><span>Late in the day, right on the cutoff</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-ordertiming" data-group="ordertiming" value="after-hours"><span class="vos-dot"></span><span>After we close, overnight</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-ordertiming" data-group="ordertiming" value="spread"><span class="vos-dot"></span><span>Spread through the day</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-ordertiming" data-group="ordertiming" value="well-ahead"><span class="vos-dot"></span><span>Well ahead, mostly standing orders</span></label>
+        </div>
+        <div class="vos-err" id="delivery-cost-s5-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="ordertiming" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="delivery-cost-s6">
+        <p class="vos-eyebrow">The ones that arrive late</p>
+        <h4 class="vos-q">How does a late add-on reach you after the route is built?</h4>
+        <p class="vos-qsub">Last one before your numbers.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="How does a late add-on reach you after the route is built?">
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-addons" data-group="addons" value="phone"><span class="vos-dot"></span><span>They phone it through and we squeeze it in</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-addons" data-group="addons" value="rep"><span class="vos-dot"></span><span>Through their rep, who calls the warehouse</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-addons" data-group="addons" value="text"><span class="vos-dot"></span><span>A text or an email to whoever is about</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-delivery-cost-addons" data-group="addons" value="no-addons"><span class="vos-dot"></span><span>We do not take them after cutoff</span></label>
+        </div>
+        <div class="vos-err" id="delivery-cost-s6-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="addons" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="delivery-cost-gate">
+        <p class="vos-eyebrow">Your breakdown is ready</p>
+
+        <div class="vos-preview">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Cost per drop</div>
+            <div class="vos-v" id="q-preview">--</div>
+            <div class="vos-sub">The headline number. The rest are below.</div>
+          </div>
+        </div>
+
+        <h4 class="vos-q">Want to see your results?</h4>
+        <p class="vos-qsub">You have given us enough to work this out. Fill this in and the full breakdown opens up.</p>
+
+        <div class="vos-hsform" id="q-hsform">
+          
+          <div class="hs-form-frame" data-region="na1" data-form-id="f854c1d7-fedd-4ba0-a8fb-98af24925dfc" data-portal-id="51996060"></div>
+          <div class="vos-hsload" id="q-hsload">Loading the form.</div>
+          <div class="vos-hsfail" id="q-hsfail">
+            <b>The form did not load.</b>
+            <span>Your browser or your network is most likely blocking it. That should not cost you the numbers you just worked out.</span>
+            <button type="button" class="vos-next" id="q-hsskip">Show my numbers anyway</button>
+          </div>
+        </div>
+        <div class="vos-nav">
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+        <p class="vos-privacy">Your details go straight to our team, who will follow up about these numbers.</p>
+      </section>
+
+      <section class="vos-step" id="delivery-cost-results">
+        <div class="vos-verdict is-go" id="q-verdict">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <div>
+            <h4 id="q-vtitle">Your result</h4>
+            <p id="q-vtext">Working it out.</p>
+          </div>
+        </div>
+
+        <p class="vos-greet" id="q-greet">Here is your breakdown.</p>
+        <p class="vos-greetsub" id="q-greetsub"></p>
+
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero" id="qcard-vos-dc-perdrop">
+            <div class="vos-k">Cost per drop</div>
+            <div class="vos-v" id="qc-vos-dc-perdrop">--</div>
+            <div class="vos-sub" id="qcs-vos-dc-perdrop"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-dc-percase">
+            <div class="vos-k">Cost per case</div>
+            <div class="vos-v" id="qc-vos-dc-percase">--</div>
+            <div class="vos-sub" id="qcs-vos-dc-percase"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-dc-total">
+            <div class="vos-k">Total cost for the day</div>
+            <div class="vos-v" id="qc-vos-dc-total">--</div>
+            <div class="vos-sub" id="qcs-vos-dc-total"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-dc-permile">
+            <div class="vos-k">Cost per mile</div>
+            <div class="vos-v" id="qc-vos-dc-permile">--</div>
+            <div class="vos-sub" id="qcs-vos-dc-permile"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-dc-fuelcost">
+            <div class="vos-k">Fuel for the route</div>
+            <div class="vos-v" id="qc-vos-dc-fuelcost">--</div>
+            <div class="vos-sub" id="qcs-vos-dc-fuelcost"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-dc-monthly">
+            <div class="vos-k">Monthly cost of the route</div>
+            <div class="vos-v" id="qc-vos-dc-monthly">--</div>
+            <div class="vos-sub" id="qcs-vos-dc-monthly"></div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="q-tip"></div>
+        </div>
+
+        <div class="vos-cta">
+          <div class="vos-cta-txt">
+            <b>A wrong case on the truck is a second trip at full route cost.</b>
+            VoiceOrder Solutions gives every account an order guide tied to your own pricing and SKUs, and confirms the order before it reaches the pick list.
+          </div>
+          <a href="https://www.voiceordersolutions.com/contact-us" target="_blank" rel="noopener">Book A Demo &rarr;</a>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="q-again">Change my numbers</button>
+        </div>
+        <div class="vos-foot" id="q-foot">Estimates only. Confirm your fully loaded driver cost and vehicle cost per day.</div>
+        <div class="vos-debug" id="q-debug"></div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END What does one drop actually cost you? ============ -->

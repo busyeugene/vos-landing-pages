@@ -1,0 +1,350 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-wspace');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var casesEl=$('vos-cases'), cpp=$('vos-cpp'), stack=$('vos-stack'), foot=$('vos-foot'), aisle=$('vos-aisle'),
+        totalEl=$('vos-total'), totalSub=$('vos-total-sub'),
+        palletsEl=$('vos-pallets'), palletsSub=$('vos-pallets-sub'),
+        floorEl=$('vos-floor'), floorSub=$('vos-floor-sub'),
+        storageEl=$('vos-storage'), percaseEl=$('vos-percase'),
+        aisleEl=$('vos-aislespace'), aisleSub=$('vos-aislespace-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-cases':3000,'vos-cpp':50,'vos-stack':2,'vos-foot':13.3,'vos-aisle':45};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function whole(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US'); }
+    function sqft(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US')+' sq ft'; }
+
+    function calc(){
+      var cs=num(casesEl), cp=num(cpp), st=Math.round(num(stack)), ft=num(foot);
+      var a=parseFloat(aisle.value); if(!isFinite(a)||a<0) a=0; a=Math.min(a,95); // must leave some storage
+
+      // No pallets to store, or missing a divisor, means no answer to give.
+      if(cs<=0 || cp<=0 || st<=0 || ft<=0){
+        totalEl.textContent='--'; palletsEl.textContent='--'; floorEl.textContent='--';
+        storageEl.textContent='--'; percaseEl.textContent='--'; aisleEl.textContent='--';
+        totalSub.textContent='Enter cases, cases per pallet, stack height and footprint';
+        tip.innerHTML='Enter your <b>cases on hand</b>, how many <b>cases fit a pallet</b>, and how high you stack, and we will size the floor for you.';
+        return;
+      }
+
+      var pallets = Math.ceil(cs/cp);
+      var floorPos = Math.ceil(pallets/st);
+      var storage = floorPos*ft;
+      var total = storage/(1-a/100);
+      total = Math.round(total);
+      var storageR = Math.round(storage);
+      var aisleSpace = total - storageR; // reconciles: storage + aisles = total on screen
+      var perCase = total/cs;
+
+      // What one more level of stacking would save.
+      var floorHi = Math.ceil(pallets/(st+1));
+      var totalHi = Math.round((floorHi*ft)/(1-a/100));
+
+      totalEl.textContent = sqft(total);
+      totalSub.textContent = 'Storage plus aisles, dock and staging';
+      palletsEl.textContent = whole(pallets);
+      palletsSub.textContent = 'At '+ (cp%1===0?cp:cp.toFixed(1)) +' cases per pallet';
+      floorEl.textContent = whole(floorPos);
+      floorSub.textContent = 'Stacked '+st+' high';
+      storageEl.textContent = sqft(storageR);
+      percaseEl.textContent = (isFinite(perCase)?perCase.toFixed(2):'0.00')+' sq ft';
+      aisleEl.textContent = sqft(aisleSpace);
+      aisleSub.textContent = a.toFixed(0)+'% of the building';
+
+      tip.innerHTML = 'Aisles, dock and staging take <b>'+a.toFixed(0)+'%</b> of the floor, so nearly half the building moves no product. Stacking one pallet higher, from '+st+' to '+(st+1)+', would cut the space you need from <b>'+sqft(total)+'</b> to <b>'+sqft(totalHi)+'</b>.';
+    }
+
+    [casesEl,cpp,stack,foot,aisle].forEach(function(el){ el.addEventListener('input', calc); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "warehouse-space",
+  "rootId": "vos-q-warehouse-space",
+  "calcRootId": "vos-wspace",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "warehouse-space-s1",
+    "warehouse-space-s2",
+    "warehouse-space-s3",
+    "warehouse-space-s4",
+    "warehouse-space-s5",
+    "warehouse-space-s6"
+  ],
+  "gateId": "warehouse-space-gate",
+  "resultsId": "warehouse-space-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a case count and a pallet quantity above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-cases",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-cpp",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a stack height and a footprint above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-stack",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-foot",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-aisle",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "visibility",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "mispicks",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-cases",
+      "calcId": "vos-cases",
+      "qid": "q-vos-cases"
+    },
+    {
+      "id": "vos-cpp",
+      "calcId": "vos-cpp",
+      "qid": "q-vos-cpp"
+    },
+    {
+      "id": "vos-stack",
+      "calcId": "vos-stack",
+      "qid": "q-vos-stack"
+    },
+    {
+      "id": "vos-foot",
+      "calcId": "vos-foot",
+      "qid": "q-vos-foot"
+    },
+    {
+      "id": "vos-aisle",
+      "calcId": "vos-aisle",
+      "qid": "q-vos-aisle"
+    }
+  ],
+  "groups": [
+    "situation",
+    "visibility",
+    "mispicks"
+  ],
+  "autoGroups": [
+    "situation",
+    "visibility",
+    "mispicks"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-total",
+      "qid": "qc-vos-total",
+      "cardId": "qcard-vos-total",
+      "qsubId": "qcs-vos-total",
+      "subFrom": "vos-total-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-storage",
+      "qid": "qc-vos-storage",
+      "cardId": "qcard-vos-storage",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-aislespace",
+      "qid": "qc-vos-aislespace",
+      "cardId": "qcard-vos-aislespace",
+      "qsubId": "qcs-vos-aislespace",
+      "subFrom": "vos-aislespace-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pallets",
+      "qid": "qc-vos-pallets",
+      "cardId": "qcard-vos-pallets",
+      "qsubId": "qcs-vos-pallets",
+      "subFrom": "vos-pallets-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-floor",
+      "qid": "qc-vos-floor",
+      "cardId": "qcard-vos-floor",
+      "qsubId": "qcs-vos-floor",
+      "subFrom": "vos-floor-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-percase",
+      "qid": "qc-vos-percase",
+      "cardId": "qcard-vos-percase",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your rack layout and fire lanes before signing anything.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "visibility",
+      "weights": {
+        "walk-it": 30,
+        "spreadsheet": 26,
+        "system-doubt": 20,
+        "system": 8
+      }
+    },
+    {
+      "group": "mispicks",
+      "weights": {
+        "weekly": 25,
+        "unknown": 23,
+        "monthly": 18,
+        "rare": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "new-account": 15,
+        "outgrown": 13,
+        "seasonal": 10,
+        "planning": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-cases",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        6000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans, f) {
+    if (read['vos-total'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to size it.',
+        text: 'Go back and put in a stack height and a pallet footprint above zero.' };
+    }
+    var aisle = f['vos-aisle'] || 0;
+    if (aisle >= 40) {
+      return { tone: 'is-go', title: 'You need ' + read['vos-total'] + '.',
+        text: 'Only ' + read['vos-storage'] + ' of that holds product. The other '
+            + read['vos-aislespace'] + ' is aisles, dock and staging, so stacking one higher buys '
+            + 'you far more than renting another bay.' };
+    }
+    return { tone: 'is-go', title: 'You need ' + read['vos-total'] + '.',
+      text: read['vos-storage'] + ' of that is racked product and ' + read['vos-aislespace']
+          + ' is everything else, across ' + read['vos-floor'] + ' floor positions.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on ' + (f['vos-cases'] || 0).toLocaleString('en-US') + ' cases at peak, stacked '
+         + (f['vos-stack'] || 0) + ' high.';
+  },
+  "echoes": []
+};
+  </script>

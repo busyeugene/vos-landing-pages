@@ -1,0 +1,407 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-safety');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var dem=$('vos-dem'), demsd=$('vos-demsd'), lt=$('vos-lt'), ltsd=$('vos-ltsd'),
+        sl=$('vos-sl'), cost=$('vos-cost'), shelf=$('vos-shelf'),
+        ssEl=$('vos-ss'), ssSub=$('vos-ss-sub'), ropEl=$('vos-rop'), ropSub=$('vos-rop-sub'),
+        cashEl=$('vos-cash'), coverEl=$('vos-cover'), dltEl=$('vos-dlt'),
+        riskEl=$('vos-risk'), riskSub=$('vos-risk-sub'), tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-dem':120,'vos-demsd':35,'vos-lt':4,'vos-ltsd':1,'vos-cost':22,'vos-shelf':14};
+
+    // Service level lookup, keyed by the Z value in the <select>.
+    var RISK={'1.2816':10,'1.6449':5,'1.9600':2.5,'2.3263':1,'3.0902':0.1};
+    var LABEL={'1.2816':'90%','1.6449':'95%','1.9600':'97.5%','2.3263':'99%','3.0902':'99.9%'};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money(n){ if(!isFinite(n)) n=0; return '$'+Math.round(n).toLocaleString('en-US'); }
+    function cases(n){ if(!isFinite(n)) n=0; return Math.ceil(n).toLocaleString('en-US'); }
+
+    // Std dev of demand across a variable lead time.
+    function sigma(D,SD,LT,SLT){
+      var v = LT*SD*SD + D*D*SLT*SLT;
+      return v>0 ? Math.sqrt(v) : 0;
+    }
+
+    function calc(){
+      var D=num(dem), SD=num(demsd), LT=num(lt), SLT=num(ltsd),
+          C=num(cost), SHELF=num(shelf), Z=parseFloat(sl.value);
+      if(!isFinite(Z)) Z=1.6449;
+
+      var valid = D>0 && LT>0;
+      var sig = sigma(D,SD,LT,SLT);
+      var ssRaw = Z*sig;
+      var ss = Math.ceil(ssRaw);
+      var dlt = D*LT;
+      var rop = Math.ceil(dlt) + ss;
+      var cash = ss*C;
+      var cover = D>0 ? ss/D : 0;
+      var ropDays = D>0 ? rop/D : 0;
+
+      if(!valid){
+        ssEl.textContent='--'; ropEl.textContent='--'; cashEl.textContent='--';
+        coverEl.textContent='--'; dltEl.textContent='--';
+        ssSub.textContent='Enter average daily demand and a lead time.';
+        ropSub.textContent='';
+        riskEl.textContent=(RISK[sl.value]||5).toFixed(1)+'%';
+        riskSub.textContent='Cycles where you run short before delivery';
+        tip.innerHTML='Enter your <b>average daily demand</b> and <b>lead time</b> to size the buffer.';
+        return;
+      }
+
+      ssEl.textContent   = cases(ss)+' case'+(ss===1?'':'s');
+      ssSub.textContent  = 'Buffer on top of the '+cases(dlt)+' cases you expect to sell while you wait';
+      ropEl.textContent  = cases(rop)+' cases';
+      ropSub.textContent = 'About '+ropDays.toFixed(1)+' days of stock left when you reorder';
+      cashEl.textContent = money(cash);
+      coverEl.textContent= cover.toFixed(1)+' days';
+      dltEl.textContent  = cases(dlt)+' cases';
+      riskEl.textContent = (RISK[sl.value]!==undefined?RISK[sl.value].toFixed(1):'5.0')+'%';
+      riskSub.textContent= 'At a '+(LABEL[sl.value]||'95%')+' service level';
+
+      // Compare against the next service level up so the tradeoff is visible.
+      var Z99=2.3263, Z95=1.6449;
+      var upZ = Z<Z99 ? Z99 : Z95;
+      var upSS = Math.ceil(upZ*sig);
+      var upLabel = Z<Z99 ? '99%' : '95%';
+
+      var t;
+      if(SD<=0 && SLT<=0){
+        t = 'You entered no swing in demand or lead time, so the math says you need <b>zero</b> safety stock. That is almost never true in food distribution. Put in a realistic busy-day number and a late-delivery number to see the real buffer.';
+      } else if(SHELF>0 && ropDays>SHELF){
+        t = 'Careful. At the reorder point you are holding about <b>'+ropDays.toFixed(1)+' days</b> of stock but this product only lasts <b>'+SHELF.toFixed(0)+' days</b>. You will throw away product before you sell it. Order smaller and more often, or push your supplier for a shorter lead time.';
+      } else if(SHELF>0 && cover>SHELF){
+        t = 'Your buffer alone holds <b>'+cover.toFixed(1)+' days</b> of cover against a <b>'+SHELF.toFixed(0)+' day</b> shelf life. Some of this safety stock will spoil before it ships. Shorten the lead time instead of padding the shelf.';
+      } else if(D>0 && SLT>0 && (D*SLT) > (Math.sqrt(LT)*SD)){
+        t = 'Most of your buffer is there to cover <b>late deliveries</b>, not busy days. '+cases(ss)+' cases and '+money(cash)+' are sitting on your shelf because your supplier is unpredictable. One day off the lead time swing is worth more than any reorder tweak.';
+      } else {
+        t = 'At a '+(LABEL[sl.value]||'95%')+' service level you still run short on about 1 order cycle in '+Math.round(100/(RISK[sl.value]||5))+'. Pushing to '+upLabel+' takes your buffer to <b>'+cases(upSS)+' cases</b> and ties up <b>'+money(upSS*C)+'</b>, so the last few points of service are the expensive ones.';
+      }
+      tip.innerHTML = t;
+    }
+
+    [dem,demsd,lt,ltsd,cost,shelf].forEach(function(el){ el.addEventListener('input', calc); });
+    sl.addEventListener('change', calc);
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      sl.value='1.6449';
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "safety-stock",
+  "rootId": "vos-q-safety-stock",
+  "calcRootId": "vos-safety",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "safety-stock-s1",
+    "safety-stock-s2",
+    "safety-stock-s3",
+    "safety-stock-s4",
+    "safety-stock-s5",
+    "safety-stock-s6",
+    "safety-stock-s7"
+  ],
+  "gateId": "safety-stock-gate",
+  "resultsId": "safety-stock-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a daily demand above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-dem",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-demsd",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a lead time above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-lt",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-ltsd",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "service",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-cost",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-shelf",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "trigger",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "telling",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-dem",
+      "calcId": "vos-dem",
+      "qid": "q-vos-dem"
+    },
+    {
+      "id": "vos-demsd",
+      "calcId": "vos-demsd",
+      "qid": "q-vos-demsd"
+    },
+    {
+      "id": "vos-lt",
+      "calcId": "vos-lt",
+      "qid": "q-vos-lt"
+    },
+    {
+      "id": "vos-ltsd",
+      "calcId": "vos-ltsd",
+      "qid": "q-vos-ltsd"
+    },
+    {
+      "id": "vos-cost",
+      "calcId": "vos-cost",
+      "qid": "q-vos-cost"
+    },
+    {
+      "id": "vos-shelf",
+      "calcId": "vos-shelf",
+      "qid": "q-vos-shelf"
+    }
+  ],
+  "groups": [
+    "situation",
+    "service",
+    "trigger",
+    "telling"
+  ],
+  "autoGroups": [
+    "situation",
+    "trigger",
+    "telling"
+  ],
+  "choiceWrites": {
+    "service": {
+      "calcId": "vos-sl",
+      "event": "change"
+    }
+  },
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-ss",
+      "qid": "qc-vos-ss",
+      "cardId": "qcard-vos-ss",
+      "qsubId": "qcs-vos-ss",
+      "subFrom": "vos-ss-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-cash",
+      "qid": "qc-vos-cash",
+      "cardId": "qcard-vos-cash",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-rop",
+      "qid": "qc-vos-rop",
+      "cardId": "qcard-vos-rop",
+      "qsubId": "qcs-vos-rop",
+      "subFrom": "vos-rop-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-cover",
+      "qid": "qc-vos-cover",
+      "cardId": "qcard-vos-cover",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-dlt",
+      "qid": "qc-vos-dlt",
+      "cardId": "qcard-vos-dlt",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-risk",
+      "qid": "qc-vos-risk",
+      "cardId": "qcard-vos-risk",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your demand and lead time figures before changing a par.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "trigger",
+      "weights": {
+        "customer-tells-us": 30,
+        "walk-the-cooler": 26,
+        "memory": 24,
+        "report": 8
+      }
+    },
+    {
+      "group": "telling",
+      "weights": {
+        "they-ask": 25,
+        "at-delivery": 22,
+        "rep-tells": 16,
+        "we-call": 10
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "standing-order": 15,
+        "fast-mover": 13,
+        "seasonal": 10,
+        "planning-ahead": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-dem",
+    "bands": [
+      [
+        400,
+        30
+      ],
+      [
+        150,
+        22
+      ],
+      [
+        50,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans, f) {
+    var num = function (s) { var n = parseFloat(String(s).replace(/[^0-9.\-]/g, '')); return isFinite(n) ? n : 0; };
+    var ss = num(read['vos-ss']);
+    var cover = num(read['vos-cover']);
+    var shelf = f['vos-shelf'] || 0;
+
+    if (!ss) {
+      return { tone: 'is-wait', title: 'Not enough to size it.',
+        text: 'Go back and put in a daily demand and a lead time above zero.' };
+    }
+    if (shelf > 0 && cover > shelf) {
+      return { tone: 'is-no', title: 'That buffer will spoil.',
+        text: 'It holds ' + read['vos-cover'] + ' of cover against a ' + shelf + ' day shelf life, so some of '
+            + read['vos-ss'] + ' goes in the bin before it ships. Shorten the lead time instead of padding the shelf.' };
+    }
+    if (ans.telling === 'at-delivery' || ans.telling === 'they-ask') {
+      return { tone: 'is-go', title: 'Hold ' + read['vos-ss'] + '.',
+        text: 'That parks ' + read['vos-cash'] + ' and buys ' + read['vos-cover'] + ' of cover. Worth noting that '
+            + 'today the customer finds out at the truck, so the buffer is doing the job a phone call could do sooner.' };
+    }
+    return { tone: 'is-go', title: 'Hold ' + read['vos-ss'] + '.',
+      text: 'That parks ' + read['vos-cash'] + ' on the shelf and buys ' + read['vos-cover']
+          + ' of cover, taking you to a reorder point of ' + read['vos-rop'] + '.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on ' + (f['vos-dem'] || 0) + ' cases a day and a ' + (f['vos-lt'] || 0)
+         + ' day lead time, at the service level you picked.';
+  },
+  "echoes": []
+};
+  </script>

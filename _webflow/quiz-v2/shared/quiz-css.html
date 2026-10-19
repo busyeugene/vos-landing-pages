@@ -1,0 +1,163 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+    .vos-quiz{
+      --vos-blue:#0099e6; --vos-blue-dark:#014b7d; --vos-blue-soft:#eaeef1;
+      --vos-navy:#023c64; --vos-slate:#344054; --vos-muted:#667085;
+      --vos-border:#eaecf0; --vos-bg:#f9fafb; --vos-white:#ffffff;
+      --vos-green:#02b845; --vos-green-soft:#ecfdf3;
+      --vos-radius:12px; --vos-shadow:0 1px 3px rgba(2,60,100,.08),0 8px 24px rgba(2,60,100,.06);
+      all:revert;
+      box-sizing:border-box;
+      font-family:'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--vos-slate); line-height:1.5; max-width:700px; margin:0 auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    .vos-quiz *,.vos-quiz *::before,.vos-quiz *::after{box-sizing:border-box;}
+    .vos-quiz input,.vos-quiz select,.vos-quiz button,.vos-quiz textarea{font-family:inherit;}
+    .vos-quiz .vos-card{
+      background:var(--vos-white); border:1px solid var(--vos-border);
+      border-radius:var(--vos-radius); box-shadow:var(--vos-shadow); overflow:hidden;
+    }
+
+    /* ---------- header and progress ---------- */
+    .vos-quiz .vos-head{background:var(--vos-navy); color:#fff; padding:22px 24px;}
+    .vos-quiz .vos-head h3{margin:0;font-family:'Montserrat',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#fff;line-height:1.3;}
+    .vos-quiz .vos-head p{margin:6px 0 0;font-size:14px;color:#c7dced;}
+    .vos-quiz .vos-prog{height:4px;background:rgba(255,255,255,.18);border-radius:4px;margin-top:18px;overflow:hidden;}
+    .vos-quiz .vos-prog-bar{height:100%;width:12.5%;background:var(--vos-blue);border-radius:4px;transition:width .35s ease;}
+    .vos-quiz .vos-prog-txt{margin-top:8px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#9fc3dd;}
+
+    /* ---------- steps ---------- */
+    .vos-quiz .vos-body{padding:24px;}
+    .vos-quiz .vos-step{display:none;}
+    .vos-quiz .vos-step.is-on{display:block;animation:vos-in .28s ease both;}
+    @keyframes vos-in{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+    @media(prefers-reduced-motion:reduce){
+      .vos-quiz .vos-step.is-on{animation:none;}
+      .vos-quiz .vos-prog-bar{transition:none;}
+    }
+    .vos-quiz .vos-eyebrow{font-family:'Montserrat',sans-serif;font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--vos-blue);margin:0 0 8px;}
+    .vos-quiz .vos-q{font-family:'Montserrat',sans-serif;font-size:21px;font-weight:700;color:var(--vos-navy);margin:0 0 6px;line-height:1.3;letter-spacing:-.01em;}
+    .vos-quiz .vos-qsub{margin:0 0 20px;font-size:13.5px;color:var(--vos-muted);line-height:1.6;}
+
+    /* ---------- choice options ---------- */
+    .vos-quiz .vos-opts{display:grid;gap:10px;}
+    .vos-quiz .vos-opt{position:relative;display:flex;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--vos-border);border-radius:10px;background:var(--vos-bg);cursor:pointer;font-size:14.5px;font-weight:600;color:var(--vos-slate);transition:border-color .15s,background .15s,box-shadow .15s;}
+    .vos-quiz .vos-opt:hover{border-color:var(--vos-blue);background:#fff;}
+    .vos-quiz .vos-opt input{position:absolute;opacity:0;width:1px;height:1px;margin:0;}
+    .vos-quiz .vos-dot{flex:0 0 auto;width:18px;height:18px;border-radius:50%;border:2px solid #c3cedb;position:relative;transition:border-color .15s;}
+    .vos-quiz .vos-opt.is-sel{border-color:var(--vos-blue);background:#f2fafe;box-shadow:0 0 0 3px rgba(0,153,230,.12);}
+    .vos-quiz .vos-opt.is-sel .vos-dot{border-color:var(--vos-blue);}
+    .vos-quiz .vos-opt.is-sel .vos-dot::after{content:"";position:absolute;top:3px;right:3px;bottom:3px;left:3px;border-radius:50%;background:var(--vos-blue);}
+    .vos-quiz .vos-opt.is-focus{box-shadow:0 0 0 3px rgba(0,153,230,.32);border-color:var(--vos-blue);}
+
+    /* ---------- number and text fields ---------- */
+    .vos-quiz .vos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media(max-width:560px){.vos-quiz .vos-grid{grid-template-columns:1fr;}}
+    .vos-quiz label{display:block;font-size:13px;font-weight:600;color:var(--vos-slate);margin-bottom:6px;}
+    .vos-quiz .vos-opt > label{margin:0;}
+    .vos-quiz .vos-hint{display:block;font-size:11.5px;font-weight:400;color:var(--vos-muted);margin-top:5px;}
+    .vos-quiz .vos-field{position:relative;margin-bottom:4px;}
+    .vos-quiz .vos-prefix{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:15px;font-weight:600;pointer-events:none;}
+    .vos-quiz input[type=number],.vos-quiz input[type=text],.vos-quiz input[type=email]{
+      width:100%;padding:12px 14px;font-size:16px;color:var(--vos-navy);
+      background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;transition:border-color .15s,box-shadow .15s;-moz-appearance:textfield;
+    }
+    .vos-quiz input.vos-hasprefix{padding-left:28px;}
+    .vos-quiz input[type=number]:focus,.vos-quiz input[type=text]:focus,.vos-quiz input[type=email]:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background:#fff;}
+    .vos-quiz input[type=number]::-webkit-outer-spin-button,
+    .vos-quiz input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+    .vos-quiz .vos-suffix{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:13px;font-weight:600;pointer-events:none;}
+    .vos-quiz input.vos-hassuffix{padding-right:72px;}
+    .vos-quiz .vos-echo{margin-top:16px;font-size:13px;font-weight:600;color:var(--vos-blue-dark);background:var(--vos-blue-soft);border-radius:9px;padding:11px 14px;}
+    .vos-quiz .vos-sub-field{display:none;margin-top:16px;padding-top:16px;border-top:1px solid var(--vos-border);}
+    .vos-quiz .vos-sub-field.is-on{display:block;}
+    .vos-quiz .vos-err{display:none;font-size:12.5px;font-weight:600;color:#b42318;margin-top:10px;}
+    .vos-quiz .vos-err.is-on{display:block;}
+
+    /* ---------- navigation ---------- */
+    .vos-quiz .vos-nav{display:flex;align-items:center;gap:6px;margin-top:24px;}
+    .vos-quiz .vos-next{background:var(--vos-blue);color:#fff;border:none;border-radius:9px;padding:12px 24px;font-size:14.5px;font-weight:700;font-family:'Montserrat',sans-serif;cursor:pointer;transition:background .15s;}
+    .vos-quiz .vos-next:hover{background:#00add4;}
+    .vos-quiz .vos-next:focus-visible{outline:3px solid rgba(0,153,230,.4);outline-offset:2px;}
+    .vos-quiz .vos-back{background:none;border:none;color:var(--vos-muted);font-size:13px;font-weight:600;cursor:pointer;padding:10px 12px;border-radius:8px;}
+    .vos-quiz .vos-back:hover{color:var(--vos-navy);}
+    /* On the click-only questions the Continue button stays out of the way
+       until there is an answer. On the first pass the auto-advance fires
+       before anyone reaches for it. It earns its keep on the way back
+       through: re-clicking an option that is already selected fires no
+       change event, so without this a returning visitor is stranded. */
+    .vos-quiz .vos-nav.vos-armed{display:none;}
+    .vos-quiz .vos-nav.vos-armed.is-on{display:flex;}
+    .vos-quiz .vos-next.vos-armed{display:none;}
+    .vos-quiz .vos-next.vos-armed.is-on{display:inline-block;}
+
+    /* ---------- the gate ---------- */
+    .vos-quiz .vos-gains{list-style:none;padding:0;margin:0 0 20px;}
+    .vos-quiz .vos-gains li{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:var(--vos-slate);padding:4px 0;line-height:1.5;}
+    .vos-quiz .vos-gains svg{flex:0 0 auto;margin-top:3px;}
+    .vos-quiz .vos-privacy{font-size:11.5px;color:var(--vos-muted);margin-top:14px;line-height:1.55;}
+    /* The HubSpot form renders in a cross-origin iframe, so none of the
+       scoped CSS below reaches inside it. Style the form itself in HubSpot.
+       All this can do is give the frame room and cover the two states the
+       page can see from outside: not loaded yet, and blocked. */
+    .vos-quiz .vos-hsform{position:relative;min-height:240px;margin-top:4px;}
+    .vos-quiz .vos-hsform .hs-form-frame{min-height:240px;}
+    .vos-quiz .vos-hsload{font-size:13px;color:var(--vos-muted);padding:10px 0;}
+    .vos-quiz .vos-hsform.is-ready .vos-hsload,
+    .vos-quiz .vos-hsform.is-failed .vos-hsload{display:none;}
+    .vos-quiz .vos-hsform.is-ready,
+    .vos-quiz .vos-hsform.is-failed{min-height:0;}
+    .vos-quiz .vos-hsfail{display:none;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:16px 18px;}
+    .vos-quiz .vos-hsform.is-failed .vos-hsfail{display:block;}
+    .vos-quiz .vos-hsform.is-failed .hs-form-frame{display:none;}
+    .vos-quiz .vos-hsfail b{display:block;font-family:'Montserrat',sans-serif;font-size:14.5px;color:#92400e;margin-bottom:4px;}
+    .vos-quiz .vos-hsfail span{display:block;font-size:13px;color:#854d0e;line-height:1.55;margin-bottom:14px;}
+    .vos-quiz .vos-preview{display:none;}
+    .vos-quiz.is-soft .vos-preview{display:block;margin-bottom:22px;}
+
+    /* ---------- results ---------- */
+    .vos-quiz .vos-verdict{display:flex;gap:12px;border-radius:12px;padding:16px 18px;margin-bottom:20px;border:1px solid;}
+    .vos-quiz .vos-verdict svg{flex:0 0 auto;margin-top:2px;}
+    .vos-quiz .vos-verdict h4{margin:0 0 3px;font-family:'Montserrat',sans-serif;font-size:17px;font-weight:800;letter-spacing:-.01em;}
+    .vos-quiz .vos-verdict p{margin:0;font-size:13.5px;line-height:1.55;}
+    .vos-quiz .vos-verdict.is-go{background:var(--vos-green-soft);border-color:#b6f0cd;color:#05603a;}
+    .vos-quiz .vos-verdict.is-go h4{color:#02914f;}
+    .vos-quiz .vos-verdict.is-no{background:#fef3f2;border-color:#fecdca;color:#912018;}
+    .vos-quiz .vos-verdict.is-no h4{color:#b42318;}
+    .vos-quiz .vos-verdict.is-wait{background:#fffbeb;border-color:#fde68a;color:#854d0e;}
+    .vos-quiz .vos-verdict.is-wait h4{color:#92400e;}
+    .vos-quiz .vos-greet{font-family:'Montserrat',sans-serif;font-size:19px;font-weight:700;color:var(--vos-navy);margin:0 0 4px;letter-spacing:-.01em;}
+    .vos-quiz .vos-greetsub{margin:0 0 20px;font-size:13px;color:var(--vos-muted);}
+    .vos-quiz .vos-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.vos-quiz .vos-result-grid{grid-template-columns:1fr;}}
+    .vos-quiz .vos-stat{background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:12px;padding:16px;}
+    .vos-quiz .vos-stat .vos-k{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--vos-muted);margin-bottom:4px;}
+    .vos-quiz .vos-stat .vos-v{font-family:'Montserrat',sans-serif;font-size:24px;font-weight:800;color:var(--vos-navy);letter-spacing:-.02em;}
+    .vos-quiz .vos-stat .vos-sub{font-size:11.5px;color:var(--vos-muted);margin-top:3px;}
+    .vos-quiz .vos-stat.vos-hero{background:var(--vos-blue-soft);border-color:#c3d5e3;}
+    .vos-quiz .vos-stat.vos-hero .vos-v{color:var(--vos-blue-dark);}
+    .vos-quiz .vos-stat.vos-profit{background:var(--vos-green-soft);border-color:#b6f0cd;}
+    .vos-quiz .vos-stat.vos-profit .vos-v{color:#02914f;}
+    .vos-quiz .vos-stat.vos-loss{background:#fef3f2;border-color:#fecdca;}
+    .vos-quiz .vos-stat.vos-loss .vos-v{color:#b42318;}
+    .vos-quiz .vos-tip{display:flex;gap:10px;margin-top:18px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#854d0e;line-height:1.55;}
+    .vos-quiz .vos-tip b{color:#713f12;}
+    .vos-quiz .vos-tip svg{flex:0 0 auto;margin-top:1px;}
+    .vos-quiz .vos-cta{margin-top:18px;background:var(--vos-navy);border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+    .vos-quiz .vos-cta .vos-cta-txt{font-size:14px;color:#c7dced;max-width:62%;min-width:220px;}
+    .vos-quiz .vos-cta .vos-cta-txt b{color:#fff;display:block;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;margin-bottom:2px;}
+    .vos-quiz .vos-cta a{background:var(--vos-blue);color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:8px;white-space:nowrap;transition:background .15s;}
+    .vos-quiz .vos-cta a:hover{background:#00add4;}
+    .vos-quiz .vos-reset{margin-top:14px;background:none;border:none;color:var(--vos-muted);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline;padding:0;}
+    .vos-quiz .vos-foot{text-align:center;font-size:11.5px;color:var(--vos-muted);margin-top:14px;}
+    .vos-quiz .vos-debug{display:none;margin-top:18px;background:#0f172a;color:#bae6fd;border-radius:10px;padding:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11.5px;line-height:1.5;white-space:pre-wrap;word-break:break-word;}
+    .vos-quiz.is-debug .vos-debug{display:block;}
+
+    /* The shipped calculator lives in here, driven from outside and never
+       seen. display:none keeps it out of layout, out of the tab order and
+       out of the accessibility tree, while its own script keeps running
+       and recomputing exactly as it does on its own page. */
+    .vos-quiz .vos-calc-host{display:none;}
+  </style>

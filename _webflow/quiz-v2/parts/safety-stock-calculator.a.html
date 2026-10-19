@@ -1,0 +1,495 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+    .vos-calc{
+      --vos-blue:#0099e6; --vos-blue-dark:#014b7d; --vos-blue-soft:#eaeef1;
+      --vos-navy:#023c64; --vos-slate:#344054; --vos-muted:#667085;
+      --vos-border:#eaecf0; --vos-bg:#f9fafb; --vos-white:#ffffff;
+      --vos-green:#02b845; --vos-green-soft:#ecfdf3;
+      --vos-radius:12px; --vos-shadow:0 1px 3px rgba(2,60,100,.08),0 8px 24px rgba(2,60,100,.06);
+      all:revert;
+      box-sizing:border-box;
+      font-family:'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--vos-slate); line-height:1.5; max-width:760px; margin:0 auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    .vos-calc *,.vos-calc *::before,.vos-calc *::after{box-sizing:border-box;}
+    .vos-calc input,.vos-calc select,.vos-calc button,.vos-calc textarea{font-family:inherit;}
+    .vos-calc .vos-card{
+      background:var(--vos-white); border:1px solid var(--vos-border);
+      border-radius:var(--vos-radius); box-shadow:var(--vos-shadow); overflow:hidden;
+    }
+    .vos-calc .vos-head{background:var(--vos-navy); color:#fff; padding:22px 24px;}
+    .vos-calc .vos-head h3{margin:0;font-family:'Montserrat',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#fff;line-height:1.3;}
+    .vos-calc .vos-head p{margin:6px 0 0;font-size:14px;color:#c7dced;}
+    .vos-calc .vos-body{padding:24px;}
+    .vos-calc .vos-legend{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--vos-muted);margin:0 0 12px;}
+    .vos-calc .vos-legend.vos-sep{margin-top:24px;padding-top:20px;border-top:1px solid var(--vos-border);}
+    .vos-calc .vos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media(max-width:560px){.vos-calc .vos-grid{grid-template-columns:1fr;}}
+    .vos-calc label{display:block;font-size:13px;font-weight:600;color:var(--vos-slate);margin-bottom:6px;}
+    .vos-calc .vos-hint{display:block;font-size:11.5px;font-weight:400;color:var(--vos-muted);margin-top:5px;}
+    .vos-calc .vos-field{position:relative;margin-bottom:4px;}
+    .vos-calc .vos-prefix{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:15px;font-weight:600;pointer-events:none;}
+    .vos-calc input[type=number]{
+      width:100%;padding:12px 14px 12px 28px;font-size:16px;color:var(--vos-navy);
+      background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;transition:border-color .15s,box-shadow .15s;-moz-appearance:textfield;
+    }
+    .vos-calc input.vos-plain{padding-left:14px;}
+    .vos-calc input[type=number]:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background:#fff;}
+    .vos-calc input[type=number]::-webkit-outer-spin-button,
+    .vos-calc input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+    .vos-calc .vos-suffix{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:13px;font-weight:600;pointer-events:none;}
+    .vos-calc input.vos-hassuffix{padding-right:74px;}
+    .vos-calc select{
+      width:100%;padding:12px 38px 12px 14px;font-size:16px;color:var(--vos-navy);
+      background-color:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;
+      background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23667085' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>");
+      background-repeat:no-repeat;background-position:right 12px center;
+      transition:border-color .15s,box-shadow .15s;
+    }
+    .vos-calc select:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background-color:#fff;}
+    .vos-calc .vos-results{margin-top:22px;border-top:1px solid var(--vos-border);padding-top:22px;}
+    .vos-calc .vos-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.vos-calc .vos-result-grid{grid-template-columns:1fr;}}
+    .vos-calc .vos-stat{background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:12px;padding:16px;}
+    .vos-calc .vos-stat .vos-k{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--vos-muted);margin-bottom:4px;}
+    .vos-calc .vos-stat .vos-v{font-family:'Montserrat',sans-serif;font-size:24px;font-weight:800;color:var(--vos-navy);letter-spacing:-.02em;}
+    .vos-calc .vos-stat .vos-sub{font-size:11.5px;color:var(--vos-muted);margin-top:3px;}
+    .vos-calc .vos-stat.vos-hero{background:var(--vos-blue-soft);border-color:#c3d5e3;}
+    .vos-calc .vos-stat.vos-hero .vos-v{color:var(--vos-blue-dark);}
+    .vos-calc .vos-stat.vos-profit{background:var(--vos-green-soft);border-color:#b6f0cd;}
+    .vos-calc .vos-stat.vos-profit .vos-v{color:#02914f;}
+    .vos-calc .vos-stat.vos-loss{background:#fef3f2;border-color:#fecdca;}
+    .vos-calc .vos-stat.vos-loss .vos-v{color:#b42318;}
+    .vos-calc .vos-tip{display:flex;gap:10px;margin-top:18px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#854d0e;}
+    .vos-calc .vos-tip b{color:#713f12;}
+    .vos-calc .vos-tip svg{flex:0 0 auto;margin-top:1px;}
+    .vos-calc .vos-cta{margin-top:18px;background:var(--vos-navy);border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+    .vos-calc .vos-cta .vos-cta-txt{font-size:14px;color:#c7dced;max-width:62%;min-width:220px;}
+    .vos-calc .vos-cta .vos-cta-txt b{color:#fff;display:block;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;margin-bottom:2px;}
+    .vos-calc .vos-cta a{background:var(--vos-blue);color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:8px;white-space:nowrap;transition:background .15s;}
+    .vos-calc .vos-cta a:hover{background:#00add4;}
+    .vos-calc .vos-reset{margin-top:14px;background:none;border:none;color:var(--vos-muted);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline;padding:0;}
+    .vos-calc .vos-foot{text-align:center;font-size:11.5px;color:var(--vos-muted);margin-top:14px;}
+  </style>
+<!-- ============================================================
+     VOICEORDER SOLUTIONS V2 QUIZ: How much buffer stock do you actually need?
+     GENERATED by scripts/build_v2.js. Do not hand-edit.
+     Source: lead-magnets-v2/specs/safety-stock.js
+             lead-magnets-v2/_engine/
+             lead-magnets/safety-stock-calculator.html
+
+     The shipped calculator is inlined below, hidden, and driven by
+     the quiz. Nothing in this file does arithmetic, so the numbers
+     here are the calculator's own.
+     ============================================================ -->
+<div class="vos-quiz" id="vos-q-safety-stock">
+
+  <div class="vos-calc-host" aria-hidden="true">
+<!-- ============================================================
+     VOICEORDER SOLUTIONS LEAD MAGNET: Safety Stock Calculator
+     Self-contained. No external libraries. Paste this whole
+     block into a blog "Custom HTML" / "Raw HTML" embed.
+     All styles are scoped under .vos-calc so they won't
+     touch the rest of your page. Recolor in one place via
+     the CSS variables on .vos-calc.
+     ============================================================ -->
+<div class="vos-calc" id="vos-safety">
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Safety Stock Calculator</h3>
+      <p>Work out how much buffer stock you need to stop running out, without tying up cash in product that spoils.</p>
+    </div>
+    <div class="vos-body">
+
+      <p class="vos-legend">Demand for this SKU</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-dem">Average daily demand</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-dem" min="0" step="any" value="120" inputmode="decimal">
+            <span class="vos-suffix">cases/day</span>
+          </div>
+          <span class="vos-hint">Total cases shipped, divided by the days you ship.</span>
+        </div>
+        <div>
+          <label for="vos-demsd">Demand swing on a busy day</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-demsd" min="0" step="any" value="35" inputmode="decimal">
+            <span class="vos-suffix">cases/day</span>
+          </div>
+          <span class="vos-hint">Roughly how far a normal busy day runs above average. Weekend or holiday spikes go here.</span>
+        </div>
+      </div>
+
+      <p class="vos-legend vos-sep">Your supplier</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-lt">Average lead time</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-lt" min="0" step="any" value="4" inputmode="decimal">
+            <span class="vos-suffix">days</span>
+          </div>
+          <span class="vos-hint">Order placed to product on your dock.</span>
+        </div>
+        <div>
+          <label for="vos-ltsd">Lead time swing when they are late</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-ltsd" min="0" step="any" value="1" inputmode="decimal">
+            <span class="vos-suffix">days</span>
+          </div>
+          <span class="vos-hint">How many days late a typical late delivery runs. Enter 0 if they never miss.</span>
+        </div>
+        <div>
+          <label for="vos-sl">Service level you want to hit</label>
+          <div class="vos-field">
+            <select id="vos-sl">
+              <option value="1.2816">90% (you run short 1 cycle in 10)</option>
+              <option value="1.6449" selected>95% (you run short 1 cycle in 20)</option>
+              <option value="1.9600">97.5% (1 cycle in 40)</option>
+              <option value="2.3263">99% (1 cycle in 100)</option>
+              <option value="3.0902">99.9% (1 cycle in 1,000)</option>
+            </select>
+          </div>
+          <span class="vos-hint">How often you are willing to run out before the next delivery lands.</span>
+        </div>
+        <div>
+          <label for="vos-cost">Your cost per case</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-cost" min="0" step="any" value="22" inputmode="decimal">
+          </div>
+          <span class="vos-hint">Landed cost, so we can show the cash this buffer ties up.</span>
+        </div>
+        <div>
+          <label for="vos-shelf">Shelf life</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-shelf" min="0" step="any" value="14" inputmode="decimal">
+            <span class="vos-suffix">days</span>
+          </div>
+          <span class="vos-hint">Days from receiving to the date it is no longer sellable. Enter a high number for dry or frozen goods.</span>
+        </div>
+      </div>
+
+      <div class="vos-results">
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Safety stock to hold</div>
+            <div class="vos-v" id="vos-ss">229 cases</div>
+            <div class="vos-sub" id="vos-ss-sub">Buffer on top of what you expect to sell</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Reorder point</div>
+            <div class="vos-v" id="vos-rop">709 cases</div>
+            <div class="vos-sub" id="vos-rop-sub">Place the order when stock drops to here</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Cash tied up in the buffer</div>
+            <div class="vos-v" id="vos-cash">$5,038</div>
+            <div class="vos-sub">Sitting on your shelf, not in your bank</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Extra days of cover it buys</div>
+            <div class="vos-v" id="vos-cover">1.9 days</div>
+            <div class="vos-sub">How long the buffer alone lasts at average demand</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Expected demand during lead time</div>
+            <div class="vos-v" id="vos-dlt">480 cases</div>
+            <div class="vos-sub">What normally sells while you wait</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Stockout risk per cycle</div>
+            <div class="vos-v" id="vos-risk">5.0%</div>
+            <div class="vos-sub" id="vos-risk-sub">Cycles where you run short before delivery</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="vos-tip-text">At a 95% service level you still run short on about 1 order cycle in 20. Pushing to 99% takes your buffer to <b>324 cases</b> and ties up <b>$7,128</b>, so the last few points of service are the expensive ones.</div>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="vos-reset">Reset calculator</button>
+        </div>
+        <div class="vos-foot">Estimates only. Assumes demand and lead time vary in a roughly normal pattern. Check the numbers against your own history before you change a reorder point.</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Safety Stock Calculator ============ -->
+  </div>
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>How much buffer stock do you actually need?</h3>
+      <p>Seven quick questions about one item. At the end you get the buffer that stops you running short, and what it ties up in cash.</p>
+      <div class="vos-prog" role="progressbar" aria-valuemin="0" aria-valuemax="8" aria-valuenow="1" aria-label="Quiz progress" id="q-prog">
+        <div class="vos-prog-bar" id="q-bar"></div>
+      </div>
+      <div class="vos-prog-txt" id="q-progtxt">Step 1 of 8</div>
+    </div>
+
+    <div class="vos-body" aria-live="polite">
+
+      <section class="vos-step is-on" id="safety-stock-s1">
+        <p class="vos-eyebrow">The situation</p>
+        <h4 class="vos-q">What ran short on you?</h4>
+        <p class="vos-qsub">Pick the closest one. It changes nothing in the math, it just tells us what we are sizing.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What ran short on you?">
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-situation" data-group="situation" value="fast-mover"><span class="vos-dot"></span><span>A fast mover you always carry</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-situation" data-group="situation" value="standing-order"><span class="vos-dot"></span><span>Something a customer had on standing order</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-situation" data-group="situation" value="seasonal"><span class="vos-dot"></span><span>A seasonal item that spiked</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-situation" data-group="situation" value="planning-ahead"><span class="vos-dot"></span><span>Nothing yet, I want the buffer set before it happens</span></label>
+        </div>
+        <div class="vos-err" id="safety-stock-s1-err">Pick one to carry on.</div>
+        <div class="vos-nav vos-armed" data-arm="situation">
+          <button type="button" class="vos-next" data-next>Continue</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="safety-stock-s2">
+        <p class="vos-eyebrow">How it moves</p>
+        <h4 class="vos-q">How much of it do you ship?</h4>
+        <p class="vos-qsub">Round numbers are fine.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-dem">Average daily demand</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-dem" min="0" step="any" value="120" inputmode="decimal">
+              <span class="vos-suffix">cases/day</span>
+            </div>
+            <span class="vos-hint">Total cases shipped, divided by the days you ship.</span>
+          </div>
+          <div>
+            <label for="q-vos-demsd">Demand swing on a busy day</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-demsd" min="0" step="any" value="35" inputmode="decimal">
+              <span class="vos-suffix">cases</span>
+            </div>
+            <span class="vos-hint">Roughly how far a normal busy day runs above average. Weekend and holiday spikes go here.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="safety-stock-s2-err">Enter a daily demand above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="safety-stock-s3">
+        <p class="vos-eyebrow">Your supplier</p>
+        <h4 class="vos-q">And how long do they take?</h4>
+        <p class="vos-qsub">The buffer exists mostly to cover this, so the late number matters more than it looks.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-lt">Average lead time</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-lt" min="0" step="any" value="4" inputmode="decimal">
+              <span class="vos-suffix">days</span>
+            </div>
+            <span class="vos-hint">Order placed to product on your dock.</span>
+          </div>
+          <div>
+            <label for="q-vos-ltsd">Lead time swing when they are late</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-ltsd" min="0" step="any" value="1" inputmode="decimal">
+              <span class="vos-suffix">days</span>
+            </div>
+            <span class="vos-hint">How many days late a typical late delivery runs. Enter 0 if they never miss.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="safety-stock-s3-err">Enter a lead time above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="safety-stock-s4">
+        <p class="vos-eyebrow">The call you have to make</p>
+        <h4 class="vos-q">How often can you live with running short?</h4>
+        <p class="vos-qsub">There is no free answer here. Every point of service costs cash on the shelf.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="How often can you live with running short?">
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-service" data-group="service" value="1.2816"><span class="vos-dot"></span><span>1 order cycle in 10, and I would rather hold less stock</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-service" data-group="service" value="1.6449"><span class="vos-dot"></span><span>1 in 20. A normal service level</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-service" data-group="service" value="1.9600"><span class="vos-dot"></span><span>1 in 40</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-service" data-group="service" value="2.3263"><span class="vos-dot"></span><span>1 in 100. This item cannot go short</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-service" data-group="service" value="3.0902"><span class="vos-dot"></span><span>1 in 1,000. A contract depends on it</span></label>
+        </div>
+        <div class="vos-err" id="safety-stock-s4-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="safety-stock-s5">
+        <p class="vos-eyebrow">What it costs to hold</p>
+        <h4 class="vos-q">What does a case cost, and how long does it keep?</h4>
+        <p class="vos-qsub">Shelf life is the check on all of this. A buffer that outlives the product just spoils.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-cost">Your cost per case</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-cost" min="0" step="any" value="22" inputmode="decimal">
+            </div>
+            <span class="vos-hint">Landed cost, so we can show the cash this buffer ties up.</span>
+          </div>
+          <div>
+            <label for="q-vos-shelf">Shelf life</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-shelf" min="0" step="any" value="14" inputmode="decimal">
+              <span class="vos-suffix">days</span>
+            </div>
+            <span class="vos-hint">Days from receiving to the date it is no longer sellable. Enter a high number for dry or frozen.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="safety-stock-s5-err">Those cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="safety-stock-s6">
+        <p class="vos-eyebrow">How you run it today</p>
+        <h4 class="vos-q">What tells you an item is getting low?</h4>
+        <p class="vos-qsub">Extra buffer only helps if someone notices in time to use it.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What tells you an item is getting low?">
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-trigger" data-group="trigger" value="walk-the-cooler"><span class="vos-dot"></span><span>Someone walks the cooler and looks</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-trigger" data-group="trigger" value="memory"><span class="vos-dot"></span><span>We know our movers, it is mostly experience</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-trigger" data-group="trigger" value="report"><span class="vos-dot"></span><span>A report or a min and max in the system</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-trigger" data-group="trigger" value="customer-tells-us"><span class="vos-dot"></span><span>Honestly, a customer asking for it</span></label>
+        </div>
+        <div class="vos-err" id="safety-stock-s6-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="trigger" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="safety-stock-s7">
+        <p class="vos-eyebrow">The awkward part</p>
+        <h4 class="vos-q">When something is going to be short, how does the customer find out?</h4>
+        <p class="vos-qsub">Last one before your numbers.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="When something is going to be short, how does the customer find out?">
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-telling" data-group="telling" value="we-call"><span class="vos-dot"></span><span>We call them before the truck goes</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-telling" data-group="telling" value="rep-tells"><span class="vos-dot"></span><span>Their rep tells them next time they speak</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-telling" data-group="telling" value="at-delivery"><span class="vos-dot"></span><span>They find out when the delivery lands</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-safety-stock-telling" data-group="telling" value="they-ask"><span class="vos-dot"></span><span>They call us asking where it is</span></label>
+        </div>
+        <div class="vos-err" id="safety-stock-s7-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="telling" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="safety-stock-gate">
+        <p class="vos-eyebrow">Your breakdown is ready</p>
+
+        <div class="vos-preview">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Safety stock to hold</div>
+            <div class="vos-v" id="q-preview">--</div>
+            <div class="vos-sub">The headline number. The rest are below.</div>
+          </div>
+        </div>
+
+        <h4 class="vos-q">Want to see your results?</h4>
+        <p class="vos-qsub">You have given us enough to work this out. Fill this in and the full breakdown opens up.</p>
+
+        <div class="vos-hsform" id="q-hsform">
+          
+          <div class="hs-form-frame" data-region="na1" data-form-id="f854c1d7-fedd-4ba0-a8fb-98af24925dfc" data-portal-id="51996060"></div>
+          <div class="vos-hsload" id="q-hsload">Loading the form.</div>
+          <div class="vos-hsfail" id="q-hsfail">
+            <b>The form did not load.</b>
+            <span>Your browser or your network is most likely blocking it. That should not cost you the numbers you just worked out.</span>
+            <button type="button" class="vos-next" id="q-hsskip">Show my numbers anyway</button>
+          </div>
+        </div>
+        <div class="vos-nav">
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+        <p class="vos-privacy">Your details go straight to our team, who will follow up about these numbers.</p>
+      </section>
+
+      <section class="vos-step" id="safety-stock-results">
+        <div class="vos-verdict is-go" id="q-verdict">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <div>
+            <h4 id="q-vtitle">Your result</h4>
+            <p id="q-vtext">Working it out.</p>
+          </div>
+        </div>
+
+        <p class="vos-greet" id="q-greet">Here is your breakdown.</p>
+        <p class="vos-greetsub" id="q-greetsub"></p>
+
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero" id="qcard-vos-ss">
+            <div class="vos-k">Safety stock to hold</div>
+            <div class="vos-v" id="qc-vos-ss">--</div>
+            <div class="vos-sub" id="qcs-vos-ss"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-cash">
+            <div class="vos-k">Cash tied up in the buffer</div>
+            <div class="vos-v" id="qc-vos-cash">--</div>
+            <div class="vos-sub">What the buffer alone parks on your shelf</div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-rop">
+            <div class="vos-k">Reorder point</div>
+            <div class="vos-v" id="qc-vos-rop">--</div>
+            <div class="vos-sub" id="qcs-vos-rop"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-cover">
+            <div class="vos-k">Extra days of cover it buys</div>
+            <div class="vos-v" id="qc-vos-cover">--</div>
+            <div class="vos-sub">On top of normal lead time demand</div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-dlt">
+            <div class="vos-k">Expected demand during lead time</div>
+            <div class="vos-v" id="qc-vos-dlt">--</div>
+            <div class="vos-sub">What you sell while you wait</div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-risk">
+            <div class="vos-k">Stockout risk per cycle</div>
+            <div class="vos-v" id="qc-vos-risk">--</div>
+            <div class="vos-sub">Cycles where you run short before delivery</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="q-tip"></div>
+        </div>
+
+        <div class="vos-cta">
+          <div class="vos-cta-txt">
+            <b>Safety stock math only works if your stock counts are right.</b>
+            VoiceOrder Solutions keeps inventory updating in real time as orders come in, and flags low stock before it costs you an account.
+          </div>
+          <a href="https://www.voiceordersolutions.com/contact-us" target="_blank" rel="noopener">Book A Demo &rarr;</a>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="q-again">Change my numbers</button>
+        </div>
+        <div class="vos-foot" id="q-foot">Estimates only. Confirm your demand and lead time figures before changing a par.</div>
+        <div class="vos-debug" id="q-debug"></div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END How much buffer stock do you actually need? ============ -->

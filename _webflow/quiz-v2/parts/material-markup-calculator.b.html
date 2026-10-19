@@ -1,0 +1,434 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-markup');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var kase=$('vos-case'), freight=$('vos-freight'), handle=$('vos-handle'), shrink=$('vos-shrink'),
+        pct=$('vos-pct'), slider=$('vos-slider'), vol=$('vos-vol'),
+        priceEl=$('vos-price'), priceSub=$('vos-price-sub'), gpEl=$('vos-gp'), gpCard=$('vos-gp-card'),
+        trueEl=$('vos-true'), trueSub=$('vos-true-sub'), marginEl=$('vos-margin'), marginSub=$('vos-margin-sub'),
+        monthlyEl=$('vos-monthly'), monthlySub=$('vos-monthly-sub'), shrinkEl=$('vos-shrinkcost'),
+        tip=$('vos-tip-text'), pctLabel=$('vos-pct-label'), pctHint=$('vos-pct-hint'),
+        bMarkup=$('vos-mode-markup'), bMargin=$('vos-mode-margin');
+
+    var DEFAULTS={'vos-case':18,'vos-freight':1.40,'vos-handle':0.90,'vos-shrink':3,'vos-pct':45,'vos-vol':6000};
+    var mode='markup';
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money(n){ if(!isFinite(n)) n=0; return '$'+Math.round(n).toLocaleString('en-US'); }
+    function money2(n){
+      if(!isFinite(n)) n=0;
+      return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    }
+    function cases(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US'); }
+
+    function calc(){
+      var C=num(kase), F=num(freight), H=num(handle), V=num(vol);
+      var SH=parseFloat(shrink.value); if(!isFinite(SH)||SH<0) SH=0; SH=Math.min(SH,99); // 100% shrink would divide by zero
+      var p=parseFloat(pct.value); if(!isFinite(p)||p<0) p=0;
+
+      var landed = C+F+H;
+      // Shrink means you only sell (1 - SH) of every case you buy, so the
+      // cost of a case you DO sell is grossed up.
+      var trueCost = landed/(1-SH/100);
+
+      var price, markupPct, paperMargin;
+      if(mode==='markup'){
+        price = landed*(1+p/100);
+      } else {
+        // Margin mode: solve for the price that hits the target margin on TRUE cost.
+        var m = Math.min(p,99.9);
+        price = trueCost/(1-m/100);
+      }
+      // You bill whole cents, so settle the price first and derive profit and
+      // margin from it. Keeps every figure on screen reconciling with the others.
+      price = Math.round(price*100)/100;
+      markupPct = landed>0 ? (price-landed)/landed*100 : (mode==='markup' ? p : 0);
+
+      // trueCost is landed grossed up for shrink, so it carries a fraction of a
+      // cent that never reaches the screen. Settle the per-case figures here,
+      // before anything multiplies them by a month of volume. Without this the
+      // monthly cards disagreed with the cards they come from: $8.50 a case
+      // printed $51,013 across 6,000 cases rather than $51,000.
+      var gp = Math.round((price - trueCost)*100)/100;
+      var realMargin = price>0 ? gp/price*100 : 0;
+      paperMargin = price>0 ? (price-landed)/price*100 : 0;
+      var monthly = gp*V;
+      var shrinkCostCase = Math.round((trueCost - landed)*100)/100;
+      var shrinkMonthly = shrinkCostCase*V;
+
+      priceEl.textContent = money2(price);
+      priceSub.textContent = mode==='markup'
+        ? 'Landed cost of '+money2(landed)+' plus '+markupPct.toFixed(0)+'% markup'
+        : 'The price that hits a '+Math.min(p,99.9).toFixed(1)+'% real margin';
+      gpEl.textContent = money2(gp);
+      gpCard.className = 'vos-stat ' + (gp>=0 ? 'vos-profit' : 'vos-loss');
+      trueEl.textContent = money2(trueCost);
+      trueSub.textContent = SH>0
+        ? 'Landed cost, grossed up for '+SH.toFixed(1)+'% shrink'
+        : 'Same as landed cost, since you entered no shrink';
+      marginEl.textContent = (isFinite(realMargin)?realMargin.toFixed(1):'0.0')+'%';
+      marginSub.textContent = 'Implied markup on landed cost is '+markupPct.toFixed(0)+'%';
+      monthlyEl.textContent = money(monthly);
+      monthlySub.textContent = 'Across '+cases(V)+' cases';
+      shrinkEl.textContent = money(shrinkMonthly);
+
+      var t;
+      if(landed<=0){
+        t = 'Enter what a case actually costs you, including <b>freight in</b> and <b>handling</b>. Most distributors mark up the supplier invoice and forget the rest.';
+      } else if(gp<0){
+        t = 'You are selling at <b>'+money2(price)+'</b> a case but each one truly costs <b>'+money2(trueCost)+'</b>. Every case loses <b>'+money2(Math.abs(gp))+'</b>, which is <b>'+money(Math.abs(monthly))+'</b> a month. Raise the price or cut the shrink.';
+      } else if(SH>0 && mode==='markup'){
+        t = 'A <b>'+markupPct.toFixed(0)+'% markup</b> feels like a '+markupPct.toFixed(0)+'% margin. It is not. Marking up gives you a <b>'+paperMargin.toFixed(1)+'%</b> margin on paper, and '+SH.toFixed(1)+'% shrink pulls it down to <b>'+realMargin.toFixed(1)+'%</b>. That gap is <b>'+money(shrinkMonthly)+'</b> a month.';
+      } else if(SH>0 && mode==='margin'){
+        t = 'To actually keep <b>'+realMargin.toFixed(1)+'%</b> after '+SH.toFixed(1)+'% shrink, you have to mark landed cost up by <b>'+markupPct.toFixed(0)+'%</b>. Shrink is why the markup always has to be bigger than the margin you want.';
+      } else {
+        t = 'With no shrink, a <b>'+markupPct.toFixed(0)+'% markup</b> still only gives you a <b>'+realMargin.toFixed(1)+'%</b> margin. Markup is measured against cost, margin against the price you bill. Confusing the two is the fastest way to underprice an order guide.';
+      }
+      tip.innerHTML = t;
+    }
+
+    function syncSlider(){
+      var p=parseFloat(pct.value);
+      if(isFinite(p)){ slider.value = Math.max(0, Math.min(100, p)); }
+    }
+
+    [kase,freight,handle,shrink,vol].forEach(function(el){ el.addEventListener('input', calc); });
+    pct.addEventListener('input', function(){ syncSlider(); calc(); });
+    slider.addEventListener('input', function(){ pct.value = slider.value; calc(); });
+
+    function setMode(m){
+      mode=m;
+      if(m==='markup'){
+        bMarkup.classList.add('vos-on'); bMargin.classList.remove('vos-on');
+        pctLabel.textContent='Markup on landed cost';
+        pctHint.textContent='Markup is added on top of cost. It is not the same as margin.';
+      } else {
+        bMargin.classList.add('vos-on'); bMarkup.classList.remove('vos-on');
+        pctLabel.textContent='Target margin you want to keep';
+        pctHint.textContent='Margin is measured against the price you bill, after shrink.';
+      }
+      calc();
+    }
+    bMarkup.addEventListener('click', function(){ setMode('markup'); });
+    bMargin.addEventListener('click', function(){ setMode('margin'); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      setMode('markup'); syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "material-markup",
+  "rootId": "vos-q-material-markup",
+  "calcRootId": "vos-markup",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "material-markup-s1",
+    "material-markup-s2",
+    "material-markup-s3",
+    "material-markup-s4",
+    "material-markup-s5",
+    "material-markup-s6",
+    "material-markup-s7"
+  ],
+  "gateId": "material-markup-gate",
+  "resultsId": "material-markup-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a case cost above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-case",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-freight",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-handle",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-shrink",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "mode",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-vol",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "costflow",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "pricetell",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-case",
+      "calcId": "vos-case",
+      "qid": "q-vos-case"
+    },
+    {
+      "id": "vos-freight",
+      "calcId": "vos-freight",
+      "qid": "q-vos-freight"
+    },
+    {
+      "id": "vos-handle",
+      "calcId": "vos-handle",
+      "qid": "q-vos-handle"
+    },
+    {
+      "id": "vos-shrink",
+      "calcId": "vos-shrink",
+      "qid": "q-vos-shrink"
+    },
+    {
+      "id": "vos-pct",
+      "calcId": "vos-pct",
+      "qid": "q-vos-pct"
+    },
+    {
+      "id": "vos-vol",
+      "calcId": "vos-vol",
+      "qid": "q-vos-vol"
+    }
+  ],
+  "groups": [
+    "situation",
+    "mode",
+    "costflow",
+    "pricetell"
+  ],
+  "autoGroups": [
+    "situation",
+    "costflow",
+    "pricetell"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {
+    "mode": {
+      "markup": "vos-mode-markup",
+      "margin": "vos-mode-margin"
+    }
+  },
+  "reveals": {
+    "mode": {
+      "wrapId": "material-markup-s4-reveal",
+      "hintId": "material-markup-s4-revealhint",
+      "hideOn": [],
+      "hints": {
+        "markup": "Added on top of landed cost. This is the one most price lists are built on.",
+        "margin": "Measured against the price you bill, after shrink."
+      },
+      "zeroOn": [],
+      "zeroValue": 0,
+      "fieldQid": "q-vos-pct"
+    }
+  },
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-price",
+      "qid": "qc-vos-price",
+      "cardId": "qcard-vos-price",
+      "qsubId": "qcs-vos-price",
+      "subFrom": "vos-price-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-gp",
+      "qid": "qc-vos-gp",
+      "cardId": "qcard-vos-gp",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-gp-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-true",
+      "qid": "qc-vos-true",
+      "cardId": "qcard-vos-true",
+      "qsubId": "qcs-vos-true",
+      "subFrom": "vos-true-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-margin",
+      "qid": "qc-vos-margin",
+      "cardId": "qcard-vos-margin",
+      "qsubId": "qcs-vos-margin",
+      "subFrom": "vos-margin-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-monthly",
+      "qid": "qc-vos-monthly",
+      "cardId": "qcard-vos-monthly",
+      "qsubId": "qcs-vos-monthly",
+      "subFrom": "vos-monthly-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-shrinkcost",
+      "qid": "qc-vos-shrinkcost",
+      "cardId": "qcard-vos-shrinkcost",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your landed cost and shrink rate before repricing a line.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "costflow",
+      "weights": {
+        "manual-list": 30,
+        "rep-judgement": 28,
+        "spreadsheet": 24,
+        "system": 8
+      }
+    },
+    {
+      "group": "pricetell",
+      "weights": {
+        "at-order": 25,
+        "rep-tells": 20,
+        "price-sheet": 14,
+        "portal": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "cost-moved": 15,
+        "margin-slipping": 14,
+        "new-item": 11,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-vol",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        6000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans, f) {
+    if (read['vos-price'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to price it.',
+        text: 'Go back and put in a supplier cost above zero.' };
+    }
+    var pct = f['vos-pct'] || 0;
+    if (ans.mode === 'margin') {
+      return { tone: 'is-go', title: 'Price it at ' + read['vos-price'] + '.',
+        text: 'That holds the ' + pct + ' percent margin you asked for once shrink is counted, which '
+            + 'is ' + read['vos-gp'] + ' a case and ' + read['vos-monthly'] + ' a month.' };
+    }
+    return { tone: 'is-go', title: 'Price it at ' + read['vos-price'] + '.',
+      text: 'A ' + pct + ' percent markup on landed cost is a ' + read['vos-margin'] + ' margin once '
+          + 'shrink is counted, not ' + pct + ' percent. That is ' + read['vos-gp'] + ' a case, '
+          + read['vos-monthly'] + ' a month.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-case'] || 0) + ' dollar case, ' + (f['vos-shrink'] || 0)
+         + ' percent shrink and ' + (f['vos-vol'] || 0).toLocaleString('en-US') + ' cases a month.';
+  },
+  "echoes": []
+};
+  </script>

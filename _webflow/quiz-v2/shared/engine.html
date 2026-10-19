@@ -1,0 +1,552 @@
+<script>
+/* ============================================================
+   V2 quiz engine. One copy, shared by every quiz.
+
+   scripts/build_v2.js inlines this into each generated fragment
+   with a SPEC object in front of it. Nothing here is specific to
+   any one calculator.
+
+   The engine never does arithmetic. Each quiz carries its shipped
+   calculator hidden inside it; the engine feeds that calculator
+   the answers and reads back the cards it renders. So the numbers
+   a quiz shows are, by construction, the numbers the calculator
+   shows, and test_calcs.js already guards them.
+   ============================================================ */
+(function () {
+  'use strict';
+
+  /* SPEC is injected directly above this file by the generator. */
+  var S = window.__VOS_QUIZ_SPEC__;
+  delete window.__VOS_QUIZ_SPEC__;
+
+  var root = document.getElementById(S.rootId);
+  if (!root) return;
+  var $ = function (id) { return root.querySelector('#' + id); };
+
+  /* A second channel for the quiz ANSWERS. HubSpot takes the contact;
+     these are the things the contact record does not carry on its own. */
+  var LEAD_ENDPOINT = '';
+
+  /* ---------------------------------------------------------- the calculator */
+  var calc = root.querySelector('#' + S.calcRootId);
+
+  function calcEl(id) { return calc ? calc.querySelector('#' + id) : null; }
+
+  function calcSet(id, value, evt) {
+    var el = calcEl(id);
+    if (!el) return;
+    el.value = String(value);
+    try { el.dispatchEvent(new Event(evt || 'input', { bubbles: true })); }
+    catch (e) {
+      /* Old browsers. createEvent is deprecated but still works. */
+      var ev = document.createEvent('Event');
+      ev.initEvent(evt || 'input', true, true);
+      el.dispatchEvent(ev);
+    }
+  }
+
+  function calcRead(id) {
+    var el = calcEl(id);
+    return el ? String(el.textContent).trim() : '';
+  }
+
+  function calcClass(id) {
+    var el = calcEl(id);
+    return el ? String(el.className || '') : '';
+  }
+
+  /* Push every answered field into the calculator. Called on any change, so
+     the hidden calculator is always in step with the quiz. */
+  function pushToCalc() {
+    /* Fields the quiz asks for in the calculator's own terms. */
+    for (var i = 0; i < S.fields.length; i++) {
+      var f = S.fields[i];
+      if (!f.calcId) continue;
+      var el = $(f.qid);
+      if (!el) continue;
+      /* An answer can make a field moot without wiping what was typed in it.
+         "It fits the trucks you already run" means no added fixed cost, but
+         the number stays put in case they change their mind. */
+      var z = f.zeroWhen;
+      var moot = z && z.values.indexOf(answers[z.group]) > -1;
+      calcSet(f.calcId, moot ? z.value : el.value, f.event);
+    }
+
+    /* Fields the quiz asks differently from the calculator. A quiz can ask
+       for extra cases where the calculator wants a new total, so one is
+       worked out from the other here rather than asking the awkward way. */
+    if (S.derived && S.derived.length) {
+      var vals = readFields();
+      for (var d = 0; d < S.derived.length; d++) {
+        var rule = S.derived[d];
+        var out = rule.compute(vals);
+        if (out !== null && out !== undefined && isFinite(out)) {
+          calcSet(rule.calcId, out, rule.event);
+        }
+      }
+    }
+
+    for (var g in answers) {
+      if (!answers.hasOwnProperty(g)) continue;
+      if (answers[g] === '') continue;
+      var map = S.choiceWrites[g];
+      if (map) calcSet(map.calcId, answers[g], map.event);
+      /* Some calculator controls are buttons, not inputs, so the answer is
+         a click rather than a value. */
+      var clicks = S.choiceClicks[g];
+      if (clicks && clicks[answers[g]]) {
+        var btn = calcEl(clicks[answers[g]]);
+        if (btn) btn.click();
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------- state */
+  var STEPS = S.stepIds.concat([S.gateId, S.resultsId]);
+  var QUESTION_COUNT = S.stepIds.length + 1;   /* the gate is the last step */
+  var answers = {};
+  for (var gi = 0; gi < S.groups.length; gi++) answers[S.groups[gi]] = '';
+
+  var cur = 0;
+  var unlocked = false;
+  var lead = null;
+
+  var params = {};
+  (location.search || '').replace(/^\?/, '').split('&').forEach(function (p) {
+    if (!p) return;
+    var kv = p.split('=');
+    params[decodeURIComponent(kv[0])] = decodeURIComponent(kv[1] || '');
+  });
+  var SOFT_GATE = params.gate === 'soft';
+  if (SOFT_GATE) root.className += ' is-soft';
+  if (params.debug === '1') root.className += ' is-debug';
+
+  /* ---------------------------------------------------------- render */
+  function paint() {
+    pushToCalc();
+
+    var read = {};
+    for (var i = 0; i < S.cards.length; i++) {
+      var c = S.cards[i];
+      var v = calcRead(c.calcId);
+      read[c.calcId] = v;
+      var el = $(c.qid);
+      if (el) el.textContent = v;
+      /* Some cards relabel themselves as the inputs move: "Markup for a 30%
+         margin", "If the lead time slips 2 days". Follow the calculator. */
+      if (c.kId && c.kFrom) {
+        var kEl = $(c.kId);
+        var kSrc = calcEl(c.kFrom);
+        if (kEl && kSrc) kEl.textContent = kSrc.textContent;
+      }
+      if (c.qsubId && c.subFrom) {
+        var sub = $(c.qsubId);
+        if (sub) sub.textContent = calcRead(c.subFrom);
+      }
+      if (c.toneFrom) {
+        var card = $(c.cardId);
+        if (card) {
+          var src = calcClass(c.toneFrom);
+          var tone = /vos-loss/.test(src) ? 'vos-loss' : /vos-profit/.test(src) ? 'vos-profit' : '';
+          card.className = 'vos-stat' + (c.hero ? ' vos-hero' : '') + (tone ? ' ' + tone : '');
+        }
+      }
+    }
+
+    if (S.tipFrom) {
+      var tipEl = $(S.tipId);
+      var tipSrc = calcEl(S.tipFrom);
+      if (tipEl && tipSrc) tipEl.innerHTML = tipSrc.innerHTML;
+    }
+
+    if (S.previewCardId && S.cards.length) {
+      var pv = $(S.previewCardId);
+      if (pv) pv.textContent = read[S.cards[0].calcId] || '';
+    }
+
+    /* The verdict is the only per-quiz judgement, and it reads the strings
+       already on the cards, so it can never contradict them. */
+    var v2 = S.verdict ? S.verdict(read, answers, readFields()) : null;
+    if (v2) {
+      $(S.verdictId).className = 'vos-verdict ' + v2.tone;
+      $(S.verdictTitleId).textContent = v2.title;
+      $(S.verdictTextId).textContent = v2.text;
+    }
+
+    if (S.subLine) {
+      var sl = $(S.subLineId);
+      if (sl) sl.textContent = S.subLine(read, answers, readFields());
+    }
+
+    return read;
+  }
+
+  function paintEchoes() {
+    if (!S.echoes) return;
+    for (var i = 0; i < S.echoes.length; i++) {
+      var e = S.echoes[i];
+      var el = $(e.id);
+      if (el) el.textContent = e.text(readFields());
+    }
+  }
+
+  /* Keyed by the field's own id, which is the calculator's id wherever the
+     quiz asks for the same thing, and a name of the quiz's own where it does
+     not. Verdicts, echoes and derived fields all read this. */
+  function readFields() {
+    var out = {};
+    for (var i = 0; i < S.fields.length; i++) {
+      var f = S.fields[i];
+      var el = $(f.qid);
+      var n = el ? parseFloat(el.value) : NaN;
+      out[f.id] = isFinite(n) ? n : 0;
+    }
+    return out;
+  }
+
+  /* ---------------------------------------------------------- steps */
+  function err(id, msg) {
+    var e = $(id);
+    if (!e) return;
+    if (msg) { e.textContent = msg; e.className = 'vos-err is-on'; }
+    else { e.className = 'vos-err'; }
+  }
+
+  function clearErrors() {
+    for (var i = 0; i < S.stepIds.length; i++) err(S.stepIds[i] + '-err', '');
+  }
+
+  function show(i) {
+    cur = Math.max(0, Math.min(STEPS.length - 1, i));
+    for (var k = 0; k < STEPS.length; k++) {
+      var el = $(STEPS[k]);
+      if (el) el.className = 'vos-step' + (k === cur ? ' is-on' : '');
+    }
+    var qStep = Math.min(cur + 1, QUESTION_COUNT);
+    var bar = $(S.barId);
+    if (bar) bar.style.width = (cur >= QUESTION_COUNT ? 100 : (qStep / QUESTION_COUNT) * 100) + '%';
+    var txt = $(S.progressId);
+    if (txt) txt.textContent = cur >= QUESTION_COUNT ? 'Your breakdown' : 'Step ' + qStep + ' of ' + QUESTION_COUNT;
+    var prog = $(S.progressBarId);
+    if (prog) prog.setAttribute('aria-valuenow', String(qStep));
+
+    if (root.getBoundingClientRect().top < 0) {
+      root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    var first = $(STEPS[cur]) && $(STEPS[cur]).querySelector('input:not([tabindex="-1"])');
+    if (first) { try { first.focus({ preventScroll: true }); } catch (e) { first.focus(); } }
+  }
+
+  function go(dir) {
+    clearErrors();
+    var next = cur + dir;
+    if (STEPS[next] === S.gateId && unlocked) next += dir;
+    show(next);
+    paintEchoes();
+    if (STEPS[cur] === S.gateId) enterGate();
+    if (STEPS[cur] === S.resultsId) paint();
+  }
+
+  function validate() {
+    var idx = cur;
+    if (idx >= S.stepIds.length) return true;      /* the gate validates itself */
+    var step = S.steps[idx];
+    if (step.kind === 'choice') {
+      if (!answers[step.group]) { err(S.stepIds[idx] + '-err', step.errText || 'Pick one to carry on.'); return false; }
+      return true;
+    }
+    for (var i = 0; i < step.fields.length; i++) {
+      var f = step.fields[i];
+      var el = $(f.qid);
+      var raw = el ? el.value : '';
+      var n = parseFloat(raw);
+      if (f.min0 && (!isFinite(n) || n < 0)) { err(S.stepIds[idx] + '-err', step.errText || 'That cannot be negative.'); return false; }
+      if (f.positive && (!isFinite(n) || n <= 0)) { err(S.stepIds[idx] + '-err', step.errText || 'Enter a number above zero.'); return false; }
+    }
+    return true;
+  }
+
+  /* ------------------------------------------------- the HubSpot gate
+     The form is a cross-origin iframe, so the page cannot read its
+     fields, write hidden inputs into it or style it. Everything here
+     goes through the embed's own API, every call guarded, because a
+     visitor who has answered every question must never be left staring
+     at a form that will not open. Three ways in, most trustworthy first.
+     ------------------------------------------------------------------ */
+  var HS_FORM_ID = S.hubspot.formId;
+  var hsForm = null, hsPoll = null;
+
+  function hsGetForm() {
+    try {
+      var api = window.HubspotFormsV4;
+      if (!api || !api.getForms) return null;
+      var all = api.getForms() || [];
+      for (var i = 0; i < all.length; i++) {
+        try { if (all[i].getFormId() === HS_FORM_ID) return all[i]; } catch (e) {}
+      }
+      return all[0] || null;
+    } catch (e) { return null; }
+  }
+
+  function hsConversionId() {
+    var f = hsForm || hsGetForm();
+    if (!f || !f.getConversionId) return '';
+    try { return f.getConversionId() || ''; } catch (e) { return ''; }
+  }
+
+  function hsIdentity() {
+    var out = { name: '', email: '' };
+    var f = hsForm || hsGetForm();
+    if (!f || !f.getFormFieldValues) return out;
+    var v;
+    try { v = f.getFormFieldValues() || {}; } catch (e) { return out; }
+    var first = v.firstname || v.first_name || '';
+    var last = v.lastname || v.last_name || '';
+    out.name = String(first + ' ' + last).trim() || String(v.full_name || v.name || '').trim();
+    out.email = String(v.email || v.work_email || '').trim();
+    return out;
+  }
+
+  function quizMetadata() {
+    var read = paint();
+    var m = { vos_tool: S.slug };
+    for (var g in answers) {
+      if (answers.hasOwnProperty(g)) m['vos_' + g] = answers[g];
+    }
+    for (var i = 0; i < S.fields.length; i++) {
+      var f = S.fields[i];
+      var el = $(f.qid);
+      m['vos_' + f.id.replace(/^vos-/, '').replace(/-/g, '_')] = el ? el.value : '';
+    }
+    for (var j = 0; j < S.cards.length; j++) {
+      m['vos_out_' + S.cards[j].calcId.replace(/^vos-/, '').replace(/-/g, '_')] = read[S.cards[j].calcId] || '';
+    }
+    var fit = scoreLead();
+    m.vos_fit_score = String(fit.score);
+    m.vos_fit_tier = fit.tier;
+    return m;
+  }
+
+  function hsAttachMetadata() {
+    var f = hsForm || hsGetForm();
+    if (!f || !f.setExtraSubmissionMetadata) return;
+    try { f.setExtraSubmissionMetadata(quizMetadata()); } catch (e) {}
+  }
+
+  /* A quiet read on the lead, never shown to the person filling it in.
+     Each quiz says which of its answers carry weight. */
+  function scoreLead() {
+    var s = 0;
+    for (var i = 0; i < S.scoring.length; i++) {
+      var rule = S.scoring[i];
+      var v = answers[rule.group];
+      if (v && rule.weights[v]) s += rule.weights[v];
+    }
+    if (S.sizeFrom) {
+      var el = $(S.sizeFrom.qid);
+      var n = el ? parseFloat(el.value) : 0;
+      if (!isFinite(n)) n = 0;
+      var b = S.sizeFrom.bands;
+      for (var j = 0; j < b.length; j++) { if (n >= b[j][0]) { s += b[j][1]; break; } }
+    }
+    return { score: s, tier: s >= 70 ? 'hot' : s >= 45 ? 'warm' : 'cool' };
+  }
+
+  function buildLead(who, how) {
+    var read = paint();
+    var out = {
+      name: who.name,
+      email: who.email,
+      companyDomain: who.email.indexOf('@') > -1 ? who.email.split('@')[1] : '',
+      answers: {},
+      numbers: {},
+      results: {},
+      tool: S.slug,
+      gate: SOFT_GATE ? 'soft' : 'hard',
+      unlockedBy: how,
+      hubspotFormId: HS_FORM_ID,
+      hubspotConversionId: hsConversionId(),
+      page: location.href,
+      submittedAt: new Date().toISOString()
+    };
+    for (var g in answers) { if (answers.hasOwnProperty(g)) out.answers[g] = answers[g]; }
+    for (var i = 0; i < S.fields.length; i++) {
+      var f = S.fields[i];
+      var el = $(f.qid);
+      out.numbers[f.id] = el ? el.value : '';
+    }
+    for (var j = 0; j < S.cards.length; j++) {
+      out.results[S.cards[j].calcId] = read[S.cards[j].calcId] || '';
+    }
+    out.fit = scoreLead();
+    return out;
+  }
+
+  function deliverLead() {
+    if (LEAD_ENDPOINT) {
+      try {
+        fetch(LEAD_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(lead),
+          keepalive: true
+        })['catch'](function () {});
+      } catch (e) {}
+    }
+    try { window.localStorage.setItem('vos-quiz-lead', JSON.stringify(lead)); } catch (e) {}
+    if (window.console && console.log) console.log('[VOS quiz] lead captured', lead);
+  }
+
+  function stopHsPoll() { if (hsPoll) { window.clearInterval(hsPoll); hsPoll = null; } }
+
+  function openGate(how) {
+    if (unlocked) return;
+    unlocked = true;
+    stopHsPoll();
+
+    var who = hsIdentity();
+    lead = buildLead(who, how);
+    deliverLead();
+
+    var first = who.name ? who.name.split(/\s+/)[0] : '';
+    var greet = $(S.greetId);
+    if (greet) greet.textContent = first ? 'Here is your breakdown, ' + first + '.' : 'Here is your breakdown.';
+    var foot = $(S.footId);
+    if (foot) {
+      foot.textContent = (who.email ? 'We will follow up at ' + who.email + '. ' : '') + S.disclaimer;
+    }
+    var dbg = $(S.debugId);
+    if (dbg) dbg.textContent = 'Captured for the CRM (shown only with ?debug=1)\n\n' + JSON.stringify(lead, null, 2);
+
+    if (STEPS[cur] === S.gateId) show(STEPS.length - 1);
+  }
+
+  function startHsPoll() {
+    if (hsPoll || unlocked) return;
+    hsPoll = window.setInterval(function () {
+      if (unlocked) { stopHsPoll(); return; }
+      if (hsConversionId()) openGate('conversion-id');
+    }, 600);
+  }
+
+  window.addEventListener('hs-form-event:on-ready', function (ev) {
+    if (ev.detail && ev.detail.formId && ev.detail.formId !== HS_FORM_ID) return;
+    hsForm = hsGetForm();
+    var w = $(S.hsWrapId);
+    if (w) w.className = 'vos-hsform is-ready';
+    hsAttachMetadata();
+  });
+
+  window.addEventListener('hs-form-event:on-submitted', function (ev) {
+    if (ev.detail && ev.detail.formId && ev.detail.formId !== HS_FORM_ID) return;
+    openGate('on-submitted');
+  });
+
+  /* on-submit fires before HubSpot has accepted anything, so give the
+     conversion id a moment to claim the credit instead. */
+  window.addEventListener('hs-form-event:on-submit', function (ev) {
+    if (ev.detail && ev.detail.formId && ev.detail.formId !== HS_FORM_ID) return;
+    window.setTimeout(function () { openGate('on-submit'); }, 1200);
+  });
+
+  function enterGate() {
+    paint();
+    hsForm = hsForm || hsGetForm();
+    hsAttachMetadata();
+    startHsPoll();
+    window.setTimeout(function () {
+      if (unlocked) return;
+      var frame = root.querySelector('.hs-form-frame');
+      if (!frame || frame.children.length === 0) {
+        var w = $(S.hsWrapId);
+        if (w) w.className = 'vos-hsform is-failed';
+      }
+    }, 8000);
+  }
+
+  /* ---------------------------------------------------------- wiring */
+  root.addEventListener('change', function (ev) {
+    var el = ev.target;
+    var group = el.getAttribute && el.getAttribute('data-group');
+    if (!group) return;
+    answers[group] = el.value;
+
+    var peers = root.querySelectorAll('input[data-group="' + group + '"]');
+    for (var i = 0; i < peers.length; i++) {
+      peers[i].parentNode.className = 'vos-opt' + (peers[i].checked ? ' is-sel' : '');
+    }
+    clearErrors();
+
+    /* Reveal the Continue button for this question, so the step can be left
+       again on a second pass: re-clicking a selected radio fires no change. */
+    var armed = root.querySelectorAll('[data-arm="' + group + '"]');
+    for (var j = 0; j < armed.length; j++) {
+      if (armed[j].className.indexOf('is-on') < 0) armed[j].className += ' is-on';
+    }
+
+    /* A choice that reveals a field, and a choice the calculator itself wants. */
+    var rev = S.reveals[group];
+    if (rev) {
+      var wrap = $(rev.wrapId);
+      if (wrap) wrap.className = 'vos-sub-field' + (rev.hideOn.indexOf(el.value) > -1 ? '' : ' is-on');
+      if (rev.hintId && rev.hints && rev.hints[el.value]) {
+        var hint = $(rev.hintId);
+        if (hint) hint.textContent = rev.hints[el.value];
+      }
+    }
+    pushToCalc();
+    paintEchoes();
+
+    if (S.autoGroups.indexOf(group) > -1) {
+      window.setTimeout(function () { if (validate()) go(1); }, 220);
+    }
+  });
+
+  root.addEventListener('focusin', function (ev) {
+    if (ev.target.getAttribute && ev.target.getAttribute('data-group')) {
+      ev.target.parentNode.className += ' is-focus';
+    }
+  });
+  root.addEventListener('focusout', function (ev) {
+    if (ev.target.getAttribute && ev.target.getAttribute('data-group')) {
+      ev.target.parentNode.className = ev.target.parentNode.className.replace(/\s*is-focus/g, '');
+    }
+  });
+
+  root.addEventListener('click', function (ev) {
+    var el = ev.target;
+    while (el && el !== root && !(el.hasAttribute && (el.hasAttribute('data-next') || el.hasAttribute('data-back')))) {
+      el = el.parentNode;
+    }
+    if (!el || el === root) return;
+    if (el.hasAttribute('data-back')) { go(-1); return; }
+    if (validate()) go(1);
+  });
+
+  root.addEventListener('keydown', function (ev) {
+    if (ev.key !== 'Enter') return;
+    var t = ev.target;
+    if (!t.tagName || t.tagName.toLowerCase() !== 'input') return;
+    if (t.type === 'radio') return;
+    ev.preventDefault();
+    if (validate()) go(1);
+  });
+
+  root.addEventListener('input', function (ev) {
+    if (!ev.target.id || ev.target.id.indexOf(S.fieldPrefix) !== 0) return;
+    pushToCalc();
+    paintEchoes();
+  });
+
+  var skip = $(S.hsSkipId);
+  if (skip) skip.addEventListener('click', function () { openGate('form-unavailable'); });
+
+  var again = $(S.againId);
+  if (again) again.addEventListener('click', function () { clearErrors(); show(S.firstNumberStep); });
+
+  pushToCalc();
+  paintEchoes();
+  paint();
+  show(0);
+})();
+  </script>

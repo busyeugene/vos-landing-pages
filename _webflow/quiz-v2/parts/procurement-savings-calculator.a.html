@@ -1,0 +1,443 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+    .vos-calc{
+      --vos-blue:#0099e6; --vos-blue-dark:#014b7d; --vos-blue-soft:#eaeef1;
+      --vos-navy:#023c64; --vos-slate:#344054; --vos-muted:#667085;
+      --vos-border:#eaecf0; --vos-bg:#f9fafb; --vos-white:#ffffff;
+      --vos-green:#02b845; --vos-green-soft:#ecfdf3;
+      --vos-radius:12px; --vos-shadow:0 1px 3px rgba(2,60,100,.08),0 8px 24px rgba(2,60,100,.06);
+      all:revert;
+      box-sizing:border-box;
+      font-family:'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--vos-slate); line-height:1.5; max-width:760px; margin:0 auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    .vos-calc *,.vos-calc *::before,.vos-calc *::after{box-sizing:border-box;}
+    .vos-calc input,.vos-calc select,.vos-calc button,.vos-calc textarea{font-family:inherit;}
+    .vos-calc .vos-card{
+      background:var(--vos-white); border:1px solid var(--vos-border);
+      border-radius:var(--vos-radius); box-shadow:var(--vos-shadow); overflow:hidden;
+    }
+    .vos-calc .vos-head{background:var(--vos-navy); color:#fff; padding:22px 24px;}
+    .vos-calc .vos-head h3{margin:0;font-family:'Montserrat',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#fff;line-height:1.3;}
+    .vos-calc .vos-head p{margin:6px 0 0;font-size:14px;color:#c7dced;}
+    .vos-calc .vos-body{padding:24px;}
+    .vos-calc .vos-legend{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--vos-muted);margin:0 0 12px;}
+    .vos-calc .vos-legend.vos-sep{margin-top:24px;padding-top:20px;border-top:1px solid var(--vos-border);}
+    .vos-calc .vos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media(max-width:560px){.vos-calc .vos-grid{grid-template-columns:1fr;}}
+    .vos-calc label{display:block;font-size:13px;font-weight:600;color:var(--vos-slate);margin-bottom:6px;}
+    .vos-calc .vos-hint{display:block;font-size:11.5px;font-weight:400;color:var(--vos-muted);margin-top:5px;}
+    .vos-calc .vos-field{position:relative;margin-bottom:4px;}
+    .vos-calc .vos-prefix{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:15px;font-weight:600;pointer-events:none;}
+    .vos-calc input[type=number]{
+      width:100%;padding:12px 14px 12px 28px;font-size:16px;color:var(--vos-navy);
+      background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;transition:border-color .15s,box-shadow .15s;-moz-appearance:textfield;
+    }
+    .vos-calc input.vos-plain{padding-left:14px;}
+    .vos-calc input[type=number]:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background:#fff;}
+    .vos-calc input[type=number]::-webkit-outer-spin-button,
+    .vos-calc input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+    .vos-calc .vos-suffix{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:13px;font-weight:600;pointer-events:none;}
+    .vos-calc input.vos-hassuffix{padding-right:74px;}
+    .vos-calc .vos-slider-wrap{margin-top:12px;}
+    .vos-calc input[type=range]{width:100%;-webkit-appearance:none;appearance:none;height:6px;border-radius:6px;background:var(--vos-border);outline:none;margin:0;}
+    .vos-calc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:22px;height:22px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc .vos-toggle{display:inline-flex;background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;padding:4px;margin-bottom:18px;}
+    .vos-calc .vos-toggle button{border:none;background:transparent;padding:7px 16px;font-size:13px;font-weight:600;color:var(--vos-muted);border-radius:7px;cursor:pointer;transition:all .15s;}
+    .vos-calc .vos-toggle button.vos-on{background:#fff;color:var(--vos-blue-dark);box-shadow:0 1px 2px rgba(2,60,100,.1);}
+    .vos-calc .vos-results{margin-top:22px;border-top:1px solid var(--vos-border);padding-top:22px;}
+    .vos-calc .vos-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.vos-calc .vos-result-grid{grid-template-columns:1fr;}}
+    .vos-calc .vos-stat{background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:12px;padding:16px;}
+    .vos-calc .vos-stat .vos-k{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--vos-muted);margin-bottom:4px;}
+    .vos-calc .vos-stat .vos-v{font-family:'Montserrat',sans-serif;font-size:24px;font-weight:800;color:var(--vos-navy);letter-spacing:-.02em;}
+    .vos-calc .vos-stat .vos-sub{font-size:11.5px;color:var(--vos-muted);margin-top:3px;}
+    .vos-calc .vos-stat.vos-hero{background:var(--vos-blue-soft);border-color:#c3d5e3;}
+    .vos-calc .vos-stat.vos-hero .vos-v{color:var(--vos-blue-dark);}
+    .vos-calc .vos-stat.vos-profit{background:var(--vos-green-soft);border-color:#b6f0cd;}
+    .vos-calc .vos-stat.vos-profit .vos-v{color:#02914f;}
+    .vos-calc .vos-stat.vos-loss{background:#fef3f2;border-color:#fecdca;}
+    .vos-calc .vos-stat.vos-loss .vos-v{color:#b42318;}
+    .vos-calc .vos-tip{display:flex;gap:10px;margin-top:18px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#854d0e;}
+    .vos-calc .vos-tip b{color:#713f12;}
+    .vos-calc .vos-tip svg{flex:0 0 auto;margin-top:1px;}
+    .vos-calc .vos-cta{margin-top:18px;background:var(--vos-navy);border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+    .vos-calc .vos-cta .vos-cta-txt{font-size:14px;color:#c7dced;max-width:62%;min-width:220px;}
+    .vos-calc .vos-cta .vos-cta-txt b{color:#fff;display:block;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;margin-bottom:2px;}
+    .vos-calc .vos-cta a{background:var(--vos-blue);color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:8px;white-space:nowrap;transition:background .15s;}
+    .vos-calc .vos-cta a:hover{background:#00add4;}
+    .vos-calc .vos-reset{margin-top:14px;background:none;border:none;color:var(--vos-muted);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline;padding:0;}
+    .vos-calc .vos-foot{text-align:center;font-size:11.5px;color:var(--vos-muted);margin-top:14px;}
+  </style>
+<!-- ============================================================
+     VOICEORDER SOLUTIONS V2 QUIZ: How much of what you negotiated reaches the P&L?
+     GENERATED by scripts/build_v2.js. Do not hand-edit.
+     Source: lead-magnets-v2/specs/procurement-savings.js
+             lead-magnets-v2/_engine/
+             lead-magnets/procurement-savings-calculator.html
+
+     The shipped calculator is inlined below, hidden, and driven by
+     the quiz. Nothing in this file does arithmetic, so the numbers
+     here are the calculator's own.
+     ============================================================ -->
+<div class="vos-quiz" id="vos-q-procurement-savings">
+
+  <div class="vos-calc-host" aria-hidden="true">
+<!-- ============================================================
+     VOICEORDER SOLUTIONS LEAD MAGNET: Procurement Savings Calculator
+     Self-contained. No external libraries. Paste this whole
+     block into a blog "Custom HTML" / "Raw HTML" embed.
+     All styles are scoped under .vos-calc so they won't
+     touch the rest of your page. Recolor in one place via
+     the CSS variables on .vos-calc.
+     ============================================================ -->
+<div class="vos-calc" id="vos-procsave">
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Procurement Savings Calculator</h3>
+      <p>Procurement cost savings and cost avoidance are two different numbers. This one splits them, because reporting a single total is how a procurement claim stops being believed.</p>
+    </div>
+    <div class="vos-body">
+
+      <p class="vos-legend">The contract you signed</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-ps-volume">Annual volume</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-ps-volume" min="0" step="any" value="72000" inputmode="decimal">
+            <span class="vos-suffix">cases</span>
+          </div>
+          <span class="vos-hint">Cases a year of this item or this category. Calculating cost savings needs the volume, not just the price.</span>
+        </div>
+        <div>
+          <label for="vos-ps-old">Old price per case</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-ps-old" min="0" step="any" value="24.00" inputmode="decimal">
+          </div>
+          <span class="vos-hint">What you paid before the negotiation, on the same freight terms.</span>
+        </div>
+        <div>
+          <label for="vos-ps-new">Negotiated price per case</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-ps-new" min="0" step="any" value="22.56" inputmode="decimal">
+          </div>
+          <span class="vos-hint">The price on the new agreement. Old less new is the hard saving, and that over baseline spend is how you calculate cost savings percentage.</span>
+        </div>
+      </div>
+
+      <p class="vos-legend vos-sep">The increase you kept off the table</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-ps-avoided">Increase you avoided</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-ps-avoided" min="0" max="100" step="any" value="3" inputmode="decimal">
+            <span class="vos-suffix">%</span>
+          </div>
+          <div class="vos-slider-wrap">
+            <input type="range" id="vos-ps-avoided-slider" min="0" max="20" step="1" value="3">
+          </div>
+          <span class="vos-hint">The increase the supplier asked for and did not get. Set it to 0 if nothing was on the table.</span>
+        </div>
+      </div>
+
+      <div class="vos-results">
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero" id="vos-ps-hard-card">
+            <div class="vos-k">Hard savings a year</div>
+            <div class="vos-v" id="vos-ps-hard">$103,680</div>
+            <div class="vos-sub" id="vos-ps-hard-sub">$1.44 a case across 72,000 cases</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Cost avoidance a year</div>
+            <div class="vos-v" id="vos-ps-avoid">$51,840</div>
+            <div class="vos-sub" id="vos-ps-avoid-sub">$0.72 a case, the 3% increase that never reached an invoice</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Total benefit claimed</div>
+            <div class="vos-v" id="vos-ps-total">$155,520</div>
+            <div class="vos-sub" id="vos-ps-total-sub">$103,680 hard plus $51,840 avoided</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Hard savings as a share of spend</div>
+            <div class="vos-v" id="vos-ps-hardpct">6.0%</div>
+            <div class="vos-sub" id="vos-ps-hardpct-sub">Of $1,728,000 of baseline spend</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Total benefit as a share of spend</div>
+            <div class="vos-v" id="vos-ps-benefitpct">9.0%</div>
+            <div class="vos-sub" id="vos-ps-benefitpct-sub">What a deck claims, against 6.0% the accounts will show</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Baseline annual spend</div>
+            <div class="vos-v" id="vos-ps-baseline">$1,728,000</div>
+            <div class="vos-sub" id="vos-ps-baseline-sub">72,000 cases at $24.00</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">New annual spend</div>
+            <div class="vos-v" id="vos-ps-newspend">$1,624,320</div>
+            <div class="vos-sub" id="vos-ps-newspend-sub">$1,728,000 less the $103,680 you took out</div>
+          </div>
+          <div class="vos-stat vos-profit" id="vos-ps-monthly-card">
+            <div class="vos-k">Hard savings a month</div>
+            <div class="vos-v" id="vos-ps-monthly">$8,640</div>
+            <div class="vos-sub" id="vos-ps-monthly-sub">$103,680 a year across 12 months</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="vos-tip-text">Only the <b>$103,680</b> of hard savings reaches the P&amp;L, where spend drops from $1,728,000 to $1,624,320. The <b>$51,840</b> of cost avoidance is real, and invisible, because the increase never reached an invoice. Report them on separate lines or finance stops believing either one.</div>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="vos-reset">Reset calculator</button>
+        </div>
+        <div class="vos-foot">Estimates only. Procurement cost savings vs cost avoidance is a reporting distinction, not an accounting one: hard savings change what you pay, cost avoidance changes what you would have paid.</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Procurement Savings Calculator ============ -->
+  </div>
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>How much of what you negotiated reaches the P&amp;L?</h3>
+      <p>Five quick questions. At the end you get hard savings and cost avoidance separated, because only one of the two ever shows up in the accounts.</p>
+      <div class="vos-prog" role="progressbar" aria-valuemin="0" aria-valuemax="7" aria-valuenow="1" aria-label="Quiz progress" id="q-prog">
+        <div class="vos-prog-bar" id="q-bar"></div>
+      </div>
+      <div class="vos-prog-txt" id="q-progtxt">Step 1 of 7</div>
+    </div>
+
+    <div class="vos-body" aria-live="polite">
+
+      <section class="vos-step is-on" id="procurement-savings-s1">
+        <p class="vos-eyebrow">The situation</p>
+        <h4 class="vos-q">What did you just negotiate?</h4>
+        <p class="vos-qsub">Pick the closest one.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What did you just negotiate?">
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-situation" data-group="situation" value="price-down"><span class="vos-dot"></span><span>A price down on a line we buy a lot of</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-situation" data-group="situation" value="held-increase"><span class="vos-dot"></span><span>We held off an increase they wanted</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-situation" data-group="situation" value="switched"><span class="vos-dot"></span><span>We switched supplier and took cost out</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-situation" data-group="situation" value="reporting"><span class="vos-dot"></span><span>I need to report savings and want them honest</span></label>
+        </div>
+        <div class="vos-err" id="procurement-savings-s1-err">Pick one to carry on.</div>
+        <div class="vos-nav vos-armed" data-arm="situation">
+          <button type="button" class="vos-next" data-next>Continue</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="procurement-savings-s2">
+        <p class="vos-eyebrow">The volume</p>
+        <h4 class="vos-q">How much of it do you buy a year?</h4>
+        <p class="vos-qsub">Annual, not monthly. Savings claims are almost always annual.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-ps-volume">Annual volume</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-ps-volume" min="0" step="any" value="72000" inputmode="decimal">
+              <span class="vos-suffix">cases/yr</span>
+            </div>
+            <span class="vos-hint">Cases bought across the year, of this item or this line.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="procurement-savings-s2-err">Enter an annual volume above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="procurement-savings-s3">
+        <p class="vos-eyebrow">The two prices</p>
+        <h4 class="vos-q">What were you paying, and what did you get it to?</h4>
+        <p class="vos-qsub">The gap between these two is the only part that reaches the accounts.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-ps-old">Old price per case</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-ps-old" min="0" step="any" value="24.00" inputmode="decimal">
+            </div>
+            <span class="vos-hint">What you were actually paying before.</span>
+          </div>
+          <div>
+            <label for="q-vos-ps-new">Negotiated price per case</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-ps-new" min="0" step="any" value="22.56" inputmode="decimal">
+            </div>
+            <span class="vos-hint">What you pay now.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="procurement-savings-s3-err">Those cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="procurement-savings-s4">
+        <p class="vos-eyebrow">The part you cannot see</p>
+        <h4 class="vos-q">And what increase did you avoid?</h4>
+        <p class="vos-qsub">Real money, and genuinely worth claiming. It just never shows up as a lower invoice.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-ps-avoided">Increase you avoided</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-ps-avoided" min="0" step="any" value="3" inputmode="decimal">
+              <span class="vos-suffix">%</span>
+            </div>
+            <span class="vos-hint">What they asked for and did not get.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="procurement-savings-s4-err">That cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="procurement-savings-s5">
+        <p class="vos-eyebrow">How you run it today</p>
+        <h4 class="vos-q">How do you track what you actually paid?</h4>
+        <p class="vos-qsub">A saving you cannot evidence is a saving finance will discount.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="How do you track what you actually paid?">
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-tracking" data-group="tracking" value="invoices"><span class="vos-dot"></span><span>We go back through invoices when asked</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-tracking" data-group="tracking" value="spreadsheet"><span class="vos-dot"></span><span>A spreadsheet someone maintains</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-tracking" data-group="tracking" value="memory"><span class="vos-dot"></span><span>We know roughly what we pay</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-tracking" data-group="tracking" value="system"><span class="vos-dot"></span><span>The system reports it</span></label>
+        </div>
+        <div class="vos-err" id="procurement-savings-s5-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="tracking" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="procurement-savings-s6">
+        <p class="vos-eyebrow">How you buy</p>
+        <h4 class="vos-q">What do you buy against?</h4>
+        <p class="vos-qsub">Last one before your numbers.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What do you buy against?">
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-buyagainst" data-group="buyagainst" value="memory"><span class="vos-dot"></span><span>What we think will sell</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-buyagainst" data-group="buyagainst" value="last-month"><span class="vos-dot"></span><span>Last month, adjusted by eye</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-buyagainst" data-group="buyagainst" value="par"><span class="vos-dot"></span><span>Par levels we set and revisit</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-procurement-savings-buyagainst" data-group="buyagainst" value="actual-orders"><span class="vos-dot"></span><span>The orders our accounts have actually placed</span></label>
+        </div>
+        <div class="vos-err" id="procurement-savings-s6-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="buyagainst" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="procurement-savings-gate">
+        <p class="vos-eyebrow">Your breakdown is ready</p>
+
+        <div class="vos-preview">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Hard savings a year</div>
+            <div class="vos-v" id="q-preview">--</div>
+            <div class="vos-sub">The headline number. The rest are below.</div>
+          </div>
+        </div>
+
+        <h4 class="vos-q">Want to see your results?</h4>
+        <p class="vos-qsub">You have given us enough to work this out. Fill this in and the full breakdown opens up.</p>
+
+        <div class="vos-hsform" id="q-hsform">
+          
+          <div class="hs-form-frame" data-region="na1" data-form-id="f854c1d7-fedd-4ba0-a8fb-98af24925dfc" data-portal-id="51996060"></div>
+          <div class="vos-hsload" id="q-hsload">Loading the form.</div>
+          <div class="vos-hsfail" id="q-hsfail">
+            <b>The form did not load.</b>
+            <span>Your browser or your network is most likely blocking it. That should not cost you the numbers you just worked out.</span>
+            <button type="button" class="vos-next" id="q-hsskip">Show my numbers anyway</button>
+          </div>
+        </div>
+        <div class="vos-nav">
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+        <p class="vos-privacy">Your details go straight to our team, who will follow up about these numbers.</p>
+      </section>
+
+      <section class="vos-step" id="procurement-savings-results">
+        <div class="vos-verdict is-go" id="q-verdict">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <div>
+            <h4 id="q-vtitle">Your result</h4>
+            <p id="q-vtext">Working it out.</p>
+          </div>
+        </div>
+
+        <p class="vos-greet" id="q-greet">Here is your breakdown.</p>
+        <p class="vos-greetsub" id="q-greetsub"></p>
+
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero" id="qcard-vos-ps-hard">
+            <div class="vos-k">Hard savings a year</div>
+            <div class="vos-v" id="qc-vos-ps-hard">--</div>
+            <div class="vos-sub" id="qcs-vos-ps-hard"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-ps-avoid">
+            <div class="vos-k">Cost avoidance a year</div>
+            <div class="vos-v" id="qc-vos-ps-avoid">--</div>
+            <div class="vos-sub" id="qcs-vos-ps-avoid"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-ps-total">
+            <div class="vos-k">Total benefit claimed</div>
+            <div class="vos-v" id="qc-vos-ps-total">--</div>
+            <div class="vos-sub" id="qcs-vos-ps-total"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-ps-hardpct">
+            <div class="vos-k">Hard savings as a share of spend</div>
+            <div class="vos-v" id="qc-vos-ps-hardpct">--</div>
+            <div class="vos-sub" id="qcs-vos-ps-hardpct"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-ps-monthly">
+            <div class="vos-k">Hard savings a month</div>
+            <div class="vos-v" id="qc-vos-ps-monthly">--</div>
+            <div class="vos-sub" id="qcs-vos-ps-monthly"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-ps-newspend">
+            <div class="vos-k">New annual spend</div>
+            <div class="vos-v" id="qc-vos-ps-newspend">--</div>
+            <div class="vos-sub" id="qcs-vos-ps-newspend"></div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="q-tip"></div>
+        </div>
+
+        <div class="vos-cta">
+          <div class="vos-cta-txt">
+            <b>You cannot negotiate on volume you cannot see.</b>
+            VoiceOrder Solutions keeps inventory visibility live as orders are processed, so the volume you take to a supplier is the volume you actually move.
+          </div>
+          <a href="https://www.voiceordersolutions.com/contact-us" target="_blank" rel="noopener">Book A Demo &rarr;</a>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="q-again">Change my numbers</button>
+        </div>
+        <div class="vos-foot" id="q-foot">Estimates only. Confirm the baseline price before claiming a saving against it.</div>
+        <div class="vos-debug" id="q-debug"></div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END How much of what you negotiated reaches the P&L? ============ -->

@@ -1,0 +1,471 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-pricecomp');
+    var $ = function(id){ return root.querySelector('#'+id); };
+
+    var OPTS = [
+      {letter:'A', name:'Option A', price:$('vos-pc-a-price'), units:$('vos-pc-a-units'), freight:$('vos-pc-a-freight'),
+       valEl:$('vos-pc-a-unit'), subEl:$('vos-pc-a-sub'), cardEl:$('vos-pc-a-card')},
+      {letter:'B', name:'Option B', price:$('vos-pc-b-price'), units:$('vos-pc-b-units'), freight:$('vos-pc-b-freight'),
+       valEl:$('vos-pc-b-unit'), subEl:$('vos-pc-b-sub'), cardEl:$('vos-pc-b-card')},
+      {letter:'C', name:'Option C', price:$('vos-pc-c-price'), units:$('vos-pc-c-units'), freight:$('vos-pc-c-freight'),
+       valEl:$('vos-pc-c-unit'), subEl:$('vos-pc-c-sub'), cardEl:$('vos-pc-c-card')}
+    ];
+
+    var need=$('vos-pc-need'),
+        bestEl=$('vos-pc-best'), bestSub=$('vos-pc-best-sub'),
+        saveEl=$('vos-pc-save'), saveSub=$('vos-pc-save-sub'), saveCard=$('vos-pc-save-card'),
+        runnerEl=$('vos-pc-runner'), runnerSub=$('vos-pc-runner-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-pc-a-price':24,'vos-pc-a-units':12,'vos-pc-a-freight':1.4,
+                  'vos-pc-b-price':45,'vos-pc-b-units':24,'vos-pc-b-freight':2.1,
+                  'vos-pc-c-price':19,'vos-pc-c-units':10,'vos-pc-c-freight':1.2,
+                  'vos-pc-need':6000};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ return Math.round(n*100)/100; }
+    function qty(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US'); }
+    function whole(n){ if(!isFinite(n)) n=0; return n===Math.round(n)?String(n):n.toFixed(1); }
+
+    function calc(){
+      var N = num(need);
+
+      // Landed cost settles to whole cents, and the per unit figure settles again, so
+      // every gap below is the subtraction a reader can do straight off the cards.
+      var valids = [];
+      OPTS.forEach(function(o){
+        var P=num(o.price), U=num(o.units), F=num(o.freight);
+        o.casePrice=P; o.unitCount=U;
+        o.landed = cents(P+F);
+        o.perUnit = (P>0 && U>0) ? cents(o.landed/U) : NaN;
+        o.cardEl.className = 'vos-stat';
+        if(isFinite(o.perUnit)){
+          o.valEl.textContent = money2(o.perUnit);
+          o.subEl.textContent = money2(o.landed)+' landed over '+whole(U)+' units';
+          valids.push(o);
+        } else {
+          o.valEl.textContent = '--';
+          o.subEl.textContent = 'Enter a case price and a pack count';
+        }
+      });
+
+      if(valids.length===0){
+        bestEl.textContent='--';
+        bestSub.textContent='Enter a case price and a pack count for at least two offers';
+        saveEl.textContent='--'; saveSub.textContent=''; saveCard.className='vos-stat';
+        runnerEl.textContent='--'; runnerSub.textContent='';
+        tip.innerHTML='Enter the <b>case price</b>, the <b>units per case</b> and the <b>freight</b> for each offer. The cheapest case is not always the cheapest unit, and the pack count is usually the reason.';
+        return;
+      }
+
+      var byUnit = valids.slice().sort(function(x,y){ return x.perUnit-y.perUnit; });
+      var byCase = valids.slice().sort(function(x,y){ return x.casePrice-y.casePrice; });
+      var best = byUnit[0], dearest = byUnit[byUnit.length-1];
+
+      bestEl.textContent = best.name+', '+money2(best.perUnit);
+      bestSub.textContent = money2(best.landed)+' landed over '+whole(best.unitCount)+' units a case';
+
+      if(valids.length<2){
+        saveEl.textContent='--';
+        saveSub.textContent='Enter a second offer to price it against';
+        saveCard.className='vos-stat';
+        runnerEl.textContent='--';
+        runnerSub.textContent='Nothing to rank it against yet';
+        tip.innerHTML=best.name+' lands at <b>'+money2(best.perUnit)+'</b> a unit. Add a second offer to see how far apart two quotes really are once freight and the pack count are counted.';
+        return;
+      }
+
+      var saving = cents(dearest.perUnit - best.perUnit);
+      var runner = byUnit[1];
+      var gap = cents(runner.perUnit - best.perUnit);
+
+      // Dollars a month when there is a volume, otherwise the per unit gap on its own.
+      function monthly(per){ return N>0 ? money(per*N)+' a month' : money2(per)+' a unit'; }
+
+      if(saving < 0.005){
+        bestEl.textContent = 'It is a tie';
+        bestSub.textContent = (valids.length===2?'Both offers land at ':'All three offers land at ')+money2(best.perUnit)+' a unit';
+        saveEl.textContent = money(0)+' a month';
+        saveSub.textContent = 'No gap between the offers on landed cost per unit';
+        saveCard.className = 'vos-stat';
+        runnerEl.textContent = '--';
+        runnerSub.textContent = 'No runner up to price against';
+        tip.innerHTML = 'These offers all land at <b>'+money2(best.perUnit)+'</b> a unit once freight and the pack count are counted, so cost will not decide it. Rank them on lead time, fill rate and how often the pack count moves instead.';
+        return;
+      }
+
+      saveEl.textContent = monthly(saving);
+      saveSub.textContent = money2(saving)+' a unit under '+dearest.name+(N>0 ? ', at '+qty(N)+' units a month' : ', add monthly units to see the dollars');
+      saveCard.className = 'vos-stat vos-profit';
+
+      if(gap < 0.005){
+        runnerEl.textContent = money(0)+' a month';
+        runnerSub.textContent = runner.name+' lands at the same '+money2(best.perUnit)+' a unit';
+      } else {
+        runnerEl.textContent = monthly(gap);
+        runnerSub.textContent = runner.name+' is '+money2(gap)+' a unit more than '+best.name;
+      }
+
+      best.cardEl.className = 'vos-stat vos-profit';
+      dearest.cardEl.className = 'vos-stat vos-loss';
+
+      // The teaching moment: the case price ranking and the landed unit ranking disagree.
+      var caseStr = byCase.map(function(o){ return o.letter+' '+money2(o.casePrice); }).join(', ');
+      var unitStr = byUnit.map(function(o){ return o.letter; }).join(', ');
+      var sameOrder = byCase.map(function(o){ return o.letter; }).join('') === byUnit.map(function(o){ return o.letter; }).join('');
+      var cheapCase = byCase[0], dearCase = byCase[byCase.length-1];
+
+      if(sameOrder){
+        tip.innerHTML = 'Here the case price and the landed cost per unit rank the same way, so <b>'+best.name+'</b> wins either way at <b>'+money2(best.perUnit)+'</b> a unit. That stops being true the moment one supplier changes a pack count or a freight term, which is why the ranking belongs on the unit and not on the case.';
+      } else if(dearCase.letter===best.letter){
+        tip.innerHTML = 'By case price the order is <b>'+caseStr+'</b>. By landed cost per unit it comes out <b>'+unitStr+'</b>. The dearest case on the sheet, <b>'+dearCase.name+' at '+money2(dearCase.casePrice)+'</b>, is the cheapest unit at <b>'+money2(best.perUnit)+'</b>, and '+cheapCase.name+' only looks cheap because its case holds '+whole(cheapCase.unitCount)+' units. Rank the quote on landed cost per unit or the case price picks for you.';
+      } else {
+        tip.innerHTML = 'By case price the order is <b>'+caseStr+'</b>. By landed cost per unit it comes out <b>'+unitStr+'</b>. '+cheapCase.name+' has the cheapest case at '+money2(cheapCase.casePrice)+' and is still not the cheapest unit. <b>'+best.name+'</b> is, at <b>'+money2(best.perUnit)+'</b>, which is '+monthly(saving)+' against the dearest offer.';
+      }
+    }
+
+    OPTS.forEach(function(o){ [o.price,o.units,o.freight].forEach(function(el){ el.addEventListener('input', calc); }); });
+    need.addEventListener('input', calc);
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "price-comparison",
+  "rootId": "vos-q-price-comparison",
+  "calcRootId": "vos-pricecomp",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "price-comparison-s1",
+    "price-comparison-s2",
+    "price-comparison-s3",
+    "price-comparison-s4",
+    "price-comparison-s5",
+    "price-comparison-s6"
+  ],
+  "gateId": "price-comparison-gate",
+  "resultsId": "price-comparison-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a case price and a unit count above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-pc-a-price",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pc-a-units",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pc-a-freight",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a case price and a unit count above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-pc-b-price",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pc-b-units",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pc-b-freight",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a case price and a unit count above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-pc-c-price",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pc-c-units",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pc-c-freight",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-pc-need",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "quotes",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "recheck",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-pc-a-price",
+      "calcId": "vos-pc-a-price",
+      "qid": "q-vos-pc-a-price"
+    },
+    {
+      "id": "vos-pc-a-units",
+      "calcId": "vos-pc-a-units",
+      "qid": "q-vos-pc-a-units"
+    },
+    {
+      "id": "vos-pc-a-freight",
+      "calcId": "vos-pc-a-freight",
+      "qid": "q-vos-pc-a-freight"
+    },
+    {
+      "id": "vos-pc-b-price",
+      "calcId": "vos-pc-b-price",
+      "qid": "q-vos-pc-b-price"
+    },
+    {
+      "id": "vos-pc-b-units",
+      "calcId": "vos-pc-b-units",
+      "qid": "q-vos-pc-b-units"
+    },
+    {
+      "id": "vos-pc-b-freight",
+      "calcId": "vos-pc-b-freight",
+      "qid": "q-vos-pc-b-freight"
+    },
+    {
+      "id": "vos-pc-c-price",
+      "calcId": "vos-pc-c-price",
+      "qid": "q-vos-pc-c-price"
+    },
+    {
+      "id": "vos-pc-c-units",
+      "calcId": "vos-pc-c-units",
+      "qid": "q-vos-pc-c-units"
+    },
+    {
+      "id": "vos-pc-c-freight",
+      "calcId": "vos-pc-c-freight",
+      "qid": "q-vos-pc-c-freight"
+    },
+    {
+      "id": "vos-pc-need",
+      "calcId": "vos-pc-need",
+      "qid": "q-vos-pc-need"
+    }
+  ],
+  "groups": [
+    "situation",
+    "quotes",
+    "recheck"
+  ],
+  "autoGroups": [
+    "situation",
+    "quotes",
+    "recheck"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-pc-best",
+      "qid": "qc-vos-pc-best",
+      "cardId": "qcard-vos-pc-best",
+      "qsubId": "qcs-vos-pc-best",
+      "subFrom": "vos-pc-best-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-pc-save",
+      "qid": "qc-vos-pc-save",
+      "cardId": "qcard-vos-pc-save",
+      "qsubId": "qcs-vos-pc-save",
+      "subFrom": "vos-pc-save-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-pc-save-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-pc-a-unit",
+      "qid": "qc-vos-pc-a-unit",
+      "cardId": "qcard-vos-pc-a-unit",
+      "qsubId": "qcs-vos-pc-a-unit",
+      "subFrom": "vos-pc-a-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pc-b-unit",
+      "qid": "qc-vos-pc-b-unit",
+      "cardId": "qcard-vos-pc-b-unit",
+      "qsubId": "qcs-vos-pc-b-unit",
+      "subFrom": "vos-pc-b-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pc-c-unit",
+      "qid": "qc-vos-pc-c-unit",
+      "cardId": "qcard-vos-pc-c-unit",
+      "qsubId": "qcs-vos-pc-c-unit",
+      "subFrom": "vos-pc-c-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pc-runner",
+      "qid": "qc-vos-pc-runner",
+      "cardId": "qcard-vos-pc-runner",
+      "qsubId": "qcs-vos-pc-runner",
+      "subFrom": "vos-pc-runner-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm freight terms and pack counts against the quote.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "quotes",
+      "weights": {
+        "phone": 30,
+        "email-pdf": 26,
+        "rep-visit": 22,
+        "portal": 8
+      }
+    },
+    {
+      "group": "recheck",
+      "weights": {
+        "rarely": 25,
+        "yearly": 20,
+        "quarterly": 12,
+        "every-order": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "annual-bid": 15,
+        "cost-pressure": 14,
+        "new-supplier": 12,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-pc-need",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        5000,
+        22
+      ],
+      [
+        1000,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    var best = String(read['vos-pc-best'] || '');
+    if (!best || best === '--') {
+      return { tone: 'is-wait', title: 'Not enough to rank them.',
+        text: 'Go back and put in a case price and a unit count for all three offers.' };
+    }
+    if (ans.recheck === 'rarely') {
+      return { tone: 'is-go', title: best + ' wins on landed cost.',
+        text: 'It is worth ' + read['vos-pc-save'] + ' against the dearest offer, and '
+            + read['vos-pc-runner'] + ' against the runner up. Worth knowing, given prices only get '
+            + 'rechecked here when something looks wrong.' };
+    }
+    return { tone: 'is-go', title: best + ' wins on landed cost.',
+      text: 'That is ' + read['vos-pc-save'] + ' against the dearest of the three, and '
+          + read['vos-pc-runner'] + ' against the runner up.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Across ' + (f['vos-pc-need'] || 0).toLocaleString('en-US') + ' units a month, freight in.';
+  },
+  "echoes": []
+};
+  </script>

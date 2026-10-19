@@ -28,3 +28,7 @@ as holes under `nonzero`; reversing their direction would fill them in solid.
 Sized to sit level with the Solutions glyph (body spans x 9-41 of the 50 unit box). A narrower body
 looked small beside it, and a four-row button grid turned muddy at 24px. `_nav-dropdown-percent-alt.svg`
 is the alternative; it is heavier than the rest of the menu.
+
+`_nav-dropdown-balance-scale.svg` is the Comparisons (`/alternatives`) entry, in the same wrapper.
+It matches the hub's card icon (`vos-balance-scale.svg`) and replaced a stock gear glyph (2026-10-19).
+Every subpath runs clockwise, so overlapping parts merge into one solid shape under `nonzero`.

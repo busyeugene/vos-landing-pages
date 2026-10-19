@@ -1,0 +1,429 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-delivery');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var wage=$('vos-dc-wage'), hours=$('vos-dc-hours'), miles=$('vos-dc-miles'),
+        mpg=$('vos-dc-mpg'), fuel=$('vos-dc-fuel'), fixed=$('vos-dc-fixed'),
+        drops=$('vos-dc-drops'), cases=$('vos-dc-cases'), days=$('vos-dc-days'),
+        perDropEl=$('vos-dc-perdrop'), perDropSub=$('vos-dc-perdrop-sub'),
+        totalEl=$('vos-dc-total'), totalSub=$('vos-dc-total-sub'),
+        perCaseEl=$('vos-dc-percase'), perCaseSub=$('vos-dc-percase-sub'),
+        perMileEl=$('vos-dc-permile'), perMileSub=$('vos-dc-permile-sub'),
+        fuelCostEl=$('vos-dc-fuelcost'), fuelCostSub=$('vos-dc-fuelcost-sub'),
+        monthlyEl=$('vos-dc-monthly'), monthlySub=$('vos-dc-monthly-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-dc-wage':28.00,'vos-dc-hours':8,'vos-dc-miles':120,'vos-dc-mpg':8,
+                  'vos-dc-fuel':4.10,'vos-dc-fixed':95.00,'vos-dc-drops':14,
+                  'vos-dc-cases':420,'vos-dc-days':22};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ return Math.round(n*100)/100; }
+    function tidy(n){ return n===Math.round(n) ? Math.round(n).toLocaleString('en-US') : n.toFixed(1); }
+
+    function calc(){
+      var W=num(wage), H=num(hours), M=num(miles), G=num(mpg), F=num(fuel),
+          X=num(fixed), D=num(drops), K=num(cases), N=num(days);
+
+      // Settle every cost line to whole cents before adding them, and settle the
+      // day total before dividing it, so the per drop, per case and per mile cards
+      // all come off the same $380.50 a reader can see on screen and add back up.
+      var labor   = cents(W*H);
+      var gallons = G>0 ? M/G : 0;
+      var fuelCst = cents(gallons*F);
+      var total   = cents(labor + fuelCst + X);
+
+      fuelCostEl.textContent = money2(fuelCst);
+      fuelCostSub.textContent = G>0
+        ? tidy(gallons)+' gallons at '+money2(F)+' a gallon'
+        : 'Enter miles per gallon to cost the fuel';
+
+      if(total<=0){
+        [perDropEl,totalEl,perCaseEl,perMileEl,monthlyEl].forEach(function(e){ e.textContent='--'; });
+        perDropSub.textContent='Enter a driver cost, fuel or a vehicle cost to start';
+        totalSub.textContent='';
+        perCaseSub.textContent='';
+        perMileSub.textContent='';
+        monthlySub.textContent='';
+        tip.innerHTML='Put in what the <b>driver</b>, the <b>fuel</b> and the <b>truck</b> cost for one day, then the drops on the route, and the calculator splits the day across them.';
+        return;
+      }
+
+      var perDrop = D>0 ? cents(total/D) : 0;
+      var perCase = K>0 ? cents(total/K) : 0;
+      var perMile = M>0 ? cents(total/M) : 0;
+      var monthly = total*N;
+
+      totalEl.textContent = money2(total);
+      totalSub.textContent = money2(labor)+' driver, '+money2(fuelCst)+' fuel, '+money2(X)+' vehicle';
+
+      if(D>0){
+        perDropEl.textContent = money2(perDrop);
+        perDropSub.textContent = money2(total)+' of route cost across '+tidy(D)+' drops';
+      } else {
+        perDropEl.textContent = '--';
+        perDropSub.textContent = 'Enter the drops on the route to cost a delivery';
+      }
+
+      perCaseEl.textContent = K>0 ? money2(perCase) : '--';
+      if(K<=0){
+        perCaseSub.textContent = 'Enter the cases on the truck to split the day by case';
+      } else if(D>0){
+        perCaseSub.textContent = money2(total)+' across '+tidy(K)+' cases, about '+tidy(Math.round(K/D))+' a drop';
+      } else {
+        perCaseSub.textContent = money2(total)+' across '+tidy(K)+' cases';
+      }
+
+      perMileEl.textContent = M>0 ? money2(perMile) : '--';
+      perMileSub.textContent = M>0 ? 'Across '+tidy(M)+' route miles' : 'Enter the route miles to cost a mile';
+      monthlyEl.textContent = money(monthly);
+      monthlySub.textContent = N>0 ? 'At '+tidy(N)+' route days a month' : 'Enter the route days to see a month';
+
+      // The teaching tip: the cost of a stop barely moves with what is on the
+      // pallet, so a light drop carries a far heavier cost per case than the
+      // route average, which is the whole argument for an order minimum.
+      if(D<=0){
+        tip.innerHTML='Enter the <b>drops on the route</b> to see what one delivery costs. That number is the floor a delivery charge or an order minimum has to clear.';
+      } else if(K<=0){
+        tip.innerHTML='A drop costs <b>'+money2(perDrop)+'</b> before a single case comes off the truck. Add the <b>cases on the truck</b> to see how fast that spreads out.';
+      } else {
+        var light = Math.max(1, Math.round(K/D/3));
+        var heavy = light*5;
+        var lightPerCase = cents(perDrop/light);
+        tip.innerHTML='The drop costs <b>'+money2(perDrop)+'</b> whether it is '+tidy(light)+' cases or '+tidy(heavy)+'. At '+tidy(light)+' cases that is <b>'+money2(lightPerCase)+'</b> a case against a <b>'+money2(perCase)+'</b> average, which is what a delivery minimum is actually for.';
+      }
+    }
+
+    [wage,hours,miles,mpg,fuel,fixed,drops,cases,days].forEach(function(el){ el.addEventListener('input', calc); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "delivery-cost",
+  "rootId": "vos-q-delivery-cost",
+  "calcRootId": "vos-delivery",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "delivery-cost-s1",
+    "delivery-cost-s2",
+    "delivery-cost-s3",
+    "delivery-cost-s4",
+    "delivery-cost-s5",
+    "delivery-cost-s6"
+  ],
+  "gateId": "delivery-cost-gate",
+  "resultsId": "delivery-cost-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a wage and route hours above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-dc-wage",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-dc-hours",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-dc-miles",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-dc-mpg",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-dc-fuel",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-dc-fixed",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a drop count above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-dc-drops",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-dc-cases",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-dc-days",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "ordertiming",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "addons",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-dc-wage",
+      "calcId": "vos-dc-wage",
+      "qid": "q-vos-dc-wage"
+    },
+    {
+      "id": "vos-dc-hours",
+      "calcId": "vos-dc-hours",
+      "qid": "q-vos-dc-hours"
+    },
+    {
+      "id": "vos-dc-miles",
+      "calcId": "vos-dc-miles",
+      "qid": "q-vos-dc-miles"
+    },
+    {
+      "id": "vos-dc-mpg",
+      "calcId": "vos-dc-mpg",
+      "qid": "q-vos-dc-mpg"
+    },
+    {
+      "id": "vos-dc-fuel",
+      "calcId": "vos-dc-fuel",
+      "qid": "q-vos-dc-fuel"
+    },
+    {
+      "id": "vos-dc-fixed",
+      "calcId": "vos-dc-fixed",
+      "qid": "q-vos-dc-fixed"
+    },
+    {
+      "id": "vos-dc-drops",
+      "calcId": "vos-dc-drops",
+      "qid": "q-vos-dc-drops"
+    },
+    {
+      "id": "vos-dc-cases",
+      "calcId": "vos-dc-cases",
+      "qid": "q-vos-dc-cases"
+    },
+    {
+      "id": "vos-dc-days",
+      "calcId": "vos-dc-days",
+      "qid": "q-vos-dc-days"
+    }
+  ],
+  "groups": [
+    "situation",
+    "ordertiming",
+    "addons"
+  ],
+  "autoGroups": [
+    "situation",
+    "ordertiming",
+    "addons"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-dc-perdrop",
+      "qid": "qc-vos-dc-perdrop",
+      "cardId": "qcard-vos-dc-perdrop",
+      "qsubId": "qcs-vos-dc-perdrop",
+      "subFrom": "vos-dc-perdrop-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-dc-percase",
+      "qid": "qc-vos-dc-percase",
+      "cardId": "qcard-vos-dc-percase",
+      "qsubId": "qcs-vos-dc-percase",
+      "subFrom": "vos-dc-percase-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-dc-total",
+      "qid": "qc-vos-dc-total",
+      "cardId": "qcard-vos-dc-total",
+      "qsubId": "qcs-vos-dc-total",
+      "subFrom": "vos-dc-total-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-dc-permile",
+      "qid": "qc-vos-dc-permile",
+      "cardId": "qcard-vos-dc-permile",
+      "qsubId": "qcs-vos-dc-permile",
+      "subFrom": "vos-dc-permile-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-dc-fuelcost",
+      "qid": "qc-vos-dc-fuelcost",
+      "cardId": "qcard-vos-dc-fuelcost",
+      "qsubId": "qcs-vos-dc-fuelcost",
+      "subFrom": "vos-dc-fuelcost-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-dc-monthly",
+      "qid": "qc-vos-dc-monthly",
+      "cardId": "qcard-vos-dc-monthly",
+      "qsubId": "qcs-vos-dc-monthly",
+      "subFrom": "vos-dc-monthly-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your fully loaded driver cost and vehicle cost per day.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "addons",
+      "weights": {
+        "phone": 30,
+        "text": 26,
+        "rep": 22,
+        "no-addons": 8
+      }
+    },
+    {
+      "group": "ordertiming",
+      "weights": {
+        "last-minute": 25,
+        "after-hours": 23,
+        "spread": 14,
+        "well-ahead": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "small-drops": 15,
+        "minimum": 14,
+        "new-territory": 11,
+        "fuel": 9
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-dc-cases",
+    "bands": [
+      [
+        1500,
+        30
+      ],
+      [
+        400,
+        22
+      ],
+      [
+        120,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-dc-perdrop'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to cost the route.',
+        text: 'Go back and put in a driver cost, route hours and a drop count above zero.' };
+    }
+    if (ans.addons === 'phone' || ans.addons === 'text') {
+      return { tone: 'is-go', title: 'A drop costs ' + read['vos-dc-perdrop'] + '.',
+        text: 'That is the same whether it holds ten cases or fifty, which is the whole argument for '
+            + 'a minimum. It also means every late add-on squeezed onto a built route is costing '
+            + 'more than the case it carries.' };
+    }
+    return { tone: 'is-go', title: 'A drop costs ' + read['vos-dc-perdrop'] + '.',
+      text: 'The run costs ' + read['vos-dc-total'] + ' a day and ' + read['vos-dc-monthly']
+          + ' a month, which is ' + read['vos-dc-percase'] + ' a case at the volume you are carrying.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on ' + (f['vos-dc-drops'] || 0) + ' drops and ' + (f['vos-dc-cases'] || 0)
+         + ' cases over ' + (f['vos-dc-miles'] || 0) + ' miles.';
+  },
+  "echoes": []
+};
+  </script>

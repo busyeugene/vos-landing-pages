@@ -1,0 +1,320 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-w2r');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var cost=$('vos-cost'), mymarkup=$('vos-mymarkup'), units=$('vos-units'), rmargin=$('vos-rmargin'),
+        retailEl=$('vos-retail'), retailSub=$('vos-retail-sub'),
+        wholeEl=$('vos-whole'), wholeSub=$('vos-whole-sub'),
+        gpEl=$('vos-gp'), gpCard=$('vos-gp-card'), gpSub=$('vos-gp-sub'),
+        rmarEl=$('vos-rmar'), rmarSub=$('vos-rmar-sub'),
+        retailcaseEl=$('vos-retailcase'), retailcaseSub=$('vos-retailcase-sub'),
+        rcostEl=$('vos-rcost'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-cost':22,'vos-mymarkup':30,'vos-units':12,'vos-rmargin':40};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){
+      if(!isFinite(n)) n=0;
+      return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    }
+
+    function calc(){
+      var C=num(cost), U=num(units);
+      var mk=parseFloat(mymarkup.value); if(!isFinite(mk)||mk<0) mk=0;
+      var rm=parseFloat(rmargin.value); if(!isFinite(rm)||rm<0) rm=0; rm=Math.min(rm,99); // 100% margin is an infinite price
+
+      // Your wholesale price, settled to whole cents first.
+      var wholeCase = Math.round(C*(1+mk/100)*100)/100;
+      var yourGp = wholeCase - C;
+      var yourMargin = wholeCase>0 ? yourGp/wholeCase*100 : 0;
+
+      if(U<=0 || wholeCase<=0){
+        retailEl.textContent='--'; rmarEl.textContent='--'; retailcaseEl.textContent='--'; rcostEl.textContent='--';
+        wholeEl.textContent = money2(wholeCase);
+        wholeSub.textContent = 'Your cost plus '+mk.toFixed(0)+'% markup';
+        gpEl.textContent = money2(yourGp);
+        gpCard.className = 'vos-stat ' + (yourGp>=0?'vos-profit':'vos-loss');
+        gpSub.textContent = 'A '+yourMargin.toFixed(1)+'% margin for you';
+        retailSub.textContent = 'Enter units per case and your wholesale price';
+        tip.innerHTML = 'Enter your <b>cost</b>, your <b>markup</b> and the <b>units per case</b>, and we will trace the case all the way to the shelf.';
+        return;
+      }
+
+      // Retailer buys the case, splits it into units, and prices for their margin.
+      var rcostUnit = wholeCase/U;
+      var retailUnit = Math.round(rcostUnit/(1-rm/100)*100)/100; // shelf price, whole cents
+      var rcostUnitR = Math.round(rcostUnit*100)/100;
+      var rMarginUnit = Math.round((retailUnit - rcostUnitR)*100)/100; // reconciles: shelf - cost = margin on screen
+      var rMarginPct = retailUnit>0 ? rMarginUnit/retailUnit*100 : 0;
+      var retailCase = Math.round(retailUnit*U*100)/100;
+
+      retailEl.textContent = money2(retailUnit);
+      retailSub.textContent = 'Priced to leave a '+rm.toFixed(0)+'% retailer margin';
+      wholeEl.textContent = money2(wholeCase);
+      wholeSub.textContent = 'Your cost plus '+mk.toFixed(0)+'% markup';
+      gpEl.textContent = money2(yourGp);
+      gpCard.className = 'vos-stat ' + (yourGp>=0?'vos-profit':'vos-loss');
+      gpSub.textContent = 'A '+yourMargin.toFixed(1)+'% margin for you';
+      rmarEl.textContent = money2(rMarginUnit);
+      rmarSub.textContent = rMarginPct.toFixed(1)+'% of the '+money2(retailUnit)+' shelf price';
+      retailcaseEl.textContent = money2(retailCase);
+      retailcaseSub.textContent = (U%1===0?U:U.toFixed(0))+' units at '+money2(retailUnit);
+      rcostEl.textContent = money2(rcostUnitR);
+
+      tip.innerHTML = 'At a <b>'+mk.toFixed(0)+'% markup</b> your case sells for <b>'+money2(wholeCase)+'</b>, a <b>'+yourMargin.toFixed(1)+'%</b> margin for you. Split across '+(U%1===0?U:U.toFixed(0))+' units the retailer pays <b>'+money2(rcostUnitR)+'</b> each and has to shelf it at <b>'+money2(retailUnit)+'</b> to keep a '+rm.toFixed(0)+'% margin. If that is above the competition, they will not stock you, so watch the shelf price your wholesale creates.';
+    }
+
+    [cost,mymarkup,units,rmargin].forEach(function(el){ el.addEventListener('input', calc); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "wholesale-retail",
+  "rootId": "vos-q-wholesale-retail",
+  "calcRootId": "vos-w2r",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "wholesale-retail-s1",
+    "wholesale-retail-s2",
+    "wholesale-retail-s3",
+    "wholesale-retail-s4",
+    "wholesale-retail-s5"
+  ],
+  "gateId": "wholesale-retail-gate",
+  "resultsId": "wholesale-retail-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a cost above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-cost",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-mymarkup",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter units per case above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-units",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-rmargin",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "shelfprice",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "intake",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-cost",
+      "calcId": "vos-cost",
+      "qid": "q-vos-cost"
+    },
+    {
+      "id": "vos-mymarkup",
+      "calcId": "vos-mymarkup",
+      "qid": "q-vos-mymarkup"
+    },
+    {
+      "id": "vos-units",
+      "calcId": "vos-units",
+      "qid": "q-vos-units"
+    },
+    {
+      "id": "vos-rmargin",
+      "calcId": "vos-rmargin",
+      "qid": "q-vos-rmargin"
+    }
+  ],
+  "groups": [
+    "situation",
+    "shelfprice",
+    "intake"
+  ],
+  "autoGroups": [
+    "situation",
+    "shelfprice",
+    "intake"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-retail",
+      "qid": "qc-vos-retail",
+      "cardId": "qcard-vos-retail",
+      "qsubId": "qcs-vos-retail",
+      "subFrom": "vos-retail-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-whole",
+      "qid": "qc-vos-whole",
+      "cardId": "qcard-vos-whole",
+      "qsubId": "qcs-vos-whole",
+      "subFrom": "vos-whole-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-gp",
+      "qid": "qc-vos-gp",
+      "cardId": "qcard-vos-gp",
+      "qsubId": "qcs-vos-gp",
+      "subFrom": "vos-gp-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-gp-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-rcost",
+      "qid": "qc-vos-rcost",
+      "cardId": "qcard-vos-rcost",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-rmar",
+      "qid": "qc-vos-rmar",
+      "cardId": "qcard-vos-rmar",
+      "qsubId": "qcs-vos-rmar",
+      "subFrom": "vos-rmar-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-retailcase",
+      "qid": "qc-vos-retailcase",
+      "cardId": "qcard-vos-retailcase",
+      "qsubId": "qcs-vos-retailcase",
+      "subFrom": "vos-retailcase-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm the retailer margin expectation before quoting against it.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "intake",
+      "weights": {
+        "phone-voicemail": 30,
+        "mixed": 26,
+        "email-text": 20,
+        "portal-edi": 8
+      }
+    },
+    {
+      "group": "shelfprice",
+      "weights": {
+        "never": 25,
+        "sometimes": 20,
+        "most": 12,
+        "we-set-it": 8
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "buyer-asked": 15,
+        "new-listing": 13,
+        "shelf-too-high": 12,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": null,
+  "verdict": function (read, ans) {
+    if (read['vos-retail'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to run the chain.',
+        text: 'Go back and put in a cost and a units per case above zero.' };
+    }
+    if (ans.shelfprice === 'never') {
+      return { tone: 'is-go', title: 'It has to shelve at ' + read['vos-retail'] + '.',
+        text: 'Your ' + read['vos-whole'] + ' case leaves them ' + read['vos-rmar'] + ' a unit at that '
+            + 'shelf price. Worth knowing, given you currently find that out by walking the store.' };
+    }
+    return { tone: 'is-go', title: 'It has to shelve at ' + read['vos-retail'] + '.',
+      text: 'Your ' + read['vos-whole'] + ' case earns you ' + read['vos-gp'] + ' and leaves your '
+          + 'customer ' + read['vos-rmar'] + ' a unit, which is the margin they asked for.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-cost'] || 0) + ' dollar case at ' + (f['vos-mymarkup'] || 0)
+         + ' percent markup, broken into ' + (f['vos-units'] || 0) + ' units.';
+  },
+  "echoes": []
+};
+  </script>

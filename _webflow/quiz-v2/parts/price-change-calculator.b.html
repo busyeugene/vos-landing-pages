@@ -1,0 +1,382 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-pricechg');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var price=$('vos-price'), cost=$('vos-cost'), change=$('vos-change'), changeSlider=$('vos-change-slider'), vol=$('vos-vol'),
+        newpriceEl=$('vos-newprice'), newpriceSub=$('vos-newprice-sub'),
+        newmarginEl=$('vos-newmargin'), newmarginSub=$('vos-newmargin-sub'),
+        dprofitEl=$('vos-dprofit'), dprofitSub=$('vos-dprofit-sub'), dprofitCard=$('vos-dprofit-card'),
+        beEl=$('vos-breakeven'), beSub=$('vos-breakeven-sub'),
+        newtotalEl=$('vos-newtotal'), newtotalSub=$('vos-newtotal-sub'),
+        dtotalEl=$('vos-dtotal'), dtotalCard=$('vos-dtotal-card'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-price':30,'vos-cost':22,'vos-change':5,'vos-vol':6000};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function signedMoney2(n){
+      if(!isFinite(n)) n=0;
+      var s = n>0?'+$':(n<0?'-$':'$');
+      return s+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function signedMoney(n){ if(!isFinite(n)) n=0; var s=n>0?'+$':(n<0?'-$':'$'); return s+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function money(n){ if(!isFinite(n)) n=0; return '$'+Math.round(n).toLocaleString('en-US'); }
+
+    function calc(){
+      var P=num(price), C=num(cost), V=num(vol);
+      var chg=parseFloat(change.value); if(!isFinite(chg)) chg=0;
+
+      if(P<=0){
+        [newpriceEl,newmarginEl,dprofitEl,beEl,newtotalEl,dtotalEl].forEach(function(e){ e.textContent='--'; });
+        newpriceSub.textContent='Enter your current price to start';
+        tip.innerHTML='Enter your <b>current price</b> and <b>cost</b>, then set a price change to see the margin and the volume you can afford to move.';
+        return;
+      }
+
+      var newPrice = Math.round(P*(1+chg/100)*100)/100;
+      var oldContribution = P - C;
+      var newContribution = newPrice - C;
+      var oldMargin = P>0 ? oldContribution/P*100 : 0;
+      var newMargin = newPrice>0 ? newContribution/newPrice*100 : 0;
+      var dProfitCase = newContribution - oldContribution;
+      var oldTotal = oldContribution*V;
+      var newTotal = newContribution*V;
+      var dTotal = newTotal - oldTotal;
+
+      newpriceEl.textContent = money2(newPrice);
+      newpriceSub.textContent = (chg>0?'A '+chg.toFixed(1)+'% increase from ':chg<0?'A '+Math.abs(chg).toFixed(1)+'% cut from ':'No change from ')+money2(P);
+      newmarginEl.textContent = newMargin.toFixed(1)+'%';
+      newmarginSub.textContent = 'Was '+oldMargin.toFixed(1)+'%';
+      dprofitEl.textContent = signedMoney2(dProfitCase);
+      dprofitSub.textContent = money2(oldContribution)+' to '+money2(newContribution)+' per case';
+      dprofitCard.className = 'vos-stat ' + (dProfitCase>=0?'vos-profit':'vos-loss');
+      newtotalEl.textContent = money(newTotal);
+      newtotalSub.textContent = 'Was '+money(oldTotal);
+      dtotalEl.textContent = signedMoney(dTotal);
+      dtotalCard.className = 'vos-stat ' + (dTotal>=0?'vos-profit':'vos-loss');
+
+      // Breakeven volume shift is independent of today's volume: it is just the
+      // ratio of old to new contribution. A raise lets you lose volume; a cut
+      // means you must sell more just to hold profit.
+      if(oldContribution<=0){
+        beEl.textContent='--';
+        beSub.textContent='Your current price is at or below cost';
+      } else if(newContribution<=0){
+        beEl.textContent='--';
+        beSub.textContent='The new price is at or below cost, no volume breaks even';
+      } else {
+        var shiftPct = (oldContribution/newContribution - 1)*100; // <0 raise, >0 cut
+        if(Math.abs(shiftPct) < 0.05){
+          beEl.textContent='0.0%'; beSub.textContent='No change to your breakeven volume';
+        } else if(shiftPct < 0){
+          beEl.textContent = Math.abs(shiftPct).toFixed(1)+'%';
+          beSub.textContent = 'Volume you can lose and still match profit';
+        } else {
+          beEl.textContent = shiftPct.toFixed(1)+'%';
+          beSub.textContent = 'More volume you must sell to hold profit';
+        }
+      }
+
+      // Teaching tip adapts to raise, cut, or a cut below cost.
+      if(newContribution<=0){
+        tip.innerHTML = 'A <b>'+Math.abs(chg).toFixed(1)+'% cut</b> drops your price to <b>'+money2(newPrice)+'</b>, at or below your <b>'+money2(C)+'</b> cost. Every case would lose money, so no amount of extra volume makes it back.';
+      } else if(chg>0){
+        var canLose = (1 - oldContribution/newContribution)*100;
+        tip.innerHTML = 'A <b>'+chg.toFixed(1)+'% increase</b> lifts your margin from '+oldMargin.toFixed(1)+'% to <b>'+newMargin.toFixed(1)+'%</b> and adds <b>'+money2(dProfitCase)+'</b> a case. If volume holds you make <b>'+money(dTotal)+'</b> more a month, and you could lose up to <b>'+canLose.toFixed(1)+'%</b> of your volume before you are worse off. Small price moves have a lot of room.';
+      } else if(chg<0){
+        var mustGain = (oldContribution/newContribution - 1)*100;
+        tip.innerHTML = 'A <b>'+Math.abs(chg).toFixed(1)+'% cut</b> drops your contribution to <b>'+money2(newContribution)+'</b> a case, so you must sell <b>'+mustGain.toFixed(1)+'%</b> more just to stand still. A price cut asks a lot of your volume.';
+      } else {
+        tip.innerHTML = 'No change yet. Set a <b>raise</b> or a <b>cut</b> to see the new margin and the volume you can afford to move.';
+      }
+    }
+
+    function syncSlider(){ var v=parseFloat(change.value); if(isFinite(v)) changeSlider.value=Math.max(-25,Math.min(25,v)); }
+    [price,cost,vol].forEach(function(el){ el.addEventListener('input', calc); });
+    change.addEventListener('input', function(){ syncSlider(); calc(); });
+    changeSlider.addEventListener('input', function(){ change.value=changeSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "price-change",
+  "rootId": "vos-q-price-change",
+  "calcRootId": "vos-pricechg",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "price-change-s1",
+    "price-change-s2",
+    "price-change-s3",
+    "price-change-s4",
+    "price-change-s5"
+  ],
+  "gateId": "price-change-gate",
+  "resultsId": "price-change-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a price above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-price",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-cost",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a volume that is not negative.",
+      "fields": [
+        {
+          "qid": "q-vos-change",
+          "positive": false,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-vol",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "telling",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "oldprice",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-price",
+      "calcId": "vos-price",
+      "qid": "q-vos-price"
+    },
+    {
+      "id": "vos-cost",
+      "calcId": "vos-cost",
+      "qid": "q-vos-cost"
+    },
+    {
+      "id": "vos-change",
+      "calcId": "vos-change",
+      "qid": "q-vos-change"
+    },
+    {
+      "id": "vos-vol",
+      "calcId": "vos-vol",
+      "qid": "q-vos-vol"
+    }
+  ],
+  "groups": [
+    "situation",
+    "telling",
+    "oldprice"
+  ],
+  "autoGroups": [
+    "situation",
+    "telling",
+    "oldprice"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-newprice",
+      "qid": "qc-vos-newprice",
+      "cardId": "qcard-vos-newprice",
+      "qsubId": "qcs-vos-newprice",
+      "subFrom": "vos-newprice-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-breakeven",
+      "qid": "qc-vos-breakeven",
+      "cardId": "qcard-vos-breakeven",
+      "qsubId": "qcs-vos-breakeven",
+      "subFrom": "vos-breakeven-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-newmargin",
+      "qid": "qc-vos-newmargin",
+      "cardId": "qcard-vos-newmargin",
+      "qsubId": "qcs-vos-newmargin",
+      "subFrom": "vos-newmargin-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-dprofit",
+      "qid": "qc-vos-dprofit",
+      "cardId": "qcard-vos-dprofit",
+      "qsubId": "qcs-vos-dprofit",
+      "subFrom": "vos-dprofit-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-dprofit-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-newtotal",
+      "qid": "qc-vos-newtotal",
+      "cardId": "qcard-vos-newtotal",
+      "qsubId": "qcs-vos-newtotal",
+      "subFrom": "vos-newtotal-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-dtotal",
+      "qid": "qc-vos-dtotal",
+      "cardId": "qcard-vos-dtotal",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-dtotal-card",
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your cost per case before announcing a price change.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "oldprice",
+      "weights": {
+        "honor-it": 30,
+        "credit-later": 26,
+        "call-back": 22,
+        "system-catches": 8
+      }
+    },
+    {
+      "group": "telling",
+      "weights": {
+        "invoice": 25,
+        "rep": 18,
+        "letter": 14,
+        "portal": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "cost-rise": 15,
+        "margin-thin": 13,
+        "undercut": 12,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-vol",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        6000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans, f) {
+    if (read['vos-newprice'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to model it.',
+        text: 'Go back and put in a current price above zero.' };
+    }
+    var change = f['vos-change'] || 0;
+    if (change < 0) {
+      return { tone: 'is-no', title: 'A cut has to buy a lot of volume.',
+        text: 'At ' + read['vos-newprice'] + ' you would need ' + read['vos-breakeven']
+            + ' more volume just to stand still, and the margin falls to ' + read['vos-newmargin'] + '.' };
+    }
+    return { tone: 'is-go', title: 'You can lose ' + read['vos-breakeven'] + ' and still be level.',
+      text: 'At ' + read['vos-newprice'] + ' the margin goes to ' + read['vos-newmargin'] + ', worth '
+          + read['vos-dprofit'] + ' a case. Losing less volume than that leaves you ahead.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-change'] || 0) + ' percent move on a '
+         + (f['vos-price'] || 0) + ' dollar case.';
+  },
+  "echoes": [
+    {
+      "id": "price-change-s3-echo",
+      "text": function (f) {
+        var p = f['vos-price'] || 0;
+        var c = f['vos-change'] || 0;
+        if (!p) return 'Enter a current price and we will show you where it lands.';
+        var np = Math.round(p * (1 + c / 100) * 100) / 100;
+        return 'That moves the case from ' + p.toFixed(2) + ' to ' + np.toFixed(2) + ' dollars.';
+      }
+    }
+  ]
+};
+  </script>

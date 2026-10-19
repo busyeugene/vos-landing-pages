@@ -1,0 +1,453 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+    .vos-calc{
+      --vos-blue:#0099e6; --vos-blue-dark:#014b7d; --vos-blue-soft:#eaeef1;
+      --vos-navy:#023c64; --vos-slate:#344054; --vos-muted:#667085;
+      --vos-border:#eaecf0; --vos-bg:#f9fafb; --vos-white:#ffffff;
+      --vos-green:#02b845; --vos-green-soft:#ecfdf3;
+      --vos-radius:12px; --vos-shadow:0 1px 3px rgba(2,60,100,.08),0 8px 24px rgba(2,60,100,.06);
+      all:revert;
+      box-sizing:border-box;
+      font-family:'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--vos-slate); line-height:1.5; max-width:760px; margin:0 auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    .vos-calc *,.vos-calc *::before,.vos-calc *::after{box-sizing:border-box;}
+    .vos-calc input,.vos-calc select,.vos-calc button,.vos-calc textarea{font-family:inherit;}
+    .vos-calc .vos-card{
+      background:var(--vos-white); border:1px solid var(--vos-border);
+      border-radius:var(--vos-radius); box-shadow:var(--vos-shadow); overflow:hidden;
+    }
+    .vos-calc .vos-head{background:var(--vos-navy); color:#fff; padding:22px 24px;}
+    .vos-calc .vos-head h3{margin:0;font-family:'Montserrat',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#fff;line-height:1.3;}
+    .vos-calc .vos-head p{margin:6px 0 0;font-size:14px;color:#c7dced;}
+    .vos-calc .vos-body{padding:24px;}
+    .vos-calc .vos-legend{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--vos-muted);margin:0 0 12px;}
+    .vos-calc .vos-legend.vos-sep{margin-top:24px;padding-top:20px;border-top:1px solid var(--vos-border);}
+    .vos-calc .vos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media(max-width:560px){.vos-calc .vos-grid{grid-template-columns:1fr;}}
+    .vos-calc label{display:block;font-size:13px;font-weight:600;color:var(--vos-slate);margin-bottom:6px;}
+    .vos-calc .vos-hint{display:block;font-size:11.5px;font-weight:400;color:var(--vos-muted);margin-top:5px;}
+    .vos-calc .vos-field{position:relative;margin-bottom:4px;}
+    .vos-calc .vos-prefix{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:15px;font-weight:600;pointer-events:none;}
+    .vos-calc input[type=number]{
+      width:100%;padding:12px 14px 12px 28px;font-size:16px;color:var(--vos-navy);
+      background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;transition:border-color .15s,box-shadow .15s;-moz-appearance:textfield;
+    }
+    .vos-calc input.vos-plain{padding-left:14px;}
+    .vos-calc input[type=number]:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background:#fff;}
+    .vos-calc input[type=number]::-webkit-outer-spin-button,
+    .vos-calc input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+    .vos-calc .vos-suffix{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:13px;font-weight:600;pointer-events:none;}
+    .vos-calc input.vos-hassuffix{padding-right:74px;}
+    .vos-calc .vos-slider-wrap{margin-top:12px;}
+    .vos-calc input[type=range]{width:100%;-webkit-appearance:none;appearance:none;height:6px;border-radius:6px;background:var(--vos-border);outline:none;margin:0;}
+    .vos-calc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:22px;height:22px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc .vos-toggle{display:inline-flex;background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;padding:4px;margin-bottom:18px;}
+    .vos-calc .vos-toggle button{border:none;background:transparent;padding:7px 16px;font-size:13px;font-weight:600;color:var(--vos-muted);border-radius:7px;cursor:pointer;transition:all .15s;}
+    .vos-calc .vos-toggle button.vos-on{background:#fff;color:var(--vos-blue-dark);box-shadow:0 1px 2px rgba(2,60,100,.1);}
+    .vos-calc .vos-results{margin-top:22px;border-top:1px solid var(--vos-border);padding-top:22px;}
+    .vos-calc .vos-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.vos-calc .vos-result-grid{grid-template-columns:1fr;}}
+    .vos-calc .vos-stat{background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:12px;padding:16px;}
+    .vos-calc .vos-stat .vos-k{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--vos-muted);margin-bottom:4px;}
+    .vos-calc .vos-stat .vos-v{font-family:'Montserrat',sans-serif;font-size:24px;font-weight:800;color:var(--vos-navy);letter-spacing:-.02em;}
+    .vos-calc .vos-stat .vos-sub{font-size:11.5px;color:var(--vos-muted);margin-top:3px;}
+    .vos-calc .vos-stat.vos-hero{background:var(--vos-blue-soft);border-color:#c3d5e3;}
+    .vos-calc .vos-stat.vos-hero .vos-v{color:var(--vos-blue-dark);}
+    .vos-calc .vos-stat.vos-profit{background:var(--vos-green-soft);border-color:#b6f0cd;}
+    .vos-calc .vos-stat.vos-profit .vos-v{color:#02914f;}
+    .vos-calc .vos-stat.vos-loss{background:#fef3f2;border-color:#fecdca;}
+    .vos-calc .vos-stat.vos-loss .vos-v{color:#b42318;}
+    .vos-calc .vos-tip{display:flex;gap:10px;margin-top:18px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#854d0e;}
+    .vos-calc .vos-tip b{color:#713f12;}
+    .vos-calc .vos-tip svg{flex:0 0 auto;margin-top:1px;}
+    .vos-calc .vos-cta{margin-top:18px;background:var(--vos-navy);border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+    .vos-calc .vos-cta .vos-cta-txt{font-size:14px;color:#c7dced;max-width:62%;min-width:220px;}
+    .vos-calc .vos-cta .vos-cta-txt b{color:#fff;display:block;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;margin-bottom:2px;}
+    .vos-calc .vos-cta a{background:var(--vos-blue);color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:8px;white-space:nowrap;transition:background .15s;}
+    .vos-calc .vos-cta a:hover{background:#00add4;}
+    .vos-calc .vos-reset{margin-top:14px;background:none;border:none;color:var(--vos-muted);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline;padding:0;}
+    .vos-calc .vos-foot{text-align:center;font-size:11.5px;color:var(--vos-muted);margin-top:14px;}
+  </style>
+<!-- ============================================================
+     VOICEORDER SOLUTIONS V2 QUIZ: Your buyer asked for 40 percent. Of what?
+     GENERATED by scripts/build_v2.js. Do not hand-edit.
+     Source: lead-magnets-v2/specs/retail-margin.js
+             lead-magnets-v2/_engine/
+             lead-magnets/retail-margin-calculator.html
+
+     The shipped calculator is inlined below, hidden, and driven by
+     the quiz. Nothing in this file does arithmetic, so the numbers
+     here are the calculator's own.
+     ============================================================ -->
+<div class="vos-quiz" id="vos-q-retail-margin">
+
+  <div class="vos-calc-host" aria-hidden="true">
+<!-- ============================================================
+     VOICEORDER SOLUTIONS LEAD MAGNET: Retail Margin Calculator
+     Self-contained. No external libraries. Paste this whole
+     block into a blog "Custom HTML" / "Raw HTML" embed.
+     All styles are scoped under .vos-calc so they won't
+     touch the rest of your page. Recolor in one place via
+     the CSS variables on .vos-calc.
+     ============================================================ -->
+<div class="vos-calc" id="vos-retmargin">
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Retail Margin Calculator</h3>
+      <p>The retail margin formula is simple. The markup that produces it is not. Put in a cost and a shelf price to see both, plus the price a target margin actually needs.</p>
+    </div>
+    <div class="vos-body">
+
+      <p class="vos-legend">The unit on the shelf</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-rm-cost">Cost per unit</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-rm-cost" min="0" step="any" value="2.38" inputmode="decimal">
+          </div>
+          <span class="vos-hint">What the unit costs the store, which is your case price split out.</span>
+        </div>
+        <div>
+          <label for="vos-rm-price">Shelf price per unit</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-rm-price" min="0" step="any" value="3.97" inputmode="decimal">
+          </div>
+          <span class="vos-hint">What it rings up at. Retail margin is the share of this the store keeps.</span>
+        </div>
+      </div>
+
+      <p class="vos-legend vos-sep">Target and volume</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-rm-target">Target retail margin</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-rm-target" min="0" max="99" step="any" value="40" inputmode="decimal">
+            <span class="vos-suffix">%</span>
+          </div>
+          <div class="vos-slider-wrap">
+            <input type="range" id="vos-rm-target-slider" min="0" max="80" step="1" value="40">
+          </div>
+          <span class="vos-hint">Most grocery categories sit between 25% and 45%.</span>
+        </div>
+        <div>
+          <label for="vos-rm-units">Units per case</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-rm-units" min="0" step="any" value="12" inputmode="decimal">
+            <span class="vos-suffix">units</span>
+          </div>
+          <span class="vos-hint">Used to turn the per unit figures back into a case.</span>
+        </div>
+      </div>
+
+      <p class="vos-legend vos-sep">Monthly movement</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-rm-cases">Cases per month</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-rm-cases" min="0" step="any" value="500" inputmode="decimal">
+            <span class="vos-suffix">cases</span>
+          </div>
+          <span class="vos-hint">How many cases of this item move in a month.</span>
+        </div>
+      </div>
+
+      <div class="vos-results">
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Retail margin</div>
+            <div class="vos-v" id="vos-rm-margin">40.1%</div>
+            <div class="vos-sub" id="vos-rm-margin-sub">$1.59 of the $3.97 shelf price</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">The same thing as a markup</div>
+            <div class="vos-v" id="vos-rm-markup">66.8%</div>
+            <div class="vos-sub">Markup is measured on cost, margin on the shelf price</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Gross profit per unit</div>
+            <div class="vos-v" id="vos-rm-profit">$1.59</div>
+            <div class="vos-sub" id="vos-rm-profit-sub">$3.97 less the $2.38 cost</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k" id="vos-rm-target-k">Shelf price for a 40% margin</div>
+            <div class="vos-v" id="vos-rm-target-price">$3.97</div>
+            <div class="vos-sub" id="vos-rm-target-sub">What the target needs, against $3.97 today</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Gross profit per case</div>
+            <div class="vos-v" id="vos-rm-percase">$19.08</div>
+            <div class="vos-sub" id="vos-rm-percase-sub">$1.59 across 12 units</div>
+          </div>
+          <div class="vos-stat vos-profit" id="vos-rm-monthly-card">
+            <div class="vos-k">Monthly gross profit</div>
+            <div class="vos-v" id="vos-rm-monthly">$9,540</div>
+            <div class="vos-sub" id="vos-rm-monthly-sub">At 500 cases a month</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="vos-tip-text">A <b>40.1%</b> retail margin is a <b>66.8%</b> markup, not a 40% one. That gap is the whole reason to calculate retail margin on the shelf price rather than the cost: ask a buyer for "40%" and you will each mean a different number, about <b>$0.64</b> a unit apart.</div>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="vos-reset">Reset calculator</button>
+        </div>
+        <div class="vos-foot">Estimates only. This is the gross margin on the unit and does not carry shrink, promotions or the cost of the space it sits in.</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Retail Margin Calculator ============ -->
+  </div>
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Your buyer asked for 40 percent. Of what?</h3>
+      <p>Six quick questions. At the end you get the margin, the markup that means the same thing, and the shelf price a target margin actually needs.</p>
+      <div class="vos-prog" role="progressbar" aria-valuemin="0" aria-valuemax="7" aria-valuenow="1" aria-label="Quiz progress" id="q-prog">
+        <div class="vos-prog-bar" id="q-bar"></div>
+      </div>
+      <div class="vos-prog-txt" id="q-progtxt">Step 1 of 7</div>
+    </div>
+
+    <div class="vos-body" aria-live="polite">
+
+      <section class="vos-step is-on" id="retail-margin-s1">
+        <p class="vos-eyebrow">The situation</p>
+        <h4 class="vos-q">What put this in front of you?</h4>
+        <p class="vos-qsub">Pick the closest one.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What put this in front of you?">
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-situation" data-group="situation" value="buyer-number"><span class="vos-dot"></span><span>A buyer gave us a margin they need to hit</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-situation" data-group="situation" value="shelf-check"><span class="vos-dot"></span><span>We are checking what our product makes them</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-situation" data-group="situation" value="new-listing"><span class="vos-dot"></span><span>We are pitching a new listing</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-situation" data-group="situation" value="review"><span class="vos-dot"></span><span>Nothing specific, I want the two numbers side by side</span></label>
+        </div>
+        <div class="vos-err" id="retail-margin-s1-err">Pick one to carry on.</div>
+        <div class="vos-nav vos-armed" data-arm="situation">
+          <button type="button" class="vos-next" data-next>Continue</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="retail-margin-s2">
+        <p class="vos-eyebrow">The unit</p>
+        <h4 class="vos-q">What does a unit cost them, and what does it shelve at?</h4>
+        <p class="vos-qsub">Per unit, not per case. The case numbers come later.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-rm-cost">Cost per unit</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-rm-cost" min="0" step="any" value="2.38" inputmode="decimal">
+            </div>
+            <span class="vos-hint">What your customer pays for one sellable unit.</span>
+          </div>
+          <div>
+            <label for="q-vos-rm-price">Shelf price per unit</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-rm-price" min="0" step="any" value="3.97" inputmode="decimal">
+            </div>
+            <span class="vos-hint">What it rings up at.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="retail-margin-s2-err">Enter a shelf price above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="retail-margin-s3">
+        <p class="vos-eyebrow">The target</p>
+        <h4 class="vos-q">And what margin are they asking for?</h4>
+        <p class="vos-qsub">This is the number everyone argues about, usually because they mean different things by it.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-rm-target">Target retail margin</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-rm-target" min="0" step="any" value="40" inputmode="decimal">
+              <span class="vos-suffix">%</span>
+            </div>
+            <span class="vos-hint">A percentage of the shelf price, which is what a retailer almost always means.</span>
+          </div>
+          <div>
+            <label for="q-vos-rm-units">Units per case</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-rm-units" min="0" step="any" value="12" inputmode="decimal">
+              <span class="vos-suffix">units</span>
+            </div>
+            <span class="vos-hint">How many sellable units come out of one case.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="retail-margin-s3-err">Those cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="retail-margin-s4">
+        <p class="vos-eyebrow">The volume</p>
+        <h4 class="vos-q">How many cases a month?</h4>
+        <p class="vos-qsub">Turns cents a unit into the number that shows up in a month.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-rm-cases">Cases per month</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-rm-cases" min="0" step="any" value="500" inputmode="decimal">
+              <span class="vos-suffix">cases</span>
+            </div>
+            <span class="vos-hint">Of this item, into this account.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="retail-margin-s4-err">That cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="retail-margin-s5">
+        <p class="vos-eyebrow">How you run it today</p>
+        <h4 class="vos-q">Who works the margin out when a buyer asks?</h4>
+        <p class="vos-qsub">A markup quoted as a margin is how a deal gets agreed at the wrong number.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="Who works the margin out when a buyer asks?">
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-whoworks" data-group="whoworks" value="rep-head"><span class="vos-dot"></span><span>The rep, in their head or on a phone</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-whoworks" data-group="whoworks" value="office"><span class="vos-dot"></span><span>Someone back at the office works it up</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-whoworks" data-group="whoworks" value="spreadsheet"><span class="vos-dot"></span><span>A spreadsheet we keep for it</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-whoworks" data-group="whoworks" value="system"><span class="vos-dot"></span><span>The system quotes it</span></label>
+        </div>
+        <div class="vos-err" id="retail-margin-s5-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="whoworks" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="retail-margin-s6">
+        <p class="vos-eyebrow">How the reorders come</p>
+        <h4 class="vos-q">How do that account's reorders reach you?</h4>
+        <p class="vos-qsub">Last one before your numbers.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="How do that account's reorders reach you?">
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-intake" data-group="intake" value="phone-voicemail"><span class="vos-dot"></span><span>Phone calls and voicemails</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-intake" data-group="intake" value="email-text"><span class="vos-dot"></span><span>Emails and text messages</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-intake" data-group="intake" value="portal-edi"><span class="vos-dot"></span><span>An online portal or EDI</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-retail-margin-intake" data-group="intake" value="mixed"><span class="vos-dot"></span><span>A mix of all of it</span></label>
+        </div>
+        <div class="vos-err" id="retail-margin-s6-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="intake" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="retail-margin-gate">
+        <p class="vos-eyebrow">Your breakdown is ready</p>
+
+        <div class="vos-preview">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Retail margin</div>
+            <div class="vos-v" id="q-preview">--</div>
+            <div class="vos-sub">The headline number. The rest are below.</div>
+          </div>
+        </div>
+
+        <h4 class="vos-q">Want to see your results?</h4>
+        <p class="vos-qsub">You have given us enough to work this out. Fill this in and the full breakdown opens up.</p>
+
+        <div class="vos-hsform" id="q-hsform">
+          
+          <div class="hs-form-frame" data-region="na1" data-form-id="f854c1d7-fedd-4ba0-a8fb-98af24925dfc" data-portal-id="51996060"></div>
+          <div class="vos-hsload" id="q-hsload">Loading the form.</div>
+          <div class="vos-hsfail" id="q-hsfail">
+            <b>The form did not load.</b>
+            <span>Your browser or your network is most likely blocking it. That should not cost you the numbers you just worked out.</span>
+            <button type="button" class="vos-next" id="q-hsskip">Show my numbers anyway</button>
+          </div>
+        </div>
+        <div class="vos-nav">
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+        <p class="vos-privacy">Your details go straight to our team, who will follow up about these numbers.</p>
+      </section>
+
+      <section class="vos-step" id="retail-margin-results">
+        <div class="vos-verdict is-go" id="q-verdict">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <div>
+            <h4 id="q-vtitle">Your result</h4>
+            <p id="q-vtext">Working it out.</p>
+          </div>
+        </div>
+
+        <p class="vos-greet" id="q-greet">Here is your breakdown.</p>
+        <p class="vos-greetsub" id="q-greetsub"></p>
+
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero" id="qcard-vos-rm-margin">
+            <div class="vos-k">Retail margin</div>
+            <div class="vos-v" id="qc-vos-rm-margin">--</div>
+            <div class="vos-sub" id="qcs-vos-rm-margin"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-rm-markup">
+            <div class="vos-k">The same thing as a markup</div>
+            <div class="vos-v" id="qc-vos-rm-markup">--</div>
+            <div class="vos-sub">The number a distributor would quote</div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-rm-target-price">
+            <div class="vos-k" id="qck-vos-rm-target-price">Shelf price for the target</div>
+            <div class="vos-v" id="qc-vos-rm-target-price">--</div>
+            <div class="vos-sub" id="qcs-vos-rm-target-price"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-rm-profit">
+            <div class="vos-k">Gross profit per unit</div>
+            <div class="vos-v" id="qc-vos-rm-profit">--</div>
+            <div class="vos-sub" id="qcs-vos-rm-profit"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-rm-percase">
+            <div class="vos-k">Gross profit per case</div>
+            <div class="vos-v" id="qc-vos-rm-percase">--</div>
+            <div class="vos-sub" id="qcs-vos-rm-percase"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-rm-monthly">
+            <div class="vos-k">Monthly gross profit</div>
+            <div class="vos-v" id="qc-vos-rm-monthly">--</div>
+            <div class="vos-sub" id="qcs-vos-rm-monthly"></div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="q-tip"></div>
+        </div>
+
+        <div class="vos-cta">
+          <div class="vos-cta-txt">
+            <b>Margins slip when the price list and the order guide disagree.</b>
+            VoiceOrder Solutions keeps order guides and prices current, so the case that ships is the case that was quoted.
+          </div>
+          <a href="https://www.voiceordersolutions.com/contact-us" target="_blank" rel="noopener">Book A Demo &rarr;</a>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="q-again">Change my numbers</button>
+        </div>
+        <div class="vos-foot" id="q-foot">Estimates only. Confirm the unit cost and pack count before quoting a shelf price.</div>
+        <div class="vos-debug" id="q-debug"></div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Your buyer asked for 40 percent. Of what? ============ -->

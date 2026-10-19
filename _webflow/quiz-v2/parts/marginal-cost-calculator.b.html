@@ -1,0 +1,455 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-marginal');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var fc=$('vos-fc'), vc=$('vos-vc'), q1=$('vos-q1'), q2=$('vos-q2'),
+        step=$('vos-step'), price=$('vos-price'),
+        mcEl=$('vos-mc'), mcSub=$('vos-mc-sub'), deltaEl=$('vos-delta'),
+        deltaSub=$('vos-delta-sub'), deltaCard=$('vos-delta-card'),
+        spreadEl=$('vos-spread'), beEl=$('vos-be'), beSub=$('vos-be-sub'),
+        avgEl=$('vos-avg'), cmEl=$('vos-cm'), tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-fc':48000,'vos-vc':18,'vos-q1':6000,'vos-q2':7200,'vos-step':6000,'vos-price':28};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money(n){ if(!isFinite(n)) n=0; return '$'+Math.round(n).toLocaleString('en-US'); }
+    function money2(n){
+      if(!isFinite(n)) n=0;
+      return '$'+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    }
+    function signed(n){ if(!isFinite(n)) n=0; return (n>=0?'+':'-')+money(Math.abs(n)); }
+    function cases(n){ if(!isFinite(n)) n=0; return Math.ceil(n).toLocaleString('en-US'); }
+
+    function calc(){
+      var F=num(fc), V=num(vc), Q1=num(q1), Q2=num(q2), S=num(step), P=num(price);
+      var addQ = Q2-Q1;
+
+      var costBefore = F + V*Q1;
+      var costAfter  = F + S + V*Q2;
+      var profitBefore = P*Q1 - costBefore;
+      var profitAfter  = P*Q2 - costAfter;
+      var deltaProfit  = profitAfter - profitBefore;
+      var cm = P - V;
+
+      // Marginal cost only means something when volume actually goes up.
+      var mc = addQ > 0 ? (costAfter - costBefore)/addQ : NaN;
+      var avgBefore = Q1 > 0 ? costBefore/Q1 : NaN;
+      var avgAfter  = Q2 > 0 ? costAfter/Q2  : NaN;
+      var be = cm > 0 ? S/cm : NaN;
+
+      if(addQ <= 0){
+        mcEl.textContent = '--';
+        mcSub.textContent = 'Set a new volume higher than your current volume.';
+        spreadEl.textContent = '--';
+      } else {
+        mcEl.textContent = money2(mc);
+        mcSub.textContent = 'What each of the '+cases(addQ)+' extra cases actually costs you';
+        spreadEl.textContent = (P-mc>=0?'':'-')+money2(P-mc);
+      }
+
+      deltaEl.textContent = signed(deltaProfit);
+      deltaSub.textContent = money(profitBefore)+' today, '+money(profitAfter)+' after';
+      deltaCard.className = 'vos-stat ' + (deltaProfit>=0 ? 'vos-profit' : 'vos-loss');
+
+      if(!isFinite(be)){
+        beEl.textContent = '--';
+        beSub.textContent = 'Your price does not cover the variable cost per case.';
+      } else if(S<=0){
+        beEl.textContent = '0';
+        beSub.textContent = 'No new fixed costs, so every extra case adds profit.';
+      } else {
+        beEl.textContent = cases(be);
+        beSub.textContent = 'To cover the '+money(S)+' of added overhead';
+      }
+
+      avgEl.textContent = (isFinite(avgBefore)?money2(avgBefore):'--') + ' → ' + (isFinite(avgAfter)?money2(avgAfter):'--');
+      cmEl.textContent  = (cm>=0?'':'-')+money2(cm);
+
+      // Dynamic tip: pick the most useful warning for the numbers on screen.
+      var t;
+      if(addQ <= 0){
+        t = 'Enter a <b>new total volume</b> above your current volume to see what the extra cases cost.';
+      } else if(cm <= 0){
+        t = 'At <b>'+money2(P)+'</b> a case you are not even covering the <b>'+money2(V)+'</b> variable cost. Every case you add loses money, no matter how much volume you push.';
+      } else if(mc >= P){
+        t = 'Each extra case costs <b>'+money2(mc)+'</b> but sells for <b>'+money2(P)+'</b>. This volume loses money. You need about <b>'+cases(be)+' cases</b> to cover the '+money(S)+' of new overhead, not '+cases(addQ)+'.';
+      } else if(isFinite(avgBefore) && mc < avgBefore){
+        t = 'Your average cost is <b>'+money2(avgBefore)+'</b> per case, but the next case only costs <b>'+money2(mc)+'</b>. Price off the average and you will turn down volume that would have made you money.';
+      } else {
+        t = 'The extra volume pushes your marginal cost to <b>'+money2(mc)+'</b>, above your <b>'+money2(avgBefore)+'</b> average. The new overhead is outrunning the volume. Fill the truck before you buy another one.';
+      }
+      tip.innerHTML = t;
+    }
+
+    [fc,vc,q1,q2,step,price].forEach(function(el){ el.addEventListener('input', calc); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "marginal-cost",
+  "rootId": "vos-q-marginal-cost",
+  "calcRootId": "vos-marginal",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "marginal-cost-s1",
+    "marginal-cost-s2",
+    "marginal-cost-s3",
+    "marginal-cost-s4",
+    "marginal-cost-s5",
+    "marginal-cost-s6",
+    "marginal-cost-s7"
+  ],
+  "gateId": "marginal-cost-gate",
+  "resultsId": "marginal-cost-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a volume and a price above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-q1",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-price",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Costs cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-vc",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-fc",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a number above zero so there is something to weigh up.",
+      "fields": [
+        {
+          "qid": "q-extra",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "capacity",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "intake",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "entry",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-q1",
+      "calcId": "vos-q1",
+      "qid": "q-vos-q1"
+    },
+    {
+      "id": "vos-price",
+      "calcId": "vos-price",
+      "qid": "q-vos-price"
+    },
+    {
+      "id": "vos-vc",
+      "calcId": "vos-vc",
+      "qid": "q-vos-vc"
+    },
+    {
+      "id": "vos-fc",
+      "calcId": "vos-fc",
+      "qid": "q-vos-fc"
+    },
+    {
+      "id": "extra",
+      "calcId": null,
+      "qid": "q-extra"
+    },
+    {
+      "id": "vos-step",
+      "calcId": "vos-step",
+      "qid": "q-vos-step",
+      "zeroWhen": {
+        "group": "capacity",
+        "values": [
+          "fits"
+        ],
+        "value": 0
+      }
+    }
+  ],
+  "groups": [
+    "situation",
+    "capacity",
+    "intake",
+    "entry"
+  ],
+  "autoGroups": [
+    "situation",
+    "intake",
+    "entry"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {
+    "capacity": {
+      "wrapId": "marginal-cost-s5-reveal",
+      "hintId": "marginal-cost-s5-revealhint",
+      "hideOn": [
+        "fits"
+      ],
+      "hints": {
+        "unsure": "We have put in one added route at $6,000 a month. Change it if you know your number.",
+        "needs-more": "The lease, the driver, the insurance. Per month, not one off."
+      },
+      "zeroOn": [
+        "fits"
+      ],
+      "zeroValue": 0,
+      "fieldQid": "q-vos-step"
+    }
+  },
+  "derived": [
+    {
+      "calcId": "vos-q2",
+      "event": "input",
+      "compute": function (f) { return (f['vos-q1'] || 0) + (f['extra'] || 0); }
+    }
+  ],
+  "cards": [
+    {
+      "calcId": "vos-mc",
+      "qid": "qc-vos-mc",
+      "cardId": "qcard-vos-mc",
+      "qsubId": "qcs-vos-mc",
+      "subFrom": "vos-mc-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-delta",
+      "qid": "qc-vos-delta",
+      "cardId": "qcard-vos-delta",
+      "qsubId": "qcs-vos-delta",
+      "subFrom": "vos-delta-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-delta-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-spread",
+      "qid": "qc-vos-spread",
+      "cardId": "qcard-vos-spread",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-be",
+      "qid": "qc-vos-be",
+      "cardId": "qcard-vos-be",
+      "qsubId": "qcs-vos-be",
+      "subFrom": "vos-be-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-avg",
+      "qid": "qc-vos-avg",
+      "cardId": "qcard-vos-avg",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-cm",
+      "qid": "qc-vos-cm",
+      "cardId": "qcard-vos-cm",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your cost figures before committing to new volume.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "intake",
+      "weights": {
+        "phone-voicemail": 30,
+        "mixed": 26,
+        "email-text": 20,
+        "portal-edi": 8
+      }
+    },
+    {
+      "group": "entry",
+      "weights": {
+        "reps": 25,
+        "order-desk": 20,
+        "owner": 18,
+        "automated": 5
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "new-account": 15,
+        "new-route": 13,
+        "more-existing": 11,
+        "exploring": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-q1",
+    "bands": [
+      [
+        10000,
+        30
+      ],
+      [
+        4000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read) {
+    var signed = function (s) {
+      var str = String(s).trim();
+      var n = parseFloat(str.replace(/[^0-9.]/g, ''));
+      if (!isFinite(n)) n = 0;
+      return str.charAt(0) === '-' ? -n : n;
+    };
+    var plain = function (s) {
+      var n = parseFloat(String(s).replace(/[^0-9.]/g, ''));
+      return isFinite(n) ? n : 0;
+    };
+
+    if (read['vos-mc'] === '--') {
+      return { tone: 'is-wait', title: 'Nothing to weigh up yet.',
+        text: 'Go back and enter the extra cases a month you are being offered.' };
+    }
+    var delta = signed(read['vos-delta']);
+    var mc = plain(read['vos-mc']);
+    var avgBefore = plain(String(read['vos-avg']).split('→')[0]);
+
+    if (delta <= 0) {
+      return { tone: 'is-no', title: 'Not at this price.',
+        text: 'Each extra case costs ' + read['vos-mc'] + ' to move, and the volume moves your monthly '
+            + 'profit by ' + read['vos-delta'] + '. You would need about ' + read['vos-be']
+            + ' extra cases just to carry the overhead it brings.' };
+    }
+    if (avgBefore && mc < avgBefore) {
+      return { tone: 'is-go', title: 'Take it.',
+        text: 'Each extra case costs ' + read['vos-mc'] + ', well under your '
+            + String(read['vos-avg']).split('→')[0].trim() + ' average, and the volume adds '
+            + read['vos-delta'].replace('+', '') + ' a month to profit.' };
+    }
+    return { tone: 'is-go', title: 'Take it, but watch the overhead.',
+      text: 'The volume adds ' + read['vos-delta'].replace('+', '') + ' a month, but each extra case '
+          + 'costs ' + read['vos-mc'] + ' against a ' + String(read['vos-avg']).split('→')[0].trim()
+          + ' average. Fill the truck before you buy another one.' };
+  },
+  "subLine": function (read, ans, f) {
+    var label = {
+      'new-account': 'a new account',
+      'more-existing': 'an account you already serve',
+      'new-route': 'a new route',
+      'exploring': 'the extra volume',
+    }[ans.situation] || 'the extra volume';
+    return 'Based on ' + (f['extra'] || 0).toLocaleString('en-US') + ' extra cases a month on top of the '
+         + (f['vos-q1'] || 0).toLocaleString('en-US') + ' you move today, from ' + label + '.';
+  },
+  "echoes": [
+    {
+      "id": "marginal-cost-s4-echo",
+      "text": function (f) {
+        var q1 = f['vos-q1'] || 0;
+        var ex = f['extra'] || 0;
+        if (ex <= 0) return 'Enter the extra cases on offer and we will show you the new total.';
+        return 'That takes you from ' + q1.toLocaleString('en-US') + ' to '
+             + (q1 + ex).toLocaleString('en-US') + ' cases a month.';
+      }
+    }
+  ]
+};
+  </script>

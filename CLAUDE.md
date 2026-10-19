@@ -9,6 +9,32 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Related strips link same-audience siblings; each footer carries one cross-audience link.
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
+## ▶ RESUME HERE: latest session 2026-10-19 (Webflow site work, no repo page changes)
+Everything below was SAVED in Webflow (site `69bc131a5fdaa09a10456d46`); Eugene publishes, we
+never call `publish_site`. Check the live page's `Last Published` comment before assuming a change
+is live. Full detail lives in the sections named here, near the end of this file.
+
+| What | Pages | Record |
+|---|---|---|
+| FAQ accordion fixed with a JS embed (IX2 was bound to one template page) | 12 /alternatives + 23 calculators | "FAQ accordion fix and header swap" + `_webflow/faq-and-header-2026-10-19.md` |
+| Homepage `Navbar` replaces `Landing Navbar` | all 61 published landing pages | same section |
+| V2 HubSpot-gated quizzes replace the calculators; old calculator embeds DELETED | 23 calculators | "V2 quizzes replace the calculators" + `_webflow/quiz-v2/RESULT.md` |
+| Quiz gate heading "Want to see your results?" (changed in the lead magnets generator) | 23 calculators | same |
+| Hero button 1 wired to per-page props + `Show Button 1`; "See how it works" -> `#how-it-works` | all 62 `landing-hero` instances | same (Webflow hero labels bullet) |
+| Comparisons nav icon (balance scale), pasted by Eugene | nav | `_webflow/free-tools-icons/_nav-dropdown-balance-scale.svg` |
+
+**Open, in priority order:**
+1. **The VOS sentence in 10 quizzes' result boxes overclaims** (real-time inventory, "flags low
+   stock", "confirms every order", "keeps pack counts current"; landed cost says "dearest").
+   It was already on the old calculators. Fix in `Lead magnets VOS` (the calculators' CTA
+   source), rebuild (`node scripts/build_v2.js`), `python -I _webflow/quiz-v2/split.py`, re-push
+   embed A/B per `_webflow/quiz-v2/RUNBOOK.md`, verify with `verify_code.py`. Offered, not asked for yet.
+2. **26 feature pages' FAQs are still stuck open** (same IX2 cause). Same embed, same recipe. Offered.
+3. **HubSpot form** (client side): no hidden fields, so quiz answers never reach the contact;
+   phone defaults to Bulgaria.
+4. Whether /alternatives heroes should read "Book a demo" like /solutions (asked, unanswered).
+5. The `site-v2` Vercel preview of the quizzes was rebuilt but not redeployed.
+
 ## Deployment
 - **GitHub:** `github.com/busyeugene/vos-landing-pages` (remote `origin`)
 - **Vercel:** project `vos-landing-pages` → live at `https://vos-landing-pages.vercel.app`
@@ -301,8 +327,9 @@ the live element trees.
 **Only one thing is left on this cluster:**
 1. **Look at a rendered page.** Everything verified so far is string and structure level, and the
    2026-10-09 lesson is that string-level green says nothing about rendering. Open a Designer
-   preview, one pass per template section, before anything is published. Nothing is published:
-   all 13 pages are `draft: true`, and all 13 were re-confirmed to carry their `openGraph`
+   preview, one pass per template section, before anything is published. ⚠ **Superseded
+   2026-10-19: all 12 `/alternatives/<slug>` pages are now PUBLISHED by the client** (they are in
+   the live sitemap and return the page). At 2026-10-10 all 13 were `draft: true`, and all 13 were re-confirmed to carry their `openGraph`
    `titleCopied`/`descriptionCopied` and SEO title (duplication does not copy the OG pair, so
    that was a real risk, and it is clean).
 
@@ -872,6 +899,10 @@ already identical, which is a free way to tell whether a page needed the write.
 **FAQ accordions cannot be added.** Webflow IX2 binds the accordion interaction per element via
 `data-w-id`, so an inserted item renders dead. The donor carries 8 slots, so a 9-FAQ page has two
 related FAQs **merged** instead; record every such decision in `_webflow/overrides.json`.
+⚠ Corrected 2026-10-19: it is worse than that. The IX2 events are bound to ONE page
+(`6a622ea22b8b7e9538a8ac08`), so on EVERY duplicated landing page the whole accordion is dead:
+answers render open and clicks do nothing. The fix is the JS embed in `faq-accordion-embed.html`,
+not IX2. See "FAQ accordion fix and header swap" below.
 
 **Map every slot, then prove it.** The first port wrote the feature-row H3s, bodies, bullets and
 the comparison *column heads*, but not the features section eyebrow, the four row eyebrows, or the
@@ -1399,6 +1430,102 @@ layout classes, different menu. Log: `header-swap.md`.
 - **A slot regex `[a-z_]+` silently cut "h2" to "h"** in `gen_update.py`; a helper caught it.
 - Still open: the draft test page `6ad05858af84441219bf54be` (`/marginal-cost-calculator-sections-test`)
   can only be deleted in the Designer; nobody has looked at a rendered page yet.
+
+## FAQ accordion fix and header swap (2026-10-19)
+Log: `_webflow/faq-and-header-2026-10-19.md`. Everything saved in Webflow, **nothing published**.
+
+**Why every FAQ on the landing pages was stuck open.** The FAQ01 open/close is an IX2 interaction
+(`a-278` OPEN, `a-283` CLOSE). In the published site script (`webflow.<hash>.js`) all of its events
+target `"6a622ea22b8b7e9538a8ac08|<element uuid>"`, i.e. ONE page. Duplicated pages keep the element
+uuids but get no events, so the answers show open (nothing ever sets height 0) and clicks do
+nothing. Confirmed live on `/order-entry-software` and a calculator. Found by grepping the site
+script for the FAQ question's `data-w-id` and reading the page prefix on each event.
+
+**Fix: one HtmlEmbed appended to the FAQ section** (`cb55ed2c-634b-b694-87d5-a43e7e3cf94e`, the
+same uuid on every duplicated page). Source of truth: `_webflow/faq-accordion-embed.html` (1654
+bytes). It scopes itself via `document.currentScript.closest('section')`, adds `.faq-js` so the CSS
+only collapses answers once the JS has run (with JS off, everything stays visible), opens item 1,
+closes the rest, toggles on click / Enter / Space with `aria-expanded`, and rotates
+`accordion-icon_vertical-line` 90deg (plus to minus) like the IX2 animation did. Tested in headless
+Chrome against the live calculator markup and stylesheet. **To test it, disable CSS transitions**:
+headless screenshots freeze transitions mid-way and make a working accordion look broken.
+**Scripts do not run in the Designer canvas**, so the Designer still shows every answer open.
+
+Recipe per page: `data_element_builder` `{type: "HtmlEmbed"}` appended to the FAQ section, then
+`set_settings` key `code` with `static_text.value` = the file verbatim, then read back with
+`get_settings` `all_raw_settings`. Check first for an existing embed containing `faq-js`.
+
+Applied to: **12 compare pages** (drafts) and **all 23 calculator pages** (live, so it ships with
+the next site publish). The `/free-tools` hub has no FAQ.
+⚠ **Still open: the 26 feature pages have the same dead accordion and are live.** Same recipe,
+not done because it was not asked for. Offered to Eugene.
+
+**Header: all 12 compare pages now use the homepage `Navbar` component**
+(`d1d68e62-9100-5fcc-c190-da89dbbb0f8e`) instead of `Landing Navbar` (instance element
+`c019f0db-face-3773-5d32-a5b8fd8f51be`), matching the calculators (2026-10-15).
+`insert_component_instance` **rejects a component instance as the anchor**, so "before the old
+navbar" fails: `prepend` into Body (`6a622ea22b8b7e9538a8ac0e`), then `remove_element` the old
+instance. Verified on all 12: one `Navbar`, no `Landing Navbar`.
+
+**Nav dropdown icon for the Comparisons (`/alternatives`) entry:**
+`_webflow/free-tools-icons/_nav-dropdown-balance-scale.svg`, in the same wrapper as the calculator
+glyph and matching the hub's card icon. Every subpath runs clockwise so the parts merge under
+`nonzero`. Eugene pastes it into the menu by hand.
+
+**Rate limits:** three parallel workers on the MCP hit `429 Too Many Requests` once each. A
+retry worked every time; re-query before retrying a create so it cannot duplicate.
+
+## V2 quizzes replace the calculators on all 23 pages (2026-10-19)
+Record: `_webflow/quiz-v2/RESULT.md` (start there), recipe `RUNBOOK.md`, data `plan.json`,
+`staged.jsonl`, `flipped.jsonl`, `final-check.json`. Saved, ships with the next site publish.
+Source of the quizzes: the sister project `Lead magnets VOS/lead-magnets-v2/_generated/`.
+
+- **A quiz (68-80 KB) does not fit one HtmlEmbed (~50,000 chars).** `split.py` moves every
+  `<style>`/`<script>` out of the `.vos-quiz` div: safe because the CSS is class-scoped and every
+  script finds its elements by id. The quiz CSS and the engine are byte-identical on all 23, so
+  each is ONE shared component (`VOS Quiz CSS`, `VOS Quiz Engine`, group "VOS Quiz"); each page
+  adds two embeds of its own. The engine must stay LAST: it reads `window.__VOS_QUIZ_SPEC__`.
+- **Staged hidden, then flipped.** A hidden element is left out of published HTML (the hidden
+  testimonial section is absent from the live source), so new embeds went in hidden, were
+  verified, then one flip showed them and hid the old calculator. A publish at any moment
+  showed one or the other, never a half-built page.
+- **Verifying 10-30 KB of stored code byte for byte:** repeat the same `get_settings` in one
+  call until the result exceeds ~100,000 chars, so the harness saves it to a file, then
+  `verify_code.py <file> <sources>`. Judging a read-back by eye is not verification.
+- **Making a shared component headlessly:** create an EMPTY visible HtmlEmbed on any page,
+  `transform_element_to_component` with `replace: false`, `remove_element` the original, then
+  write the code into the definition with `set_settings` + `scope_component_id`. Building it
+  hidden first would make the definition's root hidden on every instance.
+- **The old calculator anchor dies inside a quiz** (the quiz carries the calculator hidden, id
+  and all), so the hero Link prop and the 4 row buttons were re-pointed to `#vos-q-<quiz>`.
+- `smoke_quiz.js <quiz> <file url>` from the lead magnets project tests a split page locally.
+  Run it one quiz at a time with `timeout`: a `$(...)` loop around it hung silently for 40 min.
+- **The gate heading is "Want to see your results?"** (nothing is emailed). It lives in the
+  lead magnets generator `scripts/build_v2.js`, not in a spec; change it there, rebuild, re-split.
+- ⚠ **The `landing-hero` component's per-page `Text 3` / `Link` props did nothing until
+  2026-10-19**: the first button was hard-coded "Book a demo". It is now bound to them, and a new
+  `Show Button 1` prop (default OFF, set ON on all 62 instances) controls it. So the page's own
+  CTA label now shows ("Book a Free Demo", "Get Set Up With VOS", "Use the Calculator"). A NEW
+  instance placed from scratch starts with the button hidden; one copied from the Landing
+  Template inherits ON. A prop that is set but unbound fails silently: check bindings on the
+  component, not just the instance values.
+- **Webflow hero labels (Eugene, 2026-10-19):** all 26 /solutions pages read exactly
+  **"Book a demo"**, operator pages included. This overrides the "CTA labels by audience" rule
+  for the Webflow HERO button only (the repo pages and other CTAs are unchanged); a re-port of
+  hero props must keep it. /alternatives still read "Book a Free Demo"; calculators "Use the
+  Calculator". The hero's "See how it works" goes to `#how-it-works` on every page (one change in
+  the component; all 61 published landing pages carry exactly one `#how-it-works` section).
+- **All 26 /solutions pages now use the homepage `Navbar`** (Eugene, 2026-10-19), same swap as
+  the 12 compare pages: prepend `d1d68e62-...0f8e` into Body `6a622ea22b8b7e9538a8ac0e`, remove
+  `Landing Navbar` `c019f0db-face-3773-5d32-a5b8fd8f51be` (same ids on all 26, client-built ones
+  included). All 61 published landing pages are now on the homepage Navbar.
+- The `Main CTA` component's `Link 1`/`Link 2` props read `#` on many pages, but they are not
+  wired to the visible button, which renders `/contact-us` (checked live). Not a defect.
+- **Old calculator embeds deleted** on all 23 pages (`quiz-v2/deleted.jsonl`); rollback now means
+  re-pasting from the lead magnets project.
+- ⚠ **Open:** the VOS sentence in 10 quizzes' result boxes overclaims (real-time inventory,
+  flags low stock, confirms every order, pack counts current) and landed cost says "dearest".
+  It was already live on the old calculators. Fix at the source in the lead magnets project.
 
 ## Lessons from the Oct 2026 editorial check (4 passes, after the Webflow port)
 Run in this order, cheapest-catch-first. Passes 1 and 2 are mechanical and found the worst defect.

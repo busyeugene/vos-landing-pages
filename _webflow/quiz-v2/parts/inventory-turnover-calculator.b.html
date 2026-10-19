@@ -1,0 +1,330 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-invturn');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var cogs=$('vos-cogs'), avginv=$('vos-avginv'), carry=$('vos-carry'), cut=$('vos-cut'), cutSlider=$('vos-cut-slider'),
+        turnEl=$('vos-turn'), dioEl=$('vos-dio'), cashEl=$('vos-cash'),
+        carryEl=$('vos-carrycost'), carrySub=$('vos-carrycost-sub'),
+        freedEl=$('vos-freed'), freedSub=$('vos-freed-sub'), savedEl=$('vos-carrysaved'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-cogs':1584000,'vos-avginv':132000,'vos-carry':25,'vos-cut':5};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money(n){ if(!isFinite(n)) n=0; return '$'+Math.round(n).toLocaleString('en-US'); }
+
+    function calc(){
+      var COGS=num(cogs), INV=num(avginv);
+      var cr=parseFloat(carry.value); if(!isFinite(cr)||cr<0) cr=0;
+      var days=parseFloat(cut.value); if(!isFinite(days)||days<0) days=0;
+
+      // Cash tied up and carrying cost stand on their own even without a turnover.
+      cashEl.textContent = money(INV);
+      var carryCost = INV*cr/100;
+      carryEl.textContent = money(carryCost);
+      carrySub.textContent = 'At '+cr.toFixed(0)+'% of inventory value';
+
+      if(COGS<=0 || INV<=0){
+        turnEl.textContent='--'; dioEl.textContent='--';
+        freedEl.textContent='--'; savedEl.textContent='--';
+        freedSub.textContent='Enter COGS and inventory first';
+        tip.innerHTML='Enter your annual <b>COGS</b> and <b>average inventory</b>, both at cost, and we will work out your turns and the cash they tie up.';
+        return;
+      }
+
+      var turnover = COGS/INV;
+      var dio = 365/turnover; // = 365 * INV / COGS
+      // Cannot turn faster than the stock currently sits.
+      var d = Math.min(days, dio);
+      var perDay = COGS/365;
+      var freed = d*perDay;
+      var saved = freed*cr/100;
+
+      turnEl.textContent = turnover.toFixed(1)+'x';
+      dioEl.textContent = dio.toFixed(1)+' days';
+      freedEl.textContent = money(freed);
+      freedSub.textContent = 'By trimming '+d.toFixed(0)+' days of stock';
+      savedEl.textContent = money(saved);
+
+      tip.innerHTML = 'You turn inventory <b>'+turnover.toFixed(1)+'</b> times a year, so a case sits about <b>'+dio.toFixed(0)+' days</b> before it sells. That parks <b>'+money(INV)+'</b> in stock and costs about <b>'+money(carryCost)+'</b> a year to carry at '+cr.toFixed(0)+'%. Turning <b>'+d.toFixed(0)+' days</b> faster would free <b>'+money(freed)+'</b> and save <b>'+money(saved)+'</b> a year in carrying.';
+    }
+
+    function syncSlider(){ var v=parseFloat(cut.value); if(isFinite(v)) cutSlider.value=Math.max(0,Math.min(30,v)); }
+    [cogs,avginv,carry].forEach(function(el){ el.addEventListener('input', calc); });
+    cut.addEventListener('input', function(){ syncSlider(); calc(); });
+    cutSlider.addEventListener('input', function(){ cut.value=cutSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "inventory-turnover",
+  "rootId": "vos-q-inventory-turnover",
+  "calcRootId": "vos-invturn",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "inventory-turnover-s1",
+    "inventory-turnover-s2",
+    "inventory-turnover-s3",
+    "inventory-turnover-s4",
+    "inventory-turnover-s5"
+  ],
+  "gateId": "inventory-turnover-gate",
+  "resultsId": "inventory-turnover-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a cost of goods and an inventory value above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-cogs",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-avginv",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-carry",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-cut",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "reorderdecide",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "whoplaces",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-cogs",
+      "calcId": "vos-cogs",
+      "qid": "q-vos-cogs"
+    },
+    {
+      "id": "vos-avginv",
+      "calcId": "vos-avginv",
+      "qid": "q-vos-avginv"
+    },
+    {
+      "id": "vos-carry",
+      "calcId": "vos-carry",
+      "qid": "q-vos-carry"
+    },
+    {
+      "id": "vos-cut",
+      "calcId": "vos-cut",
+      "qid": "q-vos-cut"
+    }
+  ],
+  "groups": [
+    "situation",
+    "reorderdecide",
+    "whoplaces"
+  ],
+  "autoGroups": [
+    "situation",
+    "reorderdecide",
+    "whoplaces"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-turn",
+      "qid": "qc-vos-turn",
+      "cardId": "qcard-vos-turn",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-dio",
+      "qid": "qc-vos-dio",
+      "cardId": "qcard-vos-dio",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-cash",
+      "qid": "qc-vos-cash",
+      "cardId": "qcard-vos-cash",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-carrycost",
+      "qid": "qc-vos-carrycost",
+      "cardId": "qcard-vos-carrycost",
+      "qsubId": "qcs-vos-carrycost",
+      "subFrom": "vos-carrycost-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-freed",
+      "qid": "qc-vos-freed",
+      "cardId": "qcard-vos-freed",
+      "qsubId": "qcs-vos-freed",
+      "subFrom": "vos-freed-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-carrysaved",
+      "qid": "qc-vos-carrysaved",
+      "cardId": "qcard-vos-carrysaved",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your cost of goods and average inventory against your year end.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "reorderdecide",
+      "weights": {
+        "memory": 30,
+        "walk-it": 26,
+        "spreadsheet": 20,
+        "system": 8
+      }
+    },
+    {
+      "group": "whoplaces",
+      "weights": {
+        "warehouse": 25,
+        "owner": 20,
+        "buyer": 14,
+        "auto": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "too-much-stock": 15,
+        "cash-tight": 14,
+        "write-offs": 12,
+        "benchmark": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-cogs",
+    "bands": [
+      [
+        10000000,
+        30
+      ],
+      [
+        2000000,
+        22
+      ],
+      [
+        500000,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-turn'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to work it out.',
+        text: 'Go back and put in a cost of goods and an average inventory above zero.' };
+    }
+    var slowBuying = ans.reorderdecide === 'memory' || ans.reorderdecide === 'walk-it';
+    if (slowBuying) {
+      return { tone: 'is-go', title: 'You turn ' + read['vos-turn'] + '.',
+        text: 'That is ' + read['vos-dio'] + ' on the shelf and ' + read['vos-cash'] + ' parked. '
+            + 'Turning faster frees ' + read['vos-freed'] + ', and the buying decision is still being '
+            + 'made from what people remember.' };
+    }
+    return { tone: 'is-go', title: 'You turn ' + read['vos-turn'] + '.',
+      text: 'That is ' + read['vos-dio'] + ' on the shelf and ' + read['vos-cash'] + ' tied up, '
+          + 'costing ' + read['vos-carrycost'] + ' a year to carry. Turning faster frees '
+          + read['vos-freed'] + '.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on $' + (f['vos-cogs'] || 0).toLocaleString('en-US') + ' of goods against $'
+         + (f['vos-avginv'] || 0).toLocaleString('en-US') + ' of average stock.';
+  },
+  "echoes": []
+};
+  </script>

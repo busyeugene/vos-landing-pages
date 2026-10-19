@@ -1,0 +1,456 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+    .vos-calc{
+      --vos-blue:#0099e6; --vos-blue-dark:#014b7d; --vos-blue-soft:#eaeef1;
+      --vos-navy:#023c64; --vos-slate:#344054; --vos-muted:#667085;
+      --vos-border:#eaecf0; --vos-bg:#f9fafb; --vos-white:#ffffff;
+      --vos-green:#02b845; --vos-green-soft:#ecfdf3;
+      --vos-radius:12px; --vos-shadow:0 1px 3px rgba(2,60,100,.08),0 8px 24px rgba(2,60,100,.06);
+      all:revert;
+      box-sizing:border-box;
+      font-family:'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--vos-slate); line-height:1.5; max-width:760px; margin:0 auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    .vos-calc *,.vos-calc *::before,.vos-calc *::after{box-sizing:border-box;}
+    .vos-calc input,.vos-calc select,.vos-calc button,.vos-calc textarea{font-family:inherit;}
+    .vos-calc .vos-card{
+      background:var(--vos-white); border:1px solid var(--vos-border);
+      border-radius:var(--vos-radius); box-shadow:var(--vos-shadow); overflow:hidden;
+    }
+    .vos-calc .vos-head{background:var(--vos-navy); color:#fff; padding:22px 24px;}
+    .vos-calc .vos-head h3{margin:0;font-family:'Montserrat',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#fff;line-height:1.3;}
+    .vos-calc .vos-head p{margin:6px 0 0;font-size:14px;color:#c7dced;}
+    .vos-calc .vos-body{padding:24px;}
+    .vos-calc .vos-legend{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--vos-muted);margin:0 0 12px;}
+    .vos-calc .vos-legend.vos-sep{margin-top:24px;padding-top:20px;border-top:1px solid var(--vos-border);}
+    .vos-calc .vos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media(max-width:560px){.vos-calc .vos-grid{grid-template-columns:1fr;}}
+    .vos-calc label{display:block;font-size:13px;font-weight:600;color:var(--vos-slate);margin-bottom:6px;}
+    .vos-calc .vos-hint{display:block;font-size:11.5px;font-weight:400;color:var(--vos-muted);margin-top:5px;}
+    .vos-calc .vos-field{position:relative;margin-bottom:4px;}
+    .vos-calc .vos-prefix{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:15px;font-weight:600;pointer-events:none;}
+    .vos-calc input[type=number]{
+      width:100%;padding:12px 14px 12px 28px;font-size:16px;color:var(--vos-navy);
+      background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;transition:border-color .15s,box-shadow .15s;-moz-appearance:textfield;
+    }
+    .vos-calc input.vos-plain{padding-left:14px;}
+    .vos-calc input[type=number]:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background:#fff;}
+    .vos-calc input[type=number]::-webkit-outer-spin-button,
+    .vos-calc input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+    .vos-calc .vos-suffix{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:13px;font-weight:600;pointer-events:none;}
+    .vos-calc input.vos-hassuffix{padding-right:56px;}
+    .vos-calc .vos-slider-wrap{margin-top:12px;}
+    .vos-calc input[type=range]{width:100%;-webkit-appearance:none;appearance:none;height:6px;border-radius:6px;background:var(--vos-border);outline:none;margin:0;}
+    .vos-calc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:22px;height:22px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--vos-blue);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 4px rgba(2,60,100,.25);}
+    .vos-calc .vos-results{margin-top:22px;border-top:1px solid var(--vos-border);padding-top:22px;}
+    .vos-calc .vos-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.vos-calc .vos-result-grid{grid-template-columns:1fr;}}
+    .vos-calc .vos-stat{background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:12px;padding:16px;}
+    .vos-calc .vos-stat .vos-k{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--vos-muted);margin-bottom:4px;}
+    .vos-calc .vos-stat .vos-v{font-family:'Montserrat',sans-serif;font-size:24px;font-weight:800;color:var(--vos-navy);letter-spacing:-.02em;}
+    .vos-calc .vos-stat .vos-sub{font-size:11.5px;color:var(--vos-muted);margin-top:3px;}
+    .vos-calc .vos-stat.vos-hero{background:var(--vos-blue-soft);border-color:#c3d5e3;}
+    .vos-calc .vos-stat.vos-hero .vos-v{color:var(--vos-blue-dark);}
+    .vos-calc .vos-stat.vos-profit{background:var(--vos-green-soft);border-color:#b6f0cd;}
+    .vos-calc .vos-stat.vos-profit .vos-v{color:#02914f;}
+    .vos-calc .vos-stat.vos-loss{background:#fef3f2;border-color:#fecdca;}
+    .vos-calc .vos-stat.vos-loss .vos-v{color:#b42318;}
+    .vos-calc .vos-tip{display:flex;gap:10px;margin-top:18px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#854d0e;}
+    .vos-calc .vos-tip b{color:#713f12;}
+    .vos-calc .vos-tip svg{flex:0 0 auto;margin-top:1px;}
+    .vos-calc .vos-cta{margin-top:18px;background:var(--vos-navy);border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+    .vos-calc .vos-cta .vos-cta-txt{font-size:14px;color:#c7dced;max-width:62%;min-width:220px;}
+    .vos-calc .vos-cta .vos-cta-txt b{color:#fff;display:block;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;margin-bottom:2px;}
+    .vos-calc .vos-cta a{background:var(--vos-blue);color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:8px;white-space:nowrap;transition:background .15s;}
+    .vos-calc .vos-cta a:hover{background:#00add4;}
+    .vos-calc .vos-reset{margin-top:14px;background:none;border:none;color:var(--vos-muted);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline;padding:0;}
+    .vos-calc .vos-foot{text-align:center;font-size:11.5px;color:var(--vos-muted);margin-top:14px;}
+  </style>
+<!-- ============================================================
+     VOICEORDER SOLUTIONS V2 QUIZ: What are your late payers actually costing you?
+     GENERATED by scripts/build_v2.js. Do not hand-edit.
+     Source: lead-magnets-v2/specs/ar-turnover.js
+             lead-magnets-v2/_engine/
+             lead-magnets/accounts-receivable-turnover-calculator.html
+
+     The shipped calculator is inlined below, hidden, and driven by
+     the quiz. Nothing in this file does arithmetic, so the numbers
+     here are the calculator's own.
+     ============================================================ -->
+<div class="vos-quiz" id="vos-q-ar-turnover">
+
+  <div class="vos-calc-host" aria-hidden="true">
+<!-- ============================================================
+     VOICEORDER SOLUTIONS LEAD MAGNET: Accounts Receivable
+     Turnover Calculator
+     Self-contained. No external libraries. Paste this whole
+     block into a blog "Custom HTML" / "Raw HTML" embed.
+     All styles are scoped under .vos-calc so they won't
+     touch the rest of your page. Recolor in one place via
+     the CSS variables on .vos-calc.
+     ============================================================ -->
+<div class="vos-calc" id="vos-ar">
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Accounts Receivable Turnover Calculator</h3>
+      <p>See how fast you collect, how many days past terms your customers really pay, and what that delay costs you.</p>
+    </div>
+    <div class="vos-body">
+
+      <p class="vos-legend">Your numbers</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-sales">Annual sales on credit</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-sales" min="0" step="any" value="9600000" inputmode="decimal">
+          </div>
+          <span class="vos-hint">Sales billed on terms. Leave out cash and card sales that settle the same day.</span>
+        </div>
+        <div>
+          <label for="vos-terms">Your net terms</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-terms" min="0" step="any" value="30" inputmode="decimal">
+            <span class="vos-suffix">days</span>
+          </div>
+          <span class="vos-hint">What the invoice says. Net 30, net 21, net 14.</span>
+        </div>
+        <div>
+          <label for="vos-begar">Accounts receivable, start of year</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-begar" min="0" step="any" value="980000" inputmode="decimal">
+          </div>
+        </div>
+        <div>
+          <label for="vos-endar">Accounts receivable, end of year</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-endar" min="0" step="any" value="1060000" inputmode="decimal">
+          </div>
+        </div>
+        <div>
+          <label for="vos-rate">Cost of money</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-rate" min="0" step="any" value="9" inputmode="decimal">
+            <span class="vos-suffix">% / yr</span>
+          </div>
+          <span class="vos-hint">Your line of credit rate, or what that cash would earn if you had it.</span>
+        </div>
+        <div>
+          <label for="vos-cut">What if you collected sooner?</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-cut" min="0" step="1" value="5" inputmode="decimal">
+            <span class="vos-suffix">days</span>
+          </div>
+          <div class="vos-slider-wrap">
+            <input type="range" id="vos-cut-slider" min="0" max="30" step="1" value="5">
+          </div>
+        </div>
+      </div>
+
+      <div class="vos-results">
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">AR turnover ratio</div>
+            <div class="vos-v" id="vos-turn">9.4x</div>
+            <div class="vos-sub" id="vos-turn-sub">You collect your book 9.4 times a year</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Days sales outstanding</div>
+            <div class="vos-v" id="vos-dso">38.8 days</div>
+            <div class="vos-sub" id="vos-dso-sub">Average time from invoice to cash</div>
+          </div>
+          <div class="vos-stat vos-loss" id="vos-beyond-card">
+            <div class="vos-k">Days past your terms</div>
+            <div class="vos-v" id="vos-beyond">8.8 days</div>
+            <div class="vos-sub" id="vos-beyond-sub">How far customers run past net 30</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Cash stuck past terms</div>
+            <div class="vos-v" id="vos-stuck">$230,959</div>
+            <div class="vos-sub">Your money sitting in other people's accounts</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Yearly cost of that delay</div>
+            <div class="vos-v" id="vos-carry">$20,786</div>
+            <div class="vos-sub" id="vos-carry-sub">At 9% cost of money</div>
+          </div>
+          <div class="vos-stat vos-profit">
+            <div class="vos-k" id="vos-freed-k">Cash freed by collecting 5 days sooner</div>
+            <div class="vos-v" id="vos-freed">$131,507</div>
+            <div class="vos-sub" id="vos-freed-sub">One-time cash release, yours to keep</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="vos-tip-text">You write net 30 but collect in <b>38.8 days</b>. That gap leaves <b>$230,959</b> of your cash on someone else's balance sheet and costs you <b>$20,786</b> a year to finance. Most of it is not customers refusing to pay, it is invoices that went out late or wrong.</div>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="vos-reset">Reset calculator</button>
+        </div>
+        <div class="vos-foot">Estimates only. Uses a simple average of your start and end AR balances. Talk to your accountant before acting on the numbers.</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Accounts Receivable Turnover Calculator ============ -->
+  </div>
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>What are your late payers actually costing you?</h3>
+      <p>Seven quick questions off your year end. At the end you get how many days past terms you really collect, and what that delay is worth.</p>
+      <div class="vos-prog" role="progressbar" aria-valuemin="0" aria-valuemax="7" aria-valuenow="1" aria-label="Quiz progress" id="q-prog">
+        <div class="vos-prog-bar" id="q-bar"></div>
+      </div>
+      <div class="vos-prog-txt" id="q-progtxt">Step 1 of 7</div>
+    </div>
+
+    <div class="vos-body" aria-live="polite">
+
+      <section class="vos-step is-on" id="ar-turnover-s1">
+        <p class="vos-eyebrow">The situation</p>
+        <h4 class="vos-q">What put collections on your desk this week?</h4>
+        <p class="vos-qsub">Pick the closest one.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What put collections on your desk this week?">
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-situation" data-group="situation" value="cash-tight"><span class="vos-dot"></span><span>Cash is tight and I want to know why</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-situation" data-group="situation" value="bad-payer"><span class="vos-dot"></span><span>One account in particular is dragging</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-situation" data-group="situation" value="terms-review"><span class="vos-dot"></span><span>We are reviewing the terms we offer</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-situation" data-group="situation" value="benchmark"><span class="vos-dot"></span><span>Nothing urgent, I want to see where we sit</span></label>
+        </div>
+        <div class="vos-err" id="ar-turnover-s1-err">Pick one to carry on.</div>
+        <div class="vos-nav vos-armed" data-arm="situation">
+          <button type="button" class="vos-next" data-next>Continue</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="ar-turnover-s2">
+        <p class="vos-eyebrow">What you sell on credit</p>
+        <h4 class="vos-q">How much goes out on terms, and what terms are they?</h4>
+        <p class="vos-qsub">Credit sales only. Anything paid on delivery does not belong here.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-sales">Annual sales on credit</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-sales" min="0" step="any" value="9600000" inputmode="decimal">
+            </div>
+            <span class="vos-hint">Everything invoiced rather than paid at the door.</span>
+          </div>
+          <div>
+            <label for="q-vos-terms">Your net terms</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-terms" min="0" step="any" value="30" inputmode="decimal">
+              <span class="vos-suffix">days</span>
+            </div>
+            <span class="vos-hint">What the invoice says. Net 30 is the usual starting point.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="ar-turnover-s2-err">Enter annual credit sales above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="ar-turnover-s3">
+        <p class="vos-eyebrow">What you are owed</p>
+        <h4 class="vos-q">What did receivables look like at each end of the year?</h4>
+        <p class="vos-qsub">Straight off the balance sheet. The average of the two is what the math uses.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-begar">Accounts receivable, start of year</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-begar" min="0" step="any" value="980000" inputmode="decimal">
+            </div>
+            <span class="vos-hint">What customers owed you on day one.</span>
+          </div>
+          <div>
+            <label for="q-vos-endar">Accounts receivable, end of year</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-endar" min="0" step="any" value="1060000" inputmode="decimal">
+            </div>
+            <span class="vos-hint">What they owed you on the last day.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="ar-turnover-s3-err">Receivables cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="ar-turnover-s4">
+        <p class="vos-eyebrow">What the delay is worth</p>
+        <h4 class="vos-q">What does money cost you, and how much sooner could you collect?</h4>
+        <p class="vos-qsub">The second one is the lever. Even a few days moves real cash.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-rate">Cost of money</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-rate" min="0" step="any" value="9" inputmode="decimal">
+              <span class="vos-suffix">%</span>
+            </div>
+            <span class="vos-hint">Your line of credit rate, or what the cash would earn elsewhere.</span>
+          </div>
+          <div>
+            <label for="q-vos-cut">Collect this many days sooner</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-cut" min="0" step="any" value="5" inputmode="decimal">
+              <span class="vos-suffix">days</span>
+            </div>
+            <span class="vos-hint">A realistic improvement, not a perfect one.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="ar-turnover-s4-err">Those cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="ar-turnover-s5">
+        <p class="vos-eyebrow">How you bill</p>
+        <h4 class="vos-q">How do your invoices reach the customer?</h4>
+        <p class="vos-qsub">The clock does not start when you ship. It starts when they can see the invoice.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="How do your invoices reach the customer?">
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-invoicing" data-group="invoicing" value="with-driver"><span class="vos-dot"></span><span>Printed and sent out with the driver</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-invoicing" data-group="invoicing" value="email"><span class="vos-dot"></span><span>Emailed, usually the next day</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-invoicing" data-group="invoicing" value="portal-edi"><span class="vos-dot"></span><span>Through a portal or EDI</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-invoicing" data-group="invoicing" value="mixed"><span class="vos-dot"></span><span>A mix, depending on the account</span></label>
+        </div>
+        <div class="vos-err" id="ar-turnover-s5-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="invoicing" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="ar-turnover-s6">
+        <p class="vos-eyebrow">The slow ones</p>
+        <h4 class="vos-q">When a customer short pays, what is usually behind it?</h4>
+        <p class="vos-qsub">Last one before your numbers. A disputed line sits unpaid far longer than a late one.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="When a customer short pays, what is usually behind it?">
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-disputes" data-group="disputes" value="wrong-item"><span class="vos-dot"></span><span>We shipped the wrong item or the wrong quantity</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-disputes" data-group="disputes" value="price-mismatch"><span class="vos-dot"></span><span>The price on the invoice is not the price they expected</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-disputes" data-group="disputes" value="just-slow"><span class="vos-dot"></span><span>Nothing is wrong, they just pay slowly</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-ar-turnover-disputes" data-group="disputes" value="unknown"><span class="vos-dot"></span><span>Honestly, it takes a phone call to find out</span></label>
+        </div>
+        <div class="vos-err" id="ar-turnover-s6-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="disputes" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="ar-turnover-gate">
+        <p class="vos-eyebrow">Your breakdown is ready</p>
+
+        <div class="vos-preview">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Days sales outstanding</div>
+            <div class="vos-v" id="q-preview">--</div>
+            <div class="vos-sub">The headline number. The rest are below.</div>
+          </div>
+        </div>
+
+        <h4 class="vos-q">Want to see your results?</h4>
+        <p class="vos-qsub">You have given us enough to work this out. Fill this in and the full breakdown opens up.</p>
+
+        <div class="vos-hsform" id="q-hsform">
+          
+          <div class="hs-form-frame" data-region="na1" data-form-id="f854c1d7-fedd-4ba0-a8fb-98af24925dfc" data-portal-id="51996060"></div>
+          <div class="vos-hsload" id="q-hsload">Loading the form.</div>
+          <div class="vos-hsfail" id="q-hsfail">
+            <b>The form did not load.</b>
+            <span>Your browser or your network is most likely blocking it. That should not cost you the numbers you just worked out.</span>
+            <button type="button" class="vos-next" id="q-hsskip">Show my numbers anyway</button>
+          </div>
+        </div>
+        <div class="vos-nav">
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+        <p class="vos-privacy">Your details go straight to our team, who will follow up about these numbers.</p>
+      </section>
+
+      <section class="vos-step" id="ar-turnover-results">
+        <div class="vos-verdict is-go" id="q-verdict">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <div>
+            <h4 id="q-vtitle">Your result</h4>
+            <p id="q-vtext">Working it out.</p>
+          </div>
+        </div>
+
+        <p class="vos-greet" id="q-greet">Here is your breakdown.</p>
+        <p class="vos-greetsub" id="q-greetsub"></p>
+
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero" id="qcard-vos-dso">
+            <div class="vos-k">Days sales outstanding</div>
+            <div class="vos-v" id="qc-vos-dso">--</div>
+            <div class="vos-sub" id="qcs-vos-dso"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-beyond">
+            <div class="vos-k">Days past your terms</div>
+            <div class="vos-v" id="qc-vos-beyond">--</div>
+            <div class="vos-sub" id="qcs-vos-beyond"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-stuck">
+            <div class="vos-k">Cash stuck past terms</div>
+            <div class="vos-v" id="qc-vos-stuck">--</div>
+            <div class="vos-sub">Money you have already earned and not been paid</div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-carry">
+            <div class="vos-k">Yearly cost of that delay</div>
+            <div class="vos-v" id="qc-vos-carry">--</div>
+            <div class="vos-sub" id="qcs-vos-carry"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-turn">
+            <div class="vos-k">AR turnover ratio</div>
+            <div class="vos-v" id="qc-vos-turn">--</div>
+            <div class="vos-sub" id="qcs-vos-turn"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-freed">
+            <div class="vos-k">Cash freed by collecting sooner</div>
+            <div class="vos-v" id="qc-vos-freed">--</div>
+            <div class="vos-sub" id="qcs-vos-freed"></div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="q-tip"></div>
+        </div>
+
+        <div class="vos-cta">
+          <div class="vos-cta-txt">
+            <b>You cannot collect on an order you keyed in wrong.</b>
+            VoiceOrder Solutions digitizes and confirms every order before it ships, so invoices go out clean the first time and disputes stop aging your book.
+          </div>
+          <a href="https://www.voiceordersolutions.com/contact-us" target="_blank" rel="noopener">Book A Demo &rarr;</a>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="q-again">Change my numbers</button>
+        </div>
+        <div class="vos-foot" id="q-foot">Estimates only. Confirm your receivables figures against your year end before acting on them.</div>
+        <div class="vos-debug" id="q-debug"></div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END What are your late payers actually costing you? ============ -->

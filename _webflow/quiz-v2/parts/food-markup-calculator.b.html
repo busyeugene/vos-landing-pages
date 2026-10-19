@@ -1,0 +1,393 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-foodmarkup');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var cost=$('vos-fm-cost'), weight=$('vos-fm-weight'),
+        yieldEl=$('vos-fm-yield'), yieldSlider=$('vos-fm-yield-slider'),
+        marginEl=$('vos-fm-margin'), cases=$('vos-fm-cases'),
+        priceEl=$('vos-fm-price'), priceSub=$('vos-fm-price-sub'),
+        costUsableEl=$('vos-fm-costusable'), costUsableSub=$('vos-fm-costusable-sub'),
+        usableEl=$('vos-fm-usable'), usableSub=$('vos-fm-usable-sub'),
+        boughtEl=$('vos-fm-bought'), boughtSub=$('vos-fm-bought-sub'), boughtCard=$('vos-fm-bought-card'),
+        revenueEl=$('vos-fm-revenue'), revenueSub=$('vos-fm-revenue-sub'),
+        profitEl=$('vos-fm-profit'), profitSub=$('vos-fm-profit-sub'),
+        foodcostEl=$('vos-fm-foodcost'), foodcostSub=$('vos-fm-foodcost-sub'),
+        monthlyEl=$('vos-fm-monthly'), monthlySub=$('vos-fm-monthly-sub'),
+        monthlyCard=$('vos-fm-monthly-card'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-fm-cost':'48.00','vos-fm-weight':'40','vos-fm-yield':'85','vos-fm-margin':'32','vos-fm-cases':'400'};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ if(!isFinite(n)) return 0; return Math.round(n*100)/100; }
+    function pn(n){ if(!isFinite(n)) n=0; return n===Math.round(n)?String(Math.round(n)):n.toFixed(1); }
+    function lb(n){ if(!isFinite(n)) n=0; return Math.abs(n-Math.round(n))<0.005?String(Math.round(n)):n.toFixed(2); }
+
+    function calc(){
+      var C=num(cost), W=num(weight), K=num(cases);
+      var Y=parseFloat(yieldEl.value); if(!isFinite(Y)||Y<0) Y=0; if(Y>100) Y=100;
+      var M=parseFloat(marginEl.value); if(!isFinite(M)||M<0) M=0; if(M>99) M=99;
+
+      // The usable weight is settled to a hundredth of a pound before it divides
+      // anything, so the pound figures on screen are the pounds the math used.
+      var usable = Math.round(W*Y)/100;
+      var trim = cents(W - usable);
+
+      if(C<=0 || W<=0 || usable<=0){
+        [priceEl,costUsableEl,usableEl,boughtEl,revenueEl,profitEl,foodcostEl,monthlyEl]
+          .forEach(function(e){ e.textContent='--'; });
+        priceSub.textContent='Enter a case cost, a case weight and a yield above zero';
+        costUsableSub.textContent=''; usableSub.textContent=''; boughtSub.textContent='';
+        revenueSub.textContent=''; profitSub.textContent=''; foodcostSub.textContent='';
+        monthlySub.textContent='';
+        boughtCard.className='vos-stat'; monthlyCard.className='vos-stat';
+        tip.innerHTML='Enter the <b>case cost</b>, the <b>case weight</b> and the <b>yield</b> to price off the pounds you can actually sell.';
+        return;
+      }
+
+      // Settle each price to whole cents, then build everything downstream from the
+      // settled value, so the cards reconcile on screen: revenue less the case cost
+      // is the profit card, and the price gap times the usable weight is the money
+      // the trim hides. The target price itself is solved from the exact case cost
+      // over the usable pounds, because that is the figure that lands the margin.
+      var costBought = cents(C/W);
+      var costUsable = cents(C/usable);
+      var price = cents((C/usable)/(1-M/100));
+      var priceBought = cents(costBought/(1-M/100));
+      var shortLb = cents(price - priceBought);
+      var shortCase = cents(shortLb*usable);
+      var revenue = cents(price*usable);
+      var profit = cents(revenue - C);
+      var marginPct = revenue>0 ? profit/revenue*100 : 0;
+      var foodPct = revenue>0 ? C/revenue*100 : 0;
+      var monthly = profit*K;
+
+      priceEl.textContent = money2(price);
+      priceSub.textContent = 'Hits a '+pn(M)+'% margin on the '+lb(usable)+' lb you can sell';
+      costUsableEl.textContent = money2(costUsable);
+      costUsableSub.textContent = 'The '+money2(C)+' case spread over '+lb(usable)+' usable lb';
+      usableEl.textContent = lb(usable)+' lb';
+      usableSub.textContent = lb(W)+' lb bought at '+pn(Y)+'% yield, so '+lb(trim)+' lb of trim';
+      boughtEl.textContent = money2(priceBought);
+      boughtSub.textContent = shortLb>0
+        ? money2(costBought)+' a bought lb at the same margin, '+money2(shortLb)+' a lb short'
+        : 'No trim at this yield, so the bought lb and the usable lb price the same';
+      boughtCard.className = 'vos-stat' + (shortLb>0?' vos-loss':'');
+      revenueEl.textContent = money2(revenue);
+      revenueSub.textContent = money2(price)+' across '+lb(usable)+' usable lb';
+      profitEl.textContent = money2(profit);
+      profitSub.textContent = money2(revenue)+' less the '+money2(C)+' case, a '+marginPct.toFixed(1)+'% margin';
+      foodcostEl.textContent = foodPct.toFixed(1)+'%';
+      foodcostSub.textContent = money2(C)+' of the '+money2(revenue)+' the case sells for';
+      monthlyEl.textContent = money(monthly);
+      monthlySub.textContent = 'At '+Math.round(K).toLocaleString('en-US')+' cases a month';
+      monthlyCard.className = 'vos-stat' + (monthly>0?' vos-profit':(monthly<0?' vos-loss':''));
+
+      // The teaching tip: the markup has to sit on the usable pounds, because the
+      // trim is already paid for and never gets sold.
+      if(trim<=0){
+        tip.innerHTML='At <b>'+pn(Y)+'%</b> yield there is no trim, so the pound you buy and the pound you sell cost the same. Weigh a few cases before you trust that.';
+      } else if(shortLb<=0){
+        tip.innerHTML='Trim is <b>'+lb(trim)+' lb</b> of every case. At this margin the two prices round to the same cent, but that trim is still '+money2(cents(costBought*trim))+' of cost you carry on every case.';
+      } else {
+        tip.innerHTML='Trim is <b>'+lb(trim)+' lb</b> of every case. Price off the <b>'+lb(W)+' lb</b> you bought and you are <b>'+money2(shortLb)+'</b> a lb short, which is <b>'+money2(shortCase)+'</b> a case you never see.';
+      }
+    }
+
+    function syncSlider(){ var v=parseFloat(yieldEl.value); if(isFinite(v)) yieldSlider.value=Math.max(40,Math.min(100,v)); }
+    [cost,weight,marginEl,cases].forEach(function(el){ el.addEventListener('input', calc); });
+    yieldEl.addEventListener('input', function(){ syncSlider(); calc(); });
+    yieldSlider.addEventListener('input', function(){ yieldEl.value=yieldSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "food-markup",
+  "rootId": "vos-q-food-markup",
+  "calcRootId": "vos-foodmarkup",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "food-markup-s1",
+    "food-markup-s2",
+    "food-markup-s3",
+    "food-markup-s4",
+    "food-markup-s5",
+    "food-markup-s6"
+  ],
+  "gateId": "food-markup-gate",
+  "resultsId": "food-markup-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a cost and a weight above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-fm-cost",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-fm-weight",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a yield above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-fm-yield",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-fm-margin",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-fm-cases",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "howordered",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "yieldrecord",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-fm-cost",
+      "calcId": "vos-fm-cost",
+      "qid": "q-vos-fm-cost"
+    },
+    {
+      "id": "vos-fm-weight",
+      "calcId": "vos-fm-weight",
+      "qid": "q-vos-fm-weight"
+    },
+    {
+      "id": "vos-fm-yield",
+      "calcId": "vos-fm-yield",
+      "qid": "q-vos-fm-yield"
+    },
+    {
+      "id": "vos-fm-margin",
+      "calcId": "vos-fm-margin",
+      "qid": "q-vos-fm-margin"
+    },
+    {
+      "id": "vos-fm-cases",
+      "calcId": "vos-fm-cases",
+      "qid": "q-vos-fm-cases"
+    }
+  ],
+  "groups": [
+    "situation",
+    "howordered",
+    "yieldrecord"
+  ],
+  "autoGroups": [
+    "situation",
+    "howordered",
+    "yieldrecord"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-fm-price",
+      "qid": "qc-vos-fm-price",
+      "cardId": "qcard-vos-fm-price",
+      "qsubId": "qcs-vos-fm-price",
+      "subFrom": "vos-fm-price-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-fm-bought",
+      "qid": "qc-vos-fm-bought",
+      "cardId": "qcard-vos-fm-bought",
+      "qsubId": "qcs-vos-fm-bought",
+      "subFrom": "vos-fm-bought-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-fm-bought-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-fm-costusable",
+      "qid": "qc-vos-fm-costusable",
+      "cardId": "qcard-vos-fm-costusable",
+      "qsubId": "qcs-vos-fm-costusable",
+      "subFrom": "vos-fm-costusable-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-fm-usable",
+      "qid": "qc-vos-fm-usable",
+      "cardId": "qcard-vos-fm-usable",
+      "qsubId": "qcs-vos-fm-usable",
+      "subFrom": "vos-fm-usable-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-fm-profit",
+      "qid": "qc-vos-fm-profit",
+      "cardId": "qcard-vos-fm-profit",
+      "qsubId": "qcs-vos-fm-profit",
+      "subFrom": "vos-fm-profit-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-fm-monthly",
+      "qid": "qc-vos-fm-monthly",
+      "cardId": "qcard-vos-fm-monthly",
+      "qsubId": "qcs-vos-fm-monthly",
+      "subFrom": "vos-fm-monthly-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-fm-monthly-card",
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your yield off a real cut test before repricing.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "howordered",
+      "weights": {
+        "by-weight": 30,
+        "mixed": 28,
+        "by-piece": 22,
+        "by-case": 10
+      }
+    },
+    {
+      "group": "yieldrecord",
+      "weights": {
+        "nobody": 25,
+        "butcher": 22,
+        "sheet": 14,
+        "system": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "margin-short": 15,
+        "yield-changed": 13,
+        "new-cut": 11,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-fm-cases",
+    "bands": [
+      [
+        4000,
+        30
+      ],
+      [
+        1000,
+        22
+      ],
+      [
+        250,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-fm-price'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to price it.',
+        text: 'Go back and put in a case cost, a weight and a yield above zero.' };
+    }
+    if (ans.yieldrecord === 'nobody' || ans.yieldrecord === 'butcher') {
+      return { tone: 'is-no', title: 'Price it at ' + read['vos-fm-price'] + ' a usable pound.',
+        text: 'Off the weight you bought it would be ' + read['vos-fm-bought'] + ', and the gap is '
+            + 'pure margin. The catch is that this whole page rests on a yield nobody is reliably '
+            + 'writing down.' };
+    }
+    return { tone: 'is-go', title: 'Price it at ' + read['vos-fm-price'] + ' a usable pound.',
+      text: 'Only ' + read['vos-fm-usable'] + ' of the case is sellable, so pricing off the weight '
+          + 'you bought would put you at ' + read['vos-fm-bought'] + ' and leave margin behind on '
+          + 'every case.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-fm-weight'] || 0) + ' lb case at ' + (f['vos-fm-yield'] || 0)
+         + ' percent yield, ' + (f['vos-fm-cases'] || 0).toLocaleString('en-US') + ' cases a month.';
+  },
+  "echoes": []
+};
+  </script>

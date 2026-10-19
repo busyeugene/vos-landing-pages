@@ -1,0 +1,390 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-reorder');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var usage=$('vos-rp-usage'), lead=$('vos-rp-lead'), buffer=$('vos-rp-buffer'),
+        onhand=$('vos-rp-onhand'), slip=$('vos-rp-slip'), slipSlider=$('vos-rp-slip-slider'),
+        ropEl=$('vos-rp-rop'), ropSub=$('vos-rp-rop-sub'),
+        daysEl=$('vos-rp-days'), daysSub=$('vos-rp-days-sub'),
+        dltEl=$('vos-rp-dlt'), dltSub=$('vos-rp-dlt-sub'),
+        coverEl=$('vos-rp-cover'), coverSub=$('vos-rp-cover-sub'),
+        shortEl=$('vos-rp-short'), shortK=$('vos-rp-short-k'), shortSub=$('vos-rp-short-sub'),
+        shortCard=$('vos-rp-short-card'),
+        newRopEl=$('vos-rp-newrop'), newRopK=$('vos-rp-newrop-k'), newRopSub=$('vos-rp-newrop-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-rp-usage':120,'vos-rp-lead':4,'vos-rp-buffer':229,'vos-rp-onhand':850,'vos-rp-slip':2};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function qty(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US'); }
+    function days(n){ if(!isFinite(n)) n=0; return (Math.round(n*10)/10).toFixed(1); }
+    function whole(n){ if(!isFinite(n)) n=0; return n===Math.round(n)?String(n):n.toFixed(1); }
+    function dayWord(n){ return whole(n)+' day'+(n===1?'':'s'); }
+
+    function calc(){
+      var D=num(usage), L=num(lead), B=num(buffer), H=num(onhand);
+      var S=parseFloat(slip.value); if(!isFinite(S)||S<0) S=0; if(S>30) S=30;
+
+      if(D<=0 || L<=0){
+        [ropEl,daysEl,dltEl,coverEl,shortEl,newRopEl].forEach(function(e){ e.textContent='--'; });
+        ropSub.textContent='Enter average daily usage and a lead time';
+        daysSub.textContent=''; dltSub.textContent=''; coverSub.textContent='';
+        shortK.textContent='If the lead time slips'; shortSub.textContent='';
+        shortCard.className='vos-stat';
+        newRopK.textContent='Reorder point at a longer lead time'; newRopSub.textContent='';
+        tip.innerHTML='Enter your <b>average daily usage</b> and the real <b>lead time</b> to see the stock level that has to trigger the next order.';
+        return;
+      }
+
+      // Settle to whole cases first, then derive every dependent figure from the
+      // rounded numbers, so a reader who subtracts two cards gets the third.
+      var dlt = Math.ceil(D*L);
+      var buf = Math.ceil(B);
+      var rop = dlt + buf;
+      var above = Math.round(H) - rop;
+      var daysLeft = above/D;
+      var cover = rop/D;
+      var bufDays = buf/D;
+      var slipDemand = Math.ceil(D*S);
+      var short = slipDemand - buf;
+      var newRop = Math.ceil(D*(L+S)) + buf;
+      var lift = newRop - rop;
+
+      ropEl.textContent  = qty(rop)+' cases';
+      ropSub.textContent = qty(dlt)+' cases of lead time demand plus your '+qty(buf)+' case buffer';
+
+      if(above>0){
+        daysEl.textContent  = days(daysLeft)+' days';
+        daysSub.textContent = qty(H)+' on hand, '+qty(above)+' cases above the trigger';
+      } else {
+        daysEl.textContent  = 'Order now';
+        daysSub.textContent = qty(H)+' on hand is already at or under the '+qty(rop)+' case trigger';
+      }
+
+      dltEl.textContent  = qty(dlt)+' cases';
+      dltSub.textContent = qty(D)+' cases a day across '+dayWord(L);
+
+      coverEl.textContent  = days(cover)+' days';
+      coverSub.textContent = qty(rop)+' cases at '+qty(D)+' a day';
+
+      if(S<=0){
+        shortK.textContent   = 'If the lead time slips';
+        shortEl.textContent  = '--';
+        shortSub.textContent = 'Add a slip above to test the buffer against a late truck';
+        shortCard.className  = 'vos-stat';
+      } else if(short>0){
+        shortK.textContent   = 'If the lead time slips '+dayWord(S);
+        shortEl.textContent  = qty(short)+' cases short';
+        shortSub.textContent = qty(slipDemand)+' extra cases of demand against a '+qty(buf)+' case buffer';
+        shortCard.className  = 'vos-stat vos-loss';
+      } else {
+        shortK.textContent   = 'If the lead time slips '+dayWord(S);
+        shortEl.textContent  = qty(-short)+' cases spare';
+        shortSub.textContent = 'The '+qty(buf)+' case buffer covers the '+qty(slipDemand)+' extra cases';
+        shortCard.className  = 'vos-stat vos-profit';
+      }
+
+      newRopK.textContent   = 'Reorder point at a '+whole(L+S)+' day lead time';
+      newRopEl.textContent  = qty(newRop)+' cases';
+      newRopSub.textContent = lift>0 ? qty(lift)+" cases above today's "+qty(rop)+' trigger'
+                                     : 'The same trigger you run today';
+
+      // The teaching moment: a buffer is a number of days, and the slip is measured
+      // in the same days, so the two can be compared directly.
+      var t;
+      if(above<=0){
+        t = 'You are at <b>'+qty(H)+' cases</b> against a <b>'+qty(rop)+' case</b> trigger, so this order is already late. Everything you sell from here comes out of the '+qty(buf)+' case buffer, not out of the lead time demand it was sized for.';
+      } else if(S>0 && short>0){
+        t = 'Your buffer is <b>'+qty(buf)+' cases</b>, which covers a <b>'+days(bufDays)+' day</b> slip, not a '+whole(S)+' day one. A supplier who runs '+dayWord(S)+' late walks straight through it and leaves you <b>'+qty(short)+' cases</b> short. Raise the trigger to <b>'+qty(newRop)+' cases</b> or get the lead time honest, because padding the buffer after the truck is late is not a plan.';
+      } else if(S>0){
+        t = 'Your buffer is <b>'+qty(buf)+' cases</b>, about <b>'+days(bufDays)+' days</b> of usage, so a '+dayWord(S)+' slip still leaves <b>'+qty(-short)+' cases</b> on the floor. That is the buffer doing its job. Run the same check against your worst lead time rather than your average one.';
+      } else {
+        t = 'Your buffer covers about <b>'+days(bufDays)+' days</b> of usage at '+qty(D)+' cases a day. Put a slip in above to see what a late delivery does to it, because a reorder point fails on the lead time far more often than on the usage.';
+      }
+      tip.innerHTML = t;
+    }
+
+    function syncSlider(){ var v=parseFloat(slip.value); if(isFinite(v)) slipSlider.value=Math.max(0,Math.min(7,v)); }
+    [usage,lead,buffer,onhand].forEach(function(el){ el.addEventListener('input', calc); });
+    slip.addEventListener('input', function(){ syncSlider(); calc(); });
+    slipSlider.addEventListener('input', function(){ slip.value=slipSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "reorder-point",
+  "rootId": "vos-q-reorder-point",
+  "calcRootId": "vos-reorder",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "reorder-point-s1",
+    "reorder-point-s2",
+    "reorder-point-s3",
+    "reorder-point-s4",
+    "reorder-point-s5",
+    "reorder-point-s6"
+  ],
+  "gateId": "reorder-point-gate",
+  "resultsId": "reorder-point-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a usage and a lead time above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-rp-usage",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-rp-lead",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-rp-buffer",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-rp-onhand",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-rp-slip",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "trigger",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "telling",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-rp-usage",
+      "calcId": "vos-rp-usage",
+      "qid": "q-vos-rp-usage"
+    },
+    {
+      "id": "vos-rp-lead",
+      "calcId": "vos-rp-lead",
+      "qid": "q-vos-rp-lead"
+    },
+    {
+      "id": "vos-rp-buffer",
+      "calcId": "vos-rp-buffer",
+      "qid": "q-vos-rp-buffer"
+    },
+    {
+      "id": "vos-rp-onhand",
+      "calcId": "vos-rp-onhand",
+      "qid": "q-vos-rp-onhand"
+    },
+    {
+      "id": "vos-rp-slip",
+      "calcId": "vos-rp-slip",
+      "qid": "q-vos-rp-slip"
+    }
+  ],
+  "groups": [
+    "situation",
+    "trigger",
+    "telling"
+  ],
+  "autoGroups": [
+    "situation",
+    "trigger",
+    "telling"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-rp-rop",
+      "qid": "qc-vos-rp-rop",
+      "cardId": "qcard-vos-rp-rop",
+      "qsubId": "qcs-vos-rp-rop",
+      "subFrom": "vos-rp-rop-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-rp-days",
+      "qid": "qc-vos-rp-days",
+      "cardId": "qcard-vos-rp-days",
+      "qsubId": "qcs-vos-rp-days",
+      "subFrom": "vos-rp-days-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-rp-short",
+      "qid": "qc-vos-rp-short",
+      "cardId": "qcard-vos-rp-short",
+      "qsubId": "qcs-vos-rp-short",
+      "subFrom": "vos-rp-short-sub",
+      "kId": "qck-vos-rp-short",
+      "kFrom": "vos-rp-short-k",
+      "toneFrom": "vos-rp-short-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-rp-dlt",
+      "qid": "qc-vos-rp-dlt",
+      "cardId": "qcard-vos-rp-dlt",
+      "qsubId": "qcs-vos-rp-dlt",
+      "subFrom": "vos-rp-dlt-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-rp-cover",
+      "qid": "qc-vos-rp-cover",
+      "cardId": "qcard-vos-rp-cover",
+      "qsubId": "qcs-vos-rp-cover",
+      "subFrom": "vos-rp-cover-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your usage and lead time before changing a trigger.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "trigger",
+      "weights": {
+        "customer": 30,
+        "eyes": 27,
+        "schedule": 20,
+        "minmax": 8
+      }
+    },
+    {
+      "group": "telling",
+      "weights": {
+        "they-chase": 25,
+        "at-delivery": 22,
+        "rep": 16,
+        "we-call": 10
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "ran-out": 15,
+        "supplier-late": 13,
+        "too-early": 11,
+        "setting-up": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-rp-usage",
+    "bands": [
+      [
+        400,
+        30
+      ],
+      [
+        150,
+        22
+      ],
+      [
+        50,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-rp-rop'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to set a trigger.',
+        text: 'Go back and put in a daily usage and a lead time above zero.' };
+    }
+    var short = String(read['vos-rp-short'] || '');
+    var isShort = /short/.test(short) && !/^0\b/.test(short);
+    if (isShort) {
+      return { tone: 'is-no', title: 'Order at ' + read['vos-rp-rop'] + ', and the buffer still will not hold.',
+        text: 'You have ' + read['vos-rp-days'] + ' before you hit the trigger, but if the supplier '
+            + 'runs late you are ' + short + '. The buffer covers less slip than it looks like it does.' };
+    }
+    return { tone: 'is-go', title: 'Order at ' + read['vos-rp-rop'] + '.',
+      text: 'That is ' + read['vos-rp-dlt'] + ' of lead time demand plus your buffer, and you have '
+          + read['vos-rp-days'] + ' before you reach it.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on ' + (f['vos-rp-usage'] || 0) + ' cases a day and a ' + (f['vos-rp-lead'] || 0)
+         + ' day lead time.';
+  },
+  "echoes": []
+};
+  </script>

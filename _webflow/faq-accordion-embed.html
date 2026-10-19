@@ -1,0 +1,39 @@
+<style>
+.faq-js .uui-faq01_question{cursor:pointer}
+.faq-js .uui-faq01_answer{overflow:hidden;height:0;transition:height .4s ease}
+.faq-js .uui-faq01_accordion.is-open>.uui-faq01_answer{height:auto}
+.faq-js [class*="accordion-icon_vertical-line"]{transition:transform .3s ease}
+.faq-js .is-open [class*="accordion-icon_vertical-line"]{transform:rotate(90deg)}
+</style>
+<script>
+(function(){
+  var s=document.currentScript, sec=s&&s.closest('section');
+  if(!sec) return;
+  var items=sec.querySelectorAll('.uui-faq01_accordion');
+  sec.classList.add('faq-js');
+  function toggle(item){
+    var a=item.querySelector('.uui-faq01_answer'), q=item.querySelector('.uui-faq01_question');
+    var open=!item.classList.contains('is-open');
+    a.style.height=(open?0:a.scrollHeight)+'px';
+    a.offsetHeight;
+    item.classList.toggle('is-open',open);
+    q.setAttribute('aria-expanded',open?'true':'false');
+    a.style.height=(open?a.scrollHeight:0)+'px';
+    if(open) setTimeout(function(){ if(item.classList.contains('is-open')) a.style.height=''; },420);
+  }
+  for(var i=0;i<items.length;i++){
+    (function(item,i){
+      var q=item.querySelector('.uui-faq01_question');
+      if(!q||!item.querySelector('.uui-faq01_answer')) return;
+      q.setAttribute('role','button');
+      q.setAttribute('tabindex','0');
+      q.setAttribute('aria-expanded',i===0?'true':'false');
+      if(i===0) item.classList.add('is-open');
+      q.addEventListener('click',function(){ toggle(item); });
+      q.addEventListener('keydown',function(e){
+        if(e.key==='Enter'||e.key===' '){ e.preventDefault(); toggle(item); }
+      });
+    })(items[i],i);
+  }
+})();
+</script>

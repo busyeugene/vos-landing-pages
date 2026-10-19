@@ -1,0 +1,379 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-wmarkup');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var cost=$('vos-cost'), pct=$('vos-pct'), slider=$('vos-slider'),
+        staple=$('vos-staple'), smarkup=$('vos-smarkup'),
+        priceEl=$('vos-price'), priceSub=$('vos-price-sub'),
+        gpEl=$('vos-gp'), gpCard=$('vos-gp-card'),
+        markupEl=$('vos-markup'), marginEl=$('vos-margin'),
+        smarginEl=$('vos-smargin'), smarginSub=$('vos-smargin-sub'),
+        blendedEl=$('vos-blended'), blendedSub=$('vos-blended-sub'),
+        tip=$('vos-tip-text'), pctLabel=$('vos-pct-label'), pctHint=$('vos-pct-hint'),
+        bMarkup=$('vos-mode-markup'), bMargin=$('vos-mode-margin');
+
+    var DEFAULTS={'vos-cost':22,'vos-pct':35,'vos-staple':60,'vos-smarkup':18};
+    var mode='markup';
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){
+      if(!isFinite(n)) n=0;
+      return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    }
+
+    function calc(){
+      var C=num(cost);
+      var p=parseFloat(pct.value); if(!isFinite(p)||p<0) p=0;
+      var w=parseFloat(staple.value); if(!isFinite(w)||w<0) w=0; w=Math.min(w,100)/100;
+      var sm=parseFloat(smarkup.value); if(!isFinite(sm)||sm<0) sm=0;
+
+      var price;
+      if(mode==='markup'){
+        price = C*(1+p/100);
+      } else {
+        var m=Math.min(p,99.9); // 100% margin is an infinite price
+        price = C/(1-m/100);
+      }
+      // Bill in whole cents, then derive markup, margin and profit from the
+      // settled price so every figure on screen reconciles with the others.
+      price = Math.round(price*100)/100;
+
+      var gp = price - C;
+      var markupImplied = C>0 ? (price-C)/C*100 : (mode==='markup'?p:0);
+      var margin = price>0 ? gp/price*100 : 0;
+      var sMargin = (100+sm)>0 ? sm/(100+sm)*100 : 0;
+      var blended = w*sMargin + (1-w)*margin;
+
+      priceEl.textContent = money2(price);
+      priceSub.textContent = mode==='markup'
+        ? 'Landed cost of '+money2(C)+' plus '+markupImplied.toFixed(0)+'% markup'
+        : 'The price that hits a '+Math.min(p,99.9).toFixed(1)+'% margin';
+      gpEl.textContent = money2(gp);
+      gpCard.className = 'vos-stat ' + (gp>=0 ? 'vos-profit' : 'vos-loss');
+      markupEl.textContent = markupImplied.toFixed(0)+'%';
+      marginEl.textContent = margin.toFixed(1)+'%';
+      smarginEl.textContent = sMargin.toFixed(1)+'%';
+      smarginSub.textContent = 'At '+sm.toFixed(0)+'% staple markup';
+      blendedEl.textContent = blended.toFixed(1)+'%';
+      blendedSub.textContent = 'With staples at '+(w*100).toFixed(0)+'% of sales';
+
+      var t;
+      if(C<=0){
+        t = 'Enter what a case actually costs you landed, including <b>freight</b> and <b>handling</b>. Marking up the supplier invoice alone understates your real cost.';
+      } else if(mode==='markup'){
+        t = 'A <b>'+markupImplied.toFixed(0)+'% markup</b> is a <b>'+margin.toFixed(1)+'%</b> margin, not '+markupImplied.toFixed(0)+'%.';
+        if(w>0){
+          t += ' Your staples marked up '+sm.toFixed(0)+'% hold only a <b>'+sMargin.toFixed(1)+'%</b> margin, and with staples at '+(w*100).toFixed(0)+'% of sales your blended margin is <b>'+blended.toFixed(1)+'%</b>. The price on your best items is not what you take home.';
+        } else {
+          t += ' Markup is measured against cost, margin against the price you bill, so the two never match.';
+        }
+      } else {
+        t = 'To keep a <b>'+margin.toFixed(1)+'%</b> margin you have to mark landed cost up by <b>'+markupImplied.toFixed(0)+'%</b>.';
+        if(w>0){
+          t += ' Your staples marked up '+sm.toFixed(0)+'% only hold a <b>'+sMargin.toFixed(1)+'%</b> margin, so with staples at '+(w*100).toFixed(0)+'% of sales your blended margin drops to <b>'+blended.toFixed(1)+'%</b>.';
+        }
+      }
+      tip.innerHTML = t;
+    }
+
+    function syncSlider(){
+      var p=parseFloat(pct.value);
+      if(isFinite(p)){ slider.value = Math.max(0, Math.min(100, p)); }
+    }
+
+    [cost,staple,smarkup].forEach(function(el){ el.addEventListener('input', calc); });
+    pct.addEventListener('input', function(){ syncSlider(); calc(); });
+    slider.addEventListener('input', function(){ pct.value = slider.value; calc(); });
+
+    function setMode(m){
+      mode=m;
+      if(m==='markup'){
+        bMarkup.classList.add('vos-on'); bMargin.classList.remove('vos-on');
+        pctLabel.textContent='Markup on landed cost';
+        pctHint.textContent='Markup is added on top of cost. It is not the same as margin.';
+      } else {
+        bMargin.classList.add('vos-on'); bMarkup.classList.remove('vos-on');
+        pctLabel.textContent='Target margin you want to keep';
+        pctHint.textContent='Margin is measured against the price you bill.';
+      }
+      calc();
+    }
+    bMarkup.addEventListener('click', function(){ setMode('markup'); });
+    bMargin.addEventListener('click', function(){ setMode('margin'); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      setMode('markup'); syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "wholesale-markup",
+  "rootId": "vos-q-wholesale-markup",
+  "calcRootId": "vos-wmarkup",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "wholesale-markup-s1",
+    "wholesale-markup-s2",
+    "wholesale-markup-s3",
+    "wholesale-markup-s4",
+    "wholesale-markup-s5",
+    "wholesale-markup-s6"
+  ],
+  "gateId": "wholesale-markup-gate",
+  "resultsId": "wholesale-markup-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a landed cost above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-cost",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "mode",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-staple",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-smarkup",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "repday",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "coolerorder",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-cost",
+      "calcId": "vos-cost",
+      "qid": "q-vos-cost"
+    },
+    {
+      "id": "vos-pct",
+      "calcId": "vos-pct",
+      "qid": "q-vos-pct"
+    },
+    {
+      "id": "vos-staple",
+      "calcId": "vos-staple",
+      "qid": "q-vos-staple"
+    },
+    {
+      "id": "vos-smarkup",
+      "calcId": "vos-smarkup",
+      "qid": "q-vos-smarkup"
+    }
+  ],
+  "groups": [
+    "situation",
+    "mode",
+    "repday",
+    "coolerorder"
+  ],
+  "autoGroups": [
+    "situation",
+    "repday",
+    "coolerorder"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {
+    "mode": {
+      "markup": "vos-mode-markup",
+      "margin": "vos-mode-margin"
+    }
+  },
+  "reveals": {
+    "mode": {
+      "wrapId": "wholesale-markup-s3-reveal",
+      "hintId": "wholesale-markup-s3-revealhint",
+      "hideOn": [],
+      "hints": {
+        "markup": "Added on top of landed cost. Most price lists are built this way.",
+        "margin": "Measured against the price you bill."
+      },
+      "zeroOn": [],
+      "zeroValue": 0,
+      "fieldQid": "q-vos-pct"
+    }
+  },
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-price",
+      "qid": "qc-vos-price",
+      "cardId": "qcard-vos-price",
+      "qsubId": "qcs-vos-price",
+      "subFrom": "vos-price-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-gp",
+      "qid": "qc-vos-gp",
+      "cardId": "qcard-vos-gp",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-gp-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-margin",
+      "qid": "qc-vos-margin",
+      "cardId": "qcard-vos-margin",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-markup",
+      "qid": "qc-vos-markup",
+      "cardId": "qcard-vos-markup",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-smargin",
+      "qid": "qc-vos-smargin",
+      "cardId": "qcard-vos-smargin",
+      "qsubId": "qcs-vos-smargin",
+      "subFrom": "vos-smargin-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-blended",
+      "qid": "qc-vos-blended",
+      "cardId": "qcard-vos-blended",
+      "qsubId": "qcs-vos-blended",
+      "subFrom": "vos-blended-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your landed costs and your staple mix before quoting.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "coolerorder",
+      "weights": {
+        "calls-it-in": 30,
+        "paper-then-key": 28,
+        "texts-it": 22,
+        "app": 6
+      }
+    },
+    {
+      "group": "repday",
+      "weights": {
+        "mostly-admin": 25,
+        "varies": 20,
+        "even-split": 16,
+        "mostly-selling": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "new-account": 15,
+        "bid": 13,
+        "renewal": 11,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": null,
+  "verdict": function (read, ans, f) {
+    if (read['vos-price'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to quote it.',
+        text: 'Go back and put in a landed cost above zero.' };
+    }
+    var blended = parseFloat(String(read['vos-blended']).replace(/[^0-9.]/g, ''));
+    var real = parseFloat(String(read['vos-margin']).replace(/[^0-9.]/g, ''));
+    var staple = f['vos-staple'] || 0;
+
+    if (isFinite(blended) && isFinite(real) && staple >= 50 && (real - blended) >= 3) {
+      return { tone: 'is-no', title: 'The headline margin is not the one you keep.',
+        text: 'This case quotes at ' + read['vos-price'] + ' for a ' + read['vos-margin'] + ' margin, '
+            + 'but with ' + staple + ' percent of sales in staples at ' + read['vos-smargin']
+            + ', the line blends down to ' + read['vos-blended'] + '.' };
+    }
+    return { tone: 'is-go', title: 'Quote it at ' + read['vos-price'] + '.',
+      text: 'That is ' + read['vos-gp'] + ' a case and a ' + read['vos-margin'] + ' margin, blending '
+          + 'to ' + read['vos-blended'] + ' across the line once staples are counted.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-cost'] || 0) + ' dollar landed cost, with ' + (f['vos-staple'] || 0)
+         + ' percent of sales in staples.';
+  },
+  "echoes": []
+};
+  </script>

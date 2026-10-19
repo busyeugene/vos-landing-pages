@@ -1,0 +1,361 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-pricing');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var cost=$('vos-cost'), vol=$('vos-vol'), margin=$('vos-margin'), profit=$('vos-profit'), comp=$('vos-comp'),
+        pMarginEl=$('vos-p-margin'), pMarginSub=$('vos-p-margin-sub'),
+        pProfitEl=$('vos-p-profit'), pProfitSub=$('vos-p-profit-sub'),
+        pCompEl=$('vos-p-comp'), pCompSub=$('vos-p-comp-sub'), pCompCard=$('vos-p-comp-card'),
+        thinEl=$('vos-thin'), thinSub=$('vos-thin-sub'),
+        spreadEl=$('vos-spread'), spreadSub=$('vos-spread-sub'),
+        monthlyEl=$('vos-monthly'), monthlySub=$('vos-monthly-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-cost':22,'vos-vol':6000,'vos-margin':28,'vos-profit':8,'vos-comp':31};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){
+      if(!isFinite(n)) n=0;
+      return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cases(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US'); }
+
+    function calc(){
+      var C=num(cost), V=num(vol), pr=num(profit), cp=num(comp);
+      var m=parseFloat(margin.value); if(!isFinite(m)||m<0) m=0; m=Math.min(m,99);
+
+      if(C<=0){
+        [pMarginEl,pProfitEl,pCompEl,thinEl,spreadEl,monthlyEl].forEach(function(e){ e.textContent='--'; });
+        pMarginSub.textContent='Enter your cost per case to price it';
+        tip.innerHTML='Enter your <b>cost per case</b>, then set a margin, a target profit, or a competitor price to compare the three.';
+        return;
+      }
+
+      // Each method settles to whole cents, then its margin and profit derive from
+      // that price so the card reconciles (price - cost = profit shown).
+      var priceMargin = Math.round(C/(1-m/100)*100)/100;
+      var priceProfit = Math.round((C+pr)*100)/100;
+      var priceComp   = Math.round(cp*100)/100;
+
+      function marg(p){ return p>0 ? (p-C)/p*100 : 0; }
+      var mMargin=marg(priceMargin), mProfit=marg(priceProfit), mComp=marg(priceComp);
+      var gpMargin=priceMargin-C, gpProfit=priceProfit-C, gpComp=priceComp-C;
+
+      pMarginEl.textContent = money2(priceMargin);
+      pMarginSub.textContent = mMargin.toFixed(1)+'% margin, '+money2(gpMargin)+' profit per case';
+      pProfitEl.textContent = money2(priceProfit);
+      pProfitSub.textContent = mProfit.toFixed(1)+'% margin, '+money2(gpProfit)+' profit per case';
+      pCompEl.textContent = money2(priceComp);
+      pCompSub.textContent = mComp.toFixed(1)+'% margin, '+money2(gpComp)+' profit per case';
+      pCompCard.className = 'vos-stat' + (gpComp>=0 ? '' : ' vos-loss');
+
+      // Thinnest margin and the price spread across the three methods.
+      var methods=[{n:'the cost-plus price',m:mMargin,p:priceMargin},
+                   {n:'the target-profit price',m:mProfit,p:priceProfit},
+                   {n:'the match-competitor price',m:mComp,p:priceComp}];
+      var thin=methods[0], hi=priceMargin, lo=priceMargin;
+      methods.forEach(function(x){ if(x.m<thin.m) thin=x; if(x.p>hi) hi=x.p; if(x.p<lo) lo=x.p; });
+      thinEl.textContent = thin.m.toFixed(1)+'%';
+      thinSub.textContent = 'From '+thin.n;
+      spreadEl.textContent = money2(hi-lo);
+      spreadSub.textContent = money2(lo)+' to '+money2(hi)+' across methods';
+
+      var monthly = gpMargin*V;
+      monthlyEl.textContent = money(monthly);
+      monthlySub.textContent = 'Across '+cases(V)+' cases';
+
+      tip.innerHTML = 'Three ways to price the same <b>'+money2(C)+'</b> case give three answers: <b>'+money2(priceMargin)+'</b> for a '+m.toFixed(0)+'% margin, <b>'+money2(priceProfit)+'</b> to make '+money2(pr)+' a case, and <b>'+money2(priceComp)+'</b> to match a competitor. The lowest-margin method is '+thin.n+' at <b>'+thin.m.toFixed(1)+'%</b>, so the cheapest-looking price is rarely the most profitable.';
+    }
+
+    [cost,vol,margin,profit,comp].forEach(function(el){ el.addEventListener('input', calc); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "product-pricing",
+  "rootId": "vos-q-product-pricing",
+  "calcRootId": "vos-pricing",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "product-pricing-s1",
+    "product-pricing-s2",
+    "product-pricing-s3",
+    "product-pricing-s4",
+    "product-pricing-s5",
+    "product-pricing-s6"
+  ],
+  "gateId": "product-pricing-gate",
+  "resultsId": "product-pricing-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a cost above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-cost",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-vol",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-margin",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-profit",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-comp",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "whosets",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "intake",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-cost",
+      "calcId": "vos-cost",
+      "qid": "q-vos-cost"
+    },
+    {
+      "id": "vos-vol",
+      "calcId": "vos-vol",
+      "qid": "q-vos-vol"
+    },
+    {
+      "id": "vos-margin",
+      "calcId": "vos-margin",
+      "qid": "q-vos-margin"
+    },
+    {
+      "id": "vos-profit",
+      "calcId": "vos-profit",
+      "qid": "q-vos-profit"
+    },
+    {
+      "id": "vos-comp",
+      "calcId": "vos-comp",
+      "qid": "q-vos-comp"
+    }
+  ],
+  "groups": [
+    "situation",
+    "whosets",
+    "intake"
+  ],
+  "autoGroups": [
+    "situation",
+    "whosets",
+    "intake"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-p-margin",
+      "qid": "qc-vos-p-margin",
+      "cardId": "qcard-vos-p-margin",
+      "qsubId": "qcs-vos-p-margin",
+      "subFrom": "vos-p-margin-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-p-profit",
+      "qid": "qc-vos-p-profit",
+      "cardId": "qcard-vos-p-profit",
+      "qsubId": "qcs-vos-p-profit",
+      "subFrom": "vos-p-profit-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-p-comp",
+      "qid": "qc-vos-p-comp",
+      "cardId": "qcard-vos-p-comp",
+      "qsubId": "qcs-vos-p-comp",
+      "subFrom": "vos-p-comp-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-p-comp-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-thin",
+      "qid": "qc-vos-thin",
+      "cardId": "qcard-vos-thin",
+      "qsubId": "qcs-vos-thin",
+      "subFrom": "vos-thin-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-spread",
+      "qid": "qc-vos-spread",
+      "cardId": "qcard-vos-spread",
+      "qsubId": "qcs-vos-spread",
+      "subFrom": "vos-spread-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-monthly",
+      "qid": "qc-vos-monthly",
+      "cardId": "qcard-vos-monthly",
+      "qsubId": "qcs-vos-monthly",
+      "subFrom": "vos-monthly-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your landed cost before repricing against a competitor.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "intake",
+      "weights": {
+        "phone-voicemail": 30,
+        "mixed": 26,
+        "email-text": 20,
+        "portal-edi": 8
+      }
+    },
+    {
+      "group": "whosets",
+      "weights": {
+        "varies": 25,
+        "rep": 22,
+        "owner": 16,
+        "formula": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "competitor": 15,
+        "margin-target": 13,
+        "new-item": 11,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-vol",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        6000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-p-margin'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to price it.',
+        text: 'Go back and put in a landed cost above zero.' };
+    }
+    if (ans.whosets === 'rep' || ans.whosets === 'varies') {
+      return { tone: 'is-no', title: 'Three prices, and no one rule.',
+        text: 'The same case prices at ' + read['vos-p-margin'] + ', ' + read['vos-p-profit']
+            + ' and ' + read['vos-p-comp'] + ', a spread of ' + read['vos-spread'] + '. With no '
+            + 'standing rule for which one wins, the answer changes with whoever is quoting.' };
+    }
+    return { tone: 'is-go', title: 'Cost-plus comes out at ' + read['vos-p-margin'] + '.',
+      text: 'The three prices span ' + read['vos-spread'] + ', and the thinnest of them is '
+          + read['vos-thin'] + '. Cost-plus is worth ' + read['vos-monthly'] + ' a month at this volume.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-cost'] || 0) + ' dollar case at '
+         + (f['vos-vol'] || 0).toLocaleString('en-US') + ' cases a month.';
+  },
+  "echoes": []
+};
+  </script>

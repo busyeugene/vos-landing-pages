@@ -1,0 +1,366 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-wsize');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var bldg=$('vos-bldg'), usable=$('vos-usable'), foot=$('vos-foot'), stack=$('vos-stack'),
+        cpp=$('vos-cpp'), through=$('vos-through'),
+        casesEl=$('vos-cases'), casesSub=$('vos-cases-sub'),
+        positionsEl=$('vos-positions'), positionsSub=$('vos-positions-sub'),
+        storageEl=$('vos-storage'), storageSub=$('vos-storage-sub'),
+        floorEl=$('vos-floor'),
+        weeksEl=$('vos-weeks'), weeksSub=$('vos-weeks-sub'),
+        nonstorageEl=$('vos-nonstorage'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-bldg':3000,'vos-usable':55,'vos-foot':13.3,'vos-stack':2,'vos-cpp':50,'vos-through':6000};
+    var WEEKS_PER_MONTH = 52/12; // 4.3333
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function whole(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US'); }
+    function sqft(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US')+' sq ft'; }
+
+    function calc(){
+      var B=num(bldg), ft=num(foot), st=Math.round(num(stack)), cp=num(cpp), thr=num(through);
+      var u=parseFloat(usable.value); if(!isFinite(u)||u<0) u=0; u=Math.min(u,100);
+
+      if(B<=0 || ft<=0 || st<=0 || cp<=0 || u<=0){
+        casesEl.textContent='--'; positionsEl.textContent='--'; storageEl.textContent='--';
+        floorEl.textContent='--'; weeksEl.textContent='--'; nonstorageEl.textContent='--';
+        casesSub.textContent='Enter building size, usable share, footprint and stack height';
+        tip.innerHTML='Enter your <b>building size</b> and the share <b>usable for storage</b>, and we will turn it into cases and weeks of stock.';
+        return;
+      }
+
+      var storage = B*u/100;
+      var floorPos = Math.floor(storage/ft);
+      var positions = floorPos*st;
+      var cases = positions*cp;
+      var storageR = Math.round(storage);
+      var nonstorage = Math.round(B) - storageR; // reconciles with the building total on screen
+
+      casesEl.textContent = whole(cases)+' cases';
+      casesSub.textContent = 'At '+(cp%1===0?cp:cp.toFixed(1))+' cases per pallet';
+      positionsEl.textContent = whole(positions);
+      positionsSub.textContent = whole(floorPos)+' floor spots, '+st+' high';
+      storageEl.textContent = sqft(storageR);
+      storageSub.textContent = u.toFixed(0)+'% of the building';
+      floorEl.textContent = whole(floorPos);
+      nonstorageEl.textContent = sqft(nonstorage);
+
+      // Capacity turns into weeks of cover only if product is actually moving.
+      var casesHi = Math.floor(storage/ft)*(st+1)*cp;
+      var added = casesHi - cases;
+      if(thr>0){
+        var weeks = cases/(thr/WEEKS_PER_MONTH);
+        weeksEl.textContent = weeks.toFixed(1)+' weeks';
+        weeksSub.textContent = 'At '+whole(thr)+' cases a month';
+        tip.innerHTML = 'Your <b>'+sqft(Math.round(B))+'</b> holds about <b>'+whole(cases)+' cases</b>, roughly <b>'+weeks.toFixed(1)+' weeks</b> of flow at '+whole(thr)+' a month. Racking one pallet higher, from '+st+' to '+(st+1)+', would add about <b>'+whole(added)+' cases</b> without adding a square foot.';
+      } else {
+        weeksEl.textContent = '--';
+        weeksSub.textContent = 'Enter your monthly throughput';
+        tip.innerHTML = 'Your <b>'+sqft(Math.round(B))+'</b> holds about <b>'+whole(cases)+' cases</b>. Racking one pallet higher, from '+st+' to '+(st+1)+', would add about <b>'+whole(added)+' cases</b> without adding a square foot.';
+      }
+    }
+
+    [bldg,usable,foot,stack,cpp,through].forEach(function(el){ el.addEventListener('input', calc); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "warehouse-size",
+  "rootId": "vos-q-warehouse-size",
+  "calcRootId": "vos-wsize",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "warehouse-size-s1",
+    "warehouse-size-s2",
+    "warehouse-size-s3",
+    "warehouse-size-s4",
+    "warehouse-size-s5",
+    "warehouse-size-s6"
+  ],
+  "gateId": "warehouse-size-gate",
+  "resultsId": "warehouse-size-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a building size and a usable share above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-bldg",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-usable",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a footprint and a stack height above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-foot",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-stack",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a pallet quantity above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-cpp",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-through",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "growth",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "intake",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-bldg",
+      "calcId": "vos-bldg",
+      "qid": "q-vos-bldg"
+    },
+    {
+      "id": "vos-usable",
+      "calcId": "vos-usable",
+      "qid": "q-vos-usable"
+    },
+    {
+      "id": "vos-foot",
+      "calcId": "vos-foot",
+      "qid": "q-vos-foot"
+    },
+    {
+      "id": "vos-stack",
+      "calcId": "vos-stack",
+      "qid": "q-vos-stack"
+    },
+    {
+      "id": "vos-cpp",
+      "calcId": "vos-cpp",
+      "qid": "q-vos-cpp"
+    },
+    {
+      "id": "vos-through",
+      "calcId": "vos-through",
+      "qid": "q-vos-through"
+    }
+  ],
+  "groups": [
+    "situation",
+    "growth",
+    "intake"
+  ],
+  "autoGroups": [
+    "situation",
+    "growth",
+    "intake"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-cases",
+      "qid": "qc-vos-cases",
+      "cardId": "qcard-vos-cases",
+      "qsubId": "qcs-vos-cases",
+      "subFrom": "vos-cases-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-weeks",
+      "qid": "qc-vos-weeks",
+      "cardId": "qcard-vos-weeks",
+      "qsubId": "qcs-vos-weeks",
+      "subFrom": "vos-weeks-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-positions",
+      "qid": "qc-vos-positions",
+      "cardId": "qcard-vos-positions",
+      "qsubId": "qcs-vos-positions",
+      "subFrom": "vos-positions-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-storage",
+      "qid": "qc-vos-storage",
+      "cardId": "qcard-vos-storage",
+      "qsubId": "qcs-vos-storage",
+      "subFrom": "vos-storage-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-floor",
+      "qid": "qc-vos-floor",
+      "cardId": "qcard-vos-floor",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-nonstorage",
+      "qid": "qc-vos-nonstorage",
+      "cardId": "qcard-vos-nonstorage",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm clear height, fire lanes and rack spec before signing a lease.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "intake",
+      "weights": {
+        "phone-voicemail": 30,
+        "mixed": 26,
+        "email-text": 20,
+        "portal-edi": 8
+      }
+    },
+    {
+      "group": "growth",
+      "weights": {
+        "aggressive": 25,
+        "steady": 18,
+        "unsure": 14,
+        "flat": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "new-lease": 15,
+        "second-site": 14,
+        "current": 10,
+        "planning": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-through",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        6000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-cases'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to size it.',
+        text: 'Go back and put in a footprint and a stack height above zero.' };
+    }
+    var weeks = parseFloat(String(read['vos-weeks']).replace(/[^0-9.]/g, ''));
+    if (isFinite(weeks) && weeks > 0 && weeks < 4 && ans.growth === 'aggressive') {
+      return { tone: 'is-no', title: 'It fits today, and not for long.',
+        text: 'It holds ' + read['vos-cases'] + ', which is only ' + read['vos-weeks']
+            + ' of your flow, and you are pushing for growth. Rack higher before you sign, or you '
+            + 'will be back in this calculation inside a year.' };
+    }
+    return { tone: 'is-go', title: 'It holds ' + read['vos-cases'] + '.',
+      text: 'That is ' + read['vos-weeks'] + ' of your flow across ' + read['vos-positions']
+          + ' pallet positions, with ' + read['vos-nonstorage'] + ' going to everything that is not product.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on ' + (f['vos-bldg'] || 0).toLocaleString('en-US') + ' sq ft at '
+         + (f['vos-usable'] || 0) + ' percent usable, stacked ' + (f['vos-stack'] || 0) + ' high.';
+  },
+  "echoes": []
+};
+  </script>

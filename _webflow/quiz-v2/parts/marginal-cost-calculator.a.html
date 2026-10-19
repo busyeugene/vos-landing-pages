@@ -1,0 +1,471 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+    .vos-calc{
+      --vos-blue:#0099e6; --vos-blue-dark:#014b7d; --vos-blue-soft:#eaeef1;
+      --vos-navy:#023c64; --vos-slate:#344054; --vos-muted:#667085;
+      --vos-border:#eaecf0; --vos-bg:#f9fafb; --vos-white:#ffffff;
+      --vos-green:#02b845; --vos-green-soft:#ecfdf3;
+      --vos-radius:12px; --vos-shadow:0 1px 3px rgba(2,60,100,.08),0 8px 24px rgba(2,60,100,.06);
+      all:revert;
+      box-sizing:border-box;
+      font-family:'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--vos-slate); line-height:1.5; max-width:760px; margin:0 auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    .vos-calc *,.vos-calc *::before,.vos-calc *::after{box-sizing:border-box;}
+    .vos-calc input,.vos-calc select,.vos-calc button,.vos-calc textarea{font-family:inherit;}
+    .vos-calc .vos-card{
+      background:var(--vos-white); border:1px solid var(--vos-border);
+      border-radius:var(--vos-radius); box-shadow:var(--vos-shadow); overflow:hidden;
+    }
+    .vos-calc .vos-head{background:var(--vos-navy); color:#fff; padding:22px 24px;}
+    .vos-calc .vos-head h3{margin:0;font-family:'Montserrat',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#fff;line-height:1.3;}
+    .vos-calc .vos-head p{margin:6px 0 0;font-size:14px;color:#c7dced;}
+    .vos-calc .vos-body{padding:24px;}
+    .vos-calc .vos-legend{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--vos-muted);margin:0 0 12px;}
+    .vos-calc .vos-legend.vos-sep{margin-top:24px;padding-top:20px;border-top:1px solid var(--vos-border);}
+    .vos-calc .vos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media(max-width:560px){.vos-calc .vos-grid{grid-template-columns:1fr;}}
+    .vos-calc label{display:block;font-size:13px;font-weight:600;color:var(--vos-slate);margin-bottom:6px;}
+    .vos-calc .vos-hint{display:block;font-size:11.5px;font-weight:400;color:var(--vos-muted);margin-top:5px;}
+    .vos-calc .vos-field{position:relative;margin-bottom:4px;}
+    .vos-calc .vos-prefix{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:15px;font-weight:600;pointer-events:none;}
+    .vos-calc input[type=number]{
+      width:100%;padding:12px 14px 12px 28px;font-size:16px;color:var(--vos-navy);
+      background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:10px;
+      outline:none;transition:border-color .15s,box-shadow .15s;-moz-appearance:textfield;
+    }
+    .vos-calc input.vos-plain{padding-left:14px;}
+    .vos-calc input[type=number]:focus{border-color:var(--vos-blue);box-shadow:0 0 0 3px rgba(0,153,230,.15);background:#fff;}
+    .vos-calc input[type=number]::-webkit-outer-spin-button,
+    .vos-calc input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+    .vos-calc .vos-suffix{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--vos-muted);font-size:13px;font-weight:600;pointer-events:none;}
+    .vos-calc input.vos-hassuffix{padding-right:60px;}
+    .vos-calc .vos-results{margin-top:22px;border-top:1px solid var(--vos-border);padding-top:22px;}
+    .vos-calc .vos-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.vos-calc .vos-result-grid{grid-template-columns:1fr;}}
+    .vos-calc .vos-stat{background:var(--vos-bg);border:1px solid var(--vos-border);border-radius:12px;padding:16px;}
+    .vos-calc .vos-stat .vos-k{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--vos-muted);margin-bottom:4px;}
+    .vos-calc .vos-stat .vos-v{font-family:'Montserrat',sans-serif;font-size:24px;font-weight:800;color:var(--vos-navy);letter-spacing:-.02em;}
+    .vos-calc .vos-stat .vos-sub{font-size:11.5px;color:var(--vos-muted);margin-top:3px;}
+    .vos-calc .vos-stat.vos-hero{background:var(--vos-blue-soft);border-color:#c3d5e3;}
+    .vos-calc .vos-stat.vos-hero .vos-v{color:var(--vos-blue-dark);}
+    .vos-calc .vos-stat.vos-profit{background:var(--vos-green-soft);border-color:#b6f0cd;}
+    .vos-calc .vos-stat.vos-profit .vos-v{color:#02914f;}
+    .vos-calc .vos-stat.vos-loss{background:#fef3f2;border-color:#fecdca;}
+    .vos-calc .vos-stat.vos-loss .vos-v{color:#b42318;}
+    .vos-calc .vos-tip{display:flex;gap:10px;margin-top:18px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#854d0e;}
+    .vos-calc .vos-tip b{color:#713f12;}
+    .vos-calc .vos-tip svg{flex:0 0 auto;margin-top:1px;}
+    .vos-calc .vos-cta{margin-top:18px;background:var(--vos-navy);border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+    .vos-calc .vos-cta .vos-cta-txt{font-size:14px;color:#c7dced;max-width:62%;min-width:220px;}
+    .vos-calc .vos-cta .vos-cta-txt b{color:#fff;display:block;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;margin-bottom:2px;}
+    .vos-calc .vos-cta a{background:var(--vos-blue);color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:8px;white-space:nowrap;transition:background .15s;}
+    .vos-calc .vos-cta a:hover{background:#00add4;}
+    .vos-calc .vos-reset{margin-top:14px;background:none;border:none;color:var(--vos-muted);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline;padding:0;}
+    .vos-calc .vos-foot{text-align:center;font-size:11.5px;color:var(--vos-muted);margin-top:14px;}
+  </style>
+<!-- ============================================================
+     VOICEORDER SOLUTIONS V2 QUIZ: Is the extra volume worth taking?
+     GENERATED by scripts/build_v2.js. Do not hand-edit.
+     Source: lead-magnets-v2/specs/marginal-cost.js
+             lead-magnets-v2/_engine/
+             lead-magnets/marginal-cost-calculator.html
+
+     The shipped calculator is inlined below, hidden, and driven by
+     the quiz. Nothing in this file does arithmetic, so the numbers
+     here are the calculator's own.
+     ============================================================ -->
+<div class="vos-quiz" id="vos-q-marginal-cost">
+
+  <div class="vos-calc-host" aria-hidden="true">
+<!-- ============================================================
+     VOICEORDER SOLUTIONS LEAD MAGNET: Marginal Cost Calculator
+     Self-contained. No external libraries. Paste this whole
+     block into a blog "Custom HTML" / "Raw HTML" embed.
+     All styles are scoped under .vos-calc so they won't
+     touch the rest of your page. Recolor in one place via
+     the CSS variables on .vos-calc.
+     ============================================================ -->
+<div class="vos-calc" id="vos-marginal">
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Marginal Cost Calculator</h3>
+      <p>See what it really costs to move one more case, and whether the extra volume is worth taking on.</p>
+    </div>
+    <div class="vos-body">
+
+      <p class="vos-legend">Your operation today</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-fc">Fixed costs per month</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-fc" min="0" step="any" value="48000" inputmode="decimal">
+          </div>
+          <span class="vos-hint">Warehouse, trucks, salaries, insurance. Costs that do not move with volume.</span>
+        </div>
+        <div>
+          <label for="vos-vc">Variable cost per case</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-vc" min="0" step="any" value="18" inputmode="decimal">
+          </div>
+          <span class="vos-hint">Product cost, freight in, pick and pack, fuel per case.</span>
+        </div>
+        <div>
+          <label for="vos-q1">Current volume</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-q1" min="0" step="any" value="6000" inputmode="decimal">
+            <span class="vos-suffix">cases/mo</span>
+          </div>
+        </div>
+        <div>
+          <label for="vos-price">Selling price per case</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-price" min="0" step="any" value="28" inputmode="decimal">
+          </div>
+        </div>
+      </div>
+
+      <p class="vos-legend vos-sep">The extra volume you are considering</p>
+      <div class="vos-grid">
+        <div>
+          <label for="vos-q2">New total volume</label>
+          <div class="vos-field">
+            <input type="number" class="vos-plain vos-hassuffix" id="vos-q2" min="0" step="any" value="7200" inputmode="decimal">
+            <span class="vos-suffix">cases/mo</span>
+          </div>
+          <span class="vos-hint">Volume after the new account or route is added.</span>
+        </div>
+        <div>
+          <label for="vos-step">New fixed costs this volume triggers</label>
+          <div class="vos-field">
+            <span class="vos-prefix">$</span>
+            <input type="number" id="vos-step" min="0" step="any" value="6000" inputmode="decimal">
+          </div>
+          <span class="vos-hint">Per month. An added truck, driver, route, or cooler space. Enter 0 if it fits in what you already run.</span>
+        </div>
+      </div>
+
+      <div class="vos-results">
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Marginal cost per extra case</div>
+            <div class="vos-v" id="vos-mc">$23.00</div>
+            <div class="vos-sub" id="vos-mc-sub">What each of the 1,200 extra cases actually costs you</div>
+          </div>
+          <div class="vos-stat vos-profit" id="vos-delta-card">
+            <div class="vos-k">Monthly profit change</div>
+            <div class="vos-v" id="vos-delta">+$6,000</div>
+            <div class="vos-sub" id="vos-delta-sub">$12,000 today, $18,000 after</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Margin on each extra case</div>
+            <div class="vos-v" id="vos-spread">$5.00</div>
+            <div class="vos-sub">Selling price minus marginal cost</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Cases to cover the new fixed cost</div>
+            <div class="vos-v" id="vos-be">600</div>
+            <div class="vos-sub" id="vos-be-sub">Break-even on the added overhead</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Average cost per case</div>
+            <div class="vos-v" id="vos-avg">$26.00 &rarr; $25.50</div>
+            <div class="vos-sub">Today, then after the extra volume</div>
+          </div>
+          <div class="vos-stat">
+            <div class="vos-k">Contribution margin per case</div>
+            <div class="vos-v" id="vos-cm">$10.00</div>
+            <div class="vos-sub">Price minus variable cost, before fixed costs</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="vos-tip-text">Your average cost is <b>$26.00</b> per case, but the next case only costs <b>$23.00</b>. Price off the average and you will turn down volume that would have made you money.</div>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="vos-reset">Reset calculator</button>
+        </div>
+        <div class="vos-foot">Estimates only. Confirm your cost figures before committing to new volume.</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Marginal Cost Calculator ============ -->
+  </div>
+
+  <div class="vos-card">
+    <div class="vos-head">
+      <h3>Is the extra volume worth taking?</h3>
+      <p>Eight quick questions about your operation. At the end you get what one more case really costs you, and a straight answer on the volume.</p>
+      <div class="vos-prog" role="progressbar" aria-valuemin="0" aria-valuemax="8" aria-valuenow="1" aria-label="Quiz progress" id="q-prog">
+        <div class="vos-prog-bar" id="q-bar"></div>
+      </div>
+      <div class="vos-prog-txt" id="q-progtxt">Step 1 of 8</div>
+    </div>
+
+    <div class="vos-body" aria-live="polite">
+
+      <section class="vos-step is-on" id="marginal-cost-s1">
+        <p class="vos-eyebrow">The situation</p>
+        <h4 class="vos-q">What is the extra volume you are weighing up?</h4>
+        <p class="vos-qsub">Pick the one closest to what is on your desk right now.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="What is the extra volume you are weighing up?">
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-situation" data-group="situation" value="new-account"><span class="vos-dot"></span><span>A new account that wants to come on</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-situation" data-group="situation" value="more-existing"><span class="vos-dot"></span><span>More volume from an account you already serve</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-situation" data-group="situation" value="new-route"><span class="vos-dot"></span><span>A new route or territory</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-situation" data-group="situation" value="exploring"><span class="vos-dot"></span><span>Nothing specific, I want to know what my next case costs</span></label>
+        </div>
+        <div class="vos-err" id="marginal-cost-s1-err">Pick one to carry on.</div>
+        <div class="vos-nav vos-armed" data-arm="situation">
+          <button type="button" class="vos-next" data-next>Continue</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="marginal-cost-s2">
+        <p class="vos-eyebrow">Your month today</p>
+        <h4 class="vos-q">Where does your business sit right now?</h4>
+        <p class="vos-qsub">Round numbers are fine. Nothing here needs to come off a report.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-q1">Cases you move a month</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-vos-q1" min="0" step="any" value="6000" inputmode="decimal">
+              <span class="vos-suffix">cases/mo</span>
+            </div>
+            <span class="vos-hint">Across every route and every account.</span>
+          </div>
+          <div>
+            <label for="q-vos-price">Average selling price per case</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-price" min="0" step="any" value="28" inputmode="decimal">
+            </div>
+            <span class="vos-hint">What a case sells for, blended across your book.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="marginal-cost-s2-err">Enter a volume and a price above zero.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="marginal-cost-s3">
+        <p class="vos-eyebrow">What it costs to run</p>
+        <h4 class="vos-q">And what does that volume cost you?</h4>
+        <p class="vos-qsub">Split it two ways: the part that moves with every case, and the part that does not.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-vos-vc">Variable cost per case</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-vc" min="0" step="any" value="18" inputmode="decimal">
+            </div>
+            <span class="vos-hint">Product cost, freight in, pick and pack, fuel per case.</span>
+          </div>
+          <div>
+            <label for="q-vos-fc">Fixed costs per month</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-fc" min="0" step="any" value="48000" inputmode="decimal">
+            </div>
+            <span class="vos-hint">Warehouse, trucks, salaries, insurance. Costs that stay put when volume moves.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="marginal-cost-s3-err">Costs cannot be negative.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="marginal-cost-s4">
+        <p class="vos-eyebrow">The opportunity</p>
+        <h4 class="vos-q">How many extra cases a month are we talking about?</h4>
+        <p class="vos-qsub">The volume on offer, on top of what you already move.</p>
+        <div class="vos-grid">
+          <div>
+            <label for="q-extra">Extra cases per month</label>
+            <div class="vos-field">
+              <input type="number" class="vos-hassuffix" id="q-extra" min="0" step="any" value="1200" inputmode="decimal">
+              <span class="vos-suffix">cases/mo</span>
+            </div>
+          </div>
+        </div>
+        <div class="vos-echo" id="marginal-cost-s4-echo"></div>
+        <div class="vos-err" id="marginal-cost-s4-err">Enter a number above zero so there is something to weigh up.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="marginal-cost-s5">
+        <p class="vos-eyebrow">Capacity</p>
+        <h4 class="vos-q">Would that fit the trucks and racks you already run?</h4>
+        <p class="vos-qsub">This is the question that decides whether the volume pays. Volume that rides along on what you own is cheap. Volume that forces a second truck is not.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="Would that fit the trucks and racks you already run?">
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-capacity" data-group="capacity" value="fits"><span class="vos-dot"></span><span>Yes, there is room on the trucks and the floor</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-capacity" data-group="capacity" value="needs-more"><span class="vos-dot"></span><span>No, it needs another route, truck or cooler space</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-capacity" data-group="capacity" value="unsure"><span class="vos-dot"></span><span>Not sure yet</span></label>
+        </div>
+        <div class="vos-sub-field" id="marginal-cost-s5-reveal">
+          <div>
+            <label for="q-vos-step">What would that add to your fixed costs?</label>
+            <div class="vos-field">
+              <span class="vos-prefix">$</span>
+              <input type="number" class="vos-hasprefix" id="q-vos-step" min="0" step="any" value="6000" inputmode="decimal">
+            </div>
+            <span class="vos-hint" id="marginal-cost-s5-revealhint">The lease, the driver, the insurance. Per month, not one off.</span>
+          </div>
+        </div>
+        <div class="vos-err" id="marginal-cost-s5-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="marginal-cost-s6">
+        <p class="vos-eyebrow">When the orders start coming</p>
+        <h4 class="vos-q">How do your customers' orders reach you today?</h4>
+        <p class="vos-qsub">Extra volume is extra orders, so this decides how much of the new work lands on people rather than on trucks.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="How do your customers' orders reach you today?">
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-intake" data-group="intake" value="phone-voicemail"><span class="vos-dot"></span><span>Phone calls and voicemails</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-intake" data-group="intake" value="email-text"><span class="vos-dot"></span><span>Emails and text messages</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-intake" data-group="intake" value="portal-edi"><span class="vos-dot"></span><span>An online portal or EDI</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-intake" data-group="intake" value="mixed"><span class="vos-dot"></span><span>A mix of all of it</span></label>
+        </div>
+        <div class="vos-err" id="marginal-cost-s6-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="intake" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="marginal-cost-s7">
+        <p class="vos-eyebrow">Order entry</p>
+        <h4 class="vos-q">And who ends up keying those orders into your system?</h4>
+        <p class="vos-qsub">Last one before your numbers.</p>
+        <div class="vos-opts" role="radiogroup" aria-label="And who ends up keying those orders into your system?">
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-entry" data-group="entry" value="reps"><span class="vos-dot"></span><span>Sales reps, between calls</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-entry" data-group="entry" value="order-desk"><span class="vos-dot"></span><span>A dedicated order desk or customer service team</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-entry" data-group="entry" value="owner"><span class="vos-dot"></span><span>Me, or an owner or manager</span></label>
+          <label class="vos-opt"><input type="radio" name="vos-q-marginal-cost-entry" data-group="entry" value="automated"><span class="vos-dot"></span><span>They land in the system without anyone typing</span></label>
+        </div>
+        <div class="vos-err" id="marginal-cost-s7-err">Pick one to carry on.</div>
+        <div class="vos-nav">
+          <button type="button" class="vos-next vos-armed" data-arm="entry" data-next>Continue</button>
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+      </section>
+
+      <section class="vos-step" id="marginal-cost-gate">
+        <p class="vos-eyebrow">Your breakdown is ready</p>
+
+        <div class="vos-preview">
+          <div class="vos-stat vos-hero">
+            <div class="vos-k">Marginal cost per extra case</div>
+            <div class="vos-v" id="q-preview">--</div>
+            <div class="vos-sub">The headline number. The rest are below.</div>
+          </div>
+        </div>
+
+        <h4 class="vos-q">Want to see your results?</h4>
+        <p class="vos-qsub">You have given us enough to work this out. Fill this in and the full breakdown opens up.</p>
+
+        <div class="vos-hsform" id="q-hsform">
+          
+          <div class="hs-form-frame" data-region="na1" data-form-id="f854c1d7-fedd-4ba0-a8fb-98af24925dfc" data-portal-id="51996060"></div>
+          <div class="vos-hsload" id="q-hsload">Loading the form.</div>
+          <div class="vos-hsfail" id="q-hsfail">
+            <b>The form did not load.</b>
+            <span>Your browser or your network is most likely blocking it. That should not cost you the numbers you just worked out.</span>
+            <button type="button" class="vos-next" id="q-hsskip">Show my numbers anyway</button>
+          </div>
+        </div>
+        <div class="vos-nav">
+          <button type="button" class="vos-back" data-back>Back</button>
+        </div>
+        <p class="vos-privacy">Your details go straight to our team, who will follow up about these numbers.</p>
+      </section>
+
+      <section class="vos-step" id="marginal-cost-results">
+        <div class="vos-verdict is-go" id="q-verdict">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <div>
+            <h4 id="q-vtitle">Your result</h4>
+            <p id="q-vtext">Working it out.</p>
+          </div>
+        </div>
+
+        <p class="vos-greet" id="q-greet">Here is your breakdown.</p>
+        <p class="vos-greetsub" id="q-greetsub"></p>
+
+        <div class="vos-result-grid">
+          <div class="vos-stat vos-hero" id="qcard-vos-mc">
+            <div class="vos-k">Marginal cost per extra case</div>
+            <div class="vos-v" id="qc-vos-mc">--</div>
+            <div class="vos-sub" id="qcs-vos-mc"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-delta">
+            <div class="vos-k">Monthly profit change</div>
+            <div class="vos-v" id="qc-vos-delta">--</div>
+            <div class="vos-sub" id="qcs-vos-delta"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-spread">
+            <div class="vos-k">Margin on each extra case</div>
+            <div class="vos-v" id="qc-vos-spread">--</div>
+            <div class="vos-sub">Selling price minus marginal cost</div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-be">
+            <div class="vos-k">Cases to cover the new fixed cost</div>
+            <div class="vos-v" id="qc-vos-be">--</div>
+            <div class="vos-sub" id="qcs-vos-be"></div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-avg">
+            <div class="vos-k">Average cost per case</div>
+            <div class="vos-v" id="qc-vos-avg">--</div>
+            <div class="vos-sub">Today, then after the extra volume</div>
+          </div>
+          <div class="vos-stat" id="qcard-vos-cm">
+            <div class="vos-k">Contribution margin per case</div>
+            <div class="vos-v" id="qc-vos-cm">--</div>
+            <div class="vos-sub">Price minus variable cost, before fixed costs</div>
+          </div>
+        </div>
+
+        <div class="vos-tip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <div id="q-tip"></div>
+        </div>
+
+        <div class="vos-cta">
+          <div class="vos-cta-txt">
+            <b>Growing volume should not mean more order entry.</b>
+            VoiceOrder Solutions captures orders 24/7 and sends them straight to your system, so your reps can add accounts instead of retyping them.
+          </div>
+          <a href="https://www.voiceordersolutions.com/contact-us" target="_blank" rel="noopener">Book A Demo &rarr;</a>
+        </div>
+
+        <div style="text-align:center;">
+          <button type="button" class="vos-reset" id="q-again">Change my numbers</button>
+        </div>
+        <div class="vos-foot" id="q-foot">Estimates only. Confirm your cost figures before committing to new volume.</div>
+        <div class="vos-debug" id="q-debug"></div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+<!-- ============ END Is the extra volume worth taking? ============ -->

@@ -1,0 +1,396 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-procsave');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var volume=$('vos-ps-volume'), oldPrice=$('vos-ps-old'), newPrice=$('vos-ps-new'),
+        avoided=$('vos-ps-avoided'), avoidedSlider=$('vos-ps-avoided-slider'),
+        hardEl=$('vos-ps-hard'), hardSub=$('vos-ps-hard-sub'), hardCard=$('vos-ps-hard-card'),
+        avoidEl=$('vos-ps-avoid'), avoidSub=$('vos-ps-avoid-sub'),
+        totalEl=$('vos-ps-total'), totalSub=$('vos-ps-total-sub'),
+        hardPctEl=$('vos-ps-hardpct'), hardPctSub=$('vos-ps-hardpct-sub'),
+        benPctEl=$('vos-ps-benefitpct'), benPctSub=$('vos-ps-benefitpct-sub'),
+        baseEl=$('vos-ps-baseline'), baseSub=$('vos-ps-baseline-sub'),
+        newSpendEl=$('vos-ps-newspend'), newSpendSub=$('vos-ps-newspend-sub'),
+        monthlyEl=$('vos-ps-monthly'), monthlySub=$('vos-ps-monthly-sub'),
+        monthlyCard=$('vos-ps-monthly-card'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-ps-volume':72000,'vos-ps-old':24.00,'vos-ps-new':22.56,'vos-ps-avoided':3};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ return Math.round(n*100)/100; }
+    function tidy(n){ return n===Math.round(n) ? Math.round(n).toLocaleString('en-US') : n.toFixed(1); }
+    function pts(n){ return n===Math.round(n) ? String(Math.round(n)) : n.toFixed(1); }
+
+    function calc(){
+      var V=num(volume), OLD=num(oldPrice), NEW=num(newPrice);
+      var A=parseFloat(avoided.value); if(!isFinite(A)||A<0) A=0; if(A>100) A=100;
+
+      if(OLD<=0){
+        [hardEl,avoidEl,totalEl,hardPctEl,benPctEl,baseEl,newSpendEl,monthlyEl].forEach(function(e){ e.textContent='--'; });
+        hardSub.textContent='Enter the old price per case to start';
+        avoidSub.textContent='';
+        totalSub.textContent='';
+        hardPctSub.textContent='';
+        benPctSub.textContent='';
+        baseSub.textContent='';
+        newSpendSub.textContent='';
+        monthlySub.textContent='';
+        hardCard.className='vos-stat';
+        monthlyCard.className='vos-stat';
+        tip.innerHTML='Put in the <b>old price</b>, the <b>negotiated price</b> and the increase you kept off the table. Hard savings and cost avoidance come back on separate lines, because only one of them ever reaches the P&amp;L.';
+        return;
+      }
+
+      // Settle the per case saving to whole cents first, then build every annual
+      // figure off that rounded value, so the cards reconcile on screen: baseline
+      // spend minus the hard savings equals the new spend, and hard plus avoided
+      // equals the total benefit, with no stray cent anywhere.
+      var hardPerCase  = cents(OLD - NEW);
+      var hardAnnual   = cents(hardPerCase * V);
+      var baseline     = cents(OLD * V);
+      var newSpend     = cents(baseline - hardAnnual);
+      var avoidedPrice = cents(OLD * (1 + A/100));
+      var avoidPerCase = cents(avoidedPrice - OLD);
+      var avoidAnnual  = cents(avoidPerCase * V);
+      var totalBenefit = cents(hardAnnual + avoidAnnual);
+      var monthlyHard  = cents(hardAnnual / 12);
+      var hardPct      = baseline>0 ? hardAnnual/baseline*100 : 0;
+      var benefitPct   = baseline>0 ? totalBenefit/baseline*100 : 0;
+
+      hardEl.textContent = money(hardAnnual);
+      hardSub.textContent = V>0
+        ? money2(hardPerCase)+' a case across '+tidy(V)+' cases'
+        : money2(hardPerCase)+' a case, enter your annual volume';
+      hardCard.className = 'vos-stat ' + (hardAnnual>=0 ? 'vos-hero' : 'vos-loss');
+
+      avoidEl.textContent = money(avoidAnnual);
+      avoidSub.textContent = A>0
+        ? money2(avoidPerCase)+' a case, the '+pts(A)+'% increase that never reached an invoice'
+        : 'Nothing avoided, the supplier asked for no increase';
+
+      totalEl.textContent = money(totalBenefit);
+      totalSub.textContent = money(hardAnnual)+' hard plus '+money(avoidAnnual)+' avoided';
+
+      baseEl.textContent = money(baseline);
+      baseSub.textContent = V>0
+        ? tidy(V)+' cases at '+money2(OLD)
+        : 'Enter your annual volume to see the spend';
+
+      newSpendEl.textContent = money(newSpend);
+      newSpendSub.textContent = money(baseline)+' less the '+money(hardAnnual)+' you took out';
+
+      if(baseline>0){
+        hardPctEl.textContent = hardPct.toFixed(1)+'%';
+        hardPctSub.textContent = 'Of '+money(baseline)+' of baseline spend';
+        benPctEl.textContent = benefitPct.toFixed(1)+'%';
+        benPctSub.textContent = 'What a deck claims, against '+hardPct.toFixed(1)+'% the accounts will show';
+      } else {
+        hardPctEl.textContent = '--';
+        hardPctSub.textContent = 'Enter a volume to measure against spend';
+        benPctEl.textContent = '--';
+        benPctSub.textContent = '';
+      }
+
+      monthlyEl.textContent = money(monthlyHard);
+      monthlySub.textContent = money(hardAnnual)+' a year across 12 months';
+      monthlyCard.className = 'vos-stat ' + (hardAnnual>=0 ? 'vos-profit' : 'vos-loss');
+
+      // The teaching tip: hard savings and cost avoidance are both real and only
+      // one of them moves the accounts. Reported as one number, the whole claim
+      // gets discounted the first time finance cannot find it.
+      if(hardPerCase<0){
+        tip.innerHTML='The negotiated price sits <b>'+money2(Math.abs(hardPerCase))+'</b> a case <b>above</b> the old one, so there are no hard savings to report, only '+money(baseline)+' of baseline spend turning into '+money(newSpend)+'. The '+money(avoidAnnual)+' you avoided is still real, and it is still not a saving.';
+      } else if(avoidAnnual<=0){
+        tip.innerHTML='All <b>'+money(hardAnnual)+'</b> of this is hard savings, which is the rare clean case: spend really does drop from '+money(baseline)+' to '+money(newSpend)+'. Put the increase you kept off the table in above to see cost avoidance beside it, because the two do not report the same way.';
+      } else {
+        tip.innerHTML='Only the <b>'+money(hardAnnual)+'</b> of hard savings reaches the P&amp;L, where spend drops from '+money(baseline)+' to '+money(newSpend)+'. The <b>'+money(avoidAnnual)+'</b> of cost avoidance is real, and invisible, because the increase never reached an invoice. Report them on separate lines or finance stops believing either one.';
+      }
+    }
+
+    function syncSlider(){ var v=parseFloat(avoided.value); if(isFinite(v)) avoidedSlider.value=Math.max(0,Math.min(20,v)); }
+    [volume,oldPrice,newPrice].forEach(function(el){ el.addEventListener('input', calc); });
+    avoided.addEventListener('input', function(){ syncSlider(); calc(); });
+    avoidedSlider.addEventListener('input', function(){ avoided.value=avoidedSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "procurement-savings",
+  "rootId": "vos-q-procurement-savings",
+  "calcRootId": "vos-procsave",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "procurement-savings-s1",
+    "procurement-savings-s2",
+    "procurement-savings-s3",
+    "procurement-savings-s4",
+    "procurement-savings-s5",
+    "procurement-savings-s6"
+  ],
+  "gateId": "procurement-savings-gate",
+  "resultsId": "procurement-savings-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter an annual volume above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-ps-volume",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-ps-old",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-ps-new",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-ps-avoided",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "tracking",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "buyagainst",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-ps-volume",
+      "calcId": "vos-ps-volume",
+      "qid": "q-vos-ps-volume"
+    },
+    {
+      "id": "vos-ps-old",
+      "calcId": "vos-ps-old",
+      "qid": "q-vos-ps-old"
+    },
+    {
+      "id": "vos-ps-new",
+      "calcId": "vos-ps-new",
+      "qid": "q-vos-ps-new"
+    },
+    {
+      "id": "vos-ps-avoided",
+      "calcId": "vos-ps-avoided",
+      "qid": "q-vos-ps-avoided"
+    }
+  ],
+  "groups": [
+    "situation",
+    "tracking",
+    "buyagainst"
+  ],
+  "autoGroups": [
+    "situation",
+    "tracking",
+    "buyagainst"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-ps-hard",
+      "qid": "qc-vos-ps-hard",
+      "cardId": "qcard-vos-ps-hard",
+      "qsubId": "qcs-vos-ps-hard",
+      "subFrom": "vos-ps-hard-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-ps-hard-card",
+      "hero": true
+    },
+    {
+      "calcId": "vos-ps-avoid",
+      "qid": "qc-vos-ps-avoid",
+      "cardId": "qcard-vos-ps-avoid",
+      "qsubId": "qcs-vos-ps-avoid",
+      "subFrom": "vos-ps-avoid-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-ps-total",
+      "qid": "qc-vos-ps-total",
+      "cardId": "qcard-vos-ps-total",
+      "qsubId": "qcs-vos-ps-total",
+      "subFrom": "vos-ps-total-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-ps-hardpct",
+      "qid": "qc-vos-ps-hardpct",
+      "cardId": "qcard-vos-ps-hardpct",
+      "qsubId": "qcs-vos-ps-hardpct",
+      "subFrom": "vos-ps-hardpct-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-ps-monthly",
+      "qid": "qc-vos-ps-monthly",
+      "cardId": "qcard-vos-ps-monthly",
+      "qsubId": "qcs-vos-ps-monthly",
+      "subFrom": "vos-ps-monthly-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-ps-monthly-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-ps-newspend",
+      "qid": "qc-vos-ps-newspend",
+      "cardId": "qcard-vos-ps-newspend",
+      "qsubId": "qcs-vos-ps-newspend",
+      "subFrom": "vos-ps-newspend-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm the baseline price before claiming a saving against it.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "buyagainst",
+      "weights": {
+        "memory": 30,
+        "last-month": 26,
+        "par": 16,
+        "actual-orders": 8
+      }
+    },
+    {
+      "group": "tracking",
+      "weights": {
+        "memory": 25,
+        "invoices": 20,
+        "spreadsheet": 14,
+        "system": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "reporting": 15,
+        "price-down": 12,
+        "held-increase": 12,
+        "switched": 10
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-ps-volume",
+    "bands": [
+      [
+        200000,
+        30
+      ],
+      [
+        60000,
+        22
+      ],
+      [
+        15000,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-ps-hard'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to work it out.',
+        text: 'Go back and put in an annual volume above zero.' };
+    }
+    if (ans.tracking === 'memory' || ans.tracking === 'invoices') {
+      return { tone: 'is-no', title: 'Only ' + read['vos-ps-hard'] + ' of it will survive a review.',
+        text: 'The ' + read['vos-ps-avoid'] + ' of avoided increase is real, but it never appears as a '
+            + 'lower invoice, and right now what you paid has to be reconstructed by hand to prove '
+            + 'either number.' };
+    }
+    return { tone: 'is-go', title: read['vos-ps-hard'] + ' reaches the P&L.',
+      text: 'That is ' + read['vos-ps-hardpct'] + ' of spend and ' + read['vos-ps-monthly']
+          + ' a month. The ' + read['vos-ps-avoid'] + ' you avoided is real too, it just never shows '
+          + 'up as a smaller invoice.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on ' + (f['vos-ps-volume'] || 0).toLocaleString('en-US') + ' cases a year.';
+  },
+  "echoes": []
+};
+  </script>

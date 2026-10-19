@@ -1,0 +1,332 @@
+{
+ "_shared": {
+  "cssComponent": "64c7cf9f-28da-42b7-abf3-dbf0b9aacd39",
+  "engineComponent": "d06c143a-0dda-e39b-1b58-d616d0217578",
+  "heroInstance": "989faf8b-cac3-f127-6306-f797ae33f470",
+  "heroLinkProp": "82b5fd49-0b49-df85-c65b-ea16db1ecf51",
+  "rowLinks": [
+   "3eb238a9-794c-5623-3970-f5b533eca107",
+   "8c148c5a-5883-9b4b-9229-358da23fdec1",
+   "8b079726-3463-6044-f4e9-f838b3bfb137",
+   "2af8f313-e356-7eea-3f46-cef1a39df959"
+  ],
+  "padClass": "uui-padding-vertical-xhuge 7"
+ },
+ "pages": {
+  "accounts-receivable-turnover-calculator": {
+   "pageId": "6ac72b932e36cb4efe865399",
+   "quiz": "ar-turnover",
+   "newAnchor": "#vos-q-ar-turnover",
+   "oldAnchor": "#vos-ar",
+   "calcEmbed": "e085d968-51e5-d8e0-f022-d5a51605bebd",
+   "embedA": "parts/accounts-receivable-turnover-calculator.a.html",
+   "embedB": "parts/accounts-receivable-turnover-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac72b932e36cb4efe865399",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
+    },
+    "before": "Updates as the book moves",
+    "after": "Built from your own credit sales",
+    "nodeType": null
+   }
+  },
+  "inventory-carrying-cost-calculator": {
+   "pageId": "6ac7866e071fb41c4807eab0",
+   "quiz": "carrying-cost",
+   "newAnchor": "#vos-q-carrying-cost",
+   "oldAnchor": "#vos-carrycost",
+   "calcEmbed": "a979b455-82e2-6b6b-a34f-79a9449bbeec",
+   "embedA": "parts/inventory-carrying-cost-calculator.a.html",
+   "embedB": "parts/inventory-carrying-cost-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac7866e071fb41c4807eab0",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdeb3"
+    },
+    "before": "Moves the highlight as you type",
+    "after": "Built on the rates you enter",
+    "nodeType": null
+   }
+  },
+  "delivery-cost-calculator": {
+   "pageId": "6ac7652b0d7b366d7fd65177",
+   "quiz": "delivery-cost",
+   "newAnchor": "#vos-q-delivery-cost",
+   "oldAnchor": "#vos-delivery",
+   "calcEmbed": "56585612-59ed-4b92-4efc-2553a969c471",
+   "embedA": "parts/delivery-cost-calculator.a.html",
+   "embedB": "parts/delivery-cost-calculator.b.html"
+  },
+  "food-markup-calculator": {
+   "pageId": "6ac79be2180bc9b3c91fb79c",
+   "quiz": "food-markup",
+   "newAnchor": "#vos-q-food-markup",
+   "oldAnchor": "#vos-foodmarkup",
+   "calcEmbed": "283b6d19-bff6-d058-8245-120b88b55e5d",
+   "embedA": "parts/food-markup-calculator.a.html",
+   "embedB": "parts/food-markup-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac79be2180bc9b3c91fb79c",
+     "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4145"
+    },
+    "before": "Recalculates as you type",
+    "after": "Starts from your case weight and yield",
+    "nodeType": null
+   }
+  },
+  "inventory-turnover-calculator": {
+   "pageId": "6ac7252ae188e18d1d906bba",
+   "quiz": "inventory-turnover",
+   "newAnchor": "#vos-q-inventory-turnover",
+   "oldAnchor": "#vos-invturn",
+   "calcEmbed": "7f9563f9-cdae-6834-607b-c7ed2475f7b8",
+   "embedA": "parts/inventory-turnover-calculator.a.html",
+   "embedB": "parts/inventory-turnover-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac7252ae188e18d1d906bba",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
+    },
+    "before": "Updates as your inventory moves",
+    "after": "Starts from your average stock value",
+    "nodeType": null
+   }
+  },
+  "marginal-cost-calculator": {
+   "pageId": "6ac69810ef654fbdecf37f4b",
+   "quiz": "marginal-cost",
+   "newAnchor": "#vos-q-marginal-cost",
+   "oldAnchor": "#vos-marginal",
+   "calcEmbed": "219a7c79-909a-fed4-eef6-bfa768431fcc",
+   "embedA": "parts/marginal-cost-calculator.a.html",
+   "embedB": "parts/marginal-cost-calculator.b.html"
+  },
+  "material-markup-calculator": {
+   "pageId": "6ac72b95bdfb92fbc692e782",
+   "quiz": "material-markup",
+   "newAnchor": "#vos-q-material-markup",
+   "oldAnchor": "#vos-markup",
+   "calcEmbed": "62b30542-bfb0-353e-ddfe-1014ce1b7234",
+   "embedA": "parts/material-markup-calculator.a.html",
+   "embedB": "parts/material-markup-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac72b95bdfb92fbc692e782",
+     "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4145"
+    },
+    "before": "Updates as any input moves",
+    "after": "Asks for each cost one at a time",
+    "nodeType": null
+   }
+  },
+  "par-level-calculator": {
+   "pageId": "6ac79be1b863c26cbc96979a",
+   "quiz": "par-level",
+   "newAnchor": "#vos-q-par-level",
+   "oldAnchor": "#vos-parlevel",
+   "calcEmbed": "1e768f73-8b46-1691-1d65-73c8aa6f4cd4",
+   "embedA": "parts/par-level-calculator.a.html",
+   "embedB": "parts/par-level-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac79be1b863c26cbc96979a",
+     "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4145"
+    },
+    "before": "Recalculates as you type",
+    "after": "Built on your delivery cycle",
+    "nodeType": null
+   }
+  },
+  "price-change-calculator": {
+   "pageId": "6ac735253fe7317c927e4447",
+   "quiz": "price-change",
+   "newAnchor": "#vos-q-price-change",
+   "oldAnchor": "#vos-pricechg",
+   "calcEmbed": "3a74aebc-7d96-4c72-ae7d-97e0f9aa9062",
+   "embedA": "parts/price-change-calculator.a.html",
+   "embedB": "parts/price-change-calculator.b.html"
+  },
+  "landed-cost-calculator": {
+   "pageId": "6ac7652962cd713ecd056f43",
+   "quiz": "price-comparison",
+   "newAnchor": "#vos-q-price-comparison",
+   "oldAnchor": "#vos-pricecomp",
+   "calcEmbed": "61a70fbe-aaab-f6a4-364d-ef1ade5f7444",
+   "embedA": "parts/landed-cost-calculator.a.html",
+   "embedB": "parts/landed-cost-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac7652962cd713ecd056f43",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+    },
+    "before": "Re-ranks as you type",
+    "after": "Ranks every offer you enter",
+    "nodeType": null
+   }
+  },
+  "purchase-price-variance-calculator": {
+   "pageId": "6ac7866c27806c8148c2855e",
+   "quiz": "price-variance",
+   "newAnchor": "#vos-q-price-variance",
+   "oldAnchor": "#vos-pricevar",
+   "calcEmbed": "5fa8e8b2-fd3a-eb0d-9041-db4a7cb8a28b",
+   "embedA": "parts/purchase-price-variance-calculator.a.html",
+   "embedB": "parts/purchase-price-variance-calculator.b.html"
+  },
+  "procurement-savings-calculator": {
+   "pageId": "6ac78670c218082afa38ac6f",
+   "quiz": "procurement-savings",
+   "newAnchor": "#vos-q-procurement-savings",
+   "oldAnchor": "#vos-procsave",
+   "calcEmbed": "b583b9d1-1b02-e462-2213-111030a4c29b",
+   "embedA": "parts/procurement-savings-calculator.a.html",
+   "embedB": "parts/procurement-savings-calculator.b.html"
+  },
+  "product-markup-calculator": {
+   "pageId": "6ac7866ff16ee3a82e89dd76",
+   "quiz": "product-markup",
+   "newAnchor": "#vos-q-product-markup",
+   "oldAnchor": "#vos-prodmarkup",
+   "calcEmbed": "948a0d65-37ff-51d4-f9e1-3fe88a90cea5",
+   "embedA": "parts/product-markup-calculator.a.html",
+   "embedB": "parts/product-markup-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac7866ff16ee3a82e89dd76",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+    },
+    "before": "Recalculates as you type",
+    "after": "Starts from your target margin",
+    "nodeType": null
+   }
+  },
+  "product-pricing-calculator": {
+   "pageId": "6ac718c668be300e93fb7203",
+   "quiz": "product-pricing",
+   "newAnchor": "#vos-q-product-pricing",
+   "oldAnchor": "#vos-pricing",
+   "calcEmbed": "bb3baf07-8ebd-06c2-0699-b878d43f2019",
+   "embedA": "parts/product-pricing-calculator.a.html",
+   "embedB": "parts/product-pricing-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac718c668be300e93fb7203",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df957"
+    },
+    "before": "Updates as you change any input",
+    "after": "Uses your own monthly volume",
+    "nodeType": null
+   }
+  },
+  "early-payment-discount-calculator": {
+   "pageId": "6ac79be4b863c26cbc9698b6",
+   "quiz": "purchase-price",
+   "newAnchor": "#vos-q-purchase-price",
+   "oldAnchor": "#vos-purchprice",
+   "calcEmbed": "ccdc7796-06dc-e99d-968c-5c664a2abdb4",
+   "embedA": "parts/early-payment-discount-calculator.a.html",
+   "embedB": "parts/early-payment-discount-calculator.b.html"
+  },
+  "reorder-point-calculator": {
+   "pageId": "6ac7652a2a715d3e702a0559",
+   "quiz": "reorder-point",
+   "newAnchor": "#vos-q-reorder-point",
+   "oldAnchor": "#vos-reorder",
+   "calcEmbed": "b05dcf87-f82d-b0d0-f146-8080a27e9d8c",
+   "embedA": "parts/reorder-point-calculator.a.html",
+   "embedB": "parts/reorder-point-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac7652a2a715d3e702a0559",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+    },
+    "before": "Recalculates as you type",
+    "after": "Uses your real lead time",
+    "nodeType": null
+   }
+  },
+  "retail-margin-calculator": {
+   "pageId": "6ac76528743f1f2a6f8ae6e6",
+   "quiz": "retail-margin",
+   "newAnchor": "#vos-q-retail-margin",
+   "oldAnchor": "#vos-retmargin",
+   "calcEmbed": "8fad8c63-db32-c9c5-88f2-d5f34e529384",
+   "embedA": "parts/retail-margin-calculator.a.html",
+   "embedB": "parts/retail-margin-calculator.b.html"
+  },
+  "safety-stock-calculator": {
+   "pageId": "6ac735249b6f12d26ba60ce1",
+   "quiz": "safety-stock",
+   "newAnchor": "#vos-q-safety-stock",
+   "oldAnchor": "#vos-safety",
+   "calcEmbed": "9005899c-1810-3e41-133a-6521e4e3ec64",
+   "embedA": "parts/safety-stock-calculator.a.html",
+   "embedB": "parts/safety-stock-calculator.b.html"
+  },
+  "unit-price-calculator": {
+   "pageId": "6ac72b948f277e012d8d7584",
+   "quiz": "unit-price",
+   "newAnchor": "#vos-q-unit-price",
+   "oldAnchor": "#vos-unit",
+   "calcEmbed": "5ab6d7fb-33ad-67ee-0b87-83d5eb19ce04",
+   "embedA": "parts/unit-price-calculator.a.html",
+   "embedB": "parts/unit-price-calculator.b.html"
+  },
+  "warehouse-size-calculator": {
+   "pageId": "6ac72b9663b2850d53a5f878",
+   "quiz": "warehouse-size",
+   "newAnchor": "#vos-q-warehouse-size",
+   "oldAnchor": "#vos-wsize",
+   "calcEmbed": "fa975131-9f80-9ab6-9371-3db7efe3ecfa",
+   "embedA": "parts/warehouse-size-calculator.a.html",
+   "embedB": "parts/warehouse-size-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac72b9663b2850d53a5f878",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
+    },
+    "before": "Updates as any input changes",
+    "after": "Part of your full sizing breakdown",
+    "nodeType": null
+   }
+  },
+  "warehouse-space-calculator": {
+   "pageId": "6ac735232408756f9071e095",
+   "quiz": "warehouse-space",
+   "newAnchor": "#vos-q-warehouse-space",
+   "oldAnchor": "#vos-wspace",
+   "calcEmbed": "f26ea795-a491-0332-cbf3-7c437a7532be",
+   "embedA": "parts/warehouse-space-calculator.a.html",
+   "embedB": "parts/warehouse-space-calculator.b.html",
+   "copyFix": {
+    "id": {
+     "component": "6ac735232408756f9071e095",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+    },
+    "before": "Updates as the pallet math changes",
+    "after": "Starts from your pallet count",
+    "nodeType": null
+   }
+  },
+  "wholesale-markup-calculator": {
+   "pageId": "6ac73521a469d3c306f7aa87",
+   "quiz": "wholesale-markup",
+   "newAnchor": "#vos-q-wholesale-markup",
+   "oldAnchor": "#vos-wmarkup",
+   "calcEmbed": "ce3b2957-0e21-e55d-c250-d34884607bff",
+   "embedA": "parts/wholesale-markup-calculator.a.html",
+   "embedB": "parts/wholesale-markup-calculator.b.html"
+  },
+  "wholesale-to-retail-markup-calculator": {
+   "pageId": "6ac73522edd07accabdbe401",
+   "quiz": "wholesale-retail",
+   "newAnchor": "#vos-q-wholesale-retail",
+   "oldAnchor": "#vos-w2r",
+   "calcEmbed": "dfda34f4-3570-de76-7033-6a20bb838b90",
+   "embedA": "parts/wholesale-to-retail-markup-calculator.a.html",
+   "embedB": "parts/wholesale-to-retail-markup-calculator.b.html"
+  }
+ }
+}

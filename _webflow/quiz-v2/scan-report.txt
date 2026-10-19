@@ -1,0 +1,1340 @@
+Watch-term scan over String textContent, component string props and
+feature-row button text (from get_settings). HtmlEmbed code is NOT included.
+Terms: as you type, instant, no sign, sign up, sign-up, no email, email, no form, form, free, no strings, type your, enter your, real time, real-time, live, update, recalculat, re-rank, moves the highlight, results, download, no login, account, calculator
+Total matching strings: 645
+
+=== accounts-receivable-turnover-calculator  (48 hits)
+  [account, calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Accounts Receivable Turnover Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account] 3c3ea03a-51af-d262-28e5-84d2fdd1ef7c (String)
+      What is accounts receivable turnover?
+  [account] ebef1fc9-5b70-6586-9e46-ac9c25bed41e (String)
+      Accounts receivable turnover counts how many times a year your customers pay off what they owe you. You get it by dividing credit sales by the average amount owed. Turned into days, it shows how long an invoice really takes to become cash.
+  [account] ebef1fc9-5b70-6586-9e46-ac9c25bed429 (String)
+      A book turning 9.4 times a year can still hold a debt that will never be paid. The ratio measures speed, not the risk in any one account.
+  [account] 87c4c712-9f64-45e0-8317-e29954b53b86 (String)
+      Which accounts it hides
+  [account] ebef1fc9-5b70-6586-9e46-ac9c25bed431 (String)
+      The ratio blends every customer, so the 8.8 days past terms could sit with one account or with all of them. An aging report by account shows which.
+  [account] ebef1fc9-5b70-6586-9e46-ac9c25bed439 (String)
+      You collect from accounts in 38.8 days, and that clock only starts once a case sells. Every day between paying your supplier and getting paid is cash you fund yourself.
+  [account, calculator] 2a017e5a-2c21-b690-f363-7160f65bafcf (String)
+      Who uses an accounts receivable turnover calculator
+  [account] 02165e3b-ba5a-ce6f-61d0-20952bf6b0f4 (String)
+      Food distributors that sell to accounts on credit use it to see how fast those accounts pay. Whoever sets terms, grants credit or answers to a lender about cash should know the number.
+  [live] b392d856-c64d-5388-54c2-7cbb2d4fc2ac (String)
+      Ops settling delivery disputes
+  [account] f068f705-2c22-441b-fbc5-1e6747646533 (String)
+      Sales managers setting account terms
+  [account, calculator] 65491273-d2a0-4153-3ef7-e959e9de4ed7 (String)
+      How to use the accounts receivable turnover calculator
+  [calculator] a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3 (String)
+      The calculator averages them, which smooths out a seasonal peak. A single year-end figure taken after a slow December will flatter you.
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [update] 8b079726-3463-6044-f4e9-f838b3bfb135 (String)
+      Updates as the book moves
+  [account, calculator] 6b32e9e3-0c13-0f5e-d786-0a264de0ebb3 (String)
+      The calculator takes one set of terms. If accounts run on a mix, weight the terms by credit sales before you enter them, or the days past terms will be off.
+  [account] 964de5d5-3961-b811-98b9-cfb069a7e8da (String)
+      Five days is $131,507 released in one go, and it is cash you already earned. No new account, no price increase, no loan.
+  [account] 37b58628-5e21-7c67-2967-24e3b5a7a1d5 (String)
+      Costs you nothing per account
+  [account] 37b58628-5e21-7c67-2967-24e3b5a7a1db (String)
+      No, it is staff time per account
+  [account] ce2a1054-461c-819d-1835-f7ae0314dd22 (String)
+      Not with the accounts you want to keep
+  [account] 37b58628-5e21-7c67-2967-24e3b5a7a1ec (String)
+      Works on accounts you cannot pressure
+  [account] 37b58628-5e21-7c67-2967-24e3b5a7a1f6 (String)
+      Scales as you add accounts
+  [account] 4e937bfc-d991-6800-3589-85b790fcbd33 (String)
+      No, it needs a person per account
+  [account] 53904e4f-0311-74e0-9ad3-9f1eaea02303 (String)
+      The same accounts age again next month
+  [account, form] 7f31d426-6e4c-5e28-f4c7-2ff82a21df78 (String)
+      New accounts, before a habit forms
+  [account] b1f1a02d-1126-5fc3-d0e9-a08845da650a (String)
+      An invoice sent two days late is two days added to every account it touches.
+  [live] ce9a8dd2-5aea-6c74-fe2d-a05cf2535627 (String)
+      A wrong quantity on delivery becomes a credit note, and a credit note becomes a late payment.
+  [account] 9adca70e-796a-2941-5854-f01328375931 (String)
+      Terms by account
+  [live] f429e158-9ead-9138-5afd-0facf8b68d3a (String)
+      Proof of delivery
+  [account] 22223639-4dd4-4330-7b2c-9fa8ed671ed7 (String)
+      VOS does not invoice, collect or keep your books. Its part comes earlier: customers review each line before sending, and each VOS app order carries a number, date and timestamp. If an account questions an invoice, you have a record of what was ordered and when.
+  [account, form] 22223639-4dd4-4330-7b2c-9fa8ed671ede (String)
+      Order history per account in one admin platform
+  [account] 22223639-4dd4-4330-7b2c-9fa8ed671ee4 (String)
+      Confirmations reach accounts by notification and text
+  [form] 22223639-4dd4-4330-7b2c-9fa8ed671eea (String)
+      Orders reach you in the format you already use
+  [live] e7169b4c-ffb5-185b-ebfe-e2a67d3e3280 (String)
+      Invoice the day you deliver
+  [account] d681a4ee-4372-15ad-23b1-7b6679225dfd (String)
+      Rank accounts by days past terms
+  [account] 72becc55-5790-ca89-83e0-19642445c9ad (String)
+      Match terms to the account
+  [calculator] 1c5756a0-6e39-ed71-1729-5c4f1c4a36f1 (String)
+      Open the early payment discount calculator
+  [free] 1c5756a0-6e39-ed71-1729-5c4f1c4a36fa (String)
+      Measure the cash sitting in stock and the days a case waits on your shelf, then see what trimming those days frees.
+  [calculator] 1c5756a0-6e39-ed71-1729-5c4f1c4a36fe (String)
+      Open the inventory turnover calculator
+  [calculator] 1c5756a0-6e39-ed71-1729-5c4f1c4a370b (String)
+      Open the price change calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [account] a9fef21e-2e09-84b3-e242-8158c40ab11e (String)
+      Common questions about accounts receivable turnover
+  [account, form] cb55ed2c-634b-b694-87d5-a43e7e3cf960 (String)
+      What is the formula for accounts receivable turnover?
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf967 (String)
+      Annual credit sales divided by average accounts receivable. $9,600,000 of credit sales against an average book of $1,020,000 gives 9.4 turns a year.
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf96c (String)
+      What is the turnover of accounts receivable?
+  [live] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions delivers every order digitized, numbered and timestamped before it reaches your system, so the invoice behind it goes out clean and on time.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== inventory-carrying-cost-calculator  (24 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Inventory Carrying Cost Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [calculator] 0c5947aa-c080-ab8f-a9af-84ae728e9b23 (String)
+      Who uses an inventory carrying cost calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [as you type, moves the highlight] 8c148c5a-5883-9b4b-9229-358da23fdeb3 (String)
+      Moves the highlight as you type
+  [free] f31fc820-52bd-2ac3-c0e0-8151bb03ab74 (String)
+      A lease you pay at any stock level is not a carrying cost unless holding less would free the space. Count it anyway and the 7 storage points read high.
+  [free] f31fc820-52bd-2ac3-c0e0-8151bb03ab84 (String)
+      One freezer failure or recall can swamp a year of spoilage. Take it out, or price it on its own, before it sets the rate for years after.
+  [account] b1f1a02d-1126-5fc3-d0e9-a08845da650a (String)
+      9 points here, the biggest single line at $11,880 a year. Use what your line of credit costs, not what a savings account pays.
+  [free] 5368ca22-de87-9362-819f-9733489b5a70 (String)
+      7 points, $9,240 a year. Rent or depreciation, racking, the cooler and freezer load, and the labor to touch a case twice.
+  [live] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions gives you visibility across the full catalog, so you get fewer stockout surprises. Most distributors are live in 24 to 48 hours.
+  [form, update] 673f7f14-a000-bb6f-db99-52bf2b90c170 (String)
+      Order guides and prices updated in one admin platform
+  [free] 673f7f14-a000-bb6f-db99-52bf2b90c176 (String)
+      Sales reps freed to sell, not to take orders
+  [free] c0b969b7-32a9-4c6f-f330-7ad613793fe8 (String)
+      Count the cooler and freezer load
+  [calculator, free] 71afd5bd-232e-ecff-6888-7c9689bdc006 (String)
+      The rate prices a dollar of stock for a year. These free calculators show how long the stock sits, what a buffer parks, and how much floor it fills.
+  [calculator] 71afd5bd-232e-ecff-6888-7c9689bdc015 (String)
+      Open the inventory turnover calculator
+  [calculator] 71afd5bd-232e-ecff-6888-7c9689bdc022 (String)
+      Open the safety stock calculator
+  [calculator] 71afd5bd-232e-ecff-6888-7c9689bdc02f (String)
+      Open the warehouse space calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [form] cb55ed2c-634b-b694-87d5-a43e7e3cf978 (String)
+      What is the formula for calculating annual inventory carrying cost?
+  [form] 7e541655-5a68-8f96-1273-8249a5c759b6 (String)
+      What is the formula for calculating inventory cost?
+  [form] 7e541655-5a68-8f96-1273-8249a5c759bd (String)
+      The inventory carrying cost formula is your carrying rate times average inventory value. Divide the answer by twelve for a month, $2,970 here, or by cases a year to cost one case. Inventory cost in the wider sense also carries the purchase price of the goods, which this leaves out on purpose.
+  [account] 4446ea80-4c7a-f2a8-f0de-0a222818c94f (String)
+      Less than feels comfortable, because every dollar of average stock costs you 27 cents a year. Taking average inventory down 10% to $118,800 saves $3,564 a year and no price has to change. Set the floor on the service you owe your accounts, then stop.
+  [update] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions runs alongside the inventory system you already have, which stays your system of record. The catalog updates as stock levels change, so the $132,000 average behind your 27% stays current.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== delivery-cost-calculator  (47 hits)
+  [calculator, live] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Delivery Cost Calculator
+  [live] 989faf8b-cac3-f127-6306-f797ae33f470/Text 2 (prop)
+      Cost one day on one of your own routes, then see what a single drop costs per delivery, per case and per mile before you set a delivery minimum.
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [live] 45602f4a-4fe4-6bed-3a43-c3924775bc9a (String)
+      What is cost per delivery?
+  [live] a74247f0-bfec-d3f5-be5b-6803204907e1 (String)
+      Cost per delivery is the share of a route day that one stop uses up, whatever it carries. It comes from the day's driver, fuel and truck costs, split evenly across every drop. It is the cost a delivery minimum has to clear.
+  [calculator] a74247f0-bfec-d3f5-be5b-6803204907f4 (String)
+      The calculator splits the day evenly, but a long unload or a detour uses more of the 8 hours than a quick drop.
+  [calculator, live] 8e85d586-0c62-de8f-c141-9b5349a5d945 (String)
+      Who uses a delivery cost calculator
+  [live] 9ff09b7f-3b26-144e-2ee7-60621f6b1c85 (String)
+      Any distributor running its own trucks can use it, from a single route to a full fleet. Whoever sets the delivery minimum, quotes a new stop or cuts a route should have that figure.
+  [live] bace2930-41cf-998a-6a77-e02a86f1e893 (String)
+      Owners setting a delivery minimum
+  [account] a88f5016-c350-5709-882b-5ede9332a218 (String)
+      Sales managers weighing small accounts
+  [live] 1c37ff9d-1062-4a87-3cf9-84705d847473 (String)
+      Owners pricing delivery fees
+  [calculator, live] c2e6c342-4a56-1d85-b3ea-a4e052ccb1bc (String)
+      How to use the delivery cost calculator
+  [live] a303abc3-7d8f-f26f-40bb-74c0ec6b5f04 (String)
+      14 drops makes it $27.18 a delivery, 420 cases makes it $0.91 a case, and 120 miles makes it $3.17 a mile.
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [live] 24599529-959c-8515-3ff2-44ca6d68a0ee (String)
+      What one delivery costs before a case comes off
+  [live] 24599529-959c-8515-3ff2-44ca6d68a0f1 (String)
+      A $380.50 day across 14 drops is $27.18 a stop. That figure holds whether the drop is 10 cases or 50, which is why it is the floor a delivery charge has to clear.
+  [live] 129bd613-9d92-1e3c-fcbe-e5fdebfe413f (String)
+      The floor under a delivery minimum
+  [free, live] db7f96c9-a638-899c-3146-513ff5303d60 (String)
+      Delivery is free, we build it into the price.
+  [free] 964de5d5-3961-b811-98b9-cfb069a7e8da (String)
+      The driver hour and the truck day do not stretch for free. Eight hours and $95.00 of truck are exactly what makes a drop cost $27.18.
+  [live] ecea1d53-4cbf-95f1-06e0-23b7caf30dc4 (String)
+      Three ways to judge what a delivery costs, and which one answers the question
+  [live] 38507068-76cd-16bf-a68d-88cfde4ce2e4 (String)
+      What you need before you set a delivery minimum
+  [account] 08f09d6b-39f5-8494-530b-2762fce8a27e (String)
+      No, nobody quotes a month to an account
+  [live] 0d9d5614-82ec-176f-e117-70e0e851e392 (String)
+      Setting a delivery minimum and defending it
+  [account] 1b57d9e2-d02b-c55b-2253-8c6b4fcd9e9a (String)
+      See how VOS gives every account its own order guide
+  [email] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions builds each customer an order guide tied to your own SKUs and pricing, and captures orders 24/7, so an after-hours order is waiting when the pick list is built instead of sitting in voicemail.
+  [live] a68ebfd4-23e2-b939-0670-d77a42b014ba (String)
+      VOS does not plan routes, dispatch trucks or track deliveries. It works a step earlier. Customers order by voice in the VOS app, 24/7, and after-hours orders are in before the truck is loaded.
+  [live] 48e20342-0d10-4b06-d6fb-c493ea0ef542 (String)
+      Charge for delivery, or price it in
+  [account] 35c25617-a864-43f4-2a2f-ccf3b0ee86d6 (String)
+      Rank accounts by cases a drop
+  [live] 097d6738-a7c7-33fe-4466-3cd29c3ac081 (String)
+      Cost a redelivery properly
+  [live] 91080bb5-8166-edb4-35a5-cea8fcef3985 (String)
+      What to run after cost per delivery
+  [calculator] 7e543664-f5a0-6411-93af-9782a78eaf40 (String)
+      Open the marginal cost calculator
+  [calculator] 7e543664-f5a0-6411-93af-9782a78eaf4d (String)
+      Open the warehouse size calculator
+  [calculator] 7e543664-f5a0-6411-93af-9782a78eaf5a (String)
+      Open the landed cost calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [live] 52345dae-b7e4-1adc-46e2-7ae4df337542 (String)
+      Common questions about costing a delivery
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf960 (String)
+      How do you calculate the cost per delivery?
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf967 (String)
+      Add the driver, the fuel and the truck for one day, then divide by the stops. A $28.00 driver over 8 hours is $224.00, 120 miles at 8 mpg is $61.50 of fuel at $4.10, and the truck day is $95.00. That $380.50 across 14 drops is $27.18 a delivery.
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf96c (String)
+      Where should a delivery minimum be set?
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf973 (String)
+      Above the margin a stop has to earn, not at a round number. At $27.18 a drop, an account buying at a 20% margin has to order $135.90 of product before the stop pays for itself. Set the minimum so the smallest order on the truck still clears that.
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf978 (String)
+      Should you charge customers for delivery?
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf97f (String)
+      Either charge for it or price it in, but do it knowing the number. At $0.54 a case, a 50 case drop absorbs the stop without anyone noticing. At $2.72 a case, a 10 case drop does not, so that is where a delivery charge or a minimum belongs.
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf98b (String)
+      It takes it a case at a time. The same $27.18 stop spread over 10 cases is $2.72 a case against a $0.91 route average. If the gross margin on those cases is under $2.72, the delivery costs more than the order earns.
+  [account] 7e541655-5a68-8f96-1273-8249a5c759b6 (String)
+      Should you drop an account that orders too little?
+  [account] 7e541655-5a68-8f96-1273-8249a5c759bd (String)
+      Change the frequency or the minimum before you drop it. An account taking a stop every week at 10 cases can take one every other week at 20 cases, and the route cost falls from $2.72 a case to $1.36 with the same volume sold.
+  [live] 4446ea80-4c7a-f2a8-f0de-0a222818c948 (String)
+      How do you count the truck's fixed cost in a delivery cost?
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf990 (String)
+      What is the cost per case on a delivery route?
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== food-markup-calculator  (16 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Food Markup Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [calculator] ce40d8e1-6a1a-5090-d98e-5145ecb68129 (String)
+      Who uses a food markup calculator
+  [calculator] 9e6608d9-5bc7-f6f5-e880-3c1c8458d824 (String)
+      How to use the food markup calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [as you type, recalculat] 129bd613-9d92-1e3c-fcbe-e5fdebfe4145 (String)
+      Recalculates as you type
+  [account] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions digitizes, confirms and timestamps every order it takes before transmitting it. The item and the quantity an account asked for are then what your cut room reads.
+  [email, form, live] b9a34736-2aa2-a356-aeda-f615f3f10ec0 (String)
+      Delivered by email, EDI or API, in the format you use
+  [live] b9a34736-2aa2-a356-aeda-f615f3f10ec6 (String)
+      Most distributors are live in 24 to 48 hours
+  [calculator, free] 474f1684-6d1c-a992-9e47-6076e8b9896a (String)
+      The yield price takes care of the trim. These free calculators take care of shrink, pack sizes and the pricing rule itself.
+  [calculator] 474f1684-6d1c-a992-9e47-6076e8b98979 (String)
+      Open the material markup calculator
+  [calculator] 474f1684-6d1c-a992-9e47-6076e8b98986 (String)
+      Open the unit price calculator
+  [calculator] 474f1684-6d1c-a992-9e47-6076e8b98993 (String)
+      Open the product pricing calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions keeps personalized order guides tied to your current pricing and SKUs, so the $2.08 a usable lb you worked out is the price an account orders against.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== inventory-turnover-calculator  (38 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Inventory Turnover Ratio Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [calculator] 58224624-577f-04af-a329-979daf5db3e9 (String)
+      Inventory turnover counts how many times a year the stock on your floor is sold and bought again. It measures the speed of the shelf, not the size of it. At this calculator's defaults, the shelf empties and refills 12.0 times a year.
+  [account] 10ff3b4b-953d-cf55-3ec6-9470c65aeff8 (String)
+      Lines held for one account
+  [calculator] 9aae30f4-1376-90ad-23e7-467452db9339 (String)
+      Who uses an inventory turnover ratio calculator
+  [free] 4fc0f921-430f-db46-5f2f-2df05d663bbc (String)
+      Owners freeing cash from stock
+  [calculator] 6da8eaff-227c-863f-485c-289d585a79b9 (String)
+      How to use the inventory turnover calculator
+  [enter your] c58ab9a2-b6dd-8a26-0cf0-3816cd93381c (String)
+      Enter your average inventory
+  [calculator, free] a303abc3-7d8f-f26f-40bb-74c0ec6b5f04 (String)
+      Trim five days and the calculator shows $21,699 freed and $5,425 a year saved. That is the size of the prize before you change anything.
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [live] 8c148c5a-5883-9b4b-9229-358da23fdeb9 (String)
+      Flags stock that outlives its shelf life
+  [update] 8b079726-3463-6044-f4e9-f838b3bfb135 (String)
+      Updates as your inventory moves
+  [free] 2af8f313-e356-7eea-3f46-cef1a39df93e (String)
+      Your daily cost of goods is $4,340, so five days of stock is $21,699. Free it and you also stop paying $5,425 a year to carry it.
+  [account] 964de5d5-3961-b811-98b9-cfb069a7e8d3 (String)
+      Turning 12.0 times a year means a case sits about 30 days. Every one of those days is cash you cannot spend on the accounts you are trying to win.
+  [free] 37b58628-5e21-7c67-2967-24e3b5a7a1be (String)
+      Frees cash you can actually use
+  [account] 37b58628-5e21-7c67-2967-24e3b5a7a210 (String)
+      Scales as you add accounts
+  [account] 08f09d6b-39f5-8494-530b-2762fce8a27e (String)
+      Costs more with every account
+  [account] 4645a5fa-b1c5-9755-9dfd-399d6c31fb58 (String)
+      Needs you to know what accounts will order
+  [account] ce9a8dd2-5aea-6c74-fe2d-a05cf2535627 (String)
+      Knowing what your accounts order, and when, is what lets you hold less without missing.
+  [account, live] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions shows live inventory against the catalog your accounts order from, and every order arrives digitized, numbered and timestamped.
+  [account] 17545dc8-6341-e98b-bd66-a2611851d05e (String)
+      Every turn starts with an account's order
+  [free] 4a53b61c-659c-d34a-f579-cbb662e7d6e9 (String)
+      Sales reps freed to sell instead of taking orders
+  [email] 4a53b61c-659c-d34a-f579-cbb662e7d6ef (String)
+      Orders reach you by email, EDI or API
+  [account, form] 4a53b61c-659c-d34a-f579-cbb662e7d6f5 (String)
+      Order history per account in one admin platform
+  [account] 4a53b61c-659c-d34a-f579-cbb662e7d6fb (String)
+      Promos and confirmations reach accounts by notification and text
+  [free] 3c82d1f7-6fe9-24d4-5b13-83cce4b7e8f5 (String)
+      Put the freed cash to work
+  [calculator, free] dd2ddcd7-bb5c-16f7-de83-aa2325a30b8d (String)
+      Turns show how fast the shelf moves. These free calculators price the holding, follow the cash to collection, and set when to reorder.
+  [calculator] dd2ddcd7-bb5c-16f7-de83-aa2325a30b9c (String)
+      Open the inventory carrying cost calculator
+  [account] dd2ddcd7-bb5c-16f7-de83-aa2325a30ba5 (String)
+      Check how fast accounts pay, how many days past terms they really run, and what financing that delay costs.
+  [account, calculator] dd2ddcd7-bb5c-16f7-de83-aa2325a30ba9 (String)
+      Open the accounts receivable turnover calculator
+  [calculator] dd2ddcd7-bb5c-16f7-de83-aa2325a30bb6 (String)
+      Open the reorder point calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [form] cb55ed2c-634b-b694-87d5-a43e7e3cf96c (String)
+      What is the turnover ratio formula?
+  [calculator] 4446ea80-4c7a-f2a8-f0de-0a222818c94f (String)
+      Capital, space, insurance, spoilage and obsolescence. The 25% in the field is only a placeholder. Build the rate from your own five lines, as the inventory carrying cost calculator does, and it comes to 27%. The same $132,000 then costs $35,640 a year, not $33,000.
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf990 (String)
+      How is this different from accounts receivable turnover?
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf997 (String)
+      Inventory turnover measures how fast stock leaves the warehouse. Accounts receivable turnover measures how fast customers pay you for it. Both park cash, in different places.
+  [live] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions keeps inventory visible against live order activity, every app order arrives digitized and confirmed, and most distributors are live in 24 to 48 hours.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== marginal-cost-calculator  (35 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Marginal Cost Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [live] d63f5253-01a3-a43c-00b4-82ba904fa73b (String)
+      Marginal cost is what one more case costs you to buy, pick and deliver. You find it by dividing the change in total cost by the change in cases. For a distributor, that includes any truck or route the new volume adds.
+  [calculator] d63f5253-01a3-a43c-00b4-82ba904fa746 (String)
+      The costs that rise with every case you ship: product, picking labor and fuel per drop. In the calculator's example, that is $18.00 a case.
+  [account] d63f5253-01a3-a43c-00b4-82ba904fa74e (String)
+      Rent, insurance and office pay you already carry at today's volume. They stay put when one more account comes on, so the next case does not pay for them.
+  [calculator] 1e34f1e5-a419-d29f-3205-c94ac47b7d8d (String)
+      Who uses a marginal cost calculator
+  [account] 1e34f1e5-a419-d29f-3205-c94ac47b7d91 (String)
+      It is built for independent food distributors who run their own trucks. Anyone who prices volume, quotes an account or plans a route should run it before saying yes.
+  [account] 1e34f1e5-a419-d29f-3205-c94ac47b7d97 (String)
+      Owners pricing a new account
+  [account] 1e34f1e5-a419-d29f-3205-c94ac47b7dba (String)
+      Controllers checking thin accounts
+  [calculator] 8b920458-b720-c044-e88d-44dd343fb5e5 (String)
+      How to use the marginal cost calculator
+  [enter your] 8a019ac0-f4af-bfa5-0ed6-601ae9a66cbc (String)
+      Enter your operation today
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [account] 24599529-959c-8515-3ff2-44ca6d68a0f1 (String)
+      Your average spreads fixed costs over the volume you already move. The marginal cost counts only what the next case adds, so it is the number a new account has to clear.
+  [calculator] 8c148c5a-5883-9b4b-9229-358da23fdea6 (String)
+      A second truck carries its cost from the first day. The calculator turns that into a case count, so you know how much volume the route needs before it pays.
+  [calculator] 8b079726-3463-6044-f4e9-f838b3bfb11c (String)
+      Volume that looks good per case can still shrink profit once a step cost lands. The calculator shows profit before and after, so the decision is a number.
+  [account] 2af8f313-e356-7eea-3f46-cef1a39df945 (String)
+      A floor per account, not per company
+  [account] f79f7e46-f342-16c8-4e49-225294a28adf (String)
+      Count only volume you would not ship anyway. An account that moves its Tuesday order to Friday adds no cases.
+  [account] 37b58628-5e21-7c67-2967-24e3b5a7a1be (String)
+      Knows the floor a new account must clear
+  [account] 37b58628-5e21-7c67-2967-24e3b5a7a21a (String)
+      Repeatable across accounts and reps
+  [account] 7cbc564b-8508-7025-4a0b-1dcd66224eb6 (String)
+      See how VOS keeps order entry flat as you add accounts
+  [form] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions captures your customers' orders 24/7 and sends them to your system in your format.
+  [form] fcce3542-2ef0-2969-c150-f3624ad49660 (String)
+      VOS does not calculate your costs. It changes one input: the time your team spends taking each order. Your customers order by voice in the VOS app, and each order reaches you confirmed, in the format you already use.
+  [account] fcce3542-2ef0-2969-c150-f3624ad49673 (String)
+      Order history per account to check your case counts
+  [live] fcce3542-2ef0-2969-c150-f3624ad49679 (String)
+      Most distributors are live in 24 to 48 hours
+  [account] 9c0d2fb3-8d32-f18a-45e3-7643f92b12d3 (String)
+      Set a floor per account
+  [account] a44b1f91-1918-1d8a-16b5-16b4689e18c5 (String)
+      Review your thinnest accounts
+  [calculator, free] fd5ea763-d61d-9791-45da-0b1aa26dd08d (String)
+      Marginal cost gives you the floor. These free calculators answer the next three questions a pricing decision raises.
+  [calculator] fd5ea763-d61d-9791-45da-0b1aa26dd09c (String)
+      Open the pricing calculator
+  [calculator] fd5ea763-d61d-9791-45da-0b1aa26dd0a9 (String)
+      Open the price change calculator
+  [account] fd5ea763-d61d-9791-45da-0b1aa26dd0b2 (String)
+      Break a route into cost per drop and per case, then check whether a new account's drop size covers the stop.
+  [calculator, live] fd5ea763-d61d-9791-45da-0b1aa26dd0b6 (String)
+      Open the delivery cost calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf98b (String)
+      It sets the floor for new volume. As long as the price clears the marginal cost and covers any new route, the account makes you money, even when the price sits below your average cost.
+  [account, form] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions captures your customers' orders 24/7 and sends them straight to your system in your format, so the accounts you win do not bury your team in typing.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== material-markup-calculator  (21 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Material Markup Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account] 50aa35cd-aee6-38db-4684-1bfd197eadaf (String)
+      The $1.40 to bring a case in is part of its cost. The truck that takes it to your account is a cost to serve, and it comes out of margin.
+  [calculator] 0bd0b44e-6c7d-b0aa-b838-5e476a66c298 (String)
+      Who uses a material markup calculator
+  [live] 4d255090-26a1-703e-1ec2-beed3454feef (String)
+      Buyers comparing delivered supplier prices
+  [calculator] 4df5dec3-4470-4bb9-9c5e-32ec0deaada1 (String)
+      How to use the material markup calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [update] 129bd613-9d92-1e3c-fcbe-e5fdebfe4145 (String)
+      Updates as any input moves
+  [account] 37b58628-5e21-7c67-2967-24e3b5a7a1c8 (String)
+      Accounts for shrink
+  [recalculat] ce2a1054-461c-819d-1835-f7ae0314dd22 (String)
+      No, nobody recalculates
+  [live] 0d9d5614-82ec-176f-e117-70e0e851e392 (String)
+      Every case you buy, store and deliver
+  [live] 0f460525-d517-2fa3-f403-48d0791a818b (String)
+      Nothing you deliver yourself
+  [update] c3f3f125-1a3a-df21-12e1-8aa0c50c0a3b (String)
+      Catalog updates as stock changes, for fewer stockout surprises
+  [email] c3f3f125-1a3a-df21-12e1-8aa0c50c0a41 (String)
+      Sent by email as PDF, Excel or Word, or by EDI or API
+  [calculator, free] eadb9345-c69b-b435-fb88-3d3bda973a99 (String)
+      Material markup turns a landed cost into a price. These free calculators check the cost going in and the margin coming out.
+  [calculator] eadb9345-c69b-b435-fb88-3d3bda973aa8 (String)
+      Open the landed cost calculator
+  [calculator] eadb9345-c69b-b435-fb88-3d3bda973ab5 (String)
+      Open the wholesale markup calculator
+  [calculator] eadb9345-c69b-b435-fb88-3d3bda973ac2 (String)
+      Open the product markup calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf997 (String)
+      Margin. It is the number that appears in your accounts, and it cannot be misread. Convert to a markup once, write it down, and have every rep use the same one.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== par-level-calculator  (36 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Par Level Calculator
+  [live] 989faf8b-cac3-f127-6306-f797ae33f470/Text 2 (prop)
+      Work out the level you top each line back up to between deliveries, and see what every buffer day of cover ties up in cash.
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [live] e5947883-7553-bd07-0d9e-b7a740449e77 (String)
+      The whole gap between two deliveries, plus your reserve. That is why par should look high on delivery day: it has to last until the next truck.
+  [live] e5947883-7553-bd07-0d9e-b7a740449e87 (String)
+      The $23,760 at par is the most the line holds, on delivery day. Across the cycle the floor averages well below it, and that average is what carrying costs run on.
+  [calculator] e9cec404-581c-a991-ef17-10f2972e732e (String)
+      Who uses a par level calculator
+  [live] 65760273-35d1-a316-632e-d288d349585c (String)
+      Whoever restocks a distributor's warehouse on a regular supplier delivery cycle uses it to set par, one line at a time. Anyone who sizes the next top up order, or answers for the cash it ties up, should run it.
+  [calculator] 5e780841-7ae7-0121-8032-95b096aa0d4f (String)
+      How to use the par level calculator
+  [enter your, live] aab2e532-b214-5b52-a169-59996bacd88f (String)
+      Enter your usage and your delivery cycle
+  [live] a303abc3-7d8f-f26f-40bb-74c0ec6b5eda (String)
+      120 cases a day across 7 days between deliveries is 840 cases of bare cover. A twice weekly DSD route is 3 days, not 7.
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [live] 24599529-959c-8515-3ff2-44ca6d68a0f1 (String)
+      120 cases a day across 7 days between deliveries plus a 2 day buffer puts par at 1,080 cases, which is 9.0 days of cover.
+  [as you type, recalculat] 129bd613-9d92-1e3c-fcbe-e5fdebfe4145 (String)
+      Recalculates as you type
+  [free] 2af8f313-e356-7eea-3f46-cef1a39df93e (String)
+      Drop from 2 days of buffer to 1 and par falls to 960 cases, $21,120 of stock, freeing $2,640. That is the price of a day of cover on this line.
+  [free] 2af8f313-e356-7eea-3f46-cef1a39df957 (String)
+      Turns green when the change frees cash
+  [live] 37b58628-5e21-7c67-2967-24e3b5a7a179 (String)
+      Same 120 cases a day, same 7 days between deliveries, same $22.00 case. These are the three ways the order actually gets sized.
+  [live] 37b58628-5e21-7c67-2967-24e3b5a7a1c8 (String)
+      Moves with your delivery cycle
+  [form] b1f1a02d-1126-5fc3-d0e9-a08845da64ec (String)
+      Three of these six sit inside the par level formula. The other three decide whether the level survives contact with the warehouse.
+  [live] 85c34147-4d79-18c3-3b9a-717a48daef35 (String)
+      The days between deliveries
+  [account] 7bbeccd7-8104-415c-1a64-593884f5b813 (String)
+      VOS does not set par levels, count your stock or buy from your suppliers. Par is set line by line, and that is how orders reach you. Each account orders by voice in the VOS app, from a guide tied to your SKUs.
+  [account] 7bbeccd7-8104-415c-1a64-593884f5b81a (String)
+      Each account's guide carries the prices you set
+  [update] 7bbeccd7-8104-415c-1a64-593884f5b820 (String)
+      Catalog updates as stock levels change
+  [form] 7bbeccd7-8104-415c-1a64-593884f5b826 (String)
+      Orders arrive confirmed, in the format you use
+  [live] fd00ab60-972f-14ea-2c5f-32bb5954fb3e (String)
+      Use the delivery cycle you really get
+  [calculator, free] cf7f75ca-d90a-63ba-c432-76bcff8f9ba5 (String)
+      Par says how far to top up. These free calculators answer when the order goes in, how big the reserve should be, and what holding it all costs.
+  [calculator] cf7f75ca-d90a-63ba-c432-76bcff8f9bb4 (String)
+      Open the reorder point calculator
+  [calculator] cf7f75ca-d90a-63ba-c432-76bcff8f9bc1 (String)
+      Open the safety stock calculator
+  [calculator] cf7f75ca-d90a-63ba-c432-76bcff8f9bce (String)
+      Open the inventory carrying cost calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf967 (String)
+      Par is also called the order-up-to level or the max level. Whatever the name, it is the stock a line should hold right after a delivery lands: 1,080 cases on these defaults.
+  [form] cb55ed2c-634b-b694-87d5-a43e7e3cf96c (String)
+      What is the par level formula?
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf973 (String)
+      Average daily usage times the days you have to cover, where those days are your delivery cycle plus your buffer. Here that is 120 x 9, so 1,080 cases. The par level calculation rounds up to whole cases, and today's order is par less whatever the count says is on the floor.
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf97f (String)
+      A par level answers how much, and a reorder point answers when. Par here is 1,080 cases, the level the next delivery brings this line back to. A reorder point is a level on the way down that says place the order now. On a line that matters you want both numbers, and they are two separate calculations.
+  [calculator] 4446ea80-4c7a-f2a8-f0de-0a222818c94f (String)
+      Subtract today's count from par. 1,080 par less 340 cases on hand is a 740 case order, $16,280 at $22.00 a case. If the count comes in over par, the calculator names how many cases you are carrying above the level instead of sizing an order.
+  [live] cb55ed2c-634b-b694-87d5-a43e7e3cf997 (String)
+      Whenever usage or the delivery cycle moves, and on a quarterly sweep otherwise. Going from a weekly drop to a 3 day route takes this par level from 1,080 cases to 600 and the cash at par from $23,760 to $13,200. A par level definition set last spring is still priced at last spring's case cost.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== price-change-calculator  (32 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Price Change Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account, live] 57802722-5382-236a-2d04-701d53d33682 (String)
+      The breakeven treats the $22.00 product cost as your only cost per case. Lose cases at an account and the truck still stops there, so each remaining case costs more to deliver.
+  [account] 57802722-5382-236a-2d04-701d53d3368a (String)
+      An account can answer a raise by switching to a cheaper line you also carry. Its total cases hold steady, so the loss hides unless you check the item itself.
+  [account] c625d8fe-b304-6c20-ba05-783427cb3829 (String)
+      Contract accounts sit outside it
+  [account] 57802722-5382-236a-2d04-701d53d33692 (String)
+      An account on a fixed price term or a cost-plus contract cannot take a 5% list move mid-term. Run the breakeven on the volume you can actually reprice.
+  [calculator] a369a44a-d71d-4fbd-2d1c-96e881e46c45 (String)
+      Who uses a price change calculator
+  [calculator] 3e08a722-daf2-e56b-0397-ae56dccca6f0 (String)
+      How to use the price change calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [account] f3e14e86-dcf4-bd57-a190-d0232a2e12e9 (String)
+      The price accounts actually pay
+  [account] c7734111-97db-5ccc-17a8-2f26ea072b9d (String)
+      We cannot raise prices, we will lose the account.
+  [account] 5368ca22-de87-9362-819f-9733489b5a70 (String)
+      15.8% is what you can afford to lose. Whether you actually will is an account question, not a math one.
+  [account] 44c92509-31f0-75f3-6d6e-44cb0f2e2629 (String)
+      Account mix
+  [account] 2c2a3a16-db59-17d3-b73d-6e46b13b91ab (String)
+      The same 5% lands differently on an account buying 40 lines and one buying 3. Rank them before you move.
+  [live] 93054808-d473-e38c-01ae-97bf6b224f51 (String)
+      Where the price lives
+  [account] 4b2ee948-cf11-2e66-d300-86919fcbf023 (String)
+      See which accounts kept ordering
+  [account, form] c1f2fed8-cb94-6cd6-65f0-d5eb5837aa97 (String)
+      VOS does not set prices or work out the breakeven. It helps with the check that comes after. Orders from the VOS app build each account's order history, which you see in one admin platform.
+  [account] c1f2fed8-cb94-6cd6-65f0-d5eb5837aa9e (String)
+      Order history per account, to check volume after a move
+  [account] c1f2fed8-cb94-6cd6-65f0-d5eb5837aaa4 (String)
+      Each account's guide carries the prices you set
+  [live] c1f2fed8-cb94-6cd6-65f0-d5eb5837aab0 (String)
+      Most distributors are live in 24 to 48 hours
+  [account] ba5c4ed1-0466-787a-5ac1-111cec36f49a (String)
+      Watch your thinnest accounts
+  [calculator, free] 5be3f14e-566c-dcae-c831-65bd0e907bd5 (String)
+      The breakeven says whether a move can pay. These three free calculators help you decide where the price should sit.
+  [calculator] 5be3f14e-566c-dcae-c831-65bd0e907be4 (String)
+      Open the pricing calculator
+  [live] 5be3f14e-566c-dcae-c831-65bd0e907bed (String)
+      Learn what each extra case costs you to buy, pick and deliver, so a price cut has a floor to stop at.
+  [calculator] 5be3f14e-566c-dcae-c831-65bd0e907bf1 (String)
+      Open the marginal cost calculator
+  [calculator] 5be3f14e-566c-dcae-c831-65bd0e907bfe (String)
+      Open the wholesale markup calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf967 (String)
+      More than most people expect. On a $30.00 case costing $22.00, a 5% increase lets you lose 15.8% of the volume and still match today's profit. That is the number to weigh an account's reaction against, rather than deciding on instinct.
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf990 (String)
+      How do you explain a price increase to an account?
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf997 (String)
+      With the reason, the date and the number, in writing, before the invoice shows it. Say whether the move follows a cost increase or not. An account that hears it from a rep first argues less than one that finds it on a statement.
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions puts your current pricing in front of every account at order time, so the price you approved is the price that gets ordered.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== landed-cost-calculator  (27 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Landed Cost Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [calculator] a3a13533-d374-bc2a-eade-d98977377f8d (String)
+      Who uses a landed cost calculator
+  [calculator] 50c0dcf7-5e56-6533-53a1-4d5258794195 (String)
+      How to use the landed cost calculator
+  [live] a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3 (String)
+      Freight takes those cases to $25.40, $47.10 and $20.20. A drop fee or a delivery minimum belongs in the same box, split down to the case.
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [as you type, re-rank] 8c148c5a-5883-9b4b-9229-358da23fdebf (String)
+      Re-ranks as you type
+  [re-rank] 2af8f313-e356-7eea-3f46-cef1a39df945 (String)
+      Re-ranks on a pack change
+  [live] ce9a8dd2-5aea-6c74-fe2d-a05cf2535627 (String)
+      A supplier you take two cases from charges to deliver them. Put that fee in the freight box or the offer reads cheaper than it bills.
+  [account] 458fcf8e-5c98-2915-581f-0d6dcd51482a (String)
+      The winning offer only pays off if your own order guides and prices carry the new pack, on every account, from the day you switch.
+  [update] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions gives visibility across your full catalog, updated as stock levels change. You get fewer stockout surprises when a switch to a 24 unit case changes how fast a line moves.
+  [account] afb61baf-a108-dca0-f001-066125fefa93 (String)
+      Your units a month start with what accounts order
+  [account] 463e91fc-280d-64f9-a1c0-633e109172e0 (String)
+      VOS does not compare supplier quotes or buy stock. The units a month you enter come from what your accounts order, and that is the side it works on. Each order placed in the VOS app arrives with a number, a date and a timestamp.
+  [account, form] 463e91fc-280d-64f9-a1c0-633e109172e7 (String)
+      Order history per account in one admin platform
+  [real-time] 463e91fc-280d-64f9-a1c0-633e109172ed (String)
+      Real-time inventory visibility tied to order activity
+  [calculator, free] a46337c5-b14f-769e-d3c1-0d4b64144c72 (String)
+      Landed cost picks the offer. These three free calculators check the pack, the saving and the price you sell at.
+  [calculator] a46337c5-b14f-769e-d3c1-0d4b64144c81 (String)
+      Open the unit price calculator
+  [calculator] a46337c5-b14f-769e-d3c1-0d4b64144c8e (String)
+      Open the procurement savings calculator
+  [calculator] a46337c5-b14f-769e-d3c1-0d4b64144c9b (String)
+      Open the material markup calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [calculator, live] cb55ed2c-634b-b694-87d5-a43e7e3cf97f (String)
+      A full landed cost can carry freight, handling, storage, insurance and, on an import, duties and brokerage. This calculator covers the one that decides most domestic supplier comparisons, freight per case, and it does not calculate duties, tariffs or customs. Put any drop fee or delivery minimum in the freight box and the three offers stay comparable.
+  [live] 7e541655-5a68-8f96-1273-8249a5c759bd (String)
+      FOB tells you where the freight stops being the supplier's problem. FOB destination means delivery is already in the case price, and FOB origin means you are paying it on top. Read that line first, because it decides whether an offer needs $1.20 or $2.10 added before you compare it.
+  [live] 4446ea80-4c7a-f2a8-f0de-0a222818c94f (String)
+      Standard cost is the price you planned against and budget off. Landed cost is what the case really costs you delivered, which can drift the moment freight or a pack count changes. Compare offers on landed cost, then check the winner against your standard so the variance does not surprise you later.
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf997 (String)
+      Freight into your warehouse belongs in what the goods are worth, so your accountant will want it there rather than in overhead. The practical reason to track it is the choice in front of you: at $0.16 a unit, the gap between the best and dearest offer here is $960 a month and $11,520 a year.
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Title (prop)
+      Make the item you chose the one your accounts order
+  [account, email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions gives each account a personalized order guide built from your own SKUs and pricing, so a price change reaches every account's guide instead of sitting in an email.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== purchase-price-variance-calculator  (24 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Purchase Price Variance Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [live] 7686803a-798f-1821-e1b2-c90fec1b064d (String)
+      Start with the lines you buy most. A 1.8% gap on a slow item is small change. The same gap on your busiest line repeats on every delivery.
+  [calculator] 57402e8f-0c5a-eb39-cc3a-997f43612475 (String)
+      Who uses a purchase price variance calculator
+  [live] 8170d4a9-7791-bf7f-a36c-950b61d40d39 (String)
+      Receiving clerks checking deliveries
+  [account] 7d635c9e-839d-7b97-651c-3b9b4971071a (String)
+      Accounts payable approving invoices
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [account] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions numbers, dates and timestamps every order placed in it. The volume your accounts ordered is then a dated record, which is where a 6,000 case month should start.
+  [form] 9d1ac7fb-6734-e13d-2209-b29ed6a89796 (String)
+      Order Formats
+  [form] d9d33478-8948-9937-d0a8-b7659eb9b241 (String)
+      Customer orders arrive in a format you already use
+  [email] 9d1ac7fb-6734-e13d-2209-b29ed6a897a5 (String)
+      VOS does not read supplier invoices or calculate variance. It covers the same items on the way out, as customer orders. Each one placed in the VOS app reaches you by email, EDI, API or QuickBooks.
+  [email] 9d1ac7fb-6734-e13d-2209-b29ed6a897ac (String)
+      PDF, Excel or Word by email to a rep or purchasing team
+  [account] 9d1ac7fb-6734-e13d-2209-b29ed6a897b2 (String)
+      Each account orders at the prices you set
+  [form, update] 9d1ac7fb-6734-e13d-2209-b29ed6a897b8 (String)
+      Guide prices updated from one admin platform
+  [calculator, free] ba2e353b-78d9-acaf-2db8-8584d0f95eb0 (String)
+      The variance tells you what a price cost you. These three free calculators look at savings, freight and the terms you pay on.
+  [calculator] ba2e353b-78d9-acaf-2db8-8584d0f95ebf (String)
+      Open the procurement savings calculator
+  [calculator] ba2e353b-78d9-acaf-2db8-8584d0f95ecc (String)
+      Open the landed cost calculator
+  [calculator] ba2e353b-78d9-acaf-2db8-8584d0f95ed9 (String)
+      Open the early payment discount calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [form] cb55ed2c-634b-b694-87d5-a43e7e3cf984 (String)
+      What is the formula for price variance?
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf98b (String)
+      Price variance is actual price less standard price, times the quantity you bought, which accounting also calls the material price variance. $0.40 times 6,000 cases is $2,400. This is the cost accounting kind of variance, not the statistical kind, so nothing here gets averaged or squared.
+  [form] 7e541655-5a68-8f96-1273-8249a5c759b6 (String)
+      What is the formula for PPV?
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions keeps personalized order guides tied to your current pricing, so a $0.40 cost increase reaches every account's guide instead of waiting on a spreadsheet.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== procurement-savings-calculator  (34 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Procurement Savings Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account] 9fb957a6-00aa-7b4c-cd45-cfac124ba53d (String)
+      What the accounts will show, against a 9.0% claim
+  [free] 76eafa4c-e0ac-76f1-4327-bffee27c610e (String)
+      Rebates, terms and free goods sit apart
+  [free] 9d695194-cbfe-13d0-32bd-4a74fdc02d16 (String)
+      Rebates paid back later, better payment terms and free goods. Each can be worth real money, but each belongs on its own line, not in the case price.
+  [account] 9d695194-cbfe-13d0-32bd-4a74fdc02d1e (String)
+      You resell what you buy. If the $1.44 a case goes straight into lower sell prices, your accounts keep the saving and your margin stays put.
+  [calculator] e6a3d0b7-ea6b-ccf8-c9ed-9ba34e293998 (String)
+      Who uses a procurement savings calculator
+  [results] f6a7d64b-3fa3-5ea1-b55b-f63dcea142e2 (String)
+      Owners checking a buyer's results
+  [live] 1567a556-157d-8e47-b6d0-8b864ee262ea (String)
+      Purchasing teams checking delivered prices
+  [results] da5985c1-148a-4d84-b4c4-eb8b2756cf49 (String)
+      Managers comparing two buyers' results
+  [calculator] d4aba60a-88bd-00a6-d73f-c974e8f7f4ab (String)
+      How to use the procurement savings calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [account] 8c148c5a-5883-9b4b-9229-358da23fdea6 (String)
+      A 3% increase you kept off the table would have put the case at $24.72. Blocking it is worth $0.72 a case and $51,840 a year, and nothing in the accounts will show it.
+  [calculator] 9a5ee337-7c4d-daef-8eec-404c54884974 (String)
+      The calculator assumes the new price ran all year. If the deal started partway through, enter only the cases bought since, not the full 72,000.
+  [account] 964de5d5-3961-b811-98b9-cfb069a7e8cc (String)
+      Only $103,680 of that reaches the P&L. The other $51,840 is an increase you kept off the table, and no account will ever show it.
+  [account] 964de5d5-3961-b811-98b9-cfb069a7e8da (String)
+      9.0% is hard savings plus avoidance. The accounts will show 6.0%, so name both lines or the next claim gets discounted before anyone reads it.
+  [account] 08f09d6b-39f5-8494-530b-2762fce8a27e (String)
+      No, 9.0% cannot be found in the accounts
+  [update] 164d8d25-3191-52a2-954c-1ec0e16807f0 (String)
+      Only if somebody updates the volume
+  [live] 2c2a3a16-db59-17d3-b73d-6e46b13b91ab (String)
+      The saving lives on the agreement until an invoice shows $22.56. Check a month of invoices before $103,680 goes into anybody's deck.
+  [account] a4d3f608-2191-bf4d-ad1f-968dd3fc888f (String)
+      See how VOS makes your accounts' order volume countable
+  [account] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions captures orders 24/7 and queues the ones that arrive after hours. Each account orders from its own order guide, so a year of orders is a record rather than an estimate.
+  [account, form, update] 2da9766d-0e45-a24f-48b2-996706602f00 (String)
+      VOS does not measure savings or deal with your suppliers. It comes in after the deal: each account orders from its own guide, at the prices you set. When a deal changes a sell price, you update the guides in the VOS admin platform.
+  [account, form, update] 2da9766d-0e45-a24f-48b2-996706602f0d (String)
+      Guides and accounts updated in one admin platform
+  [account] 2da9766d-0e45-a24f-48b2-996706602f13 (String)
+      Order history per account, showing who ordered when
+  [account] 2da9766d-0e45-a24f-48b2-996706602f19 (String)
+      Promos and confirmations reach accounts by notification and text
+  [live] 4e065caf-471b-6558-74ee-a7ed99eab5a6 (String)
+      A savings claim lives or dies on its baseline. These nine habits are what keep yours standing.
+  [live] b1ec5a1b-cda3-6dee-9887-e4566cb04249 (String)
+      A saving is one number from one negotiation. These three check the invoice, the delivered cost and the payment terms behind it.
+  [calculator] b1ec5a1b-cda3-6dee-9887-e4566cb04258 (String)
+      Open the price variance calculator
+  [calculator] b1ec5a1b-cda3-6dee-9887-e4566cb04265 (String)
+      Open the landed cost calculator
+  [calculator] b1ec5a1b-cda3-6dee-9887-e4566cb04272 (String)
+      Open the early payment discount calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf967 (String)
+      Two of them matter. Hard savings change what you pay, so $24.00 down to $22.56 takes $103,680 a year out of spend. Cost avoidance changes what you would have paid, so a 3% increase you blocked is worth $51,840 and never reaches an account. Report them on separate lines.
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf997 (String)
+      Because only hard savings move the accounts. Baseline spend of $1,728,000 becomes $1,624,320, so the $103,680 is findable. The $51,840 of avoidance never reached an invoice, which is why one combined $155,520 total looks wrong the moment anyone checks it.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== product-markup-calculator  (23 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Product Markup Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [calculator] 0dd2c2b2-dc7e-e8d7-646d-7c8bc45b68c1 (String)
+      Who uses a product markup calculator
+  [calculator] a9e8c225-6187-4608-c9b0-116a26e66e46 (String)
+      How to use the product markup calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [as you type, recalculat] 8c148c5a-5883-9b4b-9229-358da23fdebf (String)
+      Recalculates as you type
+  [live] b2cd3559-eb61-7d51-0a84-a506dfd22482 (String)
+      The 30% target is gross margin, before delivery, sales pay and rent. Type the net margin you hope to keep and the markup comes out far too low.
+  [account] 7f31d426-6e4c-5e28-f4c7-2ff82a21df78 (String)
+      An account you have already decided to keep
+  [live] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions automates order intake, so no rep re-keys a phone order, and it captures orders placed after hours. A repriced case is then live on the next order, not waiting on a callback.
+  [account, form] 8558ce73-7581-3b66-592e-14c1e614e73a (String)
+      VOS does not calculate markups or set prices. It touches one input, the case count behind your monthly gross profit. Every order a customer speaks into the VOS app is saved to that account's history, in one admin platform.
+  [update] 8558ce73-7581-3b66-592e-14c1e614e747 (String)
+      Order guides updated in the same place when a price moves
+  [account] 8558ce73-7581-3b66-592e-14c1e614e74d (String)
+      Each account orders at the prices you set, tied to your SKUs
+  [account] a69894ed-85d7-c62c-27ba-ae619edf0d1d (String)
+      Keep one current guide per account
+  [calculator, free] dfc38588-c157-6d6a-a05b-db6833f6cb40 (String)
+      A markup rung prices one case from one cost. These free calculators test it against other rules, against the shelf and across your whole book.
+  [calculator] dfc38588-c157-6d6a-a05b-db6833f6cb4f (String)
+      Open the product pricing calculator
+  [calculator] dfc38588-c157-6d6a-a05b-db6833f6cb5c (String)
+      Open the retail margin calculator
+  [calculator] dfc38588-c157-6d6a-a05b-db6833f6cb69 (String)
+      Open the wholesale markup calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [calculator] cb55ed2c-634b-b694-87d5-a43e7e3cf973 (String)
+      Set the target in margin, then price in markup. Margin is the share of the price you keep, so 30% of a $31.43 case is $9.43. Type the margin you need and the calculator prints the markup, 42.9% here, so nobody converts by hand.
+  [calculator] cb55ed2c-634b-b694-87d5-a43e7e3cf98b (String)
+      The price is $140.00. The markup adds $40.00 to the $100.00 cost, and that $40.00 is a 28.6% margin on the $140.00 price. Type a $100.00 cost into the calculator and the 40% rung reads exactly that.
+  [live] 4446ea80-4c7a-f2a8-f0de-0a222818c94f (String)
+      On a $22.00 case a 30% markup prices at $28.60 and keeps 23.1%, which is thin once shrink and delivery come out of it. Name the margin you need first, then read the markup off the ladder. A 30% margin on that case takes 42.9%.
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions builds each account an order guide tied to your own pricing and SKUs, so a $22.00 case is not ordered at last quarter's price under a markup you have already moved.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== product-pricing-calculator  (26 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Product Pricing Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account] 3449b26d-ab3c-d28a-3762-ccfea99c6a11 (String)
+      Product pricing is choosing what a case sells for. The price has to clear what the case costs you and stay close to what the account could pay elsewhere. For a distributor, a pricing rule decides where in that range each case lands.
+  [calculator] 3449b26d-ab3c-d28a-3762-ccfea99c6a1c (String)
+      Nothing sells below landed cost for long. In the calculator's example the floor is $22.00 a case, and every rule's margin is measured from it.
+  [account] 9faef916-cf6d-3b50-9646-35ff16b5519b (String)
+      The ceiling is the account's other option
+  [account, live] 3449b26d-ab3c-d28a-3762-ccfea99c6a24 (String)
+      A competitor at $31.00 sets the price your account compares you against. Reliable delivery can stretch that ceiling a little, not remove it.
+  [account] 3449b26d-ab3c-d28a-3762-ccfea99c6a2c (String)
+      Here the room between cost and the market is $9.00 a case. The rule you choose decides how much of it you keep and how much you give up to hold the account.
+  [calculator] 62c7a477-444e-7182-c0bb-c3e0dc8789f0 (String)
+      Who uses a product pricing calculator
+  [calculator] 5fa73c9f-8500-9e15-3321-19b5c8fbc4d5 (String)
+      How to use the product pricing calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [update] 2af8f313-e356-7eea-3f46-cef1a39df957 (String)
+      Updates as you change any input
+  [live] d5d38a9b-92f4-a3c9-6a7c-7846aacd8b33 (String)
+      A $31.00 quote may be a different pack, a different brand or a one-week deal. Match only the same case on the same delivery terms.
+  [account] d5d38a9b-92f4-a3c9-6a7c-7846aacd8b43 (String)
+      The $51,360 a month assumes all 6,000 cases still sell at $30.56. If a raise costs you accounts, the real month is smaller.
+  [account] 7f31d426-6e4c-5e28-f4c7-2ff82a21df78 (String)
+      Contested accounts you intend to keep
+  [account] 2ed5e85f-f774-c624-0247-189ab17ef13f (String)
+      See how VOS keeps your pricing consistent across every account
+  [account] fdb81582-abe0-588b-6cc3-3070c0202723 (String)
+      VOS does not set or calculate your prices. It carries yours onto the order. Each account has its own order guide at the prices you set, and orders from it by voice in the VOS app.
+  [form, update] fdb81582-abe0-588b-6cc3-3070c020272a (String)
+      Guides updated in one admin platform when you reprice
+  [live] fdb81582-abe0-588b-6cc3-3070c020273c (String)
+      Most distributors are live in 24 to 48 hours
+  [account] f64360b3-fb7d-8a5f-a6db-6142c438cb46 (String)
+      Quote one price per account
+  [calculator, free] cd0399f1-6f75-d624-d551-15498e413590 (String)
+      A pricing rule settles one case. These free calculators check the markup behind it, the volume a price change needs and the floor under extra volume.
+  [calculator] cd0399f1-6f75-d624-d551-15498e41359f (String)
+      Open the product markup calculator
+  [calculator] cd0399f1-6f75-d624-d551-15498e4135ac (String)
+      Open the price change calculator
+  [calculator] cd0399f1-6f75-d624-d551-15498e4135b9 (String)
+      Open the marginal cost calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [live] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions gives every customer a personalized order guide tied to your pricing and SKUs, and most distributors are live in 24 to 48 hours.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== early-payment-discount-calculator  (28 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Early Payment Discount Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account] 5e8e5d56-1d5e-59f9-bfd1-962221580dfb (String)
+      If you offer 2/10 net 30 to your own accounts, the math runs the other way. An account that would otherwise pay on day 30 costs you 37.2% a year to pay 20 days sooner.
+  [calculator] f024274a-7488-c73b-8eed-8ca513a53bb4 (String)
+      Who uses an early payment discount calculator
+  [calculator] 11152d32-508f-4d12-f28e-6cb2b5c7940e (String)
+      How to use the early payment discount calculator
+  [enter your] 1879a1c0-a5c6-1d3b-a5d0-4da949408710 (String)
+      Enter your terms to price the discount as a rate
+  [calculator] 0f1a3cff-238a-bb56-406d-b7c18a1c7f81 (String)
+      The calculator takes the 6% off the invoice before the 2%. If your tier comes back later as a rebate, the invoice stays at $24.00, so enter the volume discount as 0%.
+  [calculator, live] 0f1a3cff-238a-bb56-406d-b7c18a1c7f89 (String)
+      The calculator trusts the $24.00 you type. Ten days is not long to check a delivery against its invoice, and paying early on a wrong one leaves you chasing a credit.
+  [account] 4645a5fa-b1c5-9755-9dfd-399d6c31fb58 (String)
+      It assumes the cash is in the account on time, and a rate cannot create cash
+  [calculator] b1f1a02d-1126-5fc3-d0e9-a08845da64ec (String)
+      Four of these six are inputs on the calculator. The other two decide whether the answer is any use to you.
+  [account] ce9a8dd2-5aea-6c74-fe2d-a05cf2535627 (String)
+      A 37.2% rate is worth nothing if the money is not in the account. Rank the invoices by rate and clear the top ones first.
+  [account] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions captures orders around the clock, and each account places them against its own order guide. The case volume you commit to is then the volume that actually shipped.
+  [account] d393ab1d-b18c-5008-0fb4-921216eda2eb (String)
+      Your Accounts
+  [account] d393ab1d-b18c-5008-0fb4-921216eda2f0 (String)
+      VOS does not calculate discounts, pay suppliers or touch your payables. Its part is the sale, not the purchase: each order your accounts place by voice in the VOS app comes in confirmed and timestamped. Paying early stays your decision, made in your own books.
+  [account] d393ab1d-b18c-5008-0fb4-921216eda2f7 (String)
+      Accounts order by voice in the app, day or night
+  [account] d393ab1d-b18c-5008-0fb4-921216eda303 (String)
+      Order history for each account, kept in one place
+  [account] 6725eb18-6bcd-551c-034a-3f87e8daab14 (String)
+      The discount decides when you pay suppliers. These three cover when your accounts pay you, what you paid against standard, and what a deal really saved.
+  [account] 2b0fff36-ce89-be91-e0ac-f77fb112f095 (String)
+      See how fast your accounts pay you
+  [calculator] 6725eb18-6bcd-551c-034a-3f87e8daab23 (String)
+      Open the AR turnover calculator
+  [calculator] 6725eb18-6bcd-551c-034a-3f87e8daab30 (String)
+      Open the price variance calculator
+  [calculator] 6725eb18-6bcd-551c-034a-3f87e8daab3d (String)
+      Open the procurement savings calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [form] cb55ed2c-634b-b694-87d5-a43e7e3cf960 (String)
+      What is the formula for calculating an early payment discount?
+  [calculator] 7e541655-5a68-8f96-1273-8249a5c759bd (String)
+      Trade or volume, cash or early pay, seasonal, and promotional. This calculator handles the first two, the 6% volume discount and the 2% early pay discount. Rebates paid back to you later belong on their own line, not inside the case price.
+  [account] 4446ea80-4c7a-f2a8-f0de-0a222818c948 (String)
+      How do you record an early payment discount in accounting?
+  [account] 4446ea80-4c7a-f2a8-f0de-0a222818c94f (String)
+      Your accountant decides where it lands, usually as a reduction of the purchase price rather than as income. The decision is the useful part. Taking 2/10 net 30 earns 37.2% a year on the cash, which beats what any credit line charges you.
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Title (prop)
+      Buy against the volume your accounts actually ordered
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== reorder-point-calculator  (28 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Reorder Point Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [calculator] 76639e50-7ac0-f59c-6a87-2ca81ec7123b (String)
+      A reorder point is the stock level on a line that says the next order has to go in now. It holds enough stock to cover sales until the truck unloads, plus a buffer for surprises. With this calculator's defaults, that level is 709 cases.
+  [account] bf74052d-baa0-0769-ae6b-df3c4c147672 (String)
+      When accounts order on one day
+  [account] 76639e50-7ac0-f59c-6a87-2ca81ec71256 (String)
+      A day of usage is an average. When most accounts order for Monday's trucks, 141 cases of headroom can go in a single morning.
+  [calculator] b9be8d79-6b00-1c6a-b20b-14e4574c9f24 (String)
+      Who uses a reorder point calculator
+  [calculator] 063b410e-5d85-d215-beb9-094e641beafb (String)
+      How to use the reorder point calculator
+  [live] 38293a1d-fb4c-9501-8014-28855f9128b6 (String)
+      Three numbers set the trigger. A fourth says how long you have, and a fifth tests the whole thing against a late delivery.
+  [enter your] 1388eb46-09f1-5ba4-1149-7bf122995abd (String)
+      Enter your usage and your real lead time
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [as you type, recalculat] 8c148c5a-5883-9b4b-9229-358da23fdebf (String)
+      Recalculates as you type
+  [free] a6c0745e-98a1-03f5-e519-220b7943883f (String)
+      On hand means free to sell
+  [free] 243523a4-0d73-45a8-d313-77e76fb61854 (String)
+      Take out cases already picked or promised to orders that are in. 850 cases on the floor is less than 850 free if tomorrow's orders already claim part of it.
+  [form] b1f1a02d-1126-5fc3-d0e9-a08845da64ec (String)
+      Only two of these six sit inside the formula. The other four are why a trigger misses in practice.
+  [calculator] ce9a8dd2-5aea-6c74-fe2d-a05cf2535627 (String)
+      229 cases here, typed in rather than worked out. Sizing a buffer from how much demand and lead time swing is a safety stock calculator's job.
+  [account] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      Each account orders from a guide built on your own SKUs, and VoiceOrder Solutions captures orders placed after hours, each with its date and timestamp.
+  [real-time] e5cd8bef-40a6-1f65-cfdc-e2adebdb3324 (String)
+      Real-time inventory visibility tied to order activity
+  [calculator, free] 14a34b3b-de20-5ad9-e419-4d7cf0596814 (String)
+      The reorder point says when to order. These free calculators answer how big the buffer should be, how far to top up, and how fast the stock sells.
+  [calculator] 14a34b3b-de20-5ad9-e419-4d7cf0596823 (String)
+      Open the safety stock calculator
+  [live] 14a34b3b-de20-5ad9-e419-4d7cf059682c (String)
+      Find the level each line returns to between deliveries, and see the cash every buffer day ties up on your floor.
+  [calculator] 14a34b3b-de20-5ad9-e419-4d7cf0596830 (String)
+      Open the par level calculator
+  [calculator] 14a34b3b-de20-5ad9-e419-4d7cf059683d (String)
+      Open the inventory turnover calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [form] cb55ed2c-634b-b694-87d5-a43e7e3cf978 (String)
+      What is the formula for calculating reorder level?
+  [account] cb55ed2c-634b-b694-87d5-a43e7e3cf98b (String)
+      You run out before the truck arrives, and the buffer absorbs the gap until it cannot. A 2 day slip adds 240 cases of demand against a 229 case buffer, which leaves you 11 cases short. The answer is a trigger of 949 cases, not a call to the account on the day.
+  [form] 4446ea80-4c7a-f2a8-f0de-0a222818c948 (String)
+      What is the formula for calculating inventory level?
+  [real-time, update] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions keeps real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. A line sliding toward its 709 case trigger is then visible the same day.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== retail-margin-calculator  (22 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Retail Margin Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [calculator] 95347c34-9b04-ffaa-d193-e7d86d07137e (String)
+      Who uses a retail margin calculator
+  [account] d693e5cf-8dd7-e33c-60ab-f27490416374 (String)
+      Owners pricing store accounts
+  [account] 5c94c2e3-1281-1ad4-f563-1d23f0468b32 (String)
+      Key account managers defending margin
+  [calculator] 1208f65f-0e31-7d85-1b03-ae47751d6656 (String)
+      How to use the retail margin calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [calculator] 8c148c5a-5883-9b4b-9229-358da23fdea6 (String)
+      Type 40% and the calculator asks for $3.97. Type 50% and it asks for $4.76. It also says how far that sits above or below the price today.
+  [calculator] 964de5d5-3961-b811-98b9-cfb069a7e8d3 (String)
+      Run it backwards. A $2.38 unit at a 40% margin has to shelve at $3.97, and at a 50% margin it has to shelve at $4.76. The calculator solves for the price, not just the percentage.
+  [live] ce9a8dd2-5aea-6c74-fe2d-a05cf2535627 (String)
+      The store's cost is your case price split out, $28.56 across 12 units here. Freight, a split case or a short delivery changes it before margin does.
+  [account] 0bae9749-e889-a783-22e6-a9ae7817b600 (String)
+      Store Accounts
+  [account] e67f37ce-e904-dc14-c3a8-f00c66b1d21c (String)
+      Where VOS fits with your store accounts
+  [calculator, free] 31760d9e-5504-7350-ffe2-bee11413aa4b (String)
+      Retail margin shows the store's side of the sum. These free calculators work back to your markup, the full chain and your own case price.
+  [calculator] 31760d9e-5504-7350-ffe2-bee11413aa5a (String)
+      Open the product markup calculator
+  [calculator] 31760d9e-5504-7350-ffe2-bee11413aa67 (String)
+      Open the wholesale to retail markup calculator
+  [calculator] 31760d9e-5504-7350-ffe2-bee11413aa74 (String)
+      Open the product pricing calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [calculator] cb55ed2c-634b-b694-87d5-a43e7e3cf97f (String)
+      A 150% markup. Divide 1 by 1 minus the margin and subtract 1, which turns 60% into 150%. On a $2.38 unit that is a $5.95 shelf price keeping $3.57, and $3.57 divided by $5.95 comes back to 60%. Set the target in the calculator and it prints the price for you.
+  [live] 4446ea80-4c7a-f2a8-f0de-0a222818c94f (String)
+      Contribution margin is the price less the variable cost of selling one more unit. On this item the only variable cost is the $2.38, so contribution and gross profit are the same $1.59 a unit, or $19.08 a case. They separate once delivery, shrink or a promotion is counted, and none of those sit inside the 40.1%.
+  [calculator] cb55ed2c-634b-b694-87d5-a43e7e3cf997 (String)
+      Gross and net are different questions, and this calculator answers neither for you. The 40.1% here is the store's gross margin on one unit. Judge an item on the dollars it earns, $19.08 a case and $9,540 a month at 500 cases, because a wide percentage on a slow unit is worth less than a thin one on a mover.
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions builds each account a personalized order guide from your own SKUs and pricing, and every order arrives digitized and confirmed, so the price behind the margin is the price that gets ordered.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== safety-stock-calculator  (30 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Safety Stock Calculator
+  [live] 989faf8b-cac3-f127-6306-f797ae33f470/Text 2 (prop)
+      Work out the buffer your demand swing and lead time actually need, what it parks in cash, and whether it will outlive the product.
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [live] bebe800a-3e87-2231-b229-0f20107b4b58 (String)
+      Partial deliveries are not in it
+  [form, live] 4b2dec21-2a8d-a0b3-45e4-f4669d78e675 (String)
+      Supplier shorts. A truck that arrives late is in the formula, but one that arrives with part of the order is not. A partial delivery eats the buffer without warning.
+  [account] 4b2dec21-2a8d-a0b3-45e4-f4669d78e67d (String)
+      For a distributor, the 35 case swing can trace back to a few accounts that order big and irregularly. Part of the buffer is paying for their pattern.
+  [calculator] 24f25915-152f-743e-f9f4-e8ae8609efe2 (String)
+      Who uses a safety stock calculator
+  [calculator] c47b79d2-97b2-9b2f-3570-8c542b741f90 (String)
+      How to use the safety stock calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [live] 2af8f313-e356-7eea-3f46-cef1a39df93b (String)
+      Whether the buffer will outlive the product
+  [live] 2af8f313-e356-7eea-3f46-cef1a39df93e (String)
+      229 cases is 1.9 days of cover against a 14 day shelf life, so it clears. Buffer that outlives shelf life is spoilage, not service.
+  [form] d4e21acd-1028-79b7-cfce-9c2dba8e7518 (String)
+      The formula does the hard part. The swings you feed it decide the answer, so get them right before cash goes into a buffer.
+  [account] d4e21acd-1028-79b7-cfce-9c2dba8e752a (String)
+      In a week you ran short, shipments look calmer than what accounts asked for. Build the swing from orders, or the short weeks shrink the buffer meant to cover them.
+  [account, live] 5368ca22-de87-9362-819f-9733489b5a70 (String)
+      The 35 case daily swing is the smaller part here, about a quarter of what the buffer covers. Late deliveries are the rest. Steadier ordering from your accounts still trims it.
+  [live] ce9a8dd2-5aea-6c74-fe2d-a05cf2535627 (String)
+      95% needs 229 cases and 99% needs 324. The last points cost the most and deliver the least.
+  [account] 458fcf8e-5c98-2915-581f-0d6dcd51482a (String)
+      A guide that matches what an account actually buys cuts the swing you have to hold stock against.
+  [account] 82c318c6-8f5b-5cd8-3198-d14e6fdd36e5 (String)
+      See how VOS shows what each account orders, and when
+  [account] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions gives each account an order guide built from your own SKUs and pricing, and every app order arrives confirmed, numbered and dated.
+  [account] 7e36b566-58ba-0701-d05e-bfce1eb5f541 (String)
+      The swing starts with what each account orders
+  [account] a8f80bb6-6a4f-5545-4a31-af378bf62169 (String)
+      VOS does not size your buffer or forecast demand. It keeps a record to check your swing against: each order placed by voice in the VOS app, by account and time.
+  [account, form] a8f80bb6-6a4f-5545-4a31-af378bf62170 (String)
+      Order history per account in one admin platform
+  [calculator, free] fe483b97-c77d-1e06-c9d0-5cf68bf8ef35 (String)
+      Safety stock sizes the buffer. These free calculators turn it into a trigger, price what holding it costs, and set the level each order restores.
+  [calculator] fe483b97-c77d-1e06-c9d0-5cf68bf8ef44 (String)
+      Open the reorder point calculator
+  [calculator] fe483b97-c77d-1e06-c9d0-5cf68bf8ef51 (String)
+      Open the inventory carrying cost calculator
+  [live] fe483b97-c77d-1e06-c9d0-5cf68bf8ef5a (String)
+      Work out the level each line tops back up to between deliveries, and what each buffer day ties up in cash.
+  [calculator] fe483b97-c77d-1e06-c9d0-5cf68bf8ef5e (String)
+      Open the par level calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [calculator] cb55ed2c-634b-b694-87d5-a43e7e3cf973 (String)
+      No. Safety stock is the buffer itself, 229 cases here, sized from how much your demand and lead time vary. The reorder point is the level that triggers the order, 709 cases here, because it also counts the demand you will sell while you wait. This tool sizes the buffer, and a reorder point calculator tells you when to order.
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions lets each account order against a guide built from your own SKUs and pricing, so each order arrives confirmed and dated, day or night.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== unit-price-calculator  (22 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Unit Price Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account] 249ee490-7db2-535a-9876-bdf59438b1ec (String)
+      A can's net weight includes the liquid it is packed in. When the account uses only the solids, compare on drained weight instead.
+  [calculator] 42c40e92-6fb9-72db-d8cd-411e9904e4c2 (String)
+      Who uses a unit price calculator
+  [calculator] a303abc3-7d8f-f26f-40bb-74c0ec6b5ec8 (String)
+      How to use the unit price calculator
+  [calculator] 38293a1d-fb4c-9501-8014-28855f9128b6 (String)
+      Three numbers per pack. The calculator does both comparisons and tells you which one to trust.
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [account] 4590e4b1-e797-fe36-9056-58de9ded19b5 (String)
+      See how VOS keeps every account's order guide current
+  [form, update] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions builds each customer a personalized order guide from your own SKUs and pricing, and your team updates it from one admin platform.
+  [account] f8710a66-6931-6200-5632-b778d1e1578c (String)
+      VOS does not compare packs or buy stock. Once you choose a pack, you put it on each account's guide, tied to your SKUs. Customers build the order by voice in the VOS app, then review each line before sending.
+  [account, form, update] f8710a66-6931-6200-5632-b778d1e15799 (String)
+      Guides updated per account in one admin platform
+  [update] f8710a66-6931-6200-5632-b778d1e1579f (String)
+      The catalog updates as stock changes
+  [account] 82608c41-627d-ea13-bf31-b5e48100b053 (String)
+      Match pack to the account
+  [calculator, free] b5f8f61d-cd39-321d-182d-af06358f3822 (String)
+      Unit price tells you which pack is the better buy. These three free calculators carry that choice into freight, trim and the invoice.
+  [calculator] b5f8f61d-cd39-321d-182d-af06358f3831 (String)
+      Open the landed cost calculator
+  [calculator] b5f8f61d-cd39-321d-182d-af06358f383e (String)
+      Open the food markup calculator
+  [calculator] b5f8f61d-cd39-321d-182d-af06358f384b (String)
+      Open the purchase price variance calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [account, calculator] 7e541655-5a68-8f96-1273-8249a5c759bd (String)
+      The calculator falls back to a per-unit comparison. Treat that as a rough answer and get the weight off the spec sheet before you move an account onto the pack.
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Title (prop)
+      Put the right items in front of every account
+  [account] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions gives every customer a personalized order guide built from your own SKUs and pricing, so each account orders the items you mean to sell it.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== warehouse-size-calculator  (21 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Warehouse Size Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [live] 1eca4e8f-0889-1f66-b386-c6ebbb3cd1f5 (String)
+      Food ships oldest first, so a new delivery often cannot go in front of older stock. One item can then hold two positions at once.
+  [calculator] d9c006a9-5243-d90d-4d4c-a5f2581592dd (String)
+      Who uses a warehouse size calculator
+  [calculator] a4e40517-32a5-9d06-f6a0-eb0949d546b8 (String)
+      How to use the warehouse size calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [update] 8b079726-3463-6044-f4e9-f838b3bfb135 (String)
+      Updates as any input changes
+  [free] 08f09d6b-39f5-8494-530b-2762fce8a27e (String)
+      Yes, it frees cash directly
+  [live] 7b7569f9-7bb9-1a08-0f13-6a83763d17d4 (String)
+      Two deliveries landing the same morning need floor space neither of them keeps. Spread them out.
+  [account] 116a267a-2289-e120-b614-adff0c61b909 (String)
+      See how VOS keeps what you stock in line with what accounts order
+  [live] 4590e4b1-e797-fe36-9056-58de9ded19b8 (String)
+      VoiceOrder Solutions shows live inventory against the catalog your customers order from, so the racks carry the lines that actually move.
+  [account, form] 8406c06f-6f57-3533-a35e-a7be9eaaa0b6 (String)
+      Each account's order history in the admin platform
+  [update] 8406c06f-6f57-3533-a35e-a7be9eaaa0bc (String)
+      Catalog updates as stock levels change
+  [calculator] b9d7d1a5-e2bc-2853-1b64-62b203850753 (String)
+      Open the warehouse space calculator
+  [free] b9d7d1a5-e2bc-2853-1b64-62b20385075c (String)
+      Find your days on hand and turns a year, and how much cash a shorter stay on the shelf would free.
+  [calculator] b9d7d1a5-e2bc-2853-1b64-62b203850760 (String)
+      Open the inventory turnover calculator
+  [live] b9d7d1a5-e2bc-2853-1b64-62b203850769 (String)
+      Break a route into cost per drop, per case and per mile, and see where a delivery minimum belongs.
+  [calculator, live] b9d7d1a5-e2bc-2853-1b64-62b20385076d (String)
+      Open the delivery cost calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [account, live] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 1 (prop)
+      VoiceOrder Solutions keeps inventory visible against live order activity, so what sits on your racks is what your accounts are actually ordering.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== warehouse-space-calculator  (16 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Warehouse Space Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [calculator] 04101b5e-ec1b-caec-d148-c81ff92613cd (String)
+      The calculator folds staging into the 45%. For a distributor, it tracks how many trucks you load at once, not how much stock you hold.
+  [calculator] b4942e8d-e259-7477-0515-4d58d3d022e3 (String)
+      Who uses a warehouse space calculator
+  [calculator] 688cdf7c-4ca4-d412-e37f-3897c91719a3 (String)
+      How to use the warehouse space calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [account] 129bd613-9d92-1e3c-fcbe-e5fdebfe413f (String)
+      Accounts for how high you stack
+  [update] 8c148c5a-5883-9b4b-9229-358da23fdebf (String)
+      Updates as the pallet math changes
+  [free] dc3e4f04-1c78-f3d9-c3b0-40d0a8e79734 (String)
+      Run dry, cooler and freezer as three separate estimates. One blended run lets spare dry floor hide a freezer that is already full.
+  [account] 263390ed-814b-1f15-0ee9-99618be72911 (String)
+      See how VOS keeps accounts ordering from the range you chose
+  [calculator] 61e5d8e8-d8e7-94bd-6b06-219d9edabe99 (String)
+      Open the warehouse size calculator
+  [calculator] 61e5d8e8-d8e7-94bd-6b06-219d9edabea6 (String)
+      Open the carrying cost calculator
+  [calculator] 61e5d8e8-d8e7-94bd-6b06-219d9edabeb3 (String)
+      Open the inventory turnover calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [calculator] 4446ea80-4c7a-f2a8-f0de-0a222818c94f (String)
+      Work it in cases, not as a percentage of floor. Let peak drift from 3,000 cases to 3,600 and the space goes from 725 sq ft to 871. Put the peak you expect straight into the calculator rather than padding the answer at the end.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== wholesale-markup-calculator  (27 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Wholesale Markup Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account] a1a3531c-e636-c4e8-e6d4-c86aadcfa237 (String)
+      A wholesale markup is what a distributor adds to its landed cost to set the price it charges its accounts. It is stated as a share of cost. A 35% markup on a $22.00 case gives a $29.70 wholesale price, before the account adds its own.
+  [account] a1a3531c-e636-c4e8-e6d4-c86aadcfa242 (String)
+      Between your supplier and your account. The store or kitchen adds its own markup on top of your price, so yours is one step of several.
+  [account] fda5efbe-c9ed-c289-1a4c-d3018fb23907 (String)
+      Street accounts
+  [account] a1a3531c-e636-c4e8-e6d4-c86aadcfa24a (String)
+      Independent accounts usually buy off your price list at the markup you choose. They tend to carry more margin, and more cost to serve per case.
+  [account] bb7763f4-9121-7f95-dc9c-8597622e25f5 (String)
+      Contract accounts
+  [calculator] 924a5b32-b8be-3503-e1f4-addcb42cca40 (String)
+      Who uses a wholesale markup calculator
+  [account] 2117110b-137d-68a1-e137-c43617051b39 (String)
+      Teams renewing contract accounts
+  [account] 3ac59ddb-b942-397c-23dd-2fb379eddc88 (String)
+      Owners ranking accounts by mix
+  [calculator] 12b21c04-a0f5-c386-f4d8-b17ea1ceaf11 (String)
+      How to use the wholesale markup calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [update] 129bd613-9d92-1e3c-fcbe-e5fdebfe4145 (String)
+      Updates the moment a cost moves
+  [account] 67133395-d8b7-8eb8-92a2-1e1925d2e47b (String)
+      Account mix
+  [account] 2c2a3a16-db59-17d3-b73d-6e46b13b91ab (String)
+      Two accounts of the same size can carry very different blends. Rank them and you will see it.
+  [account] 458fcf8e-5c98-2915-581f-0d6dcd51482a (String)
+      What an account actually orders is decided by the guide in front of them, not by the catalog.
+  [account] b8686cb3-acab-c419-7f18-7db356a86fbb (String)
+      See how VOS puts your whole range in front of every account
+  [free] f5c19038-2616-737f-07b0-33aa62b5e0b6 (String)
+      Reps free to sell, not take orders
+  [account] b3ec81f2-249a-e4e1-b20c-0d4f3522720f (String)
+      Each account orders from its own guide, at your prices
+  [account, form] b3ec81f2-249a-e4e1-b20c-0d4f35227215 (String)
+      Order history per account in one admin platform
+  [account] a5d8230a-fedb-5a0e-327c-efbdc27de328 (String)
+      Review your thinnest accounts
+  [calculator, free] 651d1240-80a3-493e-3076-61e6eb2741c1 (String)
+      The blend shows what the book really earns. These free calculators check the cost under it, the shelf above it and a price move.
+  [calculator] 651d1240-80a3-493e-3076-61e6eb2741d0 (String)
+      Open the material markup calculator
+  [calculator] 651d1240-80a3-493e-3076-61e6eb2741dd (String)
+      Open the wholesale to retail markup calculator
+  [calculator] 651d1240-80a3-493e-3076-61e6eb2741ea (String)
+      Open the price change calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us
+
+=== wholesale-to-retail-markup-calculator  (20 hits)
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Title (prop)
+      Wholesale to Retail Markup Calculator
+  [calculator] 989faf8b-cac3-f127-6306-f797ae33f470/Text 3 (prop)
+      Use the Calculator
+  [account] fe2d7b33-7c5c-b3e1-3213-c28e38613fc2 (String)
+      Which accounts it fits
+  [account] 7a43253b-6479-b058-23be-7daebb3820ac (String)
+      The chain fits accounts that resell your case one unit at a time, such as grocers, markets and convenience stores. A restaurant turns a case into plates and prices on food cost instead.
+  [calculator] 27cef66a-3b2d-540b-20a9-c619df58c409 (String)
+      Who uses a wholesale to retail markup calculator
+  [calculator] f8415408-e5a6-6682-6030-8202b741e514 (String)
+      How to use the wholesale to retail markup calculator
+  [calculator] f5b08e4d-7503-2dae-cdd2-6f455d9fe83e (String)
+      What the calculator shows you
+  [update] 129bd613-9d92-1e3c-fcbe-e5fdebfe4145 (String)
+      Updates the moment a cost moves
+  [account] 2147bfc4-0044-81f3-ce71-89b7aec433be (String)
+      The math in both steps is fixed. Real accounts break it at the inputs, most often in one of these three places.
+  [calculator] 2147bfc4-0044-81f3-ce71-89b7aec433d8 (String)
+      The calculator sets the shelf on the target margin, to the cent. Stores round to their own price endings, so ask how this one rounds before you defend a case price.
+  [account] 458fcf8e-5c98-2915-581f-0d6dcd51482a (String)
+      What an account actually orders is decided by the guide in front of them, not by your full catalog.
+  [account] 58fd3768-e746-11cb-d688-57e00917cbae (String)
+      See how VOS puts your whole range in front of every account
+  [free] f2154cbf-2280-14ea-7b62-7ed48e934949 (String)
+      Frees sales reps to sell instead of taking orders
+  [calculator, free] b7f12ec0-6b31-1860-96e6-8572d38c789e (String)
+      The chain shows where your case lands on the shelf. These three free calculators take each step of it further.
+  [calculator] b7f12ec0-6b31-1860-96e6-8572d38c78ad (String)
+      Open the retail margin calculator
+  [calculator] b7f12ec0-6b31-1860-96e6-8572d38c78ba (String)
+      Open the wholesale markup calculator
+  [calculator] b7f12ec0-6b31-1860-96e6-8572d38c78c7 (String)
+      Open the product markup calculator
+  [free] c1b218dc-b1d5-034d-f07c-5690e16c2377 (String)
+      "I used to spend hours every week ordering food. Now it's simple, super easy, and I have free time to spend on other aspects of my restaurant."
+  [calculator, form] 7e541655-5a68-8f96-1273-8249a5c759bd (String)
+      It varies by category and by store format, so ask rather than assume. 40% is a common target on center store, and the calculator takes any figure you put in. Change it to 35% and the same case shelves at $3.67 instead of $3.97.
+  [email] f9bd322f-b390-c3a2-de4c-530ccaac0ed2/Text 3 (prop)
+      Have questions first? Email us

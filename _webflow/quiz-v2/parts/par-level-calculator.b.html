@@ -1,0 +1,403 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-parlevel');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var usage=$('vos-pl-usage'), cycle=$('vos-pl-cycle'), buffer=$('vos-pl-buffer'),
+        bufSlider=$('vos-pl-buffer-slider'), cost=$('vos-pl-cost'), onhand=$('vos-pl-onhand'),
+        parEl=$('vos-pl-par'), parSub=$('vos-pl-par-sub'),
+        topEl=$('vos-pl-topup'), topSub=$('vos-pl-topup-sub'), topCard=$('vos-pl-topup-card'),
+        coverEl=$('vos-pl-cover'), coverSub=$('vos-pl-cover-sub'),
+        valueEl=$('vos-pl-value'), valueSub=$('vos-pl-value-sub'),
+        orderEl=$('vos-pl-order'), orderSub=$('vos-pl-order-sub'),
+        dropEl=$('vos-pl-drop'), dropK=$('vos-pl-drop-k'), dropSub=$('vos-pl-drop-sub'),
+        dropCard=$('vos-pl-drop-card'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-pl-usage':120,'vos-pl-cycle':7,'vos-pl-buffer':2,'vos-pl-cost':22.00,'vos-pl-onhand':340};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ if(!isFinite(n)) n=0; return Math.round(n*100)/100; }
+    function qty(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US'); }
+    function days(n){ if(!isFinite(n)) n=0; return (Math.round(n*10)/10).toFixed(1); }
+    function whole(n){ if(!isFinite(n)) n=0; return n===Math.round(n)?String(n):n.toFixed(1); }
+    function dayWord(n){ return whole(n)+' day'+(n===1?'':'s'); }
+
+    function calc(){
+      var D=num(usage), CY=num(cycle), C=cents(num(cost)), H=Math.round(num(onhand));
+      var B=parseFloat(buffer.value); if(!isFinite(B)||B<0) B=0; if(B>30) B=30;
+
+      if(D<=0 || CY<=0){
+        [parEl,topEl,coverEl,valueEl,orderEl,dropEl].forEach(function(e){ e.textContent='--'; });
+        parSub.textContent='Enter average daily usage and the days between deliveries';
+        topSub.textContent=''; coverSub.textContent=''; valueSub.textContent=''; orderSub.textContent='';
+        dropK.textContent='Dropping a buffer day'; dropSub.textContent='';
+        topCard.className='vos-stat'; dropCard.className='vos-stat';
+        tip.innerHTML='Enter your <b>average daily usage</b> and the <b>days between deliveries</b> to see the level par has to sit at.';
+        return;
+      }
+
+      // Settle par to whole cases and the case cost to whole cents first, then
+      // derive every dependent figure from those rounded numbers, so a reader who
+      // subtracts two cards on screen gets the third.
+      var coverDays = CY + B;
+      var par       = Math.ceil(D*coverDays);
+      var topUp     = par - H;
+      var valuePar  = cents(par*C);
+      var orderCost = cents(Math.max(topUp,0)*C);
+      var perDay    = cents(D*C);
+      var lowerPar  = B>0 ? Math.ceil(D*(coverDays-1)) : 0;
+      var lowerVal  = B>0 ? cents(lowerPar*C) : 0;
+      var freed     = cents(valuePar - lowerVal);
+
+      parEl.textContent  = qty(par)+' cases';
+      parSub.textContent = B>0
+        ? qty(D)+' cases a day across the '+whole(CY)+' days between deliveries, plus a '+whole(B)+' day buffer'
+        : qty(D)+' cases a day across the '+whole(CY)+' days between deliveries, with no buffer';
+
+      if(topUp>0){
+        topEl.textContent  = qty(topUp)+' cases';
+        topSub.textContent = qty(par)+' par less the '+qty(H)+' cases on hand';
+        topCard.className  = 'vos-stat';
+      } else if(topUp===0){
+        topEl.textContent  = 'Nothing to order';
+        topSub.textContent = 'The '+qty(H)+' cases on hand are exactly at par';
+        topCard.className  = 'vos-stat';
+      } else {
+        topEl.textContent  = qty(-topUp)+' cases over par';
+        topSub.textContent = qty(H)+' on hand against a '+qty(par)+' case par';
+        topCard.className  = 'vos-stat vos-loss';
+      }
+
+      coverEl.textContent  = days(par/D)+' days';
+      coverSub.textContent = qty(par)+' cases at '+qty(D)+' a day';
+
+      valueEl.textContent  = money(valuePar);
+      valueSub.textContent = C>0 ? qty(par)+' cases at '+money2(C) : 'Enter a case cost to price par in cash';
+
+      orderEl.textContent  = money(orderCost);
+      orderSub.textContent = topUp>0 ? qty(topUp)+' cases at '+money2(C) : 'Nothing to buy this cycle';
+
+      if(B<=0){
+        dropK.textContent   = 'Dropping a buffer day';
+        dropEl.textContent  = '--';
+        dropSub.textContent = 'There is no buffer day left to take out, par is bare delivery cover';
+        dropCard.className  = 'vos-stat';
+      } else {
+        dropK.textContent   = B>1 ? 'Dropping to a '+whole(B-1)+' day buffer' : 'Running par with no buffer';
+        dropEl.textContent  = money(freed)+' freed';
+        dropSub.textContent = 'Par falls to '+qty(lowerPar)+' cases, '+money(lowerVal)+' of stock';
+        dropCard.className  = 'vos-stat vos-profit';
+      }
+
+      // The teaching moment: a buffer day is not a policy, it is a cash number,
+      // and it is the same number on every item you set par for.
+      var t;
+      if(C<=0){
+        t = 'Par sits at <b>'+qty(par)+' cases</b>, '+qty(D)+' a day across the '+whole(CY)+' days between deliveries plus '+dayWord(B)+' of buffer. Put a case cost in to see what that level ties up, because par is a cash decision long before it is an inventory one.';
+      } else if(topUp<0){
+        t = 'You are carrying <b>'+qty(H)+' cases</b> against a <b>'+qty(par)+' case</b> par, so <b>'+money(cents((H-par)*C))+'</b> is sitting above the level this item needs. Stock over par is cash doing nothing and shelf life running down, and it usually means the last order was placed off a feeling rather than off par.';
+      } else if(B<=0){
+        t = 'Par is bare delivery cover here, <b>'+qty(par)+' cases</b> with no buffer day in it. That works on a supplier who never misses a date, and it means one late truck turns into a stockout surprise. A single buffer day on this item would cost <b>'+money(perDay)+'</b> of stock.';
+      } else {
+        t = 'Each buffer day on this item is <b>'+money(perDay)+'</b> of stock, because '+qty(D)+' cases a day at '+money2(C)+' is what a day of cover costs. <b>'+dayWord(B)+'</b> of buffer is the right call on a supplier who misses dates and an expensive habit on one who never does, so set the buffer per supplier rather than across the whole order guide.';
+      }
+      tip.innerHTML = t;
+    }
+
+    function syncSlider(){ var v=parseFloat(buffer.value); if(isFinite(v)) bufSlider.value=Math.max(0,Math.min(7,v)); }
+    [usage,cycle,cost,onhand].forEach(function(el){ el.addEventListener('input', calc); });
+    buffer.addEventListener('input', function(){ syncSlider(); calc(); });
+    bufSlider.addEventListener('input', function(){ buffer.value=bufSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "par-level",
+  "rootId": "vos-q-par-level",
+  "calcRootId": "vos-parlevel",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "par-level-s1",
+    "par-level-s2",
+    "par-level-s3",
+    "par-level-s4",
+    "par-level-s5",
+    "par-level-s6"
+  ],
+  "gateId": "par-level-gate",
+  "resultsId": "par-level-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a usage and a cycle above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-pl-usage",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pl-cycle",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-pl-buffer",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-pl-cost",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-pl-onhand",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "howworked",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "customertells",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-pl-usage",
+      "calcId": "vos-pl-usage",
+      "qid": "q-vos-pl-usage"
+    },
+    {
+      "id": "vos-pl-cycle",
+      "calcId": "vos-pl-cycle",
+      "qid": "q-vos-pl-cycle"
+    },
+    {
+      "id": "vos-pl-buffer",
+      "calcId": "vos-pl-buffer",
+      "qid": "q-vos-pl-buffer"
+    },
+    {
+      "id": "vos-pl-cost",
+      "calcId": "vos-pl-cost",
+      "qid": "q-vos-pl-cost"
+    },
+    {
+      "id": "vos-pl-onhand",
+      "calcId": "vos-pl-onhand",
+      "qid": "q-vos-pl-onhand"
+    }
+  ],
+  "groups": [
+    "situation",
+    "howworked",
+    "customertells"
+  ],
+  "autoGroups": [
+    "situation",
+    "howworked",
+    "customertells"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-pl-par",
+      "qid": "qc-vos-pl-par",
+      "cardId": "qcard-vos-pl-par",
+      "qsubId": "qcs-vos-pl-par",
+      "subFrom": "vos-pl-par-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-pl-topup",
+      "qid": "qc-vos-pl-topup",
+      "cardId": "qcard-vos-pl-topup",
+      "qsubId": "qcs-vos-pl-topup",
+      "subFrom": "vos-pl-topup-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-pl-topup-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-pl-drop",
+      "qid": "qc-vos-pl-drop",
+      "cardId": "qcard-vos-pl-drop",
+      "qsubId": "qcs-vos-pl-drop",
+      "subFrom": "vos-pl-drop-sub",
+      "kId": "qck-vos-pl-drop",
+      "kFrom": "vos-pl-drop-k",
+      "toneFrom": "vos-pl-drop-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-pl-value",
+      "qid": "qc-vos-pl-value",
+      "cardId": "qcard-vos-pl-value",
+      "qsubId": "qcs-vos-pl-value",
+      "subFrom": "vos-pl-value-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pl-cover",
+      "qid": "qc-vos-pl-cover",
+      "cardId": "qcard-vos-pl-cover",
+      "qsubId": "qcs-vos-pl-cover",
+      "subFrom": "vos-pl-cover-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pl-order",
+      "qid": "qc-vos-pl-order",
+      "cardId": "qcard-vos-pl-order",
+      "qsubId": "qcs-vos-pl-order",
+      "subFrom": "vos-pl-order-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your usage and delivery cycle before resetting a par.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "customertells",
+      "weights": {
+        "phone": 30,
+        "rep-counts": 27,
+        "text-email": 20,
+        "portal": 6
+      }
+    },
+    {
+      "group": "howworked",
+      "weights": {
+        "eyeball": 25,
+        "standing": 20,
+        "spreadsheet": 16,
+        "system": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "customer-par": 15,
+        "ran-out": 13,
+        "too-much": 11,
+        "our-warehouse": 8
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-pl-usage",
+    "bands": [
+      [
+        400,
+        30
+      ],
+      [
+        150,
+        22
+      ],
+      [
+        50,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-pl-par'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to set a par.',
+        text: 'Go back and put in a daily usage and a delivery cycle above zero.' };
+    }
+    if (ans.howworked === 'eyeball' || ans.howworked === 'standing') {
+      return { tone: 'is-go', title: 'Top up to ' + read['vos-pl-par'] + '.',
+        text: 'That means ordering ' + read['vos-pl-topup'] + ' today, and holding '
+            + read['vos-pl-value'] + ' at par. Worth knowing that ' + read['vos-pl-drop']
+            + ' sits behind every buffer day nobody has revisited.' };
+    }
+    return { tone: 'is-go', title: 'Top up to ' + read['vos-pl-par'] + '.',
+      text: 'Order ' + read['vos-pl-topup'] + ' today at a cost of ' + read['vos-pl-order']
+          + '. At par you are holding ' + read['vos-pl-value'] + ', which is '
+          + read['vos-pl-cover'] + ' of cover.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on ' + (f['vos-pl-usage'] || 0) + ' cases a day, delivered every '
+         + (f['vos-pl-cycle'] || 0) + ' days, with ' + (f['vos-pl-buffer'] || 0) + ' buffer days.';
+  },
+  "echoes": []
+};
+  </script>

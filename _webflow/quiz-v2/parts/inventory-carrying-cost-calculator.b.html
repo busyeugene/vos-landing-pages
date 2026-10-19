@@ -1,0 +1,445 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-carrycost');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var inv=$('vos-cc-inv'), cases=$('vos-cc-cases'),
+        capital=$('vos-cc-capital'), capitalSlider=$('vos-cc-capital-slider'),
+        storage=$('vos-cc-storage'), spoil=$('vos-cc-spoil'),
+        insurance=$('vos-cc-ins'), obsolescence=$('vos-cc-obs'),
+        rateEl=$('vos-cc-rate'), rateSub=$('vos-cc-rate-sub'),
+        annualEl=$('vos-cc-annual'), annualSub=$('vos-cc-annual-sub'),
+        topEl=$('vos-cc-top'), topSub=$('vos-cc-top-sub'),
+        monthlyEl=$('vos-cc-monthly'), monthlySub=$('vos-cc-monthly-sub'),
+        perCaseEl=$('vos-cc-percase'), perCaseSub=$('vos-cc-percase-sub'),
+        saveEl=$('vos-cc-save'), saveSub=$('vos-cc-save-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-cc-inv':132000,'vos-cc-cases':72000,'vos-cc-capital':9,
+                  'vos-cc-storage':7,'vos-cc-spoil':6,'vos-cc-ins':2,'vos-cc-obs':3};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function rateIn(el){ var v=parseFloat(el.value); if(!isFinite(v)||v<0) v=0; if(v>100) v=100; return v; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ return Math.round(n*100)/100; }
+    function tidy(n){ return n===Math.round(n) ? Math.round(n).toLocaleString('en-US') : n.toFixed(1); }
+    function pts(n){ return n===Math.round(n) ? String(Math.round(n)) : n.toFixed(1); }
+
+    function calc(){
+      var INV=num(inv), K=num(cases);
+      var cap=rateIn(capital), sto=rateIn(storage), spo=rateIn(spoil),
+          ins=rateIn(insurance), obs=rateIn(obsolescence);
+      var rate = cap + sto + spo + ins + obs;
+
+      // Settle each component to whole cents BEFORE adding them, then take the
+      // annual cost as the sum of those five settled numbers rather than as
+      // one multiplication. That way the five component cards add up to the
+      // annual card exactly, with no cent left over on screen.
+      var comps = [
+        { label:'Cost of capital',    p:cap, cost:cents(INV*cap/100), v:$('vos-cc-cap'),  s:$('vos-cc-cap-sub'),  c:$('vos-cc-cap-card')  },
+        { label:'Storage and handling', p:sto, cost:cents(INV*sto/100), v:$('vos-cc-sto'),  s:$('vos-cc-sto-sub'),  c:$('vos-cc-sto-card')  },
+        { label:'Shrink and spoilage',  p:spo, cost:cents(INV*spo/100), v:$('vos-cc-spo'),  s:$('vos-cc-spo-sub'),  c:$('vos-cc-spo-card')  },
+        { label:'Insurance and taxes',  p:ins, cost:cents(INV*ins/100), v:$('vos-cc-insv'), s:$('vos-cc-insv-sub'), c:$('vos-cc-insv-card') },
+        { label:'Obsolescence',         p:obs, cost:cents(INV*obs/100), v:$('vos-cc-obsv'), s:$('vos-cc-obsv-sub'), c:$('vos-cc-obsv-card') }
+      ];
+      var annual = 0, i;
+      for(i=0;i<comps.length;i++){ annual += comps[i].cost; }
+      annual = cents(annual);
+
+      // The dominant component is read off the points, so it still resolves
+      // before anyone has typed an inventory value. Ties go to the first line.
+      var topIdx = -1;
+      for(i=0;i<comps.length;i++){
+        if(comps[i].p>0 && (topIdx<0 || comps[i].p>comps[topIdx].p)) topIdx = i;
+      }
+
+      if(rate<=0){
+        rateEl.textContent='--';
+        rateSub.textContent='Enter the five components to build a rate';
+        [annualEl,topEl,monthlyEl,perCaseEl,saveEl].forEach(function(e){ e.textContent='--'; });
+        annualSub.textContent='';
+        topSub.textContent='';
+        monthlySub.textContent='';
+        perCaseSub.textContent='';
+        saveSub.textContent='';
+        for(i=0;i<comps.length;i++){
+          comps[i].v.textContent='--';
+          comps[i].s.textContent='0 points';
+          comps[i].c.className='vos-stat';
+        }
+        tip.innerHTML='Put a number on all five lines: <b>capital</b>, <b>storage and handling</b>, <b>shrink and spoilage</b>, <b>insurance and taxes</b> and <b>obsolescence</b>. The sum is your real carrying rate, and it is usually not the 25% in the textbook.';
+        return;
+      }
+
+      rateEl.textContent = pts(rate)+'%';
+      rateSub.textContent = pts(cap)+' capital, '+pts(sto)+' storage, '+pts(spo)+' spoilage, '+pts(ins)+' insurance, '+pts(obs)+' obsolescence';
+
+      for(i=0;i<comps.length;i++){
+        comps[i].v.textContent = INV>0 ? money(comps[i].cost) : '--';
+        comps[i].s.textContent = pts(comps[i].p)+' points, '+(comps[i].p/rate*100).toFixed(1)+'% of the rate';
+        comps[i].c.className = (i===topIdx ? 'vos-stat vos-hero' : 'vos-stat');
+      }
+
+      topEl.textContent = topIdx>=0 ? comps[topIdx].label : '--';
+      if(topIdx<0){
+        topSub.textContent='';
+      } else if(INV>0){
+        topSub.textContent = pts(comps[topIdx].p)+' of the '+pts(rate)+' points, '+money(comps[topIdx].cost)+' a year';
+      } else {
+        topSub.textContent = pts(comps[topIdx].p)+' of the '+pts(rate)+' points';
+      }
+
+      if(INV<=0){
+        [annualEl,monthlyEl,perCaseEl,saveEl].forEach(function(e){ e.textContent='--'; });
+        annualSub.textContent='Enter your average inventory value to cost the rate';
+        monthlySub.textContent='';
+        perCaseSub.textContent='';
+        saveSub.textContent='';
+        tip.innerHTML='Your rate comes to <b>'+pts(rate)+'%</b>. Add your <b>average inventory value</b> to turn that into dollars a year, a month and a case.';
+        return;
+      }
+
+      var monthly  = cents(annual/12);
+      var perCase  = K>0 ? cents(annual/K) : 0;
+      var save10   = cents(annual*0.10);
+      var lowerInv = cents(INV*0.90);
+
+      annualEl.textContent = money(annual);
+      annualSub.textContent = pts(rate)+'% of '+money(INV)+' of average inventory';
+      monthlyEl.textContent = money(monthly);
+      monthlySub.textContent = money(annual)+' a year across 12 months';
+      perCaseEl.textContent = K>0 ? money2(perCase) : '--';
+      perCaseSub.textContent = K>0
+        ? money(annual)+' across '+tidy(K)+' cases a year'
+        : 'Enter cases a year to cost one case';
+      saveEl.textContent = money(save10);
+      saveSub.textContent = 'Saved a year, with average inventory at '+money(lowerInv);
+
+      // The teaching tip: the 25% rule of thumb is a dry goods number. Spoilage
+      // is the line that pushes a food distributor past it, and it is also the
+      // only one on the list that answers to how you buy.
+      if(spo>0 && rate>25){
+        tip.innerHTML='At <b>'+pts(rate)+'%</b> the textbook 25% rule of thumb understates what your stock costs you, and the reason is <b>shrink and spoilage at '+pts(spo)+' points</b>, worth <b>'+money(comps[2].cost)+'</b> a year on its own. A dry goods distributor can use the textbook number. You carry product with a date on it, so you cannot.';
+      } else if(rate>25){
+        tip.innerHTML='At <b>'+pts(rate)+'%</b> you are already past the textbook 25%, and the line doing it is <b>'+comps[topIdx].label.toLowerCase()+' at '+pts(comps[topIdx].p)+' points</b>, worth <b>'+money(comps[topIdx].cost)+'</b> a year. You have shrink and spoilage at zero, which no food distributor gets to claim.';
+      } else {
+        tip.innerHTML='At <b>'+pts(rate)+'%</b> you are at or under the textbook 25%, which is worth a second look at <b>shrink and spoilage</b>. You have it at '+pts(spo)+' points, and the product that leaves as waste never arrives as an invoice, so it is the line distributors set too low most often.';
+      }
+    }
+
+    function syncSlider(){ var v=parseFloat(capital.value); if(isFinite(v)) capitalSlider.value=Math.max(0,Math.min(20,v)); }
+    [inv,cases,storage,spoil,insurance,obsolescence].forEach(function(el){ el.addEventListener('input', calc); });
+    capital.addEventListener('input', function(){ syncSlider(); calc(); });
+    capitalSlider.addEventListener('input', function(){ capital.value=capitalSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "carrying-cost",
+  "rootId": "vos-q-carrying-cost",
+  "calcRootId": "vos-carrycost",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "carrying-cost-s1",
+    "carrying-cost-s2",
+    "carrying-cost-s3",
+    "carrying-cost-s4",
+    "carrying-cost-s5",
+    "carrying-cost-s6"
+  ],
+  "gateId": "carrying-cost-gate",
+  "resultsId": "carrying-cost-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter an inventory value above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-cc-inv",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-cc-cases",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-cc-capital",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-cc-storage",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-cc-spoil",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-cc-ins",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-cc-obs",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "writeoffs",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "slowmovers",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-cc-inv",
+      "calcId": "vos-cc-inv",
+      "qid": "q-vos-cc-inv"
+    },
+    {
+      "id": "vos-cc-cases",
+      "calcId": "vos-cc-cases",
+      "qid": "q-vos-cc-cases"
+    },
+    {
+      "id": "vos-cc-capital",
+      "calcId": "vos-cc-capital",
+      "qid": "q-vos-cc-capital"
+    },
+    {
+      "id": "vos-cc-storage",
+      "calcId": "vos-cc-storage",
+      "qid": "q-vos-cc-storage"
+    },
+    {
+      "id": "vos-cc-spoil",
+      "calcId": "vos-cc-spoil",
+      "qid": "q-vos-cc-spoil"
+    },
+    {
+      "id": "vos-cc-ins",
+      "calcId": "vos-cc-ins",
+      "qid": "q-vos-cc-ins"
+    },
+    {
+      "id": "vos-cc-obs",
+      "calcId": "vos-cc-obs",
+      "qid": "q-vos-cc-obs"
+    }
+  ],
+  "groups": [
+    "situation",
+    "writeoffs",
+    "slowmovers"
+  ],
+  "autoGroups": [
+    "situation",
+    "writeoffs",
+    "slowmovers"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-cc-rate",
+      "qid": "qc-vos-cc-rate",
+      "cardId": "qcard-vos-cc-rate",
+      "qsubId": "qcs-vos-cc-rate",
+      "subFrom": "vos-cc-rate-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-cc-annual",
+      "qid": "qc-vos-cc-annual",
+      "cardId": "qcard-vos-cc-annual",
+      "qsubId": "qcs-vos-cc-annual",
+      "subFrom": "vos-cc-annual-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-cc-top",
+      "qid": "qc-vos-cc-top",
+      "cardId": "qcard-vos-cc-top",
+      "qsubId": "qcs-vos-cc-top",
+      "subFrom": "vos-cc-top-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-cc-monthly",
+      "qid": "qc-vos-cc-monthly",
+      "cardId": "qcard-vos-cc-monthly",
+      "qsubId": "qcs-vos-cc-monthly",
+      "subFrom": "vos-cc-monthly-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-cc-percase",
+      "qid": "qc-vos-cc-percase",
+      "cardId": "qcard-vos-cc-percase",
+      "qsubId": "qcs-vos-cc-percase",
+      "subFrom": "vos-cc-percase-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-cc-save",
+      "qid": "qc-vos-cc-save",
+      "cardId": "qcard-vos-cc-save",
+      "qsubId": "qcs-vos-cc-save",
+      "subFrom": "vos-cc-save-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your write-off rate against last year before using this in a budget.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "writeoffs",
+      "weights": {
+        "dont-know": 30,
+        "rough": 25,
+        "tracked": 12,
+        "tracked-by-line": 6
+      }
+    },
+    {
+      "group": "slowmovers",
+      "weights": {
+        "too-late": 25,
+        "walk-it": 21,
+        "report": 12,
+        "system-flags": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "write-offs": 15,
+        "justify-cut": 13,
+        "rule-of-thumb": 11,
+        "budget": 8
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-cc-cases",
+    "bands": [
+      [
+        200000,
+        30
+      ],
+      [
+        60000,
+        22
+      ],
+      [
+        15000,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans, f) {
+    if (read['vos-cc-rate'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to build a rate.',
+        text: 'Go back and put in an average inventory value above zero.' };
+    }
+    var rate = parseFloat(String(read['vos-cc-rate']).replace(/[^0-9.]/g, ''));
+    var spoil = f['vos-cc-spoil'] || 0;
+    if (isFinite(rate) && rate > 25) {
+      return { tone: 'is-no', title: 'Your rate is ' + read['vos-cc-rate'] + ', not 25 percent.',
+        text: 'That is ' + read['vos-cc-annual'] + ' a year, with ' + spoil + ' of the points coming '
+            + 'from spoilage alone. The rule of thumb understates you, and holding 10 percent less '
+            + 'stock would save ' + read['vos-cc-save'] + '.' };
+    }
+    return { tone: 'is-go', title: 'Your rate is ' + read['vos-cc-rate'] + '.',
+      text: 'That is ' + read['vos-cc-annual'] + ' a year, ' + read['vos-cc-percase']
+          + ' a case. The biggest single part is ' + read['vos-cc-top'] + '.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on $' + (f['vos-cc-inv'] || 0).toLocaleString('en-US') + ' of average inventory across '
+         + (f['vos-cc-cases'] || 0).toLocaleString('en-US') + ' cases a year.';
+  },
+  "echoes": []
+};
+  </script>

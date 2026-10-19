@@ -1,0 +1,380 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-retmargin');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var cost=$('vos-rm-cost'), price=$('vos-rm-price'), target=$('vos-rm-target'),
+        targetSlider=$('vos-rm-target-slider'), units=$('vos-rm-units'), cases=$('vos-rm-cases'),
+        marginEl=$('vos-rm-margin'), marginSub=$('vos-rm-margin-sub'),
+        markupEl=$('vos-rm-markup'),
+        profitEl=$('vos-rm-profit'), profitSub=$('vos-rm-profit-sub'),
+        tgtPriceEl=$('vos-rm-target-price'), tgtSub=$('vos-rm-target-sub'), tgtK=$('vos-rm-target-k'),
+        perCaseEl=$('vos-rm-percase'), perCaseSub=$('vos-rm-percase-sub'),
+        monthlyEl=$('vos-rm-monthly'), monthlySub=$('vos-rm-monthly-sub'),
+        monthlyCard=$('vos-rm-monthly-card'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-rm-cost':2.38,'vos-rm-price':3.97,'vos-rm-target':40,'vos-rm-units':12,'vos-rm-cases':500};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ return Math.round(n*100)/100; }
+
+    function calc(){
+      var C=num(cost), P=num(price), U=num(units), K=num(cases);
+      var T=parseFloat(target.value); if(!isFinite(T)||T<0) T=0; if(T>99) T=99;
+
+      if(P<=0){
+        [marginEl,markupEl,profitEl,tgtPriceEl,perCaseEl,monthlyEl].forEach(function(e){ e.textContent='--'; });
+        marginSub.textContent='Enter a shelf price to start';
+        profitSub.textContent='';
+        tgtSub.textContent='';
+        perCaseSub.textContent='';
+        monthlySub.textContent='';
+        monthlyCard.className='vos-stat';
+        tip.innerHTML='Enter the <b>cost per unit</b> and the <b>shelf price</b> to see the retail margin, the markup that matches it, and the price your target margin needs.';
+        return;
+      }
+
+      // Settle the per unit profit to whole cents first, then derive the case and
+      // monthly figures from that rounded value, so the cards reconcile on screen:
+      // shelf price minus cost equals the profit a reader can subtract themselves.
+      var profit = cents(P - C);
+      var marginPct = profit/P*100;
+      var markupPct = C>0 ? profit/C*100 : 0;
+      var perCase = cents(profit*U);
+      var monthly = perCase*K;
+      var targetPrice = T<100 ? cents(C/(1-T/100)) : 0;
+
+      marginEl.textContent = marginPct.toFixed(1)+'%';
+      marginSub.textContent = money2(profit)+' of the '+money2(P)+' shelf price';
+      markupEl.textContent = C>0 ? markupPct.toFixed(1)+'%' : '--';
+      profitEl.textContent = money2(profit);
+      profitSub.textContent = money2(P)+' less the '+money2(C)+' cost';
+      perCaseEl.textContent = money2(perCase);
+      perCaseSub.textContent = money2(profit)+' across '+(U===Math.round(U)?U:U.toFixed(1))+' units';
+      monthlyEl.textContent = money(monthly);
+      monthlySub.textContent = 'At '+Math.round(K).toLocaleString('en-US')+' cases a month';
+      monthlyCard.className = 'vos-stat ' + (profit>=0?'vos-profit':'vos-loss');
+
+      $('vos-rm-target-k').textContent = 'Shelf price for a '+(T===Math.round(T)?T:T.toFixed(1))+'% margin';
+
+      if(C<=0){
+        tgtPriceEl.textContent='--';
+        tgtSub.textContent='Enter a cost to solve for a target margin';
+      } else if(T>=100){
+        tgtPriceEl.textContent='--';
+        tgtSub.textContent='A 100% margin is not reachable, the cost never disappears';
+      } else {
+        tgtPriceEl.textContent = money2(targetPrice);
+        var gap = cents(targetPrice - P);
+        tgtSub.textContent = Math.abs(gap)<0.005
+          ? 'Your shelf price already hits the target'
+          : (gap>0 ? money2(gap)+' above your '+money2(P)+' shelf price'
+                   : money2(Math.abs(gap))+' below your '+money2(P)+' shelf price');
+      }
+
+      // The teaching tip: margin and markup are different measures of the same money.
+      if(C<=0){
+        tip.innerHTML='Enter a <b>cost per unit</b> so the calculator can work out the markup and the price your target margin needs.';
+      } else if(profit<0){
+        tip.innerHTML='That shelf price sits <b>'+money2(Math.abs(profit))+'</b> below the '+money2(C)+' cost, so the unit loses money every time it scans. A '+(T===Math.round(T)?T:T.toFixed(1))+'% margin would need <b>'+money2(targetPrice)+'</b>.';
+      } else {
+        var gapPerUnit = cents(markupPct/100*C - marginPct/100*C);
+        tip.innerHTML='A <b>'+marginPct.toFixed(1)+'%</b> retail margin is a <b>'+markupPct.toFixed(1)+'%</b> markup, not a '+marginPct.toFixed(0)+'% one. That gap is the whole reason to calculate retail margin on the shelf price rather than the cost: ask a buyer for "'+marginPct.toFixed(0)+'%" and you will each mean a different number, about <b>'+money2(Math.abs(gapPerUnit))+'</b> a unit apart.';
+      }
+    }
+
+    function syncSlider(){ var v=parseFloat(target.value); if(isFinite(v)) targetSlider.value=Math.max(0,Math.min(80,v)); }
+    [cost,price,units,cases].forEach(function(el){ el.addEventListener('input', calc); });
+    target.addEventListener('input', function(){ syncSlider(); calc(); });
+    targetSlider.addEventListener('input', function(){ target.value=targetSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "retail-margin",
+  "rootId": "vos-q-retail-margin",
+  "calcRootId": "vos-retmargin",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "retail-margin-s1",
+    "retail-margin-s2",
+    "retail-margin-s3",
+    "retail-margin-s4",
+    "retail-margin-s5",
+    "retail-margin-s6"
+  ],
+  "gateId": "retail-margin-gate",
+  "resultsId": "retail-margin-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a shelf price above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-rm-cost",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-rm-price",
+          "positive": true,
+          "min0": false
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-rm-target",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-rm-units",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-rm-cases",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "whoworks",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "intake",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-rm-cost",
+      "calcId": "vos-rm-cost",
+      "qid": "q-vos-rm-cost"
+    },
+    {
+      "id": "vos-rm-price",
+      "calcId": "vos-rm-price",
+      "qid": "q-vos-rm-price"
+    },
+    {
+      "id": "vos-rm-target",
+      "calcId": "vos-rm-target",
+      "qid": "q-vos-rm-target"
+    },
+    {
+      "id": "vos-rm-units",
+      "calcId": "vos-rm-units",
+      "qid": "q-vos-rm-units"
+    },
+    {
+      "id": "vos-rm-cases",
+      "calcId": "vos-rm-cases",
+      "qid": "q-vos-rm-cases"
+    }
+  ],
+  "groups": [
+    "situation",
+    "whoworks",
+    "intake"
+  ],
+  "autoGroups": [
+    "situation",
+    "whoworks",
+    "intake"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-rm-margin",
+      "qid": "qc-vos-rm-margin",
+      "cardId": "qcard-vos-rm-margin",
+      "qsubId": "qcs-vos-rm-margin",
+      "subFrom": "vos-rm-margin-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-rm-markup",
+      "qid": "qc-vos-rm-markup",
+      "cardId": "qcard-vos-rm-markup",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-rm-target-price",
+      "qid": "qc-vos-rm-target-price",
+      "cardId": "qcard-vos-rm-target-price",
+      "qsubId": "qcs-vos-rm-target-price",
+      "subFrom": "vos-rm-target-sub",
+      "kId": "qck-vos-rm-target-price",
+      "kFrom": "vos-rm-target-k",
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-rm-profit",
+      "qid": "qc-vos-rm-profit",
+      "cardId": "qcard-vos-rm-profit",
+      "qsubId": "qcs-vos-rm-profit",
+      "subFrom": "vos-rm-profit-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-rm-percase",
+      "qid": "qc-vos-rm-percase",
+      "cardId": "qcard-vos-rm-percase",
+      "qsubId": "qcs-vos-rm-percase",
+      "subFrom": "vos-rm-percase-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-rm-monthly",
+      "qid": "qc-vos-rm-monthly",
+      "cardId": "qcard-vos-rm-monthly",
+      "qsubId": "qcs-vos-rm-monthly",
+      "subFrom": "vos-rm-monthly-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-rm-monthly-card",
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm the unit cost and pack count before quoting a shelf price.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "intake",
+      "weights": {
+        "phone-voicemail": 30,
+        "mixed": 26,
+        "email-text": 20,
+        "portal-edi": 8
+      }
+    },
+    {
+      "group": "whoworks",
+      "weights": {
+        "rep-head": 25,
+        "office": 18,
+        "spreadsheet": 14,
+        "system": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "buyer-number": 15,
+        "new-listing": 13,
+        "shelf-check": 11,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-rm-cases",
+    "bands": [
+      [
+        5000,
+        30
+      ],
+      [
+        1000,
+        22
+      ],
+      [
+        250,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-rm-margin'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to work it out.',
+        text: 'Go back and put in a shelf price above zero.' };
+    }
+    if (ans.whoworks === 'rep-head') {
+      return { tone: 'is-no', title: read['vos-rm-margin'] + ' margin is a ' + read['vos-rm-markup'] + ' markup.',
+        text: 'Two numbers, one deal, and right now a rep is converting between them in their head '
+            + 'while a buyer waits. That is where a quote goes out at the wrong figure.' };
+    }
+    return { tone: 'is-go', title: read['vos-rm-margin'] + ' margin is a ' + read['vos-rm-markup'] + ' markup.',
+      text: 'Same deal, two numbers. It leaves ' + read['vos-rm-profit'] + ' a unit, '
+          + read['vos-rm-percase'] + ' a case, ' + read['vos-rm-monthly'] + ' a month.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-rm-cost'] || 0) + ' dollar unit shelving at '
+         + (f['vos-rm-price'] || 0) + ', ' + (f['vos-rm-units'] || 0) + ' to a case.';
+  },
+  "echoes": []
+};
+  </script>

@@ -1,0 +1,445 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-purchprice');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var list=$('vos-pp-list'), freight=$('vos-pp-freight'),
+        vol=$('vos-pp-volume'), volSlider=$('vos-pp-volume-slider'), early=$('vos-pp-early'),
+        discDays=$('vos-pp-discdays'), netDays=$('vos-pp-netdays'), cases=$('vos-pp-cases'),
+        netEl=$('vos-pp-net'), netSub=$('vos-pp-net-sub'),
+        afterEl=$('vos-pp-after'), afterSub=$('vos-pp-after-sub'),
+        offEl=$('vos-pp-off'), offSub=$('vos-pp-off-sub'), offCard=$('vos-pp-off-card'),
+        spendEl=$('vos-pp-spend'), spendSub=$('vos-pp-spend-sub'),
+        saveEl=$('vos-pp-save'), saveSub=$('vos-pp-save-sub'), saveCard=$('vos-pp-save-card'),
+        aprEl=$('vos-pp-apr'), aprK=$('vos-pp-apr-k'), aprSub=$('vos-pp-apr-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-pp-list':24.00,'vos-pp-freight':1.40,'vos-pp-volume':6,'vos-pp-early':2,
+                  'vos-pp-discdays':10,'vos-pp-netdays':30,'vos-pp-cases':6000};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function pctOf(el,cap){ var v=parseFloat(el.value); if(!isFinite(v)||v<0) v=0; if(v>cap) v=cap; return v; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ if(!isFinite(n)) n=0; return Math.round(n*100)/100; }
+    function qty(n){ if(!isFinite(n)) n=0; return Math.round(n).toLocaleString('en-US'); }
+    function whole(n){ if(!isFinite(n)) n=0; return n===Math.round(n)?String(n):n.toFixed(1); }
+    function dayWord(n){ return whole(n)+' day'+(n===1?'':'s'); }
+
+    function calc(){
+      var L=cents(num(list)), F=cents(num(freight)), K=Math.round(num(cases));
+      var V=pctOf(vol,90), E=pctOf(early,50);
+      var DD=Math.round(num(discDays)), ND=Math.round(num(netDays));
+
+      if(L<=0){
+        [netEl,afterEl,offEl,spendEl,saveEl,aprEl].forEach(function(e){ e.textContent='--'; });
+        netSub.textContent='Enter a list price per case to start';
+        afterSub.textContent=''; offSub.textContent=''; spendSub.textContent=''; saveSub.textContent='';
+        aprK.textContent='Annualized value of the early pay terms'; aprSub.textContent='';
+        offCard.className='vos-stat'; saveCard.className='vos-stat';
+        tip.innerHTML='Enter the <b>list price per case</b> and the discounts you have earned to see the purchase price you are actually paying.';
+        return;
+      }
+
+      // Settle every step to whole cents before the next step is built on it, so
+      // the cards reconcile on screen: the net price less the freight is the
+      // discounted price, and the list less that discounted price is the saving.
+      var afterVol   = cents(L*(1-V/100));
+      var afterEarly = cents(afterVol*(1-E/100));
+      var net        = cents(afterEarly + F);
+      var off        = cents(L - afterEarly);
+      var offPct     = off/L*100;
+      var spend      = net*K;
+      // Derive the early pay saving from the two SETTLED prices on screen, not
+      // from the unrounded 2% of 22.56 (0.4512). A reader subtracting the two
+      // cards gets 0.45 a case, so the monthly card has to be 0.45 x K = 2,700,
+      // not 2,707. Same settle-to-cents rule that fixed the material-markup card.
+      var savePerCase = cents(afterVol - afterEarly);
+      var saveMonth   = savePerCase*K;
+      var payDays    = ND - DD;
+      var apr        = (E>0 && payDays>0) ? (E/(100-E))*(365/payDays)*100 : 0;
+
+      netEl.textContent  = money2(net);
+      netSub.textContent = money2(afterEarly)+' after both discounts, plus '+money2(F)+' of freight';
+
+      afterEl.textContent = money2(afterEarly);
+      if(V>0 && E>0){
+        afterSub.textContent = money2(L)+' list, less '+whole(V)+'% volume, then '+whole(E)+'% early pay';
+      } else if(V>0){
+        afterSub.textContent = money2(L)+' list, less the '+whole(V)+'% volume discount';
+      } else if(E>0){
+        afterSub.textContent = money2(L)+' list, less the '+whole(E)+'% early pay discount';
+      } else {
+        afterSub.textContent = 'Nothing comes off the '+money2(L)+' list price';
+      }
+
+      offEl.textContent = offPct.toFixed(1)+'%';
+      if(F>off){
+        offSub.textContent = 'The '+money2(F)+' of freight is more than the '+money2(off)+' you got off list';
+        offCard.className  = 'vos-stat vos-loss';
+      } else {
+        offSub.textContent = money2(off)+' a case off list, against '+money2(F)+' of freight';
+        offCard.className  = 'vos-stat';
+      }
+
+      spendEl.textContent  = money(spend);
+      spendSub.textContent = qty(K)+' cases at '+money2(net)+', freight in';
+
+      if(E>0){
+        saveEl.textContent  = money(saveMonth);
+        saveSub.textContent = money2(savePerCase)+' a case, the '+money2(afterVol)+' volume price less '+money2(afterEarly)+', across '+qty(K)+' cases';
+        saveCard.className  = 'vos-stat vos-profit';
+      } else {
+        saveEl.textContent  = '--';
+        saveSub.textContent = 'No early pay discount on this item';
+        saveCard.className  = 'vos-stat';
+      }
+
+      if(E<=0){
+        aprK.textContent   = 'Annualized value of the early pay terms';
+        aprEl.textContent  = '--';
+        aprSub.textContent = 'Nothing comes off for paying early, so there is nothing to annualize';
+      } else if(payDays<=0){
+        aprK.textContent   = 'Annualized value of the early pay terms';
+        aprEl.textContent  = '--';
+        aprSub.textContent = 'The discount window is not shorter than the net terms, so paying early buys no time';
+      } else {
+        aprK.textContent   = 'Annualized value of '+whole(E)+'/'+DD+' net '+ND;
+        aprEl.textContent  = apr>=1000 ? qty(apr)+'%' : apr.toFixed(1)+'%';
+        aprSub.textContent = 'Keeping '+whole(E)+'% to pay '+dayWord(payDays)+' early';
+      }
+
+      // The teaching moment: an early pay discount is a rate of interest, and it
+      // is almost always a higher one than anything you can borrow at.
+      var t;
+      if(E<=0){
+        t = 'Nothing is coming off for paying early, so the purchase price is the <b>'+money2(L)+'</b> list less the '+whole(V)+'% volume discount, plus '+money2(F)+' of freight. Early pay terms are the easiest discount to ask for, because the supplier keeps the price list intact and you keep the cash cycle.';
+      } else if(payDays<=0){
+        t = 'A '+whole(E)+'% discount for paying on the day the invoice is due anyway is not a discount, it is the price. Terms are only worth something when the discount window is shorter than the net terms, so get the '+DD+' day window inside the '+ND+' day terms.';
+      } else if(apr>=15){
+        t = 'Taking <b>'+whole(E)+'/'+DD+' net '+ND+'</b> is worth <b>'+apr.toFixed(1)+'%</b> a year on the money, which is <b>'+money(saveMonth)+'</b> a month at this volume. There is no cheaper money than that, so clear the early pay invoices before you borrow for anything else.';
+      } else {
+        t = 'These terms annualize to <b>'+apr.toFixed(1)+'%</b>, which is thin. Worth taking when the cash is sitting idle, not worth drawing on a line of credit for, and worth a conversation about the '+DD+' day window before the price list moves again.';
+      }
+      tip.innerHTML = t;
+    }
+
+    function syncSlider(){ var v=parseFloat(vol.value); if(isFinite(v)) volSlider.value=Math.max(0,Math.min(25,v)); }
+    [list,freight,early,discDays,netDays,cases].forEach(function(el){ el.addEventListener('input', calc); });
+    vol.addEventListener('input', function(){ syncSlider(); calc(); });
+    volSlider.addEventListener('input', function(){ vol.value=volSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "purchase-price",
+  "rootId": "vos-q-purchase-price",
+  "calcRootId": "vos-purchprice",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "purchase-price-s1",
+    "purchase-price-s2",
+    "purchase-price-s3",
+    "purchase-price-s4",
+    "purchase-price-s5",
+    "purchase-price-s6"
+  ],
+  "gateId": "purchase-price-gate",
+  "resultsId": "purchase-price-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a list price above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-pp-list",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pp-freight",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-pp-volume",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-pp-early",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Those cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-pp-discdays",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-pp-netdays",
+          "positive": false,
+          "min0": true
+        },
+        {
+          "qid": "q-vos-pp-cases",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "invoices",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "buyagainst",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-pp-list",
+      "calcId": "vos-pp-list",
+      "qid": "q-vos-pp-list"
+    },
+    {
+      "id": "vos-pp-freight",
+      "calcId": "vos-pp-freight",
+      "qid": "q-vos-pp-freight"
+    },
+    {
+      "id": "vos-pp-volume",
+      "calcId": "vos-pp-volume",
+      "qid": "q-vos-pp-volume"
+    },
+    {
+      "id": "vos-pp-early",
+      "calcId": "vos-pp-early",
+      "qid": "q-vos-pp-early"
+    },
+    {
+      "id": "vos-pp-discdays",
+      "calcId": "vos-pp-discdays",
+      "qid": "q-vos-pp-discdays"
+    },
+    {
+      "id": "vos-pp-netdays",
+      "calcId": "vos-pp-netdays",
+      "qid": "q-vos-pp-netdays"
+    },
+    {
+      "id": "vos-pp-cases",
+      "calcId": "vos-pp-cases",
+      "qid": "q-vos-pp-cases"
+    }
+  ],
+  "groups": [
+    "situation",
+    "invoices",
+    "buyagainst"
+  ],
+  "autoGroups": [
+    "situation",
+    "invoices",
+    "buyagainst"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-pp-apr",
+      "qid": "qc-vos-pp-apr",
+      "cardId": "qcard-vos-pp-apr",
+      "qsubId": "qcs-vos-pp-apr",
+      "subFrom": "vos-pp-apr-sub",
+      "kId": "qck-vos-pp-apr",
+      "kFrom": "vos-pp-apr-k",
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-pp-net",
+      "qid": "qc-vos-pp-net",
+      "cardId": "qcard-vos-pp-net",
+      "qsubId": "qcs-vos-pp-net",
+      "subFrom": "vos-pp-net-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pp-after",
+      "qid": "qc-vos-pp-after",
+      "cardId": "qcard-vos-pp-after",
+      "qsubId": "qcs-vos-pp-after",
+      "subFrom": "vos-pp-after-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pp-off",
+      "qid": "qc-vos-pp-off",
+      "cardId": "qcard-vos-pp-off",
+      "qsubId": "qcs-vos-pp-off",
+      "subFrom": "vos-pp-off-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-pp-off-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-pp-save",
+      "qid": "qc-vos-pp-save",
+      "cardId": "qcard-vos-pp-save",
+      "qsubId": "qcs-vos-pp-save",
+      "subFrom": "vos-pp-save-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-pp-save-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-pp-spend",
+      "qid": "qc-vos-pp-spend",
+      "cardId": "qcard-vos-pp-spend",
+      "qsubId": "qcs-vos-pp-spend",
+      "subFrom": "vos-pp-spend-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm the discount terms on the supplier agreement.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "buyagainst",
+      "weights": {
+        "memory": 30,
+        "last-month": 26,
+        "par": 16,
+        "actual-orders": 8
+      }
+    },
+    {
+      "group": "invoices",
+      "weights": {
+        "paper": 25,
+        "email-pdf": 20,
+        "portal": 12,
+        "edi": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "offered-terms": 15,
+        "cash-tight": 14,
+        "negotiating": 11,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-pp-cases",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        6000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-pp-net'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to price it.',
+        text: 'Go back and put in a list price above zero.' };
+    }
+    var apr = String(read['vos-pp-apr'] || '');
+    if (apr === '--') {
+      return { tone: 'is-go', title: 'The case lands at ' + read['vos-pp-net'] + '.',
+        text: 'There are no early pay terms here to annualize, so this is simply what you pay once '
+            + 'the volume discount and freight are both in.' };
+    }
+    if (ans.invoices === 'paper' || ans.invoices === 'email-pdf') {
+      return { tone: 'is-go', title: 'Those terms are worth ' + apr + ' a year.',
+        text: 'Cheaper than any line of credit, and worth ' + read['vos-pp-save']
+            + ' a month. The catch is that the window starts when the invoice is dated, not when it '
+            + 'reaches whoever pays it.' };
+    }
+    return { tone: 'is-go', title: 'Those terms are worth ' + apr + ' a year.',
+      text: 'Taking them brings the case to ' + read['vos-pp-net'] + ' and is worth '
+          + read['vos-pp-save'] + ' a month, which is cheaper than borrowing the same cash.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-pp-list'] || 0) + ' dollar list price across '
+         + (f['vos-pp-cases'] || 0).toLocaleString('en-US') + ' cases a month.';
+  },
+  "echoes": []
+};
+  </script>

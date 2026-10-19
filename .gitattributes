@@ -1,0 +1,3 @@
+# Embed sources are compared byte for byte with what is stored in Webflow (verify_code.py): keep LF
+_webflow/quiz-v2/** text eol=lf
+_webflow/faq-accordion-embed.html text eol=lf

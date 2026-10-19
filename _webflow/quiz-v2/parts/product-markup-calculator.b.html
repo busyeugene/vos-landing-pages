@@ -1,0 +1,345 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-prodmarkup');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var cost=$('vos-pm-cost'), cases=$('vos-pm-cases'), target=$('vos-pm-target'),
+        targetSlider=$('vos-pm-target-slider'),
+        markupEl=$('vos-pm-markup'), markupSub=$('vos-pm-markup-sub'), targetK=$('vos-pm-target-k'),
+        priceEl=$('vos-pm-price'), priceSub=$('vos-pm-price-sub'),
+        profitEl=$('vos-pm-profit'), profitSub=$('vos-pm-profit-sub'),
+        monthlyEl=$('vos-pm-monthly'), monthlySub=$('vos-pm-monthly-sub'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-pm-cost':22.00,'vos-pm-target':30,'vos-pm-cases':6000};
+
+    // The ladder rungs are fixed, so the card labels are static and only the
+    // price and the margin sub-line move.
+    var RUNGS=[20,30,40,50];
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ return Math.round(n*100)/100; }
+    function tidy(n){ return n===Math.round(n) ? Math.round(n).toLocaleString('en-US') : n.toFixed(1); }
+
+    function calc(){
+      var C=num(cost), K=num(cases);
+      var T=parseFloat(target.value); if(!isFinite(T)||T<0) T=0; if(T>99) T=99;
+      var keep=(100-T)/100;
+
+      targetK.textContent = 'Markup for a '+tidy(T)+'% margin';
+
+      // Settle each ladder price to whole cents first, then take the profit and
+      // the margin off that rounded price, so a reader who subtracts the cost
+      // from the price on screen gets exactly the profit on the sub-line.
+      var topMarginPct = 0;
+      RUNGS.forEach(function(m){
+        var vEl=$('vos-pm-r'+m), sEl=$('vos-pm-r'+m+'-sub');
+        if(C<=0){ vEl.textContent='--'; sEl.textContent=''; return; }
+        var rungPrice  = cents(C*(1+m/100));
+        var rungProfit = cents(rungPrice - C);
+        var rungMargin = rungPrice>0 ? rungProfit/rungPrice*100 : 0;
+        vEl.textContent = money2(rungPrice);
+        sEl.textContent = rungMargin.toFixed(1)+'% margin, '+money2(rungProfit)+' a case';
+        if(m===RUNGS[RUNGS.length-1]) topMarginPct = rungMargin;
+      });
+
+      if(C<=0){
+        [markupEl,priceEl,profitEl,monthlyEl].forEach(function(e){ e.textContent='--'; });
+        markupSub.textContent='Enter a cost per case to start';
+        priceSub.textContent='';
+        profitSub.textContent='';
+        monthlySub.textContent='';
+        tip.innerHTML='Enter the <b>cost per case</b> to see the price at every markup on the ladder, the margin each one really keeps, and the markup your target margin needs.';
+        return;
+      }
+
+      var markupPct = (1/keep - 1)*100;
+      var price     = cents(C/keep);
+      var profit    = cents(price - C);
+      var monthly   = profit*K;
+
+      markupEl.textContent = markupPct.toFixed(1)+'%';
+      markupSub.textContent = T>0
+        ? 'A '+tidy(T)+'% margin always needs a bigger markup than '+tidy(T)+'%'
+        : 'At a 0% margin the price is just the cost';
+      priceEl.textContent = money2(price);
+      priceSub.textContent = money2(C)+' divided by '+keep.toFixed(2)+', which leaves the '+tidy(T)+'% margin';
+      profitEl.textContent = money2(profit);
+      profitSub.textContent = money2(price)+' less the '+money2(C)+' cost';
+      monthlyEl.textContent = money(monthly);
+      monthlySub.textContent = K>0 ? 'At '+tidy(K)+' cases a month' : 'Enter the cases per month to see a month';
+
+      // The teaching tip: a markup number and a margin number are never the same
+      // number, which is how "we run 50%" turns into a 33.3% margin on the books.
+      tip.innerHTML='Every markup on the ladder reads higher than the margin it produces. A <b>'+RUNGS[RUNGS.length-1]+'%</b> markup is a <b>'+topMarginPct.toFixed(1)+'%</b> margin, so "we run '+RUNGS[RUNGS.length-1]+'%" and "we make '+RUNGS[RUNGS.length-1]+'%" are different sentences.'
+          + (T>0 ? ' Holding a <b>'+tidy(T)+'%</b> margin takes a <b>'+markupPct.toFixed(1)+'%</b> markup.' : '');
+    }
+
+    function syncSlider(){ var v=parseFloat(target.value); if(isFinite(v)) targetSlider.value=Math.max(0,Math.min(80,v)); }
+    [cost,cases].forEach(function(el){ el.addEventListener('input', calc); });
+    target.addEventListener('input', function(){ syncSlider(); calc(); });
+    targetSlider.addEventListener('input', function(){ target.value=targetSlider.value; calc(); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      syncSlider(); calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "product-markup",
+  "rootId": "vos-q-product-markup",
+  "calcRootId": "vos-prodmarkup",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "product-markup-s1",
+    "product-markup-s2",
+    "product-markup-s3",
+    "product-markup-s4",
+    "product-markup-s5"
+  ],
+  "gateId": "product-markup-gate",
+  "resultsId": "product-markup-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a cost above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-pm-cost",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pm-cases",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-pm-target",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "whoquotes",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "intake",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-pm-cost",
+      "calcId": "vos-pm-cost",
+      "qid": "q-vos-pm-cost"
+    },
+    {
+      "id": "vos-pm-cases",
+      "calcId": "vos-pm-cases",
+      "qid": "q-vos-pm-cases"
+    },
+    {
+      "id": "vos-pm-target",
+      "calcId": "vos-pm-target",
+      "qid": "q-vos-pm-target"
+    }
+  ],
+  "groups": [
+    "situation",
+    "whoquotes",
+    "intake"
+  ],
+  "autoGroups": [
+    "situation",
+    "whoquotes",
+    "intake"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-pm-markup",
+      "qid": "qc-vos-pm-markup",
+      "cardId": "qcard-vos-pm-markup",
+      "qsubId": "qcs-vos-pm-markup",
+      "subFrom": "vos-pm-markup-sub",
+      "kId": "qck-vos-pm-markup",
+      "kFrom": "vos-pm-target-k",
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-pm-price",
+      "qid": "qc-vos-pm-price",
+      "cardId": "qcard-vos-pm-price",
+      "qsubId": "qcs-vos-pm-price",
+      "subFrom": "vos-pm-price-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pm-profit",
+      "qid": "qc-vos-pm-profit",
+      "cardId": "qcard-vos-pm-profit",
+      "qsubId": "qcs-vos-pm-profit",
+      "subFrom": "vos-pm-profit-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pm-monthly",
+      "qid": "qc-vos-pm-monthly",
+      "cardId": "qcard-vos-pm-monthly",
+      "qsubId": "qcs-vos-pm-monthly",
+      "subFrom": "vos-pm-monthly-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pm-r30",
+      "qid": "qc-vos-pm-r30",
+      "cardId": "qcard-vos-pm-r30",
+      "qsubId": "qcs-vos-pm-r30",
+      "subFrom": "vos-pm-r30-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pm-r50",
+      "qid": "qc-vos-pm-r50",
+      "cardId": "qcard-vos-pm-r50",
+      "qsubId": "qcs-vos-pm-r50",
+      "subFrom": "vos-pm-r50-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm your landed cost before repricing a line.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "intake",
+      "weights": {
+        "phone-voicemail": 30,
+        "mixed": 26,
+        "email-text": 20,
+        "portal-edi": 8
+      }
+    },
+    {
+      "group": "whoquotes",
+      "weights": {
+        "rep": 25,
+        "owner": 18,
+        "pricelist": 12,
+        "system": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "target-margin": 15,
+        "checking": 13,
+        "new-line": 11,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-pm-cases",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        6000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans, f) {
+    if (read['vos-pm-markup'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to work it out.',
+        text: 'Go back and put in a cost per case above zero.' };
+    }
+    var target = f['vos-pm-target'] || 0;
+    if (ans.whoquotes === 'rep' || ans.whoquotes === 'owner') {
+      return { tone: 'is-no', title: 'A ' + target + ' percent margin needs a ' + read['vos-pm-markup'] + ' markup.',
+        text: 'Those are two different numbers for the same deal, and right now someone is converting '
+            + 'between them while a customer waits. Quote the markup, not the margin.' };
+    }
+    return { tone: 'is-go', title: 'A ' + target + ' percent margin needs a ' + read['vos-pm-markup'] + ' markup.',
+      text: 'That prices the case at ' + read['vos-pm-price'] + ' and keeps ' + read['vos-pm-profit']
+          + ', which is ' + read['vos-pm-monthly'] + ' a month at this volume.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on a ' + (f['vos-pm-cost'] || 0) + ' dollar case at '
+         + (f['vos-pm-cases'] || 0).toLocaleString('en-US') + ' cases a month.';
+  },
+  "echoes": []
+};
+  </script>

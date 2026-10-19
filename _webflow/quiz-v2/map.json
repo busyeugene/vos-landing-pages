@@ -1,0 +1,232 @@
+{
+ "accounts-receivable-turnover-calculator": {
+  "pageId": "6ac72b932e36cb4efe865399",
+  "quiz": "ar-turnover",
+  "root": "vos-q-ar-turnover",
+  "oldAnchor": "vos-ar",
+  "sizes": [
+   27809,
+   12192
+  ]
+ },
+ "inventory-carrying-cost-calculator": {
+  "pageId": "6ac7866e071fb41c4807eab0",
+  "quiz": "carrying-cost",
+  "root": "vos-q-carrying-cost",
+  "oldAnchor": "vos-carrycost",
+  "sizes": [
+   31526,
+   15442
+  ]
+ },
+ "delivery-cost-calculator": {
+  "pageId": "6ac7652b0d7b366d7fd65177",
+  "quiz": "delivery-cost",
+  "root": "vos-q-delivery-cost",
+  "oldAnchor": "vos-delivery",
+  "sizes": [
+   31041,
+   13143
+  ]
+ },
+ "food-markup-calculator": {
+  "pageId": "6ac79be2180bc9b3c91fb79c",
+  "quiz": "food-markup",
+  "root": "vos-q-food-markup",
+  "oldAnchor": "vos-foodmarkup",
+  "sizes": [
+   28366,
+   13580
+  ]
+ },
+ "inventory-turnover-calculator": {
+  "pageId": "6ac7252ae188e18d1d906bba",
+  "quiz": "inventory-turnover",
+  "root": "vos-q-inventory-turnover",
+  "oldAnchor": "vos-invturn",
+  "sizes": [
+   26342,
+   9410
+  ]
+ },
+ "marginal-cost-calculator": {
+  "pageId": "6ac69810ef654fbdecf37f4b",
+  "quiz": "marginal-cost",
+  "root": "vos-q-marginal-cost",
+  "oldAnchor": "vos-marginal",
+  "sizes": [
+   28410,
+   13309
+  ]
+ },
+ "material-markup-calculator": {
+  "pageId": "6ac72b95bdfb92fbc692e782",
+  "quiz": "material-markup",
+  "root": "vos-q-material-markup",
+  "oldAnchor": "vos-markup",
+  "sizes": [
+   29886,
+   13953
+  ]
+ },
+ "par-level-calculator": {
+  "pageId": "6ac79be1b863c26cbc96979a",
+  "quiz": "par-level",
+  "root": "vos-q-par-level",
+  "oldAnchor": "vos-parlevel",
+  "sizes": [
+   28181,
+   13820
+  ]
+ },
+ "price-change-calculator": {
+  "pageId": "6ac735253fe7317c927e4447",
+  "quiz": "price-change",
+  "root": "vos-q-price-change",
+  "oldAnchor": "vos-pricechg",
+  "sizes": [
+   25994,
+   12746
+  ]
+ },
+ "landed-cost-calculator": {
+  "pageId": "6ac7652962cd713ecd056f43",
+  "quiz": "price-comparison",
+  "root": "vos-q-price-comparison",
+  "oldAnchor": "vos-pricecomp",
+  "sizes": [
+   31998,
+   15792
+  ]
+ },
+ "purchase-price-variance-calculator": {
+  "pageId": "6ac7866c27806c8148c2855e",
+  "quiz": "price-variance",
+  "root": "vos-q-price-variance",
+  "oldAnchor": "vos-pricevar",
+  "sizes": [
+   25488,
+   12364
+  ]
+ },
+ "procurement-savings-calculator": {
+  "pageId": "6ac78670c218082afa38ac6f",
+  "quiz": "procurement-savings",
+  "root": "vos-q-procurement-savings",
+  "oldAnchor": "vos-procsave",
+  "sizes": [
+   27935,
+   13698
+  ]
+ },
+ "product-markup-calculator": {
+  "pageId": "6ac7866ff16ee3a82e89dd76",
+  "quiz": "product-markup",
+  "root": "vos-q-product-markup",
+  "oldAnchor": "vos-prodmarkup",
+  "sizes": [
+   26082,
+   10915
+  ]
+ },
+ "product-pricing-calculator": {
+  "pageId": "6ac718c668be300e93fb7203",
+  "quiz": "product-pricing",
+  "root": "vos-q-product-pricing",
+  "oldAnchor": "vos-pricing",
+  "sizes": [
+   27184,
+   10854
+  ]
+ },
+ "early-payment-discount-calculator": {
+  "pageId": "6ac79be4b863c26cbc9698b6",
+  "quiz": "purchase-price",
+  "root": "vos-q-purchase-price",
+  "oldAnchor": "vos-purchprice",
+  "sizes": [
+   30120,
+   15392
+  ]
+ },
+ "reorder-point-calculator": {
+  "pageId": "6ac7652a2a715d3e702a0559",
+  "quiz": "reorder-point",
+  "root": "vos-q-reorder-point",
+  "oldAnchor": "vos-reorder",
+  "sizes": [
+   28114,
+   12971
+  ]
+ },
+ "retail-margin-calculator": {
+  "pageId": "6ac76528743f1f2a6f8ae6e6",
+  "quiz": "retail-margin",
+  "root": "vos-q-retail-margin",
+  "oldAnchor": "vos-retmargin",
+  "sizes": [
+   27762,
+   12286
+  ]
+ },
+ "safety-stock-calculator": {
+  "pageId": "6ac735249b6f12d26ba60ce1",
+  "quiz": "safety-stock",
+  "root": "vos-q-safety-stock",
+  "oldAnchor": "vos-safety",
+  "sizes": [
+   30575,
+   12301
+  ]
+ },
+ "unit-price-calculator": {
+  "pageId": "6ac72b948f277e012d8d7584",
+  "quiz": "unit-price",
+  "root": "vos-q-unit-price",
+  "oldAnchor": "vos-unit",
+  "sizes": [
+   27090,
+   10927
+  ]
+ },
+ "warehouse-size-calculator": {
+  "pageId": "6ac72b9663b2850d53a5f878",
+  "quiz": "warehouse-size",
+  "root": "vos-q-warehouse-size",
+  "oldAnchor": "vos-wsize",
+  "sizes": [
+   28139,
+   10674
+  ]
+ },
+ "warehouse-space-calculator": {
+  "pageId": "6ac735232408756f9071e095",
+  "quiz": "warehouse-space",
+  "root": "vos-q-warehouse-space",
+  "oldAnchor": "vos-wspace",
+  "sizes": [
+   27499,
+   9862
+  ]
+ },
+ "wholesale-markup-calculator": {
+  "pageId": "6ac73521a469d3c306f7aa87",
+  "quiz": "wholesale-markup",
+  "root": "vos-q-wholesale-markup",
+  "oldAnchor": "vos-wmarkup",
+  "sizes": [
+   27953,
+   11862
+  ]
+ },
+ "wholesale-to-retail-markup-calculator": {
+  "pageId": "6ac73522edd07accabdbe401",
+  "quiz": "wholesale-retail",
+  "root": "vos-q-wholesale-retail",
+  "oldAnchor": "vos-w2r",
+  "sizes": [
+   26012,
+   10125
+  ]
+ }
+}

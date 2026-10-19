@@ -1,0 +1,93 @@
+== every order: 5 hits in 5 pages
+    parts\accounts-receivable-turnover-calculator |  You cannot collect on an order you keyed in wrong. VoiceOrder Solutions digitizes and confirms every order before it ships, so invoices go out clean the first time and disputes stop aging your book. 
+    parts\landed-cost-calculator | ks wrong About once a year Every quarter or so Effectively every order Pick one to carry on. Continue Back 
+    parts\material-markup-calculator |  Shrink usually starts as a bad order. VoiceOrder Solutions confirms every order before it ships and keeps inventory live, so you stop buying product nobody asked for. 
+    parts\par-level-calculator | -top:14px;} Par Level Calculator Par is the level you top up to on every order cycle, not the level that tells you to order. The par level formula is average daily usage times the days you
+    parts\price-change-calculator | u guess at. VoiceOrder Solutions keeps price lists and order guides current, so a change reaches every order the moment you make it. Book A Demo → Change my numbe
+== british: 22 hits in 7 pages
+    parts\accounts-receivable-turnover-calculator | ollect this many days sooner days A realistic improvement, not a perfect one. Those cannot be negative. 
+    parts\delivery-cost-calculator |  fuelCst + X); fuelCostEl.textContent = money2(fuelCst); fuelCostSub.textContent = G>0 ? tidy(gallons)+' gallons at '+money2(F)+' a gallon' : 'Enter miles per gallon to cost the fuel'; if(
+    parts\delivery-cost-calculator | DropEl.textContent = money2(perDrop); perDropSub.textContent = money2(total)+' of route cost across '+tidy(D)+' drops'; } else { perDropEl.textContent = '--'; perDropSub.textContent = 'Enter the
+    parts\delivery-cost-calculator | tent = K>0 ? money2(perCase) : '--'; if(K 0){ perCaseSub.textContent = money2(total)+' across '+tidy(K)+' cases, about '+tidy(Math.round(K/D))+' a drop'; } else { perCaseSub.textContent = money2(t
+    parts\delivery-cost-calculator | se) : '--'; if(K 0){ perCaseSub.textContent = money2(total)+' across '+tidy(K)+' cases, about '+tidy(Math.round(K/D))+' a drop'; } else { perCaseSub.textContent = money2(total)+' across '+tidy(K)+
+    parts\delivery-cost-calculator | t '+tidy(Math.round(K/D))+' a drop'; } else { perCaseSub.textContent = money2(total)+' across '+tidy(K)+' cases'; } perMileEl.textContent = M>0 ? money2(perMile) : '--'; perMileSub.textConten
+    parts\delivery-cost-calculator | } perMileEl.textContent = M>0 ? money2(perMile) : '--'; perMileSub.textContent = M>0 ? 'Across '+tidy(M)+' route miles' : 'Enter the route miles to cost a mile'; monthlyEl.textContent = money(monthly); 
+    parts\delivery-cost-calculator | les to cost a mile'; monthlyEl.textContent = money(monthly); monthlySub.textContent = N>0 ? 'At '+tidy(N)+' route days a month' : 'Enter the route days to see a month'; // The teaching tip: the cost of a s
+    parts\delivery-cost-calculator | htPerCase = cents(perDrop/light); tip.innerHTML='The drop costs '+money2(perDrop)+' whether it is '+tidy(light)+' cases or '+tidy(heavy)+'. At '+tidy(light)+' cases that is '+money2(lightPerCase)+' a case against
+    parts\delivery-cost-calculator | /light); tip.innerHTML='The drop costs '+money2(perDrop)+' whether it is '+tidy(light)+' cases or '+tidy(heavy)+'. At '+tidy(light)+' cases that is '+money2(lightPerCase)+' a case against a '+money2(perCase)+' 
+    parts\delivery-cost-calculator | .innerHTML='The drop costs '+money2(perDrop)+' whether it is '+tidy(light)+' cases or '+tidy(heavy)+'. At '+tidy(light)+' cases that is '+money2(lightPerCase)+' a case against a '+money2(perCase)+' average, which is wh
+    parts\inventory-carrying-cost-calculator | Content = K>0 ? money2(perCase) : '--'; perCaseSub.textContent = K>0 ? money(annual)+' across '+tidy(K)+' cases a year' : 'Enter cases a year to cost one case'; saveEl.textContent = money(save10);
+    parts\inventory-turnover-calculator |  Turn this many days faster days A realistic improvement, not a perfect one. Those cannot be negative. 
+    parts\procurement-savings-calculator | tContent = money(hardAnnual); hardSub.textContent = V>0 ? money2(hardPerCase)+' a case across '+tidy(V)+' cases' : money2(hardPerCase)+' a case, enter your annual volume'; hardCard.className = 'vo
+    parts\procurement-savings-calculator | oidAnnual)+' avoided'; baseEl.textContent = money(baseline); baseSub.textContent = V>0 ? tidy(V)+' cases at '+money2(OLD) : 'Enter your annual volume to see the spend'; newSpendEl.textCont
+    parts\product-markup-calculator | sFinite(n)) n=0; return (n 99) T=99; var keep=(100-T)/100; targetK.textContent = 'Markup for a '+tidy(T)+'% margin'; // Settle each ladder price to whole cents first, then take the profit and // the
+    parts\product-markup-calculator | t*K; markupEl.textContent = markupPct.toFixed(1)+'%'; markupSub.textContent = T>0 ? 'A '+tidy(T)+'% margin always needs a bigger markup than '+tidy(T)+'%' : 'At a 0% margin the price is just the 
+    parts\product-markup-calculator | )+'%'; markupSub.textContent = T>0 ? 'A '+tidy(T)+'% margin always needs a bigger markup than '+tidy(T)+'%' : 'At a 0% margin the price is just the cost'; priceEl.textContent = money2(price); 
+    parts\product-markup-calculator |  = money2(price); priceSub.textContent = money2(C)+' divided by '+keep.toFixed(2)+', which leaves the '+tidy(T)+'% margin'; profitEl.textContent = money2(profit); profitSub.textContent = money2(price)+' les
+    parts\product-markup-calculator | '+money2(C)+' cost'; monthlyEl.textContent = money(monthly); monthlySub.textContent = K>0 ? 'At '+tidy(K)+' cases a month' : 'Enter the cases per month to see a month'; // The teaching tip: a markup number
+    parts\product-markup-calculator | h-1]+'%" and "we make '+RUNGS[RUNGS.length-1]+'%" are different sentences.' + (T>0 ? ' Holding a '+tidy(T)+'% margin takes a '+markupPct.toFixed(1)+'% markup.' : ''); } function syncSlider(){ var v=par
+    parts\safety-stock-calculator | 3, Z95=1.6449; var upZ = Z zero safety stock. That is almost never true in food distribution. Put in a realistic busy-day number and a late-delivery number to see the real buffer.'; } else if(SHELF>0 && ropDays>SH
+== digitizes/confirms: 3 hits in 2 pages
+    parts\accounts-receivable-turnover-calculator |  You cannot collect on an order you keyed in wrong. VoiceOrder Solutions digitizes and confirms every order before it ships, so invoices go out clean the first time and disputes stop aging y
+    parts\material-markup-calculator |  Shrink usually starts as a bad order. VoiceOrder Solutions confirms every order before it ships and keeps inventory live, so you stop buying product nobody asked for. 
+== phone it through/in: 4 hits in 4 pages
+    parts\delivery-cost-calculator | on reach you after the route is built? Last one before your numbers. They phone it through and we squeeze it in Through their rep, who calls the warehouse A text or a
+    parts\par-level-calculator |  the customer tell you what they need? Last one before your numbers. They phone it in Our rep walks in and counts it Text or email They enter it
+    parts\unit-price-calculator | erent pack size, how do they tell you? Last one before your numbers. They phone it through They mention it to their rep Email or text They change it 
+    parts\wholesale-markup-calculator |  cooler, how does the order reach you? Last one before your numbers. They phone it in or leave a voicemail They write it down and key it in later They text or em
+== 1 day setup: 4 hits in 3 pages
+    parts\delivery-cost-calculator |  Delivery Cost Calculator The cost per delivery formula is route cost divided by drops. Put in one day on one of your own routes and it splits that cost out per drop, per case and per mile. T
+    parts\delivery-cost-calculator |  : 'Enter miles per gallon to cost the fuel'; if(total driver , the fuel and the truck cost for one day, then the drops on the route, and the calculator splits the day across them.'; return; } 
+    parts\par-level-calculator | s $16,280 740 cases at $22.00 Dropping to a 1 day buffer $2,640 freed Par falls to 960 cases, $21,120 of stock 
+    parts\safety-stock-calculator | ys. '+cases(ss)+' cases and '+money(cash)+' are sitting on your shelf because your supplier is unpredictable. One day off the lead time swing is worth more than any reorder tweak.'; } else { t = 'At a '+(LABEL[sl.
+== purchase order: 2 hits in 2 pages
+    parts\early-payment-discount-calculator | er case, a cost of goods purchased calculation at the account level would also carry the cost of raising each purchase order, and a purchase price variance calculation against your standard cost is a separate job. 
+    parts\inventory-turnover-calculator |  Continue Back And who does it Who places the purchase order once it is decided? Last one before your numbers. Me, or an owner 
+== live count / real time: 7 hits in 6 pages
+    parts\inventory-carrying-cost-calculator |  Spoilage is the component you can actually move. VoiceOrder Solutions keeps inventory updating in real time as orders are processed and flags low stock early, so you buy against a live count instead of a stale one. 
+    parts\inventory-carrying-cost-calculator | keeps inventory updating in real time as orders are processed and flags low stock early, so you buy against a live count instead of a stale one. Book A Demo → Change my numbe
+    parts\inventory-turnover-calculator |  Slow turns start with stock nobody ordered. VoiceOrder Solutions keeps inventory live and orders confirmed, so you buy to demand and turn the shelf faster. Book A Demo → 
+    parts\material-markup-calculator | ink usually starts as a bad order. VoiceOrder Solutions confirms every order before it ships and keeps inventory live, so you stop buying product nobody asked for. Book A Demo → 
+    parts\safety-stock-calculator | ck math only works if your stock counts are right. VoiceOrder Solutions keeps inventory updating in real time as orders come in, and flags low stock before it costs you an account. Book A Demo → 
+    parts\warehouse-size-calculator |  You run out of room before you run out of demand. VoiceOrder Solutions keeps inventory live and orders confirmed, so you fill the space with product that turns instead of stock that sits. 
+    parts\warehouse-space-calculator |  Space fills up when stock does not move. VoiceOrder Solutions keeps inventory live and orders confirmed, so you carry what you actually sell instead of buying space for product that sits. 
+== counts/flags stock: 2 hits in 2 pages
+    parts\inventory-carrying-cost-calculator | lly move. VoiceOrder Solutions keeps inventory updating in real time as orders are processed and flags low stock early, so you buy against a live count instead of a stale one. Book A Demo → 
+    parts\safety-stock-calculator | nts are right. VoiceOrder Solutions keeps inventory updating in real time as orders come in, and flags low stock before it costs you an account. Book A Demo → Change 
+== dearest: 10 hits in 1 pages
+    parts\landed-cost-calculator | .96 $47.10 landed over 24 units a case Saving against the dearest offer $960 a month $0.16 a unit under Option A, at 6,000 units a month 
+    parts\landed-cost-calculator | y case price the order is C $19.00, A $24.00, B $45.00 . By landed cost per unit it comes out B, C, A . The dearest case on the sheet, Option B at $45.00 , is the cheapest unit at $1.96 , and Option C only looks cheap becau
+    parts\landed-cost-calculator | landed cost per unit -- Saving against the dearest offer -- Option A landed per unit 
+    parts\landed-cost-calculator | r byCase = valids.slice().sort(function(x,y){ return x.casePrice-y.casePrice; }); var best = byUnit[0], dearest = byUnit[byUnit.length-1]; bestEl.textContent = best.name+', '+money2(best.perUnit); bestSub.tex
+    parts\landed-cost-calculator | s really are once freight and the pack count are counted.'; return; } var saving = cents(dearest.perUnit - best.perUnit); var runner = byUnit[1]; var gap = cents(runner.perUnit - best.perUnit); 
+    parts\landed-cost-calculator |  } saveEl.textContent = monthly(saving); saveSub.textContent = money2(saving)+' a unit under '+dearest.name+(N>0 ? ', at '+qty(N)+' units a month' : ', add monthly units to see the dollars'); saveCard.class
+    parts\landed-cost-calculator | nnerHTML = 'By case price the order is '+caseStr+' . By landed cost per unit it comes out '+unitStr+' . The dearest case on the sheet, '+dearCase.name+' at '+money2(dearCase.casePrice)+' , is the cheapest unit at '+money2(b
+    parts\landed-cost-calculator | he cheapest unit. '+best.name+' is, at '+money2(best.perUnit)+' , which is '+monthly(saving)+' against the dearest offer.'; } } OPTS.forEach(function(o){ [o.price,o.units,o.freight].forEach(function(el){ el.ad
+    parts\landed-cost-calculator | o', title: best + ' wins on landed cost.', text: 'It is worth ' + read['vos-pc-save'] + ' against the dearest offer, and ' + read['vos-pc-runner'] + ' against the runner up. Worth knowing, given prices only 
+    parts\landed-cost-calculator |  'is-go', title: best + ' wins on landed cost.', text: 'That is ' + read['vos-pc-save'] + ' against the dearest of the three, and ' + read['vos-pc-runner'] + ' against the runner up.' }; }, "subLine": functi
+== pack count/size: 23 hits in 4 pages
+    parts\landed-cost-calculator | ice Comparison Calculator A cost comparison calculator for three supplier offers at once. Case price, pack count and freight in, landed cost per unit out, because the cheapest case on the quote sheet is rarely the cheapest
+    parts\landed-cost-calculator |  units Read it off the spec sheet, not the order guide line, when a pack count changes. Freight per case $ 
+    parts\landed-cost-calculator | calculator Estimates only. Use this price comparison tool one item at a time, and confirm pack counts, net weights and freight terms on the quote before you move volume. 
+    parts\landed-cost-calculator |  Pack counts and freight terms move more often than price lists do. VoiceOrder Solutions keeps order guides, 
+    parts\landed-cost-calculator |  and freight terms move more often than price lists do. VoiceOrder Solutions keeps order guides, pack counts and prices current across suppliers, so the number you compared is the number you pay. 
+    parts\landed-cost-calculator |  Change my numbers Estimates only. Confirm freight terms and pack counts against the quote. 
+    parts\landed-cost-calculator |  } else { o.valEl.textContent = '--'; o.subEl.textContent = 'Enter a case price and a pack count'; } }); if(valids.length===0){ bestEl.textContent='--'; bestSub.textCont
+    parts\landed-cost-calculator | if(valids.length===0){ bestEl.textContent='--'; bestSub.textContent='Enter a case price and a pack count for at least two offers'; saveEl.textContent='--'; saveSub.textContent=''; saveCard.className='vos-st
+    parts\landed-cost-calculator |  units per case and the freight for each offer. The cheapest case is not always the cheapest unit, and the pack count is usually the reason.'; return; } var byUnit = valids.slice().sort(function(x,y){ retur
+    parts\landed-cost-calculator | 2(best.perUnit)+' a unit. Add a second offer to see how far apart two quotes really are once freight and the pack count are counted.'; return; } var saving = cents(dearest.perUnit - best.perUnit); var r
+    parts\landed-cost-calculator | ' a month' : money2(per)+' a unit'; } if(saving '+money2(best.perUnit)+' a unit once freight and the pack count are counted, so cost will not decide it. Rank them on lead time, fill rate and how often the pack count moves
+    parts\landed-cost-calculator | d the pack count are counted, so cost will not decide it. Rank them on lead time, fill rate and how often the pack count moves instead.'; return; } saveEl.textContent = monthly(saving); saveSub.textConte
+    parts\landed-cost-calculator | wins either way at '+money2(best.perUnit)+' a unit. That stops being true the moment one supplier changes a pack count or a freight term, which is why the ranking belongs on the unit and not on the case.'; } else if(dearCa
+    parts\landed-cost-calculator | ", "againId": "q-again", "firstNumberStep": 1, "disclaimer": "Estimates only. Confirm freight terms and pack counts against the quote.", "hubspot": { "portalId": "51996060", "formId": "f854c1d7-fedd-4ba0-a8fb-98af24
+    parts\purchase-price-variance-calculator | arCase))+' a case under the '+money2(S)+' standard, worth '+money(Math.abs(total))+' this month. Check the pack size and the grade on the invoice before you bank it, because a favorable price variance is sometimes a substituti
+    parts\retail-margin-calculator |  Change my numbers Estimates only. Confirm the unit cost and pack count before quoting a shelf price. 
+    parts\retail-margin-calculator | ", "againId": "q-again", "firstNumberStep": 1, "disclaimer": "Estimates only. Confirm the unit cost and pack count before quoting a shelf price.", "hubspot": { "portalId": "51996060", "formId": "f854c1d7-fedd-4ba0-
+    parts\unit-price-calculator | r(--vos-muted);margin-top:14px;} Unit Price Calculator Compare two pack sizes on the same footing. See the real cost per unit and per pound, so the pack that looks cheaper is not just the
+    parts\unit-price-calculator |  Reset calculator Estimates only. Confirm net weights and pack counts on the spec sheet before you switch a SKU. Which pack is actua
+    parts\unit-price-calculator |  A supplier is pushing a different pack A customer asked us to switch pack size We are trying to take cost out of a line Nothing specific, I want the compa
+    parts\unit-price-calculator |  Back When it changes When a customer wants a different pack size, how do they tell you? Last one before your numbers. They phone it throug
+    parts\unit-price-calculator |  Pack sizes change faster than order guides. VoiceOrder Solutions keeps units, pack counts and prices straig
+== forecast: 2 hits in 2 pages
+    parts\par-level-calculator | definition used here is the standard one, average usage across the days you must cover plus a buffer, with no forecast in it. Par answers what level you top up to; the level that tells you when to order is a reorder point, which
+    parts\reorder-point-calculator | s only. This uses the standard reorder point definition, usage across the lead time plus safety stock, and no forecast. Recheck it whenever usage or a supplier's lead time moves. Wh

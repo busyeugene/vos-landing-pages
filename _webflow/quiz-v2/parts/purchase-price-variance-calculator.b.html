@@ -1,0 +1,361 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-pricevar');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var std=$('vos-pv-std'), act=$('vos-pv-act'), cases=$('vos-pv-cases'),
+        totalEl=$('vos-pv-total'), totalSub=$('vos-pv-total-sub'),
+        totalK=$('vos-pv-total-k'), totalCard=$('vos-pv-total-card'),
+        perCaseEl=$('vos-pv-percase'), perCaseSub=$('vos-pv-percase-sub'),
+        pctEl=$('vos-pv-pct'), pctSub=$('vos-pv-pct-sub'),
+        stdSpendEl=$('vos-pv-std-spend'), stdSpendSub=$('vos-pv-std-spend-sub'),
+        actSpendEl=$('vos-pv-act-spend'), actSpendSub=$('vos-pv-act-spend-sub'),
+        yearEl=$('vos-pv-year'), yearSub=$('vos-pv-year-sub'), yearCard=$('vos-pv-year-card'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-pv-std':'22.00','vos-pv-act':'22.40','vos-pv-cases':'6000'};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+    function money(n){ if(!isFinite(n)) n=0; return (n<0?'-$':'$')+Math.abs(Math.round(n)).toLocaleString('en-US'); }
+    function cents(n){ if(!isFinite(n)) return 0; return Math.round(n*100)/100; }
+
+    function calc(){
+      var S=num(std), A=num(act), K=num(cases);
+
+      if(S<=0 || A<=0){
+        [totalEl,perCaseEl,pctEl,stdSpendEl,actSpendEl,yearEl].forEach(function(e){ e.textContent='--'; });
+        totalK.textContent='Total price variance';
+        totalSub.textContent='Enter a standard price and the price on the invoice';
+        perCaseSub.textContent=''; pctSub.textContent=''; stdSpendSub.textContent='';
+        actSpendSub.textContent=''; yearSub.textContent='';
+        totalCard.className='vos-stat vos-hero';
+        yearCard.className='vos-stat';
+        tip.innerHTML='Enter the <b>standard price</b> and the <b>price on the invoice</b> to see the price variance per case, for the month, and for a year.';
+        return;
+      }
+
+      // Settle the per case variance to whole cents first, then build the monthly,
+      // yearly and spend figures from that settled value. The actual spend is the
+      // standard spend plus the variance rather than actual price times cases, so a
+      // reader who subtracts the two spend cards always gets the headline figure.
+      var varCase = cents(A - S);
+      var total = cents(varCase*K);
+      var pct = S>0 ? varCase/S*100 : 0;
+      var year = total*12;
+      var stdSpend = cents(S*K);
+      var actSpend = stdSpend + total;
+      var dir = varCase>0 ? 1 : (varCase<0 ? -1 : 0);
+      var noVolume = K<=0;
+
+      // The label reads off the direction of the price gap, the color reads off the
+      // money. With no cases received the gap is still unfavorable but it has not
+      // cost anything yet, so the card stays neutral rather than red on a $0.
+      totalK.textContent = dir>0 ? 'Unfavorable price variance'
+                         : (dir<0 ? 'Favorable price variance' : 'No price variance');
+      totalEl.textContent = money(Math.abs(total));
+      totalSub.textContent = money2(Math.abs(varCase))+' a case across '+Math.round(K).toLocaleString('en-US')+' cases';
+      totalCard.className = 'vos-stat vos-hero' + (total>0?' vos-loss':(total<0?' vos-profit':''));
+
+      perCaseEl.textContent = money2(Math.abs(varCase));
+      perCaseSub.textContent = money2(A)+' actual against the '+money2(S)+' standard';
+
+      pctEl.textContent = Math.abs(pct).toFixed(1)+'%';
+      pctSub.textContent = money2(Math.abs(varCase))+' on a '+money2(S)+' standard price';
+
+      stdSpendEl.textContent = money(stdSpend);
+      stdSpendSub.textContent = Math.round(K).toLocaleString('en-US')+' cases at '+money2(S);
+
+      actSpendEl.textContent = money(actSpend);
+      actSpendSub.textContent = noVolume
+        ? 'No cases received this month, so nothing has landed yet'
+        : (dir===0
+            ? 'The invoice matches standard, so there is no gap to explain'
+            : money(stdSpend)+(dir>0?' plus the ':' less the ')+money(Math.abs(total))+' variance');
+
+      yearEl.textContent = money(Math.abs(year));
+      yearSub.textContent = noVolume
+        ? 'A price gap needs volume before it costs anything'
+        : (dir===0 ? 'Nothing to carry forward' : '12 months of '+money(Math.abs(total)));
+      yearCard.className = 'vos-stat' + (year>0?' vos-loss':(year<0?' vos-profit':''));
+
+      // The teaching tip: a variance small enough to look like rounding is still a
+      // year of money, and it never shows up as a price increase anywhere.
+      if(dir===0){
+        tip.innerHTML='Actual and standard match to the cent, so there is no price variance to explain. Run it again when the next invoice lands, because the gap usually opens a few cents at a time.';
+      } else if(noVolume){
+        tip.innerHTML='The invoice runs <b>'+money2(Math.abs(varCase))+'</b> a case '+(dir>0?'over':'under')+' standard, which is <b>'+Math.abs(pct).toFixed(1)+'%</b>. Enter the cases you bought to see what that is worth for the month and for the year.';
+      } else if(dir<0){
+        tip.innerHTML='You are paying <b>'+money2(Math.abs(varCase))+'</b> a case under the '+money2(S)+' standard, worth <b>'+money(Math.abs(total))+'</b> this month. Check the pack size and the grade on the invoice before you bank it, because a favorable price variance is sometimes a substitution.';
+      } else {
+        tip.innerHTML='<b>'+Math.abs(pct).toFixed(1)+'%</b> reads like rounding. It is <b>'+money(Math.abs(total))+'</b> this month and <b>'+money(Math.abs(year))+'</b> a year, and it never appears on a price list because the list price never changed.';
+      }
+    }
+
+    [std,act,cases].forEach(function(el){ el.addEventListener('input', calc); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "price-variance",
+  "rootId": "vos-q-price-variance",
+  "calcRootId": "vos-pricevar",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "price-variance-s1",
+    "price-variance-s2",
+    "price-variance-s3",
+    "price-variance-s4",
+    "price-variance-s5"
+  ],
+  "gateId": "price-variance-gate",
+  "resultsId": "price-variance-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a standard price above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-pv-std",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-pv-act",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "That cannot be negative.",
+      "fields": [
+        {
+          "qid": "q-vos-pv-cases",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "catching",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "whochecks",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-pv-std",
+      "calcId": "vos-pv-std",
+      "qid": "q-vos-pv-std"
+    },
+    {
+      "id": "vos-pv-act",
+      "calcId": "vos-pv-act",
+      "qid": "q-vos-pv-act"
+    },
+    {
+      "id": "vos-pv-cases",
+      "calcId": "vos-pv-cases",
+      "qid": "q-vos-pv-cases"
+    }
+  ],
+  "groups": [
+    "situation",
+    "catching",
+    "whochecks"
+  ],
+  "autoGroups": [
+    "situation",
+    "catching",
+    "whochecks"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-pv-total",
+      "qid": "qc-vos-pv-total",
+      "cardId": "qcard-vos-pv-total",
+      "qsubId": "qcs-vos-pv-total",
+      "subFrom": "vos-pv-total-sub",
+      "kId": "qck-vos-pv-total",
+      "kFrom": "vos-pv-total-k",
+      "toneFrom": "vos-pv-total-card",
+      "hero": true
+    },
+    {
+      "calcId": "vos-pv-year",
+      "qid": "qc-vos-pv-year",
+      "cardId": "qcard-vos-pv-year",
+      "qsubId": "qcs-vos-pv-year",
+      "subFrom": "vos-pv-year-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": "vos-pv-year-card",
+      "hero": false
+    },
+    {
+      "calcId": "vos-pv-percase",
+      "qid": "qc-vos-pv-percase",
+      "cardId": "qcard-vos-pv-percase",
+      "qsubId": "qcs-vos-pv-percase",
+      "subFrom": "vos-pv-percase-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pv-pct",
+      "qid": "qc-vos-pv-pct",
+      "cardId": "qcard-vos-pv-pct",
+      "qsubId": "qcs-vos-pv-pct",
+      "subFrom": "vos-pv-pct-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pv-std-spend",
+      "qid": "qc-vos-pv-std-spend",
+      "cardId": "qcard-vos-pv-std-spend",
+      "qsubId": "qcs-vos-pv-std-spend",
+      "subFrom": "vos-pv-std-spend-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-pv-act-spend",
+      "qid": "qc-vos-pv-act-spend",
+      "cardId": "qcard-vos-pv-act-spend",
+      "qsubId": "qcs-vos-pv-act-spend",
+      "subFrom": "vos-pv-act-spend-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm the standard price against the agreement before raising it.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "catching",
+      "weights": {
+        "dont": 30,
+        "spot-check": 24,
+        "every-invoice": 12,
+        "system-flags": 6
+      }
+    },
+    {
+      "group": "whochecks",
+      "weights": {
+        "nobody": 25,
+        "owner": 18,
+        "ap": 14,
+        "buyer": 8
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "margin-slipping": 15,
+        "invoice-off": 13,
+        "audit": 11,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": {
+    "qid": "q-vos-pv-cases",
+    "bands": [
+      [
+        20000,
+        30
+      ],
+      [
+        6000,
+        22
+      ],
+      [
+        1500,
+        14
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "verdict": function (read, ans) {
+    if (read['vos-pv-percase'] === '--') {
+      return { tone: 'is-wait', title: 'Not enough to compare them.',
+        text: 'Go back and put in a standard price above zero.' };
+    }
+    var pct = String(read['vos-pv-pct'] || '');
+    var unfavorable = /Unfavorable/i.test(String(read['vos-pv-total-k'] || ''))
+      || !/favorable/i.test(String(read['vos-pv-total-k'] || ''));
+    var weak = ans.catching === 'dont' || ans.whochecks === 'nobody';
+
+    if (weak) {
+      return { tone: 'is-no', title: pct + ' sounds like rounding. It is ' + read['vos-pv-year'] + ' a year.',
+        text: 'The gap is ' + read['vos-pv-percase'] + ' a case, which is invisible on any single '
+            + 'invoice. That is exactly why it needs catching somewhere other than the margin report.' };
+    }
+    return { tone: 'is-go', title: pct + ' off your price list is ' + read['vos-pv-year'] + ' a year.',
+      text: 'That is ' + read['vos-pv-percase'] + ' a case and ' + read['vos-pv-total']
+          + ' this month, against ' + read['vos-pv-std-spend'] + ' of spend at the agreed price.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Based on ' + (f['vos-pv-cases'] || 0).toLocaleString('en-US') + ' cases at '
+         + (f['vos-pv-act'] || 0) + ' against a ' + (f['vos-pv-std'] || 0) + ' standard.';
+  },
+  "echoes": []
+};
+  </script>

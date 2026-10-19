@@ -1,0 +1,531 @@
+[
+ {
+  "page": "accounts-receivable-turnover-calculator",
+  "pageId": "6ac72b932e36cb4efe865399",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed d7998870-89b1-79e9-b4b1-dd360093025b vis=true",
+    "HtmlEmbed e085d968-51e5-d8e0-f022-d5a51605bebd vis=false",
+    "CI VOS Quiz CSS 4371f19a-11ca-38c1-a547-7068ee91b7fc",
+    "HtmlEmbed 4b3fcc70-4e86-a0c1-c598-c4d912a8657f vis=true",
+    "HtmlEmbed 0db15be4-4846-cc6f-7a4d-a28102f77bbe vis=true",
+    "CI VOS Quiz Engine f03e687e-2c03-7db0-1d11-900c9948fc19"
+   ],
+   "hero_link": "#vos-q-ar-turnover",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-ar-turnover",
+   "copy_text": "Built from your own credit sales"
+  },
+  "problems": []
+ },
+ {
+  "page": "inventory-carrying-cost-calculator",
+  "pageId": "6ac7866e071fb41c4807eab0",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed e8f97ec5-33e7-fcb8-3010-0a53c29890b6 vis=true",
+    "HtmlEmbed a979b455-82e2-6b6b-a34f-79a9449bbeec vis=false",
+    "CI VOS Quiz CSS 4495b4f0-2eaa-1748-2b63-0d1aa45cbccb",
+    "HtmlEmbed bdd5ffce-0d6d-0e51-839a-7766a4e37fe1 vis=true",
+    "HtmlEmbed bf8c85e5-bc69-29bc-e554-d989d03ed68b vis=true",
+    "CI VOS Quiz Engine d8b16c41-e231-8753-f5dd-118388e1929e"
+   ],
+   "hero_link": "#vos-q-carrying-cost",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-carrying-cost",
+   "copy_text": "Built on the rates you enter"
+  },
+  "problems": []
+ },
+ {
+  "page": "delivery-cost-calculator",
+  "pageId": "6ac7652b0d7b366d7fd65177",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed cc2ff701-6394-26f5-a407-5781242dcd19 vis=true",
+    "HtmlEmbed 56585612-59ed-4b92-4efc-2553a969c471 vis=false",
+    "CI VOS Quiz CSS 964cb2cc-12eb-f8a6-fbff-e2318bdb9cd8",
+    "HtmlEmbed 6778f47f-e551-43a3-bf35-3fec0dcad1d3 vis=true",
+    "HtmlEmbed 93d8ae9e-32e3-23f0-c3b4-225215c192fa vis=true",
+    "CI VOS Quiz Engine 23fd95c8-362b-f8c3-14b6-f4b2fab0aa61"
+   ],
+   "hero_link": "#vos-q-delivery-cost",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-delivery-cost",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "food-markup-calculator",
+  "pageId": "6ac79be2180bc9b3c91fb79c",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed f2c533dd-27e0-3990-db68-7184c0d1fbd9 vis=true",
+    "HtmlEmbed 283b6d19-bff6-d058-8245-120b88b55e5d vis=false",
+    "CI VOS Quiz CSS b383e436-486d-4b26-5565-4f76a0e8f16e",
+    "HtmlEmbed f3144c3d-f97a-af1c-473d-fcc1426bc197 vis=true",
+    "HtmlEmbed af454cac-87cd-767f-6f0f-296f45b48394 vis=true",
+    "CI VOS Quiz Engine be92e4a9-14d6-e76d-8f5b-a56f2c9211d7"
+   ],
+   "hero_link": "#vos-q-food-markup",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-food-markup",
+   "copy_text": "Starts from your case weight and yield"
+  },
+  "problems": []
+ },
+ {
+  "page": "inventory-turnover-calculator",
+  "pageId": "6ac7252ae188e18d1d906bba",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 0f476339-0782-67d2-82ec-362dfa412ed6 vis=true",
+    "HtmlEmbed 7f9563f9-cdae-6834-607b-c7ed2475f7b8 vis=false",
+    "CI VOS Quiz CSS d8b749d1-7121-6b1e-1ae8-d8d5a6c2dc26",
+    "HtmlEmbed 34e0cc67-9cd4-a8af-ead2-60323b4e9310 vis=true",
+    "HtmlEmbed f7576199-4bc6-46a6-e492-00e57eec18d1 vis=true",
+    "CI VOS Quiz Engine daf74ccc-1b20-767a-a9d2-6b8379da02be"
+   ],
+   "hero_link": "#vos-q-inventory-turnover",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-inventory-turnover",
+   "copy_text": "Starts from your average stock value"
+  },
+  "problems": []
+ },
+ {
+  "page": "marginal-cost-calculator",
+  "pageId": "6ac69810ef654fbdecf37f4b",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed d8fc22f5-ed5f-b8b3-9469-d4241fa7bd2a vis=true",
+    "HtmlEmbed 219a7c79-909a-fed4-eef6-bfa768431fcc vis=false",
+    "CI VOS Quiz CSS 31469af7-d777-32ce-3d6f-a006b3b5c584",
+    "HtmlEmbed 9a65f83a-af82-91b3-0c95-d8155bee9ca6 vis=true",
+    "HtmlEmbed 4b30a24e-2a59-9868-944a-4e1c79fede09 vis=true",
+    "CI VOS Quiz Engine 4aa1fb21-55ad-4820-2cd8-8c026eb8e11e"
+   ],
+   "hero_link": "#vos-q-marginal-cost",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-marginal-cost",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "material-markup-calculator",
+  "pageId": "6ac72b95bdfb92fbc692e782",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 8bc06d8f-f475-1089-c479-9e2accd4f352 vis=true",
+    "HtmlEmbed 62b30542-bfb0-353e-ddfe-1014ce1b7234 vis=false",
+    "CI VOS Quiz CSS 38bb7a5b-84f0-9820-49c0-a4d8747935bd",
+    "HtmlEmbed f423c0a8-be4a-181f-136b-5d4de1cc7ca4 vis=true",
+    "HtmlEmbed ce24e19c-5e8f-ea4b-b369-85f75d2ffae8 vis=true",
+    "CI VOS Quiz Engine dd09f005-bcad-df7b-8511-59846beebb3e"
+   ],
+   "hero_link": "#vos-q-material-markup",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-material-markup",
+   "copy_text": "Asks for each cost one at a time"
+  },
+  "problems": []
+ },
+ {
+  "page": "par-level-calculator",
+  "pageId": "6ac79be1b863c26cbc96979a",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed cf9d15aa-1d44-0cf5-a769-6d2885ae6f54 vis=true",
+    "HtmlEmbed 1e768f73-8b46-1691-1d65-73c8aa6f4cd4 vis=false",
+    "CI VOS Quiz CSS 2a30d336-3e7d-2241-ba46-9dacaaaa1f16",
+    "HtmlEmbed 78f3b773-93ef-7de9-8b29-4216b295ed3d vis=true",
+    "HtmlEmbed 6f53aa73-4971-8969-6740-bc00995cb595 vis=true",
+    "CI VOS Quiz Engine 5bdedad5-92a2-26b2-be49-afa8f5517d2d"
+   ],
+   "hero_link": "#vos-q-par-level",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-par-level",
+   "copy_text": "Built on your delivery cycle"
+  },
+  "problems": []
+ },
+ {
+  "page": "price-change-calculator",
+  "pageId": "6ac735253fe7317c927e4447",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 2b5077bc-9b6e-a602-c928-7ad1dfb5074e vis=true",
+    "HtmlEmbed 3a74aebc-7d96-4c72-ae7d-97e0f9aa9062 vis=false",
+    "CI VOS Quiz CSS ed045eb3-13ab-ae57-16ad-8f4f6055d0d2",
+    "HtmlEmbed 08429cf7-a215-0066-b56c-fcfcec40dc20 vis=true",
+    "HtmlEmbed 181e94ec-7961-1e3c-396b-0592385821a2 vis=true",
+    "CI VOS Quiz Engine 9b3deb39-70bf-02dc-812d-b044debded73"
+   ],
+   "hero_link": "#vos-q-price-change",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-price-change",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "landed-cost-calculator",
+  "pageId": "6ac7652962cd713ecd056f43",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 5197e82b-04fe-0020-87e2-e0792a70ed76 vis=true",
+    "HtmlEmbed 61a70fbe-aaab-f6a4-364d-ef1ade5f7444 vis=false",
+    "CI VOS Quiz CSS 03217655-36e3-24a5-69c5-b5dd0a430aac",
+    "HtmlEmbed daa1380d-217e-3e8b-0a7d-cafee8ff9bbe vis=true",
+    "HtmlEmbed 91c9019f-5541-2333-41df-047c183acf89 vis=true",
+    "CI VOS Quiz Engine edbf93c3-cff5-7d05-d1bb-6745f5789059"
+   ],
+   "hero_link": "#vos-q-price-comparison",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-price-comparison",
+   "copy_text": "Ranks every offer you enter"
+  },
+  "problems": []
+ },
+ {
+  "page": "purchase-price-variance-calculator",
+  "pageId": "6ac7866c27806c8148c2855e",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed b8f8eb06-8797-74b6-18ea-8c5d52fb193b vis=true",
+    "HtmlEmbed 5fa8e8b2-fd3a-eb0d-9041-db4a7cb8a28b vis=false",
+    "CI VOS Quiz CSS a77086b2-1892-a594-4c63-fb1e23993927",
+    "HtmlEmbed 201b5fd2-c428-6edd-6374-d85a52001fa4 vis=true",
+    "HtmlEmbed b9321dec-423e-a7f9-a48f-29980f0fb433 vis=true",
+    "CI VOS Quiz Engine 39b03327-f331-8168-d4d4-ddccf773139c"
+   ],
+   "hero_link": "#vos-q-price-variance",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-price-variance",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "procurement-savings-calculator",
+  "pageId": "6ac78670c218082afa38ac6f",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed b047b7ab-49a8-a57c-64e1-b1103c86fbfd vis=true",
+    "HtmlEmbed b583b9d1-1b02-e462-2213-111030a4c29b vis=false",
+    "CI VOS Quiz CSS 90450406-aabe-c42e-61fe-bc001ec29c9f",
+    "HtmlEmbed 16dfa822-8687-204d-83dd-cc3596d41b57 vis=true",
+    "HtmlEmbed efecbfcd-8d2f-6282-6d05-15a974ffa255 vis=true",
+    "CI VOS Quiz Engine 26ca7508-7b73-33e6-efd7-6b2dd8ae9fd0"
+   ],
+   "hero_link": "#vos-q-procurement-savings",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-procurement-savings",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "product-markup-calculator",
+  "pageId": "6ac7866ff16ee3a82e89dd76",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed a4d91678-2b59-be3d-9d48-c4b9ed8ce3a0 vis=true",
+    "HtmlEmbed 948a0d65-37ff-51d4-f9e1-3fe88a90cea5 vis=false",
+    "CI VOS Quiz CSS 0e808803-2b98-7f04-9ced-28aca7008764",
+    "HtmlEmbed 628e4f20-216c-1d4a-5157-eab606ab37e4 vis=true",
+    "HtmlEmbed 0c487ddc-7e32-3ad8-bebb-41004351f376 vis=true",
+    "CI VOS Quiz Engine 11674003-dff3-37fe-6522-9878af93865d"
+   ],
+   "hero_link": "#vos-q-product-markup",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-product-markup",
+   "copy_text": "Starts from your target margin"
+  },
+  "problems": []
+ },
+ {
+  "page": "product-pricing-calculator",
+  "pageId": "6ac718c668be300e93fb7203",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 627e594d-bfc7-e7d6-9664-165d7e5fd702 vis=true",
+    "HtmlEmbed bb3baf07-8ebd-06c2-0699-b878d43f2019 vis=false",
+    "CI VOS Quiz CSS 7d60fb72-ab43-9517-6ea6-b04f75908731",
+    "HtmlEmbed 5549aceb-d08c-69cc-fb70-1fcea7ad09df vis=true",
+    "HtmlEmbed 42f0cbb2-c079-0ef5-4b7a-3e862677c24c vis=true",
+    "CI VOS Quiz Engine d71e8b49-a27d-f621-1774-deb6009a62f7"
+   ],
+   "hero_link": "#vos-q-product-pricing",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-product-pricing",
+   "copy_text": "Uses your own monthly volume"
+  },
+  "problems": []
+ },
+ {
+  "page": "early-payment-discount-calculator",
+  "pageId": "6ac79be4b863c26cbc9698b6",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed d5664394-af30-44a5-593e-cfbb91ae6e63 vis=true",
+    "HtmlEmbed ccdc7796-06dc-e99d-968c-5c664a2abdb4 vis=false",
+    "CI VOS Quiz CSS 4e59fe68-0e97-12d7-6743-d571f79434a5",
+    "HtmlEmbed 5cedc279-8126-5b28-65f6-a8a338a0b848 vis=true",
+    "HtmlEmbed 87bb4166-974d-6842-bb65-4bbf252e3d55 vis=true",
+    "CI VOS Quiz Engine 876333fe-d9f5-7615-226d-744ca7412cd1"
+   ],
+   "hero_link": "#vos-q-purchase-price",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-purchase-price",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "reorder-point-calculator",
+  "pageId": "6ac7652a2a715d3e702a0559",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 27b261c5-79cf-6f8c-97ca-67286c7fe252 vis=true",
+    "HtmlEmbed b05dcf87-f82d-b0d0-f146-8080a27e9d8c vis=false",
+    "CI VOS Quiz CSS d8ee3b16-75f8-c7f0-d142-4e3f138630be",
+    "HtmlEmbed 2f66d36b-515f-c617-f625-50682ccef33e vis=true",
+    "HtmlEmbed 76909f5f-b49a-4b6b-0df7-18cac890e9b7 vis=true",
+    "CI VOS Quiz Engine ea2dab8e-3699-5cde-6964-b9b2e7d3b7a8"
+   ],
+   "hero_link": "#vos-q-reorder-point",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-reorder-point",
+   "copy_text": "Uses your real lead time"
+  },
+  "problems": []
+ },
+ {
+  "page": "retail-margin-calculator",
+  "pageId": "6ac76528743f1f2a6f8ae6e6",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 9e060bf8-36b3-9aff-b112-276494ce6966 vis=true",
+    "HtmlEmbed 8fad8c63-db32-c9c5-88f2-d5f34e529384 vis=false",
+    "CI VOS Quiz CSS 38180a2c-219c-52a4-991b-7e35e69f8930",
+    "HtmlEmbed 6595b4d6-95d0-8e7b-5e13-47f9eeb409aa vis=true",
+    "HtmlEmbed bcd7abc7-382f-fe33-0746-f8919faaf2f6 vis=true",
+    "CI VOS Quiz Engine d2072cbd-987d-d230-ab07-2195a86a7e34"
+   ],
+   "hero_link": "#vos-q-retail-margin",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-retail-margin",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "safety-stock-calculator",
+  "pageId": "6ac735249b6f12d26ba60ce1",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 1284b2e6-5ea1-5624-3f62-7ebd5f8dba5c vis=true",
+    "HtmlEmbed 9005899c-1810-3e41-133a-6521e4e3ec64 vis=false",
+    "CI VOS Quiz CSS 14b8d304-2c21-f94a-ea64-eef45229d3d2",
+    "HtmlEmbed 38559a68-720f-0f24-6fc1-727797054f46 vis=true",
+    "HtmlEmbed 4e93b936-899e-37ce-de03-4bf89740f152 vis=true",
+    "CI VOS Quiz Engine 81bfde68-d113-97b4-ba08-6a020126ffe1"
+   ],
+   "hero_link": "#vos-q-safety-stock",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-safety-stock",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "unit-price-calculator",
+  "pageId": "6ac72b948f277e012d8d7584",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed a835eff1-3e50-b93f-0f33-848ed1e86b77 vis=true",
+    "HtmlEmbed 5ab6d7fb-33ad-67ee-0b87-83d5eb19ce04 vis=false",
+    "CI VOS Quiz CSS def1b151-d8ec-f833-d7cc-e9b604d1ed68",
+    "HtmlEmbed 4e191ee9-fe23-a747-c114-880579e3b65f vis=true",
+    "HtmlEmbed 475976b2-37ec-db9d-dd26-ceac16f58400 vis=true",
+    "CI VOS Quiz Engine 1dda870e-b6e8-4ef2-ef9a-3d66e99a6c23"
+   ],
+   "hero_link": "#vos-q-unit-price",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-unit-price",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "warehouse-size-calculator",
+  "pageId": "6ac72b9663b2850d53a5f878",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 781ca2ec-c4df-bdc5-e063-a1a2d27780e2 vis=true",
+    "HtmlEmbed fa975131-9f80-9ab6-9371-3db7efe3ecfa vis=false",
+    "CI VOS Quiz CSS b8574f65-7ebd-5a50-1181-e77af7e902ce",
+    "HtmlEmbed 5b11fd38-5647-5927-9dd5-e8a72ee4f206 vis=true",
+    "HtmlEmbed 424f017f-7eae-a0cd-4b3a-e6b66b4cde37 vis=true",
+    "CI VOS Quiz Engine 6d94ba08-8c6a-6616-4fd2-e6719525be99"
+   ],
+   "hero_link": "#vos-q-warehouse-size",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-warehouse-size",
+   "copy_text": "Part of your full sizing breakdown"
+  },
+  "problems": []
+ },
+ {
+  "page": "warehouse-space-calculator",
+  "pageId": "6ac735232408756f9071e095",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": true,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 1f13d5a1-d62a-c9b7-585a-58844e37a609 vis=true",
+    "HtmlEmbed f26ea795-a491-0332-cbf3-7c437a7532be vis=false",
+    "CI VOS Quiz CSS 5d86160d-c7e6-c4f4-18da-2ccd206e74eb",
+    "HtmlEmbed aec2fc61-f2fc-43c0-0757-da1939082265 vis=true",
+    "HtmlEmbed 66ffea86-b7cc-3341-67a9-5414c8d184bf vis=true",
+    "CI VOS Quiz Engine 24b964e0-b2b6-4fbf-4b41-69a14a347513"
+   ],
+   "hero_link": "#vos-q-warehouse-space",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-warehouse-space",
+   "copy_text": "Starts from your pallet count"
+  },
+  "problems": []
+ },
+ {
+  "page": "wholesale-markup-calculator",
+  "pageId": "6ac73521a469d3c306f7aa87",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 3abf2840-7197-84db-93db-c0771ac53bd2 vis=true",
+    "HtmlEmbed ce3b2957-0e21-e55d-c250-d34884607bff vis=false",
+    "CI VOS Quiz CSS c97d06e7-fdfb-536a-eb30-5c8da44362c7",
+    "HtmlEmbed 8d513cb4-b942-efaa-7719-c0c0355800e3 vis=true",
+    "HtmlEmbed 3cc97b5c-ed05-92b3-ccd4-84c97842b433 vis=true",
+    "CI VOS Quiz Engine ff4f3583-eac0-8f96-6beb-525de5dfdb40"
+   ],
+   "hero_link": "#vos-q-wholesale-markup",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-wholesale-markup",
+   "copy_text": null
+  },
+  "problems": []
+ },
+ {
+  "page": "wholesale-to-retail-markup-calculator",
+  "pageId": "6ac73522edd07accabdbe401",
+  "sequence_ok": true,
+  "hero_ok": true,
+  "rowlink_ok": true,
+  "copy_ok": null,
+  "observed": {
+   "sequence": [
+    "HtmlEmbed 30770709-c2cc-9ee3-1f27-4008d376448e vis=true",
+    "HtmlEmbed dfda34f4-3570-de76-7033-6a20bb838b90 vis=false",
+    "CI VOS Quiz CSS 148c9989-8b03-7475-54bd-46db55db9bce",
+    "HtmlEmbed 95faec21-9ac4-0a83-2327-4a3749f45241 vis=true",
+    "HtmlEmbed 7ca5d637-e433-d37c-17a6-f19635a78d40 vis=true",
+    "CI VOS Quiz Engine fbfa3116-c190-28e9-df2a-bc095d7f1d21"
+   ],
+   "hero_link": "#vos-q-wholesale-retail",
+   "hero_text3": "Use the Calculator",
+   "rowlink0": "#vos-q-wholesale-retail",
+   "copy_text": null
+  },
+  "problems": []
+ }
+]

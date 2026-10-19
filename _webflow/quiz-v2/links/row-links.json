@@ -1,0 +1,879 @@
+{
+ "_source": "data_element_settings_tool get_settings all_raw_settings, read 2026-10-19. get_all_elements omits url-mode link settings and Link innerText, so these were read per element.",
+ "pages": {
+  "reorder-point-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-reorder"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-reorder"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-reorder"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-reorder"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "accounts-receivable-turnover-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-ar"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-ar"
+    },
+    "text": "Check your gap"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-ar"
+    },
+    "text": "Price the delay"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-ar"
+    },
+    "text": "See the prize"
+   }
+  ],
+  "inventory-carrying-cost-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-carrycost"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-carrycost"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-carrycost"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-carrycost"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "delivery-cost-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-delivery"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-delivery"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-delivery"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-delivery"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "food-markup-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-foodmarkup"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-foodmarkup"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-foodmarkup"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-foodmarkup"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "inventory-turnover-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-invturn"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-invturn"
+    },
+    "text": "Check your days"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-invturn"
+    },
+    "text": "Price your shelf"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-invturn"
+    },
+    "text": "See the prize"
+   }
+  ],
+  "marginal-cost-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-marginal"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-marginal"
+    },
+    "text": "Check a route"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-marginal"
+    },
+    "text": "See the swing"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-marginal"
+    },
+    "text": "Set your floor"
+   }
+  ],
+  "material-markup-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-markup"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-markup"
+    },
+    "text": "Check your markup"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-markup"
+    },
+    "text": "Price your shrink"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-markup"
+    },
+    "text": "See the monthly number"
+   }
+  ],
+  "par-level-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-parlevel"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-parlevel"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-parlevel"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-parlevel"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "price-change-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricechg"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricechg"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricechg"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricechg"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "landed-cost-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricecomp"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricecomp"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricecomp"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricecomp"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "purchase-price-variance-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricevar"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricevar"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricevar"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricevar"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "procurement-savings-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-procsave"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-procsave"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-procsave"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-procsave"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "product-markup-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-prodmarkup"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-prodmarkup"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-prodmarkup"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-prodmarkup"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "product-pricing-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricing"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricing"
+    },
+    "text": "Check a target"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricing"
+    },
+    "text": "Test a match"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-pricing"
+    },
+    "text": "See the monthly number"
+   }
+  ],
+  "early-payment-discount-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-purchprice"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-purchprice"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-purchprice"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-purchprice"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "retail-margin-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-retmargin"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-retmargin"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-retmargin"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-retmargin"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "safety-stock-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-safety"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-safety"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-safety"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-safety"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "unit-price-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-unit"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-unit"
+    },
+    "text": "Compare per pound"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-unit"
+    },
+    "text": "See the verdict"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-unit"
+    },
+    "text": "Settle it on the spot"
+   }
+  ],
+  "warehouse-size-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wsize"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wsize"
+    },
+    "text": "Count your positions"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wsize"
+    },
+    "text": "See your ceiling"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wsize"
+    },
+    "text": "Test a stack height"
+   }
+  ],
+  "warehouse-space-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wspace"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wspace"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wspace"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wspace"
+    },
+    "text": "Run your numbers"
+   }
+  ],
+  "wholesale-markup-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wmarkup"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wmarkup"
+    },
+    "text": "Check your markup"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wmarkup"
+    },
+    "text": "Check your staples"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-wmarkup"
+    },
+    "text": "See the blend"
+   }
+  ],
+  "wholesale-to-retail-markup-calculator": [
+   {
+    "element": "3eb238a9-794c-5623-3970-f5b533eca107",
+    "row": 1,
+    "link": {
+     "mode": "url",
+     "to": "#vos-w2r"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8c148c5a-5883-9b4b-9229-358da23fdec1",
+    "row": 2,
+    "link": {
+     "mode": "url",
+     "to": "#vos-w2r"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "8b079726-3463-6044-f4e9-f838b3bfb137",
+    "row": 3,
+    "link": {
+     "mode": "url",
+     "to": "#vos-w2r"
+    },
+    "text": "Run your numbers"
+   },
+   {
+    "element": "2af8f313-e356-7eea-3f46-cef1a39df959",
+    "row": 4,
+    "link": {
+     "mode": "url",
+     "to": "#vos-w2r"
+    },
+    "text": "Run your numbers"
+   }
+  ]
+ }
+}

@@ -1,0 +1,358 @@
+<script>
+  (function(){
+    var root = document.getElementById('vos-unit');
+    var $ = function(id){ return root.querySelector('#'+id); };
+    var aPrice=$('vos-a-price'), aUnits=$('vos-a-units'), aSize=$('vos-a-size'),
+        bPrice=$('vos-b-price'), bUnits=$('vos-b-units'), bSize=$('vos-b-size'),
+        bestEl=$('vos-best'), bestSub=$('vos-best-sub'),
+        gapEl=$('vos-gap'), gapSub=$('vos-gap-sub'),
+        aUnitEl=$('vos-a-unit'), aLbEl=$('vos-a-lb'),
+        bUnitEl=$('vos-b-unit'), bLbEl=$('vos-b-lb'),
+        tip=$('vos-tip-text');
+
+    var DEFAULTS={'vos-a-price':24,'vos-a-units':12,'vos-a-size':2,'vos-b-price':40,'vos-b-units':24,'vos-b-size':1.5};
+
+    function num(el){ var v=parseFloat(el.value); return isFinite(v)&&v>0?v:0; }
+    function money2(n){
+      if(!isFinite(n)) return '--';
+      return (n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    }
+
+    function calc(){
+      var aP=num(aPrice), aU=num(aUnits), aS=num(aSize),
+          bP=num(bPrice), bU=num(bUnits), bS=num(bSize);
+
+      var aUnit = aU>0 ? aP/aU : NaN;
+      var bUnit = bU>0 ? bP/bU : NaN;
+      var aLb = (aU>0&&aS>0) ? aP/(aU*aS) : NaN;
+      var bLb = (bU>0&&bS>0) ? bP/(bU*bS) : NaN;
+
+      aUnitEl.textContent = money2(aUnit);
+      aLbEl.textContent   = money2(aLb);
+      bUnitEl.textContent = money2(bUnit);
+      bLbEl.textContent   = money2(bLb);
+
+      // Prefer the per-pound comparison; fall back to per-unit if weights are missing.
+      var basis, aVal, bVal, unitWord;
+      if(isFinite(aLb) && isFinite(bLb)){ basis='lb'; aVal=aLb; bVal=bLb; unitWord='per lb'; }
+      else if(isFinite(aUnit) && isFinite(bUnit)){ basis='unit'; aVal=aUnit; bVal=bUnit; unitWord='per unit'; }
+      else { basis=null; }
+
+      if(!basis){
+        bestEl.textContent='--'; bestSub.textContent='Enter price and units for both options';
+        gapEl.textContent='--'; gapSub.textContent='';
+        tip.innerHTML='Enter the <b>price</b> and <b>units</b> for both packs, and a <b>net weight</b> if you want the per pound comparison.';
+        return;
+      }
+
+      var winner, wVal, lVal;
+      if(Math.abs(aVal-bVal) < 1e-9){
+        bestEl.textContent='Either';
+        bestSub.textContent='Both cost '+money2(aVal)+' '+unitWord;
+        gapEl.textContent='0.0%'; gapSub.textContent='No difference '+unitWord;
+        tip.innerHTML='Both packs land at <b>'+money2(aVal)+'</b> '+unitWord+', so on cost alone it is a wash. Decide on shelf life, storage or how fast each moves.';
+        return;
+      }
+      if(aVal < bVal){ winner='Option A'; wVal=aVal; lVal=bVal; } else { winner='Option B'; wVal=bVal; lVal=aVal; }
+      var pct = lVal>0 ? (lVal-wVal)/lVal*100 : 0;
+      var dollar = lVal-wVal;
+
+      bestEl.textContent = winner;
+      bestSub.textContent = money2(wVal)+' '+unitWord+' vs '+money2(lVal);
+      gapEl.textContent = pct.toFixed(1)+'%';
+      gapSub.textContent = money2(dollar)+' '+unitWord+' versus the other pack';
+
+      // Teaching case: the per-unit winner differs from the per-pound winner.
+      var perUnitWinner = (isFinite(aUnit)&&isFinite(bUnit)) ? (aUnit<bUnit?'Option A':(bUnit<aUnit?'Option B':'')) : '';
+      if(basis==='lb' && perUnitWinner && perUnitWinner!==winner){
+        var cheaperUnit = perUnitWinner==='Option A'?aUnit:bUnit;
+        var dearerUnit  = perUnitWinner==='Option A'?bUnit:aUnit;
+        tip.innerHTML = perUnitWinner+' is cheaper per unit at <b>'+money2(cheaperUnit)+'</b> versus <b>'+money2(dearerUnit)+'</b>, but its units are smaller. Per pound, Option A costs <b>'+money2(aLb)+'</b> and Option B costs <b>'+money2(bLb)+'</b>, so '+winner.replace('Option ','')+' is the better buy by <b>'+pct.toFixed(1)+'%</b>. The pack that looks cheaper per unit is not always cheaper per pound.';
+      } else {
+        tip.innerHTML = winner+' is the better buy at <b>'+money2(wVal)+'</b> '+unitWord+' versus <b>'+money2(lVal)+'</b>, about <b>'+pct.toFixed(1)+'%</b> less. Always compare '+unitWord+', not by the price on the case.';
+      }
+    }
+
+    [aPrice,aUnits,aSize,bPrice,bUnits,bSize].forEach(function(el){ el.addEventListener('input', calc); });
+
+    $('vos-reset').addEventListener('click', function(){
+      Object.keys(DEFAULTS).forEach(function(id){ $(id).value = DEFAULTS[id]; });
+      calc();
+    });
+
+    calc();
+  })();
+  </script>
+<script src="https://js.hsforms.net/forms/embed/51996060.js" defer></script>
+<script>
+  window.__VOS_QUIZ_SPEC__ = {
+  "slug": "unit-price",
+  "rootId": "vos-q-unit-price",
+  "calcRootId": "vos-unit",
+  "fieldPrefix": "q-",
+  "stepIds": [
+    "unit-price-s1",
+    "unit-price-s2",
+    "unit-price-s3",
+    "unit-price-s4",
+    "unit-price-s5"
+  ],
+  "gateId": "unit-price-gate",
+  "resultsId": "unit-price-results",
+  "steps": [
+    {
+      "kind": "choice",
+      "group": "situation",
+      "errText": null
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a price and a unit count above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-a-price",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-a-units",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-a-size",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "fields",
+      "errText": "Enter a price and a unit count above zero.",
+      "fields": [
+        {
+          "qid": "q-vos-b-price",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-b-units",
+          "positive": true,
+          "min0": false
+        },
+        {
+          "qid": "q-vos-b-size",
+          "positive": false,
+          "min0": true
+        }
+      ]
+    },
+    {
+      "kind": "choice",
+      "group": "compare",
+      "errText": null
+    },
+    {
+      "kind": "choice",
+      "group": "packswitch",
+      "errText": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "vos-a-price",
+      "calcId": "vos-a-price",
+      "qid": "q-vos-a-price"
+    },
+    {
+      "id": "vos-a-units",
+      "calcId": "vos-a-units",
+      "qid": "q-vos-a-units"
+    },
+    {
+      "id": "vos-a-size",
+      "calcId": "vos-a-size",
+      "qid": "q-vos-a-size"
+    },
+    {
+      "id": "vos-b-price",
+      "calcId": "vos-b-price",
+      "qid": "q-vos-b-price"
+    },
+    {
+      "id": "vos-b-units",
+      "calcId": "vos-b-units",
+      "qid": "q-vos-b-units"
+    },
+    {
+      "id": "vos-b-size",
+      "calcId": "vos-b-size",
+      "qid": "q-vos-b-size"
+    }
+  ],
+  "groups": [
+    "situation",
+    "compare",
+    "packswitch"
+  ],
+  "autoGroups": [
+    "situation",
+    "compare",
+    "packswitch"
+  ],
+  "choiceWrites": {},
+  "choiceClicks": {},
+  "reveals": {},
+  "derived": [],
+  "cards": [
+    {
+      "calcId": "vos-best",
+      "qid": "qc-vos-best",
+      "cardId": "qcard-vos-best",
+      "qsubId": "qcs-vos-best",
+      "subFrom": "vos-best-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": true
+    },
+    {
+      "calcId": "vos-gap",
+      "qid": "qc-vos-gap",
+      "cardId": "qcard-vos-gap",
+      "qsubId": "qcs-vos-gap",
+      "subFrom": "vos-gap-sub",
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-a-unit",
+      "qid": "qc-vos-a-unit",
+      "cardId": "qcard-vos-a-unit",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-a-lb",
+      "qid": "qc-vos-a-lb",
+      "cardId": "qcard-vos-a-lb",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-b-unit",
+      "qid": "qc-vos-b-unit",
+      "cardId": "qcard-vos-b-unit",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    },
+    {
+      "calcId": "vos-b-lb",
+      "qid": "qc-vos-b-lb",
+      "cardId": "qcard-vos-b-lb",
+      "qsubId": null,
+      "subFrom": null,
+      "kId": null,
+      "kFrom": null,
+      "toneFrom": null,
+      "hero": false
+    }
+  ],
+  "tipFrom": "vos-tip-text",
+  "tipId": "q-tip",
+  "previewCardId": "q-preview",
+  "verdictId": "q-verdict",
+  "verdictTitleId": "q-vtitle",
+  "verdictTextId": "q-vtext",
+  "greetId": "q-greet",
+  "subLineId": "q-greetsub",
+  "footId": "q-foot",
+  "debugId": "q-debug",
+  "barId": "q-bar",
+  "progressId": "q-progtxt",
+  "progressBarId": "q-prog",
+  "hsWrapId": "q-hsform",
+  "hsSkipId": "q-hsskip",
+  "againId": "q-again",
+  "firstNumberStep": 1,
+  "disclaimer": "Estimates only. Confirm net weights off the spec sheet, not the case.",
+  "hubspot": {
+    "portalId": "51996060",
+    "formId": "f854c1d7-fedd-4ba0-a8fb-98af24925dfc",
+    "region": "na1"
+  },
+  "scoring": [
+    {
+      "group": "compare",
+      "weights": {
+        "per-case": 30,
+        "gut": 28,
+        "spreadsheet": 20,
+        "per-unit": 10
+      }
+    },
+    {
+      "group": "packswitch",
+      "weights": {
+        "phone": 25,
+        "rep": 20,
+        "email": 16,
+        "portal": 6
+      }
+    },
+    {
+      "group": "situation",
+      "weights": {
+        "customer-asked": 15,
+        "supplier-offer": 13,
+        "cost-cutting": 12,
+        "review": 5
+      }
+    }
+  ],
+  "sizeFrom": null,
+  "verdict": function (read) {
+    var best = String(read['vos-best'] || '');
+    if (!best || best === '--') {
+      return { tone: 'is-wait', title: 'Not enough to compare them.',
+        text: 'Go back and put in a price and a unit count for both packs.' };
+    }
+    var num = function (s) { var n = parseFloat(String(s).replace(/[^0-9.]/g, '')); return isFinite(n) ? n : 0; };
+    var aUnit = num(read['vos-a-unit']);
+    var bUnit = num(read['vos-b-unit']);
+    var aLb = num(read['vos-a-lb']);
+    var bLb = num(read['vos-b-lb']);
+    var cheaperUnit = aUnit <= bUnit ? 'A' : 'B';
+    var cheaperLb = aLb <= bLb ? 'A' : 'B';
+
+    if (aLb && bLb && cheaperUnit !== cheaperLb) {
+      return { tone: 'is-no', title: 'The cheaper looking one is the dearer buy.',
+        text: 'Option ' + cheaperUnit + ' is cheaper per unit, but ' + best + ' is cheaper per pound '
+            + 'by ' + read['vos-gap'] + '. Per unit is the number that misleads here, because the '
+            + 'two packs are not the same size.' };
+    }
+    return { tone: 'is-go', title: best + ' is the better buy.',
+      text: 'It comes out ' + read['vos-gap'] + ' cheaper per pound, which is the only base the two '
+          + 'packs can honestly be compared on.' };
+  },
+  "subLine": function (read, ans, f) {
+    return 'Comparing ' + (f['vos-a-units'] || 0) + ' units at ' + (f['vos-a-size'] || 0)
+         + ' lb against ' + (f['vos-b-units'] || 0) + ' units at ' + (f['vos-b-size'] || 0) + ' lb.';
+  },
+  "echoes": []
+};
+  </script>
