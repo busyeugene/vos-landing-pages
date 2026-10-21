@@ -9,7 +9,27 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Related strips link same-audience siblings; each footer carries one cross-audience link.
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
-## ▶ RESUME HERE: latest session 2026-10-21 (12 compare pages REFRAMED in the repo, not yet in Webflow)
+## ▶ RESUME HERE: latest session 2026-10-21 (12 compare pages REFRAMED, repo + Vercel + Webflow)
+**Webflow port DONE and verified from stored state** (saved, not published; ships with the client's
+next site publish). All 12 pages: text, hero/mainCta props, feature links, SEO description (OG
+copied), table cells and JSON-LD; plus the `/alternatives` hub (header, 12 cards, SEO, schema).
+Read back: every set_text and prop matches `repush/<slug>.json` (`verify-push.py`), every table
+cell's stored code matches (`verify-cells.py`, each cell read 5-7 times), 12/12 schemas exactly
+equal to `schema/<slug>.json`, hub tree and schema exact.
+- **Re-push recipe for these pages: `_webflow/gen-repush.py`, NOT `batches.py`.** gen-ops' cell
+  logic diffs against the DONOR, so a cell that was text and is now a tick gets no op. gen-repush
+  writes code + style on every embed cell from stored state, and its `CONVERTED` map holds the six
+  hand-built tick embeds in cell 1,2 (necs, pepperi, fresho from 2026-10-10; bluecart, orderease,
+  rekki from today). `verify-cells.py` needs the get_settings list repeated so the result spills
+  to a file.
+- **Schema fixes in `gen-schema.py`:** the Offer no longer states a pricing basis ("based on the
+  number of accounts", KB Q19, was live in the JSON-LD of all 22 ported pages), and compare-page
+  breadcrumbs go Home > Alternatives > the registry label. ⚠ The 10 batch-4 FEATURE pages' schema
+  files carry the Offer fix but were NOT re-pushed: their live JSON-LD still states the basis.
+- The webflow MCP can be authorized to the wrong workspace (it showed only DCI sites); check
+  `list_sites` before assuming a site id is wrong.
+
+Earlier the same day, in the repo:
 **Client decision (via Eugene, 2026-10-21):** keep the `<competitor> alternative` keywords, but present
 VoiceOrder Solutions as something a distributor ADDS NEXT TO the competitor, never its replacement
 ("we are much smaller, so we'll lose in the direct comparison"). And on these 12 pages, write
@@ -32,10 +52,9 @@ rules there still apply.
   within and 0 on 3+ pages, repeat.js 0 within apart from the repeated "Not listed on their site"
   table cell, layout 0 flags, promote 0/11 except cut-dry 1/11). Two review rounds plus a
   verification round by no-context reviewers, every finding re-checked before applying.
-- **Next:** Eugene reviews the repo copy; then commit + push (Vercel mirror); then re-port all 12 to
-  Webflow (they are PUBLISHED there, so saved changes ship with the client's next publish):
-  `extract-compare.py` -> `gen-ops.py` -> `PUSH-RUNBOOK.md`, plus `gen-schema.py` for the FAQ
-  JSON-LD, then push the hub. Re-run the donor-leak and `verify-schema.py` checks after.
+- Committed and pushed to `master` (Vercel mirror live), then ported to Webflow (above).
+- **Still open:** placeholder testimonials need real quotes; nobody has looked at a RENDERED
+  Webflow page of the new copy yet (every check is string level).
 - **Lesson:** the reframe's most common overclaim was "nothing is interpreted / nothing to read"
   (REKKI, WizCommerce, Burnt, Fresho). The app turns speech into lines; the safeguard is the buyer
   reviewing each line. Also watch "ring the desk" (UK) and "one place to look" when our default

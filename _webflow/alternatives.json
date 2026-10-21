@@ -339,8 +339,8 @@
    {
     "@type": "ItemList",
     "@id": "https://www.voiceordersolutions.com/alternatives#comparisons",
-    "name": "VoiceOrder Solutions compared with other ordering tools",
-    "description": "Head-to-head comparison pages for food distributors, one per competing product, each sourced from that vendor’s own site and dated.",
+    "name": "Ordering platforms VoiceOrder Solutions runs alongside",
+    "description": "One page per ordering platform food distributors ask about: what it already does, and what adding VoiceOrder Solutions voice ordering changes. Each is sourced from that vendor's own site and dated.",
     "numberOfItems": 12,
     "itemListOrder": "https://schema.org/ItemListUnordered",
     "itemListElement": [

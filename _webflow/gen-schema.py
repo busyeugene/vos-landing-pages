@@ -26,6 +26,11 @@ _PG = json.load(io.open(os.path.join(HERE, 'pages.json'), encoding='utf-8'))
 PAGES = dict(_PG.get('pages') or {})
 PAGES.update(_PG.get('compare') or {})
 
+_REG = json.loads(subprocess.check_output(
+    ['node', '-e', "console.log(JSON.stringify(require('./_build/registry.js').map(p=>[p.slug,p.label])))"],
+    cwd=REPO))
+REG_LABEL = dict(_REG)
+
 HERO_IMG = ('https://cdn.prod.website-files.com/69bc131a5fdaa09a10456d46/'
             '6a208bdc32c3aee3e914c9e7_update-order%20(3)-p-1080.png')
 
@@ -117,7 +122,9 @@ def build(slug):
         label += ' Software'
     label = label.replace('B2b', 'B2B').replace('Dsd', 'DSD').replace('Ai', 'AI')
     if is_compare:
-        crumb = label + ' Alternative'
+        # The registry label ("Cut+Dry Alternative", "NECS Entree Alternative"), not the
+        # slug title-cased ("Cut Dry Alternative", "Necs Entree Alternative").
+        crumb = REG_LABEL.get(slug) or label + ' Alternative'
         app_name = 'VoiceOrder Solutions'
         app_alt = ['VOS', 'VoiceOrder']
         app_sub = 'Order Management'
@@ -164,7 +171,10 @@ def build(slug):
         '@type': 'BreadcrumbList', '@id': url + '#breadcrumb',
         'itemListElement': [
             {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': LIVE + '/'},
-            {'@type': 'ListItem', 'position': 2, 'name': 'Solutions', 'item': LIVE + '/solutions'},
+            # Compare pages sit in the /alternatives folder under their own hub, not /solutions.
+            ({'@type': 'ListItem', 'position': 2, 'name': 'Alternatives', 'item': LIVE + '/alternatives'}
+             if is_compare else
+             {'@type': 'ListItem', 'position': 2, 'name': 'Solutions', 'item': LIVE + '/solutions'}),
             {'@type': 'ListItem', 'position': 3, 'name': crumb},
         ],
     })
@@ -205,8 +215,9 @@ def build(slug):
         'offers': {
             '@type': 'Offer', '@id': url + '#offer',
             'name': '%s subscription' % app_name,
-            'description': ('Pricing is quoted per distributor based on the number of accounts and '
-                            'the setup required; there is no public list price. '
+            # No pricing BASIS: "based on the number of accounts" is KB Q19, an open client
+            # question, stripped from the visible copy in Oct 2026 (review, 2026-10-21).
+            'description': ('Pricing is quoted per distributor; there is no public list price. '
                             + ('Ask the distributor who supplies you.' if operator
                                else 'Book a free demo for a quote.')),
             'priceCurrency': 'USD',
