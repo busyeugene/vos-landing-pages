@@ -9,66 +9,87 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Related strips link same-audience siblings; each footer carries one cross-audience link.
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
-## ▶ RESUME HERE: latest session 2026-10-21 (12 compare pages REFRAMED, repo + Vercel + Webflow)
-**Webflow port DONE and verified from stored state** (saved, not published; ships with the client's
-next site publish). All 12 pages: text, hero/mainCta props, feature links, SEO description (OG
-copied), table cells and JSON-LD; plus the `/alternatives` hub (header, 12 cards, SEO, schema).
-Read back: every set_text and prop matches `repush/<slug>.json` (`verify-push.py`), every table
-cell's stored code matches (`verify-cells.py`, each cell read 5-7 times), 12/12 schemas exactly
-equal to `schema/<slug>.json`, hub tree and schema exact.
-- **Re-push recipe for these pages: `_webflow/gen-repush.py`, NOT `batches.py`.** gen-ops' cell
-  logic diffs against the DONOR, so a cell that was text and is now a tick gets no op. gen-repush
-  writes code + style on every embed cell from stored state, and its `CONVERTED` map holds the six
-  hand-built tick embeds in cell 1,2 (necs, pepperi, fresho from 2026-10-10; bluecart, orderease,
-  rekki from today). `verify-cells.py` needs the get_settings list repeated so the result spills
-  to a file.
-- **Schema fixes in `gen-schema.py`:** the Offer no longer states a pricing basis ("based on the
-  number of accounts", KB Q19, was live in the JSON-LD of all 22 ported pages), and compare-page
-  breadcrumbs go Home > Alternatives > the registry label. ⚠ The 10 batch-4 FEATURE pages' schema
-  files carry the Offer fix but were NOT re-pushed: their live JSON-LD still states the basis.
-- **Plain-language pass (Eugene, same day: "I don't understand 'Cut the orders anything has to
-  read'"):** two no-context reviewers read all 12 as a non-technical distributor owner; ~270 edits,
-  re-gated, re-pushed and re-verified (all 12 at 0 mismatches). Lessons: explain a competitor's
-  product name at first mention (OrderAI, OrderPilot, GrubAssist, Order Agent) or say "<X>'s AI";
-  no metaphors (robots, microphone); "your buyer" reads to a distributor as THEIR purchaser, so say
-  "your customer" / "the kitchen's buyer"; "route" means a delivery route to them. Canonical VOS
-  lines now: "Saves 20 to 30 minutes compared with the same order by phone", "It does not replace
-  your stock system: that stays in charge...", "the price you set", "no stock update".
-- `query_pages_schema_markup` rejects a page id listed twice in one action; to make a read-back
-  spill to a file, repeat whole ACTIONS instead.
-- The webflow MCP can be authorized to the wrong workspace (it showed only DCI sites); check
-  `list_sites` before assuming a site id is wrong.
+## ▶ RESUME HERE: latest session 2026-10-21 (12 compare pages reframed + plain-language pass, DONE everywhere)
+**State: finished and verified.** The 12 `/alternatives/<slug>` comparison pages were (1) reframed
+from head-to-head to "keep <X>, add VoiceOrder Solutions beside it", (2) given a plain-language
+pass, and (3) ported into Webflow with the `/alternatives` hub. The repo is the source of truth,
+`master` is pushed (Vercel mirror `https://vos-landing-pages.vercel.app/<slug>` is current), and
+Webflow holds the same copy, SAVED but NOT published: it ships with the client's next site
+publish. Never call `publish_site`. Every Webflow field was read back from STORED state: all text
+and hero/CTA props match `repush/<slug>.json`, every table cell's code matches, 12/12 page schemas
+and the hub schema equal their files exactly.
 
-Earlier the same day, in the repo:
-**Client decision (via Eugene, 2026-10-21):** keep the `<competitor> alternative` keywords, but present
-VoiceOrder Solutions as something a distributor ADDS NEXT TO the competitor, never its replacement
-("we are much smaller, so we'll lose in the direct comparison"). And on these 12 pages, write
-"VoiceOrder Solutions" in full, never "VOS" (author comments may keep it). This SUPERSEDES the
-head-to-head angles in the "Competitor comparison pages" section below; the research and honesty
-rules there still apply.
-- **The frame, as built:** H1 keeps "<X> Alternative" but answers "keep X, add voice". Table columns
-  are `<X> + VoiceOrder Solutions` (highlight) vs `<X> on its own`: X's real strengths are ticks in
-  BOTH columns, only what the voice step adds differs, and an unbacked competitor tick is the text
-  cell "Not listed on their site". Never "extension", "plugs into" or "works with X": the products
-  do not connect, and every page has an FAQ saying so (no link, no joint support).
-- **8 FAQs per page now**, matching the 8 Webflow accordion slots, so `overrides.json`
-  `faq_merge` (and the `_compare_structural` FAQ note) must be DROPPED at port time.
-- Shared integrations partial: on compare pages only, `build.js` rewrites its two VOS lines (the
-  "can connect to ... platforms" line read as "it could connect to the competitor").
-- `template.js` and `promote.js` accept "VoiceOrder Solutions" where they looked for "VOS".
-- `/alternatives` hub copy is rewritten in `_webflow/gen-alternatives.py` + `alternatives.json`
-  (header, cards, SEO, CollectionPage schema). Not pushed.
-- All gates green on all 12 (qa 0/0, kwaudit 0, template 0, claims 0 bans, structure, trigram 0
-  within and 0 on 3+ pages, repeat.js 0 within apart from the repeated "Not listed on their site"
-  table cell, layout 0 flags, promote 0/11 except cut-dry 1/11). Two review rounds plus a
-  verification round by no-context reviewers, every finding re-checked before applying.
-- Committed and pushed to `master` (Vercel mirror live), then ported to Webflow (above).
-- **Still open:** placeholder testimonials need real quotes; nobody has looked at a RENDERED
-  Webflow page of the new copy yet (every check is string level).
-- **Lesson:** the reframe's most common overclaim was "nothing is interpreted / nothing to read"
-  (REKKI, WizCommerce, Burnt, Fresho). The app turns speech into lines; the safeguard is the buyer
-  reviewing each line. Also watch "ring the desk" (UK) and "one place to look" when our default
-  route is an emailed file.
+**Open, in priority order (none started):**
+1. **Look at a rendered Webflow page** (Designer preview), especially the comparison tables. Every
+   check so far is string level; the 2026-10-09 lesson is that this says nothing about rendering.
+2. **Placeholder testimonials** (`[Customer Name]`, two per page) need real quotes from the client.
+   They are generic on purpose: no competitor knocks, no invented numbers.
+3. **The 10 batch-4 FEATURE pages' live JSON-LD still states a pricing basis** ("based on the number
+   of accounts", KB Q19, an open client question). `gen-schema.py` and `schema/<slug>.json` are
+   already fixed; only the push is missing (`python -I _webflow/batches.py <slug> schema`, then
+   read back with `query_pages_schema_markup`). Offered, not asked for.
+4. Carried from 2026-10-19 (see that section below): quiz result-box overclaims, the 26 feature
+   pages' stuck-open FAQs, HubSpot hidden fields.
+
+**The client decision behind it (via Eugene, 2026-10-21):** keep the `<competitor> alternative`
+keywords, but present VoiceOrder Solutions as something a distributor ADDS NEXT TO the competitor,
+never its replacement ("we are much smaller, so we'll lose in the direct comparison"), and write
+"VoiceOrder Solutions" in full on these pages, never "VOS" (author comments may keep it). This
+SUPERSEDES the head-to-head angles in "Competitor comparison pages" below; that section's
+research, sourcing and honesty rules still apply. Eugene picked "alongside / add to" over the word
+"extension", because "extension" implies an integration that does not exist.
+
+**The frame, as built (keep it on any edit):**
+- H1 keeps "<X> Alternative" and answers "keep X, add voice". Hero lead's first sentence sells
+  what the distributor gets, not the competitor's name.
+- Table: `<X> + VoiceOrder Solutions` (highlight) vs `<X> on its own`, 9 rows. X's real strengths
+  are ticks in BOTH columns; only what voice adds differs; an unbacked competitor tick is the text
+  cell "Not listed on their site". Never "extension", "plugs into" or "works with X": every page has
+  an FAQ saying the two do not connect (no link, no joint support).
+- 8 FAQs per page = the 8 Webflow accordion slots (`faq_merge` is gone from `overrides.json`).
+- Plain language: explain a competitor's product name at first mention ("OrderPilot, Fresho's AI
+  order reader") or say "<X>'s AI"; no metaphors (robots, microphone); the restaurant side is "your
+  customer" / "the kitchen's buyer", never a bare "your buyer" (a distributor reads that as THEIR
+  purchaser); "route" means a delivery route to a distributor.
+- Canonical shared lines, identical on all 12: "Saves 20 to 30 minutes compared with the same order
+  by phone", "Over EDI, the API or QuickBooks, nobody on your team retypes it", "It does not replace
+  your stock system: that stays in charge, and a demo shows how the levels connect.", "Stock
+  numbers come from the system you count with today", "the price you set", "...no timestamp and no
+  stock update".
+- Most common overclaim to avoid: "nothing is interpreted / nothing to read / an order can't be
+  wrong". The app turns speech into lines; the safeguard is the customer reviewing each line.
+
+**How to change copy on these 12 pages (the full loop, all of it proven this session):**
+1. Edit `_build/pages/<slug>.js`; `node phrasecheck.js <slug> "..."` before writing new sentences.
+2. `cd _build && node build.js && node gen-site.js`, then the gates: `qa.js` (0/0), `kwaudit.js`,
+   `template.js`, `claims.js`, `structure.js`, `trigram.js` (0 within) + `trigram.js --cross 3`
+   (0; `node xplan.js` says which compare page rewords each collision), `repeat.js <slugs>`, `python layout.py <slugs>`. Read `node outline.js <slug>`.
+   For edits use `python _build/subst.py pages/<slug>.js pairs.json` (each old string must match
+   exactly once, across source line wraps) or `apply.js`.
+3. Commit + push `master`.
+4. Webflow: `cd _webflow && python -I extract-compare.py && python -I gen-ops.py &&
+   python -I gen-repush.py && python -I gen-schema.py`. Then per page send `repush/<slug>.json`:
+   `text_batches` (data_element_tool), `settings` (data_element_settings_tool), `element`
+   (data_element_tool), `props` (data_component_props_tool), `seo` (data_pages_tool
+   update_page_settings), and `python -I batches.py <slug> schema` (data_pages_tool).
+   **Use `gen-repush.py`, NOT `batches.py`, for the page content**: gen-ops' cell logic diffs
+   against the DONOR, so a cell that was text and is now a tick gets no op. gen-repush writes code
+   + style on every embed cell, and its `CONVERTED` map holds the six hand-built tick embeds in
+   cell 1,2 (necs, pepperi, fresho, bluecart, orderease, rekki). `hard` is null on every page now.
+5. Verify from stored state: `get_all_elements` -> `python -I verify-push.py repush/<slug>.json
+   <file>`; repeat the get_settings list 6x so it spills to a file -> `python -I verify-cells.py
+   <slug> <file>`; `query_pages_schema_markup` (repeat whole ACTIONS, a duplicate page id inside
+   one action is rejected) and compare with `==` against `schema/<slug>.json`.
+6. Webflow session: call `webflow_guide_tool` with `session_id: "start"` once; its output is ~100k
+   chars, so pull the `ses_...` id out of the saved file with a regex. If `list_sites` shows only
+   DCI sites, the MCP is authorized to the wrong workspace: ask Eugene to re-auth.
+   4 parallel push workers ran without a single 429.
+
+**Other fixes made this session:** `gen-schema.py` Offer no longer states a pricing basis, and
+compare breadcrumbs go Home > Alternatives > the registry label; the shared integrations partial's
+"can connect to ... platforms" line is rewritten on compare pages only (`build.js`); `template.js`
+and `promote.js` accept the full brand; `verify-cells.py` parses each saved block as JSON (the
+first regex version crashed on every file).
 
 ## Previous session 2026-10-19 (Webflow site work, no repo page changes)
 Everything below was SAVED in Webflow (site `69bc131a5fdaa09a10456d46`); Eugene publishes, we
@@ -362,7 +383,7 @@ page's angle, live in `_build/research/competitors/`.**
 
 ## Competitor comparison pages (`compare` cluster, opened 2026-10-10)
 
-### ▶ RESUME HERE
+### History (2026-10-10; superseded by the 2026-10-21 RESUME HERE at the top of this file)
 **ALL 12 BUILT, GATED, REVIEWED IN EIGHT PASSES, AND PORTED TO WEBFLOW AS VERIFIED DRAFTS**, plus an
 `/alternatives` hub page. Current as of 2026-10-10 evening. The repo copy is final; `master` is
 pushed and clean.
