@@ -26,6 +26,16 @@ equal to `schema/<slug>.json`, hub tree and schema exact.
   number of accounts", KB Q19, was live in the JSON-LD of all 22 ported pages), and compare-page
   breadcrumbs go Home > Alternatives > the registry label. ⚠ The 10 batch-4 FEATURE pages' schema
   files carry the Offer fix but were NOT re-pushed: their live JSON-LD still states the basis.
+- **Plain-language pass (Eugene, same day: "I don't understand 'Cut the orders anything has to
+  read'"):** two no-context reviewers read all 12 as a non-technical distributor owner; ~270 edits,
+  re-gated, re-pushed and re-verified (all 12 at 0 mismatches). Lessons: explain a competitor's
+  product name at first mention (OrderAI, OrderPilot, GrubAssist, Order Agent) or say "<X>'s AI";
+  no metaphors (robots, microphone); "your buyer" reads to a distributor as THEIR purchaser, so say
+  "your customer" / "the kitchen's buyer"; "route" means a delivery route to them. Canonical VOS
+  lines now: "Saves 20 to 30 minutes compared with the same order by phone", "It does not replace
+  your stock system: that stays in charge...", "the price you set", "no stock update".
+- `query_pages_schema_markup` rejects a page id listed twice in one action; to make a read-back
+  spill to a file, repeat whole ACTIONS instead.
 - The webflow MCP can be authorized to the wrong workspace (it showed only DCI sites); check
   `list_sites` before assuming a site id is wrong.
 
