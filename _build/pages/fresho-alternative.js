@@ -27,7 +27,7 @@
  */
 module.exports = {
   title: "Fresho Alternative for Food Distributors in 2026",
-  description: 'Keep Fresho running and add one spoken step: kitchens say the order into an app and confirm each line. A Fresho alternative you add rather than adopt.',
+  description: 'Keep Fresho running and add one spoken step: kitchens say the order into an app and confirm each line. A Fresho alternative you add without giving anything up.',
   related: ["necs-entree-alternative","pepperi-alternative","orderease-alternative"],
   relatedHeading: "More platforms that can keep running beside us",
   body: `
@@ -44,8 +44,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>The Fresho Alternative You Add Alongside Fresho.</h1>
       <p class="lead mt-16">
-        VoiceOrder Solutions gives your phone accounts a voice app, and everything else keeps
-        running. Accounts talk through what they need in the app and look the lines over before sending, and each order lands in a format you take today. Your Fresho setup, from OrderPilot to the full suite, carries on.
+        VoiceOrder Solutions gives a voice app to the accounts that still call their orders in. They say what they need into the app, look over each line before it goes, and the order arrives in a format you can use now. Whatever you run on Fresho, from AI order reading to the full suite, carries on.
       </p>
 
       <div class="hero-ctas">
@@ -54,7 +53,7 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>Timestamped the moment it is sent</span>
+        <span>Timestamped the moment it leaves the app</span>
         <span class="hero-trust-dot"></span>
         <span>Start on a few accounts</span>
         <span class="hero-trust-dot"></span>
@@ -83,7 +82,7 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">Returns to the day on each phoned order</div>
+      <div class="stat-label">Saved on each order that used to be phoned</div>
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
@@ -107,13 +106,10 @@ module.exports = {
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 660px; margin: 0 auto;">
-      <span class="eyebrow">Deep, Plus One Step</span>
-      <h2>Fresho, plus a voice reorder.<br>Their depth, one step added.</h2>
+      <span class="eyebrow">Fresho Today, Plus Voice</span>
+      <h2>Fresho, plus a voice reorder.<br>Everything Fresho does, plus one step.</h2>
       <p class="lead mt-16">
-        Two columns, one operation: as it runs now, and with spoken orders added for the accounts
-        that want them. Fresho covers ordering, stock, margins, delivery, picking, invoicing and
-        payments, and it knows produce, meat and seafood properly, so a Fresho alternative is
-        rarely the right word for what you need. The two products do not connect.
+        The two columns show your operation as it runs now, and with spoken orders added for the accounts that want them. Fresho covers ordering, stock, margins, delivery, picking, invoicing and payments. It knows produce, meat and seafood well. So a Fresho alternative is rarely what you actually need. The two products do not connect.
       </p>
     </div>
 
@@ -145,7 +141,7 @@ module.exports = {
           <tr>
             <td>The buyer confirms each line before it sends</td>
             <td><span class="check-yes">✓</span></td>
-            <td>In the portal; AI-read messages are corrected over time</td>
+            <td>Yes in the portal; for messages their AI reads, accuracy improves as orders get corrected</td>
           </tr>
           <tr>
             <td>Picking and packing</td>
@@ -198,8 +194,7 @@ module.exports = {
       <h2>Why distributors weigh an alternative to Fresho</h2>
       <p class="lead mt-16">
         Looking up a Fresho competitor is seldom a complaint about the product. Fresho is an order
-        and operations system with real depth in fresh food. The search usually comes down to
-        scope or sequence, and neither one needs Fresho taken out.
+        and operations system with real depth in fresh food. The search usually comes down to how much one vendor should run, or what to change first. Neither one means taking Fresho out.
       </p>
     </div>
 
@@ -218,10 +213,9 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">🔁</div>
-        <h4>Some kitchens would change the habit</h4>
+        <h4>Some kitchens would happily order a new way</h4>
         <p class="text-muted mt-12">
-          Their AI is built so a customer need not change a thing, which is a deliberate choice and
-          a sound one, and for plenty of accounts it is right. A few would still rather say it once and see the lines than leave one more voicemail for a machine to read.
+          Their AI is built so a customer does not have to change a thing. That is a deliberate and sound choice, and for plenty of accounts it is right. A few would still rather say it once and see the lines than leave one more voicemail for a machine to read.
         </p>
       </div>
 
@@ -229,7 +223,7 @@ module.exports = {
         <div class="problem-icon">📏</div>
         <h4>A voice step does not wait on a rollout</h4>
         <p class="text-muted mt-12">
-          Fresho publishes its timeline openly: around four weeks to set up, plus two to four weeks training the AI. Putting our app in front of some accounts is a separate decision, and it can happen in either order.
+          Fresho publishes its timeline openly: around four weeks to set up, plus two to four weeks training the AI. Giving our app to some accounts is a separate decision. You can do it before, during or after a Fresho rollout.
         </p>
       </div>
 
@@ -253,7 +247,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Voice Ordering</span>
-          <h3>The habit moves, and that is the point</h3>
+          <h3>Kitchens change how they order, on purpose</h3>
           <p class="mt-12 text-muted">
             A chef walks the cooler, says what is short, and the lines come up from that account's
             guide. They fix anything off and send. It is a change in how they order, and because they fixed the lines themselves, nobody at your end has to rebuild the order afterwards.
@@ -269,11 +263,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Their own handset, iOS or Android, nothing issued</span>
+              <span>Runs on their own iOS or Android phone, with no device from you</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>20 to 30 minutes back against the same order by phone</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -296,10 +290,9 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Order Guides</span>
-          <h3>Narrow on purpose: your lines, your figures</h3>
+          <h3>Just your items and your prices</h3>
           <p class="mt-12 text-muted">
-            Each account gets the items it buys at the price you hold for it, against your own
-            codes. That guide is the whole of our setup.
+            Each account gets the products it orders at the price you set for it, under your own codes. That guide is the whole of our setup.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -335,7 +328,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Delivery Formats</span>
-          <h3>It lands where your paperwork already starts</h3>
+          <h3>It arrives in the software you work in now</h3>
           <p class="mt-12 text-muted">
             A finished order arrives as an email carrying a PDF, Excel or Word file, or goes
             straight into your ERP over the API, over EDI, or into QuickBooks. Whatever sends your invoices and plans your runs today goes on doing it.
@@ -347,7 +340,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>On a direct feed nobody retypes it at your end</span>
+              <span>Over EDI, the API or QuickBooks, nobody on your team retypes it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -377,8 +370,7 @@ module.exports = {
           <h3>Stock in the frame as orders come through</h3>
           <p class="mt-12 text-muted">
             VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog
-            updates as stock levels change. It is not the system of record for stock: whatever you
-            run today keeps that role, and a demo shows how the levels connect.
+            updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -391,7 +383,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Levels come out of whatever you count with now</span>
+              <span>Stock numbers come from the system you count with today</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -421,7 +413,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and no modules to pick</h2>
       <p class="lead mt-16">
-        There is nothing to scope. You pass us the guides, we load them and set up each account, and your customers get going.
+        There is no project to plan. You pass us the guides, we load them and set up each account, and your customers get going.
       </p>
     </div>
 
@@ -440,7 +432,7 @@ module.exports = {
         <div class="step-number">2</div>
         <h4>Accounts are opened</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          We provision each customer and the kitchen downloads the app. Most
+          We set up each customer and the kitchen downloads the app. Most
           will have ordered before the day is finished.
         </p>
       </div>
@@ -449,7 +441,7 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Orders arrive ready to work</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Confirmed by the buyer, numbered and timed, in whichever of your formats you chose.
+          The customer has confirmed it, it is numbered and timed, and it comes in whichever of your formats you chose.
         </p>
       </div>
 
@@ -469,7 +461,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What a narrow tool changed</h2>
+      <h2>What changed with one small tool</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -541,9 +533,7 @@ module.exports = {
       <span class="eyebrow">Add, Not Adopt</span>
       <h2>Fresho runs the day, VoiceOrder Solutions adds the voice</h2>
       <p class="lead mt-16">
-        This is a sensible pairing rather than a standoff. We are not a Fresho replacement: some
-        accounts change how they order, and everything after that order, the picking and the run
-        and the invoice, is left as it is. A Fresho alternative quite often means
+        Keeping both is a sensible setup. We are not a Fresho replacement: some kitchens move their ordering into our app, and everything after the order (picking, delivery and the invoice) stays as it is. A Fresho alternative quite often means
         precisely this.
       </p>
     </div>
@@ -561,10 +551,9 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📬</div>
-        <h4>Let every account pick its route</h4>
+        <h4>Let every account choose how it orders</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers happy in the portal, or happy leaving a voicemail for OrderPilot, carry on just
-          as Fresho promises. Hand the app to the kitchens that would rather talk it through and check it on screen.
+          Customers happy in the portal, or happy leaving a voicemail for OrderPilot, Fresho's AI order reader, carry on just as Fresho promises. Hand the app to the kitchens that would rather talk it through and check it on screen.
         </p>
       </div>
 
@@ -572,7 +561,7 @@ module.exports = {
         <div class="feature-card-icon">🧷</div>
         <h4>Small enough to try properly</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          No modules to choose and nothing to decommission. Open a few of the accounts that cost
+          No modules to choose and nothing to switch off. Open a few of the accounts that cost
           you the most time and decide on the evidence.
         </p>
       </div>
@@ -590,7 +579,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">Watch one account place a spoken reorder</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One account, a single order spoken aloud, and the rest of your operation never moves.
+        Twenty minutes. One account, a single order spoken aloud, and nothing else in your operation changes.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -618,7 +607,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Usually not. Fresho is an operations system built for perishable wholesale, from the order to the payment, and replacing it to change how a few kitchens order would be out of scale. Keep it, and bring in VoiceOrder Solutions for the kitchens happier talking than typing.
+          Usually not. Fresho is an operations system built for perishable wholesale, from the order to the payment, and replacing it just to change how a few kitchens order would be far too big a change. Keep it, and bring in VoiceOrder Solutions for the kitchens happier talking than typing.
         </div>
       </div>
 
@@ -628,7 +617,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At delivery runs, invoicing, taking payment, picking, margin control or reporting, not remotely: we do none of them. Where we help is narrower, a kitchen that speaks its order and checks every item before it sends. That runs alongside everything Fresho does rather than competing with it.
+          At delivery runs, invoicing, taking payment, picking, margin control or reporting, not remotely: we do none of them. Where we help is narrower, a kitchen that speaks its order and checks every item before it sends. That sits beside all of Fresho's work rather than competing with it.
         </div>
       </div>
 
@@ -638,7 +627,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Maybe not for every account, and it is worth being exact because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. That difference, not a missing feature, is why a Fresho alternative search sometimes ends with both.
+          Maybe not for every account, and it is worth being exact because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. That difference, not a missing feature, is why many who look for a Fresho alternative end up keeping both.
         </div>
       </div>
 
@@ -648,7 +637,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Nothing connects the two, and neither company supports the other. Both sit beside your ERP on their own terms: theirs through its own ERP connection, ours by email, EDI, API or QuickBooks. Neither one passes orders to the other.
+          No. Nothing connects the two, and neither company supports the other. Both sit beside your ERP on their own terms: theirs through its own ERP connection, while ours arrive by email, EDI, API or as a QuickBooks entry. Neither one passes orders to the other.
         </div>
       </div>
 
@@ -658,7 +647,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only the ones you choose. OrderPilot's published promise is that customers carry on ordering exactly as they always have, and the Fresho portal is there too. Let each account pick: our app suits the kitchens that prefer to talk. One limit: a call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock from us. Only what comes through our app does.
+          Only the ones you choose. Fresho says its OrderPilot AI lets customers carry on ordering exactly as they always have, and the Fresho portal is there too. Let each account pick: our app suits the kitchens that prefer to talk. One limit: a call or a voicemail to your desk gets no number, no timestamp and no stock update from us. Only what comes through our app does.
         </div>
       </div>
 
@@ -668,7 +657,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There are no modules to scope, and nothing in Fresho changes while the first accounts start.
+          For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There is no setup project, and Fresho stays untouched while the first accounts start.
         </div>
       </div>
 
@@ -705,7 +694,7 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Fix the front door, leave the rest</h2>
+  <h2>Change how kitchens send orders, keep the rest</h2>
   <p>Twenty minutes and one voice order, from the kitchen to your desk.</p>
 
   <div class="final-cta-form">

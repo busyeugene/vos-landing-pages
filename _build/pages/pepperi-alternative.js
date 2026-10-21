@@ -23,7 +23,7 @@ module.exports = {
   title: "Pepperi Alternative for Food Distributors in 2026",
   description: 'Keep Pepperi for the visit and add voice for the reorder: accounts speak each order into an app and approve it. A Pepperi alternative your reps work beside.',
   related: ["fresho-alternative","necs-entree-alternative","choco-alternative"],
-  relatedHeading: "More platforms that keep their place",
+  relatedHeading: "More platforms that stay when you add voice",
   body: `
 <!--@NAVBAR-->
 
@@ -38,7 +38,7 @@ module.exports = {
       <span class="eyebrow">For Food Distributors</span>
       <h1>A Pepperi Alternative For The Orders Between Visits</h1>
       <p class="lead mt-16">
-        The reorders nobody drives out for can come in on their own. VoiceOrder Solutions runs beside Pepperi: an account talks through the reorder in our app, checks the lines and sends it. The field team holds on to its routes, store visits and promotions, and stops writing up those repeat orders.
+        Repeat orders that don't need a visit can come in on their own. VoiceOrder Solutions runs beside Pepperi: an account talks through the reorder in our app, checks the lines and sends it. The field team holds on to its routes, store visits and promotions, and stops writing up those repeat orders.
       </p>
 
       <div class="hero-ctas">
@@ -102,7 +102,7 @@ module.exports = {
       <span class="eyebrow">Visit, Then Reorder</span>
       <h2>Pepperi plus VoiceOrder Solutions.<br>The visit and the reorder.</h2>
       <p class="lead mt-16">
-        The rep's visit and the reorder that follows it are two moments, and this table covers both. Pepperi is a B2B commerce and field sales platform with van routes, store audits, promotions and CRM, so a Pepperi alternative is mostly a question about the order between visits. The left column has both running; they do not connect.
+        A rep's visit and the reorder after it are two different jobs, and this table covers both. Pepperi is a B2B commerce and field sales platform with van routes, store audits, promotions and CRM. So a Pepperi alternative is mostly about the reorders between visits. The left column has both running; they do not connect.
       </p>
     </div>
 
@@ -196,7 +196,7 @@ module.exports = {
         <div class="problem-icon">🧰</div>
         <h4>The product is wider than the problem</h4>
         <p class="text-muted mt-12">
-          Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If what you came for was a better way to receive orders, swapping it out means weighing a platform decision to get at one of its channels.
+          Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If all you want is a better way to receive orders, replacing Pepperi means a big platform decision to fix one small part of it.
         </p>
       </div>
 
@@ -243,7 +243,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>The buyer reads the lines before anything leaves</span>
+              <span>The kitchen's buyer reads the lines before anything leaves</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -251,11 +251,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Their own handset, iOS or Android, nothing issued</span>
+              <span>Runs on their own iOS or Android phone, with no device from you</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>20 to 30 minutes back against the same order by phone</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -280,8 +280,7 @@ module.exports = {
           <span class="eyebrow">Order Guides</span>
           <h3>One list per account, priced the way you priced it</h3>
           <p class="mt-12 text-muted">
-            Send over the lists you keep today. Each account gets the items it buys against your
-            codes, at the figure you hold for that customer, and setup is done. You keep the
+            Send over the lists you keep today. Each account gets the items it buys under your codes, at the price you set for that customer, and setup is done. You keep the
             catalog and the pricing; they get the convenience.
           </p>
           <ul class="feature-bullets mt-24">
@@ -331,7 +330,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>On a direct feed nobody retypes it at your end</span>
+              <span>Over EDI, the API or QuickBooks, nobody on your team retypes it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -361,8 +360,7 @@ module.exports = {
           <h3>Stock in view as the orders come in</h3>
           <p class="mt-12 text-muted">
             VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog
-            updates as stock levels change. It is not the system of record for stock: the one you
-            run today stays in charge, and a demo shows how the levels connect.
+            updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -375,7 +373,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Levels come from the system you count with now</span>
+              <span>Stock numbers come from the system you count with today</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -415,8 +413,7 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>Hand over your guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A spreadsheet is plenty. Items and the price per account load into one
-          admin screen, against the codes you already use.
+          A spreadsheet is plenty. Items and the price per account load into one admin screen, under the codes you already use.
         </p>
       </div>
 
@@ -433,7 +430,7 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>Orders arrive finished</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Approved by the buyer, carrying a number and a time, laid out as your office expects.
+          The customer has approved it. It carries a number and the time it was sent, in the format your system takes.
         </p>
       </div>
 
@@ -535,7 +532,7 @@ module.exports = {
         <div class="feature-card-icon">🚐</div>
         <h4>Your reps keep every tool they have</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Routes, audits, van stock and promotions carry on in Pepperi. We take nothing out of a rep's hands; we just take the app accounts' reorders off their plate.
+          Routes, audits, van stock and promotions carry on in Pepperi. We take nothing out of a rep's hands. We just take the app's reorders off their plate.
         </p>
       </div>
 
@@ -543,7 +540,7 @@ module.exports = {
         <div class="feature-card-icon">🖱️</div>
         <h4>Self-service stays for those who enjoy it</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Buyers who are happy clicking through a catalog should carry on. Our app is for the part of the book that never took to one and still telephones instead.
+          Buyers who are happy clicking through a catalog should carry on. Our app is for kitchens that never took to one and still phone instead.
         </p>
       </div>
 
@@ -614,7 +611,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It does. They offer a branded self-service portal with each buyer's own catalog and pricing. Every route into it still means working a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones our app suits.
+          It does. They offer a branded self-service portal with each buyer's own catalog and pricing. Every way into it still means using a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones our app suits.
         </div>
       </div>
 

@@ -67,7 +67,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Is when most distributors go live</div>
+      <div class="stat-label">For most distributors to go live</div>
     </div>
     <div>
       <div class="stat-number">24/7</div> <div class="stat-label">Is when orders can come in</div>
@@ -84,10 +84,10 @@ module.exports = {
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Both, Not One</span>
-      <h2>Pepper with VoiceOrder Solutions beside it.<br>One step added.</h2>
+      <span class="eyebrow">Keep Both</span>
+      <h2>Pepper with VoiceOrder Solutions beside it.<br>One voice app added.</h2>
       <p class="lead mt-16">
-        Adding a tool should never leave you with less, and the table reads that way. Pepper sells a broad platform to independents, and a Pepper alternative search usually means one channel is still on the phone. So here is Pepper alone, then Pepper with our app next to it. The two do not connect, and every Pepper detail is from their own site.
+        Our app should not take anything away, and the table shows that. Pepper is a broad platform. A Pepper alternative search usually means some customers still call in their orders. So here is Pepper alone, then Pepper with our app next to it. The two do not connect, and every Pepper detail is from their own site.
       </p>
     </div>
 
@@ -102,9 +102,9 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Kitchens say the order into an app and read it back</td>
+            <td>Kitchens speak into an app and check it before sending</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Voicemails and texts read by Order Agent</td>
+            <td>Pepper's AI (Order Agent) reads voicemails and texts</td>
           </tr>
           <tr>
             <td>A storefront built for digital ordering</td>
@@ -112,12 +112,12 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>The buyer reviews every line before it sends</td>
+            <td>Your customer reviews every line before it sends</td>
             <td><span class="check-yes">✓</span></td>
             <td>On the storefront, yes</td>
           </tr>
           <tr>
-            <td>Hubs for reps, collections, margin and ads</td>
+            <td>Software for reps, collections, margins and ads</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -171,7 +171,7 @@ module.exports = {
       <span class="eyebrow">Where It Starts</span>
       <h2>Why an alternative to Pepper gets searched for</h2>
       <p class="lead mt-16">
-        Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product, and most of it earns its place. What sends a buyer to look at a Pepper competitor is usually far narrower than the platform.
+        Pepper, made by Pomegranate Technologies, sells an AI platform to independent distributors. It includes an online storefront, an AI tool called Order Agent that enters orders, and tools for sales, finance, pricing and marketing. It is a lot of product, and most of it earns its place. What sends a buyer to look at a Pepper competitor is usually one small problem, not the whole platform.
       </p>
     </div>
 
@@ -187,9 +187,9 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">🖊️</div>
-        <h4>On the Order Agent path, you do the checking</h4>
+        <h4>Your team checks what Order Agent read</h4>
         <p class="text-muted mt-12">
-          Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the kitchen confirms what was read, so your order desk is the first person to see it written down.
+          Order Agent takes the voicemail, text, photo or PDF the kitchen already sent and turns it into an order. Pepper's own product page shows no step where the kitchen checks what was read. So your order desk is the first to see the order written down.
         </p>
       </div>
 
@@ -197,7 +197,7 @@ module.exports = {
         <div class="problem-icon">⏳</div>
         <h4>One more rollout is the last thing you need</h4>
         <p class="text-muted mt-12">
-          Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. Fair for a platform that size. Going through anything like it again for one channel is not, and no Pepper alternative should ask you to.
+          Pepper publishes 35 to 90 days for a typical go-live, across five phases, with a setup manager and an engineer assigned to you. That is fair for a platform that size. Going through something like it again just to fix phone orders is not, and no Pepper alternative should ask you to.
         </p>
       </div>
 
@@ -237,11 +237,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Runs on the iPhone or Android handset they already carry</span>
+              <span>Runs on their own iOS or Android phone, with no device from you</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>20 to 30 minutes back against the same order by phone</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -266,8 +266,7 @@ module.exports = {
           <span class="eyebrow">Order Guides</span>
           <h3>Each account gets a list of its own</h3>
           <p class="mt-12 text-muted">
-            You hand over the guides each kitchen already buys from. We load each one against your SKUs at the
-            prices you hold for that account, so a spoken item lands on the right line against your own SKU.
+            You hand over the guides each kitchen already buys from. We load each guide with your SKUs and the prices you set for that account, so each item a customer says matches the right SKU.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -316,7 +315,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Nothing to retype over EDI, QuickBooks or the API</span>
+              <span>Over EDI, the API or QuickBooks, nobody on your team retypes it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -324,7 +323,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Nothing in your stack has to come out first</span>
+              <span>You do not have to remove any software first</span>
             </li>
           </ul>
           <a href="/wholesale-ordering-software" class="feature-link">What an order looks like →</a>
@@ -346,8 +345,7 @@ module.exports = {
           <h3>Watch stock move as the orders land</h3>
           <p class="mt-12 text-muted">
             VoiceOrder Solutions gives you real-time inventory visibility tied to what is being ordered, and the catalog
-            updates as levels change. It is not where your stock lives: your own inventory system
-            stays in charge, and a demo covers how the two connect.
+            updates as levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -360,7 +358,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Stock figures come from the system doing your counting today</span>
+              <span>Stock numbers come from the system you count with today</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -388,9 +386,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Getting Started</span>
-      <h2>Three steps, and no migration to schedule</h2>
+      <h2>Three steps, and nothing to move off Pepper</h2>
       <p class="lead mt-16">
-        There is nothing to migrate here, and Pepper is left as it is. Send us the guides your office works from, and we
+        Pepper is left exactly as it is. Send us the guides your office works from, and we
         do the loading.
       </p>
     </div>
@@ -417,10 +415,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>It shows up ready</h4>
+        <h4>The order arrives ready</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Confirmed by the customer, with a number and the time it was sent, in the
-          format your system takes.
+          The customer has confirmed it, and it carries an order number and the time it was sent, in the format your system takes.
         </p>
       </div>
 
@@ -440,7 +437,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What it sounds like once it is in</h2>
+      <h2>What customers say once it is running</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -513,7 +510,7 @@ module.exports = {
       <span class="eyebrow">Side By Side</span>
       <h2>What Pepper keeps and what the voice step adds</h2>
       <p class="lead mt-16">
-        VoiceOrder Solutions is no Pepper replacement, and it is not trying to be one. Nothing has to come out for it to go in, so the platform you rolled out stays exactly where it is.
+        VoiceOrder Solutions is no Pepper replacement, and it is not trying to be one. Adding it means taking nothing out, so the platform you rolled out stays exactly where it is.
       </p>
     </div>
 
@@ -531,15 +528,15 @@ module.exports = {
         <div class="feature-card-icon">🧪</div>
         <h4>Try it on the accounts still calling</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          It goes in beside Pepper without a project, so you can start with the handful of accounts that never adopted the storefront and judge it on those before deciding anything bigger.
+          It goes in beside Pepper with no big setup project. Start with the few accounts that never took to the storefront, and judge it on those before deciding anything bigger.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📬</div>
-        <h4>The ERP keeps being the one destination</h4>
+        <h4>Orders still land in your usual place</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Both feed the system you have, so adding our app does not change where an order ends up. It arrives over EDI, the API or QuickBooks into the system your people already use, or by email as a file.
+          Both feed the system you have, so our app does not change where an order ends up. It arrives by EDI, through the API or in QuickBooks, into the system your people already use, or by email as a file.
         </p>
       </div>
 
@@ -593,7 +590,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not at running the whole business on one platform: storefront, reps, collections and pricing. Pepper is built wide for that, and we are not trying to be. Where we help is narrower: a reorder your account speaks and signs off, and plenty of people looking for a Pepper alternative turn out to want exactly that one thing.
+          No, not at running the whole business on one platform: storefront, reps, collections and pricing. Pepper is built wide for that, and we are not trying to be. We help with one narrower job: a reorder your account speaks and signs off. Plenty of people looking for a Pepper alternative turn out to want exactly that.
         </div>
       </div>
 
@@ -603,7 +600,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          None. We have no connection to Pepper and no shared support arrangement. Each product hands its orders to your own system separately, ours by email with a file attached, over EDI or the API, or into QuickBooks. When ours go in by a direct feed, both land in the same system; by email, ours arrive as a file your team opens like any other.
+          None. We have no connection to Pepper and no shared support arrangement. Each product hands its orders to your own system separately, ours by email with a file attached, over EDI or the API, or into QuickBooks. When ours are fed directly into your system, both products' orders end up in the same place. Emailed, ours arrive as a file your team opens like any other.
         </div>
       </div>
 
@@ -613,7 +610,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They should not have to. Kitchens already ordering through the storefront can stay on it. Offer our app to the ones who still call, text or leave a voicemail, because those orders cost your desk the most time. Anyone who keeps calling is handled as now, with no order number from us, since numbers come only with what our app sends.
+          They should not have to. Kitchens already ordering through the storefront can stay on it. Offer our app to the ones who still call, text or leave a voicemail, because those orders cost your desk the most time. Customers who keep calling are handled the way they are today. Their calls get no order number from us, because numbers are only given to app orders.
         </div>
       </div>
 
@@ -623,7 +620,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors reach that point in a day or two, and most of their customers send a first order the same day. There is no IT project and Pepper runs throughout, which is a very different job from the window Pepper publishes for standing up its whole platform.
+          Most distributors reach that point in a day or two, and most of their customers send a first order the same day. There is no IT project, and Pepper carries on as normal. That is a much smaller job than the setup window Pepper publishes for its whole platform.
         </div>
       </div>
 
@@ -643,7 +640,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Our app runs on the iOS or Android phone already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support.
+          No. Our app runs on the phone already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support.
         </div>
       </div>
 

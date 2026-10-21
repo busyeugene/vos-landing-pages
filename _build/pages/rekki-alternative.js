@@ -25,7 +25,7 @@
  */
 module.exports = {
   title: "REKKI Alternative for Food Distributors in 2026",
-  description: "Keep REKKI's robots and add an app your accounts speak orders into, confirming every line first. A REKKI alternative that leaves less for anything to read.",
+  description: "Keep REKKI's AI and add an app your accounts speak orders into, confirming every line first. A REKKI alternative that leaves fewer messages to figure out.",
   related: ["wizcommerce-alternative","grubmarket-ai-alternative","burnt-ai-alternative"],
   relatedHeading: "Other AI tools you can keep, with voice beside them",
   body: `
@@ -40,9 +40,9 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>Need A REKKI Alternative? Give Accounts A Voice.</h1>
+      <h1>Need A REKKI Alternative? Try Spoken, Checked Orders.</h1>
       <p class="lead mt-16">
-        Cut the orders anything has to read. VoiceOrder Solutions works alongside REKKI's robots: your account talks its order into our app, picks from its own guide, and confirms the lines before they reach you. OrderAI and InboxAI keep working on whatever still arrives as a message.
+        Receive orders already checked by the person who placed them. VoiceOrder Solutions works alongside REKKI's AI: your customer speaks into our app, picks items from their own guide, and looks over every line before it goes. REKKI's AI keeps reading whatever still arrives as an email or message.
       </p>
 
       <div class="hero-ctas">
@@ -51,9 +51,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>OrderAI stays on the inbox</span>
+        <span>REKKI's AI still reads your inbox</span>
         <span class="hero-trust-dot"></span>
-        <span>The buyer confirms</span>
+        <span>Your customer checks every line</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -80,11 +80,11 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">Comes back on each order once off the phone</div>
+      <div class="stat-label">Saved on each order that skips the phone</div>
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Covers setup for most distributors</div>
+      <div class="stat-label">Is how long setup takes for most distributors</div>
     </div>
     <div>
       <div class="stat-number">24/7</div> <div class="stat-label">Is when orders can arrive</div>
@@ -101,10 +101,10 @@ module.exports = {
   <!-- Reframed 2026-10-21: REKKI alone vs REKKI with VoiceOrder Solutions added. REKKI's strengths are ticks in both columns; only the uninterpreted order and the buyer sign-off differ. NEVER imply we are more accurate or cannot be wrong (FAQ 2 and 3). -->
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Two Ways To Trust An Order</span>
-      <h2>REKKI with VoiceOrder Solutions added.<br>Less left to read.</h2>
+      <span class="eyebrow">REKKI Today, And With Our App</span>
+      <h2>REKKI with VoiceOrder Solutions added.<br>Fewer messages to figure out.</h2>
       <p class="lead mt-16">
-        A confirmed order takes nothing away from a robot that reads. Teams looking at a REKKI alternative are usually asking whether anything has to interpret the order, so each row shows REKKI today and REKKI with our app beside it. The two products are not linked, and every REKKI detail is from their own site.
+        Our app only adds to what you have. Teams looking at a REKKI alternative usually want to know if software still has to work out what each order says. Each row shows REKKI today, and REKKI with our app beside it. The two products are not linked, and every REKKI detail is from their own site.
       </p>
     </div>
 
@@ -119,27 +119,27 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Orders read out of any channel by a robot</td>
+            <td>AI that reads orders from every channel</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Some accounts send lines from their own guide, not a message</td>
             <td><span class="check-yes">✓</span></td>
-            <td>OrderAI reads what arrives</td>
+            <td>REKKI's AI reads what arrives</td>
           </tr>
           <tr>
-            <td>The buyer signs the order off before it sends</td>
+            <td>Your customer signs off the order before it sends</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies: chef app yes, OrderAI no</td>
+            <td>Varies: yes in their chef app, no for orders their AI reads</td>
           </tr>
           <tr>
-            <td>An inbox robot that flags urgent emails</td>
+            <td>AI that flags urgent emails in your inbox</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Menus scanned for products they don't buy from you yet</td>
+            <td>A customer's menu scanned for products they don't buy from you yet</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -188,7 +188,7 @@ module.exports = {
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Why distributors weigh an alternative to REKKI</h2>
       <p class="lead mt-16">
-        Hunting for a REKKI competitor is rarely about doubting the robots. It is usually one specific worry about the orders they read, and that worry has an answer that leaves the robots running.
+        People hunting for a REKKI competitor rarely doubt REKKI's AI. Their worry is usually about the orders it has to read, and that can be fixed with REKKI's tools left running.
       </p>
     </div>
 
@@ -196,25 +196,25 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">📏</div>
-        <h4>An error rate is still a rate</h4>
+        <h4>Reading orders by software has an error rate</h4>
         <p class="text-muted mt-12">
-          REKKI publishes theirs. A number exists because a machine is working out what the order said, and they stand behind it with double checks and a refund guarantee. When the buyer builds the order from their guide and checks it before sending, nobody has to reconstruct it from a message afterwards.
+          REKKI publishes its error rate. There is a rate because software is working out what each order said, and REKKI backs it with double checks and a refund guarantee. When the customer builds the order from a guide and reviews it first, nobody has to piece it together from a message later.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🧑‍🏫</div>
-        <h4>Their robot learns your business</h4>
+        <h4>Their AI learns your business</h4>
         <p class="text-muted mt-12">
-          Their site says your team trains the robot to fit your business, and that it starts processing orders and learning right away. That is real control. For accounts on our app, your existing order guides are the setup.
+          Their site says your team trains it to fit your business, and that it starts processing orders and learning right away. That gives you real control. With our app, we set up every account from the order guides you already have.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">📝</div>
-        <h4>The messy order keeps being written</h4>
+        <h4>Messy orders keep coming in</h4>
         <p class="text-muted mt-12">
-          Software that copes beautifully with a scrawled message stays busy because the messages keep arriving. For some accounts you would rather the message never got written, and our app can take those while the robot carries on.
+          Software that reads a sloppy message well stays busy, because those messages keep coming. For some accounts, you would rather they stopped sending messages entirely. Our app can take those accounts while REKKI handles the rest.
         </p>
       </div>
 
@@ -230,7 +230,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>What a REKKI alternative moves earlier</h2>
+      <h2>What a REKKI alternative adds before the order is sent</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -241,7 +241,7 @@ module.exports = {
           <h3>Picked from a list, not worked out from a message</h3>
           <p class="mt-12 text-muted">
             A chef says what is running low and the items appear from that account's own guide,
-            carrying your codes and your prices. The buyer looks over every line and fixes anything wrong before it sends, so nobody at your end pieces the order together afterwards.
+            carrying your codes and your prices. The customer looks over every line and fixes anything wrong before it sends, so nobody at your end pieces the order together afterwards.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -254,11 +254,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Their own handset, iOS or Android, nothing issued</span>
+              <span>Runs on their own iOS or Android phone, with no device from you</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>20 to 30 minutes back against the same order by phone</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -281,10 +281,9 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Order Guides</span>
-          <h3>The guide is what the lines come from</h3>
+          <h3>Every line comes from that customer's guide</h3>
           <p class="mt-12 text-muted">
-            Each account works from the lines it actually buys, at the figure you hold for that
-            customer. What reaches you is in your own items and codes, because each line is drawn from that customer's guide.
+            Each account works from the lines it actually buys, at the price you set for that customer. What reaches you is in your own items and codes, because each line is drawn from the guide you set up.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -320,7 +319,7 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Delivery Formats</span>
-          <h3>Handed over in a shape your office knows</h3>
+          <h3>Delivered in a format your office knows</h3>
           <p class="mt-12 text-muted">
             A finished order goes out as an email carrying a PDF, Excel or Word file, or straight
             into your ERP over the API, over EDI, or into QuickBooks. Nothing has to be retired or
@@ -333,7 +332,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>On a direct feed nobody retypes it at your end</span>
+              <span>Over EDI, the API or QuickBooks, nobody on your team retypes it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -363,8 +362,7 @@ module.exports = {
           <h3>Stock in sight while the orders land</h3>
           <p class="mt-12 text-muted">
             VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog
-            updates as stock levels change. It is not the system of record for stock: the system
-            you run today keeps that job, and a demo shows how the levels connect.
+            updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -377,7 +375,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Levels come out of whatever you count with now</span>
+              <span>Stock numbers come from the system you count with today</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -407,7 +405,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, starting from your guides</h2>
       <p class="lead mt-16">
-        Nothing has to be taught here: your guides are the configuration. You send the guides, we open the
+        There is nothing to train: we set it up from your order guides. You send the guides, we open the
         accounts, the orders start arriving finished.
       </p>
     </div>
@@ -436,8 +434,7 @@ module.exports = {
         <div class="step-number">3</div>
         <h4>They arrive confirmed</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Signed off by the buyer, numbered and timed, in the layout your
-          office asked us for.
+          Your customer has signed it off, and it comes numbered and timed, in the layout your office asked for.
         </p>
       </div>
 
@@ -457,7 +454,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What stops reaching the desk</h2>
+      <h2>What changes for your order desk</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -527,9 +524,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto;">
       <span class="eyebrow">Keep Both</span>
-      <h2>Where REKKI's robots and VoiceOrder Solutions each fit</h2>
+      <h2>Where REKKI's AI and VoiceOrder Solutions each fit</h2>
       <p class="lead mt-16">
-        Keeping both is a reasonable call. Our app is not a REKKI replacement: it takes a slice of your book off writing messages at all, and whatever still turns up as an email or a voicemail needs reading by something. A REKKI alternative often turns out to mean exactly that.
+        Keeping both makes sense. Our app is not a REKKI replacement: it moves some of your accounts off sending messages at all. Whatever comes in as an email or a voicemail still needs something to read it. A REKKI alternative often turns out to mean exactly that.
       </p>
     </div>
 
@@ -537,17 +534,17 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📉</div>
-        <h4>A shorter pile to be right about</h4>
+        <h4>A smaller pile for REKKI to read</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Kitchens on the app hand over a checked list rather than a message. Anything you have reading the rest gets a smaller stack to work through.
+          Kitchens on the app hand over a checked list rather than a message. Whatever reads the rest has less to work through.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🌱</div>
-        <h4>Whatever wins you new accounts is untouched</h4>
+        <h4>Keep whatever brings you new buyers</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Anything bringing you new buyers should carry on bringing them. We have no marketplace and no interest in who finds you; we only handle the ordering once they have.
+          Anything that finds you customers should keep doing it. We have no marketplace and do not help you find buyers. We only handle the ordering once they are your customers.
         </p>
       </div>
 
@@ -555,7 +552,7 @@ module.exports = {
         <div class="feature-card-icon">📞</div>
         <h4>Begin with the kitchens that phone most</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Nothing else has to give way for it, so start on the few accounts that eat the most of the morning and judge it on those.
+          Nothing else has to change for it, so start with the few accounts that take up most of your morning, and judge it on those.
         </p>
       </div>
 
@@ -570,9 +567,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">An order the buyer has already checked</h3>
+      <h3 style="margin-bottom:10px;">An order the customer has already checked</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. The chef talks, their own guide supplies the lines, and nobody at your end has to work out what they meant.
+        Twenty minutes. The chef talks, the guide fills in the lines, and nobody at your end has to guess what they meant.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -588,7 +585,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Better than REKKI, or less for it to read?</h2>
+      <h2>Better than REKKI, or something to use beside it?</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -599,7 +596,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          One to add, not swap. REKKI automates the work your office does on orders that have already arrived, plus the inbox and the upselling. We change the way one group of customers orders, so less of that work exists. REKKI's robots can stay on the rest.
+          One to add, not swap. REKKI automates the work your office does on orders that have already arrived, plus the inbox and the upselling. We change the way one group of customers orders, so less of that work exists. REKKI's tools can stay on the rest.
         </div>
       </div>
 
@@ -609,7 +606,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not in those terms. Our safeguard is different: every line is picked from the account's guide and the buyer checks each one before sending. Theirs measures how well a machine reads an order a person wrote. That is a different kind of check, not a better percentage.
+          We don't claim a better percentage. Our safeguard is different: every line is picked from the account's guide, and the customer checks each one before sending. REKKI's number measures how well a machine reads an order a person wrote. Ours is a different kind of check, not a higher score.
         </div>
       </div>
 
@@ -619,7 +616,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Of course. Somebody can confirm the wrong quantity, as they can on any order ever placed. What changes is who reads the lines last: the person who wants the goods, before anything leaves. This only covers orders placed in our app: a call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock.
+          Of course. Somebody can confirm the wrong quantity, as they can on any order ever placed. What changes is who reads the lines last: the person who wants the goods, before anything leaves. This only covers orders placed in our app: a call or a voicemail to your desk gets no number, no timestamp and no stock update.
         </div>
       </div>
 
@@ -629,7 +626,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. There is no link between the two and no joint support. OrderAI keeps passing what it reads into your system, and our orders come separately, emailed as a file or sent in over EDI or the API.
+          No. There is no link between the two and no joint support. REKKI's OrderAI, their order-reading software, keeps passing what it reads into your system, and our orders come separately, emailed as a file or sent in over EDI or the API.
         </div>
       </div>
 
@@ -639,7 +636,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Nothing breaks. Their chef app is free and, by their own account, sends orders to suppliers whether or not the supplier signed up, converting them to email for your order address. Those keep arriving as they do now. Give our app to the accounts who prefer speaking to typing, and leave the ones already happy where they are.
+          Nothing breaks. REKKI's chef app is free. REKKI says it sends orders to suppliers even if the supplier has not joined REKKI, by turning them into emails to your order address. Those keep arriving as they do now. Give our app to the accounts who prefer speaking to typing, and leave the ones already happy where they are.
         </div>
       </div>
 
@@ -649,7 +646,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They are more open here than we are, and that deserves saying: their site carries an opening figure per customer and what it includes. It is quoted in pounds, and their marketplace is described as UK only, while the app itself is described as working anywhere in the world. Ours is quote-based and nothing is published, so ask and you will get a figure for the voice step on its own.
+          They are more open about price than we are, and that deserves saying: their site shows a starting price per customer and what it includes. The price is in pounds. Their marketplace is described as UK only, but the app is described as working anywhere in the world. Ours is quote-based and nothing is published, so ask and you will get a figure for the voice step on its own.
         </div>
       </div>
 
@@ -659,7 +656,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors are running it in 24 to 48 hours, and most kitchens have an order in that day. Nothing in REKKI is touched or rewired, which matters if you came looking for a REKKI alternative with only one problem to settle.
+          Most distributors are running it in 24 to 48 hours, and most kitchens place a first order the same day. Nothing in REKKI is touched or rewired, which matters if you came looking for a REKKI alternative with only one problem to settle.
         </div>
       </div>
 
@@ -669,7 +666,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Taken from rekki.com, as of 10 October 2026: the robot descriptions, the accuracy and training wording, the published starting price and the chef app questions. Their performance figures are their own and are not quoted here as results. If any of it has moved on, the mistake is at our end.
+          Taken from rekki.com, as of 10 October 2026: the AI tool descriptions, the accuracy and training wording, the published starting price and the chef app questions. Their performance figures are their own and are not quoted here as results. If any of it has moved on, the mistake is at our end.
         </div>
       </div>
 
@@ -685,8 +682,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep the robots. Take the reading out of some orders.</h2>
-  <p>Twenty minutes, one order, built and confirmed by the buyer.</p>
+  <h2>Keep REKKI's AI. Get some orders checked before they are sent.</h2>
+  <p>Twenty minutes, one order, built and confirmed by the customer.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

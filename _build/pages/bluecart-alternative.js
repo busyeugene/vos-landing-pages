@@ -63,15 +63,15 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">Back on each order once the phone is out of it</div>
+      <div class="stat-label">Saved on each order that skips the phone</div>
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Covers go-live for most distributors</div>
+      <div class="stat-label">Is how long go-live takes for most distributors</div>
     </div>
     <div>
       <div class="stat-number">Same Day</div>
-      <div class="stat-label">Is first-order day for most kitchens</div>
+      <div class="stat-label">Is when most kitchens place their first order</div>
     </div>
   </div>
 </section>
@@ -86,9 +86,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">Keep Both</span>
-      <h2>BlueCart with VoiceOrder Solutions added.<br>Win there, reorder here.</h2>
+      <h2>BlueCart with VoiceOrder Solutions added.<br>Find accounts there, take reorders here.</h2>
       <p class="lead mt-16">
-        Nothing in this table gets taken away, because adding a tool should not cost you anything you have. BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to, and a BlueCart alternative search usually comes from the reorder side, not the reach. The two do not connect, and what we say about BlueCart was read on their site.
+        Adding our app should not cost you anything you already have, and every row below reflects that. BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to, and a BlueCart alternative search is usually about repeat orders from regulars, not about finding new ones. The two do not connect, and what we say about BlueCart was read on their site.
       </p>
     </div>
 
@@ -118,7 +118,7 @@ module.exports = {
             <td>Not listed on their site</td>
           </tr>
           <tr>
-            <td>Your buyer signs the order off before it sends</td>
+            <td>Your customer signs off the order before it sends</td>
             <td><span class="check-yes">✓</span></td>
             <td>On their storefront, yes</td>
           </tr>
@@ -172,7 +172,7 @@ module.exports = {
       <span class="eyebrow">How It Comes Up</span>
       <h2>When an alternative to BlueCart starts to look tempting</h2>
       <p class="lead mt-16">
-        BlueCart sells reach. Join the marketplace, get listed in the endless aisle, be seen by restaurants across their network. That is worth keeping for a supplier chasing new accounts. Once an account is yours, though, the weekly reorder is a different job, and that is usually when a BlueCart competitor gets a look.
+        BlueCart sells reach: it helps you find new customers. You join their marketplace, get listed in what they call the "endless aisle", and restaurants across their network can see you. That is worth keeping for a supplier chasing new accounts. Once an account is yours, though, the weekly reorder is a different job, and that is usually when a BlueCart competitor gets a look.
       </p>
     </div>
 
@@ -190,13 +190,13 @@ module.exports = {
         <div class="problem-icon">🛒</div>
         <h4>Online ordering helps the ones who log in</h4>
         <p class="text-muted mt-12">
-          BlueCart positions its Order Management Solution as a replacement for phone and email ordering, and for buyers who use it, it is. The kitchens who prefer talking to logging in are the gap.
+          BlueCart presents its Order Management Solution as a replacement for phone and email ordering. For buyers who use it, it does replace them. The kitchens who prefer talking to logging in are the gap.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🧭</div>
-        <h4>Leaving would cost you the reach</h4>
+        <h4>Leaving would cost you new customers</h4>
         <p class="text-muted mt-12">
           Coming off the marketplace would give up the new kitchens it brings in, and the regulars on the phone would still be on the phone. That is why a BlueCart alternative that takes the listing down is the wrong fix here.
         </p>
@@ -230,7 +230,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>The buyer looks at the list before anything leaves</span>
+              <span>Your customer looks at the list before anything leaves</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -238,11 +238,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Their own handset, iOS or Android, nothing issued</span>
+              <span>Runs on their own iOS or Android phone, with no device from you</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>20 to 30 minutes back against the same order by phone</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -265,9 +265,9 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Order Guides</span>
-          <h3>Your range, at the prices you hold</h3>
+          <h3>Your products, at your own prices</h3>
           <p class="mt-12 text-muted">
-            You send the guides you keep per customer. We load them against your SKUs at the price you hold for that account.
+            You send the guides you keep per customer. We load them with your SKUs and the price you set for that account.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -280,7 +280,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Change a guide once and it stands on the orders after</span>
+              <span>Change a guide once and every later order uses it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -316,7 +316,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>On a direct feed there is no rekeying at your end</span>
+              <span>Over EDI, the API or QuickBooks, nobody on your team retypes it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -324,7 +324,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No part of your stack has to be retired first</span>
+              <span>You do not have to remove any software first</span>
             </li>
           </ul>
           <a href="/wholesale-ordering-software" class="feature-link">What an order looks like →</a>
@@ -345,8 +345,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock in view as each order lands</h3>
           <p class="mt-12 text-muted">
-            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
-            charge, and a demo shows how the levels connect.
+            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -359,7 +358,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Numbers come out of whatever you count with now</span>
+              <span>Stock numbers come from the system you count with today</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -414,10 +413,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>It arrives whole</h4>
+        <h4>The order arrives whole</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Signed off by the buyer, carrying a number and a time, in the shape
-          your system expects.
+          Approved by the customer, with an order number and the time it was sent, in the format your system expects.
         </p>
       </div>
 
@@ -509,7 +507,7 @@ module.exports = {
       <span class="eyebrow">Two Jobs</span>
       <h2>BlueCart finds the account, voice adds a quicker reorder</h2>
       <p class="lead mt-16">
-        VoiceOrder Solutions is not a BlueCart replacement, because it cannot do the thing BlueCart is for. It adds on, so being listed on a marketplace is no reason to skip this.
+        VoiceOrder Solutions is not a BlueCart replacement, because it cannot do the thing BlueCart is for. It adds on, so you can use it and stay listed on the marketplace.
       </p>
     </div>
 
@@ -517,7 +515,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🤝</div>
-        <h4>Meet them there, make reordering quick</h4>
+        <h4>Meet them on BlueCart, make reordering quick</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           A marketplace is a good way to meet an account you had no route to. Once they buy from you regularly, some will want a quicker way to reorder than logging in, and our app gives them one while the listing keeps working.
         </p>
@@ -535,7 +533,7 @@ module.exports = {
         <div class="feature-card-icon">📬</div>
         <h4>Our orders land where you choose</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Ours show up in whichever system you picked, over EDI, the API or QuickBooks, or as an email to your desk. Nothing about your BlueCart dashboard changes.
+          Ours show up in whichever system you picked, by EDI, through the API or in QuickBooks, or as an email to your desk. Nothing about your BlueCart dashboard changes.
         </p>
       </div>
 
@@ -552,7 +550,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See a regular's reorder go from voice to your desk</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One account, one order spoken off a sample guide and signed off before it sends.
+        Twenty minutes. One account, a single spoken order from a sample guide, signed off before it sends.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -589,7 +587,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At finding new customers, no, and it is not a close call. That is their product and we do not have one. We help with the repeat order from an account already on your books: your range only, your prices, approved by the buyer. People who search for a BlueCart alternative are often after that second job, not a way out of the first.
+          At finding new customers, no, and it is not a close call. That is what BlueCart sells, and we offer nothing like it. We help with the repeat order from an account already on your books: only your products, at your prices, approved by your customer. People who search for a BlueCart alternative often want help with repeat orders, not a way to stop meeting new kitchens.
         </div>
       </div>
 
@@ -629,7 +627,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart says theirs can be live within days too, and since the listing stays up, there is nothing to time around.
+          For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart says theirs can be live within days too, and since the listing stays up, there is nothing to schedule around.
         </div>
       </div>
 
@@ -649,7 +647,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If any of it has moved on, the fault is here, not there.
+          Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If something there is out of date now, we will fix it.
         </div>
       </div>
 
@@ -665,7 +663,7 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep the listing. Bring the reorder home.</h2>
+  <h2>Keep the listing. Get regulars' reorders off the phone.</h2>
   <p>Twenty minutes, one order priced from a guide, and approved before it sends.</p>
 
   <div class="final-cta-form">

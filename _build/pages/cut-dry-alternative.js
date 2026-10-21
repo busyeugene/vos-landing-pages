@@ -24,7 +24,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>Cut+Dry Alternative? Keep It, Let Regulars Speak Up.</h1>
+      <h1>Cut+Dry Alternative? Keep It, Add Spoken Reorders.</h1>
       <p class="lead mt-16">
         Give your phone accounts a reorder they check themselves, and leave the platform alone. VoiceOrder Solutions goes next to Cut+Dry: your accounts say the reorder into our app from the guide you built, approve it, and send. Payments, invoicing and the storefront stay where they are.
       </p>
@@ -87,9 +87,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">Plus, Not Instead</span>
-      <h2>Cut+Dry, plus VoiceOrder Solutions.<br>One more way in.</h2>
+      <h2>Cut+Dry, plus VoiceOrder Solutions.<br>Plus a spoken reorder.</h2>
       <p class="lead mt-16">
-        A second tool should only ever add, so the column with both never loses a row. Cut+Dry sells ecommerce, payments and sales tooling across distributors, manufacturers and restaurants, and a Cut+Dry alternative search tends to start with the accounts that use none of it. The two do not connect, and every fact about Cut+Dry comes from their own site.
+        A second tool should only add, so the column with both products has a checkmark on every row. Cut+Dry is a wide platform, with ordering, payments and tools for reps. A Cut+Dry alternative search tends to start with the accounts that use none of it. The two do not connect, and every fact about Cut+Dry comes from their own site.
       </p>
     </div>
 
@@ -139,7 +139,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Your buyer checks the order before it sends</td>
+            <td>Your customer checks the order before it sends</td>
             <td><span class="check-yes">✓</span></td>
             <td>On the storefront, yes</td>
           </tr>
@@ -173,7 +173,7 @@ module.exports = {
       <span class="eyebrow">The Usual Trigger</span>
       <h2>What actually sends people looking for an alternative to Cut+Dry</h2>
       <p class="lead mt-16">
-        Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves all three sides of that trade from one platform. That breadth is the product, and replacing it rarely makes sense. What sends a buyer to a Cut+Dry competitor is usually one narrower thing.
+        Cut+Dry calls itself online ordering and sales tools for foodservice. It serves distributors, manufacturers and restaurants from one platform. That breadth is the product, and replacing it rarely makes sense. What sends a buyer to a Cut+Dry competitor is usually one narrower thing.
       </p>
     </div>
 
@@ -189,9 +189,9 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">🎙️</div>
-        <h4>Their transcription stops short of the kitchen</h4>
+        <h4>Who checks what their AI transcribed?</h4>
         <p class="text-muted mt-12">
-          The AI Order Desk turns calls and voicemail messages into orders, which is genuinely useful. Their own description mentions no step where the kitchen confirms what was transcribed, so the first person to check those lines is on your side.
+          Cut+Dry's AI Order Desk turns calls and voicemail messages into orders, which is genuinely useful. Their own description mentions no step where the kitchen confirms what was transcribed, so the first person to check those lines is on your side.
         </p>
       </div>
 
@@ -199,7 +199,7 @@ module.exports = {
         <div class="problem-icon">🧱</div>
         <h4>Starting over is the expensive fix</h4>
         <p class="text-muted mt-12">
-          Cut+Dry publishes "Go Live in Under 90 Days", a good result for a platform that size. Going through a launch like that again, and moving how your customers pay, to fix one channel is out of all proportion, and no Cut+Dry alternative should ask it of you.
+          Cut+Dry publishes "Go Live in Under 90 Days", a good result for a platform that size. Going through a launch like that again, and changing how your customers pay, just to fix phone orders makes no sense. No Cut+Dry alternative should ask that of you.
         </p>
       </div>
 
@@ -230,7 +230,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>The buyer looks at the list before anything leaves</span>
+              <span>Your customer looks at the list before anything leaves</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -238,11 +238,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Their own handset, iOS or Android, nothing issued</span>
+              <span>Runs on their own iOS or Android phone, with no device from you</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>20 to 30 minutes back against the same order by phone</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -267,7 +267,7 @@ module.exports = {
           <span class="eyebrow">Order Guides</span>
           <h3>Every guide begins as the list you keep now</h3>
           <p class="mt-12 text-muted">
-            Pass us the guides you keep per customer. We load them against your SKUs at the price you hold for that account, so the kitchen orders your range at your prices.
+            Pass us the guides you keep per customer. We load them with your SKUs and the price you set for that account, so the kitchen orders your products at your prices.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -280,7 +280,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Change a guide once and it stands on the orders after</span>
+              <span>Change a guide once and every later order uses it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -316,7 +316,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>On a direct feed there is no rekeying at your end</span>
+              <span>Over EDI, the API or QuickBooks, nobody on your team retypes it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -324,7 +324,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No part of your stack has to be retired first</span>
+              <span>You do not have to remove any software first</span>
             </li>
           </ul>
           <a href="/wholesale-ordering-software" class="feature-link">What an order looks like →</a>
@@ -345,8 +345,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock beside the orders as they come</h3>
           <p class="mt-12 text-muted">
-            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
-            charge, and a demo shows how the levels connect.
+            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -359,7 +358,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Numbers come out of whatever you count with now</span>
+              <span>Stock numbers come from the system you count with today</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -414,10 +413,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>It turns up priced</h4>
+        <h4>The order arrives priced</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Signed off by the buyer, carrying a number and a time, in the shape
-          your system expects.
+          Your customer has approved it. It carries an order number and the time it was sent, in a format your system takes.
         </p>
       </div>
 
@@ -509,7 +507,7 @@ module.exports = {
       <span class="eyebrow">Room For Both</span>
       <h2>Cut+Dry for the platform, voice for the phone accounts</h2>
       <p class="lead mt-16">
-        We are not a Cut+Dry replacement and could not be one. The spoken reorder adds on, so a platform already carrying your payments and your storefront is no reason to rule this out.
+        We are not a Cut+Dry replacement and could not be one. The spoken reorder adds on, so you can still try it if Cut+Dry already runs your payments and your storefront.
       </p>
     </div>
 
@@ -517,9 +515,9 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">🛍️</div>
-        <h4>Let the storefront do the storefront</h4>
+        <h4>Let the storefront do its job</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Discovery, search and a published catalog are real work, and none of it happens here. The accounts who want to browse keep browsing. The ones who just want Friday's order reordered get a quicker route to it.
+          Discovery, search and a published catalog are real work, and none of it happens here. The accounts who want to browse keep browsing. The ones who just want to repeat Friday's order get a quicker way to do it.
         </p>
       </div>
 
@@ -535,7 +533,7 @@ module.exports = {
         <div class="feature-card-icon">📬</div>
         <h4>Our orders go where you point them</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Whichever system you picked is where ours show up, over EDI, the API or QuickBooks, or by email to your desk. Nothing changes in Cut+Dry.
+          Whichever system you picked is where ours show up, by EDI, through the API or in QuickBooks, or by email to your desk. Nothing changes in Cut+Dry.
         </p>
       </div>
 
@@ -552,7 +550,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See one spoken reorder sit beside Cut+Dry</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One account, one order said out loud off a guide like yours, and where it lands among the orders you already get.
+        Twenty minutes. One account, one order spoken from a sample guide, and where it would land among your other orders.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -589,7 +587,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not at selling a catalog, collecting money, or the manufacturer side of their network. Those are what they built, and we would not ask you to give them up. Where we help is the reorder from an account you already have, spoken off your guide and approved before it sends. That narrow job is often what a Cut+Dry alternative search was really about.
+          No, not at selling a catalog, collecting payments, or working with the manufacturers in their network. Those are what they built, and we would not ask you to give them up. Where we help is the reorder from an account you already have, spoken off your guide and approved before it sends. That narrow job is often what a Cut+Dry alternative search was really about.
         </div>
       </div>
 
@@ -649,7 +647,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          All of the above was read on their own site, 10 October 2026: the module descriptions, the line about transcribing calls and the published 90 day launch. We have left their growth percentages alone, because those are their numbers. If any of it has moved on, the fault is here, not there.
+          All of the above was read on their own site, 10 October 2026: the module descriptions, the line about transcribing calls and the published 90 day launch. We have left their growth percentages alone, because those are their numbers. Should any of that be outdated, tell us and we will correct the page.
         </div>
       </div>
 

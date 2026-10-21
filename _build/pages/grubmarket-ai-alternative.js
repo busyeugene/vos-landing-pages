@@ -30,9 +30,9 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>GrubMarket AI Alternative? Hand Customers The Microphone.</h1>
+      <h1>GrubMarket AI Alternative? Give Customers A Voice App.</h1>
       <p class="lead mt-16">
-        Put a microphone in your customers' hands as well. VoiceOrder Solutions runs beside GrubAssist: the kitchen speaks the order into our app on its own phone, approves each line, and it reaches your desk finished. Your team keeps its assistant for questions about the business.
+        Kitchens can now say what they need, too. VoiceOrder Solutions runs beside GrubAssist, GrubMarket's AI assistant for your team: the kitchen dictates the order into our app on its own phone, approves each line, and it lands on your desk complete. Your team keeps GrubAssist for questions about the business.
       </p>
 
       <div class="hero-ctas">
@@ -43,7 +43,7 @@ module.exports = {
       <div class="hero-trust">
         <span>GrubAssist stays with your team</span>
         <span class="hero-trust-dot"></span>
-        <span>Your customer holds the mic</span>
+        <span>Kitchens speak, then check</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -70,11 +70,11 @@ module.exports = {
   <div class="stats-grid">
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">Won back on each order that leaves the phone</div>
+      <div class="stat-label">Saved on each order taken off the phone</div>
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
-      <div class="stat-label">Is all most distributors wait to go live</div>
+      <div class="stat-label">Is how long most distributors wait to go live</div>
     </div>
     <div>
       <div class="stat-number">24/7</div> <div class="stat-label">Is when an account can place its order</div>
@@ -91,10 +91,10 @@ module.exports = {
   <!-- Reframed 2026-10-21: GrubMarket AI alone vs with VoiceOrder Solutions added. Their strengths are ticks in both columns; only the customer-side app and the buyer sign-off differ. All their facts come from grubmarket.ai ONLY (not grubmarket.com): see the digest. -->
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Two Microphones</span>
-      <h2>GrubMarket AI plus VoiceOrder Solutions.<br>One mic at each end.</h2>
+      <span class="eyebrow">Team And Customers</span>
+      <h2>GrubMarket AI plus VoiceOrder Solutions.<br>One for your team, one for your customers.</h2>
       <p class="lead mt-16">
-        Adding the customer's end of the conversation takes nothing from your team's. Anyone weighing a GrubMarket AI alternative over voice should see both ends, so each row shows GrubMarket AI as you run it today and again with our app added. The two are not connected, and everything said about them is read off grubmarket.ai.
+        Adding an app for your customers takes nothing away from your team's tools. Anyone weighing a GrubMarket AI alternative for voice ordering should see both sides, so each row shows GrubMarket AI as you run it today, then with our app added. The two are not connected, and everything said about them is read off grubmarket.ai.
       </p>
     </div>
 
@@ -119,7 +119,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Your buyer signs the order off before it sends</td>
+            <td>Your customer signs off the order before it sends</td>
             <td><span class="check-yes">✓</span></td>
             <td>Varies by how the order arrives</td>
           </tr>
@@ -178,7 +178,7 @@ module.exports = {
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Why teams want an alternative to GrubMarket AI</h2>
       <p class="lead mt-16">
-        GrubMarket AI calls GrubAssist a virtual assistant for the food supply chain, and the jobs it advertises are business analysis, performance, cash flow and spotting anomalies, with order creation among them. All useful, and worth keeping. A GrubMarket AI alternative search usually starts from one gap: the customer still sends a message for somebody to interpret.
+        GrubMarket AI calls GrubAssist a virtual assistant for the food supply chain. The jobs it advertises include business analysis, performance, cash flow, spotting unusual numbers and creating orders. All useful, and worth keeping. A GrubMarket AI alternative search usually starts from one gap: the customer still sends a message that somebody has to work out.
       </p>
     </div>
 
@@ -188,15 +188,15 @@ module.exports = {
         <div class="problem-icon">🎙️</div>
         <h4>Their site describes an assistant for your team</h4>
         <p class="text-muted mt-12">
-          The jobs GrubAssist advertises are ones a distributor's team does: looking into the numbers and writing up orders. However quick that makes entry, it is not the same as the order arriving already built by the person who wanted it.
+          The jobs GrubAssist advertises are ones a distributor's team does: looking into the numbers and writing up orders. Even if that speeds up order entry, it is not the same as the customer building the order themselves.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">📨</div>
-        <h4>Extraction starts from a loose message</h4>
+        <h4>Their AI still starts from a loose message</h4>
         <p class="text-muted mt-12">
-          Their order extraction reads voicemail, email and text messages at any hour, which is useful. Each one still begins as a message, though, and the kitchen that sent it never sees the lines it became.
+          GrubMarket's order-reading tool reads voicemail, email and text messages at any hour, which is useful. Each one still begins as a message, though, and the kitchen that sent it never sees the lines it became.
         </p>
       </div>
 
@@ -237,7 +237,7 @@ module.exports = {
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Nothing arrives that the buyer has not looked at</span>
+              <span>Nothing arrives that your customer has not looked at</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -245,11 +245,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Their own handset, nothing issued by you</span>
+              <span>Runs on their own iOS or Android phone, with no device from you</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>20 to 30 minutes back against the same order by phone</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -274,9 +274,7 @@ module.exports = {
           <span class="eyebrow">Order Guides</span>
           <h3>Your lists are the only setup there is</h3>
           <p class="mt-12 text-muted">
-            Nothing gets taught here. You send the lists you already keep per customer, we load
-            them against your SKUs at the prices you hold for that account, and the configuration
-            is finished.
+            There is nothing to train. You send the lists you already keep for each customer. We load them with your SKUs and the prices you set for that account, and setup is done.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -289,11 +287,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Change a list once and it stands on the orders after</span>
+              <span>Change a list once and the next orders follow it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No tuning as volumes or categories grow</span>
+              <span>Nothing to adjust as orders or product lines grow</span>
             </li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Keeping guides current →</a>
@@ -312,10 +310,10 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Delivery Formats</span>
-          <h3>Delivered in whatever shape you asked for</h3>
+          <h3>Delivered in the format you asked for</h3>
           <p class="mt-12 text-muted">
             A finished order leaves as an email carrying a PDF, Excel or Word file, or goes
-            straight into your ERP over the API, over EDI, or into QuickBooks, in a shape your desk opens daily.
+            straight into your ERP over the API, over EDI, or into QuickBooks, in a format your desk opens every day.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -324,7 +322,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>On a direct feed there is no rekeying at your end</span>
+              <span>Over EDI, the API or QuickBooks, nobody on your team retypes it</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -332,7 +330,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No part of your stack has to be retired first</span>
+              <span>You do not have to remove any software first</span>
             </li>
           </ul>
           <a href="/wholesale-ordering-software" class="feature-link">What an order looks like →</a>
@@ -353,8 +351,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>What is on hand, as the orders come in</h3>
           <p class="mt-12 text-muted">
-            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
-            charge, and a demo shows how the levels connect.
+            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -367,7 +364,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Numbers come out of whatever you count with now</span>
+              <span>Stock numbers come from the system you count with today</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -395,10 +392,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Getting Started</span>
-      <h2>Three steps, and no model to teach</h2>
+      <h2>Three steps, and no AI to train</h2>
       <p class="lead mt-16">
-        Nothing has to be trained and no pilot has to be designed. You send lists, we open accounts,
-        your customers order.
+        Nothing has to be trained, and there is no trial run to plan. You send lists, we set up accounts, and the ordering starts.
       </p>
     </div>
 
@@ -415,19 +411,17 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We switch each account on</h4>
+        <h4>We set up each account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          We set up each account and the kitchen downloads the app. Most send
-          something in before the day is out.
+          Each kitchen downloads the app once its account is ready. Most send something in before the day is out.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>It shows up done</h4>
+        <h4>The order shows up done</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Signed off by the buyer, carrying a number and a time, in the shape
-          your system expects.
+          Your customer has approved it, and it is numbered and timestamped, in the format your system takes.
         </p>
       </div>
 
@@ -516,7 +510,7 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto;">
-      <span class="eyebrow">Both Ends</span>
+      <span class="eyebrow">Your Team, Your Customers</span>
       <h2>GrubAssist for your team, VoiceOrder Solutions for your customers</h2>
       <p class="lead mt-16">
         We are not a GrubMarket AI replacement and do not try to be. Our app covers the customer end, so the tool your staff rely on is left alone.
@@ -527,7 +521,7 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">💬</div>
-        <h4>Keep the assistant for the questions</h4>
+        <h4>Keep GrubAssist for business questions</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Asking out loud how a customer is trending, or where the cash is, is a genuinely useful thing and we cannot do it. Keep it for those questions, and let the customer build the order.
         </p>
@@ -535,17 +529,17 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📉</div>
-        <h4>Shrink the pile that needs extracting</h4>
+        <h4>Fewer messages for the AI to read</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each account you move across sends a structured, approved order rather than a voicemail. Whatever is doing the extracting keeps handling the messages that still arrive.
+          Each account you move across sends an itemized, approved order rather than a voicemail. Whatever tool reads your messages today keeps handling the ones that still come in.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">📍</div>
-        <h4>One place for it to land, whatever else you run</h4>
+        <h4>One place for these orders to land</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Sent over EDI, the API or QuickBooks, ours reach the same software as everything else, so nobody ends up with two places to look.
+          When our orders travel by EDI, API or into QuickBooks, they reach the same software as everything else, so nobody ends up with two places to look.
         </p>
       </div>
 
@@ -562,7 +556,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See a customer-spoken order arrive</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. A buyer speaks an order, approves it, and it arrives on the desk as a PDF, over EDI or over the API.
+        Twenty minutes. A customer speaks an order, approves it, and it arrives on the desk as a PDF, over EDI or over the API.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -578,7 +572,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Better than GrubMarket AI, or the other half of it?</h2>
+      <h2>Better than GrubMarket AI, or the customer app to run beside it?</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
@@ -589,7 +583,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. GrubAssist can keep serving your team while VoiceOrder Solutions gives each account its own route in: say it into our app, check it, send it. Nothing on your side has to be switched off or retrained.
+          No. GrubAssist can keep serving your team while VoiceOrder Solutions gives each account its own voice app: speak, check, send. Nothing on your side has to be switched off or retrained.
         </div>
       </div>
 
@@ -599,7 +593,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Less than it looks. GrubAssist, going by their own site, works for your team: ask it about the business, have it write up an order. Ours is for your customers, who speak and approve their own orders, so your staff never build the ones sent through our app. That is why a team looking at a GrubMarket AI alternative over voice can simply run both.
+          Less than it looks. GrubAssist, going by their own site, works for your team: ask it about the business, have it write up an order. Ours is for your customers, who speak and approve their own orders, so your staff never write up anything placed in our app. That is why a team looking at a GrubMarket AI alternative to get voice orders can simply run both.
         </div>
       </div>
 
@@ -609,7 +603,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Our admin screen shows what each account has ordered and lets you manage accounts and guides. Reporting on how accounts perform is on their list, not ours, which is a good reason to keep GrubAssist.
+          No. Our admin screen shows what each account has ordered and lets you manage accounts and guides. GrubAssist advertises reporting on how accounts perform and we do not, which is a good reason to keep it.
         </div>
       </div>
 
@@ -629,7 +623,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No, and there is no module for it, because nothing has to be taught. The item list you keep for an account is the configuration. GrubMarket AI ships an AI training module for its assistant, and that stays theirs to run.
+          No. There is nothing to teach, so there is no training tool for it. The item list you keep for an account is all the setup it needs. GrubMarket AI offers an AI training module for its assistant, and that stays theirs to run.
         </div>
       </div>
 
@@ -639,7 +633,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this is live inside 24 to 48 hours, and a first order usually follows the day each login arrives. GrubAssist carries on as before while it happens. Accounts that keep calling still can; a call just gets no order number or timestamp from us.
+          For most distributors this is live inside 24 to 48 hours, and customers usually place a first order the day they get their login. GrubAssist carries on as before while it happens. Accounts that keep calling still can; a call just gets no order number or timestamp from us.
         </div>
       </div>
 
@@ -649,7 +643,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither of us publishes a figure. Ours arrives as a quote once we know your setup; theirs comes after a demo. Keeping GrubAssist means the number to weigh is only what the voice app for accounts adds.
+          Neither of us publishes a figure. Ours arrives as a quote once we know your setup; theirs comes after a demo. Keeping GrubAssist means the only cost to weigh is the voice app for your customers.
         </div>
       </div>
 
@@ -659,7 +653,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Taken from grubmarket.ai on 10 October 2026, which is the GrubMarket AI product rather than GrubMarket the company: the GrubAssist description, the list of advertised jobs, the training module and the other products all come off that page. They publish no price and no rollout time, so this page does not guess at either. If any of it has moved on, the fault is here, not there.
+          Taken from grubmarket.ai on 10 October 2026, which is the GrubMarket AI product rather than GrubMarket the company: the GrubAssist description, the list of advertised jobs, the training module and the other products all come off that page. They publish no price and no rollout time, so this page does not guess at either. If any of it has changed since, the mistake is ours to fix.
         </div>
       </div>
 
@@ -675,8 +669,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Leave GrubAssist with your team. Give customers a microphone too.</h2>
-  <p>Twenty minutes, with the microphone in the customer's hand.</p>
+  <h2>Leave GrubAssist with your team. Let each kitchen speak its order, too.</h2>
+  <p>Twenty minutes, with a customer speaking the order.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
