@@ -618,7 +618,7 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is it better than Choco?
+          Is VoiceOrder Solutions better than Choco?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">

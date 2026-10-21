@@ -1,0 +1,1634 @@
+{
+ "slug": "fresho-alternative",
+ "pageId": "6aca3a6e5e834cc8aaf7a7ff",
+ "text_batches": [
+  [
+   {
+    "label": "t0",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "c3df870f-ba8c-9aaf-796c-bb1249eeefa3"
+     },
+     "text": "20-30 Min"
+    }
+   },
+   {
+    "label": "t1",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
+     },
+     "text": "Returns to the day on each phoned order"
+    }
+   },
+   {
+    "label": "t2",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "3027ca32-6180-79a6-1a66-d9f911e27a08"
+     },
+     "text": "24-48 Hrs"
+    }
+   },
+   {
+    "label": "t3",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fea2"
+     },
+     "text": "Gets most distributors going"
+    }
+   },
+   {
+    "label": "t4",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "448bf1fe-361f-3c13-6268-4572092953ba"
+     },
+     "text": "Same Day"
+    }
+   },
+   {
+    "label": "t5",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5feac"
+     },
+     "text": "Brings the first order from most kitchens"
+    }
+   },
+   {
+    "label": "t6",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d"
+     },
+     "text": "Before You Compare"
+    }
+   },
+   {
+    "label": "t7",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8be"
+     },
+     "text": "Why distributors weigh an alternative to Fresho"
+    }
+   },
+   {
+    "label": "t8",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
+     },
+     "text": "Looking up a Fresho competitor is seldom a complaint about the product. Fresho is an order and operations system with real depth in fresh food. The search usually comes down to scope or sequence, and neither one needs Fresho taken out."
+    }
+   },
+   {
+    "label": "t9",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "eb7fd825-30c6-7275-9a2f-c98f68eb960f"
+     },
+     "text": "Fresho can already run most of the operation"
+    }
+   },
+   {
+    "label": "t10",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
+     },
+     "text": "Fresho reaches from the order through to the payment, and their pricing lets you take only the parts you want. How much of the operation sits with one vendor is a big decision. How some accounts place their order is a small one, and it can be answered on its own."
+    }
+   },
+   {
+    "label": "t11",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
+     },
+     "text": "Some kitchens would change the habit"
+    }
+   },
+   {
+    "label": "t12",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
+     },
+     "text": "Their AI is built so a customer need not change a thing, which is a deliberate choice and a sound one, and for plenty of accounts it is right. A few would still rather say it once and see the lines than leave one more voicemail for a machine to read."
+    }
+   },
+   {
+    "label": "t13",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "83921d0d-4ec1-911e-4420-fee5bfd13614"
+     },
+     "text": "A voice step does not wait on a rollout"
+    }
+   },
+   {
+    "label": "t14",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
+     },
+     "text": "Fresho publishes its timeline openly: around four weeks to set up, plus two to four weeks training the AI. Putting our app in front of some accounts is a separate decision, and it can happen in either order."
+    }
+   },
+   {
+    "label": "t15",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d"
+     },
+     "text": "The one step a Fresho alternative adds"
+    }
+   },
+   {
+    "label": "t16",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "f49b7c29-2a8e-b047-d714-742b52e0a34c"
+     },
+     "text": "What You Get"
+    }
+   },
+   {
+    "label": "t17",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "d4031fde-2fc3-b283-bb1c-784e741d725b"
+     },
+     "text": "Voice Ordering"
+    }
+   },
+   {
+    "label": "t18",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0ed"
+     },
+     "text": "The habit moves, and that is the point"
+    }
+   },
+   {
+    "label": "t19",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0f1"
+     },
+     "text": "A chef walks the cooler, says what is short, and the lines come up from that account's guide. They fix anything off and send. It is a change in how they order, and because they fixed the lines themselves, nobody at your end has to rebuild the order afterwards."
+    }
+   },
+   {
+    "label": "t20",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
+     },
+     "text": "They see the list before a thing is sent"
+    }
+   },
+   {
+    "label": "t21",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4139"
+     },
+     "text": "Done in the cooler or at the desk, at any hour"
+    }
+   },
+   {
+    "label": "t22",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
+     },
+     "text": "20 to 30 minutes back against the same order by phone"
+    }
+   },
+   {
+    "label": "t23",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4145"
+     },
+     "text": "Interrupted halfway? It holds the order until they come back"
+    }
+   },
+   {
+    "label": "t24",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "d5d6538b-4114-51aa-7fff-aad875b7bfe3"
+     },
+     "text": "Order Guides"
+    }
+   },
+   {
+    "label": "t25",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea2"
+     },
+     "text": "Narrow on purpose: your lines, your figures"
+    }
+   },
+   {
+    "label": "t26",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
+     },
+     "text": "Each account gets the items it buys at the price you hold for it, against your own codes. That guide is the whole of our setup."
+    }
+   },
+   {
+    "label": "t27",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdead"
+     },
+     "text": "Lines drawn from the account's own guide"
+    }
+   },
+   {
+    "label": "t28",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb3"
+     },
+     "text": "Pricing and the catalog remain yours to control"
+    }
+   },
+   {
+    "label": "t29",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb9"
+     },
+     "text": "Change a guide once and the next order carries it"
+    }
+   },
+   {
+    "label": "t30",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+     },
+     "text": "Begin on a handful of accounts and judge it there"
+    }
+   },
+   {
+    "label": "t31",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "6555f9fc-4dcc-b940-f384-6001ce4db69f"
+     },
+     "text": "Delivery Formats"
+    }
+   },
+   {
+    "label": "t32",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb118"
+     },
+     "text": "It lands where your paperwork already starts"
+    }
+   },
+   {
+    "label": "t33",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
+     },
+     "text": "A finished order arrives as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. Whatever sends your invoices and plans your runs today goes on doing it."
+    }
+   },
+   {
+    "label": "t34",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb123"
+     },
+     "text": "Sent to a named rep, or to the purchasing desk"
+    }
+   },
+   {
+    "label": "t35",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
+     },
+     "text": "On a direct feed nobody retypes it at your end"
+    }
+   },
+   {
+    "label": "t36",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb12f"
+     },
+     "text": "Carrying a number, with the date and time of sending"
+    }
+   },
+   {
+    "label": "t37",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
+     },
+     "text": "No module of yours has to be switched off"
+    }
+   },
+   {
+    "label": "t38",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "099f67ce-06ef-dc92-c6e6-fdc4481f359f"
+     },
+     "text": "Inventory Visibility"
+    }
+   },
+   {
+    "label": "t39",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93a"
+     },
+     "text": "Stock in the frame as orders come through"
+    }
+   },
+   {
+    "label": "t40",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
+     },
+     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: whatever you run today keeps that role, and a demo shows how the levels connect."
+    }
+   },
+   {
+    "label": "t41",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df945"
+     },
+     "text": "Over the full catalog, not only the quick movers"
+    }
+   },
+   {
+    "label": "t42",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df94b"
+     },
+     "text": "Fewer stockout surprises on a late, heavy order"
+    }
+   },
+   {
+    "label": "t43",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
+     },
+     "text": "Levels come out of whatever you count with now"
+    }
+   },
+   {
+    "label": "t44",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df957"
+     },
+     "text": "Counting and buying stay with your own system"
+    }
+   },
+   {
+    "label": "t45",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "021e8cc1-41f6-a5cc-3995-2a8c101d005c"
+     },
+     "text": "Add, Not Adopt"
+    }
+   },
+   {
+    "label": "t46",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64e7"
+     },
+     "text": "Fresho runs the day, VoiceOrder Solutions adds the voice"
+    }
+   },
+   {
+    "label": "t47",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
+     },
+     "text": "This is a sensible pairing rather than a standoff. We are not a Fresho replacement: some accounts change how they order, and everything after that order, the picking and the run and the invoice, is left as it is. A Fresho alternative quite often means precisely this."
+    }
+   },
+   {
+    "label": "t48",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da6507"
+     },
+     "text": "The back end keeps every job it has"
+    }
+   },
+   {
+    "label": "t49",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
+     },
+     "text": "Invoices, payments, pick lists and the delivery run are not on offer here and are not touched. We hand the completed order over, and the rest of the day stays yours."
+    }
+   }
+  ],
+  [
+   {
+    "label": "t50",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "5368ca22-de87-9362-819f-9733489b5a6d"
+     },
+     "text": "Let every account pick its route"
+    }
+   },
+   {
+    "label": "t51",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "5368ca22-de87-9362-819f-9733489b5a70"
+     },
+     "text": "Customers happy in the portal, or happy leaving a voicemail for OrderPilot, carry on just as Fresho promises. Hand the app to the kitchens that would rather talk it through and check it on screen."
+    }
+   },
+   {
+    "label": "t52",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624"
+     },
+     "text": "Small enough to try properly"
+    }
+   },
+   {
+    "label": "t53",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
+     },
+     "text": "No modules to choose and nothing to decommission. Open a few of the accounts that cost you the most time and decide on the evidence."
+    }
+   },
+   {
+    "label": "t54",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b4"
+     },
+     "text": "Watch one account place a spoken reorder"
+    }
+   },
+   {
+    "label": "t55",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
+     },
+     "text": "Twenty minutes. One account, a single order spoken aloud, and the rest of your operation never moves."
+    }
+   },
+   {
+    "label": "t56",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "6923bf1d-5310-eba9-bcb8-7266c5f85e97"
+     },
+     "text": "Getting Started"
+    }
+   },
+   {
+    "label": "t57",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7"
+     },
+     "text": "Three steps, and no modules to pick"
+    }
+   },
+   {
+    "label": "t58",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
+     },
+     "text": "There is nothing to scope. You pass us the guides, we load them and set up each account, and your customers get going."
+    }
+   },
+   {
+    "label": "t59",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6"
+     },
+     "text": "Send us the guides"
+    }
+   },
+   {
+    "label": "t60",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda"
+     },
+     "text": "A spreadsheet covers it. Items and the price per account go into one admin screen, under the codes you already use."
+    }
+   },
+   {
+    "label": "t61",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede"
+     },
+     "text": "Accounts are opened"
+    }
+   },
+   {
+    "label": "t62",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3"
+     },
+     "text": "We provision each customer and the kitchen downloads the app. Most will have ordered before the day is finished."
+    }
+   },
+   {
+    "label": "t63",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
+     },
+     "text": "Orders arrive ready to work"
+    }
+   },
+   {
+    "label": "t64",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
+     },
+     "text": "Confirmed by the buyer, numbered and timed, in whichever of your formats you chose."
+    }
+   },
+   {
+    "label": "t65",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a176"
+     },
+     "text": "Fresho, plus a voice reorder."
+    }
+   },
+   {
+    "label": "t66",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
+     },
+     "text": "Their depth, one step added."
+    }
+   },
+   {
+    "label": "t67",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
+     },
+     "text": "Deep, Plus One Step"
+    }
+   },
+   {
+    "label": "t68",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
+     },
+     "text": "Two columns, one operation: as it runs now, and with spoken orders added for the accounts that want them. Fresho covers ordering, stock, margins, delivery, picking, invoicing and payments, and it knows produce, meat and seafood properly, so a Fresho alternative is rarely the right word for what you need. The two products do not connect."
+    }
+   },
+   {
+    "label": "t69",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "1ff87819-9b94-6168-dfbb-e81fd6a5b236"
+     },
+     "text": "Feature"
+    }
+   },
+   {
+    "label": "t70",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a18d"
+     },
+     "text": "Fresho + VoiceOrder Solutions"
+    }
+   },
+   {
+    "label": "t71",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a19e"
+     },
+     "text": "Fresho on its own"
+    }
+   },
+   {
+    "label": "t72",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1be"
+     },
+     "text": "Delivery runs and the last mile"
+    }
+   },
+   {
+    "label": "t73",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c8"
+     },
+     "text": "Kitchens order out loud in an app"
+    }
+   },
+   {
+    "label": "t74",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1d5"
+     },
+     "text": "Invoices and taking payment"
+    }
+   },
+   {
+    "label": "t75",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e2"
+     },
+     "text": "The buyer confirms each line before it sends"
+    }
+   },
+   {
+    "label": "t76",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1ec"
+     },
+     "text": "Picking and packing"
+    }
+   },
+   {
+    "label": "t77",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1f6"
+     },
+     "text": "Voicemails, texts and PDFs read for you"
+    }
+   },
+   {
+    "label": "t78",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a210"
+     },
+     "text": "Each account's prices and codes are yours to set"
+    }
+   },
+   {
+    "label": "t79",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a21a"
+     },
+     "text": "Margins, stock and reporting"
+    }
+   },
+   {
+    "label": "t80",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a224"
+     },
+     "text": "Runs alongside the ERP you have"
+    }
+   },
+   {
+    "label": "t81",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "30f8c397-6bf9-f190-2eb1-183dc2b44d9e"
+     },
+     "text": "FAQ"
+    }
+   },
+   {
+    "label": "t82",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
+     },
+     "text": "What fresh-food wholesalers ask us"
+    }
+   },
+   {
+    "label": "t83",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d"
+     },
+     "text": "Is a Fresho alternative what we actually need?"
+    }
+   },
+   {
+    "label": "t84",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+     },
+     "text": "Usually not. Fresho is an operations system built for perishable wholesale, from the order to the payment, and replacing it to change how a few kitchens order would be out of scale. Keep it, and bring in VoiceOrder Solutions for the kitchens happier talking than typing."
+    }
+   },
+   {
+    "label": "t85",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "ad9f0390-a776-7031-a95b-984cd1988c9e"
+     },
+     "text": "Is VoiceOrder Solutions better than Fresho?"
+    }
+   },
+   {
+    "label": "t86",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
+     },
+     "text": "At delivery runs, invoicing, taking payment, picking, margin control or reporting, not remotely: we do none of them. Where we help is narrower, a kitchen that speaks its order and checks every item before it sends. That runs alongside everything Fresho does rather than competing with it."
+    }
+   },
+   {
+    "label": "t87",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "e219e293-819b-221b-6d80-7f8d2898a4d7"
+     },
+     "text": "Their AI handles voicemails. Do we need yours too?"
+    }
+   },
+   {
+    "label": "t88",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
+     },
+     "text": "Maybe not for every account, and it is worth being exact because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. That difference, not a missing feature, is why a Fresho alternative search sometimes ends with both."
+    }
+   },
+   {
+    "label": "t89",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "39590628-381c-9aea-6095-0746f7348939"
+     },
+     "text": "Does VoiceOrder Solutions connect to Fresho?"
+    }
+   },
+   {
+    "label": "t90",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
+     },
+     "text": "No. Nothing connects the two, and neither company supports the other. Both sit beside your ERP on their own terms: theirs through its own ERP connection, ours by email, EDI, API or QuickBooks. Neither one passes orders to the other."
+    }
+   },
+   {
+    "label": "t91",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "0f73d180-08e9-596f-f264-a95de40f9593"
+     },
+     "text": "Do our customers have to change what they do?"
+    }
+   },
+   {
+    "label": "t92",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
+     },
+     "text": "Only the ones you choose. OrderPilot's published promise is that customers carry on ordering exactly as they always have, and the Fresho portal is there too. Let each account pick: our app suits the kitchens that prefer to talk. One limit: a call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock from us. Only what comes through our app does."
+    }
+   },
+   {
+    "label": "t93",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f"
+     },
+     "text": "How fast could this be running?"
+    }
+   },
+   {
+    "label": "t94",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "4446ea80-4c7a-f2a8-f0de-0a222818c94f"
+     },
+     "text": "For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There are no modules to scope, and nothing in Fresho changes while the first accounts start."
+    }
+   },
+   {
+    "label": "t95",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d"
+     },
+     "text": "How do the costs compare?"
+    }
+   },
+   {
+    "label": "t96",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf997"
+     },
+     "text": "They are the most open about this of anyone we look at: a published starting figure, a setup fee, worked examples and a calculator, with prices by region. We publish nothing and give you a quote instead. Since Fresho stays, ask us to quote just our part."
+    }
+   },
+   {
+    "label": "t97",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "7ec95cf1-65b0-b7be-b209-990427524516"
+     },
+     "text": "Where do the Fresho details on this page come from?"
+    }
+   },
+   {
+    "label": "t98",
+    "set_text": {
+     "id": {
+      "component": "6aca3a6e5e834cc8aaf7a7ff",
+      "element": "7ec95cf1-65b0-b7be-b209-99042752451e"
+     },
+     "text": "Read off fresho.com as it stood on 10 October 2026: the modules they list, the order automation description, the category guides and the pricing page. Their saving figures and review scores belong to them and are not repeated here as results. If any of it has changed, the mistake is at our end."
+    }
+   }
+  ]
+ ],
+ "settings": [
+  {
+   "label": "cells",
+   "set_settings": {
+    "operations": [
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Portal, or the message they already send</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "55af8715-1c0d-7742-fde4-496073314315"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">In the portal; AI-read messages are corrected over time</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Not listed on their site</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6aca3a6e5e834cc8aaf7a7ff",
+       "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "element": [
+  {
+   "label": "st0",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st1",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st2",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st3",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st4",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st5",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "55af8715-1c0d-7742-fde4-496073314315"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st6",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st7",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st8",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st9",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st10",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st11",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st12",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st13",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st14",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st15",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st16",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st17",
+   "set_style": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "lk0",
+   "set_link": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "page",
+    "link": "6a886c65f128fbd289d0cea7"
+   }
+  },
+  {
+   "label": "lt0",
+   "set_text": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "62c65bfe-03f5-d4ff-c643-2ff168830cfd"
+    },
+    "text": "How order capture works"
+   }
+  },
+  {
+   "label": "lk1",
+   "set_link": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "page",
+    "link": "6a73a777a9a14bd4436ca47a"
+   }
+  },
+  {
+   "label": "lt1",
+   "set_text": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "2a9c5f49-46db-737d-95ef-b9312d351221"
+    },
+    "text": "Keeping guides current"
+   }
+  },
+  {
+   "label": "lk2",
+   "set_link": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "page",
+    "link": "6ac87340d30cd9d65138161d"
+   }
+  },
+  {
+   "label": "lt2",
+   "set_text": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "32a53d8c-0269-f0df-ac7c-d8a8567f0b8f"
+    },
+    "text": "What an order looks like"
+   }
+  },
+  {
+   "label": "lk3",
+   "set_link": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "page",
+    "link": "6a73a785a108f62cdecdee33"
+   }
+  },
+  {
+   "label": "lt3",
+   "set_text": {
+    "id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "7fd74404-bc36-46b7-cbcd-41511283be49"
+    },
+    "text": "More on stock visibility"
+   }
+  }
+ ],
+ "hard": null,
+ "props": [
+  {
+   "label": "hero",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "989faf8b-cac3-f127-6306-f797ae33f470"
+    },
+    "values": [
+     {
+      "prop_id": "a7704768-52e6-0ad3-2179-5447d7543ee2",
+      "type": "string",
+      "string_value": "For Food Distributors"
+     },
+     {
+      "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
+      "type": "string",
+      "string_value": "The Fresho Alternative You Add Alongside Fresho."
+     },
+     {
+      "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
+      "type": "string",
+      "string_value": "VoiceOrder Solutions gives your phone accounts a voice app, and everything else keeps running. Accounts talk through what they need in the app and look the lines over before sending, and each order lands in a format you take today. Your Fresho setup, from OrderPilot to the full suite, carries on."
+     },
+     {
+      "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
+      "type": "string",
+      "string_value": "Book a Free Demo"
+     }
+    ]
+   }
+  },
+  {
+   "label": "mainCta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6aca3a6e5e834cc8aaf7a7ff",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+      "type": "string",
+      "string_value": "Fix the front door, leave the rest"
+     },
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "Twenty minutes and one voice order, from the kitchen to your desk."
+     },
+     {
+      "prop_id": "0336eaf6-adb9-6ceb-4140-3e3e57f922c4",
+      "type": "string",
+      "string_value": "Book a Free Demo"
+     }
+    ]
+   }
+  }
+ ],
+ "seo": {
+  "id": "6aca3a6e5e834cc8aaf7a7ff",
+  "seo": {
+   "title": "Fresho Alternative for Food Distributors in 2026",
+   "description": "Keep Fresho running and add one spoken step: kitchens say the order into an app and confirm each line. A Fresho alternative you add rather than adopt."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true
+  }
+ }
+}

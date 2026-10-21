@@ -641,7 +641,7 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How is it priced if we keep Burnt?
+          What does VoiceOrder Solutions cost if we keep Burnt?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
