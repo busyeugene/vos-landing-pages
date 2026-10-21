@@ -4,8 +4,8 @@
  "meta_desc": "Keep WizCommerce and add spoken orders for accounts that still send scans. Buyers approve each line, so less needs reading. A WizCommerce alternative that adds.",
  "hero": {
   "eyebrow": "For Food Distributors",
-  "h1": "Weighing A WizCommerce Alternative? Add Spoken Orders Too.",
-  "lead": "Get orders that come in as clean lines the buyer has already checked. VoiceOrder Solutions sits alongside WizCommerce: buyers say the lines into our app, straight off their own guide, and approve each line before it sends. Their AI keeps reading the scans and spreadsheets that still come in.",
+  "h1": "Weighing A WizCommerce Alternative? Keep It, Add Voice.",
+  "lead": "Get orders as a list of items the kitchen has already checked. VoiceOrder Solutions sits alongside WizCommerce: your customers say their order into our app, pick from their own guide, and approve each line before it goes. WizCommerce's AI keeps reading the scans and spreadsheets still arriving.",
   "cta": "Book a Free Demo →"
  },
  "stats": [
@@ -25,11 +25,11 @@
  "problem": {
   "eyebrow": "Where The Search Starts",
   "h2": "What sends distributors looking for an alternative to WizCommerce",
-  "lead": "WizCommerce runs rep-led, online, EDI and marketplace sales in one AI platform, with a storefront, a CRM, payments and a real food and beverage feature set. None of that is the problem. The hunt for a WizCommerce competitor tends to start with the checking at your end, and that is a narrow thing to fix.",
+  "lead": "WizCommerce runs sales through reps, online, EDI and marketplaces in one AI platform. It has a storefront, a CRM, payments and real food and beverage features. None of that is the problem. The hunt for a WizCommerce competitor usually starts with the checking your team does, and that is one small thing to fix.",
   "cards": [
    {
-    "h3": "Something inferred still has to be checked",
-    "body": "Their own description includes a final review step for your team before orders reach the ERP, which is the honest way to build it. It does mean the accuracy question stays with you: did it read that right, and did your team spot it if not."
+    "h3": "Orders read by AI still need checking",
+    "body": "Their own description includes a final review step for your team before orders go into the ERP, which is the honest way to build it. It still leaves you asking: did the AI read it correctly, and if not, did your team catch it?"
    },
    {
     "h3": "The paperwork keeps coming",
@@ -47,13 +47,13 @@
   "rows": [
    {
     "eyebrow": "Voice Ordering",
-    "h3": "Spoken into lines, not onto a note",
+    "h3": "Spoken straight into order lines, not a voice note",
     "body": "A chef says what is short and the items appear from that account's guide, already against your codes and your prices. The buyer sees each line as it appears and fixes it before sending, so nobody at your end pieces the order together afterwards.",
     "bullets": [
      "The person who placed it approves the list",
      "Spoken in the cooler or the office, at any hour",
-     "Their own handset, iOS or Android, nothing issued",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Nobody writes up a reorder from an account on the app, so the reps get that time to sell"
     ],
     "link": {
@@ -64,7 +64,7 @@
    {
     "eyebrow": "Order Guides",
     "h3": "A short list built from what you sell them",
-    "body": "Each account works from the items it actually buys, carrying your codes at the figure you hold for that customer. Orders arrive in your own items and codes, because each line is picked from that customer's guide.",
+    "body": "Every account picks from the items it actually buys, with your codes and the price you set for that customer. Orders arrive in your own items and codes, because each line is picked from that customer's guide.",
     "bullets": [
      "Every line drawn from their guide",
      "The catalog and the pricing stay yours to set",
@@ -79,10 +79,10 @@
    {
     "eyebrow": "Delivery Formats",
     "h3": "Delivered the way your office already takes it",
-    "body": "The order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. No part of your stack has to move to make room for it.",
+    "body": "The order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. You do not have to remove any software first.",
     "bullets": [
      "Addressed to a named rep, or to the purchasing desk",
-     "On a direct feed nobody retypes it at your end",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Its own number, with the date and time it was sent",
      "Picking, billing and delivery carry on unchanged"
     ],
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock on view as the orders come through",
-    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: whatever you run today keeps that role, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "Across the whole catalog, not just the quick movers",
      "Fewer stockout surprises on a late, heavy order",
-     "Levels come out of the system you count with now",
+     "Stock numbers come from the system you count with today",
      "No counting and no buying happens on our side"
     ],
     "link": {
@@ -111,15 +111,15 @@
  "cards": {
   "eyebrow": "Side By Side",
   "h2": "Running WizCommerce and VoiceOrder Solutions together",
-  "lead": "Running both is a perfectly sensible outcome, because we are not a WizCommerce replacement. Our app moves one group of accounts off producing paperwork at all, and anything still arriving as a scan or a spreadsheet keeps being read. For many distributors that is what a WizCommerce alternative amounts to.",
+  "lead": "Running both is a perfectly sensible outcome, because we are not a WizCommerce replacement. Our app moves some accounts off sending paperwork at all. Anything still arriving as a scan or a spreadsheet keeps being read by WizCommerce's AI. For many distributors that is what a WizCommerce alternative amounts to.",
   "items": [
    {
-    "h3": "Less arrives needing a verdict",
-    "body": "Accounts on the app send lines they have already checked, not a note to decode. The assistant that reads documents keeps every other channel it already handles."
+    "h3": "Less to check at your end",
+    "body": "Accounts on the app send lines they have already checked, not a note to decode. The WizCommerce AI still reads everything else it handles today."
    },
    {
     "h3": "Quotes, payments and the store stay put",
-    "body": "None of that is on offer here and none of it is affected. We hand over a finished order and take no view on what the rest of your stack does with it."
+    "body": "None of that is on offer here and none of it is affected. We hand over a finished order and do not touch what your other software does with it."
    },
    {
     "h3": "Point it at the accounts that phone most",
@@ -129,7 +129,7 @@
  },
  "midcta": {
   "h3": "See what lands on the desk",
-  "body": "Twenty minutes. A buyer speaks, the lines come up from their guide, and what reaches you is already in lines.",
+  "body": "Twenty minutes. A buyer speaks, the lines come up from their guide, and what reaches you is a finished, itemized order.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
@@ -147,18 +147,18 @@
    },
    {
     "h3": "Orders come in whole",
-    "body": "Approved by the buyer, numbered and timed, set out in a format your desk already takes."
+    "body": "It arrives approved by the customer, numbered, timed and in a format your desk can use."
    }
   ]
  },
  "comparison": {
-  "h2": "WizCommerce with a voice step added. Less arriving to be read.",
+  "h2": "WizCommerce with a voice step added. Fewer orders left to check.",
   "h2_lines": [
    "WizCommerce with a voice step added.",
-   "Less arriving to be read."
+   "Fewer orders left to check."
   ],
-  "eyebrow": "Read Less, Keep Everything",
-  "lead": "This table shows your operation twice: the way it works now, and with spoken orders added for the accounts that need them. A WizCommerce alternative usually comes up over what has to be read and checked, and that is where adding voice changes things. The two products do not connect, and every WizCommerce detail is from their own site.",
+  "eyebrow": "Keep WizCommerce, Add Voice",
+  "lead": "This table shows your operation twice: the way it works now, and with spoken orders added for the accounts that need them. People usually look for a WizCommerce alternative because of the orders someone has to read and check, and that is the part adding voice changes. The two products do not connect, and every WizCommerce detail is from their own site.",
   "heads": [
    "Feature",
    "WizCommerce + VoiceOrder Solutions",
@@ -290,23 +290,23 @@
   "items": [
    {
     "q": "Is a WizCommerce alternative the only way to get spoken orders?",
-    "a": "No. You can keep WizCommerce and bring us in for the accounts who prefer talking an order through to writing one. Everything their platform does now carries on. The difference is that some orders arrive already built as lines, so there is less for the assistant and your team to read."
+    "a": "No. You can keep WizCommerce and bring us in for the accounts who prefer talking an order through to writing one. Everything their platform does now carries on. The difference is that some orders arrive already itemized, so there is less for WizCommerce's AI and your team to read."
    },
    {
     "q": "Is VoiceOrder Solutions better than WizCommerce?",
     "a": "Not at what they are built for: reading a handwritten sheet, quoting an inquiry, running a store, customer records or payments. We do none of it. Where we are stronger is one step, an order the buyer builds and approves, so your team is not left decoding a message. That is a reason to run us next to their platform rather than instead of it."
    },
    {
-    "q": "Don't they handle voice already?",
-    "a": "They do: voice notes are on their own list of what the assistant reads, alongside scans and handwriting. So a WizCommerce alternative pitched on voice alone would be wrong. The difference is when the order takes shape. A note gets interpreted after the fact, while in our app the speaking builds the lines and the buyer approves them before anything is sent."
+    "q": "Doesn't WizCommerce handle voice already?",
+    "a": "They do: voice notes are on the list of what WizCommerce's AI assistant reads, alongside scans and handwriting. So a WizCommerce alternative pitched on voice alone would be wrong. The difference is when the order gets built. Their AI works out what a voice message said after it is sent. In our app, speaking creates the order lines, and the buyer approves them before anything is sent."
    },
    {
     "q": "Is WizCommerce linked to VoiceOrder Solutions in any way?",
-    "a": "No. There is nothing between them, and each company supports only its own product. Each sends its orders into your own system separately: theirs through their ERP connections, ours as email, EDI, API or QuickBooks. Neither one routes through the other."
+    "a": "No. There is nothing between them, and each company supports only its own product. Each sends its orders into your own system separately: theirs through their ERP connections, ours by email or straight into your system. Neither one routes through the other."
    },
    {
     "q": "Will storefront buyers need a second way to order?",
-    "a": "Only if you choose to give them one. Our app is for any kitchen that still phones, emails a scan or sends a spreadsheet. Be clear on one limit: a call or a voicemail to your desk gets no order number from us, no timestamp and nothing moving against stock. Only orders placed in the app do."
+    "a": "Only if you choose to give them one. Our app is for any kitchen that still phones, emails a scan or sends a spreadsheet. Be clear on one limit: a call or a voicemail to your desk gets no order number from us, no timestamp and no stock update. Only orders placed in the app do."
    },
    {
     "q": "How fast could spoken orders be running?",
@@ -323,7 +323,7 @@
   ]
  },
  "mainCta": {
-  "h2": "Give your review step less to do",
+  "h2": "Give your team fewer orders to check",
   "body": "Twenty minutes, one spoken order, from the kitchen to your inbox.",
   "cta": "Book a Free Demo →"
  }

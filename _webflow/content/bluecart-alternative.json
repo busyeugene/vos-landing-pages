@@ -11,21 +11,21 @@
  "stats": [
   {
    "num": "20-30 Min",
-   "label": "Back on each order once the phone is out of it"
+   "label": "Saved on each order that skips the phone"
   },
   {
    "num": "24-48 Hrs",
-   "label": "Covers go-live for most distributors"
+   "label": "Is how long go-live takes for most distributors"
   },
   {
    "num": "Same Day",
-   "label": "Is first-order day for most kitchens"
+   "label": "Is when most kitchens place their first order"
   }
  ],
  "problem": {
   "eyebrow": "How It Comes Up",
   "h2": "When an alternative to BlueCart starts to look tempting",
-  "lead": "BlueCart sells reach. Join the marketplace, get listed in the endless aisle, be seen by restaurants across their network. That is worth keeping for a supplier chasing new accounts. Once an account is yours, though, the weekly reorder is a different job, and that is usually when a BlueCart competitor gets a look.",
+  "lead": "BlueCart sells reach: it helps you find new customers. You join their marketplace, get listed in what they call the \"endless aisle\", and restaurants across their network can see you. That is worth keeping for a supplier chasing new accounts. Once an account is yours, though, the weekly reorder is a different job, and that is usually when a BlueCart competitor gets a look.",
   "cards": [
    {
     "h3": "The reorder still comes by phone",
@@ -33,10 +33,10 @@
    },
    {
     "h3": "Online ordering helps the ones who log in",
-    "body": "BlueCart positions its Order Management Solution as a replacement for phone and email ordering, and for buyers who use it, it is. The kitchens who prefer talking to logging in are the gap."
+    "body": "BlueCart presents its Order Management Solution as a replacement for phone and email ordering. For buyers who use it, it does replace them. The kitchens who prefer talking to logging in are the gap."
    },
    {
-    "h3": "Leaving would cost you the reach",
+    "h3": "Leaving would cost you new customers",
     "body": "Coming off the marketplace would give up the new kitchens it brings in, and the regulars on the phone would still be on the phone. That is why a BlueCart alternative that takes the listing down is the wrong fix here."
    }
   ]
@@ -50,10 +50,10 @@
     "h3": "The regular order, spoken",
     "body": "Your account holds the button and says what the kitchen needs. Items appear as lines with quantities, they fix anything wrong, and they send. Each item comes from their own guide, and they check every line before it goes.",
     "bullets": [
-     "The buyer looks at the list before anything leaves",
+     "Your customer looks at the list before anything leaves",
      "Done in the cooler or at the desk, at any hour",
-     "Their own handset, iOS or Android, nothing issued",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Interrupted halfway? It holds the order until they come back"
     ],
     "link": {
@@ -63,12 +63,12 @@
    },
    {
     "eyebrow": "Order Guides",
-    "h3": "Your range, at the prices you hold",
-    "body": "You send the guides you keep per customer. We load them against your SKUs at the price you hold for that account.",
+    "h3": "Your products, at your own prices",
+    "body": "You send the guides you keep per customer. We load them with your SKUs and the price you set for that account.",
     "bullets": [
      "A kitchen sees nothing but the lines it buys",
      "Pricing and the catalog remain yours to set",
-     "Change a guide once and it stands on the orders after",
+     "Change a guide once and every later order uses it",
      "Every item maps to a SKU you already use"
     ],
     "link": {
@@ -82,9 +82,9 @@
     "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks, in a shape your desk opens daily.",
     "bullets": [
      "Addressed to a rep, or to the purchasing desk",
-     "On a direct feed there is no rekeying at your end",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Picking, billing and delivery carry on unchanged",
-     "No part of your stack has to be retired first"
+     "You do not have to remove any software first"
     ],
     "link": {
      "href": "/wholesale-ordering-software",
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock in view as each order lands",
-    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "Every line you carry, not only the quick movers",
      "Fewer stockout surprises on a late, heavy order",
-     "Numbers come out of whatever you count with now",
+     "Stock numbers come from the system you count with today",
      "Nothing gets counted in our app"
     ],
     "link": {
@@ -111,10 +111,10 @@
  "cards": {
   "eyebrow": "Two Jobs",
   "h2": "BlueCart finds the account, voice adds a quicker reorder",
-  "lead": "VoiceOrder Solutions is not a BlueCart replacement, because it cannot do the thing BlueCart is for. It adds on, so being listed on a marketplace is no reason to skip this.",
+  "lead": "VoiceOrder Solutions is not a BlueCart replacement, because it cannot do the thing BlueCart is for. It adds on, so you can use it and stay listed on the marketplace.",
   "items": [
    {
-    "h3": "Meet them there, make reordering quick",
+    "h3": "Meet them on BlueCart, make reordering quick",
     "body": "A marketplace is a good way to meet an account you had no route to. Once they buy from you regularly, some will want a quicker way to reorder than logging in, and our app gives them one while the listing keeps working."
    },
    {
@@ -123,13 +123,13 @@
    },
    {
     "h3": "Our orders land where you choose",
-    "body": "Ours show up in whichever system you picked, over EDI, the API or QuickBooks, or as an email to your desk. Nothing about your BlueCart dashboard changes."
+    "body": "Ours show up in whichever system you picked, by EDI, through the API or in QuickBooks, or as an email to your desk. Nothing about your BlueCart dashboard changes."
    }
   ]
  },
  "midcta": {
   "h3": "See a regular's reorder go from voice to your desk",
-  "body": "Twenty minutes. One account, one order spoken off a sample guide and signed off before it sends.",
+  "body": "Twenty minutes. One account, a single spoken order from a sample guide, signed off before it sends.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
@@ -146,19 +146,19 @@
     "body": "Accounts are created for each kitchen, which then downloads our app. Most have ordered before that day ends."
    },
    {
-    "h3": "It arrives whole",
-    "body": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+    "h3": "The order arrives whole",
+    "body": "Approved by the customer, with an order number and the time it was sent, in the format your system expects."
    }
   ]
  },
  "comparison": {
-  "h2": "BlueCart with VoiceOrder Solutions added. Win there, reorder here.",
+  "h2": "BlueCart with VoiceOrder Solutions added. Find accounts there, take reorders here.",
   "h2_lines": [
    "BlueCart with VoiceOrder Solutions added.",
-   "Win there, reorder here."
+   "Find accounts there, take reorders here."
   ],
   "eyebrow": "Keep Both",
-  "lead": "Nothing in this table gets taken away, because adding a tool should not cost you anything you have. BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to, and a BlueCart alternative search usually comes from the reorder side, not the reach. The two do not connect, and what we say about BlueCart was read on their site.",
+  "lead": "Adding our app should not cost you anything you already have, and every row below reflects that. BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to, and a BlueCart alternative search is usually about repeat orders from regulars, not about finding new ones. The two do not connect, and what we say about BlueCart was read on their site.",
   "heads": [
    "Feature",
    "BlueCart + VoiceOrder Solutions",
@@ -205,7 +205,7 @@
     ]
    },
    {
-    "label": "Your buyer signs the order off before it sends",
+    "label": "Your customer signs off the order before it sends",
     "cells": [
      {
       "t": "icon",
@@ -294,7 +294,7 @@
    },
    {
     "q": "Is VoiceOrder Solutions better than BlueCart?",
-    "a": "At finding new customers, no, and it is not a close call. That is their product and we do not have one. We help with the repeat order from an account already on your books: your range only, your prices, approved by the buyer. People who search for a BlueCart alternative are often after that second job, not a way out of the first."
+    "a": "At finding new customers, no, and it is not a close call. That is what BlueCart sells, and we offer nothing like it. We help with the repeat order from an account already on your books: only your products, at your prices, approved by your customer. People who search for a BlueCart alternative often want help with repeat orders, not a way to stop meeting new kitchens."
    },
    {
     "q": "Are VoiceOrder Solutions and BlueCart connected?",
@@ -310,7 +310,7 @@
    },
    {
     "q": "How fast can accounts begin ordering?",
-    "a": "For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart says theirs can be live within days too, and since the listing stays up, there is nothing to time around."
+    "a": "For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart says theirs can be live within days too, and since the listing stays up, there is nothing to schedule around."
    },
    {
     "q": "How do the costs compare?",
@@ -318,12 +318,12 @@
    },
    {
     "q": "Where do the BlueCart details on this page come from?",
-    "a": "Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If any of it has moved on, the fault is here, not there."
+    "a": "Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If something there is out of date now, we will fix it."
    }
   ]
  },
  "mainCta": {
-  "h2": "Keep the listing. Bring the reorder home.",
+  "h2": "Keep the listing. Get regulars' reorders off the phone.",
   "body": "Twenty minutes, one order priced from a guide, and approved before it sends.",
   "cta": "Book a Free Demo →"
  }

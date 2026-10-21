@@ -110,7 +110,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
      },
-     "text": "Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If what you came for was a better way to receive orders, swapping it out means weighing a platform decision to get at one of its channels."
+     "text": "Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If all you want is a better way to receive orders, replacing Pepperi means a big platform decision to fix one small part of it."
     }
    },
    {
@@ -210,7 +210,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
      },
-     "text": "The buyer reads the lines before anything leaves"
+     "text": "The kitchen's buyer reads the lines before anything leaves"
     }
    },
    {
@@ -230,7 +230,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
      },
-     "text": "20 to 30 minutes back against the same order by phone"
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
     }
    },
    {
@@ -270,7 +270,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
      },
-     "text": "Send over the lists you keep today. Each account gets the items it buys against your codes, at the figure you hold for that customer, and setup is done. You keep the catalog and the pricing; they get the convenience."
+     "text": "Send over the lists you keep today. Each account gets the items it buys under your codes, at the price you set for that customer, and setup is done. You keep the catalog and the pricing; they get the convenience."
     }
    },
    {
@@ -360,7 +360,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
      },
-     "text": "On a direct feed nobody retypes it at your end"
+     "text": "Over EDI, the API or QuickBooks, nobody on your team retypes it"
     }
    },
    {
@@ -410,7 +410,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
      },
-     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the one you run today stays in charge, and a demo shows how the levels connect."
+     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
     }
    },
    {
@@ -440,7 +440,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
      },
-     "text": "Levels come from the system you count with now"
+     "text": "Stock numbers come from the system you count with today"
     }
    },
    {
@@ -500,7 +500,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
      },
-     "text": "Routes, audits, van stock and promotions carry on in Pepperi. We take nothing out of a rep's hands; we just take the app accounts' reorders off their plate."
+     "text": "Routes, audits, van stock and promotions carry on in Pepperi. We take nothing out of a rep's hands. We just take the app's reorders off their plate."
     }
    }
   ],
@@ -522,7 +522,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "5368ca22-de87-9362-819f-9733489b5a70"
      },
-     "text": "Buyers who are happy clicking through a catalog should carry on. Our app is for the part of the book that never took to one and still telephones instead."
+     "text": "Buyers who are happy clicking through a catalog should carry on. Our app is for kitchens that never took to one and still phone instead."
     }
    },
    {
@@ -612,7 +612,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda"
      },
-     "text": "A spreadsheet is plenty. Items and the price per account load into one admin screen, against the codes you already use."
+     "text": "A spreadsheet is plenty. Items and the price per account load into one admin screen, under the codes you already use."
     }
    },
    {
@@ -652,7 +652,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
      },
-     "text": "Approved by the buyer, carrying a number and a time, laid out as your office expects."
+     "text": "The customer has approved it. It carries a number and the time it was sent, in the format your system takes."
     }
    },
    {
@@ -692,7 +692,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
      },
-     "text": "The rep's visit and the reorder that follows it are two moments, and this table covers both. Pepperi is a B2B commerce and field sales platform with van routes, store audits, promotions and CRM, so a Pepperi alternative is mostly a question about the order between visits. The left column has both running; they do not connect."
+     "text": "A rep's visit and the reorder after it are two different jobs, and this table covers both. Pepperi is a B2B commerce and field sales platform with van routes, store audits, promotions and CRM. So a Pepperi alternative is mostly about the reorders between visits. The left column has both running; they do not connect."
     }
    },
    {
@@ -892,7 +892,7 @@
       "component": "6aca3a6aa40f1fed87074445",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
      },
-     "text": "It does. They offer a branded self-service portal with each buyer's own catalog and pricing. Every route into it still means working a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones our app suits."
+     "text": "It does. They offer a branded self-service portal with each buyer's own catalog and pricing. Every way into it still means using a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones our app suits."
     }
    },
    {
@@ -1583,7 +1583,7 @@
      {
       "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
       "type": "string",
-      "string_value": "The reorders nobody drives out for can come in on their own. VoiceOrder Solutions runs beside Pepperi: an account talks through the reorder in our app, checks the lines and sends it. The field team holds on to its routes, store visits and promotions, and stops writing up those repeat orders."
+      "string_value": "Repeat orders that don't need a visit can come in on their own. VoiceOrder Solutions runs beside Pepperi: an account talks through the reorder in our app, checks the lines and sends it. The field team holds on to its routes, store visits and promotions, and stops writing up those repeat orders."
      },
      {
       "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",

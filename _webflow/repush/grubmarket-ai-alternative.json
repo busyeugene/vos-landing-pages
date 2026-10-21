@@ -20,7 +20,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
      },
-     "text": "Won back on each order that leaves the phone"
+     "text": "Saved on each order taken off the phone"
     }
    },
    {
@@ -40,7 +40,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fea2"
      },
-     "text": "Is all most distributors wait to go live"
+     "text": "Is how long most distributors wait to go live"
     }
    },
    {
@@ -90,7 +90,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
      },
-     "text": "GrubMarket AI calls GrubAssist a virtual assistant for the food supply chain, and the jobs it advertises are business analysis, performance, cash flow and spotting anomalies, with order creation among them. All useful, and worth keeping. A GrubMarket AI alternative search usually starts from one gap: the customer still sends a message for somebody to interpret."
+     "text": "GrubMarket AI calls GrubAssist a virtual assistant for the food supply chain. The jobs it advertises include business analysis, performance, cash flow, spotting unusual numbers and creating orders. All useful, and worth keeping. A GrubMarket AI alternative search usually starts from one gap: the customer still sends a message that somebody has to work out."
     }
    },
    {
@@ -110,7 +110,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
      },
-     "text": "The jobs GrubAssist advertises are ones a distributor's team does: looking into the numbers and writing up orders. However quick that makes entry, it is not the same as the order arriving already built by the person who wanted it."
+     "text": "The jobs GrubAssist advertises are ones a distributor's team does: looking into the numbers and writing up orders. Even if that speeds up order entry, it is not the same as the customer building the order themselves."
     }
    },
    {
@@ -120,7 +120,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
      },
-     "text": "Extraction starts from a loose message"
+     "text": "Their AI still starts from a loose message"
     }
    },
    {
@@ -130,7 +130,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
      },
-     "text": "Their order extraction reads voicemail, email and text messages at any hour, which is useful. Each one still begins as a message, though, and the kitchen that sent it never sees the lines it became."
+     "text": "GrubMarket's order-reading tool reads voicemail, email and text messages at any hour, which is useful. Each one still begins as a message, though, and the kitchen that sent it never sees the lines it became."
     }
    },
    {
@@ -210,7 +210,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
      },
-     "text": "Nothing arrives that the buyer has not looked at"
+     "text": "Nothing arrives that your customer has not looked at"
     }
    },
    {
@@ -230,7 +230,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
      },
-     "text": "20 to 30 minutes back against the same order by phone"
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
     }
    },
    {
@@ -270,7 +270,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
      },
-     "text": "Nothing gets taught here. You send the lists you already keep per customer, we load them against your SKUs at the prices you hold for that account, and the configuration is finished."
+     "text": "There is nothing to train. You send the lists you already keep for each customer. We load them with your SKUs and the prices you set for that account, and setup is done."
     }
    },
    {
@@ -300,7 +300,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdeb9"
      },
-     "text": "Change a list once and it stands on the orders after"
+     "text": "Change a list once and the next orders follow it"
     }
    },
    {
@@ -310,7 +310,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
      },
-     "text": "No tuning as volumes or categories grow"
+     "text": "Nothing to adjust as orders or product lines grow"
     }
    },
    {
@@ -330,7 +330,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb118"
      },
-     "text": "Delivered in whatever shape you asked for"
+     "text": "Delivered in the format you asked for"
     }
    },
    {
@@ -340,7 +340,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
      },
-     "text": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks, in a shape your desk opens daily."
+     "text": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks, in a format your desk opens every day."
     }
    },
    {
@@ -360,7 +360,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
      },
-     "text": "On a direct feed there is no rekeying at your end"
+     "text": "Over EDI, the API or QuickBooks, nobody on your team retypes it"
     }
    },
    {
@@ -380,7 +380,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
      },
-     "text": "No part of your stack has to be retired first"
+     "text": "You do not have to remove any software first"
     }
    },
    {
@@ -410,7 +410,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
      },
-     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect."
+     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
     }
    },
    {
@@ -440,7 +440,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
      },
-     "text": "Numbers come out of whatever you count with now"
+     "text": "Stock numbers come from the system you count with today"
     }
    },
    {
@@ -460,7 +460,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "021e8cc1-41f6-a5cc-3995-2a8c101d005c"
      },
-     "text": "Both Ends"
+     "text": "Your Team, Your Customers"
     }
    },
    {
@@ -490,7 +490,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da6507"
      },
-     "text": "Keep the assistant for the questions"
+     "text": "Keep GrubAssist for business questions"
     }
    },
    {
@@ -512,7 +512,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "5368ca22-de87-9362-819f-9733489b5a6d"
      },
-     "text": "Shrink the pile that needs extracting"
+     "text": "Fewer messages for the AI to read"
     }
    },
    {
@@ -522,7 +522,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "5368ca22-de87-9362-819f-9733489b5a70"
      },
-     "text": "Each account you move across sends a structured, approved order rather than a voicemail. Whatever is doing the extracting keeps handling the messages that still arrive."
+     "text": "Each account you move across sends an itemized, approved order rather than a voicemail. Whatever tool reads your messages today keeps handling the ones that still come in."
     }
    },
    {
@@ -532,7 +532,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624"
      },
-     "text": "One place for it to land, whatever else you run"
+     "text": "One place for these orders to land"
     }
    },
    {
@@ -542,7 +542,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
      },
-     "text": "Sent over EDI, the API or QuickBooks, ours reach the same software as everything else, so nobody ends up with two places to look."
+     "text": "When our orders travel by EDI, API or into QuickBooks, they reach the same software as everything else, so nobody ends up with two places to look."
     }
    },
    {
@@ -562,7 +562,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
      },
-     "text": "Twenty minutes. A buyer speaks an order, approves it, and it arrives on the desk as a PDF, over EDI or over the API."
+     "text": "Twenty minutes. A customer speaks an order, approves it, and it arrives on the desk as a PDF, over EDI or over the API."
     }
    },
    {
@@ -582,7 +582,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7"
      },
-     "text": "Three steps, and no model to teach"
+     "text": "Three steps, and no AI to train"
     }
    },
    {
@@ -592,7 +592,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
      },
-     "text": "Nothing has to be trained and no pilot has to be designed. You send lists, we open accounts, your customers order."
+     "text": "Nothing has to be trained, and there is no trial run to plan. You send lists, we set up accounts, and the ordering starts."
     }
    },
    {
@@ -622,7 +622,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede"
      },
-     "text": "We switch each account on"
+     "text": "We set up each account"
     }
    },
    {
@@ -632,7 +632,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3"
      },
-     "text": "We set up each account and the kitchen downloads the app. Most send something in before the day is out."
+     "text": "Each kitchen downloads the app once its account is ready. Most send something in before the day is out."
     }
    },
    {
@@ -642,7 +642,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
      },
-     "text": "It shows up done"
+     "text": "The order shows up done"
     }
    },
    {
@@ -652,7 +652,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
      },
-     "text": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+     "text": "Your customer has approved it, and it is numbered and timestamped, in the format your system takes."
     }
    },
    {
@@ -672,7 +672,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
      },
-     "text": "One mic at each end."
+     "text": "One for your team, one for your customers."
     }
    },
    {
@@ -682,7 +682,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
      },
-     "text": "Two Microphones"
+     "text": "Team And Customers"
     }
    },
    {
@@ -692,7 +692,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
      },
-     "text": "Adding the customer's end of the conversation takes nothing from your team's. Anyone weighing a GrubMarket AI alternative over voice should see both ends, so each row shows GrubMarket AI as you run it today and again with our app added. The two are not connected, and everything said about them is read off grubmarket.ai."
+     "text": "Adding an app for your customers takes nothing away from your team's tools. Anyone weighing a GrubMarket AI alternative for voice ordering should see both sides, so each row shows GrubMarket AI as you run it today, then with our app added. The two are not connected, and everything said about them is read off grubmarket.ai."
     }
    },
    {
@@ -762,7 +762,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1d5"
      },
-     "text": "Your buyer signs the order off before it sends"
+     "text": "Your customer signs off the order before it sends"
     }
    },
    {
@@ -842,7 +842,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
      },
-     "text": "Better than GrubMarket AI, or the other half of it?"
+     "text": "Better than GrubMarket AI, or the customer app to run beside it?"
     }
    },
    {
@@ -862,7 +862,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
      },
-     "text": "No. GrubAssist can keep serving your team while VoiceOrder Solutions gives each account its own route in: say it into our app, check it, send it. Nothing on your side has to be switched off or retrained."
+     "text": "No. GrubAssist can keep serving your team while VoiceOrder Solutions gives each account its own voice app: speak, check, send. Nothing on your side has to be switched off or retrained."
     }
    },
    {
@@ -882,7 +882,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
      },
-     "text": "Less than it looks. GrubAssist, going by their own site, works for your team: ask it about the business, have it write up an order. Ours is for your customers, who speak and approve their own orders, so your staff never build the ones sent through our app. That is why a team looking at a GrubMarket AI alternative over voice can simply run both."
+     "text": "Less than it looks. GrubAssist, going by their own site, works for your team: ask it about the business, have it write up an order. Ours is for your customers, who speak and approve their own orders, so your staff never write up anything placed in our app. That is why a team looking at a GrubMarket AI alternative to get voice orders can simply run both."
     }
    },
    {
@@ -902,7 +902,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
      },
-     "text": "No. Our admin screen shows what each account has ordered and lets you manage accounts and guides. Reporting on how accounts perform is on their list, not ours, which is a good reason to keep GrubAssist."
+     "text": "No. Our admin screen shows what each account has ordered and lets you manage accounts and guides. GrubAssist advertises reporting on how accounts perform and we do not, which is a good reason to keep it."
     }
    },
    {
@@ -942,7 +942,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
      },
-     "text": "No, and there is no module for it, because nothing has to be taught. The item list you keep for an account is the configuration. GrubMarket AI ships an AI training module for its assistant, and that stays theirs to run."
+     "text": "No. There is nothing to teach, so there is no training tool for it. The item list you keep for an account is all the setup it needs. GrubMarket AI offers an AI training module for its assistant, and that stays theirs to run."
     }
    },
    {
@@ -962,7 +962,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "4446ea80-4c7a-f2a8-f0de-0a222818c94f"
      },
-     "text": "For most distributors this is live inside 24 to 48 hours, and a first order usually follows the day each login arrives. GrubAssist carries on as before while it happens. Accounts that keep calling still can; a call just gets no order number or timestamp from us."
+     "text": "For most distributors this is live inside 24 to 48 hours, and customers usually place a first order the day they get their login. GrubAssist carries on as before while it happens. Accounts that keep calling still can; a call just gets no order number or timestamp from us."
     }
    },
    {
@@ -982,7 +982,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf997"
      },
-     "text": "Neither of us publishes a figure. Ours arrives as a quote once we know your setup; theirs comes after a demo. Keeping GrubAssist means the number to weigh is only what the voice app for accounts adds."
+     "text": "Neither of us publishes a figure. Ours arrives as a quote once we know your setup; theirs comes after a demo. Keeping GrubAssist means the only cost to weigh is the voice app for your customers."
     }
    },
    {
@@ -1002,7 +1002,7 @@
       "component": "6aca3a59a6caad0812b5c623",
       "element": "7ec95cf1-65b0-b7be-b209-99042752451e"
      },
-     "text": "Taken from grubmarket.ai on 10 October 2026, which is the GrubMarket AI product rather than GrubMarket the company: the GrubAssist description, the list of advertised jobs, the training module and the other products all come off that page. They publish no price and no rollout time, so this page does not guess at either. If any of it has moved on, the fault is here, not there."
+     "text": "Taken from grubmarket.ai on 10 October 2026, which is the GrubMarket AI product rather than GrubMarket the company: the GrubAssist description, the list of advertised jobs, the training module and the other products all come off that page. They publish no price and no rollout time, so this page does not guess at either. If any of it has changed since, the mistake is ours to fix."
     }
    }
   ]
@@ -1562,12 +1562,12 @@
      {
       "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
       "type": "string",
-      "string_value": "GrubMarket AI Alternative? Hand Customers The Microphone."
+      "string_value": "GrubMarket AI Alternative? Give Customers A Voice App."
      },
      {
       "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
       "type": "string",
-      "string_value": "Put a microphone in your customers' hands as well. VoiceOrder Solutions runs beside GrubAssist: the kitchen speaks the order into our app on its own phone, approves each line, and it reaches your desk finished. Your team keeps its assistant for questions about the business."
+      "string_value": "Kitchens can now say what they need, too. VoiceOrder Solutions runs beside GrubAssist, GrubMarket's AI assistant for your team: the kitchen dictates the order into our app on its own phone, approves each line, and it lands on your desk complete. Your team keeps GrubAssist for questions about the business."
      },
      {
       "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
@@ -1588,12 +1588,12 @@
      {
       "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
       "type": "string",
-      "string_value": "Leave GrubAssist with your team. Give customers a microphone too."
+      "string_value": "Leave GrubAssist with your team. Let each kitchen speak its order, too."
      },
      {
       "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
       "type": "string",
-      "string_value": "Twenty minutes, with the microphone in the customer's hand."
+      "string_value": "Twenty minutes, with a customer speaking the order."
      },
      {
       "prop_id": "0336eaf6-adb9-6ceb-4140-3e3e57f922c4",

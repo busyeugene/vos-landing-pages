@@ -4,7 +4,7 @@
  "meta_desc": "Keep the Cut+Dry storefront and payments, and add a reorder your accounts speak from your own guide. A Cut+Dry alternative that sits beside it instead.",
  "hero": {
   "eyebrow": "For Food Distributors",
-  "h1": "Cut+Dry Alternative? Keep It, Let Regulars Speak Up.",
+  "h1": "Cut+Dry Alternative? Keep It, Add Spoken Reorders.",
   "lead": "Give your phone accounts a reorder they check themselves, and leave the platform alone. VoiceOrder Solutions goes next to Cut+Dry: your accounts say the reorder into our app from the guide you built, approve it, and send. Payments, invoicing and the storefront stay where they are.",
   "cta": "Book a Free Demo →"
  },
@@ -25,19 +25,19 @@
  "problem": {
   "eyebrow": "The Usual Trigger",
   "h2": "What actually sends people looking for an alternative to Cut+Dry",
-  "lead": "Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves all three sides of that trade from one platform. That breadth is the product, and replacing it rarely makes sense. What sends a buyer to a Cut+Dry competitor is usually one narrower thing.",
+  "lead": "Cut+Dry calls itself online ordering and sales tools for foodservice. It serves distributors, manufacturers and restaurants from one platform. That breadth is the product, and replacing it rarely makes sense. What sends a buyer to a Cut+Dry competitor is usually one narrower thing.",
   "cards": [
    {
     "h3": "Some accounts would rather talk than tap",
     "body": "Ordering at any hour only helps the kitchens that open the storefront. Plenty still call the office or leave a message instead, and someone at your end writes each one up."
    },
    {
-    "h3": "Their transcription stops short of the kitchen",
-    "body": "The AI Order Desk turns calls and voicemail messages into orders, which is genuinely useful. Their own description mentions no step where the kitchen confirms what was transcribed, so the first person to check those lines is on your side."
+    "h3": "Who checks what their AI transcribed?",
+    "body": "Cut+Dry's AI Order Desk turns calls and voicemail messages into orders, which is genuinely useful. Their own description mentions no step where the kitchen confirms what was transcribed, so the first person to check those lines is on your side."
    },
    {
     "h3": "Starting over is the expensive fix",
-    "body": "Cut+Dry publishes \"Go Live in Under 90 Days\", a good result for a platform that size. Going through a launch like that again, and moving how your customers pay, to fix one channel is out of all proportion, and no Cut+Dry alternative should ask it of you."
+    "body": "Cut+Dry publishes \"Go Live in Under 90 Days\", a good result for a platform that size. Going through a launch like that again, and changing how your customers pay, just to fix phone orders makes no sense. No Cut+Dry alternative should ask that of you."
    }
   ]
  },
@@ -50,10 +50,10 @@
     "h3": "Spoken, then fixed on screen",
     "body": "Your account holds the button and says what is short. Items come up as lines with quantities from their own guide, they correct anything off, and they send.",
     "bullets": [
-     "The buyer looks at the list before anything leaves",
+     "Your customer looks at the list before anything leaves",
      "Said in the kitchen at any hour you are closed",
-     "Their own handset, iOS or Android, nothing issued",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Interrupted halfway? It holds the order until they come back"
     ],
     "link": {
@@ -64,11 +64,11 @@
    {
     "eyebrow": "Order Guides",
     "h3": "Every guide begins as the list you keep now",
-    "body": "Pass us the guides you keep per customer. We load them against your SKUs at the price you hold for that account, so the kitchen orders your range at your prices.",
+    "body": "Pass us the guides you keep per customer. We load them with your SKUs and the price you set for that account, so the kitchen orders your products at your prices.",
     "bullets": [
      "A kitchen sees nothing but the lines it buys",
      "Pricing and the catalog remain yours to set",
-     "Change a guide once and it stands on the orders after",
+     "Change a guide once and every later order uses it",
      "Each line ties back to your own SKU"
     ],
     "link": {
@@ -82,9 +82,9 @@
     "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks, in a shape your desk opens daily.",
     "bullets": [
      "Addressed to a rep, or to the purchasing desk",
-     "On a direct feed there is no rekeying at your end",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Picking, billing and delivery carry on unchanged",
-     "No part of your stack has to be retired first"
+     "You do not have to remove any software first"
     ],
     "link": {
      "href": "/wholesale-ordering-software",
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock beside the orders as they come",
-    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "Every line you carry, not only the quick movers",
      "Fewer stockout surprises on a late, heavy order",
-     "Numbers come out of whatever you count with now",
+     "Stock numbers come from the system you count with today",
      "Nothing gets counted in our app"
     ],
     "link": {
@@ -111,11 +111,11 @@
  "cards": {
   "eyebrow": "Room For Both",
   "h2": "Cut+Dry for the platform, voice for the phone accounts",
-  "lead": "We are not a Cut+Dry replacement and could not be one. The spoken reorder adds on, so a platform already carrying your payments and your storefront is no reason to rule this out.",
+  "lead": "We are not a Cut+Dry replacement and could not be one. The spoken reorder adds on, so you can still try it if Cut+Dry already runs your payments and your storefront.",
   "items": [
    {
-    "h3": "Let the storefront do the storefront",
-    "body": "Discovery, search and a published catalog are real work, and none of it happens here. The accounts who want to browse keep browsing. The ones who just want Friday's order reordered get a quicker route to it."
+    "h3": "Let the storefront do its job",
+    "body": "Discovery, search and a published catalog are real work, and none of it happens here. The accounts who want to browse keep browsing. The ones who just want to repeat Friday's order get a quicker way to do it."
    },
    {
     "h3": "Money and paperwork stay put",
@@ -123,13 +123,13 @@
    },
    {
     "h3": "Our orders go where you point them",
-    "body": "Whichever system you picked is where ours show up, over EDI, the API or QuickBooks, or by email to your desk. Nothing changes in Cut+Dry."
+    "body": "Whichever system you picked is where ours show up, by EDI, through the API or in QuickBooks, or by email to your desk. Nothing changes in Cut+Dry."
    }
   ]
  },
  "midcta": {
   "h3": "See one spoken reorder sit beside Cut+Dry",
-  "body": "Twenty minutes. One account, one order said out loud off a guide like yours, and where it lands among the orders you already get.",
+  "body": "Twenty minutes. One account, one order spoken from a sample guide, and where it would land among your other orders.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
@@ -146,19 +146,19 @@
     "body": "We open an account for each kitchen, and the kitchen installs our app. Most have ordered before the day is out."
    },
    {
-    "h3": "It turns up priced",
-    "body": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+    "h3": "The order arrives priced",
+    "body": "Your customer has approved it. It carries an order number and the time it was sent, in a format your system takes."
    }
   ]
  },
  "comparison": {
-  "h2": "Cut+Dry, plus VoiceOrder Solutions. One more way in.",
+  "h2": "Cut+Dry, plus VoiceOrder Solutions. Plus a spoken reorder.",
   "h2_lines": [
    "Cut+Dry, plus VoiceOrder Solutions.",
-   "One more way in."
+   "Plus a spoken reorder."
   ],
   "eyebrow": "Plus, Not Instead",
-  "lead": "A second tool should only ever add, so the column with both never loses a row. Cut+Dry sells ecommerce, payments and sales tooling across distributors, manufacturers and restaurants, and a Cut+Dry alternative search tends to start with the accounts that use none of it. The two do not connect, and every fact about Cut+Dry comes from their own site.",
+  "lead": "A second tool should only add, so the column with both products has a checkmark on every row. Cut+Dry is a wide platform, with ordering, payments and tools for reps. A Cut+Dry alternative search tends to start with the accounts that use none of it. The two do not connect, and every fact about Cut+Dry comes from their own site.",
   "heads": [
    "Feature",
    "Cut+Dry + VoiceOrder Solutions",
@@ -257,7 +257,7 @@
     ]
    },
    {
-    "label": "Your buyer checks the order before it sends",
+    "label": "Your customer checks the order before it sends",
     "cells": [
      {
       "t": "icon",
@@ -294,7 +294,7 @@
    },
    {
     "q": "Is VoiceOrder Solutions better than Cut+Dry?",
-    "a": "Not at selling a catalog, collecting money, or the manufacturer side of their network. Those are what they built, and we would not ask you to give them up. Where we help is the reorder from an account you already have, spoken off your guide and approved before it sends. That narrow job is often what a Cut+Dry alternative search was really about."
+    "a": "No, not at selling a catalog, collecting payments, or working with the manufacturers in their network. Those are what they built, and we would not ask you to give them up. Where we help is the reorder from an account you already have, spoken off your guide and approved before it sends. That narrow job is often what a Cut+Dry alternative search was really about."
    },
    {
     "q": "Does VoiceOrder Solutions link up with Cut+Dry?",
@@ -318,7 +318,7 @@
    },
    {
     "q": "Where do the Cut+Dry details on this page come from?",
-    "a": "All of the above was read on their own site, 10 October 2026: the module descriptions, the line about transcribing calls and the published 90 day launch. We have left their growth percentages alone, because those are their numbers. If any of it has moved on, the fault is here, not there."
+    "a": "All of the above was read on their own site, 10 October 2026: the module descriptions, the line about transcribing calls and the published 90 day launch. We have left their growth percentages alone, because those are their numbers. Should any of that be outdated, tell us and we will correct the page."
    }
   ]
  },

@@ -5,13 +5,13 @@
  "hero": {
   "eyebrow": "For Food Distributors",
   "h1": "The NECS Entree Alternative That Keeps Entree Running.",
-  "lead": "Give your kitchens a quicker way in than calling the office, and keep the software running your company as it is. VoiceOrder Solutions is added beside Entree: accounts say what they need into our app and approve every line before anything reaches your desk. Accounting, warehouse and EDI never move.",
+  "lead": "Give kitchens something quicker than calling the office, and keep your ERP exactly as it is. VoiceOrder Solutions works beside Entree: accounts say what they need into our app and approve every line before it reaches your desk. Accounting, warehouse and EDI stay in Entree.",
   "cta": "Book a Free Demo →"
  },
  "stats": [
   {
    "num": "20-30 Min",
-   "label": "Back on each order once the phone is out of it"
+   "label": "Saved on each order that skips the phone"
   },
   {
    "num": "24-48 Hrs",
@@ -25,19 +25,19 @@
  "problem": {
   "eyebrow": "Why Teams Compare",
   "h2": "What people mean by an alternative to NECS Entree",
-  "lead": "Almost nobody searching for a NECS Entree alternative wants to tear out four decades of distribution software. They want one part of the day to improve, and it is usually the intake end. Three versions of that come up, and only the last is a NECS Entree competitor question at all.",
+  "lead": "Almost nobody searching for a NECS Entree alternative wants to tear out four decades of distribution software. They want one part of the day to get better, and it is usually how an order gets to you. Three cases come up, and only the last one is really a NECS Entree competitor question.",
   "cards": [
    {
     "h3": "Ordering still means someone typing",
-    "body": "Entree already offers customer ordering on web and mobile, and both routes have the buyer keying quantities against a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
+    "body": "Entree already offers customer ordering on web and mobile, and both have the person ordering type quantities after a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
    },
    {
     "h3": "Ordering lives inside the ERP",
-    "body": "Entree's own ordering tools live inside the software that runs your company, which suits the accounts who use them. Our app gives the rest of your book a way in and leaves every module where it is."
+    "body": "Entree's own ordering tools live inside the software that runs your company, which suits the accounts who use them. Our app gives your other accounts a simple voice option and leaves every Entree module where it is."
    },
    {
     "h3": "Actually replacing it is a different project",
-    "body": "If your real plan is to move off Entree entirely, be honest that the whole back office goes with it. That is an ERP selection, not what we do, and we would rather tell you now than sit through the wrong demo with you."
+    "body": "If your real plan is to move off Entree entirely, remember that your whole back office moves with it. That is an ERP selection, not what we do, and we would rather tell you now than sit through the wrong demo with you."
    }
   ]
  },
@@ -50,10 +50,10 @@
     "h3": "Say what is low, check it, send it",
     "body": "A chef counts what is low and says it. Items come up as a list from their own guide, they fix anything wrong, and they send. For the accounts who never warmed to a web order form, that is a much shorter job.",
     "bullets": [
-     "The buyer looks at the list before anything leaves",
+     "The kitchen's buyer checks the list before anything leaves",
      "Spoken from the cooler or the bench, at any hour",
-     "Their own handset, iOS or Android, nothing issued",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Interrupted halfway? It holds the order until they come back"
     ],
     "link": {
@@ -64,11 +64,11 @@
    {
     "eyebrow": "Order Guides",
     "h3": "Built from the lists you already maintain",
-    "body": "Export what you have. We load each account's items under your codes at the price you hold for them, and setup is done. Nothing inside your distribution software is touched to make it work.",
+    "body": "Export what you have. We load each account's items under your codes at the price you set for them, and setup is done. Nothing inside your distribution software is touched to make it work.",
     "bullets": [
      "A kitchen sees nothing but the lines it buys",
      "Pricing and the catalog remain yours to set",
-     "Change a guide once and it stands on the orders after",
+     "Change a guide once and every later order uses it",
      "No Entree module to add or upgrade"
     ],
     "link": {
@@ -82,9 +82,9 @@
     "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight in over the API, over EDI, or into QuickBooks. Whichever route your office already trusts is the one it uses.",
     "bullets": [
      "Addressed to a rep, or to the purchasing desk",
-     "On a direct feed there is no rekeying at your end",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Picking, billing and delivery carry on unchanged",
-     "No part of your stack has to be retired first"
+     "You do not have to remove any software first"
     ],
     "link": {
      "href": "/wholesale-ordering-software",
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock in view as each order lands",
-    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "Every line you carry, not only the quick movers",
      "Fewer stockout surprises on a late, heavy order",
-     "Numbers come out of whatever you count with now",
+     "Stock numbers come from the system you count with today",
      "No stock is counted on our side"
     ],
     "link": {
@@ -118,24 +118,24 @@
     "body": "Every number your business runs on keeps living where it lives. We pass the order across and leave your own records alone."
    },
    {
-    "h3": "Give the web ordering the accounts that like it",
-    "body": "Buyers who happily work through Entree's screens can carry on. Our app is for the part of the book that never adopted them and still telephones. Calls you keep taking get no order number from us; only what comes through the app does."
+    "h3": "Keep Entree's web ordering for the accounts that like it",
+    "body": "Buyers who happily work through Entree's screens can carry on. Our app is for the accounts that never used them and still phone in. Calls you keep taking get no order number from us; only what comes through the app does."
    },
    {
-    "h3": "Releases come and go without us",
-    "body": "Because we sit outside the ERP, an upgrade never waits on us and we never wait on it. Nothing here has to hold for a release, and nothing here blocks one."
+    "h3": "Entree upgrades go ahead without us",
+    "body": "Because we sit outside Entree, you can upgrade it whenever you like. We never hold up an upgrade, and an upgrade never holds us up."
    }
   ]
  },
  "midcta": {
   "h3": "See a voice order arrive next to your ERP",
-  "body": "Twenty minutes. A buyer talks, and you see the approved order turn up.",
+  "body": "Twenty minutes. A kitchen's buyer talks, and you see the approved order turn up.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
   "eyebrow": "Getting Started",
-  "h2": "Three steps, and nothing opened up",
-  "lead": "Nothing changes inside Entree to do this. You export lists, we set up the accounts, and kitchens begin sending orders.",
+  "h2": "Three steps, and nothing inside Entree changes",
+  "lead": "You export lists, we set up the accounts, and kitchens begin sending orders.",
   "items": [
    {
     "h3": "Export your lists",
@@ -146,8 +146,8 @@
     "body": "We load each guide and set the account up, then the kitchen downloads the app. Most send something in before the day is out."
    },
    {
-    "h3": "It lands finished",
-    "body": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+    "h3": "The order lands finished",
+    "body": "The customer has approved it, and it carries an order number and the time it was sent, in the format your system takes."
    }
   ]
  },
@@ -158,7 +158,7 @@
    "Your ERP keeps the books."
   ],
   "eyebrow": "Keep, Then Add",
-  "lead": "Adding an ordering route should leave your core system alone, so this table only ever adds. Entree has been food distribution software since 1987 and carries the accounting, the warehouse and the EDI, which is why a NECS Entree alternative is rarely a like-for-like swap. The left column is your operation with both; the two products do not connect.",
+  "lead": "Extra ways to order should leave your main system alone, so this table only adds. Entree has been food distribution software since 1987. It runs the accounting, the warehouse and the EDI, which is why a NECS Entree alternative is rarely a like-for-like swap. The left column is your operation with both; the two products do not connect.",
   "heads": [
    "Feature",
    "Entree + VoiceOrder Solutions",
@@ -302,11 +302,11 @@
    },
    {
     "q": "Is Entree hooked up to VoiceOrder Solutions?",
-    "a": "No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above, and which of those your own Entree setup takes in directly is something to check in the demo, not a promise we make here."
+    "a": "No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above. Which of those your Entree setup can take in directly is something to check in the demo. We do not promise it here."
    },
    {
     "q": "Will this touch our installation or our version?",
-    "a": "No. We never need an account in it to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected."
+    "a": "No. We never need a login to your Entree system to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected."
    },
    {
     "q": "How fast could this be live?",
@@ -318,7 +318,7 @@
    },
    {
     "q": "Where do the Entree details on this page come from?",
-    "a": "Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any of it has moved on, the fault is here, not there."
+    "a": "Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any detail is now out of date, that error is ours."
    }
   ]
  },

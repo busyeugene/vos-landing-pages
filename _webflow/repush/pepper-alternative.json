@@ -40,7 +40,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fea2"
      },
-     "text": "Is when most distributors go live"
+     "text": "For most distributors to go live"
     }
    },
    {
@@ -90,7 +90,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
      },
-     "text": "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product, and most of it earns its place. What sends a buyer to look at a Pepper competitor is usually far narrower than the platform."
+     "text": "Pepper, made by Pomegranate Technologies, sells an AI platform to independent distributors. It includes an online storefront, an AI tool called Order Agent that enters orders, and tools for sales, finance, pricing and marketing. It is a lot of product, and most of it earns its place. What sends a buyer to look at a Pepper competitor is usually one small problem, not the whole platform."
     }
    },
    {
@@ -120,7 +120,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
      },
-     "text": "On the Order Agent path, you do the checking"
+     "text": "Your team checks what Order Agent read"
     }
    },
    {
@@ -130,7 +130,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
      },
-     "text": "Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the kitchen confirms what was read, so your order desk is the first person to see it written down."
+     "text": "Order Agent takes the voicemail, text, photo or PDF the kitchen already sent and turns it into an order. Pepper's own product page shows no step where the kitchen checks what was read. So your order desk is the first to see the order written down."
     }
    },
    {
@@ -150,7 +150,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
      },
-     "text": "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. Fair for a platform that size. Going through anything like it again for one channel is not, and no Pepper alternative should ask you to."
+     "text": "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with a setup manager and an engineer assigned to you. That is fair for a platform that size. Going through something like it again just to fix phone orders is not, and no Pepper alternative should ask you to."
     }
    },
    {
@@ -230,7 +230,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
      },
-     "text": "20 to 30 minutes back against the same order by phone"
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
     }
    },
    {
@@ -270,7 +270,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
      },
-     "text": "You hand over the guides each kitchen already buys from. We load each one against your SKUs at the prices you hold for that account, so a spoken item lands on the right line against your own SKU."
+     "text": "You hand over the guides each kitchen already buys from. We load each guide with your SKUs and the prices you set for that account, so each item a customer says matches the right SKU."
     }
    },
    {
@@ -360,7 +360,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
      },
-     "text": "Nothing to retype over EDI, QuickBooks or the API"
+     "text": "Over EDI, the API or QuickBooks, nobody on your team retypes it"
     }
    },
    {
@@ -380,7 +380,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
      },
-     "text": "Nothing in your stack has to come out first"
+     "text": "You do not have to remove any software first"
     }
    },
    {
@@ -410,7 +410,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
      },
-     "text": "VoiceOrder Solutions gives you real-time inventory visibility tied to what is being ordered, and the catalog updates as levels change. It is not where your stock lives: your own inventory system stays in charge, and a demo covers how the two connect."
+     "text": "VoiceOrder Solutions gives you real-time inventory visibility tied to what is being ordered, and the catalog updates as levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
     }
    },
    {
@@ -440,7 +440,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
      },
-     "text": "Stock figures come from the system doing your counting today"
+     "text": "Stock numbers come from the system you count with today"
     }
    },
    {
@@ -480,7 +480,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
      },
-     "text": "VoiceOrder Solutions is no Pepper replacement, and it is not trying to be one. Nothing has to come out for it to go in, so the platform you rolled out stays exactly where it is."
+     "text": "VoiceOrder Solutions is no Pepper replacement, and it is not trying to be one. Adding it means taking nothing out, so the platform you rolled out stays exactly where it is."
     }
    },
    {
@@ -522,7 +522,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "5368ca22-de87-9362-819f-9733489b5a70"
      },
-     "text": "It goes in beside Pepper without a project, so you can start with the handful of accounts that never adopted the storefront and judge it on those before deciding anything bigger."
+     "text": "It goes in beside Pepper with no big setup project. Start with the few accounts that never took to the storefront, and judge it on those before deciding anything bigger."
     }
    },
    {
@@ -532,7 +532,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624"
      },
-     "text": "The ERP keeps being the one destination"
+     "text": "Orders still land in your usual place"
     }
    },
    {
@@ -542,7 +542,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
      },
-     "text": "Both feed the system you have, so adding our app does not change where an order ends up. It arrives over EDI, the API or QuickBooks into the system your people already use, or by email as a file."
+     "text": "Both feed the system you have, so our app does not change where an order ends up. It arrives by EDI, through the API or in QuickBooks, into the system your people already use, or by email as a file."
     }
    },
    {
@@ -582,7 +582,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7"
      },
-     "text": "Three steps, and no migration to schedule"
+     "text": "Three steps, and nothing to move off Pepper"
     }
    },
    {
@@ -592,7 +592,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
      },
-     "text": "There is nothing to migrate here, and Pepper is left as it is. Send us the guides your office works from, and we do the loading."
+     "text": "Pepper is left exactly as it is. Send us the guides your office works from, and we do the loading."
     }
    },
    {
@@ -642,7 +642,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
      },
-     "text": "It shows up ready"
+     "text": "The order arrives ready"
     }
    },
    {
@@ -652,7 +652,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
      },
-     "text": "Confirmed by the customer, with a number and the time it was sent, in the format your system takes."
+     "text": "The customer has confirmed it, and it carries an order number and the time it was sent, in the format your system takes."
     }
    },
    {
@@ -672,7 +672,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
      },
-     "text": "One step added."
+     "text": "One voice app added."
     }
    },
    {
@@ -682,7 +682,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
      },
-     "text": "Both, Not One"
+     "text": "Keep Both"
     }
    },
    {
@@ -692,7 +692,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
      },
-     "text": "Adding a tool should never leave you with less, and the table reads that way. Pepper sells a broad platform to independents, and a Pepper alternative search usually means one channel is still on the phone. So here is Pepper alone, then Pepper with our app next to it. The two do not connect, and every Pepper detail is from their own site."
+     "text": "Our app should not take anything away, and the table shows that. Pepper is a broad platform. A Pepper alternative search usually means some customers still call in their orders. So here is Pepper alone, then Pepper with our app next to it. The two do not connect, and every Pepper detail is from their own site."
     }
    },
    {
@@ -732,7 +732,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1be"
      },
-     "text": "Kitchens say the order into an app and read it back"
+     "text": "Kitchens speak into an app and check it before sending"
     }
    },
    {
@@ -742,7 +742,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "89a5813a-10f6-6ba1-6eed-d733971a550a"
      },
-     "text": "Voicemails and texts read by Order Agent"
+     "text": "Pepper's AI (Order Agent) reads voicemails and texts"
     }
    },
    {
@@ -762,7 +762,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1d5"
      },
-     "text": "The buyer reviews every line before it sends"
+     "text": "Your customer reviews every line before it sends"
     }
    },
    {
@@ -772,7 +772,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e2"
      },
-     "text": "Hubs for reps, collections, margin and ads"
+     "text": "Software for reps, collections, margins and ads"
     }
    },
    {
@@ -882,7 +882,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
      },
-     "text": "Not at running the whole business on one platform: storefront, reps, collections and pricing. Pepper is built wide for that, and we are not trying to be. Where we help is narrower: a reorder your account speaks and signs off, and plenty of people looking for a Pepper alternative turn out to want exactly that one thing."
+     "text": "No, not at running the whole business on one platform: storefront, reps, collections and pricing. Pepper is built wide for that, and we are not trying to be. We help with one narrower job: a reorder your account speaks and signs off. Plenty of people looking for a Pepper alternative turn out to want exactly that."
     }
    },
    {
@@ -902,7 +902,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
      },
-     "text": "None. We have no connection to Pepper and no shared support arrangement. Each product hands its orders to your own system separately, ours by email with a file attached, over EDI or the API, or into QuickBooks. When ours go in by a direct feed, both land in the same system; by email, ours arrive as a file your team opens like any other."
+     "text": "None. We have no connection to Pepper and no shared support arrangement. Each product hands its orders to your own system separately, ours by email with a file attached, over EDI or the API, or into QuickBooks. When ours are fed directly into your system, both products' orders end up in the same place. Emailed, ours arrive as a file your team opens like any other."
     }
    },
    {
@@ -922,7 +922,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
      },
-     "text": "They should not have to. Kitchens already ordering through the storefront can stay on it. Offer our app to the ones who still call, text or leave a voicemail, because those orders cost your desk the most time. Anyone who keeps calling is handled as now, with no order number from us, since numbers come only with what our app sends."
+     "text": "They should not have to. Kitchens already ordering through the storefront can stay on it. Offer our app to the ones who still call, text or leave a voicemail, because those orders cost your desk the most time. Customers who keep calling are handled the way they are today. Their calls get no order number from us, because numbers are only given to app orders."
     }
    },
    {
@@ -942,7 +942,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
      },
-     "text": "Most distributors reach that point in a day or two, and most of their customers send a first order the same day. There is no IT project and Pepper runs throughout, which is a very different job from the window Pepper publishes for standing up its whole platform."
+     "text": "Most distributors reach that point in a day or two, and most of their customers send a first order the same day. There is no IT project, and Pepper carries on as normal. That is a much smaller job than the setup window Pepper publishes for its whole platform."
     }
    },
    {
@@ -982,7 +982,7 @@
       "component": "6ac9efa5b080336cebb1456a",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf997"
      },
-     "text": "No. Our app runs on the iOS or Android phone already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
+     "text": "No. Our app runs on the phone already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
     }
    },
    {

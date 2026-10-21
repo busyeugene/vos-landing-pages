@@ -90,7 +90,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
      },
-     "text": "WizCommerce runs rep-led, online, EDI and marketplace sales in one AI platform, with a storefront, a CRM, payments and a real food and beverage feature set. None of that is the problem. The hunt for a WizCommerce competitor tends to start with the checking at your end, and that is a narrow thing to fix."
+     "text": "WizCommerce runs sales through reps, online, EDI and marketplaces in one AI platform. It has a storefront, a CRM, payments and real food and beverage features. None of that is the problem. The hunt for a WizCommerce competitor usually starts with the checking your team does, and that is one small thing to fix."
     }
    },
    {
@@ -100,7 +100,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "eb7fd825-30c6-7275-9a2f-c98f68eb960f"
      },
-     "text": "Something inferred still has to be checked"
+     "text": "Orders read by AI still need checking"
     }
    },
    {
@@ -110,7 +110,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
      },
-     "text": "Their own description includes a final review step for your team before orders reach the ERP, which is the honest way to build it. It does mean the accuracy question stays with you: did it read that right, and did your team spot it if not."
+     "text": "Their own description includes a final review step for your team before orders go into the ERP, which is the honest way to build it. It still leaves you asking: did the AI read it correctly, and if not, did your team catch it?"
     }
    },
    {
@@ -190,7 +190,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "24599529-959c-8515-3ff2-44ca6d68a0ed"
      },
-     "text": "Spoken into lines, not onto a note"
+     "text": "Spoken straight into order lines, not a voice note"
     }
    },
    {
@@ -230,7 +230,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
      },
-     "text": "20 to 30 minutes back against the same order by phone"
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
     }
    },
    {
@@ -270,7 +270,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
      },
-     "text": "Each account works from the items it actually buys, carrying your codes at the figure you hold for that customer. Orders arrive in your own items and codes, because each line is picked from that customer's guide."
+     "text": "Every account picks from the items it actually buys, with your codes and the price you set for that customer. Orders arrive in your own items and codes, because each line is picked from that customer's guide."
     }
    },
    {
@@ -340,7 +340,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
      },
-     "text": "The order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. No part of your stack has to move to make room for it."
+     "text": "The order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. You do not have to remove any software first."
     }
    },
    {
@@ -360,7 +360,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
      },
-     "text": "On a direct feed nobody retypes it at your end"
+     "text": "Over EDI, the API or QuickBooks, nobody on your team retypes it"
     }
    },
    {
@@ -410,7 +410,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
      },
-     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: whatever you run today keeps that role, and a demo shows how the levels connect."
+     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
     }
    },
    {
@@ -440,7 +440,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
      },
-     "text": "Levels come out of the system you count with now"
+     "text": "Stock numbers come from the system you count with today"
     }
    },
    {
@@ -480,7 +480,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
      },
-     "text": "Running both is a perfectly sensible outcome, because we are not a WizCommerce replacement. Our app moves one group of accounts off producing paperwork at all, and anything still arriving as a scan or a spreadsheet keeps being read. For many distributors that is what a WizCommerce alternative amounts to."
+     "text": "Running both is a perfectly sensible outcome, because we are not a WizCommerce replacement. Our app moves some accounts off sending paperwork at all. Anything still arriving as a scan or a spreadsheet keeps being read by WizCommerce's AI. For many distributors that is what a WizCommerce alternative amounts to."
     }
    },
    {
@@ -490,7 +490,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da6507"
      },
-     "text": "Less arrives needing a verdict"
+     "text": "Less to check at your end"
     }
    },
    {
@@ -500,7 +500,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
      },
-     "text": "Accounts on the app send lines they have already checked, not a note to decode. The assistant that reads documents keeps every other channel it already handles."
+     "text": "Accounts on the app send lines they have already checked, not a note to decode. The WizCommerce AI still reads everything else it handles today."
     }
    }
   ],
@@ -522,7 +522,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "5368ca22-de87-9362-819f-9733489b5a70"
      },
-     "text": "None of that is on offer here and none of it is affected. We hand over a finished order and take no view on what the rest of your stack does with it."
+     "text": "None of that is on offer here and none of it is affected. We hand over a finished order and do not touch what your other software does with it."
     }
    },
    {
@@ -562,7 +562,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
      },
-     "text": "Twenty minutes. A buyer speaks, the lines come up from their guide, and what reaches you is already in lines."
+     "text": "Twenty minutes. A buyer speaks, the lines come up from their guide, and what reaches you is a finished, itemized order."
     }
    },
    {
@@ -652,7 +652,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
      },
-     "text": "Approved by the buyer, numbered and timed, set out in a format your desk already takes."
+     "text": "It arrives approved by the customer, numbered, timed and in a format your desk can use."
     }
    },
    {
@@ -672,7 +672,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
      },
-     "text": "Less arriving to be read."
+     "text": "Fewer orders left to check."
     }
    },
    {
@@ -682,7 +682,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
      },
-     "text": "Read Less, Keep Everything"
+     "text": "Keep WizCommerce, Add Voice"
     }
    },
    {
@@ -692,7 +692,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
      },
-     "text": "This table shows your operation twice: the way it works now, and with spoken orders added for the accounts that need them. A WizCommerce alternative usually comes up over what has to be read and checked, and that is where adding voice changes things. The two products do not connect, and every WizCommerce detail is from their own site."
+     "text": "This table shows your operation twice: the way it works now, and with spoken orders added for the accounts that need them. People usually look for a WizCommerce alternative because of the orders someone has to read and check, and that is the part adding voice changes. The two products do not connect, and every WizCommerce detail is from their own site."
     }
    },
    {
@@ -862,7 +862,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
      },
-     "text": "No. You can keep WizCommerce and bring us in for the accounts who prefer talking an order through to writing one. Everything their platform does now carries on. The difference is that some orders arrive already built as lines, so there is less for the assistant and your team to read."
+     "text": "No. You can keep WizCommerce and bring us in for the accounts who prefer talking an order through to writing one. Everything their platform does now carries on. The difference is that some orders arrive already itemized, so there is less for WizCommerce's AI and your team to read."
     }
    },
    {
@@ -892,7 +892,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "e219e293-819b-221b-6d80-7f8d2898a4d7"
      },
-     "text": "Don't they handle voice already?"
+     "text": "Doesn't WizCommerce handle voice already?"
     }
    },
    {
@@ -902,7 +902,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
      },
-     "text": "They do: voice notes are on their own list of what the assistant reads, alongside scans and handwriting. So a WizCommerce alternative pitched on voice alone would be wrong. The difference is when the order takes shape. A note gets interpreted after the fact, while in our app the speaking builds the lines and the buyer approves them before anything is sent."
+     "text": "They do: voice notes are on the list of what WizCommerce's AI assistant reads, alongside scans and handwriting. So a WizCommerce alternative pitched on voice alone would be wrong. The difference is when the order gets built. Their AI works out what a voice message said after it is sent. In our app, speaking creates the order lines, and the buyer approves them before anything is sent."
     }
    },
    {
@@ -922,7 +922,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
      },
-     "text": "No. There is nothing between them, and each company supports only its own product. Each sends its orders into your own system separately: theirs through their ERP connections, ours as email, EDI, API or QuickBooks. Neither one routes through the other."
+     "text": "No. There is nothing between them, and each company supports only its own product. Each sends its orders into your own system separately: theirs through their ERP connections, ours by email or straight into your system. Neither one routes through the other."
     }
    },
    {
@@ -942,7 +942,7 @@
       "component": "6aca3a6c06da357dd6d261d7",
       "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
      },
-     "text": "Only if you choose to give them one. Our app is for any kitchen that still phones, emails a scan or sends a spreadsheet. Be clear on one limit: a call or a voicemail to your desk gets no order number from us, no timestamp and nothing moving against stock. Only orders placed in the app do."
+     "text": "Only if you choose to give them one. Our app is for any kitchen that still phones, emails a scan or sends a spreadsheet. Be clear on one limit: a call or a voicemail to your desk gets no order number from us, no timestamp and no stock update. Only orders placed in the app do."
     }
    },
    {
@@ -1562,12 +1562,12 @@
      {
       "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
       "type": "string",
-      "string_value": "Weighing A WizCommerce Alternative? Add Spoken Orders Too."
+      "string_value": "Weighing A WizCommerce Alternative? Keep It, Add Voice."
      },
      {
       "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
       "type": "string",
-      "string_value": "Get orders that come in as clean lines the buyer has already checked. VoiceOrder Solutions sits alongside WizCommerce: buyers say the lines into our app, straight off their own guide, and approve each line before it sends. Their AI keeps reading the scans and spreadsheets that still come in."
+      "string_value": "Get orders as a list of items the kitchen has already checked. VoiceOrder Solutions sits alongside WizCommerce: your customers say their order into our app, pick from their own guide, and approve each line before it goes. WizCommerce's AI keeps reading the scans and spreadsheets still arriving."
      },
      {
       "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
@@ -1588,7 +1588,7 @@
      {
       "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
       "type": "string",
-      "string_value": "Give your review step less to do"
+      "string_value": "Give your team fewer orders to check"
      },
      {
       "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",

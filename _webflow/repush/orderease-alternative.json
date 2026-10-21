@@ -20,7 +20,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
      },
-     "text": "Back on each call that becomes an app order"
+     "text": "Saved on each call that becomes an app order"
     }
    },
    {
@@ -60,7 +60,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "3f7a12ca-f338-fa01-17fc-97d91ca5feac"
      },
-     "text": "Is when most kitchens get a first one in"
+     "text": "Is when most kitchens send their first order"
     }
    },
    {
@@ -90,7 +90,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
      },
-     "text": "Plenty of people searching for an OrderEase competitor are not shopping for middleware at all. They have one sore channel, not six, and swapping out every channel to fix it is the wrong size of answer. Three such cases recur."
+     "text": "Plenty of people searching for an OrderEase competitor do not want new order software at all. They have trouble with one source of orders, not six. Replacing everything to fix that one is too big a fix. Three cases come up often."
     }
    },
    {
@@ -110,7 +110,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
      },
-     "text": "OrderEase says itself that it covers the full path rather than one piece of it, and for a lot of sellers that is the right buy. If your trouble sits in one channel, the fix can be sized to that channel."
+     "text": "OrderEase says itself that it covers the full path rather than one piece of it, and for a lot of sellers that is the right buy. If only one kind of order is causing trouble, the fix can be just as small."
     }
    },
    {
@@ -120,7 +120,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
      },
-     "text": "A read file still gets a second look"
+     "text": "A PDF the software reads still needs checking"
     }
    },
    {
@@ -130,7 +130,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
      },
-     "text": "Software that lifts an order out of a PDF has to be checked, and OrderEase says plainly that it flags exceptions for review. The work shrinks, which is real, but somebody still owns that queue."
+     "text": "Software that lifts an order out of a PDF has to be checked, and OrderEase says plainly that it flags exceptions for review. That cuts the work, which is real, but someone on your side still has to go through the flagged orders."
     }
    },
    {
@@ -150,7 +150,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
      },
-     "text": "Their site lists food and beverages beside lumber, apparel, pets and lawn care, which is a fair spread of wholesale. It also means the defaults are general, rather than shaped around a chef placing an order at the end of service."
+     "text": "Their site lists food and beverages beside lumber, apparel, pets and lawn care, which is a fair spread of wholesale. It also means the standard setup is general, not shaped around a chef placing an order at the end of service."
     }
    },
    {
@@ -210,7 +210,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
      },
-     "text": "The buyer checks the lines, so nobody here guesses"
+     "text": "The customer checks the lines, so nobody here guesses"
     }
    },
    {
@@ -230,7 +230,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
      },
-     "text": "20 to 30 minutes back against the same order by phone"
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
     }
    },
    {
@@ -270,7 +270,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
      },
-     "text": "Export the lists you keep now and we load them. Each account gets the items it actually buys at the figure you hold for it, so the lines on an order come from that guide, already tied to your codes."
+     "text": "Export the lists you keep now and we load them. Each account gets the items it actually buys at the price you set for it, so the lines on an order come from that guide, already tied to your codes."
     }
    },
    {
@@ -310,7 +310,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
      },
-     "text": "No per-channel rules to maintain for these accounts"
+     "text": "No extra order rules to set up for these accounts"
     }
    },
    {
@@ -340,7 +340,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
      },
-     "text": "The finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. We fit the route you already trust rather than asking for a new one."
+     "text": "The finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. We use whichever method your desk relies on rather than asking for a new one."
     }
    },
    {
@@ -360,7 +360,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
      },
-     "text": "On a direct feed nobody retypes it at your end"
+     "text": "Over EDI, the API or QuickBooks, nobody on your team retypes it"
     }
    },
    {
@@ -410,7 +410,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
      },
-     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the system you run today keeps that job, and a demo shows how the levels connect."
+     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
     }
    },
    {
@@ -440,7 +440,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
      },
-     "text": "Levels come from whatever you count with now"
+     "text": "Stock numbers come from the system you count with today"
     }
    },
    {
@@ -470,7 +470,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64e7"
      },
-     "text": "How OrderEase and VoiceOrder Solutions divide the path"
+     "text": "How OrderEase and VoiceOrder Solutions divide the work"
     }
    },
    {
@@ -480,7 +480,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
      },
-     "text": "These two sit at opposite ends of the same path, so running both is the sensible setup. We are not an OrderEase replacement: we narrow what has to be handled, and whatever still comes in as a file or over EDI goes on being handled. Quite often that is what an OrderEase alternative turns out to mean."
+     "text": "We work before the order leaves the kitchen, and OrderEase works once it reaches you, so running both makes sense. We are not an OrderEase replacement: we cut down the orders that need handling, and anything still coming in as a file or over EDI is handled as it is today. Quite often that is what an OrderEase alternative turns out to mean."
     }
    },
    {
@@ -500,7 +500,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
      },
-     "text": "Accounts that move onto the app send a list they have already checked, instead of a document someone has to read. Your intake tooling is left with a shorter pile, and more of its time goes on the files that keep arriving."
+     "text": "Accounts that move onto the app send a list they have already checked, instead of a document someone has to read. The software that reads your incoming orders gets a shorter pile, with more time for the files that keep coming."
     }
    }
   ],
@@ -542,7 +542,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
      },
-     "text": "Adding us takes nothing away, so there is no contract to end and no migration to schedule. Start with the ones that call most and ask us what that looks like."
+     "text": "Adding us removes nothing, so there is no contract to end and no data to move. Start with the ones that call most and ask us what that looks like."
     }
    },
    {
@@ -612,7 +612,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda"
      },
-     "text": "A spreadsheet does it. Items and the price per account go into one admin screen, against the codes you already use."
+     "text": "A spreadsheet does it. Items and the price per account go into one admin screen, matched to the codes you already use."
     }
    },
    {
@@ -632,7 +632,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3"
      },
-     "text": "We load each guide and provision the account, then the kitchen downloads the app. Most of them send something the same day."
+     "text": "We load each guide and set up the account, then the kitchen downloads the app. Most of them send something the same day."
     }
    },
    {
@@ -642,7 +642,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
      },
-     "text": "It arrives ready"
+     "text": "The order arrives ready"
     }
    },
    {
@@ -652,7 +652,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
      },
-     "text": "Approved by the buyer, numbered and timed, in whichever shape your office asked for it."
+     "text": "The customer has approved it. It carries a number and the time it was sent, in the format your system takes."
     }
    },
    {
@@ -672,7 +672,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
      },
-     "text": "Every channel, one more way in."
+     "text": "All your order sources, plus voice."
     }
    },
    {
@@ -682,7 +682,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
      },
-     "text": "The Whole Path, Plus One"
+     "text": "Nothing Removed, Voice Added"
     }
    },
    {
@@ -692,7 +692,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
      },
-     "text": "Adding a step at the front should never cost you a channel, and this table is drawn that way. OrderEase is order management infrastructure: many channels in, one checked flow out to your ERP. Keeping that flow needs no OrderEase alternative. What voice adds is an order spoken and approved before it is sent. The two do not connect."
+     "text": "Adding voice should never cost you a way orders already reach you, so this table only adds. OrderEase is order management software: it takes orders in from many places, checks them and passes them to your ERP. You need no OrderEase alternative to keep that. What voice adds is an order your customer speaks and approves before sending. The two products do not connect."
     }
    },
    {
@@ -832,7 +832,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
      },
-     "text": "What distributors juggling several channels ask"
+     "text": "What distributors with many order sources ask"
     }
    },
    {
@@ -892,7 +892,7 @@
       "component": "6aca3a6bf0c2375ec4151513",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
      },
-     "text": "No. There is no parser here and we will not imply otherwise. We move accounts off sending a document, which shrinks that pile instead of processing it. For whatever stays on email, OrderEase's tooling is pointed exactly at it. One limit worth stating: only what comes through our app gets an order number, a timestamp or a stock movement from us. A call or a voicemail does not."
+     "text": "No. We have no tool that reads documents, and we will not imply otherwise. We get accounts to stop sending documents, so the pile gets smaller instead of being processed. OrderEase's tools are built for the email orders that remain. One limit worth stating: only what comes through our app gets an order number, a timestamp or a stock update from us. A call or a voicemail does not."
     }
    },
    {
@@ -1578,12 +1578,12 @@
      {
       "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
       "type": "string",
-      "string_value": "An OrderEase Alternative That Adds One Piece"
+      "string_value": "An OrderEase Alternative That Adds Voice Ordering"
      },
      {
       "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
       "type": "string",
-      "string_value": "Keep every channel you have and add one piece at the front. VoiceOrder Solutions sits alongside OrderEase: a buyer talks the order into our app and signs off the lines, so it lands itemized against your codes. EDI, portals and emailed POs stay with OrderEase."
+      "string_value": "Keep every way you take orders today and add one more. VoiceOrder Solutions sits alongside OrderEase: the kitchen's buyer talks the order into our app and approves each line, so it arrives as a list of your own items and codes. EDI, portals and emailed POs stay with OrderEase."
      },
      {
       "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
@@ -1604,7 +1604,7 @@
      {
       "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
       "type": "string",
-      "string_value": "Shorten the queue instead of sorting it"
+      "string_value": "Get fewer orders to sort through"
      },
      {
       "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
@@ -1624,7 +1624,7 @@
   "id": "6aca3a6bf0c2375ec4151513",
   "seo": {
    "title": "OrderEase Alternative for Food Distributors in 2026",
-   "description": "Keep OrderEase for EDI, portals and emailed POs, and add voice up front: accounts speak each order into an app. An OrderEase alternative that adds one piece."
+   "description": "Keep OrderEase for EDI, portals and emailed POs, and let accounts speak each order into an app. An OrderEase alternative that adds voice ordering."
   },
   "openGraph": {
    "titleCopied": true,

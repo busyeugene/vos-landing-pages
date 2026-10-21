@@ -15,7 +15,7 @@
   },
   {
    "num": "24-48 Hrs",
-   "label": "Is when most distributors go live"
+   "label": "For most distributors to go live"
   },
   {
    "num": "24/7",
@@ -25,19 +25,19 @@
  "problem": {
   "eyebrow": "Where It Starts",
   "h2": "Why an alternative to Pepper gets searched for",
-  "lead": "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product, and most of it earns its place. What sends a buyer to look at a Pepper competitor is usually far narrower than the platform.",
+  "lead": "Pepper, made by Pomegranate Technologies, sells an AI platform to independent distributors. It includes an online storefront, an AI tool called Order Agent that enters orders, and tools for sales, finance, pricing and marketing. It is a lot of product, and most of it earns its place. What sends a buyer to look at a Pepper competitor is usually one small problem, not the whole platform.",
   "cards": [
    {
     "h3": "The phone accounts are still phoning",
     "body": "A storefront only helps the kitchens that open it. The rest keep calling, texting and leaving voicemails at the end of a shift, and those are the orders your desk still writes up by hand."
    },
    {
-    "h3": "On the Order Agent path, you do the checking",
-    "body": "Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the kitchen confirms what was read, so your order desk is the first person to see it written down."
+    "h3": "Your team checks what Order Agent read",
+    "body": "Order Agent takes the voicemail, text, photo or PDF the kitchen already sent and turns it into an order. Pepper's own product page shows no step where the kitchen checks what was read. So your order desk is the first to see the order written down."
    },
    {
     "h3": "One more rollout is the last thing you need",
-    "body": "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. Fair for a platform that size. Going through anything like it again for one channel is not, and no Pepper alternative should ask you to."
+    "body": "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with a setup manager and an engineer assigned to you. That is fair for a platform that size. Going through something like it again just to fix phone orders is not, and no Pepper alternative should ask you to."
    }
   ]
  },
@@ -52,8 +52,8 @@
     "bullets": [
      "They press to speak, then read the lines back before sending",
      "From the cooler or the line, whatever time the shift ends",
-     "Runs on the iPhone or Android handset they already carry",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Nobody writes up a reorder from an account on the app, so the reps get that time to sell"
     ],
     "link": {
@@ -64,7 +64,7 @@
    {
     "eyebrow": "Order Guides",
     "h3": "Each account gets a list of its own",
-    "body": "You hand over the guides each kitchen already buys from. We load each one against your SKUs at the prices you hold for that account, so a spoken item lands on the right line against your own SKU.",
+    "body": "You hand over the guides each kitchen already buys from. We load each guide with your SKUs and the prices you set for that account, so each item a customer says matches the right SKU.",
     "bullets": [
      "Each account sees only what it actually orders from you",
      "Your prices, your SKUs, under your control, not the customer's",
@@ -82,9 +82,9 @@
     "body": "Nobody in your office has to work somewhere new. Finished orders go out as email with a PDF, Excel or Word file, or straight into your ERP over the API, over EDI, or into QuickBooks.",
     "bullets": [
      "Email goes to a rep or straight to your purchasing team",
-     "Nothing to retype over EDI, QuickBooks or the API",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Your pick, invoice and delivery steps stay exactly as they are",
-     "Nothing in your stack has to come out first"
+     "You do not have to remove any software first"
     ],
     "link": {
      "href": "/wholesale-ordering-software",
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Watch stock move as the orders land",
-    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to what is being ordered, and the catalog updates as levels change. It is not where your stock lives: your own inventory system stays in charge, and a demo covers how the two connect.",
+    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to what is being ordered, and the catalog updates as levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "Visibility across the catalog, not just the fast movers",
      "Stockouts surprise you less often when a big order lands late",
-     "Stock figures come from the system doing your counting today",
+     "Stock numbers come from the system you count with today",
      "Counting never happens in our app"
     ],
     "link": {
@@ -111,7 +111,7 @@
  "cards": {
   "eyebrow": "Side By Side",
   "h2": "What Pepper keeps and what the voice step adds",
-  "lead": "VoiceOrder Solutions is no Pepper replacement, and it is not trying to be one. Nothing has to come out for it to go in, so the platform you rolled out stays exactly where it is.",
+  "lead": "VoiceOrder Solutions is no Pepper replacement, and it is not trying to be one. Adding it means taking nothing out, so the platform you rolled out stays exactly where it is.",
   "items": [
    {
     "h3": "Keep the storefront, add the voice",
@@ -119,11 +119,11 @@
    },
    {
     "h3": "Try it on the accounts still calling",
-    "body": "It goes in beside Pepper without a project, so you can start with the handful of accounts that never adopted the storefront and judge it on those before deciding anything bigger."
+    "body": "It goes in beside Pepper with no big setup project. Start with the few accounts that never took to the storefront, and judge it on those before deciding anything bigger."
    },
    {
-    "h3": "The ERP keeps being the one destination",
-    "body": "Both feed the system you have, so adding our app does not change where an order ends up. It arrives over EDI, the API or QuickBooks into the system your people already use, or by email as a file."
+    "h3": "Orders still land in your usual place",
+    "body": "Both feed the system you have, so our app does not change where an order ends up. It arrives by EDI, through the API or in QuickBooks, into the system your people already use, or by email as a file."
    }
   ]
  },
@@ -134,8 +134,8 @@
  },
  "steps": {
   "eyebrow": "Getting Started",
-  "h2": "Three steps, and no migration to schedule",
-  "lead": "There is nothing to migrate here, and Pepper is left as it is. Send us the guides your office works from, and we do the loading.",
+  "h2": "Three steps, and nothing to move off Pepper",
+  "lead": "Pepper is left exactly as it is. Send us the guides your office works from, and we do the loading.",
   "items": [
    {
     "h3": "Send over your guides",
@@ -146,19 +146,19 @@
     "body": "We create the account and the kitchen downloads the app. Most are ordering before that day is out."
    },
    {
-    "h3": "It shows up ready",
-    "body": "Confirmed by the customer, with a number and the time it was sent, in the format your system takes."
+    "h3": "The order arrives ready",
+    "body": "The customer has confirmed it, and it carries an order number and the time it was sent, in the format your system takes."
    }
   ]
  },
  "comparison": {
-  "h2": "Pepper with VoiceOrder Solutions beside it. One step added.",
+  "h2": "Pepper with VoiceOrder Solutions beside it. One voice app added.",
   "h2_lines": [
    "Pepper with VoiceOrder Solutions beside it.",
-   "One step added."
+   "One voice app added."
   ],
-  "eyebrow": "Both, Not One",
-  "lead": "Adding a tool should never leave you with less, and the table reads that way. Pepper sells a broad platform to independents, and a Pepper alternative search usually means one channel is still on the phone. So here is Pepper alone, then Pepper with our app next to it. The two do not connect, and every Pepper detail is from their own site.",
+  "eyebrow": "Keep Both",
+  "lead": "Our app should not take anything away, and the table shows that. Pepper is a broad platform. A Pepper alternative search usually means some customers still call in their orders. So here is Pepper alone, then Pepper with our app next to it. The two do not connect, and every Pepper detail is from their own site.",
   "heads": [
    "Feature",
    "Pepper + VoiceOrder Solutions",
@@ -166,7 +166,7 @@
   ],
   "rows": [
    {
-    "label": "Kitchens say the order into an app and read it back",
+    "label": "Kitchens speak into an app and check it before sending",
     "cells": [
      {
       "t": "icon",
@@ -174,7 +174,7 @@
      },
      {
       "t": "text",
-      "v": "Voicemails and texts read by Order Agent"
+      "v": "Pepper's AI (Order Agent) reads voicemails and texts"
      }
     ]
    },
@@ -192,7 +192,7 @@
     ]
    },
    {
-    "label": "The buyer reviews every line before it sends",
+    "label": "Your customer reviews every line before it sends",
     "cells": [
      {
       "t": "icon",
@@ -205,7 +205,7 @@
     ]
    },
    {
-    "label": "Hubs for reps, collections, margin and ads",
+    "label": "Software for reps, collections, margins and ads",
     "cells": [
      {
       "t": "icon",
@@ -294,19 +294,19 @@
    },
    {
     "q": "Is VoiceOrder Solutions better than Pepper?",
-    "a": "Not at running the whole business on one platform: storefront, reps, collections and pricing. Pepper is built wide for that, and we are not trying to be. Where we help is narrower: a reorder your account speaks and signs off, and plenty of people looking for a Pepper alternative turn out to want exactly that one thing."
+    "a": "No, not at running the whole business on one platform: storefront, reps, collections and pricing. Pepper is built wide for that, and we are not trying to be. We help with one narrower job: a reorder your account speaks and signs off. Plenty of people looking for a Pepper alternative turn out to want exactly that."
    },
    {
     "q": "Is there a link between VoiceOrder Solutions and Pepper?",
-    "a": "None. We have no connection to Pepper and no shared support arrangement. Each product hands its orders to your own system separately, ours by email with a file attached, over EDI or the API, or into QuickBooks. When ours go in by a direct feed, both land in the same system; by email, ours arrive as a file your team opens like any other."
+    "a": "None. We have no connection to Pepper and no shared support arrangement. Each product hands its orders to your own system separately, ours by email with a file attached, over EDI or the API, or into QuickBooks. When ours are fed directly into your system, both products' orders end up in the same place. Emailed, ours arrive as a file your team opens like any other."
    },
    {
     "q": "Will our accounts be juggling Pepper's storefront and your app?",
-    "a": "They should not have to. Kitchens already ordering through the storefront can stay on it. Offer our app to the ones who still call, text or leave a voicemail, because those orders cost your desk the most time. Anyone who keeps calling is handled as now, with no order number from us, since numbers come only with what our app sends."
+    "a": "They should not have to. Kitchens already ordering through the storefront can stay on it. Offer our app to the ones who still call, text or leave a voicemail, because those orders cost your desk the most time. Customers who keep calling are handled the way they are today. Their calls get no order number from us, because numbers are only given to app orders."
    },
    {
     "q": "How quickly can we actually be taking orders?",
-    "a": "Most distributors reach that point in a day or two, and most of their customers send a first order the same day. There is no IT project and Pepper runs throughout, which is a very different job from the window Pepper publishes for standing up its whole platform."
+    "a": "Most distributors reach that point in a day or two, and most of their customers send a first order the same day. There is no IT project, and Pepper carries on as normal. That is a much smaller job than the setup window Pepper publishes for its whole platform."
    },
    {
     "q": "What does VoiceOrder Solutions charge?",
@@ -314,7 +314,7 @@
    },
    {
     "q": "Do our customers need new hardware or a tablet?",
-    "a": "No. Our app runs on the iOS or Android phone already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
+    "a": "No. Our app runs on the phone already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
    },
    {
     "q": "Where do the Pepper details on this page come from?",

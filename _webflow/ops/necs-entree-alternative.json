@@ -9,7 +9,7 @@
   ],
   [
    "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
-   "Back on each order once the phone is out of it"
+   "Saved on each order that skips the phone"
   ],
   [
    "3027ca32-6180-79a6-1a66-d9f911e27a08",
@@ -37,7 +37,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8c2",
-   "Almost nobody searching for a NECS Entree alternative wants to tear out four decades of distribution software. They want one part of the day to improve, and it is usually the intake end. Three versions of that come up, and only the last is a NECS Entree competitor question at all."
+   "Almost nobody searching for a NECS Entree alternative wants to tear out four decades of distribution software. They want one part of the day to get better, and it is usually how an order gets to you. Three cases come up, and only the last one is really a NECS Entree competitor question."
   ],
   [
    "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
@@ -45,7 +45,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8cc",
-   "Entree already offers customer ordering on web and mobile, and both routes have the buyer keying quantities against a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
+   "Entree already offers customer ordering on web and mobile, and both have the person ordering type quantities after a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
   ],
   [
    "bacfcf90-d337-55e1-9a02-49b2f6962e16",
@@ -53,7 +53,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8d3",
-   "Entree's own ordering tools live inside the software that runs your company, which suits the accounts who use them. Our app gives the rest of your book a way in and leaves every module where it is."
+   "Entree's own ordering tools live inside the software that runs your company, which suits the accounts who use them. Our app gives your other accounts a simple voice option and leaves every Entree module where it is."
   ],
   [
    "83921d0d-4ec1-911e-4420-fee5bfd13614",
@@ -61,7 +61,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8da",
-   "If your real plan is to move off Entree entirely, be honest that the whole back office goes with it. That is an ERP selection, not what we do, and we would rather tell you now than sit through the wrong demo with you."
+   "If your real plan is to move off Entree entirely, remember that your whole back office moves with it. That is an ERP selection, not what we do, and we would rather tell you now than sit through the wrong demo with you."
   ],
   [
    "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
@@ -85,7 +85,7 @@
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
-   "The buyer looks at the list before anything leaves"
+   "The kitchen's buyer checks the list before anything leaves"
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
@@ -93,7 +93,7 @@
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
-   "20 to 30 minutes back against the same order by phone"
+   "Saves 20 to 30 minutes compared with the same order by phone"
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
@@ -109,7 +109,7 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdea6",
-   "Export what you have. We load each account's items under your codes at the price you hold for them, and setup is done. Nothing inside your distribution software is touched to make it work."
+   "Export what you have. We load each account's items under your codes at the price you set for them, and setup is done. Nothing inside your distribution software is touched to make it work."
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdead",
@@ -121,7 +121,7 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdeb9",
-   "Change a guide once and it stands on the orders after"
+   "Change a guide once and every later order uses it"
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdebf",
@@ -145,7 +145,7 @@
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb129",
-   "On a direct feed there is no rekeying at your end"
+   "Over EDI, the API or QuickBooks, nobody on your team retypes it"
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb12f",
@@ -153,7 +153,7 @@
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb135",
-   "No part of your stack has to be retired first"
+   "You do not have to remove any software first"
   ],
   [
    "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
@@ -165,7 +165,7 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df93e",
-   "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect."
+   "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df945",
@@ -177,7 +177,7 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df951",
-   "Numbers come out of whatever you count with now"
+   "Stock numbers come from the system you count with today"
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df957",
@@ -205,19 +205,19 @@
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a6d",
-   "Give the web ordering the accounts that like it"
+   "Keep Entree's web ordering for the accounts that like it"
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a70",
-   "Buyers who happily work through Entree's screens can carry on. Our app is for the part of the book that never adopted them and still telephones. Calls you keep taking get no order number from us; only what comes through the app does."
+   "Buyers who happily work through Entree's screens can carry on. Our app is for the accounts that never used them and still phone in. Calls you keep taking get no order number from us; only what comes through the app does."
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
-   "Releases come and go without us"
+   "Entree upgrades go ahead without us"
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
-   "Because we sit outside the ERP, an upgrade never waits on us and we never wait on it. Nothing here has to hold for a release, and nothing here blocks one."
+   "Because we sit outside Entree, you can upgrade it whenever you like. We never hold up an upgrade, and an upgrade never holds us up."
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
@@ -225,7 +225,7 @@
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b8",
-   "Twenty minutes. A buyer talks, and you see the approved order turn up."
+   "Twenty minutes. A kitchen's buyer talks, and you see the approved order turn up."
   ],
   [
    "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
@@ -233,11 +233,11 @@
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
-   "Three steps, and nothing opened up"
+   "Three steps, and nothing inside Entree changes"
   ],
   [
    "38293a1d-fb4c-9501-8014-28855f9128b6",
-   "Nothing changes inside Entree to do this. You export lists, we set up the accounts, and kitchens begin sending orders."
+   "You export lists, we set up the accounts, and kitchens begin sending orders."
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
@@ -257,11 +257,11 @@
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
-   "It lands finished"
+   "The order lands finished"
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
-   "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+   "The customer has approved it, and it carries an order number and the time it was sent, in the format your system takes."
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a176",
@@ -277,7 +277,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a179",
-   "Adding an ordering route should leave your core system alone, so this table only ever adds. Entree has been food distribution software since 1987 and carries the accounting, the warehouse and the EDI, which is why a NECS Entree alternative is rarely a like-for-like swap. The left column is your operation with both; the two products do not connect."
+   "Extra ways to order should leave your main system alone, so this table only adds. Entree has been food distribution software since 1987. It runs the accounting, the warehouse and the EDI, which is why a NECS Entree alternative is rarely a like-for-like swap. The left column is your operation with both; the two products do not connect."
   ],
   [
    "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
@@ -365,7 +365,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
-   "No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above, and which of those your own Entree setup takes in directly is something to check in the demo, not a promise we make here."
+   "No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above. Which of those your Entree setup can take in directly is something to check in the demo. We do not promise it here."
   ],
   [
    "0f73d180-08e9-596f-f264-a95de40f9593",
@@ -373,7 +373,7 @@
   ],
   [
    "7e541655-5a68-8f96-1273-8249a5c759bd",
-   "No. We never need an account in it to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected."
+   "No. We never need a login to your Entree system to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected."
   ],
   [
    "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
@@ -397,7 +397,7 @@
   ],
   [
    "7ec95cf1-65b0-b7be-b209-99042752451e",
-   "Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any of it has moved on, the fault is here, not there."
+   "Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any detail is now out of date, that error is ours."
   ]
  ],
  "embed": [
@@ -492,7 +492,7 @@
   "hero": {
    "eyebrow": "For Food Distributors",
    "h1": "The NECS Entree Alternative That Keeps Entree Running.",
-   "lead": "Give your kitchens a quicker way in than calling the office, and keep the software running your company as it is. VoiceOrder Solutions is added beside Entree: accounts say what they need into our app and approve every line before anything reaches your desk. Accounting, warehouse and EDI never move.",
+   "lead": "Give kitchens something quicker than calling the office, and keep your ERP exactly as it is. VoiceOrder Solutions works beside Entree: accounts say what they need into our app and approve every line before it reaches your desk. Accounting, warehouse and EDI stay in Entree.",
    "cta": "Book a Free Demo"
   },
   "mainCta": {
@@ -516,11 +516,11 @@
   },
   {
    "q": "Is Entree hooked up to VoiceOrder Solutions?",
-   "a": "No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above, and which of those your own Entree setup takes in directly is something to check in the demo, not a promise we make here."
+   "a": "No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above. Which of those your Entree setup can take in directly is something to check in the demo. We do not promise it here."
   },
   {
    "q": "Will this touch our installation or our version?",
-   "a": "No. We never need an account in it to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected."
+   "a": "No. We never need a login to your Entree system to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected."
   },
   {
    "q": "How fast could this be live?",
@@ -532,7 +532,7 @@
   },
   {
    "q": "Where do the Entree details on this page come from?",
-   "a": "Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any of it has moved on, the fault is here, not there."
+   "a": "Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any detail is now out of date, that error is ours."
   }
  ]
 }

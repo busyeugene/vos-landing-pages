@@ -1,17 +1,17 @@
 {
  "slug": "fresho-alternative",
  "meta_title": "Fresho Alternative for Food Distributors in 2026",
- "meta_desc": "Keep Fresho running and add one spoken step: kitchens say the order into an app and confirm each line. A Fresho alternative you add rather than adopt.",
+ "meta_desc": "Keep Fresho running and add one spoken step: kitchens say the order into an app and confirm each line. A Fresho alternative you add without giving anything up.",
  "hero": {
   "eyebrow": "For Food Distributors",
   "h1": "The Fresho Alternative You Add Alongside Fresho.",
-  "lead": "VoiceOrder Solutions gives your phone accounts a voice app, and everything else keeps running. Accounts talk through what they need in the app and look the lines over before sending, and each order lands in a format you take today. Your Fresho setup, from OrderPilot to the full suite, carries on.",
+  "lead": "VoiceOrder Solutions gives a voice app to the accounts that still call their orders in. They say what they need into the app, look over each line before it goes, and the order arrives in a format you can use now. Whatever you run on Fresho, from AI order reading to the full suite, carries on.",
   "cta": "Book a Free Demo →"
  },
  "stats": [
   {
    "num": "20-30 Min",
-   "label": "Returns to the day on each phoned order"
+   "label": "Saved on each order that used to be phoned"
   },
   {
    "num": "24-48 Hrs",
@@ -25,19 +25,19 @@
  "problem": {
   "eyebrow": "Before You Compare",
   "h2": "Why distributors weigh an alternative to Fresho",
-  "lead": "Looking up a Fresho competitor is seldom a complaint about the product. Fresho is an order and operations system with real depth in fresh food. The search usually comes down to scope or sequence, and neither one needs Fresho taken out.",
+  "lead": "Looking up a Fresho competitor is seldom a complaint about the product. Fresho is an order and operations system with real depth in fresh food. The search usually comes down to how much one vendor should run, or what to change first. Neither one means taking Fresho out.",
   "cards": [
    {
     "h3": "Fresho can already run most of the operation",
     "body": "Fresho reaches from the order through to the payment, and their pricing lets you take only the parts you want. How much of the operation sits with one vendor is a big decision. How some accounts place their order is a small one, and it can be answered on its own."
    },
    {
-    "h3": "Some kitchens would change the habit",
-    "body": "Their AI is built so a customer need not change a thing, which is a deliberate choice and a sound one, and for plenty of accounts it is right. A few would still rather say it once and see the lines than leave one more voicemail for a machine to read."
+    "h3": "Some kitchens would happily order a new way",
+    "body": "Their AI is built so a customer does not have to change a thing. That is a deliberate and sound choice, and for plenty of accounts it is right. A few would still rather say it once and see the lines than leave one more voicemail for a machine to read."
    },
    {
     "h3": "A voice step does not wait on a rollout",
-    "body": "Fresho publishes its timeline openly: around four weeks to set up, plus two to four weeks training the AI. Putting our app in front of some accounts is a separate decision, and it can happen in either order."
+    "body": "Fresho publishes its timeline openly: around four weeks to set up, plus two to four weeks training the AI. Giving our app to some accounts is a separate decision. You can do it before, during or after a Fresho rollout."
    }
   ]
  },
@@ -47,13 +47,13 @@
   "rows": [
    {
     "eyebrow": "Voice Ordering",
-    "h3": "The habit moves, and that is the point",
+    "h3": "Kitchens change how they order, on purpose",
     "body": "A chef walks the cooler, says what is short, and the lines come up from that account's guide. They fix anything off and send. It is a change in how they order, and because they fixed the lines themselves, nobody at your end has to rebuild the order afterwards.",
     "bullets": [
      "They see the list before a thing is sent",
      "Done in the cooler or at the desk, at any hour",
-     "Their own handset, iOS or Android, nothing issued",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Interrupted halfway? It holds the order until they come back"
     ],
     "link": {
@@ -63,8 +63,8 @@
    },
    {
     "eyebrow": "Order Guides",
-    "h3": "Narrow on purpose: your lines, your figures",
-    "body": "Each account gets the items it buys at the price you hold for it, against your own codes. That guide is the whole of our setup.",
+    "h3": "Just your items and your prices",
+    "body": "Each account gets the products it orders at the price you set for it, under your own codes. That guide is the whole of our setup.",
     "bullets": [
      "Lines drawn from the account's own guide",
      "Pricing and the catalog remain yours to control",
@@ -78,11 +78,11 @@
    },
    {
     "eyebrow": "Delivery Formats",
-    "h3": "It lands where your paperwork already starts",
+    "h3": "It arrives in the software you work in now",
     "body": "A finished order arrives as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. Whatever sends your invoices and plans your runs today goes on doing it.",
     "bullets": [
      "Sent to a named rep, or to the purchasing desk",
-     "On a direct feed nobody retypes it at your end",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Carrying a number, with the date and time of sending",
      "No module of yours has to be switched off"
     ],
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock in the frame as orders come through",
-    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: whatever you run today keeps that role, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "Over the full catalog, not only the quick movers",
      "Fewer stockout surprises on a late, heavy order",
-     "Levels come out of whatever you count with now",
+     "Stock numbers come from the system you count with today",
      "Counting and buying stay with your own system"
     ],
     "link": {
@@ -111,31 +111,31 @@
  "cards": {
   "eyebrow": "Add, Not Adopt",
   "h2": "Fresho runs the day, VoiceOrder Solutions adds the voice",
-  "lead": "This is a sensible pairing rather than a standoff. We are not a Fresho replacement: some accounts change how they order, and everything after that order, the picking and the run and the invoice, is left as it is. A Fresho alternative quite often means precisely this.",
+  "lead": "Keeping both is a sensible setup. We are not a Fresho replacement: some kitchens move their ordering into our app, and everything after the order (picking, delivery and the invoice) stays as it is. A Fresho alternative quite often means precisely this.",
   "items": [
    {
     "h3": "The back end keeps every job it has",
     "body": "Invoices, payments, pick lists and the delivery run are not on offer here and are not touched. We hand the completed order over, and the rest of the day stays yours."
    },
    {
-    "h3": "Let every account pick its route",
-    "body": "Customers happy in the portal, or happy leaving a voicemail for OrderPilot, carry on just as Fresho promises. Hand the app to the kitchens that would rather talk it through and check it on screen."
+    "h3": "Let every account choose how it orders",
+    "body": "Customers happy in the portal, or happy leaving a voicemail for OrderPilot, Fresho's AI order reader, carry on just as Fresho promises. Hand the app to the kitchens that would rather talk it through and check it on screen."
    },
    {
     "h3": "Small enough to try properly",
-    "body": "No modules to choose and nothing to decommission. Open a few of the accounts that cost you the most time and decide on the evidence."
+    "body": "No modules to choose and nothing to switch off. Open a few of the accounts that cost you the most time and decide on the evidence."
    }
   ]
  },
  "midcta": {
   "h3": "Watch one account place a spoken reorder",
-  "body": "Twenty minutes. One account, a single order spoken aloud, and the rest of your operation never moves.",
+  "body": "Twenty minutes. One account, a single order spoken aloud, and nothing else in your operation changes.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
   "eyebrow": "Getting Started",
   "h2": "Three steps, and no modules to pick",
-  "lead": "There is nothing to scope. You pass us the guides, we load them and set up each account, and your customers get going.",
+  "lead": "There is no project to plan. You pass us the guides, we load them and set up each account, and your customers get going.",
   "items": [
    {
     "h3": "Send us the guides",
@@ -143,22 +143,22 @@
    },
    {
     "h3": "Accounts are opened",
-    "body": "We provision each customer and the kitchen downloads the app. Most will have ordered before the day is finished."
+    "body": "We set up each customer and the kitchen downloads the app. Most will have ordered before the day is finished."
    },
    {
     "h3": "Orders arrive ready to work",
-    "body": "Confirmed by the buyer, numbered and timed, in whichever of your formats you chose."
+    "body": "The customer has confirmed it, it is numbered and timed, and it comes in whichever of your formats you chose."
    }
   ]
  },
  "comparison": {
-  "h2": "Fresho, plus a voice reorder. Their depth, one step added.",
+  "h2": "Fresho, plus a voice reorder. Everything Fresho does, plus one step.",
   "h2_lines": [
    "Fresho, plus a voice reorder.",
-   "Their depth, one step added."
+   "Everything Fresho does, plus one step."
   ],
-  "eyebrow": "Deep, Plus One Step",
-  "lead": "Two columns, one operation: as it runs now, and with spoken orders added for the accounts that want them. Fresho covers ordering, stock, margins, delivery, picking, invoicing and payments, and it knows produce, meat and seafood properly, so a Fresho alternative is rarely the right word for what you need. The two products do not connect.",
+  "eyebrow": "Fresho Today, Plus Voice",
+  "lead": "The two columns show your operation as it runs now, and with spoken orders added for the accounts that want them. Fresho covers ordering, stock, margins, delivery, picking, invoicing and payments. It knows produce, meat and seafood well. So a Fresho alternative is rarely what you actually need. The two products do not connect.",
   "heads": [
    "Feature",
    "Fresho + VoiceOrder Solutions",
@@ -213,7 +213,7 @@
      },
      {
       "t": "text",
-      "v": "In the portal; AI-read messages are corrected over time"
+      "v": "Yes in the portal; for messages their AI reads, accuracy improves as orders get corrected"
      }
     ]
    },
@@ -290,27 +290,27 @@
   "items": [
    {
     "q": "Is a Fresho alternative what we actually need?",
-    "a": "Usually not. Fresho is an operations system built for perishable wholesale, from the order to the payment, and replacing it to change how a few kitchens order would be out of scale. Keep it, and bring in VoiceOrder Solutions for the kitchens happier talking than typing."
+    "a": "Usually not. Fresho is an operations system built for perishable wholesale, from the order to the payment, and replacing it just to change how a few kitchens order would be far too big a change. Keep it, and bring in VoiceOrder Solutions for the kitchens happier talking than typing."
    },
    {
     "q": "Is VoiceOrder Solutions better than Fresho?",
-    "a": "At delivery runs, invoicing, taking payment, picking, margin control or reporting, not remotely: we do none of them. Where we help is narrower, a kitchen that speaks its order and checks every item before it sends. That runs alongside everything Fresho does rather than competing with it."
+    "a": "At delivery runs, invoicing, taking payment, picking, margin control or reporting, not remotely: we do none of them. Where we help is narrower, a kitchen that speaks its order and checks every item before it sends. That sits beside all of Fresho's work rather than competing with it."
    },
    {
     "q": "Their AI handles voicemails. Do we need yours too?",
-    "a": "Maybe not for every account, and it is worth being exact because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. That difference, not a missing feature, is why a Fresho alternative search sometimes ends with both."
+    "a": "Maybe not for every account, and it is worth being exact because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. That difference, not a missing feature, is why many who look for a Fresho alternative end up keeping both."
    },
    {
     "q": "Does VoiceOrder Solutions connect to Fresho?",
-    "a": "No. Nothing connects the two, and neither company supports the other. Both sit beside your ERP on their own terms: theirs through its own ERP connection, ours by email, EDI, API or QuickBooks. Neither one passes orders to the other."
+    "a": "No. Nothing connects the two, and neither company supports the other. Both sit beside your ERP on their own terms: theirs through its own ERP connection, while ours arrive by email, EDI, API or as a QuickBooks entry. Neither one passes orders to the other."
    },
    {
     "q": "Do our customers have to change what they do?",
-    "a": "Only the ones you choose. OrderPilot's published promise is that customers carry on ordering exactly as they always have, and the Fresho portal is there too. Let each account pick: our app suits the kitchens that prefer to talk. One limit: a call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock from us. Only what comes through our app does."
+    "a": "Only the ones you choose. Fresho says its OrderPilot AI lets customers carry on ordering exactly as they always have, and the Fresho portal is there too. Let each account pick: our app suits the kitchens that prefer to talk. One limit: a call or a voicemail to your desk gets no number, no timestamp and no stock update from us. Only what comes through our app does."
    },
    {
     "q": "How fast could this be running?",
-    "a": "For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There are no modules to scope, and nothing in Fresho changes while the first accounts start."
+    "a": "For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There is no setup project, and Fresho stays untouched while the first accounts start."
    },
    {
     "q": "How do the costs compare?",
@@ -323,7 +323,7 @@
   ]
  },
  "mainCta": {
-  "h2": "Fix the front door, leave the rest",
+  "h2": "Change how kitchens send orders, keep the rest",
   "body": "Twenty minutes and one voice order, from the kitchen to your desk.",
   "cta": "Book a Free Demo →"
  }

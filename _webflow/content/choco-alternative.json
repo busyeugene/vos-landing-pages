@@ -25,18 +25,18 @@
  "problem": {
   "eyebrow": "Why Teams Compare",
   "h2": "Why teams look for an alternative to Choco",
-  "lead": "Choco calls itself an AI platform for food and beverage wholesalers. It digitizes inbound orders, runs an online catalog that recommends items, and carries a sales hub and a foodservice CRM. None of that is a flaw. The gap that starts a Choco alternative search is usually one step wide, and replacing a whole platform to close it is out of proportion.",
+  "lead": "Choco calls itself an AI platform for food and beverage wholesalers. It turns incoming orders into digital ones, runs an online catalog that recommends products, and includes sales tools and a customer database (CRM) for foodservice. None of that is a flaw. A Choco alternative search usually starts with one small gap. Replacing a whole platform to fix it is far too much.",
   "cards": [
    {
     "h3": "Some kitchens never take to tapping through an app",
     "body": "Every ordering platform has some accounts that keep calling, texting or leaving a voicemail at 10pm. They like the person on the other end more than a screen of buttons, and those are the orders that still eat your morning."
    },
    {
-    "h3": "A parsed message still gets read by you",
+    "h3": "AI reads the message, but the kitchen never checks what it read",
     "body": "Choco's OrderAgent lifts an order out of a voicemail, a text, even a snapshot of a handwritten pad, which is a genuinely clever bit of engineering. But the cook who left that note never saw the lines your desk ended up with."
    },
    {
-    "h3": "You want one step fixed, not a new stack",
+    "h3": "You want a single fix, not all new software",
     "body": "Swapping Choco out would mean rebuilding the storefront, the sales routine and the customer records your reps lean on. That is a lot of change to buy when the trouble is the telephone."
    }
   ]
@@ -47,13 +47,13 @@
   "rows": [
    {
     "eyebrow": "Voice Ordering",
-    "h3": "Built by whoever is standing in the cooler",
+    "h3": "Orders built by whoever is in the cooler",
     "body": "Your account opens the app, presses to speak, and says what the kitchen is short of. Every item appears as a line with a quantity against it. They review it, change what needs changing, and only then does it leave.",
     "bullets": [
      "Nothing is sent until your customer has looked at the list",
      "Works from the cooler or the prep bench, at any hour",
-     "Their own phone, iOS or Android, nothing issued",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Reps stop writing up reorders from accounts on the app, so that time goes into selling"
     ],
     "link": {
@@ -64,12 +64,12 @@
    {
     "eyebrow": "Order Guides",
     "h3": "One item list per account, built from yours",
-    "body": "Pass us the guides you keep per customer. We load them against your SKUs at the price you hold for that account, so a spoken item lands on the right row against your own SKU.",
+    "body": "Pass us the guides you keep per customer. We load them with your SKUs and the price you set for that account, so each spoken item is matched to your own SKU.",
     "bullets": [
      "A kitchen only ever sees what it actually buys",
      "The catalog and the pricing stay yours to set",
      "Edit a list once and it holds on the orders after",
-     "No browsing and no cart to abandon"
+     "No browsing and no shopping cart"
     ],
     "link": {
      "href": "/catalog-management-software",
@@ -79,12 +79,12 @@
    {
     "eyebrow": "Delivery Formats",
     "h3": "It arrives however your office likes it",
-    "body": "Nobody has to move desks for this. A finished order goes out as an email with a PDF, Excel or Word file attached, or straight into your ERP over the API, over EDI, or into QuickBooks.",
+    "body": "Your office does not change how it works. A finished order goes out as an email with a PDF, Excel or Word file attached, or straight into your ERP over the API, over EDI, or into QuickBooks.",
     "bullets": [
      "Addressed to a rep, or to the purchasing desk",
-     "On a direct feed there is no rekeying at your end",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Picking, billing and delivery carry on unchanged",
-     "No part of your stack has to be retired first"
+     "You do not have to remove any software first"
     ],
     "link": {
      "href": "/wholesale-ordering-software",
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock you can see while the orders arrive",
-    "body": "VoiceOrder Solutions shows real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions shows real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "Every line you carry, not only the quick movers",
      "Fewer stockout surprises on a late, heavy order",
-     "Numbers come out of whatever you count with now",
+     "Stock numbers come from the system you count with today",
      "We never count or buy stock for you"
     ],
     "link": {
@@ -111,11 +111,11 @@
  "cards": {
   "eyebrow": "Not Either Or",
   "h2": "How Choco and VoiceOrder Solutions split the work",
-  "lead": "We are not a Choco replacement, and we would rather you did not treat us as one. Our app adds on, so a storefront that is already in place has nothing to undo before you try it.",
+  "lead": "We are not a Choco replacement, and we would rather you did not treat us as one. Our app adds on, so your storefront stays exactly as it is while you try it.",
   "items": [
    {
     "h3": "Let the catalog sell, and let voice take the order",
-    "body": "A storefront that suggests items earns its keep on a buyer who is browsing with time to spare. The reorder at the end of a shift is not that moment. The two jobs can sit together without arguing."
+    "body": "A storefront that suggests items works best for a kitchen buyer who has time to browse. A quick reorder at the end of a shift is a different moment. The two can work together."
    },
    {
     "h3": "Give each account the way in it prefers",
@@ -123,19 +123,19 @@
    },
    {
     "h3": "Orders land where they already land",
-    "body": "Whatever you add, the order still arrives into the system you chose, by EDI, API or QuickBooks, or by email to your desk. Nobody has to learn a new screen to receive it."
+    "body": "Whatever you add, the order still arrives into the system you chose, or as an email to your desk. Nobody has to learn a new screen to receive it."
    }
   ]
  },
  "midcta": {
   "h3": "See where voice ordering fits beside Choco",
-  "body": "Twenty minutes. One spoken order, end to end, and the time it gives back on the next one.",
+  "body": "Twenty minutes. One spoken order, beginning to end, and how much time it can save on each order.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
   "eyebrow": "Getting Started",
   "h2": "Short enough to finish this week",
-  "lead": "There is no data project at the front of this, and nothing inside Choco changes. You send item lists, we set the customers up, and your customers begin sending orders.",
+  "lead": "There is no data project to start, and nothing inside Choco changes. You send item lists, we set the customers up, and your customers begin sending orders.",
   "items": [
    {
     "h3": "Hand us the item lists",
@@ -146,8 +146,8 @@
     "body": "We set up each account, and the customer downloads the app. Most have sent something in by the end of the day."
    },
    {
-    "h3": "It lands finished",
-    "body": "Approved by the customer, carrying a number and a time, in the shape your system expects."
+    "h3": "Your order arrives finished",
+    "body": "The customer has approved it, and it carries a number and the time it was sent, in the format your system takes."
    }
   ]
  },
@@ -158,7 +158,7 @@
    "Nothing to switch off."
   ],
   "eyebrow": "Add, Don't Swap",
-  "lead": "Adding voice ordering should take nothing away, and the table is drawn that way. Most searches for a Choco alternative start with one gap, not a broken platform, so below is Choco today, then Choco with our app beside it. The two do not connect, and everything said about Choco comes from their own site.",
+  "lead": "Adding voice ordering should not take anything away, and the table below is drawn to show it. Most searches for a Choco alternative start with one gap, not a broken platform, so below is Choco today, then Choco with our app beside it. The two do not connect, and everything said about Choco comes from their own site.",
   "heads": [
    "Feature",
    "Choco + VoiceOrder Solutions",
@@ -200,7 +200,7 @@
      },
      {
       "t": "text",
-      "v": "Varies by channel"
+      "v": "Depends on how it arrives"
      }
     ]
    },
@@ -218,7 +218,7 @@
     ]
    },
    {
-    "label": "Sales hub plus CRM",
+    "label": "Sales tools plus CRM",
     "cells": [
      {
       "t": "icon",
@@ -286,7 +286,7 @@
  },
  "faq": {
   "eyebrow": "FAQ",
-  "h2": "Better than Choco, or better beside it?",
+  "h2": "Better than Choco, or best used with it?",
   "items": [
    {
     "q": "Do I need a Choco alternative to get voice ordering?",
@@ -294,15 +294,15 @@
    },
    {
     "q": "Would that make VoiceOrder Solutions a Choco competitor?",
-    "a": "Only in the narrow sense that both take orders. We do not run storefronts, sales tooling or a CRM, and we do not want you to give those up. Most people who search for a Choco alternative want one thing added, an order the kitchen speaks and approves, rather than a platform taken away."
+    "a": "Only in the narrow sense that both take orders. We do not run storefronts, sales tools or a CRM, and we do not want you to give those up. Most people who search for a Choco alternative want one thing added: an order the kitchen speaks and approves. They do not want a platform taken away."
    },
    {
     "q": "Is VoiceOrder Solutions better than Choco?",
-    "a": "Not at what Choco is built for: bigger baskets, rep tooling and customer records. Where we are stronger is narrower. The customer approves every item before it goes, so nobody at your end interprets a message. That is why we belong beside Choco, not in its place."
+    "a": "No, not at what Choco is built for: larger orders, tools for reps and customer records. We are stronger at one narrower job. The customer approves every item before it goes, so nobody at your end interprets a message. That is why we belong beside Choco, not in its place."
    },
    {
     "q": "Does VoiceOrder Solutions connect to Choco?",
-    "a": "No. The two are separate products, and each vendor supports only its own. Each one sends its orders into your system on its own, ours in the formats shown above, so they reach your desk in a form it already handles."
+    "a": "No. The two are separate products, and each vendor supports only its own. Each one sends its own orders into your system. Ours come in the formats shown above, which your desk knows how to handle."
    },
    {
     "q": "Won't some kitchens end up with two ordering apps?",
@@ -310,7 +310,7 @@
    },
    {
     "q": "How soon can our accounts start?",
-    "a": "Most distributors are up and running within 24 to 48 hours, and most of their customers place a first order that same day. There is no IT project, and Choco carries on as normal throughout, so there is no cut-over date to plan around."
+    "a": "Most distributors are up and running within 24 to 48 hours, and most of their customers place a first order that same day. There is no IT project, and Choco carries on as normal throughout, so there is no switch-over date to plan around."
    },
    {
     "q": "What does adding VoiceOrder Solutions cost?",

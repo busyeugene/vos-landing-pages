@@ -20,7 +20,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
      },
-     "text": "Back on each order once the phone is out of it"
+     "text": "Saved on each order that skips the phone"
     }
    },
    {
@@ -90,7 +90,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
      },
-     "text": "Almost nobody searching for a NECS Entree alternative wants to tear out four decades of distribution software. They want one part of the day to improve, and it is usually the intake end. Three versions of that come up, and only the last is a NECS Entree competitor question at all."
+     "text": "Almost nobody searching for a NECS Entree alternative wants to tear out four decades of distribution software. They want one part of the day to get better, and it is usually how an order gets to you. Three cases come up, and only the last one is really a NECS Entree competitor question."
     }
    },
    {
@@ -110,7 +110,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
      },
-     "text": "Entree already offers customer ordering on web and mobile, and both routes have the buyer keying quantities against a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
+     "text": "Entree already offers customer ordering on web and mobile, and both have the person ordering type quantities after a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway."
     }
    },
    {
@@ -130,7 +130,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
      },
-     "text": "Entree's own ordering tools live inside the software that runs your company, which suits the accounts who use them. Our app gives the rest of your book a way in and leaves every module where it is."
+     "text": "Entree's own ordering tools live inside the software that runs your company, which suits the accounts who use them. Our app gives your other accounts a simple voice option and leaves every Entree module where it is."
     }
    },
    {
@@ -150,7 +150,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
      },
-     "text": "If your real plan is to move off Entree entirely, be honest that the whole back office goes with it. That is an ERP selection, not what we do, and we would rather tell you now than sit through the wrong demo with you."
+     "text": "If your real plan is to move off Entree entirely, remember that your whole back office moves with it. That is an ERP selection, not what we do, and we would rather tell you now than sit through the wrong demo with you."
     }
    },
    {
@@ -210,7 +210,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
      },
-     "text": "The buyer looks at the list before anything leaves"
+     "text": "The kitchen's buyer checks the list before anything leaves"
     }
    },
    {
@@ -230,7 +230,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
      },
-     "text": "20 to 30 minutes back against the same order by phone"
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
     }
    },
    {
@@ -270,7 +270,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
      },
-     "text": "Export what you have. We load each account's items under your codes at the price you hold for them, and setup is done. Nothing inside your distribution software is touched to make it work."
+     "text": "Export what you have. We load each account's items under your codes at the price you set for them, and setup is done. Nothing inside your distribution software is touched to make it work."
     }
    },
    {
@@ -300,7 +300,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdeb9"
      },
-     "text": "Change a guide once and it stands on the orders after"
+     "text": "Change a guide once and every later order uses it"
     }
    },
    {
@@ -360,7 +360,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
      },
-     "text": "On a direct feed there is no rekeying at your end"
+     "text": "Over EDI, the API or QuickBooks, nobody on your team retypes it"
     }
    },
    {
@@ -380,7 +380,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
      },
-     "text": "No part of your stack has to be retired first"
+     "text": "You do not have to remove any software first"
     }
    },
    {
@@ -410,7 +410,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
      },
-     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect."
+     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
     }
    },
    {
@@ -440,7 +440,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
      },
-     "text": "Numbers come out of whatever you count with now"
+     "text": "Stock numbers come from the system you count with today"
     }
    },
    {
@@ -512,7 +512,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "5368ca22-de87-9362-819f-9733489b5a6d"
      },
-     "text": "Give the web ordering the accounts that like it"
+     "text": "Keep Entree's web ordering for the accounts that like it"
     }
    },
    {
@@ -522,7 +522,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "5368ca22-de87-9362-819f-9733489b5a70"
      },
-     "text": "Buyers who happily work through Entree's screens can carry on. Our app is for the part of the book that never adopted them and still telephones. Calls you keep taking get no order number from us; only what comes through the app does."
+     "text": "Buyers who happily work through Entree's screens can carry on. Our app is for the accounts that never used them and still phone in. Calls you keep taking get no order number from us; only what comes through the app does."
     }
    },
    {
@@ -532,7 +532,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624"
      },
-     "text": "Releases come and go without us"
+     "text": "Entree upgrades go ahead without us"
     }
    },
    {
@@ -542,7 +542,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
      },
-     "text": "Because we sit outside the ERP, an upgrade never waits on us and we never wait on it. Nothing here has to hold for a release, and nothing here blocks one."
+     "text": "Because we sit outside Entree, you can upgrade it whenever you like. We never hold up an upgrade, and an upgrade never holds us up."
     }
    },
    {
@@ -562,7 +562,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
      },
-     "text": "Twenty minutes. A buyer talks, and you see the approved order turn up."
+     "text": "Twenty minutes. A kitchen's buyer talks, and you see the approved order turn up."
     }
    },
    {
@@ -582,7 +582,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7"
      },
-     "text": "Three steps, and nothing opened up"
+     "text": "Three steps, and nothing inside Entree changes"
     }
    },
    {
@@ -592,7 +592,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
      },
-     "text": "Nothing changes inside Entree to do this. You export lists, we set up the accounts, and kitchens begin sending orders."
+     "text": "You export lists, we set up the accounts, and kitchens begin sending orders."
     }
    },
    {
@@ -642,7 +642,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
      },
-     "text": "It lands finished"
+     "text": "The order lands finished"
     }
    },
    {
@@ -652,7 +652,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
      },
-     "text": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+     "text": "The customer has approved it, and it carries an order number and the time it was sent, in the format your system takes."
     }
    },
    {
@@ -692,7 +692,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
      },
-     "text": "Adding an ordering route should leave your core system alone, so this table only ever adds. Entree has been food distribution software since 1987 and carries the accounting, the warehouse and the EDI, which is why a NECS Entree alternative is rarely a like-for-like swap. The left column is your operation with both; the two products do not connect."
+     "text": "Extra ways to order should leave your main system alone, so this table only adds. Entree has been food distribution software since 1987. It runs the accounting, the warehouse and the EDI, which is why a NECS Entree alternative is rarely a like-for-like swap. The left column is your operation with both; the two products do not connect."
     }
    },
    {
@@ -912,7 +912,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
      },
-     "text": "No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above, and which of those your own Entree setup takes in directly is something to check in the demo, not a promise we make here."
+     "text": "No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above. Which of those your Entree setup can take in directly is something to check in the demo. We do not promise it here."
     }
    },
    {
@@ -932,7 +932,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
      },
-     "text": "No. We never need an account in it to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected."
+     "text": "No. We never need a login to your Entree system to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected."
     }
    },
    {
@@ -992,7 +992,7 @@
       "component": "6aca3a5bdafc7a7656fa9b4c",
       "element": "7ec95cf1-65b0-b7be-b209-99042752451e"
      },
-     "text": "Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any of it has moved on, the fault is here, not there."
+     "text": "Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any detail is now out of date, that error is ours."
     }
    }
   ]
@@ -1583,7 +1583,7 @@
      {
       "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
       "type": "string",
-      "string_value": "Give your kitchens a quicker way in than calling the office, and keep the software running your company as it is. VoiceOrder Solutions is added beside Entree: accounts say what they need into our app and approve every line before anything reaches your desk. Accounting, warehouse and EDI never move."
+      "string_value": "Give kitchens something quicker than calling the office, and keep your ERP exactly as it is. VoiceOrder Solutions works beside Entree: accounts say what they need into our app and approve every line before it reaches your desk. Accounting, warehouse and EDI stay in Entree."
      },
      {
       "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",

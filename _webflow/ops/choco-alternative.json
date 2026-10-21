@@ -37,7 +37,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8c2",
-   "Choco calls itself an AI platform for food and beverage wholesalers. It digitizes inbound orders, runs an online catalog that recommends items, and carries a sales hub and a foodservice CRM. None of that is a flaw. The gap that starts a Choco alternative search is usually one step wide, and replacing a whole platform to close it is out of proportion."
+   "Choco calls itself an AI platform for food and beverage wholesalers. It turns incoming orders into digital ones, runs an online catalog that recommends products, and includes sales tools and a customer database (CRM) for foodservice. None of that is a flaw. A Choco alternative search usually starts with one small gap. Replacing a whole platform to fix it is far too much."
   ],
   [
    "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
@@ -49,7 +49,7 @@
   ],
   [
    "bacfcf90-d337-55e1-9a02-49b2f6962e16",
-   "A parsed message still gets read by you"
+   "AI reads the message, but the kitchen never checks what it read"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8d3",
@@ -57,7 +57,7 @@
   ],
   [
    "83921d0d-4ec1-911e-4420-fee5bfd13614",
-   "You want one step fixed, not a new stack"
+   "You want a single fix, not all new software"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8da",
@@ -77,7 +77,7 @@
   ],
   [
    "24599529-959c-8515-3ff2-44ca6d68a0ed",
-   "Built by whoever is standing in the cooler"
+   "Orders built by whoever is in the cooler"
   ],
   [
    "24599529-959c-8515-3ff2-44ca6d68a0f1",
@@ -93,7 +93,7 @@
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
-   "20 to 30 minutes back against the same order by phone"
+   "Saves 20 to 30 minutes compared with the same order by phone"
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
@@ -109,7 +109,7 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdea6",
-   "Pass us the guides you keep per customer. We load them against your SKUs at the price you hold for that account, so a spoken item lands on the right row against your own SKU."
+   "Pass us the guides you keep per customer. We load them with your SKUs and the price you set for that account, so each spoken item is matched to your own SKU."
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdead",
@@ -125,7 +125,7 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdebf",
-   "No browsing and no cart to abandon"
+   "No browsing and no shopping cart"
   ],
   [
    "6555f9fc-4dcc-b940-f384-6001ce4db69f",
@@ -137,7 +137,7 @@
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb11c",
-   "Nobody has to move desks for this. A finished order goes out as an email with a PDF, Excel or Word file attached, or straight into your ERP over the API, over EDI, or into QuickBooks."
+   "Your office does not change how it works. A finished order goes out as an email with a PDF, Excel or Word file attached, or straight into your ERP over the API, over EDI, or into QuickBooks."
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb123",
@@ -145,7 +145,7 @@
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb129",
-   "On a direct feed there is no rekeying at your end"
+   "Over EDI, the API or QuickBooks, nobody on your team retypes it"
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb12f",
@@ -153,7 +153,7 @@
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb135",
-   "No part of your stack has to be retired first"
+   "You do not have to remove any software first"
   ],
   [
    "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
@@ -165,7 +165,7 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df93e",
-   "VoiceOrder Solutions shows real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect."
+   "VoiceOrder Solutions shows real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df945",
@@ -177,7 +177,7 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df951",
-   "Numbers come out of whatever you count with now"
+   "Stock numbers come from the system you count with today"
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df957",
@@ -193,7 +193,7 @@
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
-   "We are not a Choco replacement, and we would rather you did not treat us as one. Our app adds on, so a storefront that is already in place has nothing to undo before you try it."
+   "We are not a Choco replacement, and we would rather you did not treat us as one. Our app adds on, so your storefront stays exactly as it is while you try it."
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
@@ -201,7 +201,7 @@
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
-   "A storefront that suggests items earns its keep on a buyer who is browsing with time to spare. The reorder at the end of a shift is not that moment. The two jobs can sit together without arguing."
+   "A storefront that suggests items works best for a kitchen buyer who has time to browse. A quick reorder at the end of a shift is a different moment. The two can work together."
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a6d",
@@ -217,7 +217,7 @@
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
-   "Whatever you add, the order still arrives into the system you chose, by EDI, API or QuickBooks, or by email to your desk. Nobody has to learn a new screen to receive it."
+   "Whatever you add, the order still arrives into the system you chose, or as an email to your desk. Nobody has to learn a new screen to receive it."
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
@@ -225,7 +225,7 @@
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b8",
-   "Twenty minutes. One spoken order, end to end, and the time it gives back on the next one."
+   "Twenty minutes. One spoken order, beginning to end, and how much time it can save on each order."
   ],
   [
    "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
@@ -237,7 +237,7 @@
   ],
   [
    "38293a1d-fb4c-9501-8014-28855f9128b6",
-   "There is no data project at the front of this, and nothing inside Choco changes. You send item lists, we set the customers up, and your customers begin sending orders."
+   "There is no data project to start, and nothing inside Choco changes. You send item lists, we set the customers up, and your customers begin sending orders."
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
@@ -257,11 +257,11 @@
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
-   "It lands finished"
+   "Your order arrives finished"
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
-   "Approved by the customer, carrying a number and a time, in the shape your system expects."
+   "The customer has approved it, and it carries a number and the time it was sent, in the format your system takes."
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a176",
@@ -277,7 +277,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a179",
-   "Adding voice ordering should take nothing away, and the table is drawn that way. Most searches for a Choco alternative start with one gap, not a broken platform, so below is Choco today, then Choco with our app beside it. The two do not connect, and everything said about Choco comes from their own site."
+   "Adding voice ordering should not take anything away, and the table below is drawn to show it. Most searches for a Choco alternative start with one gap, not a broken platform, so below is Choco today, then Choco with our app beside it. The two do not connect, and everything said about Choco comes from their own site."
   ],
   [
    "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
@@ -313,7 +313,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
-   "Sales hub plus CRM"
+   "Sales tools plus CRM"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
@@ -337,7 +337,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
-   "Better than Choco, or better beside it?"
+   "Better than Choco, or best used with it?"
   ],
   [
    "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
@@ -353,7 +353,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
-   "Only in the narrow sense that both take orders. We do not run storefronts, sales tooling or a CRM, and we do not want you to give those up. Most people who search for a Choco alternative want one thing added, an order the kitchen speaks and approves, rather than a platform taken away."
+   "Only in the narrow sense that both take orders. We do not run storefronts, sales tools or a CRM, and we do not want you to give those up. Most people who search for a Choco alternative want one thing added: an order the kitchen speaks and approves. They do not want a platform taken away."
   ],
   [
    "e219e293-819b-221b-6d80-7f8d2898a4d7",
@@ -361,7 +361,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
-   "Not at what Choco is built for: bigger baskets, rep tooling and customer records. Where we are stronger is narrower. The customer approves every item before it goes, so nobody at your end interprets a message. That is why we belong beside Choco, not in its place."
+   "No, not at what Choco is built for: larger orders, tools for reps and customer records. We are stronger at one narrower job. The customer approves every item before it goes, so nobody at your end interprets a message. That is why we belong beside Choco, not in its place."
   ],
   [
    "39590628-381c-9aea-6095-0746f7348939",
@@ -369,7 +369,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
-   "No. The two are separate products, and each vendor supports only its own. Each one sends its orders into your system on its own, ours in the formats shown above, so they reach your desk in a form it already handles."
+   "No. The two are separate products, and each vendor supports only its own. Each one sends its own orders into your system. Ours come in the formats shown above, which your desk knows how to handle."
   ],
   [
    "0f73d180-08e9-596f-f264-a95de40f9593",
@@ -385,7 +385,7 @@
   ],
   [
    "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
-   "Most distributors are up and running within 24 to 48 hours, and most of their customers place a first order that same day. There is no IT project, and Choco carries on as normal throughout, so there is no cut-over date to plan around."
+   "Most distributors are up and running within 24 to 48 hours, and most of their customers place a first order that same day. There is no IT project, and Choco carries on as normal throughout, so there is no switch-over date to plan around."
   ],
   [
    "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
@@ -411,7 +411,7 @@
   ],
   [
    "55af8715-1c0d-7742-fde4-496073314315",
-   "<div class=\"uui-text-size-medium-21\">Varies by channel</div>"
+   "<div class=\"uui-text-size-medium-21\">Depends on how it arrives</div>"
   ],
   [
    "5539a8dc-3999-60a4-e63a-01a711a5373d",
@@ -511,15 +511,15 @@
   },
   {
    "q": "Would that make VoiceOrder Solutions a Choco competitor?",
-   "a": "Only in the narrow sense that both take orders. We do not run storefronts, sales tooling or a CRM, and we do not want you to give those up. Most people who search for a Choco alternative want one thing added, an order the kitchen speaks and approves, rather than a platform taken away."
+   "a": "Only in the narrow sense that both take orders. We do not run storefronts, sales tools or a CRM, and we do not want you to give those up. Most people who search for a Choco alternative want one thing added: an order the kitchen speaks and approves. They do not want a platform taken away."
   },
   {
    "q": "Is VoiceOrder Solutions better than Choco?",
-   "a": "Not at what Choco is built for: bigger baskets, rep tooling and customer records. Where we are stronger is narrower. The customer approves every item before it goes, so nobody at your end interprets a message. That is why we belong beside Choco, not in its place."
+   "a": "No, not at what Choco is built for: larger orders, tools for reps and customer records. We are stronger at one narrower job. The customer approves every item before it goes, so nobody at your end interprets a message. That is why we belong beside Choco, not in its place."
   },
   {
    "q": "Does VoiceOrder Solutions connect to Choco?",
-   "a": "No. The two are separate products, and each vendor supports only its own. Each one sends its orders into your system on its own, ours in the formats shown above, so they reach your desk in a form it already handles."
+   "a": "No. The two are separate products, and each vendor supports only its own. Each one sends its own orders into your system. Ours come in the formats shown above, which your desk knows how to handle."
   },
   {
    "q": "Won't some kitchens end up with two ordering apps?",
@@ -527,7 +527,7 @@
   },
   {
    "q": "How soon can our accounts start?",
-   "a": "Most distributors are up and running within 24 to 48 hours, and most of their customers place a first order that same day. There is no IT project, and Choco carries on as normal throughout, so there is no cut-over date to plan around."
+   "a": "Most distributors are up and running within 24 to 48 hours, and most of their customers place a first order that same day. There is no IT project, and Choco carries on as normal throughout, so there is no switch-over date to plan around."
   },
   {
    "q": "What does adding VoiceOrder Solutions cost?",

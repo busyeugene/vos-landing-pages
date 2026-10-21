@@ -9,7 +9,7 @@
   ],
   [
    "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
-   "Back on each order once the phone is out of it"
+   "Saved on each order that skips the phone"
   ],
   [
    "3027ca32-6180-79a6-1a66-d9f911e27a08",
@@ -17,7 +17,7 @@
   ],
   [
    "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
-   "Covers go-live for most distributors"
+   "Is how long go-live takes for most distributors"
   ],
   [
    "448bf1fe-361f-3c13-6268-4572092953ba",
@@ -25,7 +25,7 @@
   ],
   [
    "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
-   "Is first-order day for most kitchens"
+   "Is when most kitchens place their first order"
   ],
   [
    "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
@@ -37,7 +37,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8c2",
-   "BlueCart sells reach. Join the marketplace, get listed in the endless aisle, be seen by restaurants across their network. That is worth keeping for a supplier chasing new accounts. Once an account is yours, though, the weekly reorder is a different job, and that is usually when a BlueCart competitor gets a look."
+   "BlueCart sells reach: it helps you find new customers. You join their marketplace, get listed in what they call the \"endless aisle\", and restaurants across their network can see you. That is worth keeping for a supplier chasing new accounts. Once an account is yours, though, the weekly reorder is a different job, and that is usually when a BlueCart competitor gets a look."
   ],
   [
    "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
@@ -53,11 +53,11 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8d3",
-   "BlueCart positions its Order Management Solution as a replacement for phone and email ordering, and for buyers who use it, it is. The kitchens who prefer talking to logging in are the gap."
+   "BlueCart presents its Order Management Solution as a replacement for phone and email ordering. For buyers who use it, it does replace them. The kitchens who prefer talking to logging in are the gap."
   ],
   [
    "83921d0d-4ec1-911e-4420-fee5bfd13614",
-   "Leaving would cost you the reach"
+   "Leaving would cost you new customers"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8da",
@@ -85,7 +85,7 @@
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
-   "The buyer looks at the list before anything leaves"
+   "Your customer looks at the list before anything leaves"
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
@@ -93,7 +93,7 @@
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
-   "20 to 30 minutes back against the same order by phone"
+   "Saves 20 to 30 minutes compared with the same order by phone"
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
@@ -105,11 +105,11 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdea2",
-   "Your range, at the prices you hold"
+   "Your products, at your own prices"
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdea6",
-   "You send the guides you keep per customer. We load them against your SKUs at the price you hold for that account."
+   "You send the guides you keep per customer. We load them with your SKUs and the price you set for that account."
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdead",
@@ -121,7 +121,7 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdeb9",
-   "Change a guide once and it stands on the orders after"
+   "Change a guide once and every later order uses it"
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdebf",
@@ -145,7 +145,7 @@
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb129",
-   "On a direct feed there is no rekeying at your end"
+   "Over EDI, the API or QuickBooks, nobody on your team retypes it"
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb12f",
@@ -153,7 +153,7 @@
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb135",
-   "No part of your stack has to be retired first"
+   "You do not have to remove any software first"
   ],
   [
    "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
@@ -165,7 +165,7 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df93e",
-   "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect."
+   "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df945",
@@ -177,7 +177,7 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df951",
-   "Numbers come out of whatever you count with now"
+   "Stock numbers come from the system you count with today"
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df957",
@@ -193,11 +193,11 @@
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
-   "VoiceOrder Solutions is not a BlueCart replacement, because it cannot do the thing BlueCart is for. It adds on, so being listed on a marketplace is no reason to skip this."
+   "VoiceOrder Solutions is not a BlueCart replacement, because it cannot do the thing BlueCart is for. It adds on, so you can use it and stay listed on the marketplace."
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
-   "Meet them there, make reordering quick"
+   "Meet them on BlueCart, make reordering quick"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
@@ -217,7 +217,7 @@
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
-   "Ours show up in whichever system you picked, over EDI, the API or QuickBooks, or as an email to your desk. Nothing about your BlueCart dashboard changes."
+   "Ours show up in whichever system you picked, by EDI, through the API or in QuickBooks, or as an email to your desk. Nothing about your BlueCart dashboard changes."
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
@@ -225,7 +225,7 @@
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b8",
-   "Twenty minutes. One account, one order spoken off a sample guide and signed off before it sends."
+   "Twenty minutes. One account, a single spoken order from a sample guide, signed off before it sends."
   ],
   [
    "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
@@ -257,11 +257,11 @@
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
-   "It arrives whole"
+   "The order arrives whole"
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
-   "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+   "Approved by the customer, with an order number and the time it was sent, in the format your system expects."
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a176",
@@ -269,7 +269,7 @@
   ],
   [
    "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
-   "Win there, reorder here."
+   "Find accounts there, take reorders here."
   ],
   [
    "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
@@ -277,7 +277,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a179",
-   "Nothing in this table gets taken away, because adding a tool should not cost you anything you have. BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to, and a BlueCart alternative search usually comes from the reorder side, not the reach. The two do not connect, and what we say about BlueCart was read on their site."
+   "Adding our app should not cost you anything you already have, and every row below reflects that. BlueCart's own pitch is a marketplace that puts you in front of restaurants you have never sold to, and a BlueCart alternative search is usually about repeat orders from regulars, not about finding new ones. The two do not connect, and what we say about BlueCart was read on their site."
   ],
   [
    "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
@@ -305,7 +305,7 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
-   "Your buyer signs the order off before it sends"
+   "Your customer signs off the order before it sends"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
@@ -349,7 +349,7 @@
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
-   "At finding new customers, no, and it is not a close call. That is their product and we do not have one. We help with the repeat order from an account already on your books: your range only, your prices, approved by the buyer. People who search for a BlueCart alternative are often after that second job, not a way out of the first."
+   "At finding new customers, no, and it is not a close call. That is what BlueCart sells, and we offer nothing like it. We help with the repeat order from an account already on your books: only your products, at your prices, approved by your customer. People who search for a BlueCart alternative often want help with repeat orders, not a way to stop meeting new kitchens."
   ],
   [
    "e219e293-819b-221b-6d80-7f8d2898a4d7",
@@ -381,7 +381,7 @@
   ],
   [
    "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
-   "For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart says theirs can be live within days too, and since the listing stays up, there is nothing to time around."
+   "For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart says theirs can be live within days too, and since the listing stays up, there is nothing to schedule around."
   ],
   [
    "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
@@ -397,7 +397,7 @@
   ],
   [
    "7ec95cf1-65b0-b7be-b209-99042752451e",
-   "Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If any of it has moved on, the fault is here, not there."
+   "Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If something there is out of date now, we will fix it."
   ]
  ],
  "embed": [
@@ -506,7 +506,7 @@
    "cta": "Book a Free Demo"
   },
   "mainCta": {
-   "h2": "Keep the listing. Bring the reorder home.",
+   "h2": "Keep the listing. Get regulars' reorders off the phone.",
    "body": "Twenty minutes, one order priced from a guide, and approved before it sends.",
    "cta": "Book a Free Demo"
   }
@@ -518,7 +518,7 @@
   },
   {
    "q": "Is VoiceOrder Solutions better than BlueCart?",
-   "a": "At finding new customers, no, and it is not a close call. That is their product and we do not have one. We help with the repeat order from an account already on your books: your range only, your prices, approved by the buyer. People who search for a BlueCart alternative are often after that second job, not a way out of the first."
+   "a": "At finding new customers, no, and it is not a close call. That is what BlueCart sells, and we offer nothing like it. We help with the repeat order from an account already on your books: only your products, at your prices, approved by your customer. People who search for a BlueCart alternative often want help with repeat orders, not a way to stop meeting new kitchens."
   },
   {
    "q": "Are VoiceOrder Solutions and BlueCart connected?",
@@ -534,7 +534,7 @@
   },
   {
    "q": "How fast can accounts begin ordering?",
-   "a": "For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart says theirs can be live within days too, and since the listing stays up, there is nothing to time around."
+   "a": "For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. BlueCart says theirs can be live within days too, and since the listing stays up, there is nothing to schedule around."
   },
   {
    "q": "How do the costs compare?",
@@ -542,7 +542,7 @@
   },
   {
    "q": "Where do the BlueCart details on this page come from?",
-   "a": "Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If any of it has moved on, the fault is here, not there."
+   "a": "Everything here came from bluecart.com, read 10 October 2026: the marketplace positioning off the headline, the Pricing Insights and endless aisle descriptions off their product list, and the setup line off their FAQ. We have left their transaction and funding figures alone, because those are theirs. If something there is out of date now, we will fix it."
   }
  ]
 }

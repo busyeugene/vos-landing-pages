@@ -90,7 +90,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
      },
-     "text": "Choco calls itself an AI platform for food and beverage wholesalers. It digitizes inbound orders, runs an online catalog that recommends items, and carries a sales hub and a foodservice CRM. None of that is a flaw. The gap that starts a Choco alternative search is usually one step wide, and replacing a whole platform to close it is out of proportion."
+     "text": "Choco calls itself an AI platform for food and beverage wholesalers. It turns incoming orders into digital ones, runs an online catalog that recommends products, and includes sales tools and a customer database (CRM) for foodservice. None of that is a flaw. A Choco alternative search usually starts with one small gap. Replacing a whole platform to fix it is far too much."
     }
    },
    {
@@ -120,7 +120,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
      },
-     "text": "A parsed message still gets read by you"
+     "text": "AI reads the message, but the kitchen never checks what it read"
     }
    },
    {
@@ -140,7 +140,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "83921d0d-4ec1-911e-4420-fee5bfd13614"
      },
-     "text": "You want one step fixed, not a new stack"
+     "text": "You want a single fix, not all new software"
     }
    },
    {
@@ -190,7 +190,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "24599529-959c-8515-3ff2-44ca6d68a0ed"
      },
-     "text": "Built by whoever is standing in the cooler"
+     "text": "Orders built by whoever is in the cooler"
     }
    },
    {
@@ -230,7 +230,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
      },
-     "text": "20 to 30 minutes back against the same order by phone"
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
     }
    },
    {
@@ -270,7 +270,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
      },
-     "text": "Pass us the guides you keep per customer. We load them against your SKUs at the price you hold for that account, so a spoken item lands on the right row against your own SKU."
+     "text": "Pass us the guides you keep per customer. We load them with your SKUs and the price you set for that account, so each spoken item is matched to your own SKU."
     }
    },
    {
@@ -310,7 +310,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
      },
-     "text": "No browsing and no cart to abandon"
+     "text": "No browsing and no shopping cart"
     }
    },
    {
@@ -340,7 +340,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
      },
-     "text": "Nobody has to move desks for this. A finished order goes out as an email with a PDF, Excel or Word file attached, or straight into your ERP over the API, over EDI, or into QuickBooks."
+     "text": "Your office does not change how it works. A finished order goes out as an email with a PDF, Excel or Word file attached, or straight into your ERP over the API, over EDI, or into QuickBooks."
     }
    },
    {
@@ -360,7 +360,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
      },
-     "text": "On a direct feed there is no rekeying at your end"
+     "text": "Over EDI, the API or QuickBooks, nobody on your team retypes it"
     }
    },
    {
@@ -380,7 +380,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
      },
-     "text": "No part of your stack has to be retired first"
+     "text": "You do not have to remove any software first"
     }
    },
    {
@@ -410,7 +410,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
      },
-     "text": "VoiceOrder Solutions shows real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect."
+     "text": "VoiceOrder Solutions shows real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
     }
    },
    {
@@ -440,7 +440,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
      },
-     "text": "Numbers come out of whatever you count with now"
+     "text": "Stock numbers come from the system you count with today"
     }
    },
    {
@@ -480,7 +480,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
      },
-     "text": "We are not a Choco replacement, and we would rather you did not treat us as one. Our app adds on, so a storefront that is already in place has nothing to undo before you try it."
+     "text": "We are not a Choco replacement, and we would rather you did not treat us as one. Our app adds on, so your storefront stays exactly as it is while you try it."
     }
    },
    {
@@ -500,7 +500,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
      },
-     "text": "A storefront that suggests items earns its keep on a buyer who is browsing with time to spare. The reorder at the end of a shift is not that moment. The two jobs can sit together without arguing."
+     "text": "A storefront that suggests items works best for a kitchen buyer who has time to browse. A quick reorder at the end of a shift is a different moment. The two can work together."
     }
    }
   ],
@@ -542,7 +542,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
      },
-     "text": "Whatever you add, the order still arrives into the system you chose, by EDI, API or QuickBooks, or by email to your desk. Nobody has to learn a new screen to receive it."
+     "text": "Whatever you add, the order still arrives into the system you chose, or as an email to your desk. Nobody has to learn a new screen to receive it."
     }
    },
    {
@@ -562,7 +562,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
      },
-     "text": "Twenty minutes. One spoken order, end to end, and the time it gives back on the next one."
+     "text": "Twenty minutes. One spoken order, beginning to end, and how much time it can save on each order."
     }
    },
    {
@@ -592,7 +592,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
      },
-     "text": "There is no data project at the front of this, and nothing inside Choco changes. You send item lists, we set the customers up, and your customers begin sending orders."
+     "text": "There is no data project to start, and nothing inside Choco changes. You send item lists, we set the customers up, and your customers begin sending orders."
     }
    },
    {
@@ -642,7 +642,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
      },
-     "text": "It lands finished"
+     "text": "Your order arrives finished"
     }
    },
    {
@@ -652,7 +652,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
      },
-     "text": "Approved by the customer, carrying a number and a time, in the shape your system expects."
+     "text": "The customer has approved it, and it carries a number and the time it was sent, in the format your system takes."
     }
    },
    {
@@ -692,7 +692,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
      },
-     "text": "Adding voice ordering should take nothing away, and the table is drawn that way. Most searches for a Choco alternative start with one gap, not a broken platform, so below is Choco today, then Choco with our app beside it. The two do not connect, and everything said about Choco comes from their own site."
+     "text": "Adding voice ordering should not take anything away, and the table below is drawn to show it. Most searches for a Choco alternative start with one gap, not a broken platform, so below is Choco today, then Choco with our app beside it. The two do not connect, and everything said about Choco comes from their own site."
     }
    },
    {
@@ -782,7 +782,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1ec"
      },
-     "text": "Sales hub plus CRM"
+     "text": "Sales tools plus CRM"
     }
    },
    {
@@ -842,7 +842,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
      },
-     "text": "Better than Choco, or better beside it?"
+     "text": "Better than Choco, or best used with it?"
     }
    },
    {
@@ -882,7 +882,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
      },
-     "text": "Only in the narrow sense that both take orders. We do not run storefronts, sales tooling or a CRM, and we do not want you to give those up. Most people who search for a Choco alternative want one thing added, an order the kitchen speaks and approves, rather than a platform taken away."
+     "text": "Only in the narrow sense that both take orders. We do not run storefronts, sales tools or a CRM, and we do not want you to give those up. Most people who search for a Choco alternative want one thing added: an order the kitchen speaks and approves. They do not want a platform taken away."
     }
    },
    {
@@ -902,7 +902,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
      },
-     "text": "Not at what Choco is built for: bigger baskets, rep tooling and customer records. Where we are stronger is narrower. The customer approves every item before it goes, so nobody at your end interprets a message. That is why we belong beside Choco, not in its place."
+     "text": "No, not at what Choco is built for: larger orders, tools for reps and customer records. We are stronger at one narrower job. The customer approves every item before it goes, so nobody at your end interprets a message. That is why we belong beside Choco, not in its place."
     }
    },
    {
@@ -922,7 +922,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
      },
-     "text": "No. The two are separate products, and each vendor supports only its own. Each one sends its orders into your system on its own, ours in the formats shown above, so they reach your desk in a form it already handles."
+     "text": "No. The two are separate products, and each vendor supports only its own. Each one sends its own orders into your system. Ours come in the formats shown above, which your desk knows how to handle."
     }
    },
    {
@@ -962,7 +962,7 @@
       "component": "6aca3a56a6caad0812b5c2cd",
       "element": "4446ea80-4c7a-f2a8-f0de-0a222818c94f"
      },
-     "text": "Most distributors are up and running within 24 to 48 hours, and most of their customers place a first order that same day. There is no IT project, and Choco carries on as normal throughout, so there is no cut-over date to plan around."
+     "text": "Most distributors are up and running within 24 to 48 hours, and most of their customers place a first order that same day. There is no IT project, and Choco carries on as normal throughout, so there is no switch-over date to plan around."
     }
    },
    {
@@ -1077,7 +1077,7 @@
        {
         "key": "code",
         "static_text": {
-         "value": "<div class=\"uui-text-size-medium-21\">Varies by channel</div>"
+         "value": "<div class=\"uui-text-size-medium-21\">Depends on how it arrives</div>"
         }
        }
       ]

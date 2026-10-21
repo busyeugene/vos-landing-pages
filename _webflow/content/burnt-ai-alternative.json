@@ -4,18 +4,18 @@
  "meta_desc": "Keep your Burnt agents and add an app your accounts speak orders into, approving each line first. A Burnt AI alternative that takes nothing away.",
  "hero": {
   "eyebrow": "For Food Distributors",
-  "h1": "Want A Burnt AI Alternative? Keep The Agents.",
-  "lead": "Give your accounts a way to send orders they have checked themselves. VoiceOrder Solutions goes in alongside Burnt: a buyer says what the kitchen needs into our app, confirms each line, then sends. Your agents keep working the inboxes and the admin side, and nobody has to come on site to set us up.",
+  "h1": "Want A Burnt AI Alternative? Keep Burnt's Agents.",
+  "lead": "Give your accounts a way to send orders they have checked themselves. VoiceOrder Solutions works alongside Burnt: whoever orders for the kitchen speaks into our app, confirms each line, then sends. Burnt's AI agents keep handling your inboxes and admin, and nobody has to visit to set us up.",
   "cta": "Book a Free Demo →"
  },
  "stats": [
   {
    "num": "20-30 Min",
-   "label": "Handed back on each order that was a call"
+   "label": "Saved on each order that used to be a phone call"
   },
   {
    "num": "24-48 Hrs",
-   "label": "Is the window most distributors go live in"
+   "label": "Is how long most distributors take to go live"
   },
   {
    "num": "Same Day",
@@ -25,19 +25,19 @@
  "problem": {
   "eyebrow": "Why Teams Compare",
   "h2": "Why teams want an alternative to Burnt AI",
-  "lead": "Burnt calls itself an AI watchtower for food distribution and deploys agents by team: one for order intake, one for purchasing, one that calls customers about money they owe. It is a serious piece of engineering, and a Burnt AI alternative search rarely means it has failed. The question behind it is narrower: who should confirm what a kitchen asked for?",
+  "lead": "Burnt calls itself an AI watchtower for food distribution. It gives each team its own AI agent, software that handles one job: one takes in orders, one handles purchasing, and one calls customers about money they owe. It is a serious piece of engineering, and a Burnt AI alternative search rarely means it has failed. The question behind it is narrower: who should confirm what a kitchen asked for?",
   "cards": [
    {
     "h3": "Software decides when a person looks",
-    "body": "Burnt's own page says confidence thresholds decide when human review is required. That is a sensible design, and it still means the exceptions land on your desk. Nowhere does it say the customer sees the order first."
+    "body": "Burnt's own page says it uses confidence thresholds to decide when a person must review an order, so the software flags the ones it is unsure of. That is a sensible design, but those flagged orders still land on your desk. Nowhere does it say the customer sees the order first."
    },
    {
-    "h3": "A voicemail still starts as a voicemail",
+    "h3": "A voicemail gets transcribed, not checked by the cook",
     "body": "Burnt transcribes what comes in by phone or as a voicemail, which is genuinely useful. But the order begins as a loose message, and the cook who left it never sees the lines your system ends up holding."
    },
    {
     "h3": "Agents that work are worth keeping",
-    "body": "If intake, purchasing and collections are already earning their keep, pulling the platform out to change who confirms an order would be a lot of disruption for one habit."
+    "body": "If Burnt's agents for orders, purchasing and collections already pay their way, pulling the platform out just to change who confirms an order would be a lot of disruption."
    }
   ]
  },
@@ -48,12 +48,12 @@
    {
     "eyebrow": "Voice Ordering",
     "h3": "Said out loud, checked on screen, then sent",
-    "body": "Your buyer holds the button down and the items appear as a list with quantities. They fix or confirm each line before it goes, so nobody at your end pieces the order together afterwards. The order you receive is the order they signed off.",
+    "body": "The person ordering holds the button down, and the items appear as a list with quantities. They fix or confirm each line before it goes, so nobody at your end pieces the order together afterwards. The order you receive is the order they signed off.",
     "bullets": [
-     "No threshold decides whether a person should look",
+     "No software decides whether anyone looks at the order",
      "Spoken in the cooler or the office, at any hour",
-     "Their own phone, iOS or Android, nothing issued",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Interrupted halfway? It holds the order until they come back"
     ],
     "link": {
@@ -63,13 +63,13 @@
    },
    {
     "eyebrow": "Order Guides",
-    "h3": "Your item list is the whole configuration",
-    "body": "There is no model to train and no workflow to draw. You hand over the item lists you keep per customer, we load them against your SKUs at your prices, and setup is done.",
+    "h3": "Your item lists are the whole setup",
+    "body": "There is no AI to train and no process to map out. You hand over the item lists you keep per customer, we load them with your SKUs and your prices, and setup is done.",
     "bullets": [
      "A kitchen sees nothing but the lines it buys",
      "Pricing and the catalog remain yours to set",
-     "Change a list once and it stands on the orders after",
-     "Nothing to tune as volumes grow"
+     "Change a list once and every later order uses it",
+     "Nothing to adjust as orders grow"
     ],
     "link": {
      "href": "/catalog-management-software",
@@ -79,12 +79,12 @@
    {
     "eyebrow": "Delivery Formats",
     "h3": "It reaches you in a format you already read",
-    "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. Your desk does not move anywhere new.",
+    "body": "A finished order leaves as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. Your desk keeps working where it does now.",
     "bullets": [
      "Addressed to a rep, or to the purchasing desk",
-     "On a direct feed there is no rekeying at your end",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Picking, billing and delivery carry on unchanged",
-     "No part of your stack has to be retired first"
+     "You do not have to remove any software first"
     ],
     "link": {
      "href": "/wholesale-ordering-software",
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock visible as the orders arrive",
-    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in charge, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "Every line you carry, not only the quick movers",
      "Fewer stockout surprises on a late, heavy order",
-     "Numbers come out of whatever you count with now",
+     "Stock numbers come from the system you count with today",
      "We never count or buy stock for you"
     ],
     "link": {
@@ -111,54 +111,54 @@
  "cards": {
   "eyebrow": "Side By Side",
   "h2": "Burnt's agents and VoiceOrder Solutions, each on its own job",
-  "lead": "We are not a Burnt AI replacement and have no ambition to be one. Our app takes a single job, the order a buyer confirms, and leaves the agents to everything else.",
+  "lead": "We are not a Burnt AI replacement and have no ambition to be one. Our app does one job, the order a customer confirms, and leaves Burnt's agents to everything else.",
   "items": [
    {
-    "h3": "Give the agent less to guess at",
-    "body": "Every account you move onto our app sends structured, approved orders instead of a voicemail to transcribe. Burnt keeps handling everything else that arrives."
+    "h3": "Give Burnt's agents fewer voicemails to read",
+    "body": "Every account you move onto our app sends itemized orders it has already approved, instead of a voicemail to transcribe. Burnt keeps handling everything else that arrives."
    },
    {
     "h3": "Leave purchasing and chasing alone",
-    "body": "We have no view on your purchasing and never touch an invoice. If those agents are earning their money, nothing here asks you to undo them."
+    "body": "Our app does nothing with your purchasing and never touches an invoice. If those agents are earning their money, nothing here asks you to undo them."
    },
    {
-    "h3": "One destination, however many tools",
-    "body": "On EDI, the API or QuickBooks, ours land in the same system you chose, so your desk has no second place to check."
+    "h3": "Orders can share one system",
+    "body": "Sent by EDI, API or into QuickBooks, ours reach the same system you chose, so your desk has no second place to check."
    }
   ]
  },
  "midcta": {
-  "h3": "See an approved order land beside your agents",
-  "body": "Twenty minutes. One order spoken by a buyer, approved by that buyer, landing in the format your desk already opens.",
+  "h3": "See an approved order arrive alongside Burnt's",
+  "body": "Twenty minutes. One order spoken and approved by a customer, landing in the format your desk already opens.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
   "eyebrow": "Getting Started",
   "h2": "Three steps, and nobody visits",
-  "lead": "There is no discovery phase and no IT project, and no agent to brief.",
+  "lead": "There is no long planning stage, no IT project, and no AI agent to set up.",
   "items": [
    {
     "h3": "Send over the lists",
     "body": "Whatever format they are already in. Each account's lines and your prices go into a single admin screen, lined up with your codes."
    },
    {
-    "h3": "Each buyer gets a login",
+    "h3": "Each customer gets a login",
     "body": "We set up each account, and the kitchen downloads the app. Most send something in before the day is out."
    },
    {
-    "h3": "It arrives complete",
-    "body": "Signed off by the buyer, carrying a number and a time, in the shape your system expects."
+    "h3": "The order arrives complete",
+    "body": "The kitchen has approved it, and it comes with its own number and a time, in the format your system takes."
    }
   ]
  },
  "comparison": {
-  "h2": "Burnt with VoiceOrder Solutions beside it. Every agent stays.",
+  "h2": "Burnt with VoiceOrder Solutions beside it. Every Burnt agent stays.",
   "h2_lines": [
    "Burnt with VoiceOrder Solutions beside it.",
-   "Every agent stays."
+   "Every Burnt agent stays."
   ],
-  "eyebrow": "One More Step",
-  "lead": "Nothing in this table goes backwards when you add us. People weighing a Burnt AI alternative usually want to know one thing, who signs off an order before it counts, so the rows set Burnt today against Burnt with our app added. The two products are not linked, and every Burnt detail is taken from their own site.",
+  "eyebrow": "Keep Every Agent",
+  "lead": "Adding us takes nothing away, and every row shows it. People weighing a Burnt AI alternative usually want to know one thing: who signs off an order before it counts? So the rows compare Burnt today with Burnt plus our app. The two products are not linked, and every Burnt detail is taken from their own site.",
   "heads": [
    "Feature",
    "Burnt + VoiceOrder Solutions",
@@ -166,7 +166,7 @@
   ],
   "rows": [
    {
-    "label": "Your buyer signs the order off before it sends",
+    "label": "Your customer signs off the order before it sends",
     "cells": [
      {
       "t": "icon",
@@ -174,7 +174,7 @@
      },
      {
       "t": "text",
-      "v": "Reviewed by exception"
+      "v": "A person checks only what the AI flags"
      }
     ]
    },
@@ -226,7 +226,7 @@
      },
      {
       "t": "text",
-      "v": "Audit trail on exceptions"
+      "v": "A record kept on flagged orders"
      }
     ]
    },
@@ -286,15 +286,15 @@
  },
  "faq": {
   "eyebrow": "FAQ",
-  "h2": "Burnt AI competitor, or one more step beside it?",
+  "h2": "Burnt AI competitor, or an add-on beside it?",
   "items": [
    {
-    "q": "Should I look for a Burnt AI alternative so buyers can order by speaking?",
-    "a": "There is no need. Your Burnt agents can stay exactly as they are. VoiceOrder Solutions sits beside them as one more way in for orders: the buyer speaks it, checks it and sends it. Nothing has to be turned off."
+    "q": "Should I look for a Burnt AI alternative just to let kitchens order by talking?",
+    "a": "There is no need. Your Burnt agents can stay exactly as they are. VoiceOrder Solutions sits beside them as one more ordering option: the customer speaks it, checks it and sends it. Nothing has to be turned off."
    },
    {
     "q": "Is VoiceOrder Solutions better than Burnt AI?",
-    "a": "On breadth, no, and it would be silly to pretend otherwise. Burnt reads channels we never touch and automates procurement and invoice chasing, which we never go near. Where we are strong is specific: the buyer approves the order, so whoever knows the kitchen settles whether it is right. If that point is why you started looking for a Burnt AI alternative, you can add it rather than swap."
+    "a": "No, Burnt does far more, and it would be silly to pretend otherwise. Burnt reads channels we never touch and automates purchasing and invoice chasing, which we never go near. Our strength is different: the customer approves the order, so someone who knows that kitchen decides if it is right. If that is why you started looking for a Burnt AI alternative, you can add our app and keep Burnt."
    },
    {
     "q": "Do the two products link up?",
@@ -302,7 +302,7 @@
    },
    {
     "q": "Can our accounts still email or WhatsApp their orders?",
-    "a": "Yes, and Burnt carries on reading them: it lists email, phone, voicemail, WhatsApp, SMS, EDI, portals and spreadsheets. We do not parse any inbound channel at all. A call that reaches your own desk carries no number from us, and no time stamp either: those come only with what is sent from our app."
+    "a": "Yes, and Burnt carries on reading them: it lists email, phone, voicemail, WhatsApp, SMS, EDI, portals and spreadsheets. We do not read incoming emails, texts, calls or other messages at all. A call that reaches your own desk carries no number from us, and no time stamp either: those come only with what is sent from our app."
    },
    {
     "q": "How soon could our accounts be ordering?",
@@ -310,7 +310,7 @@
    },
    {
     "q": "Will anyone need to come to our site?",
-    "a": "Not for this. We set up from the guides you send over, with no implementation project. Burnt describes white-glove onboarding with their team working on your premises; if that already happened for your agents, adding us does not repeat it."
+    "a": "Not for this. We set up from the guides you send over, with no implementation project. Burnt describes hands-on onboarding, with their team working at your site; if that already happened for your agents, adding us does not repeat it."
    },
    {
     "q": "What does VoiceOrder Solutions cost if we keep Burnt?",
@@ -323,8 +323,8 @@
   ]
  },
  "mainCta": {
-  "h2": "Leave Burnt running. Add orders your buyers sign off.",
-  "body": "Twenty minutes, one order, and a buyer approving it on screen.",
+  "h2": "Leave Burnt running. Add orders your customers sign off.",
+  "body": "Twenty minutes, one order, and a customer approving it on screen.",
   "cta": "Book a Free Demo →"
  }
 }

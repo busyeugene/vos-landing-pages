@@ -5,7 +5,7 @@
  "hero": {
   "eyebrow": "For Food Distributors",
   "h1": "A Pepperi Alternative For The Orders Between Visits",
-  "lead": "The reorders nobody drives out for can come in on their own. VoiceOrder Solutions runs beside Pepperi: an account talks through the reorder in our app, checks the lines and sends it. The field team holds on to its routes, store visits and promotions, and stops writing up those repeat orders.",
+  "lead": "Repeat orders that don't need a visit can come in on their own. VoiceOrder Solutions runs beside Pepperi: an account talks through the reorder in our app, checks the lines and sends it. The field team holds on to its routes, store visits and promotions, and stops writing up those repeat orders.",
   "cta": "Book a Free Demo →"
  },
  "stats": [
@@ -29,7 +29,7 @@
   "cards": [
    {
     "h3": "The product is wider than the problem",
-    "body": "Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If what you came for was a better way to receive orders, swapping it out means weighing a platform decision to get at one of its channels."
+    "body": "Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If all you want is a better way to receive orders, replacing Pepperi means a big platform decision to fix one small part of it."
    },
    {
     "h3": "A storefront does not end the calls",
@@ -50,10 +50,10 @@
     "h3": "A chef talks, and that is the order",
     "body": "They go through the cooler, say what is short, and the items come up as a list from their own guide. They correct whatever looks wrong and send it. For accounts a portal never won over, that is the easier habit.",
     "bullets": [
-     "The buyer reads the lines before anything leaves",
+     "The kitchen's buyer reads the lines before anything leaves",
      "Said from a walk-in or an office, at any hour",
-     "Their own handset, iOS or Android, nothing issued",
-     "20 to 30 minutes back against the same order by phone",
+     "Runs on their own iOS or Android phone, with no device from you",
+     "Saves 20 to 30 minutes compared with the same order by phone",
      "Reps stop writing up reorders from accounts on the app, so that time goes into selling"
     ],
     "link": {
@@ -64,7 +64,7 @@
    {
     "eyebrow": "Order Guides",
     "h3": "One list per account, priced the way you priced it",
-    "body": "Send over the lists you keep today. Each account gets the items it buys against your codes, at the figure you hold for that customer, and setup is done. You keep the catalog and the pricing; they get the convenience.",
+    "body": "Send over the lists you keep today. Each account gets the items it buys under your codes, at the price you set for that customer, and setup is done. You keep the catalog and the pricing; they get the convenience.",
     "bullets": [
      "A kitchen never sees a line it does not buy",
      "Your prices, set per account, on every line",
@@ -82,7 +82,7 @@
     "body": "A finished order goes out as an email carrying a PDF, Excel or Word file, or straight into your system over the API, over EDI, or into QuickBooks. Whichever route your desk already trusts is the route it takes.",
     "bullets": [
      "Sent to a named rep, or to the purchasing desk",
-     "On a direct feed nobody retypes it at your end",
+     "Over EDI, the API or QuickBooks, nobody on your team retypes it",
      "Its own number, with the date and time it was sent",
      "Picking, billing and delivery go on exactly as now"
     ],
@@ -94,11 +94,11 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock in view as the orders come in",
-    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the one you run today stays in charge, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
     "bullets": [
      "The whole catalog, not just the fast movers",
      "Fewer stockout surprises on a late, heavy order",
-     "Levels come from the system you count with now",
+     "Stock numbers come from the system you count with today",
      "Nothing is counted or bought on our side"
     ],
     "link": {
@@ -115,11 +115,11 @@
   "items": [
    {
     "h3": "Your reps keep every tool they have",
-    "body": "Routes, audits, van stock and promotions carry on in Pepperi. We take nothing out of a rep's hands; we just take the app accounts' reorders off their plate."
+    "body": "Routes, audits, van stock and promotions carry on in Pepperi. We take nothing out of a rep's hands. We just take the app's reorders off their plate."
    },
    {
     "h3": "Self-service stays for those who enjoy it",
-    "body": "Buyers who are happy clicking through a catalog should carry on. Our app is for the part of the book that never took to one and still telephones instead."
+    "body": "Buyers who are happy clicking through a catalog should carry on. Our app is for kitchens that never took to one and still phone instead."
    },
    {
     "h3": "Start with the accounts nobody gets around to visiting",
@@ -139,7 +139,7 @@
   "items": [
    {
     "h3": "Hand over your guides",
-    "body": "A spreadsheet is plenty. Items and the price per account load into one admin screen, against the codes you already use."
+    "body": "A spreadsheet is plenty. Items and the price per account load into one admin screen, under the codes you already use."
    },
    {
     "h3": "Each account gets set up",
@@ -147,7 +147,7 @@
    },
    {
     "h3": "Orders arrive finished",
-    "body": "Approved by the buyer, carrying a number and a time, laid out as your office expects."
+    "body": "The customer has approved it. It carries a number and the time it was sent, in the format your system takes."
    }
   ]
  },
@@ -158,7 +158,7 @@
    "The visit and the reorder."
   ],
   "eyebrow": "Visit, Then Reorder",
-  "lead": "The rep's visit and the reorder that follows it are two moments, and this table covers both. Pepperi is a B2B commerce and field sales platform with van routes, store audits, promotions and CRM, so a Pepperi alternative is mostly a question about the order between visits. The left column has both running; they do not connect.",
+  "lead": "A rep's visit and the reorder after it are two different jobs, and this table covers both. Pepperi is a B2B commerce and field sales platform with van routes, store audits, promotions and CRM. So a Pepperi alternative is mostly about the reorders between visits. The left column has both running; they do not connect.",
   "heads": [
    "Feature",
    "Pepperi + VoiceOrder Solutions",
@@ -298,7 +298,7 @@
    },
    {
     "q": "Doesn't Pepperi already let customers order for themselves?",
-    "a": "It does. They offer a branded self-service portal with each buyer's own catalog and pricing. Every route into it still means working a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones our app suits."
+    "a": "It does. They offer a branded self-service portal with each buyer's own catalog and pricing. Every way into it still means using a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones our app suits."
    },
    {
     "q": "Is Pepperi connected to VoiceOrder Solutions?",

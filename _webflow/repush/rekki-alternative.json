@@ -20,7 +20,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
      },
-     "text": "Comes back on each order once off the phone"
+     "text": "Saved on each order that skips the phone"
     }
    },
    {
@@ -40,7 +40,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fea2"
      },
-     "text": "Covers setup for most distributors"
+     "text": "Is how long setup takes for most distributors"
     }
    },
    {
@@ -90,7 +90,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
      },
-     "text": "Hunting for a REKKI competitor is rarely about doubting the robots. It is usually one specific worry about the orders they read, and that worry has an answer that leaves the robots running."
+     "text": "People hunting for a REKKI competitor rarely doubt REKKI's AI. Their worry is usually about the orders it has to read, and that can be fixed with REKKI's tools left running."
     }
    },
    {
@@ -100,7 +100,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "eb7fd825-30c6-7275-9a2f-c98f68eb960f"
      },
-     "text": "An error rate is still a rate"
+     "text": "Reading orders by software has an error rate"
     }
    },
    {
@@ -110,7 +110,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
      },
-     "text": "REKKI publishes theirs. A number exists because a machine is working out what the order said, and they stand behind it with double checks and a refund guarantee. When the buyer builds the order from their guide and checks it before sending, nobody has to reconstruct it from a message afterwards."
+     "text": "REKKI publishes its error rate. There is a rate because software is working out what each order said, and REKKI backs it with double checks and a refund guarantee. When the customer builds the order from a guide and reviews it first, nobody has to piece it together from a message later."
     }
    },
    {
@@ -120,7 +120,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
      },
-     "text": "Their robot learns your business"
+     "text": "Their AI learns your business"
     }
    },
    {
@@ -130,7 +130,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
      },
-     "text": "Their site says your team trains the robot to fit your business, and that it starts processing orders and learning right away. That is real control. For accounts on our app, your existing order guides are the setup."
+     "text": "Their site says your team trains it to fit your business, and that it starts processing orders and learning right away. That gives you real control. With our app, we set up every account from the order guides you already have."
     }
    },
    {
@@ -140,7 +140,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "83921d0d-4ec1-911e-4420-fee5bfd13614"
      },
-     "text": "The messy order keeps being written"
+     "text": "Messy orders keep coming in"
     }
    },
    {
@@ -150,7 +150,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
      },
-     "text": "Software that copes beautifully with a scrawled message stays busy because the messages keep arriving. For some accounts you would rather the message never got written, and our app can take those while the robot carries on."
+     "text": "Software that reads a sloppy message well stays busy, because those messages keep coming. For some accounts, you would rather they stopped sending messages entirely. Our app can take those accounts while REKKI handles the rest."
     }
    },
    {
@@ -160,7 +160,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d"
      },
-     "text": "What a REKKI alternative moves earlier"
+     "text": "What a REKKI alternative adds before the order is sent"
     }
    },
    {
@@ -200,7 +200,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "24599529-959c-8515-3ff2-44ca6d68a0f1"
      },
-     "text": "A chef says what is running low and the items appear from that account's own guide, carrying your codes and your prices. The buyer looks over every line and fixes anything wrong before it sends, so nobody at your end pieces the order together afterwards."
+     "text": "A chef says what is running low and the items appear from that account's own guide, carrying your codes and your prices. The customer looks over every line and fixes anything wrong before it sends, so nobody at your end pieces the order together afterwards."
     }
    },
    {
@@ -230,7 +230,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
      },
-     "text": "20 to 30 minutes back against the same order by phone"
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
     }
    },
    {
@@ -260,7 +260,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea2"
      },
-     "text": "The guide is what the lines come from"
+     "text": "Every line comes from that customer's guide"
     }
    },
    {
@@ -270,7 +270,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
      },
-     "text": "Each account works from the lines it actually buys, at the figure you hold for that customer. What reaches you is in your own items and codes, because each line is drawn from that customer's guide."
+     "text": "Each account works from the lines it actually buys, at the price you set for that customer. What reaches you is in your own items and codes, because each line is drawn from the guide you set up."
     }
    },
    {
@@ -330,7 +330,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb118"
      },
-     "text": "Handed over in a shape your office knows"
+     "text": "Delivered in a format your office knows"
     }
    },
    {
@@ -360,7 +360,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
      },
-     "text": "On a direct feed nobody retypes it at your end"
+     "text": "Over EDI, the API or QuickBooks, nobody on your team retypes it"
     }
    },
    {
@@ -410,7 +410,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
      },
-     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the system you run today keeps that job, and a demo shows how the levels connect."
+     "text": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
     }
    },
    {
@@ -440,7 +440,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
      },
-     "text": "Levels come out of whatever you count with now"
+     "text": "Stock numbers come from the system you count with today"
     }
    },
    {
@@ -470,7 +470,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64e7"
      },
-     "text": "Where REKKI's robots and VoiceOrder Solutions each fit"
+     "text": "Where REKKI's AI and VoiceOrder Solutions each fit"
     }
    },
    {
@@ -480,7 +480,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
      },
-     "text": "Keeping both is a reasonable call. Our app is not a REKKI replacement: it takes a slice of your book off writing messages at all, and whatever still turns up as an email or a voicemail needs reading by something. A REKKI alternative often turns out to mean exactly that."
+     "text": "Keeping both makes sense. Our app is not a REKKI replacement: it moves some of your accounts off sending messages at all. Whatever comes in as an email or a voicemail still needs something to read it. A REKKI alternative often turns out to mean exactly that."
     }
    },
    {
@@ -490,7 +490,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da6507"
      },
-     "text": "A shorter pile to be right about"
+     "text": "A smaller pile for REKKI to read"
     }
    },
    {
@@ -500,7 +500,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
      },
-     "text": "Kitchens on the app hand over a checked list rather than a message. Anything you have reading the rest gets a smaller stack to work through."
+     "text": "Kitchens on the app hand over a checked list rather than a message. Whatever reads the rest has less to work through."
     }
    }
   ],
@@ -512,7 +512,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "5368ca22-de87-9362-819f-9733489b5a6d"
      },
-     "text": "Whatever wins you new accounts is untouched"
+     "text": "Keep whatever brings you new buyers"
     }
    },
    {
@@ -522,7 +522,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "5368ca22-de87-9362-819f-9733489b5a70"
      },
-     "text": "Anything bringing you new buyers should carry on bringing them. We have no marketplace and no interest in who finds you; we only handle the ordering once they have."
+     "text": "Anything that finds you customers should keep doing it. We have no marketplace and do not help you find buyers. We only handle the ordering once they are your customers."
     }
    },
    {
@@ -542,7 +542,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
      },
-     "text": "Nothing else has to give way for it, so start on the few accounts that eat the most of the morning and judge it on those."
+     "text": "Nothing else has to change for it, so start with the few accounts that take up most of your morning, and judge it on those."
     }
    },
    {
@@ -552,7 +552,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "4590e4b1-e797-fe36-9056-58de9ded19b4"
      },
-     "text": "An order the buyer has already checked"
+     "text": "An order the customer has already checked"
     }
    },
    {
@@ -562,7 +562,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
      },
-     "text": "Twenty minutes. The chef talks, their own guide supplies the lines, and nobody at your end has to work out what they meant."
+     "text": "Twenty minutes. The chef talks, the guide fills in the lines, and nobody at your end has to guess what they meant."
     }
    },
    {
@@ -592,7 +592,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
      },
-     "text": "Nothing has to be taught here: your guides are the configuration. You send the guides, we open the accounts, the orders start arriving finished."
+     "text": "There is nothing to train: we set it up from your order guides. You send the guides, we open the accounts, the orders start arriving finished."
     }
    },
    {
@@ -652,7 +652,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
      },
-     "text": "Signed off by the buyer, numbered and timed, in the layout your office asked us for."
+     "text": "Your customer has signed it off, and it comes numbered and timed, in the layout your office asked for."
     }
    },
    {
@@ -672,7 +672,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
      },
-     "text": "Less left to read."
+     "text": "Fewer messages to figure out."
     }
    },
    {
@@ -682,7 +682,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
      },
-     "text": "Two Ways To Trust An Order"
+     "text": "REKKI Today, And With Our App"
     }
    },
    {
@@ -692,7 +692,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
      },
-     "text": "A confirmed order takes nothing away from a robot that reads. Teams looking at a REKKI alternative are usually asking whether anything has to interpret the order, so each row shows REKKI today and REKKI with our app beside it. The two products are not linked, and every REKKI detail is from their own site."
+     "text": "Our app only adds to what you have. Teams looking at a REKKI alternative usually want to know if software still has to work out what each order says. Each row shows REKKI today, and REKKI with our app beside it. The two products are not linked, and every REKKI detail is from their own site."
     }
    },
    {
@@ -732,7 +732,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1be"
      },
-     "text": "Orders read out of any channel by a robot"
+     "text": "AI that reads orders from every channel"
     }
    },
    {
@@ -752,7 +752,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1d5"
      },
-     "text": "The buyer signs the order off before it sends"
+     "text": "Your customer signs off the order before it sends"
     }
    },
    {
@@ -762,7 +762,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e2"
      },
-     "text": "An inbox robot that flags urgent emails"
+     "text": "AI that flags urgent emails in your inbox"
     }
    },
    {
@@ -772,7 +772,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1ec"
      },
-     "text": "Menus scanned for products they don't buy from you yet"
+     "text": "A customer's menu scanned for products they don't buy from you yet"
     }
    },
    {
@@ -832,7 +832,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
      },
-     "text": "Better than REKKI, or less for it to read?"
+     "text": "Better than REKKI, or something to use beside it?"
     }
    },
    {
@@ -852,7 +852,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
      },
-     "text": "One to add, not swap. REKKI automates the work your office does on orders that have already arrived, plus the inbox and the upselling. We change the way one group of customers orders, so less of that work exists. REKKI's robots can stay on the rest."
+     "text": "One to add, not swap. REKKI automates the work your office does on orders that have already arrived, plus the inbox and the upselling. We change the way one group of customers orders, so less of that work exists. REKKI's tools can stay on the rest."
     }
    },
    {
@@ -872,7 +872,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
      },
-     "text": "Not in those terms. Our safeguard is different: every line is picked from the account's guide and the buyer checks each one before sending. Theirs measures how well a machine reads an order a person wrote. That is a different kind of check, not a better percentage."
+     "text": "We don't claim a better percentage. Our safeguard is different: every line is picked from the account's guide, and the customer checks each one before sending. REKKI's number measures how well a machine reads an order a person wrote. Ours is a different kind of check, not a higher score."
     }
    },
    {
@@ -892,7 +892,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
      },
-     "text": "Of course. Somebody can confirm the wrong quantity, as they can on any order ever placed. What changes is who reads the lines last: the person who wants the goods, before anything leaves. This only covers orders placed in our app: a call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock."
+     "text": "Of course. Somebody can confirm the wrong quantity, as they can on any order ever placed. What changes is who reads the lines last: the person who wants the goods, before anything leaves. This only covers orders placed in our app: a call or a voicemail to your desk gets no number, no timestamp and no stock update."
     }
    },
    {
@@ -912,7 +912,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
      },
-     "text": "No. There is no link between the two and no joint support. OrderAI keeps passing what it reads into your system, and our orders come separately, emailed as a file or sent in over EDI or the API."
+     "text": "No. There is no link between the two and no joint support. REKKI's OrderAI, their order-reading software, keeps passing what it reads into your system, and our orders come separately, emailed as a file or sent in over EDI or the API."
     }
    },
    {
@@ -932,7 +932,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
      },
-     "text": "Nothing breaks. Their chef app is free and, by their own account, sends orders to suppliers whether or not the supplier signed up, converting them to email for your order address. Those keep arriving as they do now. Give our app to the accounts who prefer speaking to typing, and leave the ones already happy where they are."
+     "text": "Nothing breaks. REKKI's chef app is free. REKKI says it sends orders to suppliers even if the supplier has not joined REKKI, by turning them into emails to your order address. Those keep arriving as they do now. Give our app to the accounts who prefer speaking to typing, and leave the ones already happy where they are."
     }
    },
    {
@@ -952,7 +952,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "4446ea80-4c7a-f2a8-f0de-0a222818c94f"
      },
-     "text": "They are more open here than we are, and that deserves saying: their site carries an opening figure per customer and what it includes. It is quoted in pounds, and their marketplace is described as UK only, while the app itself is described as working anywhere in the world. Ours is quote-based and nothing is published, so ask and you will get a figure for the voice step on its own."
+     "text": "They are more open about price than we are, and that deserves saying: their site shows a starting price per customer and what it includes. The price is in pounds. Their marketplace is described as UK only, but the app is described as working anywhere in the world. Ours is quote-based and nothing is published, so ask and you will get a figure for the voice step on its own."
     }
    },
    {
@@ -972,7 +972,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf997"
      },
-     "text": "Most distributors are running it in 24 to 48 hours, and most kitchens have an order in that day. Nothing in REKKI is touched or rewired, which matters if you came looking for a REKKI alternative with only one problem to settle."
+     "text": "Most distributors are running it in 24 to 48 hours, and most kitchens place a first order the same day. Nothing in REKKI is touched or rewired, which matters if you came looking for a REKKI alternative with only one problem to settle."
     }
    },
    {
@@ -992,7 +992,7 @@
       "component": "6aca3a6c8b1e86523e69bf86",
       "element": "7ec95cf1-65b0-b7be-b209-99042752451e"
      },
-     "text": "Taken from rekki.com, as of 10 October 2026: the robot descriptions, the accuracy and training wording, the published starting price and the chef app questions. Their performance figures are their own and are not quoted here as results. If any of it has moved on, the mistake is at our end."
+     "text": "Taken from rekki.com, as of 10 October 2026: the AI tool descriptions, the accuracy and training wording, the published starting price and the chef app questions. Their performance figures are their own and are not quoted here as results. If any of it has moved on, the mistake is at our end."
     }
    }
   ]
@@ -1053,7 +1053,7 @@
        {
         "key": "code",
         "static_text": {
-         "value": "<div class=\"uui-text-size-medium-21\">OrderAI reads what arrives</div>"
+         "value": "<div class=\"uui-text-size-medium-21\">REKKI's AI reads what arrives</div>"
         }
        }
       ]
@@ -1081,7 +1081,7 @@
        {
         "key": "code",
         "static_text": {
-         "value": "<div class=\"uui-text-size-medium-21\">Varies: chef app yes, OrderAI no</div>"
+         "value": "<div class=\"uui-text-size-medium-21\">Varies: yes in their chef app, no for orders their AI reads</div>"
         }
        }
       ]
@@ -1578,12 +1578,12 @@
      {
       "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
       "type": "string",
-      "string_value": "Need A REKKI Alternative? Give Accounts A Voice."
+      "string_value": "Need A REKKI Alternative? Try Spoken, Checked Orders."
      },
      {
       "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
       "type": "string",
-      "string_value": "Cut the orders anything has to read. VoiceOrder Solutions works alongside REKKI's robots: your account talks its order into our app, picks from its own guide, and confirms the lines before they reach you. OrderAI and InboxAI keep working on whatever still arrives as a message."
+      "string_value": "Receive orders already checked by the person who placed them. VoiceOrder Solutions works alongside REKKI's AI: your customer speaks into our app, picks items from their own guide, and looks over every line before it goes. REKKI's AI keeps reading whatever still arrives as an email or message."
      },
      {
       "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
@@ -1604,12 +1604,12 @@
      {
       "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
       "type": "string",
-      "string_value": "Keep the robots. Take the reading out of some orders."
+      "string_value": "Keep REKKI's AI. Get some orders checked before they are sent."
      },
      {
       "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
       "type": "string",
-      "string_value": "Twenty minutes, one order, built and confirmed by the buyer."
+      "string_value": "Twenty minutes, one order, built and confirmed by the customer."
      },
      {
       "prop_id": "0336eaf6-adb9-6ceb-4140-3e3e57f922c4",
@@ -1624,7 +1624,7 @@
   "id": "6aca3a6c8b1e86523e69bf86",
   "seo": {
    "title": "REKKI Alternative for Food Distributors in 2026",
-   "description": "Keep REKKI's robots and add an app your accounts speak orders into, confirming every line first. A REKKI alternative that leaves less for anything to read."
+   "description": "Keep REKKI's AI and add an app your accounts speak orders into, confirming every line first. A REKKI alternative that leaves fewer messages to figure out."
   },
   "openGraph": {
    "titleCopied": true,
