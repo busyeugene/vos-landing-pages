@@ -1,4 +1,9 @@
-/* Comparison page: VOS vs OrderEase. `compare` block order (see template.js).
+/* Comparison page: OrderEase, and OrderEase with VoiceOrder Solutions added. `compare` block order.
+ * REFRAMED 2026-10-21 (client, via Eugene): VoiceOrder Solutions is the voice step a distributor
+ * ADDS in front of OrderEase, never its replacement. It answers their "the whole order path, not
+ * one piece of it" directly: keep the whole path, add one piece. Table = "OrderEase + VoiceOrder
+ * Solutions" vs "OrderEase on its own": every OrderEase strength is a tick in both columns. The two
+ * do NOT connect (FAQ 4). Brand in full, never "VOS". The notes below are from the original build.
  * Angle, used by no other page in the set: OrderEase's own thesis is channel consolidation.
  * Their words: "One Business, Multiple Order Paths" / "More Channels Don't Have to Mean More
  * Workflows" / "OrderEase covers the whole order path, not one piece of it". VOS IS one piece,
@@ -19,9 +24,9 @@
  */
 module.exports = {
   title: "OrderEase Alternative for Food Distributors in 2026",
-  description: 'Your accounts speak the order into the app and approve the lines, so it arrives itemized against your codes. An OrderEase alternative for food distributors.',
+  description: 'Keep OrderEase for EDI, portals and emailed POs, and add voice up front: accounts speak each order into an app. An OrderEase alternative that adds one piece.',
   related: ["wizcommerce-alternative","rekki-alternative","necs-entree-alternative"],
-  relatedHeading: "Other tools distributors weigh against VOS",
+  relatedHeading: "Other platforms you keep while adding voice",
   body: `
 <!--@NAVBAR-->
 
@@ -34,20 +39,20 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>An OrderEase Alternative That Shortens The Queue.</h1>
+      <h1>An OrderEase Alternative That Adds One Piece</h1>
       <p class="lead mt-16">
-        VOS works a step earlier. A buyer talks it through in the app and signs off the lines, so what lands on your desk is itemized against your codes. OrderEase pulls every order channel into one clean flow: EDI, portals, emailed POs.
+        Keep every channel you have and add one piece at the front. VoiceOrder Solutions sits alongside OrderEase: a buyer talks the order into our app and signs off the lines, so it lands itemized against your codes. EDI, portals and emailed POs stay with OrderEase.
       </p>
 
       <div class="hero-ctas">
         <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
-        <a href="#comparison" class="btn btn-outline-white btn-lg">Compare The Two</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
       <div class="hero-trust">
         <span>Live in 24-48 hours for most</span>
         <span class="hero-trust-dot"></span>
-        <span>Nothing to reconcile on app orders</span>
+        <span>OrderEase keeps every channel</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -56,7 +61,7 @@ module.exports = {
     <div>
       <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
       <div class="img-placeholder tall">
-        📸 Screenshot:<br>VOS "Push to Speak" screen<br>with the order review list
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
       </div>
     </div>
 
@@ -97,11 +102,11 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
-    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
-      <span class="eyebrow">Different Ends Of The Path</span>
-      <h2>VoiceOrder Solutions vs OrderEase.<br>One cleans up the path, one shortens it.</h2>
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">The Whole Path, Plus One</span>
+      <h2>OrderEase plus VoiceOrder Solutions.<br>Every channel, one more way in.</h2>
       <p class="lead mt-16">
-        VOS sits at the front of that path, where the order is spoken and approved before it is sent. OrderEase is order management plumbing, and good plumbing: many channels in, one checked flow out to your ERP. So an OrderEase alternative is a choice between cleaning up the path and shortening it.
+        Adding a step at the front should never cost you a channel, and this table is drawn that way. OrderEase is order management infrastructure: many channels in, one checked flow out to your ERP. Keeping that flow needs no OrderEase alternative. What voice adds is an order spoken and approved before it is sent. The two do not connect.
       </p>
     </div>
 
@@ -110,34 +115,24 @@ module.exports = {
         <thead>
           <tr>
             <th style="width:40%;">Feature</th>
-            <th class="highlight" style="width:30%;">VoiceOrder Solutions</th>
-            <th style="width:30%;">OrderEase</th>
+            <th class="highlight" style="width:30%;">OrderEase + VoiceOrder Solutions</th>
+            <th style="width:30%;">OrderEase on its own</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>How the order reaches your desk</td>
-            <td>Itemized under your codes, approved by the buyer</td>
-            <td>Lifted out of the PDF or spreadsheet they sent</td>
-          </tr>
-          <tr>
-            <td>Your account's price list is the only setup</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>Rules and channels to configure</td>
-          </tr>
-          <tr>
-            <td>Hands the completed order over by EDI, API or QuickBooks</td>
+            <td>Emailed PDF and CSV purchase orders parsed into orders</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>The buyer builds the order, not your desk</td>
+            <td>Orders spoken in, then approved line by line</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Types it, or sends a file</td>
+            <td>Typed, or sent as a file</td>
           </tr>
           <tr>
-            <td>Where marketplace and store connections live</td>
-            <td>Your own stack</td>
+            <td>Managed EDI with trading-partner compliance</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
@@ -146,19 +141,29 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Where multi-warehouse fulfillment happens</td>
-            <td>Your warehouse system</td>
+            <td>Marketplace and ecommerce connections</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Starts without an integration phase</td>
+            <td>Orders checked against your rules before the ERP</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Days, not months, they say</td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Where it sits on the path</td>
-            <td>At the front, before the queue forms</td>
-            <td>One flow for every channel</td>
+            <td>Fulfillment logic across several warehouses</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>An offline-ready app for sales reps</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Fewer emailed orders left to read</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Reads the ones that arrive</td>
           </tr>
         </tbody>
         <tfoot>
@@ -181,42 +186,37 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container">
-    <div class="text-center" style="max-width: 680px; margin: 0 auto;">
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Why distributors shop for an alternative to OrderEase</h2>
       <p class="lead mt-16">
-        Plenty of people searching for an OrderEase competitor are not shopping for middleware at
-        all. They have one sore channel, not six. Three such cases recur enough to be worth separating.
+        Plenty of people searching for an OrderEase competitor are not shopping for middleware at all. They have one sore channel, not six, and swapping out every channel to fix it is the wrong size of answer. Three such cases recur.
       </p>
     </div>
 
     <div class="problem-grid">
 
       <div class="problem-card">
-        <div class="problem-icon">🧮</div>
-        <h4>You are quoted the whole path for one step</h4>
+        <div class="problem-icon">🧭</div>
+        <h4>The platform covers every channel</h4>
         <p class="text-muted mt-12">
-          OrderEase says itself that it covers the full path rather than one piece of it, and for a lot of sellers that is the right buy. The platform is scoped to every channel, and your problem may be one of them.
+          OrderEase says itself that it covers the full path rather than one piece of it, and for a lot of sellers that is the right buy. If your trouble sits in one channel, the fix can be sized to that channel.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🔍</div>
+        <div class="problem-icon">📄</div>
         <h4>A read file still gets a second look</h4>
         <p class="text-muted mt-12">
-          Software that lifts an order out of a PDF has to be checked, so the exception queue
-          becomes somebody's morning. The work shrinks, which is real, but it does not leave the
-          building.
+          Software that lifts an order out of a PDF has to be checked, and OrderEase says plainly that it flags exceptions for review. The work shrinks, which is real, but somebody still owns that queue.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🏭</div>
+        <div class="problem-icon">🌾</div>
         <h4>Eight industries, and food is one of them</h4>
         <p class="text-muted mt-12">
-          Their site lists food and beverages beside lumber, apparel, pets and lawn care, which is
-          a fair spread of wholesale. It also means nothing in it is shaped around a chef placing
-          an order at the end of service.
+          Their site lists food and beverages beside lumber, apparel, pets and lawn care, which is a fair spread of wholesale. It also means the defaults are general, rather than shaped around a chef placing an order at the end of service.
         </p>
       </div>
 
@@ -232,7 +232,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>What an OrderEase alternative changes at the front</h2>
+      <h2>What an OrderEase alternative adds at the front</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -242,7 +242,7 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>The order is built, not worked out afterwards</h3>
           <p class="mt-12 text-muted">
-            A chef says what is short and the lines come up from that account's own guide, under the codes you use. There is nothing for them to attach and no form to work through, because the order was itemized the second it was spoken.
+            A chef says what is short and the lines come up from that account's own guide, under the codes you use. They look over every line and fix anything wrong before sending, so nobody at your end rebuilds the order from a file.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -266,7 +266,7 @@ module.exports = {
               <span>Interrupted halfway? It holds the order until they come back</span>
             </li>
           </ul>
-          <a href="/order-entry-software" class="feature-link">How an order gets placed →</a>
+          <a href="/order-taking-software" class="feature-link">How order taking works →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -285,13 +285,12 @@ module.exports = {
           <h3>Your codes, your prices, one list per customer</h3>
           <p class="mt-12 text-muted">
             Export the lists you keep now and we load them. Each account gets the items it
-            actually buys at the figure you hold for it, which is also why nothing needs matching
-            up later: the order can only contain lines you sell.
+            actually buys at the figure you hold for it, so the lines on an order come from that guide, already tied to your codes.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>No unknown items and no codes to reconcile</span>
+              <span>Lines arrive tied to your own codes</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -364,7 +363,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock in the picture while orders land</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to order activity, and the catalog
+            VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog
             updates as stock levels change. It is not the system of record for stock: the system
             you run today keeps that job, and a demo shows how the levels connect.
           </p>
@@ -383,7 +382,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No counting and no buying happens inside VOS</span>
+              <span>We never count or buy stock for you</span>
             </li>
           </ul>
           <a href="/inventory-visibility-software" class="feature-link">More on stock visibility →</a>
@@ -409,8 +408,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and no integration phase</h2>
       <p class="lead mt-16">
-        There is no implementation project and no IT work to schedule to make this start. You send the lists, we
-        open the accounts, the orders begin arriving.
+        There is no implementation project and no IT work to schedule to make this start. You send the lists, we create the logins, the orders begin arriving.
       </p>
     </div>
 
@@ -427,9 +425,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Accounts get opened</h4>
+        <h4>Logins get created</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          We provision each customer and walk the kitchen through the app once.
+          We load each guide and provision the account, then the kitchen downloads the app.
           Most of them send something the same day.
         </p>
       </div>
@@ -446,7 +444,7 @@ module.exports = {
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS admin platform showing customer accounts and order guide upload
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
     </div>
   </div>
 </section>
@@ -488,8 +486,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our EDI accounts were never the trouble. It was the forty kitchens
-            that ring, and those are the ones who moved over."
+            "Most of our accounts were fine as they were. The ones who used to call every morning now put the order through the app."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -503,7 +500,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We costed a project to join up every channel we have. What we actually needed was those forty kitchens to stop ringing."
+            "We thought we needed a bigger system. We needed a simpler way for chefs to send what they always called in."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -528,38 +525,37 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
-    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Not Either Or</span>
-      <h2>When VOS and OrderEase work together</h2>
+    <div class="text-center" style="max-width: 620px; margin: 0 auto;">
+      <span class="eyebrow">Front And Back</span>
+      <h2>How OrderEase and VoiceOrder Solutions divide the path</h2>
       <p class="lead mt-16">
-        These two sit at opposite ends of the same path, so running both is reasonable. VOS is no kind of OrderEase replacement: it narrows what has to be handled, and whatever still comes in as a file or over EDI goes on being handled. Quite often that is what an OrderEase alternative turns out to mean.
+        These two sit at opposite ends of the same path, so running both is the sensible setup. We are not an OrderEase replacement: we narrow what has to be handled, and whatever still comes in as a file or over EDI goes on being handled. Quite often that is what an OrderEase alternative turns out to mean.
       </p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
-        <div class="feature-card-icon">📥</div>
+        <div class="feature-card-icon">📉</div>
         <h4>Less of the pile needs reading</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts that move onto the app stop producing anything to interpret. What is left for
-          your intake tooling is a shorter pile, which is the cheapest way to make it look good.
+          Accounts that move onto the app send a list they have already checked, instead of a document someone has to read. Your intake tooling is left with a shorter pile, and more of its time goes on the files that keep arriving.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🔌</div>
-        <h4>Hands off at whatever point you like</h4>
+        <div class="feature-card-icon">🔀</div>
+        <h4>Choose where spoken orders land</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A finished order can go to your ERP directly or into the tooling you have now, over the API, by EDI or as a file. Where it lands is your call, not ours.
+          Straight into the ERP, or as an email your desk already watches. Which of those it is stays your call, not ours.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🧷</div>
-        <h4>Try it on the accounts that ring the most</h4>
+        <div class="feature-card-icon">📞</div>
+        <h4>Try it on the accounts that call the most</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Adding VOS takes nothing away, so there is no contract to end and no migration to schedule. Start with the ones that call most and ask us what that looks like.
+          Adding us takes nothing away, so there is no contract to end and no migration to schedule. Start with the ones that call most and ask us what that looks like.
         </p>
       </div>
 
@@ -574,9 +570,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">Watch one arrive already itemized</h3>
+      <h3 style="margin-bottom:10px;">See one arrive already itemized</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. A chef speaks an order, you see it reach the desk itemized, and the minutes your desk spends on each one come back.
+        Twenty minutes. A chef speaks an order, and you see it reach the desk itemized.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -598,69 +594,61 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Is VOS an OrderEase alternative, or a different tool?
+          Do we need an OrderEase alternative to take spoken orders?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions. VOS changes how one group of customers sends theirs to begin with. Judged as equivalents, one of the two will let you down, so the question is whether your pain is the intake or the phone.
+          No. OrderEase manages what happens to orders after they reach you, from however many directions. VoiceOrder Solutions changes how one group of customers sends theirs to begin with. Keep the first and add the second; they work on separate parts of the same journey.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is VOS better than OrderEase?
+          Is VoiceOrder Solutions better than OrderEase?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At getting a kitchen's order in with nobody typing, we think so. At reading an
-          emailed purchase order, running your EDI partners or wiring up a marketplace, no, and
-          not slightly: we do none of those. If that is the job, buy theirs.
+          At getting a kitchen's order in already itemized and checked by the buyer, we think so. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no: we do none of those. That job is theirs, and it can stay theirs.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          We get a lot of emailed POs. Does VOS read those?
+          We get a lot of emailed POs. Can you read those?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. There is no parser here and we will not imply otherwise. VOS
-          moves accounts off sending a document, which shrinks that pile instead of processing it.
-          For whatever stays on email, their tooling is pointed exactly at it. One limit worth stating: only what comes through the app gets a VOS order number, a timestamp or a stock movement. A call or a voicemail does not.
+          No. There is no parser here and we will not imply otherwise. We move accounts off sending a document, which shrinks that pile instead of processing it. For whatever stays on email, OrderEase's tooling is pointed exactly at it. One limit worth stating: only what comes through our app gets an order number, a timestamp or a stock movement from us. A call or a voicemail does not.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does one of them have to go?
+          Is OrderEase tied to VoiceOrder Solutions at all?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not at all, and plenty of distributors would sensibly keep both. They work on separate
-          parts of the same journey: one cuts the queue down, the other handles what is in it.
-          Nothing in VOS has to be removed for your intake tools to carry on.
+          No. The two run apart, each with its own support, and neither has to be removed for the other to run. OrderEase keeps handling what reaches it, and our orders go into your system by their own route, in any format listed above.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What about validating orders against our rules?
+          Do accounts on the OrderEase portal have to move?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          VOS handles it earlier rather than afterwards. A customer can only order lines from
-          their own guide, at the price you set, so there is nothing unrecognized to check later.
-          What VOS does not do is run a rules engine over orders arriving from anywhere else.
+          No. Buyers who like the portal keep using it. Our app is for the accounts that phone or email instead, and who gets it is your choice, account by account.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How do the costs compare?
+          What does running both cost?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quote-based, with nothing published at all. Ask us and you will get a number for your own book.
+          They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quote-based with nothing published, and since OrderEase stays, it covers only the step we add. Ask and we will quote you.
         </div>
       </div>
 
@@ -670,18 +658,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors have this working in 24 to 48 hours, and for most kitchens the first order follows the same day. Nothing is being connected, which is why an OrderEase alternative
-          gets shortlisted by people who have not budgeted for a project at all.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          Is it a problem that they are not food specialists?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          Not on its own, no, and that industry is on their published list. The narrower point is about defaults: a product built to suit eight trades at once starts from generic ordering habits, and a kitchen reordering late at night is not the case it was designed around.
+          Most distributors have this working in 24 to 48 hours, and for most kitchens the first order follows the same day. Nothing in OrderEase gets connected or altered, so this asks much less of you than an OrderEase alternative that would replace it.
         </div>
       </div>
 
@@ -691,7 +668,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Everything above was taken from orderease.com, as published on 10 October 2026: their product and channel write-ups, the industry list and the pricing page. Their published results figures belong to them and are not quoted here. If something has shifted since, that is our error rather than theirs.
+          We took each OrderEase detail here from orderease.com, as published on 10 October 2026: their product and channel write-ups, the industry list and the pricing page. Their published results figures belong to them and are not quoted here. If something has shifted since, that is our error rather than theirs.
         </div>
       </div>
 
@@ -708,7 +685,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Shorten the queue instead of sorting it</h2>
-  <p>Twenty minutes, one order arriving itemized, with no new channel to wire up.</p>
+  <p>Twenty minutes, and one order that turns up itemized, ready to work.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -754,12 +731,12 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs OrderEase</a></li>
+        <li><a href="#comparison">OrderEase + VoiceOrder Solutions</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h5>More From VOS</h5>
+      <h5>More From VoiceOrder Solutions</h5>
       <ul role="list">
         <li><a href="/order-fulfillment-software">Order Fulfillment</a></li>
         <li><a href="/b2b-portal-software">B2B Portal</a></li>

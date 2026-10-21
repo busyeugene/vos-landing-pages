@@ -1,4 +1,10 @@
-/* Comparison page: VOS vs NECS Entree. `compare` block order (see template.js).
+/* Comparison page: NECS Entree, and Entree with VoiceOrder Solutions added. `compare` block order.
+ * REFRAMED 2026-10-21 (client, via Eugene): VoiceOrder Solutions is the voice step a distributor
+ * ADDS beside Entree, never its replacement. Table = "Entree + VoiceOrder Solutions" vs "Entree on
+ * its own": every Entree strength is a tick in both columns. The two do NOT connect (FAQ 4), and
+ * whether Entree takes our formats in directly is a demo question, never a claim (named-integration
+ * ban). Brand in full, never "VOS". The old H1 "You May Not Need A NECS Entree Alternative." was
+ * rewritten into the add-on frame. The notes below are from the original build.
  * Angle, and no other page in the set does this: it argues AGAINST the premise of its own
  * keyword. Entree is a four-decade food distribution ERP carrying accounting, GL, AP, EDI,
  * warehouse and proof of delivery. Nobody should replace that to fix how orders arrive, and the
@@ -13,9 +19,9 @@
  */
 module.exports = {
   title: "NECS Entree Alternative for Distributors in 2026",
-  description: 'Keep the ERP that runs your business and change one thing: your accounts speak orders instead of typing them. A NECS Entree alternative that replaces nothing.',
+  description: 'Keep the ERP that runs your business and add one step: your accounts speak each order into an app. A NECS Entree alternative that replaces nothing.',
   related: ["fresho-alternative","orderease-alternative","pepperi-alternative"],
-  relatedHeading: "Other tools distributors weigh against VOS",
+  relatedHeading: "Other systems that stay put when voice is added",
   body: `
 <!--@NAVBAR-->
 
@@ -28,18 +34,18 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>You May Not Need A NECS Entree Alternative.</h1>
+      <h1>The NECS Entree Alternative That Keeps Entree Running.</h1>
       <p class="lead mt-16">
-        VOS changes one thing only: instead of typing orders in, the kitchen speaks them into the app and signs it off. What arrives is the order they approved, in one of the formats Entree already takes. Entree carries on running your accounting, your warehouse and your EDI.
+        Give your kitchens a quicker way in than calling the office, and keep the software running your company as it is. VoiceOrder Solutions is added beside Entree: accounts say what they need into our app and approve every line before anything reaches your desk. Accounting, warehouse and EDI never move.
       </p>
 
       <div class="hero-ctas">
         <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
-        <a href="#comparison" class="btn btn-outline-white btn-lg">Compare The Two</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See What Changes</a>
       </div>
 
       <div class="hero-trust">
-        <span>Reps get that hour back to sell</span>
+        <span>Frees your reps to sell</span>
         <span class="hero-trust-dot"></span>
         <span>Your version stays put</span>
         <span class="hero-trust-dot"></span>
@@ -50,7 +56,7 @@ module.exports = {
     <div>
       <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
       <div class="img-placeholder tall">
-        📸 Screenshot:<br>VOS "Push to Speak" screen<br>with the order review list
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
       </div>
     </div>
 
@@ -89,11 +95,11 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
-    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
-      <span class="eyebrow">Not The Same Thing</span>
-      <h2>VoiceOrder Solutions vs Entree.<br>One of these runs your business.</h2>
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">Keep, Then Add</span>
+      <h2>Entree plus VoiceOrder Solutions.<br>Your ERP keeps the books.</h2>
       <p class="lead mt-16">
-        VOS alters one thing only: how the order gets to your desk. Entree has been food distribution software since 1987 and carries the accounting, the warehouse and the EDI, so a NECS Entree alternative is not a like-for-like swap. Entree wins every row about running the company; read on for the rows about ordering.
+        Adding an ordering route should leave your core system alone, so this table only ever adds. Entree has been food distribution software since 1987 and carries the accounting, the warehouse and the EDI, which is why a NECS Entree alternative is rarely a like-for-like swap. The left column is your operation with both; the two products do not connect.
       </p>
     </div>
 
@@ -102,55 +108,55 @@ module.exports = {
         <thead>
           <tr>
             <th style="width:40%;">Feature</th>
-            <th class="highlight" style="width:30%;">VoiceOrder Solutions</th>
-            <th style="width:30%;">Entree</th>
+            <th class="highlight" style="width:30%;">Entree + VoiceOrder Solutions</th>
+            <th style="width:30%;">Entree on its own</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>The core system of the business</td>
-            <td>Not what it does</td>
+            <td>Accounting, ledger and payables</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Sits outside your ERP and its upgrade path</td>
+            <td>Kitchens order by voice and approve each line</td>
             <td><span class="check-yes">✓</span></td>
-            <td>It is the ERP</td>
+            <td>Typed on web or mobile</td>
           </tr>
           <tr>
-            <td>Where the accounting lives</td>
-            <td>Stays in Entree, untouched</td>
+            <td>Warehouse management and a delivery app</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Each account has its own guide, at your prices</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Not listed on their site</td>
           </tr>
           <tr>
-            <td>Where picking and delivery live</td>
-            <td>Handled in Entree today</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Hands the finished order over by EDI, API or QuickBooks</td>
+            <td>Self-service order entry for customers</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Placed by speaking, with every line approved first</td>
+            <td>Tablet ordering for sales reps</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Typed on web or mobile</td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>In use without an IT project</td>
+            <td>EDI run from inside your ERP</td>
             <td><span class="check-yes">✓</span></td>
-            <td>No timeline published</td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Where it fits</td>
-            <td>Added beside Entree</td>
-            <td>Everything from the ledger to the warehouse</td>
+            <td>Reports and dashboards on the whole business</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>A new ordering step, set up from an export</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Ordering modules sit inside it</td>
           </tr>
         </tbody>
         <tfoot>
@@ -173,13 +179,11 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container">
-    <div class="text-center" style="max-width: 680px; margin: 0 auto;">
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
       <span class="eyebrow">Why Teams Compare</span>
       <h2>What people mean by an alternative to NECS Entree</h2>
       <p class="lead mt-16">
-        Almost nobody typing that phrase wants to tear out four decades of distribution software.
-        They want one part of the day to improve. Three versions of that come up often enough to
-        be worth separating, and only one of them is a NECS Entree competitor question at all.
+        Almost nobody searching for a NECS Entree alternative wants to tear out four decades of distribution software. They want one part of the day to improve, and it is usually the intake end. Three versions of that come up, and only the last is a NECS Entree competitor question at all.
       </p>
     </div>
 
@@ -189,26 +193,23 @@ module.exports = {
         <div class="problem-icon">⌨️</div>
         <h4>Ordering still means someone typing</h4>
         <p class="text-muted mt-12">
-          Entree already offers customer ordering on web and mobile, and both routes have the buyer keying quantities against a search. Plenty of kitchens never take to that at the end of a shift, so the
-          orders carry on coming by phone and your desk keys them anyway.
+          Entree already offers customer ordering on web and mobile, and both routes have the buyer keying quantities against a search. Plenty of kitchens never take to that at the end of a shift, so the orders carry on coming by phone and your desk keys them anyway.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🔗</div>
-        <h4>Everything new is inside the same system</h4>
+        <div class="problem-icon">🗄️</div>
+        <h4>Ordering lives inside the ERP</h4>
         <p class="text-muted mt-12">
-          When ordering lives inside the software that runs your company, changing it means changing that software, and it is their module to license and support. Some distributors would
-          rather improve the order without opening that up.
+          Entree's own ordering tools live inside the software that runs your company, which suits the accounts who use them. Our app gives the rest of your book a way in and leaves every module where it is.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🚚</div>
+        <div class="problem-icon">🏗️</div>
         <h4>Actually replacing it is a different project</h4>
         <p class="text-muted mt-12">
-          If your real plan is to move off Entree entirely, be honest that the whole back office goes with it. VOS is not that, and we
-          would sooner say so now than sit through the wrong demo with you.
+          If your real plan is to move off Entree entirely, be honest that the whole back office goes with it. That is an ERP selection, not what we do, and we would rather tell you now than sit through the wrong demo with you.
         </p>
       </div>
 
@@ -232,11 +233,9 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Voice Ordering</span>
-          <h3>Nothing to find, nothing to type</h3>
+          <h3>Say what is low, check it, send it</h3>
           <p class="mt-12 text-muted">
-            A chef counts what is low and says it. No search box, no quantity field, no screen to
-            learn. Items come up as a list, they fix anything wrong, and they send. That is the
-            part a web order form has never managed for the accounts who will not use one.
+            A chef counts what is low and says it. Items come up as a list from their own guide, they fix anything wrong, and they send. For the accounts who never warmed to a web order form, that is a much shorter job.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -278,8 +277,7 @@ module.exports = {
           <span class="eyebrow">Order Guides</span>
           <h3>Built from the lists you already maintain</h3>
           <p class="mt-12 text-muted">
-            Export what you have. We load each account's items against your codes at the price you
-            hold for them, and that is the setup finished. Nothing inside your distribution
+            Export what you have. We load each account's items under your codes at the price you hold for them, and setup is done. Nothing inside your distribution
             software is touched to make it work.
           </p>
           <ul class="feature-bullets mt-24">
@@ -297,7 +295,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Nothing of theirs to add or upgrade</span>
+              <span>No Entree module to add or upgrade</span>
             </li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Keeping guides current →</a>
@@ -358,7 +356,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock in view as each order lands</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
+            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
             charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
@@ -376,7 +374,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No counting happens inside VOS</span>
+              <span>No stock is counted on our side</span>
             </li>
           </ul>
           <a href="/inventory-visibility-software" class="feature-link">More on stock visibility →</a>
@@ -402,8 +400,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and nothing opened up</h2>
       <p class="lead mt-16">
-        Nobody has to log into Entree to do this. You export lists, we open
-        accounts, your customers order.
+        Nothing changes inside Entree to do this. You export lists, we set up the accounts, and kitchens begin sending orders.
       </p>
     </div>
 
@@ -419,9 +416,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We open each customer up</h4>
+        <h4>We set up each account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts get created and the kitchen gets shown the app. Most send
+          We load each guide and set the account up, then the kitchen downloads the app. Most send
           something in before the day is out.
         </p>
       </div>
@@ -438,7 +435,7 @@ module.exports = {
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS admin platform showing customer accounts and order guide upload
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
     </div>
   </div>
 </section>
@@ -480,8 +477,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We had no interest in changing the system that runs our accounts.
-            We wanted the chefs to stop ringing, and only that bit changed."
+            "We wanted fewer order calls from the chefs, and only that part changed. The system that runs our accounts stayed as it was."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -495,8 +491,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our web ordering had been live for years and half the book never
-            touched it. Speaking an order is the first thing they have used."
+            "Some of our chefs never took to ordering online. Saying the order and checking it on the screen is something they actually use."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -521,38 +516,37 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
-    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Not Either Or</span>
-      <h2>When VOS and Entree work together</h2>
+    <div class="text-center" style="max-width: 620px; margin: 0 auto;">
+      <span class="eyebrow">Side By Side</span>
+      <h2>How Entree and VoiceOrder Solutions share the day</h2>
       <p class="lead mt-16">
-        This is the normal case, not the exception. VOS is no sort of NECS Entree replacement: it is the way orders get in, on a system you keep exactly as it is. That is what a NECS Entree alternative usually turns out to mean.
+        Keeping the ERP is the normal case with us, not the exception. We are not a NECS Entree replacement, just a way for orders to get in, on a system you keep exactly as it is.
       </p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
-        <div class="feature-card-icon">🏛️</div>
+        <div class="feature-card-icon">📒</div>
         <h4>Your records stay where they are</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every number your business runs on keeps living where it lives. VOS passes the order across and leaves your own records alone.
+          Every number your business runs on keeps living where it lives. We pass the order across and leave your own records alone.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🙋</div>
+        <div class="feature-card-icon">🖥️</div>
         <h4>Give the web ordering the accounts that like it</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Buyers who happily work through a screen can carry on. VOS is for the part of the book that never adopted it and still telephones, which is where a lot of the morning goes.
+          Buyers who happily work through Entree's screens can carry on. Our app is for the part of the book that never adopted them and still telephones. Calls you keep taking get no order number from us; only what comes through the app does.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🧷</div>
-        <h4>Your accounts get the app, your office gets the order</h4>
+        <div class="feature-card-icon">🔄</div>
+        <h4>Releases come and go without us</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Because VOS is not inside it, your upgrade path is unaffected either way. Nothing here has to
-          wait for a release, and nothing here blocks one.
+          Because we sit outside the ERP, an upgrade never waits on us and we never wait on it. Nothing here has to hold for a release, and nothing here blocks one.
         </p>
       </div>
 
@@ -567,9 +561,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See it land in a system like yours</h3>
+      <h3 style="margin-bottom:10px;">See a voice order arrive next to your ERP</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. A buyer talks, the order shows up in the formats your desk already takes, and nothing in Entree was altered to allow it.
+        Twenty minutes. A buyer talks, and you see the approved order turn up.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -584,44 +578,48 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Questions from distributors already running an ERP</h2>
+      <h2>Questions from distributors keeping their ERP</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Is VOS a NECS Entree alternative, or a different kind of thing?
+          Do we need a NECS Entree alternative so accounts can speak what they need?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Something else entirely, and we would rather lead with that. Entree is the software your
-          company runs on. VOS handles how an order gets in. If you are comparing them as equivalents, one of the two will disappoint you badly, so the better question is which part of
-          the day you are actually trying to fix.
+          No, and we would rather lead with that. Entree is the software your company runs on; VoiceOrder Solutions handles how an order gets in. Keep the first, add the second, and the real question becomes which part of the day you are trying to fix.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is VOS better than NECS Entree?
+          Is VoiceOrder Solutions better than NECS Entree?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At getting an order out of a kitchen that will not use an order form, yes. At everything else
-          Entree does, the question does not apply: we have no ledger, no payables, no warehouse
-          module and no proof of delivery, and no plan to build any of them.
+          At getting an order out of a kitchen that will not use an order form, yes. At everything else Entree does, the question does not apply. We have no ledger, no payables, no warehouse module and no proof of delivery, which is exactly why we belong next to it.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does Entree not already have customer ordering?
+          Doesn't Entree already have customer ordering?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It does, and anyone telling you otherwise has not looked. They offer web order entry and
-          mobile order entry, plus a rep order pad. All of it works by a person finding items and
-          typing quantities. The accounts who were never going to do that are the ones this is for.
+          It does. They offer web order entry and mobile order entry, plus a rep order pad. All of it works by a person finding items and typing quantities. The accounts who were never going to do that are the ones our app is for.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is Entree hooked up to VoiceOrder Solutions?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. Nothing links the two products, and neither vendor supports the other. Our orders leave in the formats shown above, and which of those your own Entree setup takes in directly is something to check in the demo, not a promise we make here.
         </div>
       </div>
 
@@ -631,32 +629,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. We never need an account in it to set this up. We work from an export
-          of your item lists, and the order comes back to you as a file or a feed. Your version,
-          your upgrade schedule and your support arrangement are all unaffected.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          We are thinking of moving off Entree. Can you help?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          Not with the migration itself, no. Replacing it means replacing accounting, ledger,
-          payables, EDI and warehouse functions together, and that is an ERP selection rather than
-          an ordering decision. VOS can run before or after such a project, and orders can keep arriving as a file while the rest moves.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          How do the costs compare?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          They are not comparable, and a quote for one tells you nothing about the other. Neither
-          of us publishes figures. Ours is quoted for your own book, and it is a far narrower decision than choosing the platform the whole company depends on.
+          No. We never need an account in it to set this up. We work from an export of your item lists, and orders arrive as an email attachment or over EDI or the API. Your version, your upgrade schedule and your support arrangement are all unaffected.
         </div>
       </div>
 
@@ -666,21 +639,17 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this goes live inside 24 to 48 hours, and most kitchens get a first order in that day. There is no project here because there is nothing to integrate into,
-          which is the main reason a NECS Entree alternative gets looked at without anybody
-          intending to replace anything.
+          For most distributors this goes live inside 24 to 48 hours, and most kitchens get a first order in that day. There is no project here, because nothing in Entree is connected or changed. So adding a step beside it asks far less of you than a NECS Entree alternative that replaces the ERP.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          And the accounts that will only ever call?
+          How do the costs compare?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They carry on calling, and your desk deals with those the way it always has. Be clear
-          about the limit though: a call or a voicemail gets no order number from VOS, no timestamp
-          and nothing moving in stock. Only what comes through the app does.
+          Neither of us publishes figures. We quote per distributor. Since Entree stays, the decision is only what we cost on top of it. That is a far narrower call than choosing the platform the whole company depends on.
         </div>
       </div>
 
@@ -690,10 +659,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Read off necs.com on 10 October 2026: the module list, the 1987 founding date, the
-          Windows description and the web, mobile and rep ordering products. They publish no price
-          and no implementation process, so this page guesses at neither. If any of it has moved
-          on, the fault is here, not there.
+          Read off necs.com on 10 October 2026: the module list, the 1987 founding date and the web, mobile and rep ordering products. They publish no price and no implementation process, so this page guesses at neither. If any of it has moved on, the fault is here, not there.
         </div>
       </div>
 
@@ -709,8 +675,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Change the order, not the system</h2>
-  <p>Twenty minutes, one order, and not a thing touched in your ERP.</p>
+  <h2>Change how the order arrives, and keep the rest</h2>
+  <p>Twenty minutes, one spoken order, and a clear look at how it lands at your end.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -756,12 +722,12 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs Entree</a></li>
+        <li><a href="#comparison">Entree + VoiceOrder Solutions</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h5>More From VOS</h5>
+      <h5>More From VoiceOrder Solutions</h5>
       <ul role="list">
         <li><a href="/wholesale-operations-software">Wholesale Operations</a></li>
         <li><a href="/distribution-resource-planning-software">Distribution Resource Planning</a></li>

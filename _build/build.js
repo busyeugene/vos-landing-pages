@@ -174,7 +174,15 @@ for (const slug of targets) {
 
   let body = page.body.replace(/\r\n/g, '\n').trim();
   body = body.replace('<!--@RELATED-->', relatedStrip(page));
-  for (const [marker, html] of Object.entries(PARTIALS)) {
+  for (const [marker, partial] of Object.entries(PARTIALS)) {
+    let html = partial;
+    // Compare pages spell the brand out in full (client, 2026-10-21), shared partial included.
+    if (page.kind === 'compare' && marker === '<!--@INTEGRATIONS-->') html = html
+      .replace('Each order leaves VOS as', 'Each order goes out as')
+      // "it can connect to ... platforms" read as "it could connect to the competitor" on pages
+      // whose FAQ says the two do not connect (review, 2026-10-21).
+      .replace(/VOS is also API-ready, so it can connect to distribution and food service\s+platforms and add to what they already do\./,
+        'VoiceOrder Solutions is also API-ready, so orders can go straight into the ERP or distribution system you run.');
     if (body.includes(marker)) body = body.split(marker).join(html);
   }
   const leftover = body.match(/<!--@[A-Z]+-->/);

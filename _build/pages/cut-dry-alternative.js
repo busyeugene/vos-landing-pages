@@ -1,19 +1,17 @@
-/* Comparison page: VOS vs Cut+Dry. `compare` block order (see template.js).
- * Angle, distinct from the four pages before it: Cut+Dry is a three-sided network and says so.
- * Manufacturers pay to promote SKUs to operators "at the exact moment they're building an order",
- * and restaurants are offered cashback from participating distributors and manufacturers. So the
- * contrast is WHO ELSE IS IN THE ROOM when your customer orders. On VOS the account speaks from
- * your guide at your prices and nobody is promoting into that moment.
- * Cut+Dry wins five rows: storefront, search and discovery, payments, invoicing, sales tooling.
- * The page concedes all of it, because it is true and the argument does not need it hidden.
- * Rollout: their only data point is a named customer's 90 days, attributed as such.
+/* Comparison page: Cut+Dry, and Cut+Dry with VoiceOrder Solutions added. `compare` block order (see template.js).
+ * REFRAMED 2026-10-21 (client, via Eugene): keep the "cut+dry alternative" keywords, but present
+ * VoiceOrder Solutions as the spoken reorder added beside Cut+Dry, never as its replacement.
+ * Cut+Dry keeps every real win as a tick in BOTH columns: storefront, payments, invoicing, rep tooling.
+ * The original angle (who else is in the room when your customer orders) survives as one table row
+ * and one FAQ about our own app. Cut+Dry's AI Order Desk transcribes calls and voicemails, so the page
+ * never says they cannot take a voice order. The two products do NOT connect (FAQ 3).
  * Every claim is sourced and dated in _build/research/competitors/cut-dry.md.
  */
 module.exports = {
   title: "Cut+Dry Alternative for Food Distributors in 2026",
-  description: 'Your account speaks an order from your guide, at your prices, with nobody promoting into it. A Cut+Dry alternative with one job and no network.',
-  related: ["bluecart-alternative","choco-alternative","grubmarket-ai-alternative"],
-  relatedHeading: "Other tools distributors weigh against VOS",
+  description: "Keep the Cut+Dry storefront and payments, and add a reorder your accounts speak from your own guide. A Cut+Dry alternative that sits beside it instead.",
+  related: ["bluecart-alternative", "choco-alternative", "grubmarket-ai-alternative"],
+  relatedHeading: "Other tools you can keep while adding voice",
   body: `
 <!--@NAVBAR-->
 
@@ -26,19 +24,18 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A Cut+Dry Alternative Built On Your Own Guide.</h1>
+      <h1>Cut+Dry Alternative? Keep It, Let Regulars Speak Up.</h1>
       <p class="lead mt-16">
-        VOS is a Cut+Dry alternative that is not a network. Your account picks up the app, says what is short from the list you built, and approves it. There is no marketplace around it, no
-        other brand bidding for that moment, and no third party earning off the purchase.
+        Give your phone accounts a reorder they check themselves, and leave the platform alone. VoiceOrder Solutions goes next to Cut+Dry: your accounts say the reorder into our app from the guide you built, approve it, and send. Payments, invoicing and the storefront stay where they are.
       </p>
 
       <div class="hero-ctas">
         <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
-        <a href="#comparison" class="btn btn-outline-white btn-lg">Compare The Two</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
       <div class="hero-trust">
-        <span>Your catalog only</span>
+        <span>Cut+Dry keeps running</span>
         <span class="hero-trust-dot"></span>
         <span>Orders in after you close</span>
         <span class="hero-trust-dot"></span>
@@ -49,7 +46,7 @@ module.exports = {
     <div>
       <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
       <div class="img-placeholder tall">
-        📸 Screenshot:<br>VOS "Push to Speak" screen<br>with the order review list
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
       </div>
     </div>
 
@@ -75,7 +72,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">Same Day</div>
-      <div class="stat-label">Is order one for most kitchens</div>
+      <div class="stat-label">first order for most kitchens</div>
     </div>
   </div>
 </section>
@@ -83,15 +80,16 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 5: COMPARISON TABLE
-     Five rows go to Cut+Dry. All five are real and all five are marked.
+     Not a head-to-head (client, 2026-10-21). Column 2 is the distributor's operation with
+     both tools, column 3 with Cut+Dry alone, so every Cut+Dry strength is a tick in BOTH columns.
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Two Models</span>
-      <h2>VoiceOrder Solutions vs Cut+Dry.<br>A tool, not a network.</h2>
+      <span class="eyebrow">Plus, Not Instead</span>
+      <h2>Cut+Dry, plus VoiceOrder Solutions.<br>One more way in.</h2>
       <p class="lead mt-16">
-        VOS sells one app to your accounts, and every line is drawn from the guide you built. Cut+Dry sells ecommerce, payments and sales tooling across distributors, manufacturers and restaurants, which is why a Cut+Dry alternative is a choice between two shapes rather than two feature lists. The table below marks what each one covers.
+        A second tool should only ever add, so the column with both never loses a row. Cut+Dry sells ecommerce, payments and sales tooling across distributors, manufacturers and restaurants, and a Cut+Dry alternative search tends to start with the accounts that use none of it. The two do not connect, and every fact about Cut+Dry comes from their own site.
       </p>
     </div>
 
@@ -100,55 +98,55 @@ module.exports = {
         <thead>
           <tr>
             <th style="width:40%;">Feature</th>
-            <th class="highlight" style="width:30%;">VoiceOrder Solutions</th>
-            <th style="width:30%;">Cut+Dry</th>
+            <th class="highlight" style="width:30%;">Cut+Dry + VoiceOrder Solutions</th>
+            <th style="width:30%;">Cut+Dry on its own</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Only your catalog in front of the buyer</td>
+            <td>Kitchens speak their reorder into an app</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Manufacturers can promote SKUs</td>
+            <td>Spoken calls transcribed into orders</td>
           </tr>
           <tr>
-            <td>Your buyer signs the order off before it sends</td>
+            <td>A storefront with intelligent search and product discovery</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies by route in</td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>A self-serve way for accounts to order</td>
+            <td>Orders hold if the cook is pulled away mid-list</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Not listed on their site</td>
+          </tr>
+          <tr>
+            <td>Integrated digital payments and automated invoicing</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Customer data, notes and pricing for reps in one place</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Each account has its own guide, at your prices</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Not listed on their site</td>
           </tr>
           <tr>
-            <td>Payments and invoicing in the same product</td>
-            <td>Your own systems keep it</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Third-party rebate attached to the purchase</td>
-            <td>None</td>
-            <td>Cashback on eligible purchases</td>
-          </tr>
-          <tr>
-            <td>Every order an account has placed, in one screen</td>
+            <td>Ordering open around the clock</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>How long until it is running</td>
-            <td>24-48 hours for most</td>
-            <td>Published at under three months</td>
+            <td>Your buyer checks the order before it sends</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>On the storefront, yes</td>
           </tr>
           <tr>
-            <td>Where it fits</td>
-            <td>Beside the systems you run today</td>
-            <td>A platform the business moves onto</td>
+            <td>Manufacturer product data, images and nutritionals</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
         </tbody>
         <tfoot>
@@ -171,42 +169,37 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container">
-    <div class="text-center" style="max-width: 680px; margin: 0 auto;">
-      <span class="eyebrow">Why Teams Compare</span>
-      <h2>Where an alternative to Cut+Dry starts to appeal</h2>
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
+      <span class="eyebrow">The Usual Trigger</span>
+      <h2>What actually sends people looking for an alternative to Cut+Dry</h2>
       <p class="lead mt-16">
-        Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves all three sides of that trade from one platform. That breadth is
-        the product. It is also what sends some buyers looking at a Cut+Dry competitor instead.
+        Cut+Dry calls itself customer-facing ecommerce and sales enablement for foodservice, and it serves all three sides of that trade from one platform. That breadth is the product, and replacing it rarely makes sense. What sends a buyer to a Cut+Dry competitor is usually one narrower thing.
       </p>
     </div>
 
     <div class="problem-grid">
 
       <div class="problem-card">
-        <div class="problem-icon">📣</div>
-        <h4>Someone else can buy that moment</h4>
+        <div class="problem-icon">📞</div>
+        <h4>Some accounts would rather talk than tap</h4>
         <p class="text-muted mt-12">
-          Their own manufacturer pitch is targeted marketing that puts a SKU in front of an
-          operator at the exact moment they are building an order. That is a real product sold to
-          real brands. It is also your customer, mid-order, being sold to by somebody else.
+          Ordering at any hour only helps the kitchens that open the storefront. Plenty still call the office or leave a message instead, and someone at your end writes each one up.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">💸</div>
-        <h4>Cashback has to come from somewhere</h4>
+        <div class="problem-icon">🎙️</div>
+        <h4>Their transcription stops short of the kitchen</h4>
         <p class="text-muted mt-12">
-          Restaurants on the platform earn money back on qualifying orders from participating distributors and manufacturers. A lot of distributors will want to know
-          exactly where that sits before they sign, and reasonably so.
+          The AI Order Desk turns calls and voicemail messages into orders, which is genuinely useful. Their own description mentions no step where the kitchen confirms what was transcribed, so the first person to check those lines is on your side.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🗓️</div>
-        <h4>Going live takes weeks, not hours</h4>
+        <div class="problem-icon">🧱</div>
+        <h4>Starting over is the expensive fix</h4>
         <p class="text-muted mt-12">
-          They publish a launch window measured in weeks. For a platform of that size it is a good result. It is still a quarter before the
-          phone stops ringing.
+          Cut+Dry publishes "Go Live in Under 90 Days", a good result for a platform that size. Going through a launch like that again, and moving how your customers pay, to fix one channel is out of all proportion, and no Cut+Dry alternative should ask it of you.
         </p>
       </div>
 
@@ -222,7 +215,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 600px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>What this Cut+Dry alternative covers, and only that</h2>
+      <h2>A Cut+Dry alternative you add rather than swap in</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -230,11 +223,9 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Voice Ordering</span>
-          <h3>Nothing to browse, so nothing to scroll past</h3>
+          <h3>Spoken, then fixed on screen</h3>
           <p class="mt-12 text-muted">
-            Your account holds the button and says what is short. Items come up as lines with
-            quantities, they correct anything off, and they send. No search results, no
-            recommendations, no other brand in the way of the thing they meant to buy.
+            Your account holds the button and says what is short. Items come up as lines with quantities from their own guide, they correct anything off, and they send.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -243,7 +234,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Said in the kitchen at any hour you are shut</span>
+              <span>Said in the kitchen at any hour you are closed</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -274,11 +265,9 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Order Guides</span>
-          <h3>One guide, yours, and no shelf beside it</h3>
+          <h3>Every guide begins as the list you keep now</h3>
           <p class="mt-12 text-muted">
-            You send the guides you keep per customer. We load them against your SKUs at the price
-            you hold for that account. What the kitchen sees is your range and nothing wider, so
-            the catalog never becomes a place to compare you.
+            Pass us the guides you keep per customer. We load them against your SKUs at the price you hold for that account, so the kitchen orders your range at your prices.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -295,7 +284,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No promoted placements and no sponsored lines</span>
+              <span>Each line ties back to your own SKU</span>
             </li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Keeping guides current →</a>
@@ -356,7 +345,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock beside the orders as they come</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
+            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
             charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
@@ -374,7 +363,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No counting happens inside VOS</span>
+              <span>Nothing gets counted in our app</span>
             </li>
           </ul>
           <a href="/inventory-visibility-software" class="feature-link">More on stock visibility →</a>
@@ -400,8 +389,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and no launch date</h2>
       <p class="lead mt-16">
-        Nothing here needs a project plan or a go-live. You send guides, we open accounts,
-        your customers order.
+        Nothing here needs a project plan, and Cut+Dry carries on as normal. You send guides, we set up accounts, your kitchens start ordering.
       </p>
     </div>
 
@@ -418,10 +406,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We enable each account</h4>
+        <h4>We set up each account</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts get created and the kitchen gets shown the app. Most send
-          something in before the day is out.
+          We open an account for each kitchen, and the kitchen installs our app. Most have ordered before the day is out.
         </p>
       </div>
 
@@ -437,7 +424,7 @@ module.exports = {
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS admin platform showing customer accounts and order guide upload
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
     </div>
   </div>
 </section>
@@ -479,8 +466,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We did not want our customers shopping a catalog. We wanted them
-            reordering from us, quickly, and that is all this does."
+            "Our regulars just want the usual order in. Now they say it, look it over, and it is with us."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -494,7 +480,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our quarter was already full. Being live inside a couple of days instead of a quarter was most of the reason we chose it."
+            "We expected a project. It was a list of guides and a short call, and nothing else we run had to move."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -520,23 +506,20 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto;">
-      <span class="eyebrow">Not Either Or</span>
-      <h2>When VOS and Cut+Dry work together</h2>
+      <span class="eyebrow">Room For Both</span>
+      <h2>Cut+Dry for the platform, voice for the phone accounts</h2>
       <p class="lead mt-16">
-        VOS is not a Cut+Dry replacement and could not be one. It adds on, so a platform already
-        carrying your payments and your storefront is no reason to rule this out.
+        We are not a Cut+Dry replacement and could not be one. The spoken reorder adds on, so a platform already carrying your payments and your storefront is no reason to rule this out.
       </p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
-        <div class="feature-card-icon">🖥️</div>
+        <div class="feature-card-icon">🛍️</div>
         <h4>Let the storefront do the storefront</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Discovery, search and a published catalog are real work, and none of it happens here. The
-          accounts who want to browse keep browsing. The ones who just want Friday's order
-          reordered get a quicker route to it.
+          Discovery, search and a published catalog are real work, and none of it happens here. The accounts who want to browse keep browsing. The ones who just want Friday's order reordered get a quicker route to it.
         </p>
       </div>
 
@@ -544,16 +527,15 @@ module.exports = {
         <div class="feature-card-icon">💳</div>
         <h4>Money and paperwork stay put</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS never touches money. Nothing about adding it asks you to move how customers pay or
-          how invoices go out, which is usually the part nobody wants to disturb.
+          Our app never touches money. Nothing about adding it asks you to move how customers pay or how invoices go out, which is usually the part nobody wants to disturb.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">📦</div>
-        <h4>Still one place for the order to arrive</h4>
+        <div class="feature-card-icon">📬</div>
+        <h4>Our orders go where you point them</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Whichever system you picked is where it shows up, over EDI, the API or QuickBooks. So nobody is watching two queues.
+          Whichever system you picked is where ours show up, over EDI, the API or QuickBooks, or by email to your desk. Nothing changes in Cut+Dry.
         </p>
       </div>
 
@@ -568,9 +550,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See how one guide, one order works</h3>
+      <h3 style="margin-bottom:10px;">See one spoken reorder sit beside Cut+Dry</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. One account, one order said out loud off a guide like yours, and the minutes your desk spends on each call come back.
+        Twenty minutes. One account, one order said out loud off a guide like yours, and where it lands among the orders you already get.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -580,83 +562,64 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 13: FAQ
+     Eight items, to match the eight accordion slots on the Webflow page.
      ============================================================ -->
 <section class="section-pad" id="faq" aria-label="Frequently asked questions">
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Questions that come up against a platform</h2>
+      <h2>What teams keeping Cut+Dry ask us</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Is VOS a fair Cut+Dry alternative, given how much less it does?
+          Does adding voice orders mean finding a Cut+Dry alternative?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          On order capture, yes, and that is the comparison worth making. Everywhere else the
-          honest answer is that they are not the same purchase. Cut+Dry runs a storefront, takes
-          payments, raises invoices and carries a sales tool. VOS moves one order from your account to your desk. One of those is a platform decision and one is not.
+          No. Cut+Dry's call transcription already turns what callers say into orders, and it carries on unchanged. What VoiceOrder Solutions adds beside it is an app where the account talks through its order and approves the lines itself. The ones who browse your storefront keep browsing, and nothing gets switched off first.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is VOS better than Cut+Dry?
+          Is VoiceOrder Solutions better than Cut+Dry?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For a reorder from an account you already have, we would say yes: no browsing, nobody
-          promoting into it, and live in a day or two for most. For selling a catalog, collecting money, or
-          putting your product data in front of a wider market, no, and not close. Those are the
-          things they built.
+          Not at selling a catalog, collecting money, or the manufacturer side of their network. Those are what they built, and we would not ask you to give them up. Where we help is the reorder from an account you already have, spoken off your guide and approved before it sends. That narrow job is often what a Cut+Dry alternative search was really about.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can another brand advertise to my customer inside VOS?
+          Does VoiceOrder Solutions link up with Cut+Dry?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. There is no advertising surface in the app, and we do not sell placement to anyone.
-          Your account sees your own range, priced the way you hold it. Cut+Dry openly offers
-          manufacturers targeted marketing at the moment an operator is ordering, which suits some distributors and is exactly what others are avoiding.
+          It does not. The two products have no connection, and neither vendor supports the other. Each passes its orders to your own system on its own, ours in the formats listed above. When ours come in by EDI or the API, both end up in the same system; an emailed order arrives as a file to open like any other email.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does VOS do payments or invoicing?
+          Will some kitchens be using two ordering apps?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Neither. Money never passes through it. If digital payments and automated invoicing are
-          what you are shopping for, that is a genuine Cut+Dry strength and we would point you back to them for it.
+          Only the ones you offer it to. Accounts happy ordering through Cut+Dry can stay there. The app is for kitchens that still pick up the phone, which is where a spoken, checked order frees up your desk the most. Calls you keep taking get no order number from us; only what is sent through our app does.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does any of this touch our ERP?
+          What if a cook gets pulled away halfway through an order?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only to hand it the order. VOS works at the intake end and passes each one on,
-          itemized and approved. Everything downstream behaves exactly as it did yesterday.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          How do the costs compare?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          Neither of us publishes a figure. They have a pricing page with no prices on it, and ours comes as a quote and is not on the site either. Given the difference in scope, the
-          thing to compare is not the number but what each number is buying.
+          Their list stays saved where they stopped, so they can pick it up again when they are back, and nothing goes out until they send it.
         </div>
       </div>
 
@@ -666,20 +629,17 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this is live inside 24 to 48 hours, with a first order usually in on
-          the same day. Cut+Dry publishes "Go Live in Under 90 Days" on their own distributor page, which is respectable for a platform that size and still most of a quarter, and the common reason a Cut+Dry alternative gets weighed at all.
+          For most distributors this is live inside 24 to 48 hours, with a first order usually in on the same day. Nothing about your Cut+Dry setup has to change while it goes in.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          And the accounts that will only ever call?
+          How do the costs work?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They carry on calling, and your desk deals with those the way it always has. Be clear
-          about the limit though: a call or a voicemail gets no order number from VOS, no timestamp
-          and nothing moving in stock. Only what comes through the app does.
+          Neither of us publishes a figure. Cut+Dry has a pricing page with no prices on it, and ours comes as a quote. Since that platform is staying, the thing to price is only what the voice reorder adds.
         </div>
       </div>
 
@@ -689,10 +649,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          All of the above was read on their own site, 10 October 2026: the module descriptions, the manufacturer
-          marketing pitch, the cashback offer and the published 90 day launch, and the named
-          customer they credit it to. We have left their growth percentages alone, because those
-          are their numbers. If any of it has moved on, the fault is here, not there.
+          All of the above was read on their own site, 10 October 2026: the module descriptions, the line about transcribing calls and the published 90 day launch. We have left their growth percentages alone, because those are their numbers. If any of it has moved on, the fault is here, not there.
         </div>
       </div>
 
@@ -708,7 +665,7 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep the ordering moment yours</h2>
+  <h2>Keep Cut+Dry. Add the reorder kitchens speak.</h2>
   <p>Twenty minutes, one order, and one guide on the screen.</p>
 
   <div class="final-cta-form">
@@ -755,12 +712,12 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs Cut+Dry</a></li>
+        <li><a href="#comparison">Cut+Dry + VoiceOrder Solutions</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h5>More From VOS</h5>
+      <h5>More From VoiceOrder Solutions</h5>
       <ul role="list">
         <li><a href="/wholesale-ordering-software">Wholesale Ordering</a></li>
         <li><a href="/catalog-management-software">Catalog Management</a></li>

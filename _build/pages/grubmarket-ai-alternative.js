@@ -1,4 +1,7 @@
-/* Comparison page: VOS vs GrubMarket AI. `compare` block order (see template.js).
+/* Comparison page: GrubMarket AI, and GrubMarket AI with VoiceOrder Solutions added. `compare` block order.
+ * REFRAMED 2026-10-21 (client): keep the keywords, present VoiceOrder Solutions as the customer-side
+ * voice step a distributor ADDS beside GrubAssist, never its replacement. The two do not connect (FAQ 4).
+ * Brand in full on these pages, never "VOS". Older angle notes below still describe the facts.
  * Angle, distinct from the other three compare pages: GrubAssist is ALSO voice-powered and
  * mobile, so the contrast is whose hands the microphone is in. Every one of GrubAssist's own
  * use-case tags is inward facing (business analysis, performance, cash flow, anomalies): it is
@@ -12,9 +15,9 @@
  */
 module.exports = {
   title: "GrubMarket AI Alternative for Distributors in 2026",
-  description: 'GrubAssist hands your team a voice assistant. This GrubMarket AI alternative hands your customers the app, so your team never builds the order.',
+  description: "Keep GrubAssist for your team and hand your customers a voice app too: they speak and approve each order. A GrubMarket AI alternative that keeps GrubAssist.",
   related: ["rekki-alternative","wizcommerce-alternative","cut-dry-alternative"],
-  relatedHeading: "Other tools distributors weigh against VOS",
+  relatedHeading: "Keep these platforms too, and add voice for customers",
   body: `
 <!--@NAVBAR-->
 
@@ -27,22 +30,20 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A GrubMarket AI Alternative Your Buyers Hold.</h1>
+      <h1>GrubMarket AI Alternative? Hand Customers The Microphone.</h1>
       <p class="lead mt-16">
-        Both products run on voice. The difference is who is talking. VOS is a GrubMarket AI
-        alternative where the kitchen speaks the order into the app on its own phone and approves it,
-        so what reaches your desk is finished. Nobody on your side builds the order.
+        Put a microphone in your customers' hands as well. VoiceOrder Solutions runs beside GrubAssist: the kitchen speaks the order into our app on its own phone, approves each line, and it reaches your desk finished. Your team keeps its assistant for questions about the business.
       </p>
 
       <div class="hero-ctas">
         <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
-        <a href="#comparison" class="btn btn-outline-white btn-lg">Compare The Two</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
       <div class="hero-trust">
-        <span>Your customer holds the mic</span>
+        <span>GrubAssist stays with your team</span>
         <span class="hero-trust-dot"></span>
-        <span>Nothing to change in your ERP</span>
+        <span>Your customer holds the mic</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -51,7 +52,7 @@ module.exports = {
     <div>
       <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
       <div class="img-placeholder tall">
-        📸 Screenshot:<br>VOS "Push to Speak" screen<br>with the order review list
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
       </div>
     </div>
 
@@ -76,7 +77,7 @@ module.exports = {
       <div class="stat-label">Is all most distributors wait to go live</div>
     </div>
     <div>
-      <div class="stat-number">24/7</div> <div class="stat-label">Is when an account can send one</div>
+      <div class="stat-number">24/7</div> <div class="stat-label">Is when an account can place its order</div>
     </div>
   </div>
 </section>
@@ -84,15 +85,16 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 5: COMPARISON TABLE
-     Rows 2 and 3 go to GrubMarket. Both are real and both are marked.
+     Reframed 2026-10-21: see the note inside the section.
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <!-- Reframed 2026-10-21: GrubMarket AI alone vs with VoiceOrder Solutions added. Their strengths are ticks in both columns; only the customer-side app and the buyer sign-off differ. All their facts come from grubmarket.ai ONLY (not grubmarket.com): see the digest. -->
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Who Is Talking</span>
-      <h2>VoiceOrder Solutions vs GrubMarket AI.<br>Same technology, other end.</h2>
+      <span class="eyebrow">Two Microphones</span>
+      <h2>GrubMarket AI plus VoiceOrder Solutions.<br>One mic at each end.</h2>
       <p class="lead mt-16">
-        VOS puts the app in your customers' hands. GrubAssist is an assistant for your own staff that can also build an order, which is the distinction that matters when a GrubMarket AI alternative comes up. Both products use it, so the rows below mark whose hands it is in.
+        Adding the customer's end of the conversation takes nothing from your team's. Anyone weighing a GrubMarket AI alternative over voice should see both ends, so each row shows GrubMarket AI as you run it today and again with our app added. The two are not connected, and everything said about them is read off grubmarket.ai.
       </p>
     </div>
 
@@ -101,55 +103,55 @@ module.exports = {
         <thead>
           <tr>
             <th style="width:40%;">Feature</th>
-            <th class="highlight" style="width:30%;">VoiceOrder Solutions</th>
-            <th style="width:30%;">GrubMarket AI</th>
+            <th class="highlight" style="width:30%;">GrubMarket AI + VoiceOrder Solutions</th>
+            <th style="width:30%;">GrubMarket AI on its own</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>An app your customers speak the order into</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Described for your own team</td>
+            <td>Not described for customers</td>
+          </tr>
+          <tr>
+            <td>Answers questions about your business by voice</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Your buyer signs the order off before it sends</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies by route in</td>
+            <td>Varies by how the order arrives</td>
           </tr>
           <tr>
-            <td>Answers questions about your business by voice</td>
-            <td>Order history in the admin screens</td>
+            <td>Pulls orders out of voicemails, emails and texts</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Each account has its own list, at your prices</td>
             <td><span class="check-yes">✓</span></td>
+            <td>Not listed on their site</td>
+          </tr>
+          <tr>
+            <td>Chatbots trained on your products</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Pulls orders out of voicemails, emails and texts</td>
-            <td>Spoken into the app</td>
+            <td>Market pricing data on thousands of products</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Custom AI built by their developers</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Order number and the time it was sent</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Something to train or tailor first</td>
-            <td>Nothing to train</td>
-            <td>An AI training module</td>
-          </tr>
-          <tr>
-            <td>How long until it is running</td>
-            <td>24-48 hours for most</td>
-            <td>No timeline published</td>
-          </tr>
-          <tr>
-            <td>What changes on your order desk</td>
-            <td>The order arrives built and approved</td>
-            <td>An assistant, extraction, chatbots, pricing data</td>
+            <td>Not described on grubmarket.ai</td>
           </tr>
         </tbody>
         <tfoot>
@@ -176,42 +178,33 @@ module.exports = {
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Why teams want an alternative to GrubMarket AI</h2>
       <p class="lead mt-16">
-        GrubMarket AI calls GrubAssist a virtual assistant for the food supply chain, and the
-        jobs it advertises are business analysis, performance, cash flow and spotting anomalies,
-        with order creation among them. All useful. None of it stops your customer sending a message for somebody to interpret,
-        which is where a GrubMarket AI competitor usually gets raised.
+        GrubMarket AI calls GrubAssist a virtual assistant for the food supply chain, and the jobs it advertises are business analysis, performance, cash flow and spotting anomalies, with order creation among them. All useful, and worth keeping. A GrubMarket AI alternative search usually starts from one gap: the customer still sends a message for somebody to interpret.
       </p>
     </div>
 
     <div class="problem-grid">
 
       <div class="problem-card">
-        <div class="problem-icon">🎤</div>
-        <h4>The microphone is pointed the wrong way</h4>
+        <div class="problem-icon">🎙️</div>
+        <h4>Their site describes an assistant for your team</h4>
         <p class="text-muted mt-12">
-          An assistant your staff talk to still means your staff are the ones entering the order.
-          Faster entry is better than slow entry, but it is not the same as the order arriving
-          already built by the person who wanted it.
+          The jobs GrubAssist advertises are ones a distributor's team does: looking into the numbers and writing up orders. However quick that makes entry, it is not the same as the order arriving already built by the person who wanted it.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🎛️</div>
-        <h4>There is a model to tailor</h4>
+        <div class="problem-icon">📨</div>
+        <h4>Extraction starts from a loose message</h4>
         <p class="text-muted mt-12">
-          They ship a training module precisely because an assistant has to be taught your
-          business. That is honest engineering, and it is also a project with an owner, a backlog
-          and a before-and-after.
+          Their order extraction reads voicemail, email and text messages at any hour, which is useful. Each one still begins as a message, though, and the kitchen that sent it never sees the lines it became.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🧩</div>
-        <h4>A product set when you needed one</h4>
+        <div class="problem-icon">📊</div>
+        <h4>The assistant is the part worth keeping</h4>
         <p class="text-muted mt-12">
-          An assistant, order extraction, chatbots, market pricing data. Buying the piece you
-          actually want can mean sitting through a demo of three you do not, and then deciding
-          which ones you are paying for.
+          If GrubAssist already tells your team how accounts are trending, swapping it out to change how ordering works would throw away the bit that does its job.
         </p>
       </div>
 
@@ -227,7 +220,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 600px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>What a GrubMarket AI alternative does from the other side</h2>
+      <h2>A GrubMarket AI alternative for the customer's side</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -252,7 +245,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Their own handset, nothing issued and nothing installed for you</span>
+              <span>Their own handset, nothing issued by you</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -360,7 +353,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>What is on hand, as the orders come in</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
+            VoiceOrder Solutions carries real-time inventory visibility tied to what is being ordered, and the catalog updates as stock levels change. It is not the system of record for stock: yours stays in
             charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
@@ -378,7 +371,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No counting happens inside VOS</span>
+              <span>We never count or buy stock for you</span>
             </li>
           </ul>
           <a href="/inventory-visibility-software" class="feature-link">More on stock visibility →</a>
@@ -413,7 +406,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Share your price lists</h4>
+        <h4>Share your order guides</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Whatever format they are already in. Each account's lines and your prices
           go into a single admin screen, lined up with your codes.
@@ -424,7 +417,7 @@ module.exports = {
         <div class="step-number">2</div>
         <h4>We switch each account on</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts get created and the kitchen gets shown the app. Most send
+          We set up each account and the kitchen downloads the app. Most send
           something in before the day is out.
         </p>
       </div>
@@ -441,7 +434,7 @@ module.exports = {
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS admin platform showing customer accounts and order guide upload
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
     </div>
   </div>
 </section>
@@ -483,8 +476,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We were shown a tool to help us type faster. What we wanted was to
-            stop being the ones typing."
+            "Our kitchens speak their list and check it before it goes. It fits how they already work."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -498,7 +490,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Nobody had to teach it our catalog. We sent the lists and accounts were speaking orders in within a couple of days."
+            "Nobody had to teach it our catalog. We sent the lists we already keep."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -524,22 +516,20 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto;">
-      <span class="eyebrow">Not Either Or</span>
-      <h2>When VOS and GrubMarket AI work together</h2>
+      <span class="eyebrow">Both Ends</span>
+      <h2>GrubAssist for your team, VoiceOrder Solutions for your customers</h2>
       <p class="lead mt-16">
-        VOS is not a GrubMarket AI replacement and does not try to be. It adds on, so an assistant the team already leans on is no reason to leave this alone.
+        We are not a GrubMarket AI replacement and do not try to be. Our app covers the customer end, so the tool your staff rely on is left alone.
       </p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
-        <div class="feature-card-icon">🙋</div>
+        <div class="feature-card-icon">💬</div>
         <h4>Keep the assistant for the questions</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Asking out loud how a customer is trending, or where the cash is, is a genuinely useful
-          thing and VOS cannot do it. Those questions keep their home, and the order stops being
-          one of them.
+          Asking out loud how a customer is trending, or where the cash is, is a genuinely useful thing and we cannot do it. Keep it for those questions, and let the customer build the order.
         </p>
       </div>
 
@@ -547,17 +537,15 @@ module.exports = {
         <div class="feature-card-icon">📉</div>
         <h4>Shrink the pile that needs extracting</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Each account you move across sends a structured, approved order rather than a voicemail.
-          Whatever is doing the extracting has less to work through, and the hardest messages are
-          the ones that leave first.
+          Each account you move across sends a structured, approved order rather than a voicemail. Whatever is doing the extracting keeps handling the messages that still arrive.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">📬</div>
+        <div class="feature-card-icon">📍</div>
         <h4>One place for it to land, whatever else you run</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Whatever you add, the order still lands in the one system you chose, over EDI, the API or QuickBooks, so nobody ends up with two places to look.
+          Sent over EDI, the API or QuickBooks, ours reach the same software as everything else, so nobody ends up with two places to look.
         </p>
       </div>
 
@@ -572,7 +560,7 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See an order arrive already finished</h3>
+      <h3 style="margin-bottom:10px;">See a customer-spoken order arrive</h3>
       <p class="text-muted" style="font-size:16px;">
         Twenty minutes. A buyer speaks an order, approves it, and it arrives on the desk as a PDF, over EDI or over the API.
       </p>
@@ -586,79 +574,62 @@ module.exports = {
      SECTION 13: FAQ
      ============================================================ -->
 <section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <!-- Eight items, to match the eight accordion slots on the Webflow page. -->
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>What gets asked when two voice tools go head to head</h2>
+      <h2>Better than GrubMarket AI, or the other half of it?</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Is VOS a real GrubMarket AI alternative if both use voice?
+          Do I need a GrubMarket AI alternative so customers can speak their own orders?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          They use the same technology at opposite ends. GrubAssist is for your staff: ask it about the business, have it write up an order. VOS is for your customers: they speak it and approve it, so your staff never build one. If the goal is to get the work off
-          your desk rather than speed it up, that difference is the whole decision.
+          No. GrubAssist can keep serving your team while VoiceOrder Solutions gives each account its own route in: say it into our app, check it, send it. Nothing on your side has to be switched off or retrained.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is VOS better than GrubMarket AI?
+          Is VoiceOrder Solutions a GrubMarket AI competitor, since both use voice?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For getting an order in without anyone on your side building it, we think so, because
-          the buyer does the work and signs it off. For asking your data questions out loud, no,
-          and not by a little: VOS does not do that at all. This is the usual reason a GrubMarket
-          AI alternative is weighed rather than simply chosen.
+          Less than it looks. GrubAssist, going by their own site, works for your team: ask it about the business, have it write up an order. Ours is for your customers, who speak and approve their own orders, so your staff never build the ones sent through our app. That is why a team looking at a GrubMarket AI alternative over voice can simply run both.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can VOS tell us how a customer is performing?
+          Can your app tell us how a customer is performing?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. You can see what an account has ordered, and that is the extent of it. Business analysis, cash flow, anomaly spotting: all of that is on their list and
-          none of it is on ours. Worth knowing before you shortlist us against them.
+          No. Our admin screen shows what each account has ordered and lets you manage accounts and guides. Reporting on how accounts perform is on their list, not ours, which is a good reason to keep GrubAssist.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Do we have to teach VOS our catalog?
+          Is there any link between GrubAssist and your app?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No, and there is no module for it, because nothing has to be taught. The item list you
-          keep for an account is the configuration. Load it, and spoken items land on the right
-          rows at the price you hold.
+          None. Nothing links the two, and neither company supports the other. GrubAssist connects to your ERP so it can answer questions about the business; we only ever deliver approved orders into your system, in the formats listed further up.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does any of this touch our ERP?
+          Do we have to teach your app our catalog?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only to hand it the order. It never goes near your ERP beyond handing in what the buyer approved. GrubAssist connects to an ERP so it can answer questions about the business; VOS only ever delivers into one. Everything downstream behaves exactly as it did yesterday.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          How does the pricing compare?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          Neither of us publishes a figure. Ours arrives as a quote once we know your setup. Theirs comes after a demo. With that much on their side, the thing to
-          pin down is which ones the quote actually covers.
+          No, and there is no module for it, because nothing has to be taught. The item list you keep for an account is the configuration. GrubMarket AI ships an AI training module for its assistant, and that stays theirs to run.
         </div>
       </div>
 
@@ -668,19 +639,17 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this is live inside 24 to 48 hours, and most kitchens place one the same day. There is no training phase, which is the bulk of the difference. They
-          publish no timeline, so ask them for one rather than take a number from us.
+          For most distributors this is live inside 24 to 48 hours, and a first order usually follows the day each login arrives. GrubAssist carries on as before while it happens. Accounts that keep calling still can; a call just gets no order number or timestamp from us.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          And the accounts that will only ever call?
+          How is voice for customers priced next to GrubAssist?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They carry on telephoning, and your desk deals with those the way it always has. Be clear about the
-          limit though: a call or a voicemail gets no order number from VOS, no timestamp and nothing moving in stock. Only what comes through the app does.
+          Neither of us publishes a figure. Ours arrives as a quote once we know your setup; theirs comes after a demo. Keeping GrubAssist means the number to weigh is only what the voice app for accounts adds.
         </div>
       </div>
 
@@ -690,10 +659,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Taken from grubmarket.ai on 10 October 2026, which is the GrubMarket AI product rather than GrubMarket the company: the GrubAssist description, the list of
-          advertised jobs, the training module and the other products all come off that page.
-          They publish no price and no rollout time, so this page does not guess at either. If
-          any of it has moved on, the fault is here, not there.
+          Taken from grubmarket.ai on 10 October 2026, which is the GrubMarket AI product rather than GrubMarket the company: the GrubAssist description, the list of advertised jobs, the training module and the other products all come off that page. They publish no price and no rollout time, so this page does not guess at either. If any of it has moved on, the fault is here, not there.
         </div>
       </div>
 
@@ -709,8 +675,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Put the microphone in the right hands</h2>
-  <p>Twenty minutes, with the microphone in your customer's hand, not your clerk's.</p>
+  <h2>Leave GrubAssist with your team. Give customers a microphone too.</h2>
+  <p>Twenty minutes, with the microphone in the customer's hand.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -756,12 +722,12 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs GrubMarket AI</a></li>
+        <li><a href="#comparison">GrubMarket AI + VoiceOrder Solutions</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h5>More From VOS</h5>
+      <h5>More From VoiceOrder Solutions</h5>
       <ul role="list">
         <li><a href="/distributor-analytics-software">Distributor Analytics</a></li>
         <li><a href="/order-taking-software">Order Taking</a></li>

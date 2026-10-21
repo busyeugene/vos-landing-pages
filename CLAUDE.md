@@ -9,7 +9,39 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Related strips link same-audience siblings; each footer carries one cross-audience link.
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
-## ▶ RESUME HERE: latest session 2026-10-19 (Webflow site work, no repo page changes)
+## ▶ RESUME HERE: latest session 2026-10-21 (12 compare pages REFRAMED in the repo, not yet in Webflow)
+**Client decision (via Eugene, 2026-10-21):** keep the `<competitor> alternative` keywords, but present
+VoiceOrder Solutions as something a distributor ADDS NEXT TO the competitor, never its replacement
+("we are much smaller, so we'll lose in the direct comparison"). And on these 12 pages, write
+"VoiceOrder Solutions" in full, never "VOS" (author comments may keep it). This SUPERSEDES the
+head-to-head angles in the "Competitor comparison pages" section below; the research and honesty
+rules there still apply.
+- **The frame, as built:** H1 keeps "<X> Alternative" but answers "keep X, add voice". Table columns
+  are `<X> + VoiceOrder Solutions` (highlight) vs `<X> on its own`: X's real strengths are ticks in
+  BOTH columns, only what the voice step adds differs, and an unbacked competitor tick is the text
+  cell "Not listed on their site". Never "extension", "plugs into" or "works with X": the products
+  do not connect, and every page has an FAQ saying so (no link, no joint support).
+- **8 FAQs per page now**, matching the 8 Webflow accordion slots, so `overrides.json`
+  `faq_merge` (and the `_compare_structural` FAQ note) must be DROPPED at port time.
+- Shared integrations partial: on compare pages only, `build.js` rewrites its two VOS lines (the
+  "can connect to ... platforms" line read as "it could connect to the competitor").
+- `template.js` and `promote.js` accept "VoiceOrder Solutions" where they looked for "VOS".
+- `/alternatives` hub copy is rewritten in `_webflow/gen-alternatives.py` + `alternatives.json`
+  (header, cards, SEO, CollectionPage schema). Not pushed.
+- All gates green on all 12 (qa 0/0, kwaudit 0, template 0, claims 0 bans, structure, trigram 0
+  within and 0 on 3+ pages, repeat.js 0 within apart from the repeated "Not listed on their site"
+  table cell, layout 0 flags, promote 0/11 except cut-dry 1/11). Two review rounds plus a
+  verification round by no-context reviewers, every finding re-checked before applying.
+- **Next:** Eugene reviews the repo copy; then commit + push (Vercel mirror); then re-port all 12 to
+  Webflow (they are PUBLISHED there, so saved changes ship with the client's next publish):
+  `extract-compare.py` -> `gen-ops.py` -> `PUSH-RUNBOOK.md`, plus `gen-schema.py` for the FAQ
+  JSON-LD, then push the hub. Re-run the donor-leak and `verify-schema.py` checks after.
+- **Lesson:** the reframe's most common overclaim was "nothing is interpreted / nothing to read"
+  (REKKI, WizCommerce, Burnt, Fresho). The app turns speech into lines; the safeguard is the buyer
+  reviewing each line. Also watch "ring the desk" (UK) and "one place to look" when our default
+  route is an emailed file.
+
+## Previous session 2026-10-19 (Webflow site work, no repo page changes)
 Everything below was SAVED in Webflow (site `69bc131a5fdaa09a10456d46`); Eugene publishes, we
 never call `publish_site`. Check the live page's `Last Published` comment before assuming a change
 is live. Full detail lives in the sections named here, near the end of this file.

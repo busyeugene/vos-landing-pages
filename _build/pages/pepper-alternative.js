@@ -1,12 +1,16 @@
-/* Comparison page: VOS vs Pepper. Block order is the `compare` variant, not the 16-section
- * feature template: the table sits high (section 5) and the mid-CTA block repeats.
+/* Comparison page: Pepper, and Pepper with VoiceOrder Solutions added. `compare` block order (see template.js).
+ * REFRAMED 2026-10-21 (client, via Eugene): keep the "pepper alternative" keywords, but present
+ * VoiceOrder Solutions as the voice step added beside Pepper, never as its replacement. The table is
+ * "Pepper + VoiceOrder Solutions" against "Pepper on its own", so Pepper keeps every real win.
+ * The rollout angle survives as "you already did a 35-90 day rollout once; this one step takes a day or two".
+ * The two products do NOT connect (FAQ 3). Brand in full, never "VOS", in visible copy.
  * Every Pepper claim is sourced and dated in _build/research/competitors/pepper.md.
  */
 module.exports = {
   title: "Pepper Alternative for Food Distributors in 2026",
-  description: 'Your accounts speak each order into an app and check it before sending. This Pepper alternative is up and running in 24 to 48 hours for most.',
-  related: ["choco-alternative","burnt-ai-alternative","cut-dry-alternative"],
-  relatedHeading: "More ways VOS works at the order desk",
+  description: "Add spoken ordering beside Pepper, with no second rollout. Accounts say each order into an app and check it first. A Pepper alternative that runs beside it.",
+  related: ["choco-alternative", "burnt-ai-alternative", "cut-dry-alternative"],
+  relatedHeading: "More platforms that can stay while voice is added",
   body: `
 <!--@NAVBAR-->
 
@@ -19,23 +23,20 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>The Pepper Alternative Built On Voice Ordering.</h1>
+      <h1>A Pepper Alternative? Keep Pepper, Add Our App.</h1>
       <p class="lead mt-16">
-        VOS is a Pepper alternative built for independents and DSD operations. Your
-        accounts put each order into the app by voice, read it over, then send it. It lands on
-        your desk with a timestamp, in one of the formats you already take orders in. Most distributors
-        are up and running in 24 to 48 hours.
+        Get orders off the phone without a second rollout. VoiceOrder Solutions sits beside Pepper: accounts speak to our app, review each line, then send. Their orders land timestamped and ready for your desk, and most distributors have it running in 24 to 48 hours.
       </p>
 
       <div class="hero-ctas">
         <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
-        <a href="#comparison" class="btn btn-outline-white btn-lg">See It Side By Side</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
       <div class="hero-trust">
-        <span>Orders land 24/7</span>
+        <span>Pepper keeps running</span>
         <span class="hero-trust-dot"></span>
-        <span>Keep the ERP you run</span>
+        <span>Orders land 24/7</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -44,7 +45,7 @@ module.exports = {
     <div>
       <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
       <div class="img-placeholder tall">
-        📸 Screenshot:<br>VOS "Push to Speak" screen<br>with the order review list
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
       </div>
     </div>
 
@@ -56,7 +57,7 @@ module.exports = {
 
 
 <!-- ============================================================
-     SECTION 9: STATS STRIP
+     SECTION 4: STATS STRIP
      ============================================================ -->
 <section class="stats-strip" aria-label="Key results">
   <div class="stats-grid">
@@ -77,18 +78,16 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 5: COMPARISON TABLE
-     High on the page: it is what a comparison searcher came for. Two value
-     columns only, VOS and the competitor, no third option (Eugene 2026-10-10).
-     Read down the VOS column for the "with", the Pepper column for the "without".
+     Not a head-to-head (client, 2026-10-21). Column 2 is the distributor's operation with
+     both tools, column 3 with Pepper alone, so every Pepper strength is a tick in BOTH columns.
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Side By Side</span>
-      <h2>VoiceOrder Solutions vs Pepper.<br>A layer, not a platform.</h2>
+      <span class="eyebrow">Both, Not One</span>
+      <h2>Pepper with VoiceOrder Solutions beside it.<br>One step added.</h2>
       <p class="lead mt-16">
-        VOS is the ordering layer that bolts on beside the stack you have now. Pepper sells a broad platform to independents, so most distributors weighing a Pepper alternative are really choosing between those two shapes. Read down the VOS column for what changes, and
-        the Pepper column for what stays as it is.
+        Adding a tool should never leave you with less, and the table reads that way. Pepper sells a broad platform to independents, and a Pepper alternative search usually means one channel is still on the phone. So here is Pepper alone, then Pepper with our app next to it. The two do not connect, and every Pepper detail is from their own site.
       </p>
     </div>
 
@@ -97,55 +96,55 @@ module.exports = {
         <thead>
           <tr>
             <th style="width:40%;">Feature</th>
-            <th class="highlight" style="width:30%;">VoiceOrder Solutions</th>
-            <th style="width:30%;">Pepper</th>
+            <th class="highlight" style="width:30%;">Pepper + VoiceOrder Solutions</th>
+            <th style="width:30%;">Pepper on its own</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Customer signs off on every line first</td>
+            <td>Kitchens say the order into an app and read it back</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies by channel</td>
+            <td>Voicemails and texts read by Order Agent</td>
           </tr>
           <tr>
-            <td>Orders arrive with no call for anyone to take</td>
+            <td>A storefront built for digital ordering</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>An app the customer's own staff open</td>
+            <td>The buyer reviews every line before it sends</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>On the storefront, yes</td>
+          </tr>
+          <tr>
+            <td>Hubs for reps, collections, margin and ads</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Its own guide for every account, at your prices</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
+            <td>Order guides, yes</td>
           </tr>
           <tr>
             <td>A number and a timestamp on the order</td>
             <td><span class="check-yes">✓</span></td>
+            <td>Not listed on their site</td>
+          </tr>
+          <tr>
+            <td>Storefront orders arrive with no call to take</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Orders out as PDF, Excel, Word, EDI or the API</td>
+            <td>Reps spend less of the day on order admin</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Not described</td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Up and running</td>
-            <td>24-48 hours for most</td>
-            <td>Published 35-90 days</td>
-          </tr>
-          <tr>
-            <td>What the rollout asks of you</td>
-            <td>Hand over your guides</td>
-            <td>Five phases, managed</td>
-          </tr>
-          <tr>
-            <td>Where it sits in your stack</td>
-            <td>Beside what you run now</td>
-            <td>A platform, hub by hub</td>
+            <td>Orders land in the ERP you already run</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
         </tbody>
         <tfoot>
@@ -165,51 +164,40 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 6: WHY TEAMS LOOK ELSEWHERE
-     "look for an alternative", not "switch from": there is no evidence of
-     distributors leaving Pepper, and SimplyDepo's own page says "compare".
      ============================================================ -->
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container">
     <div class="text-center" style="max-width: 660px; margin: 0 auto;">
-      <span class="eyebrow">Why Teams Compare</span>
-      <h2>Why teams look for an alternative to Pepper</h2>
+      <span class="eyebrow">Where It Starts</span>
+      <h2>Why an alternative to Pepper gets searched for</h2>
       <p class="lead mt-16">
-        Pepper, from Pomegranate Technologies, sells an AI-first platform to independent
-        distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance,
-        pricing and marketing. It is a lot of product. Here is what gets weighed when a buyer
-        shortlists one Pepper competitor against another.
+        Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product, and most of it earns its place. What sends a buyer to look at a Pepper competitor is usually far narrower than the platform.
       </p>
     </div>
 
     <div class="problem-grid">
 
       <div class="problem-card">
-        <div class="problem-icon">🗓️</div>
-        <h4>Go-live runs from five weeks to three months</h4>
+        <div class="problem-icon">📞</div>
+        <h4>The phone accounts are still phoning</h4>
         <p class="text-muted mt-12">
-          Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an
-          implementation manager and a deployed engineer assigned. That is a fair number for the
-          amount of platform it stands up. It is a long wait if what you wanted was orders
-          arriving with nobody having to take a call.
+          A storefront only helps the kitchens that open it. The rest keep calling, texting and leaving voicemails at the end of a shift, and those are the orders your desk still writes up by hand.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🧱</div>
-        <h4>You buy the whole stack to fix one step</h4>
-        <p class="text-muted mt-12">
-          Every one of those modules is another thing to configure, train and keep current. If
-          your ERP suits you and the office is fine, most of it is ground you already cover.
-        </p>
-      </div>
-
-      <div class="problem-card">
-        <div class="problem-icon">✍️</div>
+        <div class="problem-icon">🖊️</div>
         <h4>On the Order Agent path, you do the checking</h4>
         <p class="text-muted mt-12">
-          Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's
-          own product page describes no step where the kitchen confirms what was read, so your
-          order desk is the first person to see it written down.
+          Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the kitchen confirms what was read, so your order desk is the first person to see it written down.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">⏳</div>
+        <h4>One more rollout is the last thing you need</h4>
+        <p class="text-muted mt-12">
+          Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. Fair for a platform that size. Going through anything like it again for one channel is not, and no Pepper alternative should ask you to.
         </p>
       </div>
 
@@ -225,7 +213,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>What this Pepper alternative covers</h2>
+      <h2>A Pepper alternative that adds instead of replacing</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -236,8 +224,7 @@ module.exports = {
           <h3>They talk. It comes out as a list.</h3>
           <p class="mt-12 text-muted">
             A chef counts the walk-in and says what is short. Each item turns into a line you can
-            read, with the quantity beside it. Nothing to type, no time on hold, and no message
-            for your team to interpret in the morning.
+            read, with the quantity beside it. Nothing to type, no time on hold, and no voicemail for your team to piece together in the morning.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -261,7 +248,7 @@ module.exports = {
               <span>Nobody writes up a reorder from an account on the app, so the reps get that time to sell</span>
             </li>
           </ul>
-          <a href="/order-taking-software" class="feature-link">How VOS takes orders →</a>
+          <a href="/order-taking-software" class="feature-link">How our app takes orders →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
@@ -279,7 +266,7 @@ module.exports = {
           <span class="eyebrow">Order Guides</span>
           <h3>Each account gets a list of its own</h3>
           <p class="mt-12 text-muted">
-            You hand over the guides each kitchen already buys from. VOS loads each one against your SKUs at the
+            You hand over the guides each kitchen already buys from. We load each one against your SKUs at the
             prices you hold for that account, so a spoken item lands on the right line against your own SKU.
           </p>
           <ul class="feature-bullets mt-24">
@@ -318,7 +305,7 @@ module.exports = {
           <span class="eyebrow">Delivery Formats</span>
           <h3>The order shows up in a shape you already handle</h3>
           <p class="mt-12 text-muted">
-            VOS does not ask your office to work somewhere new. Finished orders go out as email
+            Nobody in your office has to work somewhere new. Finished orders go out as email
             with a PDF, Excel or Word file, or straight into your ERP over the API, over EDI, or
             into QuickBooks.
           </p>
@@ -358,7 +345,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Watch stock move as the orders land</h3>
           <p class="mt-12 text-muted">
-            VOS gives you real-time inventory visibility tied to what is being ordered, and the catalog
+            VoiceOrder Solutions gives you real-time inventory visibility tied to what is being ordered, and the catalog
             updates as levels change. It is not where your stock lives: your own inventory system
             stays in charge, and a demo covers how the two connect.
           </p>
@@ -377,7 +364,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No counting happens inside VOS</span>
+              <span>Counting never happens in our app</span>
             </li>
           </ul>
           <a href="/inventory-visibility-software" class="feature-link">More on stock visibility →</a>
@@ -403,7 +390,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and no migration to schedule</h2>
       <p class="lead mt-16">
-        There is nothing to migrate here. Send us the guides your office works from, and we
+        There is nothing to migrate here, and Pepper is left as it is. Send us the guides your office works from, and we
         do the loading.
       </p>
     </div>
@@ -440,7 +427,7 @@ module.exports = {
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS admin platform showing customer accounts and order guide upload
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
     </div>
   </div>
 </section>
@@ -482,8 +469,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We looked at the big platforms and could not face a rollout that ran
-            into next quarter. This went in inside two days and the guides were the only homework."
+            "We already had the platform. What we needed was a way in for the accounts that still called, and setup was quick, with the guides as the only homework."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -498,8 +484,7 @@ module.exports = {
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
             "The part that sold our order desk was the customer checking the list
-            themselves. We stopped ringing kitchens back about the lines nobody
-            could make out."
+            themselves. We stopped calling kitchens back about lines nobody could make out."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -521,47 +506,40 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 11: WHEN THE TWO WORK TOGETHER
-     Scoped to what is verifiable: VOS is additive. No partnership, integration
-     or joint support with the competitor is implied, because none exists.
      ============================================================ -->
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto;">
-      <span class="eyebrow">Not Either Or</span>
-      <h2>When VOS and Pepper work together</h2>
+      <span class="eyebrow">Side By Side</span>
+      <h2>What Pepper keeps and what the voice step adds</h2>
       <p class="lead mt-16">
-        VOS is not a Pepper replacement and does not try to be. It is additive: nothing has to
-        come out for it to go in, so you can add it beside what you run.
+        VoiceOrder Solutions is no Pepper replacement, and it is not trying to be one. Nothing has to come out for it to go in, so the platform you rolled out stays exactly where it is.
       </p>
     </div>
 
     <div class="cards-grid">
 
       <div class="feature-card">
-        <div class="feature-card-icon">🛒</div>
+        <div class="feature-card-icon">🛍️</div>
         <h4>Keep the storefront, add the voice</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Some accounts are never going to browse a catalog. They will talk instead, at the end
-          of a shift, from the walk-in. The storefront stays for the ones who tap, and VOS picks up
-          the ones who talk.
+          Some accounts are never going to browse a catalog. They will talk instead, late in the evening, from the walk-in. The storefront stays for the ones who tap, and our app picks up the ones who talk.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">📞</div>
-        <h4>Try it on the accounts still phoning</h4>
+        <div class="feature-card-icon">🧪</div>
+        <h4>Try it on the accounts still calling</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          VOS goes in beside what you run without a rollout, so you can put it on the handful of
-          accounts that never adopted and judge it on those before you decide anything bigger.
+          It goes in beside Pepper without a project, so you can start with the handful of accounts that never adopted the storefront and judge it on those before deciding anything bigger.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🎯</div>
+        <div class="feature-card-icon">📬</div>
         <h4>The ERP keeps being the one destination</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Both feed the system you have, so adding VOS does not change where an order ends up. It
-          arrives over EDI, the API or QuickBooks, into the same place your people already work.
+          Both feed the system you have, so adding our app does not change where an order ends up. It arrives over EDI, the API or QuickBooks into the system your people already use, or by email as a file.
         </p>
       </div>
 
@@ -571,14 +549,14 @@ module.exports = {
 
 
 <!-- ============================================================
-     SECTION 11: MID-PAGE CTA (2 of 2)
+     SECTION 12: MID-PAGE CTA
      ============================================================ -->
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">Follow one spoken order from a kitchen to your desk</h3>
       <p class="text-muted" style="font-size:16px;">
-        Book 20 minutes. We take one order through to the format it arrives in, and you can judge the fit against anything else on your shortlist.
+        Book 20 minutes. We take one order through to the format it arrives in, so you can see where it lands beside your Pepper orders.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -587,41 +565,55 @@ module.exports = {
 
 
 <!-- ============================================================
-     SECTION 15: FAQ
+     SECTION 13: FAQ
+     Eight items, to match the eight accordion slots on the Webflow page.
      ============================================================ -->
 <section class="section-pad" id="faq" aria-label="Frequently asked questions">
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Questions distributors ask when they compare the two</h2>
+      <h2>Questions from distributors who are keeping Pepper</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Is VOS a true Pepper alternative, or a different kind of product?
+          Do we need a Pepper alternative so kitchens can check their own spoken orders?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Both, depending on what you are trying to fix. If the goal is to get orders off the
-          phone and into something structured, VOS does that job and you can compare the two
-          directly. If the goal is one platform running your storefront, your reps, your
-          collections and your pricing, Pepper is built wide for that and VOS is not.
+          No. Pepper can stay as it is, Order Agent included, while we add an app where kitchens say what they need and check every item themselves. The ones already ordering on Pepper's storefront carry on there. Nothing has to be switched off to try it.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is VOS better than Pepper?
+          Is VoiceOrder Solutions better than Pepper?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For getting orders in on a short timeline, we think so: your customers get an app they
-          open on purpose, they approve each line themselves, and getting started does not take a
-          quarter. For a distributor who wants to move the whole business onto one platform,
-          that is a bigger product than VOS, and the honest answer is that we are not trying to
-          be it.
+          Not at running the whole business on one platform: storefront, reps, collections and pricing. Pepper is built wide for that, and we are not trying to be. Where we help is narrower: a reorder your account speaks and signs off, and plenty of people looking for a Pepper alternative turn out to want exactly that one thing.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is there a link between VoiceOrder Solutions and Pepper?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          None. We have no connection to Pepper and no shared support arrangement. Each product hands its orders to your own system separately, ours by email with a file attached, over EDI or the API, or into QuickBooks. When ours go in by a direct feed, both land in the same system; by email, ours arrive as a file your team opens like any other.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Will our accounts be juggling Pepper's storefront and your app?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          They should not have to. Kitchens already ordering through the storefront can stay on it. Offer our app to the ones who still call, text or leave a voicemail, because those orders cost your desk the most time. Anyone who keeps calling is handled as now, with no order number from us, since numbers come only with what our app sends.
         </div>
       </div>
 
@@ -631,46 +623,17 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Most distributors reach that point in a day or two. There is no IT project here,
-          and nothing to pull out of your stack, which is the main reason a Pepper alternative
-          gets shortlisted at all.
-          Pepper's own published window is a good deal longer, which is fair for how
-          much it is standing up.
+          Most distributors reach that point in a day or two, and most of their customers send a first order the same day. There is no IT project and Pepper runs throughout, which is a very different job from the window Pepper publishes for standing up its whole platform.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Do we have to drop Pepper to bring VOS in?
+          What does VoiceOrder Solutions charge?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS is additive by design and runs beside what you already have, so nothing needs
-          switching off to try it. If you have an ERP you like and a storefront you are keeping, VOS covers how the order arrives and leaves both in place.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          Will VOS replace our ERP or order management system?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          No, it does not. VOS is the way in: it gets the order from your customer to you,
-          confirmed and itemized. From there it reaches your existing software or your inbox, and
-          how you pick, bill and ship does not change.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          What does VOS cost?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          We quote by distributor, so tell us about your operation and we will price it.
-          Pepper quotes too, and publishes no rate card either, so a demo on both sides is the
-          only way to compare the two fairly.
+          We quote by distributor, so tell us about your operation and we will price it. Pepper quotes too and publishes no rate card. Since you would be keeping Pepper, the figure worth asking for is what our app adds on top.
         </div>
       </div>
 
@@ -680,20 +643,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. VOS works on the iOS or Android phone that is already in their pocket. We send nothing out,
-          there is nothing to bolt to a counter, and no device for you to support.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          What happens to the customers who still call their order in?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          They can keep phoning, and your team handles those exactly as it does now. Worth being
-          clear though: a call or a voicemail does not get a VOS order number, a timestamp
-          or a stock movement. Only what comes through the app does.
+          No. Our app runs on the iOS or Android phone already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support.
         </div>
       </div>
 
@@ -703,11 +653,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Pepper's own website. The module list, the storefront and Order Agent descriptions and
-          the implementation window were all read off usepepper.com on 10 October
-          2026, including their own post on how long an implementation takes. We have not
-          repeated their marketing numbers here. If any of it has changed since, this page is the
-          thing that is out of date, not them.
+          Pepper's own website. The module list, the storefront and Order Agent descriptions and the implementation window were all read off usepepper.com on 10 October 2026, including their own post on how long an implementation takes. We have not repeated their marketing numbers here. If any of it has changed since, this page is the thing that is out of date, not them.
         </div>
       </div>
 
@@ -720,10 +666,10 @@ module.exports = {
 
 
 <!-- ============================================================
-     SECTION 17: FINAL CONVERSION CTA
+     SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>See what comes off your desk</h2>
+  <h2>Keep Pepper. Stop writing up the phone orders.</h2>
   <p>Twenty minutes, one real order, and a straight answer on what setup involves.</p>
 
   <div class="final-cta-form">
@@ -741,7 +687,7 @@ module.exports = {
 
 
 <!-- ============================================================
-     SECTION 18: FOOTER
+     SECTION 16: FOOTER
      ============================================================ -->
 <footer class="footer" role="contentinfo">
   <div class="footer-grid">
@@ -770,12 +716,12 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs Pepper</a></li>
+        <li><a href="#comparison">Pepper + VoiceOrder Solutions</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h5>More From VOS</h5>
+      <h5>More From VoiceOrder Solutions</h5>
       <ul role="list">
         <li><a href="/catalog-management-software">Catalog Management</a></li>
         <li><a href="/inventory-visibility-software">Inventory Visibility</a></li>

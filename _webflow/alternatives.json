@@ -8,28 +8,28 @@
   "file": "vos-balance-scale.svg",
   "assetId": "6ac9dd518486af1b33e38258",
   "shared": true,
-  "_why": "All 12 cards use the same balance-scale icon deliberately. This is NOT the /solutions defect where 17 cards for 17 different features all showed cutlery: here every card is the same KIND of thing, a head-to-head comparison, and each is identified by the competitor name in its heading. The file is already white 256x256, which the untinted tile requires, and was already uploaded for /free-tools so no new asset was needed."
+  "_why": "All 12 cards use the same balance-scale icon deliberately. This is NOT the /solutions defect where 17 cards for 17 different features all showed cutlery: here every card is the same KIND of thing, one platform page, and each is identified by the competitor name in its heading. The file is already white 256x256, which the untinted tile requires, and was already uploaded for /free-tools so no new asset was needed."
  },
  "header": {
   "h1": {
    "element": "a25ebb8e-7e84-68b5-0646-10375ec0ec7d",
-   "text": "Compare VOS With The Tool You Are Weighing Up"
+   "text": "Add Voice Ordering To The Platform You Already Run"
   },
   "lead": {
    "element": "a25ebb8e-7e84-68b5-0646-10375ec0ec80",
-   "text": "Twelve head-to-head pages, one per product. Every competitor detail was read off their own site and dated on the page. Where VOS is the narrower tool, the page says so rather than hiding it."
+   "text": "Twelve pages, one per platform distributors ask us about. Each shows what that platform already does, and what changes when your accounts can also speak an order into VoiceOrder Solutions. Every competitor detail was read off their own site and dated on the page."
   },
   "h2": {
    "element": "06636c0c-4834-594c-09d3-ac6ee7d49832",
    "textElement": "06636c0c-4834-594c-09d3-ac6ee7d49833",
-   "text": "Pick the product you are comparing"
+   "text": "Pick the platform you run today"
   }
  },
  "seo": {
-  "title": "Compare VoiceOrder Solutions With 12 Tools",
-  "description": "Twelve head-to-head comparisons for food distributors, each read off the other vendor's own site and dated. See where VOS fits and where it stops."
+  "title": "Add Voice Ordering To 12 Distributor Platforms",
+  "description": "Twelve pages for food distributors on Pepper, Choco and ten more: what each platform already does, and what adding VoiceOrder Solutions voice ordering changes."
  },
- "buttonLabel": "See the comparison",
+ "buttonLabel": "See how it fits",
  "removedCards": [
   {
    "fromFreeToolsIndex": 12,
@@ -104,8 +104,8 @@
    "targetPageId": "6ac9efa5b080336cebb1456a",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "Their published rollout runs 35 to 90 days. Most distributors are live on VOS in 24 to 48 hours.",
-   "button": "See the comparison",
+   "desc": "Keep the platform you rolled out. Add spoken orders beside it, live in 24 to 48 hours for most distributors.",
+   "button": "See how it fits",
    "elements": {
     "link": "06636c0c-4834-594c-09d3-ac6ee7d49835",
     "image": "06636c0c-4834-594c-09d3-ac6ee7d49838",
@@ -121,8 +121,8 @@
    "targetPageId": "6aca3a56a6caad0812b5c2cd",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "Choco sells growth: a storefront, a CRM, bigger baskets. VOS sells one clean order and stops there.",
-   "button": "See the comparison",
+   "desc": "Choco keeps the storefront, sales hub and CRM. Your accounts add a spoken order they approve line by line.",
+   "button": "See how it fits",
    "elements": {
     "link": "91140da8-c0bb-16b9-4a5c-57b669e15c77",
     "image": "91140da8-c0bb-16b9-4a5c-57b669e15c7a",
@@ -138,8 +138,8 @@
    "targetPageId": "6aca3a58ca02f812a31bf517",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "Burnt puts agents across the back office. VOS covers the order, with your buyer signing it off.",
-   "button": "See the comparison",
+   "desc": "Burnt's agents keep the back office. Your buyers speak their own orders and sign them off first.",
+   "button": "See how it fits",
    "elements": {
     "link": "29987a19-57fd-2141-4b84-ea8049f8bd65",
     "image": "29987a19-57fd-2141-4b84-ea8049f8bd68",
@@ -155,8 +155,8 @@
    "targetPageId": "6aca3a59a6caad0812b5c623",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "Both products run on voice. The difference is whose hands the microphone is in.",
-   "button": "See the comparison",
+   "desc": "GrubAssist stays with your team. VoiceOrder Solutions hands the microphone to your customers.",
+   "button": "See how it fits",
    "elements": {
     "link": "6f20970f-a079-6da3-9c63-cf35420cc8e9",
     "image": "6f20970f-a079-6da3-9c63-cf35420cc8ec",
@@ -172,8 +172,8 @@
    "targetPageId": "6aca3a59f340d29ae03c3ad7",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "On a three-sided network, somebody else is in the room when your customer orders. Here nobody is.",
-   "button": "See the comparison",
+   "desc": "Keep Cut+Dry's storefront and payments. Add a reorder your accounts speak from your own guide.",
+   "button": "See how it fits",
    "elements": {
     "link": "390a6cbe-54a4-21b7-6016-c32deeb24e1d",
     "image": "390a6cbe-54a4-21b7-6016-c32deeb24e20",
@@ -189,8 +189,8 @@
    "targetPageId": "6aca3a5ad4674c1a37e56403",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "A marketplace grades your prices against other vendors. Your own order guide does not.",
-   "button": "See the comparison",
+   "desc": "Keep the listing that finds new kitchens. Give your regulars a reorder they speak and approve.",
+   "button": "See how it fits",
    "elements": {
     "link": "3a32c3f4-37d6-9992-2e6b-19b09ce040ca",
     "image": "3a32c3f4-37d6-9992-2e6b-19b09ce040cd",
@@ -206,8 +206,8 @@
    "targetPageId": "6aca3a5bdafc7a7656fa9b4c",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "Keep the ERP that runs your company. Change only the way an order reaches it.",
-   "button": "See the comparison",
+   "desc": "Keep the ERP that runs your company. Add one way in: an order your accounts speak.",
+   "button": "See how it fits",
    "elements": {
     "link": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69754",
     "image": "8c03c7d6-9be4-5202-d5ff-b8f8e3a69757",
@@ -223,8 +223,8 @@
    "targetPageId": "6aca3a6aa40f1fed87074445",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "Pepperi arms the visit: routes, shelf audits, van sales. VOS is for the reorder nobody attends.",
-   "button": "See the comparison",
+   "desc": "Pepperi keeps the visit. VoiceOrder Solutions covers the reorder between visits.",
+   "button": "See how it fits",
    "elements": {
     "link": "1a6cf711-ae29-2e40-dd5e-86d9f8b3043f",
     "image": "1a6cf711-ae29-2e40-dd5e-86d9f8b30442",
@@ -240,8 +240,8 @@
    "targetPageId": "6aca3a6bf0c2375ec4151513",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "They tidy up every order channel. VOS removes the channel that makes your desk the most work.",
-   "button": "See the comparison",
+   "desc": "OrderEase keeps every order channel. Add one piece at the front: an order the buyer speaks.",
+   "button": "See how it fits",
    "elements": {
     "link": "2ddbdd41-58be-7ee9-ab88-f51516842de5",
     "image": "2ddbdd41-58be-7ee9-ab88-f51516842de8",
@@ -257,8 +257,8 @@
    "targetPageId": "6aca3a6c06da357dd6d261d7",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "Their AI reads whatever arrived. In VOS there is nothing to read, because the buyer built the lines.",
-   "button": "See the comparison",
+   "desc": "WizCommerce keeps reading what arrives. Spoken, approved orders mean less arrives to be read.",
+   "button": "See how it fits",
    "elements": {
     "link": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebaf",
     "image": "5c9a02dc-2885-b2a6-e90f-3f9fdc35ebb2",
@@ -274,8 +274,8 @@
    "targetPageId": "6aca3a6c8b1e86523e69bf86",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "They publish an accuracy rate. A rate exists because something is inferring what the order said.",
-   "button": "See the comparison",
+   "desc": "REKKI's robots keep reading messages. Some accounts can send a confirmed order instead.",
+   "button": "See how it fits",
    "elements": {
     "link": "51a5ea11-aba5-624d-7a30-08c7f6587f5a",
     "image": "51a5ea11-aba5-624d-7a30-08c7f6587f5d",
@@ -291,8 +291,8 @@
    "targetPageId": "6aca3a6e5e834cc8aaf7a7ff",
    "icon": "vos-balance-scale.svg",
    "assetId": "6ac9dd518486af1b33e38258",
-   "desc": "Fresho runs a whole fresh-food operation. VOS adds one step and leaves the rest of it alone.",
-   "button": "See the comparison",
+   "desc": "Fresho keeps running the operation. Your kitchens add a spoken order they confirm line by line.",
+   "button": "See how it fits",
    "elements": {
     "link": "260ab7fd-903a-e943-2006-5f0b383a2d1d",
     "image": "260ab7fd-903a-e943-2006-5f0b383a2d20",
@@ -309,8 +309,8 @@
     "@type": "CollectionPage",
     "@id": "https://www.voiceordersolutions.com/alternatives",
     "url": "https://www.voiceordersolutions.com/alternatives",
-    "name": "Compare VoiceOrder Solutions With 12 Tools",
-    "description": "Twelve head-to-head comparisons for food distributors, each read off the other vendor's own site and dated. See where VOS fits and where it stops.",
+    "name": "Add Voice Ordering To 12 Distributor Platforms",
+    "description": "Twelve pages for food distributors on Pepper, Choco and ten more: what each platform already does, and what adding VoiceOrder Solutions voice ordering changes.",
     "isPartOf": {
      "@id": "https://www.voiceordersolutions.com/#website"
     },
@@ -420,5 +420,6 @@
    }
   ]
  },
- "_pathNote": "The 12 comparison pages live under the /alternatives folder in Webflow, so the ItemList URLs are /alternatives/<slug>. Source of truth: pages.json comparePaths."
+ "_pathNote": "The 12 comparison pages live under the /alternatives folder in Webflow, so the ItemList URLs are /alternatives/<slug>. Source of truth: pages.json comparePaths.",
+ "_reframed": "2026-10-21: copy reframed to \"add VoiceOrder Solutions next to the platform\" in the generator and here. NOT yet pushed to Webflow; the live hub still carries the old copy."
 }

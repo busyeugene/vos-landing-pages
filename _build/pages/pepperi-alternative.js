@@ -1,4 +1,9 @@
-/* Comparison page: VOS vs Pepperi. `compare` block order (see template.js).
+/* Comparison page: Pepperi, and Pepperi with VoiceOrder Solutions added. `compare` block order.
+ * REFRAMED 2026-10-21 (client, via Eugene): VoiceOrder Solutions is the voice step a distributor
+ * ADDS beside Pepperi, never its replacement: Pepperi keeps the visit, we take the reorder between
+ * visits. Table = "Pepperi + VoiceOrder Solutions" vs "Pepperi on its own": every Pepperi strength
+ * is a tick in both columns. The two do NOT connect (FAQ 4). Brand in full, never "VOS".
+ * The notes below are from the original build.
  * ⚠ Pepperi is NOT Pepper. `/pepper-alternative` is a different company. names.js is whole-word
  * and unit-tests this exact pair, but never cite one company's facts on the other's page, and
  * never reuse Pepper's published 35-90 day rollout figure here: Pepperi publishes no timeline.
@@ -16,9 +21,9 @@
  */
 module.exports = {
   title: "Pepperi Alternative for Food Distributors in 2026",
-  description: 'Your accounts speak each order into the app and approve the lines before it sends. A Pepperi alternative for small to mid-size food distributors.',
+  description: 'Keep Pepperi for the visit and add voice for the reorder: accounts speak each order into an app and approve it. A Pepperi alternative your reps work beside.',
   related: ["fresho-alternative","necs-entree-alternative","choco-alternative"],
-  relatedHeading: "Other tools distributors weigh against VOS",
+  relatedHeading: "More platforms that keep their place",
   body: `
 <!--@NAVBAR-->
 
@@ -31,20 +36,20 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A Pepperi Alternative Built For The Reorder.</h1>
+      <h1>A Pepperi Alternative For The Orders Between Visits</h1>
       <p class="lead mt-16">
-        VOS is for the reorder nobody had to go and collect. A customer talks the order into the app, checks the lines, and sends it. Pepperi arms the people who go out to your accounts: routes, shelf audits, promotions. Nobody has to stop by to write this one up.
+        The reorders nobody drives out for can come in on their own. VoiceOrder Solutions runs beside Pepperi: an account talks through the reorder in our app, checks the lines and sends it. The field team holds on to its routes, store visits and promotions, and stops writing up those repeat orders.
       </p>
 
       <div class="hero-ctas">
         <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
-        <a href="#comparison" class="btn btn-outline-white btn-lg">Compare The Two</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
       <div class="hero-trust">
-        <span>Reorders arrive without a visit</span>
+        <span>Reorders come in between visits</span>
         <span class="hero-trust-dot"></span>
-        <span>No rep writes it up</span>
+        <span>Pepperi stays in the field</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -53,7 +58,7 @@ module.exports = {
     <div>
       <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
       <div class="img-placeholder tall">
-        📸 Screenshot:<br>VOS "Push to Speak" screen<br>with the order review list
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
       </div>
     </div>
 
@@ -93,11 +98,11 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
-    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
-      <span class="eyebrow">Two Different Jobs</span>
-      <h2>VoiceOrder Solutions vs Pepperi.<br>Built for different moments.</h2>
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">Visit, Then Reorder</span>
+      <h2>Pepperi plus VoiceOrder Solutions.<br>The visit and the reorder.</h2>
       <p class="lead mt-16">
-        In VOS the repeat order happens without a rep attending it. Pepperi is a field sales platform covering van routes, store audits, promotions and CRM, so a Pepperi alternative is a question about which moment you are buying for. The table sets the two jobs against each other.
+        The rep's visit and the reorder that follows it are two moments, and this table covers both. Pepperi is a B2B commerce and field sales platform with van routes, store audits, promotions and CRM, so a Pepperi alternative is mostly a question about the order between visits. The left column has both running; they do not connect.
       </p>
     </div>
 
@@ -106,55 +111,55 @@ module.exports = {
         <thead>
           <tr>
             <th style="width:40%;">Feature</th>
-            <th class="highlight" style="width:30%;">VoiceOrder Solutions</th>
-            <th style="width:30%;">Pepperi</th>
+            <th class="highlight" style="width:30%;">Pepperi + VoiceOrder Solutions</th>
+            <th style="width:30%;">Pepperi on its own</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Where routes and van selling are handled</td>
-            <td>Your route system, if you run one</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Your account speaks the order and approves it</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>Taps, scans or uploads it there</td>
-          </tr>
-          <tr>
-            <td>Where shelf audits happen</td>
-            <td>Not part of ordering</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Each account has its own guide, at your prices</td>
+            <td>Route accounting and van selling</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Reaching an account with a promo</td>
-            <td>Promos and confirmations arrive by notification and text</td>
+            <td>Accounts speak the reorder and approve each line</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Typed, scanned or uploaded</td>
+          </tr>
+          <tr>
+            <td>Store audits and shelf compliance</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Live without an IT project</td>
+            <td>Each account has its own catalog, at your prices</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies with the setup</td>
-          </tr>
-          <tr>
-            <td>Where customer records live</td>
-            <td>Your own CRM</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Where the order gets placed</td>
-            <td>On the customer's own phone, in their kitchen</td>
-            <td>In the field, online or offline</td>
+            <td>Trade promotions across channels</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Which moment it covers</td>
-            <td>The order between visits</td>
-            <td>The platform their reps work from</td>
+            <td>Mobile CRM for your reps</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Reps take orders offline in Pepperi</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>A branded web store for buyers who like a screen</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Payment collection and proof of delivery</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
         </tbody>
         <tfoot>
@@ -177,43 +182,37 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container">
-    <div class="text-center" style="max-width: 680px; margin: 0 auto;">
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Why distributors look at an alternative to Pepperi</h2>
       <p class="lead mt-16">
-        Hardly anybody searching for a Pepperi competitor wants to rebuild how their sales force
-        works. They want one part of the week to stop costing so much. Three such cases turn up a lot, and they are worth keeping apart.
+        Hardly anybody searching for a Pepperi competitor wants to rebuild how their sales force works. They want one part of the week to stop costing so much, and it is usually the reorder. Three such cases turn up a lot.
       </p>
     </div>
 
     <div class="problem-grid">
 
       <div class="problem-card">
-        <div class="problem-icon">🧩</div>
+        <div class="problem-icon">🧰</div>
         <h4>The product is wider than the problem</h4>
         <p class="text-muted mt-12">
-          Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If
-          what you came for was a better way to receive orders, you are being asked to weigh up a
-          platform decision to get at one of its channels.
+          Pepperi carries route accounting, retail execution, promotions, CRM and analytics. If what you came for was a better way to receive orders, swapping it out means weighing a platform decision to get at one of its channels.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">☎️</div>
+        <div class="problem-icon">🛒</div>
         <h4>A storefront does not end the calls</h4>
         <p class="text-muted mt-12">
-          Self-service ordering only helps with the accounts who use it. The rest ring the desk at
-          the worst hour of the day, and somebody keys those in by hand regardless of what the
-          portal cost.
+          Self-service ordering only helps with the accounts who use it. The rest call the desk at the worst hour of the day, and somebody keys those in by hand.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🍳</div>
-        <h4>Nobody is visiting a kitchen every week</h4>
+        <h4>The reorder rarely needs a visit</h4>
         <p class="text-muted mt-12">
-          Shelf audits and merchandising matter when your product sits in a store. A chef
-          reordering the same forty lines every week is a different motion, and much of that toolkit may never be opened.
+          Shelf audits and merchandising earn their keep when a rep is in the store. A chef reordering the same lines every week does not need anyone to drive out, and that order can come in on its own.
         </p>
       </div>
 
@@ -229,7 +228,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>What a Pepperi alternative actually changes</h2>
+      <h2>What a Pepperi alternative actually adds</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -239,9 +238,7 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>A chef talks, and that is the order</h3>
           <p class="mt-12 text-muted">
-            No search field, no quantity box, no screen anybody has to be trained on. They walk
-            the cooler, say what is short, and the items come up as a list. They correct whatever
-            looks wrong and send it. That is the step a portal does not always win over.
+            They go through the cooler, say what is short, and the items come up as a list from their own guide. They correct whatever looks wrong and send it. For accounts a portal never won over, that is the easier habit.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -262,7 +259,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Reorders from accounts on the app stop reaching your reps, so that time goes into selling</span>
+              <span>Reps stop writing up reorders from accounts on the app, so that time goes into selling</span>
             </li>
           </ul>
           <a href="/order-taking-software" class="feature-link">How order capture works →</a>
@@ -294,7 +291,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Nobody else is promoting into your customer's list</span>
+              <span>Your prices, set per account, on every line</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -302,7 +299,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Your team works in the same admin platform, account by account</span>
+              <span>Your team handles every account from a single admin screen</span>
             </li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Keeping guides current →</a>
@@ -363,7 +360,7 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock in view as the orders come in</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to order activity, and the catalog
+            VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog
             updates as stock levels change. It is not the system of record for stock: the one you
             run today stays in charge, and a demo shows how the levels connect.
           </p>
@@ -382,7 +379,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No counting and no buying happens inside VOS</span>
+              <span>Nothing is counted or bought on our side</span>
             </li>
           </ul>
           <a href="/inventory-visibility-software" class="feature-link">More on stock visibility →</a>
@@ -408,8 +405,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and no rollout to manage</h2>
       <p class="lead mt-16">
-        There is no territory to map and no team to train. You hand over the lists, we open the
-        accounts, your customers start ordering.
+        There is no territory to map and no team to train. You hand over the lists, we set up each login, and your customers begin ordering.
       </p>
     </div>
 
@@ -426,9 +422,9 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>We open each account</h4>
+        <h4>Each account gets set up</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Logins get created and the kitchen is shown the app once. Most of them
+          We load each guide and create the login, then the kitchen downloads the app. Most of them
           send something in before the day is out.
         </p>
       </div>
@@ -444,7 +440,7 @@ module.exports = {
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS admin platform showing customer accounts and order guide upload
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
     </div>
   </div>
 </section>
@@ -486,8 +482,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our reps were never the problem. The problem was the hour of
-            messages waiting for them every morning, and that hour is gone."
+            "Our reps spent mornings on order messages. Now the regulars send their own, and the reps get out selling sooner."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -501,8 +496,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We looked at platforms for months. What we needed was one piece of
-            it, and we had that piece working by the Thursday."
+            "The chefs speak to the app the way they would to us on the phone, then check it on the screen. It just arrives."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -527,11 +521,11 @@ module.exports = {
      ============================================================ -->
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
-    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Not Either Or</span>
-      <h2>When VOS and Pepperi work together</h2>
+    <div class="text-center" style="max-width: 620px; margin: 0 auto;">
+      <span class="eyebrow">Both, Not One</span>
+      <h2>Where Pepperi and VoiceOrder Solutions each fit</h2>
       <p class="lead mt-16">
-        That is the common case here, not the exception. VOS is no sort of Pepperi replacement: your field team keeps its routes, its audits and its promotions, and the orders that never needed a visit arrive on their own. For most distributors that is what a Pepperi alternative turns out to mean.
+        Keeping Pepperi is the common case with us, not the exception. We are not a Pepperi replacement: your field team keeps its routes, its audits and its promotions, and the orders that never needed a visit arrive on their own. For most distributors, that is what a Pepperi alternative turns out to mean.
       </p>
     </div>
 
@@ -541,21 +535,20 @@ module.exports = {
         <div class="feature-card-icon">🚐</div>
         <h4>Your reps keep every tool they have</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Routes, audits, van stock and promotions carry on where they are. VOS takes nothing out of a rep's hands. It just stops the app accounts' reorders landing there first.
+          Routes, audits, van stock and promotions carry on in Pepperi. We take nothing out of a rep's hands; we just take the app accounts' reorders off their plate.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🙋</div>
-        <h4>Self-service keeps the accounts that like it</h4>
+        <div class="feature-card-icon">🖱️</div>
+        <h4>Self-service stays for those who enjoy it</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Buyers who are happy clicking through a catalog should carry on. This is for the part of
-          the book that never took to one and still telephones instead.
+          Buyers who are happy clicking through a catalog should carry on. Our app is for the part of the book that never took to one and still telephones instead.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🧷</div>
+        <div class="feature-card-icon">📍</div>
         <h4>Start with the accounts nobody gets around to visiting</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Pick the kitchens your reps rarely reach and open those first. Nothing about the territory or the route plan has to change to try it.
@@ -575,7 +568,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See one order go the whole way through</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes. A chef speaks one, you see how it reaches the desk laid out as your desk reads it, and how much of that stops landing on your desk.
+        Twenty minutes. A chef speaks one reorder, and you see it arrive laid out as your desk is used to seeing them.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -597,70 +590,61 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Is VOS a Pepperi alternative, or another sort of product?
+          Do we need a Pepperi alternative to take reorders by voice?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Quite a different thing, and it is better to be blunt about that. Pepperi serves your sales organization: the rep, the van and the shelf. VOS deals only with how the order gets to you. Treat them as equivalents and one of them will let you down, so the better question is which part of the week hurts.
+          No. Pepperi keeps serving your sales organization: the rep, the van and the shelf. VoiceOrder Solutions works beside it and deals only with how the reorder reaches you, so the better question is which part of the week hurts.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is VOS better than Pepperi?
+          Is VoiceOrder Solutions better than Pepperi?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At pulling an order out of a kitchen that will never log in, we think so. At
-          everything else on their product list the question does not really apply: we have no
-          route accounting, no store audits, no CRM and no promotion engine, and none of it is
-          planned.
+          At pulling an order out of a kitchen that will never log in, we think so. At everything else on their product list the question does not really apply: we have no route accounting, no store audits, no CRM and no promotion engine. That is the reason to keep both.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does Pepperi not already let customers order for themselves?
+          Doesn't Pepperi already let customers order for themselves?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It does, and anyone who tells you otherwise has not read their site. They offer a
-          branded self-service portal with each buyer's own catalog and pricing. Every route into it still means working a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones this suits.
+          It does. They offer a branded self-service portal with each buyer's own catalog and pricing. Every route into it still means working a screen: searching the catalog, scanning a barcode or uploading a file. The accounts that were not going to do that are the ones our app suits.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Do we give up route accounting and van sales?
+          Is Pepperi connected to VoiceOrder Solutions?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only if you drop the tool that does them, and we are not asking you to. VOS has never
-          planned a route, loaded a van or reconciled a day's selling, and it does not track a
-          shipment either. If those are what you are shopping for, Pepperi is the right call and we will say so.
+          No. Nothing ties them together, and each company backs only its own product. Pepperi's orders keep flowing the way they do now, and ours reach your own system by a separate route, in any format listed above.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          We are a smaller operation. Does that change the answer?
+          Won't some accounts end up with a portal and an app?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It is most of the answer. Their own site describes their customers as medium and
-          enterprise. Ours says we are built for small to mid-size distributors, and that
-          enterprise pricing and enterprise complexity are not your problem. Both companies are
-          telling you who they are for, and it is worth taking them at their word.
+          Only the ones you choose. Buyers happy in the Pepperi portal can stay there; offer our app to the kitchens that still phone. Those calls keep coming in as they do today, without an order number from us, because only what is sent through our app gets one.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How do the costs compare?
+          What does each one cost?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Pepperi publishes no price on its own site, and nor do we. Be aware that third-party directories carry figures for them, so check any number you are shown against their own site. What we will say is that the scope is narrower here: you are buying one step, not the system your field force lives in.
+          Pepperi publishes no price on its own site, and neither do we. Third-party directories do carry figures for them, so check any number you are shown against their own site. Since Pepperi stays, the only question on our side is what one added step costs, and a quote answers that.
         </div>
       </div>
 
@@ -670,19 +654,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors this is running in 24 to 48 hours, and most kitchens get a first order in the same day. There is no integration project, which is why a Pepperi alternative often gets shortlisted by people with no intention of replacing anything.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          What about accounts that will only ever telephone?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          They go on telephoning, and your desk handles those as always. Be clear on the limit,
-          though: a call or a voicemail gets no order number out of VOS, no timestamp, and nothing
-          moving against stock. Only what comes through the app does.
+          For most distributors this is running in 24 to 48 hours, and most kitchens get a first order in the same day. There is no IT project, since nothing in Pepperi is connected or changed, so adding us asks far less than a Pepperi alternative that takes over from it.
         </div>
       </div>
 
@@ -709,7 +681,7 @@ module.exports = {
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
   <h2>Let the reorders look after themselves</h2>
-  <p>Twenty minutes, one reorder that nobody had to drive out for.</p>
+  <p>Twenty minutes, and one reorder that comes in while your reps are out selling.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -755,12 +727,12 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs Pepperi</a></li>
+        <li><a href="#comparison">Pepperi + VoiceOrder Solutions</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h5>More From VOS</h5>
+      <h5>More From VoiceOrder Solutions</h5>
       <ul role="list">
         <li><a href="/order-taking-software">Order Taking</a></li>
         <li><a href="/order-tracking-software">Order Tracking</a></li>

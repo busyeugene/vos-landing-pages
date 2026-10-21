@@ -154,7 +154,7 @@ for (const p of registry) {
   const vsLabel = (body.match(/<a href="#comparison">([^<]*)<\/a>/) || [])[1] || '';
   const others = thCells.slice(2).join(' | ');
   if (vsLabel) {
-    const vsWords = vsLabel.replace(/^VOS vs\.?\s*/i, '').toLowerCase().split(/\s+/).map(w => w.replace(/s$/, '')).filter(w => w.length > 2);
+    const vsWords = vsLabel.replace(/^(VOS|VoiceOrder Solutions) vs\.?\s*/i, '').replace(/\s*\+\s*VoiceOrder Solutions$/i, '').toLowerCase().split(/\s+/).map(w => w.replace(/s$/, '')).filter(w => w.length > 2);
     if (!vsWords.some(w => others.toLowerCase().includes(w))) warn(`footer "${vsLabel}" vs comparison columns "${others}"`);
   }
 
@@ -186,7 +186,7 @@ for (const p of registry) {
   const foot = sec('footer');
   const cols = (foot.match(/class="footer-col"/g) || []).length;
   if (cols !== 3 || !/footer-brand-name/.test(foot)) fail(`footer cols ${cols}+brand`);
-  const more = (foot.match(/<h5>More From VOS<\/h5>([\s\S]*?)<\/ul>/) || [])[1] || '';
+  const more = (foot.match(/<h5>More From (?:VOS|VoiceOrder Solutions)<\/h5>([\s\S]*?)<\/ul>/) || [])[1] || '';
   const ml = [...more.matchAll(/href="\/([a-z0-9-]*)"/g)].map(m => m[1]).filter(Boolean);
   if (ml.length < 4 || ml.length > 5) warn(`More From VOS has ${ml.length} page links (want 4-5)`);
   if (ml.includes(p.slug)) fail('footer links to itself');

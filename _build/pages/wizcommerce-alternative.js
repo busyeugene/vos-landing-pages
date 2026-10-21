@@ -1,4 +1,12 @@
-/* Comparison page: VOS vs WizCommerce. `compare` block order (see template.js).
+/* Comparison page: WizCommerce, and WizCommerce with VoiceOrder Solutions added. `compare` block order (see template.js).
+ * REFRAMED 2026-10-21 (client, via Eugene): keep the "wizcommerce alternative" keywords, but
+ * present VoiceOrder Solutions as the voice step a distributor ADDS next to WizCommerce, never as
+ * its replacement. The table is "WizCommerce + VoiceOrder Solutions" against "WizCommerce on its
+ * own": every WizCommerce strength is a tick in both columns, and only the two things the voice
+ * step adds differ. The two products do NOT connect (FAQ 4). Never imply an integration.
+ * Brand: "VoiceOrder Solutions" in full on these pages, never "VOS" (client, 2026-10-21).
+ * The old H1 "A WizCommerce Alternative That Needs No Reading" sold by absence on purpose; under
+ * the add-on frame it became "Weighing A WizCommerce Alternative? Add Spoken Orders First."
  * ⚠⚠ TWO TRAPS, both of which would have made this page factually wrong:
  *   1. THEY INGEST VOICE. Their AI Order Entry Assistant "Reads orders from emails, PDFs,
  *      spreadsheets, scans, voice notes, and handwritten documents". So "they type, we speak" is
@@ -8,11 +16,9 @@
  *      customer. So "not built for food" is false too. Never written on this page.
  * Angle, used by no other page in the set: whether an INTERPRETATION STEP EXISTS AT ALL.
  * WizCommerce reconstructs the order from an artifact a person already made, and their own
- * safeguard is "a final review step" by the DISTRIBUTOR'S team before it hits the ERP. VOS has
- * the order authored as lines from the account's own guide, and the BUYER approves it. Nothing is
- * inferred, so there is nothing to catch.
- * ⚠ Not "who stays in the loop": that is the Burnt page's axis and must not be reused. Keep this
- * page on read-back-versus-authored and off the loop language entirely.
+ * safeguard is "a final review step" by the DISTRIBUTOR'S team before it hits the ERP. In the
+ * add-on frame: their AI keeps reading what still arrives; the voice step means less arrives.
+ * ⚠ Not "who stays in the loop": that is the Burnt page's axis and must not be reused.
  * ⚠ Their food testimonial contains "20-30 minutes" by coincidence with VOS's own verified stat.
  * Never quoted, and no sentence here relates the two numbers.
  * Their figures (5000+ orders/day, 100% data match, 9x faster, etc.) are unaudited. Never used.
@@ -21,9 +27,9 @@
  */
 module.exports = {
   title: "WizCommerce Alternative for Distributors in 2026",
-  description: 'Your accounts build the order as lines in the app and approve it before sending, so nothing needs reading back. A WizCommerce alternative for distributors.',
+  description: 'Keep WizCommerce and add spoken orders for accounts that still send scans. Buyers approve each line, so less needs reading. A WizCommerce alternative that adds.',
   related: ["rekki-alternative","orderease-alternative","burnt-ai-alternative"],
-  relatedHeading: "Other tools distributors weigh against VOS",
+  relatedHeading: "Other tools our app can run alongside",
   body: `
 <!--@NAVBAR-->
 
@@ -36,20 +42,23 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A WizCommerce Alternative That Needs No Reading.</h1>
+      <h1>Weighing A WizCommerce Alternative? Add Spoken Orders Too.</h1>
       <p class="lead mt-16">
-        VOS skips the round trip. The kitchen says what it needs in the app, straight off its own guide, and approves the lines before it sends. WizCommerce's AI reads whatever an account sent you and turns it into an order for your team to check.
+        Get orders that come in as clean lines the buyer has already checked. VoiceOrder
+        Solutions sits alongside WizCommerce: buyers say the lines into our app, straight
+        off their own guide, and approve each line before it sends. Their AI keeps reading the
+        scans and spreadsheets that still come in.
       </p>
 
       <div class="hero-ctas">
         <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
-        <a href="#comparison" class="btn btn-outline-white btn-lg">Compare The Two</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
       <div class="hero-trust">
-        <span>Nothing for your team to interpret</span>
+        <span>Keep every WizCommerce tool</span>
         <span class="hero-trust-dot"></span>
-        <span>The buyer signs it off</span>
+        <span>The buyer signs off each line</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -58,7 +67,7 @@ module.exports = {
     <div>
       <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
       <div class="img-placeholder tall">
-        📸 Screenshot:<br>VOS "Push to Speak" screen<br>with the order review list
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
       </div>
     </div>
 
@@ -92,18 +101,21 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 5: COMPARISON TABLE
-     The first five rows go to WizCommerce. Reading handwriting, scans and
-     voice notes is real and VOS has no answer to it at all; so are the
-     storefront, the CRM and the payments. Row 1 is their strongest claim
-     and it leads the table on purpose.
+     Not a head-to-head. Column 2 is the distributor's operation with both tools, column 3
+     with WizCommerce alone. Every WizCommerce strength (document reading, rep app, storefront,
+     CRM, quoting, payments, photography, the food feature set, ERP push) is a tick in BOTH.
+     Only rows 1 and 3 differ, and each WizCommerce cell there is their own published model.
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 660px; margin: 0 auto;">
-      <span class="eyebrow">Two Ways To Get A Clean Order</span>
-      <h2>VoiceOrder Solutions vs WizCommerce.<br>Read back, or built as lines.</h2>
+      <span class="eyebrow">Read Less, Keep Everything</span>
+      <h2>WizCommerce with a voice step added.<br>Less arriving to be read.</h2>
       <p class="lead mt-16">
-        VOS has the order itemized from the outset, with nothing to read back. WizCommerce reads what arrived and rebuilds the order from it, so a WizCommerce alternative is really about whether an interpretation step exists at all. The table shows where each approach lands.
+        This table shows your operation twice: the way it works now, and with spoken orders added for
+        the accounts that need them. A WizCommerce alternative usually comes up over what has to be
+        read and checked, and that is where adding voice changes things. The two products do not
+        connect, and every WizCommerce detail is from their own site.
       </p>
     </div>
 
@@ -112,55 +124,55 @@ module.exports = {
         <thead>
           <tr>
             <th style="width:40%;">Feature</th>
-            <th class="highlight" style="width:30%;">VoiceOrder Solutions</th>
-            <th style="width:30%;">WizCommerce</th>
+            <th class="highlight" style="width:30%;">WizCommerce + VoiceOrder Solutions</th>
+            <th style="width:30%;">WizCommerce on its own</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>What has to be read at your end</td>
-            <td>Nothing, the order arrives as lines</td>
-            <td>Scans, spreadsheets and handwritten sheets</td>
-          </tr>
-          <tr>
-            <td>The order is approved by the buyer, not your team</td>
+            <td>Orders spoken into an app, line by line</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Your team checks it before the ERP</td>
+            <td>Voice notes, read afterwards</td>
           </tr>
           <tr>
-            <td>Where quoting happens</td>
-            <td>However you quote today</td>
-            <td><span class="check-yes">✓</span></td>
-          </tr>
-          <tr>
-            <td>Each account has its own guide, at your prices</td>
+            <td>AI reads scans, spreadsheets and handwriting</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>How an account orders without ringing you</td>
+            <td>Each line approved by the buyer before it sends</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Reviewed by your team before the ERP</td>
+          </tr>
+          <tr>
+            <td>Rep app, branded storefront and CRM</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Starts without a training period</td>
+            <td>Quotes built from incoming requests</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Varies with the setup</td>
-          </tr>
-          <tr>
-            <td>Where CRM and payments live</td>
-            <td>Your CRM and your processor</td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Catalog imagery produced for you</td>
-            <td>Not part of ordering</td>
+            <td>Payments and AI catalog photography</td>
+            <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>What you are adding to</td>
-            <td>One step at the front</td>
-            <td>A wholesale platform with AI</td>
+            <td>Food promotions and unit-of-measure pricing</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Each account buys from its own list, at your prices</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Orders pushed into your ERP</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
         </tbody>
         <tfoot>
@@ -184,11 +196,13 @@ module.exports = {
 <section class="section-pad bg-light" id="problem" aria-label="Problem statement">
   <div class="container">
     <div class="text-center" style="max-width: 680px; margin: 0 auto;">
-      <span class="eyebrow">Why Teams Compare</span>
-      <h2>Why distributors look for an alternative to WizCommerce</h2>
+      <span class="eyebrow">Where The Search Starts</span>
+      <h2>What sends distributors looking for an alternative to WizCommerce</h2>
       <p class="lead mt-16">
-        Searching for a WizCommerce competitor usually means one of a few quite different things,
-        and only some of them are about reading documents. Three of them recur enough to be worth telling apart.
+        WizCommerce runs rep-led, online, EDI and marketplace sales in one AI platform, with a
+        storefront, a CRM, payments and a real food and beverage feature set. None of that is the
+        problem. The hunt for a WizCommerce competitor tends to start with the checking at your end, and that
+        is a narrow thing to fix.
       </p>
     </div>
 
@@ -200,24 +214,26 @@ module.exports = {
         <p class="text-muted mt-12">
           Their own description includes a final review step for your team before orders reach the
           ERP, which is the honest way to build it. It does mean the accuracy question stays with
-          you: did it read that right, and did we spot it if not.
-        </p>
-      </div>
-
-      <div class="problem-card">
-        <div class="problem-icon">📦</div>
-        <h4>The platform arrives with the part you wanted</h4>
-        <p class="text-muted mt-12">
-          Store, CRM, payments, quoting and catalog imagery all come as one product family. They sit in the same product set, so ask what you are actually licensing and what you will realistically open.
+          you: did it read that right, and did your team spot it if not.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🧑‍🍳</div>
-        <h4>Reading the mess is not the same as ending it</h4>
+        <h4>The paperwork keeps coming</h4>
         <p class="text-muted mt-12">
-          A tool that copes with scraps of paper and voice notes works because the scraps keep
-          coming. Some would rather the kitchen stopped producing them at all, which is a different thing to buy.
+          A tool that reads handwritten sheets and voice notes stays busy because kitchens keep sending them. The pile only gets smaller when some of those kitchens start sending
+          something else.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">📦</div>
+        <h4>Pulling a suite out to fix one step</h4>
+        <p class="text-muted mt-12">
+          Store, CRM, payments, quoting and catalog imagery come as one product family. Taking all
+          of it out because some kitchens still fax in handwriting would be a great deal of
+          change for a small gain.
         </p>
       </div>
 
@@ -233,7 +249,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>What a WizCommerce alternative does differently</h2>
+      <h2>What a WizCommerce alternative can add without replacing it</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -244,8 +260,7 @@ module.exports = {
           <h3>Spoken into lines, not onto a note</h3>
           <p class="mt-12 text-muted">
             A chef says what is short and the items appear from that account's guide, already
-            against your codes and your prices. The words become the lines as they are said, so
-            nothing is left over afterwards for anybody to work out.
+            against your codes and your prices. The buyer sees each line as it appears and fixes it before sending, so nobody at your end pieces the order together afterwards.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -285,15 +300,15 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Order Guides</span>
-          <h3>A short list that can only hold what you sell</h3>
+          <h3>A short list built from what you sell them</h3>
           <p class="mt-12 text-muted">
             Each account works from the items it actually buys, carrying your codes at the figure
-            you hold for that customer. An order comes back in your own items and codes, because the guide it was built from only holds what you sell that account.
+            you hold for that customer. Orders arrive in your own items and codes, because each line is picked from that customer's guide.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>No unknown items and no codes to match up</span>
+              <span>Every line drawn from their guide</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -305,7 +320,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Nobody else is promoting into your customer's list</span>
+              <span>Saved as they go if the cook gets pulled away</span>
             </li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Keeping guides current →</a>
@@ -366,9 +381,9 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock on view as the orders come through</h3>
           <p class="mt-12 text-muted">
-            VOS carries real-time inventory visibility tied to order activity, and the catalog
-            updates as stock levels change. It is not the system of record for stock: whatever you
-            run today keeps that role, and a demo shows how the levels connect.
+            VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and
+            the catalog updates as stock levels change. It is not the system of record for stock:
+            whatever you run today keeps that role, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -385,7 +400,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No counting and no buying happens inside VOS</span>
+              <span>No counting and no buying happens on our side</span>
             </li>
           </ul>
           <a href="/inventory-visibility-software" class="feature-link">More on stock visibility →</a>
@@ -409,10 +424,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Getting Started</span>
-      <h2>Three steps, and nothing to train</h2>
+      <h2>Three steps, and no IT project</h2>
       <p class="lead mt-16">
-        No model has to learn your paperwork and no sample orders are needed. You hand over the
-        lists, we open the accounts, your customers order.
+        You hand over the guides, we load them and set up each account, and the kitchens take it from there.
       </p>
     </div>
 
@@ -431,7 +445,7 @@ module.exports = {
         <div class="step-number">2</div>
         <h4>Each customer is set up</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts get provisioned and the kitchen sees the app once. Most will
+          Accounts are opened for you, and the kitchen downloads the app. Most will
           have sent something in before the day ends.
         </p>
       </div>
@@ -447,7 +461,7 @@ module.exports = {
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VOS admin platform showing customer accounts and order guide upload
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
     </div>
   </div>
 </section>
@@ -489,8 +503,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "We were getting very good at correcting orders nobody should have
-            had to correct. Now the kitchen hands us one that is already right."
+            "Our chefs go through the order on their own phone before they send it."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -504,8 +517,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Half of what we were sorting out came down to a chef and a bad
-            line. They read it over themselves now, and most of that went away."
+            "The kitchens say what they need at the end of service, and it is on our desk in the morning."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -531,10 +543,13 @@ module.exports = {
 <section class="section-pad bg-light" aria-label="Additional features">
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Not Either Or</span>
-      <h2>When VOS and WizCommerce work together</h2>
+      <span class="eyebrow">Side By Side</span>
+      <h2>Running WizCommerce and VoiceOrder Solutions together</h2>
       <p class="lead mt-16">
-        Running both is a perfectly sensible outcome. VOS is not a WizCommerce replacement: it moves one group of accounts off producing paperwork at all, and anything still arriving as a scan or a spreadsheet keeps being read. For many distributors that is what a WizCommerce alternative amounts to.
+        Running both is a perfectly sensible outcome, because we are not a WizCommerce
+        replacement. Our app moves one group of accounts off producing paperwork at all, and
+        anything still arriving as a scan or a spreadsheet keeps being read. For many distributors
+        that is what a WizCommerce alternative amounts to.
       </p>
     </div>
 
@@ -544,9 +559,7 @@ module.exports = {
         <div class="feature-card-icon">📉</div>
         <h4>Less arrives needing a verdict</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Accounts on the app stop sending anything that has to be interpreted. Whatever reads
-          documents for you has a smaller and stranger pile left, which is where it earns its
-          keep.
+          Accounts on the app send lines they have already checked, not a note to decode. The assistant that reads documents keeps every other channel it already handles.
         </p>
       </div>
 
@@ -554,8 +567,8 @@ module.exports = {
         <div class="feature-card-icon">🧾</div>
         <h4>Quotes, payments and the store stay put</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          None of that is on offer here and none of it is affected. VOS hands over a finished
-          order and takes no view on what the rest of your stack does with it.
+          None of that is on offer here and none of it is affected. We hand over a finished order
+          and take no view on what the rest of your stack does with it.
         </p>
       </div>
 
@@ -563,7 +576,7 @@ module.exports = {
         <div class="feature-card-icon">🧷</div>
         <h4>Point it at the accounts that phone most</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Adding VOS removes nothing, so begin with a handful of the kitchens that ring the desk and leave every other arrangement exactly where it is.
+          Buyers who already self-serve in the storefront can stay there. Begin with a handful of the kitchens that call the desk, and leave every other arrangement exactly where it is.
         </p>
       </div>
 
@@ -590,106 +603,100 @@ module.exports = {
 
 <!-- ============================================================
      SECTION 13: FAQ
+     Eight items, to match the eight accordion slots on the Webflow page, so nothing has to
+     be merged at port time.
      ============================================================ -->
 <section class="section-pad" id="faq" aria-label="Frequently asked questions">
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">FAQ</span>
-      <h2>Questions from distributors looking at AI order entry</h2>
+      <h2>What WizCommerce distributors ask us</h2>
     </div>
 
     <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Is VOS a WizCommerce alternative, or something narrower?
+          Is a WizCommerce alternative the only way to get spoken orders?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          Narrower, and the difference is worth stating plainly. They take whatever arrives from an account and work the order out of it. We change what the account sends, so there is no working out. Feature for feature their list is far longer, so the real question is whether you want the mess handled or ended.
+          No. You can keep WizCommerce and bring us in for the accounts who prefer talking an order through to writing one. Everything their platform does now carries on. The
+          difference is that some orders arrive already built as lines, so there is less for the
+          assistant and your team to read.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is VOS better than WizCommerce?
+          Is VoiceOrder Solutions better than WizCommerce?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At getting an accurate order out of a kitchen that will not use a screen, we think so. At
-          reading a handwritten sheet, quoting an inquiry, running a storefront, a CRM or payments,
-          no: we do none of it and are not building any of it.
+          Not at what they are built for: reading a handwritten sheet, quoting an inquiry, running a store, customer records or payments. We do none of it. Where we are stronger is one step, an order the buyer builds and approves, so your team is not left decoding a message. That is a reason to
+          run us next to their platform rather than instead of it.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Do they not handle voice already?
+          Don't they handle voice already?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They do, and anybody claiming otherwise has not read their site: voice notes are on
-          their own list of things the assistant reads, alongside scans and handwriting. The
-          difference is not voice. It is that a note gets interpreted after the fact, while in VOS
-          the speaking builds the lines and the buyer approves them before anything is sent.
+          They do: voice notes are on their own list of what the assistant reads, alongside scans
+          and handwriting. So a WizCommerce alternative pitched on voice alone would be wrong. The
+          difference is when the order takes shape. A note gets interpreted after the fact, while
+          in our app the speaking builds the lines and the buyer approves them before anything is
+          sent.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Are they not built for food distribution too?
+          Is WizCommerce linked to VoiceOrder Solutions in any way?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They are, and we are not going to pretend differently. Food and beverage is one of their
-          named industries, with promotions, warehouse-level availability and unit-of-measure
-          pricing in it. Our claim is narrower: one step, done one way, for the accounts that ring
-          rather than log in.
+          No. There is nothing between them, and each company supports only its own product. Each sends its orders into
+          your own system separately: theirs through their ERP connections, ours as email, EDI,
+          API or QuickBooks. Neither one routes through the other.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Who checks the order before it reaches us?
+          Will storefront buyers need a second way to order?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          In VOS it is the customer, on their own screen, before it sends. That matters because
-          the only person who knows whether the order is right is the one who wants the goods. Be
-          clear on the limit, though: this applies to orders placed in the app. A call or a
-          voicemail to your desk gets no number, no timestamp and nothing moving against stock.
+          Only if you choose to give them one. Our app is for any kitchen that still phones, emails a scan or sends a spreadsheet. Be clear on one limit: a call or a voicemail to your desk
+          gets no order number from us, no timestamp and nothing moving against stock. Only orders
+          placed in the app do.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Does one of them have to go?
+          How fast could spoken orders be running?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No, and we would not advise it if you have a real paperwork problem. They are aimed at
-          different halves of it: one shrinks what arrives as a document, the other deals with
-          what still does. Neither needs the other switched off.
+          Most distributors have the app live in 24 to 48 hours, and most kitchens manage a first order that day. Nothing in WizCommerce has to change, so the platform
+          keeps running while your first few accounts start speaking orders.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How do the costs compare?
+          How is pricing handled if we keep both?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          They quote the platform, the same as we do. The one price they publish is for their AI photo product, which is sold on its own page with its own tiers. The one thing worth noting is scope: ours covers one step, theirs covers a product family, so you are not comparing like for like anyway.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          How fast could this be running?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          Most distributors have it live in 24 to 48 hours, and most kitchens manage a first order that day. There is no model to train and nothing to connect, which is why a WizCommerce alternative gets looked at by teams who want one thing fixed this week.
+          We quote per distributor and publish nothing, and they quote their platform too. The one
+          price list they publish is for their AI photo product, which has its own page and tiers.
+          Keeping WizCommerce means the only new cost is our app, and a quote from us covers
+          that.
         </div>
       </div>
 
@@ -715,8 +722,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Stop guessing what the order said</h2>
-  <p>Twenty minutes, one order that needed no reading back.</p>
+  <h2>Give your review step less to do</h2>
+  <p>Twenty minutes, one spoken order, from the kitchen to your inbox.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
@@ -762,12 +769,12 @@ module.exports = {
       <ul role="list">
         <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
         <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
-        <li><a href="#comparison">VOS vs WizCommerce</a></li>
+        <li><a href="#comparison">WizCommerce + VoiceOrder Solutions</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h5>More From VOS</h5>
+      <h5>More From VoiceOrder Solutions</h5>
       <ul role="list">
         <li><a href="/order-entry-software">Order Entry</a></li>
         <li><a href="/inventory-control-software">Inventory Control</a></li>
