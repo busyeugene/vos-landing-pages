@@ -1,11 +1,11 @@
 {
  "slug": "rekki-alternative",
  "meta_title": "REKKI Alternative for Food Distributors in 2026",
- "meta_desc": "The buyer picks the lines off their own guide and confirms them, so no robot has to read the order right. A REKKI alternative for food distributors.",
+ "meta_desc": "Keep REKKI's robots and add an app your accounts speak orders into, confirming every line first. A REKKI alternative that leaves less for anything to read.",
  "hero": {
   "eyebrow": "For Food Distributors",
-  "h1": "A REKKI Alternative Your Accounts Build Themselves.",
-  "lead": "VOS works a step earlier, where there is nothing to read: your account talks its order into the app, picks from its own guide, and confirms the lines before they reach you. REKKI puts robots on the order desk and publishes how often they get it right.",
+  "h1": "Need A REKKI Alternative? Give Accounts A Voice.",
+  "lead": "Cut the orders anything has to read. VoiceOrder Solutions works alongside REKKI's robots: your account talks its order into our app, picks from its own guide, and confirms the lines before they reach you. OrderAI and InboxAI keep working on whatever still arrives as a message.",
   "cta": "Book a Free Demo →"
  },
  "stats": [
@@ -25,19 +25,19 @@
  "problem": {
   "eyebrow": "Why Teams Compare",
   "h2": "Why distributors weigh an alternative to REKKI",
-  "lead": "Hunting for a REKKI competitor is rarely about doubting the robots. It is usually one of three much more specific worries, and they pull in different directions.",
+  "lead": "Hunting for a REKKI competitor is rarely about doubting the robots. It is usually one specific worry about the orders they read, and that worry has an answer that leaves the robots running.",
   "cards": [
    {
     "h3": "An error rate is still a rate",
-    "body": "REKKI publishes theirs, which is more than most vendors will do. It is also an admission worth pausing on: a number exists because a machine is working out what the order said. They stand behind it with double checks and a refund guarantee. VOS publishes no such number because the lines are the account's own items and the buyer reads them before sending."
+    "body": "REKKI publishes theirs. A number exists because a machine is working out what the order said, and they stand behind it with double checks and a refund guarantee. When the buyer builds the order from their guide and checks it before sending, nobody has to reconstruct it from a message afterwards."
    },
    {
-    "h3": "Your team ends up teaching it",
-    "body": "Their own page says you train the robot to fit your business, which is honest and is why the accuracy belongs to them. They present it as control, and it is. It is also a job for your team, and there is nothing here to teach."
+    "h3": "Their robot learns your business",
+    "body": "Their site says your team trains the robot to fit your business, and that it starts processing orders and learning right away. That is real control. For accounts on our app, your existing order guides are the setup."
    },
    {
     "h3": "The messy order keeps being written",
-    "body": "Software that copes beautifully with a scrawled message works because the messages keep arriving. Plenty would rather the message never got written, which is a different purchase with a different shape."
+    "body": "Software that copes beautifully with a scrawled message stays busy because the messages keep arriving. For some accounts you would rather the message never got written, and our app can take those while the robot carries on."
    }
   ]
  },
@@ -48,13 +48,13 @@
    {
     "eyebrow": "Voice Ordering",
     "h3": "Picked from a list, not worked out from a message",
-    "body": "A chef says what is running low and the items appear from that account's own guide, carrying your codes and your prices. There is no sentence to interpret, because the words only ever select from lines you already sell.",
+    "body": "A chef says what is running low and the items appear from that account's own guide, carrying your codes and your prices. The buyer looks over every line and fixes anything wrong before it sends, so nobody at your end pieces the order together afterwards.",
     "bullets": [
      "Every line is on screen before it goes anywhere",
      "From a walk-in or a bench, whenever the shift ends",
      "Their own handset, iOS or Android, nothing issued",
      "20 to 30 minutes back against the same order by phone",
-     "Reorders from accounts on the app stop reaching your reps, so that time goes into selling"
+     "Reps stop writing up reorders from accounts on the app, so that time goes into selling"
     ],
     "link": {
      "href": "/order-taking-software",
@@ -63,13 +63,13 @@
    },
    {
     "eyebrow": "Order Guides",
-    "h3": "The guide is why nothing needs interpreting",
-    "body": "Each account works from the lines it actually buys, at the figure you hold for that customer. What reaches you is in your own items and codes, because the guide only holds what that account buys from you.",
+    "h3": "The guide is what the lines come from",
+    "body": "Each account works from the lines it actually buys, at the figure you hold for that customer. What reaches you is in your own items and codes, because each line is drawn from that customer's guide.",
     "bullets": [
-     "No codes to match and no item to look up",
+     "Lines arrive under your own codes",
      "The catalog and the pricing stay yours to set",
      "Change a guide once and the next order carries it",
-     "No sample orders needed to get started"
+     "Setup starts from your existing guides"
     ],
     "link": {
      "href": "/catalog-management-software",
@@ -94,12 +94,12 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Stock in sight while the orders land",
-    "body": "VOS carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the system you run today keeps that job, and a demo shows how the levels connect.",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the system you run today keeps that job, and a demo shows how the levels connect.",
     "bullets": [
      "Over everything you list, not only the quick movers",
      "Fewer stockout surprises on a late, heavy order",
      "Levels come out of whatever you count with now",
-     "No counting and no buying happens inside VOS"
+     "We never count or buy stock for you"
     ],
     "link": {
      "href": "/inventory-visibility-software",
@@ -109,32 +109,32 @@
   ]
  },
  "cards": {
-  "eyebrow": "Not Either Or",
-  "h2": "When VOS and REKKI work together",
-  "lead": "Keeping both is a reasonable call. VOS is not a REKKI replacement: it takes a slice of your book off writing messages at all, and whatever still turns up as an email or a voicemail wants reading by something. A REKKI alternative often turns out to mean exactly that.",
+  "eyebrow": "Keep Both",
+  "h2": "Where REKKI's robots and VoiceOrder Solutions each fit",
+  "lead": "Keeping both is a reasonable call. Our app is not a REKKI replacement: it takes a slice of your book off writing messages at all, and whatever still turns up as an email or a voicemail needs reading by something. A REKKI alternative often turns out to mean exactly that.",
   "items": [
    {
     "h3": "A shorter pile to be right about",
-    "body": "Accounts on the app never produce a message to begin with. Anything you have reading the rest gets a smaller stack, and a rate applied to fewer orders costs less when it slips."
+    "body": "Kitchens on the app hand over a checked list rather than a message. Anything you have reading the rest gets a smaller stack to work through."
    },
    {
     "h3": "Whatever wins you new accounts is untouched",
-    "body": "Anything bringing you new buyers should carry on bringing them. VOS has no marketplace and no interest in who finds you; it only handles the ordering once they have."
+    "body": "Anything bringing you new buyers should carry on bringing them. We have no marketplace and no interest in who finds you; we only handle the ordering once they have."
    },
    {
-    "h3": "Begin where the phone rings loudest",
+    "h3": "Begin with the kitchens that phone most",
     "body": "Nothing else has to give way for it, so start on the few accounts that eat the most of the morning and judge it on those."
    }
   ]
  },
  "midcta": {
-  "h3": "An order nothing had to decipher",
-  "body": "Twenty minutes. The chef talks, their own guide supplies the lines, and nothing has to work out what they meant.",
+  "h3": "An order the buyer has already checked",
+  "body": "Twenty minutes. The chef talks, their own guide supplies the lines, and nobody at your end has to work out what they meant.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
   "eyebrow": "Getting Started",
-  "h2": "Three steps, and no training period",
+  "h2": "Three steps, starting from your guides",
   "lead": "Nothing has to be taught here: your guides are the configuration. You send the guides, we open the accounts, the orders start arriving finished.",
   "items": [
    {
@@ -152,34 +152,34 @@
   ]
  },
  "comparison": {
-  "h2": "VoiceOrder Solutions vs REKKI. Measured, or confirmed.",
+  "h2": "REKKI with VoiceOrder Solutions added. Less left to read.",
   "h2_lines": [
-   "VoiceOrder Solutions vs REKKI.",
-   "Measured, or confirmed."
+   "REKKI with VoiceOrder Solutions added.",
+   "Less left to read."
   ],
   "eyebrow": "Two Ways To Trust An Order",
-  "lead": "In VOS the account assembles its own order and signs it off. REKKI reads orders out of whatever your customers send and reports how often that goes right, so a REKKI alternative is a question about whether anything has to interpret it. Read the table for where each one is measured.",
+  "lead": "A confirmed order takes nothing away from a robot that reads. Teams looking at a REKKI alternative are usually asking whether anything has to interpret the order, so each row shows REKKI today and REKKI with our app beside it. The two products are not linked, and every REKKI detail is from their own site.",
   "heads": [
    "Feature",
-   "VoiceOrder Solutions",
-   "REKKI"
+   "REKKI + VoiceOrder Solutions",
+   "REKKI on its own"
   ],
   "rows": [
    {
-    "label": "Interpretation needed at your end",
+    "label": "Orders read out of any channel by a robot",
     "cells": [
      {
-      "t": "text",
-      "v": "None, the lines are already built"
+      "t": "icon",
+      "v": "yes"
      },
      {
-      "t": "text",
-      "v": "Reads orders arriving on any channel"
+      "t": "icon",
+      "v": "yes"
      }
     ]
    },
    {
-    "label": "Your accounts order from your guide, not a marketplace",
+    "label": "Some accounts send lines from their own guide, not a message",
     "cells": [
      {
       "t": "icon",
@@ -187,20 +187,7 @@
      },
      {
       "t": "text",
-      "v": "App carries a marketplace"
-     }
-    ]
-   },
-   {
-    "label": "Orders that need no sorting when they arrive",
-    "cells": [
-     {
-      "t": "icon",
-      "v": "yes"
-     },
-     {
-      "t": "text",
-      "v": "Sorts and flags what arrives"
+      "v": "OrderAI reads what arrives"
      }
     ]
    },
@@ -213,16 +200,16 @@
      },
      {
       "t": "text",
-      "v": "No human step, by their account"
+      "v": "Varies: chef app yes, OrderAI no"
      }
     ]
    },
    {
-    "label": "Where upselling happens",
+    "label": "An inbox robot that flags urgent emails",
     "cells": [
      {
-      "t": "text",
-      "v": "Your reps, working from your guide"
+      "t": "icon",
+      "v": "yes"
      },
      {
       "t": "icon",
@@ -231,54 +218,67 @@
     ]
    },
    {
-    "label": "Runs without being trained first",
+    "label": "Menus scanned for products they don't buy from you yet",
     "cells": [
      {
       "t": "icon",
       "v": "yes"
      },
      {
-      "t": "text",
-      "v": "Trained by your team"
+      "t": "icon",
+      "v": "yes"
      }
     ]
    },
    {
-    "label": "Where new buyers come from",
+    "label": "REKKI's free app for chefs",
     "cells": [
      {
-      "t": "text",
-      "v": "Your own sales effort"
+      "t": "icon",
+      "v": "yes"
      },
      {
-      "t": "text",
-      "v": "A marketplace, UK only by their FAQ"
+      "t": "icon",
+      "v": "yes"
      }
     ]
    },
    {
-    "label": "Up and running",
+    "label": "A marketplace for new buyers, UK only by their FAQ",
     "cells": [
      {
-      "t": "text",
-      "v": "24-48 hours for most"
+      "t": "icon",
+      "v": "yes"
      },
      {
-      "t": "text",
-      "v": "No duration published"
+      "t": "icon",
+      "v": "yes"
      }
     ]
    },
    {
-    "label": "What it is for",
+    "label": "Chef-app orders reach you even if you never signed up",
     "cells": [
      {
-      "t": "text",
-      "v": "The order step"
+      "t": "icon",
+      "v": "yes"
      },
      {
-      "t": "text",
-      "v": "A suite of office robots"
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Orders delivered into your ERP",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
      }
     ]
    }
@@ -286,39 +286,35 @@
  },
  "faq": {
   "eyebrow": "FAQ",
-  "h2": "Questions we get about order accuracy",
+  "h2": "Better than REKKI, or less for it to read?",
   "items": [
    {
-    "q": "Is VOS a REKKI alternative, or a different proposition?",
-    "a": "Different, and worth saying so early. They automate the work your office does on orders that have already arrived, plus the inbox and the upselling. VOS changes the way one group of customers orders so less of that work exists. Judged as equivalents one will disappoint you, so what matters is whether you want the pile read or shrunk."
+    "q": "Is VoiceOrder Solutions a REKKI alternative, or something to add?",
+    "a": "One to add, not swap. REKKI automates the work your office does on orders that have already arrived, plus the inbox and the upselling. We change the way one group of customers orders, so less of that work exists. REKKI's robots can stay on the rest."
    },
    {
-    "q": "Is VOS more accurate than REKKI?",
-    "a": "Not in those terms, and the reason is stronger than a percentage. In VOS nothing reads the order, so there is no accuracy figure for you to take on trust: the lines come off the guide and the buyer looks at them before sending. Theirs measures how well a machine reads an order a person wrote. We would rather have that than a tidier number."
+    "q": "Is the voice app more accurate than REKKI?",
+    "a": "Not in those terms. Our safeguard is different: every line is picked from the account's guide and the buyer checks each one before sending. Theirs measures how well a machine reads an order a person wrote. That is a different kind of check, not a better percentage."
    },
    {
     "q": "So can an order still be wrong?",
-    "a": "Of course. Somebody can confirm the wrong quantity, as they can on any order ever placed. What cannot happen is a mistake nobody saw, because the person who wants the goods read the lines last. And the limit is worth stating: this covers orders placed in the app. A call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock."
+    "a": "Of course. Somebody can confirm the wrong quantity, as they can on any order ever placed. What changes is who reads the lines last: the person who wants the goods, before anything leaves. This only covers orders placed in our app: a call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock."
    },
    {
-    "q": "Is VOS better than REKKI?",
-    "a": "At moving an order out of a kitchen with nothing in the middle, we think so. At reading email, triaging an inbox, finding what an account is not buying from you yet, or putting you in front of new buyers, no: we do none of those and have no plans to."
-   },
-   {
-    "q": "How much do we have to train it?",
-    "a": "Nothing at all, and that is a real difference rather than a slogan. They are open that the training is yours to do, which is fair. We load your guides and open accounts, so there is no learning period and nothing to correct afterwards."
+    "q": "Does your app connect to REKKI?",
+    "a": "No. There is no link between the two and no joint support. OrderAI keeps passing what it reads into your system, and our orders come separately, emailed as a file or sent in over EDI or the API."
    },
    {
     "q": "Some of our customers already use the REKKI app. What happens?",
-    "a": "Nothing breaks. Their chef app is free and, by their own account, sends orders to suppliers whether or not the supplier signed up, converting them to email for your order address. Those keep arriving as they do now. VOS is for the accounts you would rather had a guide of yours in front of them instead."
+    "a": "Nothing breaks. Their chef app is free and, by their own account, sends orders to suppliers whether or not the supplier signed up, converting them to email for your order address. Those keep arriving as they do now. Give our app to the accounts who prefer speaking to typing, and leave the ones already happy where they are."
    },
    {
     "q": "How do the costs compare?",
-    "a": "They are more open here than we are, and that deserves saying: their site carries an opening figure per customer and what it includes. It is quoted in pounds, and their marketplace is described as UK only, while the app itself is described as working anywhere in the world. Ours is quote-based and nothing is published, so ask and you will get a figure for your own book."
+    "a": "They are more open here than we are, and that deserves saying: their site carries an opening figure per customer and what it includes. It is quoted in pounds, and their marketplace is described as UK only, while the app itself is described as working anywhere in the world. Ours is quote-based and nothing is published, so ask and you will get a figure for the voice step on its own."
    },
    {
     "q": "How fast could this be running?",
-    "a": "Most distributors are running it in 24 to 48 hours, and most kitchens get one away that day. Nothing is being integrated or taught, which is why a REKKI alternative gets shortlisted by teams with a single problem to settle this week."
+    "a": "Most distributors are running it in 24 to 48 hours, and most kitchens have an order in that day. Nothing in REKKI is touched or rewired, which matters if you came looking for a REKKI alternative with only one problem to settle."
    },
    {
     "q": "Where do the REKKI details on this page come from?",
@@ -327,7 +323,7 @@
   ]
  },
  "mainCta": {
-  "h2": "Take the reading step out of the order",
+  "h2": "Keep the robots. Take the reading out of some orders.",
   "body": "Twenty minutes, one order, built and confirmed by the buyer.",
   "cta": "Book a Free Demo →"
  }

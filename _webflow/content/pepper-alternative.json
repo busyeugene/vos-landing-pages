@@ -1,11 +1,11 @@
 {
  "slug": "pepper-alternative",
  "meta_title": "Pepper Alternative for Food Distributors in 2026",
- "meta_desc": "Your accounts speak each order into an app and check it before sending. This Pepper alternative is up and running in 24 to 48 hours for most.",
+ "meta_desc": "Add spoken ordering beside Pepper, with no second rollout. Accounts say each order into an app and check it first. A Pepper alternative that runs beside it.",
  "hero": {
   "eyebrow": "For Food Distributors",
-  "h1": "The Pepper Alternative Built On Voice Ordering.",
-  "lead": "VOS is a Pepper alternative built for independents and DSD operations. Your accounts put each order into the app by voice, read it over, then send it. It lands on your desk with a timestamp, in one of the formats you already take orders in. Most distributors are up and running in 24 to 48 hours.",
+  "h1": "A Pepper Alternative? Keep Pepper, Add Our App.",
+  "lead": "Get orders off the phone without a second rollout. VoiceOrder Solutions sits beside Pepper: accounts speak to our app, review each line, then send. Their orders land timestamped and ready for your desk, and most distributors have it running in 24 to 48 hours.",
   "cta": "Book a Free Demo →"
  },
  "stats": [
@@ -23,32 +23,32 @@
   }
  ],
  "problem": {
-  "eyebrow": "Why Teams Compare",
-  "h2": "Why teams look for an alternative to Pepper",
-  "lead": "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product. Here is what gets weighed when a buyer shortlists one Pepper competitor against another.",
+  "eyebrow": "Where It Starts",
+  "h2": "Why an alternative to Pepper gets searched for",
+  "lead": "Pepper, from Pomegranate Technologies, sells an AI-first platform to independent distributors: a storefront, an Order Agent for order entry, and hubs for sales, finance, pricing and marketing. It is a lot of product, and most of it earns its place. What sends a buyer to look at a Pepper competitor is usually far narrower than the platform.",
   "cards": [
    {
-    "h3": "Go-live runs from five weeks to three months",
-    "body": "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. That is a fair number for the amount of platform it stands up. It is a long wait if what you wanted was orders arriving with nobody having to take a call."
-   },
-   {
-    "h3": "You buy the whole stack to fix one step",
-    "body": "Every one of those modules is another thing to configure, train and keep current. If your ERP suits you and the office is fine, most of it is ground you already cover."
+    "h3": "The phone accounts are still phoning",
+    "body": "A storefront only helps the kitchens that open it. The rest keep calling, texting and leaving voicemails at the end of a shift, and those are the orders your desk still writes up by hand."
    },
    {
     "h3": "On the Order Agent path, you do the checking",
     "body": "Order Agent reads the voicemail, text, photo or PDF the kitchen already sent. Pepper's own product page describes no step where the kitchen confirms what was read, so your order desk is the first person to see it written down."
+   },
+   {
+    "h3": "One more rollout is the last thing you need",
+    "body": "Pepper publishes 35 to 90 days for a typical go-live, across five phases, with an implementation manager and a deployed engineer assigned. Fair for a platform that size. Going through anything like it again for one channel is not, and no Pepper alternative should ask you to."
    }
   ]
  },
  "features": {
   "eyebrow": "What You Get",
-  "h2": "What this Pepper alternative covers",
+  "h2": "A Pepper alternative that adds instead of replacing",
   "rows": [
    {
     "eyebrow": "Voice Ordering",
     "h3": "They talk. It comes out as a list.",
-    "body": "A chef counts the walk-in and says what is short. Each item turns into a line you can read, with the quantity beside it. Nothing to type, no time on hold, and no message for your team to interpret in the morning.",
+    "body": "A chef counts the walk-in and says what is short. Each item turns into a line you can read, with the quantity beside it. Nothing to type, no time on hold, and no voicemail for your team to piece together in the morning.",
     "bullets": [
      "They press to speak, then read the lines back before sending",
      "From the cooler or the line, whatever time the shift ends",
@@ -58,13 +58,13 @@
     ],
     "link": {
      "href": "/order-taking-software",
-     "text": "How VOS takes orders →"
+     "text": "How our app takes orders →"
     }
    },
    {
     "eyebrow": "Order Guides",
     "h3": "Each account gets a list of its own",
-    "body": "You hand over the guides each kitchen already buys from. VOS loads each one against your SKUs at the prices you hold for that account, so a spoken item lands on the right line against your own SKU.",
+    "body": "You hand over the guides each kitchen already buys from. We load each one against your SKUs at the prices you hold for that account, so a spoken item lands on the right line against your own SKU.",
     "bullets": [
      "Each account sees only what it actually orders from you",
      "Your prices, your SKUs, under your control, not the customer's",
@@ -79,7 +79,7 @@
    {
     "eyebrow": "Delivery Formats",
     "h3": "The order shows up in a shape you already handle",
-    "body": "VOS does not ask your office to work somewhere new. Finished orders go out as email with a PDF, Excel or Word file, or straight into your ERP over the API, over EDI, or into QuickBooks.",
+    "body": "Nobody in your office has to work somewhere new. Finished orders go out as email with a PDF, Excel or Word file, or straight into your ERP over the API, over EDI, or into QuickBooks.",
     "bullets": [
      "Email goes to a rep or straight to your purchasing team",
      "Nothing to retype over EDI, QuickBooks or the API",
@@ -94,12 +94,12 @@
    {
     "eyebrow": "Inventory Visibility",
     "h3": "Watch stock move as the orders land",
-    "body": "VOS gives you real-time inventory visibility tied to what is being ordered, and the catalog updates as levels change. It is not where your stock lives: your own inventory system stays in charge, and a demo covers how the two connect.",
+    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to what is being ordered, and the catalog updates as levels change. It is not where your stock lives: your own inventory system stays in charge, and a demo covers how the two connect.",
     "bullets": [
      "Visibility across the catalog, not just the fast movers",
      "Stockouts surprise you less often when a big order lands late",
      "Stock figures come from the system doing your counting today",
-     "No counting happens inside VOS"
+     "Counting never happens in our app"
     ],
     "link": {
      "href": "/inventory-visibility-software",
@@ -109,33 +109,33 @@
   ]
  },
  "cards": {
-  "eyebrow": "Not Either Or",
-  "h2": "When VOS and Pepper work together",
-  "lead": "VOS is not a Pepper replacement and does not try to be. It is additive: nothing has to come out for it to go in, so you can add it beside what you run.",
+  "eyebrow": "Side By Side",
+  "h2": "What Pepper keeps and what the voice step adds",
+  "lead": "VoiceOrder Solutions is no Pepper replacement, and it is not trying to be one. Nothing has to come out for it to go in, so the platform you rolled out stays exactly where it is.",
   "items": [
    {
     "h3": "Keep the storefront, add the voice",
-    "body": "Some accounts are never going to browse a catalog. They will talk instead, at the end of a shift, from the walk-in. The storefront stays for the ones who tap, and VOS picks up the ones who talk."
+    "body": "Some accounts are never going to browse a catalog. They will talk instead, late in the evening, from the walk-in. The storefront stays for the ones who tap, and our app picks up the ones who talk."
    },
    {
-    "h3": "Try it on the accounts still phoning",
-    "body": "VOS goes in beside what you run without a rollout, so you can put it on the handful of accounts that never adopted and judge it on those before you decide anything bigger."
+    "h3": "Try it on the accounts still calling",
+    "body": "It goes in beside Pepper without a project, so you can start with the handful of accounts that never adopted the storefront and judge it on those before deciding anything bigger."
    },
    {
     "h3": "The ERP keeps being the one destination",
-    "body": "Both feed the system you have, so adding VOS does not change where an order ends up. It arrives over EDI, the API or QuickBooks, into the same place your people already work."
+    "body": "Both feed the system you have, so adding our app does not change where an order ends up. It arrives over EDI, the API or QuickBooks into the system your people already use, or by email as a file."
    }
   ]
  },
  "midcta": {
   "h3": "Follow one spoken order from a kitchen to your desk",
-  "body": "Book 20 minutes. We take one order through to the format it arrives in, and you can judge the fit against anything else on your shortlist.",
+  "body": "Book 20 minutes. We take one order through to the format it arrives in, so you can see where it lands beside your Pepper orders.",
   "cta": "Book a Free Demo →"
  },
  "steps": {
   "eyebrow": "Getting Started",
   "h2": "Three steps, and no migration to schedule",
-  "lead": "There is nothing to migrate here. Send us the guides your office works from, and we do the loading.",
+  "lead": "There is nothing to migrate here, and Pepper is left as it is. Send us the guides your office works from, and we do the loading.",
   "items": [
    {
     "h3": "Send over your guides",
@@ -152,21 +152,21 @@
   ]
  },
  "comparison": {
-  "h2": "VoiceOrder Solutions vs Pepper. A layer, not a platform.",
+  "h2": "Pepper with VoiceOrder Solutions beside it. One step added.",
   "h2_lines": [
-   "VoiceOrder Solutions vs Pepper.",
-   "A layer, not a platform."
+   "Pepper with VoiceOrder Solutions beside it.",
+   "One step added."
   ],
-  "eyebrow": "Side By Side",
-  "lead": "VOS is the ordering layer that bolts on beside the stack you have now. Pepper sells a broad platform to independents, so most distributors weighing a Pepper alternative are really choosing between those two shapes. Read down the VOS column for what changes, and the Pepper column for what stays as it is.",
+  "eyebrow": "Both, Not One",
+  "lead": "Adding a tool should never leave you with less, and the table reads that way. Pepper sells a broad platform to independents, and a Pepper alternative search usually means one channel is still on the phone. So here is Pepper alone, then Pepper with our app next to it. The two do not connect, and every Pepper detail is from their own site.",
   "heads": [
    "Feature",
-   "VoiceOrder Solutions",
-   "Pepper"
+   "Pepper + VoiceOrder Solutions",
+   "Pepper on its own"
   ],
   "rows": [
    {
-    "label": "Customer signs off on every line first",
+    "label": "Kitchens say the order into an app and read it back",
     "cells": [
      {
       "t": "icon",
@@ -174,12 +174,12 @@
      },
      {
       "t": "text",
-      "v": "Varies by channel"
+      "v": "Voicemails and texts read by Order Agent"
      }
     ]
    },
    {
-    "label": "Orders arrive with no call for anyone to take",
+    "label": "A storefront built for digital ordering",
     "cells": [
      {
       "t": "icon",
@@ -192,7 +192,20 @@
     ]
    },
    {
-    "label": "An app the customer's own staff open",
+    "label": "The buyer reviews every line before it sends",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "On the storefront, yes"
+     }
+    ]
+   },
+   {
+    "label": "Hubs for reps, collections, margin and ads",
     "cells": [
      {
       "t": "icon",
@@ -212,8 +225,8 @@
       "v": "yes"
      },
      {
-      "t": "icon",
-      "v": "yes"
+      "t": "text",
+      "v": "Order guides, yes"
      }
     ]
    },
@@ -225,60 +238,47 @@
       "v": "yes"
      },
      {
-      "t": "icon",
-      "v": "yes"
+      "t": "text",
+      "v": "Not listed on their site"
      }
     ]
    },
    {
-    "label": "Orders out as PDF, Excel, Word, EDI or the API",
+    "label": "Storefront orders arrive with no call to take",
     "cells": [
      {
       "t": "icon",
       "v": "yes"
      },
      {
-      "t": "text",
-      "v": "Not described"
+      "t": "icon",
+      "v": "yes"
      }
     ]
    },
    {
-    "label": "Up and running",
+    "label": "Reps spend less of the day on order admin",
     "cells": [
      {
-      "t": "text",
-      "v": "24-48 hours for most"
+      "t": "icon",
+      "v": "yes"
      },
      {
-      "t": "text",
-      "v": "Published 35-90 days"
+      "t": "icon",
+      "v": "yes"
      }
     ]
    },
    {
-    "label": "What the rollout asks of you",
+    "label": "Orders land in the ERP you already run",
     "cells": [
      {
-      "t": "text",
-      "v": "Hand over your guides"
+      "t": "icon",
+      "v": "yes"
      },
      {
-      "t": "text",
-      "v": "Five phases, managed"
-     }
-    ]
-   },
-   {
-    "label": "Where it sits in your stack",
-    "cells": [
-     {
-      "t": "text",
-      "v": "Beside what you run now"
-     },
-     {
-      "t": "text",
-      "v": "A platform, hub by hub"
+      "t": "icon",
+      "v": "yes"
      }
     ]
    }
@@ -286,39 +286,35 @@
  },
  "faq": {
   "eyebrow": "FAQ",
-  "h2": "Questions distributors ask when they compare the two",
+  "h2": "Questions from distributors who are keeping Pepper",
   "items": [
    {
-    "q": "Is VOS a true Pepper alternative, or a different kind of product?",
-    "a": "Both, depending on what you are trying to fix. If the goal is to get orders off the phone and into something structured, VOS does that job and you can compare the two directly. If the goal is one platform running your storefront, your reps, your collections and your pricing, Pepper is built wide for that and VOS is not."
+    "q": "Do we need a Pepper alternative so kitchens can check their own spoken orders?",
+    "a": "No. Pepper can stay as it is, Order Agent included, while we add an app where kitchens say what they need and check every item themselves. The ones already ordering on Pepper's storefront carry on there. Nothing has to be switched off to try it."
    },
    {
-    "q": "Is VOS better than Pepper?",
-    "a": "For getting orders in on a short timeline, we think so: your customers get an app they open on purpose, they approve each line themselves, and getting started does not take a quarter. For a distributor who wants to move the whole business onto one platform, that is a bigger product than VOS, and the honest answer is that we are not trying to be it."
+    "q": "Is VoiceOrder Solutions better than Pepper?",
+    "a": "Not at running the whole business on one platform: storefront, reps, collections and pricing. Pepper is built wide for that, and we are not trying to be. Where we help is narrower: a reorder your account speaks and signs off, and plenty of people looking for a Pepper alternative turn out to want exactly that one thing."
+   },
+   {
+    "q": "Is there a link between VoiceOrder Solutions and Pepper?",
+    "a": "None. We have no connection to Pepper and no shared support arrangement. Each product hands its orders to your own system separately, ours by email with a file attached, over EDI or the API, or into QuickBooks. When ours go in by a direct feed, both land in the same system; by email, ours arrive as a file your team opens like any other."
+   },
+   {
+    "q": "Will our accounts be juggling Pepper's storefront and your app?",
+    "a": "They should not have to. Kitchens already ordering through the storefront can stay on it. Offer our app to the ones who still call, text or leave a voicemail, because those orders cost your desk the most time. Anyone who keeps calling is handled as now, with no order number from us, since numbers come only with what our app sends."
    },
    {
     "q": "How quickly can we actually be taking orders?",
-    "a": "Most distributors reach that point in a day or two. There is no IT project here, and nothing to pull out of your stack, which is the main reason a Pepper alternative gets shortlisted at all. Pepper's own published window is a good deal longer, which is fair for how much it is standing up."
+    "a": "Most distributors reach that point in a day or two, and most of their customers send a first order the same day. There is no IT project and Pepper runs throughout, which is a very different job from the window Pepper publishes for standing up its whole platform."
    },
    {
-    "q": "Do we have to drop Pepper to bring VOS in?",
-    "a": "No. VOS is additive by design and runs beside what you already have, so nothing needs switching off to try it. If you have an ERP you like and a storefront you are keeping, VOS covers how the order arrives and leaves both in place."
-   },
-   {
-    "q": "Will VOS replace our ERP or order management system?",
-    "a": "No, it does not. VOS is the way in: it gets the order from your customer to you, confirmed and itemized. From there it reaches your existing software or your inbox, and how you pick, bill and ship does not change."
-   },
-   {
-    "q": "What does VOS cost?",
-    "a": "We quote by distributor, so tell us about your operation and we will price it. Pepper quotes too, and publishes no rate card either, so a demo on both sides is the only way to compare the two fairly."
+    "q": "What does VoiceOrder Solutions charge?",
+    "a": "We quote by distributor, so tell us about your operation and we will price it. Pepper quotes too and publishes no rate card. Since you would be keeping Pepper, the figure worth asking for is what our app adds on top."
    },
    {
     "q": "Do our customers need new hardware or a tablet?",
-    "a": "No. VOS works on the iOS or Android phone that is already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
-   },
-   {
-    "q": "What happens to the customers who still call their order in?",
-    "a": "They can keep phoning, and your team handles those exactly as it does now. Worth being clear though: a call or a voicemail does not get a VOS order number, a timestamp or a stock movement. Only what comes through the app does."
+    "a": "No. Our app runs on the iOS or Android phone already in their pocket. We send nothing out, there is nothing to bolt to a counter, and no device for you to support."
    },
    {
     "q": "Where do the Pepper details on this page come from?",
@@ -327,7 +323,7 @@
   ]
  },
  "mainCta": {
-  "h2": "See what comes off your desk",
+  "h2": "Keep Pepper. Stop writing up the phone orders.",
   "body": "Twenty minutes, one real order, and a straight answer on what setup involves.",
   "cta": "Book a Free Demo →"
  }

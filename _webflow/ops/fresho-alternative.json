@@ -1,7 +1,7 @@
 {
  "slug": "fresho-alternative",
  "meta_title": "Fresho Alternative for Food Distributors in 2026",
- "meta_desc": "One step, not a suite: the kitchen speaks its order and confirms the lines before it sends. A Fresho alternative for small to mid-size food distributors.",
+ "meta_desc": "Keep Fresho running and add one spoken step: kitchens say the order into an app and confirm each line. A Fresho alternative you add rather than adopt.",
  "text": [
   [
    "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
@@ -29,7 +29,7 @@
   ],
   [
    "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
-   "Why Teams Compare"
+   "Before You Compare"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8be",
@@ -37,35 +37,35 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8c2",
-   "Looking up a Fresho competitor is seldom a complaint about the product. It is usually a question of scope or of sequence, and three versions of it come round reliably."
+   "Looking up a Fresho competitor is seldom a complaint about the product. Fresho is an order and operations system with real depth in fresh food. The search usually comes down to scope or sequence, and neither one needs Fresho taken out."
   ],
   [
    "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
-   "Most of it is already running here"
+   "Fresho can already run most of the operation"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8cc",
-   "Fresho reaches from the order through to the payment, and their pricing lets you take only the parts you want. The question is how much of your operation you want one vendor inside."
+   "Fresho reaches from the order through to the payment, and their pricing lets you take only the parts you want. How much of the operation sits with one vendor is a big decision. How some accounts place their order is a small one, and it can be answered on its own."
   ],
   [
    "bacfcf90-d337-55e1-9a02-49b2f6962e16",
-   "Keeping the habit keeps the habit"
+   "Some kitchens would change the habit"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8d3",
-   "Their AI is built so a customer need not change a thing, which is a deliberate choice and a sound one. The flip side is that the voicemails and the texts carry on, and a machine reads every one of them while your team approves what it produces."
+   "Their AI is built so a customer need not change a thing, which is a deliberate choice and a sound one, and for plenty of accounts it is right. A few would still rather say it once and see the lines than leave one more voicemail for a machine to read."
   ],
   [
    "83921d0d-4ec1-911e-4420-fee5bfd13614",
-   "The opening move is sized like a project"
+   "A voice step does not wait on a rollout"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8da",
-   "They publish around four weeks to get set up, plus two to four weeks training the AI before it goes live, on top of the one-off fee. That is clear and fair. It is still a bigger first move than some distributors want when the whole aim is to stop the phone ringing at four."
+   "Fresho publishes its timeline openly: around four weeks to set up, plus two to four weeks training the AI. Putting our app in front of some accounts is a separate decision, and it can happen in either order."
   ],
   [
    "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
-   "What a Fresho alternative keeps to"
+   "The one step a Fresho alternative adds"
   ],
   [
    "f49b7c29-2a8e-b047-d714-742b52e0a34c",
@@ -81,7 +81,7 @@
   ],
   [
    "24599529-959c-8515-3ff2-44ca6d68a0f1",
-   "A chef walks the cooler, says what is short, and the lines come up from that account's guide. They fix anything off and send. It is a change in how they order, which is the whole reason what reaches you needs no sorting out."
+   "A chef walks the cooler, says what is short, and the lines come up from that account's guide. They fix anything off and send. It is a change in how they order, and because they fixed the lines themselves, nobody at your end has to rebuild the order afterwards."
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
@@ -109,11 +109,11 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdea6",
-   "Each account gets the items it buys at the price you hold for it, against your own codes. That is the entire configuration. There is no margin engine to set up and no price book to migrate, because the guide is the only thing VOS needs."
+   "Each account gets the items it buys at the price you hold for it, against your own codes. That guide is the whole of our setup."
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdead",
-   "No codes to match and no item to look up"
+   "Lines drawn from the account's own guide"
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdeb3",
@@ -137,7 +137,7 @@
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb11c",
-   "A finished order arrives as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. Whatever raises your invoices and plans your runs today goes on doing it."
+   "A finished order arrives as an email carrying a PDF, Excel or Word file, or goes straight into your ERP over the API, over EDI, or into QuickBooks. Whatever sends your invoices and plans your runs today goes on doing it."
   ],
   [
    "8b079726-3463-6044-f4e9-f838b3bfb123",
@@ -165,7 +165,7 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df93e",
-   "VOS carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: whatever you run today keeps that role, and a demo shows how the levels connect."
+   "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: whatever you run today keeps that role, and a demo shows how the levels connect."
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df945",
@@ -181,19 +181,19 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df957",
-   "No counting and no buying happens inside VOS"
+   "Counting and buying stay with your own system"
   ],
   [
    "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
-   "Not Either Or"
+   "Add, Not Adopt"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
-   "When VOS and Fresho work together"
+   "Fresho runs the day, VoiceOrder Solutions adds the voice"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
-   "This is a sensible pairing rather than a standoff. VOS is not a Fresho replacement: it changes the way some accounts order, and everything after that order, the picking and the run and the invoice, stays exactly where it is. A Fresho alternative quite often means precisely this."
+   "This is a sensible pairing rather than a standoff. We are not a Fresho replacement: some accounts change how they order, and everything after that order, the picking and the run and the invoice, is left as it is. A Fresho alternative quite often means precisely this."
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
@@ -201,15 +201,15 @@
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
-   "Invoices, payments, run sheets and pick lists are not on offer here and are not touched. VOS hands the completed order over and leaves the rest of the day alone."
+   "Invoices, payments, pick lists and the delivery run are not on offer here and are not touched. We hand the completed order over, and the rest of the day stays yours."
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a6d",
-   "Fewer messages left to be read"
+   "Let every account pick its route"
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a70",
-   "Accounts that move across stop leaving voicemails and texts. Anything you have reading those gets a shorter list, which is the simplest way to improve it."
+   "Customers happy in the portal, or happy leaving a voicemail for OrderPilot, carry on just as Fresho promises. Hand the app to the kitchens that would rather talk it through and check it on screen."
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
@@ -221,7 +221,7 @@
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
-   "See the narrow version of this"
+   "Watch one account place a spoken reorder"
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b8",
@@ -237,7 +237,7 @@
   ],
   [
    "38293a1d-fb4c-9501-8014-28855f9128b6",
-   "There is nothing to scope and no configuration workshop. You send the guides, we open the accounts, your customers get going."
+   "There is nothing to scope. You pass us the guides, we load them and set up each account, and your customers get going."
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
@@ -257,7 +257,7 @@
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
-   "Orders turn up sorted"
+   "Orders arrive ready to work"
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
@@ -265,19 +265,19 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a176",
-   "VoiceOrder Solutions vs Fresho."
+   "Fresho, plus a voice reorder."
   ],
   [
    "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
-   "A whole operation, or one step."
+   "Their depth, one step added."
   ],
   [
    "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
-   "Deep Or Narrow"
+   "Deep, Plus One Step"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a179",
-   "In VOS an account speaks its order, and nothing else in your operation moves. Fresho covers ordering, stock, margins, delivery, picking, invoicing and payments, and it knows produce, meat and seafood properly, so a Fresho alternative is a choice about scope. The table marks the one step against the whole operation."
+   "Two columns, one operation: as it runs now, and with spoken orders added for the accounts that want them. Fresho covers ordering, stock, margins, delivery, picking, invoicing and payments, and it knows produce, meat and seafood properly, so a Fresho alternative is rarely the right word for what you need. The two products do not connect."
   ],
   [
    "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
@@ -285,35 +285,35 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a18d",
-   "VoiceOrder Solutions"
+   "Fresho + VoiceOrder Solutions"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a19e",
-   "Fresho"
+   "Fresho on its own"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1be",
-   "Where delivery and the last mile happen"
+   "Delivery runs and the last mile"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
-   "Works on ten accounts without a wider rollout"
+   "Kitchens order out loud in an app"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
-   "Where invoicing and payment happen"
+   "Invoices and taking payment"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
-   "The order is spoken and confirmed by the buyer"
+   "The buyer confirms each line before it sends"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
-   "Where picking and packing happen"
+   "Picking and packing"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
-   "Starts without choosing modules"
+   "Voicemails, texts and PDFs read for you"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a210",
@@ -321,11 +321,11 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a21a",
-   "Reads voicemails, texts and PDFs for you"
+   "Margins, stock and reporting"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a224",
-   "Where it fits in the operation"
+   "Runs alongside the ERP you have"
   ],
   [
    "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
@@ -337,35 +337,35 @@
   ],
   [
    "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
-   "Is VOS a Fresho alternative, and is it better than Fresho?"
+   "Is a Fresho alternative what we actually need?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
-   "Much smaller, deliberately, and you should hear that from us rather than later. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, VOS wins that one. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all, and none of it is planned. If that is what you need the software to be, theirs is a serious answer."
+   "Usually not. Fresho is an operations system built for perishable wholesale, from the order to the payment, and replacing it to change how a few kitchens order would be out of scale. Keep it, and bring in VoiceOrder Solutions for the kitchens happier talking than typing."
   ],
   [
    "ad9f0390-a776-7031-a95b-984cd1988c9e",
-   "Would we have to rip out what we run now?"
+   "Is VoiceOrder Solutions better than Fresho?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
-   "Not for either of us, and it is only fair to say so. Their order automation is described as working with the ERP you already have, and their own pricing notes say the parts can sit beside an existing system. VOS is additive too. The real difference is how much of the business each one expects to touch."
+   "At delivery runs, invoicing, taking payment, picking, margin control or reporting, not remotely: we do none of them. Where we help is narrower, a kitchen that speaks its order and checks every item before it sends. That runs alongside everything Fresho does rather than competing with it."
   ],
   [
    "e219e293-819b-221b-6d80-7f8d2898a4d7",
-   "Their AI handles voicemails. Does VOS do that?"
+   "Their AI handles voicemails. Do we need yours too?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
-   "No, and it is worth being exact here because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. If your aim is to keep the voicemails coming and have them handled, that is their product and not ours."
+   "Maybe not for every account, and it is worth being exact because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. That difference, not a missing feature, is why a Fresho alternative search sometimes ends with both."
   ],
   [
    "39590628-381c-9aea-6095-0746f7348939",
-   "We are not a fruit and veg or seafood house. Does that matter?"
+   "Does VoiceOrder Solutions connect to Fresho?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
-   "It matters for them in a good way: their guides and their named customers are in fresh protein and produce, and that depth is real. They also sell to general food service, so this is depth rather than a boundary. VOS cares less about the category, because a guide of tomatoes works the same way as a guide of dry goods."
+   "No. Nothing connects the two, and neither company supports the other. Both sit beside your ERP on their own terms: theirs through its own ERP connection, ours by email, EDI, API or QuickBooks. Neither one passes orders to the other."
   ],
   [
    "0f73d180-08e9-596f-f264-a95de40f9593",
@@ -373,23 +373,23 @@
   ],
   [
    "7e541655-5a68-8f96-1273-8249a5c759bd",
-   "Yes. Their published promise for OrderPilot is that customers carry on ordering exactly as they always have. They also sell an online ordering portal, where the habit does move. VOS only does the second of those, and only by voice, so what reaches you is already the buyer's own list. Worth stating the limit: that covers what comes through the app. A call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock."
+   "Only the ones you choose. OrderPilot's published promise is that customers carry on ordering exactly as they always have, and the Fresho portal is there too. Let each account pick: our app suits the kitchens that prefer to talk. One limit: a call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock from us. Only what comes through our app does."
   ],
   [
    "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
-   "How do the costs compare?"
-  ],
-  [
-   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
-   "They are the most open about this of anyone we compare against: a published starting figure, a setup fee, worked examples and a calculator, with prices by region. We publish nothing at all and give you a quote instead. Ask us and you will get a number for your own book rather than a table to interpret."
-  ],
-  [
-   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
    "How fast could this be running?"
   ],
   [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There are no modules to scope, and nothing in Fresho changes while the first accounts start."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How do the costs compare?"
+  ],
+  [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
-   "For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There are no modules to scope, which is why a Fresho alternative gets a look from people with one problem to solve rather than a program of work."
+   "They are the most open about this of anyone we look at: a published starting figure, a setup fee, worked examples and a calculator, with prices by region. We publish nothing and give you a quote instead. Since Fresho stays, ask us to quote just our part."
   ],
   [
    "7ec95cf1-65b0-b7be-b209-990427524516",
@@ -402,16 +402,8 @@
  ],
  "embed": [
   [
-   "37b58628-5e21-7c67-2967-24e3b5a7a1c0",
-   "<div class=\"uui-text-size-medium-21\">Your own operation</div>"
-  ],
-  [
    "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
-   "<div class=\"uui-text-size-medium-21\">Modules and volume priced together</div>"
-  ],
-  [
-   "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0",
-   "<div class=\"uui-text-size-medium-21\">Your finance system</div>"
+   "<div class=\"uui-text-size-medium-21\">Portal, or the message they already send</div>"
   ],
   [
    "55af8715-1c0d-7742-fde4-496073314315",
@@ -419,11 +411,7 @@
   ],
   [
    "5539a8dc-3999-60a4-e63a-01a711a5373d",
-   "<div class=\"uui-text-size-medium-21\">Portal, or the message they already send</div>"
-  ],
-  [
-   "f0a25565-fe6e-c821-4974-3d153187492b",
-   "<div class=\"uui-text-size-medium-21\">Your own floor, unchanged</div>"
+   "<div class=\"uui-text-size-medium-21\">In the portal; AI-read messages are corrected over time</div>"
   ],
   [
    "20efde0c-69cd-a8c3-92cb-38100394bc2d",
@@ -434,41 +422,21 @@
    "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
   ],
   [
-   "b3289c99-5fd7-ca67-2627-99dcf1f22d44",
-   "<div class=\"uui-text-size-medium-21\">Around 4 weeks, plus AI training</div>"
-  ],
-  [
    "37b58628-5e21-7c67-2967-24e3b5a7a212",
    "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
   ],
   [
-   "37b58628-5e21-7c67-2967-24e3b5a7a21c",
-   "<div class=\"uui-text-size-medium-21\">Not offered</div>"
-  ],
-  [
-   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
-   "<div class=\"uui-text-size-medium-21\">The ordering step</div>"
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   "<div class=\"uui-text-size-medium-21\">Not listed on their site</div>"
   ],
   [
    "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
-   "<div class=\"uui-text-size-medium-21\">Operations end to end</div>"
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
   ]
  ],
  "styles": [
   [
-   "37b58628-5e21-7c67-2967-24e3b5a7a1c0",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
    "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0",
    [
     "uui-text-size-medium 21"
    ]
@@ -480,31 +448,7 @@
    ]
   ],
   [
-   "f0a25565-fe6e-c821-4974-3d153187492b",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "b3289c99-5fd7-ca67-2627-99dcf1f22d44",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "37b58628-5e21-7c67-2967-24e3b5a7a21c",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
    [
     "uui-text-size-medium 21"
    ]
@@ -551,44 +495,44 @@
  "props": {
   "hero": {
    "eyebrow": "For Food Distributors",
-   "h1": "A Fresho Alternative That Stays One Step Wide.",
-   "lead": "Ordering is all VOS does. An account talks its order into the app, checks it over, and it reaches you in one of the formats you take today. Fresho runs a whole fresh-food operation, down to the run sheet and the invoice.",
+   "h1": "The Fresho Alternative You Add Alongside Fresho.",
+   "lead": "VoiceOrder Solutions gives your phone accounts a voice app, and everything else keeps running. Accounts talk through what they need in the app and look the lines over before sending, and each order lands in a format you take today. Your Fresho setup, from OrderPilot to the full suite, carries on.",
    "cta": "Book a Free Demo"
   },
   "mainCta": {
    "h2": "Fix the front door, leave the rest",
-   "body": "Twenty minutes, one voice order, and the minutes your desk loses to each call come back.",
+   "body": "Twenty minutes and one voice order, from the kitchen to your desk.",
    "cta": "Book a Free Demo"
   }
  },
  "faq": [
   {
-   "q": "Is VOS a Fresho alternative, and is it better than Fresho?",
-   "a": "Much smaller, deliberately, and you should hear that from us rather than later. Fresho is an operations system built for perishable wholesale, from the order through to the payment, and VOS covers ordering only. At moving a kitchen off the telephone, VOS wins that one. At delivery runs, invoicing, taking payment, picking, margin control or reporting, not at all, and none of it is planned. If that is what you need the software to be, theirs is a serious answer."
+   "q": "Is a Fresho alternative what we actually need?",
+   "a": "Usually not. Fresho is an operations system built for perishable wholesale, from the order to the payment, and replacing it to change how a few kitchens order would be out of scale. Keep it, and bring in VoiceOrder Solutions for the kitchens happier talking than typing."
   },
   {
-   "q": "Would we have to rip out what we run now?",
-   "a": "Not for either of us, and it is only fair to say so. Their order automation is described as working with the ERP you already have, and their own pricing notes say the parts can sit beside an existing system. VOS is additive too. The real difference is how much of the business each one expects to touch."
+   "q": "Is VoiceOrder Solutions better than Fresho?",
+   "a": "At delivery runs, invoicing, taking payment, picking, margin control or reporting, not remotely: we do none of them. Where we help is narrower, a kitchen that speaks its order and checks every item before it sends. That runs alongside everything Fresho does rather than competing with it."
   },
   {
-   "q": "Their AI handles voicemails. Does VOS do that?",
-   "a": "No, and it is worth being exact here because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. If your aim is to keep the voicemails coming and have them handled, that is their product and not ours."
+   "q": "Their AI handles voicemails. Do we need yours too?",
+   "a": "Maybe not for every account, and it is worth being exact because both products involve a voice. Theirs reads a voicemail your customer already left and works the order out of it. Ours has the customer speak into an app that builds the lines from their guide, which they then confirm. That difference, not a missing feature, is why a Fresho alternative search sometimes ends with both."
   },
   {
-   "q": "We are not a fruit and veg or seafood house. Does that matter?",
-   "a": "It matters for them in a good way: their guides and their named customers are in fresh protein and produce, and that depth is real. They also sell to general food service, so this is depth rather than a boundary. VOS cares less about the category, because a guide of tomatoes works the same way as a guide of dry goods."
+   "q": "Does VoiceOrder Solutions connect to Fresho?",
+   "a": "No. Nothing connects the two, and neither company supports the other. Both sit beside your ERP on their own terms: theirs through its own ERP connection, ours by email, EDI, API or QuickBooks. Neither one passes orders to the other."
   },
   {
    "q": "Do our customers have to change what they do?",
-   "a": "Yes. Their published promise for OrderPilot is that customers carry on ordering exactly as they always have. They also sell an online ordering portal, where the habit does move. VOS only does the second of those, and only by voice, so what reaches you is already the buyer's own list. Worth stating the limit: that covers what comes through the app. A call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock."
-  },
-  {
-   "q": "How do the costs compare?",
-   "a": "They are the most open about this of anyone we compare against: a published starting figure, a setup fee, worked examples and a calculator, with prices by region. We publish nothing at all and give you a quote instead. Ask us and you will get a number for your own book rather than a table to interpret."
+   "a": "Only the ones you choose. OrderPilot's published promise is that customers carry on ordering exactly as they always have, and the Fresho portal is there too. Let each account pick: our app suits the kitchens that prefer to talk. One limit: a call or a voicemail to your desk gets no number, no timestamp and nothing moving against stock from us. Only what comes through our app does."
   },
   {
    "q": "How fast could this be running?",
-   "a": "For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There are no modules to scope, which is why a Fresho alternative gets a look from people with one problem to solve rather than a program of work."
+   "a": "For most distributors this takes 24 to 48 hours, and most kitchens have ordered by the end of day one. There are no modules to scope, and nothing in Fresho changes while the first accounts start."
+  },
+  {
+   "q": "How do the costs compare?",
+   "a": "They are the most open about this of anyone we look at: a published starting figure, a setup fee, worked examples and a calculator, with prices by region. We publish nothing and give you a quote instead. Since Fresho stays, ask us to quote just our part."
   },
   {
    "q": "Where do the Fresho details on this page come from?",

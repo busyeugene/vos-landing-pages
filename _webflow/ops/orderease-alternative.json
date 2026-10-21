@@ -1,7 +1,7 @@
 {
  "slug": "orderease-alternative",
  "meta_title": "OrderEase Alternative for Food Distributors in 2026",
- "meta_desc": "Your accounts speak the order into the app and approve the lines, so it arrives itemized against your codes. An OrderEase alternative for food distributors.",
+ "meta_desc": "Keep OrderEase for EDI, portals and emailed POs, and add voice up front: accounts speak each order into an app. An OrderEase alternative that adds one piece.",
  "text": [
   [
    "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
@@ -37,15 +37,15 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8c2",
-   "Plenty of people searching for an OrderEase competitor are not shopping for middleware at all. They have one sore channel, not six. Three such cases recur enough to be worth separating."
+   "Plenty of people searching for an OrderEase competitor are not shopping for middleware at all. They have one sore channel, not six, and swapping out every channel to fix it is the wrong size of answer. Three such cases recur."
   ],
   [
    "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
-   "You are quoted the whole path for one step"
+   "The platform covers every channel"
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8cc",
-   "OrderEase says itself that it covers the full path rather than one piece of it, and for a lot of sellers that is the right buy. The platform is scoped to every channel, and your problem may be one of them."
+   "OrderEase says itself that it covers the full path rather than one piece of it, and for a lot of sellers that is the right buy. If your trouble sits in one channel, the fix can be sized to that channel."
   ],
   [
    "bacfcf90-d337-55e1-9a02-49b2f6962e16",
@@ -53,7 +53,7 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8d3",
-   "Software that lifts an order out of a PDF has to be checked, so the exception queue becomes somebody's morning. The work shrinks, which is real, but it does not leave the building."
+   "Software that lifts an order out of a PDF has to be checked, and OrderEase says plainly that it flags exceptions for review. The work shrinks, which is real, but somebody still owns that queue."
   ],
   [
    "83921d0d-4ec1-911e-4420-fee5bfd13614",
@@ -61,11 +61,11 @@
   ],
   [
    "964de5d5-3961-b811-98b9-cfb069a7e8da",
-   "Their site lists food and beverages beside lumber, apparel, pets and lawn care, which is a fair spread of wholesale. It also means nothing in it is shaped around a chef placing an order at the end of service."
+   "Their site lists food and beverages beside lumber, apparel, pets and lawn care, which is a fair spread of wholesale. It also means the defaults are general, rather than shaped around a chef placing an order at the end of service."
   ],
   [
    "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
-   "What an OrderEase alternative changes at the front"
+   "What an OrderEase alternative adds at the front"
   ],
   [
    "f49b7c29-2a8e-b047-d714-742b52e0a34c",
@@ -81,7 +81,7 @@
   ],
   [
    "24599529-959c-8515-3ff2-44ca6d68a0f1",
-   "A chef says what is short and the lines come up from that account's own guide, under the codes you use. There is nothing for them to attach and no form to work through, because the order was itemized the second it was spoken."
+   "A chef says what is short and the lines come up from that account's own guide, under the codes you use. They look over every line and fix anything wrong before sending, so nobody at your end rebuilds the order from a file."
   ],
   [
    "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
@@ -109,11 +109,11 @@
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdea6",
-   "Export the lists you keep now and we load them. Each account gets the items it actually buys at the figure you hold for it, which is also why nothing needs matching up later: the order can only contain lines you sell."
+   "Export the lists you keep now and we load them. Each account gets the items it actually buys at the figure you hold for it, so the lines on an order come from that guide, already tied to your codes."
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdead",
-   "No unknown items and no codes to reconcile"
+   "Lines arrive tied to your own codes"
   ],
   [
    "8c148c5a-5883-9b4b-9229-358da23fdeb3",
@@ -165,7 +165,7 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df93e",
-   "VOS carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the system you run today keeps that job, and a demo shows how the levels connect."
+   "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock levels change. It is not the system of record for stock: the system you run today keeps that job, and a demo shows how the levels connect."
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df945",
@@ -181,19 +181,19 @@
   ],
   [
    "2af8f313-e356-7eea-3f46-cef1a39df957",
-   "No counting and no buying happens inside VOS"
+   "We never count or buy stock for you"
   ],
   [
    "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
-   "Not Either Or"
+   "Front And Back"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
-   "When VOS and OrderEase work together"
+   "How OrderEase and VoiceOrder Solutions divide the path"
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
-   "These two sit at opposite ends of the same path, so running both is reasonable. VOS is no kind of OrderEase replacement: it narrows what has to be handled, and whatever still comes in as a file or over EDI goes on being handled. Quite often that is what an OrderEase alternative turns out to mean."
+   "These two sit at opposite ends of the same path, so running both is the sensible setup. We are not an OrderEase replacement: we narrow what has to be handled, and whatever still comes in as a file or over EDI goes on being handled. Quite often that is what an OrderEase alternative turns out to mean."
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
@@ -201,31 +201,31 @@
   ],
   [
    "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
-   "Accounts that move onto the app stop producing anything to interpret. What is left for your intake tooling is a shorter pile, which is the cheapest way to make it look good."
+   "Accounts that move onto the app send a list they have already checked, instead of a document someone has to read. Your intake tooling is left with a shorter pile, and more of its time goes on the files that keep arriving."
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a6d",
-   "Hands off at whatever point you like"
+   "Choose where spoken orders land"
   ],
   [
    "5368ca22-de87-9362-819f-9733489b5a70",
-   "A finished order can go to your ERP directly or into the tooling you have now, over the API, by EDI or as a file. Where it lands is your call, not ours."
+   "Straight into the ERP, or as an email your desk already watches. Which of those it is stays your call, not ours."
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
-   "Try it on the accounts that ring the most"
+   "Try it on the accounts that call the most"
   ],
   [
    "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
-   "Adding VOS takes nothing away, so there is no contract to end and no migration to schedule. Start with the ones that call most and ask us what that looks like."
+   "Adding us takes nothing away, so there is no contract to end and no migration to schedule. Start with the ones that call most and ask us what that looks like."
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b4",
-   "Watch one arrive already itemized"
+   "See one arrive already itemized"
   ],
   [
    "4590e4b1-e797-fe36-9056-58de9ded19b8",
-   "Twenty minutes. A chef speaks an order, you see it reach the desk itemized, and the minutes your desk spends on each one come back."
+   "Twenty minutes. A chef speaks an order, and you see it reach the desk itemized."
   ],
   [
    "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
@@ -237,7 +237,7 @@
   ],
   [
    "38293a1d-fb4c-9501-8014-28855f9128b6",
-   "There is no implementation project and no IT work to schedule to make this start. You send the lists, we open the accounts, the orders begin arriving."
+   "There is no implementation project and no IT work to schedule to make this start. You send the lists, we create the logins, the orders begin arriving."
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
@@ -249,11 +249,11 @@
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
-   "Accounts get opened"
+   "Logins get created"
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
-   "We provision each customer and walk the kitchen through the app once. Most of them send something the same day."
+   "We load each guide and provision the account, then the kitchen downloads the app. Most of them send something the same day."
   ],
   [
    "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
@@ -265,19 +265,19 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a176",
-   "VoiceOrder Solutions vs OrderEase."
+   "OrderEase plus VoiceOrder Solutions."
   ],
   [
    "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
-   "One cleans up the path, one shortens it."
+   "Every channel, one more way in."
   ],
   [
    "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
-   "Different Ends Of The Path"
+   "The Whole Path, Plus One"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a179",
-   "VOS sits at the front of that path, where the order is spoken and approved before it is sent. OrderEase is order management plumbing, and good plumbing: many channels in, one checked flow out to your ERP. So an OrderEase alternative is a choice between cleaning up the path and shortening it."
+   "Adding a step at the front should never cost you a channel, and this table is drawn that way. OrderEase is order management infrastructure: many channels in, one checked flow out to your ERP. Keeping that flow needs no OrderEase alternative. What voice adds is an order spoken and approved before it is sent. The two do not connect."
   ],
   [
    "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
@@ -285,51 +285,47 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a18d",
-   "VoiceOrder Solutions"
+   "OrderEase + VoiceOrder Solutions"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a19e",
-   "OrderEase"
+   "OrderEase on its own"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1be",
-   "How the order reaches your desk"
-  ],
-  [
-   "89a5813a-10f6-6ba1-6eed-d733971a550a",
-   "Lifted out of the PDF or spreadsheet they sent"
+   "Emailed PDF and CSV purchase orders parsed into orders"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
-   "Your account's price list is the only setup"
+   "Orders spoken in, then approved line by line"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
-   "Hands the completed order over by EDI, API or QuickBooks"
+   "Managed EDI with trading-partner compliance"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
-   "The buyer builds the order, not your desk"
-  ],
-  [
-   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
-   "Where marketplace and store connections live"
-  ],
-  [
-   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
    "Each account has its own guide, at your prices"
   ],
   [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Marketplace and ecommerce connections"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Orders checked against your rules before the ERP"
+  ],
+  [
    "37b58628-5e21-7c67-2967-24e3b5a7a210",
-   "Where multi-warehouse fulfillment happens"
+   "Fulfillment logic across several warehouses"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a21a",
-   "Starts without an integration phase"
+   "An offline-ready app for sales reps"
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a224",
-   "Where it sits on the path"
+   "Fewer emailed orders left to read"
   ],
   [
    "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
@@ -341,59 +337,59 @@
   ],
   [
    "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
-   "Is VOS an OrderEase alternative, and is it better than OrderEase?"
+   "Do we need an OrderEase alternative to take spoken orders?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
-   "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At getting a kitchen's order in with nobody typing, VOS is the stronger answer. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: those are not ours to do. If that is the job, buy theirs."
+   "No. OrderEase manages what happens to orders after they reach you, from however many directions. VoiceOrder Solutions changes how one group of customers sends theirs to begin with. Keep the first and add the second; they work on separate parts of the same journey."
   ],
   [
    "ad9f0390-a776-7031-a95b-984cd1988c9e",
-   "We get a lot of emailed POs. Does VOS read those?"
+   "Is VoiceOrder Solutions better than OrderEase?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
-   "No. There is no parser here and we will not imply otherwise. VOS moves accounts off sending a document, which shrinks that pile instead of processing it. For whatever stays on email, their tooling is pointed exactly at it. One limit worth stating: only what comes through the app gets a VOS order number, a timestamp or a stock movement. A call or a voicemail does not."
+   "At getting a kitchen's order in already itemized and checked by the buyer, we think so. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no: we do none of those. That job is theirs, and it can stay theirs."
   ],
   [
    "e219e293-819b-221b-6d80-7f8d2898a4d7",
-   "Does one of them have to go?"
+   "We get a lot of emailed POs. Can you read those?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
-   "Not at all, and plenty of distributors would sensibly keep both. They work on separate parts of the same journey: one cuts the queue down, the other handles what is in it. Nothing in VOS has to be removed for your intake tools to carry on."
+   "No. There is no parser here and we will not imply otherwise. We move accounts off sending a document, which shrinks that pile instead of processing it. For whatever stays on email, OrderEase's tooling is pointed exactly at it. One limit worth stating: only what comes through our app gets an order number, a timestamp or a stock movement from us. A call or a voicemail does not."
   ],
   [
    "39590628-381c-9aea-6095-0746f7348939",
-   "What about validating orders against our rules?"
+   "Is OrderEase tied to VoiceOrder Solutions at all?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
-   "VOS handles it earlier rather than afterwards. A customer can only order lines from their own guide, at the price you set, so there is nothing unrecognized to check later. What VOS does not do is run a rules engine over orders arriving from anywhere else."
+   "No. The two run apart, each with its own support, and neither has to be removed for the other to run. OrderEase keeps handling what reaches it, and our orders go into your system by their own route, in any format listed above."
   ],
   [
    "0f73d180-08e9-596f-f264-a95de40f9593",
-   "How do the costs compare?"
+   "Do accounts on the OrderEase portal have to move?"
   ],
   [
    "7e541655-5a68-8f96-1273-8249a5c759bd",
-   "They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quote-based, with nothing published at all. Ask us and you will get a number for your own book."
+   "No. Buyers who like the portal keep using it. Our app is for the accounts that phone or email instead, and who gets it is your choice, account by account."
   ],
   [
    "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
-   "How fast could this be running?"
+   "What does running both cost?"
   ],
   [
    "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
-   "Most distributors have this working in 24 to 48 hours, and for most kitchens the first order follows the same day. Nothing is being connected, which is why an OrderEase alternative gets shortlisted by people who have not budgeted for a project at all."
+   "They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quote-based with nothing published, and since OrderEase stays, it covers only the step we add. Ask and we will quote you."
   ],
   [
    "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
-   "Is it a problem that they are not food specialists?"
+   "How fast could this be running?"
   ],
   [
    "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
-   "Not on its own, no, and that industry is on their published list. The narrower point is about defaults: a product built to suit eight trades at once starts from generic ordering habits, and a kitchen reordering late at night is not the case it was designed around."
+   "Most distributors have this working in 24 to 48 hours, and for most kitchens the first order follows the same day. Nothing in OrderEase gets connected or altered, so this asks much less of you than an OrderEase alternative that would replace it."
   ],
   [
    "7ec95cf1-65b0-b7be-b209-990427524516",
@@ -401,17 +397,13 @@
   ],
   [
    "7ec95cf1-65b0-b7be-b209-99042752451e",
-   "Everything above was taken from orderease.com, as published on 10 October 2026: their product and channel write-ups, the industry list and the pricing page. Their published results figures belong to them and are not quoted here. If something has shifted since, that is our error rather than theirs."
+   "We took each OrderEase detail here from orderease.com, as published on 10 October 2026: their product and channel write-ups, the industry list and the pricing page. Their published results figures belong to them and are not quoted here. If something has shifted since, that is our error rather than theirs."
   ]
  ],
  "embed": [
   [
-   "37b58628-5e21-7c67-2967-24e3b5a7a1c0",
-   "<div class=\"uui-text-size-medium-21\">Itemized under your codes, approved by the buyer</div>"
-  ],
-  [
    "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
-   "<div class=\"uui-text-size-medium-21\">Rules and channels to configure</div>"
+   "<div class=\"uui-text-size-medium-21\">Typed, or sent as a file</div>"
   ],
   [
    "55af8715-1c0d-7742-fde4-496073314315",
@@ -419,11 +411,7 @@
   ],
   [
    "5539a8dc-3999-60a4-e63a-01a711a5373d",
-   "<div class=\"uui-text-size-medium-21\">Types it, or sends a file</div>"
-  ],
-  [
-   "f0a25565-fe6e-c821-4974-3d153187492b",
-   "<div class=\"uui-text-size-medium-21\">Your own stack</div>"
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
   ],
   [
    "20efde0c-69cd-a8c3-92cb-38100394bc2d",
@@ -435,60 +423,16 @@
   ],
   [
    "37b58628-5e21-7c67-2967-24e3b5a7a212",
-   "<div class=\"uui-text-size-medium-21\">Your warehouse system</div>"
-  ],
-  [
-   "d455c100-948c-a407-3bda-fdc0a7afb797",
-   "<div class=\"uui-text-size-medium-21\">Days, not months, they say</div>"
-  ],
-  [
-   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
-   "<div class=\"uui-text-size-medium-21\">At the front, before the queue forms</div>"
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
   ],
   [
    "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
-   "<div class=\"uui-text-size-medium-21\">One flow for every channel</div>"
+   "<div class=\"uui-text-size-medium-21\">Reads the ones that arrive</div>"
   ]
  ],
  "styles": [
   [
-   "37b58628-5e21-7c67-2967-24e3b5a7a1c0",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
    "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "5539a8dc-3999-60a4-e63a-01a711a5373d",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "f0a25565-fe6e-c821-4974-3d153187492b",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "37b58628-5e21-7c67-2967-24e3b5a7a212",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "d455c100-948c-a407-3bda-fdc0a7afb797",
-   [
-    "uui-text-size-medium 21"
-   ]
-  ],
-  [
-   "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d",
    [
     "uui-text-size-medium 21"
    ]
@@ -503,8 +447,8 @@
  "links": [
   [
    0,
-   "/order-entry-software",
-   "How an order gets placed"
+   "/order-taking-software",
+   "How order taking works"
   ],
   [
    1,
@@ -528,52 +472,61 @@
   "458fcf8e-5c98-2915-581f-0d6dcd514822",
   "37b58628-5e21-7c67-2967-24e3b5a7a22b"
  ],
- "hard": [],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
  "props": {
   "hero": {
    "eyebrow": "For Food Distributors",
-   "h1": "An OrderEase Alternative That Shortens The Queue.",
-   "lead": "VOS works a step earlier. A buyer talks it through in the app and signs off the lines, so what lands on your desk is itemized against your codes. OrderEase pulls every order channel into one clean flow: EDI, portals, emailed POs.",
+   "h1": "An OrderEase Alternative That Adds One Piece",
+   "lead": "Keep every channel you have and add one piece at the front. VoiceOrder Solutions sits alongside OrderEase: a buyer talks the order into our app and signs off the lines, so it lands itemized against your codes. EDI, portals and emailed POs stay with OrderEase.",
    "cta": "Book a Free Demo"
   },
   "mainCta": {
    "h2": "Shorten the queue instead of sorting it",
-   "body": "Twenty minutes, one order arriving itemized, with no new channel to wire up.",
+   "body": "Twenty minutes, and one order that turns up itemized, ready to work.",
    "cta": "Book a Free Demo"
   }
  },
  "faq": [
   {
-   "q": "Is VOS an OrderEase alternative, and is it better than OrderEase?",
-   "a": "Not the same thing, and it is worth being plain about it. They manage what happens to orders after they reach you, from however many directions, and VOS changes how one group of customers sends theirs to begin with. At getting a kitchen's order in with nobody typing, VOS is the stronger answer. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no, and not slightly: those are not ours to do. If that is the job, buy theirs."
+   "q": "Do we need an OrderEase alternative to take spoken orders?",
+   "a": "No. OrderEase manages what happens to orders after they reach you, from however many directions. VoiceOrder Solutions changes how one group of customers sends theirs to begin with. Keep the first and add the second; they work on separate parts of the same journey."
   },
   {
-   "q": "We get a lot of emailed POs. Does VOS read those?",
-   "a": "No. There is no parser here and we will not imply otherwise. VOS moves accounts off sending a document, which shrinks that pile instead of processing it. For whatever stays on email, their tooling is pointed exactly at it. One limit worth stating: only what comes through the app gets a VOS order number, a timestamp or a stock movement. A call or a voicemail does not."
+   "q": "Is VoiceOrder Solutions better than OrderEase?",
+   "a": "At getting a kitchen's order in already itemized and checked by the buyer, we think so. At reading an emailed purchase order, running your EDI partners or wiring up a marketplace, no: we do none of those. That job is theirs, and it can stay theirs."
   },
   {
-   "q": "Does one of them have to go?",
-   "a": "Not at all, and plenty of distributors would sensibly keep both. They work on separate parts of the same journey: one cuts the queue down, the other handles what is in it. Nothing in VOS has to be removed for your intake tools to carry on."
+   "q": "We get a lot of emailed POs. Can you read those?",
+   "a": "No. There is no parser here and we will not imply otherwise. We move accounts off sending a document, which shrinks that pile instead of processing it. For whatever stays on email, OrderEase's tooling is pointed exactly at it. One limit worth stating: only what comes through our app gets an order number, a timestamp or a stock movement from us. A call or a voicemail does not."
   },
   {
-   "q": "What about validating orders against our rules?",
-   "a": "VOS handles it earlier rather than afterwards. A customer can only order lines from their own guide, at the price you set, so there is nothing unrecognized to check later. What VOS does not do is run a rules engine over orders arriving from anywhere else."
+   "q": "Is OrderEase tied to VoiceOrder Solutions at all?",
+   "a": "No. The two run apart, each with its own support, and neither has to be removed for the other to run. OrderEase keeps handling what reaches it, and our orders go into your system by their own route, in any format listed above."
   },
   {
-   "q": "How do the costs compare?",
-   "a": "They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quote-based, with nothing published at all. Ask us and you will get a number for your own book."
+   "q": "Do accounts on the OrderEase portal have to move?",
+   "a": "No. Buyers who like the portal keep using it. Our app is for the accounts that phone or email instead, and who gets it is your choice, account by account."
+  },
+  {
+   "q": "What does running both cost?",
+   "a": "They are more open than we are here, and credit where it is due: their site publishes a starting figure and a setup fee, and says there is no free version and no trial. Ours is quote-based with nothing published, and since OrderEase stays, it covers only the step we add. Ask and we will quote you."
   },
   {
    "q": "How fast could this be running?",
-   "a": "Most distributors have this working in 24 to 48 hours, and for most kitchens the first order follows the same day. Nothing is being connected, which is why an OrderEase alternative gets shortlisted by people who have not budgeted for a project at all."
-  },
-  {
-   "q": "Is it a problem that they are not food specialists?",
-   "a": "Not on its own, no, and that industry is on their published list. The narrower point is about defaults: a product built to suit eight trades at once starts from generic ordering habits, and a kitchen reordering late at night is not the case it was designed around."
+   "a": "Most distributors have this working in 24 to 48 hours, and for most kitchens the first order follows the same day. Nothing in OrderEase gets connected or altered, so this asks much less of you than an OrderEase alternative that would replace it."
   },
   {
    "q": "Where do the OrderEase details on this page come from?",
-   "a": "Everything above was taken from orderease.com, as published on 10 October 2026: their product and channel write-ups, the industry list and the pricing page. Their published results figures belong to them and are not quoted here. If something has shifted since, that is our error rather than theirs."
+   "a": "We took each OrderEase detail here from orderease.com, as published on 10 October 2026: their product and channel write-ups, the industry list and the pricing page. Their published results figures belong to them and are not quoted here. If something has shifted since, that is our error rather than theirs."
   }
  ]
 }
