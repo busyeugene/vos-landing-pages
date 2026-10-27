@@ -26,7 +26,7 @@
  * Every claim is sourced and dated in _build/research/competitors/wizcommerce.md.
  */
 module.exports = {
-  title: "WizCommerce Alternative for Distributors in 2026",
+  title: "Not a WizCommerce Alternative: Keep It, Add Voice Ordering",
   description: 'Keep WizCommerce and add spoken orders for accounts that still send scans. Buyers approve each line, so less needs reading. A WizCommerce alternative that adds.',
   related: ["rekki-alternative","orderease-alternative","burnt-ai-alternative"],
   relatedHeading: "Other tools our app can run alongside",
@@ -42,7 +42,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>Weighing A WizCommerce Alternative? Keep It, Add Voice.</h1>
+      <h1>Not A WizCommerce Alternative: Keep It, Add Voice</h1>
       <p class="lead mt-16">
         Get orders as a list of items the kitchen has already checked. VoiceOrder Solutions sits alongside WizCommerce: your customers say their order into our app, pick from their own guide, and approve each line before it goes. WizCommerce's AI keeps reading the scans and spreadsheets still arriving.
       </p>

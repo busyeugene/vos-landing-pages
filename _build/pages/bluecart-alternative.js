@@ -7,7 +7,7 @@
  * Every claim is sourced and dated in _build/research/competitors/bluecart.md.
  */
 module.exports = {
-  title: "BlueCart Alternative for Food Distributors in 2026",
+  title: "Not a BlueCart Alternative: Keep BlueCart, Add Voice Ordering",
   description: "Keep the BlueCart listing that finds new kitchens, and give your regulars a reorder they speak into an app. A BlueCart alternative that removes nothing.",
   related: ["cut-dry-alternative", "choco-alternative", "orderease-alternative"],
   relatedHeading: "Other platforms worth keeping beside voice ordering",
@@ -23,7 +23,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A BlueCart Alternative For The Regulars You Have</h1>
+      <h1>Not A BlueCart Alternative: Reorders For Your Regulars</h1>
       <p class="lead mt-16">
         Keep winning new accounts on the marketplace and give the ones you already supply a faster reorder. VoiceOrder Solutions lives next to BlueCart: kitchens say what they are short of into our app, approve the list and send it, priced off your own guide.
       </p>

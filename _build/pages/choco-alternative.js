@@ -9,7 +9,7 @@
  * Every Choco claim is sourced and dated in _build/research/competitors/choco.md.
  */
 module.exports = {
-  title: "Choco Alternative for Food Distributors in 2026",
+  title: "Not a Choco Alternative: Keep Choco, Add Voice Ordering",
   description: 'Keep Choco and add voice ordering beside it. Your accounts speak each order into an app and approve every line. A Choco alternative that replaces nothing.',
   related: ["pepper-alternative","cut-dry-alternative","bluecart-alternative"],
   relatedHeading: "Other platforms you can keep and add voice to",
@@ -25,7 +25,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>Looking For A Choco Alternative For Voice Ordering?</h1>
+      <h1>Not A Choco Alternative: Voice Ordering Beside Choco</h1>
       <p class="lead mt-16">
         Add voice ordering without giving anything up. VoiceOrder Solutions runs alongside Choco: kitchens talk through what they are short of in our app, confirm each item, then send. It lands on your desk numbered and dated, by email or straight into your system, while Choco keeps its storefront and customer tools.
       </p>

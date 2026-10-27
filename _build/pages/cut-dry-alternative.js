@@ -8,7 +8,7 @@
  * Every claim is sourced and dated in _build/research/competitors/cut-dry.md.
  */
 module.exports = {
-  title: "Cut+Dry Alternative for Food Distributors in 2026",
+  title: "Not a Cut+Dry Alternative: Keep Cut+Dry, Add Voice Ordering",
   description: "Keep the Cut+Dry storefront and payments, and add a reorder your accounts speak from your own guide. A Cut+Dry alternative that sits beside it instead.",
   related: ["bluecart-alternative", "choco-alternative", "grubmarket-ai-alternative"],
   relatedHeading: "Other tools you can keep while adding voice",
@@ -24,7 +24,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>Cut+Dry Alternative? Keep It, Add Spoken Reorders.</h1>
+      <h1>Not A Cut+Dry Alternative: Add Spoken Reorders</h1>
       <p class="lead mt-16">
         Give your phone accounts a reorder they check themselves, and leave the platform alone. VoiceOrder Solutions goes next to Cut+Dry: your accounts say the reorder into our app from the guide you built, approve it, and send. Payments, invoicing and the storefront stay where they are.
       </p>

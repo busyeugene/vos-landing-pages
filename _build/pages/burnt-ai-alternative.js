@@ -12,7 +12,7 @@
  * Every Burnt claim is sourced and dated in _build/research/competitors/burnt-ai.md.
  */
 module.exports = {
-  title: "Burnt AI Alternative for Food Distributors in 2026",
+  title: "Not a Burnt AI Alternative: Keep Burnt, Add Voice Ordering",
   description: "Keep your Burnt agents and add an app your accounts speak orders into, approving each line first. A Burnt AI alternative that takes nothing away.",
   related: ["wizcommerce-alternative","rekki-alternative","pepper-alternative"],
   relatedHeading: "More platforms to keep, with voice added",
@@ -28,7 +28,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>Want A Burnt AI Alternative? Keep Burnt's Agents.</h1>
+      <h1>Not A Burnt AI Alternative: Keep Burnt's Agents</h1>
       <p class="lead mt-16">
         Give your accounts a way to send orders they have checked themselves. VoiceOrder Solutions works alongside Burnt: whoever orders for the kitchen speaks into our app, confirms each line, then sends. Burnt's AI agents keep handling your inboxes and admin, and nobody has to visit to set us up.
       </p>

@@ -24,7 +24,7 @@
  * Every claim is sourced and dated in _build/research/competitors/rekki.md.
  */
 module.exports = {
-  title: "REKKI Alternative for Food Distributors in 2026",
+  title: "Not a REKKI Alternative: Keep REKKI, Add Voice Ordering",
   description: "Keep REKKI's AI and add an app your accounts speak orders into, confirming every line first. A REKKI alternative that leaves fewer messages to figure out.",
   related: ["wizcommerce-alternative","grubmarket-ai-alternative","burnt-ai-alternative"],
   relatedHeading: "Other AI tools you can keep, with voice beside them",
@@ -40,7 +40,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>Need A REKKI Alternative? Try Spoken, Checked Orders.</h1>
+      <h1>Not A REKKI Alternative: Spoken, Checked Orders</h1>
       <p class="lead mt-16">
         Receive orders already checked by the person who placed them. VoiceOrder Solutions works alongside REKKI's AI: your customer speaks into our app, picks items from their own guide, and looks over every line before it goes. REKKI's AI keeps reading whatever still arrives as an email or message.
       </p>

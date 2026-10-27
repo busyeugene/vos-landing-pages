@@ -1578,7 +1578,7 @@
      {
       "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
       "type": "string",
-      "string_value": "The NECS Entree Alternative That Keeps Entree Running."
+      "string_value": "Not A NECS Entree Alternative: Entree Keeps Running"
      },
      {
       "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
@@ -1623,7 +1623,7 @@
  "seo": {
   "id": "6aca3a5bdafc7a7656fa9b4c",
   "seo": {
-   "title": "NECS Entree Alternative for Distributors in 2026",
+   "title": "Not a NECS Entree Alternative: Keep Entree, Add Voice Ordering",
    "description": "Keep the ERP that runs your business and add one step: your accounts speak each order into an app. A NECS Entree alternative that replaces nothing."
   },
   "openGraph": {

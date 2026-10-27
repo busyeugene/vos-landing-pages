@@ -20,7 +20,7 @@
  * Every claim is sourced and dated in _build/research/competitors/pepperi.md.
  */
 module.exports = {
-  title: "Pepperi Alternative for Food Distributors in 2026",
+  title: "Not a Pepperi Alternative: Keep Pepperi, Add Voice Ordering",
   description: 'Keep Pepperi for the visit and add voice for the reorder: accounts speak each order into an app and approve it. A Pepperi alternative your reps work beside.',
   related: ["fresho-alternative","necs-entree-alternative","choco-alternative"],
   relatedHeading: "More platforms that stay when you add voice",
@@ -36,7 +36,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A Pepperi Alternative For The Orders Between Visits</h1>
+      <h1>Not A Pepperi Alternative: For Orders Between Visits</h1>
       <p class="lead mt-16">
         Repeat orders that don't need a visit can come in on their own. VoiceOrder Solutions runs beside Pepperi: an account talks through the reorder in our app, checks the lines and sends it. The field team holds on to its routes, store visits and promotions, and stops writing up those repeat orders.
       </p>

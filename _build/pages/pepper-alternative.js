@@ -7,7 +7,7 @@
  * Every Pepper claim is sourced and dated in _build/research/competitors/pepper.md.
  */
 module.exports = {
-  title: "Pepper Alternative for Food Distributors in 2026",
+  title: "Not a Pepper Alternative: Keep Pepper, Add Voice Ordering",
   description: "Add spoken ordering beside Pepper, with no second rollout. Accounts say each order into an app and check it first. A Pepper alternative that runs beside it.",
   related: ["choco-alternative", "burnt-ai-alternative", "cut-dry-alternative"],
   relatedHeading: "More platforms that can stay while voice is added",
@@ -23,7 +23,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>A Pepper Alternative? Keep Pepper, Add Our App.</h1>
+      <h1>Not A Pepper Alternative: Keep Pepper, Add Voice</h1>
       <p class="lead mt-16">
         Get orders off the phone without a second rollout. VoiceOrder Solutions sits beside Pepper: accounts speak to our app, review each line, then send. Their orders land timestamped and ready for your desk, and most distributors have it running in 24 to 48 hours.
       </p>

@@ -14,7 +14,7 @@
  * Every claim is sourced and dated in _build/research/competitors/grubmarket-ai.md.
  */
 module.exports = {
-  title: "GrubMarket AI Alternative for Distributors in 2026",
+  title: "Not a GrubMarket AI Alternative: Keep It, Add Voice Ordering",
   description: "Keep GrubAssist for your team and hand your customers a voice app too: they speak and approve each order. A GrubMarket AI alternative that keeps GrubAssist.",
   related: ["rekki-alternative","wizcommerce-alternative","cut-dry-alternative"],
   relatedHeading: "Keep these platforms too, and add voice for customers",
@@ -30,7 +30,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>GrubMarket AI Alternative? Give Customers A Voice App.</h1>
+      <h1>Not A GrubMarket AI Alternative: Voice Ordering For Customers</h1>
       <p class="lead mt-16">
         Kitchens can now say what they need, too. VoiceOrder Solutions runs beside GrubAssist, GrubMarket's AI assistant for your team: the kitchen dictates the order into our app on its own phone, approves each line, and it lands on your desk complete. Your team keeps GrubAssist for questions about the business.
       </p>

@@ -26,7 +26,7 @@
  * Every claim is sourced and dated in _build/research/competitors/fresho.md.
  */
 module.exports = {
-  title: "Fresho Alternative for Food Distributors in 2026",
+  title: "Not a Fresho Alternative: Keep Fresho, Add Voice Ordering",
   description: 'Keep Fresho running and add one spoken step: kitchens say the order into an app and confirm each line. A Fresho alternative you add without giving anything up.',
   related: ["necs-entree-alternative","pepperi-alternative","orderease-alternative"],
   relatedHeading: "More platforms that can keep running beside us",
@@ -42,7 +42,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>The Fresho Alternative You Add Alongside Fresho.</h1>
+      <h1>Not A Fresho Alternative: Voice Ordering Alongside Fresho</h1>
       <p class="lead mt-16">
         VoiceOrder Solutions gives a voice app to the accounts that still call their orders in. They say what they need into the app, look over each line before it goes, and the order arrives in a format you can use now. Whatever you run on Fresho, from AI order reading to the full suite, carries on.
       </p>

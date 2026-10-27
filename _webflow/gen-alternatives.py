@@ -43,30 +43,31 @@ HEADER = {
 }
 
 # slug -> (card title, one-line description: what the platform keeps, what voice adds)
+# Card titles are the brand name only (Eugene, 2026-10-27): "Pepper", not "Pepper Alternative".
 CARDS = [
-    ('pepper-alternative', 'Pepper Alternative',
+    ('pepper-alternative', 'Pepper',
      'Keep the platform you rolled out. Add spoken orders beside it, live in 24 to 48 hours for most distributors.'),
-    ('choco-alternative', 'Choco Alternative',
+    ('choco-alternative', 'Choco',
      'Choco keeps the storefront, sales hub and CRM. Your accounts add a spoken order they approve line by line.'),
-    ('burnt-ai-alternative', 'Burnt AI Alternative',
+    ('burnt-ai-alternative', 'Burnt AI',
      "Burnt's agents keep the back office. Your buyers speak their own orders and sign them off first."),
-    ('grubmarket-ai-alternative', 'GrubMarket AI Alternative',
+    ('grubmarket-ai-alternative', 'GrubMarket AI',
      'GrubAssist stays with your team. VoiceOrder Solutions hands the microphone to your customers.'),
-    ('cut-dry-alternative', 'Cut+Dry Alternative',
+    ('cut-dry-alternative', 'Cut+Dry',
      "Keep Cut+Dry's storefront and payments. Add a reorder your accounts speak from your own guide."),
-    ('bluecart-alternative', 'BlueCart Alternative',
+    ('bluecart-alternative', 'BlueCart',
      'Keep the listing that finds new kitchens. Give your regulars a reorder they speak and approve.'),
-    ('necs-entree-alternative', 'NECS Entree Alternative',
+    ('necs-entree-alternative', 'NECS Entree',
      'Keep the ERP that runs your company. Add one way in: an order your accounts speak.'),
-    ('pepperi-alternative', 'Pepperi Alternative',
+    ('pepperi-alternative', 'Pepperi',
      'Pepperi keeps the visit. VoiceOrder Solutions covers the reorder between visits.'),
-    ('orderease-alternative', 'OrderEase Alternative',
+    ('orderease-alternative', 'OrderEase',
      'OrderEase keeps every order channel. Add one piece at the front: an order the buyer speaks.'),
-    ('wizcommerce-alternative', 'WizCommerce Alternative',
+    ('wizcommerce-alternative', 'WizCommerce',
      'WizCommerce keeps reading what arrives. Spoken, approved orders mean less arrives to be read.'),
-    ('rekki-alternative', 'REKKI Alternative',
+    ('rekki-alternative', 'REKKI',
      "REKKI's robots keep reading messages. Some accounts can send a confirmed order instead."),
-    ('fresho-alternative', 'Fresho Alternative',
+    ('fresho-alternative', 'Fresho',
      'Fresho keeps running the operation. Your kitchens add a spoken order they confirm line by line.'),
 ]
 

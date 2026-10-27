@@ -18,7 +18,7 @@
  * Every claim is sourced and dated in _build/research/competitors/necs-entree.md.
  */
 module.exports = {
-  title: "NECS Entree Alternative for Distributors in 2026",
+  title: "Not a NECS Entree Alternative: Keep Entree, Add Voice Ordering",
   description: 'Keep the ERP that runs your business and add one step: your accounts speak each order into an app. A NECS Entree alternative that replaces nothing.',
   related: ["fresho-alternative","orderease-alternative","pepperi-alternative"],
   relatedHeading: "Other systems that stay put when voice is added",
@@ -34,7 +34,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>The NECS Entree Alternative That Keeps Entree Running.</h1>
+      <h1>Not A NECS Entree Alternative: Entree Keeps Running</h1>
       <p class="lead mt-16">
         Give kitchens something quicker than calling the office, and keep your ERP exactly as it is. VoiceOrder Solutions works beside Entree: accounts say what they need into our app and approve every line before it reaches your desk. Accounting, warehouse and EDI stay in Entree.
       </p>

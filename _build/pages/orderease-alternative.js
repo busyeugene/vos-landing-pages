@@ -23,7 +23,7 @@
  * Every claim is sourced and dated in _build/research/competitors/orderease.md.
  */
 module.exports = {
-  title: "OrderEase Alternative for Food Distributors in 2026",
+  title: "Not an OrderEase Alternative: Keep It, Add Voice Ordering",
   description: 'Keep OrderEase for EDI, portals and emailed POs, and let accounts speak each order into an app. An OrderEase alternative that adds voice ordering.',
   related: ["wizcommerce-alternative","rekki-alternative","necs-entree-alternative"],
   relatedHeading: "Other platforms you keep while adding voice",
@@ -39,7 +39,7 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>An OrderEase Alternative That Adds Voice Ordering</h1>
+      <h1>Not An OrderEase Alternative: Voice Ordering Beside It</h1>
       <p class="lead mt-16">
         Keep every way you take orders today and add one more. VoiceOrder Solutions sits alongside OrderEase: the kitchen's buyer talks the order into our app and approves each line, so it arrives as a list of your own items and codes. EDI, portals and emailed POs stay with OrderEase.
       </p>
