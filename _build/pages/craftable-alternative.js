@@ -7,23 +7,23 @@
  * Brand: "VoiceOrder Solutions" in full, never "VOS" (client, 2026-10-21).
  * Angle: Craftable is the CONTROL layer of a group's back office, purchase order to payment, built for
  * finance and purchasing. VoiceOrder Solutions is the routine reorder a kitchen speaks to a distributor
- * that offers it. FAQ 3 says plainly that a spoken order is never a Craftable purchase order, so it
+ * that offers it. FAQ 4 says plainly that a spoken order is never a Craftable purchase order, so it
  * skips Craftable's approvals, budgets and invoice matching: that trade-off is the page's honesty.
  * ⚠ TRAPS (all in _build/research/competitors/craftable.md):
  *   1. VOICE: Craftable announced "Voice Audit AI" (counts and audits by voice, 2026-05-28; the site
  *      still says "Coming Soon") and its roadmap names "purchasing, and voice". Never "they type, we
  *      speak", "no voice" or "no AI". Safe: their voice is for counts; their ordering is built on screen.
  *      They use "Hands-free"; we never do.
- *   2. Craftable orders from ANY vendor (email/text to the rep, EDI, punchout). Conceded in row 2 and FAQ 4.
- *   3. Approvals, budgets, contract pricing and invoice matching are Craftable's. Both-tick row 3.
- *   4. Pricing is NOT published (/pricing 404): parity with us, FAQ 7. Third-party figures stay off.
+ *   2. Craftable orders from ANY vendor (email/text to the rep, EDI, punchout). Conceded in row 3 and FAQ 5.
+ *   3. Approvals, budgets, contract pricing and invoice matching are Craftable's. Both-tick row 5, scoped to Craftable orders.
+ *   4. Pricing is NOT published (/pricing 404): stated neutrally in the setup-and-cost FAQ 7. Third-party figures stay off.
  *   5. No published setup timeline: none is invented, and Craftable is never made to look slow.
  *   6. Order guides need their eProcurement add-on: not mentioned.
  * Their customer counts, savings and accuracy figures are not repeated.
  */
 module.exports = {
   title: "Not a Craftable Alternative: Keep It, Add Voice Ordering",
-  description: 'Keep Craftable for approvals, AP and reporting, and speak your reorder to a distributor on VoiceOrder Solutions. A Craftable alternative that adds a step.',
+  description: 'Not a Craftable alternative: keep its approvals and budgets, and speak routine reorders to a distributor that offers VoiceOrder Solutions.',
   related: ["wisk-alternative","apicbase-alternative","marketman-alternative"],
   relatedHeading: "More group back offices, with one step added",
   body: `
@@ -40,7 +40,7 @@ module.exports = {
       <span class="eyebrow">For Restaurant Operators</span>
       <h1>Not A Craftable Alternative: Speak The Routine Reorder</h1>
       <p class="lead mt-16">
-        Say your usual reorder into the VoiceOrder Solutions app, look over every item, and send it to your distributor, numbered and timed. Where a distributor offers the app, they load your products and your prices. Craftable keeps its approvals, invoices and reports.
+        Say your weekly reorder from the walk-in, look over every item, then send it with an order number and a confirmation back to your phone. It works with a distributor you still phone or text, if they hand out our app. They keep your guide and your prices current.
       </p>
 
       <div class="hero-ctas">
@@ -82,7 +82,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">less on each order than placing it by phone</div>
+      <div class="stat-label">less per order than phoning the rep</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
@@ -96,7 +96,7 @@ module.exports = {
      SECTION 5: COMPARISON TABLE
      Not a head-to-head. Column 2 is the group with both tools, column 3 with Craftable alone.
      Craftable's back office, ordering to any vendor, approvals, pars, invoice AI and recipe costing
-     are ticks in BOTH. Only rows 2, 4 and 6 differ.
+     are ticks in BOTH. Only rows 2 and 4 differ.
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
@@ -104,7 +104,7 @@ module.exports = {
       <span class="eyebrow">Keep Craftable, Add Voice</span>
       <h2>Keep every Craftable control.<br>Speak the reorders you repeat each week.</h2>
       <p class="lead mt-16">
-        Only one job changes: how a repeat order gets to a distributor that offers VoiceOrder Solutions. One column is your group on Craftable alone; the other adds our app next to it. Craftable already runs purchasing, inventory and AP, so a Craftable alternative is seldom what a group needs. The two products do not connect.
+        The highlighted column adds spoken orders to any distributor of yours that offers VoiceOrder Solutions. If you came looking for a Craftable alternative, notice that both columns keep Craftable. Every tick for approvals, budgets, stock and invoices is Craftable's own work; the spoken-order rows apply only where a distributor has our app.
       </p>
     </div>
 
@@ -119,27 +119,27 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Purchasing, inventory, AP and reporting in one platform</td>
+            <td>Purchasing, inventory, bill pay and reporting in one platform</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Spoken order, reviewed before it is sent</td>
+            <td>Order by speaking, then check on screen</td>
             <td><span class="check-yes">✓</span></td>
             <td>Built on screen from a form or guide</td>
           </tr>
           <tr>
-            <td>Orders to any vendor by email, text, EDI or punchout</td>
+            <td>Orders to any vendor by email or text, and directly to vendors linked to Craftable</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Guide built and kept up by your distributor</td>
+            <td>Order guide built by your distributor</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Guides you assemble from vendor catalogs</td>
+            <td>You build the guide; vendors can keep their catalog current</td>
           </tr>
           <tr>
-            <td>Approval limits, budgets and contract prices</td>
+            <td>Approval limits, budgets and contract prices on Craftable orders</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -188,30 +188,30 @@ module.exports = {
       <span class="eyebrow">Why People Search</span>
       <h2>Why groups look for an alternative to Craftable</h2>
       <p class="lead mt-16">
-        A search for a Craftable competitor rarely means the platform has let you down. Craftable is built so finance and purchasing can control spend at every location. The search often starts in the kitchen, where whoever does the reorder wants speed more than another screen.
+        Craftable is built so finance and purchasing can control spend at every location. Sometimes a search for a Craftable competitor starts with one distributor, the one a kitchen still phones, texts or orders from through a rep.
       </p>
     </div>
 
     <div class="problem-grid">
       <div class="problem-card">
         <div class="problem-icon">🧾</div>
-        <h4>It is built for the finance team</h4>
+        <h4>Control is the point of Craftable</h4>
         <p class="text-muted mt-12">
-          Craftable's own pitch is control at the purchase order: who may buy what, at which contract price, checked against the invoice before payment. That suits the people who sign off on spending. The cook doing Tuesday's reorder has a different job.
+          Craftable's own pitch is control at the purchase order: who may buy what, at which contract price, checked against the invoice before payment. A Craftable alternative chosen only for faster ordering would give that up. Keep the controls, and speak only the reorders nobody has to approve.
+        </p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">📞</div>
+        <h4>Some orders still go by phone</h4>
+        <p class="text-muted mt-12">
+          A late top-up or a changed quantity sometimes goes to the rep by call or text instead of through Craftable. A call like that leaves nothing in writing to check the delivery against.
         </p>
       </div>
       <div class="problem-card">
         <div class="problem-icon">🖥️</div>
-        <h4>Ordering in Craftable happens on a screen</h4>
+        <h4>Craftable's voice feature is for counts</h4>
         <p class="text-muted mt-12">
-          In Craftable, you build an order in a form, a guide, a catalog or a vendor's own site. Craftable has announced voice for counts and audits; its ordering is done on screen. Speaking a reorder is a separate step you can add.
-        </p>
-      </div>
-      <div class="problem-card">
-        <div class="problem-icon">📲</div>
-        <h4>A distributor of yours may offer an app</h4>
-        <p class="text-muted mt-12">
-          Certain distributors hand our app to the kitchens they supply, with each site's regular lines and negotiated prices already in place. Where one of yours does, that reorder can be spoken, and Craftable carries on as it is.
+          Craftable has announced Voice Audit AI for counts and audits. Its ordering is still done on screen, in a form, a guide, a catalog or a vendor's own ordering site. Saying a reorder aloud is a separate step you can add.
         </p>
       </div>
     </div>
@@ -226,7 +226,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What Changes</span>
-      <h2>Not a Craftable alternative, just a faster reorder</h2>
+      <h2>Not a Craftable alternative, just one reorder said aloud</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -286,7 +286,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Prices set for your account by the distributor</span>
+              <span>Ready in the app once they add your account</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -294,7 +294,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Same rep, same delivery days, same terms</span>
+              <span>Same distributor, same rep</span>
             </li>
           </ul>
           <a href="/restaurant-purchasing-software" class="feature-link">Ordering from several suppliers →</a>
@@ -349,14 +349,14 @@ module.exports = {
       <div class="feature-row reverse">
         <div>
           <span class="eyebrow">Craftable Keeps Its Job</span>
-          <h3>Approvals and payments stay in Craftable</h3>
+          <h3>Payments and reports stay in Craftable</h3>
           <p class="mt-12 text-muted">
-            Craftable still holds your counts, recipes, invoices, payments and reports. The invoice for a delivery you ordered by voice can go into Craftable the way invoices do today. No purchase order is made, though: an order you give by voice is not created in Craftable.
+            Craftable still holds your counts and recipes, and still handles bill pay. Reorders you say into our app go to the distributor, and nothing is created in Craftable. The invoice for that delivery goes into Craftable as usual.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Invoices captured in Craftable as before</span>
+              <span>Approval rules still cover orders built in Craftable</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -364,12 +364,9 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Orders to other suppliers go out from Craftable</span>
+              <span>Reports run as they do today</span>
             </li>
-            <li>
-              <span class="bullet-check">✓</span>
-              <span>No data passes between the two</span>
-            </li>
+            
           </ul>
           <a href="/restaurant-checklist-software" class="feature-link">Making the reorder the same on every shift →</a>
         </div>
@@ -394,7 +391,7 @@ module.exports = {
       <span class="eyebrow">How To Start</span>
       <h2>Three steps, starting with your distributor</h2>
       <p class="lead mt-16">
-        Nothing gets installed on a computer, and Craftable is not touched.
+        Nothing gets installed on a computer, and most of the setup is done by your distributor.
       </p>
     </div>
 
@@ -403,12 +400,12 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>Ask which distributor has it</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          If they offer VoiceOrder Solutions, they open an account for your kitchen and load its guide. Not sure? Contact us and we will connect you.
+          If they offer VoiceOrder Solutions, they open an account for your kitchen and load its guide. Not sure which one? Ask us.
         </p>
       </div>
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Put it on the kitchen's phones</h4>
+        <h4>Put it on your phone</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Install it on an iPhone or Android phone, sign in, and the guide is there.
         </p>
@@ -463,7 +460,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Whoever closes does the order from the walk-in, so it is in before the morning crew arrives."
+            "I do the produce order from the walk-in at close, so it is in before the morning crew arrives."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -504,30 +501,30 @@ module.exports = {
       <span class="eyebrow">Use Both</span>
       <h2>Craftable controls the spend, VoiceOrder Solutions speeds the reorder</h2>
       <p class="lead mt-16">
-        We are not a Craftable replacement. Craftable keeps the spend controls, the counts, the bills and the reports. Our part is narrow, and only where a distributor provides it: a reorder spoken and checked before it is sent. Should easier reordering be what you hoped a Craftable alternative would bring, that is our whole contribution; nothing else in Craftable changes.
+        We are not a Craftable replacement. Craftable keeps approvals, budgets, counts, bills and reports for every location. Our part is one step, and only with a distributor that provides our app: a reorder spoken, looked over, then sent.
       </p>
     </div>
 
     <div class="cards-grid">
       <div class="feature-card">
-        <div class="feature-card-icon">📧</div>
-        <h4>Every other vendor stays on Craftable</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Suppliers without our app keep getting their orders from Craftable, as now. Save the app for the distributors that hand it to you.
-        </p>
-      </div>
-      <div class="feature-card">
         <div class="feature-card-icon">🧾</div>
-        <h4>That delivery's invoice still lands in Craftable</h4>
+        <h4>No purchase order to match the invoice to</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Our app's orders never show in Craftable, since the two do not connect. The invoice for that delivery can still be captured there as usual, so the cost is counted.
+          Craftable checks each invoice against its purchase order. Our app's orders have none, so for that delivery, check the invoice against what you sent.
         </p>
       </div>
       <div class="feature-card">
-        <div class="feature-card-icon">🧪</div>
-        <h4>Start with one distributor</h4>
+        <div class="feature-card-icon">📋</div>
+        <h4>Count in Craftable, then speak what is low</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Craftable keeps every setting you gave it, and nothing passes from one product to the other. Try the app on one distributor's reorder and see how it fits.
+          Run your Craftable count and see what sits below par. For a distributor on our app, say those items instead of building the order in Craftable, and review every line before you send.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">✅</div>
+        <h4>Best for reorders that need no sign-off</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          It suits a distributor whose routine reorder your team may send without approval. If every order to that distributor needs approval, keep it in Craftable. Give each distributor one ordering channel, Craftable or our app, never both.
         </p>
       </div>
     </div>
@@ -543,7 +540,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See a reorder go from spoken to sent</h3>
       <p class="text-muted" style="font-size:16px;">
-        A 20-minute demo: the guide a distributor prepares, one reorder talked through, and the copy their team receives. Craftable is not part of it.
+        Twenty minutes, using an example distributor guide: we speak a reorder, correct one line, and open the copy the distributor gets.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -570,7 +567,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. Craftable runs a group's back office from ordering through to paying the bill, and it can already order from any supplier. If a distributor your group buys from uses our app, kitchens can order from them by voice while Craftable handles the rest.
+          No. Craftable runs a group's back office from the first order to the paid bill. If a supplier you phone or message today has our app, you can speak that reorder there instead.
         </div>
       </div>
 
@@ -580,7 +577,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not at approvals, budgets, inventory, invoices, payments or reporting: we do none of those. Our job is smaller: a reorder you speak to a distributor and check before it goes. If quick reordering is the reason for your Craftable alternative search, that single job may be all you need beside it.
+          Not at approvals, budgets, inventory, invoices, payments or reporting: we do none of those. Our job is smaller: a reorder you speak to a distributor and check before it goes. If slow reordering is the reason for your Craftable alternative search, that one job may be all you need beside it.
         </div>
       </div>
 
@@ -590,7 +587,17 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Nothing ties them together, and each company services only its own software. A reorder you give our app by voice is never a Craftable purchase order, so it skips Craftable's approvals, budgets and invoice matching for that distributor. That is a real trade-off: if your group needs sign-off on every order, keep those orders in Craftable.
+          No. The two products do not connect, nothing is shared between them, and each team supports its own software only. An order given in our app goes to your distributor and is never created as a Craftable purchase order.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Do orders I speak go through Craftable's approvals?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. They go straight to the distributor, so Craftable's approvals and invoice matching never see them. Craftable's budget does not see that order when you place it. Where sign-off matters, leave that distributor's orders in Craftable.
         </div>
       </div>
 
@@ -600,37 +607,27 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only the distributors who run VoiceOrder Solutions for their accounts. Craftable gets an order to any vendor with an email address or phone number, and we cannot. Use Craftable for all other vendors, and ask them about our app.
+          Only the distributors who run VoiceOrder Solutions for their accounts. Craftable gets an order to any vendor with an email address or phone number, and we cannot. Use Craftable for all other vendors, and ask your distributors whether they have our app.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What happens if the app hears an item wrong?
+          What if I say 12 cases and the review screen shows 2?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Every line is on screen before you send, so that is where you fix it: change the item or delete it. That review is the safeguard, and a quick glance can still miss a mistake. Also note that an order phoned in or left on voicemail gets no order number from us. Those numbers come only with app orders.
+          Every line shows on screen before it goes, so correct the number there or delete the line. Your review is the safeguard, and a hurried look can still let an error through. An order you phone in or leave on voicemail gets no order number from us; only orders sent in the app get one.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How does my kitchen get set up?
+          How do I get set up, and what does it cost?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Through your distributor. Once they add your account, your guide is in the app, and most kitchens put in their first order that same day. Not sure if yours offers it? Ask us and we will find out.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          What will it cost us?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          Your distributor can answer that, since they are the ones who give you the app. Craftable prices by quote, and so do we. Your Craftable subscription does not change.
+          The distributor handles setup. Once your account is added, your guide is in the app, and most first orders go in that same day. If yours does not offer it, or you are not sure, message us and we will find whoever can help. Cost is a question for your distributor, because you get the app from them, and we post no price list. Craftable quotes its prices rather than publishing them.
         </div>
       </div>
 
@@ -640,7 +637,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Gathered from craftable.com and its help center on 27 October 2026: the platform and ordering pages, the help articles on placing orders, and their press releases. We leave out the operator totals and savings Craftable quotes about itself. Should Craftable have changed something since then, tell us and we will fix the page.
+          Gathered from craftable.com and its help center on 27 October 2026: the platform and ordering pages, the help articles on placing orders, and their press releases. We leave out the operator totals and savings Craftable quotes about itself. If Craftable has changed something since then, tell us and we will fix the page.
         </div>
       </div>
 
@@ -656,8 +653,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep Craftable, and start speaking the reorder</h2>
-  <p>Talk to your distributor or to us, and see how a reorder said into the app reaches them.</p>
+  <h2>Craftable guards the spend; you speak the weekly order</h2>
+  <p>Ask us whether any of your distributors has VoiceOrder Solutions, and we will find out for you.</p>
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
@@ -665,7 +662,7 @@ module.exports = {
   <div class="final-cta-trust">
     <span>✓ Set up by your distributor</span>
     <span>✓ Prices on your account</span>
-    <span>✓ Craftable stays in place</span>
+    <span>✓ Order number on app orders</span>
     <span>✓ iOS + Android</span>
   </div>
 </section>

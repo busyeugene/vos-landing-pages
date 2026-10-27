@@ -6,25 +6,24 @@
  * job. The two products do NOT connect (FAQ 3). Never imply an integration, sync or "extension".
  * Brand: "VoiceOrder Solutions" in full, never "VOS" (client, 2026-10-21).
  * Angle: Apicbase works out WHAT each outlet should order, from the recipe and the par level up;
- * VoiceOrder Solutions is the distributor's own app where the kitchen SPEAKS that order, from the
- * items and prices the distributor set.
+ * VoiceOrder Solutions is OUR app, which a distributor gives its accounts, where the kitchen SPEAKS that order, from the items and prices the distributor set. Never "their own app".
  * ⚠ TRAPS (all in _build/research/competitors/apicbase.md):
  *   1. Apicbase HAS full ordering: pars, BoM, forecasts, per-supplier POs, email to ANY supplier,
- *      and direct sends into US Foods, Gordon Food Service and DSSI. Conceded in row 5 and FAQ 4.
+ *      and direct sends into US Foods, Gordon Food Service and DSSI. Conceded in row 5, problem card 3 and FAQ 4.
  *   2. VOICE: Apicbase takes spoken STOCK COUNTS ("say it out loud"). Never "they type, we speak",
  *      "no voice" or "no AI". Their voice is for counting; ours is for placing the order (row 9
- *      concedes the voice counts).
+ *      concedes the voice counts, FAQ 5 separates counting from ordering).
  *   3. AI checks PO lines before sending, AI invoice reading, AI recipe import, an MCP server.
  *   4. "Continue an unfinished order" exists there, so interruption recovery is NOT sold here.
  *   5. Belgian, Europe-first, but live in the US. Never "not in the US".
  *   6. A spoken order never becomes an Apicbase order: no receiving or invoice match for that
- *      distributor in Apicbase. Said plainly in FAQ 3 and coexistence card 2.
- *   7. Pricing is quote-based, like ours: parity, never a fault (FAQ 7). No onboarding time published.
+ *      distributor in Apicbase. Said plainly in FAQ 3 and coexistence card 1: a spoken order also SKIPS Apicbase's approvals (card 3: keep approval-bound orders in Apicbase).
+ *   7. Pricing is quote-based, like ours: parity, never a fault (FAQ 7, setup + cost). No onboarding time published.
  * Their site and outlet counts disagree with each other; none are repeated.
  */
 module.exports = {
   title: "Not an Apicbase Alternative: Keep Apicbase, Add Voice Ordering",
-  description: "Speak each reorder to your distributor and check every line, while Apicbase keeps your recipes and pars. Not an Apicbase alternative: it replaces nothing.",
+  description: "Speak each reorder to your distributor and check every line, while Apicbase keeps your recipes and pars. Not an Apicbase alternative: we replace nothing.",
   related: ["craftable-alternative","restaurant365-alternative","wisk-alternative"],
   relatedHeading: "More platforms that keep their jobs",
   body: `
@@ -41,7 +40,7 @@ module.exports = {
       <span class="eyebrow">For Restaurant Operators</span>
       <h1>Not An Apicbase Alternative: Plan There, Order Aloud</h1>
       <p class="lead mt-16">
-        Speak a site's reorder into the VoiceOrder Solutions app, correct any line you need to, then send it to your distributor, numbered and timed. They preload what you buy from them, at your account prices. Apicbase goes on costing recipes and setting pars across your outlets.
+        VoiceOrder Solutions lets you say aloud the order you planned in Apicbase, as long as your distributor carries our app. You order from the guide and the prices they keep for your account, and orders you send in the app get a number, a time and a confirmation on your phone.
       </p>
 
       <div class="hero-ctas">
@@ -83,7 +82,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">20-30 Min</div>
-      <div class="stat-label">back on each order, compared with ordering by phone</div>
+      <div class="stat-label">back on each order, compared with a phone call to your rep</div>
     </div>
     <div>
       <div class="stat-number">24/7</div>
@@ -96,16 +95,17 @@ module.exports = {
 <!-- ============================================================
      SECTION 5: COMPARISON TABLE
      Not a head-to-head. Column 2 is the group with both tools, column 3 with Apicbase alone.
-     Recipe costing, multi-outlet control, ordering to any supplier, pars, food safety and
-     voice stock counts are ticks in BOTH. Only rows 2, 4 and 6 differ.
+     Recipe costing, approvals on Apicbase orders, ordering to any supplier, menu engineering, pars,
+     food safety and voice stock counts are ticks in BOTH (they come from Apicbase). Only rows 2 and 4 differ.
+     Review round 2026-10-27: per-location guides, staff phones and "their own app" removed (unconfirmed).
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 660px; margin: 0 auto;">
       <span class="eyebrow">Apicbase, With One Step Added</span>
-      <h2>Apicbase plans the order.<br>VoiceOrder Solutions lets you say it.</h2>
+      <h2>Apicbase plans the order.<br>In VoiceOrder Solutions, you say it.</h2>
       <p class="lead mt-16">
-        The only change on this table is how an order gets placed. One column is your group on Apicbase alone; the second column includes our app for any supplier who hands it to you. Apicbase already costs recipes, sets pars and gets orders out to suppliers, so an Apicbase alternative is seldom what a group needs. The two products do not connect.
+        Read the table as a single extra step beside the software you already use. It is not an Apicbase alternative: ticks for recipes, pars, approvals and counts come from Apicbase itself. The rows that differ concern a distributor whose order still goes by phone, by text or through a rep, and they apply only if that distributor has signed up with us.
       </p>
     </div>
 
@@ -130,7 +130,7 @@ module.exports = {
             <td>Typed, or filled up to par</td>
           </tr>
           <tr>
-            <td>One recipe library and approvals for every outlet</td>
+            <td>Sign-off on orders made in Apicbase</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -145,12 +145,12 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Placed in your distributor's own app</td>
+            <td>Menu engineering and group-wide sales reports</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Sent by email or to a linked supplier</td>
+            <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Suggested quantities from pars and forecasts</td>
+            <td>Apicbase's suggested quantities from pars and forecasts</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -160,7 +160,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Stock counts by barcode or by voice</td>
+            <td>Stock counts in Apicbase, by barcode or voice</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -189,30 +189,30 @@ module.exports = {
       <span class="eyebrow">Worth Knowing First</span>
       <h2>Why groups look for an alternative to Apicbase</h2>
       <p class="lead mt-16">
-        Looking up an Apicbase competitor rarely means the recipes or the costing have let you down. The search usually begins with the size of the rollout, or with the final step: turning a suggested quantity into an order your distributor actually receives.
+        Sometimes the search for an Apicbase alternative has nothing to do with recipes or costing. It is about the last step: getting one distributor's order out of the kitchen and into their hands.
       </p>
     </div>
 
     <div class="problem-grid">
       <div class="problem-card">
         <div class="problem-icon">🏢</div>
-        <h4>It is bought by head office</h4>
+        <h4>Not every reorder needs a sign-off</h4>
         <p class="text-muted mt-12">
-          Apicbase runs a whole group from the center, and its entry plan starts at five outlets. That suits the people planning menus and costs. The cook placing tonight's order at one site may just want that order out the door faster.
+          Apicbase gives head office approvals and approved suppliers for each location, and that control matters. A routine reorder of the same staples may not need it. Where the distributor is on VoiceOrder Solutions, the kitchen can simply say it.
         </p>
       </div>
       <div class="problem-card">
         <div class="problem-icon">🧮</div>
-        <h4>Someone still has to place it</h4>
+        <h4>Orders are typed, not spoken</h4>
         <p class="text-muted mt-12">
-          Apicbase suggests what to order from pars, recipes and forecasts. A person then types or confirms the amounts, and each supplier's order goes out separately. Its voice feature is there for counting stock, not for ordering.
+          Apicbase suggests what to order from pars, recipes and forecasts. A person then types or accepts the amounts, and each supplier's order goes out on its own. Apicbase does take spoken stock counts.
         </p>
       </div>
       <div class="problem-card">
         <div class="problem-icon">📲</div>
-        <h4>Some distributors hand out their own app</h4>
+        <h4>Only some distributors are linked</h4>
         <p class="text-muted mt-12">
-          Some distributors put our app in their customers' hands, loaded with each outlet's standing items at the prices it pays. If one of yours does, that order can be spoken, and Apicbase stays set up exactly as it is.
+          Apicbase sends orders straight into a few large US distributors and buying platforms. For any other supplier, you add the items yourself and Apicbase emails the order. If a local distributor still gets your order by a call, a text or a rep's visit, that is the order our app can change.
         </p>
       </div>
     </div>
@@ -227,7 +227,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>An Apicbase alternative that changes one step</h2>
+      <h2>One step added, no Apicbase alternative to roll out</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -237,7 +237,7 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>Speak the reorder, then look it over</h3>
           <p class="mt-12 text-muted">
-            Open the app at the shelf or in the walk-in and say what the site needs. Each item turns into a line from your guide with that distributor. Correct anything that is off, then send. Nothing goes out until you have checked it.
+            Open the app at the shelf or in the walk-in and say what the kitchen needs. Each item turns into a line from your guide with that distributor. Correct anything that is off, then send. Nothing goes out until you have checked it.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -250,7 +250,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Works on staff iPhones and Android phones</span>
+              <span>Works on an iPhone or Android phone</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -274,7 +274,7 @@ module.exports = {
           <span class="eyebrow">Your Order Guide</span>
           <h3>A guide your distributor keeps current</h3>
           <p class="mt-12 text-muted">
-            Your distributor enters the products your site buys from them, at the prices on your account, with their item codes. When a price or an item changes, they change it. Your supplier lists and recipes in Apicbase stay as they are.
+            Your distributor enters the items you order from them, at the prices on your account, with their item codes. If a price moves or an item is dropped, they update it. It is the list you would otherwise build yourself in Apicbase for a supplier that is not linked.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -291,7 +291,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Same rep, same delivery days, same terms</span>
+              <span>Same distributor, same rep</span>
             </li>
           </ul>
           <a href="/restaurant-purchasing-software" class="feature-link">Buying across several suppliers →</a>
@@ -328,7 +328,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Phone and voicemail orders get no number from us</span>
+              <span>Who sent it and when, on record</span>
             </li>
           </ul>
           <a href="/supplier-management-software" class="feature-link">What each supplier confirmed →</a>
@@ -365,14 +365,14 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No data passes between the two</span>
+              <span>Approval rules kept for Apicbase orders</span>
             </li>
           </ul>
-          <a href="/restaurant-checklist-software" class="feature-link">Keeping each site's ordering routine the same →</a>
+          <a href="/restaurant-checklist-software" class="feature-link">Keeping the ordering routine the same at every location →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>A voice order<br>beside the site's<br>usual routine
+            📸 Screenshot:<br>A voice order<br>beside the kitchen's<br>usual routine
           </div>
         </div>
       </div>
@@ -391,30 +391,30 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Getting started goes through your distributor</h2>
       <p class="lead mt-16">
-        No computer software to install, and no Apicbase settings to touch.
+        Nothing to install on a computer, and nothing for head office to roll out.
       </p>
     </div>
 
     <div class="steps-grid">
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Ask each outlet's distributor</h4>
+        <h4>Ask your distributor</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          If they offer VoiceOrder Solutions, they set you up with an account and a guide. Not sure who to ask? Contact us and we will connect you.
+          If they work with us, they open an account for your kitchen.
         </p>
       </div>
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Load the app on site phones</h4>
+        <h4>Load the app on your phone</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Sign in, and your guide is there waiting.
         </p>
       </div>
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Call out the order, then confirm</h4>
+        <h4>Speak, check, then send</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Read down the lines, fix anything, and tap send.
+          Read down the lines and fix anything before it goes.
         </p>
       </div>
     </div>
@@ -473,7 +473,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "When a case goes missing, we quote the number on our order and it is settled in one call."
+            "When a case goes missing, we point to the number on our order."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -499,32 +499,32 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">Use Both</span>
-      <h2>Apicbase plans each outlet; VoiceOrder Solutions sends the reorder</h2>
+      <h2>Apicbase for the group, VoiceOrder Solutions for one order</h2>
       <p class="lead mt-16">
-        This is not an Apicbase replacement. Apicbase keeps the recipes, the pars, the counts and the reports. Our piece is one step, offered through distributors that carry us: you say what you need, look it over, and send. If you wanted an Apicbase alternative mainly for quicker reordering, that is the single piece we provide; recipes and stock stay where they are.
+        VoiceOrder Solutions is not an Apicbase competitor or an Apicbase replacement. Head office keeps costing, par levels, approvals and reports in Apicbase. Our app handles one order at a location: the one to a distributor that offers it, said aloud and checked before it goes.
       </p>
     </div>
 
     <div class="cards-grid">
       <div class="feature-card">
-        <div class="feature-card-icon">📧</div>
-        <h4>Apicbase keeps every other supplier</h4>
+        <div class="feature-card-icon">⚖️</div>
+        <h4>Voice orders skip Apicbase's sign-off</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A supplier without VoiceOrder Solutions keeps getting your orders from Apicbase, by email or through its direct link. Save our app for the distributors that hand it to you.
+          An order spoken into our app travels from the kitchen to the distributor without passing through Apicbase. Nobody approves it there, and Apicbase has no record of it when the delivery and the invoice arrive.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">📋</div>
+        <h4>Let the Apicbase count set the amounts</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Do the count in Apicbase as you do now and look at what it suggests for that distributor. Then say those amounts into our app, review them and send.
         </p>
       </div>
       <div class="feature-card">
         <div class="feature-card-icon">🔀</div>
         <h4>One place per distributor's order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          An order made in our app never turns into an Apicbase order, because the two do not connect. Place each distributor's order in one place only, so nothing gets ordered twice.
-        </p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-card-icon">🧪</div>
-        <h4>Start with a single distributor</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Nothing in Apicbase needs changing. Begin with one distributor and see how the kitchen finds it.
+          Where every order to that distributor must be signed off, leave it in Apicbase. Where the everyday reorder needs no sign-off, move that one to our app. Order from each distributor through one channel, so no line goes out twice.
         </p>
       </div>
     </div>
@@ -540,7 +540,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See what a distributor receives</h3>
       <p class="text-muted" style="font-size:16px;">
-        A 20-minute demo: an outlet guide being built, one reorder by voice, and what the distributor's team sees. Apicbase is not involved.
+        In 20 minutes we open a demo guide, speak a test order into the app, and show what lands on the distributor's side.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -567,7 +567,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. Apicbase works out what each outlet should order and sends it out to each supplier. If an outlet's distributor has signed up with us, the kitchen can say that order aloud instead, and Apicbase keeps its other jobs.
+          No. Apicbase already builds orders and sends them to your suppliers. If one of your distributors gives you our app, you can say that distributor's order aloud instead.
         </div>
       </div>
 
@@ -587,7 +587,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. They are separate products with separate support teams. Voice orders go to the distributor directly and never show up in Apicbase. That is a real trade-off: for that distributor, Apicbase cannot check the delivery or the invoice against an order it never saw.
+          No. They are separate products with separate support teams, and no order data passes from one to the other. That is a real trade-off: Apicbase cannot match that delivery or its invoice to an order it never saw.
         </div>
       </div>
 
@@ -597,37 +597,37 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Only distributors on VoiceOrder Solutions can receive them. Apicbase can email an order to any supplier, and it sends orders straight into the systems of some large US distributors. We reach far fewer. Keep Apicbase for those, and find out which of your other suppliers run our app.
+          No. Only distributors that work with VoiceOrder Solutions can receive them, and that is far fewer suppliers than Apicbase reaches by email and by direct link. Keep Apicbase for the rest, and ask your distributors which of them use our app.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What happens if a line comes out wrong?
+          Apicbase already takes counts by voice. What does your app add?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          You see every line before sending, so that is where you fix it: change the item or the amount, or delete the line. That review is the safeguard, and a hurried look can still miss an error. Bear in mind that orders phoned in or left on voicemail are not numbered by us; numbering covers app orders only.
+          Its voice feature is for counting stock: you say what is on the shelf. Ours is for sending the order: you say what you want to buy from your account's own guide, and it lands with your distributor as an order.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How does a kitchen get set up?
+          I said an item wrong. Can I fix it before it goes?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Through your distributor. Once they have added you and loaded your guide, most kitchens are sending orders in the app that same day. Not sure whether your distributor offers us? Ask us, and we can check for you.
+          Yes. Each line is on screen for you to check before it goes, so change the item or the amount there, or delete the line. Checking is the safeguard, and a quick look can still let a mistake through. Orders you phone in or leave on voicemail are not numbered by us.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What will it cost?
+          How do I get set up, and what does it cost?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          That is up to your distributor, who provides the app. Apicbase quotes each group, and we quote too, with no public price list. Your Apicbase plan does not change.
+          Through your distributor. If they have not mentioned us, or you are unsure, get in touch and we will find out for you. Most kitchens are placing orders the same day. Your distributor supplies the app, so ask them about cost; we post no price list. Apicbase quotes its plans as well, with no prices on its site.
         </div>
       </div>
 
@@ -653,16 +653,16 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep Apicbase, and speak your next order</h2>
-  <p>Talk to your distributor or to us, and see the order travel from your kitchen to their desk.</p>
+  <h2>Keep planning in Apicbase. Say the next order aloud.</h2>
+  <p>Find out whether your distributor uses VoiceOrder Solutions, then try it on your next routine reorder.</p>
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
   </div>
   <div class="final-cta-trust">
     <span>✓ Comes through your distributor</span>
-    <span>✓ Prices from your account</span>
-    <span>✓ No change to Apicbase</span>
+    <span>✓ Numbered, timed app orders</span>
+    <span>✓ Send at any hour</span>
     <span>✓ On iOS and Android</span>
   </div>
 </section>

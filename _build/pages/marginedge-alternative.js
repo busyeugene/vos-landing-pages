@@ -9,21 +9,22 @@
  * Angle: MarginEdge works on the INVOICE after the truck has been; VoiceOrder Solutions is the ORDER
  * before it. Their own pitch is the invoice, so the split is theirs to agree with.
  * ⚠ TRAPS (all in _build/research/competitors/marginedge.md):
- *   1. MarginEdge HAS ordering: order guides, pars, a suggested quantity, web and mobile, sent to
- *      ANY supplier that takes email. "Works with any supplier" is THEIR win: conceded in row 5
- *      and FAQ 4.
+ *   1. MarginEdge HAS ordering: order guides with pars and on-hand, web and mobile ("Place orders
+ *      through vendors right from MarginEdge", /how-it-works). Reaching far more suppliers is THEIR
+ *      win: conceded in row 5 and FAQ 4. "Any supplier that takes email" is help-snippet only
+ *      (403), so the page never says email (review 2026-10-27).
  *   2. They connect to distributors on the INVOICE side (GFS, Ben E. Keith, Shamrock, US Foods).
  *      Never "no link to your distributor".
  *   3. AI is central (invoice coding, Tom, forecasting, an AI Connector into ChatGPT/Claude/Gemini).
  *      Never "they type, we speak", "no AI" or "no voice". Say what we do instead.
- *   4. Pricing is PUBLISHED (flat per location). Figures stay OFF the page; FAQ 7 concedes it.
+ *   4. Pricing is PUBLISHED (flat per location). Figures stay OFF the page; FAQ 6 concedes it.
  *   5. Their invoice coding is "24-48 hours": never put it next to a setup time of ours.
  *   6. Help-center ordering mechanics came from search snippets (403). Nothing here leans on them.
  * Their customer counts disagree with each other (12,000+ vs 13,000+); none are repeated.
  */
 module.exports = {
   title: "Not a MarginEdge Alternative: Keep It, Add Voice Ordering",
-  description: 'Keep MarginEdge for invoices and food cost, and speak your next order to a distributor on VoiceOrder Solutions. A MarginEdge alternative that replaces nothing.',
+  description: 'Keep MarginEdge for invoices and food cost, and speak your next order to a distributor on VoiceOrder Solutions. No MarginEdge alternative needed.',
   related: ["orderly-alternative","xtrachef-alternative","wisk-alternative"],
   relatedHeading: "Other back-office tools you can keep",
   body: `
@@ -38,9 +39,9 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Restaurant Operators</span>
-      <h1>Not A MarginEdge Alternative: Order Before The Invoice</h1>
+      <h1>Not A MarginEdge Alternative: Speak Orders To Your Distributor</h1>
       <p class="lead mt-16">
-        Say what you need into the VoiceOrder Solutions app, look the lines over, and send it to your distributor with its own number attached. If a supplier you buy from offers it, your products and prices are loaded for you. MarginEdge keeps handling the invoice once the delivery lands.
+        Use your voice to order in the app your distributor hands you, from their guide at the prices they set for you. You check every item before it goes, then get a numbered order and a confirmation on your phone. It works only if your distributor offers VoiceOrder Solutions.
       </p>
 
       <div class="hero-ctas">
@@ -104,7 +105,7 @@ module.exports = {
       <span class="eyebrow">MarginEdge Today, Plus Voice</span>
       <h2>MarginEdge, plus ordering out loud.<br>The same back office, one new step.</h2>
       <p class="lead mt-16">
-        Spoken ordering is the only addition here. One column shows your restaurant on MarginEdge alone; the other adds VoiceOrder Solutions wherever a distributor of yours runs it. MarginEdge already codes invoices, costs recipes and emails orders to suppliers, so a MarginEdge alternative is rarely the fix you need. The two products do not connect.
+        Read this table as one restaurant, before and after a distributor hands it our app. MarginEdge already reads your invoices, works out recipe costs and places orders with your vendors, so the ticks for those come from MarginEdge itself. The voice-ordering rows count only for distributors on our app. You are adding one step, not choosing a MarginEdge alternative.
       </p>
     </div>
 
@@ -119,14 +120,14 @@ module.exports = {
         </thead>
         <tbody>
           <tr>
-            <td>Invoices captured by photo, email or EDI</td>
+            <td>Invoices read from a photo, an email or a supplier feed</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Order out loud and review it first</td>
+            <td>Spoken order you review before it goes</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Quantities set on the order guide</td>
+            <td>Typed, or suggested from par and on-hand</td>
           </tr>
           <tr>
             <td>Food cost and a daily P&amp;L</td>
@@ -136,20 +137,20 @@ module.exports = {
           <tr>
             <td>Items and prices loaded by your distributor</td>
             <td><span class="check-yes">✓</span></td>
-            <td>A guide you keep for each vendor</td>
+            <td>A guide per vendor, updated from your invoices</td>
           </tr>
           <tr>
-            <td>Order from any supplier that takes email</td>
+            <td>Orders to your vendors from MarginEdge</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Your distributor receives it numbered and timed</td>
+            <td>Your distributor gets each order numbered and timed</td>
             <td><span class="check-yes">✓</span></td>
             <td>Not listed on their site</td>
           </tr>
           <tr>
-            <td>Par levels with a suggested quantity</td>
+            <td>Pars and on-hand on the order guide</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -188,30 +189,30 @@ module.exports = {
       <span class="eyebrow">Before You Compare</span>
       <h2>Why operators look for an alternative to MarginEdge</h2>
       <p class="lead mt-16">
-        Searching for a MarginEdge competitor seldom means anything is broken. MarginEdge reads invoices and tracks costs well. The search tends to start with cost per site, or with ordering, which happens before everything MarginEdge does after delivery.
+        MarginEdge reads invoices and tracks costs well. When someone looks for a MarginEdge competitor, it is sometimes about something else: what each location costs, or the order they still give a rep by phone. Those are separate questions, and this page is about the second one.
       </p>
     </div>
 
     <div class="problem-grid">
       <div class="problem-card">
         <div class="problem-icon">🧾</div>
-        <h4>It starts once the truck has been</h4>
+        <h4>Built around the invoice, after the truck arrives</h4>
         <p class="text-muted mt-12">
-          MarginEdge is built around the invoice: snap a photo and it is coded, costed and booked. That is the work after a delivery. The ordering before it is its own job, and you can change it on its own.
+          MarginEdge places orders too, but its center is the invoice: snap a photo and it is sorted into your costs and your books. Getting your order to the distributor is its own step, and you can change it without changing MarginEdge.
         </p>
       </div>
       <div class="problem-card">
         <div class="problem-icon">📍</div>
-        <h4>The price grows with each site</h4>
+        <h4>The price grows with each location</h4>
         <p class="text-muted mt-12">
-          MarginEdge publishes one flat monthly price per location, with extras such as a bar scale. Being open about price is a plus. Moving every invoice, recipe and report elsewhere to save on it is a big step, though, and it would not change how one order gets placed.
+          MarginEdge publishes one flat monthly price per location, plus add-ons such as a bar scale. A published price is a plus, and cost is a fair reason to weigh a MarginEdge alternative. It is a different question from how your orders get placed.
         </p>
       </div>
       <div class="problem-card">
-        <div class="problem-icon">📲</div>
-        <h4>Your distributor may already offer an app</h4>
+        <div class="problem-icon">📋</div>
+        <h4>Its order guide is built from your invoices</h4>
         <p class="text-muted mt-12">
-          A few food distributors now include VoiceOrder Solutions for the restaurants they serve, set up with what each kitchen normally orders and what it pays. If one of yours does, the order to them can be spoken, and MarginEdge does not have to change at all.
+          MarginEdge fills each vendor's guide from the invoices you send in and updates prices as you order. On our app, the distributor loads what you buy and what you pay, and updates both when they change.
         </p>
       </div>
     </div>
@@ -226,7 +227,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>A MarginEdge alternative that only adds a step</h2>
+      <h2>You can change the order without a MarginEdge alternative</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -277,7 +278,7 @@ module.exports = {
           <span class="eyebrow">Your Order Guide</span>
           <h3>Your distributor's items, at your prices</h3>
           <p class="mt-12 text-muted">
-            Your distributor builds the guide: the products you buy from them, at the prices set for your account, under their own item codes. When something changes, they update it, so there is no second copy for you to keep in step.
+            Your distributor builds the guide: the products you buy from them, under their own item codes. They set the items and the prices for your account, and when either one changes, they change it. You order from their list as it stands today, not one pieced together from past deliveries.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -286,7 +287,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>The prices agreed for your account</span>
+              <span>Priced the way your distributor set your account</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -294,14 +295,14 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Your rep and your terms are unchanged</span>
+              <span>Same distributor, same rep</span>
             </li>
           </ul>
           <a href="/restaurant-purchasing-software" class="feature-link">Buying from more than one supplier →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>A distributor's<br>order guide with<br>your account prices
+            📸 Screenshot:<br>The order guide<br>your distributor set up,<br>with your account prices
           </div>
         </div>
       </div>
@@ -351,24 +352,20 @@ module.exports = {
           <span class="eyebrow">Your Back Office</span>
           <h3>MarginEdge picks up when the invoice lands</h3>
           <p class="mt-12 text-muted">
-            The delivery still comes with an invoice, and it goes into MarginEdge the way yours do now. Your margins keep updating as before. Your counts, pars and recipes stay where they are.
+            The spoken order is the step before the truck. Once the delivery arrives, its invoice goes into MarginEdge the way yours do now, and your food cost updates from there. Your counts, pars and recipes stay where they are.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Invoices captured exactly as they are today</span>
+              <span>The order goes in before the delivery comes</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Counts and pars stay in MarginEdge</span>
+              <span>Snap the invoice when it arrives, as you do now</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Other suppliers carry on exactly as before</span>
-            </li>
-            <li>
-              <span class="bullet-check">✓</span>
-              <span>Nothing moves between the two products</span>
+              <span>Price alerts and recipe costs still come from invoices</span>
             </li>
           </ul>
           <a href="/restaurant-stock-management-software" class="feature-link">Where ordering fits in your stock routine →</a>
@@ -394,7 +391,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, and your distributor does the setup</h2>
       <p class="lead mt-16">
-        There is nothing to install on a computer and nothing to change in MarginEdge.
+        Nothing to install on a computer. The app runs on the phone you already carry.
       </p>
     </div>
 
@@ -403,7 +400,7 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>Ask your distributor</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          If they offer VoiceOrder Solutions, they open your account and load your guide. Not sure? Contact us and we will put you in touch with the right person.
+          If they offer VoiceOrder Solutions, they open your account and load your guide. Not sure if they do? Ask us and we will find out.
         </p>
       </div>
       <div class="step-card">
@@ -476,7 +473,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "Our orders have numbers on them now, so a missing case is a two-minute conversation."
+            "Our orders have numbers on them now, so a missing case is a quick conversation."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -504,30 +501,30 @@ module.exports = {
       <span class="eyebrow">Keep Both</span>
       <h2>MarginEdge runs the numbers, VoiceOrder Solutions carries the order</h2>
       <p class="lead mt-16">
-        We are not a MarginEdge replacement. MarginEdge keeps the invoices, the costing and the books. We add a single step, for any distributor that provides it: speaking the order, with a check before sending. If easier ordering is what you wanted from a MarginEdge alternative, this is that part, and nothing else moves.
+        We are not a MarginEdge replacement. MarginEdge keeps the invoices, the costing and the books. VoiceOrder Solutions takes one job, for any distributor that runs it: the order to them, spoken and then checked before it goes.
       </p>
     </div>
 
     <div class="cards-grid">
       <div class="feature-card">
-        <div class="feature-card-icon">📧</div>
-        <h4>Every other supplier stays in MarginEdge</h4>
+        <div class="feature-card-icon">🧾</div>
+        <h4>Voice orders skip MarginEdge's order screen</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Any supplier not on our app keeps receiving MarginEdge's emailed orders as before. Keep the app for the distributors who hand it to you.
+          The two products do not connect, so MarginEdge never sees that order, only the invoice that follows it. If something comes up short, show your distributor the confirmation and order number you got.
         </p>
       </div>
       <div class="feature-card">
-        <div class="feature-card-icon">🧮</div>
-        <h4>Your costs still include that delivery</h4>
+        <div class="feature-card-icon">📊</div>
+        <h4>Count in MarginEdge, then say the list</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          An order you give by voice does not appear on MarginEdge's order screen, because the two do not connect. Its invoice does, once you send it in as usual, so the cost of that delivery is not lost.
+          Take your count there as usual and let MarginEdge's pars and on-hand show what is short. Then speak that distributor's share of it into our app.
         </p>
       </div>
       <div class="feature-card">
-        <div class="feature-card-icon">🔌</div>
-        <h4>No settings to change</h4>
+        <div class="feature-card-icon">✅</div>
+        <h4>Pick one home per distributor</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          MarginEdge is left exactly as configured, and no data moves anywhere. Start with a single distributor's order.
+          Choose MarginEdge or our app for each distributor, so nothing is doubled. It suits a kitchen that prefers speaking an order to tapping it in.
         </p>
       </div>
     </div>
@@ -541,9 +538,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">See how a distributor sets up your guide</h3>
+      <h3 style="margin-bottom:10px;">From your voice to the distributor's desk</h3>
       <p class="text-muted" style="font-size:16px;">
-        A 20-minute walkthrough: how the guide is built, a real order spoken into the app, and what lands on your distributor's side. None of it touches MarginEdge.
+        Twenty minutes on an example guide: an example order said aloud, reviewed and sent, then the copy the distributor gets, with its number on it.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -570,7 +567,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. MarginEdge is a back office that starts from the invoice, and it can already email your suppliers an order. Where a distributor of yours provides our app, use your voice for that order and leave MarginEdge to do the rest.
+          No. MarginEdge handles invoices and costs, and it has ordering of its own. Where a distributor of yours provides our app, order from them by voice and let MarginEdge take care of everything after the delivery.
         </div>
       </div>
 
@@ -580,7 +577,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not at coding invoices, costing recipes, paying bills or closing your books: we do none of them. We do one narrower thing: a distributor order spoken aloud and confirmed one line at a time. If ordering is what sent you looking for a MarginEdge alternative, that narrower job, beside it, may be all you need.
+          Not at reading invoices, costing recipes, paying bills or closing your books: we do none of them. We do one narrower thing: a distributor order spoken aloud, from the guide that distributor keeps for you, and checked before it goes. If ordering is what sent you looking for a MarginEdge alternative, that narrower job, beside it, may be all you need.
         </div>
       </div>
 
@@ -590,47 +587,47 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Nothing links the two, and neither company supports the other. Orders placed by voice travel to your distributor, not into MarginEdge. MarginEdge still receives that delivery's invoice the way it receives the rest.
+          No. Nothing links the two, no data moves between them, and neither company supports the other. Anything you say into our app travels to your distributor, not into MarginEdge.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Can I order from all my suppliers this way?
+          Will this work with every supplier I buy from?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only from distributors who use VoiceOrder Solutions. MarginEdge can email an order to any supplier at all, and we cannot. Keep doing that for the rest, and ask your other suppliers if they have it.
+          Only with distributors who use VoiceOrder Solutions. MarginEdge can send orders to far more of your suppliers than we reach, so stay with it for the rest, and check with your other suppliers about our app.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What if the app gets an item wrong?
+          Can the app still put the wrong item on my order?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          You see every line before it goes, so that is where you catch it: change the item or take it out. That check is the safeguard, which means a rushed glance can still let a mistake through. One more limit: an order phoned in or left on voicemail gets no order number from us. Only what you send in the app does.
+          Yes, it can. Each line shows up for you to look over before anything is sent, so you can change it or take it out. That review is your safeguard, and a quick glance can still let an error slip past. Orders you phone or leave on voicemail get no order number from us; only orders sent in the app are numbered.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How do I get set up?
+          How do I get set up, and what does it cost?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Through your distributor. Once they add you, your guide is waiting in the app, and most kitchens are ordering that same day. Not sure whether yours has it? Contact us and we will find out for you.
+          Setup goes through your distributor: they add you and upload your guide, and most kitchens place a first order the same day. If yours does not offer it, or you are not sure, contact us and we will connect you with the right person. Cost is a question to put to your distributor, who gives you the app. We do not publish a price. MarginEdge, for its part, lists its price on its website.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What does it cost me?
+          Does that delivery still show up in MarginEdge's food cost?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          That is a question for your distributor, since they are the ones offering it. MarginEdge is open about its price and publishes a flat rate per location; we do not publish one. Your MarginEdge plan stays the same either way.
+          Yes, once its invoice is in. Send that invoice in as you do every other one, and the delivery is counted with the rest of your costs.
         </div>
       </div>
 
@@ -656,16 +653,16 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep MarginEdge, and speak the next order</h2>
-  <p>Check with your distributor, or with us, and see how it works from the walk-in to their desk.</p>
+  <h2>Let MarginEdge track the costs, and say your next order instead of calling it in.</h2>
+  <p>Ask your rep, or ask us, whether the app is open to your kitchen, and we will show you what the distributor receives from a voice order.</p>
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
   </div>
   <div class="final-cta-trust">
-    <span>✓ Set up by your distributor</span>
-    <span>✓ Your agreed prices</span>
-    <span>✓ Your back office stays put</span>
+    <span>✓ Your distributor sets it up</span>
+    <span>✓ Reviewed before sending</span>
+    <span>✓ Numbered app orders</span>
     <span>✓ iOS + Android</span>
   </div>
 </section>

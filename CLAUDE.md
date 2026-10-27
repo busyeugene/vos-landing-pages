@@ -36,6 +36,18 @@ layout 0, promote 1/11 each), pushed (`a2b620d`). Digests, dated 2026-10-27, in
   (the steps section is exempt from the cross count: run `grid.js --dupes` after any batch).
   ⚠ Parallel agents share ONE scratchpad: give each a private subfolder or they overwrite each
   other's pairs files (it happened; exact-once matching kept every page clean).
+- **Three-pass review DONE (2026-10-27, Eugene's ask): repetition, logic, fact-check.** Six no-context
+  reviewers, every finding verified, 8 parallel rewrite agents (rules in the scratchpad's
+  SHARED-FIXES), a central dedupe, then a changed-lines verification round (2 more reviewers, ~60 more
+  fixes). What it changed: PO-platform pages now anchor on "the distributor you still phone or text"
+  (the 20-30 min stat is versus phoning) and say plainly that a spoken order skips the tool's approvals
+  and who it suits; each "Keep Both" section and problem card 3 is now tool-specific; one tool-specific
+  FAQ per page (setup + cost merged); unverifiable lines cut (reps retyping orders, per-location
+  accounts, "their own app", same terms, order history, MarginEdge help-center snippets). The shared
+  integrations line reads "the system your distributor runs" on operator pages (registry
+  `audience: 'operator'`, build.js). allowlist.js gained the operator setup/contact/no-price lines.
+  ⚠ The rep-retyping claim came back THREE times in new wording across rounds: grep for "enter",
+  "type", "key" in distributor-side sentences after any rewrite.
 - **Open:** (1) Webflow port of the 8 (repo first is done; they will need `gen-schema.py`
   operator handling and their hero props), plus 8 `/alternatives` hub cards; the hub lead says
   "platforms distributors ask us about" and needs rewording for both audiences. (2) Eugene to

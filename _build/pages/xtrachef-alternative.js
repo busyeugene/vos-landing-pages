@@ -8,9 +8,8 @@
  * invoices (or an uploaded bid sheet) and priced from the last invoice, sent as an email or PDF.
  * In VoiceOrder Solutions the guide is the distributor's, at the account's prices, kept current by
  * the distributor. xtraCHEF works from invoices, so the delivery's invoice still reaches it as usual.
- * ⚠ NAMING: the product is "xtraCHEF by Toast", but claims.js bans the bare word "Toast" (named
- *   integrations) and exempts only the registry competitor "xtraCHEF". So the visible copy says
- *   "xtraCHEF" only. The sourcing FAQ names support.toasttab.com (lowercase, does not trip the ban).
+ * NAMING: "xtraCHEF by Toast" once, in the hero lead (first mention in prose), then "xtraCHEF".
+ *   Review round 2026-10-27: "Toast" is allowed on this page. The sourcing FAQ names support.toasttab.com (lowercase, does not trip the ban).
  *   Never "Toast Inventory" (a different product). Never say xtraCHEF is being retired.
  * ⚠ TRAPS (all in _build/research/competitors/xtrachef.md):
  *   1. xtraCHEF HAS ordering in both tiers, desktop and mobile: order guides, pars that make
@@ -30,7 +29,7 @@
  */
 module.exports = {
   title: "Not an xtraCHEF Alternative: Keep xtraCHEF, Add Voice Ordering",
-  description: "Speak your next order from your distributor's own guide and check each line before it goes. No xtraCHEF alternative needed: xtraCHEF keeps your invoices.",
+  description: "Order from your distributor's guide at your account's prices: speak it, check each line, send. No xtraCHEF alternative needed: xtraCHEF keeps your invoices.",
   related: ["marginedge-alternative","orderly-alternative","marketman-alternative"],
   relatedHeading: "Other systems that keep running alongside",
   body: `
@@ -47,7 +46,7 @@ module.exports = {
       <span class="eyebrow">For Restaurant Operators</span>
       <h1>Not An xtraCHEF Alternative: Use Your Distributor's Guide</h1>
       <p class="lead mt-16">
-        Talk through your order in the VoiceOrder Solutions app, and each item comes up as a line from your distributor's list, at your account's prices. Check the lines, then send it off with its number and the time attached. It only reaches distributors already on our app, and xtraCHEF by Toast keeps doing the invoices.
+        Order from the distributor's own guide, with your account pricing, instead of a list you keep up yourself. Talk into the VoiceOrder Solutions app, then look over each line before you send. It works only where your distributor provides the app, and xtraCHEF by Toast keeps your invoices.
       </p>
 
       <div class="hero-ctas">
@@ -102,16 +101,16 @@ module.exports = {
 <!-- ============================================================
      SECTION 5: COMPARISON TABLE
      Not a head-to-head. Column 2 is the restaurant with both tools, column 3 with xtraCHEF alone.
-     Invoices, food cost, ordering to any vendor, pars, recurring orders and the mobile app are
-     ticks in BOTH. Only rows 2, 4 and 6 differ.
+     Invoices, food cost (recipes and counts scoped to Pro), ordering to any vendor and the
+     mobile app are ticks in BOTH. Only rows 2, 4, 6 and 8 differ. Scheduled orders moved to FAQ 7.
      ============================================================ -->
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 660px; margin: 0 auto;">
       <span class="eyebrow">xtraCHEF Plus One Step</span>
-      <h2>xtraCHEF, plus orders you speak.<br>Same invoices, one new habit.</h2>
+      <h2>xtraCHEF, plus a guide kept by your distributor.<br>Same invoices, a new list to order from.</h2>
       <p class="lead mt-16">
-        What changes is how you order from a distributor that has our app. One column is your restaurant on xtraCHEF alone; the other adds VoiceOrder Solutions. xtraCHEF already reads invoices, prices out recipes and places orders with every vendor you use, so an xtraCHEF alternative is seldom what you need. The two products do not connect.
+        Only the ordering rows change, and only for a distributor using our app: their guide, their price for your account, sent from your phone. Every other tick is xtraCHEF's own work, including recipes and counts on the Pro plan, and a good reason to check the table before you price out an xtraCHEF alternative.
       </p>
     </div>
 
@@ -133,17 +132,17 @@ module.exports = {
           <tr>
             <td>Speak it, look it over, then send</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Quantities entered on your guide</td>
+            <td>Typed on your guide, or filled from pars</td>
           </tr>
           <tr>
-            <td>Recipe costing and food cost reports</td>
+            <td>Food cost reports, plus recipe costing on Pro</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>The distributor's own guide, at your prices</td>
+            <td>Guide kept current by the distributor</td>
             <td><span class="check-yes">✓</span></td>
-            <td>A list built from your past invoices</td>
+            <td>Your own list, from past invoices or an uploaded price sheet</td>
           </tr>
           <tr>
             <td>Send orders to any vendor by email or PDF</td>
@@ -151,19 +150,19 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Arrives at your distributor with a number and time</td>
+            <td>Each line priced for your account by the distributor</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Emailed or sent as a PDF to the rep</td>
+            <td>Estimated from the latest invoice</td>
           </tr>
           <tr>
-            <td>Inventory counts with par levels</td>
+            <td>Inventory counts with pars, a Pro feature</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Weekly orders that go out on a schedule</td>
+            <td>Sent through the app your distributor gives you</td>
             <td><span class="check-yes">✓</span></td>
-            <td><span class="check-yes">✓</span></td>
+            <td>From xtraCHEF by email, or as a PDF you pass on</td>
           </tr>
           <tr>
             <td>Ordering and counts on a phone</td>
@@ -195,30 +194,30 @@ module.exports = {
       <span class="eyebrow">Worth Knowing First</span>
       <h2>Why restaurants search for an alternative to xtraCHEF</h2>
       <p class="lead mt-16">
-        Looking up an xtraCHEF competitor rarely means xtraCHEF is letting you down. It handles invoices, recipes and inventory counts well. Most often, the search starts with ordering, which in xtraCHEF still runs off a list made from your own invoices.
+        xtraCHEF centers on the invoice: it reads each one, tracks food cost from it and passes it on to your accounting software. Sometimes the search for an xtraCHEF competitor is really about the order, and that is a step you can change by itself.
       </p>
     </div>
 
     <div class="problem-grid">
       <div class="problem-card">
         <div class="problem-icon">🧾</div>
-        <h4>Its order list is made from your invoices</h4>
+        <h4>Its order list is yours to keep up</h4>
         <p class="text-muted mt-12">
-          In xtraCHEF, a vendor's order guide is built from items you have been invoiced for, or from a price sheet you upload. The mobile app estimates the total from your last invoice price. It works, but keeping that list right is on you.
+          In xtraCHEF, a vendor's order guide is built from items you have been invoiced for, or from a price sheet you upload. When your distributor adds or drops an item, the list changes only when you change it.
         </p>
       </div>
       <div class="problem-card">
         <div class="problem-icon">🗓️</div>
         <h4>Setup took real work the first time</h4>
         <p class="text-muted mt-12">
-          xtraCHEF's own guides describe onboarding in weeks, with calls from a consultant on the Pro tier. That effort is already spent. Doing it all again in a new system would leave the way you order exactly as it is.
+          xtraCHEF's own guides describe onboarding in weeks, with calls from a consultant on the Pro tier. That effort is already spent. Starting over with an xtraCHEF alternative means doing that setup again, and it may not make ordering any easier.
         </p>
       </div>
       <div class="problem-card">
-        <div class="problem-icon">📲</div>
-        <h4>Ask whether your distributor has the app</h4>
+        <div class="problem-icon">💲</div>
+        <h4>Order totals use the last invoice price</h4>
         <p class="text-muted mt-12">
-          Some distributors hand our app to the restaurants they supply, already filled with what each kitchen buys and what it pays. If one of yours does, that order can be spoken, and xtraCHEF carries on untouched.
+          The mobile app estimates an order's total from the price on your most recent invoice. If the price has moved since, the estimate is off until the next invoice comes in.
         </p>
       </div>
     </div>
@@ -233,7 +232,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>An xtraCHEF alternative for one job only</h2>
+      <h2>No xtraCHEF alternative required for the order step</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -243,7 +242,7 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>Say it out loud, then look over the list</h3>
           <p class="mt-12 text-muted">
-            Open the app wherever you check stock, in the dry store or the walk-in, and say what you need. Each item shows up as a line from that distributor's guide. Change or delete anything that looks wrong, then send. Nothing goes out until you approve it.
+            Take out your phone wherever you check stock, in dry storage or the walk-in, and say what you need. Each item shows up as a line from that distributor's guide. Change or delete anything that looks wrong, then send. Nothing goes out until you approve it.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -284,7 +283,7 @@ module.exports = {
           <span class="eyebrow">Your Order Guide</span>
           <h3>A guide the distributor builds and keeps current</h3>
           <p class="mt-12 text-muted">
-            In xtraCHEF, that guide grows out of invoices you have already received. Here the list comes from the distributor: the items you buy from them, at the price set for your account, tied to their own product codes. When a price or an item changes, they change it.
+            In xtraCHEF, you build your own guide from invoices you have received or from a vendor's price sheet. Here the list comes from the distributor: the products on your account with them, at the prices they set for you, matched to their own product codes. When a price or an item changes, they change it.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -293,7 +292,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>The price agreed with you, not last week's invoice</span>
+              <span>The price set for your account, not last week's invoice</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -301,7 +300,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Same rep and the same terms as today</span>
+              <span>Same distributor, same rep</span>
             </li>
           </ul>
           <a href="/restaurant-purchasing-software" class="feature-link">Ordering from more than one supplier →</a>
@@ -371,11 +370,11 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Other vendors are ordered as before</span>
+              <span>Ingredient prices still tracked from each invoice</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No data passes between the two</span>
+              <span>Your accounting sync runs as before</span>
             </li>
           </ul>
           <a href="/restaurant-stock-management-software" class="feature-link">How ordering fits your stock routine →</a>
@@ -401,7 +400,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Up and ordering in three steps</h2>
       <p class="lead mt-16">
-        Your distributor handles the setup, and you change nothing in xtraCHEF.
+        Your distributor does most of the setup. Your part is three short steps.
       </p>
     </div>
 
@@ -410,14 +409,14 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>See if your distributor has it</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          If they have VoiceOrder Solutions, they set up your account and fill in your guide. Not sure who to ask? Contact us and we will connect you.
+          If they have VoiceOrder Solutions, they set up your account and fill in your guide. Not sure who to ask? Reach out and we will connect you.
         </p>
       </div>
       <div class="step-card">
         <div class="step-number">2</div>
         <h4>Install it and sign in</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Sign in, and the guide is there when you open it.
+          Download it, and your guide is waiting when you open it.
         </p>
       </div>
       <div class="step-card">
@@ -430,7 +429,7 @@ module.exports = {
     </div>
 
     <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
-      📸 Screenshot: VoiceOrder Solutions app with a distributor's order guide and a sent order
+      📸 Screenshot: VoiceOrder Solutions app with a guide on screen and a sent order
     </div>
   </div>
 </section>
@@ -509,32 +508,32 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">Use Both</span>
-      <h2>xtraCHEF keeps the books while you speak one distributor's order</h2>
+      <h2>xtraCHEF handles the paperwork; one distributor gets your spoken order</h2>
       <p class="lead mt-16">
-        This is no xtraCHEF replacement. xtraCHEF holds on to the invoices, the food cost and the accounting. What we bring is one job, and only with a distributor who uses us: saying the order and reviewing it before sending. If an xtraCHEF alternative was meant to make ordering simpler, this handles that one part and leaves the rest alone.
+        This is no xtraCHEF replacement. xtraCHEF keeps the invoices and food cost, and the sync to your accounting. VoiceOrder Solutions takes one step before the truck comes, for any distributor of yours that has it: an order built from their guide that you review before it goes.
       </p>
     </div>
 
     <div class="cards-grid">
       <div class="feature-card">
-        <div class="feature-card-icon">📧</div>
-        <h4>xtraCHEF keeps ordering from the rest</h4>
+        <div class="feature-card-icon">🧾</div>
+        <h4>That order lives outside xtraCHEF</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Every vendor outside our app still receives your emailed or PDF orders, recurring ones included. The app only covers the distributors that give it to you.
+          For that distributor, the lines come from their guide, not from your invoices, and the order will not show in xtraCHEF's order log. The invoice still comes in as usual, so your food cost stays complete.
         </p>
       </div>
       <div class="feature-card">
-        <div class="feature-card-icon">🧮</div>
-        <h4>That delivery still counts in your food cost</h4>
+        <div class="feature-card-icon">🔍</div>
+        <h4>Check the invoice against what you sent</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          An order you say into our app will not show up on xtraCHEF's order screen, because the two are not connected. Its invoice is entered like any other, so your costs stay complete.
+          When the invoice for that delivery lands in xtraCHEF, set it beside your confirmation and order number. If an item, an amount or a price differs, you have the order number to raise it with your rep.
         </p>
       </div>
       <div class="feature-card">
-        <div class="feature-card-icon">🔌</div>
-        <h4>Start with one distributor</h4>
+        <div class="feature-card-icon">📍</div>
+        <h4>One distributor, one place to order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          No settings change on the xtraCHEF side and no data moves. Try the app on a single distributor's order and see how it fits your week.
+          Pick xtraCHEF or our app for each distributor, never both. Once you speak orders to a distributor, do not also schedule a recurring xtraCHEF order to them.
         </p>
       </div>
     </div>
@@ -550,7 +549,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See an order travel from the app to a distributor</h3>
       <p class="text-muted" style="font-size:16px;">
-        A 20-minute demo: how a guide gets set up for your account, a real order said and reviewed, and what arrives at their end. xtraCHEF plays no part in it.
+        Book 20 minutes with us to see a distributor's guide, a test order spoken and checked, and how it lands with the distributor.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -587,7 +586,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not for reading invoices, costing recipes, approving bills or syncing your accounting, because we do none of those. Our job is narrower: an order spoken to your distributor and checked one line at a time. If ordering is why you went looking for an xtraCHEF alternative, that job, next to xtraCHEF, may be enough.
+          Not for reading invoices, costing recipes, approving bills or syncing your accounting, because we do none of those. Our job is narrower: an order spoken to your distributor, with you reading each line before it leaves. If ordering is why you went looking for an xtraCHEF alternative, that job, next to xtraCHEF, may be enough.
         </div>
       </div>
 
@@ -597,7 +596,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. They are not linked, and each one has its own support. Anything you dictate lands with your distributor, never inside xtraCHEF. The invoice for that delivery reaches xtraCHEF the same way your invoices do now.
+          No. They are not linked, nothing is shared between them, and each one has its own support. Anything you speak into our app goes to your distributor and never appears in xtraCHEF.
         </div>
       </div>
 
@@ -613,31 +612,31 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What happens if a line comes out wrong?
+          What if the app hears an amount wrong?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          You see each line before it is sent, so you fix it there: swap the item, change the amount or remove it. That review is the safeguard, so a quick look can still miss a mistake. Also, an order you phone in or leave on voicemail gets no order number from us; only orders sent in the app do.
+          You see each line before it is sent, so you fix it there: swap the item, change the amount or remove it. That review is the safeguard, but a quick look can still miss a mistake. Also, an order you phone in or leave on voicemail gets no order number from us; only orders sent in the app do.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How do I get set up, and does my point-of-sale system matter?
+          How do I get set up, and what does it cost?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your distributor adds you and puts your products in the app. Most restaurants are sending orders that same day. Your register does not matter: the app works the same whatever you use. If you are not sure your distributor offers us, contact us and we will connect you.
+          Through your distributor: they open your account and put your products in the app. If they don't offer it, or you are unsure, contact us and we will put you in touch with someone who can help. Most kitchens are sending their first order the same day. As for cost, that is a question for the distributor who gives you the app; we do not publish a price. xtraCHEF's price per location is published on its support site.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What will it cost me?
+          xtraCHEF can send my weekly order on a schedule. Why speak it?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Talk to your distributor about that, since they provide the app. xtraCHEF publishes its prices per location; we do not publish ours. Whatever you pay for xtraCHEF stays the same.
+          For most vendors, keep the schedule. With a distributor that gives you our app, you speak from their guide, and every line shows your account's price rather than whatever the previous invoice said. You go over the lines before sending, so a busy week or a quiet one gets the amounts it needs.
         </div>
       </div>
 
@@ -663,16 +662,16 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep xtraCHEF, and say the next order aloud</h2>
-  <p>Talk to your distributor or to us, and see how an order gets from your kitchen to their desk.</p>
+  <h2>Let your distributor's list set the price, and keep xtraCHEF for invoices</h2>
+  <p>Check with your distributor, or ask us to find out whether yours offers VoiceOrder Solutions.</p>
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
   </div>
   <div class="final-cta-trust">
     <span>✓ Comes through your distributor</span>
-    <span>✓ Prices set for your account</span>
-    <span>✓ Keep using xtraCHEF</span>
+    <span>✓ Review each line first</span>
+    <span>✓ Order at any hour</span>
     <span>✓ Works on your phone</span>
   </div>
 </section>

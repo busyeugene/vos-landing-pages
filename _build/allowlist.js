@@ -42,8 +42,11 @@ const CANONICAL = [
   /independents? and dsd|and dsd operations|small and mid|and mid[- ]size/,
   // setup and the first order
   /first order|distributors go live|up and running/,
+  // operator pages (Nov 2026): the setup fact and the KB homepage's own line for a restaurant whose
+  // distributor is not on VOS ("we'll connect you with the right person"), both required on all eight
+  /most kitchens place|kitchens place a|place a first|the right person/,
   // quote-based pricing
-  /quote per distributor|we quote per|quoted per distributor/,
+  /quote per distributor|we quote per|quoted per distributor|publish no price/,
   // order guides and SKUs
   /order guides?|item list|your skus|per account at your prices/,
   // the phone baseline the comparison is drawn against

@@ -341,6 +341,7 @@ module.exports = [
     blurb: "Keep MarginEdge for invoices and food cost. Speak the order to a distributor on VoiceOrder Solutions, and check each line first.",
     cluster: 'compare',
     kind: 'compare',
+    audience: 'operator',
     competitor: 'MarginEdge',
   },
   {
@@ -351,6 +352,7 @@ module.exports = [
     blurb: "Keep WISK for counts, pour cost and invoices. Speak the food order to a distributor on VoiceOrder Solutions, and check each line before it goes.",
     cluster: 'compare',
     kind: 'compare',
+    audience: 'operator',
     competitor: 'WISK',
   },
   {
@@ -361,6 +363,7 @@ module.exports = [
     blurb: "Keep Restaurant365 for the books and the counts. Speak the order to a distributor on VoiceOrder Solutions, and check every line before it goes.",
     cluster: 'compare',
     kind: 'compare',
+    audience: 'operator',
     competitor: 'Restaurant365',
   },
   {
@@ -371,6 +374,7 @@ module.exports = [
     blurb: "Keep xtraCHEF for invoices, recipes and counts. Order by voice from your distributor's own guide, where the distributor offers VoiceOrder Solutions.",
     cluster: 'compare',
     kind: 'compare',
+    audience: 'operator',
     competitor: 'xtraCHEF',
     competitorAlso: ['Toast'],
   },
@@ -382,6 +386,7 @@ module.exports = [
     blurb: "Keep Orderly for food cost from your invoices. Speak the order to a distributor on VoiceOrder Solutions, and check what you asked for before it goes.",
     cluster: 'compare',
     kind: 'compare',
+    audience: 'operator',
     competitor: 'Orderly',
   },
   {
@@ -392,6 +397,7 @@ module.exports = [
     blurb: "Keep MarketMan for counts, pars and invoices. For a distributor you still order from by phone, speak the order in VoiceOrder Solutions and check it first.",
     cluster: 'compare',
     kind: 'compare',
+    audience: 'operator',
     competitor: 'MarketMan',
   },
   {
@@ -402,6 +408,7 @@ module.exports = [
     blurb: "Keep Apicbase for recipes, pars and costing. Speak the reorder to a distributor on VoiceOrder Solutions, and check each line before it goes.",
     cluster: 'compare',
     kind: 'compare',
+    audience: 'operator',
     competitor: 'Apicbase',
   },
   {
@@ -412,6 +419,7 @@ module.exports = [
     blurb: "Keep Craftable for purchasing control, AP and reporting. Speak the routine reorder to a distributor on VoiceOrder Solutions, and check each line first.",
     cluster: 'compare',
     kind: 'compare',
+    audience: 'operator',
     competitor: 'Craftable',
   },
 ];

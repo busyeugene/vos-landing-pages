@@ -8,14 +8,16 @@
  * order and sends it in one click, two-way with some large distributors ("No more emails, texts,
  * calls, or faxing."). So the page is about the distributor that is NOT linked that way and still
  * takes the order by phone or through the rep, and that offers VoiceOrder Solutions. For a supplier
- * already linked both ways to MarketMan we add little, and the page says so (cards lead, FAQ 2).
+ * already linked both ways to MarketMan we add little, and the page says so ONCE (FAQ 2). Review 2026-10-27: a spoken order
+ *   skips MarketMan's approvals and makes no PO there; said in FAQ 3, coexistence card 1 and the
+ *   receiving FAQ 4, and the table's approvals row is scoped to orders made in MarketMan.
  * ⚠ TRAPS (all in _build/research/competitors/marketman.md):
  *   1. AI is all over their ordering ("AI Ordering", Smart Ordering, AI receiving, OCR invoices).
  *      Never "they type, we speak", "no AI" or "no voice". Voice is absent today: dated in FAQ 8.
  *   2. They publish BOTH "2-4 weeks" and "24-48 hours" for onboarding. No row or sentence rests on
  *      setup speed.
- *   3. MarketMan receiving runs off a PO made in MarketMan. A spoken order makes none there: FAQ 3
- *      and coexistence card 2 say so as a trade-off. Never claim what MarketMan does with an
+ *   3. MarketMan receiving runs off a PO made in MarketMan. A spoken order makes none there: FAQ 4
+ *      (receiving) and coexistence card 1 say so as a trade-off. Never claim what MarketMan does with an
  *      invoice that has no matching PO.
  *   4. Pricing is PUBLISHED. Figures stay OFF the page; FAQ 7 concedes it.
  *   5. Named distributors (Sysco, US Foods...) are NOT named: claims.js bans them, and the page
@@ -27,7 +29,7 @@
  */
 module.exports = {
   title: "Not a MarketMan Alternative: Keep It, Add Voice Ordering",
-  description: 'Speak your order to a distributor you still call, check each line, and keep MarketMan for counts, pars and invoices. Not a MarketMan alternative: one more step.',
+  description: 'Still phoning one distributor? If they offer our app, say the order, check each line and get an order number. Keep MarketMan: no MarketMan alternative needed.',
   related: ["restaurant365-alternative","craftable-alternative","xtrachef-alternative"],
   relatedHeading: "Other platforms you can keep as they are",
   body: `
@@ -44,7 +46,7 @@ module.exports = {
       <span class="eyebrow">For Restaurant Operators</span>
       <h1>Not A MarketMan Alternative: Skip The Supplier Call</h1>
       <p class="lead mt-16">
-        Talk through your order in the VoiceOrder Solutions app, fix anything on screen, and the distributor gets it with a number and date. It is meant for a supplier you still reach by phone or through a rep, if they offer it. MarketMan carries on with stock counts, par levels and invoice capture.
+        Instead of the call, speak your list into the VoiceOrder Solutions app, check the lines from your distributor's guide, priced for your account, and send a numbered order. It is for a distributor you phone or order through a rep, and only if that distributor offers it.
       </p>
 
       <div class="hero-ctas">
@@ -106,9 +108,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 660px; margin: 0 auto;">
       <span class="eyebrow">Both Columns Keep MarketMan</span>
-      <h2>Everything MarketMan does, still there.<br>One supplier's order, now spoken.</h2>
+      <h2>What MarketMan does, in both columns.<br>What ordering by voice adds.</h2>
       <p class="lead mt-16">
-        Ordering out loud from a supplier that offers VoiceOrder Solutions is the one thing the highlighted column adds. MarketMan already counts stock, suggests what to buy and connects both ways to several big suppliers, so a MarketMan alternative is seldom what you need. The two products do not connect.
+        Speaking the order, from the distributor's own guide, is what the combined column adds. If you came here weighing a MarketMan alternative, this shows what changes if you keep MarketMan instead. Every tick for counting, costing and approvals is MarketMan's own; spoken ordering works only with distributors on our app.
       </p>
     </div>
 
@@ -139,8 +141,8 @@ module.exports = {
           </tr>
           <tr>
             <td>Items and prices kept current by the supplier</td>
-            <td><span class="check-yes">✓</span></td>
-            <td>For integrated suppliers</td>
+            <td>Linked suppliers and distributors on our app</td>
+            <td>For linked suppliers</td>
           </tr>
           <tr>
             <td>Two-way links with some large distributors</td>
@@ -163,7 +165,7 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Approvals and transfers across locations</td>
+            <td>Approvals and transfers, on orders made in MarketMan</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -190,9 +192,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 680px; margin: 0 auto;">
       <span class="eyebrow">Before You Compare</span>
-      <h2>What sends operators looking for an alternative to MarketMan</h2>
+      <h2>Why people search for an alternative to MarketMan</h2>
       <p class="lead mt-16">
-        A search for a MarketMan competitor rarely starts with the counts or the costing. More often it starts with one supplier who still takes orders over the phone or through the rep, so that call is the slow part of the week.
+        Sometimes the reason to check a MarketMan competitor has nothing to do with the counts or the costing. It starts with how one distributor takes its orders.
       </p>
     </div>
 
@@ -201,21 +203,21 @@ module.exports = {
         <div class="problem-icon">📞</div>
         <h4>One supplier still wants a call</h4>
         <p class="text-muted mt-12">
-          MarketMan sends orders straight to suppliers it is linked with both ways. Not every supplier on your list works like that, and some smaller ones still expect to hear from you or your rep before the cutoff.
+          MarketMan sends purchase orders from the web or the mobile app. Some suppliers still work mainly by phone or through the rep, whatever your software sends.
         </p>
       </div>
       <div class="problem-card">
         <div class="problem-icon">📦</div>
-        <h4>Leaving would mean starting over</h4>
+        <h4>Supplier links depend on the plan</h4>
         <p class="text-muted mt-12">
-          Your par levels, recipes and months of invoices live in MarketMan. Rebuilding all of that somewhere new is a big job, and it still would not change the call you make to that one supplier.
+          Each MarketMan plan includes a set number of direct supplier links (EDI), with more on higher plans. A smaller supplier may have no such link to offer.
         </p>
       </div>
       <div class="problem-card">
-        <div class="problem-icon">🎙️</div>
-        <h4>Some distributors now offer a voice app</h4>
+        <div class="problem-icon">🌙</div>
+        <h4>The count ends after the rep goes home</h4>
         <p class="text-muted mt-12">
-          Distributors on VoiceOrder Solutions load the app with each restaurant's usual items at that restaurant's own prices. If one of yours does, that order can be spoken instead of phoned, with MarketMan left as it is.
+          MarketMan can show what is short as soon as the night count is done. With a distributor who takes orders over the phone, the order still waits for the rep to pick up next morning, and a MarketMan alternative would not change that.
         </p>
       </div>
     </div>
@@ -230,7 +232,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>A MarketMan alternative that changes one order, not your system</h2>
+      <h2>No MarketMan alternative needed to change one order</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -240,7 +242,7 @@ module.exports = {
           <span class="eyebrow">Voice Ordering</span>
           <h3>Say it once, see each line, then send</h3>
           <p class="mt-12 text-muted">
-            Open the app in the storeroom and say what that distributor's order needs. The lines appear from the guide set up for your account. Change a quantity or delete a line, and send it only when it looks right.
+            Open the app in the storeroom and say what you need from that distributor. The lines appear from the guide set up for your account. Change a quantity or delete a line, and send it only when it looks right.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -298,14 +300,14 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Same rep, same delivery days, same terms</span>
+              <span>Same distributor, same rep</span>
             </li>
           </ul>
           <a href="/restaurant-purchasing-software" class="feature-link">Ordering from several suppliers →</a>
         </div>
         <div>
           <div class="img-placeholder tall">
-            📸 Screenshot:<br>A distributor's<br>order guide with<br>your account prices
+            📸 Screenshot:<br>The order guide,<br>with your<br>account prices
           </div>
         </div>
       </div>
@@ -355,25 +357,22 @@ module.exports = {
           <span class="eyebrow">Your MarketMan Setup</span>
           <h3>MarketMan still does the counting and costing</h3>
           <p class="mt-12 text-muted">
-            Keep counting in MarketMan and let its pars show what is short. Then say that list to the distributor in our app. Their invoice arrives with the delivery and goes into MarketMan by photo or email, the way it does now.
+            MarketMan keeps every job it does today: counts, pars, recipe costs and invoice scanning. Only one thing changes: the order you used to phone to that one distributor gets spoken instead.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Inventory counts carry on in MarketMan</span>
+              <span>Stock counts carry on in MarketMan</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Recipe costs and reports are untouched</span>
+              <span>Reports work as before</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>Your other suppliers are ordered as before</span>
+              <span>Invoices still go in by photo or email</span>
             </li>
-            <li>
-              <span class="bullet-check">✓</span>
-              <span>No data passes between the two apps</span>
-            </li>
+            
           </ul>
         </div>
         <div>
@@ -395,32 +394,32 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 580px; margin: 0 auto;">
       <span class="eyebrow">Getting Started</span>
-      <h2>Three steps, beginning with one supplier</h2>
+      <h2>Three steps, starting with your distributor</h2>
       <p class="lead mt-16">
-        No computer to set up, and no settings to touch in MarketMan.
+        Your distributor handles the setup, so no computer or new hardware is needed.
       </p>
     </div>
 
     <div class="steps-grid">
       <div class="step-card">
         <div class="step-number">1</div>
-        <h4>Find a supplier that uses it</h4>
+        <h4>Check your distributor has the app</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          If they provide the app, they open an account for you and upload your guide. If you are not sure, get in touch and we can check for you.
+          If they do, they open an account for you and upload your guide. Not sure? Get in touch and we can check for you.
         </p>
       </div>
       <div class="step-card">
         <div class="step-number">2</div>
         <h4>Log in on your phone</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Log in, and your guide is already loaded.
+          Download the app and sign in; your guide is already loaded.
         </p>
       </div>
       <div class="step-card">
         <div class="step-number">3</div>
         <h4>Read out the order, then send</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Speak the order, go over the lines, and send. You are done.
+          Speak the order, check it, and send. You are done.
         </p>
       </div>
     </div>
@@ -505,32 +504,32 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
       <span class="eyebrow">Use Both</span>
-      <h2>MarketMan plans the order, VoiceOrder Solutions sends one of them</h2>
+      <h2>Let MarketMan plan the order, then say it to one distributor</h2>
       <p class="lead mt-16">
-        This is not a MarketMan replacement. If a distributor is already linked both ways to MarketMan, ordering from them there works well, and we add little for that supplier. Our app is for a distributor you still call or order through a rep, and only if they offer it. If that one order is why you looked for a MarketMan alternative, this covers it.
+        This is not a MarketMan replacement. MarketMan decides what you need and tracks what it cost. VoiceOrder Solutions carries one part of that: the order to a distributor on our app, spoken on your phone and checked before it goes.
       </p>
     </div>
 
     <div class="cards-grid">
       <div class="feature-card">
-        <div class="feature-card-icon">🔗</div>
-        <h4>Connected suppliers keep using MarketMan</h4>
-        <p class="text-muted mt-12" style="font-size:15px;">
-          Keep sending orders through MarketMan to the suppliers it already connects to. For them, nobody needs to pick up a phone.
-        </p>
-      </div>
-      <div class="feature-card">
         <div class="feature-card-icon">📋</div>
-        <h4>Voice orders make no purchase order in MarketMan</h4>
+        <h4>Spoken orders skip MarketMan's purchase order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          That order reaches the distributor only, so MarketMan has no order on file to receive that delivery against. You still send in its invoice as you do now.
+          No purchase order gets created in MarketMan, so that order skips any approval you have set up there. MarketMan does not see that order; its invoice goes in the way it does today.
         </p>
       </div>
       <div class="feature-card">
-        <div class="feature-card-icon">🧪</div>
-        <h4>Try it on one supplier first</h4>
+        <div class="feature-card-icon">📊</div>
+        <h4>Count, check the pars, then speak what is short</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Start with the distributor you call most. Nothing in MarketMan needs to change while you see how it goes.
+          Run your usual MarketMan count and let its pars show what is short from that distributor. Then open our app, say that list, and look over each line before you send.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">🔁</div>
+        <h4>Best for routine reorders</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          It suits reorders that need no sign-off. If every order to a distributor needs approval, or that distributor is linked both ways to MarketMan, keep it in MarketMan. Send each distributor's orders from one app only, so the same order never goes out twice.
         </p>
       </div>
     </div>
@@ -546,7 +545,7 @@ module.exports = {
     <div style="max-width:580px;">
       <h3 style="margin-bottom:10px;">See how an order travels from the storeroom to the supplier</h3>
       <p class="text-muted" style="font-size:16px;">
-        A 20-minute demo: how a guide is made, a test order read out and checked, and what the distributor ends up with. Your MarketMan account is not part of it.
+        In 20 minutes, see an example guide in the app, a practice order read out and corrected, and the copy that reaches the distributor.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -569,11 +568,11 @@ module.exports = {
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="true">
-          Is a MarketMan alternative the only route to voice ordering?
+          Do I need a MarketMan alternative to start speaking my orders?
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. MarketMan already turns your counts and pars into an order and passes it to the suppliers it links to. If a vendor you call today has our app, talk that order through instead, and keep MarketMan for the rest.
+          No. MarketMan already turns your counts and pars into an order and passes it to your suppliers. Where one of your distributors has our app, you can order from that one by voice instead.
         </div>
       </div>
 
@@ -583,7 +582,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For counts, pars, suggested orders, invoices, recipe costs or multi-site control, no: we do none of those. We do one job: talking an order to a distributor on our app, then checking it before sending. Where MarketMan already has a two-way connection to a supplier, ours brings little extra. If one supplier's phone calls are what made you look for a MarketMan alternative, that one job may be enough.
+          For counts, pars, suggested orders, invoices, recipe costs or approvals across locations, no: we do none of those. We do one job: you say an order in our app for one distributor and check each item first. Where MarketMan has a two-way link with a supplier, we add little for that supplier. If phoning one distributor is what made you look for a MarketMan alternative, that one job may be enough.
         </div>
       </div>
 
@@ -593,7 +592,17 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. They are separate, and neither one's support team covers the other. Orders given by voice reach only your distributor, so MarketMan never sees them. That is the trade-off: MarketMan's receiving checks each delivery against an order made in MarketMan, so that delivery has nothing to check against. Its invoice reaches MarketMan the same way your other invoices do.
+          No. They are separate, and neither one's support team covers the other. Orders said in our app go only to your distributor, so MarketMan never sees them.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How do I receive a delivery I ordered by voice?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          MarketMan holds no order for it, so check what arrives against your confirmation and its order number. Then enter the invoice in MarketMan as usual.
         </div>
       </div>
 
@@ -603,37 +612,27 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Only from the distributors that run VoiceOrder Solutions. MarketMan reaches far more suppliers, including large distributors it links to both ways. Carry on with MarketMan for those, and check with your other suppliers about our app.
+          Only from the distributors that run VoiceOrder Solutions. MarketMan can order from far more suppliers than we reach. Keep those in MarketMan, and ask your other suppliers whether they have our app.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          What if a line comes out wrong?
+          What if the app gets an item or a quantity wrong?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          You catch it on the review screen before sending: fix the item or the amount, or remove it. That review is the safeguard, so a quick skim can still miss a mistake. Also note that an order you phone in or leave on voicemail gets no order number from us. Only app orders get one.
+          You fix it on the review screen before you send: change the item or the amount, or delete the line. That check is the safeguard, and a rushed look can still let a mistake through. An order made by phone or left on voicemail gets no order number from us; only app orders do.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          How do I start?
+          How do I get set up, and what does it cost?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Your distributor does the setup. After that, your guide is in the app, and most restaurants are sending orders that same day. Not sure if yours offers it? Contact us and we will connect you.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          How much does it cost?
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer" style="display:none;">
-          That is for your distributor to answer, since you get the app from them. MarketMan publishes its plans; we do not publish a price. Your MarketMan plan does not change.
+          Your distributor opens your account, and most kitchens send their first order on the day it opens. If your distributor does not have the app, or you cannot tell, contact us and we will put you in touch with whoever handles it. On price, check with your distributor: the app reaches you through them, and we list no price of our own. MarketMan publishes its plans.
         </div>
       </div>
 
@@ -659,8 +658,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep MarketMan, and drop the call to that one supplier</h2>
-  <p>Ask your distributor whether they offer it, or ask us and we will find out.</p>
+  <h2>Count in MarketMan, then send that distributor's order with no phone call</h2>
+  <p>Ask your distributor whether they offer VoiceOrder Solutions, or ask us and we will find out.</p>
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
@@ -668,7 +667,7 @@ module.exports = {
   <div class="final-cta-trust">
     <span>✓ Through your distributor</span>
     <span>✓ Your account prices</span>
-    <span>✓ MarketMan untouched</span>
+    <span>✓ Order at any hour</span>
     <span>✓ iPhone + Android</span>
   </div>
 </section>
