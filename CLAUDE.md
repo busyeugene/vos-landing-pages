@@ -9,7 +9,41 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Related strips link same-audience siblings; each footer carries one cross-audience link.
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
-## ▶ RESUME HERE: 2026-10-27, "Not a <X> Alternative" H1s + titles (DONE, repo + Webflow)
+## ▶ RESUME HERE: 2026-10-27 (late), 8 OPERATOR compare pages built, repo only (NOT in Webflow yet)
+Eugene's ask: same keep-and-add approach as the 12 distributor compare pages, but for the
+RESTAURANT side, for the November Airtable rows: wisk, craftable, apicbase, marketman,
+marginedge, orderly, xtrachef, restaurant365 (`/<x>-alternative`). Done in the repo, all gates
+clean (qa 0/0, kwaudit 0, template 0 fail, claims 0 ban, trigram 0 within + 0 on 3+ pages,
+layout 0, promote 1/11 each), pushed (`a2b620d`). Digests, dated 2026-10-27, in
+`_build/research/competitors/<x>.md`.
+- **Operator frame:** "you" = the restaurant; VoiceOrder Solutions comes through its distributor
+  and reaches ONLY distributors that offer it; cost questions go to the distributor; hero CTA
+  "Get Set Up With VoiceOrder Solutions →" (template.js accepts the full brand on compare
+  pages), final CTA "Ask About Getting Started →". The 8 slugs are in the OPERATOR sets of
+  `template.js` and `claims.js`. Eugene said "extension"; the copy says keep/add beside, and an
+  FAQ says the two do not connect (his own October call: "extension" implies a link).
+- **Findings that shape every page:** all 8 tools already order from ANY supplier (conceded);
+  Apicbase has spoken stock COUNTS and Craftable has "Voice Audit AI" (counts, "Coming Soon",
+  roadmap says "purchasing, and voice": re-check Craftable before publishing). PO-based tools
+  (MarketMan, Craftable, Restaurant365, Apicbase): a spoken order never becomes their PO, so it
+  skips receiving/approvals/matching for that distributor; each page says so in an FAQ.
+  Invoice-based ones (MarginEdge, Orderly, xtraCHEF, WISK) still see the delivery's invoice.
+- **Naming:** Orderly is now "Back Office by Buyers Edge Platform" (said once, problem lead);
+  xtraCHEF is "xtraCHEF by Toast" (registry `competitorAlso: ['Toast']`, honoured by claims.js).
+- **How it was built:** MarginEdge pilot by hand, then 7 parallel worktree agents
+  (`.claude/worktrees/agent-*`, untracked, safe to delete), merged centrally. The central pass
+  cleared 85 cross-page trigrams in 5 rounds and the step H4s, which 7 pages shared verbatim
+  (the steps section is exempt from the cross count: run `grid.js --dupes` after any batch).
+  ⚠ Parallel agents share ONE scratchpad: give each a private subfolder or they overwrite each
+  other's pairs files (it happened; exact-once matching kept every page clean).
+- **Open:** (1) Webflow port of the 8 (repo first is done; they will need `gen-schema.py`
+  operator handling and their hero props), plus 8 `/alternatives` hub cards; the hub lead says
+  "platforms distributors ask us about" and needs rewording for both audiences. (2) Eugene to
+  review the metas. (3) Two placeholder testimonials per page. (4) WISK/MarketMan/Restaurant365
+  help centers were partly unreadable; rows rest on marketing pages and "Not listed on their
+  site".
+
+## ▶ Earlier 2026-10-27: 2026-10-27, "Not a <X> Alternative" H1s + titles (DONE, repo + Webflow)
 Eugene's ask: H1s and meta titles say plainly VoiceOrder Solutions is NOT a <X> alternative while
 keeping the `<X> alternative` keyword; `/alternatives` hub card headings show the brand only
 ("Pepper", not "Pepper Alternative"). Title pattern: `Not a <X> Alternative: Keep <X>, Add Voice
@@ -193,6 +227,14 @@ is live. Full detail lives in the sections named here, near the end of this file
 | `vos-pepperi-alternative-landing.html` | pepperi alternative | `/pepperi-alternative` | Compared |
 | `vos-orderease-alternative-landing.html` | orderease alternative | `/orderease-alternative` | Compared |
 | `vos-wizcommerce-alternative-landing.html` | wizcommerce alternative | `/wizcommerce-alternative` | Compared |
+| `vos-wisk-alternative-landing.html` | wisk alternative | `/wisk-alternative` | Compared (operator) |
+| `vos-craftable-alternative-landing.html` | craftable alternative | `/craftable-alternative` | Compared (operator) |
+| `vos-apicbase-alternative-landing.html` | apicbase alternative | `/apicbase-alternative` | Compared (operator) |
+| `vos-marketman-alternative-landing.html` | marketman alternative | `/marketman-alternative` | Compared (operator) |
+| `vos-marginedge-alternative-landing.html` | marginedge alternative | `/marginedge-alternative` | Compared (operator) |
+| `vos-orderly-alternative-landing.html` | orderly alternative | `/orderly-alternative` | Compared (operator) |
+| `vos-xtrachef-alternative-landing.html` | xtrachef alternative | `/xtrachef-alternative` | Compared (operator) |
+| `vos-restaurant365-alternative-landing.html` | restaurant365 alternative | `/restaurant365-alternative` | Compared (operator) |
 
 > Pillar page (`index.html`) groups cards by cluster and links to every feature page. Add a card to it whenever a new page ships.
 
