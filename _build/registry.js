@@ -332,4 +332,15 @@ module.exports = [
     kind: 'compare',
     competitor: 'Fresho',
   },
+  // Operator-side comparison pages (Nov 2026): the restaurant reads them; VOS comes via its distributor.
+  {
+    slug: 'marginedge-alternative',
+    file: 'vos-marginedge-alternative-landing.html',
+    label: 'MarginEdge Alternative',
+    card: 'MarginEdge + VoiceOrder Solutions',
+    blurb: "Keep MarginEdge for invoices and food cost. Speak the order to a distributor on VoiceOrder Solutions, and check each line first.",
+    cluster: 'compare',
+    kind: 'compare',
+    competitor: 'MarginEdge',
+  },
 ];

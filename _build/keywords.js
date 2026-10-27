@@ -372,4 +372,13 @@ module.exports = {
       'better than fresho',
     ],
   },
+  'marginedge-alternative': {
+    primary: 'marginedge alternative',
+    secondary: [
+      'marginedge competitor',
+      'marginedge replacement',
+      'alternative to marginedge',
+      'better than marginedge',
+    ],
+  },
 };

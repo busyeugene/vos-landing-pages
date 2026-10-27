@@ -8,7 +8,9 @@ const path = require('path');
 const REPO = path.resolve(__dirname, '..');
 const registry = require('./registry.js');
 const { namesWord, maskWord, claimsSwitchFrom } = require('./names.js');
-const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software', 'supplier-management-software']);
+const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software', 'supplier-management-software',
+  // Operator-side comparison pages (Nov 2026): the restaurant reads them, VOS comes via the distributor.
+  'wisk-alternative', 'craftable-alternative', 'apicbase-alternative', 'marketman-alternative', 'marginedge-alternative', 'orderly-alternative', 'xtrachef-alternative', 'restaurant365-alternative']);
 const CONTACT = 'https://www.voiceordersolutions.com/contact-us';
 const txt = h => h.replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 const words = s => s.split(/\s+/).filter(Boolean).length;
@@ -65,7 +67,8 @@ for (const p of registry) {
   const tItems = [...trust.matchAll(/<span>([^<]*)<\/span>/g)].map(m => m[1]);
   if (tItems.length !== 3) fail(`hero trust items ${tItems.length}`);
   const heroBtn = txt((hero.match(/<a [^>]*btn-primary[^>]*>([\s\S]*?)<\/a>/) || [])[1] || '');
-  const wantHero = op ? 'Get Set Up With VOS →' : 'Book a Free Demo →';
+  // Compare pages spell the brand in full (client, 2026-10-21), so the operator label does too.
+  const wantHero = op ? (isCmp ? 'Get Set Up With VoiceOrder Solutions →' : 'Get Set Up With VOS →') : 'Book a Free Demo →';
   if (heroBtn !== wantHero) fail(`hero CTA "${heroBtn}", want "${wantHero}"`);
 
   // Stats
