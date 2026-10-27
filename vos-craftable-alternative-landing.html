@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not a Craftable Alternative: Keep It, Add Voice Ordering</title>
+  <meta name="description" content="Keep Craftable for approvals, AP and reporting, and speak your reorder to a distributor on VoiceOrder Solutions. A Craftable alternative that adds a step." />
+  <link rel="canonical" href="https://vos-landing-pages.vercel.app/craftable-alternative" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VoiceOrder Solutions" />
+  <meta property="og:title" content="Not a Craftable Alternative: Keep It, Add Voice Ordering" />
+  <meta property="og:description" content="Keep Craftable for approvals, AP and reporting, and speak your reorder to a distributor on VoiceOrder Solutions. A Craftable alternative that adds a step." />
+  <meta property="og:url" content="https://vos-landing-pages.vercel.app/craftable-alternative" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Not a Craftable Alternative: Keep It, Add Voice Ordering" />
+  <meta name="twitter:description" content="Keep Craftable for approvals, AP and reporting, and speak your reorder to a distributor on VoiceOrder Solutions. A Craftable alternative that adds a step." />
+
+<style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+
+    /* ── Related Pages Strip ──────────────────────────────────── */
+    .related-strip { background: var(--color-light-bg); border-top: 1px solid #e4e7ed; padding: 72px 24px; }
+    .related-head  { text-align: center; max-width: 620px; margin: 0 auto 44px; }
+    .related-grid  { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: var(--max-width); margin: 0 auto; }
+    .related-card  {
+      display: flex; flex-direction: column; background: #fff;
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 26px;
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .related-card:hover { box-shadow: 0 12px 32px rgba(45,27,110,0.10); transform: translateY(-3px); border-color: #d6dbe6; }
+    .related-card-kw {
+      align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--color-primary); background: #ede9fe;
+      padding: 5px 10px; border-radius: 6px; margin-bottom: 16px;
+    }
+    .related-card h3 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
+    .related-card p  { font-size: 14.5px; color: var(--color-text-muted); margin-bottom: 18px; flex-grow: 1; line-height: 1.55; }
+    .related-card-link { font-size: 14px; font-weight: 600; color: var(--color-accent); }
+    @media (max-width: 900px) { .related-grid { grid-template-columns: 1fr; } }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need a Craftable alternative to speak my orders?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Craftable runs a group's back office from ordering through to paying the bill, and it can already order from any supplier. If a distributor your group buys from uses our app, kitchens can order from them by voice while Craftable handles the rest."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is VoiceOrder Solutions better than Craftable?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not at approvals, budgets, inventory, invoices, payments or reporting: we do none of those. Our job is smaller: a reorder you speak to a distributor and check before it goes. If quick reordering is the reason for your Craftable alternative search, that single job may be all you need beside it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will an order from your app show up in Craftable?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Nothing ties them together, and each company services only its own software. A reorder you give our app by voice is never a Craftable purchase order, so it skips Craftable's approvals, budgets and invoice matching for that distributor. That is a real trade-off: if your group needs sign-off on every order, keep those orders in Craftable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I reach all my vendors this way?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only the distributors who run VoiceOrder Solutions for their accounts. Craftable gets an order to any vendor with an email address or phone number, and we cannot. Use Craftable for all other vendors, and ask them about our app."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if the app hears an item wrong?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every line is on screen before you send, so that is where you fix it: change the item or delete it. That review is the safeguard, and a quick glance can still miss a mistake. Also note that an order phoned in or left on voicemail gets no order number from us. Those numbers come only with app orders."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my kitchen get set up?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Through your distributor. Once they add your account, your guide is in the app, and most kitchens put in their first order that same day. Not sure if yours offers it? Ask us and we will find out."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What will it cost us?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your distributor can answer that, since they are the ones who give you the app. Craftable prices by quote, and so do we. Your Craftable subscription does not change."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do the Craftable details on this page come from?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gathered from craftable.com and its help center on 27 October 2026: the platform and ordering pages, the help articles on placing orders, and their press releases. We leave out the operator totals and savings Craftable quotes about itself. Should Craftable have changed something since then, tell us and we will fix the page."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "VoiceOrder Solutions Features",
+        "item": "https://vos-landing-pages.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Craftable + VoiceOrder Solutions",
+        "item": "https://vos-landing-pages.vercel.app/craftable-alternative"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "Keep Craftable for approvals, AP and reporting, and speak your reorder to a distributor on VoiceOrder Solutions. A Craftable alternative that adds a step.",
+    "url": "https://vos-landing-pages.vercel.app/craftable-alternative",
+    "publisher": {
+      "@type": "Organization",
+      "name": "VoiceOrder Solutions",
+      "url": "https://www.voiceordersolutions.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">For Restaurant Operators</span>
+      <h1>Not A Craftable Alternative: Speak The Routine Reorder</h1>
+      <p class="lead mt-16">
+        Say your usual reorder into the VoiceOrder Solutions app, look over every item, and send it to your distributor, numbered and timed. Where a distributor offers the app, they load your products and your prices. Craftable keeps its approvals, invoices and reports.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Get Set Up With VoiceOrder Solutions →</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>Comes from your distributor</span>
+        <span class="hero-trust-dot"></span>
+        <span>Craftable left as it is</span>
+        <span class="hero-trust-dot"></span>
+        <span>iOS + Android</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
+      <div class="img-placeholder tall">
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by food distributors and the restaurants they serve</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">Same Day</div>
+      <div class="stat-label">is when most kitchens send a first order once their distributor adds them</div>
+    </div>
+    <div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">less on each order than placing it by phone</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">the app takes your order, whatever time the kitchen closes</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: COMPARISON TABLE
+     Not a head-to-head. Column 2 is the group with both tools, column 3 with Craftable alone.
+     Craftable's back office, ordering to any vendor, approvals, pars, invoice AI and recipe costing
+     are ticks in BOTH. Only rows 2, 4 and 6 differ.
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
+      <span class="eyebrow">Keep Craftable, Add Voice</span>
+      <h2>Keep every Craftable control.<br>Speak the reorders you repeat each week.</h2>
+      <p class="lead mt-16">
+        Only one job changes: how a repeat order gets to a distributor that offers VoiceOrder Solutions. One column is your group on Craftable alone; the other adds our app next to it. Craftable already runs purchasing, inventory and AP, so a Craftable alternative is seldom what a group needs. The two products do not connect.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:40%;">Feature</th>
+            <th class="highlight" style="width:30%;">Craftable + VoiceOrder Solutions</th>
+            <th style="width:30%;">Craftable on its own</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Purchasing, inventory, AP and reporting in one platform</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Spoken order, reviewed before it is sent</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Built on screen from a form or guide</td>
+          </tr>
+          <tr>
+            <td>Orders to any vendor by email, text, EDI or punchout</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Guide built and kept up by your distributor</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Guides you assemble from vendor catalogs</td>
+          </tr>
+          <tr>
+            <td>Approval limits, budgets and contract prices</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Bar inventory alongside the food</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Pars and counts that feed a draft order</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Invoices read from a photo, PDF or email</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Recipe costs on current vendor prices</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: WHY OPERATORS LOOK ELSEWHERE
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container">
+    <div class="text-center" style="max-width: 680px; margin: 0 auto;">
+      <span class="eyebrow">Why People Search</span>
+      <h2>Why groups look for an alternative to Craftable</h2>
+      <p class="lead mt-16">
+        A search for a Craftable competitor rarely means the platform has let you down. Craftable is built so finance and purchasing can control spend at every location. The search often starts in the kitchen, where whoever does the reorder wants speed more than another screen.
+      </p>
+    </div>
+
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="problem-icon">🧾</div>
+        <h4>It is built for the finance team</h4>
+        <p class="text-muted mt-12">
+          Craftable's own pitch is control at the purchase order: who may buy what, at which contract price, checked against the invoice before payment. That suits the people who sign off on spending. The cook doing Tuesday's reorder has a different job.
+        </p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">🖥️</div>
+        <h4>Ordering in Craftable happens on a screen</h4>
+        <p class="text-muted mt-12">
+          In Craftable, you build an order in a form, a guide, a catalog or a vendor's own site. Craftable has announced voice for counts and audits; its ordering is done on screen. Speaking a reorder is a separate step you can add.
+        </p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">📲</div>
+        <h4>A distributor of yours may offer an app</h4>
+        <p class="text-muted mt-12">
+          Certain distributors hand our app to the kitchens they supply, with each site's regular lines and negotiated prices already in place. Where one of yours does, that reorder can be spoken, and Craftable carries on as it is.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE DEEP-DIVE
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+    <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
+      <span class="eyebrow">What Changes</span>
+      <h2>Not a Craftable alternative, just a faster reorder</h2>
+    </div>
+
+    <!-- Feature 1 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Voice Ordering</span>
+          <h3>Say what you need, review it, then send</h3>
+          <p class="mt-12 text-muted">
+            Open the app at the end of the count and say the order. Each item shows up as a line from your guide with that distributor. Change a quantity or take something off, then send when it looks right. Nothing goes until you choose to send.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Each line is yours to check before it goes</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Send it at any hour, even after the rep's office closes</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Called away halfway through? It saves where you were</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Works on the phone already in your pocket</span>
+            </li>
+          </ul>
+          <a href="/order-entry-software" class="feature-link">Step by step through placing an order →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Push to Speak,<br>then the line-by-line<br>review screen
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 2 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Your Order Guide</span>
+          <h3>A guide your distributor builds and keeps current</h3>
+          <p class="mt-12 text-muted">
+            Your distributor sets up the guide with the items your kitchen buys from them, at the prices on your account, under their own item codes. When an item or a price changes, the update comes from them, not from your purchasing lead.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Only what you buy from that distributor</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Prices set for your account by the distributor</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Changes made on their side, not yours</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Same rep, same delivery days, same terms</span>
+            </li>
+          </ul>
+          <a href="/restaurant-purchasing-software" class="feature-link">Ordering from several suppliers →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>A distributor's<br>order guide with<br>your account prices
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 3 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">A Clear Record</span>
+          <h3>Something to point to when a case is short</h3>
+          <p class="mt-12 text-muted">
+            Any order sent from the app has its own order number, the date and the time, and a confirmation reaches your phone. When a delivery arrives light, your team can check it against what was sent, not against someone's memory of a call.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Numbered, dated and timed when you send</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Confirmation by push notification or text</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Shows who placed it, and when</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Phone and voicemail orders get no number from us</span>
+            </li>
+          </ul>
+          <a href="/supplier-management-software" class="feature-link">What each supplier confirmed →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>A sent order with<br>its number, date<br>and time
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 4 -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Craftable Keeps Its Job</span>
+          <h3>Approvals and payments stay in Craftable</h3>
+          <p class="mt-12 text-muted">
+            Craftable still holds your counts, recipes, invoices, payments and reports. The invoice for a delivery you ordered by voice can go into Craftable the way invoices do today. No purchase order is made, though: an order you give by voice is not created in Craftable.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Invoices captured in Craftable as before</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Counts, pars and recipes left where they are</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Orders to other suppliers go out from Craftable</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>No data passes between the two</span>
+            </li>
+          </ul>
+          <a href="/restaurant-checklist-software" class="feature-link">Making the reorder the same on every shift →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>A spoken order,<br>then the delivery<br>and its invoice
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad bg-light" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 580px; margin: 0 auto;">
+      <span class="eyebrow">How To Start</span>
+      <h2>Three steps, starting with your distributor</h2>
+      <p class="lead mt-16">
+        Nothing gets installed on a computer, and Craftable is not touched.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Ask which distributor has it</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          If they offer VoiceOrder Solutions, they open an account for your kitchen and load its guide. Not sure? Contact us and we will connect you.
+        </p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>Put it on the kitchen's phones</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Install it on an iPhone or Android phone, sign in, and the guide is there.
+        </p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>Speak the reorder and send it</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Talk through the order, look it over, then tap send.
+        </p>
+      </div>
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: VoiceOrder Solutions app showing your guide and a sent order
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Teams. Real Results.</span>
+      <h2>How the reorder goes now</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <!-- Featured testimonial -->
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "I used to spend hours every week ordering food. Now it's simple,
+          super easy, and I have free time to spend on other aspects of my
+          restaurant."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting testimonials -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Whoever closes does the order from the walk-in, so it is in before the morning crew arrives."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Restaurant Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "When a case goes missing, we look up the order number instead of arguing about a phone call."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Restaurant Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Orders go out in the formats distributors already use</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Each order goes out as an email with a PDF, Excel or Word file, an EDI
+      or API feed, or a QuickBooks entry. No one has to switch software to receive it.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF, Excel, Word
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        QuickBooks
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VoiceOrder Solutions is also API-ready, so orders can go straight into the ERP or distribution system you run.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Admin
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: WHEN THE TWO WORK TOGETHER
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">Use Both</span>
+      <h2>Craftable controls the spend, VoiceOrder Solutions speeds the reorder</h2>
+      <p class="lead mt-16">
+        We are not a Craftable replacement. Craftable keeps the spend controls, the counts, the bills and the reports. Our part is narrow, and only where a distributor provides it: a reorder spoken and checked before it is sent. Should easier reordering be what you hoped a Craftable alternative would bring, that is our whole contribution; nothing else in Craftable changes.
+      </p>
+    </div>
+
+    <div class="cards-grid">
+      <div class="feature-card">
+        <div class="feature-card-icon">📧</div>
+        <h4>Every other vendor stays on Craftable</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Suppliers without our app keep getting their orders from Craftable, as now. Save the app for the distributors that hand it to you.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">🧾</div>
+        <h4>That delivery's invoice still lands in Craftable</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Our app's orders never show in Craftable, since the two do not connect. The invoice for that delivery can still be captured there as usual, so the cost is counted.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">🧪</div>
+        <h4>Start with one distributor</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Craftable keeps every setting you gave it, and nothing passes from one product to the other. Try the app on one distributor's reorder and see how it fits.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: MID-PAGE CTA
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">See a reorder go from spoken to sent</h3>
+      <p class="text-muted" style="font-size:16px;">
+        A 20-minute demo: the guide a distributor prepares, one reorder talked through, and the copy their team receives. Craftable is not part of it.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FAQ
+     Eight items, to match the eight accordion slots on the Webflow page.
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>What multi-unit buyers ask us</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Do I need a Craftable alternative to speak my orders?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          No. Craftable runs a group's back office from ordering through to paying the bill, and it can already order from any supplier. If a distributor your group buys from uses our app, kitchens can order from them by voice while Craftable handles the rest.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is VoiceOrder Solutions better than Craftable?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Not at approvals, budgets, inventory, invoices, payments or reporting: we do none of those. Our job is smaller: a reorder you speak to a distributor and check before it goes. If quick reordering is the reason for your Craftable alternative search, that single job may be all you need beside it.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Will an order from your app show up in Craftable?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. Nothing ties them together, and each company services only its own software. A reorder you give our app by voice is never a Craftable purchase order, so it skips Craftable's approvals, budgets and invoice matching for that distributor. That is a real trade-off: if your group needs sign-off on every order, keep those orders in Craftable.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can I reach all my vendors this way?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Only the distributors who run VoiceOrder Solutions for their accounts. Craftable gets an order to any vendor with an email address or phone number, and we cannot. Use Craftable for all other vendors, and ask them about our app.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What happens if the app hears an item wrong?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Every line is on screen before you send, so that is where you fix it: change the item or delete it. That review is the safeguard, and a quick glance can still miss a mistake. Also note that an order phoned in or left on voicemail gets no order number from us. Those numbers come only with app orders.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How does my kitchen get set up?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Through your distributor. Once they add your account, your guide is in the app, and most kitchens put in their first order that same day. Not sure if yours offers it? Ask us and we will find out.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What will it cost us?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Your distributor can answer that, since they are the ones who give you the app. Craftable prices by quote, and so do we. Your Craftable subscription does not change.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Where do the Craftable details on this page come from?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Gathered from craftable.com and its help center on 27 October 2026: the platform and ordering pages, the help articles on placing orders, and their press releases. We leave out the operator totals and savings Craftable quotes about itself. Should Craftable have changed something since then, tell us and we will fix the page.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     RELATED PAGES
+     ============================================================ -->
+<section class="related-strip" aria-label="Related pages">
+  <div class="related-head">
+    <span class="eyebrow">Keep Exploring</span>
+    <h2 style="font-size:clamp(24px,3.2vw,32px);">More group back offices, with one step added</h2>
+  </div>
+  <div class="related-grid">
+
+      <a class="related-card" href="/wisk-alternative">
+        <span class="related-card-kw">WISK Alternative</span>
+        <h3>WISK + VoiceOrder Solutions</h3>
+        <p>Keep WISK for counts, pour cost and invoices. Speak the food order to a distributor on VoiceOrder Solutions, and check each line before it goes.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/apicbase-alternative">
+        <span class="related-card-kw">Apicbase Alternative</span>
+        <h3>Apicbase + VoiceOrder Solutions</h3>
+        <p>Keep Apicbase for recipes, pars and costing. Speak the reorder to a distributor on VoiceOrder Solutions, and check each line before it goes.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/marketman-alternative">
+        <span class="related-card-kw">MarketMan Alternative</span>
+        <h3>MarketMan + VoiceOrder Solutions</h3>
+        <p>Keep MarketMan for counts, pars and invoices. For a distributor you still order from by phone, speak the order in VoiceOrder Solutions and check it first.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+  </div>
+  <p class="text-center text-muted" style="margin-top:36px;font-size:14px;">
+    <a href="/" style="color:var(--color-accent);font-weight:600;text-decoration:none;">See all VoiceOrder Solutions feature pages →</a>
+  </p>
+</section>
+
+
+<!-- ============================================================
+     SECTION 15: FINAL CONVERSION CTA
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Keep Craftable, and start speaking the reorder</h2>
+  <p>Talk to your distributor or to us, and see how a reorder said into the app reaches them.</p>
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your work email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
+  </div>
+  <div class="final-cta-trust">
+    <span>✓ Set up by your distributor</span>
+    <span>✓ Prices on your account</span>
+    <span>✓ Craftable stays in place</span>
+    <span>✓ iOS + Android</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 16: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Voice Ordering</a></li>
+        <li><a href="#features">Order Guides</a></li>
+        <li><a href="#features">Order Records</a></li>
+        <li><a href="#how-it-works">Getting Started</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+        <li><a href="#comparison">Craftable + VoiceOrder Solutions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>More From VoiceOrder Solutions</h5>
+      <ul role="list">
+        <li><a href="/order-entry-software">Order Entry</a></li>
+        <li><a href="/restaurant-purchasing-software">Restaurant Purchasing</a></li>
+        <li><a href="/restaurant-stock-management-software">Restaurant Stock Management</a></li>
+        <li><a href="/order-tracking-software">Order Tracking for Distributors</a></li>
+        <li><a href="/">All Features</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not a Restaurant365 Alternative: Keep It, Add Voice Ordering</title>
+  <meta name="description" content="Keep Restaurant365 for your books and counts, and speak the next order to a distributor that offers VoiceOrder Solutions. No Restaurant365 alternative needed." />
+  <link rel="canonical" href="https://vos-landing-pages.vercel.app/restaurant365-alternative" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VoiceOrder Solutions" />
+  <meta property="og:title" content="Not a Restaurant365 Alternative: Keep It, Add Voice Ordering" />
+  <meta property="og:description" content="Keep Restaurant365 for your books and counts, and speak the next order to a distributor that offers VoiceOrder Solutions. No Restaurant365 alternative needed." />
+  <meta property="og:url" content="https://vos-landing-pages.vercel.app/restaurant365-alternative" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Not a Restaurant365 Alternative: Keep It, Add Voice Ordering" />
+  <meta name="twitter:description" content="Keep Restaurant365 for your books and counts, and speak the next order to a distributor that offers VoiceOrder Solutions. No Restaurant365 alternative needed." />
+
+<style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+
+    /* ── Related Pages Strip ──────────────────────────────────── */
+    .related-strip { background: var(--color-light-bg); border-top: 1px solid #e4e7ed; padding: 72px 24px; }
+    .related-head  { text-align: center; max-width: 620px; margin: 0 auto 44px; }
+    .related-grid  { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: var(--max-width); margin: 0 auto; }
+    .related-card  {
+      display: flex; flex-direction: column; background: #fff;
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 26px;
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .related-card:hover { box-shadow: 0 12px 32px rgba(45,27,110,0.10); transform: translateY(-3px); border-color: #d6dbe6; }
+    .related-card-kw {
+      align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--color-primary); background: #ede9fe;
+      padding: 5px 10px; border-radius: 6px; margin-bottom: 16px;
+    }
+    .related-card h3 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
+    .related-card p  { font-size: 14.5px; color: var(--color-text-muted); margin-bottom: 18px; flex-grow: 1; line-height: 1.55; }
+    .related-card-link { font-size: 14px; font-weight: 600; color: var(--color-accent); }
+    @media (max-width: 900px) { .related-grid { grid-template-columns: 1fr; } }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need a Restaurant365 alternative to use voice ordering?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Restaurant365 already plans your orders and sends them to your vendors. When a distributor of yours runs our app, you can give that order aloud, and Restaurant365 keeps running the rest."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is VoiceOrder Solutions better than Restaurant365?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not at bookkeeping, stock counts, staff schedules or payroll: we do none of those. We do one smaller job: an order you say to your distributor, with every item confirmed by you before sending. If that one job is what sent you searching for a Restaurant365 alternative, adding it may be all you need."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do VoiceOrder Solutions and Restaurant365 connect?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. They are not linked in any way, and each company supports only its own product. Only your distributor receives what you say. Restaurant365 does not see that order. It sees the invoice, as it does for any delivery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens to purchase orders and receiving?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nothing you dictate in our app becomes a Restaurant365 purchase order. So for that distributor there is no PO in Restaurant365 to receive the delivery against or to match the invoice to. If your team checks every delivery against a PO, weigh that trade before you move one distributor's orders to voice."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I order from all my suppliers this way?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only from distributors that give you our app. Restaurant365 can email a PO to any vendor with an address on file, and send to several large distributors by EDI. We cannot. Carry on with it for everyone else, and ask your other distributors if they have it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if the app gets an item wrong?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You see each line before it is sent, so that is where you fix it: change the item or the amount, or remove it. That review is the safeguard, so a quick glance can still miss a mistake. Also, an order you phone in or leave on voicemail gets no order number from us. Only orders sent in the app do."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get set up, and what does it cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Through your distributor, who creates your account and sets up your guide. Most restaurants are ordering in the app that same day. Ask them about cost too, since they are the ones who provide the app. Neither Restaurant365 nor we publish prices, and your Restaurant365 plan stays as it is. Not sure whether yours has it? Contact us and we will connect you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do the Restaurant365 details on this page come from?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Taken from restaurant365.com and its public help docs on 27 October 2026: the product pages, their pricing page and the guides on creating and sending purchase orders. Their customer counts and savings figures are theirs and are left out here. Anything outdated here is our mistake to fix."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "VoiceOrder Solutions Features",
+        "item": "https://vos-landing-pages.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Restaurant365 + VoiceOrder Solutions",
+        "item": "https://vos-landing-pages.vercel.app/restaurant365-alternative"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "Keep Restaurant365 for your books and counts, and speak the next order to a distributor that offers VoiceOrder Solutions. No Restaurant365 alternative needed.",
+    "url": "https://vos-landing-pages.vercel.app/restaurant365-alternative",
+    "publisher": {
+      "@type": "Organization",
+      "name": "VoiceOrder Solutions",
+      "url": "https://www.voiceordersolutions.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">For Restaurant Operators</span>
+      <h1>Not A Restaurant365 Alternative: Say Your Orders Aloud</h1>
+      <p class="lead mt-16">
+        Read your order aloud into the VoiceOrder Solutions app, fix any line that looks wrong, and send it to your distributor at any hour, if they offer the app. Your distributor loads the products you buy, at your prices. Restaurant365 still does your accounting and stock counts.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Get Set Up With VoiceOrder Solutions →</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>Your distributor does the setup</span>
+        <span class="hero-trust-dot"></span>
+        <span>Restaurant365 left as is</span>
+        <span class="hero-trust-dot"></span>
+        <span>iPhone or Android</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
+      <div class="img-placeholder tall">
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by food distributors and the restaurants they serve</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">Same Day</div>
+      <div class="stat-label">is when most restaurants begin sending orders in the app</div>
+    </div>
+    <div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">saved per app order versus calling the rep</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">ordering, whenever the kitchen is ready</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: COMPARISON TABLE
+     Not a head-to-head. Column 2 is the restaurant with both tools, column 3 with Restaurant365
+     alone. Accounting, inventory and food cost, suggested quantities, sending to any vendor,
+     scheduling and payroll, and a mobile ordering app are ticks in BOTH. Only rows 2, 4 and 6 differ.
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
+      <span class="eyebrow">Restaurant365, Plus One Step</span>
+      <h2>Restaurant365 does the books and stock.<br>Add one thing: ordering from your distributor by voice.</h2>
+      <p class="lead mt-16">
+        Voice ordering is the single change in this table. One column is your restaurant on Restaurant365 alone; the other includes our app for distributors of yours that have it. Restaurant365 already handles your accounting, tracks your stock and sends purchase orders, so a Restaurant365 alternative would replace far more than the order. The two products do not connect.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:40%;">Feature</th>
+            <th class="highlight" style="width:30%;">Restaurant365 + VoiceOrder Solutions</th>
+            <th style="width:30%;">Restaurant365 on its own</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Accounting, AP and financial reports</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Speak the order, then check each line</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Typed, scanned or filled to par</td>
+          </tr>
+          <tr>
+            <td>Inventory counts, recipes and food cost</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Item list and prices kept by your distributor</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Your own templates, or guides from listed vendors</td>
+          </tr>
+          <tr>
+            <td>Suggested quantities from pars and forecast sales</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>A confirmation back on your phone</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Not listed on their site</td>
+          </tr>
+          <tr>
+            <td>Purchase orders to any vendor by EDI or email</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Scheduling, payroll and HR</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>A mobile app for placing orders</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: WHY OPERATORS LOOK ELSEWHERE
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container">
+    <div class="text-center" style="max-width: 680px; margin: 0 auto;">
+      <span class="eyebrow">Why People Search</span>
+      <h2>What sends operators looking for an alternative to Restaurant365</h2>
+      <p class="lead mt-16">
+        A search for a Restaurant365 competitor is rarely about the books. Restaurant365 holds accounting, inventory and labor in one place, and it does that job. The question tends to be smaller: how each order actually gets to your distributor.
+      </p>
+    </div>
+
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="problem-icon">🗂️</div>
+        <h4>It is your entire back office</h4>
+        <p class="text-muted mt-12">
+          Restaurant365 puts accounting, inventory, scheduling and payroll in one system. Leaving it means moving all of that, which is a big project to change how one task gets done.
+        </p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">📋</div>
+        <h4>The order is already planned</h4>
+        <p class="text-muted mt-12">
+          Restaurant365 suggests amounts from past usage and expected sales, fills to par, and its AI can draft purchase orders. What is left is placing it: you add items by typing, barcode scanning or a template, then it goes out by email or EDI.
+        </p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">📲</div>
+        <h4>Your distributor may hand you an app</h4>
+        <p class="text-muted mt-12">
+          Some suppliers already equip their restaurant accounts with our app, set up with every product the kitchen orders and the price agreed for it. If one of yours does, that order can be spoken, with no change at all to Restaurant365.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE DEEP-DIVE
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+    <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
+      <span class="eyebrow">What It Adds</span>
+      <h2>What the app adds, and what it leaves alone</h2>
+    </div>
+
+    <!-- Feature 1 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Voice Ordering</span>
+          <h3>Speak it, read it over, send it</h3>
+          <p class="mt-12 text-muted">
+            Pull up the app at the prep table or in the walk-in and say what you need. Each item shows up as a line from your guide with that distributor. Change an amount or delete a line, then send. Nothing is sent until you have checked it.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>You see every line and can fix it</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Send it at any hour, with the rep's office closed</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Runs on the phone in your pocket</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Called away halfway? It keeps your spot</span>
+            </li>
+          </ul>
+          <a href="/order-entry-software" class="feature-link">Step by step: placing an order →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Push to Speak,<br>then the line-by-line<br>review screen
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 2 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Your Order Guide</span>
+          <h3>The guide comes from your distributor</h3>
+          <p class="mt-12 text-muted">
+            The list is built by your distributor: the products you order from them, at your account's prices, under their item codes. They keep it up to date, so there is no order template for that vendor for you to maintain.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Only the items you normally buy, not their full catalog</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Priced for your account</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Changed on their side when products change</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>The same rep and the same terms</span>
+            </li>
+          </ul>
+          <a href="/restaurant-checklist-software" class="feature-link">Ordering the same way on every shift →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Your guide from<br>one distributor,<br>at your account prices
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 3 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Confirmation</span>
+          <h3>Word back on your phone</h3>
+          <p class="mt-12 text-muted">
+            Anything you send from the app is numbered and timestamped, and a confirmation reaches you by notification or text. If something arrives short, the order number on your confirmation is there to point to.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Its own order number and send time</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Confirmed by text or a phone notification</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Shows who placed it, and when</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>A call or voicemail to the rep gets none of this</span>
+            </li>
+          </ul>
+          <a href="/supplier-management-software" class="feature-link">What each supplier confirmed →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>A sent order with<br>its number and<br>the confirmation
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 4 -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Your Back Office</span>
+          <h3>Your books and counts stay in Restaurant365</h3>
+          <p class="mt-12 text-muted">
+            The delivery still comes with an invoice, and it reaches Restaurant365 the same as your other invoices. Costs, counts and reports carry on as before.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Invoices go in the way they do today</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Pars and recipes do not move</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>You order from every other vendor as before</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>No data passes between the two</span>
+            </li>
+          </ul>
+          <a href="/restaurant-stock-management-software" class="feature-link">How ordering fits with your stock →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>A spoken order,<br>then the delivery<br>and its invoice
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad bg-light" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 580px; margin: 0 auto;">
+      <span class="eyebrow">How To Start</span>
+      <h2>Your distributor handles most of the setup</h2>
+      <p class="lead mt-16">
+        You install nothing on a computer, and Restaurant365 is not touched.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Ask which suppliers have it</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          If they offer VoiceOrder Solutions, they open an account for you and add your order guide. Not sure who to ask? Send us a note and we will put you in touch.
+        </p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>Add the app to your phone</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Log in on your phone. Your guide is there when you open it.
+        </p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>Say the order, look it over</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Speak the items, look over each line, and send. Then the confirmation arrives.
+        </p>
+      </div>
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: VoiceOrder Solutions app with a distributor's order guide and a sent order
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Teams. Real Results.</span>
+      <h2>From the kitchens that order this way</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <!-- Featured testimonial -->
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "I used to spend hours every week ordering food. Now it's simple,
+          super easy, and I have free time to spend on other aspects of my
+          restaurant."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting testimonials -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Our costs and counts live where they always did. Getting the order out is just quicker."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Restaurant Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "I talk through the order as I walk out of the cooler, and the confirmation shows up on my phone."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Restaurant Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Orders go out in the formats distributors already use</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Each order goes out as an email with a PDF, Excel or Word file, an EDI
+      or API feed, or a QuickBooks entry. No one has to switch software to receive it.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF, Excel, Word
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        QuickBooks
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VoiceOrder Solutions is also API-ready, so orders can go straight into the ERP or distribution system you run.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Admin
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: WHEN THE TWO WORK TOGETHER
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">Side By Side</span>
+      <h2>Restaurant365 for the books, VoiceOrder Solutions for the spoken order</h2>
+      <p class="lead mt-16">
+        This is not a Restaurant365 replacement. Restaurant365 keeps the accounting, the inventory and the POs for your other vendors. We take on a single task, through the distributors who have us: saying the order and checking it before it goes. If a quicker order was why you searched for a Restaurant365 alternative, that is the part we cover.
+      </p>
+    </div>
+
+    <div class="cards-grid">
+      <div class="feature-card">
+        <div class="feature-card-icon">📧</div>
+        <h4>Other vendors still get POs</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Any vendor not on our app gets its POs from Restaurant365 exactly as now. It only reaches the suppliers who gave you access.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">🧾</div>
+        <h4>The invoice still reaches your books</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Since the two do not connect, that order is not in Restaurant365. Its invoice is, once it comes in the usual way, so that spend is still counted.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">🧪</div>
+        <h4>Try it with one distributor</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Nothing in Restaurant365 needs to change. Start with whichever distributor gave you the app and see how a week of orders goes.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: MID-PAGE CTA
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">See what the distributor gets when an order is spoken</h3>
+      <p class="text-muted" style="font-size:16px;">
+        A 20-minute demo: a sample restaurant guide, one order dictated and checked, and the version that reaches the distributor. Restaurant365 plays no part in it.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FAQ
+     Eight items, to match the eight accordion slots on the Webflow page.
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Questions about a Restaurant365 alternative</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Do I need a Restaurant365 alternative to use voice ordering?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          No. Restaurant365 already plans your orders and sends them to your vendors. When a distributor of yours runs our app, you can give that order aloud, and Restaurant365 keeps running the rest.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is VoiceOrder Solutions better than Restaurant365?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Not at bookkeeping, stock counts, staff schedules or payroll: we do none of those. We do one smaller job: an order you say to your distributor, with every item confirmed by you before sending. If that one job is what sent you searching for a Restaurant365 alternative, adding it may be all you need.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Do VoiceOrder Solutions and Restaurant365 connect?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. They are not linked in any way, and each company supports only its own product. Only your distributor receives what you say. Restaurant365 does not see that order. It sees the invoice, as it does for any delivery.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What happens to purchase orders and receiving?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Nothing you dictate in our app becomes a Restaurant365 purchase order. So for that distributor there is no PO in Restaurant365 to receive the delivery against or to match the invoice to. If your team checks every delivery against a PO, weigh that trade before you move one distributor's orders to voice.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can I order from all my suppliers this way?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Only from distributors that give you our app. Restaurant365 can email a PO to any vendor with an address on file, and send to several large distributors by EDI. We cannot. Carry on with it for everyone else, and ask your other distributors if they have it.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What if the app gets an item wrong?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          You see each line before it is sent, so that is where you fix it: change the item or the amount, or remove it. That review is the safeguard, so a quick glance can still miss a mistake. Also, an order you phone in or leave on voicemail gets no order number from us. Only orders sent in the app do.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How do I get set up, and what does it cost?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Through your distributor, who creates your account and sets up your guide. Most restaurants are ordering in the app that same day. Ask them about cost too, since they are the ones who provide the app. Neither Restaurant365 nor we publish prices, and your Restaurant365 plan stays as it is. Not sure whether yours has it? Contact us and we will connect you.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Where do the Restaurant365 details on this page come from?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Taken from restaurant365.com and its public help docs on 27 October 2026: the product pages, their pricing page and the guides on creating and sending purchase orders. Their customer counts and savings figures are theirs and are left out here. Anything outdated here is our mistake to fix.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     RELATED PAGES
+     ============================================================ -->
+<section class="related-strip" aria-label="Related pages">
+  <div class="related-head">
+    <span class="eyebrow">Keep Exploring</span>
+    <h2 style="font-size:clamp(24px,3.2vw,32px);">Other back offices that sit beside us</h2>
+  </div>
+  <div class="related-grid">
+
+      <a class="related-card" href="/marketman-alternative">
+        <span class="related-card-kw">MarketMan Alternative</span>
+        <h3>MarketMan + VoiceOrder Solutions</h3>
+        <p>Keep MarketMan for counts, pars and invoices. For a distributor you still order from by phone, speak the order in VoiceOrder Solutions and check it first.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/craftable-alternative">
+        <span class="related-card-kw">Craftable Alternative</span>
+        <h3>Craftable + VoiceOrder Solutions</h3>
+        <p>Keep Craftable for purchasing control, AP and reporting. Speak the routine reorder to a distributor on VoiceOrder Solutions, and check each line first.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/orderly-alternative">
+        <span class="related-card-kw">Orderly Alternative</span>
+        <h3>Orderly + VoiceOrder Solutions</h3>
+        <p>Keep Orderly for food cost from your invoices. Speak the order to a distributor on VoiceOrder Solutions, and check what you asked for before it goes.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+  </div>
+  <p class="text-center text-muted" style="margin-top:36px;font-size:14px;">
+    <a href="/" style="color:var(--color-accent);font-weight:600;text-decoration:none;">See all VoiceOrder Solutions feature pages →</a>
+  </p>
+</section>
+
+
+<!-- ============================================================
+     SECTION 15: FINAL CONVERSION CTA
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Keep Restaurant365, and say your next order</h2>
+  <p>Check with your distributor or with us, and see how ordering by voice would work for your kitchen.</p>
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your work email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
+  </div>
+  <div class="final-cta-trust">
+    <span>✓ Setup done by your distributor</span>
+    <span>✓ Prices from your account</span>
+    <span>✓ Restaurant365 untouched</span>
+    <span>✓ Runs on iOS and Android</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 16: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Voice Ordering</a></li>
+        <li><a href="#features">Order Guides</a></li>
+        <li><a href="#features">Confirmations</a></li>
+        <li><a href="#how-it-works">Getting Started</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+        <li><a href="#comparison">Restaurant365 + VoiceOrder Solutions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>More From VoiceOrder Solutions</h5>
+      <ul role="list">
+        <li><a href="/order-entry-software">Order Entry</a></li>
+        <li><a href="/supplier-management-software">Supplier Management</a></li>
+        <li><a href="/restaurant-stock-management-software">Restaurant Stock Management</a></li>
+        <li><a href="/order-taking-software">Order Taking for Distributors</a></li>
+        <li><a href="/">All Features</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>

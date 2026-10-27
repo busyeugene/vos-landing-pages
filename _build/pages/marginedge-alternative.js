@@ -24,8 +24,8 @@
 module.exports = {
   title: "Not a MarginEdge Alternative: Keep It, Add Voice Ordering",
   description: 'Keep MarginEdge for invoices and food cost, and speak your next order to a distributor on VoiceOrder Solutions. A MarginEdge alternative that replaces nothing.',
-  related: ["order-entry-software","restaurant-purchasing-software","supplier-management-software"],
-  relatedHeading: "More on ordering from your distributor",
+  related: ["orderly-alternative","xtrachef-alternative","wisk-alternative"],
+  relatedHeading: "Other back-office tools you can keep",
   body: `
 <!--@NAVBAR-->
 
@@ -104,7 +104,7 @@ module.exports = {
       <span class="eyebrow">MarginEdge Today, Plus Voice</span>
       <h2>MarginEdge, plus ordering out loud.<br>The same back office, one new step.</h2>
       <p class="lead mt-16">
-        Spoken ordering is the only addition here. One column shows your restaurant on MarginEdge alone; the other adds VoiceOrder Solutions for any distributor of yours that uses it. MarginEdge already codes invoices, costs recipes and emails orders to suppliers, so a MarginEdge alternative is rarely the fix you need. The two products do not connect.
+        Spoken ordering is the only addition here. One column shows your restaurant on MarginEdge alone; the other adds VoiceOrder Solutions wherever a distributor of yours runs it. MarginEdge already codes invoices, costs recipes and emails orders to suppliers, so a MarginEdge alternative is rarely the fix you need. The two products do not connect.
       </p>
     </div>
 
@@ -211,7 +211,7 @@ module.exports = {
         <div class="problem-icon">📲</div>
         <h4>Your distributor may already offer an app</h4>
         <p class="text-muted mt-12">
-          Some food distributors now hand their accounts VoiceOrder Solutions, set up with each kitchen's usual products and its own prices. If one of yours does, the order to them can be spoken, and MarginEdge does not have to change at all.
+          A few food distributors now include VoiceOrder Solutions for the restaurants they serve, set up with what each kitchen normally orders and what it pays. If one of yours does, the order to them can be spoken, and MarginEdge does not have to change at all.
         </p>
       </div>
     </div>
@@ -504,7 +504,7 @@ module.exports = {
       <span class="eyebrow">Keep Both</span>
       <h2>MarginEdge runs the numbers, VoiceOrder Solutions carries the order</h2>
       <p class="lead mt-16">
-        We are not a MarginEdge replacement. MarginEdge keeps the invoices, the costing and the books. We add one thing, where a distributor provides it: speaking the order, with a check before sending. If easier ordering is what you wanted from a MarginEdge alternative, this is that part, and nothing else moves.
+        We are not a MarginEdge replacement. MarginEdge keeps the invoices, the costing and the books. We add a single step, for any distributor that provides it: speaking the order, with a check before sending. If easier ordering is what you wanted from a MarginEdge alternative, this is that part, and nothing else moves.
       </p>
     </div>
 
@@ -513,7 +513,7 @@ module.exports = {
         <div class="feature-card-icon">📧</div>
         <h4>Every other supplier stays in MarginEdge</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Suppliers without our app keep getting your emailed orders from MarginEdge, just as now. Keep the app for the distributors who hand it to you.
+          Any supplier not on our app keeps receiving MarginEdge's emailed orders as before. Keep the app for the distributors who hand it to you.
         </p>
       </div>
       <div class="feature-card">
@@ -527,7 +527,7 @@ module.exports = {
         <div class="feature-card-icon">🔌</div>
         <h4>No settings to change</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          MarginEdge is left exactly as configured, and no data moves anywhere. Try the app on one distributor's order first.
+          MarginEdge is left exactly as configured, and no data moves anywhere. Start with a single distributor's order.
         </p>
       </div>
     </div>
@@ -570,7 +570,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. MarginEdge is a back office that starts from the invoice, and it can already email your suppliers an order. Where a distributor of yours provides our app, speak that order there and leave MarginEdge to do the rest.
+          No. MarginEdge is a back office that starts from the invoice, and it can already email your suppliers an order. Where a distributor of yours provides our app, use your voice for that order and leave MarginEdge to do the rest.
         </div>
       </div>
 
@@ -580,7 +580,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Not at coding invoices, costing recipes, paying bills or closing your books: we do none of them. We do one narrower thing: an order said aloud to your distributor and confirmed line by line. If ordering is what sent you looking for a MarginEdge alternative, that narrower job, beside it, may be all you need.
+          Not at coding invoices, costing recipes, paying bills or closing your books: we do none of them. We do one narrower thing: a distributor order spoken aloud and confirmed one line at a time. If ordering is what sent you looking for a MarginEdge alternative, that narrower job, beside it, may be all you need.
         </div>
       </div>
 
@@ -590,7 +590,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. Nothing links the two, and neither company supports the other. Whatever you say into our app goes to your distributor, not into MarginEdge. The invoice for that delivery reaches MarginEdge in whatever way your invoices reach it today.
+          No. Nothing links the two, and neither company supports the other. Orders placed by voice travel to your distributor, not into MarginEdge. MarginEdge still receives that delivery's invoice the way it receives the rest.
         </div>
       </div>
 
@@ -630,7 +630,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          That is a question for your distributor, since the app comes from them. MarginEdge is open about its price and publishes a flat rate per location; we do not publish one. Your MarginEdge plan stays the same either way.
+          That is a question for your distributor, since they are the ones offering it. MarginEdge is open about its price and publishes a flat rate per location; we do not publish one. Your MarginEdge plan stays the same either way.
         </div>
       </div>
 
@@ -640,7 +640,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Read off marginedge.com as it stood on 27 October 2026: the product pages, their price list and their release notes. Their customer counts and time savings belong to them and are not repeated here. If any of it has changed, the mistake is at our end.
+          Read off marginedge.com as it stood on 27 October 2026: their feature pages, price list and release notes. Their restaurant totals and time-saving claims are left off this page. If any of it has changed, the mistake is at our end.
         </div>
       </div>
 
@@ -707,7 +707,7 @@ module.exports = {
         <li><a href="/restaurant-stock-management-software">Restaurant Stock Management</a></li>
         <li><a href="/restaurant-checklist-software">Restaurant Checklist</a></li>
         <li><a href="/order-taking-software">Order Taking for Distributors</a></li>
-        <li><a href="/catalog-management-software">Catalog Management</a></li>
+        <li><a href="/restaurant-purchasing-software">Restaurant Purchasing</a></li>
         <li><a href="/">All Features</a></li>
       </ul>
     </div>

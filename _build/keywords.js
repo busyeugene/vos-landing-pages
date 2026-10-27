@@ -381,4 +381,67 @@ module.exports = {
       'better than marginedge',
     ],
   },
+  'wisk-alternative': {
+    primary: 'wisk alternative',
+    secondary: [
+      'wisk competitor',
+      'wisk replacement',
+      'alternative to wisk',
+      'better than wisk',
+    ],
+  },
+  'restaurant365-alternative': {
+    primary: 'restaurant365 alternative',
+    secondary: [
+      'restaurant365 competitor',
+      'restaurant365 replacement',
+      'alternative to restaurant365',
+      'better than restaurant365',
+    ],
+  },
+  'xtrachef-alternative': {
+    primary: 'xtrachef alternative',
+    secondary: [
+      'xtrachef competitor',
+      'xtrachef replacement',
+      'alternative to xtrachef',
+      'better than xtrachef',
+    ],
+  },
+  'orderly-alternative': {
+    primary: 'orderly alternative',
+    secondary: [
+      'orderly competitor',
+      'orderly replacement',
+      'alternative to orderly',
+      'better than orderly',
+    ],
+  },
+  'marketman-alternative': {
+    primary: 'marketman alternative',
+    secondary: [
+      'marketman competitor',
+      'marketman replacement',
+      'alternative to marketman',
+      'better than marketman',
+    ],
+  },
+  'apicbase-alternative': {
+    primary: 'apicbase alternative',
+    secondary: [
+      'apicbase competitor',
+      'apicbase replacement',
+      'alternative to apicbase',
+      'better than apicbase',
+    ],
+  },
+  'craftable-alternative': {
+    primary: 'craftable alternative',
+    secondary: [
+      'craftable competitor',
+      'craftable replacement',
+      'alternative to craftable',
+      'better than craftable',
+    ],
+  },
 };

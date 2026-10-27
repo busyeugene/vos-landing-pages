@@ -155,6 +155,34 @@
     {
       "source": "/marginedge-alternative",
       "destination": "/vos-marginedge-alternative-landing.html"
+    },
+    {
+      "source": "/wisk-alternative",
+      "destination": "/vos-wisk-alternative-landing.html"
+    },
+    {
+      "source": "/restaurant365-alternative",
+      "destination": "/vos-restaurant365-alternative-landing.html"
+    },
+    {
+      "source": "/xtrachef-alternative",
+      "destination": "/vos-xtrachef-alternative-landing.html"
+    },
+    {
+      "source": "/orderly-alternative",
+      "destination": "/vos-orderly-alternative-landing.html"
+    },
+    {
+      "source": "/marketman-alternative",
+      "destination": "/vos-marketman-alternative-landing.html"
+    },
+    {
+      "source": "/apicbase-alternative",
+      "destination": "/vos-apicbase-alternative-landing.html"
+    },
+    {
+      "source": "/craftable-alternative",
+      "destination": "/vos-craftable-alternative-landing.html"
     }
   ],
   "headers": [

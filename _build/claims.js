@@ -62,10 +62,12 @@ for (const p of registry) {
   // A compare page names its competitor on purpose, so that one name is exempt from the
   // named-integrations ban. Every OTHER name on that list still bans: the Choco page may say
   // "Choco" and still must not say "NetSuite".
-  const ownName = p.kind === 'compare' && p.competitor ? p.competitor : null;
+  // `competitorAlso` (registry) adds the competitor's parent brand, e.g. xtraCHEF is sold as
+  // "xtraCHEF by Toast", so that page may say "Toast" and still not name any other product.
+  const ownNames = p.kind === 'compare' && p.competitor ? [p.competitor, ...(p.competitorAlso || [])] : [];
   const exempt = (label, s) => {
-    if (label !== 'named integrations' || !ownName) return s;
-    return maskWord(s, ownName, '@COMPETITOR@');
+    if (label !== 'named integrations') return s;
+    return ownNames.reduce((acc, n) => maskWord(acc, n, '@COMPETITOR@'), s);
   };
   for (const [label, re, sev] of RULES) {
     for (const raw of sents) {
