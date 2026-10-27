@@ -9,7 +9,25 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Related strips link same-audience siblings; each footer carries one cross-audience link.
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
-## ▶ RESUME HERE: latest session 2026-10-21 (12 compare pages reframed + plain-language pass, DONE everywhere)
+## ▶ RESUME HERE FIRST: 2026-10-27, "Not a <X> Alternative" H1s + titles, WEBFLOW PUSH PENDING
+Eugene's ask: H1s and meta titles say plainly VoiceOrder Solutions is NOT a <X> alternative while
+keeping the `<X> alternative` keyword; `/alternatives` hub card headings show the brand only
+("Pepper", not "Pepper Alternative"). **Repo done and pushed** (commit `73c83c2`; all gates clean,
+`layout.py` 0 flags; GrubMarket's H1 warns at 9 words only because the brand is two words).
+Title pattern: `Not a <X> Alternative: Keep <X>, Add Voice Ordering` (`Keep It` where the brand
+would push it past 62 chars). `_webflow/content|ops|repush|schema` are regenerated; field-diffed
+against the previous commit, each page changed in exactly H1 + meta title (+ schema name/headline).
+**Webflow NOT done:** the MCP was authorized to the DCI workspace (`list_sites` showed only DCI),
+so every write returned 404 and nothing was changed. After Eugene re-auths, per page:
+1. `bulk_update_pages` (data_pages_tool): `seo` from `repush/<slug>.json` + `openGraph` copied flags
+   (all 12 in one call works).
+2. hero prop `6ae44b23-f874-dafc-7624-6eb2dd6738c5` on instance `989faf8b-cac3-f127-6306-f797ae33f470`
+   = the new H1 (`repush/<slug>.json` `props[0]`).
+3. `python -I batches.py <slug> schema` (JSON-LD `name` + `headline` carry the title and H1).
+4. Hub page `6aca44dad218825392222a7d`: the 12 `-title` ops from `python -I gen-alternatives.py cards`.
+Then read back from stored state as in step 5 below.
+
+## Previous session 2026-10-21 (12 compare pages reframed + plain-language pass, DONE everywhere)
 **State: finished and verified.** The 12 `/alternatives/<slug>` comparison pages were (1) reframed
 from head-to-head to "keep <X>, add VoiceOrder Solutions beside it", (2) given a plain-language
 pass, and (3) ported into Webflow with the `/alternatives` hub. The repo is the source of truth,
