@@ -1,0 +1,330 @@
+{
+ "slug": "marginedge-alternative",
+ "meta_title": "Not a MarginEdge Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Keep MarginEdge for invoices and food cost, and speak your next order to a distributor on VoiceOrder Solutions. No MarginEdge alternative needed.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not A MarginEdge Alternative: Speak Orders To Your Distributor",
+  "lead": "Use your voice to order in the app your distributor hands you, from their guide at the prices they set for you. You check every item before it goes, then get a numbered order and a confirmation on your phone. It works only if your distributor offers VoiceOrder Solutions.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most kitchens begin ordering in the app"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "saved on each order versus a call to your rep"
+  },
+  {
+   "num": "24/7",
+   "label": "ordering, even after your rep's line has closed"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Before You Compare",
+  "h2": "Why operators look for an alternative to MarginEdge",
+  "lead": "MarginEdge reads invoices and tracks costs well. When someone looks for a MarginEdge competitor, it is sometimes about something else: what each location costs, or the order they still give a rep by phone. Those are separate questions, and this page is about the second one.",
+  "cards": [
+   {
+    "h3": "Built around the invoice, after the truck arrives",
+    "body": "MarginEdge places orders too, but its center is the invoice: snap a photo and it is sorted into your costs and your books. Getting your order to the distributor is its own step, and you can change it without changing MarginEdge."
+   },
+   {
+    "h3": "The price grows with each location",
+    "body": "MarginEdge publishes one flat monthly price per location, plus add-ons such as a bar scale. A published price is a plus, and cost is a fair reason to weigh a MarginEdge alternative. It is a different question from how your orders get placed."
+   },
+   {
+    "h3": "Its order guide is built from your invoices",
+    "body": "MarginEdge fills each vendor's guide from the invoices you send in and updates prices as you order. On our app, the distributor loads what you buy and what you pay, and updates both when they change."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "You can change the order without a MarginEdge alternative",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Say the order, then check every line",
+    "body": "Stand in the walk-in, open the app and say what you need. The lines come up from your guide with that distributor. Fix anything that looks off, then send. Nothing leaves until you have looked it over.",
+    "bullets": [
+     "You check each line before it is sent",
+     "Order at any hour, long after the rep has gone home",
+     "Runs on your own iPhone or Android phone",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Pulled onto the line midway? It keeps your place"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "How placing an order works →"
+    }
+   },
+   {
+    "eyebrow": "Your Order Guide",
+    "h3": "Your distributor's items, at your prices",
+    "body": "Your distributor builds the guide: the products you buy from them, under their own item codes. They set the items and the prices for your account, and when either one changes, they change it. You order from their list as it stands today, not one pieced together from past deliveries.",
+    "bullets": [
+     "Only what you buy, with no catalog to scroll",
+     "Priced the way your distributor set your account",
+     "Kept current by the distributor, not by you",
+     "Same distributor, same rep"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Buying from more than one supplier →"
+    }
+   },
+   {
+    "eyebrow": "A Paper Trail",
+    "h3": "Proof of what you asked for",
+    "body": "Each order sent from the app carries an order number, the date and the time, and a confirmation comes back to your phone. If a case goes missing, you can point to the order you sent instead of a phone call nobody wrote down.",
+    "bullets": [
+     "Number, date and time on each app order",
+     "A confirmation by notification or text",
+     "Check a short delivery against what you sent",
+     "Calls and voicemails to your rep get none of this"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "Keeping track of what each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "Your Back Office",
+    "h3": "MarginEdge picks up when the invoice lands",
+    "body": "The spoken order is the step before the truck. Once the delivery arrives, its invoice goes into MarginEdge the way yours do now, and your food cost updates from there. Your counts, pars and recipes stay where they are.",
+    "bullets": [
+     "The order goes in before the delivery comes",
+     "Snap the invoice when it arrives, as you do now",
+     "Price alerts and recipe costs still come from invoices",
+     "Bill pay and the accounting export carry on"
+    ],
+    "link": {
+     "href": "/restaurant-stock-management-software",
+     "text": "Where ordering fits in your stock routine →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Keep Both",
+  "h2": "MarginEdge runs the numbers, VoiceOrder Solutions carries the order",
+  "lead": "We are not a MarginEdge replacement. MarginEdge keeps the invoices, the costing and the books. VoiceOrder Solutions takes one job, for any distributor that runs it: the order to them, spoken and then checked before it goes.",
+  "items": [
+   {
+    "h3": "Voice orders skip MarginEdge's order screen",
+    "body": "The two products do not connect, so MarginEdge never sees that order, only the invoice that follows it. If something comes up short, show your distributor the confirmation and order number you got."
+   },
+   {
+    "h3": "Count in MarginEdge, then say the list",
+    "body": "Take your count there as usual and let MarginEdge's pars and on-hand show what is short. Then speak that distributor's share of it into our app."
+   },
+   {
+    "h3": "Pick one home per distributor",
+    "body": "Choose MarginEdge or our app for each distributor, so nothing is doubled. It suits a kitchen that prefers speaking an order to tapping it in."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "From your voice to the distributor's desk",
+  "body": "Twenty minutes on an example guide: an example order said aloud, reviewed and sent, then the copy the distributor gets, with its number on it.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and your distributor does the setup",
+  "lead": "Nothing to install on a computer. The app runs on the phone you already carry.",
+  "items": [
+   {
+    "h3": "Ask your distributor",
+    "body": "If they offer VoiceOrder Solutions, they open your account and load your guide. Not sure if they do? Ask us and we will find out."
+   },
+   {
+    "h3": "Put the app on your phone",
+    "body": "Sign in on your phone, and your guide is already waiting."
+   },
+   {
+    "h3": "Speak, check, send",
+    "body": "Say it, look at each line, then send. That is the whole routine."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "MarginEdge, plus ordering out loud. The same back office, one new step.",
+  "h2_lines": [
+   "MarginEdge, plus ordering out loud.",
+   "The same back office, one new step."
+  ],
+  "eyebrow": "MarginEdge Today, Plus Voice",
+  "lead": "Read this table as one restaurant, before and after a distributor hands it our app. MarginEdge already reads your invoices, works out recipe costs and places orders with your vendors, so the ticks for those come from MarginEdge itself. The voice-ordering rows count only for distributors on our app. You are adding one step, not choosing a MarginEdge alternative.",
+  "heads": [
+   "Feature",
+   "MarginEdge + VoiceOrder Solutions",
+   "MarginEdge on its own"
+  ],
+  "rows": [
+   {
+    "label": "Invoices read from a photo, an email or a supplier feed",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Spoken order you review before it goes",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Typed, or suggested from par and on-hand"
+     }
+    ]
+   },
+   {
+    "label": "Food cost and a daily P&L",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Items and prices loaded by your distributor",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "A guide per vendor, updated from your invoices"
+     }
+    ]
+   },
+   {
+    "label": "Orders to your vendors from MarginEdge",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Your distributor gets each order numbered and timed",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Pars and on-hand on the order guide",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Recipe costing and price alerts",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Ordering from your phone",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What restaurant operators ask us",
+  "items": [
+   {
+    "q": "Do I need a MarginEdge alternative for voice ordering?",
+    "a": "No. MarginEdge handles invoices and costs, and it has ordering of its own. Where a distributor of yours provides our app, order from them by voice and let MarginEdge take care of everything after the delivery."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than MarginEdge?",
+    "a": "Not at reading invoices, costing recipes, paying bills or closing your books: we do none of them. We do one narrower thing: a distributor order spoken aloud, from the guide that distributor keeps for you, and checked before it goes. If ordering is what sent you looking for a MarginEdge alternative, that narrower job, beside it, may be all you need."
+   },
+   {
+    "q": "Are VoiceOrder Solutions and MarginEdge linked?",
+    "a": "No. Nothing links the two, no data moves between them, and neither company supports the other. Anything you say into our app travels to your distributor, not into MarginEdge."
+   },
+   {
+    "q": "Will this work with every supplier I buy from?",
+    "a": "Only with distributors who use VoiceOrder Solutions. MarginEdge can send orders to far more of your suppliers than we reach, so stay with it for the rest, and check with your other suppliers about our app."
+   },
+   {
+    "q": "Can the app still put the wrong item on my order?",
+    "a": "Yes, it can. Each line shows up for you to look over before anything is sent, so you can change it or take it out. That review is your safeguard, and a quick glance can still let an error slip past. Orders you phone or leave on voicemail get no order number from us; only orders sent in the app are numbered."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "Setup goes through your distributor: they add you and upload your guide, and most kitchens place a first order the same day. If yours does not offer it, or you are not sure, contact us and we will connect you with the right person. Cost is a question to put to your distributor, who gives you the app. We do not publish a price. MarginEdge, for its part, lists its price on its website."
+   },
+   {
+    "q": "Does that delivery still show up in MarginEdge's food cost?",
+    "a": "Yes, once its invoice is in. Send that invoice in as you do every other one, and the delivery is counted with the rest of your costs."
+   },
+   {
+    "q": "Where do the MarginEdge details on this page come from?",
+    "a": "Read off marginedge.com as it stood on 27 October 2026: their feature pages, price list and release notes. Their restaurant totals and time-saving claims are left off this page. If any of it has changed, the mistake is at our end."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Let MarginEdge track the costs, and say your next order instead of calling it in.",
+  "body": "Ask your rep, or ask us, whether the app is open to your kitchen, and we will show you what the distributor receives from a voice order.",
+  "cta": "Ask About Getting Started →"
+ }
+}

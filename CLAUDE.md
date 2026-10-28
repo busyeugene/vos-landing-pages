@@ -9,7 +9,34 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Related strips link same-audience siblings; each footer carries one cross-audience link.
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
-## ▶ RESUME HERE: 2026-10-27 (late), 8 OPERATOR compare pages built, repo only (NOT in Webflow yet)
+## ▶ RESUME HERE: 2026-10-28, the 8 OPERATOR compare pages are IN WEBFLOW as verified DRAFTS
+Eugene: hero button on these 8 = "Check If My Distributor Offers It →" (repo; Webflow label without
+the arrow; template.js enforces it for operator compare pages only), and "move everything into
+Webflow". Done, nothing published (never call publish_site):
+- **8 pages created** with `create_page duplicateOf` **fresho-alternative** (not the old donor), so
+  they inherit the 2-col table, section order, FAQ JS embed, homepage Navbar and fresho's hand-built
+  cell-1,2 embed (`e2015e89-...abc0`, now in gen-repush.py CONVERTED for all 8). All `draft: true`
+  in the `/alternatives` folder; ids + paths in `_webflow/pages.json` (`compare`, `comparePaths`).
+  SEO + OG copied flags set at creation.
+- **Pushed and verified from stored state, 8/8:** verify-push ok (97-110 ops, styles 18/18),
+  verify-cells 18/18, JSON-LD `==` schema file, leak check 0 (no Fresho text left).
+- **Gap found mid-push:** Webflow feature rows hold 4 bullets + a link; four repo rows had 3 bullets
+  (craftable r4, marketman r4 with no link, marginedge r4, restaurant365 r3+r4), which would have
+  left Fresho bullets behind. Fixed IN THE REPO (a 4th true bullet each, a link on marketman r4),
+  regenerated, and the deltas pushed and read back. Rule for next time: every operator compare
+  row needs exactly 4 bullets and a link (5 is fine, `overrides.json` `bullets_keep` drops the
+  handset bullet).
+- **gen-schema.py** knows the 8 as OPERATOR pages (restaurant audience) and omits
+  `isAccessibleForFree` on operator pages (open client question). Side effect: the LIVE
+  `supplier-management-software` schema file changed the same way and has NOT been pushed.
+- **/alternatives hub:** 8 cards added (copied from the Fresho card via a temporary component,
+  unlinked, unregistered: 0 left), brand-only titles, new lead for both audiences, JSON-LD now
+  20 items. Card ids in `_webflow/newcards.json`; copy in `gen-alternatives.py` OPERATOR_CARDS.
+- ⚠ **Before the next site publish:** the hub is PUBLISHED and its 8 new cards link to the DRAFT
+  pages. Take the 8 out of draft first (or the hub ships dead links). Still nobody has looked at a
+  rendered page (Designer preview), and Craftable's "Voice Audit AI" needs a re-check.
+
+## ▶ Earlier 2026-10-27 (late): 8 OPERATOR compare pages built in the repo
 Eugene's ask: same keep-and-add approach as the 12 distributor compare pages, but for the
 RESTAURANT side, for the November Airtable rows: wisk, craftable, apicbase, marketman,
 marginedge, orderly, xtrachef, restaurant365 (`/<x>-alternative`). Done in the repo, all gates

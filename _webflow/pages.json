@@ -63,9 +63,17 @@
   "orderease-alternative": "6aca3a6bf0c2375ec4151513",
   "wizcommerce-alternative": "6aca3a6c06da357dd6d261d7",
   "rekki-alternative": "6aca3a6c8b1e86523e69bf86",
-  "fresho-alternative": "6aca3a6e5e834cc8aaf7a7ff"
+  "fresho-alternative": "6aca3a6e5e834cc8aaf7a7ff",
+  "wisk-alternative": "6ae17a86a91f6e49f1de3e9e",
+  "craftable-alternative": "6ae17aae8d2053e2efaadb4f",
+  "apicbase-alternative": "6ae17aafb720db3cfffe9faa",
+  "marketman-alternative": "6ae17ab05171a757d24c5af1",
+  "marginedge-alternative": "6ae17ab2ecd9d1b59d8a332a",
+  "orderly-alternative": "6ae17ab36245f13652a88bd9",
+  "xtrachef-alternative": "6ae17ab3b6fd276a26a63d84",
+  "restaurant365-alternative": "6ae17ab4a91f6e49f1de515b"
  },
- "_compare_note": "The 12 comparison-page ids. All created from donorPageId with create_page duplicateOf, so map.json element UUIDs apply unchanged. All draft:true and unpublished. pepper was created 2026-10-10 am and its copy is a full rewrite behind the repo (passes 5-8); re-port it rather than patching.",
+ "_compare_note": "The 12 comparison-page ids. All created from donorPageId with create_page duplicateOf, so map.json element UUIDs apply unchanged. All draft:true and unpublished. pepper was created 2026-10-10 am and its copy is a full rewrite behind the repo (passes 5-8); re-port it rather than patching. 2026-10-28: 8 OPERATOR compare pages added, duplicated from fresho-alternative (not the donor), so they carry fresho's converted cell-1,2 embed; all draft:true.",
  "comparePaths": {
   "pepper-alternative": "/alternatives/pepper-alternative",
   "choco-alternative": "/alternatives/choco-alternative",
@@ -78,7 +86,15 @@
   "orderease-alternative": "/alternatives/orderease-alternative",
   "wizcommerce-alternative": "/alternatives/wizcommerce-alternative",
   "rekki-alternative": "/alternatives/rekki-alternative",
-  "fresho-alternative": "/alternatives/fresho-alternative"
+  "fresho-alternative": "/alternatives/fresho-alternative",
+  "wisk-alternative": "/alternatives/wisk-alternative",
+  "craftable-alternative": "/alternatives/craftable-alternative",
+  "apicbase-alternative": "/alternatives/apicbase-alternative",
+  "marketman-alternative": "/alternatives/marketman-alternative",
+  "marginedge-alternative": "/alternatives/marginedge-alternative",
+  "orderly-alternative": "/alternatives/orderly-alternative",
+  "xtrachef-alternative": "/alternatives/xtrachef-alternative",
+  "restaurant365-alternative": "/alternatives/restaurant365-alternative"
  },
  "_comparePathsNote": "Webflow published paths for the 12 comparison pages. On 2026-10-10 all 12 were moved into an `/alternatives` FOLDER (parent 6aca479288343be0cbba1beb), mirroring the existing `/free-tools` folder that holds the 23 calculators, so the live URL is /alternatives/<slug> and NOT /<slug>. A Webflow folder does not appear in list_pages, only as a parentId on its children. The repo slug is still <slug> and the repo canonicals point at the Vercel mirror, so only the Webflow JSON-LD depends on this: gen-schema.py reads comparePaths rather than assuming '/' + slug. Eugene confirmed the folder is intended, 2026-10-10.",
  "altHubPath": "/alternatives"

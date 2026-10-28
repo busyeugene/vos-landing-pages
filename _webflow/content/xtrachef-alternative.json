@@ -1,0 +1,330 @@
+{
+ "slug": "xtrachef-alternative",
+ "meta_title": "Not an xtraCHEF Alternative: Keep xtraCHEF, Add Voice Ordering",
+ "meta_desc": "Order from your distributor's guide at your account's prices: speak it, check each line, send. No xtraCHEF alternative needed: xtraCHEF keeps your invoices.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not An xtraCHEF Alternative: Use Your Distributor's Guide",
+  "lead": "Order from the distributor's own guide, with your account pricing, instead of a list you keep up yourself. Talk into the VoiceOrder Solutions app, then look over each line before you send. It works only where your distributor provides the app, and xtraCHEF by Toast keeps your invoices.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most restaurants get a first order in"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "saved per order, compared with phoning your rep"
+  },
+  {
+   "num": "24/7",
+   "label": "to place an order, even when your rep is off for the night"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Worth Knowing First",
+  "h2": "Why restaurants search for an alternative to xtraCHEF",
+  "lead": "xtraCHEF centers on the invoice: it reads each one, tracks food cost from it and passes it on to your accounting software. Sometimes the search for an xtraCHEF competitor is really about the order, and that is a step you can change by itself.",
+  "cards": [
+   {
+    "h3": "Its order list is yours to keep up",
+    "body": "In xtraCHEF, a vendor's order guide is built from items you have been invoiced for, or from a price sheet you upload. When your distributor adds or drops an item, the list changes only when you change it."
+   },
+   {
+    "h3": "Setup took real work the first time",
+    "body": "xtraCHEF's own guides describe onboarding in weeks, with calls from a consultant on the Pro tier. That effort is already spent. Starting over with an xtraCHEF alternative means doing that setup again, and it may not make ordering any easier."
+   },
+   {
+    "h3": "Order totals use the last invoice price",
+    "body": "The mobile app estimates an order's total from the price on your most recent invoice. If the price has moved since, the estimate is off until the next invoice comes in."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "No xtraCHEF alternative required for the order step",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Say it out loud, then look over the list",
+    "body": "Take out your phone wherever you check stock, in dry storage or the walk-in, and say what you need. Each item shows up as a line from that distributor's guide. Change or delete anything that looks wrong, then send. Nothing goes out until you approve it.",
+    "bullets": [
+     "Each line waits for your OK before sending",
+     "Order late at night, after your rep has signed off",
+     "Works on the iPhone or Android phone you carry",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Called away halfway? It saves where you stopped"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "See how an order gets placed →"
+    }
+   },
+   {
+    "eyebrow": "Your Order Guide",
+    "h3": "A guide the distributor builds and keeps current",
+    "body": "In xtraCHEF, you build your own guide from invoices you have received or from a vendor's price sheet. Here the list comes from the distributor: the products on your account with them, at the prices they set for you, matched to their own product codes. When a price or an item changes, they change it.",
+    "bullets": [
+     "Just the products you order, not a whole catalog",
+     "The price set for your account, not last week's invoice",
+     "Updated on their side, so you have no list to maintain",
+     "Same distributor, same rep"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Ordering from more than one supplier →"
+    }
+   },
+   {
+    "eyebrow": "A Clear Record",
+    "h3": "Something to point to when a case is short",
+    "body": "When you send from the app, the order gets its own order number and the moment it left, and a confirmation comes back to you as well. If the delivery does not match, you have what you asked for in writing.",
+    "bullets": [
+     "A number and a timestamp on what you send",
+     "Confirmation by push notification or text",
+     "Compare what arrived with what you sent",
+     "Orders phoned in or left on voicemail get no number from us"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "What each supplier confirmed, in one place →"
+    }
+   },
+   {
+    "eyebrow": "Your Back Office",
+    "h3": "xtraCHEF still gets the invoice",
+    "body": "The truck arrives with an invoice, as it does today. Snap it, forward it or let it come in by EDI, the way you send invoices to xtraCHEF now. Food cost, recipe costs and counts carry on there.",
+    "bullets": [
+     "Invoices go in the way they do now",
+     "Recipes and pars stay in xtraCHEF",
+     "Ingredient prices still tracked from each invoice",
+     "Your accounting sync runs as before"
+    ],
+    "link": {
+     "href": "/restaurant-stock-management-software",
+     "text": "How ordering fits your stock routine →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Use Both",
+  "h2": "xtraCHEF handles the paperwork; one distributor gets your spoken order",
+  "lead": "This is no xtraCHEF replacement. xtraCHEF keeps the invoices and food cost, and the sync to your accounting. VoiceOrder Solutions takes one step before the truck comes, for any distributor of yours that has it: an order built from their guide that you review before it goes.",
+  "items": [
+   {
+    "h3": "That order lives outside xtraCHEF",
+    "body": "For that distributor, the lines come from their guide, not from your invoices, and the order will not show in xtraCHEF's order log. The invoice still comes in as usual, so your food cost stays complete."
+   },
+   {
+    "h3": "Check the invoice against what you sent",
+    "body": "When the invoice for that delivery lands in xtraCHEF, set it beside your confirmation and order number. If an item, an amount or a price differs, you have the order number to raise it with your rep."
+   },
+   {
+    "h3": "One distributor, one place to order",
+    "body": "Pick xtraCHEF or our app for each distributor, never both. Once you speak orders to a distributor, do not also schedule a recurring xtraCHEF order to them."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See an order travel from the app to a distributor",
+  "body": "Book 20 minutes with us to see a distributor's guide, a test order spoken and checked, and how it lands with the distributor.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Up and ordering in three steps",
+  "lead": "Your distributor does most of the setup. Your part is three short steps.",
+  "items": [
+   {
+    "h3": "See if your distributor has it",
+    "body": "If they have VoiceOrder Solutions, they set up your account and fill in your guide. Not sure who to ask? Reach out and we will connect you."
+   },
+   {
+    "h3": "Install it and sign in",
+    "body": "Download it, and your guide is waiting when you open it."
+   },
+   {
+    "h3": "Speak, read the lines, send",
+    "body": "Speak the order, read through the lines and tap send."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "xtraCHEF, plus a guide kept by your distributor. Same invoices, a new list to order from.",
+  "h2_lines": [
+   "xtraCHEF, plus a guide kept by your distributor.",
+   "Same invoices, a new list to order from."
+  ],
+  "eyebrow": "xtraCHEF Plus One Step",
+  "lead": "Only the ordering rows change, and only for a distributor using our app: their guide, their price for your account, sent from your phone. Every other tick is xtraCHEF's own work, including recipes and counts on the Pro plan, and a good reason to check the table before you price out an xtraCHEF alternative.",
+  "heads": [
+   "Feature",
+   "xtraCHEF + VoiceOrder Solutions",
+   "xtraCHEF on its own"
+  ],
+  "rows": [
+   {
+    "label": "Invoice lines pulled from a photo, an email or EDI",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Speak it, look it over, then send",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Typed on your guide, or filled from pars"
+     }
+    ]
+   },
+   {
+    "label": "Food cost reports, plus recipe costing on Pro",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Guide kept current by the distributor",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Your own list, from past invoices or an uploaded price sheet"
+     }
+    ]
+   },
+   {
+    "label": "Send orders to any vendor by email or PDF",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Each line priced for your account by the distributor",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Estimated from the latest invoice"
+     }
+    ]
+   },
+   {
+    "label": "Inventory counts with pars, a Pro feature",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Sent through the app your distributor gives you",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "From xtraCHEF by email, or as a PDF you pass on"
+     }
+    ]
+   },
+   {
+    "label": "Ordering and counts on a phone",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions from restaurant owners",
+  "items": [
+   {
+    "q": "Do I need an xtraCHEF alternative to order with my voice?",
+    "a": "No. xtraCHEF covers the paperwork side, from invoices to dish costs and inventory, and it can already email a vendor an order. When a distributor of yours is set up with us, say that order into your phone and let xtraCHEF carry on with the rest."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than xtraCHEF?",
+    "a": "Not for reading invoices, costing recipes, approving bills or syncing your accounting, because we do none of those. Our job is narrower: an order spoken to your distributor, with you reading each line before it leaves. If ordering is why you went looking for an xtraCHEF alternative, that job, next to xtraCHEF, may be enough."
+   },
+   {
+    "q": "Do VoiceOrder Solutions and xtraCHEF connect?",
+    "a": "No. They are not linked, nothing is shared between them, and each one has its own support. Anything you speak into our app goes to your distributor and never appears in xtraCHEF."
+   },
+   {
+    "q": "Can I use it with all my suppliers?",
+    "a": "Only with distributors who provide VoiceOrder Solutions. xtraCHEF can order from any vendor at all, and we cannot. Stick with xtraCHEF for all the others, and check whether your other vendors are set up with us."
+   },
+   {
+    "q": "What if the app hears an amount wrong?",
+    "a": "You see each line before it is sent, so you fix it there: swap the item, change the amount or remove it. That review is the safeguard, but a quick look can still miss a mistake. Also, an order you phone in or leave on voicemail gets no order number from us; only orders sent in the app do."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "Through your distributor: they open your account and put your products in the app. If they don't offer it, or you are unsure, contact us and we will put you in touch with someone who can help. Most kitchens are sending their first order the same day. As for cost, that is a question for the distributor who gives you the app; we do not publish a price. xtraCHEF's price per location is published on its support site."
+   },
+   {
+    "q": "xtraCHEF can send my weekly order on a schedule. Why speak it?",
+    "a": "For most vendors, keep the schedule. With a distributor that gives you our app, you speak from their guide, and every line shows your account's price rather than whatever the previous invoice said. You go over the lines before sending, so a busy week or a quiet one gets the amounts it needs."
+   },
+   {
+    "q": "Where do the xtraCHEF details on this page come from?",
+    "a": "From xtrachef.com and the xtraCHEF help center at support.toasttab.com, as they read on 27 October 2026: the product pages, the ordering guides and the onboarding notes. We have not repeated the restaurant totals or customer quotes from their pages. If xtraCHEF has moved on since, the fault is ours, and we will update it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Let your distributor's list set the price, and keep xtraCHEF for invoices",
+  "body": "Check with your distributor, or ask us to find out whether yours offers VoiceOrder Solutions.",
+  "cta": "Ask About Getting Started →"
+ }
+}

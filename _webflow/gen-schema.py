@@ -17,7 +17,11 @@ OUT = os.path.join(HERE, 'schema')
 os.makedirs(OUT, exist_ok=True)
 
 LIVE = 'https://www.voiceordersolutions.com'
-OPERATOR = {'supplier-management-software'}
+# Operator pages: the restaurant reads them, VOS comes through its distributor. The 8 operator
+# compare pages (Nov 2026) joined supplier-management here on 2026-10-28.
+OPERATOR = {'supplier-management-software', 'wisk-alternative', 'craftable-alternative',
+            'apicbase-alternative', 'marketman-alternative', 'marginedge-alternative',
+            'orderly-alternative', 'xtrachef-alternative', 'restaurant365-alternative'}
 
 OVR = json.load(io.open(os.path.join(HERE, 'overrides.json'), encoding='utf-8'))
 _PG = json.load(io.open(os.path.join(HERE, 'pages.json'), encoding='utf-8'))
@@ -197,7 +201,9 @@ def build(slug):
             'customers who place orders and a web browser for the admin platform.'),
         'permissions': 'Microphone access on the device, for voice ordering',
         'inLanguage': 'en-US',
-        'isAccessibleForFree': False,
+        # Whether a restaurant pays anything is an open client question (KB), so operator
+        # pages make no free/paid assertion at all.
+        **({} if operator else {'isAccessibleForFree': False}),
         'keywords': ([kw.get('primary')] if kw.get('primary') else []) + kw.get('secondary', []),
         'featureList': feats,
         'provider': {'@id': LIVE + '/#organization'},

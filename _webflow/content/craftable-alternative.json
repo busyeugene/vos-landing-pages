@@ -1,0 +1,330 @@
+{
+ "slug": "craftable-alternative",
+ "meta_title": "Not a Craftable Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Not a Craftable alternative: keep its approvals and budgets, and speak routine reorders to a distributor that offers VoiceOrder Solutions.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not A Craftable Alternative: Speak The Routine Reorder",
+  "lead": "Say your weekly reorder from the walk-in, look over every item, then send it with an order number and a confirmation back to your phone. It works with a distributor you still phone or text, if they hand out our app. They keep your guide and your prices current.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most kitchens send a first order once their distributor adds them"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "less per order than phoning the rep"
+  },
+  {
+   "num": "24/7",
+   "label": "the app takes your order, whatever time the kitchen closes"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why People Search",
+  "h2": "Why groups look for an alternative to Craftable",
+  "lead": "Craftable is built so finance and purchasing can control spend at every location. Sometimes a search for a Craftable competitor starts with one distributor, the one a kitchen still phones, texts or orders from through a rep.",
+  "cards": [
+   {
+    "h3": "Control is the point of Craftable",
+    "body": "Craftable's own pitch is control at the purchase order: who may buy what, at which contract price, checked against the invoice before payment. A Craftable alternative chosen only for faster ordering would give that up. Keep the controls, and speak only the reorders nobody has to approve."
+   },
+   {
+    "h3": "Some orders still go by phone",
+    "body": "A late top-up or a changed quantity sometimes goes to the rep by call or text instead of through Craftable. A call like that leaves nothing in writing to check the delivery against."
+   },
+   {
+    "h3": "Craftable's voice feature is for counts",
+    "body": "Craftable has announced Voice Audit AI for counts and audits. Its ordering is still done on screen, in a form, a guide, a catalog or a vendor's own ordering site. Saying a reorder aloud is a separate step you can add."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What Changes",
+  "h2": "Not a Craftable alternative, just one reorder said aloud",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Say what you need, review it, then send",
+    "body": "Open the app at the end of the count and say the order. Each item shows up as a line from your guide with that distributor. Change a quantity or take something off, then send when it looks right. Nothing goes until you choose to send.",
+    "bullets": [
+     "Each line is yours to check before it goes",
+     "Send it at any hour, even after the rep's office closes",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Called away halfway through? It saves where you were",
+     "Works on the phone already in your pocket"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "Step by step through placing an order →"
+    }
+   },
+   {
+    "eyebrow": "Your Order Guide",
+    "h3": "A guide your distributor builds and keeps current",
+    "body": "Your distributor sets up the guide with the items your kitchen buys from them, at the prices on your account, under their own item codes. When an item or a price changes, the update comes from them, not from your purchasing lead.",
+    "bullets": [
+     "Only what you buy from that distributor",
+     "Ready in the app once they add your account",
+     "Changes made on their side, not yours",
+     "Same distributor, same rep"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Ordering from several suppliers →"
+    }
+   },
+   {
+    "eyebrow": "A Clear Record",
+    "h3": "Something to point to when a case is short",
+    "body": "Any order sent from the app has its own order number, the date and the time, and a confirmation reaches your phone. When a delivery arrives light, your team can check it against what was sent, not against someone's memory of a call.",
+    "bullets": [
+     "Numbered, dated and timed when you send",
+     "Confirmation by push notification or text",
+     "Shows who placed it, and when",
+     "Phone and voicemail orders get no number from us"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "What each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "Craftable Keeps Its Job",
+    "h3": "Payments and reports stay in Craftable",
+    "body": "Craftable still holds your counts and recipes, and still handles bill pay. Reorders you say into our app go to the distributor, and nothing is created in Craftable. The invoice for that delivery goes into Craftable as usual.",
+    "bullets": [
+     "Approval rules still cover orders built in Craftable",
+     "Counts, pars and recipes left where they are",
+     "Reports run as they do today",
+     "Bill pay still runs through Craftable"
+    ],
+    "link": {
+     "href": "/restaurant-checklist-software",
+     "text": "Making the reorder the same on every shift →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Use Both",
+  "h2": "Craftable controls the spend, VoiceOrder Solutions speeds the reorder",
+  "lead": "We are not a Craftable replacement. Craftable keeps approvals, budgets, counts, bills and reports for every location. Our part is one step, and only with a distributor that provides our app: a reorder spoken, looked over, then sent.",
+  "items": [
+   {
+    "h3": "No purchase order to match the invoice to",
+    "body": "Craftable checks each invoice against its purchase order. Our app's orders have none, so for that delivery, check the invoice against what you sent."
+   },
+   {
+    "h3": "Count in Craftable, then speak what is low",
+    "body": "Run your Craftable count and see what sits below par. For a distributor on our app, say those items instead of building the order in Craftable, and review every line before you send."
+   },
+   {
+    "h3": "Best for reorders that need no sign-off",
+    "body": "It suits a distributor whose routine reorder your team may send without approval. If every order to that distributor needs approval, keep it in Craftable. Give each distributor one ordering channel, Craftable or our app, never both."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See a reorder go from spoken to sent",
+  "body": "Twenty minutes, using an example distributor guide: we speak a reorder, correct one line, and open the copy the distributor gets.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "How To Start",
+  "h2": "Three steps, starting with your distributor",
+  "lead": "Nothing gets installed on a computer, and most of the setup is done by your distributor.",
+  "items": [
+   {
+    "h3": "Ask which distributor has it",
+    "body": "If they offer VoiceOrder Solutions, they open an account for your kitchen and load its guide. Not sure which one? Ask us."
+   },
+   {
+    "h3": "Put it on your phone",
+    "body": "Install it on an iPhone or Android phone, sign in, and the guide is there."
+   },
+   {
+    "h3": "Speak the reorder and send it",
+    "body": "Talk through the order, look it over, then tap send."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Keep every Craftable control. Speak the reorders you repeat each week.",
+  "h2_lines": [
+   "Keep every Craftable control.",
+   "Speak the reorders you repeat each week."
+  ],
+  "eyebrow": "Keep Craftable, Add Voice",
+  "lead": "The highlighted column adds spoken orders to any distributor of yours that offers VoiceOrder Solutions. If you came looking for a Craftable alternative, notice that both columns keep Craftable. Every tick for approvals, budgets, stock and invoices is Craftable's own work; the spoken-order rows apply only where a distributor has our app.",
+  "heads": [
+   "Feature",
+   "Craftable + VoiceOrder Solutions",
+   "Craftable on its own"
+  ],
+  "rows": [
+   {
+    "label": "Purchasing, inventory, bill pay and reporting in one platform",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Order by speaking, then check on screen",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Built on screen from a form or guide"
+     }
+    ]
+   },
+   {
+    "label": "Orders to any vendor by email or text, and directly to vendors linked to Craftable",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Order guide built by your distributor",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "You build the guide; vendors can keep their catalog current"
+     }
+    ]
+   },
+   {
+    "label": "Approval limits, budgets and contract prices on Craftable orders",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Bar inventory alongside the food",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Pars and counts that feed a draft order",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Invoices read from a photo, PDF or email",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Recipe costs on current vendor prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What multi-unit buyers ask us",
+  "items": [
+   {
+    "q": "Do I need a Craftable alternative to speak my orders?",
+    "a": "No. Craftable runs a group's back office from the first order to the paid bill. If a supplier you phone or message today has our app, you can speak that reorder there instead."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Craftable?",
+    "a": "Not at approvals, budgets, inventory, invoices, payments or reporting: we do none of those. Our job is smaller: a reorder you speak to a distributor and check before it goes. If slow reordering is the reason for your Craftable alternative search, that one job may be all you need beside it."
+   },
+   {
+    "q": "Will an order from your app show up in Craftable?",
+    "a": "No. The two products do not connect, nothing is shared between them, and each team supports its own software only. An order given in our app goes to your distributor and is never created as a Craftable purchase order."
+   },
+   {
+    "q": "Do orders I speak go through Craftable's approvals?",
+    "a": "No. They go straight to the distributor, so Craftable's approvals and invoice matching never see them. Craftable's budget does not see that order when you place it. Where sign-off matters, leave that distributor's orders in Craftable."
+   },
+   {
+    "q": "Can I reach all my vendors this way?",
+    "a": "Only the distributors who run VoiceOrder Solutions for their accounts. Craftable gets an order to any vendor with an email address or phone number, and we cannot. Use Craftable for all other vendors, and ask your distributors whether they have our app."
+   },
+   {
+    "q": "What if I say 12 cases and the review screen shows 2?",
+    "a": "Every line shows on screen before it goes, so correct the number there or delete the line. Your review is the safeguard, and a hurried look can still let an error through. An order you phone in or leave on voicemail gets no order number from us; only orders sent in the app get one."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "The distributor handles setup. Once your account is added, your guide is in the app, and most first orders go in that same day. If yours does not offer it, or you are not sure, message us and we will find whoever can help. Cost is a question for your distributor, because you get the app from them, and we post no price list. Craftable quotes its prices rather than publishing them."
+   },
+   {
+    "q": "Where do the Craftable details on this page come from?",
+    "a": "Gathered from craftable.com and its help center on 27 October 2026: the platform and ordering pages, the help articles on placing orders, and their press releases. We leave out the operator totals and savings Craftable quotes about itself. If Craftable has changed something since then, tell us and we will fix the page."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Craftable guards the spend; you speak the weekly order",
+  "body": "Ask us whether any of your distributors has VoiceOrder Solutions, and we will find out for you.",
+  "cta": "Ask About Getting Started →"
+ }
+}

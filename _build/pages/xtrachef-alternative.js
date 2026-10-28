@@ -50,7 +50,7 @@ module.exports = {
       </p>
 
       <div class="hero-ctas">
-        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Get Set Up With VoiceOrder Solutions →</a>
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Check If My Distributor Offers It →</a>
         <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 

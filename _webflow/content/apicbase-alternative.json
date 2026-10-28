@@ -1,0 +1,329 @@
+{
+ "slug": "apicbase-alternative",
+ "meta_title": "Not an Apicbase Alternative: Keep Apicbase, Add Voice Ordering",
+ "meta_desc": "Speak each reorder to your distributor and check every line, while Apicbase keeps your recipes and pars. Not an Apicbase alternative: we replace nothing.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not An Apicbase Alternative: Plan There, Order Aloud",
+  "lead": "VoiceOrder Solutions lets you say aloud the order you planned in Apicbase, as long as your distributor carries our app. You order from the guide and the prices they keep for your account, and orders you send in the app get a number, a time and a confirmation on your phone.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most kitchens send a first order from the app"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "back on each order, compared with a phone call to your rep"
+  },
+  {
+   "num": "24/7",
+   "label": "to send an order, after the sales desk has closed"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Worth Knowing First",
+  "h2": "Why groups look for an alternative to Apicbase",
+  "lead": "Sometimes the search for an Apicbase alternative has nothing to do with recipes or costing. It is about the last step: getting one distributor's order out of the kitchen and into their hands.",
+  "cards": [
+   {
+    "h3": "Not every reorder needs a sign-off",
+    "body": "Apicbase gives head office approvals and approved suppliers for each location, and that control matters. A routine reorder of the same staples may not need it. Where the distributor is on VoiceOrder Solutions, the kitchen can simply say it."
+   },
+   {
+    "h3": "Orders are typed, not spoken",
+    "body": "Apicbase suggests what to order from pars, recipes and forecasts. A person then types or accepts the amounts, and each supplier's order goes out on its own. Apicbase does take spoken stock counts."
+   },
+   {
+    "h3": "Only some distributors are linked",
+    "body": "Apicbase sends orders straight into a few large US distributors and buying platforms. For any other supplier, you add the items yourself and Apicbase emails the order. If a local distributor still gets your order by a call, a text or a rep's visit, that is the order our app can change."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "One step added, no Apicbase alternative to roll out",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Speak the reorder, then look it over",
+    "body": "Open the app at the shelf or in the walk-in and say what the kitchen needs. Each item turns into a line from your guide with that distributor. Correct anything that is off, then send. Nothing goes out until you have checked it.",
+    "bullets": [
+     "Every line is yours to check before sending",
+     "Send it at midnight if that is when the count ends",
+     "Works on an iPhone or Android phone",
+     "Saves 20 to 30 minutes compared with the same order by phone"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "Placing an order, step by step →"
+    }
+   },
+   {
+    "eyebrow": "Your Order Guide",
+    "h3": "A guide your distributor keeps current",
+    "body": "Your distributor enters the items you order from them, at the prices on your account, with their item codes. If a price moves or an item is dropped, they update it. It is the list you would otherwise build yourself in Apicbase for a supplier that is not linked.",
+    "bullets": [
+     "Just the products you buy from them",
+     "Priced the way your account is priced",
+     "Updated on their side when things change",
+     "Same distributor, same rep"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Buying across several suppliers →"
+    }
+   },
+   {
+    "eyebrow": "A Record Of Each Order",
+    "h3": "A number and a time on what you sent",
+    "body": "When you send from the app, the order is stamped with its own number, the date and the time, and a confirmation reaches your phone. When a delivery comes up short, you have the order to point to. A call or a voicemail leaves no such record.",
+    "bullets": [
+     "Each app order numbered, dated and timed",
+     "Confirmed by push notification or text",
+     "Something firm to hold a short delivery against",
+     "Who sent it and when, on record"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "What each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "Apicbase Stays",
+    "h3": "Recipes, pars and counts stay in Apicbase",
+    "body": "Recipe costs, par levels, stock counts and allergen data stay where they are, run from head office as now. The one change: an order for a distributor that has our app can now be spoken.",
+    "bullets": [
+     "Recipe costing left untouched",
+     "Par levels kept where they are",
+     "Allergen and HACCP records unchanged",
+     "Approval rules kept for Apicbase orders"
+    ],
+    "link": {
+     "href": "/restaurant-checklist-software",
+     "text": "Keeping the ordering routine the same at every location →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Use Both",
+  "h2": "Apicbase for the group, VoiceOrder Solutions for one order",
+  "lead": "VoiceOrder Solutions is not an Apicbase competitor or an Apicbase replacement. Head office keeps costing, par levels, approvals and reports in Apicbase. Our app handles one order at a location: the one to a distributor that offers it, said aloud and checked before it goes.",
+  "items": [
+   {
+    "h3": "Voice orders skip Apicbase's sign-off",
+    "body": "An order spoken into our app travels from the kitchen to the distributor without passing through Apicbase. Nobody approves it there, and Apicbase has no record of it when the delivery and the invoice arrive."
+   },
+   {
+    "h3": "Let the Apicbase count set the amounts",
+    "body": "Do the count in Apicbase as you do now and look at what it suggests for that distributor. Then say those amounts into our app, review them and send."
+   },
+   {
+    "h3": "One place per distributor's order",
+    "body": "Where every order to that distributor must be signed off, leave it in Apicbase. Where the everyday reorder needs no sign-off, move that one to our app. Order from each distributor through one channel, so no line goes out twice."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See what a distributor receives",
+  "body": "In 20 minutes we open a demo guide, speak a test order into the app, and show what lands on the distributor's side.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Getting started goes through your distributor",
+  "lead": "Nothing to install on a computer, and nothing for head office to roll out.",
+  "items": [
+   {
+    "h3": "Ask your distributor",
+    "body": "If they work with us, they open an account for your kitchen."
+   },
+   {
+    "h3": "Load the app on your phone",
+    "body": "Sign in, and your guide is there waiting."
+   },
+   {
+    "h3": "Speak, check, then send",
+    "body": "Read down the lines and fix anything before it goes."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Apicbase plans the order. In VoiceOrder Solutions, you say it.",
+  "h2_lines": [
+   "Apicbase plans the order.",
+   "In VoiceOrder Solutions, you say it."
+  ],
+  "eyebrow": "Apicbase, With One Step Added",
+  "lead": "Read the table as a single extra step beside the software you already use. It is not an Apicbase alternative: ticks for recipes, pars, approvals and counts come from Apicbase itself. The rows that differ concern a distributor whose order still goes by phone, by text or through a rep, and they apply only if that distributor has signed up with us.",
+  "heads": [
+   "Feature",
+   "Apicbase + VoiceOrder Solutions",
+   "Apicbase on its own"
+  ],
+  "rows": [
+   {
+    "label": "Recipe costs and margins that update as recipes change",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Order aloud, and fix any line before it goes",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Typed, or filled up to par"
+     }
+    ]
+   },
+   {
+    "label": "Sign-off on orders made in Apicbase",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Item list and prices kept by your distributor",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "You set up suppliers, unless one is linked"
+     }
+    ]
+   },
+   {
+    "label": "Orders to any supplier, by email or a direct link",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Menu engineering and group-wide sales reports",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Apicbase's suggested quantities from pars and forecasts",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Allergens, HACCP checks and food labels",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Stock counts in Apicbase, by barcode or voice",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions from multi-site operators",
+  "items": [
+   {
+    "q": "Do I need an Apicbase alternative to order with my voice?",
+    "a": "No. Apicbase already builds orders and sends them to your suppliers. If one of your distributors gives you our app, you can say that distributor's order aloud instead."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Apicbase?",
+    "a": "Not at recipe costing, menu engineering, stock counts, forecasting or invoice matching: we do none of those. Our job is narrower: your spoken order to your distributor, checked by you before it is sent. If ordering is what prompted your search for an Apicbase alternative, that one job, added beside it, may be enough."
+   },
+   {
+    "q": "Do Apicbase and VoiceOrder Solutions connect?",
+    "a": "No. They are separate products with separate support teams, and no order data passes from one to the other. That is a real trade-off: Apicbase cannot match that delivery or its invoice to an order it never saw."
+   },
+   {
+    "q": "Can every supplier take orders this way?",
+    "a": "No. Only distributors that work with VoiceOrder Solutions can receive them, and that is far fewer suppliers than Apicbase reaches by email and by direct link. Keep Apicbase for the rest, and ask your distributors which of them use our app."
+   },
+   {
+    "q": "Apicbase already takes counts by voice. What does your app add?",
+    "a": "Its voice feature is for counting stock: you say what is on the shelf. Ours is for sending the order: you say what you want to buy from your account's own guide, and it lands with your distributor as an order."
+   },
+   {
+    "q": "I said an item wrong. Can I fix it before it goes?",
+    "a": "Yes. Each line is on screen for you to check before it goes, so change the item or the amount there, or delete the line. Checking is the safeguard, and a quick look can still let a mistake through. Orders you phone in or leave on voicemail are not numbered by us."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "Through your distributor. If they have not mentioned us, or you are unsure, get in touch and we will find out for you. Most kitchens are placing orders the same day. Your distributor supplies the app, so ask them about cost; we post no price list. Apicbase quotes its plans as well, with no prices on its site."
+   },
+   {
+    "q": "Where do the Apicbase details on this page come from?",
+    "a": "Checked on apicbase.com and its help center on 27 October 2026: their product and plans pages, plus support pages about ordering and suppliers. The customer and site counts they publish are theirs and are not repeated here. If anything there is different now, the mistake is ours to fix."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Keep planning in Apicbase. Say the next order aloud.",
+  "body": "Find out whether your distributor uses VoiceOrder Solutions, then try it on your next routine reorder.",
+  "cta": "Ask About Getting Started →"
+ }
+}

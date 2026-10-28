@@ -166,5 +166,82 @@
    ]
   },
   "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android'. Keeps index 4, a verified fact pass 8 promoted."
+ },
+ "wisk-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet, already covered by the hero trust line 'iOS + Android' (operator pages, 2026-10-28)."
+ },
+ "marketman-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet, already covered by the hero trust line 'iOS + Android' (operator pages, 2026-10-28)."
+ },
+ "marginedge-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet, already covered by the hero trust line 'iOS + Android' (operator pages, 2026-10-28)."
+ },
+ "orderly-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet, already covered by the hero trust line 'iOS + Android' (operator pages, 2026-10-28)."
+ },
+ "xtrachef-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet, already covered by the hero trust line 'iOS + Android' (operator pages, 2026-10-28)."
+ },
+ "restaurant365-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet, already covered by the hero trust line 'iOS + Android' (operator pages, 2026-10-28)."
+ },
+ "craftable-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet, already covered by the hero trust line 'iOS + Android' (operator pages, 2026-10-28)."
  }
 }

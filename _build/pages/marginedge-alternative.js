@@ -45,7 +45,7 @@ module.exports = {
       </p>
 
       <div class="hero-ctas">
-        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Get Set Up With VoiceOrder Solutions →</a>
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Check If My Distributor Offers It →</a>
         <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
@@ -366,6 +366,10 @@ module.exports = {
             <li>
               <span class="bullet-check">✓</span>
               <span>Price alerts and recipe costs still come from invoices</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Bill pay and the accounting export carry on</span>
             </li>
           </ul>
           <a href="/restaurant-stock-management-software" class="feature-link">Where ordering fits in your stock routine →</a>

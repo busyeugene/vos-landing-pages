@@ -42,6 +42,15 @@ CONVERTED = {
     'bluecart-alternative': '6cf857fa-6ed9-3570-25c3-04932f604fc8',
     'orderease-alternative': '1a333c59-a1da-9f28-9f66-0be205d7c12b',
     'rekki-alternative': '4048ed5f-2c91-e7b5-05ee-cce1baaabcd1',
+    # The 8 operator pages (2026-10-28) were duplicated from fresho, so they inherit its embed id.
+    'wisk-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
+    'craftable-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
+    'apicbase-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
+    'marketman-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
+    'marginedge-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
+    'orderly-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
+    'xtrachef-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
+    'restaurant365-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
 }
 IC = MAP['icons']
 

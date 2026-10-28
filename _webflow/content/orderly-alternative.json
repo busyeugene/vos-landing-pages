@@ -1,0 +1,330 @@
+{
+ "slug": "orderly-alternative",
+ "meta_title": "Not an Orderly Alternative: Keep Orderly, Add Voice Ordering",
+ "meta_desc": "Speak your next order to a distributor on VoiceOrder Solutions and keep Orderly for food cost from invoices. No Orderly alternative needed: we replace nothing.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not An Orderly Alternative: Speak Your Next Order",
+  "lead": "Read out what you need while you look over the shelves, then send it with an order number, the time, and a confirmation to your phone. It needs a distributor who uses our app: they load your products and your account's prices.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most restaurants send a first order once the account opens"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "back per order, versus calling it in to your rep"
+  },
+  {
+   "num": "24/7",
+   "label": "to send an order, late nights and Sundays included"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Before You Compare",
+  "h2": "What sends owners looking for an alternative to Orderly",
+  "lead": "Orderly, now Back Office by Buyers Edge Platform, is built so you never type an invoice line or count a shelf: it does the cost math for you. Sometimes an owner hunting for an Orderly competitor is weighing the monthly bill; sometimes it is the ordering. Getting the order to your distributor is a separate job, and you can change just that.",
+  "cards": [
+   {
+    "h3": "Built so nobody types or counts",
+    "body": "Orderly promises no data entry and no counts: snap or sync each invoice, and your cost of goods is tracked for you, with a team sending weekly suggestions. That is the core of what the monthly price buys."
+   },
+   {
+    "h3": "A monthly price for each location",
+    "body": "Orderly lists its prices on its website, charged per site and month to month. That openness counts in its favor. A bill is a fair reason to look around, but moving to an Orderly alternative would also mean giving up the data entry Orderly does for you."
+   },
+   {
+    "h3": "Ordering is the part you still do yourself",
+    "body": "Orderly takes the typing and counting off your plate, but each order is still yours: you set up the guides and send each order. For a distributor you phone or text today, that step can change."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Skip the Orderly alternative and add this instead",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Speak the order, look it over, send it",
+    "body": "Open the app at the pass or in the walk-in and say what you need. Each item shows up as a line from that distributor's guide. Change a quantity or drop a line before you send. Nothing goes until you send it.",
+    "bullets": [
+     "Each line is yours to check before it goes",
+     "Send it at 2 a.m. if that is when you get to it",
+     "Works on the phone already in your pocket",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Called away halfway? Pick up where you stopped"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "How placing an order works →"
+    }
+   },
+   {
+    "eyebrow": "Your Order Guide",
+    "h3": "The guide comes from the distributor",
+    "body": "You do not build this guide. The distributor loads what your restaurant buys from them, at the prices set for your account, under their item codes, and updates it when something changes.",
+    "bullets": [
+     "Just your usual items, not their full range",
+     "Priced by the distributor for you",
+     "Kept up to date on their side",
+     "You keep the same distributor and the same rep"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Buying from more than one supplier →"
+    }
+   },
+   {
+    "eyebrow": "Proof Of The Ask",
+    "h3": "A record of what you asked for",
+    "body": "Orderly shows what a delivery cost once its invoice is in. VoiceOrder Solutions keeps the other half: whatever you send in the app is numbered, dated and timed, and a confirmation comes back to your phone. If a delivery comes up short, quote that number instead of a call nobody logged.",
+    "bullets": [
+     "A number on each order sent from the app",
+     "Stamped with the time you sent it",
+     "Confirmed back to you by notification or text",
+     "Orders you phone in or leave on voicemail get no number"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "Tracking what each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "Your Food Cost",
+    "h3": "Orderly keeps reading the invoice",
+    "body": "The truck arrives with an invoice, as it does now. Snap it, scan it or let it sync, the way you send invoices to Orderly today, and that delivery is counted like any other. VoiceOrder Solutions plays no part in that.",
+    "bullets": [
+     "Invoices reach Orderly the way they do now",
+     "Weekly suggestions and recipe costing as before",
+     "Alerts on rising prices still come from each invoice",
+     "Bill pay and reports carry on in Orderly"
+    ],
+    "link": {
+     "href": "/restaurant-stock-management-software",
+     "text": "Ordering as part of your stock routine →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Use Both",
+  "h2": "Orderly shows the cost, VoiceOrder Solutions sends the order",
+  "lead": "We are not an Orderly replacement. Orderly turns your invoices into food cost numbers. VoiceOrder Solutions only carries the order to a distributor on our app: spoken, checked, then sent with a number.",
+  "items": [
+   {
+    "h3": "Orderly will not list that order",
+    "body": "Anything you speak goes straight to your distributor, so that order does not appear in Orderly's ordering screen. If you like to see every order in one list, that is what you give up for this distributor."
+   },
+   {
+    "h3": "Let Orderly's numbers set the list",
+    "body": "Check what is short in Orderly, with its pars if you have that add-on, then speak that list into our app, which your distributor gave you. Your par routine stays; only the sending changes."
+   },
+   {
+    "h3": "Choose Orderly or the app for each distributor",
+    "body": "Send a distributor's orders one way only, so nothing arrives twice. The app helps most with a distributor you call or message today."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See the app from both ends",
+  "body": "Book 20 minutes and we will walk through a sample order: spoken, checked line by line, and shown as the distributor receives it.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "How a restaurant gets the app",
+  "lead": "No computer to set up: everything happens on your phone.",
+  "items": [
+   {
+    "h3": "Ask whether your supplier offers it",
+    "body": "If they offer VoiceOrder Solutions, they open your account and add the products you order from them. Not sure who to ask? Contact us and we will connect you with the right person."
+   },
+   {
+    "h3": "Sign in and find your guide",
+    "body": "Install it on your phone and sign in. Your guide is already there."
+   },
+   {
+    "h3": "Say the order and confirm it",
+    "body": "Speak it, read the lines, then send. Nothing else to learn."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Orderly still shows what the food cost you. Voice only changes how the order gets to them.",
+  "h2_lines": [
+   "Orderly still shows what the food cost you.",
+   "Voice only changes how the order gets to them."
+  ],
+  "eyebrow": "Orderly, Plus One Step",
+  "lead": "One step changes when you add our app: for a distributor that gives you the app, orders are spoken, and you look over each line before it goes. Orderly's invoice-based costing carries on, so this is not an Orderly alternative. Ticks for Orderly's features come from Orderly; the voice rows cover only a distributor with our app.",
+  "heads": [
+   "Feature",
+   "Orderly + VoiceOrder Solutions",
+   "Orderly on its own"
+  ],
+  "rows": [
+   {
+    "label": "Food cost from invoices, no stock counts needed",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Order by speaking it",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Invoices sent in by photo, scan or EDI",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Guide loaded by the distributor, prices included",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Custom guides you create"
+     }
+    ]
+   },
+   {
+    "label": "Orders sent to all your vendors",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Bill pay, accounting and payroll",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Recipe costs and price creep alerts",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Par-based ordering (an Orderly add-on)",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Orders placed from a phone or a desktop",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What owners ask before they try it",
+  "items": [
+   {
+    "q": "Should I look for an Orderly alternative to get voice ordering?",
+    "a": "No. Orderly is food cost management built from your invoices, and ordering is already part of it. Where one of your suppliers hands you our app, orders to them can be spoken instead."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Orderly?",
+    "a": "Not at food cost, invoices, recipe costing or paying bills: we offer none of those. Ours is one narrow job, an order said out loud to your distributor and checked one line at a time. If ordering is what made you look for an Orderly alternative, that job beside Orderly may cover it."
+   },
+   {
+    "q": "Do VoiceOrder Solutions and Orderly connect?",
+    "a": "No. There is no link between them, no data passes either way, and there is no shared support. Each one does its own job."
+   },
+   {
+    "q": "Can I order from every supplier with VoiceOrder Solutions?",
+    "a": "No, only from distributors that offer it. Orderly lets you order from all your vendors, and we cannot, so stay with it for the others. You can also ask your other suppliers whether they use our app."
+   },
+   {
+    "q": "What if I say one item and a different one shows up?",
+    "a": "Fix it or delete it on the review screen before you send. That check is your safeguard, so read it properly: a rushed glance can still let a mistake through. Anything phoned in or left on voicemail gets no order number from us; only orders sent in the app do."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "Through your distributor: once they set up your account, most restaurants put their first order through that same day. Not sure whether yours is on VoiceOrder Solutions? Get in touch, and we can find out for you. As for cost, ask the distributor, since they hand out the app; we list no price of our own. Orderly, by contrast, publishes its prices."
+   },
+   {
+    "q": "Will Orderly still show what that delivery cost?",
+    "a": "Yes. Orderly costs a delivery from its invoice, not from the order, so snap, scan or sync that invoice as you do today and the cost shows up like any other. The spoken order is the only part Orderly never sees."
+   },
+   {
+    "q": "Where do the Orderly details on this page come from?",
+    "a": "From Orderly's two sites, getorderly.com and bepbackoffice.com, as they stood on 27 October 2026: the product, pricing, onboarding and FAQ pages. Any restaurant counts or savings Orderly cites stay off this page. Spot something Orderly has since changed? Tell us and we will correct it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Orderly does the costing. You say what to send.",
+  "body": "Start with your distributor, or write to us and we will find out if they have it.",
+  "cta": "Ask About Getting Started →"
+ }
+}

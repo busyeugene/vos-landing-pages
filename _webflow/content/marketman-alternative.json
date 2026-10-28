@@ -1,0 +1,330 @@
+{
+ "slug": "marketman-alternative",
+ "meta_title": "Not a MarketMan Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Still phoning one distributor? If they offer our app, say the order, check each line and get an order number. Keep MarketMan: no MarketMan alternative needed.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not A MarketMan Alternative: Skip The Supplier Call",
+  "lead": "Instead of the call, speak your list into the VoiceOrder Solutions app, check the lines from your distributor's guide, priced for your account, and send a numbered order. It is for a distributor you phone or order through a rep, and only if that distributor offers it.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most kitchens can start, after the distributor adds them"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "less per order than talking it through on the phone"
+  },
+  {
+   "num": "24/7",
+   "label": "for ordering, even on nights the supplier is closed"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Before You Compare",
+  "h2": "Why people search for an alternative to MarketMan",
+  "lead": "Sometimes the reason to check a MarketMan competitor has nothing to do with the counts or the costing. It starts with how one distributor takes its orders.",
+  "cards": [
+   {
+    "h3": "One supplier still wants a call",
+    "body": "MarketMan sends purchase orders from the web or the mobile app. Some suppliers still work mainly by phone or through the rep, whatever your software sends."
+   },
+   {
+    "h3": "Supplier links depend on the plan",
+    "body": "Each MarketMan plan includes a set number of direct supplier links (EDI), with more on higher plans. A smaller supplier may have no such link to offer."
+   },
+   {
+    "h3": "The count ends after the rep goes home",
+    "body": "MarketMan can show what is short as soon as the night count is done. With a distributor who takes orders over the phone, the order still waits for the rep to pick up next morning, and a MarketMan alternative would not change that."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "No MarketMan alternative needed to change one order",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Say it once, see each line, then send",
+    "body": "Open the app in the storeroom and say what you need from that distributor. The lines appear from the guide set up for your account. Change a quantity or delete a line, and send it only when it looks right.",
+    "bullets": [
+     "Every line is yours to review before it goes",
+     "Send it at midnight if that is when the count is done",
+     "Uses the phone already in your pocket",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Called away halfway? The order is saved"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "More on placing an order by voice →"
+    }
+   },
+   {
+    "eyebrow": "Your Supplier's Guide",
+    "h3": "The distributor keeps your list and prices up to date",
+    "body": "The distributor loads the products you buy from them, at your account's prices, under their item codes. When a price or an item changes, they make the change. MarketMan does this too for suppliers linked to it both ways; this is for the ones that are not.",
+    "bullets": [
+     "Just your usual items, not their whole catalog",
+     "Priced the way your account is priced",
+     "No item list for you to build",
+     "Same distributor, same rep"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Ordering from several suppliers →"
+    }
+   },
+   {
+    "eyebrow": "A Record Of It",
+    "h3": "Each app order carries a number and a time",
+    "body": "Orders you send in the app get an order number, a date and a time stamp, and a confirmation reaches your phone. When a delivery comes up short, you have the order itself to show, not your memory of a call.",
+    "bullets": [
+     "Shows exactly when you sent it",
+     "Confirmed back to you by notification or text",
+     "Easy to hold up against the delivery",
+     "Phone calls and voicemails still get no number from us"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "What each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "Your MarketMan Setup",
+    "h3": "MarketMan still does the counting and costing",
+    "body": "MarketMan keeps every job it does today: counts, pars, recipe costs and invoice scanning. Only one thing changes: the order you used to phone to that one distributor gets spoken instead.",
+    "bullets": [
+     "Stock counts carry on in MarketMan",
+     "Reports work as before",
+     "Invoices still go in by photo or email",
+     "Recipe costs keep updating from your invoices"
+    ],
+    "link": {
+     "href": "/restaurant-stock-management-software",
+     "text": "How ordering fits beside your stock counts →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Use Both",
+  "h2": "Let MarketMan plan the order, then say it to one distributor",
+  "lead": "This is not a MarketMan replacement. MarketMan decides what you need and tracks what it cost. VoiceOrder Solutions carries one part of that: the order to a distributor on our app, spoken on your phone and checked before it goes.",
+  "items": [
+   {
+    "h3": "Spoken orders skip MarketMan's purchase order",
+    "body": "No purchase order gets created in MarketMan, so that order skips any approval you have set up there. MarketMan does not see that order; its invoice goes in the way it does today."
+   },
+   {
+    "h3": "Count, check the pars, then speak what is short",
+    "body": "Run your usual MarketMan count and let its pars show what is short from that distributor. Then open our app, say that list, and look over each line before you send."
+   },
+   {
+    "h3": "Best for routine reorders",
+    "body": "It suits reorders that need no sign-off. If every order to a distributor needs approval, or that distributor is linked both ways to MarketMan, keep it in MarketMan. Send each distributor's orders from one app only, so the same order never goes out twice."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See how an order travels from the storeroom to the supplier",
+  "body": "In 20 minutes, see an example guide in the app, a practice order read out and corrected, and the copy that reaches the distributor.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, starting with your distributor",
+  "lead": "Your distributor handles the setup, so no computer or new hardware is needed.",
+  "items": [
+   {
+    "h3": "Check your distributor has the app",
+    "body": "If they do, they open an account for you and upload your guide. Not sure? Get in touch and we can check for you."
+   },
+   {
+    "h3": "Log in on your phone",
+    "body": "Download the app and sign in; your guide is already loaded."
+   },
+   {
+    "h3": "Read out the order, then send",
+    "body": "Speak the order, check it, and send. You are done."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "What MarketMan does, in both columns. What ordering by voice adds.",
+  "h2_lines": [
+   "What MarketMan does, in both columns.",
+   "What ordering by voice adds."
+  ],
+  "eyebrow": "Both Columns Keep MarketMan",
+  "lead": "Speaking the order, from the distributor's own guide, is what the combined column adds. If you came here weighing a MarketMan alternative, this shows what changes if you keep MarketMan instead. Every tick for counting, costing and approvals is MarketMan's own; spoken ordering works only with distributors on our app.",
+  "heads": [
+   "Feature",
+   "MarketMan + VoiceOrder Solutions",
+   "MarketMan on its own"
+  ],
+  "rows": [
+   {
+    "label": "Counts, pars and a suggested order",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Say the order aloud, then check each line",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Invoice scanning and food cost tracking",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Items and prices kept current by the supplier",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Linked suppliers and distributors on our app"
+     },
+     {
+      "t": "text",
+      "v": "For linked suppliers"
+     }
+    ]
+   },
+   {
+    "label": "Two-way links with some large distributors",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Central kitchen and commissary ordering",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Recipe and menu costing",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A mobile app for iOS and Android",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Approvals and transfers, on orders made in MarketMan",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions from operators who run MarketMan",
+  "items": [
+   {
+    "q": "Do I need a MarketMan alternative to start speaking my orders?",
+    "a": "No. MarketMan already turns your counts and pars into an order and passes it to your suppliers. Where one of your distributors has our app, you can order from that one by voice instead."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than MarketMan?",
+    "a": "For counts, pars, suggested orders, invoices, recipe costs or approvals across locations, no: we do none of those. We do one job: you say an order in our app for one distributor and check each item first. Where MarketMan has a two-way link with a supplier, we add little for that supplier. If phoning one distributor is what made you look for a MarketMan alternative, that one job may be enough."
+   },
+   {
+    "q": "Do VoiceOrder Solutions and MarketMan connect?",
+    "a": "No. They are separate, and neither one's support team covers the other. Orders said in our app go only to your distributor, so MarketMan never sees them."
+   },
+   {
+    "q": "How do I receive a delivery I ordered by voice?",
+    "a": "MarketMan holds no order for it, so check what arrives against your confirmation and its order number. Then enter the invoice in MarketMan as usual."
+   },
+   {
+    "q": "Can I order from every supplier in the app?",
+    "a": "Only from the distributors that run VoiceOrder Solutions. MarketMan can order from far more suppliers than we reach. Keep those in MarketMan, and ask your other suppliers whether they have our app."
+   },
+   {
+    "q": "What if the app gets an item or a quantity wrong?",
+    "a": "You fix it on the review screen before you send: change the item or the amount, or delete the line. That check is the safeguard, and a rushed look can still let a mistake through. An order made by phone or left on voicemail gets no order number from us; only app orders do."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "Your distributor opens your account, and most kitchens send their first order on the day it opens. If your distributor does not have the app, or you cannot tell, contact us and we will put you in touch with whoever handles it. On price, check with your distributor: the app reaches you through them, and we list no price of our own. MarketMan publishes its plans."
+   },
+   {
+    "q": "Where do the MarketMan details on this page come from?",
+    "a": "From marketman.com as we read it on 27 October 2026: their features, published plans and partner list. We found no voice ordering there on that date. We have left MarketMan's customer and savings claims off this page. If something has changed, tell us and we will correct it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Count in MarketMan, then send that distributor's order with no phone call",
+  "body": "Ask your distributor whether they offer VoiceOrder Solutions, or ask us and we will find out.",
+  "cta": "Ask About Getting Started →"
+ }
+}

@@ -38,7 +38,8 @@ BUTTON = 'See how it fits'
 # head to head, and the brand is spelled out in full.
 HEADER = {
     'h1': 'Add Voice Ordering To The Platform You Already Run',
-    'lead': 'Twelve pages, one per platform distributors ask us about. Each shows what that platform already does, and what changes when your accounts can also speak an order into VoiceOrder Solutions. Every competitor detail was read off their own site and dated on the page.',
+    # 2026-10-28: the hub now holds distributor AND restaurant pages, so the lead names both.
+    'lead': 'One page per platform that distributors and restaurants ask us about. Each shows what that platform already does, and what changes when orders can also be spoken into VoiceOrder Solutions. Every competitor detail was read off their own site and dated on the page.',
     'h2': 'Pick the platform you run today',
 }
 
@@ -71,6 +72,43 @@ CARDS = [
      'Fresho keeps running the operation. Your kitchens add a spoken order they confirm line by line.'),
 ]
 
+# The 8 operator (restaurant-side) pages, 2026-10-28. Their cards were copied from the Fresho card
+# (temporary component, unlinked, unregistered), so their element ids are NOT in free-tools.json:
+# they live in newcards.json, in grid order. Same icon and button label as every other card.
+OPERATOR_CARDS = [
+    ('wisk-alternative', 'WISK',
+     'WISK keeps the bar count and pour cost. Speak the food order to a distributor that offers our app.'),
+    ('craftable-alternative', 'Craftable',
+     'Craftable keeps approvals and budgets. Speak the routine reorders that need no sign-off.'),
+    ('apicbase-alternative', 'Apicbase',
+     'Plan in Apicbase from recipes and pars. Say the order aloud to a distributor on our app.'),
+    ('marketman-alternative', 'MarketMan',
+     'MarketMan keeps counts and pars. Skip the call to the distributor you still phone.'),
+    ('marginedge-alternative', 'MarginEdge',
+     'MarginEdge keeps invoices and food cost. Speak the order your distributor gets before the truck.'),
+    ('orderly-alternative', 'Orderly',
+     'Orderly works out food cost from invoices. Speak the next order to a distributor on our app.'),
+    ('xtrachef-alternative', 'xtraCHEF',
+     "xtraCHEF keeps invoices and recipe costs. Order from your distributor's own guide, at your price."),
+    ('restaurant365-alternative', 'Restaurant365',
+     'Restaurant365 keeps the books. Speak the order you would otherwise phone in.'),
+]
+
+
+def operator_card_ops():
+    import json as _j
+    nc = _j.load(io.open(os.path.join(HERE, 'newcards.json'), encoding='utf-8'))
+    assert len(nc) == len(OPERATOR_CARDS)
+    ops = []
+    for i, ((slug, title, desc), c) in enumerate(zip(OPERATOR_CARDS, nc)):
+        ops += [
+            {'label': 'o%d-link' % i, 'set_link': {'id': eid(c['link']), 'linkType': 'page', 'link': PAGES['compare'][slug]}},
+            {'label': 'o%d-title' % i, 'set_text': {'id': eid(c['title']), 'text': title}},
+            {'label': 'o%d-desc' % i, 'set_text': {'id': eid(c['desc']), 'text': desc}},
+            {'label': 'o%d-btn' % i, 'set_text': {'id': eid(c['button']), 'text': BUTTON}},
+        ]
+    return ops
+
 
 def eid(e):
     return {'component': PAGE_ID, 'element': e}
@@ -78,6 +116,8 @@ def eid(e):
 
 def main():
     what = sys.argv[1] if len(sys.argv) > 1 else 'all'
+    if what == 'operator':
+        print(json.dumps(operator_card_ops(), ensure_ascii=False)); return
     compare = PAGES['compare']
     ftc = FT['cards']
     if len(CARDS) > len(ftc):

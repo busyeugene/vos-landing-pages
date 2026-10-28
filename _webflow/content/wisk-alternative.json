@@ -1,0 +1,330 @@
+{
+ "slug": "wisk-alternative",
+ "meta_title": "Not a WISK Alternative: Keep WISK, Add Voice Ordering",
+ "meta_desc": "Keep counting in WISK and speak your food order to a distributor on VoiceOrder Solutions, checking each line. Not a WISK alternative: one more tool beside it.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not A WISK Alternative: Speak The Food Order",
+  "lead": "Speak your food order instead of emailing a list. If your distributor has our app, you say what you need from their guide, with the prices they charge you, review the lines and send. It reaches them numbered and timed, and you get a confirmation.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most venues get their first order in"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "saved per order against the same call to your rep"
+  },
+  {
+   "num": "24/7",
+   "label": "open for orders, after the bar closes too"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Before You Look Elsewhere",
+  "h2": "Why bars and restaurants look for an alternative to WISK",
+  "lead": "WISK does the bar count and pour cost very well, so a search for a WISK competitor is sometimes about something else: the cost per location, or how food orders reach the distributor.",
+  "cards": [
+   {
+    "h3": "It grew up behind the bar",
+    "body": "WISK leads with the beverage program: a bottle database, a Bluetooth scale for partial bottles, and pours checked against your sales. Food ordering is there too, built from your pars, but the bar is what it is built around."
+   },
+   {
+    "h3": "The price is set per location",
+    "body": "WISK publishes its prices per location, with beverage, food or both sold as separate plans. That is more open than many. Owners comparing the cost sometimes look around, but a cheaper count and a quicker food order are two different questions."
+   },
+   {
+    "h3": "WISK sends the rep an email or a text",
+    "body": "WISK sends a food order to the rep by email, and by text if you add a mobile number, and shows when it was opened. A rep then has to read it. That step is between you and your distributor, so you can change it without touching WISK."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Ordering food needs no WISK alternative",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Read the lines before anything is sent",
+    "body": "Open the app and say what the kitchen needs from your distributor. Each item shows up as a line from your guide. Change a quantity or drop a line, then send. Nothing goes until you choose to send it.",
+    "bullets": [
+     "Each line is yours to check before sending",
+     "Open around the clock, long after the rep's office closes",
+     "Your own iPhone or Android, no extra device",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Called away to the bar? Pick up the order where you stopped"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "Step by step: placing an order →"
+    }
+   },
+   {
+    "eyebrow": "The Distributor's Guide",
+    "h3": "The guide comes from the distributor",
+    "body": "Your distributor loads the products you buy from them, at the prices they set for your account, under their item codes. You do not build or keep this list. When they change an item or a price, they update the guide.",
+    "bullets": [
+     "Just your usual items, not the full catalog",
+     "Your account's own prices",
+     "Updated on their side",
+     "Same distributor and the same rep"
+    ],
+    "link": {
+     "href": "/restaurant-checklist-software",
+     "text": "Keeping ordering steady across shifts →"
+    }
+   },
+   {
+    "eyebrow": "Order Records",
+    "h3": "A numbered order on the distributor's side",
+    "body": "An order sent in the app reaches the distributor with an order number, the date and the time, and you get a confirmation. When a case is short, you have a record to point to.",
+    "bullets": [
+     "Each app order carries a number, date and time",
+     "Confirmed to you by notification or text",
+     "Settle a short delivery with facts",
+     "Shows who ordered and when"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "What each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "Your Count And Costs",
+    "h3": "WISK still counts, costs and reads invoices",
+    "body": "Counting, the scale, pour cost and recipes stay WISK's job. When the food delivery arrives, its invoice goes into WISK the way it does today, so your food cost still counts it.",
+    "bullets": [
+     "Counts and pars untouched",
+     "Variance reports as before",
+     "Menu costing as it is",
+     "POS and QuickBooks links as they are"
+    ],
+    "link": {
+     "href": "/restaurant-stock-management-software",
+     "text": "Stock checks and the order that follows →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Use Both",
+  "h2": "WISK for the bar, your voice for the kitchen order",
+  "lead": "This is not a WISK replacement, and not a WISK alternative either. WISK counts the stock and costs the menu. Our app does one job: getting a kitchen order to a distributor that uses it, spoken and checked first.",
+  "items": [
+   {
+    "h3": "Voice orders stay out of WISK",
+    "body": "You speak only the orders to food suppliers on our app; everything else is still ordered in WISK. Those spoken orders will not show in WISK's order list, because the two do not connect, but their invoices come into WISK as usual."
+   },
+   {
+    "h3": "Use WISK's pars as your list",
+    "body": "Count in WISK as you do now and let its pars show what is short. Then say the food you need into our app."
+   },
+   {
+    "h3": "Order each distributor in one place",
+    "body": "Order from each food distributor one way only, so the same order is never sent twice. Once a distributor's orders go through our app, stop sending them from WISK."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See how a distributor's guide becomes a sent order",
+  "body": "In 20 minutes, a sample food order is spoken, checked one line at a time, then received at the distributor's end.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Getting going takes three steps",
+  "lead": "Setup happens on your distributor's side. You download the app and order.",
+  "items": [
+   {
+    "h3": "Ask the distributor first",
+    "body": "Your distributor creates the account and adds your guide, if it offers VoiceOrder Solutions."
+   },
+   {
+    "h3": "Get the app on your phone",
+    "body": "Sign in, and the guide your distributor built is there."
+   },
+   {
+    "h3": "Talk it through, then send",
+    "body": "Talk through the order, check what came up, then tap send."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "WISK as you run it today. Plus your voice, for one distributor's order.",
+  "h2_lines": [
+   "WISK as you run it today.",
+   "Plus your voice, for one distributor's order."
+  ],
+  "eyebrow": "WISK Today, One Step Added",
+  "lead": "Only the voice-ordering rows change between these two columns. The ticks for counting, pour cost, invoices and recipes come from WISK itself, and they stay ticked either way. Those voice rows apply only to a distributor that runs our app: one step added beside WISK, not a WISK alternative.",
+  "heads": [
+   "Feature",
+   "WISK + VoiceOrder Solutions",
+   "WISK on its own"
+  ],
+  "rows": [
+   {
+    "label": "Counts by barcode scan and Bluetooth scale",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Spoken order, reviewed before sending",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Order filled from your pars"
+     }
+    ]
+   },
+   {
+    "label": "Pour cost, usage and variance",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Guide built by the distributor, at your account's prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Your own item list in WISK"
+     }
+    ]
+   },
+   {
+    "label": "Invoices read by AI, synced to QuickBooks",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Numbered and dated when the distributor gets it",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "An email or text for the rep"
+     }
+    ]
+   },
+   {
+    "label": "Send orders to any supplier you buy from",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Recipe and cocktail costing",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "An app on your phone for ordering",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions owners ask before adding it",
+  "items": [
+   {
+    "q": "Do I need a WISK alternative to speak my food orders?",
+    "a": "No. WISK handles your counts and costs, and it can already send your suppliers an order. If one of your food suppliers has our app, your orders to them can be spoken instead."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than WISK?",
+    "a": "Not at counting bottles, weighing partials, pour cost or reading invoices: we do none of those. We do one smaller job: an order to your distributor, said aloud and looked over before it goes. If ordering is why you started looking at a WISK alternative, that job may be all you need, alongside WISK."
+   },
+   {
+    "q": "Do VoiceOrder Solutions and WISK connect?",
+    "a": "No. There is no link of any kind, no data passes between them, and each of us supports our own product alone. An order you speak goes straight to your distributor."
+   },
+   {
+    "q": "Can I keep ordering beer, wine and liquor in WISK?",
+    "a": "Yes. Our app covers only food distributors that offer it. Your beverage wholesalers, and any other supplier without our app, keep getting orders from WISK, which can send to any supplier at all."
+   },
+   {
+    "q": "What if the app picks the wrong item?",
+    "a": "You see each line before you send, so fix the item, change the amount, or delete the line. That review is your safeguard, and a quick look can still let a wrong line through. Orders by phone or voicemail get no order number from us; only orders sent in the app carry one."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "Through your distributor: they set you up and add your guide. Not sure they offer it? Contact us and we'll connect you with the right person. Most kitchens place a first order the same day. For cost, check with the distributor: the app comes from them, and we publish no price. WISK lists its prices on its own site."
+   },
+   {
+    "q": "WISK already emails my order to the rep. What changes?",
+    "a": "What the distributor receives. From WISK, the rep gets an email or a text. Spoken in our app, it lands as lines from the distributor's guide, with its own number and the time of sending, and a confirmation comes back to you."
+   },
+   {
+    "q": "Where do the WISK details on this page come from?",
+    "a": "From wisk.ai and the WISK help center, read on 27 October 2026: the feature pages, the plans page and the help articles on ordering. Their savings figures and customer counts are theirs and are left off this page. If any of it is out of date, the error is ours."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Let WISK run the bar, and talk your next food order through.",
+  "body": "Check with your distributor about VoiceOrder Solutions, or contact us and see a spoken food order reach a distributor.",
+  "cta": "Ask About Getting Started →"
+ }
+}

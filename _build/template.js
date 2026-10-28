@@ -67,8 +67,8 @@ for (const p of registry) {
   const tItems = [...trust.matchAll(/<span>([^<]*)<\/span>/g)].map(m => m[1]);
   if (tItems.length !== 3) fail(`hero trust items ${tItems.length}`);
   const heroBtn = txt((hero.match(/<a [^>]*btn-primary[^>]*>([\s\S]*?)<\/a>/) || [])[1] || '');
-  // Compare pages spell the brand in full (client, 2026-10-21), so the operator label does too.
-  const wantHero = op ? (isCmp ? 'Get Set Up With VoiceOrder Solutions →' : 'Get Set Up With VOS →') : 'Book a Free Demo →';
+  // Operator compare pages say what the click does (Eugene, 2026-10-28, after a buyer review).
+  const wantHero = op ? (isCmp ? 'Check If My Distributor Offers It →' : 'Get Set Up With VOS →') : 'Book a Free Demo →';
   if (heroBtn !== wantHero) fail(`hero CTA "${heroBtn}", want "${wantHero}"`);
 
   // Stats

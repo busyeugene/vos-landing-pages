@@ -50,7 +50,7 @@ module.exports = {
       </p>
 
       <div class="hero-ctas">
-        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Get Set Up With VoiceOrder Solutions →</a>
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Check If My Distributor Offers It →</a>
         <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
       </div>
 
@@ -335,6 +335,10 @@ module.exports = {
               <span class="bullet-check">✓</span>
               <span>Phoning the rep or leaving a message gets none of this</span>
             </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Useful when you check a delivery against your order</span>
+            </li>
           </ul>
           <a href="/supplier-management-software" class="feature-link">What each supplier confirmed →</a>
         </div>
@@ -367,6 +371,10 @@ module.exports = {
             <li>
               <span class="bullet-check">✓</span>
               <span>Planning and par checks still happen there</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Bills and payroll keep running there</span>
             </li>
           </ul>
           <a href="/restaurant-stock-management-software" class="feature-link">How ordering fits with your stock →</a>
