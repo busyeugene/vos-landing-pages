@@ -8,3 +8,6 @@ _webflow/calc-sections/scratch/raw/
 # V2 quiz rollout (2026-10-19): regenerable by _webflow/quiz-v2/split.py and scan_trees.py
 _webflow/quiz-v2/test4/
 _webflow/quiz-v2/trees/
+
+# Agent worktrees from parallel page builds (2026-10-27); disposable copies of the repo
+.claude/worktrees/

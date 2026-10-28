@@ -10,6 +10,24 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
 ## ▶ RESUME HERE: 2026-10-28, the 8 OPERATOR compare pages are IN WEBFLOW as verified DRAFTS
+**Start here in a fresh session. Open items, in priority order (none started):**
+1. **Take the 8 operator pages out of draft BEFORE the next site publish** (`bulk_update_pages`
+   `draft: false` on the 8 ids in `_webflow/pages.json` `compare`). The `/alternatives` hub is
+   published and already links to them; publishing without un-drafting ships 8 dead links.
+   Eugene publishes; we never call `publish_site`.
+2. **Look at rendered pages** in the Designer preview (all 20 compare pages and the hub): every
+   check so far is string level, and the block order just changed on 19 pages.
+3. **Re-check Craftable's "Voice Audit AI"** (craftable.com/craftable-ai, "Coming Soon", roadmap
+   names "purchasing, and voice") before the Craftable page publishes.
+4. **Supplier-management JSON-LD** in `_webflow/schema/` changed (no `isAccessibleForFree` on
+   operator pages) but is NOT pushed to that live page. Offered, not asked for.
+5. Placeholder testimonials (`[Customer Name]`, 2 per compare page) need real quotes.
+6. Carried from earlier: the 10 batch-4 feature pages' JSON-LD pricing basis, quiz result-box
+   overclaims, the 26 feature pages' stuck FAQs, HubSpot hidden fields (see sections below).
+The review rules every operator compare page now follows are in
+`_build/research/operator-compare-review-rules-2026-10-27.md` (the shared fix list from the
+three-pass review). Re-read it before editing any of the 8.
+
 Eugene: hero button on these 8 = "Check If My Distributor Offers It →" (repo; Webflow label without
 the arrow; template.js enforces it for operator compare pages only), and "move everything into
 Webflow". Done, nothing published (never call publish_site):
@@ -51,8 +69,8 @@ layout 0, promote 1/11 each), pushed (`a2b620d`). Digests, dated 2026-10-27, in
 `_build/research/competitors/<x>.md`.
 - **Operator frame:** "you" = the restaurant; VoiceOrder Solutions comes through its distributor
   and reaches ONLY distributors that offer it; cost questions go to the distributor; hero CTA
-  "Get Set Up With VoiceOrder Solutions →" (template.js accepts the full brand on compare
-  pages), final CTA "Ask About Getting Started →". The 8 slugs are in the OPERATOR sets of
+  now "Check If My Distributor Offers It →" (Eugene, 2026-10-28; template.js enforces it on operator
+  compare pages only), final CTA "Ask About Getting Started →". The 8 slugs are in the OPERATOR sets of
   `template.js` and `claims.js`. Eugene said "extension"; the copy says keep/add beside, and an
   FAQ says the two do not connect (his own October call: "extension" implies a link).
 - **Findings that shape every page:** all 8 tools already order from ANY supplier (conceded);
@@ -340,7 +358,7 @@ Some target keywords belong to a different buyer than VOS serves (ecommerce, war
 14. Related pages — `.related-strip`, 3 cluster-sibling cards + a link back to `/`
 15. Final CTA — gradient bg, h2 + email form + trust line. Links to `voiceordersolutions.com/contact-us`.
 
-**CTA labels by audience.** Distributor pages: "Book a Free Demo →" (hero, mid, final). Operator pages: hero "Get Set Up With VOS →", mid "Book a Free Demo →", final "Ask About Getting Started →" (a restaurant's real next step is its distributor, not a software demo). No "Join distributors who…" lines: they imply social proof we can't back.
+**CTA labels by audience.** Distributor pages: "Book a Free Demo →" (hero, mid, final). Operator pages: hero "Get Set Up With VOS →" (operator COMPARE pages: "Check If My Distributor Offers It →", Eugene 2026-10-28), mid "Book a Free Demo →", final "Ask About Getting Started →" (a restaurant's real next step is its distributor, not a software demo). No "Join distributors who…" lines: they imply social proof we can't back.
 16. Footer — 4-col grid: brand, Features, More From VOS (cross-cluster links), Company. `#1a0f47` bg
 
 ### Required in `<head>` on every page
