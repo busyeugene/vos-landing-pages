@@ -32,6 +32,12 @@ Webflow". Done, nothing published (never call publish_site):
 - **/alternatives hub:** 8 cards added (copied from the Fresho card via a temporary component,
   unlinked, unregistered: 0 left), brand-only titles, new lead for both audiences, JSON-LD now
   20 items. Card ids in `_webflow/newcards.json`; copy in `gen-alternatives.py` OPERATOR_CARDS.
+- **Block order (Eugene, 2026-10-28: "like Pepper, table after the hero"), all 20 compare pages in
+  Webflow:** Navbar, hero, stats strip, comparison table (`uui-section_pricing11`), problem cards,
+  features, how-it-works, testimonials, integrations, coexistence (`tools-section`, holds the
+  mid-CTA), FAQ, Main CTA, footer. 19 pages had the table near the bottom and the coexistence block
+  before how-it-works; fixed with two `move_element` calls each and re-read (13/13 children in order,
+  no extra top-level elements). Saved, not published. The repo `compare` order already matched.
 - ⚠ **Before the next site publish:** the hub is PUBLISHED and its 8 new cards link to the DRAFT
   pages. Take the 8 out of draft first (or the hub ships dead links). Still nobody has looked at a
   rendered page (Designer preview), and Craftable's "Voice Audit AI" needs a re-check.
