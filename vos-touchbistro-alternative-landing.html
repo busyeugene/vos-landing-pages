@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not a TouchBistro Alternative: Keep It, Add Voice Ordering</title>
+  <meta name="description" content="If the POS is the problem, you need another one. If it's the supply order, speak it to a distributor that offers our app. No TouchBistro alternative needed." />
+  <link rel="canonical" href="https://vos-landing-pages.vercel.app/touchbistro-alternative" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VoiceOrder Solutions" />
+  <meta property="og:title" content="Not a TouchBistro Alternative: Keep It, Add Voice Ordering" />
+  <meta property="og:description" content="If the POS is the problem, you need another one. If it's the supply order, speak it to a distributor that offers our app. No TouchBistro alternative needed." />
+  <meta property="og:url" content="https://vos-landing-pages.vercel.app/touchbistro-alternative" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Not a TouchBistro Alternative: Keep It, Add Voice Ordering" />
+  <meta name="twitter:description" content="If the POS is the problem, you need another one. If it's the supply order, speak it to a distributor that offers our app. No TouchBistro alternative needed." />
+
+<style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+
+    /* ── Related Pages Strip ──────────────────────────────────── */
+    .related-strip { background: var(--color-light-bg); border-top: 1px solid #e4e7ed; padding: 72px 24px; }
+    .related-head  { text-align: center; max-width: 620px; margin: 0 auto 44px; }
+    .related-grid  { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: var(--max-width); margin: 0 auto; }
+    .related-card  {
+      display: flex; flex-direction: column; background: #fff;
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 26px;
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .related-card:hover { box-shadow: 0 12px 32px rgba(45,27,110,0.10); transform: translateY(-3px); border-color: #d6dbe6; }
+    .related-card-kw {
+      align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--color-primary); background: #ede9fe;
+      padding: 5px 10px; border-radius: 6px; margin-bottom: 16px;
+    }
+    .related-card h3 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
+    .related-card p  { font-size: 14.5px; color: var(--color-text-muted); margin-bottom: 18px; flex-grow: 1; line-height: 1.55; }
+    .related-card-link { font-size: 14px; font-weight: 600; color: var(--color-accent); }
+    @media (max-width: 900px) { .related-grid { grid-template-columns: 1fr; } }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need a TouchBistro alternative to speak a supply order?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. All it takes is a distributor with our app. Then you talk that order into the app, so there is no call to make."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is VoiceOrder Solutions better than TouchBistro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The two are built for separate jobs. Payments, tables, tableside orders, guest online orders, staff and stock counts: we do none of these, and we are not a POS. Ours is the order to a distributor on our app, spoken aloud and checked one item at a time. In TouchBistro's add-ons, you put each order together on screen; if you prefer to say it, that takes no TouchBistro alternative."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do VoiceOrder Solutions and TouchBistro connect?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. They are separate companies, each with its own help desk, and they share no data. Whatever you say in our app is sent to your distributor alone; neither TouchBistro nor a tool linked to it gets a copy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "If my reason for leaving is the POS itself, will this help?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not with that part. Payments, tables or menu screens need a different POS, and we do not make one. If you move to another POS later, ordering in our app carries on as before, because it was never connected to TouchBistro."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "I already order through TouchBistro Inventory Management. How does this fit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Stay with it for the vendors you order from online or by email. Where a distributor has our app, you can speak that order instead. Send each distributor's order from one place only, so nothing is ordered twice."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if I say \"six\" and the screen shows sixteen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You catch it on the review screen before sending: change the amount, swap the item, or delete the line. That review is the safeguard, so a hurried glance can still let a mistake through. A phoned-in or voicemail order gets no number from us; only orders placed in the app carry one."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get set up, and what does it cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Through your distributor: they open your account, and most kitchens place a first order the same day. If yours does not have it, order from them as you do today, and get in touch: we will work out who you should talk to. For cost, ask the distributor you would get the app from; we publish no price. TouchBistro lists prices for its POS plans and gives quotes for its back-office tools."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do the TouchBistro details on this page come from?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "From touchbistro.com as we read it on 9 November 2026: its POS page, the pages for both back-office add-ons, plus pricing and integrations. On that date we saw nothing there about ordering supplies by speaking. Inventory Management is offered in the continental US and in Canada outside Quebec. We left out TouchBistro's own customer counts and savings claims. If any of it has gone out of date, send us a note and we will put it right."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "VoiceOrder Solutions Features",
+        "item": "https://vos-landing-pages.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "TouchBistro + VoiceOrder Solutions",
+        "item": "https://vos-landing-pages.vercel.app/touchbistro-alternative"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "If the POS is the problem, you need another one. If it's the supply order, speak it to a distributor that offers our app. No TouchBistro alternative needed.",
+    "url": "https://vos-landing-pages.vercel.app/touchbistro-alternative",
+    "publisher": {
+      "@type": "Organization",
+      "name": "VoiceOrder Solutions",
+      "url": "https://www.voiceordersolutions.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">For Restaurant Operators</span>
+      <h1>Not A TouchBistro Alternative: Change Only Your Ordering</h1>
+      <p class="lead mt-16">
+        If supply ordering, not service, is why you are looking, keep your POS and speak your orders into our app. Look over each line from your distributor's order guide (your regular items, priced for your account), then send, and the order gets a number. This needs a distributor that has VoiceOrder Solutions.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Check If My Distributor Offers It →</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See The Table</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>For kitchen supply orders</span>
+        <span class="hero-trust-dot"></span>
+        <span>Via your distributor</span>
+        <span class="hero-trust-dot"></span>
+        <span>TouchBistro stays as is</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
+      <div class="img-placeholder tall">
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by food distributors and the restaurants they serve</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">saved per order, compared with calling your rep</div>
+    </div>
+    <div>
+      <div class="stat-number">Same Day</div>
+      <div class="stat-label">is when most kitchens get started, after the distributor adds them</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">to place supply orders, after service or before opening</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: COMPARISON TABLE
+     Not a head-to-head. Column 2 is the restaurant with both tools, column 3 with TouchBistro
+     alone. Service, counts, suggested orders, emailed and online purchase orders, costing,
+     partner tools and the mobile app are ticks in BOTH. Only rows 2, 5 and 7 differ.
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
+      <span class="eyebrow">Your POS Stays Put</span>
+      <h2>TouchBistro + VoiceOrder Solutions<br>vs TouchBistro on its own</h2>
+      <p class="lead mt-16">
+        Here is what changes for the food you buy, not the meals you sell. The ticks for service, counts and purchase orders are TouchBistro's own, some from add-ons it sells. Voice ordering adds a spoken, checked order with distributors on our app, and needs no TouchBistro alternative.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:40%;">Feature</th>
+            <th class="highlight" style="width:30%;">TouchBistro + VoiceOrder Solutions</th>
+            <th style="width:30%;">TouchBistro on its own</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tables, payments and tableside orders</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Say what you need, then look over the lines</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Not listed on their site</td>
+          </tr>
+          <tr>
+            <td>Counts and a suggested order for each vendor</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Purchase orders emailed, or sent online to some vendors</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Items and prices loaded by the distributor before you order</td>
+            <td>For distributors on our app</td>
+            <td>Prices updated from invoices, with Profit Management</td>
+          </tr>
+          <tr>
+            <td>Recipe costing and food cost reports</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Order confirmed back to your phone</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Not described on their site</td>
+          </tr>
+          <tr>
+            <td>Partner inventory tools linked to the POS</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>An app for iPhone and Android phones</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: WHY OPERATORS LOOK ELSEWHERE
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container">
+    <div class="text-center" style="max-width: 680px; margin: 0 auto;">
+      <span class="eyebrow">Which Reason Is Yours?</span>
+      <h2>Why people look for a TouchBistro competitor</h2>
+      <p class="lead mt-16">
+        An alternative to TouchBistro means swapping the POS and retraining every server on it. Sometimes the reason is service. Sometimes it is how you order from your distributor, and that part can change on its own.
+      </p>
+    </div>
+
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="problem-icon">💳</div>
+        <h4>If it's the register or the floor</h4>
+        <p class="text-muted mt-12">
+          If the reason is payments, the floor plan or the menu screens, the TouchBistro alternative you need is another POS. VoiceOrder Solutions is not one.
+        </p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">📞</div>
+        <h4>Supply ordering is sold separately</h4>
+        <p class="text-muted mt-12">
+          TouchBistro sells supply ordering in two add-ons, Inventory Management and Profit Management, quoted apart from the POS. If you run neither, and no partner tool, your distributor gets the order as it does today: by phone, by message or through the rep.
+        </p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">📧</div>
+        <h4>Built on screen, not spoken</h4>
+        <p class="text-muted mt-12">
+          Inventory Management turns the suggestion for each vendor into a PO (purchase order). It emails the PO, or sends it online to select vendors. Both paths have you build the order on a screen. Neither, on their site, has you say it aloud.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE DEEP-DIVE
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+    <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
+      <span class="eyebrow">What You Get</span>
+      <h2>If the food order is the problem, no TouchBistro alternative is needed</h2>
+    </div>
+
+    <!-- Feature 1 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Voice Ordering</span>
+          <h3>Say your list standing in the walk-in</h3>
+          <p class="mt-12 text-muted">
+            In the walk-in or dry storage, say what you need into the app. What you say shows up as lines from your order guide. Fix an amount or remove a line, then send.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Nothing goes until you have checked the lines</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Order at 1 a.m. if that is when you finish</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Works on the iPhone or Android phone you carry</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Pulled onto the floor mid-order? It waits, saved</span>
+            </li>
+          </ul>
+          <a href="/order-entry-software" class="feature-link">How placing an order by voice works →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Push to Speak,<br>then the line-by-line<br>review screen
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 2 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">The Distributor's List</span>
+          <h3>Your usual items, already priced for your account</h3>
+          <p class="mt-12 text-muted">
+            The distributor loads the products you buy from them, at the prices they set for your account, under their own item codes, and can change that guide from their side.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Only what you normally buy, not their full catalog</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>The prices on your account, line by line</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>No product list for you to type in</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Your rep stays your rep</span>
+            </li>
+          </ul>
+          <a href="/restaurant-purchasing-software" class="feature-link">Buying from several suppliers →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>The order guide,<br>with your<br>account prices
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 3 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Your Copy Of The Order</span>
+          <h3>Numbered, dated and timed, every time you send in the app</h3>
+          <p class="mt-12 text-muted">
+            When you send from the app, you get a number, the day and the time on the order, and a confirmation reaches your phone. If cases are missing when it arrives, give your rep that number.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Records the minute you sent it</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Confirmation by notification or text</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>A number to quote when something is missing</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Calls and voicemails still get no number from us</span>
+            </li>
+          </ul>
+          <a href="/supplier-management-software" class="feature-link">Tracking what every supplier confirmed →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>A sent order with<br>its number, date<br>and time
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 4 -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Your Front Of House</span>
+          <h3>Servers keep the screens they know</h3>
+          <p class="mt-12 text-muted">
+            Tables, payments, the menu, tableside orders and guests' online orders all stay in TouchBistro. Nobody on the floor has new software to learn, because our app is only for ordering from your distributor, on your own phone.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Guests keep ordering through TouchBistro</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Your counts and recipes are untouched</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Sales reports come from the POS as before</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Invoices are handled as they are today</span>
+            </li>
+          </ul>
+          <a href="/restaurant-stock-management-software" class="feature-link">Where ordering sits next to your stock counts →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>A spoken supply order,<br>next to a busy<br>dining room
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad bg-light" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 580px; margin: 0 auto;">
+      <span class="eyebrow">Getting Started</span>
+      <h2>How a kitchen gets started</h2>
+      <p class="lead mt-16">
+        Your distributor sets up the account, so there is nothing to install on the POS and no new hardware.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Make sure your distributor has it</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          If they offer it, they create your login and load your guide. Unsure who to ask? Contact us to find out.
+        </p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>Sign in on your phone</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Download the app and log in. Your guide is waiting there.
+        </p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>Read it out, look it over, send</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Speak the items, look over the lines, and send the order.
+        </p>
+      </div>
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: VoiceOrder Solutions app with a distributor's order guide and a sent order
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Teams. Real Results.</span>
+      <h2>What kitchens say about ordering this way</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <!-- Featured testimonial -->
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "I used to spend hours every week ordering food. Now it's simple,
+          super easy, and I have free time to spend on other aspects of my
+          restaurant."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting testimonials -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "I do the produce order on my phone in the walk-in now, before we open, not on a call after the last table."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Restaurant Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "When the dairy came in short, I had the order number on my phone, so there was nothing to argue about."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Restaurant Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Orders go out in the formats distributors already use</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Each order goes out as an email with a PDF, Excel or Word file, an EDI
+      or API feed, or a QuickBooks entry. No one has to switch software to receive it.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF, Excel, Word
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        QuickBooks
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VoiceOrder Solutions is also API-ready, so orders can go straight into the ERP or distribution system your distributor runs.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Admin
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: WHEN THE TWO WORK TOGETHER
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">Use Both</span>
+      <h2>Which orders move to our app, and which stay with TouchBistro</h2>
+      <p class="lead mt-16">
+        This is not a TouchBistro replacement. TouchBistro runs the dining room, and add-ons such as Inventory Management handle counts and costs. Orders move over only for distributors on VoiceOrder Solutions: spoken from the walk-in, then reviewed before they leave.
+      </p>
+    </div>
+
+    <div class="cards-grid">
+      <div class="feature-card">
+        <div class="feature-card-icon">📋</div>
+        <h4>TouchBistro gets no copy of the order</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Nothing you send from our app turns into a PO in TouchBistro's Inventory Management. If you track those items there, record the delivery there yourself, as you would for any order made outside it.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">📊</div>
+        <h4>Partner inventory apps stay linked</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          A partner inventory app linked to TouchBistro keeps its link. Count in it as you do now. Where a distributor uses our app, read out the items you need and check the lines.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-icon">🔁</div>
+        <h4>Leave online vendors where they are</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          If a vendor already takes your orders online through TouchBistro, leave that vendor there. Our app is for a distributor you still reach by phone or through the rep.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: MID-PAGE CTA
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">Follow one sample order from the walk-in to a distributor</h3>
+      <p class="text-muted" style="font-size:16px;">
+        Our 20-minute demo speaks a short list into the app, changes one item, and shows what lands at the distributor's end.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FAQ
+     Eight items, to match the eight accordion slots on the Webflow page.
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Questions from restaurants on TouchBistro</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Do I need a TouchBistro alternative to speak a supply order?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          No. All it takes is a distributor with our app. Then you talk that order into the app, so there is no call to make.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is VoiceOrder Solutions better than TouchBistro?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          The two are built for separate jobs. Payments, tables, tableside orders, guest online orders, staff and stock counts: we do none of these, and we are not a POS. Ours is the order to a distributor on our app, spoken aloud and checked one item at a time. In TouchBistro's add-ons, you put each order together on screen; if you prefer to say it, that takes no TouchBistro alternative.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Do VoiceOrder Solutions and TouchBistro connect?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. They are separate companies, each with its own help desk, and they share no data. Whatever you say in our app is sent to your distributor alone; neither TouchBistro nor a tool linked to it gets a copy.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          If my reason for leaving is the POS itself, will this help?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Not with that part. Payments, tables or menu screens need a different POS, and we do not make one. If you move to another POS later, ordering in our app carries on as before, because it was never connected to TouchBistro.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          I already order through TouchBistro Inventory Management. How does this fit?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Stay with it for the vendors you order from online or by email. Where a distributor has our app, you can speak that order instead. Send each distributor's order from one place only, so nothing is ordered twice.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What happens if I say "six" and the screen shows sixteen?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          You catch it on the review screen before sending: change the amount, swap the item, or delete the line. That review is the safeguard, so a hurried glance can still let a mistake through. A phoned-in or voicemail order gets no number from us; only orders placed in the app carry one.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How do I get set up, and what does it cost?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Through your distributor: they open your account, and most kitchens place a first order the same day. If yours does not have it, order from them as you do today, and get in touch: we will work out who you should talk to. For cost, ask the distributor you would get the app from; we publish no price. TouchBistro lists prices for its POS plans and gives quotes for its back-office tools.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Where do the TouchBistro details on this page come from?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          From touchbistro.com as we read it on 9 November 2026: its POS page, the pages for both back-office add-ons, plus pricing and integrations. On that date we saw nothing there about ordering supplies by speaking. Inventory Management is offered in the continental US and in Canada outside Quebec. We left out TouchBistro's own customer counts and savings claims. If any of it has gone out of date, send us a note and we will put it right.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     RELATED PAGES
+     ============================================================ -->
+<section class="related-strip" aria-label="Related pages">
+  <div class="related-head">
+    <span class="eyebrow">Keep Exploring</span>
+    <h2 style="font-size:clamp(24px,3.2vw,32px);">Other restaurant tools that can stay as they are</h2>
+  </div>
+  <div class="related-grid">
+
+      <a class="related-card" href="/lavu-pos-alternative">
+        <span class="related-card-kw">Lavu POS Alternative</span>
+        <h3>Lavu + VoiceOrder Solutions</h3>
+        <p>Lavu tracks the supply orders you log, but sends nothing to the supplier. With a distributor on VoiceOrder Solutions, say that order in the app and send it from there.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/toast-pos-alternative">
+        <span class="related-card-kw">Toast POS Alternative</span>
+        <h3>Toast + VoiceOrder Solutions</h3>
+        <p>Toast takes your guests' orders. Speak your own order to the distributor, where the distributor offers VoiceOrder Solutions.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/marginedge-alternative">
+        <span class="related-card-kw">MarginEdge Alternative</span>
+        <h3>MarginEdge + VoiceOrder Solutions</h3>
+        <p>Keep MarginEdge for invoices and food cost. Speak the order to a distributor on VoiceOrder Solutions, and check each line first.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+  </div>
+  <p class="text-center text-muted" style="margin-top:36px;font-size:14px;">
+    <a href="/" style="color:var(--color-accent);font-weight:600;text-decoration:none;">See all VoiceOrder Solutions feature pages →</a>
+  </p>
+</section>
+
+
+<!-- ============================================================
+     SECTION 15: FINAL CONVERSION CTA
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Ordering supplies was the reason? Keep TouchBistro and speak your next order to the distributor.</h2>
+  <p>Ask your distributor whether they offer VoiceOrder Solutions. If they are hard to reach, ask us and we will check.</p>
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your work email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Ask About Getting Started →</a>
+  </div>
+  <div class="final-cta-trust">
+    <span>✓ Set up by your distributor</span>
+    <span>✓ Items at your prices</span>
+    <span>✓ Order day or night</span>
+    <span>✓ iPhone + Android</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 16: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Voice Ordering</a></li>
+        <li><a href="#features">Order Guides</a></li>
+        <li><a href="#features">Order Records</a></li>
+        <li><a href="#how-it-works">Getting Started</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+        <li><a href="#comparison">TouchBistro + VoiceOrder Solutions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>More From VoiceOrder Solutions</h5>
+      <ul role="list">
+        <li><a href="/restaurant-purchasing-software">Restaurant Purchasing</a></li>
+        <li><a href="/supplier-management-software">Supplier Management</a></li>
+        <li><a href="/restaurant-checklist-software">Restaurant Checklist</a></li>
+        <li><a href="/order-tracking-software">Order Tracking for Distributors</a></li>
+        <li><a href="/">All Features</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>

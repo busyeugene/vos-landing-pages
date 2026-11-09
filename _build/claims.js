@@ -9,7 +9,7 @@ const registry = require('./registry.js');
 const { namesWord, maskWord, claimsSwitchFrom } = require('./names.js');
 const OPERATOR = new Set(['order-entry-software', 'restaurant-purchasing-software', 'restaurant-checklist-software', 'restaurant-stock-management-software', 'supplier-management-software',
   // Operator-side comparison pages (Nov 2026): the restaurant reads them, VOS comes via the distributor.
-  'wisk-alternative', 'craftable-alternative', 'apicbase-alternative', 'marketman-alternative', 'marginedge-alternative', 'orderly-alternative', 'xtrachef-alternative', 'restaurant365-alternative']);
+  'wisk-alternative', 'craftable-alternative', 'apicbase-alternative', 'marketman-alternative', 'marginedge-alternative', 'orderly-alternative', 'xtrachef-alternative', 'restaurant365-alternative', 'toast-pos-alternative', 'lightspeed-pos-alternative', 'touchbistro-alternative', 'lavu-pos-alternative', 'altametrics-alternative', 'crunchtime-alternative']);
 
 // [label, regex, severity]  severity: BAN = never allowed, CHECK = read the sentence
 const RULES = [

@@ -161,6 +161,34 @@
       "destination": "/vos-aptean-alternative-landing.html"
     },
     {
+      "source": "/tradegecko-alternative",
+      "destination": "/vos-tradegecko-alternative-landing.html"
+    },
+    {
+      "source": "/crunchtime-alternative",
+      "destination": "/vos-crunchtime-alternative-landing.html"
+    },
+    {
+      "source": "/altametrics-alternative",
+      "destination": "/vos-altametrics-alternative-landing.html"
+    },
+    {
+      "source": "/lavu-pos-alternative",
+      "destination": "/vos-lavu-pos-alternative-landing.html"
+    },
+    {
+      "source": "/touchbistro-alternative",
+      "destination": "/vos-touchbistro-alternative-landing.html"
+    },
+    {
+      "source": "/lightspeed-pos-alternative",
+      "destination": "/vos-lightspeed-pos-alternative-landing.html"
+    },
+    {
+      "source": "/toast-pos-alternative",
+      "destination": "/vos-toast-pos-alternative-landing.html"
+    },
+    {
       "source": "/sps-commerce-alternative",
       "destination": "/vos-sps-commerce-alternative-landing.html"
     },

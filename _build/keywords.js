@@ -390,6 +390,69 @@ module.exports = {
       'better than aptean',
     ],
   },
+  'tradegecko-alternative': {
+    primary: 'tradegecko alternative',
+    secondary: [
+      'tradegecko competitor',
+      'tradegecko replacement',
+      'alternative to tradegecko',
+      'better than tradegecko',
+    ],
+  },
+  'crunchtime-alternative': {
+    primary: 'crunchtime alternative',
+    secondary: [
+      'crunchtime competitor',
+      'crunchtime replacement',
+      'alternative to crunchtime',
+      'better than crunchtime',
+    ],
+  },
+  'altametrics-alternative': {
+    primary: 'altametrics alternative',
+    secondary: [
+      'altametrics competitor',
+      'altametrics replacement',
+      'alternative to altametrics',
+      'better than altametrics',
+    ],
+  },
+  'lavu-pos-alternative': {
+    primary: 'lavu pos alternative',
+    secondary: [
+      'lavu pos competitor',
+      'lavu pos replacement',
+      'alternative to lavu pos',
+      'better than lavu pos',
+    ],
+  },
+  'touchbistro-alternative': {
+    primary: 'touchbistro alternative',
+    secondary: [
+      'touchbistro competitor',
+      'touchbistro replacement',
+      'alternative to touchbistro',
+      'better than touchbistro',
+    ],
+  },
+  'lightspeed-pos-alternative': {
+    primary: 'lightspeed pos alternative',
+    secondary: [
+      'lightspeed pos competitor',
+      'lightspeed pos replacement',
+      'alternative to lightspeed pos',
+      'better than lightspeed pos',
+    ],
+  },
+  'toast-pos-alternative': {
+    primary: 'toast pos alternative',
+    secondary: [
+      'toast pos competitor',
+      'toast pos replacement',
+      'alternative to toast pos',
+      'better than toast pos',
+    ],
+  },
   'sps-commerce-alternative': {
     primary: 'sps commerce alternative',
     secondary: [
