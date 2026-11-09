@@ -182,10 +182,13 @@ for (const slug of targets) {
       // "it can connect to ... platforms" read as "it could connect to the competitor" on pages
       // whose FAQ says the two do not connect (review, 2026-10-21).
       .replace(/VOS is also API-ready, so it can connect to distribution and food service\s+platforms and add to what they already do\./,
-        'VoiceOrder Solutions is also API-ready, so orders can go straight into the ERP or distribution system you run.');
+        // "can go straight into the ERP ... you run" promised what every compare FAQ declines to
+        // promise (fact-check, 2026-11-09), so the line now says it depends on the ERP's setup.
+        'VoiceOrder Solutions is also API-ready, so orders can go straight into an ERP or distribution system set up to take them; the demo shows whether yours is.');
     // On an operator page "you" is the restaurant, which runs neither system (review, 2026-10-27).
+    // Kept as it was: the 8 operator pages were reviewed and ported with this sentence.
     if (page.audience === 'operator' && marker === '<!--@INTEGRATIONS-->') html = html
-      .replace('the ERP or distribution system you run.', 'the ERP or distribution system your distributor runs.');
+      .replace('an ERP or distribution system set up to take them; the demo shows whether yours is.', 'the ERP or distribution system your distributor runs.');
     if (body.includes(marker)) body = body.split(marker).join(html);
   }
   const leftover = body.match(/<!--@[A-Z]+-->/);

@@ -9,7 +9,42 @@ Programmatic SEO feature landing pages for **VoiceOrder Solutions** (voiceorders
 - Related strips link same-audience siblings; each footer carries one cross-audience link.
 - Facts: `knowledge-base/vos-product-facts.md`, section CURRENT STATE. Setup is 24 to 48 hours for distributors (never "1 day"); customers usually order the same day. Customer web ordering is unconfirmed: only the order entry page mentions it.
 
-## ▶ RESUME HERE: 2026-10-28, the 8 OPERATOR compare pages are IN WEBFLOW as verified DRAFTS
+## ▶ RESUME HERE: 2026-11-09, Batch 2 compare pages: wave 1 (8 ERP pages) DONE in the repo
+Eugene's "Competitors Batch 2" sheet (Google Sheet `1ZJ6KS1lKC2WVvJ6ooLQLvZHv1p0worU3ib_zFQ3FX-8`, 74 rows;
+30 marked "Batch 2 pick"). The 30 rows are in Airtable (Content plan, Planned, Landing page, verified on
+re-read); prep script + mapping + full sheet export in `_build/research/batch2-2026-11/`. Eugene skipped the
+duplicate-KW check (he ran it). His answers (2026-11-09): no known named integrations with any of these
+systems (use the safe wording); TradeGecko = an honest replacement page, "be easy with it".
+**Built, gated, reviewed (5 reviewers + verification round), pushed:** netsuite, odoo, acumatica,
+business-central, sage-x3, syspro, prophet-21, aptean (`/alternatives/<x>-alternative`, distributor pages,
+digests dated 2026-11-09 in `_build/research/competitors/`). All gates 0, promote 1/11 each.
+**Next waves (none started):** 2 inventory (Cin7, Zoho Inventory, inFlow, Fishbowl, Unleashed, Brightpearl);
+3 webshops/EDI/order capture (OroCommerce, Shopify B2B, Sana, B2B Wave, RepZio, SPS Commerce, TrueCommerce,
+Conexiom, Esker); 4 restaurant OPERATOR pages (Toast, Lightspeed, TouchBistro, Lavu, Altametrics, Crunchtime:
+"voice ordering" on a POS page reads as guest phone ordering, so say ordering from your distributor; Toast
+overlaps xtrachef); 5 TradeGecko (discontinued 2021: no "Keep X").
+**Recipe that worked:** pilot by hand, then one worktree agent per page (private scratch subfolder), merge
+with the scratchpad `merge_wave.py` pattern (copy page + digest, insert registry/keywords entries after the
+anchor entry), central dedupe (one agent per page, xplan assignments, older pages never touched), 5
+reviewers (2 fact-checkers, 2 owner-buyers, 1 proposition-sameness), one FIXES list, one agent per page,
+then a verification round on the diff. **Lessons:** (1) agents copy the pilot's wording, so expect ~60
+cross-page trigrams after a merge; (2) ERP pages converge on ONE argument (phone still keyed / portal suits
+some / replacement = ERP project): give each page an angle from its own facts and keep "replacement" in one
+slot; (3) the buyers' #1 question is "does my desk still type it?": answer per route (EDI/API if the ERP
+accepts it, demo decides; email = checked file someone enters); (4) never "no second set of records": our
+order guides hold prices; (5) every page has partner voice tools to concede (Workd etc.), never "only voice
+option"; (6) `claims.js` bans "Oracle" and "Microsoft Dynamics": write "NetSuite's AI assistant", "Business
+Central"; (7) no color words for table columns (Webflow renders differently).
+**Changed sitewide this session:** `build.js` compare integrations line now reads "orders can go straight
+into an ERP or distribution system set up to take them; the demo shows whether yours is" (was "...the ERP
+you run"). This changed the 12 older distributor compare pages too, which are PUBLISHED in Webflow with the
+old line: carry it over when those pages are next pushed. Operator pages unchanged. Registry blurbs for
+burnt-ai and wizcommerce: "your buyers" -> "your kitchens" (related strips, repo only).
+**Open for Eugene/client:** how kitchens get onto the app (reviewers: decides the demo; KB silent); whose
+time the "20-30 min" saves (owners doubted it); real distributor testimonials (placeholders on all 28).
+Webflow port of the 8 is not started. The 2026-10-28 items below are still open too.
+
+## ▶ Earlier 2026-10-28, the 8 OPERATOR compare pages are IN WEBFLOW as verified DRAFTS
 **Start here in a fresh session. Open items, in priority order (none started):**
 1. **Take the 8 operator pages out of draft BEFORE the next site publish** (`bulk_update_pages`
    `draft: false` on the 8 ids in `_webflow/pages.json` `compare`). The `/alternatives` hub is

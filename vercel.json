@@ -157,6 +157,34 @@
       "destination": "/vos-netsuite-alternative-landing.html"
     },
     {
+      "source": "/aptean-alternative",
+      "destination": "/vos-aptean-alternative-landing.html"
+    },
+    {
+      "source": "/prophet-21-alternative",
+      "destination": "/vos-prophet-21-alternative-landing.html"
+    },
+    {
+      "source": "/syspro-alternative",
+      "destination": "/vos-syspro-alternative-landing.html"
+    },
+    {
+      "source": "/sage-x3-alternative",
+      "destination": "/vos-sage-x3-alternative-landing.html"
+    },
+    {
+      "source": "/business-central-alternative",
+      "destination": "/vos-business-central-alternative-landing.html"
+    },
+    {
+      "source": "/acumatica-alternative",
+      "destination": "/vos-acumatica-alternative-landing.html"
+    },
+    {
+      "source": "/odoo-alternative",
+      "destination": "/vos-odoo-alternative-landing.html"
+    },
+    {
       "source": "/marginedge-alternative",
       "destination": "/vos-marginedge-alternative-landing.html"
     },

@@ -2,7 +2,7 @@
  * Batch 2 pilot (Eugene's "Competitors Batch 2" sheet, 8 Nov 2026), built 2026-11-09.
  * Frame, as on every compare page since 2026-10-21: VoiceOrder Solutions is ADDED beside NetSuite,
  * never its replacement. Table = "NetSuite + VoiceOrder Solutions" vs "NetSuite on its own"; every
- * NetSuite strength is a tick in both columns. The two do NOT connect (FAQ 5); whether a NetSuite
+ * NetSuite strength is a tick in both columns. They are separate products with no built-in link (FAQ 5); whether a NetSuite
  * account takes our formats in directly is a demo question, never a claim (named-integration ban,
  * and the client does not know of any NetSuite connection: Eugene, 2026-11-09).
  * Angle, distinct from NECS Entree (the other ERP page, which argues "typed vs spoken, inside vs
@@ -13,15 +13,25 @@
  *   assistant", not its product name.
  * ⚠ Partners already sell voice tools for NetSuite (rep-side, or voice notes turned into sales
  *   orders). FAQ 4 concedes it without naming them; never "the only voice option for NetSuite".
- * ⚠ NetSuite does voice PICKING in the warehouse (food and beverage page). The table concedes it.
+ * ⚠ NetSuite lists voice PICKING on its food page, under a "some capabilities require partner
+ *   integrations" note. Do not build on it either way: the table row says picking and mobile scanning.
  * ⚠ NetSuite serves small, midsize and enterprise: never "too big for you" or "enterprise-only".
  * They publish no prices (licence = platform + modules + users, plus an implementation fee) and no
  * US go-live figure, so neither is used as an argument. The India page's "100 days" stays off.
  * Every claim is sourced and dated in _build/research/competitors/netsuite.md.
+ * Review 2026-11-09 (wave 1 fix list, shared S1-S10 + page items): the angle is now NetSuite's
+ *   customer ordering being a web store add-on module licensed on top (platform + modules + users),
+ *   while VoiceOrder Solutions adds no NetSuite module (H1, problem card 2, coexistence card 3, table
+ *   row 7). Voice picking is no longer mentioned anywhere (the source page says some features need
+ *   partners). FAQ 5 now says what each delivery format means for the desk: over EDI/API it MAY go
+ *   straight in (a demo question, never promised); by email the desk still keys it in, from a file
+ *   the kitchen already checked. "We only hold the guides" wording is gone: we hold each account's
+ *   guide and prices plus app orders. The replacement-project argument lives only in the cost FAQ.
+ *   The staff-AI coexistence card was cut (that argument is reserved for sage-x3 and prophet-21).
  */
 module.exports = {
   title: "Not a NetSuite Alternative: Keep NetSuite, Add Voice Ordering",
-  description: 'NetSuite stays your system of record. Your accounts speak each order into an app and check every line first: a NetSuite alternative that changes one step.',
+  description: 'Keep NetSuite as your system of record. Kitchens speak orders into an app and check each line, with no NetSuite module to add. Not a NetSuite alternative.',
   related: ["necs-entree-alternative","wizcommerce-alternative","orderease-alternative"],
   relatedHeading: "More ERPs and order tools you keep as they are",
   body: `
@@ -36,9 +46,9 @@ module.exports = {
 
     <div>
       <span class="eyebrow">For Food Distributors</span>
-      <h1>Not A NetSuite Alternative: Change Where Orders Start</h1>
+      <h1>Not A NetSuite Alternative: Ordering Without Another Module</h1>
       <p class="lead mt-16">
-        Let kitchens send finished orders instead of calling them in. With VoiceOrder Solutions, a kitchen talks its order into our app and looks over each line before it reaches you. NetSuite keeps its place as the record.
+        Let the kitchens that call every morning order from an app instead. In the VoiceOrder Solutions app, a kitchen speaks its order and looks over each line before it reaches you. It adds no module to NetSuite, which runs everything after that.
       </p>
 
       <div class="hero-ctas">
@@ -47,9 +57,9 @@ module.exports = {
       </div>
 
       <div class="hero-trust">
-        <span>NetSuite stays the record</span>
+        <span>NetSuite runs as before</span>
         <span class="hero-trust-dot"></span>
-        <span>Orders arrive checked</span>
+        <span>Lines checked by the kitchen</span>
         <span class="hero-trust-dot"></span>
         <span>iOS + Android</span>
       </div>
@@ -80,7 +90,7 @@ module.exports = {
     </div>
     <div>
       <div class="stat-number">24/7</div>
-      <div class="stat-label">Is when kitchens can send the order</div>
+      <div class="stat-label">App ordering, including hours your desk is closed</div>
     </div>
     <div>
       <div class="stat-number">24-48 Hrs</div>
@@ -98,10 +108,10 @@ module.exports = {
 <section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
   <div class="container">
     <div class="text-center" style="max-width: 640px; margin: 0 auto;">
-      <span class="eyebrow">Keep, Then Add</span>
+      <span class="eyebrow">One App Beside NetSuite</span>
       <h2>NetSuite plus VoiceOrder Solutions.<br>Your books stay in NetSuite.</h2>
       <p class="lead mt-16">
-        Kitchens get a quicker route for their orders, and nothing else moves. NetSuite keeps the money, the stock and the warehouse, so those rows tick on both sides. A NetSuite alternative usually means choosing a new ERP, which this is not. Read the highlighted column as your business running both; the two products do not connect.
+        VoiceOrder Solutions changes one thing for you: how a kitchen's order begins. If you searched for a NetSuite alternative, note what stays: NetSuite still runs the money, the stock and the warehouse, so those rows read the same in both columns. Each product is sold and supported on its own, with no link built in.
       </p>
     </div>
 
@@ -123,20 +133,20 @@ module.exports = {
           <tr>
             <td>Kitchens order by talking, then confirm each line</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Typed into their online store</td>
+            <td>Typed into NetSuite's web store</td>
           </tr>
           <tr>
-            <td>Lot tracing, catch weight and recalls</td>
+            <td>Lot tracing and recalls</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
             <td>Accounts who used to call send a numbered order</td>
             <td><span class="check-yes">✓</span></td>
-            <td>The call is keyed in by your team</td>
+            <td>Taken by phone, then keyed in by your team</td>
           </tr>
           <tr>
-            <td>Online reordering from past purchases</td>
+            <td>Online reordering in the add-on store</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -146,17 +156,17 @@ module.exports = {
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Set up from an item export, with nothing installed</td>
+            <td>Ordering from a customer app, with no extra NetSuite module</td>
             <td><span class="check-yes">✓</span></td>
-            <td>Online ordering needs their store add-on</td>
+            <td>Online ordering needs the web store module</td>
           </tr>
           <tr>
-            <td>Warehouse picking, voice picking included</td>
+            <td>Warehouse picking and mobile scanning</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
           <tr>
-            <td>Per-customer catalogs and negotiated prices</td>
+            <td>Customer-segment catalogs and negotiated prices in the store</td>
             <td><span class="check-yes">✓</span></td>
             <td><span class="check-yes">✓</span></td>
           </tr>
@@ -185,7 +195,7 @@ module.exports = {
       <span class="eyebrow">Why Teams Compare</span>
       <h2>Why distributors look up a NetSuite competitor</h2>
       <p class="lead mt-16">
-        Most distributors who search for a NetSuite alternative are not unhappy with the ERP. The trouble sits upstream, in the way an order gets to you before NetSuite ever sees it. Three situations come up, and only the third is about leaving.
+        Many distributors who search for a NetSuite alternative are not trying to leave NetSuite. What they want is fewer calls to key in, and NetSuite's own answer to that is a web store sold as an add-on module.
       </p>
     </div>
 
@@ -193,25 +203,25 @@ module.exports = {
 
       <div class="problem-card">
         <div class="problem-icon">📞</div>
-        <h4>Each sales order starts as a call</h4>
+        <h4>Many sales orders still start as a call</h4>
         <p class="text-muted mt-12">
-          NetSuite is strong at everything after a sales order exists. Before that, a chef calls, texts or leaves a voicemail, and somebody at your desk types it all into NetSuite by hand.
+          NetSuite is strong at everything after a sales order exists. Before that, a chef calls, texts or leaves a voicemail, and somebody at your desk types it into NetSuite by hand.
         </p>
       </div>
 
       <div class="problem-card">
         <div class="problem-icon">🛒</div>
-        <h4>Online ordering suits some accounts</h4>
+        <h4>Online ordering is one more module to license</h4>
         <p class="text-muted mt-12">
-          NetSuite sells its own online store for trade buyers, and it works well for kitchens willing to log in. The ones that never do keep ringing your office.
+          NetSuite sells its web store for trade customers as an add-on, licensed on top of your platform, modules and users. You set it up and keep it running, and it only helps with the kitchens that log in.
         </p>
       </div>
 
       <div class="problem-card">
-        <div class="problem-icon">🏗️</div>
-        <h4>A NetSuite replacement is an ERP project</h4>
+        <div class="problem-icon">⌨️</div>
+        <h4>The store asks a chef to search and type</h4>
         <p class="text-muted mt-12">
-          Leaving NetSuite means your finance, stock and warehouse all move at once. That is a full selection process with its own consultants, and it is not what we sell. Better you hear it from us before booking a demo.
+          In NetSuite's store, a kitchen reorders from past purchases or enters item codes in a list. That suits someone sitting at a desk. A chef checking the cooler with a phone in hand is more likely to call your office.
         </p>
       </div>
 
@@ -227,7 +237,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
       <span class="eyebrow">What You Get</span>
-      <h2>What this NetSuite alternative adds, and what it leaves to NetSuite</h2>
+      <h2>Why this is not a NetSuite alternative: one new way for kitchens to order</h2>
     </div>
 
     <!-- Feature 1 -->
@@ -235,9 +245,9 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Voice Ordering</span>
-          <h3>The kitchen says it, then checks the lines</h3>
+          <h3>Whatever is short in the walk-in becomes lines a kitchen checks</h3>
           <p class="mt-12 text-muted">
-            A chef walks the cooler and says what is short. The app lays it out as lines from that kitchen's own guide, they correct anything off, and they send it. No login to a store, no search box, no call to your office.
+            A chef walks the cooler and says what is short. The app lays it out as lines from that kitchen's own guide, they correct anything off, and they send it. No web store to sign in to, no search box, no call to your office.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -279,7 +289,7 @@ module.exports = {
           <span class="eyebrow">Order Guides</span>
           <h3>Each account's guide, taken from an export</h3>
           <p class="mt-12 text-muted">
-            Send us a spreadsheet of what each account buys. We load those items under your item codes at the price you set for that account. The master list lives in NetSuite; we only hold what the kitchen orders from.
+            Send us a spreadsheet of what each account buys. We load those items under your item codes at the price you set for that account. Your full item list is still kept in NetSuite, and you update each guide in our admin platform.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -296,7 +306,7 @@ module.exports = {
             </li>
             <li>
               <span class="bullet-check">✓</span>
-              <span>No SuiteApp, script or new NetSuite module</span>
+              <span>Setup adds no SuiteApp, script or NetSuite module</span>
             </li>
           </ul>
           <a href="/catalog-management-software" class="feature-link">Keeping guides current →</a>
@@ -315,9 +325,9 @@ module.exports = {
       <div class="feature-row">
         <div>
           <span class="eyebrow">Delivery Formats</span>
-          <h3>Sent the way your office already works</h3>
+          <h3>Delivered by email file, EDI or the API</h3>
           <p class="mt-12 text-muted">
-            A finished order goes out as an email with a PDF, Excel or Word file, or travels over the API, over EDI, or into QuickBooks. You pick the route, and a demo covers how each would reach your NetSuite setup.
+            A finished order goes out as an email with a PDF, Excel or Word file, or travels over the API, over EDI, or into QuickBooks. You choose the format. An emailed file still gets entered by your team, but from lines the kitchen already checked. Over EDI or the API it can go straight in if your NetSuite setup accepts it that way, and the demo shows whether it does.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
@@ -355,12 +365,12 @@ module.exports = {
           <span class="eyebrow">Inventory Visibility</span>
           <h3>Stock levels beside the orders coming in</h3>
           <p class="mt-12 text-muted">
-            VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock changes. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
+            VoiceOrder Solutions carries real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
           </p>
           <ul class="feature-bullets mt-24">
             <li>
               <span class="bullet-check">✓</span>
-              <span>Covers slow lines as well as fast ones</span>
+              <span>The catalog keeps up as stock levels change</span>
             </li>
             <li>
               <span class="bullet-check">✓</span>
@@ -398,7 +408,7 @@ module.exports = {
       <span class="eyebrow">Getting Started</span>
       <h2>Three steps, with NetSuite left as it is</h2>
       <p class="lead mt-16">
-        A spreadsheet from you, account setup from us, then orders from your kitchens.
+        It starts with one export from NetSuite. We turn it into a guide for each account, and the kitchens take it from there.
       </p>
     </div>
 
@@ -408,13 +418,13 @@ module.exports = {
         <div class="step-number">1</div>
         <h4>Pull an item list out of NetSuite</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          A saved search exported to a spreadsheet is enough. It gives us each account's items and prices under your own codes.
+          A saved search exported to a spreadsheet is usually all we need. It gives us each account's items and prices under your own codes.
         </p>
       </div>
 
       <div class="step-card">
         <div class="step-number">2</div>
-        <h4>Accounts get their guides</h4>
+        <h4>Every account gets its own guide</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           We build each guide and open the account, and the kitchen installs the app. Most place a first order the same day.
         </p>
@@ -422,7 +432,7 @@ module.exports = {
 
       <div class="step-card">
         <div class="step-number">3</div>
-        <h4>Approved orders reach your desk</h4>
+        <h4>Your desk gets a ready order</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
           Each order arrives already checked by the customer, numbered and timed, in the format you chose.
         </p>
@@ -444,7 +454,7 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 560px; margin: 0 auto;">
       <span class="eyebrow">Real Teams. Real Results.</span>
-      <h2>What changes first at the order desk</h2>
+      <h2>What desks say once the morning calls thin out</h2>
     </div>
 
     <div class="testimonials-grid">
@@ -473,7 +483,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "The morning pile of voicemails got a lot shorter. Our ERP did not change at all, which was the point."
+            "We had priced out NetSuite's online store. Our phone accounts moved to the app, and NetSuite stayed as it was."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -487,7 +497,7 @@ module.exports = {
         <div class="testimonial-card">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-quote" style="font-size:16px;">
-            "A few of our kitchens never used our online ordering. They will talk into a phone, though, and they check the list before it comes to us."
+            "The chefs we supply would never search a store for item codes. Now they tell the app what they need, fix a line or two and send it."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">Photo</div>
@@ -514,9 +524,9 @@ module.exports = {
   <div class="container">
     <div class="text-center" style="max-width: 620px; margin: 0 auto;">
       <span class="eyebrow">Side By Side</span>
-      <h2>How NetSuite and VoiceOrder Solutions split the work</h2>
+      <h2>What stays in NetSuite, and what the app adds</h2>
       <p class="lead mt-16">
-        This is not an alternative to NetSuite. It is the step where a kitchen places its order, and NetSuite carries on with everything that follows.
+        This is not an alternative to NetSuite. The app covers the moment a kitchen puts its order together, and NetSuite takes over once that order lands at your desk.
       </p>
     </div>
 
@@ -524,25 +534,25 @@ module.exports = {
 
       <div class="feature-card">
         <div class="feature-card-icon">📒</div>
-        <h4>NetSuite keeps every record</h4>
+        <h4>NetSuite remains the system of record</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          Customers, prices, stock and invoices are all held by NetSuite. We pass the order across once it is approved, and never become a second place to maintain them.
+          NetSuite holds your customers, stock and invoices. What we hold is the guide for each kitchen, priced and kept up to date by you, and the orders placed through our app.
         </p>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-icon">🛒</div>
-        <h4>Accounts on NetSuite's online ordering carry on</h4>
+        <h4>Kitchens already ordering online carry on</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          If your accounts already order through NetSuite online, nothing about that changes. Our app is meant for the kitchens that keep phoning. Phone orders you still take get no number from us; only what is sent in the app does.
+          If some accounts already use the NetSuite store, leave them there. The app is meant for the kitchens that keep phoning. An order phoned to your office gets no number from us; only the ones sent from the app do.
         </p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-card-icon">🤖</div>
-        <h4>Its AI serves your staff; ours starts with the kitchen</h4>
+        <div class="feature-card-icon">🧾</div>
+        <h4>Getting started adds nothing to your NetSuite license</h4>
         <p class="text-muted mt-12" style="font-size:15px;">
-          NetSuite's AI assistant helps your team search records and take actions inside the ERP. We sit at the other end, where a kitchen builds its order. Different jobs, so there is nothing to choose between.
+          NetSuite's license grows with each module you add, and online ordering for customers is one of them. Starting with us adds no NetSuite module and no NetSuite user. Whether EDI or the API comes later is a question for the demo. We send our own quote, separate from NetSuite's.
         </p>
       </div>
 
@@ -557,9 +567,9 @@ module.exports = {
 <section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
   <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
     <div style="max-width:580px;">
-      <h3 style="margin-bottom:10px;">Hear a kitchen speak its order, then see how it would reach NetSuite</h3>
+      <h3 style="margin-bottom:10px;">Watch one order get spoken and sent, then ask how it would reach NetSuite</h3>
       <p class="text-muted" style="font-size:16px;">
-        Twenty minutes: a buyer says an order, checks it and sends it, and we walk you through how it would arrive at your end.
+        In 20 minutes, we speak one order into the app, change a line, then send it. Then we show the formats it could arrive in at your NetSuite desk.
       </p>
     </div>
     <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
@@ -585,7 +595,7 @@ module.exports = {
           <span class="faq-icon">−</span>
         </button>
         <div class="faq-answer">
-          No. NetSuite is the system your company runs on. VoiceOrder Solutions only changes how a kitchen's order gets to you. Keep NetSuite, hand our app to the kitchens that call, and the rest of your setup stays put.
+          No. NetSuite carries on running your business, and the store can stay for the accounts that use it. What we add is an app for your phone-ordering kitchens: they say what they need, review it and send it, with no new NetSuite module.
         </div>
       </div>
 
@@ -595,37 +605,37 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          At one job, yes: getting an order out of a kitchen that will not log in to order online. For everything else NetSuite does, the comparison does not hold. We have no ledger, no lot tracking, no warehouse and no purchasing, which is why we sit next to it.
+          At one job, yes: getting an order out of a kitchen that will not sign in to any website, with each line looked over first. NetSuite does far more than we do, which is why we sit beside it rather than in its place.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Doesn't NetSuite already have customer ordering?
+          NetSuite already sells a store. Why would we want an app too?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          It does. Its B2B web store, which is an add-on, lets buyers reorder past purchases, pick by item code from a list and see their own prices. All of it means finding items and typing quantities. Our app is for kitchens that find it quicker to say it out loud.
+          Keep the store for anyone who already orders there. It is built for finding items and typing quantities. Our app is for kitchens that find saying what they need easier than looking each item up.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Aren't there voice tools for NetSuite already?
+          NetSuite partners sell voice tools. How is this different?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          Yes. Several NetSuite partners sell voice tools, mostly for sales reps, or for turning voice notes and calls into sales orders. Ours works at a different point: the customer speaks the order in our app and checks each line before it is sent to you.
+          Several partners do, mostly for sales reps, or for turning voice notes and calls into sales orders. Our app is in the customer's hands instead: the kitchen orders out loud, then checks each line before it is sent to you.
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          Is NetSuite connected to VoiceOrder Solutions?
+          Will someone still have to type these orders into NetSuite?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. There is no published link between the two products, and neither side supports the other's software. We send orders as email files, over EDI or over the API. Which of those your NetSuite account can take in directly is something to check in the demo, and we do not promise it here.
+          These are two products with nothing joining them out of the box, and neither of us gives support for the other's software. Through EDI or the API, NetSuite may accept the order without anyone retyping it, if your account is set up for that; we check it with you in the demo. By email, it is a file the kitchen reviewed before sending, and someone on your side keys it in from that file rather than from a call or a voicemail.
         </div>
       </div>
 
@@ -635,7 +645,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          No. We never ask for a NetSuite login. We work from a spreadsheet you export, and nothing gets installed in your account. Your scripts, roles and release schedule are left untouched.
+          Getting started needs no NetSuite login and installs nothing: we work from a spreadsheet you export, and your scripts, roles and release schedule stay as they are. If you later want orders sent by EDI or the API, we go through what that takes for you in the demo.
         </div>
       </div>
 
@@ -645,7 +655,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          For most distributors it takes 24 to 48 hours to go live, because nothing inside NetSuite changes. Neither of us publishes prices: NetSuite licenses by platform, modules and users, and we quote per distributor. Next to a NetSuite alternative that replaces the ERP, adding us is a far smaller decision.
+          Setup takes 24 to 48 hours for most distributors, with nothing changed inside NetSuite. Neither company publishes prices, so both are quoted: NetSuite's license and ours. A NetSuite replacement, or any NetSuite alternative that takes over the ERP, moves your finance, stock and warehouse at once. Changing how kitchens send orders is a job of a different size.
         </div>
       </div>
 
@@ -655,7 +665,7 @@ module.exports = {
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer" style="display:none;">
-          From netsuite.com and NetSuite's own help pages, read on 9 November 2026: the distribution and food pages, the online store's reorder tools, the AI assistant and the licence model. They publish no prices, so this page states none. Anything that is out of date now is our error, not theirs.
+          From netsuite.com and NetSuite's own help pages, read on 9 November 2026: the distribution and food pages, the online store's reorder tools, the AI assistant and the licensing model, plus NetSuite partners' own pages on voice ordering. They publish no prices, so this page states none. If any of it is out of date now, tell us and we will correct it.
         </div>
       </div>
 
@@ -671,8 +681,8 @@ module.exports = {
      SECTION 15: FINAL CONVERSION CTA
      ============================================================ -->
 <section class="final-cta" id="demo" aria-label="Sign up call to action">
-  <h2>Keep NetSuite, and let the order start with the kitchen</h2>
-  <p>Twenty minutes, one spoken order, and a plain walk through where it lands.</p>
+  <h2>Leave NetSuite as it is, and hand your kitchens a voice app</h2>
+  <p>One demo, one order taken by voice, and the file your desk would get from it.</p>
 
   <div class="final-cta-form">
     <input type="email" placeholder="Enter your work email" aria-label="Email address" />

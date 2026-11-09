@@ -381,6 +381,69 @@ module.exports = {
       'better than netsuite',
     ],
   },
+  'aptean-alternative': {
+    primary: 'aptean alternative',
+    secondary: [
+      'aptean competitor',
+      'aptean replacement',
+      'alternative to aptean',
+      'better than aptean',
+    ],
+  },
+  'prophet-21-alternative': {
+    primary: 'prophet 21 alternative',
+    secondary: [
+      'prophet 21 competitor',
+      'prophet 21 replacement',
+      'alternative to prophet 21',
+      'better than prophet 21',
+    ],
+  },
+  'syspro-alternative': {
+    primary: 'syspro alternative',
+    secondary: [
+      'syspro competitor',
+      'syspro replacement',
+      'alternative to syspro',
+      'better than syspro',
+    ],
+  },
+  'sage-x3-alternative': {
+    primary: 'sage x3 alternative',
+    secondary: [
+      'sage x3 competitor',
+      'sage x3 replacement',
+      'alternative to sage x3',
+      'better than sage x3',
+    ],
+  },
+  'business-central-alternative': {
+    primary: 'business central alternative',
+    secondary: [
+      'business central competitor',
+      'business central replacement',
+      'alternative to business central',
+      'better than business central',
+    ],
+  },
+  'acumatica-alternative': {
+    primary: 'acumatica alternative',
+    secondary: [
+      'acumatica competitor',
+      'acumatica replacement',
+      'alternative to acumatica',
+      'better than acumatica',
+    ],
+  },
+  'odoo-alternative': {
+    primary: 'odoo alternative',
+    secondary: [
+      'odoo competitor',
+      'odoo replacement',
+      'alternative to odoo',
+      'better than odoo',
+    ],
+  },
   'marginedge-alternative': {
     primary: 'marginedge alternative',
     secondary: [

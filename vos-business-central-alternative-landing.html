@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not a Business Central Alternative: Keep It, Add Voice Orders</title>
+  <meta name="description" content="Kitchens speak orders into an app and fix every line before it reaches you. Business Central stays your ERP: a Business Central alternative you add, not swap." />
+  <link rel="canonical" href="https://vos-landing-pages.vercel.app/business-central-alternative" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VoiceOrder Solutions" />
+  <meta property="og:title" content="Not a Business Central Alternative: Keep It, Add Voice Orders" />
+  <meta property="og:description" content="Kitchens speak orders into an app and fix every line before it reaches you. Business Central stays your ERP: a Business Central alternative you add, not swap." />
+  <meta property="og:url" content="https://vos-landing-pages.vercel.app/business-central-alternative" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Not a Business Central Alternative: Keep It, Add Voice Orders" />
+  <meta name="twitter:description" content="Kitchens speak orders into an app and fix every line before it reaches you. Business Central stays your ERP: a Business Central alternative you add, not swap." />
+
+<style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+
+    /* ── Related Pages Strip ──────────────────────────────────── */
+    .related-strip { background: var(--color-light-bg); border-top: 1px solid #e4e7ed; padding: 72px 24px; }
+    .related-head  { text-align: center; max-width: 620px; margin: 0 auto 44px; }
+    .related-grid  { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: var(--max-width); margin: 0 auto; }
+    .related-card  {
+      display: flex; flex-direction: column; background: #fff;
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 26px;
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .related-card:hover { box-shadow: 0 12px 32px rgba(45,27,110,0.10); transform: translateY(-3px); border-color: #d6dbe6; }
+    .related-card-kw {
+      align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--color-primary); background: #ede9fe;
+      padding: 5px 10px; border-radius: 6px; margin-bottom: 16px;
+    }
+    .related-card h3 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
+    .related-card p  { font-size: 14.5px; color: var(--color-text-muted); margin-bottom: 18px; flex-grow: 1; line-height: 1.55; }
+    .related-card-link { font-size: 14px; font-weight: 600; color: var(--color-accent); }
+    @media (max-width: 900px) { .related-grid { grid-template-columns: 1fr; } }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do we need a Business Central alternative to add voice ordering?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Business Central keeps its job as your ERP, and its agent can keep handling emailed orders. What we add is a check at the kitchen's end, made before anything reaches you. Start with the customers who phone you most."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is VoiceOrder Solutions better than Business Central?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only at one job: letting the kitchen catch its own mistakes before you receive the order. The rest is Business Central's work, which is why our app sits beside it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Doesn't Business Central's AI agent already take orders?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It does, from email. It reads a customer's message and any PDF or photo, matches the items, prepares a quote first, and asks your staff to approve each reply before it goes. Our app works earlier: a chef says what is needed and fixes each line before it is sent. Neither one makes a wrong order impossible. The difference is who checks it, and when."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can kitchens use Business Central's own mobile app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "That app was made for your licensed staff: they sign in with their Business Central user name to review data, edit records and email quotes. It is not an app for your customers to order in. Voice add-ons for Business Central exist too: the one we found is built for drive-thru lanes and self-service kiosks, and partners can build custom ones. Ours sits with the kitchen: the chef talks each order through and corrects any line before it reaches you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does any link join VoiceOrder Solutions and Business Central?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. They are sold separately, nothing links them out of the box, and neither of us offers support for the other side. Over EDI or the API, the app can pass an order straight in with no retyping, if the way Business Central is set up for you allows it; we check that together in the demo. Emailed orders hold lines the kitchen has already approved, and your staff key them in from there instead of from a call."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will you need a Business Central login from us?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not to get set up. We need no login and install nothing: we work from an export you send us, so your permissions and customizations are left alone. If EDI or API delivery interests you later, we go through what it needs on your side in the demo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does setup take, and is pricing published?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Setup takes 24 to 48 hours for most distributors. Business Central publishes per-user prices for its plans; we publish none and give every distributor its own quote. A Business Central replacement, or any Business Central alternative, means moving every customer, item and ledger to a new system. Our app moves none of them."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do the Business Central details here come from?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "From Microsoft's Business Central product and pricing pages and its help articles, checked on 9 November 2026: the AI order agent, item tracking, the phone app for staff and the plans, plus a web search for voice tools other companies sell for it. Their prices are published there, so we leave the figures to them. If something here no longer holds, write to us and the page gets corrected."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "VoiceOrder Solutions Features",
+        "item": "https://vos-landing-pages.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Central + VoiceOrder Solutions",
+        "item": "https://vos-landing-pages.vercel.app/business-central-alternative"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "Kitchens speak orders into an app and fix every line before it reaches you. Business Central stays your ERP: a Business Central alternative you add, not swap.",
+    "url": "https://vos-landing-pages.vercel.app/business-central-alternative",
+    "publisher": {
+      "@type": "Organization",
+      "name": "VoiceOrder Solutions",
+      "url": "https://www.voiceordersolutions.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">For Food Distributors</span>
+      <h1>Not A Business Central Alternative: Orders Checked Before Sending</h1>
+      <p class="lead mt-16">
+        Get orders that each kitchen has gone over itself, one line at a time. With VoiceOrder Solutions, whoever orders for the kitchen talks it into our app and fixes any wrong line before it goes. The books, the stock and the warehouse remain Business Central's job.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">Compare Both Columns</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>Business Central stays put</span>
+        <span class="hero-trust-dot"></span>
+        <span>Checked by the kitchen</span>
+        <span class="hero-trust-dot"></span>
+        <span>iOS + Android</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
+      <div class="img-placeholder tall">
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by food distributors and the restaurants they serve</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">Saved on each order that once came by phone</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">Open for orders, Sundays and late nights too</div>
+    </div>
+    <div>
+      <div class="stat-number">24-48 Hrs</div>
+      <div class="stat-label">Until most distributors take their first order</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: COMPARISON TABLE
+     Business Central is a full ERP with its own AI order agent: six rows get a check mark in both
+     columns, and only the three rows about how an order starts differ (review 2026-11-09).
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">Same ERP, Earlier Check</span>
+      <h2>Business Central plus VoiceOrder Solutions.<br>The ERP stays where it is.</h2>
+      <p class="lead mt-16">
+        Your kitchens get one new step, where they speak and check their own orders. It sits before the ERP, so calling it a Business Central alternative would be wrong. Business Central's finance, stock and AI agent all stay as they are, so both columns get credit for those rows. Nothing joins the two products by default.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:40%;">Feature</th>
+            <th class="highlight" style="width:30%;">Business Central + VoiceOrder Solutions</th>
+            <th style="width:30%;">Business Central on its own</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Finance, receivables and payables</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Kitchens talk through the order and fix any line first</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Checked after sending: a quote by email, replies approved by staff</td>
+          </tr>
+          <tr>
+            <td>Lot numbers, expiry dates and FEFO picking</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>An AI agent that turns emailed requests into quotes</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>An ordering app in each kitchen's hands</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Needs a partner add-on</td>
+          </tr>
+          <tr>
+            <td>AI line suggestions while your staff enter an order</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Replenishment planning and warehouse picks</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Kitchens that used to call now send orders with a number</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Someone writes up the call</td>
+          </tr>
+          <tr>
+            <td>Customer-specific prices and discounts</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: WHY TEAMS LOOK ELSEWHERE
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container">
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
+      <span class="eyebrow">Where The Search Starts</span>
+      <h2>Why a distributor goes looking for a Business Central competitor</h2>
+      <p class="lead mt-16">
+        Few distributors searching for a Business Central alternative want to leave the ERP itself. The catch is timing: Business Central's order agent reviews a request only after the kitchen has sent it, and a call gives it nothing to read until someone types it up.
+      </p>
+    </div>
+
+    <div class="problem-grid">
+
+      <div class="problem-card">
+        <div class="problem-icon">📧</div>
+        <h4>Every request starts as a quote</h4>
+        <p class="text-muted mt-12">
+          Business Central's Sales Order Agent always drafts a sales quote first, even when the customer asked for an order. By default that quote goes back by email and becomes an order only after the customer says yes, so one order can make two trips through the inbox.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">🔁</div>
+        <h4>Mix-ups surface once the kitchen has moved on</h4>
+        <p class="text-muted mt-12">
+          When the agent is unsure which item was meant, it can email the customer to clarify or ask your staff for help, and someone on your team approves every reply. It is careful work, but the correcting happens after the request has gone, when the kitchen may have moved on.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">📞</div>
+        <h4>A call still has to be typed in</h4>
+        <p class="text-muted mt-12">
+          The agent starts from what a customer wrote: an email, a PDF or a photo. When a kitchen phones at 6 a.m., somebody on your side answers and enters it by hand, either as an order or as a task for the agent.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE DEEP-DIVE
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+    <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
+      <span class="eyebrow">What You Get</span>
+      <h2>Why this is not a Business Central alternative, and what it adds</h2>
+    </div>
+
+    <!-- Feature 1 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Voice Ordering</span>
+          <h3>The kitchen fixes a line before you ever see it</h3>
+          <p class="mt-12 text-muted">
+            Standing in the walk-in, the chef names what is short. Our app turns it into lines from that kitchen's guide, the chef changes anything that came out wrong, and only then does it go. The questions get settled in the kitchen, before the order leaves.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>The chef approves every line before it goes</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Takes orders at midnight and on a Sunday</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Runs on the iOS or Android phone in their pocket</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Interrupted mid-order? It waits where they stopped</span>
+            </li>
+          </ul>
+          <a href="/order-taking-software" class="feature-link">See how orders come in →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Push to Speak,<br>then the line-by-line<br>review screen
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 2 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Order Guides</span>
+          <h3>Guides built from your Business Central item list</h3>
+          <p class="mt-12 text-muted">
+            Export what each account buys to a spreadsheet and send it over. Those items go in under your item numbers, at the prices you gave that customer. Your item master never leaves Business Central; you update each guide and its prices yourself, in our web admin.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Each kitchen sees only the items on its own guide</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>You choose what goes in a guide and what it costs</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Update a guide and the very next order picks it up</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Setup installs nothing inside Business Central</span>
+            </li>
+          </ul>
+          <a href="/catalog-management-software" class="feature-link">How guides stay current →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Admin platform<br>order guide editor<br>for one account
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 3 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Delivery Formats</span>
+          <h3>Handed over in a format your office takes</h3>
+          <p class="mt-12 text-muted">
+            Each finished order gets to you by email with a PDF, Excel or Word file attached, or over the API, over EDI or into QuickBooks. You pick one, and during the demo we look at how it would reach your ERP. If it comes by email, someone on your team enters it into Business Central, working from a list the kitchen already reviewed instead of taking it down over the phone.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Addressed to a rep or a shared orders mailbox</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Over EDI, the API or QuickBooks, nobody on your team retypes it</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Picking, invoicing and delivery run as they do now</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>No software has to be retired first</span>
+            </li>
+          </ul>
+          <a href="/wholesale-ordering-software" class="feature-link">What arrives at your desk →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>One order delivered<br>as a PDF and<br>over the API
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 4 -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Inventory Visibility</span>
+          <h3>Stock in view while the orders arrive</h3>
+          <p class="mt-12 text-muted">
+            VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Your catalog keeps up as stock rises and falls</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Fewer stockout surprises after a weekend of orders</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Stock numbers come from the system you count with today</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Lots, expiry and replenishment remain the ERP's job</span>
+            </li>
+          </ul>
+          <a href="/inventory-visibility-software" class="feature-link">Read about stock visibility →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Stock levels beside<br>incoming customer<br>orders
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad bg-light" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 580px; margin: 0 auto;">
+      <span class="eyebrow">Getting Started</span>
+      <h2>From one Business Central export to the first spoken order</h2>
+      <p class="lead mt-16">
+        A single export is usually all we need to begin.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Pull a spreadsheet out of Business Central</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Export each customer's usual items with your prices from Business Central to a spreadsheet, keeping your own item numbers.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>We set up the guides, then each kitchen</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Each guide is loaded and each account opened, then the kitchen installs the app. Most kitchens have sent an order before that day is out.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>Checked orders come to your desk</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Orders from the app turn up numbered and timestamped, reviewed by the kitchen first, in the format you set.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Teams. Real Results.</span>
+      <h2>What it is like when the kitchen does the checking</h2>
+    </div>
+
+    <div class="testimonials-grid">
+
+      <!-- Featured testimonial -->
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "I used to spend hours every week ordering food. Now it's simple,
+          super easy, and I have free time to spend on other aspects of my
+          restaurant."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting testimonials -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "We send far fewer emails asking which item a kitchen meant. They say it, see it on their own list and fix it before it ever gets to us."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Our early calls used to get typed in by whoever picked up. Now those kitchens send a checked order the night before."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Orders go out in the formats distributors already use</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Each order goes out as an email with a PDF, Excel or Word file, an EDI
+      or API feed, or a QuickBooks entry. No one has to switch software to receive it.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF, Excel, Word
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        QuickBooks
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VoiceOrder Solutions is also API-ready, so orders can go straight into an ERP or distribution system set up to take them; the demo shows whether yours is.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Admin
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: WHEN THE TWO WORK TOGETHER
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 620px; margin: 0 auto;">
+      <span class="eyebrow">Working Together</span>
+      <h2>Where each one fits once both are running</h2>
+      <p class="lead mt-16">
+        Nobody needs an alternative to Business Central to change how kitchens order. Our app handles the minutes before a kitchen presses send; after that, your team takes over in Business Central.
+      </p>
+    </div>
+
+    <div class="cards-grid">
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📒</div>
+        <h4>The ERP keeps customers, stock and invoicing</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Business Central remains your system of record. We hold the order guide for every account, priced your way, plus a copy of every order made in our app.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📧</div>
+        <h4>Emailed orders can stay with Business Central's agent</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Customers who email an order or send a PDF can carry on that way, and your staff keep approving the agent's replies. Our app is there for kitchens where talking comes easier than writing. We give no number to an order phoned to you; the app numbers only what comes through it.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🧩</div>
+        <h4>A partner's web portal can stay too</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Business Central has no customer ordering portal of its own; partners sell them as add-on apps. Accounts already using one can carry on. Two ways in for two kinds of kitchen is fine.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: MID-PAGE CTA
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">See a kitchen fix one line, then press send</h3>
+      <p class="text-muted" style="font-size:16px;">
+        Twenty minutes: we talk through one order in the app, correct an item on screen, send it, then look at how it could reach Business Central.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FAQ
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Answers for teams on Business Central</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Do we need a Business Central alternative to add voice ordering?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          No. Business Central keeps its job as your ERP, and its agent can keep handling emailed orders. What we add is a check at the kitchen's end, made before anything reaches you. Start with the customers who phone you most.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is VoiceOrder Solutions better than Business Central?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Only at one job: letting the kitchen catch its own mistakes before you receive the order. The rest is Business Central's work, which is why our app sits beside it.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Doesn't Business Central's AI agent already take orders?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          It does, from email. It reads a customer's message and any PDF or photo, matches the items, prepares a quote first, and asks your staff to approve each reply before it goes. Our app works earlier: a chef says what is needed and fixes each line before it is sent. Neither one makes a wrong order impossible. The difference is who checks it, and when.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can kitchens use Business Central's own mobile app?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          That app was made for your licensed staff: they sign in with their Business Central user name to review data, edit records and email quotes. It is not an app for your customers to order in. Voice add-ons for Business Central exist too: the one we found is built for drive-thru lanes and self-service kiosks, and partners can build custom ones. Ours sits with the kitchen: the chef talks each order through and corrects any line before it reaches you.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Does any link join VoiceOrder Solutions and Business Central?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          No. They are sold separately, nothing links them out of the box, and neither of us offers support for the other side. Over EDI or the API, the app can pass an order straight in with no retyping, if the way Business Central is set up for you allows it; we check that together in the demo. Emailed orders hold lines the kitchen has already approved, and your staff key them in from there instead of from a call.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Will you need a Business Central login from us?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Not to get set up. We need no login and install nothing: we work from an export you send us, so your permissions and customizations are left alone. If EDI or API delivery interests you later, we go through what it needs on your side in the demo.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How long does setup take, and is pricing published?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Setup takes 24 to 48 hours for most distributors. Business Central publishes per-user prices for its plans; we publish none and give every distributor its own quote. A Business Central replacement, or any Business Central alternative, means moving every customer, item and ledger to a new system. Our app moves none of them.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Where do the Business Central details here come from?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          From Microsoft's Business Central product and pricing pages and its help articles, checked on 9 November 2026: the AI order agent, item tracking, the phone app for staff and the plans, plus a web search for voice tools other companies sell for it. Their prices are published there, so we leave the figures to them. If something here no longer holds, write to us and the page gets corrected.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     RELATED PAGES
+     ============================================================ -->
+<section class="related-strip" aria-label="Related pages">
+  <div class="related-head">
+    <span class="eyebrow">Keep Exploring</span>
+    <h2 style="font-size:clamp(24px,3.2vw,32px);">Other systems of record that stay in place</h2>
+  </div>
+  <div class="related-grid">
+
+      <a class="related-card" href="/netsuite-alternative">
+        <span class="related-card-kw">NetSuite Alternative</span>
+        <h3>NetSuite + VoiceOrder Solutions</h3>
+        <p>NetSuite stays your ERP. VoiceOrder Solutions adds spoken kitchen orders with no extra NetSuite module: kitchens check every line before sending.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/necs-entree-alternative">
+        <span class="related-card-kw">NECS Entree Alternative</span>
+        <h3>Entree + VoiceOrder Solutions</h3>
+        <p>Entree keeps running your business. VoiceOrder Solutions adds one step beside it: your accounts speak the order instead of typing it.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/wizcommerce-alternative">
+        <span class="related-card-kw">WizCommerce Alternative</span>
+        <h3>WizCommerce + VoiceOrder Solutions</h3>
+        <p>WizCommerce's AI keeps reading the scans and spreadsheets that still arrive. VoiceOrder Solutions adds orders your kitchens speak and approve, so less needs reading.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+  </div>
+  <p class="text-center text-muted" style="margin-top:36px;font-size:14px;">
+    <a href="/" style="color:var(--color-accent);font-weight:600;text-decoration:none;">See all VoiceOrder Solutions feature pages →</a>
+  </p>
+</section>
+
+
+<!-- ============================================================
+     SECTION 15: FINAL CONVERSION CTA
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Keep Business Central, and let kitchens check their own orders</h2>
+  <p>Twenty minutes, one spoken order, and an honest look at where it would land.</p>
+
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your work email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+  </div>
+
+  <div class="final-cta-trust">
+    <span>✓ No IT project to run</span>
+    <span>✓ Nothing to rip out</span>
+    <span>✓ Sends orders in your format</span>
+    <span>✓ Ask us for a quote</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 16: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Voice Ordering</a></li>
+        <li><a href="#features">Order Guides</a></li>
+        <li><a href="#features">Delivery Formats</a></li>
+        <li><a href="#features">Inventory Visibility</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+        <li><a href="#comparison">Business Central + VoiceOrder Solutions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>More From VoiceOrder Solutions</h5>
+      <ul role="list">
+        <li><a href="/wholesale-operations-software">Wholesale Operations</a></li>
+        <li><a href="/order-entry-software">Order Entry</a></li>
+        <li><a href="/distribution-workflow-software">Distribution Workflow</a></li>
+        <li><a href="/order-fulfillment-software">Order Fulfillment</a></li>
+        <li><a href="/">All Features</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>
