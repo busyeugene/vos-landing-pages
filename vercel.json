@@ -153,6 +153,10 @@
       "destination": "/vos-fresho-alternative-landing.html"
     },
     {
+      "source": "/netsuite-alternative",
+      "destination": "/vos-netsuite-alternative-landing.html"
+    },
+    {
       "source": "/marginedge-alternative",
       "destination": "/vos-marginedge-alternative-landing.html"
     },

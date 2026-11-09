@@ -332,6 +332,18 @@ module.exports = [
     kind: 'compare',
     competitor: 'Fresho',
   },
+  // Batch 2 compare pages (Eugene's "Competitors Batch 2" sheet, Nov 2026): systems of record
+  // (ERPs, inventory, B2B webshops, EDI, POS). Same keep-and-add frame as the 20 before them.
+  {
+    slug: 'netsuite-alternative',
+    file: 'vos-netsuite-alternative-landing.html',
+    label: 'NetSuite Alternative',
+    card: 'NetSuite + VoiceOrder Solutions',
+    blurb: "NetSuite stays the record. VoiceOrder Solutions changes where the order starts: kitchens speak it and check each line, so nobody keys in a call.",
+    cluster: 'compare',
+    kind: 'compare',
+    competitor: 'NetSuite',
+  },
   // Operator-side comparison pages (Nov 2026): the restaurant reads them; VOS comes via its distributor.
   {
     slug: 'marginedge-alternative',

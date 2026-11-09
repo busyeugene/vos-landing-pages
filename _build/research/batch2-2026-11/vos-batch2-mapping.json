@@ -1,0 +1,27 @@
+{
+  "_comment": "VoiceOrder Solutions compare pages, Batch 2 (sheet 'Voice Order Solutions - Competitors Batch 2', 8 Nov 2026). Only the 30 'Batch 2 pick = Yes' rows, prepped by prep.py into batch2-picks.csv. Field values mirror the 20 existing compare rows (landing page / Decision / Learn about product / competitor homepage). Month left blank: not scheduled. Duplicate-KW check skipped on Eugene's word (he ran it). Meta title holds the sheet's suggested H1, which is the house title pattern; TradeGecko's is blank on purpose.",
+  "product_name": "VoiceOrder Solutions",
+  "defaults": { "Status": "Planned" },
+  "merge_duplicate_keywords": true,
+  "tabs": [
+    {
+      "csv": "batch2-picks.csv",
+      "label": "Competitors Batch 2 picks",
+      "defaults": {
+        "Asset type": "Landing page",
+        "Content type": "landing page",
+        "Stage": "Decision",
+        "Action we want readers to perform": "Learn about product"
+      },
+      "map": {
+        "Primary keyword": "Primary keyword",
+        "KD": "KD (Ahrefs)",
+        "Volume": "Volume (Ahrefs US)",
+        "Meta title": "Title (draft)",
+        "Short outline": "Brief",
+        "Secondary keywords": "Secondaries (comma)",
+        "Example (URL)": "Homepage"
+      }
+    }
+  ]
+}

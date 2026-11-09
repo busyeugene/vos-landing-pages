@@ -372,6 +372,15 @@ module.exports = {
       'better than fresho',
     ],
   },
+  'netsuite-alternative': {
+    primary: 'netsuite alternative',
+    secondary: [
+      'netsuite competitor',
+      'netsuite replacement',
+      'alternative to netsuite',
+      'better than netsuite',
+    ],
+  },
   'marginedge-alternative': {
     primary: 'marginedge alternative',
     secondary: [
