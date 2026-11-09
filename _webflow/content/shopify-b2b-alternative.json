@@ -1,0 +1,330 @@
+{
+ "slug": "shopify-b2b-alternative",
+ "meta_title": "Not a Shopify B2B Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Keep your Shopify B2B store for accounts that shop online, and let chefs who still call say each order in an app. Not a Shopify B2B alternative: keep both.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not A Shopify B2B Alternative: Callers Send Checked Lists",
+  "lead": "The restaurants you take calls from can send finished orders without their chef shopping a website. Instead, that chef says the day's items into the VoiceOrder Solutions app, looks the list over and sends. Your Shopify B2B store keeps its catalogs, prices and checkout for every account that buys online.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved per restaurant order, app versus phone"
+  },
+  {
+   "num": "24/7",
+   "label": "Ordering hours for chefs, after your desk closes too"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Setup for most distributors, with Shopify left untouched"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Where Calls Still Land",
+  "h2": "Why distributors start looking at a Shopify B2B competitor",
+  "lead": "Shopify B2B serves restaurants that like to shop online, and when one phones instead, Shopify's answer is a draft your staff build. A Shopify B2B alternative would be one more store, so it would do nothing for the chefs who keep phoning. With our app, those chefs say what they need and read it over. An order we email still becomes a draft someone builds, but the chef has gone over every item first.",
+  "cards": [
+   {
+    "h3": "Shopify B2B centers on the cart and checkout",
+    "body": "Shopify sells B2B on \"the best-converting checkout.\" To buy there, a chef signs in, searches the catalog, fills a cart and checks out. Buyers who like a website do fine. A chef holding tomorrow's short list in their head may just call you instead."
+   },
+   {
+    "h3": "Every call turns into a draft somebody keys in",
+    "body": "Shopify's help center says staff \"capture phone, email, and in-person orders into Shopify using draft orders.\" For each call, someone on your team listens and builds that draft one item at a time."
+   },
+   {
+    "h3": "A catalog for each account needs Shopify Plus",
+    "body": "Shopify's plan table gives each company its own catalog only on Plus; Basic, Grow and Advanced allow up to three catalogs assigned across your B2B markets. If every restaurant pays its own prices, that can decide your plan."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Not a Shopify B2B alternative: what the app adds beside your store",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "No cart and no checkout",
+    "body": "From the walk-in or the prep table, the chef names what the restaurant needs. Our app matches each item to that restaurant's guide and lists it, so the chef can change an item or amount before sending. Your desk gets a finished list instead of a call.",
+    "bullets": [
+     "Nothing goes out until the chef has looked over every item",
+     "Orders can go in late at night or on a holiday",
+     "Runs on the chef's own iOS or Android phone",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "An interrupted order waits for the chef to pick it back up"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How restaurants send orders by voice →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "One guide per restaurant, whatever your Shopify plan",
+    "body": "Send us a spreadsheet of what each restaurant buys from you and what it pays. We load it as that account's guide, under your own item numbers. In our admin you keep every guide and its prices current, and manage the accounts themselves. That means the app's prices are kept apart from your Shopify catalogs. Whether price changes can come over in bulk, from Shopify or another system, is a question for the demo.",
+    "bullets": [
+     "Each chef sees the items that restaurant usually orders",
+     "Edit one account's items without touching your store",
+     "Your full catalog and price lists stay in Shopify",
+     "Nothing is installed in Shopify to set it up"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping each guide current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "An email file, or EDI and the API if your systems take them",
+    "body": "Each finished order arrives by email as a PDF, Excel or Word file, or goes out through EDI, our API or into QuickBooks. An order sent to QuickBooks goes to your books, not into Shopify. Over EDI or our API, it could reach your systems with no one typing it, if they are set up to take it; nothing connects us to Shopify out of the box, and a demo is the place to ask what that would take. For email orders, a person on your team creates the Shopify draft order from the file, with the chef's changes already in it.",
+    "bullets": [
+     "Sent to one rep or to a shared order desk inbox",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Calls get no number from us; each order chefs send in the app has one, plus the time it was sent",
+     "Packing and delivery run the way they do today"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "See what an order includes →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock in view beside incoming restaurant orders",
+    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Stock numbers come from the system you count with today",
+     "Fewer stockout surprises for your order desk",
+     "The stock your store shows shoppers stays in Shopify",
+     "Buying from your own suppliers stays with you: we never raise a purchase order"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "How stock visibility works →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Store And App, Side By Side",
+  "h2": "What Shopify keeps, and where app orders sit",
+  "lead": "This is not an alternative to Shopify B2B. Everyone who buys in your store goes on using it, and the app is meant for the restaurants whose orders you now take by phone.",
+  "items": [
+   {
+    "h3": "Quick order and reorders work as before",
+    "body": "Quick order, reorders, payment terms and company logins all stay as they are, and nobody has to leave Shopify."
+   },
+   {
+    "h3": "App orders live in our admin, not in Shopify",
+    "body": "Our admin keeps the orders that come in through the app. Shopify counts one only once your team builds it there, or EDI or our API brings it in, where your systems allow."
+   },
+   {
+    "h3": "You pick which restaurants get the app",
+    "body": "We set up only the accounts you list for us, so the ones that phone get a guide in the app."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "Watch a chef's list arrive with no call for your desk to take",
+  "body": "During the demo, we say a restaurant's order into our app, replace one product, send it, then show you the email it turns into. After that, we cover where it would sit beside your online store.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "How restaurants start ordering beside your Shopify store",
+  "lead": "It starts with the items on each account and ends with chefs ordering from their phones.",
+  "items": [
+   {
+    "h3": "Export each account's items",
+    "body": "A spreadsheet from Shopify or your ERP is usually all we need: every restaurant's regular items, its prices and the codes you use."
+   },
+   {
+    "h3": "We open the accounts",
+    "body": "Each guide goes in, the account opens, and the chef installs the app."
+   },
+   {
+    "h3": "Restaurants that phoned start sending app orders",
+    "body": "App orders arrive with a number and a send time, in the format set up for you, next to the orders coming through your store."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Shopify B2B plus VoiceOrder Solutions. A store for shoppers, an app for callers.",
+  "h2_lines": [
+   "Shopify B2B plus VoiceOrder Solutions.",
+   "A store for shoppers, an app for callers."
+  ],
+  "eyebrow": "A Store And An App",
+  "lead": "A chef who would rather phone can now talk the list into our app, then read it over before sending. Shopify B2B keeps giving each company account a catalog, a cart and a checkout, which suits restaurants happy to buy online. This is not a Shopify B2B alternative: you keep both, and no built-in connection joins the two products.",
+  "heads": [
+   "Feature",
+   "Shopify B2B + VoiceOrder Solutions",
+   "Shopify B2B on its own"
+  ],
+  "rows": [
+   {
+    "label": "A wholesale store with company accounts and payment terms",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A chef who phones today can speak the items and review them",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Phoned in, then built as a draft order by your staff"
+     }
+    ]
+   },
+   {
+    "label": "Bulk quick ordering and reorders from a past order",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A guide with each restaurant's own items and prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Company catalogs on Plus; up to three market catalogs on other plans"
+     }
+    ]
+   },
+   {
+    "label": "Retail shoppers and wholesale accounts served from one store",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A restaurant that used to phone now sends numbered, time-stamped orders",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Numbered once your staff create the draft"
+     }
+    ]
+   },
+   {
+    "label": "Sales reps limited to their assigned accounts (Grow plan and up)",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "An ordering app for restaurants on iOS and Android",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "ERP connections through partners and apps",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What Shopify sellers ask us",
+  "items": [
+   {
+    "q": "Do we need a Shopify B2B alternative before chefs can order with their voice?",
+    "a": "No. The store, its catalogs, the checkout and your terms stay put. What changes is how your phone-in customers buy: their chef opens our app, speaks each item, checks what it lists and sends it, rather than reading the order out to someone on your team."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Shopify B2B?",
+    "a": "At one job: turning a chef's spoken list into an order, for chefs who prefer speaking to browsing. The store, catalogs, checkout and payments are Shopify's work, so we stay next to it and are not a Shopify B2B alternative."
+   },
+   {
+    "q": "Is it linked to Shopify, and will my desk still type orders?",
+    "a": "No link is built in: they come from two companies, and neither supports the other's software. If we email the order, someone on your side still enters it in Shopify. What they skip is the call: no one listens, writes the items out and reads them back, since every item was gone over in the app first. Shopify has an API for creating orders, but nothing connects ours to it out of the box. If your setup can accept our orders by EDI or the API, no one types them again; a demo answers whether it can."
+   },
+   {
+    "q": "Will app orders show up in our Shopify reports?",
+    "a": "Only once they are in Shopify. Until then, our orders stay out of Shopify's order history, reports and automations, and the chef will not find them in their Shopify account. Once an order is in Shopify, Shopify gives it a number of its own. Shopify, or the ERP behind it, stays the record for your customers, your stock and your invoices. On our side we hold the guides, prices included, along with whatever the chefs send through the app."
+   },
+   {
+    "q": "Couldn't restaurants just use Shopify's quick order list?",
+    "a": "Chefs who like it should hold on to it, along with reorders from earlier purchases. Other apps answer calls with AI or read emailed POs into drafts for your team to approve. Those take the call or the file as it arrives; ours gives the chef the list on their own phone to fix before it goes."
+   },
+   {
+    "q": "Which Shopify plan do we need for this?",
+    "a": "Any of them: setting up changes nothing in your store. Your plan matters on Shopify's side for features like per-company catalogs, which Shopify lists on Plus; each account in our app gets its own guide whichever plan you are on. If you later want orders sent into Shopify over the API, the demo covers what that would take."
+   },
+   {
+    "q": "How quick is setup, and what will it cost us?",
+    "a": "Most distributors are up and running in 24 to 48 hours, and your store does not change. Send us the items each restaurant usually buys, often as an exported spreadsheet. We load them, set up every account, and the chefs install our app; most restaurants have a first order in that same day. Shopify lists what its plans cost. We publish no prices; each distributor gets its own quote. Swapping in a Shopify B2B replacement means rebuilding your store, catalogs and checkout elsewhere; the app leaves all three in place."
+   },
+   {
+    "q": "Where do the Shopify B2B details on this page come from?",
+    "a": "We read shopify.com and Shopify's B2B help pages on 9 November 2026: the wholesale page, plan pricing, and the guides to B2B plan features, store types, customer accounts, draft orders and sales staff. The third-party tools turned up in a search of the Shopify App Store and the wider web. Spot something out of date? Write to us and we will fix it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Leave Shopify B2B as built. Move the order your desk takes over the phone onto the chef's screen.",
+  "body": "Twenty minutes is enough to hear a restaurant's list spoken into the app and see the checked version your desk would get instead of a call.",
+  "cta": "Book a Free Demo →"
+ }
+}

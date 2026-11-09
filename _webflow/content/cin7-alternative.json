@@ -1,0 +1,329 @@
+{
+ "slug": "cin7-alternative",
+ "meta_title": "Not a Cin7 Alternative: Keep Cin7, Add Voice Ordering",
+ "meta_desc": "Cin7 links your webstores, portal and EDI. Restaurants that still call get an app to say each order and fix it first. Not a Cin7 alternative: one more channel.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not A Cin7 Alternative: A Kitchen Ordering Channel",
+  "lead": "Give your phone-order restaurants a channel of their own. In the VoiceOrder Solutions app, the head chef says what the kitchen needs, fixes any item and sends the order to you. Cin7 keeps the stock, the batches and any webstore or portal you run.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved whenever a kitchen sends its order instead of calling"
+  },
+  {
+   "num": "24/7",
+   "label": "Open for kitchen orders, weekends and nights included"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Is all most distributors need to go live"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "What sends a Cin7 user looking at a Cin7 competitor",
+  "lead": "A search for a Cin7 alternative often starts with the one channel Cin7 does not connect: the restaurants calling in their orders before dawn. The app gives their chefs a channel too. Orders the app emails you are still entered by your team, from items each chef has checked. Orders sent by EDI or through the API can land in Cin7 directly if your setup accepts them, and a demo settles that.",
+  "cards": [
+   {
+    "h3": "Every connected channel sends data. A call sends nothing.",
+    "body": "A webstore, a marketplace or a retailer's EDI file hands Cin7 an order it can read. A chef calling at 6 a.m. hands it nothing, so someone at your desk listens and types the call into a Cin7 sale."
+   },
+   {
+    "h3": "Its food page is written for brands and makers",
+    "body": "Cin7 calls itself inventory software for modern sellers: retail, online, wholesale and makers. The food page covers lot tracking, stock rotation by expiry date and recalls, and does not mention restaurants. Nothing on that page is about kitchens ordering from a distributor."
+   },
+   {
+    "h3": "Retail chains send EDI. Most restaurants still phone.",
+    "body": "Cin7 trades orders with major retail chains over EDI: built into Omni, or set up with a partner on Core. The restaurants you deliver to rarely send EDI, so unless they take to the portal, their orders still arrive as calls."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Not a Cin7 alternative: the channel restaurants on the phone were missing",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Spoken by the chef, set out as items",
+    "body": "Standing at the shelves, a chef names what is running low. The app turns it into items from the guide for that restaurant. If one is off, the chef changes it before sending, at any hour, with no wait for your desk.",
+    "bullets": [
+     "Every item gets a look from the chef first",
+     "Takes a Sunday night order like a Tuesday morning one",
+     "Works on the iPhone or Android phone the chef already carries",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Called to the back door mid-order? The app keeps the draft"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order capture works →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "Guides cut from a Cin7 customer export",
+    "body": "Export from Cin7 the items each restaurant buys from you, save them as a spreadsheet and send it to us. We load those items under your SKUs, at the price you set for each account. You keep each guide's prices current in our admin; whether they can update from Cin7 is a question for the demo.",
+    "bullets": [
+     "A kitchen only sees the items it buys from you",
+     "You pick the items and the price for each guide",
+     "Add or drop an item and the chef sees it next time",
+     "Setup adds no Cin7 add-on and changes no automation"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "What reaches your desk, one format at a time",
+    "body": "A sent order goes out by email as a PDF, Excel or Word file, or by EDI, through the API or into QuickBooks. Emailed, it still gets keyed into Cin7 by your staff, but from a list the chef has reviewed rather than from a call. For EDI or the API, we look at your Cin7 setup together in the demo.",
+    "bullets": [
+     "Lands with a rep or in a shared orders inbox",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Picking, invoicing and delivery stay in Cin7",
+     "Webstore, portal and retailer orders carry on unchanged"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock levels next to the kitchen orders coming in",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Fewer stockout surprises for your desk when a big restaurant order lands late",
+     "Stock numbers come from the system you count with today",
+     "Counts, batches and reorder points are still run in Cin7"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Both Running",
+  "h2": "Cin7 keeps its channels. The app adds one.",
+  "lead": "Call it an extra channel, not an alternative to Cin7. Our app serves the restaurants still calling you; Cin7 handles the stock and everything it connects today, as before.",
+  "items": [
+   {
+    "h3": "Your records live in Cin7",
+    "body": "Cin7 holds your customers, stock levels, invoices and lot numbers. We hold the guide you build for each account, with your prices, and the orders restaurants send through the app."
+   },
+   {
+    "h3": "Portal and EDI accounts stay put",
+    "body": "Customers using your Cin7 portal, and chains that send EDI, carry on as they are. Our app is aimed at restaurants still on the phone. A call that still comes to your office gets no number from us; only orders sent in the app do."
+   },
+   {
+    "h3": "Keep Cin7's document reader for PO files",
+    "body": "On Cin7 Core, an add-on called IDR reads a customer's PO file and turns it into a sale your team approves, so keep it for the accounts that send one."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See how a restaurant's spoken order reaches your Cin7 desk",
+  "body": "In 20 minutes we talk one order into the app, fix an item and send it. Then we go through each format, and how each one would fit beside Cin7.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Up and running while Cin7 carries on",
+  "lead": "One spreadsheet out of Cin7 is usually all we need. From it, each restaurant account gets a guide, and its chef starts ordering.",
+  "items": [
+   {
+    "h3": "Export your restaurant accounts' items",
+    "body": "A report of what each account buys, with SKUs and prices, saved as a spreadsheet. We never need access to your Cin7 account for it."
+   },
+   {
+    "h3": "We set up each account with its own guide",
+    "body": "Each kitchen gets the app on its phone and finds its own guide waiting. Most of them get a first order in that same day."
+   },
+   {
+    "h3": "Checked orders start arriving",
+    "body": "Every app order comes with a number and a timestamp, in the format you picked."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Cin7 plus VoiceOrder Solutions. Your other sales channels stay as they are.",
+  "h2_lines": [
+   "Cin7 plus VoiceOrder Solutions.",
+   "Your other sales channels stay as they are."
+  ],
+  "eyebrow": "What Stays, What Changes",
+  "lead": "With the app added, restaurants that used to phone can send you a checked, numbered order instead. If a Cin7 alternative is what you typed, note what stays the same: stock, batches, purchasing, the portal and retail EDI all keep running in Cin7. The two are sold apart, with no link built in.",
+  "heads": [
+   "Feature",
+   "Cin7 + VoiceOrder Solutions",
+   "Cin7 on its own"
+  ],
+  "rows": [
+   {
+    "label": "Batches, expiry dates, purchasing and demand planning (forecasting add-on)",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A kitchen that calls can say its order, then review every item",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Read out on the phone, checked only if read back"
+     }
+    ]
+   },
+   {
+    "label": "Online stores, marketplaces and a POS counter (add-on) in one stock count",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "An ordering app for the chef's own phone",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "B2B web portal with reorders and order history (add-on)",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "EDI with retail chains (built in on Omni, through partners on Core)",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A chef who used to call now sends a numbered, timed order",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "A call gets a number once your team enters it"
+     }
+    ]
+   },
+   {
+    "label": "AI that reads customer purchase orders into sales for approval (Core add-on)",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Call-in restaurants get an ordering option built for chefs",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "The portal if they will use it, or the phone"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Asked by distributors who run Cin7",
+  "items": [
+   {
+    "q": "Do we need a Cin7 alternative to take spoken orders from restaurants?",
+    "a": "No. Your stock, and any webstore, portal or EDI you run, stay with Cin7. We add one more way in, for the restaurants that call you: a chef talks through the order in our app and goes over each item before it is sent."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Cin7?",
+    "a": "Better at one thing only: serving the restaurants that phone you. Their chefs get an app of their own to order in: speak, check, send. Cin7 runs inventory, batch records, buying from suppliers and your webstore and marketplace sales, and we run none of those, so we are not a Cin7 alternative."
+   },
+   {
+    "q": "We run Cin7 Omni, not Core. Does that change setup?",
+    "a": "No. On either edition, setup needs no Cin7 login and installs nothing: we work from a spreadsheet exported from Cin7, and your add-ons, automations and connections stay as they are. Omni has EDI built in for retail chains, while Core connects EDI through partners, so whether our orders could arrive the same way depends on your edition and setup. If you would like orders to arrive that way, the demo covers what it would take on your side."
+   },
+   {
+    "q": "Doesn't Cin7's B2B portal already let restaurants reorder?",
+    "a": "It can. The portal is an add-on where customers you invite log in, browse the catalog you set up, see past orders and reorder, and it works in a phone browser. Cin7 pitches it as a way to keep your customers' shelves stocked. Restaurants that use it should keep it. The app is for the chefs who still prefer to call."
+   },
+   {
+    "q": "Will someone at our desk still key these orders into Cin7?",
+    "a": "It depends on the format. The products are separate, and each vendor supports its own software only. If Cin7 is configured to accept our orders as EDI or from the API, they need no retyping at all; we look at that with you in the demo. By email, someone still enters the sale, but from a file that was checked in the kitchen first, not from a call or a voicemail. Other tools are used beside Cin7 as well, such as readers for emailed purchase orders and AI agents that answer your phone. Ours is in the chef's hands."
+   },
+   {
+    "q": "Will app orders count in Cin7 reports like our other sales?",
+    "a": "Yes, once the order is in Cin7. Whether your desk enters it or it comes in as an EDI or API order where Cin7 is set up for it, it becomes a sale in Cin7 like any other and counts in your sales and stock figures. Before that, the order already carries our order number and a timestamp."
+   },
+   {
+    "q": "What will it cost us, and how soon can kitchens order?",
+    "a": "We get most distributors running in 24 to 48 hours. Cin7 publishes prices for its Core plans and quotes Omni; we quote every distributor separately and publish no prices. A Cin7 replacement would mean moving your stock, batches and every sales connection at once. Adding the app leaves all of that where it is."
+   },
+   {
+    "q": "Where do the Cin7 details on this page come from?",
+    "a": "From cin7.com and the Cin7 Core help center, as of 9 November 2026: the Core and Omni pages, the food and wholesale pages, the B2B portal, EDI, AI and IDR pages, and Cin7's plans and prices, plus listings of other tools that connect to Cin7. Prices are left off on purpose. If anything here is out of date, tell us and we will update it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Keep every Cin7 channel, and open one for the kitchens that call",
+  "body": "A short demo: one order spoken into the app, and the file your desk would receive.",
+  "cta": "Book a Free Demo →"
+ }
+}

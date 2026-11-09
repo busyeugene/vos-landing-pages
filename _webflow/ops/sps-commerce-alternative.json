@@ -1,0 +1,548 @@
+{
+ "slug": "sps-commerce-alternative",
+ "meta_title": "Not an SPS Commerce Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "SPS Commerce handles EDI for accounts that require it. Restaurants that phone get an app to say each order and check it. Not an SPS Commerce alternative.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved per order compared with taking it by phone"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "When a restaurant can send an order, office open or closed"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "Setup for most distributors; restaurants need no EDI"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Where EDI Stops"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "Why most restaurants never reach your EDI"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "SPS Commerce links you with the trading partners whose orders must come by EDI, and most independent restaurants are not among them: they send no EDI at all, so they phone, text or leave voicemail. An SPS Commerce alternative from another EDI provider would not change that. When our app emails an order, your staff still enter it, though from a list its chef reviewed."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "SPS Commerce serves accounts with a rulebook"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "Its Fulfillment page says most retailers require EDI, and that its network already knows each retailer's formats, timelines and packing rules, so a missed one does not turn into a chargeback. A neighborhood restaurant hands you no rulebook. It just calls."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "EDI begins in the customer's own system"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "In SPS Commerce's own explanation, EDI starts when the customer's business system creates a document such as a PO. Most neighborhood restaurants keep no such system, so a call from one gives SPS Commerce nothing to connect to."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "EDI can come in at any hour"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "A chain's EDI order comes to you via SPS Commerce whenever it is sent, and the acknowledgment, ship notice and invoice follow it. A restaurant calling after your desk closes gets voicemail, and nothing moves until someone plays it back the next day."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "Not an SPS Commerce alternative: what the accounts without EDI get"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "An order from a kitchen that runs no EDI"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "In our app, the chef presses Push to Speak and names what the kitchen needs. Each spoken item is matched to the items on that restaurant's guide, then shown as a list, so the chef can correct an item or an amount before anything is sent to you."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "Orders can go in at 2 a.m. or on a holiday"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "If a delivery or a rush pulls the chef away, the order is saved where they stopped"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "Nothing leaves the app until the chef approves the list"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "A guide for each restaurant, built from what it buys"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "We build each restaurant's guide from what it usually buys and the prices it pays, so the chef works from familiar items. You keep every restaurant's prices up to date in our admin, the same place you manage its account and its guide. Whether price changes can come over from your ERP in bulk is a question for the demo."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Only that restaurant's items, not your whole range"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "New items you add appear on the guide for that account"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "You edit each guide yourself when an account's buying changes"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Your item numbers on every guide, so the desk knows each one"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Delivery Formats"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Email, the API, or EDI of our own"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "A finished order goes to your team by email as a PDF, Excel or Word attachment, or as EDI, through our API or into QuickBooks. Our EDI does not pass through SPS Commerce and needs its own way into your ERP. We check in the demo whether your ERP has one; if not, we email you the orders as attachments instead."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Emailed to the rep or the order desk you choose"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Over EDI or the API, when your setup takes it, nobody retypes it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Every app order carries its own number and send time"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Any fix the chef made is already in the file"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Stock in view beside the restaurant orders"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer stockout surprises when restaurant orders land"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Your item catalog with us updates as stock changes"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "We never place orders with your own suppliers"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "EDI Partners, Untouched"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "What stays with SPS Commerce"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "None of this makes us an alternative to SPS Commerce: the chains and grocers that require EDI keep sending it, and the app serves every restaurant whose order still comes as a call or a text."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Your EDI partners never notice a change"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Acknowledgments, ship notices, invoices and labels for your chains are still handled by SPS Commerce, as are each partner's rules. We touch none of it."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "MAX keeps watching the EDI traffic"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "MAX, SPS Commerce's AI, still watches orders, shipments and invoices for each trading partner and flags what could turn into a chargeback. Restaurant orders sent in the app never pass through that traffic."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "Lot traceability stays SPS Commerce's job"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "Any lot data SPS Commerce sends for your partners' traceability rules keeps going out the same way. We send restaurant orders only and keep no lot or traceability records."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "Hear one order from a restaurant that sends no EDI"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "In a short demo, we speak a sample restaurant's order into the app, change an item, submit it and open what your desk would receive. Then we look at which format fits your system."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "Getting restaurants ordering beside SPS Commerce"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "We start from your list of what each restaurant orders. Then we set up the accounts, and each chef installs the app."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Send us each restaurant's regular items"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "An export from your system, often a spreadsheet, is usually all we need: the items every account buys, its prices and the item numbers you use."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "We open the restaurant accounts"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "Each guide is loaded, the account goes live and the chef downloads the app. Most restaurants send a first order the same day."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Orders come in the format you chose"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Each app order arrives after the chef has gone over it, stamped with when it was sent."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "SPS Commerce plus VoiceOrder Solutions."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "EDI needs a system. The app needs a phone."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "EDI Plus Voice"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "The restaurants you deliver to get an app from VoiceOrder Solutions for ordering out loud, since most independents have no EDI software and still reach you with calls and texts. Your chains and bigger customers keep sending EDI because they demand it, and SPS Commerce keeps each of those orders in line with that partner's rules. This is not an SPS Commerce alternative: both stay, as separate products."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "SPS Commerce + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "SPS Commerce on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "EDI orders, ship notices and invoices with partners that require them"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "A restaurant with no EDI system sends an order the chef has checked"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Each retailer's EDI rules, already on file for you"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "EDI documents carried into the ERP you already run"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "A restaurant that once ordered by calling now sends a numbered, timed order"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Lot-level traceability data shared with trading partners"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "A restaurant order placed after your desk has gone home"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Testing and certification before a new EDI partner goes live"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Orders spoken from that restaurant's own guide"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "What owners weighing an SPS Commerce competitor ask us"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Do I need an SPS Commerce alternative to get restaurants ordering in an app?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. SPS Commerce goes on handling EDI for every partner that asks for it. What we add is aimed at the restaurants on your books that still get in touch by phone or by text: the chef names each item in our app, looks over the list and sends it."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than SPS Commerce?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "At one job: letting a restaurant without EDI software send you an order its chef has looked over, with no phone call. Everything EDI does for your chain customers, from ship notices to invoices, belongs to SPS Commerce, so we are not an SPS Commerce alternative."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Doesn't SPS Commerce already sell an ordering product?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "It has Order Central, built for stores ordering from their suppliers, with digital catalogs and an add-on for scanning and ordering straight from the aisle. Its page speaks to retailers. Ours is for a chef who prefers talking to browsing or scanning, ordering from the guide you prepared for that restaurant. SPS Commerce also sells PDF Order Automation, which moves PDF orders from accounts that do not use EDI into its EDI workflow. A chef's phone call leaves no PDF behind."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Are the two connected, and does my order desk keep typing orders?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "No. Two separate companies make them, with no link between the two, and each one supports only its own software. Our EDI or API order bypasses SPS Commerce. If your ERP can take it that way, nobody retypes the order; the demo checks whether it can. Otherwise it arrives as an email attachment, and someone on your team enters it. That person skips taking the call, writing it out and repeating it back, since the chef confirmed every item in the app before sending. Whether SPS Commerce's PDF tool could read that attachment is a question to put to them: we have built nothing for it and promise nothing. Calls go on reaching your desk as they do today, and get no number from us. Your ERP holds customers, stock figures and invoices, as now; we keep the restaurant guides and their prices, plus whatever chefs have sent through the app."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Why not ask our restaurant accounts to send EDI?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "A large group with its own buying system might. Most small restaurants own nothing that could produce an EDI purchase order, while each new trading partner on SPS Commerce is set up and tested before it goes live. The app asks a restaurant for a phone and a few minutes of the chef's time."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "Do app orders come with the paperwork an EDI order gets?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "No. We deliver the order, with an order number and a timestamp, and the restaurant gets a confirmation in the app. Acknowledgments, shipping paperwork and bills come from your own systems, and for EDI accounts from SPS Commerce. The app can still pass on a wrong item if the chef misses it, but the chef reads the list on screen before it goes, rather than hearing it read back over a call."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How soon can we begin, and what does it cost?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "Most distributors can start in 24 to 48 hours, and nothing in SPS Commerce changes. You share each account's usual items, usually as a spreadsheet export, and we load them into our admin and set up each account. The restaurants install our app, and most send in their first order that same day. SPS Commerce publishes its fees for adding trading partners and users; we quote per distributor. An SPS Commerce replacement means moving all your trading partners to another provider, whereas we leave those connections alone."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the SPS Commerce details on this page come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "We read spscommerce.com on 9 November 2026: the homepage, the Fulfillment, Order Central, MAX, Distribution and Grocery & Food pages, What is EDI, the page defining Fulfillment fees, and its article on automating PDF orders. Facts about the other ordering software came from searching the web that day. If SPS Commerce has changed anything since, tell us so we can fix our copy."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Phoned, texted or left on voicemail</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-text-size-medium-21\">Numbered once your team keys in the call</div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   "<div class=\"uui-text-size-medium-21\">Waits on voicemail until morning</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-text-size-medium-21\">Order Central: catalogs and in-aisle scanning for retailers</div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "How restaurants send orders"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "Keeping guides current"
+  ],
+  [
+   2,
+   "/wholesale-ordering-software",
+   "What an order looks like"
+  ],
+  [
+   3,
+   "/inventory-visibility-software",
+   "More on stock visibility"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Not An SPS Commerce Alternative: For Non-EDI Accounts",
+   "lead": "Get the restaurants that never send EDI off the phone and into an app made for ordering. With VoiceOrder Solutions, a chef names today's items in our app, by voice, and corrects any before they reach you. SPS Commerce still runs EDI for the chains and large accounts that require it.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Restaurants without EDI can still send you an order their chef approved",
+   "body": "Take twenty minutes to see where a restaurant's app order would land beside the EDI orders that SPS Commerce handles for your chains.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Do I need an SPS Commerce alternative to get restaurants ordering in an app?",
+   "a": "No. SPS Commerce goes on handling EDI for every partner that asks for it. What we add is aimed at the restaurants on your books that still get in touch by phone or by text: the chef names each item in our app, looks over the list and sends it."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than SPS Commerce?",
+   "a": "At one job: letting a restaurant without EDI software send you an order its chef has looked over, with no phone call. Everything EDI does for your chain customers, from ship notices to invoices, belongs to SPS Commerce, so we are not an SPS Commerce alternative."
+  },
+  {
+   "q": "Doesn't SPS Commerce already sell an ordering product?",
+   "a": "It has Order Central, built for stores ordering from their suppliers, with digital catalogs and an add-on for scanning and ordering straight from the aisle. Its page speaks to retailers. Ours is for a chef who prefers talking to browsing or scanning, ordering from the guide you prepared for that restaurant. SPS Commerce also sells PDF Order Automation, which moves PDF orders from accounts that do not use EDI into its EDI workflow. A chef's phone call leaves no PDF behind."
+  },
+  {
+   "q": "Are the two connected, and does my order desk keep typing orders?",
+   "a": "No. Two separate companies make them, with no link between the two, and each one supports only its own software. Our EDI or API order bypasses SPS Commerce. If your ERP can take it that way, nobody retypes the order; the demo checks whether it can. Otherwise it arrives as an email attachment, and someone on your team enters it. That person skips taking the call, writing it out and repeating it back, since the chef confirmed every item in the app before sending. Whether SPS Commerce's PDF tool could read that attachment is a question to put to them: we have built nothing for it and promise nothing. Calls go on reaching your desk as they do today, and get no number from us. Your ERP holds customers, stock figures and invoices, as now; we keep the restaurant guides and their prices, plus whatever chefs have sent through the app."
+  },
+  {
+   "q": "Why not ask our restaurant accounts to send EDI?",
+   "a": "A large group with its own buying system might. Most small restaurants own nothing that could produce an EDI purchase order, while each new trading partner on SPS Commerce is set up and tested before it goes live. The app asks a restaurant for a phone and a few minutes of the chef's time."
+  },
+  {
+   "q": "Do app orders come with the paperwork an EDI order gets?",
+   "a": "No. We deliver the order, with an order number and a timestamp, and the restaurant gets a confirmation in the app. Acknowledgments, shipping paperwork and bills come from your own systems, and for EDI accounts from SPS Commerce. The app can still pass on a wrong item if the chef misses it, but the chef reads the list on screen before it goes, rather than hearing it read back over a call."
+  },
+  {
+   "q": "How soon can we begin, and what does it cost?",
+   "a": "Most distributors can start in 24 to 48 hours, and nothing in SPS Commerce changes. You share each account's usual items, usually as a spreadsheet export, and we load them into our admin and set up each account. The restaurants install our app, and most send in their first order that same day. SPS Commerce publishes its fees for adding trading partners and users; we quote per distributor. An SPS Commerce replacement means moving all your trading partners to another provider, whereas we leave those connections alone."
+  },
+  {
+   "q": "Where do the SPS Commerce details on this page come from?",
+   "a": "We read spscommerce.com on 9 November 2026: the homepage, the Fulfillment, Order Central, MAX, Distribution and Grocery & Food pages, What is EDI, the page defining Fulfillment fees, and its article on automating PDF orders. Facts about the other ordering software came from searching the web that day. If SPS Commerce has changed anything since, tell us so we can fix our copy."
+  }
+ ]
+}

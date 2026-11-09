@@ -1,0 +1,1633 @@
+{
+ "slug": "fishbowl-inventory-alternative",
+ "pageId": "6af1a26459a91f4cdb2ba518",
+ "text_batches": [
+  [
+   {
+    "label": "t0",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "c3df870f-ba8c-9aaf-796c-bb1249eeefa3"
+     },
+     "text": "20-30 Min"
+    }
+   },
+   {
+    "label": "t1",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
+     },
+     "text": "Saved on each order a chef sends instead of calling"
+    }
+   },
+   {
+    "label": "t2",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "3027ca32-6180-79a6-1a66-d9f911e27a08"
+     },
+     "text": "24/7"
+    }
+   },
+   {
+    "label": "t3",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fea2"
+     },
+     "text": "Restaurant ordering, long after your desk closes"
+    }
+   },
+   {
+    "label": "t4",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "448bf1fe-361f-3c13-6268-4572092953ba"
+     },
+     "text": "24-48 Hrs"
+    }
+   },
+   {
+    "label": "t5",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5feac"
+     },
+     "text": "Setup for most distributors, with Fishbowl left as it is"
+    }
+   },
+   {
+    "label": "t6",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d"
+     },
+     "text": "Why People Search"
+    }
+   },
+   {
+    "label": "t7",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8be"
+     },
+     "text": "What makes owners look up a Fishbowl Inventory competitor"
+    }
+   },
+   {
+    "label": "t8",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
+     },
+     "text": "Fishbowl Inventory already handles an order well once it arrives: stock moves and QuickBooks gets the invoice, so a Fishbowl Inventory alternative would not touch the restaurant call ahead of it. With our app, an emailed list is still keyed in by your people, but the chef has checked every item on it; orders over EDI or the API might need no typing at all, which the demo will settle."
+    }
+   },
+   {
+    "label": "t9",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "eb7fd825-30c6-7275-9a2f-c98f68eb960f"
+     },
+     "text": "Fishbowl pictures a retail morning"
+    }
+   },
+   {
+    "label": "t10",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
+     },
+     "text": "On Fishbowl's pricing page, its sample distributor's day starts with EDI orders from two retailers, compliance rules attached. A restaurant kitchen sends you no EDI. Its chef calls before service, and a person at your desk turns the call into a Fishbowl sales order."
+    }
+   },
+   {
+    "label": "t11",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
+     },
+     "text": "The first entry is still typed by hand"
+    }
+   },
+   {
+    "label": "t12",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
+     },
+     "text": "Fishbowl's QuickBooks page promises nothing typed twice: a shipped order becomes the invoice without anyone keying it. The typing it leaves is the first round: a person at the desk keys in what the chef said on the phone."
+    }
+   },
+   {
+    "label": "t13",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "83921d0d-4ec1-911e-4420-fee5bfd13614"
+     },
+     "text": "The phoned order must go into Fishbowl"
+    }
+   },
+   {
+    "label": "t14",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
+     },
+     "text": "With Fishbowl in place, each sales order begins in Fishbowl, and the QuickBooks invoice follows once it ships. So the call cannot be entered in QuickBooks and left there: someone keys it into Fishbowl before anything else moves."
+    }
+   },
+   {
+    "label": "t15",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d"
+     },
+     "text": "Not a Fishbowl Inventory alternative: the step before the sales order"
+    }
+   },
+   {
+    "label": "t16",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "f49b7c29-2a8e-b047-d714-742b52e0a34c"
+     },
+     "text": "What You Get"
+    }
+   },
+   {
+    "label": "t17",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "d4031fde-2fc3-b283-bb1c-784e741d725b"
+     },
+     "text": "Voice Ordering"
+    }
+   },
+   {
+    "label": "t18",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0ed"
+     },
+     "text": "Said at the walk-in, sent from the chef's phone"
+    }
+   },
+   {
+    "label": "t19",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0f1"
+     },
+     "text": "The chef presses Push to Speak and says what the kitchen needs. Our app matches each item to that restaurant's guide, and the chef fixes any item it got wrong before sending. Your desk receives items the chef has reviewed, not notes from a rushed call."
+    }
+   },
+   {
+    "label": "t20",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
+     },
+     "text": "Nothing is sent until the chef has looked it over"
+    }
+   },
+   {
+    "label": "t21",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4139"
+     },
+     "text": "Open for orders at any hour, holidays included"
+    }
+   },
+   {
+    "label": "t22",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
+     },
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
+    }
+   },
+   {
+    "label": "t23",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4145"
+     },
+     "text": "A half-finished order is saved if service pulls the chef away"
+    }
+   },
+   {
+    "label": "t24",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "d5d6538b-4114-51aa-7fff-aad875b7bfe3"
+     },
+     "text": "Order Guides"
+    }
+   },
+   {
+    "label": "t25",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea2"
+     },
+     "text": "Each restaurant's usual items, at the prices you set"
+    }
+   },
+   {
+    "label": "t26",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
+     },
+     "text": "Export each account's usual items and their prices from Fishbowl. We build a guide for each restaurant under your part numbers. You keep each guide's prices current in our admin; whether they can update from Fishbowl is a question for the demo. Fishbowl's customer records and pricing rules stay where they are."
+    }
+   },
+   {
+    "label": "t27",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdead"
+     },
+     "text": "A chef sees what that kitchen buys, not your full catalog"
+    }
+   },
+   {
+    "label": "t28",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb3"
+     },
+     "text": "You set the price for each account"
+    }
+   },
+   {
+    "label": "t29",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb9"
+     },
+     "text": "Update a guide and the chef's app shows the change"
+    }
+   },
+   {
+    "label": "t30",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+     },
+     "text": "Setup needs no Fishbowl login, and nothing is installed in Fishbowl"
+    }
+   },
+   {
+    "label": "t31",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "6555f9fc-4dcc-b940-f384-6001ce4db69f"
+     },
+     "text": "Delivery Formats"
+    }
+   },
+   {
+    "label": "t32",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb118"
+     },
+     "text": "Three formats for a checked order"
+    }
+   },
+   {
+    "label": "t33",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
+     },
+     "text": "Each order comes to you as an email carrying a PDF, Excel or Word file, over EDI, or through our API. Email orders get keyed into Fishbowl from what the chef reviewed. Orders that travel by EDI or our API can skip that step if your Fishbowl setup accepts them; the demo is where you find out."
+    }
+   },
+   {
+    "label": "t34",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb123"
+     },
+     "text": "Sent to a rep's inbox or a shared one"
+    }
+   },
+   {
+    "label": "t35",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
+     },
+     "text": "Each app order has its own number and send time"
+    }
+   },
+   {
+    "label": "t36",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb12f"
+     },
+     "text": "Picking, shipping and invoicing run as they do today"
+    }
+   },
+   {
+    "label": "t37",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
+     },
+     "text": "Confirmations reach the chef by app notification and text"
+    }
+   },
+   {
+    "label": "t38",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "099f67ce-06ef-dc92-c6e6-fdc4481f359f"
+     },
+     "text": "Inventory Visibility"
+    }
+   },
+   {
+    "label": "t39",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93a"
+     },
+     "text": "Stock levels in view while orders come in"
+    }
+   },
+   {
+    "label": "t40",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
+     },
+     "text": "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+    }
+   },
+   {
+    "label": "t41",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df945"
+     },
+     "text": "Counts, lots and expiry dates are still managed in Fishbowl"
+    }
+   },
+   {
+    "label": "t42",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df94b"
+     },
+     "text": "Fewer stockout surprises for the people taking orders"
+    }
+   },
+   {
+    "label": "t43",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
+     },
+     "text": "Stock numbers come from the system you count with today"
+    }
+   },
+   {
+    "label": "t44",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "021e8cc1-41f6-a5cc-3995-2a8c101d005c"
+     },
+     "text": "Before And After The Order"
+    }
+   },
+   {
+    "label": "t45",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64e7"
+     },
+     "text": "What Fishbowl keeps, and what VoiceOrder Solutions adds"
+    }
+   },
+   {
+    "label": "t46",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
+     },
+     "text": "This is not an alternative to Fishbowl Inventory. VoiceOrder Solutions does its work before Fishbowl has the order, and Fishbowl does the rest."
+    }
+   },
+   {
+    "label": "t47",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da6507"
+     },
+     "text": "Fishbowl keeps the records"
+    }
+   },
+   {
+    "label": "t48",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
+     },
+     "text": "Fishbowl and your books stay in charge of customers, inventory levels, lot tracking and invoicing. We store each restaurant's order guide with your prices, which you edit whenever they change, plus every order its chef places through the app."
+    }
+   },
+   {
+    "label": "t49",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "5368ca22-de87-9362-819f-9733489b5a6d"
+     },
+     "text": "Fishbowl's app is for your warehouse"
+    }
+   }
+  ],
+  [
+   {
+    "label": "t50",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "5368ca22-de87-9362-819f-9733489b5a70"
+     },
+     "text": "Fishbowl Advanced Mobile turns a phone into a barcode scanner for your staff: picking, receiving and counts. Ours belongs to the chef and does one thing: ordering. Your warehouse keeps scanning in Fishbowl's app."
+    }
+   },
+   {
+    "label": "t51",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624"
+     },
+     "text": "QuickBooks still gets its invoices from Fishbowl"
+    }
+   },
+   {
+    "label": "t52",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
+     },
+     "text": "Shipping an order in Fishbowl still creates its invoice in QuickBooks, exactly as it does today. We stop at the point your desk has the order, so your books and your accountant see no change."
+    }
+   },
+   {
+    "label": "t53",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b4"
+     },
+     "text": "See a restaurant order reach your desk with no call to take"
+    }
+   },
+   {
+    "label": "t54",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
+     },
+     "text": "Our demo is twenty minutes long. In it, we speak an example order into our app, fix one item, send it and open the file it turns into. Then we look at how it would get into Fishbowl: keyed from the file, or sent by EDI or API."
+    }
+   },
+   {
+    "label": "t55",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "6923bf1d-5310-eba9-bcb8-7266c5f85e97"
+     },
+     "text": "Getting Started"
+    }
+   },
+   {
+    "label": "t56",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7"
+     },
+     "text": "How restaurants get started on the app"
+    }
+   },
+   {
+    "label": "t57",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
+     },
+     "text": "Fishbowl stays exactly as it is. You send us a spreadsheet, and we set up the restaurants."
+    }
+   },
+   {
+    "label": "t58",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6"
+     },
+     "text": "Send us one Fishbowl export"
+    }
+   },
+   {
+    "label": "t59",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda"
+     },
+     "text": "A spreadsheet out of Fishbowl is usually all we need: what each restaurant buys and what it pays, item by item."
+    }
+   },
+   {
+    "label": "t60",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede"
+     },
+     "text": "We open each restaurant's account"
+    }
+   },
+   {
+    "label": "t61",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3"
+     },
+     "text": "We load the guide, the account opens, and the chef downloads the app. Most kitchens place a first order the same day."
+    }
+   },
+   {
+    "label": "t62",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
+     },
+     "text": "The first orders your desk did not take by phone"
+    }
+   },
+   {
+    "label": "t63",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
+     },
+     "text": "Each one was read over by the chef, carries an order number and its send time, and lands where you asked for it."
+    }
+   },
+   {
+    "label": "t64",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a176"
+     },
+     "text": "Fishbowl plus VoiceOrder Solutions."
+    }
+   },
+   {
+    "label": "t65",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
+     },
+     "text": "The warehouse stays with Fishbowl."
+    }
+   },
+   {
+    "label": "t66",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
+     },
+     "text": "Fishbowl Stays, The Call Changes"
+    }
+   },
+   {
+    "label": "t67",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
+     },
+     "text": "A restaurant that calls still has its order keyed in by hand, and that typing is the step VoiceOrder Solutions changes. After that, Fishbowl moves the order to the shelf and the truck, then posts its invoice to QuickBooks, with no second round of typing. This is not a Fishbowl Inventory alternative: the two products run separately, and neither is wired into the other."
+    }
+   },
+   {
+    "label": "t68",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "1ff87819-9b94-6168-dfbb-e81fd6a5b236"
+     },
+     "text": "Feature"
+    }
+   },
+   {
+    "label": "t69",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a18d"
+     },
+     "text": "Fishbowl + VoiceOrder Solutions"
+    }
+   },
+   {
+    "label": "t70",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a19e"
+     },
+     "text": "Fishbowl on its own"
+    }
+   },
+   {
+    "label": "t71",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1be"
+     },
+     "text": "Live stock counts at every location, scanned on a phone"
+    }
+   },
+   {
+    "label": "t72",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c8"
+     },
+     "text": "A kitchen that used to call now sends a numbered, timed order"
+    }
+   },
+   {
+    "label": "t73",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1d5"
+     },
+     "text": "Lot and expiration tracking for perishable stock"
+    }
+   },
+   {
+    "label": "t74",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e2"
+     },
+     "text": "Orders pulled in from online stores and retailer EDI"
+    }
+   },
+   {
+    "label": "t75",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1ec"
+     },
+     "text": "At 11pm a chef who would phone can still speak the items and check them"
+    }
+   },
+   {
+    "label": "t76",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1f6"
+     },
+     "text": "Sales orders through picking, packing and shipping"
+    }
+   },
+   {
+    "label": "t77",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a210"
+     },
+     "text": "A customer ordering portal, as an add-on or partner app"
+    }
+   },
+   {
+    "label": "t78",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a21a"
+     },
+     "text": "Your desk works from a list the chef checked, not a call"
+    }
+   },
+   {
+    "label": "t79",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a224"
+     },
+     "text": "Shipments, receipts and adjustments posted to QuickBooks"
+    }
+   },
+   {
+    "label": "t80",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "30f8c397-6bf9-f190-2eb1-183dc2b44d9e"
+     },
+     "text": "FAQ"
+    }
+   },
+   {
+    "label": "t81",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
+     },
+     "text": "Answers for distributors on Fishbowl"
+    }
+   },
+   {
+    "label": "t82",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d"
+     },
+     "text": "Should we look for a Fishbowl Inventory alternative to get spoken restaurant orders?"
+    }
+   },
+   {
+    "label": "t83",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+     },
+     "text": "No. Fishbowl goes on running your counts, lot tracking, picking and QuickBooks invoicing. What we add is for the restaurant that phones you: its chef talks each item into our app, looks it over and hits send, so nobody at your desk takes it down during a call."
+    }
+   },
+   {
+    "label": "t84",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "ad9f0390-a776-7031-a95b-984cd1988c9e"
+     },
+     "text": "Is VoiceOrder Solutions better than Fishbowl Inventory?"
+    }
+   },
+   {
+    "label": "t85",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
+     },
+     "text": "They do different jobs, and VoiceOrder Solutions is no Fishbowl Inventory replacement. Fishbowl handles the order from the moment it is entered: counts, picking, lots and your books. Our one job comes earlier: a chef voices the order in an app and checks it first, rather than phoning your desk."
+    }
+   },
+   {
+    "label": "t86",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "e219e293-819b-221b-6d80-7f8d2898a4d7"
+     },
+     "text": "Doesn't Fishbowl already offer a B2B portal?"
+    }
+   },
+   {
+    "label": "t87",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
+     },
+     "text": "Yes. Fishbowl lists its own portal among its plan add-ons, and partner portals and sales-rep apps feed their orders into Fishbowl as sales orders. That suits a chef happy to log in and pick each item from a list or a search. Our app is for the chef who prefers to say it aloud, then read the list over before sending."
+    }
+   },
+   {
+    "label": "t88",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "39590628-381c-9aea-6095-0746f7348939"
+     },
+     "text": "Our retail chains send EDI. Can restaurant orders arrive the same way?"
+    }
+   },
+   {
+    "label": "t89",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
+     },
+     "text": "We can send each restaurant order over EDI, yes. Fishbowl's EDI is set up for retailer trading partners, through the EDI services it works with. Whether your Fishbowl EDI setup will accept orders from us is something we work out with you in the demo. If it cannot, email, or our API if your setup takes it, will carry the order instead."
+    }
+   },
+   {
+    "label": "t90",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "0f73d180-08e9-596f-f264-a95de40f9593"
+     },
+     "text": "Does Fishbowl connect to VoiceOrder Solutions, or will my desk still type orders?"
+    }
+   },
+   {
+    "label": "t91",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
+     },
+     "text": "They do not connect: the two are sold and supported apart, and each vendor stands behind its own software only. Through EDI or our API, Fishbowl may accept the order with no retyping, if your setup allows; the demo is where that gets checked. By email, someone at your desk enters it from the attached file, which the chef went over before sending, rather than from a call. A call placed the old way still gets no number from us. Fishbowl offers an API, so other order tools can connect to it too, and its AI assistant, in beta, drafts purchase orders, transfers and sales orders for your staff to approve."
+    }
+   },
+   {
+    "label": "t92",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f"
+     },
+     "text": "We run Fishbowl beside QuickBooks. Can you deliver orders into QuickBooks?"
+    }
+   },
+   {
+    "label": "t93",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "4446ea80-4c7a-f2a8-f0de-0a222818c94f"
+     },
+     "text": "QuickBooks is one of our delivery formats. With Fishbowl, though, your sales orders start in Fishbowl. Fishbowl's own QuickBooks page says sales orders do not transfer automatically between the two, and that invoices flow from Fishbowl to QuickBooks, so do not count on an order we put into QuickBooks reaching Fishbowl. A file, EDI or the API is the more direct choice, and the demo settles which."
+    }
+   },
+   {
+    "label": "t94",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d"
+     },
+     "text": "How fast is setup, and what does it cost?"
+    }
+   },
+   {
+    "label": "t95",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf997"
+     },
+     "text": "Setup takes 24 to 48 hours for most distributors, and nothing in Fishbowl changes. Fishbowl publishes starting prices for its plans; we give each distributor a quote and publish no figure. Any Fishbowl Inventory alternative means a new stock system, a data move and retraining the warehouse. Shifting some restaurant calls into an app asks for none of that."
+    }
+   },
+   {
+    "label": "t96",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "7ec95cf1-65b0-b7be-b209-990427524516"
+     },
+     "text": "Where do the Fishbowl details on this page come from?"
+    }
+   },
+   {
+    "label": "t97",
+    "set_text": {
+     "id": {
+      "component": "6af1a26459a91f4cdb2ba518",
+      "element": "7ec95cf1-65b0-b7be-b209-99042752451e"
+     },
+     "text": "From fishbowlinventory.com, read through on 9 November 2026: the inventory, sales, order management, ecommerce, Commerce Suite, AI, warehouse, food industry, QuickBooks, integrations and pricing pages, and the partner portal pages it links. Notice something out of date? Write to us and we will correct this page."
+    }
+   }
+  ]
+ ],
+ "settings": [
+  {
+   "label": "cells",
+   "set_settings": {
+    "operations": [
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Numbered only after someone enters it</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "55af8715-1c0d-7742-fde4-496073314315"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">A voicemail for your team to enter in the morning</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Notes taken while the chef is on the phone</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a26459a91f4cdb2ba518",
+       "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "element": [
+  {
+   "label": "st0",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st1",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st2",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st3",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st4",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st5",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "55af8715-1c0d-7742-fde4-496073314315"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st6",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st7",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st8",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st9",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st10",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st11",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st12",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st13",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st14",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st15",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st16",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st17",
+   "set_style": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "rmb33",
+   "remove_element": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df952"
+    }
+   }
+  },
+  {
+   "label": "lk0",
+   "set_link": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "page",
+    "link": "6a886c65f128fbd289d0cea7"
+   }
+  },
+  {
+   "label": "lt0",
+   "set_text": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "62c65bfe-03f5-d4ff-c643-2ff168830cfd"
+    },
+    "text": "How order taking works"
+   }
+  },
+  {
+   "label": "lk1",
+   "set_link": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "page",
+    "link": "6a73a777a9a14bd4436ca47a"
+   }
+  },
+  {
+   "label": "lt1",
+   "set_text": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "2a9c5f49-46db-737d-95ef-b9312d351221"
+    },
+    "text": "Keeping guides current"
+   }
+  },
+  {
+   "label": "lk2",
+   "set_link": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "page",
+    "link": "6a868afec7f0381b2e0d1e41"
+   }
+  },
+  {
+   "label": "lt2",
+   "set_text": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "32a53d8c-0269-f0df-ac7c-d8a8567f0b8f"
+    },
+    "text": "From order to pick line"
+   }
+  },
+  {
+   "label": "lk3",
+   "set_link": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "page",
+    "link": "6a73a761403094903a4c3863"
+   }
+  },
+  {
+   "label": "lt3",
+   "set_text": {
+    "id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "7fd74404-bc36-46b7-cbcd-41511283be49"
+    },
+    "text": "More on stock tracking"
+   }
+  }
+ ],
+ "hard": null,
+ "props": [
+  {
+   "label": "hero",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "989faf8b-cac3-f127-6306-f797ae33f470"
+    },
+    "values": [
+     {
+      "prop_id": "a7704768-52e6-0ad3-2179-5447d7543ee2",
+      "type": "string",
+      "string_value": "For Food Distributors"
+     },
+     {
+      "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
+      "type": "string",
+      "string_value": "Not A Fishbowl Inventory Alternative: Fix The Phone Order"
+     },
+     {
+      "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
+      "type": "string",
+      "string_value": "Give the restaurants that still call you an app to order in by voice: each chef speaks the items, checks the list and sends it. Fishbowl already ends the retyping once an order is in. This app is for the call before that, while Fishbowl keeps stock, lots, picking and invoicing."
+     },
+     {
+      "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
+      "type": "string",
+      "string_value": "Book a Free Demo"
+     }
+    ]
+   }
+  },
+  {
+   "label": "mainCta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6af1a26459a91f4cdb2ba518",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+      "type": "string",
+      "string_value": "Fishbowl runs everything after the order. Chefs can skip the call."
+     },
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "Give us twenty minutes to follow one restaurant order from the kitchen to your inbox."
+     },
+     {
+      "prop_id": "0336eaf6-adb9-6ceb-4140-3e3e57f922c4",
+      "type": "string",
+      "string_value": "Book a Free Demo"
+     }
+    ]
+   }
+  }
+ ],
+ "seo": {
+  "id": "6af1a26459a91f4cdb2ba518",
+  "seo": {
+   "title": "Not a Fishbowl Inventory Alternative: Add Voice Ordering",
+   "description": "Fishbowl ends the retyping after an order. Restaurants that still call can voice each order in an app and check it. Not a Fishbowl Inventory alternative."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true
+  }
+ }
+}

@@ -1,0 +1,330 @@
+{
+ "slug": "odoo-alternative",
+ "meta_title": "Not an Odoo Alternative: Keep Odoo, Add Voice Ordering",
+ "meta_desc": "Chefs say what ran short today into an app and look over every item before it is sent to you. Not an Odoo alternative: Odoo keeps your books, stock and shop.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not An Odoo Alternative: Chefs Say Today's Shortages",
+  "lead": "Get each kitchen's order the way the chef says it, checked by the chef in the VoiceOrder Solutions app before it is sent. Odoo's Order Again refills a cart from a past order; our app starts from what ran short today. Odoo carries on running your accounting, stock and online shop.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved per spoken order versus a call"
+  },
+  {
+   "num": "24/7",
+   "label": "Ordering window, nights and Sundays included"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Until most distributors are taking orders"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Distributors Compare",
+  "h2": "Why some distributors start looking at an Odoo competitor",
+  "lead": "Not every distributor who searches for an Odoo alternative wants to leave it. In Odoo, each new need gets another app, and for kitchens used to phoning you, that app is a web shop to sign in to. Here are three reasons the phone stays busy anyway.",
+  "cards": [
+   {
+    "h3": "Odoo Sales starts after someone types the call",
+    "body": "Odoo handles every step once a quotation exists. Before that, a chef calls at 6 a.m., texts a photo or leaves a message, and someone in your office enters it in Odoo Sales one line at a time."
+   },
+   {
+    "h3": "A shop login suits some kitchens",
+    "body": "Odoo's shop can be set to invitation only, with each customer's pricelist and an Order Again button. Kitchens that sign in use it well. The ones that never set a password keep calling."
+   },
+   {
+    "h3": "Order Again copies what was bought before",
+    "body": "Odoo's portal can refill the cart from a previous order, and the chef then adjusts each quantity. When what ran out this week is not what ran out last week, a call can feel quicker than editing old quantities."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "No Odoo alternative needed: here is what we add",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "The chef names what ran out, then checks the list",
+    "body": "The chef opens our app and says what is running low. It lists those items from that kitchen's own guide, they fix anything that looks wrong, and they send it. No shop password, no search bar, no time on hold.",
+    "bullets": [
+     "The kitchen approves each line before it leaves the phone",
+     "Open for orders after your office has closed for the night",
+     "Runs on the iPhone or Android phone the chef already owns",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "A half-built order waits if the chef gets pulled away"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How kitchens send orders →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "One spreadsheet becomes each account's guide",
+    "body": "Export what each customer buys out of Odoo into a spreadsheet. We turn those rows into one guide for every customer, under your own codes and at the price you set for them. Odoo keeps the full product list; each guide holds just the lines that kitchen buys.",
+    "bullets": [
+     "A kitchen sees only the items in its own guide",
+     "You choose the price and the lines in each guide",
+     "Update a guide and the kitchen's next order comes from it",
+     "Each account and its order history, kept in one place"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "How guides stay up to date →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "Pick how each order lands with your team",
+    "body": "A finished order can reach you as an email with a PDF, Excel or Word file, over EDI, through the API, or into QuickBooks. Which one fits how you run Odoo is something we work out with you in the demo.",
+    "bullets": [
+     "Goes to one rep or to a shared orders inbox",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Picking, delivery and invoices run in Odoo as before",
+     "Keep taking orders in the online shop too"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "See a finished order →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "How much is left, next to what was ordered",
+    "body": "VoiceOrder Solutions carries real-time inventory visibility tied to order activity, and the catalog updates as stock changes. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Stock for your catalog in one view, tied to orders",
+     "Fewer stockout surprises after a big Friday order",
+     "Stock numbers come from the system you count with today",
+     "Lots, expiry and scanning stay with Odoo Inventory"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "How stock visibility works →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Working Next To Odoo",
+  "h2": "Which jobs Odoo keeps, and the one we take on",
+  "lead": "This is not an alternative to Odoo, and it is not one more Odoo app either: nothing of ours is installed in your database. We handle the order a kitchen says aloud; Odoo runs the sale, the stock and the invoice from there.",
+  "items": [
+   {
+    "h3": "Odoo is still where your records live",
+    "body": "Your customer list, stock and billing stay in Odoo. We keep the guide for every kitchen, at prices you update in our admin platform, along with every order placed through our app."
+   },
+   {
+    "h3": "Kitchens on the Odoo shop can stay on it",
+    "body": "If some accounts already use Order Again in your Odoo shop, leave them be. Save our app for the accounts whose chefs still reach for the phone to order. A call to your office gets no number from us; every order spoken in our app is numbered."
+   },
+   {
+    "h3": "Billing stays with Odoo",
+    "body": "Quotes, invoices and any online payment you take remain in Odoo and its customer portal. We take the kitchen's order; the bill still comes from Odoo."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "Watch us talk an order into the app, then ask how it would reach Odoo",
+  "body": "It is a twenty-minute call: we fix one item before sending, and then go over which delivery format would suit you.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "One Odoo export, then the first spoken order",
+  "lead": "You send a file, we set up the accounts, and the kitchens begin ordering.",
+  "items": [
+   {
+    "h3": "Pull each account's items out of Odoo",
+    "body": "A spreadsheet from Odoo is usually all we need: the items each customer takes and the price, under your codes."
+   },
+   {
+    "h3": "Each kitchen gets its guide and the app",
+    "body": "We load the guides and open the accounts; the kitchen downloads the app. Most place a first order the same day."
+   },
+   {
+    "h3": "Your desk receives the kitchen's checked order",
+    "body": "Each one comes in checked by the customer, with a number and the time it was sent, in the format you picked."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Odoo plus VoiceOrder Solutions. Every Odoo app stays installed.",
+  "h2_lines": [
+   "Odoo plus VoiceOrder Solutions.",
+   "Every Odoo app stays installed."
+  ],
+  "eyebrow": "One Step Added",
+  "lead": "Rather than calling you, kitchens can use their voice in our app, and every app you already use stays where it is. If you searched for an Odoo alternative, know that we are not another ERP to move to. Invoices, stock and your online shop are covered in both columns. The rows where the columns part ways are about how an order gets from the kitchen to you. The two stay separate products, each with its own job.",
+  "heads": [
+   "Feature",
+   "Odoo + VoiceOrder Solutions",
+   "Odoo on its own"
+  ],
+  "rows": [
+   {
+    "label": "Lot numbers, expiry dates and traceability",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Chefs speak what they need, then correct each line",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Signed in to your shop, then typed"
+     }
+    ]
+   },
+   {
+    "label": "Accounting, invoicing and online payments",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Ordering what is short now, by voice",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Searched and typed in the shop, or copied with Order Again"
+     }
+    ]
+   },
+   {
+    "label": "Order Again for repeat orders",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A kitchen that used to call you sends an order with a number",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Your staff enter the call in Sales"
+     }
+    ]
+   },
+   {
+    "label": "A pricelist for each customer",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Customer ordering set up from your order guides",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Set up in Odoo's eCommerce app"
+     }
+    ]
+   },
+   {
+    "label": "Replenishment rules and barcode scanning",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions Odoo users ask us",
+  "items": [
+   {
+    "q": "Would an Odoo alternative fix the phone orders?",
+    "a": "No. Another ERP would still get the same calls, because they come from chefs who would rather not sign in and type. Give those accounts our app to say what they need, and keep every other part of Odoo as it is."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Odoo?",
+    "a": "Only at one job: collecting what a kitchen ran short of today, spoken by the chef and checked before it reaches you. Outside that, Odoo does far more, so we run next to it."
+   },
+   {
+    "q": "Odoo already lets customers reorder. Why add this?",
+    "a": "It does. An invitation-only shop shows each customer its own pricelist, and Order Again in the portal copies an older order into the cart. Both mean signing in first, then searching or editing quantities. Ours begins with whatever the chef notices is missing today."
+   },
+   {
+    "q": "Are there voice ordering tools for Odoo already?",
+    "a": "Yes. Add-ons in Odoo's app store can have an AI answer a customer's phone call and build the sale, and other tools read emailed orders. On a call to a phone bot, there is no list on screen to look over while ordering. In our app, the chef sees every line and fixes it before sending."
+   },
+   {
+    "q": "Are Odoo and VoiceOrder Solutions linked?",
+    "a": "No. Neither product comes with a link to the other, and each of the two companies supports only its own software. Orders that come through EDI or the API can land in Odoo without anyone typing them again, if your Odoo is set up to accept them that way; we confirm that in the demo. An order that goes by email shows up as an attached file the chef has already gone over, and someone on your team keys it in from that rather than from a call or a voicemail."
+   },
+   {
+    "q": "Do we have to install anything in Odoo?",
+    "a": "Not to get started. Our setup asks for no access to your Odoo account and adds no module: we start from a file you pull out of Odoo. If, later on, you would like orders to arrive over EDI or the API, we walk through what your side would need during the demo."
+   },
+   {
+    "q": "How long does it take, and how does pricing compare?",
+    "a": "Going live takes 24 to 48 hours for most distributors. Odoo puts its prices on its website; we do not, and quote per distributor instead. Moving to an Odoo alternative means a full Odoo replacement: every app, record and habit at once. Adding us leaves all of them where they are."
+   },
+   {
+    "q": "Where do the Odoo details on this page come from?",
+    "a": "From odoo.com, Odoo's own documentation and its app store, checked on 9 November 2026: the food distribution page, the eCommerce and B2B setup guides, the Odoo 19 release notes, the page listing their plans and the add-ons sold for Odoo. We leave their prices and figures off this page. If any of it no longer matches Odoo today, tell us and we will fix it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Keep Odoo, and let each chef say today's order in their own words",
+  "body": "Twenty minutes, one order spoken and sent, and a straight answer on how it would reach you.",
+  "cta": "Book a Free Demo →"
+ }
+}

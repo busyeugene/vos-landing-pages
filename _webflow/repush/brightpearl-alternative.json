@@ -1,0 +1,1634 @@
+{
+ "slug": "brightpearl-alternative",
+ "pageId": "6af1a262d65a2fd45f2f3140",
+ "text_batches": [
+  [
+   {
+    "label": "t0",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "c3df870f-ba8c-9aaf-796c-bb1249eeefa3"
+     },
+     "text": "20-30 Min"
+    }
+   },
+   {
+    "label": "t1",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
+     },
+     "text": "Saved per order sent in the app instead of by phone"
+    }
+   },
+   {
+    "label": "t2",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "3027ca32-6180-79a6-1a66-d9f911e27a08"
+     },
+     "text": "24/7"
+    }
+   },
+   {
+    "label": "t3",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fea2"
+     },
+     "text": "When kitchens can send an order, staffed or not"
+    }
+   },
+   {
+    "label": "t4",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "448bf1fe-361f-3c13-6268-4572092953ba"
+     },
+     "text": "24-48 Hrs"
+    }
+   },
+   {
+    "label": "t5",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5feac"
+     },
+     "text": "Setup for most distributors, Brightpearl left as is"
+    }
+   },
+   {
+    "label": "t6",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d"
+     },
+     "text": "Why People Search"
+    }
+   },
+   {
+    "label": "t7",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8be"
+     },
+     "text": "When food distributors weigh a Brightpearl competitor"
+    }
+   },
+   {
+    "label": "t8",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
+     },
+     "text": "Brightpearl's automation acts on whatever order it is given, so swapping it for a Brightpearl alternative would not fix an item misheard on a call. An order from our app that reaches you by email is still typed in by someone on your team, but from items the chef has gone over. Sent through EDI or our API, it can load on its own if your Brightpearl setup accepts it, and that is something we check with you in the demo."
+    }
+   },
+   {
+    "label": "t9",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "eb7fd825-30c6-7275-9a2f-c98f68eb960f"
+     },
+     "text": "Phone orders go in once your team types them"
+    }
+   },
+   {
+    "label": "t10",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
+     },
+     "text": "Brightpearl's wholesale page treats a call-in order like one from email or a webstore: once it is taken, order details and inventory update in one place. For a call, taking it means someone on your team listens and keys in every item."
+    }
+   },
+   {
+    "label": "t11",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
+     },
+     "text": "The restaurant never sees its order before it is entered"
+    }
+   },
+   {
+    "label": "t12",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
+     },
+     "text": "The chef knows what the kitchen is short of, but what got typed is checked, if at all, at your desk. If an item was misheard, nobody at the restaurant saw it before it was entered."
+    }
+   },
+   {
+    "label": "t13",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "83921d0d-4ec1-911e-4420-fee5bfd13614"
+     },
+     "text": "To the rules, a mistake looks ordinary"
+    }
+   },
+   {
+    "label": "t14",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
+     },
+     "text": "Brightpearl's Automation Engine promises to automate the ordinary and catch the exceptional. A mistyped item seldom looks exceptional: it reserves stock, heads to picking and reaches the invoice like a correct one, unless a rule you wrote catches it."
+    }
+   },
+   {
+    "label": "t15",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d"
+     },
+     "text": "Not a Brightpearl alternative: what changes before your rules run"
+    }
+   },
+   {
+    "label": "t16",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "f49b7c29-2a8e-b047-d714-742b52e0a34c"
+     },
+     "text": "What You Get"
+    }
+   },
+   {
+    "label": "t17",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "d4031fde-2fc3-b283-bb1c-784e741d725b"
+     },
+     "text": "Voice Ordering"
+    }
+   },
+   {
+    "label": "t18",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0ed"
+     },
+     "text": "The chef sees every item before Brightpearl does"
+    }
+   },
+   {
+    "label": "t19",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0f1"
+     },
+     "text": "Standing at the shelf, the chef lists what the kitchen needs. Our app matches what was said to the items in that restaurant's guide, then shows the list so the chef can change an item or amount right there. Your team gets a list in place of a call."
+    }
+   },
+   {
+    "label": "t20",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
+     },
+     "text": "Nothing is sent until the chef has seen each item"
+    }
+   },
+   {
+    "label": "t21",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4139"
+     },
+     "text": "Late-night and holiday orders go through too"
+    }
+   },
+   {
+    "label": "t22",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
+     },
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
+    }
+   },
+   {
+    "label": "t23",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4145"
+     },
+     "text": "If service interrupts, the order picks up where the chef left off"
+    }
+   },
+   {
+    "label": "t24",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "d5d6538b-4114-51aa-7fff-aad875b7bfe3"
+     },
+     "text": "Order Guides"
+    }
+   },
+   {
+    "label": "t25",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea2"
+     },
+     "text": "Guides that keep each restaurant to its usual items"
+    }
+   },
+   {
+    "label": "t26",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
+     },
+     "text": "Send us a spreadsheet of what each restaurant orders and pays. We build its guide using your own item numbers and its usual prices. Brightpearl still holds the full catalog and its price lists. Whether guide prices could update from Brightpearl is a question for the demo."
+    }
+   },
+   {
+    "label": "t27",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdead"
+     },
+     "text": "A restaurant sees what it normally buys, not your whole range"
+    }
+   },
+   {
+    "label": "t28",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb3"
+     },
+     "text": "You update each account's prices whenever they change"
+    }
+   },
+   {
+    "label": "t29",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb9"
+     },
+     "text": "A guide you edit at noon is the list the chef works from that evening"
+    }
+   },
+   {
+    "label": "t30",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+     },
+     "text": "Setup asks for an export, not a Brightpearl login"
+    }
+   },
+   {
+    "label": "t31",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "6555f9fc-4dcc-b940-f384-6001ce4db69f"
+     },
+     "text": "Delivery Formats"
+    }
+   },
+   {
+    "label": "t32",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb118"
+     },
+     "text": "Sent in a form your desk can use"
+    }
+   },
+   {
+    "label": "t33",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
+     },
+     "text": "A finished order leaves by email with a PDF, Excel or Word attachment, or through EDI, our API or into QuickBooks. A QuickBooks delivery goes to your books, not into Brightpearl. Sent by EDI or the API, it can go straight into Brightpearl if your setup is built to take it, and the demo shows whether yours is. Either way, the items in it are the ones the chef approved."
+    }
+   },
+   {
+    "label": "t34",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb123"
+     },
+     "text": "Addressed to a single rep or a team inbox"
+    }
+   },
+   {
+    "label": "t35",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
+     },
+     "text": "Over EDI or the API, when your setup takes it, nobody retypes it"
+    }
+   },
+   {
+    "label": "t36",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb12f"
+     },
+     "text": "The chef's corrections are already in the file you get"
+    }
+   },
+   {
+    "label": "t37",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
+     },
+     "text": "Picking and dispatch stay the way they run today"
+    }
+   },
+   {
+    "label": "t38",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "099f67ce-06ef-dc92-c6e6-fdc4481f359f"
+     },
+     "text": "Inventory Visibility"
+    }
+   },
+   {
+    "label": "t39",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93a"
+     },
+     "text": "Stock seen next to incoming orders"
+    }
+   },
+   {
+    "label": "t40",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
+     },
+     "text": "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+    }
+   },
+   {
+    "label": "t41",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df945"
+     },
+     "text": "Counts, lots and expiry dates are still kept by Brightpearl"
+    }
+   },
+   {
+    "label": "t42",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df94b"
+     },
+     "text": "Fewer stockout surprises for your inside team"
+    }
+   },
+   {
+    "label": "t43",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
+     },
+     "text": "Stock numbers come from the system you count with today"
+    }
+   },
+   {
+    "label": "t44",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df957"
+     },
+     "text": "Purchasing suggestions still come from Brightpearl"
+    }
+   },
+   {
+    "label": "t45",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "021e8cc1-41f6-a5cc-3995-2a8c101d005c"
+     },
+     "text": "Before Send, After Send"
+    }
+   },
+   {
+    "label": "t46",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64e7"
+     },
+     "text": "What Brightpearl keeps, and what we add"
+    }
+   },
+   {
+    "label": "t47",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
+     },
+     "text": "This is not an alternative to Brightpearl: we only handle each restaurant's order until it leaves the chef's phone, and your rules take it from there."
+    }
+   },
+   {
+    "label": "t48",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da6507"
+     },
+     "text": "Brightpearl keeps the stock and the books"
+    }
+   },
+   {
+    "label": "t49",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
+     },
+     "text": "Customers, stock, purchasing and invoices stay in Brightpearl. On our side sit each kitchen's guide and its prices, which you keep current in the VoiceOrder Solutions admin platform, plus every order made through the app."
+    }
+   }
+  ],
+  [
+   {
+    "label": "t50",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "5368ca22-de87-9362-819f-9733489b5a6d"
+     },
+     "text": "Leave webstore and EDI accounts as they are"
+    }
+   },
+   {
+    "label": "t51",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "5368ca22-de87-9362-819f-9733489b5a70"
+     },
+     "text": "Accounts ordering through a B2B website or by EDI already reach Brightpearl with nobody typing, so keep them on that. The app is for the ones that phone instead. Calls to your office still get no order number from us; orders from the app always carry one."
+    }
+   },
+   {
+    "label": "t52",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624"
+     },
+     "text": "Your Automation Engine rules stay as you wrote them"
+    }
+   },
+   {
+    "label": "t53",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
+     },
+     "text": "Nothing in your workflows changes. Once our order is in Brightpearl, whether it came by EDI, through the API or was keyed in from the emailed file, your rules route and invoice it as usual."
+    }
+   },
+   {
+    "label": "t54",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b4"
+     },
+     "text": "Watch a mistake get fixed before it ever reaches Brightpearl"
+    }
+   },
+   {
+    "label": "t55",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
+     },
+     "text": "In 20 minutes we say one order into the app, swap a misheard product for the right one, press send and show what your desk would receive. Then ask how it would fit beside the way you run Brightpearl."
+    }
+   },
+   {
+    "label": "t56",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "6923bf1d-5310-eba9-bcb8-7266c5f85e97"
+     },
+     "text": "Getting Started"
+    }
+   },
+   {
+    "label": "t57",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7"
+     },
+     "text": "How kitchens start ordering beside Brightpearl"
+    }
+   },
+   {
+    "label": "t58",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
+     },
+     "text": "Your team pulls one export. We set up the accounts, and the kitchens install the app."
+    }
+   },
+   {
+    "label": "t59",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6"
+     },
+     "text": "Pull one export"
+    }
+   },
+   {
+    "label": "t60",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda"
+     },
+     "text": "A spreadsheet from Brightpearl is usually all we need: each account's regular items and prices, under your codes."
+    }
+   },
+   {
+    "label": "t61",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede"
+     },
+     "text": "We load each kitchen"
+    }
+   },
+   {
+    "label": "t62",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3"
+     },
+     "text": "Its guide goes in, the account opens and the chef downloads the app. Most kitchens have a first order in the same day."
+    }
+   },
+   {
+    "label": "t63",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
+     },
+     "text": "Your rules start from the chef's list"
+    }
+   },
+   {
+    "label": "t64",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
+     },
+     "text": "Orders from the app were looked over by the chef and carry their own number and send time, in whichever format you set."
+    }
+   },
+   {
+    "label": "t65",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a176"
+     },
+     "text": "Brightpearl plus VoiceOrder Solutions."
+    }
+   },
+   {
+    "label": "t66",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
+     },
+     "text": "Your rules get an order the chef went over."
+    }
+   },
+   {
+    "label": "t67",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
+     },
+     "text": "Accuracy Before Automation"
+    }
+   },
+   {
+    "label": "t68",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
+     },
+     "text": "A product misheard on a call, then typed in, looks like any other order, so your system can route, reserve stock for and invoice it under the rules you set. When the chef orders in the app, every item is on their own screen to check before it goes. This is not a Brightpearl alternative: you keep both, and the two are not linked."
+    }
+   },
+   {
+    "label": "t69",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "1ff87819-9b94-6168-dfbb-e81fd6a5b236"
+     },
+     "text": "Feature"
+    }
+   },
+   {
+    "label": "t70",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a18d"
+     },
+     "text": "Brightpearl + VoiceOrder Solutions"
+    }
+   },
+   {
+    "label": "t71",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a19e"
+     },
+     "text": "Brightpearl on its own"
+    }
+   },
+   {
+    "label": "t72",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1be"
+     },
+     "text": "A single stock figure for stores, online sales and wholesale"
+    }
+   },
+   {
+    "label": "t73",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c8"
+     },
+     "text": "A chef who phones today can speak instead and see each item"
+    }
+   },
+   {
+    "label": "t74",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1d5"
+     },
+     "text": "Price lists by account, account group or sales rep"
+    }
+   },
+   {
+    "label": "t75",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e2"
+     },
+     "text": "Automation rules for routing, stock and accounting"
+    }
+   },
+   {
+    "label": "t76",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1ec"
+     },
+     "text": "Each kitchen's app order comes with a number and a send time"
+    }
+   },
+   {
+    "label": "t77",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1f6"
+     },
+     "text": "Online ordering through a partner webstore or portal"
+    }
+   },
+   {
+    "label": "t78",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a210"
+     },
+     "text": "Orders from EDI trading partners download on their own"
+    }
+   },
+   {
+    "label": "t79",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a21a"
+     },
+     "text": "A chef who would phone can still order after you close"
+    }
+   },
+   {
+    "label": "t80",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a224"
+     },
+     "text": "Barcode picking with lot and expiry tracking"
+    }
+   },
+   {
+    "label": "t81",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "30f8c397-6bf9-f190-2eb1-183dc2b44d9e"
+     },
+     "text": "FAQ"
+    }
+   },
+   {
+    "label": "t82",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
+     },
+     "text": "Questions we hear from Brightpearl users"
+    }
+   },
+   {
+    "label": "t83",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d"
+     },
+     "text": "Would a Brightpearl alternative be needed for spoken orders?"
+    }
+   },
+   {
+    "label": "t84",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+     },
+     "text": "No. Nothing in Brightpearl changes: not the stock, the price lists or the Automation Engine. What changes is what those rules receive: for a restaurant that phones today, the chef now says its order in the app, looks down the list and fixes any mistake first, rather than your team typing it from a call."
+    }
+   },
+   {
+    "label": "t85",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "ad9f0390-a776-7031-a95b-984cd1988c9e"
+     },
+     "text": "Is VoiceOrder Solutions better than Brightpearl?"
+    }
+   },
+   {
+    "label": "t86",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
+     },
+     "text": "For one task, yes: letting the chef who decided an order see and fix each item before your rules act on it. Everything after that, from picking to the invoice, is Brightpearl's work, so we sit next to it and are not a Brightpearl alternative."
+    }
+   },
+   {
+    "label": "t87",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "e219e293-819b-221b-6d80-7f8d2898a4d7"
+     },
+     "text": "Brightpearl's automation catches exceptions. Won't it spot a mistake?"
+    }
+   },
+   {
+    "label": "t88",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
+     },
+     "text": "Its rules can flag the orders you define, such as risky or high-value ones, so a rule can catch some mistakes, like an amount far above normal. An item that was misheard usually looks ordinary: a product that account buys anyway, in a normal amount. Our app puts each item in front of the chef before sending, so the one who knows the kitchen's needs gets a chance to catch it."
+    }
+   },
+   {
+    "label": "t89",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "39590628-381c-9aea-6095-0746f7348939"
+     },
+     "text": "Couldn't our restaurant customers just order on a B2B webstore?"
+    }
+   },
+   {
+    "label": "t90",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
+     },
+     "text": "Some will. Brightpearl can link to a separate B2B website built on an ecommerce platform, and partners sell portals and ordering apps that create Brightpearl sales orders. Other companies build ordering and AI tools on its API too, so ours is not the only way to add ordering. We built it for the chef who picks up the phone today: they speak the items, see the list and fix a wrong one before it reaches you."
+    }
+   },
+   {
+    "label": "t91",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "0f73d180-08e9-596f-f264-a95de40f9593"
+     },
+     "text": "Can the app still send a wrong order?"
+    }
+   },
+   {
+    "label": "t92",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
+     },
+     "text": "Yes. The app turns speech into items from the guide, and a chef can miss a mistake or change their mind after sending. What changes is that the chef, who knows the kitchen, reads down the order before it goes, instead of hearing it read back over a call, if it is read back at all."
+    }
+   },
+   {
+    "label": "t93",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f"
+     },
+     "text": "Is it linked to Brightpearl, and will my desk still type orders?"
+    }
+   },
+   {
+    "label": "t94",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "4446ea80-4c7a-f2a8-f0de-0a222818c94f"
+     },
+     "text": "Each comes from its own company, with no built-in link between them, and each supports its own software only. If Brightpearl is set up to accept orders through EDI or the API, ours can go in without anyone retyping them; the demo is where we find out. By email, the attachment shows each item the chef checked, and someone on your side enters it from that instead of from a call or a voicemail."
+    }
+   },
+   {
+    "label": "t95",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d"
+     },
+     "text": "How fast is setup, and how is it priced?"
+    }
+   },
+   {
+    "label": "t96",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf997"
+     },
+     "text": "Most distributors are ready in 24 to 48 hours, and nobody has to change a thing in Brightpearl. Brightpearl quotes each business rather than listing prices, and we quote per distributor too. A Brightpearl replacement would shift your stock, warehouse and books to a new system, while adding us leaves every workflow you built where it is."
+    }
+   },
+   {
+    "label": "t97",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "7ec95cf1-65b0-b7be-b209-990427524516"
+     },
+     "text": "Where do the Brightpearl details on this page come from?"
+    }
+   },
+   {
+    "label": "t98",
+    "set_text": {
+     "id": {
+      "component": "6af1a262d65a2fd45f2f3140",
+      "element": "7ec95cf1-65b0-b7be-b209-99042752451e"
+     },
+     "text": "From brightpearl.com (Brightpearl by Sage) as it stood on 9 November 2026: the homepage, the wholesale, automation, inventory, warehouse, pricing, implementation and Why Brightpearl pages, one customer story, and the app store page for its EDI connection. The ordering tools came from a search for Brightpearl add-ons. Seen something here that has since changed? Let us know and we will update it."
+    }
+   }
+  ]
+ ],
+ "settings": [
+  {
+   "label": "cells",
+   "set_settings": {
+    "operations": [
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Heard on a call and typed in by your team</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "55af8715-1c0d-7742-fde4-496073314315"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Numbered once your team enters it</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Left as a voicemail until someone is in</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a262d65a2fd45f2f3140",
+       "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "element": [
+  {
+   "label": "st0",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st1",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st2",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st3",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st4",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st5",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "55af8715-1c0d-7742-fde4-496073314315"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st6",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st7",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st8",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st9",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st10",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st11",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st12",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st13",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st14",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st15",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st16",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st17",
+   "set_style": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "lk0",
+   "set_link": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "page",
+    "link": "6a886c65f128fbd289d0cea7"
+   }
+  },
+  {
+   "label": "lt0",
+   "set_text": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "62c65bfe-03f5-d4ff-c643-2ff168830cfd"
+    },
+    "text": "How kitchens send orders"
+   }
+  },
+  {
+   "label": "lk1",
+   "set_link": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "page",
+    "link": "6a73a777a9a14bd4436ca47a"
+   }
+  },
+  {
+   "label": "lt1",
+   "set_text": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "2a9c5f49-46db-737d-95ef-b9312d351221"
+    },
+    "text": "Keeping guides current"
+   }
+  },
+  {
+   "label": "lk2",
+   "set_link": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "page",
+    "link": "6ac87340d30cd9d65138161d"
+   }
+  },
+  {
+   "label": "lt2",
+   "set_text": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "32a53d8c-0269-f0df-ac7c-d8a8567f0b8f"
+    },
+    "text": "What an order looks like"
+   }
+  },
+  {
+   "label": "lk3",
+   "set_link": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "page",
+    "link": "6a73a785a108f62cdecdee33"
+   }
+  },
+  {
+   "label": "lt3",
+   "set_text": {
+    "id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "7fd74404-bc36-46b7-cbcd-41511283be49"
+    },
+    "text": "More on stock visibility"
+   }
+  }
+ ],
+ "hard": null,
+ "props": [
+  {
+   "label": "hero",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "989faf8b-cac3-f127-6306-f797ae33f470"
+    },
+    "values": [
+     {
+      "prop_id": "a7704768-52e6-0ad3-2179-5447d7543ee2",
+      "type": "string",
+      "string_value": "For Food Distributors"
+     },
+     {
+      "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
+      "type": "string",
+      "string_value": "Not A Brightpearl Alternative: Fix Mistakes Before Automation"
+     },
+     {
+      "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
+      "type": "string",
+      "string_value": "Stop a wrong item before your automation sends it on to picking and invoicing. With VoiceOrder Solutions, each chef speaks into our app, then reads the list and changes anything that is off before sending. Brightpearl goes on handling your stock, pricing and automation."
+     },
+     {
+      "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
+      "type": "string",
+      "string_value": "Book a Free Demo"
+     }
+    ]
+   }
+  },
+  {
+   "label": "mainCta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6af1a262d65a2fd45f2f3140",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+      "type": "string",
+      "string_value": "Keep Brightpearl. Let chefs fix their own orders before it acts on them."
+     },
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "Give us twenty minutes to talk one order through, change a product on screen and show the file your desk would get."
+     },
+     {
+      "prop_id": "0336eaf6-adb9-6ceb-4140-3e3e57f922c4",
+      "type": "string",
+      "string_value": "Book a Free Demo"
+     }
+    ]
+   }
+  }
+ ],
+ "seo": {
+  "id": "6af1a262d65a2fd45f2f3140",
+  "seo": {
+   "title": "Not a Brightpearl Alternative: Keep It, Add Voice Ordering",
+   "description": "Brightpearl's rules act on the order they are given. Let chefs speak each order into an app and fix a wrong item first. Not a Brightpearl alternative: keep it."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true
+  }
+ }
+}

@@ -1,0 +1,548 @@
+{
+ "slug": "zoho-inventory-alternative",
+ "meta_title": "Not a Zoho Inventory Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Keep Zoho Inventory for stock, price lists and its portal. Restaurants that call speak orders into an app and check each item. Not a Zoho Inventory alternative.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved for each kitchen order that skips a call to your desk"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "Ordering in the app, nights and weekends included"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "To get most distributors up and running"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Where The Order Gets Stuck"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "Why some distributors search for a Zoho Inventory competitor"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "If you are weighing a Zoho Inventory alternative, look first at what a restaurant can do once it logs in to Zoho's portal: it can view its orders and pay its bills there, but has nowhere to put the next one, so that order still reaches you by phone. An order the app emails you is still keyed in by your team, though the chef checked every item before it was sent. Through EDI or the API it can go into Zoho directly if your account allows it, and we check that in the demo."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "Kitchens pay in the portal, then call to order"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "Zoho's help pages say it plainly: customers \"cannot add items and place orders directly from the customer portal.\" They can view sales orders, pay invoices and check deliveries there. Tomorrow's order still arrives as a call, a text or a voicemail."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "Calls turn into typing for your team"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "In Zoho Inventory, your team creates the sales orders for anything phoned in, at a desk or in its mobile app. A chef's 6 a.m. call only becomes an order in Zoho once somebody has time to key it in."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "Voice links to Zoho exist, but you build them"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "Automation services can hook a phone voice agent or a smart speaker up to Zoho Inventory and turn what was said into a Zoho sales order. You set up that connection and keep it working, and the caller has nothing on screen to correct."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "Not a Zoho Inventory alternative: the ordering step its portal leaves out"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What It Brings"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Spoken by the chef, corrected on screen, then sent"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "The chef taps Push to Speak and reads off what the kitchen is short on. The app sets it out as items from that restaurant's own guide; the chef fixes any that are wrong, then sends the order. There is no store to browse and no call to your office."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "The chef looks over each item before sending"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Available 24/7, including when your office is closed"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "Pulled away mid-order? It is saved, ready to pick up again"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Guides built from what each account buys in Zoho"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "Send us a spreadsheet of each account's usual items, with that account's prices from Zoho. We load those items under your item codes. From then on, you keep each guide's prices current in our admin platform; whether they can update from Zoho Inventory is a question for the demo."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Each kitchen sees only the items it buys from you"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "You set the price and the items in each guide"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "Orders placed after a price edit carry the new price"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "No add-on to install to get started"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Delivery Formats"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "How a finished order reaches your team"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "You pick the format: an email with a PDF, Excel or Word attachment, or the order sent straight by EDI or through the API, if your Zoho Inventory account can take orders that way."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "To a rep's inbox or a shared orders address"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Over EDI or the API, when your setup takes it, nobody retypes it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Picking, invoicing and delivery carry on in Zoho"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Orders from the app get their own number and time"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Order activity shown next to your stock levels"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "VoiceOrder Solutions carries real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Counts and reorders are still done in Zoho"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer stockout surprises for your order desk"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "Zoho still tracks batches, expiry dates and warehouses"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Both, Side By Side"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "Where Zoho Inventory's job ends and the app's begins"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "Nothing here is an alternative to Zoho Inventory. Stock, billing and the portal are still Zoho's to run; the app handles the single step none of those do, a kitchen sending its order."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Zoho Inventory keeps the records it holds today"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Your customer records, stock, batch history and invoices live there. What we hold is every kitchen's order guide with its prices, kept current by you, along with the orders kitchens place in our app."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "The portal carries on for invoices and payments"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "Restaurants keep looking up orders and paying bills there, as they do now. The app is only where an order starts. A call to your office still gets no number from us; only app orders get one."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "A Zoho Commerce store can stay for accounts that browse"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "If you run one, keep it: some accounts like to search a catalog and type. The app is for the chef who finds it quicker to talk than to search."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "Watch the step Zoho's portal skips: a chef's order sent from the app"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "Over a 20-minute demo, we read an order aloud into the app, edit one item on screen, and send it. Then we show the formats your desk could get it in, and what an API order would need on the Zoho side."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "From a Zoho export to the first app order"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "It starts with a file you already have. We build the guides from it, and each restaurant can begin ordering in the app."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Export your customers' items"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "The price list or item export Zoho already produces, saved as Excel or CSV, is usually all we need."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "We open each kitchen's account"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "We load its guide and set the account up, and the kitchen installs the app. Most place a first order the same day."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Orders land in the format you picked"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Each one has been checked by the chef, item by item, and carries a number and a time."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "Zoho Inventory plus VoiceOrder Solutions."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "Your stock and portal stay put."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "Zoho Inventory, Plus One App"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "Your warehouses, batch records and billing stay in Zoho whichever way you go. If a Zoho Inventory alternative is what you searched for, the real gap is narrower: the portal Zoho gives your customers is built for viewing and paying invoices, with no ordering inside it. There is no built-in tie between the two products, and each is bought separately."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "Zoho Inventory + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "Zoho Inventory on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Stock across several warehouses, with transfers"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "Kitchens talk through what they need, in an app"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Batch numbers and expiry dates, traced for recalls"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Kitchens order on their own, not just view and pay"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Price lists assigned to each customer"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Picklists, packing and shipping"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Restaurants that once called send numbered, timed orders"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Invoices, payments and an accounting sync"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "The chef reviews every item before it is sent"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Questions from teams that run Zoho Inventory"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Do we need a Zoho Inventory alternative before kitchens can order on their own?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. Your stock stays in Zoho, and its portal keeps handling bills and payments. The one thing the portal will not do is accept an order from the restaurant. Our app fills that gap: a chef tells it what is short, checks the items and sends them."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than Zoho Inventory?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "For one job, yes: the order Zoho's portal cannot take, sent by a chef who would otherwise call, with every item checked first. We do not set out to be a Zoho Inventory replacement. Zoho Inventory does far more, from batches and warehouses to invoices, so the app goes beside it, not in its place."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Our kitchens already use the Zoho customer portal. Why not order there?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "Because Zoho built the portal for looking things up: its help pages list viewing sales orders, paying invoices and checking deliveries, and say customers cannot order there. Zoho's answer for online ordering is a separate product, Zoho Commerce. Keep the portal either way; the app only adds the order."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Does someone here still have to enter app orders into Zoho Inventory?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "It depends on the format. Zoho and VoiceOrder Solutions are separate companies, nothing ties our app to Zoho, and each supports only its own software. EDI and API orders can land in Zoho with no retyping, provided your Zoho account is able to take them in; we check that with you in the demo. When you choose email, the order is a file (PDF, Word or Excel) that the chef reviewed before sending, and someone on your side enters it from there rather than from a call or a message left overnight."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Doesn't Zoho's own AI already create orders?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "Zoho's AI, Zia, answers questions about stock, orders and customers, and Zoho says AI agents can create orders through its tools. The voice links above are another route. Our app is a different thing: the chef voices the order, then checks each item from their own guide before it is sent."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "Does setting this up change anything in our Zoho account?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "Getting started needs no Zoho login and installs nothing: we build from a file you pull out of Zoho, and your settings and pricing are left alone. If you later want orders to arrive by EDI or the API, the demo covers what that would take on your side."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How soon can we be live, and what does it cost?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "Most distributors are up and running in 24 to 48 hours. Zoho publishes its plan prices; ours is a quote for your business. Any Zoho Inventory alternative that takes over your stock means moving items, batches, warehouses and the accounting link in one go. Next to that move, adding one new way for restaurants to order is small."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the Zoho Inventory details on this page come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "From zoho.com, visited on 9 November 2026: Zoho Inventory's product, pricing, order management, AI (Zia) and mobile pages, Zoho's support articles about the portal and price lists, and Zoho Commerce's note on B2B selling. The details on voice tools are taken from automation services' own Zoho Inventory listings. If any detail is now wrong, write to us and we will correct this page."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Phoned in, or typed into a separate online store such as Zoho Commerce</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-text-size-medium-21\">Not in its customer portal; online ordering means a separate store</div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   "<div class=\"uui-text-size-medium-21\">Calls and voice messages have no order number until your team enters them</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-text-size-medium-21\">If the order is phoned, only when your team reads it back</div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "See how kitchens send orders"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "How guides stay current"
+  ],
+  [
+   2,
+   "/wholesale-ordering-software",
+   "What a finished order holds"
+  ],
+  [
+   3,
+   "/inventory-visibility-software",
+   "More on stock visibility"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Not A Zoho Inventory Alternative: Orders Without The Call",
+   "lead": "Zoho's customer portal lets a restaurant pay a bill, but not start an order. Inside the VoiceOrder Solutions app, your customer's chef talks through what is short and reviews each item before it reaches you. Zoho Inventory carries on with your stock, prices and portal.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Keep Zoho's portal for bills, and give restaurants an app to order in",
+   "body": "One demo: an order read aloud into the app, one item fixed, and the file that lands on your desk.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Do we need a Zoho Inventory alternative before kitchens can order on their own?",
+   "a": "No. Your stock stays in Zoho, and its portal keeps handling bills and payments. The one thing the portal will not do is accept an order from the restaurant. Our app fills that gap: a chef tells it what is short, checks the items and sends them."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than Zoho Inventory?",
+   "a": "For one job, yes: the order Zoho's portal cannot take, sent by a chef who would otherwise call, with every item checked first. We do not set out to be a Zoho Inventory replacement. Zoho Inventory does far more, from batches and warehouses to invoices, so the app goes beside it, not in its place."
+  },
+  {
+   "q": "Our kitchens already use the Zoho customer portal. Why not order there?",
+   "a": "Because Zoho built the portal for looking things up: its help pages list viewing sales orders, paying invoices and checking deliveries, and say customers cannot order there. Zoho's answer for online ordering is a separate product, Zoho Commerce. Keep the portal either way; the app only adds the order."
+  },
+  {
+   "q": "Does someone here still have to enter app orders into Zoho Inventory?",
+   "a": "It depends on the format. Zoho and VoiceOrder Solutions are separate companies, nothing ties our app to Zoho, and each supports only its own software. EDI and API orders can land in Zoho with no retyping, provided your Zoho account is able to take them in; we check that with you in the demo. When you choose email, the order is a file (PDF, Word or Excel) that the chef reviewed before sending, and someone on your side enters it from there rather than from a call or a message left overnight."
+  },
+  {
+   "q": "Doesn't Zoho's own AI already create orders?",
+   "a": "Zoho's AI, Zia, answers questions about stock, orders and customers, and Zoho says AI agents can create orders through its tools. The voice links above are another route. Our app is a different thing: the chef voices the order, then checks each item from their own guide before it is sent."
+  },
+  {
+   "q": "Does setting this up change anything in our Zoho account?",
+   "a": "Getting started needs no Zoho login and installs nothing: we build from a file you pull out of Zoho, and your settings and pricing are left alone. If you later want orders to arrive by EDI or the API, the demo covers what that would take on your side."
+  },
+  {
+   "q": "How soon can we be live, and what does it cost?",
+   "a": "Most distributors are up and running in 24 to 48 hours. Zoho publishes its plan prices; ours is a quote for your business. Any Zoho Inventory alternative that takes over your stock means moving items, batches, warehouses and the accounting link in one go. Next to that move, adding one new way for restaurants to order is small."
+  },
+  {
+   "q": "Where do the Zoho Inventory details on this page come from?",
+   "a": "From zoho.com, visited on 9 November 2026: Zoho Inventory's product, pricing, order management, AI (Zia) and mobile pages, Zoho's support articles about the portal and price lists, and Zoho Commerce's note on B2B selling. The details on voice tools are taken from automation services' own Zoho Inventory listings. If any detail is now wrong, write to us and we will correct this page."
+  }
+ ]
+}

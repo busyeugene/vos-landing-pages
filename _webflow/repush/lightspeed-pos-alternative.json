@@ -1,0 +1,1634 @@
+{
+ "slug": "lightspeed-pos-alternative",
+ "pageId": "6af1a25aedfb600b4c6f2c97",
+ "text_batches": [
+  [
+   {
+    "label": "t0",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "c3df870f-ba8c-9aaf-796c-bb1249eeefa3"
+     },
+     "text": "20-30 Min"
+    }
+   },
+   {
+    "label": "t1",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
+     },
+     "text": "saved on each order, compared with calling it in to the rep"
+    }
+   },
+   {
+    "label": "t2",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "3027ca32-6180-79a6-1a66-d9f911e27a08"
+     },
+     "text": "24/7"
+    }
+   },
+   {
+    "label": "t3",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fea2"
+     },
+     "text": "to order when the stock runs low, not when the rep picks up"
+    }
+   },
+   {
+    "label": "t4",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "448bf1fe-361f-3c13-6268-4572092953ba"
+     },
+     "text": "Same Day"
+    }
+   },
+   {
+    "label": "t5",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5feac"
+     },
+     "text": "is when most kitchens start ordering, once the distributor adds them"
+    }
+   },
+   {
+    "label": "t6",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d"
+     },
+     "text": "Before You Compare"
+    }
+   },
+   {
+    "label": "t7",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8be"
+     },
+     "text": "Why kitchens look for an alternative to Lightspeed POS"
+    }
+   },
+   {
+    "label": "t8",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
+     },
+     "text": "Lightspeed emails each purchase order to the address you saved for that supplier. When the search for a Lightspeed POS competitor starts, the cause is sometimes the supply order, not the register."
+    }
+   },
+   {
+    "label": "t9",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "eb7fd825-30c6-7275-9a2f-c98f68eb960f"
+     },
+     "text": "When your rep works from the phone"
+    }
+   },
+   {
+    "label": "t10",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
+     },
+     "text": "Lightspeed can email purchase orders, but some distributors still work from the phone. For those, Lightspeed's own help articles, for its K-Series restaurant POS, tell you to create the order there and skip the email. Then you make the call as before."
+    }
+   },
+   {
+    "label": "t11",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
+     },
+     "text": "Pars say how much to order"
+    }
+   },
+   {
+    "label": "t12",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
+     },
+     "text": "Lightspeed shows stock and par levels as you build an order, and can repeat orders on a schedule. The items on it come from suppliers you set up in Lightspeed yourself."
+    }
+   },
+   {
+    "label": "t13",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "83921d0d-4ec1-911e-4420-fee5bfd13614"
+     },
+     "text": "Lightspeed AI is there for questions"
+    }
+   },
+   {
+    "label": "t14",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
+     },
+     "text": "Lightspeed AI takes questions on sales, servers, shifts and online-order results, and can set up a menu from a file. Supply orders are not among the topics it lists, so they still go out as an emailed purchase order or a call."
+    }
+   },
+   {
+    "label": "t15",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d"
+     },
+     "text": "Keep the stock tools, speak the restock: no Lightspeed POS alternative needed"
+    }
+   },
+   {
+    "label": "t16",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "f49b7c29-2a8e-b047-d714-742b52e0a34c"
+     },
+     "text": "What You Get"
+    }
+   },
+   {
+    "label": "t17",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "d4031fde-2fc3-b283-bb1c-784e741d725b"
+     },
+     "text": "Voice Ordering"
+    }
+   },
+   {
+    "label": "t18",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0ed"
+     },
+     "text": "Speak your order after close"
+    }
+   },
+   {
+    "label": "t19",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0f1"
+     },
+     "text": "When service ends and you can see what is short, open the app and say what you need from that distributor. What you say turns into lines you can read. Fix a quantity, remove a line, then send it."
+    }
+   },
+   {
+    "label": "t20",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
+     },
+     "text": "You approve each line before anything is sent"
+    }
+   },
+   {
+    "label": "t21",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4139"
+     },
+     "text": "Open at any hour, even when the rep is not"
+    }
+   },
+   {
+    "label": "t22",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
+     },
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
+    }
+   },
+   {
+    "label": "t23",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4145"
+     },
+     "text": "A table needs you mid-order? It waits, saved"
+    }
+   },
+   {
+    "label": "t24",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "d5d6538b-4114-51aa-7fff-aad875b7bfe3"
+     },
+     "text": "Your Account's Guide"
+    }
+   },
+   {
+    "label": "t25",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea2"
+     },
+     "text": "A guide the distributor sets up for you"
+    }
+   },
+   {
+    "label": "t26",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
+     },
+     "text": "Your distributor loads the guide, with the prices on your account for each line, and can update it from their side, so there is no list for you to keep. Your supplier list in Lightspeed is not involved."
+    }
+   },
+   {
+    "label": "t27",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdead"
+     },
+     "text": "Only what you normally order from them"
+    }
+   },
+   {
+    "label": "t28",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb3"
+     },
+     "text": "Lines carry your account pricing"
+    }
+   },
+   {
+    "label": "t29",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb9"
+     },
+     "text": "No product list to type in first"
+    }
+   },
+   {
+    "label": "t30",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+     },
+     "text": "You still deal with the same rep"
+    }
+   },
+   {
+    "label": "t31",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "6555f9fc-4dcc-b940-f384-6001ce4db69f"
+     },
+     "text": "Proof Of The Order"
+    }
+   },
+   {
+    "label": "t32",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb118"
+     },
+     "text": "A number, a time and a confirmation"
+    }
+   },
+   {
+    "label": "t33",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
+     },
+     "text": "An order sent in the app gets its own order number, with the date and time, and a confirmation comes back to your phone. If the truck shows up short, that number is what you give the rep."
+    }
+   },
+   {
+    "label": "t34",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb123"
+     },
+     "text": "The exact time you sent it"
+    }
+   },
+   {
+    "label": "t35",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
+     },
+     "text": "Confirmed by notification or text"
+    }
+   },
+   {
+    "label": "t36",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb12f"
+     },
+     "text": "Lands with the rep or their purchasing team"
+    }
+   },
+   {
+    "label": "t37",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
+     },
+     "text": "A phoned-in order gets no number from us"
+    }
+   },
+   {
+    "label": "t38",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "099f67ce-06ef-dc92-c6e6-fdc4481f359f"
+     },
+     "text": "On The Lightspeed Side"
+    }
+   },
+   {
+    "label": "t39",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93a"
+     },
+     "text": "Lightspeed's stock tools carry on as before"
+    }
+   },
+   {
+    "label": "t40",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
+     },
+     "text": "Tables, tickets, payments, online orders and the stock your dishes use all carry on in Lightspeed. None of that calls for a Lightspeed POS alternative, and your servers see nothing new."
+    }
+   },
+   {
+    "label": "t41",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df945"
+     },
+     "text": "Your servers' screens look the same"
+    }
+   },
+   {
+    "label": "t42",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df94b"
+     },
+     "text": "Any pars and reorder points stay as you set them"
+    }
+   },
+   {
+    "label": "t43",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
+     },
+     "text": "Alerts and reports work as they do now"
+    }
+   },
+   {
+    "label": "t44",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df957"
+     },
+     "text": "No new hardware at the counter"
+    }
+   },
+   {
+    "label": "t45",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "021e8cc1-41f6-a5cc-3995-2a8c101d005c"
+     },
+     "text": "Use Both"
+    }
+   },
+   {
+    "label": "t46",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64e7"
+     },
+     "text": "Keep Lightspeed's stock right while you speak orders"
+    }
+   },
+   {
+    "label": "t47",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
+     },
+     "text": "This is not a Lightspeed POS replacement. Lightspeed keeps the register and the inventory. VoiceOrder Solutions takes over one job: the call you make to a distributor, once that distributor has our app."
+    }
+   },
+   {
+    "label": "t48",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da6507"
+     },
+     "text": "Record it the way Lightspeed says for phoned orders"
+    }
+   },
+   {
+    "label": "t49",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
+     },
+     "text": "Lightspeed gets no copy of what you say in our app, so its stock misses that delivery until you add it. Make the order in Lightspeed with the email skipped, then receive the delivery into stock. In K-Series, you can also set that supplier to update stock levels only, so no email is offered."
+    }
+   }
+  ],
+  [
+   {
+    "label": "t50",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "5368ca22-de87-9362-819f-9733489b5a6d"
+     },
+     "text": "Let a low stock alert start the order"
+    }
+   },
+   {
+    "label": "t51",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "5368ca22-de87-9362-819f-9733489b5a70"
+     },
+     "text": "When Lightspeed flags an item that distributor carries, add it when you next order from them in our app. The alert itself stays in Lightspeed."
+    }
+   },
+   {
+    "label": "t52",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624"
+     },
+     "text": "Watch for recurring orders"
+    }
+   },
+   {
+    "label": "t53",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
+     },
+     "text": "If Lightspeed already emails that distributor a recurring order, keep that order or speak it in our app, not both, or the same goods could arrive twice."
+    }
+   },
+   {
+    "label": "t54",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b4"
+     },
+     "text": "See a supply order leave the phone and reach a distributor"
+    }
+   },
+   {
+    "label": "t55",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
+     },
+     "text": "In the 20-minute demo you see a made-up guide, an order read out with one line corrected, and what lands at the distributor."
+    }
+   },
+   {
+    "label": "t56",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "6923bf1d-5310-eba9-bcb8-7266c5f85e97"
+     },
+     "text": "Getting Started"
+    }
+   },
+   {
+    "label": "t57",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7"
+     },
+     "text": "From your distributor to your first order"
+    }
+   },
+   {
+    "label": "t58",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
+     },
+     "text": "Your distributor handles the account and the guide. You bring a phone."
+    }
+   },
+   {
+    "label": "t59",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6"
+     },
+     "text": "Start with your distributor"
+    }
+   },
+   {
+    "label": "t60",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda"
+     },
+     "text": "Ask if they offer the app. If they do, they set up your account and add your guide. If you cannot find out, contact us."
+    }
+   },
+   {
+    "label": "t61",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede"
+     },
+     "text": "Get the app and sign in"
+    }
+   },
+   {
+    "label": "t62",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3"
+     },
+     "text": "Install it on your phone. Your guide is waiting when you log in."
+    }
+   },
+   {
+    "label": "t63",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
+     },
+     "text": "Say it, read it, send it"
+    }
+   },
+   {
+    "label": "t64",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
+     },
+     "text": "Speak your list, look over the lines, and tap send."
+    }
+   },
+   {
+    "label": "t65",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a176"
+     },
+     "text": "What happens to the call to your rep"
+    }
+   },
+   {
+    "label": "t66",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
+     },
+     "text": "when the distributor has the app?"
+    }
+   },
+   {
+    "label": "t67",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
+     },
+     "text": "Stock Stays In Lightspeed"
+    }
+   },
+   {
+    "label": "t68",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
+     },
+     "text": "Where a distributor is on our app, you get a restock you speak, a guide they load for you and each order confirmed on your phone. If supply ordering is why you are weighing a Lightspeed POS alternative, Lightspeed still keeps the POS, the stock and Lightspeed AI, and those ticks are its own."
+    }
+   },
+   {
+    "label": "t69",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "1ff87819-9b94-6168-dfbb-e81fd6a5b236"
+     },
+     "text": "Feature"
+    }
+   },
+   {
+    "label": "t70",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a18d"
+     },
+     "text": "Lightspeed + VoiceOrder Solutions"
+    }
+   },
+   {
+    "label": "t71",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a19e"
+     },
+     "text": "Lightspeed on its own"
+    }
+   },
+   {
+    "label": "t72",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1be"
+     },
+     "text": "Guest orders at the table, by QR code and online"
+    }
+   },
+   {
+    "label": "t73",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c8"
+     },
+     "text": "Speak your supply list, then look over each item"
+    }
+   },
+   {
+    "label": "t74",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1d5"
+     },
+     "text": "Stock that drops as dishes sell, with low stock alerts"
+    }
+   },
+   {
+    "label": "t75",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e2"
+     },
+     "text": "Item list loaded by the distributor"
+    }
+   },
+   {
+    "label": "t76",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1ec"
+     },
+     "text": "Purchase orders emailed to any supplier"
+    }
+   },
+   {
+    "label": "t77",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1f6"
+     },
+     "text": "A confirmation sent back to your phone"
+    }
+   },
+   {
+    "label": "t78",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a210"
+     },
+     "text": "Reorder points and recurring orders"
+    }
+   },
+   {
+    "label": "t79",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a21a"
+     },
+     "text": "Receiving deliveries into stock, plus recipe costs"
+    }
+   },
+   {
+    "label": "t80",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a224"
+     },
+     "text": "Lightspeed AI for questions about sales and service"
+    }
+   },
+   {
+    "label": "t81",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "30f8c397-6bf9-f190-2eb1-183dc2b44d9e"
+     },
+     "text": "FAQ"
+    }
+   },
+   {
+    "label": "t82",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
+     },
+     "text": "Questions from Lightspeed restaurants"
+    }
+   },
+   {
+    "label": "t83",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d"
+     },
+     "text": "Should I look for a Lightspeed POS alternative just to place supply orders by talking?"
+    }
+   },
+   {
+    "label": "t84",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+     },
+     "text": "No. Keep Lightspeed for the register, and keep its stock and purchasing tools too. If a distributor of yours offers our app, you can say what you need to them rather than call or email."
+    }
+   },
+   {
+    "label": "t85",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "ad9f0390-a776-7031-a95b-984cd1988c9e"
+     },
+     "text": "Is VoiceOrder Solutions better than Lightspeed POS?"
+    }
+   },
+   {
+    "label": "t86",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
+     },
+     "text": "Each does a different job. We take no guest orders, run no tables, take no payments and track no stock. If phoning your rep is what sent you looking for a Lightspeed POS alternative, a distributor with our app means you can speak that restock instead."
+    }
+   },
+   {
+    "label": "t87",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "e219e293-819b-221b-6d80-7f8d2898a4d7"
+     },
+     "text": "Do VoiceOrder Solutions and Lightspeed connect?"
+    }
+   },
+   {
+    "label": "t88",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
+     },
+     "text": "No. Each runs on its own, and neither support team covers the other. Anything you say in the app travels to your distributor, and Lightspeed never gets a copy."
+    }
+   },
+   {
+    "label": "t89",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "39590628-381c-9aea-6095-0746f7348939"
+     },
+     "text": "Do I need Lightspeed's inventory add-on to use this?"
+    }
+   },
+   {
+    "label": "t90",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
+     },
+     "text": "No. Our app works the same whatever Lightspeed plan you are on, with or without its inventory tools. On Lightspeed's pricing page, advanced inventory, which holds its purchase orders, is in some plans and sold as an add-on for the rest."
+    }
+   },
+   {
+    "label": "t91",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "0f73d180-08e9-596f-f264-a95de40f9593"
+     },
+     "text": "If my supply order went through your app, does Lightspeed stock count the delivery?"
+    }
+   },
+   {
+    "label": "t92",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
+     },
+     "text": "Not by itself. Record it in Lightspeed the way you handle orders you phone, then receive it when the delivery comes in. What you save is time on the phone with your rep; entering it there takes as long as it does after a call today. If anything is short, quote the number on your confirmation to your rep."
+    }
+   },
+   {
+    "label": "t93",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f"
+     },
+     "text": "What if I say romaine and the line shows iceberg?"
+    }
+   },
+   {
+    "label": "t94",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "4446ea80-4c7a-f2a8-f0de-0a222818c94f"
+     },
+     "text": "Change it before you send. On the review screen, correct the item or the quantity, or delete the line. That review is the safeguard, so a quick glance can still let a mistake through. A call or a voicemail to the distributor gets no order number from us; only orders sent in the app do."
+    }
+   },
+   {
+    "label": "t95",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d"
+     },
+     "text": "How do I get set up, and what does it cost?"
+    }
+   },
+   {
+    "label": "t96",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf997"
+     },
+     "text": "The distributor opens your account with your guide in it, and most kitchens place a first order the same day. No app at your distributor yet? Then order from them as you always have, and get in touch with us: we will track down the right person to talk to. Since VoiceOrder Solutions reaches you through the distributor, ask them what it costs; we publish no price. Lightspeed lists prices for most of its plans."
+    }
+   },
+   {
+    "label": "t97",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "7ec95cf1-65b0-b7be-b209-990427524516"
+     },
+     "text": "Where do the Lightspeed details on this page come from?"
+    }
+   },
+   {
+    "label": "t98",
+    "set_text": {
+     "id": {
+      "component": "6af1a25aedfb600b4c6f2c97",
+      "element": "7ec95cf1-65b0-b7be-b209-99042752451e"
+     },
+     "text": "On 9 November 2026 we read lightspeedhq.com and the K-Series help center: the restaurant, inventory, pricing and AI pages, and the articles on purchase orders. Features differ between Lightspeed's restaurant products. On that date we found nothing there about ordering from suppliers by voice, and we do not repeat their customer numbers. If something here is no longer current, tell us and we will fix it."
+    }
+   }
+  ]
+ ],
+ "settings": [
+  {
+   "label": "cells",
+   "set_settings": {
+    "operations": [
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Not listed on their site</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "55af8715-1c0d-7742-fde4-496073314315"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">For distributors using our app</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">A supplier list you set up</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">None listed on their site</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a25aedfb600b4c6f2c97",
+       "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "element": [
+  {
+   "label": "st0",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st1",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st2",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st3",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st4",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st5",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "55af8715-1c0d-7742-fde4-496073314315"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st6",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st7",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st8",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st9",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st10",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st11",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st12",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st13",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st14",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st15",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st16",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st17",
+   "set_style": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "lk0",
+   "set_link": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "page",
+    "link": "6a73a72520a0786c962b15b8"
+   }
+  },
+  {
+   "label": "lt0",
+   "set_text": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "62c65bfe-03f5-d4ff-c643-2ff168830cfd"
+    },
+    "text": "How placing an order by voice works"
+   }
+  },
+  {
+   "label": "lk1",
+   "set_link": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "page",
+    "link": "6a88751918720c976eec0411"
+   }
+  },
+  {
+   "label": "lt1",
+   "set_text": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "2a9c5f49-46db-737d-95ef-b9312d351221"
+    },
+    "text": "Buying from more than one supplier"
+   }
+  },
+  {
+   "label": "lk2",
+   "set_link": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "page",
+    "link": "6ac873433f0886a3b09eb1aa"
+   }
+  },
+  {
+   "label": "lt2",
+   "set_text": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "32a53d8c-0269-f0df-ac7c-d8a8567f0b8f"
+    },
+    "text": "Records of what each supplier confirmed"
+   }
+  },
+  {
+   "label": "lk3",
+   "set_link": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "page",
+    "link": "6a8877721297f1950d8e7ea0"
+   }
+  },
+  {
+   "label": "lt3",
+   "set_text": {
+    "id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "7fd74404-bc36-46b7-cbcd-41511283be49"
+    },
+    "text": "Ordering next to the stock you track"
+   }
+  }
+ ],
+ "hard": null,
+ "props": [
+  {
+   "label": "hero",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "989faf8b-cac3-f127-6306-f797ae33f470"
+    },
+    "values": [
+     {
+      "prop_id": "a7704768-52e6-0ad3-2179-5447d7543ee2",
+      "type": "string",
+      "string_value": "For Restaurant Operators"
+     },
+     {
+      "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
+      "type": "string",
+      "string_value": "Not A Lightspeed POS Alternative: Restock Without Calling"
+     },
+     {
+      "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
+      "type": "string",
+      "string_value": "If a distributor's rep still gets your restock by phone, say it into the VoiceOrder Solutions app instead. Order from their order guide (the products you buy from them most, at your account's pricing), read over each line, and get a confirmation on your phone. It works only if your distributor has the app."
+     },
+     {
+      "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
+      "type": "string",
+      "string_value": "Check If My Distributor Offers It"
+     }
+    ]
+   }
+  },
+  {
+   "label": "mainCta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6af1a25aedfb600b4c6f2c97",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+      "type": "string",
+      "string_value": "Low on stock at close? Say the restock and get a confirmation back."
+     },
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "Check with your distributor about VoiceOrder Solutions, or ask us and we will find out for you."
+     },
+     {
+      "prop_id": "0336eaf6-adb9-6ceb-4140-3e3e57f922c4",
+      "type": "string",
+      "string_value": "Ask About Getting Started"
+     }
+    ]
+   }
+  }
+ ],
+ "seo": {
+  "id": "6af1a25aedfb600b4c6f2c97",
+  "seo": {
+   "title": "Not a Lightspeed POS Alternative: Keep It, Add Voice Ordering",
+   "description": "Keep Lightspeed for guests and stock. Where your distributor has our app, speak your supply order and fix any line first. No Lightspeed POS alternative needed."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true
+  }
+ }
+}

@@ -10,3 +10,8 @@
 - 2026-11-09 | grid.js --dupes misses near-duplicates that differ by a/an and does not cover the problem eyebrow slot | proposed home: script gate (grid.js normalise articles, add eyebrows)
 - 2026-11-09 | The merge script for worktree pages lives only in a session scratchpad; it is reused every wave | proposed home: script (_build/merge_wave.py, anchored after a named registry entry)
 - 2026-11-09 | The Airtable PAT moved to `E:\Claude projects\ARCHIVE\Link building OS\.env.local`; CLAUDE.md still names the old path | proposed home: client file (CLAUDE.md, Eugene to approve the path change)
+- 2026-11-09 | A repo feature row with fewer bullets than Webflow's 4 slots: remove the unused `uui-layout08_item` (text Block id - 4) in Webflow instead of writing a new bullet in the repo; gen-repush now emits it | proposed home: script gate (gen-repush.py, done)
+- 2026-11-09 | Pages duplicated from fresho have no donor cell-1,2 String; any generator op aimed at donor-only ids fails "Element not found" there. Track the duplication source per page (`pages.json` compareFromFresho) | proposed home: script gate (gen-repush.py, done)
+- 2026-11-09 | `insert_component_instance` "after" the same anchor N times lands the copies in REVERSE order; insert "before" a fixed next sibling to keep order | proposed home: _webflow/PUSH-RUNBOOK.md
+- 2026-11-09 | A donor-leak check that only knows the content extract flags shared chrome (integrations badge); compare against the page's own built HTML too | proposed home: script gate (leak-check.py, done)
+- 2026-11-09 | Pilot one page with a worker before fanning out: the brief + new verify scripts ran clean first time, and 4 workers then pushed 29 pages with zero retries or 429s | proposed home: _webflow/PUSH-RUNBOOK.md

@@ -243,5 +243,302 @@
    ]
   },
   "_bullets_reason": "Drops the handset bullet, already covered by the hero trust line 'iOS + Android' (operator pages, 2026-10-28)."
+ },
+ "netsuite-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "aptean-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "crunchtime-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "lavu-pos-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "touchbistro-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "lightspeed-pos-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "toast-pos-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "sps-commerce-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    2,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 1), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "b2b-wave-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "repzio-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "conexiom-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "truecommerce-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "orocommerce-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "esker-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "shopify-b2b-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "sana-commerce-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "brightpearl-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "fishbowl-inventory-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "inflow-inventory-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "zoho-inventory-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "cin7-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "prophet-21-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "syspro-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "sage-x3-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "business-central-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "acumatica-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
+ },
+ "odoo-alternative": {
+  "bullets_keep": {
+   "0": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "_bullets_reason": "Drops the handset bullet (index 2), already covered by the hero trust line 'iOS + Android' (batch 2, 2026-11-09)."
  }
 }

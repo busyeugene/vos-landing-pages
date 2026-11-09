@@ -21,7 +21,10 @@ LIVE = 'https://www.voiceordersolutions.com'
 # compare pages (Nov 2026) joined supplier-management here on 2026-10-28.
 OPERATOR = {'supplier-management-software', 'wisk-alternative', 'craftable-alternative',
             'apicbase-alternative', 'marketman-alternative', 'marginedge-alternative',
-            'orderly-alternative', 'xtrachef-alternative', 'restaurant365-alternative'}
+            'orderly-alternative', 'xtrachef-alternative', 'restaurant365-alternative',
+            # Batch 2 operator pages (2026-11-09)
+            'toast-pos-alternative', 'lightspeed-pos-alternative', 'touchbistro-alternative',
+            'lavu-pos-alternative', 'altametrics-alternative', 'crunchtime-alternative'}
 
 OVR = json.load(io.open(os.path.join(HERE, 'overrides.json'), encoding='utf-8'))
 _PG = json.load(io.open(os.path.join(HERE, 'pages.json'), encoding='utf-8'))

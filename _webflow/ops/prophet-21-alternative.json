@@ -1,0 +1,542 @@
+{
+ "slug": "prophet-21-alternative",
+ "meta_title": "Not a Prophet 21 Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Fewer calls for inside sales: kitchens speak each order into an app and check every line. Not a Prophet 21 alternative: P21 keeps order entry and the books.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved on each order that skips a call"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "Kitchens order day or night, with nobody at the desk"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "From spreadsheet to live, for most distributors"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Why The Search Starts"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "Why food distributors look up a Prophet 21 competitor"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "A search for a Prophet 21 alternative rarely starts with the ERP. P21 is designed around a fast order desk, but every phoned order still needs someone free to answer it. Three situations keep coming up."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "A quick screen still needs a person on the line"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "Prophet 21 lets inside sales finish an order from one screen, and it is fast. A kitchen that calls still holds that person for the length of the call, and the next kitchen calling in may get a busy line or voicemail."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "Counter customers wait while a call is taken"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "Prophet 21 handles counter sales and the inside sales desk in one system. When the same person covers the counter and the phone, a customer standing at the counter waits until the call ends."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "A Prophet 21 replacement while moving to the cloud"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "Epicor has tentatively set May 2028 for the last on-premises feature release, so a cloud move is on many P21 shops' horizon. Replacing the ERP at the same time would stack a second project on top of the first."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "Not a Prophet 21 alternative: what it adds for inside sales"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Orders spoken in the kitchen, not phoned to your desk"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "A chef checks the walk-in and says what is needed. The app turns that into lines from the kitchen's own guide, the chef fixes anything that is off, then sends it. Nobody in inside sales picks up the phone for it."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "The kitchen's buyer checks every line before sending"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Open for orders 24/7, nights and Sundays included"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "If the chef is pulled away, nothing is lost; they pick up where they stopped"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "A short list per account, under your own item numbers"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "Export what each account buys from Prophet 21 into a spreadsheet. We load those items at the price you set for that account, so each kitchen orders from its own short list. P21 remains the system of record for customers, stock and billing."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Kitchens see only the lines on their guide"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "You choose what goes in each guide, and at what price"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "You update guides in our admin platform, and later orders use the change"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "We keep the guides, their prices and orders from the app; P21 keeps the rest"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Inside Sales"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Inside sales spends less time on order calls"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "When kitchens send their own orders, the people who used to take those calls can work the accounts instead: chase a missed line, call a quiet account, quote a new one. Email orders still need entering in P21, but from lines the kitchen checked first, which is quicker than a call."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Emailed as a PDF, Excel or Word file, for your team to enter"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Over EDI or the API, when your setup takes it, nobody retypes it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Each app order carries its own number, date and time"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Any call that still comes in is entered in P21 as before"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Stock levels in view while kitchens order"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "VoiceOrder Solutions gives real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "The catalog follows your stock as it changes"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer stockout surprises before the truck is loaded"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "Counts, buying and the warehouse stay in P21"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Who Does What"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "How the work splits between Prophet 21 and VoiceOrder Solutions"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "This is not an alternative to Prophet 21. Your desk keeps P21 Order Entry for the counter and any calls, while kitchens that would have phoned order in our app instead."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Order Entry stays your desk's main screen"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Counter sales, walk-ins and whatever calls still arrive run through Prophet 21 Order Entry, same as today. Calls taken that way get no order number from us; that number is for app orders only."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Web store accounts keep ordering online"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "Accounts that already reorder through Epicor Commerce can carry on, and our app is for the kitchens that prefer talking to searching."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "Mobile Sales stays with your reps"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "P21 Mobile Sales lets your reps take orders on a tablet in the field. Ours goes to the kitchen itself, so reps keep their tool and kitchens get theirs."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "See a chef's spoken order travel to your desk"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "In twenty minutes, we talk through an order in the app, correct one line, send it, and show how it would reach your desk beside P21."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "Three steps, and the first is a P21 export"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "Setup runs on one spreadsheet from P21 and installs nothing in it. Any EDI or API setup comes later, if you want it, and we go over what it would take on your side in the demo."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Export a report of each account's regular items"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "A P21 report saved as a spreadsheet is usually all we need. It lists each account's items and what that account pays."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "We build each kitchen's guide"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "We set up each guide, the kitchen downloads the app, and most place a first order the same day."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "App orders arrive at your desk"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Each one comes checked by the kitchen, numbered and timed, in whichever format you set up."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "Prophet 21 plus VoiceOrder Solutions."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "Inside sales takes fewer calls."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "Both Columns, One Business"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "Your kitchens place orders without calling anyone. Prophet 21 (P21 for short) keeps counter sales, pricing, stock and the warehouse, so those rows show a check in both columns. Only a few rows differ, and they turn on whether a kitchen that won't type or sign in still has to call your desk. You do not need a Prophet 21 alternative for that: keep P21 and add one ordering app. The two are sold separately, and nothing links one to the other."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "Prophet 21 + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "Prophet 21 on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Counter and inside sales order entry on one screen"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "A kitchen talks through its order, then confirms it"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Real-time general ledger and receivables"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Accounts who used to call now place numbered orders themselves"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Web reordering at each account's own prices (Epicor Commerce)"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Sales reps enter orders from a tablet or phone"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Ordering for kitchens that never sign in to a website"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Warehouse barcoding, cross-docking and cycle counts"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Replenishment and machine-learning demand forecasts"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Questions Prophet 21 teams ask"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Do we need a Prophet 21 alternative to cut down on phone orders?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. Orders over the phone are a desk problem, not an ERP problem: P21 makes an order quick to enter once someone has it. Begin with the kitchens on the phone most often, and those orders no longer wait for someone to pick up the phone. P21 goes on running the counter, prices, inventory and accounting."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than Prophet 21?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "Yes, at one job: a kitchen sending its order without tying up anyone at your desk. For everything after that, P21 is the system to keep, which is why this is an addition and not a Prophet 21 alternative."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Doesn't Epicor Commerce already let kitchens reorder online?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "Yes. Epicor Commerce, a separate web store product for P21, shows each account its own prices, with fast repeat orders and a quick order pad, open day and night. It still means signing in, searching and typing. We built ours for kitchens that find talking quicker than typing, and they check what they said before it goes."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "We're planning the cloud move. Should we wait?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "No need. Nothing of ours is installed in P21, and setup works from a spreadsheet you export, so the move can happen before or after. If you later send orders by EDI or the API, check that part against your cloud plans in the demo."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Does our Prophet 21 link up with your app?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "No. There is no ready-made link between them, and Epicor and we each support only our own software. Sent over EDI or the API, the order can pass into P21 with nobody retyping it, if your setup accepts it in that form; a demo will tell you whether it does. If it is emailed, the attached file has every line checked by the kitchen, and someone on your team keys it into P21 from that rather than from a call."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "What about Epicor's own AI for Prophet 21?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "Epicor's AI, called Prism, helps people inside P21 get answers and find data, and an Epicor partner sells a product that reads emailed orders for your team. Both start once the order has reached you. None of the Prism agents Epicor lists for P21 lets a kitchen speak its order to you. Other vendors sell tools that help your reps enter P21 orders by speaking, or that turn customer texts into orders. Ours is the app a chef talks the order into."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How long does setup take, and is there a published price?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "For most distributors, setup takes 24 to 48 hours, since we never need a P21 login and put no software on your servers. Epicor lists no price for P21 and we do not publish one either; you get ours as a quote."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "How current are the Prophet 21 facts on this page?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "We read them on epicor.com on 9 November 2026: Epicor's product, web store, mobile and AI pages for P21, plus its cloud release schedule. What we say about other ordering tools comes from a search for ordering tools sold for P21, the same day. Epicor does not publish a P21 price, so none appears here. If anything here has gone out of date, tell us and we will fix it."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Typed into Epicor's web store</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-text-size-medium-21\">Someone at your desk takes the call</div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   "<div class=\"uui-text-size-medium-21\">They phone, since the web store needs a sign-in</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "How kitchens send orders"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "Keeping order guides current"
+  ],
+  [
+   2,
+   "/distributor-sales-software",
+   "Freeing reps to sell"
+  ],
+  [
+   3,
+   "/inventory-tracking-software",
+   "How stock tracking works"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Not A Prophet 21 Alternative: Free Up Inside Sales",
+   "lead": "Give your inside sales team back the time spent taking calls. With VoiceOrder Solutions, a kitchen says its order into our app and looks over every line before you get it. Prophet 21 still runs order entry, stock and the books.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Hand the ordering to your kitchens, and keep Prophet 21",
+   "body": "Twenty minutes, one order talked into the app, and a plain answer on how it would reach P21.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Do we need a Prophet 21 alternative to cut down on phone orders?",
+   "a": "No. Orders over the phone are a desk problem, not an ERP problem: P21 makes an order quick to enter once someone has it. Begin with the kitchens on the phone most often, and those orders no longer wait for someone to pick up the phone. P21 goes on running the counter, prices, inventory and accounting."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than Prophet 21?",
+   "a": "Yes, at one job: a kitchen sending its order without tying up anyone at your desk. For everything after that, P21 is the system to keep, which is why this is an addition and not a Prophet 21 alternative."
+  },
+  {
+   "q": "Doesn't Epicor Commerce already let kitchens reorder online?",
+   "a": "Yes. Epicor Commerce, a separate web store product for P21, shows each account its own prices, with fast repeat orders and a quick order pad, open day and night. It still means signing in, searching and typing. We built ours for kitchens that find talking quicker than typing, and they check what they said before it goes."
+  },
+  {
+   "q": "We're planning the cloud move. Should we wait?",
+   "a": "No need. Nothing of ours is installed in P21, and setup works from a spreadsheet you export, so the move can happen before or after. If you later send orders by EDI or the API, check that part against your cloud plans in the demo."
+  },
+  {
+   "q": "Does our Prophet 21 link up with your app?",
+   "a": "No. There is no ready-made link between them, and Epicor and we each support only our own software. Sent over EDI or the API, the order can pass into P21 with nobody retyping it, if your setup accepts it in that form; a demo will tell you whether it does. If it is emailed, the attached file has every line checked by the kitchen, and someone on your team keys it into P21 from that rather than from a call."
+  },
+  {
+   "q": "What about Epicor's own AI for Prophet 21?",
+   "a": "Epicor's AI, called Prism, helps people inside P21 get answers and find data, and an Epicor partner sells a product that reads emailed orders for your team. Both start once the order has reached you. None of the Prism agents Epicor lists for P21 lets a kitchen speak its order to you. Other vendors sell tools that help your reps enter P21 orders by speaking, or that turn customer texts into orders. Ours is the app a chef talks the order into."
+  },
+  {
+   "q": "How long does setup take, and is there a published price?",
+   "a": "For most distributors, setup takes 24 to 48 hours, since we never need a P21 login and put no software on your servers. Epicor lists no price for P21 and we do not publish one either; you get ours as a quote."
+  },
+  {
+   "q": "How current are the Prophet 21 facts on this page?",
+   "a": "We read them on epicor.com on 9 November 2026: Epicor's product, web store, mobile and AI pages for P21, plus its cloud release schedule. What we say about other ordering tools comes from a search for ordering tools sold for P21, the same day. Epicor does not publish a P21 price, so none appears here. If anything here has gone out of date, tell us and we will fix it."
+  }
+ ]
+}

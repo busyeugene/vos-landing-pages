@@ -1,0 +1,330 @@
+{
+ "slug": "aptean-alternative",
+ "meta_title": "Not an Aptean Alternative: Keep Aptean, Add Voice Ordering",
+ "meta_desc": "Aptean keeps lot records, catch weights and recalls. Kitchens that used to call now say their orders into an app: an Aptean alternative that adds, not replaces.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not An Aptean Alternative: Keep Every Food Feature",
+  "lead": "Answer fewer calls for orders and keep each food tool exactly where it is. With VoiceOrder Solutions, each kitchen talks its order into our app and looks over every line before it goes. Aptean keeps tracing lots, pricing catch weights, running recalls and deciding every substitution.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved whenever an order stops being a call"
+  },
+  {
+   "num": "24/7",
+   "label": "Open for orders after your desk closes"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Has most distributors taking app orders"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "What sends a distributor looking for an Aptean competitor",
+  "lead": "Few distributors who search for an Aptean alternative want to give up its food tools. What they want is a sales desk that takes fewer calls, while Aptean goes on tracing, weighing and pricing. Three reasons come up, and just one of them means leaving.",
+  "cards": [
+   {
+    "h3": "Aptean takes phone orders, but a person must answer them",
+    "body": "Aptean's food distribution page lists calls and emails to your sales department among the formats it captures. Capturing a call still takes someone who answers, listens and keys every line in."
+   },
+   {
+    "h3": "Whichever Aptean food ERP you run, calls still need a person",
+    "body": "Produce Pro, the Ignition suite and Aptean's own Food & Beverage system each suit a different kind of food business. With any of them, a phoned order still needs someone on your team to write it up."
+   },
+   {
+    "h3": "An Aptean replacement is an entirely new food ERP",
+    "body": "Moving off Aptean means moving lot records, catch weights, recalls and pricing all at once, then testing every piece. That is a lot to take on when all you want to change is how kitchens send their orders."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Not an Aptean alternative: the one step it adds to your food ERP",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "The chef says the items, then corrects the list",
+    "body": "The kitchen's chef presses Push to Speak and says what the kitchen needs. The app turns that into lines from the kitchen's own guide, and the chef corrects anything that came out wrong before sending it. So the kitchen has checked it before you ever see it.",
+    "bullets": [
+     "Each line is approved by the kitchen before it leaves",
+     "Orders can go in at any hour, weekends included",
+     "Works on the chef's own iOS or Android phone",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Pulled away halfway? The order waits where they left it"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How the app takes orders →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "A guide per account, built from your item list",
+    "body": "Send us a spreadsheet of the items your accounts buy, with their prices. We make each account its own guide from it, under your codes and at the price you set, and you keep the guides current in our admin platform. Aptean stays your system of record for customers, stock and invoicing. We hold each guide, its prices and every order placed through the app.",
+    "bullets": [
+     "Kitchens see the items they buy and nothing else",
+     "What goes in each guide, and at what price, is your call",
+     "Change a guide once and every later order uses it",
+     "Setup adds no module or add-on to Aptean"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "How guides stay current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "Where each finished order lands, and in what form",
+    "body": "Each approved order comes to you as an email carrying a PDF, Excel or Word file, or over the API, over EDI or into QuickBooks. By email, someone on your team keys it into Aptean, working from a list the kitchen already checked. Which format suits your Aptean edition is a question for the demo.",
+    "bullets": [
+     "Sent to the person or the inbox you name",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Aptean still picks, invoices and decides any substitution",
+     "Nothing in Aptean is switched off or replaced"
+    ],
+    "link": {
+     "href": "/distribution-workflow-software",
+     "text": "How an order moves →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Where stock stands while orders build up",
+    "body": "Your team gets real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "The catalog updates itself as stock changes",
+     "Fewer stockout surprises when Friday orders pile up",
+     "Stock numbers come from the system you count with today",
+     "Lots, expiry dates and FEFO stay with Aptean"
+    ],
+    "link": {
+     "href": "/inventory-tracking-software",
+     "text": "More on tracking stock →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Working Together",
+  "h2": "Who does what when you run Aptean and VoiceOrder Solutions",
+  "lead": "Think of it as an addition, not an alternative to Aptean. It covers the few minutes a kitchen spends building its order; Aptean takes it from there, from picking the right lots to catch weights on the invoice.",
+  "items": [
+   {
+    "h3": "Catch weights are settled in Aptean, as now",
+    "body": "A kitchen orders the item in our app. The weight that ships, its price and the invoice line are still worked out in Aptean, the way they are today."
+   },
+   {
+    "h3": "Portal and EDI accounts keep their routine",
+    "body": "Accounts that already order through an Aptean web portal or over EDI carry on as they are. Our app is aimed at the ones who keep calling you. Calls that your staff still answer get no order number from us; orders placed through the app get one."
+   },
+   {
+    "h3": "Keep an email agent if Aptean built you one",
+    "body": "A custom agent Aptean made to read your order emails keeps doing that job. Our app leaves it exactly as it was."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "Watch an order voiced and approved in the app, then go over your Aptean side with us",
+  "body": "Twenty minutes, on a sample account: you see each step a kitchen takes, and we cover which delivery format fits your setup.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and your Aptean setup stays as it is",
+  "lead": "It starts with a single file from you and ends with kitchens ordering from their phones.",
+  "items": [
+   {
+    "h3": "Send us one export from Aptean",
+    "body": "A spreadsheet is usually all we need: the items every kitchen buys and what it pays, under your own codes."
+   },
+   {
+    "h3": "We set up the guides and invite each kitchen",
+    "body": "Your guides go in, each account is opened, and each kitchen gets the app on its phone. Most kitchens place a first order the same day."
+   },
+   {
+    "h3": "Kitchen-checked orders start landing",
+    "body": "Each one comes in approved by the kitchen, with its number and time stamp, in the format you set."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Aptean plus VoiceOrder Solutions. Your food records stay put.",
+  "h2_lines": [
+   "Aptean plus VoiceOrder Solutions.",
+   "Your food records stay put."
+  ],
+  "eyebrow": "Run Both",
+  "lead": "Ordering gets easier for your kitchens, and every food job stays where it is. Each Aptean strength is marked in both columns. This is not an Aptean alternative. The Aptean + VoiceOrder Solutions column shows your business running both, with nothing built to join them.",
+  "heads": [
+   "Feature",
+   "Aptean + VoiceOrder Solutions",
+   "Aptean on its own"
+  ],
+  "rows": [
+   {
+    "label": "Lot tracing and one-click recalls",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Kitchens voice their order, then confirm every line",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Typed in on Aptean's portal or online store"
+     }
+    ]
+   },
+   {
+    "label": "Catch weight carried through to the invoice",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Accounts that used to call send approved lines",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Your sales desk takes the call"
+     }
+    ]
+   },
+   {
+    "label": "Substitutions, split cases and backorders",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Allergen controls, expiry alerts and FEFO",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "App orders arrive numbered and timestamped",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Portal orders do; a call waits until someone keys it in"
+     }
+    ]
+   },
+   {
+    "label": "Contract pricing, volume tiers and rebates",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Cold chain logistics, fleet and route management",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions we hear from teams running Aptean",
+  "items": [
+   {
+    "q": "Do I need an Aptean alternative before kitchens can place orders out loud?",
+    "a": "No. Aptean can stay the ERP for your whole food business, with its traceability, catch weight pricing and recall tools. The kitchens who phone your desk can say their orders into our app instead."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Aptean?",
+    "a": "At one job: bringing in the order from a kitchen that would rather call than log in to a portal, approved by that kitchen before your desk sees it. Everything that happens to the order after that is Aptean's work, not ours."
+   },
+   {
+    "q": "Which Aptean products does this page cover?",
+    "a": "The food ones: Aptean Food & Beverage ERP and its editions, Produce Pro Software from Aptean, and Aptean Ignition, which serves distributors and processors of food. Aptean also sells ERPs for consumer goods, apparel and manufacturing. If you want an Aptean alternative for one of those, nothing here describes it."
+   },
+   {
+    "q": "Aptean can build an AI agent for email orders. Why add an app?",
+    "a": "Aptean does build custom agents, and one published case covers incoming order emails: after each run it reports the assumptions it made and anything it could not resolve, for your staff to look at. That helps with emailed orders. Our app is for chefs who would otherwise phone: each one says what is needed into the app and approves it before the order leaves. Other companies also sell AI that turns phoned and voicemailed orders into written ones, so we are not the only option."
+   },
+   {
+    "q": "Who decides the swap when an item is short?",
+    "a": "Aptean does, as it does today: your team settles each substitution, split case or backorder in Aptean. VoiceOrder Solutions passes on what the kitchen ordered, as the kitchen approved it, and makes no swap of its own."
+   },
+   {
+    "q": "Does anything link Aptean to VoiceOrder Solutions?",
+    "a": "Nothing is built in. The two are sold apart, and each of us supports only what we make. Where your Aptean system accepts EDI or API orders, ours can arrive that way with no retyping; the demo is where you find out whether it does. By email, you get the order as an attached file, each line approved by the kitchen, and your staff work from that list rather than from a call or a voicemail."
+   },
+   {
+    "q": "What will this cost, and when can we start?",
+    "a": "Setup takes 24 to 48 hours for most distributors. We never need an Aptean login, and nothing gets installed: we start from a spreadsheet of your accounts' items. Moving to EDI or the API later is a separate step, and we walk through what it needs on your side in the demo. Aptean asks you to request pricing, and we quote every distributor on its own, so neither puts a price on its website."
+   },
+   {
+    "q": "Where do the Aptean details on this page come from?",
+    "a": "From aptean.com, read on 9 November 2026: the food distribution and food ERP pages, Produce Pro, Ignition, the AI agent pages and a press release on an email-order agent. The web portal details also draw on a third-party software listing. Aptean publishes no prices, so we state none. If Aptean has updated a page since then, tell us and we will correct this one."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Keep Aptean's food tools, and hand the phone orders to an app",
+  "body": "Give us twenty minutes: we speak an order into the app and show you the file it becomes at your end.",
+  "cta": "Book a Free Demo →"
+ }
+}

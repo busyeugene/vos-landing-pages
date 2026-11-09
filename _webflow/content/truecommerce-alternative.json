@@ -1,0 +1,328 @@
+{
+ "slug": "truecommerce-alternative",
+ "meta_title": "Not a TrueCommerce Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "TrueCommerce onboards your EDI partners. A restaurant that orders by phone needs only our app to speak and check its order. Not a TrueCommerce alternative.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not A TrueCommerce Alternative: Chefs Skip EDI Testing",
+  "lead": "Move the restaurant accounts you still take by phone onto an app. Their chef speaks into it, checks every item, then sends. TrueCommerce keeps handling EDI with your partners, supplier onboarding and any Shop storefront, just as it does now.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved on each order a restaurant sends in the app, not by phone"
+  },
+  {
+   "num": "Same Day",
+   "label": "Is when most restaurants send a first order from their new account"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "To get most distributors live, TrueCommerce untouched"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Who Gets Onboarded",
+  "h2": "When a food distributor looks for a TrueCommerce competitor",
+  "lead": "TrueCommerce is built to bring every supplier onto EDI, whatever its size or technical skill, and to connect you with your partners. Another EDI provider, sold as a TrueCommerce alternative, would onboard the same partners. A restaurant phoning your desk is not a supplier or an EDI partner, so its calls keep landing there. Unlike a partner's EDI through TrueCommerce, an emailed app order still gets entered by your team.",
+  "cards": [
+   {
+    "h3": "A managed service maps partners, not phone calls",
+    "body": "TrueCommerce's team will map each partner's documents and run the tests for you. A chef reading out an order over the phone has no document to send, so that service has nothing to work on."
+   },
+   {
+    "h3": "Its onboarding path is built for suppliers",
+    "body": "TrueCommerce designs its onboarding around suppliers, from those that swap PDF files to those fully on EDI. A restaurant buying from you is a customer, not a supplier, and a chef calling in an order sends neither."
+   },
+   {
+    "h3": "Supplier onboarding ends in a testing round",
+    "body": "On TrueCommerce, a supplier is invited to the onboarding portal, connects by file transfer or through the portal, and tests its EDI documents before it is marked active. To bring a restaurant onto our app, you send us its usual items and its chef downloads our app."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Not a TrueCommerce alternative: an app is all a restaurant needs",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Nothing to learn but the app: say it, check it, send it",
+    "body": "The chef presses Push to Speak and reads out what the next delivery should bring. Our app matches each item to the restaurant's own guide, then lays out the list, so the chef can correct a product or an amount before sending. What reaches you is that list, not a call to take down.",
+    "bullets": [
+     "Nothing goes out until the chef has looked over each item",
+     "Open 24/7, so an order can come in after your office closes",
+     "Any iOS or Android phone will do",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "A half-said order is saved if the chef gets pulled away"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How restaurants send orders →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "A guide for each restaurant, built from your items",
+    "body": "We turn what each restaurant regularly orders into its guide, under your own item numbers. That guide and its prices are kept in our admin, where you also manage the account. Whether price changes can come over from TrueCommerce or your ERP in bulk is a question for the demo.",
+    "bullets": [
+     "Setting up needs no login to TrueCommerce",
+     "You edit each guide yourself in our admin",
+     "Each restaurant has its own guide, with its own prices"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "Sent by us, not through TrueCommerce",
+    "body": "A sent order comes to you as an email attachment (Word, Excel or PDF), as EDI, through our API or into QuickBooks. Our EDI does not travel through TrueCommerce, so it needs its own way into your ERP; the demo checks whether your setup has one, and if not, it reaches you as an email.",
+    "bullets": [
+     "Emailed to one rep or to your order desk",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Every fix the chef made is already in the order",
+     "Your chain and partner EDI keeps running through TrueCommerce"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Incoming restaurant orders, seen next to stock",
+    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Stock numbers come from the system you count with today",
+     "Fewer stockout surprises for whoever takes the orders",
+     "Buying from your suppliers stays outside our app"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Partners There, Restaurants Here",
+  "h2": "What stays with TrueCommerce, and what we add",
+  "lead": "We are not an alternative to TrueCommerce: it keeps the accounts that trade by EDI, by supplier portal or in its storefront, and we bring in the restaurants that pick up the phone.",
+  "items": [
+   {
+    "h3": "Your trading partners stay on TrueCommerce",
+    "body": "Chain customers, retail partners, the supplier portal and the managed service carry on as they are. Nothing in your maps or partner setups changes when a restaurant starts ordering in our app."
+   },
+   {
+    "h3": "Shop customers keep their storefront",
+    "body": "A restaurant already happy reordering in TrueCommerce Shop can stay there, with its catalog and its contract prices as they are."
+   },
+   {
+    "h3": "Retail replenishment stays in TrueCommerce",
+    "body": "VMI keeps generating replenishment orders for your retail partners from what sells in their stores, and e-invoicing carries on as before. Restaurant orders from our app are a separate stream that touches neither."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See a calling restaurant's order arrive without the call",
+  "body": "A demo takes roughly twenty minutes. In it, we set up an example restaurant, speak its items into our app, edit one of them and press send. Then we show how that order would arrive beside the EDI that TrueCommerce handles for you.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "How a restaurant moves from calls to the app",
+  "lead": "You send what each restaurant normally orders, we set up the accounts, and every chef gets the app on a phone.",
+  "items": [
+   {
+    "h3": "Send what each restaurant buys",
+    "body": "A spreadsheet from your system, listing every account's items and what it pays, is usually all we need."
+   },
+   {
+    "h3": "Each restaurant gets its own account",
+    "body": "Its guide is loaded into our admin, its account is set up, and the chef downloads the app."
+   },
+   {
+    "h3": "Orders arrive checked and numbered",
+    "body": "From then on, every order from a restaurant's app shows a number and a send time, in whichever format suits you."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "TrueCommerce plus VoiceOrder Solutions. Restaurants calling you get a way in too.",
+  "h2_lines": [
+   "TrueCommerce plus VoiceOrder Solutions.",
+   "Restaurants calling you get a way in too."
+  ],
+  "eyebrow": "The Account Left Out",
+  "lead": "VoiceOrder Solutions brings in the kind of account your EDI and storefront were not built for: the restaurant that calls in its order. Chains, retail partners and suppliers reach you through TrueCommerce, and its Shop storefront takes web orders from accounts that prefer a website. This is not a TrueCommerce alternative: you keep it, and the two are sold by separate companies, with no link between them.",
+  "heads": [
+   "Feature",
+   "TrueCommerce + VoiceOrder Solutions",
+   "TrueCommerce on its own"
+  ],
+  "rows": [
+   {
+    "label": "EDI with chain and retail partners, mapped into your ERP",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Calling restaurants can speak the order in an app and check each item",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Taken on a call, then keyed in by your team"
+     }
+    ]
+   },
+   {
+    "label": "Self-service onboarding for suppliers, with testing before go-live",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A 24/7 Shop storefront with reorder and quick order tools",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A restaurant goes live with no EDI map or document testing",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Partners are invited, connected and tested first"
+     }
+    ]
+   },
+   {
+    "label": "Customer-specific catalogs and contract pricing in the Shop storefront",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A fully managed service for mapping, testing and partner setup",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A restaurant that won't use a web portal can still order after you close",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "A late call waits on voicemail until morning"
+     }
+    ]
+   },
+   {
+    "label": "Vendor managed inventory, plus e-invoicing",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions from TrueCommerce users",
+  "items": [
+   {
+    "q": "Do I need a TrueCommerce alternative to get restaurants ordering digitally?",
+    "a": "No. TrueCommerce still looks after chains, suppliers and your Shop storefront if you run one. We give phone-ordering restaurants their own way in: their chef reads the order aloud into our app, checks it and sends, and your EDI is left as it is."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than TrueCommerce?",
+    "a": "At one job: moving a restaurant from phone calls onto an app, where its chef speaks each order and checks it before sending. Connecting chains, onboarding suppliers and running a storefront are TrueCommerce's work, so we are not a TrueCommerce alternative and do not try to be."
+   },
+   {
+    "q": "What does a restaurant have to set up?",
+    "a": "Only the app: no mapping and no document testing on its side. We open its account from the items you already sell it, and we will show you in a demo how a chef gets started. A restaurant group that already sends you EDI can keep sending it through TrueCommerce."
+   },
+   {
+    "q": "What about TrueCommerce Shop for online ordering?",
+    "a": "Shop gives customers an always-open portal where they can reorder, use quick order and see their own pricing. It is made for the people happy to browse a website. Our app is for the chefs who never took it up and still call: they say what they need aloud rather than search a catalog. Whatever the chef sends in our app skips Shop, so Shop's order history will not include it; it comes to you by email, EDI or the API instead."
+   },
+   {
+    "q": "Does it link to TrueCommerce, and will we still type up restaurant orders?",
+    "a": "No. TrueCommerce and VoiceOrder Solutions are separate businesses with no connection built between the products, and each supports only its own product. An order from our app that goes as EDI or through our API can load with nobody keying it, if your ERP is set up to take it; the demo is where we check. Over email, someone at your end still enters it, but there is no call to answer, write up or read back: they key it from the chef's own reviewed order. TrueCommerce also offers a connector for emailed and faxed orders; nothing on our side was built for it, and we do not promise that it reads ours. Customer accounts, stock counts and invoices stay in your ERP; we hold the guides, the prices in them, and the orders each chef sends from the app. A call to you still gets no number from us. The app can still get an item wrong, which is why the chef looks over the list before sending."
+   },
+   {
+    "q": "We use TrueCommerce with our own suppliers. Does this touch that?",
+    "a": "No. Purchase orders, shipping notices and invoices with your suppliers stay in TrueCommerce and your ERP. We only handle the orders restaurants place with you, and nothing we do reaches your suppliers."
+   },
+   {
+    "q": "How soon could we start, and how is it quoted?",
+    "a": "Getting most distributors set up takes 24 to 48 hours, without a single change inside TrueCommerce. You send the usual items for each account, often as an export from your system, and we load them into our admin, then open an account for each restaurant. Its chef then installs the app, and most restaurants have ordered through it by the end of that day. TrueCommerce sets custom pricing for each business by quote, and we quote per distributor as well. A TrueCommerce replacement would move every partner connection to a new provider; bringing in our app leaves each of them where it is."
+   },
+   {
+    "q": "Where do the TrueCommerce details on this page come from?",
+    "a": "Our source is truecommerce.com, checked 9 November 2026: the homepage, the EDI platform, supplier onboarding, trading partner network, TrueCommerce Shop, VMI, AI, wholesale and distribution, and pricing request pages, the web EDI datasheet, the Order Automation Connector sheet and its comparison page. If something here is now out of date, please tell us so we can fix it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Partners get tested. Restaurant chefs install an app.",
+  "body": "Give us about twenty minutes to open a test account, send one order from it and show you what your desk receives.",
+  "cta": "Book a Free Demo →"
+ }
+}

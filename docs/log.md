@@ -18,3 +18,13 @@
 - Notable fact fixes: SPS sells PDF Order Automation; TrueCommerce still hosts an emailed-order connector;
   Crunchtime voice counts are a paid add-on since 2026-06-30; TradeGecko retired in stages (2022, last 2023-08-31).
 - Airtable: 30 batch-2 rows Planned -> Proofreading.
+
+## 2026-11-09: Batch 2 (30 compare pages) ported to Webflow as drafts
+- 30 pages created by duplicating fresho-alternative into /alternatives (draft), SEO metas + OG copied flags
+  at creation. Copy, cells, links, props, JSON-LD pushed by 4 parallel workers after a NetSuite pilot;
+  every page verified from stored state (text/props, styles, cells, Fresho-leak, schema equality).
+- 30 /alternatives hub cards added via a temporary component (unregistered, 0 left); hub JSON-LD 50 items.
+- Tool fixes: gen-repush takes slugs, maps fresho duplicates to the converted cell embed, removes unused
+  bullet slots, and no longer writes the donor's cell-1,2 String on converted pages (it failed harmlessly
+  on crunchtime); gen-schema knows the 6 new operator slugs; leak-check ignores strings in the page's own
+  repo HTML (the shared "Delivery Formats" badge was a false positive).

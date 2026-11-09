@@ -1,0 +1,1634 @@
+{
+ "slug": "prophet-21-alternative",
+ "pageId": "6af1a2686dc7be1930e1a468",
+ "text_batches": [
+  [
+   {
+    "label": "t0",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "c3df870f-ba8c-9aaf-796c-bb1249eeefa3"
+     },
+     "text": "20-30 Min"
+    }
+   },
+   {
+    "label": "t1",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d"
+     },
+     "text": "Saved on each order that skips a call"
+    }
+   },
+   {
+    "label": "t2",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "3027ca32-6180-79a6-1a66-d9f911e27a08"
+     },
+     "text": "24/7"
+    }
+   },
+   {
+    "label": "t3",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5fea2"
+     },
+     "text": "Kitchens order day or night, with nobody at the desk"
+    }
+   },
+   {
+    "label": "t4",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "448bf1fe-361f-3c13-6268-4572092953ba"
+     },
+     "text": "24-48 Hrs"
+    }
+   },
+   {
+    "label": "t5",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "3f7a12ca-f338-fa01-17fc-97d91ca5feac"
+     },
+     "text": "From spreadsheet to live, for most distributors"
+    }
+   },
+   {
+    "label": "t6",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d"
+     },
+     "text": "Why The Search Starts"
+    }
+   },
+   {
+    "label": "t7",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8be"
+     },
+     "text": "Why food distributors look up a Prophet 21 competitor"
+    }
+   },
+   {
+    "label": "t8",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8c2"
+     },
+     "text": "A search for a Prophet 21 alternative rarely starts with the ERP. P21 is designed around a fast order desk, but every phoned order still needs someone free to answer it. Three situations keep coming up."
+    }
+   },
+   {
+    "label": "t9",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "eb7fd825-30c6-7275-9a2f-c98f68eb960f"
+     },
+     "text": "A quick screen still needs a person on the line"
+    }
+   },
+   {
+    "label": "t10",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8cc"
+     },
+     "text": "Prophet 21 lets inside sales finish an order from one screen, and it is fast. A kitchen that calls still holds that person for the length of the call, and the next kitchen calling in may get a busy line or voicemail."
+    }
+   },
+   {
+    "label": "t11",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "bacfcf90-d337-55e1-9a02-49b2f6962e16"
+     },
+     "text": "Counter customers wait while a call is taken"
+    }
+   },
+   {
+    "label": "t12",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8d3"
+     },
+     "text": "Prophet 21 handles counter sales and the inside sales desk in one system. When the same person covers the counter and the phone, a customer standing at the counter waits until the call ends."
+    }
+   },
+   {
+    "label": "t13",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "83921d0d-4ec1-911e-4420-fee5bfd13614"
+     },
+     "text": "A Prophet 21 replacement while moving to the cloud"
+    }
+   },
+   {
+    "label": "t14",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "964de5d5-3961-b811-98b9-cfb069a7e8da"
+     },
+     "text": "Epicor has tentatively set May 2028 for the last on-premises feature release, so a cloud move is on many P21 shops' horizon. Replacing the ERP at the same time would stack a second project on top of the first."
+    }
+   },
+   {
+    "label": "t15",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d"
+     },
+     "text": "Not a Prophet 21 alternative: what it adds for inside sales"
+    }
+   },
+   {
+    "label": "t16",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "f49b7c29-2a8e-b047-d714-742b52e0a34c"
+     },
+     "text": "What You Get"
+    }
+   },
+   {
+    "label": "t17",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "d4031fde-2fc3-b283-bb1c-784e741d725b"
+     },
+     "text": "Voice Ordering"
+    }
+   },
+   {
+    "label": "t18",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0ed"
+     },
+     "text": "Orders spoken in the kitchen, not phoned to your desk"
+    }
+   },
+   {
+    "label": "t19",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "24599529-959c-8515-3ff2-44ca6d68a0f1"
+     },
+     "text": "A chef checks the walk-in and says what is needed. The app turns that into lines from the kitchen's own guide, the chef fixes anything that is off, then sends it. Nobody in inside sales picks up the phone for it."
+    }
+   },
+   {
+    "label": "t20",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4133"
+     },
+     "text": "The kitchen's buyer checks every line before sending"
+    }
+   },
+   {
+    "label": "t21",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4139"
+     },
+     "text": "Open for orders 24/7, nights and Sundays included"
+    }
+   },
+   {
+    "label": "t22",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe413f"
+     },
+     "text": "Saves 20 to 30 minutes compared with the same order by phone"
+    }
+   },
+   {
+    "label": "t23",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "129bd613-9d92-1e3c-fcbe-e5fdebfe4145"
+     },
+     "text": "If the chef is pulled away, nothing is lost; they pick up where they stopped"
+    }
+   },
+   {
+    "label": "t24",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "d5d6538b-4114-51aa-7fff-aad875b7bfe3"
+     },
+     "text": "Order Guides"
+    }
+   },
+   {
+    "label": "t25",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea2"
+     },
+     "text": "A short list per account, under your own item numbers"
+    }
+   },
+   {
+    "label": "t26",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdea6"
+     },
+     "text": "Export what each account buys from Prophet 21 into a spreadsheet. We load those items at the price you set for that account, so each kitchen orders from its own short list. P21 remains the system of record for customers, stock and billing."
+    }
+   },
+   {
+    "label": "t27",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdead"
+     },
+     "text": "Kitchens see only the lines on their guide"
+    }
+   },
+   {
+    "label": "t28",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb3"
+     },
+     "text": "You choose what goes in each guide, and at what price"
+    }
+   },
+   {
+    "label": "t29",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdeb9"
+     },
+     "text": "You update guides in our admin platform, and later orders use the change"
+    }
+   },
+   {
+    "label": "t30",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8c148c5a-5883-9b4b-9229-358da23fdebf"
+     },
+     "text": "We keep the guides, their prices and orders from the app; P21 keeps the rest"
+    }
+   },
+   {
+    "label": "t31",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "6555f9fc-4dcc-b940-f384-6001ce4db69f"
+     },
+     "text": "Inside Sales"
+    }
+   },
+   {
+    "label": "t32",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb118"
+     },
+     "text": "Inside sales spends less time on order calls"
+    }
+   },
+   {
+    "label": "t33",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb11c"
+     },
+     "text": "When kitchens send their own orders, the people who used to take those calls can work the accounts instead: chase a missed line, call a quiet account, quote a new one. Email orders still need entering in P21, but from lines the kitchen checked first, which is quicker than a call."
+    }
+   },
+   {
+    "label": "t34",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb123"
+     },
+     "text": "Emailed as a PDF, Excel or Word file, for your team to enter"
+    }
+   },
+   {
+    "label": "t35",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb129"
+     },
+     "text": "Over EDI or the API, when your setup takes it, nobody retypes it"
+    }
+   },
+   {
+    "label": "t36",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb12f"
+     },
+     "text": "Each app order carries its own number, date and time"
+    }
+   },
+   {
+    "label": "t37",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8b079726-3463-6044-f4e9-f838b3bfb135"
+     },
+     "text": "Any call that still comes in is entered in P21 as before"
+    }
+   },
+   {
+    "label": "t38",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "099f67ce-06ef-dc92-c6e6-fdc4481f359f"
+     },
+     "text": "Inventory Visibility"
+    }
+   },
+   {
+    "label": "t39",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93a"
+     },
+     "text": "Stock levels in view while kitchens order"
+    }
+   },
+   {
+    "label": "t40",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df93e"
+     },
+     "text": "VoiceOrder Solutions gives real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+    }
+   },
+   {
+    "label": "t41",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df945"
+     },
+     "text": "The catalog follows your stock as it changes"
+    }
+   },
+   {
+    "label": "t42",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df94b"
+     },
+     "text": "Fewer stockout surprises before the truck is loaded"
+    }
+   },
+   {
+    "label": "t43",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df951"
+     },
+     "text": "Stock numbers come from the system you count with today"
+    }
+   },
+   {
+    "label": "t44",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "2af8f313-e356-7eea-3f46-cef1a39df957"
+     },
+     "text": "Counts, buying and the warehouse stay in P21"
+    }
+   },
+   {
+    "label": "t45",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "021e8cc1-41f6-a5cc-3995-2a8c101d005c"
+     },
+     "text": "Who Does What"
+    }
+   },
+   {
+    "label": "t46",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64e7"
+     },
+     "text": "How the work splits between Prophet 21 and VoiceOrder Solutions"
+    }
+   },
+   {
+    "label": "t47",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da64ec"
+     },
+     "text": "This is not an alternative to Prophet 21. Your desk keeps P21 Order Entry for the counter and any calls, while kitchens that would have phoned order in our app instead."
+    }
+   },
+   {
+    "label": "t48",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da6507"
+     },
+     "text": "Order Entry stays your desk's main screen"
+    }
+   },
+   {
+    "label": "t49",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "b1f1a02d-1126-5fc3-d0e9-a08845da650a"
+     },
+     "text": "Counter sales, walk-ins and whatever calls still arrive run through Prophet 21 Order Entry, same as today. Calls taken that way get no order number from us; that number is for app orders only."
+    }
+   }
+  ],
+  [
+   {
+    "label": "t50",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "5368ca22-de87-9362-819f-9733489b5a6d"
+     },
+     "text": "Web store accounts keep ordering online"
+    }
+   },
+   {
+    "label": "t51",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "5368ca22-de87-9362-819f-9733489b5a70"
+     },
+     "text": "Accounts that already reorder through Epicor Commerce can carry on, and our app is for the kitchens that prefer talking to searching."
+    }
+   },
+   {
+    "label": "t52",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624"
+     },
+     "text": "Mobile Sales stays with your reps"
+    }
+   },
+   {
+    "label": "t53",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627"
+     },
+     "text": "P21 Mobile Sales lets your reps take orders on a tablet in the field. Ours goes to the kitchen itself, so reps keep their tool and kitchens get theirs."
+    }
+   },
+   {
+    "label": "t54",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b4"
+     },
+     "text": "See a chef's spoken order travel to your desk"
+    }
+   },
+   {
+    "label": "t55",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "4590e4b1-e797-fe36-9056-58de9ded19b8"
+     },
+     "text": "In twenty minutes, we talk through an order in the app, correct one line, send it, and show how it would reach your desk beside P21."
+    }
+   },
+   {
+    "label": "t56",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "6923bf1d-5310-eba9-bcb8-7266c5f85e97"
+     },
+     "text": "Getting Started"
+    }
+   },
+   {
+    "label": "t57",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7"
+     },
+     "text": "Three steps, and the first is a P21 export"
+    }
+   },
+   {
+    "label": "t58",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "38293a1d-fb4c-9501-8014-28855f9128b6"
+     },
+     "text": "Setup runs on one spreadsheet from P21 and installs nothing in it. Any EDI or API setup comes later, if you want it, and we go over what it would take on your side in the demo."
+    }
+   },
+   {
+    "label": "t59",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6"
+     },
+     "text": "Export a report of each account's regular items"
+    }
+   },
+   {
+    "label": "t60",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda"
+     },
+     "text": "A P21 report saved as a spreadsheet is usually all we need. It lists each account's items and what that account pays."
+    }
+   },
+   {
+    "label": "t61",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede"
+     },
+     "text": "We build each kitchen's guide"
+    }
+   },
+   {
+    "label": "t62",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3"
+     },
+     "text": "We set up each guide, the kitchen downloads the app, and most place a first order the same day."
+    }
+   },
+   {
+    "label": "t63",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00"
+     },
+     "text": "App orders arrive at your desk"
+    }
+   },
+   {
+    "label": "t64",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04"
+     },
+     "text": "Each one comes checked by the kitchen, numbered and timed, in whichever format you set up."
+    }
+   },
+   {
+    "label": "t65",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a176"
+     },
+     "text": "Prophet 21 plus VoiceOrder Solutions."
+    }
+   },
+   {
+    "label": "t66",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8"
+     },
+     "text": "Inside sales takes fewer calls."
+    }
+   },
+   {
+    "label": "t67",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "7b8acd63-aca8-b070-4eb6-f64ce47abebc"
+     },
+     "text": "Both Columns, One Business"
+    }
+   },
+   {
+    "label": "t68",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a179"
+     },
+     "text": "Your kitchens place orders without calling anyone. Prophet 21 (P21 for short) keeps counter sales, pricing, stock and the warehouse, so those rows show a check in both columns. Only a few rows differ, and they turn on whether a kitchen that won't type or sign in still has to call your desk. You do not need a Prophet 21 alternative for that: keep P21 and add one ordering app. The two are sold separately, and nothing links one to the other."
+    }
+   },
+   {
+    "label": "t69",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "1ff87819-9b94-6168-dfbb-e81fd6a5b236"
+     },
+     "text": "Feature"
+    }
+   },
+   {
+    "label": "t70",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a18d"
+     },
+     "text": "Prophet 21 + VoiceOrder Solutions"
+    }
+   },
+   {
+    "label": "t71",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a19e"
+     },
+     "text": "Prophet 21 on its own"
+    }
+   },
+   {
+    "label": "t72",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1be"
+     },
+     "text": "Counter and inside sales order entry on one screen"
+    }
+   },
+   {
+    "label": "t73",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c8"
+     },
+     "text": "A kitchen talks through its order, then confirms it"
+    }
+   },
+   {
+    "label": "t74",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1d5"
+     },
+     "text": "Real-time general ledger and receivables"
+    }
+   },
+   {
+    "label": "t75",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e2"
+     },
+     "text": "Accounts who used to call now place numbered orders themselves"
+    }
+   },
+   {
+    "label": "t76",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1ec"
+     },
+     "text": "Web reordering at each account's own prices (Epicor Commerce)"
+    }
+   },
+   {
+    "label": "t77",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a1f6"
+     },
+     "text": "Sales reps enter orders from a tablet or phone"
+    }
+   },
+   {
+    "label": "t78",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a210"
+     },
+     "text": "Ordering for kitchens that never sign in to a website"
+    }
+   },
+   {
+    "label": "t79",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a21a"
+     },
+     "text": "Warehouse barcoding, cross-docking and cycle counts"
+    }
+   },
+   {
+    "label": "t80",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "37b58628-5e21-7c67-2967-24e3b5a7a224"
+     },
+     "text": "Replenishment and machine-learning demand forecasts"
+    }
+   },
+   {
+    "label": "t81",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "30f8c397-6bf9-f190-2eb1-183dc2b44d9e"
+     },
+     "text": "FAQ"
+    }
+   },
+   {
+    "label": "t82",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf956"
+     },
+     "text": "Questions Prophet 21 teams ask"
+    }
+   },
+   {
+    "label": "t83",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d"
+     },
+     "text": "Do we need a Prophet 21 alternative to cut down on phone orders?"
+    }
+   },
+   {
+    "label": "t84",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf967"
+     },
+     "text": "No. Orders over the phone are a desk problem, not an ERP problem: P21 makes an order quick to enter once someone has it. Begin with the kitchens on the phone most often, and those orders no longer wait for someone to pick up the phone. P21 goes on running the counter, prices, inventory and accounting."
+    }
+   },
+   {
+    "label": "t85",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "ad9f0390-a776-7031-a95b-984cd1988c9e"
+     },
+     "text": "Is VoiceOrder Solutions better than Prophet 21?"
+    }
+   },
+   {
+    "label": "t86",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf973"
+     },
+     "text": "Yes, at one job: a kitchen sending its order without tying up anyone at your desk. For everything after that, P21 is the system to keep, which is why this is an addition and not a Prophet 21 alternative."
+    }
+   },
+   {
+    "label": "t87",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "e219e293-819b-221b-6d80-7f8d2898a4d7"
+     },
+     "text": "Doesn't Epicor Commerce already let kitchens reorder online?"
+    }
+   },
+   {
+    "label": "t88",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf97f"
+     },
+     "text": "Yes. Epicor Commerce, a separate web store product for P21, shows each account its own prices, with fast repeat orders and a quick order pad, open day and night. It still means signing in, searching and typing. We built ours for kitchens that find talking quicker than typing, and they check what they said before it goes."
+    }
+   },
+   {
+    "label": "t89",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "39590628-381c-9aea-6095-0746f7348939"
+     },
+     "text": "We're planning the cloud move. Should we wait?"
+    }
+   },
+   {
+    "label": "t90",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf98b"
+     },
+     "text": "No need. Nothing of ours is installed in P21, and setup works from a spreadsheet you export, so the move can happen before or after. If you later send orders by EDI or the API, check that part against your cloud plans in the demo."
+    }
+   },
+   {
+    "label": "t91",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "0f73d180-08e9-596f-f264-a95de40f9593"
+     },
+     "text": "Does our Prophet 21 link up with your app?"
+    }
+   },
+   {
+    "label": "t92",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "7e541655-5a68-8f96-1273-8249a5c759bd"
+     },
+     "text": "No. There is no ready-made link between them, and Epicor and we each support only our own software. Sent over EDI or the API, the order can pass into P21 with nobody retyping it, if your setup accepts it in that form; a demo will tell you whether it does. If it is emailed, the attached file has every line checked by the kitchen, and someone on your team keys it into P21 from that rather than from a call."
+    }
+   },
+   {
+    "label": "t93",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f"
+     },
+     "text": "What about Epicor's own AI for Prophet 21?"
+    }
+   },
+   {
+    "label": "t94",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "4446ea80-4c7a-f2a8-f0de-0a222818c94f"
+     },
+     "text": "Epicor's AI, called Prism, helps people inside P21 get answers and find data, and an Epicor partner sells a product that reads emailed orders for your team. Both start once the order has reached you. None of the Prism agents Epicor lists for P21 lets a kitchen speak its order to you. Other vendors sell tools that help your reps enter P21 orders by speaking, or that turn customer texts into orders. Ours is the app a chef talks the order into."
+    }
+   },
+   {
+    "label": "t95",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d"
+     },
+     "text": "How long does setup take, and is there a published price?"
+    }
+   },
+   {
+    "label": "t96",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "cb55ed2c-634b-b694-87d5-a43e7e3cf997"
+     },
+     "text": "For most distributors, setup takes 24 to 48 hours, since we never need a P21 login and put no software on your servers. Epicor lists no price for P21 and we do not publish one either; you get ours as a quote."
+    }
+   },
+   {
+    "label": "t97",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "7ec95cf1-65b0-b7be-b209-990427524516"
+     },
+     "text": "How current are the Prophet 21 facts on this page?"
+    }
+   },
+   {
+    "label": "t98",
+    "set_text": {
+     "id": {
+      "component": "6af1a2686dc7be1930e1a468",
+      "element": "7ec95cf1-65b0-b7be-b209-99042752451e"
+     },
+     "text": "We read them on epicor.com on 9 November 2026: Epicor's product, web store, mobile and AI pages for P21, plus its cloud release schedule. What we say about other ordering tools comes from a search for ordering tools sold for P21, the same day. Epicor does not publish a P21 price, so none appears here. If anything here has gone out of date, tell us and we will fix it."
+    }
+   }
+  ]
+ ],
+ "settings": [
+  {
+   "label": "cells",
+   "set_settings": {
+    "operations": [
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Typed into Epicor's web store</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "55af8715-1c0d-7742-fde4-496073314315"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">Someone at your desk takes the call</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-text-size-medium-21\">They phone, since the web store needs a sign-in</div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     },
+     {
+      "element_id": {
+       "component": "6af1a2686dc7be1930e1a468",
+       "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+      },
+      "settings": [
+       {
+        "key": "code",
+        "static_text": {
+         "value": "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "element": [
+  {
+   "label": "st0",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1c0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st1",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "e2015e89-172b-6799-28b9-3361d496abc0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st2",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "dbb407ba-0630-2e0a-33ee-d46671e62774"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st3",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "cc89ea05-5a85-dd83-99ed-001daf6ee7e3"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st4",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st5",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "55af8715-1c0d-7742-fde4-496073314315"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st6",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a1e4"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st7",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "5539a8dc-3999-60a4-e63a-01a711a5373d"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st8",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "f0a25565-fe6e-c821-4974-3d153187492b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st9",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "20efde0c-69cd-a8c3-92cb-38100394bc2d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st10",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "ed160918-90b4-10e3-a7f7-076cd6158a3b"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st11",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "b3289c99-5fd7-ca67-2627-99dcf1f22d44"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st12",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a212"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st13",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "e2b490e6-2971-5f57-5e1a-c95003f9a5b7"
+    },
+    "style_names": [
+     "uui-text-size-medium 21"
+    ]
+   }
+  },
+  {
+   "label": "st14",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "37b58628-5e21-7c67-2967-24e3b5a7a21c"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st15",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "d455c100-948c-a407-3bda-fdc0a7afb797"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st16",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "fc37c8e5-abf2-5ac8-e2cc-aaf3fd03468d"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "st17",
+   "set_style": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34"
+    },
+    "style_names": [
+     "uui-icon-1x1-xsmall 12"
+    ]
+   }
+  },
+  {
+   "label": "lk0",
+   "set_link": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "3eb238a9-794c-5623-3970-f5b533eca107"
+    },
+    "linkType": "page",
+    "link": "6a886c65f128fbd289d0cea7"
+   }
+  },
+  {
+   "label": "lt0",
+   "set_text": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "62c65bfe-03f5-d4ff-c643-2ff168830cfd"
+    },
+    "text": "How kitchens send orders"
+   }
+  },
+  {
+   "label": "lk1",
+   "set_link": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "8c148c5a-5883-9b4b-9229-358da23fdec1"
+    },
+    "linkType": "page",
+    "link": "6a73a777a9a14bd4436ca47a"
+   }
+  },
+  {
+   "label": "lt1",
+   "set_text": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "2a9c5f49-46db-737d-95ef-b9312d351221"
+    },
+    "text": "Keeping order guides current"
+   }
+  },
+  {
+   "label": "lk2",
+   "set_link": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "8b079726-3463-6044-f4e9-f838b3bfb137"
+    },
+    "linkType": "page",
+    "link": "6ac87341701beff1f6d38df4"
+   }
+  },
+  {
+   "label": "lt2",
+   "set_text": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "32a53d8c-0269-f0df-ac7c-d8a8567f0b8f"
+    },
+    "text": "Freeing reps to sell"
+   }
+  },
+  {
+   "label": "lk3",
+   "set_link": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "2af8f313-e356-7eea-3f46-cef1a39df959"
+    },
+    "linkType": "page",
+    "link": "6a73a761403094903a4c3863"
+   }
+  },
+  {
+   "label": "lt3",
+   "set_text": {
+    "id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "7fd74404-bc36-46b7-cbcd-41511283be49"
+    },
+    "text": "How stock tracking works"
+   }
+  }
+ ],
+ "hard": null,
+ "props": [
+  {
+   "label": "hero",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "989faf8b-cac3-f127-6306-f797ae33f470"
+    },
+    "values": [
+     {
+      "prop_id": "a7704768-52e6-0ad3-2179-5447d7543ee2",
+      "type": "string",
+      "string_value": "For Food Distributors"
+     },
+     {
+      "prop_id": "6ae44b23-f874-dafc-7624-6eb2dd6738c5",
+      "type": "string",
+      "string_value": "Not A Prophet 21 Alternative: Free Up Inside Sales"
+     },
+     {
+      "prop_id": "d410be85-5d89-9215-6f62-195b0e3f7c44",
+      "type": "string",
+      "string_value": "Give your inside sales team back the time spent taking calls. With VoiceOrder Solutions, a kitchen says its order into our app and looks over every line before you get it. Prophet 21 still runs order entry, stock and the books."
+     },
+     {
+      "prop_id": "5813a60d-8c20-4700-72bd-d80ce9c60b67",
+      "type": "string",
+      "string_value": "Book a Free Demo"
+     }
+    ]
+   }
+  },
+  {
+   "label": "mainCta",
+   "set_component_instance_prop_values": {
+    "element_id": {
+     "component": "6af1a2686dc7be1930e1a468",
+     "element": "f9bd322f-b390-c3a2-de4c-530ccaac0ed2"
+    },
+    "values": [
+     {
+      "prop_id": "be41c71a-4d6f-3276-eb73-5cf5dd4f25f6",
+      "type": "string",
+      "string_value": "Hand the ordering to your kitchens, and keep Prophet 21"
+     },
+     {
+      "prop_id": "5e0d3c39-9fde-6661-5b10-e1aef4f809a4",
+      "type": "string",
+      "string_value": "Twenty minutes, one order talked into the app, and a plain answer on how it would reach P21."
+     },
+     {
+      "prop_id": "0336eaf6-adb9-6ceb-4140-3e3e57f922c4",
+      "type": "string",
+      "string_value": "Book a Free Demo"
+     }
+    ]
+   }
+  }
+ ],
+ "seo": {
+  "id": "6af1a2686dc7be1930e1a468",
+  "seo": {
+   "title": "Not a Prophet 21 Alternative: Keep It, Add Voice Ordering",
+   "description": "Fewer calls for inside sales: kitchens speak each order into an app and check every line. Not a Prophet 21 alternative: P21 keeps order entry and the books."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true
+  }
+ }
+}

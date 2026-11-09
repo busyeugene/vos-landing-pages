@@ -1,0 +1,330 @@
+{
+ "slug": "acumatica-alternative",
+ "meta_title": "Not an Acumatica Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Give the kitchens that skip your Acumatica portal a way to speak each order and check every line. Not an Acumatica alternative: an ordering app beside it.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not An Acumatica Alternative: For Kitchens Skipping Your Portal",
+  "lead": "The chefs who call in every order can send it from an app instead. They say what is needed in the VoiceOrder Solutions app and fix any line that is off before it goes. Acumatica stays your ERP.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved each time a kitchen orders instead of calling"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "For most distributors to go live beside Acumatica"
+  },
+  {
+   "num": "Same Day",
+   "label": "First spoken order, for most kitchens"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why Teams Compare",
+  "h2": "If kitchens can log in, why look at an Acumatica competitor?",
+  "lead": "Often, a distributor who looks at an Acumatica alternative is not trying to leave the ERP. Some may have opened the portal to every account already, and some kitchens phone every order anyway. Here is why the portal alone does not stop the calls.",
+  "cards": [
+   {
+    "h3": "A login was never the problem",
+    "body": "Acumatica charges for the apps you run, not for user seats, so giving each kitchen a login carries no seat fee. Even so, some kitchens with a login keep calling."
+   },
+   {
+    "h3": "The portal asks a chef to shop",
+    "body": "Acumatica's portal shows the catalog with photos, stock on hand and each account's prices, then a cart and a checkout. That suits someone ordering from a desk, less so a chef counting cases at the shelf."
+   },
+   {
+    "h3": "Calls still become typing at your desk",
+    "body": "When a kitchen phones, texts or leaves a voicemail, someone at your desk types it up as an Acumatica sales order. The portal saves that typing only for kitchens that log in."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "What your team gets, and why it is not an Acumatica alternative",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "No catalog, no cart: the chef just says it",
+    "body": "The chef names what is low while looking along the shelves. The app turns that into lines from the kitchen's own guide, and anything that came out wrong gets fixed on screen before it is sent.",
+    "bullets": [
+     "Every line is approved by the kitchen before it goes",
+     "Open for orders 24/7, at midnight as easily as noon",
+     "Runs on the iPhone or Android phone already in their pocket",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Interrupted by a delivery? The order waits where they stopped"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How spoken orders reach you →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "Guides built from a file you can already export",
+    "body": "Export what each account usually orders, with your product codes and that account's prices, and we load it as the kitchen's guide. Your full item list stays in Acumatica; a guide holds just the items one kitchen orders.",
+    "bullets": [
+     "Kitchens see their own items and nothing else",
+     "Prices and guide contents are yours to set",
+     "Change a guide in our admin platform whenever your prices move",
+     "No customization project inside Acumatica"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Managing each account's guide →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "Emailed, or sent by EDI or the API",
+    "body": "A finished order arrives by email as a PDF, Excel or Word file, or travels by EDI, by API or into QuickBooks. By email, your team keys it in from a list the chef already approved, not from a voicemail. We go through which of these your Acumatica setup can take straight in during the demo.",
+    "bullets": [
+     "Goes to a shared inbox or straight to a rep",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Picking, shipping and invoicing run as they do now",
+     "No module to turn off before you begin"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "See a finished order →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Incoming orders with stock levels beside them",
+    "body": "VoiceOrder Solutions gives real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Fewer stockout surprises on a large order sent late",
+     "The catalog updates as your stock levels change",
+     "Stock numbers come from the system you count with today",
+     "Lots, counts and replenishment stay with Acumatica"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "Stock visibility in detail →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Working Together",
+  "h2": "Where Acumatica ends and VoiceOrder Solutions begins",
+  "lead": "The portal and our app run in parallel, so this is not an alternative to Acumatica. A kitchen builds its order with us, and the work after that happens in Acumatica.",
+  "items": [
+   {
+    "h3": "Credit checks stay in Acumatica",
+    "body": "Once a kitchen's app order is in Acumatica, it still checks the customer's credit limit before releasing it, as it does for any order. Customer records, stock and invoicing remain there too. On our side sit each kitchen's guide and its prices, which you edit yourself, plus a copy of the orders chefs send with the app."
+   },
+   {
+    "h3": "Kitchens on the portal stay there",
+    "body": "A kitchen content with the Acumatica portal keeps its login and goes on ordering there. The app is for the ones who call instead, and an order a chef sends from it carries our order number and time stamp, which a call never gets."
+   },
+   {
+    "h3": "Acumatica's app stays with your staff",
+    "body": "Acumatica's own mobile app is made for your staff, who use it for sales orders and approvals. Ours goes on the kitchen's phone for one job only: getting the chef's reviewed order to you."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See what a kitchen that never logs in would send you",
+  "body": "Twenty minutes: a chef's list is spoken into the app, checked, then sent, and we show how it would reach a team that runs Acumatica.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "From your export to a kitchen's first order",
+  "lead": "Setup happens outside Acumatica, in three steps.",
+  "items": [
+   {
+    "h3": "Pull a report from Acumatica",
+    "body": "An Excel export listing each account's products, prices and your item codes is usually all we need."
+   },
+   {
+    "h3": "Guides go live, account by account",
+    "body": "We build the guides and set up the accounts, and each kitchen installs the app from its phone's store. Most place their first order the same day."
+   },
+   {
+    "h3": "Checked orders land with your team",
+    "body": "An order sent in the app arrives approved by the customer, numbered and time-stamped, in the format you picked."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Acumatica runs the business. Kitchens get one more way in.",
+  "h2_lines": [
+   "Acumatica runs the business.",
+   "Kitchens get one more way in."
+  ],
+  "eyebrow": "Two Ways In",
+  "lead": "Your portal stays open to every kitchen that likes it, and the rest can simply say what they need. Acumatica still runs the stock, the money and the warehouse, so those rows hold true with or without us. An Acumatica alternative would mean changing ERPs; this is not one, and nothing wires the two together.",
+  "heads": [
+   "Feature",
+   "Acumatica + VoiceOrder Solutions",
+   "Acumatica on its own"
+  ],
+  "rows": [
+   {
+    "label": "Financials, credit checks and multi-company books",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A chef speaks the order, then approves each line",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Browsed and added to a cart in the portal"
+     }
+    ]
+   },
+   {
+    "label": "Lot and serial tracking, with mobile barcoding",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Self-service portal with live stock and account prices",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Kitchens who skip the portal still send you an order with its own number",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Phoned in, then keyed by your team"
+     }
+    ]
+   },
+   {
+    "label": "Ordering open 24/7, nights and weekends included",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A customer ordering app for iOS and Android",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Demand planning and replenishment across locations",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Stock levels in view as each order arrives",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What Acumatica users ask before a demo",
+  "items": [
+   {
+    "q": "Do we need an Acumatica alternative before kitchens can place spoken orders?",
+    "a": "No. Keep Acumatica and its portal running, and hand our app to the chefs who pick the phone over a login. Acumatica still handles the money, the stock and the credit checks; the app lets those callers send a checked order without dialing."
+   },
+   {
+    "q": "Acumatica does not charge per user seat. Why not just give every kitchen a portal login?",
+    "a": "You can, and for kitchens that like to shop online it works well: live stock, their own prices, past orders to repeat. The gap is the kitchen that will not sit down to browse. For that kitchen, we offer a way to say what it needs instead."
+   },
+   {
+    "q": "Is talking an order through better than Acumatica's portal?",
+    "a": "For the kitchens that keep calling instead of logging in, yes: saying the order and checking each line suits them better than browsing a catalog and checking out. For kitchens happy in the portal, keep the portal. Either way, nothing moves out of Acumatica; our app sits alongside it and is not an Acumatica alternative."
+   },
+   {
+    "q": "Does anyone else sell voice add-ons for Acumatica?",
+    "a": "Yes. Some add-ons let reps dictate orders. Others answer a customer's call and record what is ordered. Ours puts the app in the kitchen's hands, and the kitchen confirms every line before it reaches you."
+   },
+   {
+    "q": "Will orders flow into Acumatica on their own?",
+    "a": "Nothing links them out of the box: they are two products from two companies, and each company's support covers its own product only. Over EDI or through the API, the order may load straight into Acumatica without being typed again, if your system is set up to accept it; we check that in the demo. By email, you get a file the chef has already gone over, and your team enters it from that, not from a call or a voicemail."
+   },
+   {
+    "q": "Does our Acumatica partner have to be involved?",
+    "a": "Not to get started. Setup takes no Acumatica login and puts nothing inside it: we work from a spreadsheet you export. If orders should later import on their own, we cover in the demo what you would have to arrange."
+   },
+   {
+    "q": "How quickly could kitchens start, and what is the cost?",
+    "a": "Most distributors are up and running in 24 to 48 hours, since nothing changes inside Acumatica. On price, Acumatica publishes a starting figure for its distribution package; we publish none and quote per distributor. An Acumatica replacement would shift your accounting, inventory and warehouse onto a new ERP, which is a different decision from adding an ordering app."
+   },
+   {
+    "q": "Where did these Acumatica facts come from?",
+    "a": "We checked acumatica.com and Acumatica's community site on 9 November 2026, looking at the distribution pages, the customer portal and its datasheet, the pricing and distribution package pages, the AI page and the AI Assistant notes. Their prices and results figures are left off this page. Should a detail have changed since, send us a note and we will correct it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Leave Acumatica alone, and give your callers an app to speak into",
+  "body": "Twenty minutes, one spoken order, and a clear look at where it arrives.",
+  "cta": "Book a Free Demo →"
+ }
+}

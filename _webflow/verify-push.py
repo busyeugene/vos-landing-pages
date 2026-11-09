@@ -3,8 +3,9 @@ import json, sys
 # every hero/mainCta prop value must match exactly. Written during the 2026-10-21 re-push.
 # usage: verify_push.py <repush.json> <tree dump>
 d = json.load(open(sys.argv[1], encoding='utf8'))
-raw = json.load(open(sys.argv[2], encoding='utf8'))
-root = raw['result'][0]['data'] if isinstance(raw, dict) else raw[0]['result'][0]['data']
+import os; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import wfload
+root = wfload.tree(sys.argv[2])
 text = {}
 props = {}
 def walk(n):

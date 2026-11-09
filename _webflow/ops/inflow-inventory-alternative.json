@@ -1,0 +1,542 @@
+{
+ "slug": "inflow-inventory-alternative",
+ "meta_title": "Not an inFlow Inventory Alternative: Keep It, Add Voice Orders",
+ "meta_desc": "inFlow's Showroom did not end every call. Chefs who phone can speak the items into our app and review them. Not an inFlow Inventory alternative: an addition.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved on each order that replaces a call"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "Kitchens can send an order, whatever the hour"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "To go live, for most distributors"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Why People Look"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "The usual reason to look up an inFlow Inventory competitor"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "Look up an inFlow Inventory alternative and the reason is often a set of kitchens Showroom never won over: their chefs would rather name items than shop for them, so they keep calling. Once they order in our app, an emailed order still gets keyed into inFlow by hand, though from a list its chef has reviewed. Through EDI or our API it can skip that step if your setup allows it; we check that with you in the demo."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "Showroom is built for shopping"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "inFlow describes its Showroom as a place to browse products and add them to a cart, \"just like on an ecommerce site.\" That suits an account choosing from pictures. A chef at the walk-in who already has the list in mind wants to name those items, not scroll for them."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "Not every call stopped"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "inFlow says a Showroom order flows straight into inFlow, so nobody has to pick up the phone. For the kitchens that use it, that holds. The ones that never open it go on phoning, and someone at your desk turns each call into an inFlow sales order."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "Showroom starts with an emailed invite"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "Each customer gets into Showroom through an email invite. The inFlow Learning Center says an invite is valid for two weeks. A chef who never opens it keeps calling, and that order still lands on your desk."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "Not an inFlow Inventory alternative: what we add for the kitchens that call"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Said at the walk-in, sent from the same spot"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "The chef presses Push to Speak, names each item, and our app matches it to that restaurant's own guide. The chef fixes any item the app misheard, then sends."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "The chef looks over every item first"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Takes orders 24/7, Sundays and holidays too"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "An interrupted order is saved and picks up where the chef stopped"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Each account's usual items, from your inFlow export"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "Send us an export from inFlow of what each account normally buys, with its prices. We load that list as the account's guide under your own codes, so each chef orders from that restaurant's usual items. You keep each guide's prices current in our admin; whether they can update from inFlow is a question for the demo."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Not your whole range, just what that account buys"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "Prices set by you, one account at a time"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "Add or drop items in our admin when an account's buying shifts"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Setting up changes nothing inside inFlow"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Delivery Formats"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Orders reach your desk by email, EDI or the API"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "Each order leaves as an email with a PDF, Excel or Word file, or travels over EDI, through our API, or into QuickBooks. Whether EDI or the API can bring it into inFlow at your end is a question the demo answers."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Sent to one rep or a shared order inbox"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Over EDI or the API, when your setup takes it, nobody retypes it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Each app order carries a number and the time it was sent"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Picking and shipping carry on in inFlow"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Stock in view while orders come in"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Counts stay in inFlow; ask in the demo how its levels connect"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer stockout surprises for your team when a big order lands late"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "inFlow tracks lots and expiry, as it does now"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Who Keeps What"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "What inFlow keeps, and the one step we add"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "Think of it as an extra way in, not an alternative to inFlow Inventory: shoppers keep the Showroom, callers get the app, and inFlow runs the rest."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "inFlow stays your system of record"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "inFlow remains where your customer list, stock levels, lot tracking and invoices are kept. We look after every account's order guide, at prices you update in our web admin, and the orders their chefs send from the app."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Showroom shoppers can keep shopping"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "Customers who like browsing pictures and checking out online can stay on the Showroom. Our app is built for the kitchens that pick up the phone. A call that still comes in gets no number from us; in the app, each order is numbered and timed."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "Restocking still runs on inFlow's reorder points"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "Its reorder points and suggested purchase orders still guide when you buy. We never raise purchase orders; we only bring in what each restaurant orders."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "Hear a chef order a full list without browsing"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "In a twenty-minute demo we speak a practice order as a chef who skips the Showroom would, correct an item, send it, and show how it could reach inFlow on your side."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "From inFlow export to first spoken order"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "Your part is one export out of inFlow; loading guides and opening accounts is ours."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Send us an inFlow export"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "A spreadsheet listing what every account orders and pays, with your own codes, is usually all we need."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "Guides loaded, accounts opened"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "We load each guide and open its account. The chef downloads the app, and most kitchens send a first order the same day."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Orders arrive already checked"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Each arrives reviewed by the kitchen, numbered, timed and in the format you chose."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "inFlow Inventory plus VoiceOrder Solutions."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "One more way for kitchens to order."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "inFlow, Plus Spoken Orders"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "A chef who would rather not scroll through products can say the items out loud instead. inFlow Inventory keeps handling stock, invoicing and the Showroom. What changes is how a chef who calls today gets the order to you: by saying it into an app. This is not an inFlow Inventory alternative: the two stay separate, and nothing built into either one joins them."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "inFlow Inventory + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "inFlow Inventory on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Stock by location and bin, with counts and reorder points"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "The chef names the items at the shelf, then checks them over"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Showroom: a private online catalog per customer, at that customer's prices"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Lot numbers and expiry dates, traceable for recalls"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Order without scrolling a catalog"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "A restaurant that used to phone now sends a numbered, timed order"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Barcode scanning, picking, packing and shipping"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "A mobile app for your staff: sales, stock checks, receiving"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Invoicing and accounting sync"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Questions distributors on inFlow tend to ask"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Is an inFlow Inventory alternative the only way to get kitchens speaking their orders?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. inFlow stays, Showroom stays for those who enjoy shopping, and the restaurants still on the phone with you get our app. You receive orders the chef has spoken and then checked, and inFlow handles stock and sales orders as before."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than inFlow Inventory?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "Not overall. We do better with one kind of customer: the chef who keeps calling because browsing a catalog for a known order feels slow. Stock counts, Showroom orders and all the work once you have the order belong to inFlow, so we sit beside it as an addition, not an inFlow Inventory alternative."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Doesn't inFlow's Showroom already end phone orders?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "It can, for the customers who take to it. Showroom gives each one a private catalog with its own prices and live stock, a cart and a checkout. A kitchen that will not shop for its order that way tends to keep calling. For that kitchen, our app offers a different habit: speak the list, review it, send."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Can our restaurant customers order through inFlow's mobile app or its AI?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "inFlow built both for your team. Its mobile app gives each team member a login to make sales, check stock, pick and receive. Its built-in AI writes reports on request, and through its MCP server, a link for outside AI tools, an AI assistant can raise an order that someone on your team asks for. Its API also lets other speech or AI order tools be built or connected, so ours is not the only way. What we add is a ready-made app on the chef's own phone, holding only that restaurant's guide, with every item reviewed before it is sent."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Can inFlow Inventory and VoiceOrder Solutions be linked, and does my team still key in orders?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "Not directly. The two come from different companies, nothing joins them out of the box, and each company answers only for its own product. If your inFlow account is able to accept orders by EDI or through an API, they can land there with no retyping; a demo will tell you whether yours does. By email, it lands as a file in the inbox, every item already reviewed by the chef, and one of your people keys it in from there, not from a call or a voicemail."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "How quickly are we set up, and what will it cost?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "For most distributors it takes 24 to 48 hours, and nothing in inFlow changes for it. inFlow lists its plan prices on its website; ours are not published, and each distributor gets a quote. A true inFlow Inventory replacement would first have to take over your products, customers and sales history. We start from a single export and leave that history in inFlow."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "Do invoices and card payments change?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "No. inFlow still invoices each order and, in the US and Canada, can take card payments through inFlow Pay. We send you only the order; billing and getting paid are still handled in inFlow."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the inFlow details on this page come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "From inflowinventory.com and inFlow's Learning Center, as we found them on 9 November 2026: the homepage, the inFlow Inventory, Showroom, wholesale, sales, mobile, integrations, pricing and onboarding pages, and inFlow's own comparison pages. Its prices are public; we left the figures off because they change. The note on other tools comes from a web search for inFlow ordering add-ons. Spot anything out of date and we will update it."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Not listed on their site</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-text-size-medium-21\">Showroom: browse, add to cart, check out</div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "b3289c99-5fd7-ca67-2627-99dcf1f22d44",
+   "<div class=\"uui-text-size-medium-21\">A call your team types into a sales order</div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "b3289c99-5fd7-ca67-2627-99dcf1f22d44",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "Taking orders without the phone"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "Keeping each guide up to date"
+  ],
+  [
+   2,
+   "/wholesale-ordering-software",
+   "What an order looks like"
+  ],
+  [
+   3,
+   "/inventory-visibility-software",
+   "More on stock visibility"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Not An inFlow Inventory Alternative: For Kitchens Still Calling",
+   "lead": "Give the kitchens who still phone you, even with an online Showroom promising \"No more phone orders,\" an app to order in. Their chef says each item, fixes any that came out wrong, and sends the checked list. inFlow Inventory still looks after stock, the Showroom and your sales orders.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Leave the Showroom to shoppers. Give the callers an app to speak into.",
+   "body": "Book twenty minutes and follow a single spoken order all the way to your desk, checked by the chef on the way.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Is an inFlow Inventory alternative the only way to get kitchens speaking their orders?",
+   "a": "No. inFlow stays, Showroom stays for those who enjoy shopping, and the restaurants still on the phone with you get our app. You receive orders the chef has spoken and then checked, and inFlow handles stock and sales orders as before."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than inFlow Inventory?",
+   "a": "Not overall. We do better with one kind of customer: the chef who keeps calling because browsing a catalog for a known order feels slow. Stock counts, Showroom orders and all the work once you have the order belong to inFlow, so we sit beside it as an addition, not an inFlow Inventory alternative."
+  },
+  {
+   "q": "Doesn't inFlow's Showroom already end phone orders?",
+   "a": "It can, for the customers who take to it. Showroom gives each one a private catalog with its own prices and live stock, a cart and a checkout. A kitchen that will not shop for its order that way tends to keep calling. For that kitchen, our app offers a different habit: speak the list, review it, send."
+  },
+  {
+   "q": "Can our restaurant customers order through inFlow's mobile app or its AI?",
+   "a": "inFlow built both for your team. Its mobile app gives each team member a login to make sales, check stock, pick and receive. Its built-in AI writes reports on request, and through its MCP server, a link for outside AI tools, an AI assistant can raise an order that someone on your team asks for. Its API also lets other speech or AI order tools be built or connected, so ours is not the only way. What we add is a ready-made app on the chef's own phone, holding only that restaurant's guide, with every item reviewed before it is sent."
+  },
+  {
+   "q": "Can inFlow Inventory and VoiceOrder Solutions be linked, and does my team still key in orders?",
+   "a": "Not directly. The two come from different companies, nothing joins them out of the box, and each company answers only for its own product. If your inFlow account is able to accept orders by EDI or through an API, they can land there with no retyping; a demo will tell you whether yours does. By email, it lands as a file in the inbox, every item already reviewed by the chef, and one of your people keys it in from there, not from a call or a voicemail."
+  },
+  {
+   "q": "How quickly are we set up, and what will it cost?",
+   "a": "For most distributors it takes 24 to 48 hours, and nothing in inFlow changes for it. inFlow lists its plan prices on its website; ours are not published, and each distributor gets a quote. A true inFlow Inventory replacement would first have to take over your products, customers and sales history. We start from a single export and leave that history in inFlow."
+  },
+  {
+   "q": "Do invoices and card payments change?",
+   "a": "No. inFlow still invoices each order and, in the US and Canada, can take card payments through inFlow Pay. We send you only the order; billing and getting paid are still handled in inFlow."
+  },
+  {
+   "q": "Where do the inFlow details on this page come from?",
+   "a": "From inflowinventory.com and inFlow's Learning Center, as we found them on 9 November 2026: the homepage, the inFlow Inventory, Showroom, wholesale, sales, mobile, integrations, pricing and onboarding pages, and inFlow's own comparison pages. Its prices are public; we left the figures off because they change. The note on other tools comes from a web search for inFlow ordering add-ons. Spot anything out of date and we will update it."
+  }
+ ]
+}

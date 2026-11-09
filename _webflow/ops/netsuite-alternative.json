@@ -1,0 +1,542 @@
+{
+ "slug": "netsuite-alternative",
+ "meta_title": "Not a NetSuite Alternative: Keep NetSuite, Add Voice Ordering",
+ "meta_desc": "Keep NetSuite as your system of record. Kitchens speak orders into an app and check each line, with no NetSuite module to add. Not a NetSuite alternative.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved per order once a kitchen stops phoning"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "App ordering, including hours your desk is closed"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "Gets most distributors live"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Why Teams Compare"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "Why distributors look up a NetSuite competitor"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "Many distributors who search for a NetSuite alternative are not trying to leave NetSuite. What they want is fewer calls to key in, and NetSuite's own answer to that is a web store sold as an add-on module."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "Many sales orders still start as a call"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "NetSuite is strong at everything after a sales order exists. Before that, a chef calls, texts or leaves a voicemail, and somebody at your desk types it into NetSuite by hand."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "Online ordering is one more module to license"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "NetSuite sells its web store for trade customers as an add-on, licensed on top of your platform, modules and users. You set it up and keep it running, and it only helps with the kitchens that log in."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "The store asks a chef to search and type"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "In NetSuite's store, a kitchen reorders from past purchases or enters item codes in a list. That suits someone sitting at a desk. A chef checking the cooler with a phone in hand is more likely to call your office."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "Why this is not a NetSuite alternative: one new way for kitchens to order"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Whatever is short in the walk-in becomes lines a kitchen checks"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "A chef walks the cooler and says what is short. The app lays it out as lines from that kitchen's own guide, they correct anything off, and they send it. No web store to sign in to, no search box, no call to your office."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "The kitchen's buyer reviews each line before sending"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Takes an order at 2 a.m. as readily as at noon"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "Called away mid-order? The app keeps it until they return"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Each account's guide, taken from an export"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "Send us a spreadsheet of what each account buys. We load those items under your item codes at the price you set for that account. Your full item list is still kept in NetSuite, and you update each guide in our admin platform."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "A kitchen sees only its own lines"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "You decide prices and what goes in each guide"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "One edit to a guide carries into every order after it"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Setup adds no SuiteApp, script or NetSuite module"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Delivery Formats"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Delivered by email file, EDI or the API"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "A finished order goes out as an email with a PDF, Excel or Word file, or travels over the API, over EDI, or into QuickBooks. You choose the format. An emailed file still gets entered by your team, but from lines the kitchen already checked. Over EDI or the API it can go straight in if your NetSuite setup accepts it that way, and the demo shows whether it does."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Sent to a rep or to a shared orders inbox"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Over EDI or the API, when your setup takes it, nobody retypes it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Fulfillment, invoicing and delivery carry on as before"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Nothing has to be switched off to start"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Stock levels beside the orders coming in"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "VoiceOrder Solutions carries real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "The catalog keeps up as stock levels change"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer stockout surprises when a big order lands late"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "Lots, counts and replenishment remain NetSuite's job"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Side By Side"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "What stays in NetSuite, and what the app adds"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "This is not an alternative to NetSuite. The app covers the moment a kitchen puts its order together, and NetSuite takes over once that order lands at your desk."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "NetSuite remains the system of record"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "NetSuite holds your customers, stock and invoices. What we hold is the guide for each kitchen, priced and kept up to date by you, and the orders placed through our app."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Kitchens already ordering online carry on"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "If some accounts already use the NetSuite store, leave them there. The app is meant for the kitchens that keep phoning. An order phoned to your office gets no number from us; only the ones sent from the app do."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "Getting started adds nothing to your NetSuite license"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "NetSuite's license grows with each module you add, and online ordering for customers is one of them. Starting with us adds no NetSuite module and no NetSuite user. Whether EDI or the API comes later is a question for the demo. We send our own quote, separate from NetSuite's."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "Watch one order get spoken and sent, then ask how it would reach NetSuite"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "In 20 minutes, we speak one order into the app, change a line, then send it. Then we show the formats it could arrive in at your NetSuite desk."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "Three steps, with NetSuite left as it is"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "It starts with one export from NetSuite. We turn it into a guide for each account, and the kitchens take it from there."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Pull an item list out of NetSuite"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "A saved search exported to a spreadsheet is usually all we need. It gives us each account's items and prices under your own codes."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "Every account gets its own guide"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "We build each guide and open the account, and the kitchen installs the app. Most place a first order the same day."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Your desk gets a ready order"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Each order arrives already checked by the customer, numbered and timed, in the format you chose."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "NetSuite plus VoiceOrder Solutions."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "Your books stay in NetSuite."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "One App Beside NetSuite"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "VoiceOrder Solutions changes one thing for you: how a kitchen's order begins. If you searched for a NetSuite alternative, note what stays: NetSuite still runs the money, the stock and the warehouse, so those rows read the same in both columns. Each product is sold and supported on its own, with no link built in."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "NetSuite + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "NetSuite on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Accounting, receivables and multi-entity finance"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "Kitchens order by talking, then confirm each line"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Lot tracing and recalls"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Accounts who used to call send a numbered order"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Online reordering in the add-on store"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Demand planning and replenishment rules"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Ordering from a customer app, with no extra NetSuite module"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Warehouse picking and mobile scanning"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Customer-segment catalogs and negotiated prices in the store"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "What NetSuite users ask us"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Do we need a NetSuite alternative to take voice orders from kitchens?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. NetSuite carries on running your business, and the store can stay for the accounts that use it. What we add is an app for your phone-ordering kitchens: they say what they need, review it and send it, with no new NetSuite module."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than NetSuite?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "At one job, yes: getting an order out of a kitchen that will not sign in to any website, with each line looked over first. NetSuite does far more than we do, which is why we sit beside it rather than in its place."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "NetSuite already sells a store. Why would we want an app too?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "Keep the store for anyone who already orders there. It is built for finding items and typing quantities. Our app is for kitchens that find saying what they need easier than looking each item up."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "NetSuite partners sell voice tools. How is this different?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "Several partners do, mostly for sales reps, or for turning voice notes and calls into sales orders. Our app is in the customer's hands instead: the kitchen orders out loud, then checks each line before it is sent to you."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Will someone still have to type these orders into NetSuite?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "These are two products with nothing joining them out of the box, and neither of us gives support for the other's software. Through EDI or the API, NetSuite may accept the order without anyone retyping it, if your account is set up for that; we check it with you in the demo. By email, it is a file the kitchen reviewed before sending, and someone on your side keys it in from that file rather than from a call or a voicemail."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "Will setting this up touch our NetSuite account?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "Getting started needs no NetSuite login and installs nothing: we work from a spreadsheet you export, and your scripts, roles and release schedule stay as they are. If you later want orders sent by EDI or the API, we go through what that takes for you in the demo."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How long does it take, and what does it cost?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "Setup takes 24 to 48 hours for most distributors, with nothing changed inside NetSuite. Neither company publishes prices, so both are quoted: NetSuite's license and ours. A NetSuite replacement, or any NetSuite alternative that takes over the ERP, moves your finance, stock and warehouse at once. Changing how kitchens send orders is a job of a different size."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the NetSuite details on this page come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "From netsuite.com and NetSuite's own help pages, read on 9 November 2026: the distribution and food pages, the online store's reorder tools, the AI assistant and the licensing model, plus NetSuite partners' own pages on voice ordering. They publish no prices, so this page states none. If any of it is out of date now, tell us and we will correct it."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Typed into NetSuite's web store</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-text-size-medium-21\">Taken by phone, then keyed in by your team</div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   "<div class=\"uui-text-size-medium-21\">Online ordering needs the web store module</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e2b490e6-2971-5f57-5e1a-c95003f9a5b7",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "How order capture works"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "Keeping guides current"
+  ],
+  [
+   2,
+   "/wholesale-ordering-software",
+   "What an order looks like"
+  ],
+  [
+   3,
+   "/inventory-visibility-software",
+   "More on stock visibility"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Not A NetSuite Alternative: Ordering Without Another Module",
+   "lead": "Let the kitchens that call every morning order from an app instead. In the VoiceOrder Solutions app, a kitchen speaks its order and looks over each line before it reaches you. It adds no module to NetSuite, which runs everything after that.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Leave NetSuite as it is, and hand your kitchens a voice app",
+   "body": "One demo, one order taken by voice, and the file your desk would get from it.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Do we need a NetSuite alternative to take voice orders from kitchens?",
+   "a": "No. NetSuite carries on running your business, and the store can stay for the accounts that use it. What we add is an app for your phone-ordering kitchens: they say what they need, review it and send it, with no new NetSuite module."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than NetSuite?",
+   "a": "At one job, yes: getting an order out of a kitchen that will not sign in to any website, with each line looked over first. NetSuite does far more than we do, which is why we sit beside it rather than in its place."
+  },
+  {
+   "q": "NetSuite already sells a store. Why would we want an app too?",
+   "a": "Keep the store for anyone who already orders there. It is built for finding items and typing quantities. Our app is for kitchens that find saying what they need easier than looking each item up."
+  },
+  {
+   "q": "NetSuite partners sell voice tools. How is this different?",
+   "a": "Several partners do, mostly for sales reps, or for turning voice notes and calls into sales orders. Our app is in the customer's hands instead: the kitchen orders out loud, then checks each line before it is sent to you."
+  },
+  {
+   "q": "Will someone still have to type these orders into NetSuite?",
+   "a": "These are two products with nothing joining them out of the box, and neither of us gives support for the other's software. Through EDI or the API, NetSuite may accept the order without anyone retyping it, if your account is set up for that; we check it with you in the demo. By email, it is a file the kitchen reviewed before sending, and someone on your side keys it in from that file rather than from a call or a voicemail."
+  },
+  {
+   "q": "Will setting this up touch our NetSuite account?",
+   "a": "Getting started needs no NetSuite login and installs nothing: we work from a spreadsheet you export, and your scripts, roles and release schedule stay as they are. If you later want orders sent by EDI or the API, we go through what that takes for you in the demo."
+  },
+  {
+   "q": "How long does it take, and what does it cost?",
+   "a": "Setup takes 24 to 48 hours for most distributors, with nothing changed inside NetSuite. Neither company publishes prices, so both are quoted: NetSuite's license and ours. A NetSuite replacement, or any NetSuite alternative that takes over the ERP, moves your finance, stock and warehouse at once. Changing how kitchens send orders is a job of a different size."
+  },
+  {
+   "q": "Where do the NetSuite details on this page come from?",
+   "a": "From netsuite.com and NetSuite's own help pages, read on 9 November 2026: the distribution and food pages, the online store's reorder tools, the AI assistant and the licensing model, plus NetSuite partners' own pages on voice ordering. They publish no prices, so this page states none. If any of it is out of date now, tell us and we will correct it."
+  }
+ ]
+}

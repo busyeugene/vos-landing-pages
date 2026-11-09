@@ -1,0 +1,330 @@
+{
+ "slug": "repzio-alternative",
+ "meta_title": "Not a RepZio Alternative: Keep RepZio, Add Voice Ordering",
+ "meta_desc": "RepZio helps your reps win the sale. Let restaurants speak each routine reorder into our app and look over each item. Not a RepZio alternative: keep both.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not A RepZio Alternative: Chefs Reorder By Voice",
+  "lead": "Get each reorder after the sale straight from the chef, who says it into our app from that restaurant's order guide and looks over every item before it goes. RepZio stays your reps' tool for presentations and showroom orders, and B2B Direct stays your storefront.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved per order a chef sends in the app instead of phoning it"
+  },
+  {
+   "num": "24/7",
+   "label": "When a chef can send a reorder, with or without a rep"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Setup for most distributors, RepZio left alone"
+  }
+ ],
+ "problem": {
+  "eyebrow": "After The First Sale",
+  "h2": "Why food distributors weigh a RepZio competitor",
+  "lead": "RepZio covers the whole sale: presentations, showrooms and trade-show orders, plus a storefront for approved buyers. A RepZio alternative with more selling tools would not change how a chef who still calls the rep reorders what the kitchen bought last week. If our app emails that reorder to you, it is entered by someone on your team, from items the chef confirmed one at a time.",
+  "cards": [
+   {
+    "h3": "Made for trade-show selling",
+    "body": "RepZio comes from the company behind the Atlanta, Las Vegas and High Point trade-show markets, and its support pages help reps get ready for \"market season\". That is the selling it was built around. A restaurant, though, reorders from you every few days, all year round."
+   },
+   {
+    "h3": "A weekly reorder needs no pitch",
+    "body": "Presentations, flipbooks, bestseller lists and barcode-scanned showrooms help a rep make the sale. When a chef needs the same cases as last Tuesday, none of that gets used. Unless the restaurant reorders in B2B Direct, that reorder still reaches the rep as a call or a text."
+   },
+   {
+    "h3": "RepZio's app is in the rep's pocket, not the chef's",
+    "body": "RepZio's own app is made for reps, on iPad and iPhone: presentations, live stock and order writing, even offline. For customers, RepZio offers B2B Direct, a storefront the chef signs in to from a browser."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Not a RepZio alternative: what it adds to the routine reorder",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "No rep to reach, no call to return",
+    "body": "From the walk-in or the office, the chef names what the kitchen needs. Our app matches each item to that restaurant's guide and lists them, so the chef can fix an item or an amount before sending. The chef never waits for a rep to call back.",
+    "bullets": [
+     "Nothing goes out until the chef has looked at each item",
+     "A reorder can go in at 2am or on a holiday",
+     "Runs on the phone the chef already carries",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "An interrupted order waits where the chef stopped"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How restaurants send orders →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "Each restaurant's regular items, in one guide",
+    "body": "Send us the items each restaurant usually buys, and we load them as its own guide under your item numbers, so the chef picks from a short list, not everything you stock. Guides and their prices are yours to update in our admin, the same place you manage each account. Whether price changes can come over from RepZio or your ERP in bulk is a question for the demo.",
+    "bullets": [
+     "Each restaurant sees its usual items, not every product you carry",
+     "Once a rep sells a new product, you can add it to that account's guide",
+     "Edit any restaurant's guide yourself, in our admin",
+     "Setup works from an export, not a RepZio login"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "Reorders reach you in a format your office already takes",
+    "body": "A sent order reaches you by email as a PDF, Excel or Word file, or through EDI, our API or QuickBooks. It does not pass through RepZio, so it will not sit in a rep's order list or in B2B Direct's order history. Through EDI or the API, your ERP may take it in with no typing if it is set up for that, and the demo shows whether yours is. A QuickBooks order goes to your books only.",
+    "bullets": [
+     "Emailed to a rep, or to the inbox your desk reads",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "The file holds only what was approved in the app",
+     "Picking and delivery run the way they do today"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock in view beside each day's reorders",
+    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Stock numbers come from the system you count with today",
+     "Fewer stockout surprises for your order desk",
+     "Reps still see RepZio's live stock on visits",
+     "Buying from your own suppliers stays with your team"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Sell With One, Reorder With The Other",
+  "h2": "RepZio for the sale, our app for the repeat order",
+  "lead": "This is not an alternative to RepZio: every tool your reps use to win an order stays put, and we only handle the reorders that follow.",
+  "items": [
+   {
+    "h3": "Reps keep presentations, scanning and payments",
+    "body": "Flipbooks, showroom barcodes, card capture and the rest stay in RepZio, and so does any ShopZio listing you run. Nothing in your reps' app changes."
+   },
+   {
+    "h3": "Storefront buyers can stay on B2B Direct",
+    "body": "B2B Direct lets an approved customer sign in, open favorites and reorder at any hour, and restaurants happy doing that should stay on it. The app is for chefs who still reach for the phone to tell the rep each order."
+   },
+   {
+    "h3": "Rep orders keep their own way to your ERP",
+    "body": "Orders taken by your reps at a trade show or on the road keep going to your ERP through RepZio's own integrations, just as they do now. Nothing we add sits in that path."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See a routine reorder come in with no rep on the phone",
+  "body": "In a 20-minute walkthrough we say a sample weekly reorder, fix one product on the review screen, send it, then show you the PDF your office would receive. Then we look at where it would land beside RepZio and your ERP.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "From a guide export to the first spoken reorder",
+  "lead": "Your team sends the products each restaurant buys from you. We build the accounts, and every chef puts our app on their phone.",
+  "items": [
+   {
+    "h3": "Export each account's regular items",
+    "body": "A spreadsheet from your ERP or from RepZio is usually all we need, listing every account's regular products and prices."
+   },
+   {
+    "h3": "Restaurant accounts go live",
+    "body": "We load the restaurant's guide into our admin and open its account. For most restaurants, the first order comes the same day."
+   },
+   {
+    "h3": "Reorders arrive just as the chef sent them",
+    "body": "Each order from the app has its own number and the time it was sent. A reorder still phoned to a rep gets no number from us."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "RepZio plus VoiceOrder Solutions. The rep sells it once. The chef reorders it.",
+  "h2_lines": [
+   "RepZio plus VoiceOrder Solutions.",
+   "The rep sells it once. The chef reorders it."
+  ],
+  "eyebrow": "Selling And Reordering",
+  "lead": "After the first sale, a restaurant's reorder is often the same handful of items, and it can still reach the rep by phone or by text. RepZio's tools win that first sale, and our app is for every repeat after it. Keeping both is the point: this is not a RepZio alternative, and the two run separately with no link between them.",
+  "heads": [
+   "Feature",
+   "RepZio + VoiceOrder Solutions",
+   "RepZio on its own"
+  ],
+  "rows": [
+   {
+    "label": "Product presentations and bestseller lists for reps",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A chef who would call the rep speaks the reorder instead",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Called or texted to the rep, who types it in"
+     }
+    ]
+   },
+   {
+    "label": "Rep order writing, online or offline",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A branded B2B Direct storefront with favorites and order history",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A restaurant that used to call now sends a numbered, timed order",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Numbered once a rep or your desk enters it"
+     }
+    ]
+   },
+   {
+    "label": "Barcode scanning and card payments in the showroom",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Restaurants order in an app on any iOS or Android phone",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "A storefront in the browser; the RepZio app is for reps"
+     }
+    ]
+   },
+   {
+    "label": "Live inventory for reps and storefront buyers",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "RepZio orders flow on to your ERP or accounting system",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What sales teams on RepZio ask us",
+  "items": [
+   {
+    "q": "Do I need a RepZio alternative for spoken reorders?",
+    "a": "No. RepZio stays in your reps' hands for presentations, showroom selling and the storefront. What changes is the reorder a chef phones or messages to the rep today: now it is spoken in our app, checked by the chef and sent."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than RepZio?",
+    "a": "At one job: letting a chef send the usual restaurant order unaided, spoken and then looked over, with no rep in between. Winning the account, showing new products and selling at trade events are RepZio's work, so we stay alongside it and are not a RepZio alternative."
+   },
+   {
+    "q": "A rep just sold a restaurant something new. How does it get on their list?",
+    "a": "Your team adds it to the guide for that restaurant in our admin. Once it is there, the chef can say it along with the rest of the reorder and see it listed before sending. The rep still makes the sale in RepZio, as now; our app only handles what the kitchen orders again."
+   },
+   {
+    "q": "Is it linked to RepZio, and does my desk end up typing these reorders?",
+    "a": "They are not linked. RepZio and VoiceOrder Solutions are made by separate firms with no connection between them, and each one supports only its own product. Your ERP keeps your accounts, stock and billing, and RepZio keeps the orders your reps write; we hold every restaurant's guide with its prices, plus the reorders sent through our app. By email, your desk gets a file of the approved items and keys it in from that. What it saves is the call itself: nobody answers the phone, notes every item and repeats the list back, because the chef reviewed the order before it was sent. Sent by EDI or API, it can land in your ERP untouched by your desk, provided your ERP is configured for it, and the demo is where we find out."
+   },
+   {
+    "q": "Will our reps lose sight of their accounts?",
+    "a": "They need not. Emailed orders can be sent to a rep, and whether each account's orders can reach its own rep, as well as the desk, is something to confirm in the demo. App orders will not appear in the rep's RepZio order list, since they do not go through RepZio."
+   },
+   {
+    "q": "RepZio works offline. Does your app?",
+    "a": "RepZio's rep app can write orders without a signal, which matters on a show floor or out in a territory. We can't promise that for our app, so ask about it in the demo. What it does do is save an order if the chef gets pulled away, so they can pick up where they stopped."
+   },
+   {
+    "q": "How quickly can we start, and what will it cost?",
+    "a": "Setup takes 24 to 48 hours for most distributors, and RepZio is left exactly as it is. You pass us the products each account normally orders, often exported to a spreadsheet; we put them into our admin, create every account, and the restaurants download our app, most of them ordering that same day. RepZio lists no prices on its site; its support site describes a free Basic rep license for browsing and a paid monthly Standard license for sending orders. We quote per distributor. A RepZio replacement would mean new tools for every rep before the next trade show; with us, every rep keeps the tools they have."
+   },
+   {
+    "q": "Where do the RepZio details on this page come from?",
+    "a": "We read repzio.com and the RepZio support site on 9 November 2026: the home, solutions, sales rep app, B2B Direct, ShopZio, integrations and price pages, and support guides for the iOS app, the web app and market prep. The example of a rep keying in an order taken by phone comes from a partner's blog post about RepZio. We searched for a voice tool sold for RepZio and came up empty. If any of it is no longer right, tell us and we will fix this page."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Keep RepZio for the sale. Hand the reorders to the chef.",
+  "body": "Give us twenty minutes to show how a newly sold product gets added to one account's list and is then ordered again by voice.",
+  "cta": "Book a Free Demo →"
+ }
+}

@@ -1,0 +1,330 @@
+{
+ "slug": "lavu-pos-alternative",
+ "meta_title": "Not a Lavu POS Alternative: Keep Lavu, Add Voice Ordering",
+ "meta_desc": "Lavu logs supply orders but does not send them. If your distributor offers our app, say the order, check each line and send it. No Lavu POS alternative needed.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not A Lavu POS Alternative: Send Supply Orders",
+  "lead": "Say your supply order into the VoiceOrder Solutions app, go over each line from your distributor's order guide (your regular items, priced for your account) and send it with an order number. Lavu logs supply orders but does not send them. Your distributor has to offer the app.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most kitchens are up and ordering, once the distributor adds them"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "saved on each order, versus calling it in to the rep"
+  },
+  {
+   "num": "24/7",
+   "label": "to get supplies ordered, even after close"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why People Look",
+  "h2": "Why owners search for a Lavu POS competitor",
+  "lead": "Lavu's support pages say it will not email or contact your vendors. When you look for an alternative to Lavu POS, sometimes the trouble is ordering supplies, not the POS.",
+  "cards": [
+   {
+    "h3": "In Lavu, the order is saved as Pending",
+    "body": "In Lavu you pick a vendor, add items and save the order as Pending, ready to receive when it arrives. Telling the distributor is still your job, by call, text or email."
+   },
+   {
+    "h3": "Marty points you to the restock",
+    "body": "Lavu's pages show Marty, its AI, reading the night's data and suggesting fixes, such as a restock. Lavu sells Marty AI as separate plans. On its pages, Marty's part ends at the suggestion."
+   },
+   {
+    "h3": "No sign the distributor got it",
+    "body": "A Pending order shows what you saved, and it stays Pending until the delivery is received. Nothing in Lavu shows the distributor got the order."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Say the distributor order, with no Lavu POS alternative needed",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Say the supply list, see it on screen, send it",
+    "body": "Open the app in the walk-in and say what you need. What you say shows up as lines from that distributor's guide, and you fix a quantity or remove a line before you send.",
+    "bullets": [
+     "You look over every line before it goes",
+     "Send it after close, when the rep's phone is off",
+     "Runs on the phone you already carry",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Pulled onto the line mid-order? It waits for you"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "More on placing an order by voice →"
+    }
+   },
+   {
+    "eyebrow": "Loaded By Your Distributor",
+    "h3": "The distributor sets up the list, so you do not have to",
+    "body": "In Lavu you add each vendor and attach the items yourself. In our app the distributor loads what you buy from them, with your account pricing, and can update it from their side.",
+    "bullets": [
+     "Only what your kitchen normally orders from them",
+     "Their item codes, so the order reads right at their end",
+     "Nothing for you to build or keep up",
+     "Your rep stays the same"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Ordering from several suppliers →"
+    }
+   },
+   {
+    "eyebrow": "Sent And Confirmed",
+    "h3": "A number, a time and a confirmation on each app order",
+    "body": "In our app, each sent order carries a number, the date and the time, and a confirmation reaches your phone. If a case does not show up, give your rep that number.",
+    "bullets": [
+     "Shows exactly when it went out",
+     "Confirmed by notification or text",
+     "A number to quote when something is missing",
+     "Calls and voicemails get no number from us"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "What each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "Staying In Lavu",
+    "h3": "Lavu keeps the POS, the stock and Marty",
+    "body": "Payments, menus, the kitchen display, ingredient stock, 86 alerts and, where you pay for Marty AI, the morning card all stay in Lavu. Keeping Lavu means no Lavu POS alternative to set up or train your staff on.",
+    "bullets": [
+     "Tickets and payments run on the iPad as before",
+     "Lavu still grays out 86'd items and flags low stock",
+     "Receiving in Lavu still adds to its stock",
+     "If you run Marty, it keeps reading the same sales data"
+    ],
+    "link": {
+     "href": "/restaurant-stock-management-software",
+     "text": "How ordering fits beside your stock counts →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Use Both",
+  "h2": "From a low-stock alert in Lavu to a spoken restock",
+  "lead": "This is not a Lavu POS replacement. Lavu handles sales, stock records and alerts. VoiceOrder Solutions covers one piece of the supply side: getting a spoken, reviewed order from your phone to a distributor who has our app.",
+  "items": [
+   {
+    "h3": "Voice orders do not appear in Lavu's Orders list",
+    "body": "Our app does not create the Pending order that Lavu receives against. If you receive deliveries into Lavu stock, log that order there as well."
+   },
+   {
+    "h3": "When Marty says restock, say it then",
+    "body": "A sample Marty card on Lavu's homepage reads \"Sub or restock before 11am\". If a card like that names an item you buy from a distributor that has our app, that is the moment to say the restock and look over the lines before you send."
+   },
+   {
+    "h3": "Start with the calls and emails",
+    "body": "Our app fits best with a supplier you phone or email today, if they offer it. Send that order in the app and there is no call or email to make. A distributor without the app keeps hearing from you as before."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See how one supply order gets to a distributor",
+  "body": "We open a sample distributor's guide, say a short order, change one quantity and show what reaches the distributor. It takes about 20 minutes.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "How a kitchen on Lavu gets started",
+  "lead": "The distributor does the setup. All you need is your phone.",
+  "items": [
+   {
+    "h3": "Find out if your distributor is on it",
+    "body": "If they offer it, they set up your account and your guide. Unsure? We can find out for you."
+   },
+   {
+    "h3": "Install it on your phone",
+    "body": "Your guide is waiting the first time you open it."
+   },
+   {
+    "h3": "Say the order, then send it",
+    "body": "Look it over, send it, and get a confirmation."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Who gets the order Lavu saves to the distributor? You do, by voice, in our app.",
+  "h2_lines": [
+   "Who gets the order Lavu saves to the distributor?",
+   "You do, by voice, in our app."
+  ],
+  "eyebrow": "Saved In Lavu, Spoken In Our App",
+  "lead": "For distributors on our app, VoiceOrder Solutions adds two things: you speak and send the supply order, and a confirmation comes back. Ticks for the POS, inventory and Marty AI are Lavu's own. If a Lavu POS alternative was on your list, that is what keeping Lavu looks like.",
+  "heads": [
+   "Feature",
+   "Lavu + VoiceOrder Solutions",
+   "Lavu on its own"
+  ],
+  "rows": [
+   {
+    "label": "iPad POS, kitchen display and payments",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Ingredient stock with low-stock and 86 alerts",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Speak a supply order, then check each line",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Vendors, logged orders and receiving into stock",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Sent to the distributor from the app",
+    "cells": [
+     {
+      "t": "text",
+      "v": "When the distributor is on our app"
+     },
+     {
+      "t": "text",
+      "v": "Outside Lavu, as you do now"
+     }
+    ]
+   },
+   {
+    "label": "Marty AI morning card and alerts, on a Marty plan",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A confirmation back on your phone",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "None shown in Lavu"
+     }
+    ]
+   },
+   {
+    "label": "Order guide loaded by the distributor",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Vendor items you set up"
+     }
+    ]
+   },
+   {
+    "label": "Online ordering and delivery partners for guests",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions from restaurants that run Lavu",
+  "items": [
+   {
+    "q": "Do I need a Lavu POS alternative just to say my supply order to a distributor?",
+    "a": "No. Lavu can stay your POS and your stock record. Where a distributor of yours has our app, you can speak its orders instead of phoning them in."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Lavu POS?",
+    "a": "They do different jobs. We are not a POS: no payments, menus, kitchen display, stock levels or sales reports. You say each line of an order for a distributor on our app, correct anything that is off, and send it. Suppliers that are not on our app go on getting your orders as they do now. If reaching the distributor is why you looked at a Lavu POS alternative, that is the gap we fill."
+   },
+   {
+    "q": "Do VoiceOrder Solutions and Lavu connect?",
+    "a": "No. Lavu and our app are two products, each with its own helpdesk, and nothing passes between them. Whatever you send in our app reaches only your distributor."
+   },
+   {
+    "q": "Is this the same as Lavu's voice AI for phone orders?",
+    "a": "No. One of Lavu's blog posts, from July 2025, describes Marty voice AI that answers guests calling in takeout orders. Ours runs the other way: the order your kitchen places with its food distributor. You can use both, since they never handle the same order."
+   },
+   {
+    "q": "How do I get an order I spoke into Lavu's stock?",
+    "a": "Lavu adds stock when you receive an order saved in its Orders list. Since our app does not put the order there, save it in Lavu too, then receive it when the truck arrives. Lavu does not contact vendors, so saving it there does not order it again. The time you save is the call to the rep, not this record. When the delivery comes, check it, and quote your order number to the rep if anything is short."
+   },
+   {
+    "q": "What happens if the app hears an item wrong?",
+    "a": "You see it on the review screen before anything goes out, and you can change the item or the amount or take the line off. That review is the safeguard, so a quick glance can still let an error through. Orders made by phone or voicemail get no order number from us; only orders sent in the app do."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "Through your distributor: they make you an account with your guide already loaded, and most kitchens place a first order the same day. Cost is one more thing to raise with your distributor, since the app reaches you through them; we publish no price. If your distributor does not offer it, go on ordering from them as you do today, and contact us so we can find the right person. Lavu shows prices for its Marty AI plans on its homepage."
+   },
+   {
+    "q": "Where do the Lavu details on this page come from?",
+    "a": "From lavu.com and Lavu's help center at support.lavu.com, as we read them on 9 November 2026: the vendor and order pages, inventory alerts, Marty AI and a Lavu blog article on answering takeout calls with voice AI. We have left Lavu's dollar and uptime claims off this page. If any of it is out of date, write to us and we will fix it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Hear back on each restock you speak into our app",
+  "body": "See if VoiceOrder Solutions is available through your distributor. If you are unsure, ask us and we will check for you.",
+  "cta": "Ask About Getting Started →"
+ }
+}

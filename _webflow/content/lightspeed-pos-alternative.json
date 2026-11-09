@@ -1,0 +1,330 @@
+{
+ "slug": "lightspeed-pos-alternative",
+ "meta_title": "Not a Lightspeed POS Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Keep Lightspeed for guests and stock. Where your distributor has our app, speak your supply order and fix any line first. No Lightspeed POS alternative needed.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not A Lightspeed POS Alternative: Restock Without Calling",
+  "lead": "If a distributor's rep still gets your restock by phone, say it into the VoiceOrder Solutions app instead. Order from their order guide (the products you buy from them most, at your account's pricing), read over each line, and get a confirmation on your phone. It works only if your distributor has the app.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "saved on each order, compared with calling it in to the rep"
+  },
+  {
+   "num": "24/7",
+   "label": "to order when the stock runs low, not when the rep picks up"
+  },
+  {
+   "num": "Same Day",
+   "label": "is when most kitchens start ordering, once the distributor adds them"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Before You Compare",
+  "h2": "Why kitchens look for an alternative to Lightspeed POS",
+  "lead": "Lightspeed emails each purchase order to the address you saved for that supplier. When the search for a Lightspeed POS competitor starts, the cause is sometimes the supply order, not the register.",
+  "cards": [
+   {
+    "h3": "When your rep works from the phone",
+    "body": "Lightspeed can email purchase orders, but some distributors still work from the phone. For those, Lightspeed's own help articles, for its K-Series restaurant POS, tell you to create the order there and skip the email. Then you make the call as before."
+   },
+   {
+    "h3": "Pars say how much to order",
+    "body": "Lightspeed shows stock and par levels as you build an order, and can repeat orders on a schedule. The items on it come from suppliers you set up in Lightspeed yourself."
+   },
+   {
+    "h3": "Lightspeed AI is there for questions",
+    "body": "Lightspeed AI takes questions on sales, servers, shifts and online-order results, and can set up a menu from a file. Supply orders are not among the topics it lists, so they still go out as an emailed purchase order or a call."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Keep the stock tools, speak the restock: no Lightspeed POS alternative needed",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Speak your order after close",
+    "body": "When service ends and you can see what is short, open the app and say what you need from that distributor. What you say turns into lines you can read. Fix a quantity, remove a line, then send it.",
+    "bullets": [
+     "You approve each line before anything is sent",
+     "Open at any hour, even when the rep is not",
+     "Works on the phone you carry",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "A table needs you mid-order? It waits, saved"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "How placing an order by voice works →"
+    }
+   },
+   {
+    "eyebrow": "Your Account's Guide",
+    "h3": "A guide the distributor sets up for you",
+    "body": "Your distributor loads the guide, with the prices on your account for each line, and can update it from their side, so there is no list for you to keep. Your supplier list in Lightspeed is not involved.",
+    "bullets": [
+     "Only what you normally order from them",
+     "Lines carry your account pricing",
+     "No product list to type in first",
+     "You still deal with the same rep"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Buying from more than one supplier →"
+    }
+   },
+   {
+    "eyebrow": "Proof Of The Order",
+    "h3": "A number, a time and a confirmation",
+    "body": "An order sent in the app gets its own order number, with the date and time, and a confirmation comes back to your phone. If the truck shows up short, that number is what you give the rep.",
+    "bullets": [
+     "The exact time you sent it",
+     "Confirmed by notification or text",
+     "Lands with the rep or their purchasing team",
+     "A phoned-in order gets no number from us"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "Records of what each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "On The Lightspeed Side",
+    "h3": "Lightspeed's stock tools carry on as before",
+    "body": "Tables, tickets, payments, online orders and the stock your dishes use all carry on in Lightspeed. None of that calls for a Lightspeed POS alternative, and your servers see nothing new.",
+    "bullets": [
+     "Your servers' screens look the same",
+     "Any pars and reorder points stay as you set them",
+     "Alerts and reports work as they do now",
+     "No new hardware at the counter"
+    ],
+    "link": {
+     "href": "/restaurant-stock-management-software",
+     "text": "Ordering next to the stock you track →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Use Both",
+  "h2": "Keep Lightspeed's stock right while you speak orders",
+  "lead": "This is not a Lightspeed POS replacement. Lightspeed keeps the register and the inventory. VoiceOrder Solutions takes over one job: the call you make to a distributor, once that distributor has our app.",
+  "items": [
+   {
+    "h3": "Record it the way Lightspeed says for phoned orders",
+    "body": "Lightspeed gets no copy of what you say in our app, so its stock misses that delivery until you add it. Make the order in Lightspeed with the email skipped, then receive the delivery into stock. In K-Series, you can also set that supplier to update stock levels only, so no email is offered."
+   },
+   {
+    "h3": "Let a low stock alert start the order",
+    "body": "When Lightspeed flags an item that distributor carries, add it when you next order from them in our app. The alert itself stays in Lightspeed."
+   },
+   {
+    "h3": "Watch for recurring orders",
+    "body": "If Lightspeed already emails that distributor a recurring order, keep that order or speak it in our app, not both, or the same goods could arrive twice."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See a supply order leave the phone and reach a distributor",
+  "body": "In the 20-minute demo you see a made-up guide, an order read out with one line corrected, and what lands at the distributor.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "From your distributor to your first order",
+  "lead": "Your distributor handles the account and the guide. You bring a phone.",
+  "items": [
+   {
+    "h3": "Start with your distributor",
+    "body": "Ask if they offer the app. If they do, they set up your account and add your guide. If you cannot find out, contact us."
+   },
+   {
+    "h3": "Get the app and sign in",
+    "body": "Install it on your phone. Your guide is waiting when you log in."
+   },
+   {
+    "h3": "Say it, read it, send it",
+    "body": "Speak your list, look over the lines, and tap send."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "What happens to the call to your rep when the distributor has the app?",
+  "h2_lines": [
+   "What happens to the call to your rep",
+   "when the distributor has the app?"
+  ],
+  "eyebrow": "Stock Stays In Lightspeed",
+  "lead": "Where a distributor is on our app, you get a restock you speak, a guide they load for you and each order confirmed on your phone. If supply ordering is why you are weighing a Lightspeed POS alternative, Lightspeed still keeps the POS, the stock and Lightspeed AI, and those ticks are its own.",
+  "heads": [
+   "Feature",
+   "Lightspeed + VoiceOrder Solutions",
+   "Lightspeed on its own"
+  ],
+  "rows": [
+   {
+    "label": "Guest orders at the table, by QR code and online",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Speak your supply list, then look over each item",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Stock that drops as dishes sell, with low stock alerts",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Item list loaded by the distributor",
+    "cells": [
+     {
+      "t": "text",
+      "v": "For distributors using our app"
+     },
+     {
+      "t": "text",
+      "v": "A supplier list you set up"
+     }
+    ]
+   },
+   {
+    "label": "Purchase orders emailed to any supplier",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A confirmation sent back to your phone",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "None listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Reorder points and recurring orders",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Receiving deliveries into stock, plus recipe costs",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Lightspeed AI for questions about sales and service",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Questions from Lightspeed restaurants",
+  "items": [
+   {
+    "q": "Should I look for a Lightspeed POS alternative just to place supply orders by talking?",
+    "a": "No. Keep Lightspeed for the register, and keep its stock and purchasing tools too. If a distributor of yours offers our app, you can say what you need to them rather than call or email."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Lightspeed POS?",
+    "a": "Each does a different job. We take no guest orders, run no tables, take no payments and track no stock. If phoning your rep is what sent you looking for a Lightspeed POS alternative, a distributor with our app means you can speak that restock instead."
+   },
+   {
+    "q": "Do VoiceOrder Solutions and Lightspeed connect?",
+    "a": "No. Each runs on its own, and neither support team covers the other. Anything you say in the app travels to your distributor, and Lightspeed never gets a copy."
+   },
+   {
+    "q": "Do I need Lightspeed's inventory add-on to use this?",
+    "a": "No. Our app works the same whatever Lightspeed plan you are on, with or without its inventory tools. On Lightspeed's pricing page, advanced inventory, which holds its purchase orders, is in some plans and sold as an add-on for the rest."
+   },
+   {
+    "q": "If my supply order went through your app, does Lightspeed stock count the delivery?",
+    "a": "Not by itself. Record it in Lightspeed the way you handle orders you phone, then receive it when the delivery comes in. What you save is time on the phone with your rep; entering it there takes as long as it does after a call today. If anything is short, quote the number on your confirmation to your rep."
+   },
+   {
+    "q": "What if I say romaine and the line shows iceberg?",
+    "a": "Change it before you send. On the review screen, correct the item or the quantity, or delete the line. That review is the safeguard, so a quick glance can still let a mistake through. A call or a voicemail to the distributor gets no order number from us; only orders sent in the app do."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "The distributor opens your account with your guide in it, and most kitchens place a first order the same day. No app at your distributor yet? Then order from them as you always have, and get in touch with us: we will track down the right person to talk to. Since VoiceOrder Solutions reaches you through the distributor, ask them what it costs; we publish no price. Lightspeed lists prices for most of its plans."
+   },
+   {
+    "q": "Where do the Lightspeed details on this page come from?",
+    "a": "On 9 November 2026 we read lightspeedhq.com and the K-Series help center: the restaurant, inventory, pricing and AI pages, and the articles on purchase orders. Features differ between Lightspeed's restaurant products. On that date we found nothing there about ordering from suppliers by voice, and we do not repeat their customer numbers. If something here is no longer current, tell us and we will fix it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Low on stock at close? Say the restock and get a confirmation back.",
+  "body": "Check with your distributor about VoiceOrder Solutions, or ask us and we will find out for you.",
+  "cta": "Ask About Getting Started →"
+ }
+}

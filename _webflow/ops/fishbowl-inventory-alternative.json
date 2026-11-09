@@ -1,0 +1,538 @@
+{
+ "slug": "fishbowl-inventory-alternative",
+ "meta_title": "Not a Fishbowl Inventory Alternative: Add Voice Ordering",
+ "meta_desc": "Fishbowl ends the retyping after an order. Restaurants that still call can voice each order in an app and check it. Not a Fishbowl Inventory alternative.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved on each order a chef sends instead of calling"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "Restaurant ordering, long after your desk closes"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "Setup for most distributors, with Fishbowl left as it is"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Why People Search"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "What makes owners look up a Fishbowl Inventory competitor"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "Fishbowl Inventory already handles an order well once it arrives: stock moves and QuickBooks gets the invoice, so a Fishbowl Inventory alternative would not touch the restaurant call ahead of it. With our app, an emailed list is still keyed in by your people, but the chef has checked every item on it; orders over EDI or the API might need no typing at all, which the demo will settle."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "Fishbowl pictures a retail morning"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "On Fishbowl's pricing page, its sample distributor's day starts with EDI orders from two retailers, compliance rules attached. A restaurant kitchen sends you no EDI. Its chef calls before service, and a person at your desk turns the call into a Fishbowl sales order."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "The first entry is still typed by hand"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "Fishbowl's QuickBooks page promises nothing typed twice: a shipped order becomes the invoice without anyone keying it. The typing it leaves is the first round: a person at the desk keys in what the chef said on the phone."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "The phoned order must go into Fishbowl"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "With Fishbowl in place, each sales order begins in Fishbowl, and the QuickBooks invoice follows once it ships. So the call cannot be entered in QuickBooks and left there: someone keys it into Fishbowl before anything else moves."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "Not a Fishbowl Inventory alternative: the step before the sales order"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Said at the walk-in, sent from the chef's phone"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "The chef presses Push to Speak and says what the kitchen needs. Our app matches each item to that restaurant's guide, and the chef fixes any item it got wrong before sending. Your desk receives items the chef has reviewed, not notes from a rushed call."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "Nothing is sent until the chef has looked it over"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Open for orders at any hour, holidays included"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "A half-finished order is saved if service pulls the chef away"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Each restaurant's usual items, at the prices you set"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "Export each account's usual items and their prices from Fishbowl. We build a guide for each restaurant under your part numbers. You keep each guide's prices current in our admin; whether they can update from Fishbowl is a question for the demo. Fishbowl's customer records and pricing rules stay where they are."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "A chef sees what that kitchen buys, not your full catalog"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "You set the price for each account"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "Update a guide and the chef's app shows the change"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Setup needs no Fishbowl login, and nothing is installed in Fishbowl"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Delivery Formats"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Three formats for a checked order"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "Each order comes to you as an email carrying a PDF, Excel or Word file, over EDI, or through our API. Email orders get keyed into Fishbowl from what the chef reviewed. Orders that travel by EDI or our API can skip that step if your Fishbowl setup accepts them; the demo is where you find out."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Sent to a rep's inbox or a shared one"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Each app order has its own number and send time"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Picking, shipping and invoicing run as they do today"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Confirmations reach the chef by app notification and text"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Stock levels in view while orders come in"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Counts, lots and expiry dates are still managed in Fishbowl"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer stockout surprises for the people taking orders"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Before And After The Order"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "What Fishbowl keeps, and what VoiceOrder Solutions adds"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "This is not an alternative to Fishbowl Inventory. VoiceOrder Solutions does its work before Fishbowl has the order, and Fishbowl does the rest."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Fishbowl keeps the records"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Fishbowl and your books stay in charge of customers, inventory levels, lot tracking and invoicing. We store each restaurant's order guide with your prices, which you edit whenever they change, plus every order its chef places through the app."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Fishbowl's app is for your warehouse"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "Fishbowl Advanced Mobile turns a phone into a barcode scanner for your staff: picking, receiving and counts. Ours belongs to the chef and does one thing: ordering. Your warehouse keeps scanning in Fishbowl's app."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "QuickBooks still gets its invoices from Fishbowl"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "Shipping an order in Fishbowl still creates its invoice in QuickBooks, exactly as it does today. We stop at the point your desk has the order, so your books and your accountant see no change."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "See a restaurant order reach your desk with no call to take"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "Our demo is twenty minutes long. In it, we speak an example order into our app, fix one item, send it and open the file it turns into. Then we look at how it would get into Fishbowl: keyed from the file, or sent by EDI or API."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "How restaurants get started on the app"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "Fishbowl stays exactly as it is. You send us a spreadsheet, and we set up the restaurants."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Send us one Fishbowl export"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "A spreadsheet out of Fishbowl is usually all we need: what each restaurant buys and what it pays, item by item."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "We open each restaurant's account"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "We load the guide, the account opens, and the chef downloads the app. Most kitchens place a first order the same day."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "The first orders your desk did not take by phone"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Each one was read over by the chef, carries an order number and its send time, and lands where you asked for it."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "Fishbowl plus VoiceOrder Solutions."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "The warehouse stays with Fishbowl."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "Fishbowl Stays, The Call Changes"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "A restaurant that calls still has its order keyed in by hand, and that typing is the step VoiceOrder Solutions changes. After that, Fishbowl moves the order to the shelf and the truck, then posts its invoice to QuickBooks, with no second round of typing. This is not a Fishbowl Inventory alternative: the two products run separately, and neither is wired into the other."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "Fishbowl + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "Fishbowl on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Live stock counts at every location, scanned on a phone"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "A kitchen that used to call now sends a numbered, timed order"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Lot and expiration tracking for perishable stock"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Orders pulled in from online stores and retailer EDI"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "At 11pm a chef who would phone can still speak the items and check them"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Sales orders through picking, packing and shipping"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "A customer ordering portal, as an add-on or partner app"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Your desk works from a list the chef checked, not a call"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Shipments, receipts and adjustments posted to QuickBooks"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Answers for distributors on Fishbowl"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Should we look for a Fishbowl Inventory alternative to get spoken restaurant orders?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. Fishbowl goes on running your counts, lot tracking, picking and QuickBooks invoicing. What we add is for the restaurant that phones you: its chef talks each item into our app, looks it over and hits send, so nobody at your desk takes it down during a call."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than Fishbowl Inventory?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "They do different jobs, and VoiceOrder Solutions is no Fishbowl Inventory replacement. Fishbowl handles the order from the moment it is entered: counts, picking, lots and your books. Our one job comes earlier: a chef voices the order in an app and checks it first, rather than phoning your desk."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Doesn't Fishbowl already offer a B2B portal?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "Yes. Fishbowl lists its own portal among its plan add-ons, and partner portals and sales-rep apps feed their orders into Fishbowl as sales orders. That suits a chef happy to log in and pick each item from a list or a search. Our app is for the chef who prefers to say it aloud, then read the list over before sending."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Our retail chains send EDI. Can restaurant orders arrive the same way?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "We can send each restaurant order over EDI, yes. Fishbowl's EDI is set up for retailer trading partners, through the EDI services it works with. Whether your Fishbowl EDI setup will accept orders from us is something we work out with you in the demo. If it cannot, email, or our API if your setup takes it, will carry the order instead."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Does Fishbowl connect to VoiceOrder Solutions, or will my desk still type orders?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "They do not connect: the two are sold and supported apart, and each vendor stands behind its own software only. Through EDI or our API, Fishbowl may accept the order with no retyping, if your setup allows; the demo is where that gets checked. By email, someone at your desk enters it from the attached file, which the chef went over before sending, rather than from a call. A call placed the old way still gets no number from us. Fishbowl offers an API, so other order tools can connect to it too, and its AI assistant, in beta, drafts purchase orders, transfers and sales orders for your staff to approve."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "We run Fishbowl beside QuickBooks. Can you deliver orders into QuickBooks?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "QuickBooks is one of our delivery formats. With Fishbowl, though, your sales orders start in Fishbowl. Fishbowl's own QuickBooks page says sales orders do not transfer automatically between the two, and that invoices flow from Fishbowl to QuickBooks, so do not count on an order we put into QuickBooks reaching Fishbowl. A file, EDI or the API is the more direct choice, and the demo settles which."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How fast is setup, and what does it cost?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "Setup takes 24 to 48 hours for most distributors, and nothing in Fishbowl changes. Fishbowl publishes starting prices for its plans; we give each distributor a quote and publish no figure. Any Fishbowl Inventory alternative means a new stock system, a data move and retraining the warehouse. Shifting some restaurant calls into an app asks for none of that."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the Fishbowl details on this page come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "From fishbowlinventory.com, read through on 9 November 2026: the inventory, sales, order management, ecommerce, Commerce Suite, AI, warehouse, food industry, QuickBooks, integrations and pricing pages, and the partner portal pages it links. Notice something out of date? Write to us and we will correct this page."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Numbered only after someone enters it</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-text-size-medium-21\">A voicemail for your team to enter in the morning</div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   "<div class=\"uui-text-size-medium-21\">Notes taken while the chef is on the phone</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "How order taking works"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "Keeping guides current"
+  ],
+  [
+   2,
+   "/order-fulfillment-software",
+   "From order to pick line"
+  ],
+  [
+   3,
+   "/inventory-tracking-software",
+   "More on stock tracking"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Not A Fishbowl Inventory Alternative: Fix The Phone Order",
+   "lead": "Give the restaurants that still call you an app to order in by voice: each chef speaks the items, checks the list and sends it. Fishbowl already ends the retyping once an order is in. This app is for the call before that, while Fishbowl keeps stock, lots, picking and invoicing.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Fishbowl runs everything after the order. Chefs can skip the call.",
+   "body": "Give us twenty minutes to follow one restaurant order from the kitchen to your inbox.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Should we look for a Fishbowl Inventory alternative to get spoken restaurant orders?",
+   "a": "No. Fishbowl goes on running your counts, lot tracking, picking and QuickBooks invoicing. What we add is for the restaurant that phones you: its chef talks each item into our app, looks it over and hits send, so nobody at your desk takes it down during a call."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than Fishbowl Inventory?",
+   "a": "They do different jobs, and VoiceOrder Solutions is no Fishbowl Inventory replacement. Fishbowl handles the order from the moment it is entered: counts, picking, lots and your books. Our one job comes earlier: a chef voices the order in an app and checks it first, rather than phoning your desk."
+  },
+  {
+   "q": "Doesn't Fishbowl already offer a B2B portal?",
+   "a": "Yes. Fishbowl lists its own portal among its plan add-ons, and partner portals and sales-rep apps feed their orders into Fishbowl as sales orders. That suits a chef happy to log in and pick each item from a list or a search. Our app is for the chef who prefers to say it aloud, then read the list over before sending."
+  },
+  {
+   "q": "Our retail chains send EDI. Can restaurant orders arrive the same way?",
+   "a": "We can send each restaurant order over EDI, yes. Fishbowl's EDI is set up for retailer trading partners, through the EDI services it works with. Whether your Fishbowl EDI setup will accept orders from us is something we work out with you in the demo. If it cannot, email, or our API if your setup takes it, will carry the order instead."
+  },
+  {
+   "q": "Does Fishbowl connect to VoiceOrder Solutions, or will my desk still type orders?",
+   "a": "They do not connect: the two are sold and supported apart, and each vendor stands behind its own software only. Through EDI or our API, Fishbowl may accept the order with no retyping, if your setup allows; the demo is where that gets checked. By email, someone at your desk enters it from the attached file, which the chef went over before sending, rather than from a call. A call placed the old way still gets no number from us. Fishbowl offers an API, so other order tools can connect to it too, and its AI assistant, in beta, drafts purchase orders, transfers and sales orders for your staff to approve."
+  },
+  {
+   "q": "We run Fishbowl beside QuickBooks. Can you deliver orders into QuickBooks?",
+   "a": "QuickBooks is one of our delivery formats. With Fishbowl, though, your sales orders start in Fishbowl. Fishbowl's own QuickBooks page says sales orders do not transfer automatically between the two, and that invoices flow from Fishbowl to QuickBooks, so do not count on an order we put into QuickBooks reaching Fishbowl. A file, EDI or the API is the more direct choice, and the demo settles which."
+  },
+  {
+   "q": "How fast is setup, and what does it cost?",
+   "a": "Setup takes 24 to 48 hours for most distributors, and nothing in Fishbowl changes. Fishbowl publishes starting prices for its plans; we give each distributor a quote and publish no figure. Any Fishbowl Inventory alternative means a new stock system, a data move and retraining the warehouse. Shifting some restaurant calls into an app asks for none of that."
+  },
+  {
+   "q": "Where do the Fishbowl details on this page come from?",
+   "a": "From fishbowlinventory.com, read through on 9 November 2026: the inventory, sales, order management, ecommerce, Commerce Suite, AI, warehouse, food industry, QuickBooks, integrations and pricing pages, and the partner portal pages it links. Notice something out of date? Write to us and we will correct this page."
+  }
+ ]
+}

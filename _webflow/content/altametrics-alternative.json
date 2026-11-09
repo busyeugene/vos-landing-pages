@@ -1,0 +1,329 @@
+{
+ "slug": "altametrics-alternative",
+ "meta_title": "Not an Altametrics Alternative: Keep It, Add Voice Ordering",
+ "meta_desc": "Altametrics runs your shifts, cash and reports. Say the supply order to a distributor that offers VoiceOrder Solutions. No Altametrics alternative needed.",
+ "hero": {
+  "eyebrow": "For Restaurant Operators",
+  "h1": "Not An Altametrics Alternative: When Ordering Isn't Included",
+  "lead": "On your phone, say what you need from one distributor, go over each item, then tap send and get an order number. Each line comes from the order guide that distributor loads for you: the products you get from them most, priced for your account. This works only where your distributor carries VoiceOrder Solutions.",
+  "cta": "Check If My Distributor Offers It →"
+ },
+ "stats": [
+  {
+   "num": "Same Day",
+   "label": "is when most kitchens send a first order, once the distributor adds them"
+  },
+  {
+   "num": "20-30 Min",
+   "label": "saved per order, compared with reading it to a rep over the phone"
+  },
+  {
+   "num": "24/7",
+   "label": "to get an order in between the closing shift and the opening one"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why People Look",
+  "h2": "Reasons to check an Altametrics competitor",
+  "lead": "Altametrics' own site calls suggested ordering \"one part of the overall operating picture,\" beside labor, accounting and reports. If that part is why you are weighing an alternative to Altametrics, here is where ordering can fall short.",
+  "cards": [
+   {
+    "h3": "Ordering sits in the top plan",
+    "body": "On Altametrics' pricing page, inventory and \"Ordering and Receiving\" are listed in the Advanced plan. If your plan covers shifts, payroll and cash, your food order may still be a call to the rep."
+   },
+   {
+    "h3": "Its ordering app fills a cart",
+    "body": "Altametrics' ordering app, Zip Ordering, says \"Eliminate Calling In Your Orders\" and lets you add local vendors. There, you run through order guides, type in quantities and check out. Our app has you speak those lines instead, for a distributor that carries it."
+   },
+   {
+    "h3": "Your brand may have picked it",
+    "body": "Altametrics says it runs single restaurants and scales to large franchises, and its customer stories come mostly from franchisees and chains. If head office chose it, an Altametrics alternative may not be yours to choose. Changing how one distributor gets your order, where your brand allows it, is a smaller step."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Voice orders to your distributor, with no Altametrics alternative",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Speak it first, then look it over",
+    "body": "Open the app by the walk-in and say what that distributor should bring. Each item shows up as a line from the guide set up for your account. Change an amount or remove a line, and send once it reads right.",
+    "bullets": [
+     "Nothing goes out until you tap send",
+     "Order late at night, after close, or before the rep is in",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "Pulled onto the line midway? The order waits, saved"
+    ],
+    "link": {
+     "href": "/order-entry-software",
+     "text": "Placing an order by voice →"
+    }
+   },
+   {
+    "eyebrow": "Their Guide, Your Prices",
+    "h3": "Your distributor loads the items and the prices",
+    "body": "The distributor puts the products you buy from them into your guide, at the prices they charge your account and under their item codes, and updates it from their side.",
+    "bullets": [
+     "Only what you usually buy from them",
+     "Prices set for your account",
+     "No list for your team to type up",
+     "You keep the same rep"
+    ],
+    "link": {
+     "href": "/restaurant-purchasing-software",
+     "text": "Buying from more than one supplier →"
+    }
+   },
+   {
+    "eyebrow": "Proof Of The Order",
+    "h3": "What you sent, with its own number and time",
+    "body": "Each order sent in the app gets a number, a date and a time stamp, and a confirmation lands on your phone. If the truck arrives short, you can point to what was ordered instead of what you remember saying on a call.",
+    "bullets": [
+     "Shows the minute it went out",
+     "Confirmed by notification or text",
+     "Handy when you check in the delivery",
+     "Calls and voicemails get no number from us"
+    ],
+    "link": {
+     "href": "/supplier-management-software",
+     "text": "What each supplier confirmed →"
+    }
+   },
+   {
+    "eyebrow": "Still In Altametrics",
+    "h3": "Labor, cash and food safety carry on in Altametrics",
+    "body": "Altametrics keeps the jobs it does for you today, from the time clock to the daily report. Counts and suggested amounts, where your plan has them, stay there too.",
+    "bullets": [
+     "Time clock and payroll as before",
+     "Food safety checks untouched",
+     "Cash office and deposits unchanged",
+     "Forecasts keep guiding prep"
+    ],
+    "link": {
+     "href": "/restaurant-checklist-software",
+     "text": "Ordering the same way on every shift →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Side By Side",
+  "h2": "Using both, within your plan and your brand's rules",
+  "lead": "This is not an Altametrics replacement. Altametrics plans the shifts, the prep and, on its ordering plan, the amounts to buy. VoiceOrder Solutions does one thing: the order to a distributor set up on our app, which you say aloud and look over before sending.",
+  "items": [
+   {
+    "h3": "A short delivery? Quote your order number",
+    "body": "Orders spoken in our app are never created in Altametrics, so its receiving and credit tracking will not have them. If the truck comes up short, raise it with your distributor and quote the number on your confirmation. If you track credits in Altametrics, enter that credit there by hand."
+   },
+   {
+    "h3": "Begin where your plan has no ordering",
+    "body": "If you run Altametrics for labor and cash only, begin with whichever supplier still takes your order over the phone; no Altametrics alternative is needed for that. If a distributor already gets your orders through Zip Ordering or Altametrics, use one place only for that distributor, so the same cases never come twice."
+   },
+   {
+    "h3": "Brand rules come first",
+    "body": "If your brand requires Altametrics for ordering, or approved distributors only, follow that. Check with head office before you move any supplier's ordering to our app."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See the order a distributor gets after you say it",
+  "body": "We open a practice guide, say a few items, fix one line, and show the copy that lands with the distributor. It takes about 20 minutes.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Most of the setup is your distributor's job",
+  "lead": "Nothing to roll out, no hardware to buy and nothing to install on a computer.",
+  "items": [
+   {
+    "h3": "Check with your distributor first",
+    "body": "If they carry the app, they open your account and add your guide. Not sure? Get in touch and we will find out."
+   },
+   {
+    "h3": "Download it and sign in",
+    "body": "Your guide is already there when you open it."
+   },
+   {
+    "h3": "Say it, review it, send it",
+    "body": "Speak the items, fix anything off, and tap send."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Your Altametrics plan, as it is. Plus the distributor order, spoken.",
+  "h2_lines": [
+   "Your Altametrics plan, as it is.",
+   "Plus the distributor order, spoken."
+  ],
+  "eyebrow": "Same Back Office, Plus Voice",
+  "lead": "If one supplier you still call is what started your search, that call is the part that changes. Ticks for counts, suggested orders and receiving apply on Altametrics plans that include them. Spoken orders reach only distributors on our app.",
+  "heads": [
+   "Feature",
+   "Altametrics + VoiceOrder Solutions",
+   "Altametrics on its own"
+  ],
+  "rows": [
+   {
+    "label": "Sales forecasts, staff schedules and payroll",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Order supplies by voice, checking each line",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Order amounts suggested from pars, forecasts or AI",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Ordering from your phone, whatever plan you are on",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Advanced plan, or its Zip Ordering app"
+     }
+    ]
+   },
+   {
+    "label": "Inventory counts and food cost variance",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Items and account prices loaded by the distributor",
+    "cells": [
+     {
+      "t": "text",
+      "v": "Distributors that run our app"
+     },
+     {
+      "t": "text",
+      "v": "Item catalogs from distributors that connect to it"
+     }
+    ]
+   },
+   {
+    "label": "Receiving, credits and invoice review",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Cash office, food safety checklists and reports",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Mobile apps for iPhone and Android",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Common questions from Altametrics users",
+  "items": [
+   {
+    "q": "Would I need an Altametrics alternative to start speaking my orders?",
+    "a": "No. Where one of your distributors has our app, you can order from them by voice on your phone, and use Altametrics for the rest, its ordering included if your plan has it. This is about supplies you buy, not orders from your guests."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Altametrics?",
+    "a": "Not at what Altametrics does. We run no schedules, payroll, counts, forecasts or food cost reports. You read your order into our app for a distributor that has it, and go over every item before it is sent. If your plan leaves out ordering and phoning the rep is why you looked for an Altametrics alternative, that call is what our app replaces."
+   },
+   {
+    "q": "Do VoiceOrder Solutions and Altametrics connect?",
+    "a": "No. These are two products from two companies, each with its own help desk, and no data moves from one to the other. Orders you speak in our app reach only your distributor, and Altametrics does not see them."
+   },
+   {
+    "q": "My Altametrics plan has no ordering. Does this add it?",
+    "a": "Not inside Altametrics. Our app carries orders to the distributors who use it, and that is all: it does not count stock, suggest amounts or receive deliveries. Altametrics lists those, with ordering, in its Advanced plan, and it also offers Zip Ordering, a separate app. If you want those inside Altametrics, ask Altametrics about them."
+   },
+   {
+    "q": "I run a franchise location. Can I order this way?",
+    "a": "Yes, with a distributor using our app, as long as your brand lets you order from that distributor yourself. Where the brand insists on Altametrics or approved suppliers only, do it their way. Suppliers without our app get your orders just as they do now."
+   },
+   {
+    "q": "What if I say one thing and the screen shows another?",
+    "a": "Before sending, fix it on the review screen: choose the correct item, change the number, or remove the line. That review is the safeguard, and a hurried glance can still let a mistake slip by. Orders made by phone or left on voicemail get no order number from us; only orders sent in the app do."
+   },
+   {
+    "q": "How do I get set up, and what does it cost?",
+    "a": "The distributor opens an account for you and loads your guide, and most kitchens get an order in on that same day. Until that distributor has it, go on ordering from them as you do today, and reach out to us: we will connect you with the right person. Cost is something to ask that distributor, since our app comes to you from them; we publish no price. Altametrics shows prices for its entry plans and quotes the larger ones."
+   },
+   {
+    "q": "Where do the Altametrics details on this page come from?",
+    "a": "From altametrics.com and zipordering.com as we read them on 9 November 2026: the Altametrics homepage, pricing, inventory, back office and forecasting pages, and the Zip Ordering homepage. We found voice alerts on their time clock, but no ordering from suppliers by voice. We did not repeat their location counts or savings figures here. If any of it is out of date, write to us and we will correct it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Say what the truck should bring, and keep Altametrics for the rest",
+  "body": "Find out from your distributor if they offer VoiceOrder Solutions, or have us check for you.",
+  "cta": "Ask About Getting Started →"
+ }
+}

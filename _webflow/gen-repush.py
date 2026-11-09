@@ -21,7 +21,7 @@ Everything that is not a table cell (text, links, props) comes straight from ops
 which gen-ops.py generated from content/ (extract-compare.py) and which carries no cell-state
 assumption except the 1,2 text String, which is only emitted when that cell stays text.
 
-Usage: python gen-repush.py            -> writes repush/<slug>.json for all 12
+Usage: python gen-repush.py [slug ...]  -> writes repush/<slug>.json (no args = every compare page)
 """
 import io
 import json
@@ -29,7 +29,12 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 J = lambda p: json.load(io.open(os.path.join(HERE, p), encoding='utf-8'))
-MAP, PG, DONOR = J('map.json'), J('pages.json'), J('donor-cells.json')
+MAP, PG, DONOR, OVR = J('map.json'), J('pages.json'), J('donor-cells.json'), J('overrides.json')
+
+
+def bump(uuid_str, step=1):
+    head, tail = uuid_str.rsplit('-', 1)
+    return '%s-%s' % (head, format(int(tail, 16) + step, '0%dx' % len(tail)))
 OUT = os.path.join(HERE, 'repush')
 os.makedirs(OUT, exist_ok=True)
 
@@ -52,6 +57,10 @@ CONVERTED = {
     'xtrachef-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
     'restaurant365-alternative': 'e2015e89-172b-6799-28b9-3361d496abc0',
 }
+# Batch 2 (2026-11-09): every page in pages.json `compareFromFresho` was created with
+# `create_page duplicateOf` fresho-alternative, so it inherits fresho's hand-built embed too.
+for _s in PG.get('compareFromFresho') or []:
+    CONVERTED.setdefault(_s, 'e2015e89-172b-6799-28b9-3361d496abc0')
 IC = MAP['icons']
 
 
@@ -88,6 +97,13 @@ def build(slug):
             # else: stays a text Block; ops['text'] already carries its String
 
     text = ops['text']
+    # On a page whose cell 1,2 is a converted HtmlEmbed (CONVERTED), the donor's text String for
+    # that cell does not exist: the cell's text goes into the embed above. gen-ops still emits a
+    # set_text for the old String when the cell stays text, which returned "Element not found" on
+    # crunchtime-alternative (2026-11-09; harmless, the embed carried the text). Drop it here.
+    if slug in CONVERTED:
+        old12 = MAP['comparison']['text_cell_strings']['1,2']
+        text = [(e, v) for e, v in text if e != old12]
     # A text op must never target a cell this script rewrites as an embed.
     embed_ids = {e for e, _ in codes}
     assert not [e for e, _ in text if e in embed_ids], slug
@@ -101,6 +117,15 @@ def build(slug):
         for e, v in codes]}}]
     el = [{'label': 'st%d' % j, 'set_style': {'id': eid(e), 'style_names': s}}
           for j, (e, s) in enumerate(styles)]
+    # A repo row with fewer bullets than the 4 donor slots would leave the donor's bullet showing
+    # (2026-10-28 gap). Remove the unused slot's whole `uui-layout08_item` (text Block - 4: item >
+    # icon-wrapper > embed, text-wrapper > text Block), so the check icon goes with the text.
+    for i, r in enumerate(d['features']['rows'][:4]):
+        keep = (OVR.get(slug, {}).get('bullets_keep') or {}).get(str(i))
+        n = len(keep) if keep else len(r['bullets'])
+        for k in range(n, 4):
+            el.append({'label': 'rmb%d%d' % (i, k), 'remove_element': {
+                'id': eid(bump(MAP['features']['rows'][i]['bullets'][k], -4))}})
     known = dict(PG['existing']); known.update(PG['pages']); known.update(PG['compare'])
     for j, (row, href, txt) in enumerate(ops['links']):
         slot = PG['links'][str(row)]
@@ -130,7 +155,8 @@ def build(slug):
 
 
 if __name__ == '__main__':
-    for slug in sorted(PG['compare']):
+    import sys
+    for slug in (sys.argv[1:] or sorted(PG['compare'])):
         o = build(slug)
         with io.open(os.path.join(OUT, slug + '.json'), 'w', encoding='utf-8') as f:
             json.dump(o, f, ensure_ascii=False, indent=1)

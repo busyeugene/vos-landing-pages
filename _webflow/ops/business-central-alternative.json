@@ -1,0 +1,542 @@
+{
+ "slug": "business-central-alternative",
+ "meta_title": "Not a Business Central Alternative: Keep It, Add Voice Orders",
+ "meta_desc": "Kitchens speak orders into an app and fix every line before it reaches you. Business Central stays your ERP: a Business Central alternative you add, not swap.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved on each order that once came by phone"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "Open for orders, Sundays and late nights too"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "Until most distributors take their first order"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Where The Search Starts"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "Why a distributor goes looking for a Business Central competitor"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "Few distributors searching for a Business Central alternative want to leave the ERP itself. The catch is timing: Business Central's order agent reviews a request only after the kitchen has sent it, and a call gives it nothing to read until someone types it up."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "Every request starts as a quote"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "Business Central's Sales Order Agent always drafts a sales quote first, even when the customer asked for an order. By default that quote goes back by email and becomes an order only after the customer says yes, so one order can make two trips through the inbox."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "Mix-ups surface once the kitchen has moved on"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "When the agent is unsure which item was meant, it can email the customer to clarify or ask your staff for help, and someone on your team approves every reply. It is careful work, but the correcting happens after the request has gone, when the kitchen may have moved on."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "A call still has to be typed in"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "The agent starts from what a customer wrote: an email, a PDF or a photo. When a kitchen phones at 6 a.m., somebody on your side answers and enters it by hand, either as an order or as a task for the agent."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "Why this is not a Business Central alternative, and what it adds"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "The kitchen fixes a line before you ever see it"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "Standing in the walk-in, the chef names what is short. Our app turns it into lines from that kitchen's guide, the chef changes anything that came out wrong, and only then does it go. The questions get settled in the kitchen, before the order leaves."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "The chef approves every line before it goes"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Takes orders at midnight and on a Sunday"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "Interrupted mid-order? It waits where they stopped"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Guides built from your Business Central item list"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "Export what each account buys to a spreadsheet and send it over. Those items go in under your item numbers, at the prices you gave that customer. Your item master never leaves Business Central; you update each guide and its prices yourself, in our web admin."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Each kitchen sees only the items on its own guide"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "You choose what goes in a guide and what it costs"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "Update a guide and the very next order picks it up"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Setup installs nothing inside Business Central"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Delivery Formats"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Handed over in a format your office takes"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "Each finished order gets to you by email with a PDF, Excel or Word file attached, or over the API, over EDI or into QuickBooks. You pick one, and during the demo we look at how it would reach your ERP. If it comes by email, someone on your team enters it into Business Central, working from a list the kitchen already reviewed instead of taking it down over the phone."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Addressed to a rep or a shared orders mailbox"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Over EDI or the API, when your setup takes it, nobody retypes it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Picking, invoicing and delivery run as they do now"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "No software has to be retired first"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Stock in view while the orders arrive"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Your catalog keeps up as stock rises and falls"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer stockout surprises after a weekend of orders"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "Lots, expiry and replenishment remain the ERP's job"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Working Together"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "Where each one fits once both are running"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "Nobody needs an alternative to Business Central to change how kitchens order. Our app handles the minutes before a kitchen presses send; after that, your team takes over in Business Central."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "The ERP keeps customers, stock and invoicing"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Business Central remains your system of record. We hold the order guide for every account, priced your way, plus a copy of every order made in our app."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Emailed orders can stay with Business Central's agent"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "Customers who email an order or send a PDF can carry on that way, and your staff keep approving the agent's replies. Our app is there for kitchens where talking comes easier than writing. We give no number to an order phoned to you; the app numbers only what comes through it."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "A partner's web portal can stay too"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "Business Central has no customer ordering portal of its own; partners sell them as add-on apps. Accounts already using one can carry on. Two ways in for two kinds of kitchen is fine."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "See a kitchen fix one line, then press send"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "Twenty minutes: we talk through one order in the app, correct an item on screen, send it, then look at how it could reach Business Central."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "From one Business Central export to the first spoken order"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "A single export is usually all we need to begin."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Pull a spreadsheet out of Business Central"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "Export each customer's usual items with your prices from Business Central to a spreadsheet, keeping your own item numbers."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "We set up the guides, then each kitchen"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "Each guide is loaded and each account opened, then the kitchen installs the app. Most kitchens have sent an order before that day is out."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Checked orders come to your desk"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Orders from the app turn up numbered and timestamped, reviewed by the kitchen first, in the format you set."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "Business Central plus VoiceOrder Solutions."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "The ERP stays where it is."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "Same ERP, Earlier Check"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "Your kitchens get one new step, where they speak and check their own orders. It sits before the ERP, so calling it a Business Central alternative would be wrong. Business Central's finance, stock and AI agent all stay as they are, so both columns get credit for those rows. Nothing joins the two products by default."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "Business Central + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "Business Central on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Finance, receivables and payables"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "Kitchens talk through the order and fix any line first"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Lot numbers, expiry dates and FEFO picking"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "An AI agent that turns emailed requests into quotes"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "An ordering app in each kitchen's hands"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "AI line suggestions while your staff enter an order"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Replenishment planning and warehouse picks"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Kitchens that used to call now send orders with a number"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Customer-specific prices and discounts"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Answers for teams on Business Central"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Do we need a Business Central alternative to add voice ordering?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. Business Central keeps its job as your ERP, and its agent can keep handling emailed orders. What we add is a check at the kitchen's end, made before anything reaches you. Start with the customers who phone you most."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than Business Central?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "Only at one job: letting the kitchen catch its own mistakes before you receive the order. The rest is Business Central's work, which is why our app sits beside it."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Doesn't Business Central's AI agent already take orders?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "It does, from email. It reads a customer's message and any PDF or photo, matches the items, prepares a quote first, and asks your staff to approve each reply before it goes. Our app works earlier: a chef says what is needed and fixes each line before it is sent. Neither one makes a wrong order impossible. The difference is who checks it, and when."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Can kitchens use Business Central's own mobile app?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "That app was made for your licensed staff: they sign in with their Business Central user name to review data, edit records and email quotes. It is not an app for your customers to order in. Voice add-ons for Business Central exist too: the one we found is built for drive-thru lanes and self-service kiosks, and partners can build custom ones. Ours sits with the kitchen: the chef talks each order through and corrects any line before it reaches you."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Does any link join VoiceOrder Solutions and Business Central?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "No. They are sold separately, nothing links them out of the box, and neither of us offers support for the other side. Over EDI or the API, the app can pass an order straight in with no retyping, if the way Business Central is set up for you allows it; we check that together in the demo. Emailed orders hold lines the kitchen has already approved, and your staff key them in from there instead of from a call."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "Will you need a Business Central login from us?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "Not to get set up. We need no login and install nothing: we work from an export you send us, so your permissions and customizations are left alone. If EDI or API delivery interests you later, we go through what it needs on your side in the demo."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How long does setup take, and is pricing published?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "Setup takes 24 to 48 hours for most distributors. Business Central publishes per-user prices for its plans; we publish none and give every distributor its own quote. A Business Central replacement, or any Business Central alternative, means moving every customer, item and ledger to a new system. Our app moves none of them."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the Business Central details here come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "From Microsoft's Business Central product and pricing pages and its help articles, checked on 9 November 2026: the AI order agent, item tracking, the phone app for staff and the plans, plus a web search for voice tools other companies sell for it. Their prices are published there, so we leave the figures to them. If something here no longer holds, write to us and the page gets corrected."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Checked after sending: a quote by email, replies approved by staff</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-text-size-medium-21\">Needs a partner add-on</div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   "<div class=\"uui-text-size-medium-21\">Someone writes up the call</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "See how orders come in"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "How guides stay current"
+  ],
+  [
+   2,
+   "/wholesale-ordering-software",
+   "What arrives at your desk"
+  ],
+  [
+   3,
+   "/inventory-visibility-software",
+   "Read about stock visibility"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Not A Business Central Alternative: Orders Checked Before Sending",
+   "lead": "Get orders that each kitchen has gone over itself, one line at a time. With VoiceOrder Solutions, whoever orders for the kitchen talks it into our app and fixes any wrong line before it goes. The books, the stock and the warehouse remain Business Central's job.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Keep Business Central, and let kitchens check their own orders",
+   "body": "Twenty minutes, one spoken order, and an honest look at where it would land.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Do we need a Business Central alternative to add voice ordering?",
+   "a": "No. Business Central keeps its job as your ERP, and its agent can keep handling emailed orders. What we add is a check at the kitchen's end, made before anything reaches you. Start with the customers who phone you most."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than Business Central?",
+   "a": "Only at one job: letting the kitchen catch its own mistakes before you receive the order. The rest is Business Central's work, which is why our app sits beside it."
+  },
+  {
+   "q": "Doesn't Business Central's AI agent already take orders?",
+   "a": "It does, from email. It reads a customer's message and any PDF or photo, matches the items, prepares a quote first, and asks your staff to approve each reply before it goes. Our app works earlier: a chef says what is needed and fixes each line before it is sent. Neither one makes a wrong order impossible. The difference is who checks it, and when."
+  },
+  {
+   "q": "Can kitchens use Business Central's own mobile app?",
+   "a": "That app was made for your licensed staff: they sign in with their Business Central user name to review data, edit records and email quotes. It is not an app for your customers to order in. Voice add-ons for Business Central exist too: the one we found is built for drive-thru lanes and self-service kiosks, and partners can build custom ones. Ours sits with the kitchen: the chef talks each order through and corrects any line before it reaches you."
+  },
+  {
+   "q": "Does any link join VoiceOrder Solutions and Business Central?",
+   "a": "No. They are sold separately, nothing links them out of the box, and neither of us offers support for the other side. Over EDI or the API, the app can pass an order straight in with no retyping, if the way Business Central is set up for you allows it; we check that together in the demo. Emailed orders hold lines the kitchen has already approved, and your staff key them in from there instead of from a call."
+  },
+  {
+   "q": "Will you need a Business Central login from us?",
+   "a": "Not to get set up. We need no login and install nothing: we work from an export you send us, so your permissions and customizations are left alone. If EDI or API delivery interests you later, we go through what it needs on your side in the demo."
+  },
+  {
+   "q": "How long does setup take, and is pricing published?",
+   "a": "Setup takes 24 to 48 hours for most distributors. Business Central publishes per-user prices for its plans; we publish none and give every distributor its own quote. A Business Central replacement, or any Business Central alternative, means moving every customer, item and ledger to a new system. Our app moves none of them."
+  },
+  {
+   "q": "Where do the Business Central details here come from?",
+   "a": "From Microsoft's Business Central product and pricing pages and its help articles, checked on 9 November 2026: the AI order agent, item tracking, the phone app for staff and the plans, plus a web search for voice tools other companies sell for it. Their prices are published there, so we leave the figures to them. If something here no longer holds, write to us and the page gets corrected."
+  }
+ ]
+}

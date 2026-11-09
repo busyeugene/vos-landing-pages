@@ -1,0 +1,536 @@
+{
+ "slug": "syspro-alternative",
+ "meta_title": "Not a Syspro Alternative: Keep Syspro, Add Voice Ordering",
+ "meta_desc": "Syspro keeps stock, prices and books. Kitchens that used to phone say each order into an app and check the lines: a Syspro alternative that adds written orders.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved per order that no longer comes by phone"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "Ordering, with nobody at your desk to answer"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "Setup for most distributors, with Syspro untouched"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Why People Search"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "What sets off a Syspro competitor search"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "Few people who look up a Syspro alternative want to leave the system that runs their stock and their books. The usual trouble is simpler: Syspro's AI and its newer, early-release order rules work on written orders, and a kitchen on the phone never sends one."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "Its AI needs something written to read"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "Syspro can convert a PO document into an order, which suits customers who send one. A chef ordering for tomorrow rarely does. They call, or send a quick text someone still has to type in."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "Its food focus is the plant floor"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "Syspro's food pages are built around recipes, batch tracking and the production line, which is real value if you make product as well. If you mostly buy and deliver, the step that hurts sits before Syspro: the kitchen getting its order to you."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "Its rules start after the typing"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "Syspro's newer order rules, part of Syspro Torque and still in early release, can hold a draft order until it passes. The draft still has to be typed in first, and for a phoned order that means someone at your desk."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "Not a Syspro alternative: four things we add beside your ERP"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Spoken by the chef, listed by our app"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "The chef stands at the walk-in and says what they need. Our app turns it into lines from that kitchen's own guide; they fix anything that came out wrong and send it. So the written order comes from someone looking at their own shelves."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "The kitchen's buyer goes over every line first"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Takes orders around the clock, weekends too"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "If the chef gets pulled away, the order waits where they left it"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "One guide per account, loaded from your export"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "Export what each account buys and at what price. We build that account's guide under your own item codes, so the kitchen orders from its usual lines rather than your full catalog. Syspro still holds the master list and the contract prices."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Each kitchen sees only what it normally buys"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "Prices come from you, account by account"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "Edit a guide once and later orders follow it"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Setup needs no change inside Syspro"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Delivery Formats"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Written orders arrive at your office in the format you pick"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "A sent order arrives as an email carrying a PDF, Excel or Word file, or goes over EDI, through our API or into QuickBooks. Email orders still need keying, but from lines the kitchen already checked. Whether EDI or the API can feed Syspro directly at your end is something the demo checks."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Addressed to a rep or a shared inbox"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Over EDI or the API, when your setup takes it, nobody retypes it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "Picking, invoicing and dispatch run as they do now"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Nothing in Syspro has to be switched off"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "A view of stock as orders arrive"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Stock changes reach the catalog automatically"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Fewer stockout surprises when a large order comes in late"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "Lots, expiry dates and reorder points stay with Syspro"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Who Does What"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "How Syspro and VoiceOrder Solutions divide the job"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "This is one extra step, not an alternative to Syspro: a chef who usually calls can now send a written list, and Syspro handles everything after that."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Syspro remains your system of record"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Customers, stock, lots and invoices all stay in Syspro. We hold the guide for each account and its prices, which your team updates in our admin platform, and we keep every order a chef sends through the app."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Accounts that send POs keep sending them"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "Where accounts already send POs for Syspro's AI to read, leave that in place. We built the app for kitchens whose chef would rather call than write. Phoned orders get no number from us; app orders each get their own."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "Portal users can stay on the portal"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "Kitchens happy to type into Syspro's portal can keep doing so, tracking orders and paying there. Our app is for the ones who phone you instead."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "Hear us speak one order into the app, then ask how it would land in Syspro"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "In twenty minutes we say one order aloud, correct a line, press send, and show what would arrive at your end."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "From a Syspro export to the first spoken order"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "Your team exports one file from Syspro. We handle the rest, and kitchens start sending orders."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Export one spreadsheet"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "A spreadsheet out of Syspro is usually all we need: each account's usual lines and what it pays, under your codes."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "Accounts open with their guides"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "Each kitchen's guide goes in, its account opens, and the chef installs the app. Most kitchens are sending a first order the same day."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Written orders start coming in"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Each one has been reviewed by the kitchen, carries a number and the time it was sent, and comes in the format you picked."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "Syspro plus VoiceOrder Solutions."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "Nothing in your ERP moves."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "Keep Syspro, Add One Step"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "A kitchen with no habit of writing its orders down can still send you a finished one. Syspro is strong once an order exists in writing: its AI can work from a PO file to fill in the order, and the order rules in Syspro Torque, not yet generally available, can check orders once staff have entered them. A chef who phones gives Syspro nothing written to work on. This is not a Syspro alternative: it adds a step before Syspro. The Syspro + VoiceOrder Solutions column is your business with both running. The two run separately; nothing built in links them."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "Syspro + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "Syspro on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Ledger, credit control and contract pricing"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "Kitchens that used to phone now send written orders"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Lot traceability, recalls and FEFO rotation"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "AI that turns a customer's PO file into a sales order"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Available-to-promise across your warehouses"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Customer portal with order status and payments"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Warehouse picking with barcode scanning"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "A call-in kitchen can order after you close"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Recipe control and production scheduling"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Questions Syspro users bring to us"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Do we need a Syspro alternative before kitchens can order by speaking?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. Syspro keeps doing everything it does now. What VoiceOrder Solutions adds is a written, checked order from kitchens that would otherwise call you: the chef says it in our app and corrects it there, and Syspro is left as it was."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than Syspro?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "At one job only: getting a checked list of items from kitchens that never write their orders down. What Syspro does after that stays with Syspro, so we work beside it rather than in its place."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Doesn't Syspro already let customers order online?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "Yes. Its Supply Chain Portal lets customers create and track their own sales orders, see their history and pay. To use it, someone in the kitchen types each line into a website. In our app the chef just speaks the items aloud and fixes any line that is off."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Can't Syspro's AI handle incoming orders already?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "Partly. It can read a PO sent as a PDF or a photo and build the sales order from it. Syspro Torque, still in a controlled early release ahead of general availability, adds order rules that can hold a new order as a draft until it passes those checks. Both start from an order that is already written. Our app is how a kitchen that just phones produces one. Speech and AI order tools from other companies can also post orders into Syspro through its API, so we are not the only option."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "We make product too. Does this touch production?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "No. Recipes, batches and production remain Syspro's job, and its food pages speak to exactly that. VoiceOrder Solutions only deals with what a chef orders from you."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "Does Syspro connect to VoiceOrder Solutions?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "No. Each is its own product from its own company, with no link set up between them, and neither of us gives support for the software of the other. When an order travels by EDI or through the API, your desk may not need to retype it, if your Syspro setup accepts orders that way. A demo is where we find out whether yours can. If it goes by email, the attachment lists every item the kitchen checked, and someone on your desk keys it from that instead of from a call or a voicemail."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How quickly does it go live, and what does it cost?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "It takes most distributors 24 to 48 hours, since Syspro itself stays untouched. Neither company publishes a price: Syspro lists none for its ERP, and we quote per distributor. A Syspro alternative, or any Syspro replacement, means moving the whole ERP; this leaves it where it is."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the Syspro details on this page come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "From syspro.com and Syspro's help site, as they stood on 9 November 2026: the distribution, food, sales order, customer portal, AI, Torque and implementation pages. Syspro publishes no prices, so this page states none. If you spot anything that has changed, tell us and we will fix the page."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Your team keys the call in</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   "<div class=\"uui-text-size-medium-21\">A voicemail for staff to type up later</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "d455c100-948c-a407-3bda-fdc0a7afb797",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "How order capture works"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "Keeping guides current"
+  ],
+  [
+   2,
+   "/wholesale-ordering-software",
+   "What an order looks like"
+  ],
+  [
+   3,
+   "/inventory-visibility-software",
+   "More on stock visibility"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "Not A Syspro Alternative: Kitchen Orders In Writing",
+   "lead": "Chefs who phone you each morning can send you a checked, written order instead. With VoiceOrder Solutions, the chef speaks each line into our app and fixes any mistakes before you get it. Syspro carries on with the stock, the pricing and the books.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Syspro stays. The kitchen's order arrives written and checked.",
+   "body": "Twenty minutes is enough to follow a chef's order from the walk-in to your desk.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Do we need a Syspro alternative before kitchens can order by speaking?",
+   "a": "No. Syspro keeps doing everything it does now. What VoiceOrder Solutions adds is a written, checked order from kitchens that would otherwise call you: the chef says it in our app and corrects it there, and Syspro is left as it was."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than Syspro?",
+   "a": "At one job only: getting a checked list of items from kitchens that never write their orders down. What Syspro does after that stays with Syspro, so we work beside it rather than in its place."
+  },
+  {
+   "q": "Doesn't Syspro already let customers order online?",
+   "a": "Yes. Its Supply Chain Portal lets customers create and track their own sales orders, see their history and pay. To use it, someone in the kitchen types each line into a website. In our app the chef just speaks the items aloud and fixes any line that is off."
+  },
+  {
+   "q": "Can't Syspro's AI handle incoming orders already?",
+   "a": "Partly. It can read a PO sent as a PDF or a photo and build the sales order from it. Syspro Torque, still in a controlled early release ahead of general availability, adds order rules that can hold a new order as a draft until it passes those checks. Both start from an order that is already written. Our app is how a kitchen that just phones produces one. Speech and AI order tools from other companies can also post orders into Syspro through its API, so we are not the only option."
+  },
+  {
+   "q": "We make product too. Does this touch production?",
+   "a": "No. Recipes, batches and production remain Syspro's job, and its food pages speak to exactly that. VoiceOrder Solutions only deals with what a chef orders from you."
+  },
+  {
+   "q": "Does Syspro connect to VoiceOrder Solutions?",
+   "a": "No. Each is its own product from its own company, with no link set up between them, and neither of us gives support for the software of the other. When an order travels by EDI or through the API, your desk may not need to retype it, if your Syspro setup accepts orders that way. A demo is where we find out whether yours can. If it goes by email, the attachment lists every item the kitchen checked, and someone on your desk keys it from that instead of from a call or a voicemail."
+  },
+  {
+   "q": "How quickly does it go live, and what does it cost?",
+   "a": "It takes most distributors 24 to 48 hours, since Syspro itself stays untouched. Neither company publishes a price: Syspro lists none for its ERP, and we quote per distributor. A Syspro alternative, or any Syspro replacement, means moving the whole ERP; this leaves it where it is."
+  },
+  {
+   "q": "Where do the Syspro details on this page come from?",
+   "a": "From syspro.com and Syspro's help site, as they stood on 9 November 2026: the distribution, food, sales order, customer portal, AI, Torque and implementation pages. Syspro publishes no prices, so this page states none. If you spot anything that has changed, tell us and we will fix the page."
+  }
+ ]
+}

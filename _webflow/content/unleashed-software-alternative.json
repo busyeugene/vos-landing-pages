@@ -1,0 +1,329 @@
+{
+ "slug": "unleashed-software-alternative",
+ "meta_title": "Not an Unleashed Software Alternative: Add Voice Ordering",
+ "meta_desc": "Unleashed keeps your stock and B2B Store. Chefs say each order in our app and check it, so reps write up fewer orders. Not an Unleashed Software alternative.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not An Unleashed Software Alternative: Reps Sell, Chefs Order",
+  "lead": "Give your sales reps fewer orders to write up and more time to sell. With VoiceOrder Solutions, chefs say what they need in our app, check each item and fix anything before sending it to you. Stock, price tiers and the B2B Store stay with Unleashed.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved on each order spoken in the app, not phoned in"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "To get most distributors set up and taking orders"
+  },
+  {
+   "num": "Same Day",
+   "label": "Is when most chefs send a first order from the app"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Why People Compare",
+  "h2": "When an alternative to Unleashed Software comes up",
+  "lead": "An Unleashed Software competitor is rarely what a distributor needs when the real goal is getting reps' time back. With Unleashed on its own, an order that does not come through the store or a customer's EDI is usually entered by one of your people. With our app added, email orders still need typing up by your staff, but each item on them was approved by the chef. An order through EDI or our API might skip the typing entirely, and the demo is where we check that with you.",
+  "cards": [
+   {
+    "h3": "Its sales app was retired in 2024",
+    "body": "Unleashed ended support for its mobile sales app in May 2024 and moved order processing into its online store, so reps on the road can order for a customer there or enter the sales order themselves. Either way, a rep does the entering."
+   },
+   {
+    "h3": "A missing-order alert ends in a conversation",
+    "body": "Unleashed's CRM can flag an account that has not ordered at its usual pace. When a rep follows up and the chef orders right there, on a visit or over the phone, the rep or your office writes it up."
+   },
+   {
+    "h3": "A chef's text to the rep is still an order someone types up",
+    "body": "Unleashed's own B2B page asks whether manual orders over email and phone are wasting your hours, and offers the store as the fix. A chef who would rather text a list to their rep than shop online still leaves it for your team to enter."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Not an Unleashed Software alternative: what changes for your reps",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "Chefs talk through the order, then fix any item",
+    "body": "The chef taps Push to Speak and lists what the kitchen needs. Our app matches what was said to items in the guide for that account. The chef fixes any item that is off, then sends it, so no rep has to write it down.",
+    "bullets": [
+     "Open for orders at any hour, weekends included",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "A half-finished order is saved if the chef gets called away",
+     "Works on the iPhone or Android phone the chef already carries"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How order capture works →"
+    }
+   },
+   {
+    "eyebrow": "Sales Reps",
+    "h3": "Rep visits go to selling, not writing up orders",
+    "body": "Once the chef is sending orders on their own, the rep's time with that account can go to new products, specials and fixing problems. Unleashed's mobile view still gives the rep stock and order history to sell from. Our app sends each order to you directly, so the rep does not have to pass it on.",
+    "bullets": [
+     "Fewer late-night texts asking a rep to put an order in",
+     "Each app order carries its own number and the time it was sent",
+     "Orders still arrive when the rep is off or on vacation",
+     "Nothing new for reps to learn inside Unleashed"
+    ],
+    "link": {
+     "href": "/distributor-sales-software",
+     "text": "More on freeing up reps →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "Sent orders reach your team in a format you choose",
+    "body": "Choose how each order gets to you: email, EDI, our API or QuickBooks, though one delivered to QuickBooks lands in your accounting, not in Unleashed. Whether Unleashed can take the EDI or API version as it arrives depends on your setup, which a demo can confirm.",
+    "bullets": [
+     "Emailed to a rep, to your desk, or both",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Emailed as a PDF, Excel or Word file, whichever your desk prefers",
+     "Picking and dispatch carry on in Unleashed"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock you can see beside the day's orders",
+    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Counts stay in Unleashed, and a demo covers how levels would reach the app",
+     "Fewer stockout surprises for your team and your reps",
+     "Stock numbers come from the system you count with today",
+     "Unleashed still tracks batches, expiry dates and low-stock alerts"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Who Does What",
+  "h2": "What Unleashed keeps, and what the chef takes over",
+  "lead": "We add VoiceOrder Solutions next to Unleashed rather than offering an Unleashed Software alternative, so your account runs exactly as it does today. The one change is that chefs who used to hand their order to a rep can now enter it themselves.",
+  "items": [
+   {
+    "h3": "Unleashed still holds stock, customers and invoices",
+    "body": "Your Unleashed account keeps customers, stock, batches and invoices. We store the guide for each customer and the orders they send from our app. You keep each guide's prices current in our admin; whether they can update from Unleashed is a question for the demo."
+   },
+   {
+    "h3": "B2B Store shoppers can keep shopping",
+    "body": "Accounts that enjoy shopping in Unleashed's B2B Store, with its payments and reorders, can carry on there. Our app serves the chefs who would rather not browse a store at all."
+   },
+   {
+    "h3": "Missing-order alerts still do their job",
+    "body": "If you run Unleashed's CRM, keep its alerts for accounts that go quiet. What changes is the answer: the chef can respond by ordering in our app, not by dictating to a rep."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "See a chef's order arrive with no rep in the middle",
+  "body": "In the demo we run one order from a chef's phone to your team, in the format you would use, and talk through how your Unleashed setup would take it in.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Three steps, and Unleashed stays as it is",
+  "lead": "Setting up needs no Unleashed login and installs nothing in it: we work from a spreadsheet you export. If you later want orders loaded through EDI or the API, the demo covers what that needs on your side.",
+  "items": [
+   {
+    "h3": "Send us an account export",
+    "body": "An export from Unleashed of each account's usual items and prices is usually all we need."
+   },
+   {
+    "h3": "We set up your accounts' guides",
+    "body": "We build every account's guide under your item codes and open the account. The chef downloads the app, and most kitchens are ordering in it the same day."
+   },
+   {
+    "h3": "Chefs place their own orders",
+    "body": "Each order arrives checked by the chef, numbered, timed and in the format you chose, with no rep in between."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Unleashed plus VoiceOrder Solutions. The chef places it, not the rep.",
+  "h2_lines": [
+   "Unleashed plus VoiceOrder Solutions.",
+   "The chef places it, not the rep."
+  ],
+  "eyebrow": "Chef Or Rep",
+  "lead": "Chefs at your accounts can put their own orders in by speaking, so a rep no longer has to type them. Unleashed covers the stock side, and its optional B2B Store takes orders from customers who shop there. Since Unleashed stopped supporting its rep ordering app in 2024, a rep who takes an order for a customer enters it at the store checkout or keys it in as an Unleashed sales order. This is not an Unleashed Software alternative: each is its own product, with no built-in connection.",
+  "heads": [
+   "Feature",
+   "Unleashed + VoiceOrder Solutions",
+   "Unleashed on its own"
+  ],
+  "rows": [
+   {
+    "label": "Stock levels across unlimited warehouses",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A chef who skips the store still orders on their own",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Phoned or texted to a rep or your desk"
+     }
+    ]
+   },
+   {
+    "label": "Batch tracking with expiry dates",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Customer price tiers, kept in Unleashed",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Orders spoken aloud, then checked one item at a time",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Typed into the store or a sales order"
+     }
+    ]
+   },
+   {
+    "label": "Reps can spend the visit selling when chefs order in the app",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "If an order is given on a visit, the rep enters it"
+     }
+    ]
+   },
+   {
+    "label": "B2B Store add-on with reorders, favorites and card payments",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "An ordering app chefs install on iOS or Android",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "A mobile-friendly web store"
+     }
+    ]
+   },
+   {
+    "label": "Alerts when an account misses its usual order (CRM add-on)",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Asked by distributors running Unleashed",
+  "items": [
+   {
+    "q": "Do we need an Unleashed Software alternative to let chefs voice their orders?",
+    "a": "No. Unleashed carries on handling your stock, pricing and B2B Store. What changes is who enters the order: the chef dictates it in our app, reviews each item and hits send, instead of passing it to a rep."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Unleashed Software?",
+    "a": "For one job, yes: getting each order straight from the chef, so your reps can sell. Stock, batches, purchasing and invoicing are Unleashed's work, which is why we would not call ourselves an Unleashed Software alternative."
+   },
+   {
+    "q": "Unleashed has a B2B Store already. What does an app add?",
+    "a": "Unleashed's store suits customers who like to browse, check stock, pay by card and reorder, and you can keep it. Since 2024 it has also been one place reps enter orders for the accounts they visit. Our app is for the chef who finds talking quicker than typing, so the order does not have to go through the rep."
+   },
+   {
+    "q": "Can't other tools already bring orders into Unleashed?",
+    "a": "Yes. An app listed in Unleashed's own integration marketplace uses AI to turn emailed order files, PDFs and spreadsheets into sales orders. Other companies also sell tools that read orders arriving by email, text or voicemail. Those work on something the customer has already sent, or give the customer an app to type into. With ours, the chef speaks the order and looks over each item before it goes, so it reaches you without a rep writing it up."
+   },
+   {
+    "q": "Is there a link between Unleashed and VoiceOrder Solutions?",
+    "a": "Not directly. We and Unleashed are different companies; neither has built a link to the other, and each supports only its own product. If your account accepts files by EDI or through the API, an order can load into Unleashed with no retyping; we confirm that in the demo. By email, it arrives with an attachment listing every item the chef approved, so your staff key it in from that list instead of a rep's notes or a voicemail."
+   },
+   {
+    "q": "Will our reps still take orders?",
+    "a": "If a customer wants that, yes: a rep can still put one through the store or key it in for them, and some chefs will keep calling. Fewer chefs lean on a rep once they can order on their own. Phoned orders get no number from us, while each order sent through the app gets its own number and time."
+   },
+   {
+    "q": "What does it cost, and how soon can we start?",
+    "a": "In most cases a distributor is ready in 24 to 48 hours, since nothing inside Unleashed has to change. Unleashed publishes prices for its plans, add-ons and onboarding; we quote per distributor. An Unleashed Software replacement would mean moving your stock records, batches and customers somewhere new. Our app changes how chefs send orders, and that is all it touches."
+   },
+   {
+    "q": "Where do the Unleashed details on this page come from?",
+    "a": "From unleashedsoftware.com and Unleashed's help center, as we found them on 9 November 2026: the pricing, B2B Store, sales order, CRM, AI, mobile app, onboarding, wholesale and distribution pages, plus the help article on the retired sales app. The other ordering tools turned up in a search for ones offered to Unleashed users. Spot something out of date? Write to us and we will update the page."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Let reps sell while chefs send their own orders",
+  "body": "Give us twenty minutes and we will trace one order from the kitchen to your team, sent by the chef rather than written up by a rep.",
+  "cta": "Book a Free Demo →"
+ }
+}

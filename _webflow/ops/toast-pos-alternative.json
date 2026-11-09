@@ -1,0 +1,532 @@
+{
+ "slug": "toast-pos-alternative",
+ "meta_title": "Not a Toast POS Alternative: Keep Toast, Add Voice Ordering",
+ "meta_desc": "Say your restock order, look it over and send it to your distributor with an order number. No Toast POS alternative needed: Toast keeps guest orders.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "Same Day"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "is when most kitchens can start ordering"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "saved per order, compared with calling it in to the rep"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "for restock orders, long after the last guest leaves"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Before Changing Your POS"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "Why restaurants look for an alternative to Toast POS"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "The Toast POS handles the orders guests place: it rings up the check, sends the ticket to the kitchen and takes the payment. A search for a Toast POS competitor can start with an order headed the other way: the one that restocks your kitchen."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "Its voice ordering is for guests"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "Toast's partners sell voice AI that answers a diner calling in a takeout order, and some handle drive-thru orders too. That brings orders in. It does not place yours with a distributor."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "An 86 stops the sale, not the shortage"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "When you 86 a dish, Toast stops guests ordering it on the POS, online and through delivery apps. Getting the missing ingredient back still means ordering from your distributor, by phone, text, or xtraCHEF if you use it."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "A new POS would not change the restock"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "Toast's POS runs on approved Toast hardware, designed for the guest's order. Restocking begins in the walk-in. A Toast POS alternative would not change how your restock order gets to the distributor."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "No Toast POS alternative needed to restock the kitchen"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Say what you need, then read it over"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "Stand in the walk-in or dry storage, tap Push to Speak and say what you need. What you say shows up as lines from that distributor's guide. Fix or delete a line, and nothing goes out until you tap send."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "You approve every line before it leaves"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Order after close, once the rep has gone home"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "Pulled onto the line mid-order? It keeps your place"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Your Distributor's Guide"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Your usual items, loaded by the distributor"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "The distributor fills your guide with what you buy from them, matched to their item codes. Your menu stays in Toast. This list is only for ordering from that one distributor."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Your regular items, not the whole catalog"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "Each line shows your account's price"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "The distributor updates it from their side"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Your rep stays your rep"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Proof Of The Order"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "A number to quote when a case is missing"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "Orders sent in the app get an order number, a date and a time, and a confirmation comes back to your phone by notification or text. When the truck shows up short, quote that number to your rep, so nobody has to remember a call."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Number and time on each order sent in the app"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "A push or a text confirms it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "The record shows who placed it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "A call or a voicemail still gets no number from us"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Your POS Side"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Toast keeps the guest side, from tickets to tips"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "Guests order through Toast, tickets reach the kitchen screen, and you 86 whatever runs out, all as before, with no Toast POS alternative to learn. If you order some suppliers in xtraCHEF, those orders can stay there."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Menu, tickets and payments stay in Toast"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Your 86 list works as it always has"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Payroll and scheduling carry on"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df957",
+   "Sales reports read the same"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "Use Both"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "Two orders, two places: guests in Toast, your restock in our app"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "This is not a Toast POS replacement. Toast handles your guests' orders. We cover your own: the restock order to a distributor that has VoiceOrder Solutions, which you say into your phone and look over before it goes."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "No Toast report counts that order"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "Orders you speak to that distributor do not show up in Toast or xtraCHEF. If you track supplier costs in xtraCHEF, enter that delivery's invoice there as you do now."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Close out, check the 86 list, then speak"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "At the end of the night, look at what you 86'd in Toast's manager app (Toast Now) and what the walk-in is low on. Then open our app and say what that distributor should bring."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "Keep xtraCHEF for the other vendors"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "If you use xtraCHEF, it can email an order to any vendor, while our app only reaches distributors offering it. Keep xtraCHEF or the phone for the rest. If a recurring order is scheduled in xtraCHEF for a distributor you now order from by voice, stop it first."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "See a restock go from your voice to a distributor"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "In 20 minutes we speak a short test order, fix a line while you watch, and show the confirmation your phone would get."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "Three steps, none of them on the POS"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "Most of the setup happens on your distributor's side. All you need is your phone."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Check with your distributor"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "If they have it, they set you up and add your guide. Not sure who to ask? Ask us and we will check for you."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "Download the app"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "Download it and sign in. Your guide is already there."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Say it, check it, send it"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Name the items, look over the lines, and tap send."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "Toast takes the orders coming in."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "We add a spoken one going out."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "Two Kinds Of Order"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "Where a distributor has our app, we add this: you speak from their guide at the prices set for your account, fix any line that is off, and get the order numbered and confirmed on your phone. The ticks for Toast's own features come from Toast."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "Toast + VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "Toast on its own"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Guest orders from the counter, tables, kiosk and web"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "A restock order said aloud, then read line by line"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Card payments, tips and payroll"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Supplier orders from counts and pars (xtraCHEF Pro, sold separately)"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "Sent to the distributor through the app they give you"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Mark a dish out of stock (86) on every channel at once"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "Guests' takeout calls answered by voice AI, through partners"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Sales numbers and a manager app on your phone"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Toast IQ, an AI assistant for questions and settings"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "What Toast restaurants ask us"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Do I need a Toast POS alternative to restock my kitchen by voice?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "No. Toast runs your dining room and payments, and xtraCHEF, a separate Toast product, can already email a supplier your order. If one of your distributors offers VoiceOrder Solutions, you can say what you need from them into your phone and change nothing on your terminals."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Is VoiceOrder Solutions better than Toast POS?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "Not at running a restaurant: we take no guest orders, run no payments and print no tickets. We handle your order to a distributor, spoken and then checked by you before it leaves. If restocking is what set off your search for a Toast POS alternative, Toast and xtraCHEF can stay where they are."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "Do VoiceOrder Solutions and Toast connect?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "No. The two are not linked, no information moves between them, and each company answers its own support calls. What you say in our app is sent to your distributor only."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Toast already has voice ordering. Is this the same thing?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "No. Partner voice tools for Toast answer guests phoning in a pickup order and pass it into Toast. Ours runs the other way: the order is yours, and your distributor receives it."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Can I order from all my suppliers this way?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "Only from distributors offering VoiceOrder Solutions. For every other supplier, carry on by phone, email or xtraCHEF, and ask each of them whether they have our app."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "I asked for two cases and the line reads twelve. What now?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "Correct it on the screen first: change the amount, pick a different item or remove the line. Reading the lines is the safeguard, though a rushed look can still let a mistake through. Orders called in or left as a voicemail are not numbered by us; app orders are."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How do I get set up, and what does it cost?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "Your distributor does the setup: they create your login and add the items you order from them. If yours does not have it, keep ordering from them the way you do now, and contact us: we will connect you with the right person. Most kitchens place a first order the same day they are set up. Since VoiceOrder Solutions comes to you through your distributor, they are the ones to ask about cost; we publish no price. Toast lists starting prices for its POS online."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the Toast details on this page come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "On 9 November 2026 we read pos.toasttab.com and the Toast help center (support.toasttab.com): Toast's product pages, its pricing page, and the articles covering 86ing an item, Toast IQ and how xtraCHEF sends supplier orders. The guest voice-ordering details come from Toast's and its partners' announcements. We left out their customer counts. If something there is different now, tell us and we will fix this page."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Not listed on their site</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-text-size-medium-21\">By email or PDF from xtraCHEF</div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-entry-software",
+   "How a supply order gets placed"
+  ],
+  [
+   1,
+   "/restaurant-purchasing-software",
+   "Buying from more than one supplier"
+  ],
+  [
+   2,
+   "/supplier-management-software",
+   "What each supplier confirmed"
+  ],
+  [
+   3,
+   "/restaurant-stock-management-software",
+   "How ordering fits your stock routine"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Restaurant Operators",
+   "h1": "Not A Toast POS Alternative: Ordering Your Supplies",
+   "lead": "For restocking from your distributor, not guest orders. Say what you need into the VoiceOrder Solutions app, look over each line from their order guide (the items you usually buy, with the prices on your account), then send it with its own number. It works only if they have our app.",
+   "cta": "Check If My Distributor Offers It"
+  },
+  "mainCta": {
+   "h2": "Order the restock aloud, and keep Toast for your guests",
+   "body": "We can check with your distributor for you, or you can ask your rep.",
+   "cta": "Ask About Getting Started"
+  }
+ },
+ "faq": [
+  {
+   "q": "Do I need a Toast POS alternative to restock my kitchen by voice?",
+   "a": "No. Toast runs your dining room and payments, and xtraCHEF, a separate Toast product, can already email a supplier your order. If one of your distributors offers VoiceOrder Solutions, you can say what you need from them into your phone and change nothing on your terminals."
+  },
+  {
+   "q": "Is VoiceOrder Solutions better than Toast POS?",
+   "a": "Not at running a restaurant: we take no guest orders, run no payments and print no tickets. We handle your order to a distributor, spoken and then checked by you before it leaves. If restocking is what set off your search for a Toast POS alternative, Toast and xtraCHEF can stay where they are."
+  },
+  {
+   "q": "Do VoiceOrder Solutions and Toast connect?",
+   "a": "No. The two are not linked, no information moves between them, and each company answers its own support calls. What you say in our app is sent to your distributor only."
+  },
+  {
+   "q": "Toast already has voice ordering. Is this the same thing?",
+   "a": "No. Partner voice tools for Toast answer guests phoning in a pickup order and pass it into Toast. Ours runs the other way: the order is yours, and your distributor receives it."
+  },
+  {
+   "q": "Can I order from all my suppliers this way?",
+   "a": "Only from distributors offering VoiceOrder Solutions. For every other supplier, carry on by phone, email or xtraCHEF, and ask each of them whether they have our app."
+  },
+  {
+   "q": "I asked for two cases and the line reads twelve. What now?",
+   "a": "Correct it on the screen first: change the amount, pick a different item or remove the line. Reading the lines is the safeguard, though a rushed look can still let a mistake through. Orders called in or left as a voicemail are not numbered by us; app orders are."
+  },
+  {
+   "q": "How do I get set up, and what does it cost?",
+   "a": "Your distributor does the setup: they create your login and add the items you order from them. If yours does not have it, keep ordering from them the way you do now, and contact us: we will connect you with the right person. Most kitchens place a first order the same day they are set up. Since VoiceOrder Solutions comes to you through your distributor, they are the ones to ask about cost; we publish no price. Toast lists starting prices for its POS online."
+  },
+  {
+   "q": "Where do the Toast details on this page come from?",
+   "a": "On 9 November 2026 we read pos.toasttab.com and the Toast help center (support.toasttab.com): Toast's product pages, its pricing page, and the articles covering 86ing an item, Toast IQ and how xtraCHEF sends supplier orders. The guest voice-ordering details come from Toast's and its partners' announcements. We left out their customer counts. If something there is different now, tell us and we will fix this page."
+  }
+ ]
+}

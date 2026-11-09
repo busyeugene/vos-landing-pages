@@ -1,0 +1,329 @@
+{
+ "slug": "b2b-wave-alternative",
+ "meta_title": "Not a B2B Wave Alternative: Keep B2B Wave, Add Voice Ordering",
+ "meta_desc": "When a chef phones, your rep can enter the order in B2B Wave or save it for approval. Our app lets chefs talk and approve each item. Not a B2B Wave alternative.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not A B2B Wave Alternative: Chefs Approve While Ordering",
+  "lead": "Chefs who like the phone can talk through their order with our app, then approve each item ahead of sending. B2B Wave's blog has a rep enter it for them, or build it on the call for the chef to approve later in the portal. Your portal stays as it is.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved on each order compared with taking it by phone"
+  },
+  {
+   "num": "24/7",
+   "label": "Hours a chef can say the order, desk open or closed"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "Setup for most distributors, with the portal left alone"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Screens And Callers",
+  "h2": "Where a portal leaves the chef who calls",
+  "lead": "B2B Wave sets out to pull email, phone, PDF and spreadsheet orders into one portal, and it has advice for a chef who would rather keep phoning. That chef is who our app is for. By email, our order arrives as a file someone at your end types in; whether EDI or our API could carry it in instead is a demo question.",
+  "cards": [
+   {
+    "h3": "B2B Wave tries to move phone buyers online",
+    "body": "B2B Wave's own blog advises winning over customers who stick to the phone, with incentives such as a discount on the first order and an account manager to help. Some chefs make the switch. The ones who never do keep calling."
+   },
+   {
+    "h3": "A caller still goes through a rep",
+    "body": "B2B Wave's advice for a caller is a rep, who enters the order or saves it for the chef to finish in the portal. In the app we add, the chef fixes anything on the list right away and sends it in the same sitting."
+   },
+   {
+    "h3": "Quick Order still means typing",
+    "body": "B2B Wave's Quick Order page is built for fast entry by item code and quantity, and searching by product name works too. Both suit a chef who likes a keyboard. In our app, a chef just names the product out loud, and it is matched to what that account usually orders."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Not a B2B Wave alternative: ordering by voice, next to the portal",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "No item codes to look up",
+    "body": "The chef says what the kitchen needs, in their own words. Our app matches each item to that restaurant's guide and shows the list, so the chef can change an item or an amount before pressing send. Nobody on your side has to be on the line for it.",
+    "bullets": [
+     "Push to Speak, then a list to look over",
+     "Orders still come in at night and on holidays",
+     "Runs on the chef's own iOS or Android phone",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "A chef called away mid-order comes back to it as they left it"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How restaurants send orders →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "A list of usual items for each restaurant",
+    "body": "Tell us what every restaurant regularly orders, and we load it as that restaurant's own guide, under your item numbers. Each guide's prices are yours to update in our admin, the same place you manage your accounts. Whether price changes can come over in bulk from B2B Wave or your ERP is a question for the demo.",
+    "bullets": [
+     "Each chef sees that restaurant's items, not your whole range",
+     "Add or drop items on a guide yourself in our admin",
+     "Preferred products and customer prices stay inside B2B Wave",
+     "Setup needs no B2B Wave admin access, just each account's items"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "How the finished order reaches your desk",
+    "body": "Each order goes out as an email attachment in the format you choose, or by EDI, our API or into QuickBooks. An order sent to QuickBooks goes to your books, not into B2B Wave. Nothing links ours to the API B2B Wave offers for new orders; a demo is where we look at what it would take to load app orders through that API. Until an order is in B2B Wave, it is not in its order history or customer reports.",
+    "bullets": [
+     "Sent to a single rep or to a shared inbox",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Any correction the chef made is already in the file",
+     "Every order from the app has its own number and the time it was sent; a call gets none from us"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock beside incoming app orders",
+    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Stock numbers come from the system you count with today",
+     "Fewer stockout surprises at your end",
+     "Stock messages in your portal stay as you set them"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Portal And App",
+  "h2": "Not a B2B Wave competitor: what the portal keeps doing",
+  "lead": "Adding us is not picking an alternative to B2B Wave: chefs who order on a screen stay in the portal, and the app is for those who find talking easier.",
+  "items": [
+   {
+    "h3": "Portal regulars carry on as they are",
+    "body": "Accounts that reorder in one click or use Quick Order on the portal do not have to change anything. Nobody is moved off the portal to make room for the app."
+   },
+   {
+    "h3": "Standing orders and cut-offs stay with B2B Wave",
+    "body": "B2B Wave keeps building standing orders on schedule and holding to the delivery days and cut-off times you set. Adding the app does not touch them."
+   },
+   {
+    "h3": "Payments stay where they are",
+    "body": "Portal payments, and the way B2B Wave sends its orders on to your accounting, carry on as now."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "Hear a chef's voice become an order your desk can use",
+  "body": "Give us twenty minutes: hear us voice a sample kitchen order into the app, watch one item get changed, and see the file that comes out. Then we go over how it fits beside your portal as an addition, not a B2B Wave alternative.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Adding voice orders beside B2B Wave",
+  "lead": "It takes three things: your list of each account's usual items, the accounts we open, and our app on each chef's phone.",
+  "items": [
+   {
+    "h3": "List each restaurant's regulars",
+    "body": "Each restaurant's regular products, with prices and your codes, are usually all we need."
+   },
+   {
+    "h3": "We open each account",
+    "body": "Its guide is loaded and the chef gets the app. Most restaurants send a first order the same day."
+   },
+   {
+    "h3": "Chefs start saying their orders",
+    "body": "Their orders reach you checked, numbered and timed, while portal accounts carry on as before."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "B2B Wave plus VoiceOrder Solutions. Checked by the chef, item after item, while ordering.",
+  "h2_lines": [
+   "B2B Wave plus VoiceOrder Solutions.",
+   "Checked by the chef, item after item, while ordering."
+  ],
+  "eyebrow": "Talk Or Type",
+  "lead": "With our app, chefs name what they need out loud, then look over every item before it goes. B2B Wave still gives each account its own prices, a preset list of its favorites, reorders in one click and quick entry by product code, typed or tapped in a browser. This is not a B2B Wave alternative: the two are separate tools, not linked, and you keep both.",
+  "heads": [
+   "Feature",
+   "B2B Wave + VoiceOrder Solutions",
+   "B2B Wave on its own"
+  ],
+  "rows": [
+   {
+    "label": "Each account sees its own prices and products",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A chef can speak each item into an app, with no typing",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Typed into the portal, or phoned to a rep"
+     }
+    ]
+   },
+   {
+    "label": "One-click reorders and a Quick Order screen",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Delivery-day cut-offs and standing orders",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A chef who used to phone now sends an order with our order number and the time sent",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Numbered once a rep or your desk enters it"
+     }
+    ]
+   },
+   {
+    "label": "B2B Wave's web portal, open on any device with no download",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "The chef goes over each item, then sends",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "A rep enters it, or builds it on a call and saves it for later review"
+     }
+    ]
+   },
+   {
+    "label": "A rep app for visits, with offline ordering",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "B2B Wave orders pushed to your accounting software",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "Things distributors on B2B Wave ask",
+  "items": [
+   {
+    "q": "Do I need a B2B Wave alternative for orders that chefs say aloud?",
+    "a": "No. Your portal, customer prices, recurring orders and sales rep tools are untouched. What you add is a second way in for chefs who favor talking: they say it to our app and go over each item before it goes, and nobody at your end has to take a call."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than B2B Wave?",
+    "a": "At one job: taking an order from a chef who is happier speaking than typing, then putting every item in front of that chef to fix on the spot. B2B Wave does far more as a web portal, with quotes, online payment and rep tools, so we stay at its side and are not a B2B Wave alternative."
+   },
+   {
+    "q": "B2B Wave already makes reordering quick. Why bring in an app?",
+    "a": "Keep it: for a chef at a screen, reordering there is quick. It still takes typing, tapping or scanning, and some chefs simply prefer saying it. Voice is not ours alone: other firms offer AI calling and messaging tools that connect to B2B Wave. Those handle calls and messages; ours shows the chef each item to fix before sending."
+   },
+   {
+    "q": "Are the two linked, and does somebody still have to type orders?",
+    "a": "The two come from separate companies and are not linked, and each one supports just its own software. B2B Wave has an API for creating orders, but nothing connects ours to it today. If your setup can take our orders over EDI or our API, no one types them again; whether it can is something to settle in the demo. Over email, though, each one still has to be entered at your end. What your desk skips is the call itself: nobody listens, notes each item and repeats it back, since every item was gone through on the chef's side first. B2B Wave and the systems behind it keep account details, billing and stock; we keep the guides, with your prices on them, plus every app-placed order. Your system still gives an order its own number once it is entered."
+   },
+   {
+    "q": "Our reps already put orders in for chefs who call. What changes?",
+    "a": "Nothing has to. Reps can keep placing orders for accounts that want it, and carry on with visits as they do now. A chef phoning just to read out the usual items can speak them to our app instead and check the list at once, rather than opening a saved order in the portal afterwards."
+   },
+   {
+    "q": "Do restaurant customers need to download anything?",
+    "a": "For ours, yes: each chef installs our app. B2B Wave's portal opens in any browser with no install, which is one more reason to keep it for portal regulars."
+   },
+   {
+    "q": "How quick is setup, and what does it cost?",
+    "a": "For most distributors, setup takes 24 to 48 hours, and B2B Wave stays exactly as it is. You give us the items each account usually buys, often exported as a spreadsheet. We put those into our admin as guides and set up every restaurant on the app; once the chef downloads it, most are ordering that same day. B2B Wave shows plan prices on its site; we quote per distributor. A B2B Wave replacement would mean shifting every portal customer, standing order and price list to new software, while an app for the chefs who would rather speak asks none of that."
+   },
+   {
+    "q": "Where do the B2B Wave details on this page come from?",
+    "a": "Based on b2bwave.com, read 9 November 2026: the homepage, pricing, features and FAQ pages, the wholesalers and food & beverage pages, the sales rep app page, EDI and integrations pages, and three of its blog posts on reorders, ordering workflows and customers who prefer the phone. The AI calling tools came from a search for B2B Wave integrations. If any of this has gone out of date, send us a note and we will correct it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Chefs who talk rather than type sign off on every item themselves.",
+  "body": "Watch an order get spoken into the app, corrected and sent, ready for your desk.",
+  "cta": "Book a Free Demo →"
+ }
+}

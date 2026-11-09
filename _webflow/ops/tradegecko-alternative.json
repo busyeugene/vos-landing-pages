@@ -1,0 +1,560 @@
+{
+ "slug": "tradegecko-alternative",
+ "meta_title": "TradeGecko Alternative: Restaurants Order by Voice in an App",
+ "meta_desc": "A TradeGecko alternative for the ordering part: restaurants say and check each order in our app, beside the stock system you moved to after TradeGecko.",
+ "text": [
+  [
+   "c3df870f-ba8c-9aaf-796c-bb1249eeefa3",
+   "20-30 Min"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fe9d",
+   "Saved per order, compared with taking it by phone"
+  ],
+  [
+   "3027ca32-6180-79a6-1a66-d9f911e27a08",
+   "24/7"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5fea2",
+   "Open for restaurant orders, nights and weekends too"
+  ],
+  [
+   "448bf1fe-361f-3c13-6268-4572092953ba",
+   "24-48 Hrs"
+  ],
+  [
+   "3f7a12ca-f338-fa01-17fc-97d91ca5feac",
+   "Until most distributors are set up and receiving orders"
+  ],
+  [
+   "1cd5e3b3-4adf-89d2-b8a1-ba35fe69754d",
+   "Since The Store Closed"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8be",
+   "Looking for a TradeGecko replacement for customer ordering?"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8c2",
+   "TradeGecko, renamed QuickBooks Commerce, closed for good after August 2023, so a TradeGecko competitor today can only be a replacement. If you have since moved your stock to another system, the piece that may still be missing is an easy way for restaurants to send you orders. Orders that reach you by email are still typed up by your desk, but from a list the restaurant already checked. Sent over EDI or our API, they can load straight in if your system accepts them, and the demo answers that for your setup."
+  ],
+  [
+   "eb7fd825-30c6-7275-9a2f-c98f68eb960f",
+   "The store and the stock records went together"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8cc",
+   "TradeGecko's B2B eCommerce store was part of TradeGecko itself. When TradeGecko was retired, the store went with your stock records, so new inventory software also meant a new ordering routine for every restaurant you serve."
+  ],
+  [
+   "bacfcf90-d337-55e1-9a02-49b2f6962e16",
+   "Without a store, orders fall back on the phone"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8d3",
+   "If your new system has no store, or your restaurants did not take to it, those orders come back as calls, texts and voicemails for your desk to key in. Sent from the app, each one arrives already looked over by the chef, with a number and the time attached."
+  ],
+  [
+   "83921d0d-4ec1-911e-4420-fee5bfd13614",
+   "Each restaurant's own list closed with the store"
+  ],
+  [
+   "964de5d5-3961-b811-98b9-cfb069a7e8da",
+   "In the store, each restaurant saw its usual products at that account's prices, and could copy a previous order. When the chef calls instead, that list is nowhere in view."
+  ],
+  [
+   "f5b08e4d-7503-2dae-cdd2-6f455d9fe83d",
+   "What restaurants get in place of the old TradeGecko store"
+  ],
+  [
+   "f49b7c29-2a8e-b047-d714-742b52e0a34c",
+   "What You Get"
+  ],
+  [
+   "d4031fde-2fc3-b283-bb1c-784e741d725b",
+   "Voice Ordering"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0ed",
+   "Said aloud by the chef, then looked over and sent"
+  ],
+  [
+   "24599529-959c-8515-3ff2-44ca6d68a0f1",
+   "The chef taps Push to Speak and names the items the kitchen is short of. Our app matches each one to that restaurant's guide and shows the list. The chef changes anything that came out wrong, then sends it."
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4133",
+   "Orders can be sent at any hour, weekends included"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4139",
+   "Saves 20 to 30 minutes compared with the same order by phone"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe413f",
+   "A half-done order waits if the chef is pulled away mid-list"
+  ],
+  [
+   "129bd613-9d92-1e3c-fcbe-e5fdebfe4145",
+   "Runs on the chef's own iPhone or Android phone"
+  ],
+  [
+   "d5d6538b-4114-51aa-7fff-aad875b7bfe3",
+   "Order Guides"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea2",
+   "Every restaurant gets its own items, at the prices you set"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdea6",
+   "TradeGecko let you give each customer a price list of its own. We do the same job with an order guide per account: the items that restaurant actually orders, at your prices, under your item codes. You update each account's guide and prices in our admin platform. Whether price changes can come over from your stock software in bulk is a question for the demo."
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdead",
+   "Built from a spreadsheet of what each account buys"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb3",
+   "Accounts, guides and order history in one admin platform"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdeb9",
+   "Promos and confirmations reach accounts by notification and text"
+  ],
+  [
+   "8c148c5a-5883-9b4b-9229-358da23fdebf",
+   "Restaurants order from their usual items, not your whole range"
+  ],
+  [
+   "6555f9fc-4dcc-b940-f384-6001ce4db69f",
+   "Delivery Formats"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb118",
+   "Orders arrive in a form your current system can use"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb11c",
+   "A TradeGecko store order became a TradeGecko sales order by itself. Ours reach you over EDI, through our API, in QuickBooks, or by email as a PDF, Excel or Word file for your team to key in. Whether your current setup can load those electronic orders as they arrive is something a demo can confirm."
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb123",
+   "Over EDI or the API, when your setup takes it, nobody retypes it"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb129",
+   "Emailed to whoever takes orders: a rep, the desk, or both"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb12f",
+   "In QuickBooks, the order is entered in your books; ask in the demo whether it carries on into stock"
+  ],
+  [
+   "8b079726-3463-6044-f4e9-f838b3bfb135",
+   "Each order from the app comes numbered, with the time it was sent"
+  ],
+  [
+   "099f67ce-06ef-dc92-c6e6-fdc4481f359f",
+   "Inventory Visibility"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93a",
+   "Orders in view, with stock left in your software"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df93e",
+   "Each order restaurants send through the app is kept on our admin screens, so your team can see what has been asked for. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect."
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df945",
+   "Stock numbers come from the system you count with today"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df94b",
+   "Whether stock levels can show in the app is something to ask in the demo"
+  ],
+  [
+   "2af8f313-e356-7eea-3f46-cef1a39df951",
+   "Purchasing and warehouse work carry on in your own software"
+  ],
+  [
+   "021e8cc1-41f6-a5cc-3995-2a8c101d005c",
+   "What Goes Where"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64e7",
+   "What this TradeGecko alternative takes over, and what it leaves in place"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da64ec",
+   "Whichever TradeGecko alternative now runs your stock keeps that job, along with purchasing and billing. Ours begins when a chef opens the app and ends when you receive the order."
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da6507",
+   "Inventory and buying stay where they are"
+  ],
+  [
+   "b1f1a02d-1126-5fc3-d0e9-a08845da650a",
+   "TradeGecko tracked stock across warehouses and raised the purchase orders for your suppliers. We do neither, so that work stays in the inventory software you rely on now."
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a6d",
+   "Billing stays the way you run it"
+  ],
+  [
+   "5368ca22-de87-9362-819f-9733489b5a70",
+   "TradeGecko's store took card payments and showed customers their invoices. Our app has no checkout and takes no payment: you invoice and collect as you do today."
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535624",
+   "The next system change leaves ordering alone"
+  ],
+  [
+   "ce9a8dd2-5aea-6c74-fe2d-a05cf2535627",
+   "Our app is not tied to any inventory product. If you change that software again, restaurants keep ordering in the same app from the same guides; how their orders get into the new system is something we check with you in a demo."
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b4",
+   "See how a kitchen's spoken list reaches you, no web store needed"
+  ],
+  [
+   "4590e4b1-e797-fe36-9056-58de9ded19b8",
+   "In the demo we order four or five items by voice, correct one, send them off and open what a distributor's desk receives. Then we go over how that order could reach your records."
+  ],
+  [
+   "6923bf1d-5310-eba9-bcb8-7266c5f85e97",
+   "Getting Started"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ec7",
+   "Three steps before the first spoken order"
+  ],
+  [
+   "38293a1d-fb4c-9501-8014-28855f9128b6",
+   "Setting up needs no login to your systems. Delivery by EDI or the API can come later, and the demo covers what your side would need for it."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ed6",
+   "Export your accounts and their prices"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5eda",
+   "Share what each restaurant buys and at what price, for example as an export from your system."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ede",
+   "We load a guide for each restaurant"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5ee3",
+   "We build a guide for every account under your SKUs and open it, ready for the chef's first order."
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f00",
+   "Restaurants begin ordering"
+  ],
+  [
+   "a303abc3-7d8f-f26f-40bb-74c0ec6b5f04",
+   "Orders arrive checked by the chef, numbered, timed and in the format you picked."
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a176",
+   "VoiceOrder Solutions and the TradeGecko store."
+  ],
+  [
+   "0c6cf9c7-bbe3-a64d-76b9-1539a90ac7c8",
+   "One ordering job, done by voice."
+  ],
+  [
+   "7b8acd63-aca8-b070-4eb6-f64ce47abebc",
+   "Store Then, App Now"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a179",
+   "VoiceOrder Solutions picks up one of the TradeGecko store's jobs again: letting restaurants send orders without calling. As a TradeGecko alternative, we cover that ordering alone: the inventory, purchasing and payments TradeGecko kept under one roof now belong to the software where you track stock."
+  ],
+  [
+   "1ff87819-9b94-6168-dfbb-e81fd6a5b236",
+   "Feature"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a18d",
+   "VoiceOrder Solutions"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a19e",
+   "TradeGecko's B2B store, as it ran"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1be",
+   "Each restaurant orders its own items at its own prices"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1c8",
+   "The chef places the order by voice"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1d5",
+   "Stock, buying and warehouses inside one product"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1e2",
+   "Orders can come in after hours and on weekends"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1ec",
+   "An ordering app the chef installs on iOS or Android"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a1f6",
+   "Orders loaded into stock records with nothing retyped"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a210",
+   "The customer checks every item before sending"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21a",
+   "Card payments taken at checkout"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a224",
+   "Restaurants keep their way of ordering if you change stock systems"
+  ],
+  [
+   "30f8c397-6bf9-f190-2eb1-183dc2b44d9e",
+   "FAQ"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf956",
+   "Questions from former TradeGecko users"
+  ],
+  [
+   "8bf0eb84-6a8d-dd56-6a0e-8116d9416d3d",
+   "Does VoiceOrder Solutions work as a TradeGecko alternative?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf967",
+   "As an alternative to TradeGecko's store, yes: your restaurants get an app to say each order in, check it and send it. For stock, purchasing, warehouses and accounting, no: those are jobs for inventory software, and ours works beside the one you run."
+  ],
+  [
+   "ad9f0390-a776-7031-a95b-984cd1988c9e",
+   "Would VoiceOrder Solutions be better than TradeGecko?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf973",
+   "Only at one job: letting a chef read out the order, then confirm each item on a phone. TradeGecko did far more, from stock and purchasing to warehouses, and its store orders went straight into its own records."
+  ],
+  [
+   "e219e293-819b-221b-6d80-7f8d2898a4d7",
+   "What happened to TradeGecko?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf97f",
+   "Intuit bought TradeGecko in 2020 and renamed it QuickBooks Commerce. It stopped taking new customers in June 2021 and was retired in stages: many users lost it in June 2022, and the last version closed after August 31, 2023. If you are looking for a TradeGecko alternative now, the stock side may already be settled."
+  ],
+  [
+   "39590628-381c-9aea-6095-0746f7348939",
+   "Will orders go straight into our stock system?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf98b",
+   "It depends on how each order is sent. VoiceOrder Solutions is a separate product, not part of any stock system. If yours takes orders over EDI or an API, an order can load with no retyping; the demo shows whether it does. By email, it arrives as a file listing every item the chef approved. Your team still enters it, but there is no call to take, write down and read back. Customers, stock and invoices stay on record where they are now; we hold each account's order guide with its prices, plus the orders sent through the app. Phoned orders get no number from us, while every order sent from the app is numbered and timed."
+  ],
+  [
+   "0f73d180-08e9-596f-f264-a95de40f9593",
+   "Can restaurants still browse a catalog and pay by card?"
+  ],
+  [
+   "7e541655-5a68-8f96-1273-8249a5c759bd",
+   "Not in our app. It has no catalog to browse, no checkout and no card payment. If browsing and paying online matter to your customers, an online store does that better, and if your current stock software has one, keep it. Our app is for the restaurant that wants to say what it needs and be done."
+  ],
+  [
+   "d9956fbb-a3d6-4b04-b3ab-98b6f5ae509f",
+   "Can the app mishear an item?"
+  ],
+  [
+   "4446ea80-4c7a-f2a8-f0de-0a222818c94f",
+   "It can happen: the app turns speech into items from that account's list, and it may pick the wrong one. The chef sees the full list before sending and can swap or delete anything. If a mistake still reaches you, you sort it out the way you handle any order mix-up today."
+  ],
+  [
+   "93ba65b0-4eb0-c64e-d0c0-933cd7a92b1d",
+   "How much is it, and how fast can we start?"
+  ],
+  [
+   "cb55ed2c-634b-b694-87d5-a43e7e3cf997",
+   "We quote each business and list no prices online, so ask us on the demo call. To get started, you send us each account's usual items, often as a spreadsheet; we load them in and set up each account. Your restaurants download the app, and most send a first order the same day. Most distributors are up and running in 24 to 48 hours."
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-990427524516",
+   "Where do the TradeGecko details on this page come from?"
+  ],
+  [
+   "7ec95cf1-65b0-b7be-b209-99042752451e",
+   "From TradeGecko's own pages as saved by the Internet Archive in June 2020 (home, B2B store, mobile sales app and pricing), and from Intuit's notices about QuickBooks Commerce ending, all reviewed on 9 November 2026. Spot something wrong? Write to us and we will fix it."
+  ]
+ ],
+ "embed": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   "<div class=\"uui-text-size-medium-21\">Searched or repeated a past order, then checked out</div>"
+  ],
+  [
+   "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0",
+   "<div class=\"uui-text-size-medium-21\">Kept in the software you moved to</div>"
+  ],
+  [
+   "55af8715-1c0d-7742-fde4-496073314315",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "5539a8dc-3999-60a4-e63a-01a711a5373d",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   "<div class=\"uui-text-size-medium-21\">A web store; its iPhone app was for your own team</div>"
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   "<div class=\"uui-text-size-medium-21\">Via EDI or our API if your system takes them; by email, your team keys them in</div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a212",
+   "<div class=\"uui-icon-1x1-xsmall-12 w-embed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 12L10.5 15L16.5 9M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#039855\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div>"
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21c",
+   "<div class=\"uui-text-size-medium-21\">Billing stays with the way you invoice today</div>"
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   "<div class=\"uui-text-size-medium-21\">Closed along with TradeGecko</div>"
+  ]
+ ],
+ "styles": [
+  [
+   "cc89ea05-5a85-dd83-99ed-001daf6ee7e3",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "3edc53b9-7768-7eaf-fbb4-2f32593bd1f0",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "20efde0c-69cd-a8c3-92cb-38100394bc2d",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "ed160918-90b4-10e3-a7f7-076cd6158a3b",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "37b58628-5e21-7c67-2967-24e3b5a7a21c",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ],
+  [
+   "e7acfa1b-92fa-2957-e4f6-e9ccfbdfae34",
+   [
+    "uui-text-size-medium 21"
+   ]
+  ]
+ ],
+ "links": [
+  [
+   0,
+   "/order-taking-software",
+   "How order capture works"
+  ],
+  [
+   1,
+   "/catalog-management-software",
+   "More on per-account guides"
+  ],
+  [
+   2,
+   "/b2b-portal-software",
+   "Self-service ordering without a portal"
+  ],
+  [
+   3,
+   "/inventory-visibility-software",
+   "More on stock visibility"
+  ]
+ ],
+ "delete": [
+  "2c2a3a16-db59-17d3-b73d-6e46b13b91a3",
+  "7b7569f9-7bb9-1a08-0f13-6a83763d17cc",
+  "458fcf8e-5c98-2915-581f-0d6dcd514822",
+  "37b58628-5e21-7c67-2967-24e3b5a7a22b"
+ ],
+ "hard": [
+  {
+   "cell": "37b58628-5e21-7c67-2967-24e3b5a7a1c1",
+   "child": "89a5813a-10f6-6ba1-6eed-d733971a5509",
+   "want": "yes",
+   "row": 1,
+   "col": 2,
+   "style": "uui-icon-1x1-xsmall 12"
+  }
+ ],
+ "props": {
+  "hero": {
+   "eyebrow": "For Food Distributors",
+   "h1": "A TradeGecko Alternative Where Chefs Order Aloud",
+   "lead": "VoiceOrder Solutions lets restaurants reach you with orders now that TradeGecko's B2B store has closed. In the app, each chef says aloud what is running short, looks over every item, then sends it to you. Stock, purchasing and accounting stay in the system you moved them to.",
+   "cta": "Book a Free Demo"
+  },
+  "mainCta": {
+   "h2": "Replace the store TradeGecko ran with an app restaurants order in by voice",
+   "body": "Give us twenty minutes and see one spoken order go from a chef's phone to a distributor's inbox, and what a desk would receive.",
+   "cta": "Book a Free Demo"
+  }
+ },
+ "faq": [
+  {
+   "q": "Does VoiceOrder Solutions work as a TradeGecko alternative?",
+   "a": "As an alternative to TradeGecko's store, yes: your restaurants get an app to say each order in, check it and send it. For stock, purchasing, warehouses and accounting, no: those are jobs for inventory software, and ours works beside the one you run."
+  },
+  {
+   "q": "Would VoiceOrder Solutions be better than TradeGecko?",
+   "a": "Only at one job: letting a chef read out the order, then confirm each item on a phone. TradeGecko did far more, from stock and purchasing to warehouses, and its store orders went straight into its own records."
+  },
+  {
+   "q": "What happened to TradeGecko?",
+   "a": "Intuit bought TradeGecko in 2020 and renamed it QuickBooks Commerce. It stopped taking new customers in June 2021 and was retired in stages: many users lost it in June 2022, and the last version closed after August 31, 2023. If you are looking for a TradeGecko alternative now, the stock side may already be settled."
+  },
+  {
+   "q": "Will orders go straight into our stock system?",
+   "a": "It depends on how each order is sent. VoiceOrder Solutions is a separate product, not part of any stock system. If yours takes orders over EDI or an API, an order can load with no retyping; the demo shows whether it does. By email, it arrives as a file listing every item the chef approved. Your team still enters it, but there is no call to take, write down and read back. Customers, stock and invoices stay on record where they are now; we hold each account's order guide with its prices, plus the orders sent through the app. Phoned orders get no number from us, while every order sent from the app is numbered and timed."
+  },
+  {
+   "q": "Can restaurants still browse a catalog and pay by card?",
+   "a": "Not in our app. It has no catalog to browse, no checkout and no card payment. If browsing and paying online matter to your customers, an online store does that better, and if your current stock software has one, keep it. Our app is for the restaurant that wants to say what it needs and be done."
+  },
+  {
+   "q": "Can the app mishear an item?",
+   "a": "It can happen: the app turns speech into items from that account's list, and it may pick the wrong one. The chef sees the full list before sending and can swap or delete anything. If a mistake still reaches you, you sort it out the way you handle any order mix-up today."
+  },
+  {
+   "q": "How much is it, and how fast can we start?",
+   "a": "We quote each business and list no prices online, so ask us on the demo call. To get started, you send us each account's usual items, often as a spreadsheet; we load them in and set up each account. Your restaurants download the app, and most send a first order the same day. Most distributors are up and running in 24 to 48 hours."
+  },
+  {
+   "q": "Where do the TradeGecko details on this page come from?",
+   "a": "From TradeGecko's own pages as saved by the Internet Archive in June 2020 (home, B2B store, mobile sales app and pricing), and from Intuit's notices about QuickBooks Commerce ending, all reviewed on 9 November 2026. Spot something wrong? Write to us and we will fix it."
+  }
+ ]
+}

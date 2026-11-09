@@ -1,0 +1,330 @@
+{
+ "slug": "esker-alternative",
+ "meta_title": "Not an Esker Alternative: Keep Esker, Add Voice Ordering",
+ "meta_desc": "Esker reads what lands in your inbox. Chefs who would phone a rep can say each order in an app and check it first. Keep Esker: no Esker alternative needed.",
+ "hero": {
+  "eyebrow": "For Food Distributors",
+  "h1": "Not An Esker Alternative: When Orders Start As Calls",
+  "lead": "Bring in the restaurant orders that now start as a call to your desk or a chef's text to a rep. With VoiceOrder Solutions, those chefs speak each item into our app and look over the list before sending. Esker keeps its work from your inbox onward.",
+  "cta": "Book a Free Demo →"
+ },
+ "stats": [
+  {
+   "num": "20-30 Min",
+   "label": "Saved on each spoken order versus taking it by phone"
+  },
+  {
+   "num": "24/7",
+   "label": "When chefs can order, whether your desk is open or not"
+  },
+  {
+   "num": "24-48 Hrs",
+   "label": "To get most distributors live, with Esker as it was"
+  }
+ ],
+ "problem": {
+  "eyebrow": "Calls And Texts",
+  "h2": "Which orders reach Esker only once written up",
+  "lead": "Esker covers an order from the moment it reaches you to the day it is paid. A chef's call, or a message left for a rep, leaves Esker with nothing until someone puts it in writing, and an Esker alternative that reads orders would wait for the same written copy. An order we email you gets keyed in by your team, yet the chef signed off on every item before it went.",
+  "cards": [
+   {
+    "h3": "Esker's order checks begin at your inbox",
+    "body": "Esker says it protects your cash by checking orders and credit before invoicing begins. That work starts once an order is in your inbox or portal. Those checks compare what arrives with your ERP. They cannot tell what a chef meant on a call."
+   },
+   {
+    "h3": "A text to a rep starts outside Esker",
+    "body": "Esker's AI sorts what lands in your customer service inbox. A late-night message a chef leaves on a rep's phone, typed or spoken, gets into Esker only when the rep forwards it or keys it into the Esker Anywhere app."
+   },
+   {
+    "h3": "Your invoices start from the order someone typed in",
+    "body": "Esker's invoice delivery and collections work from the order in your ERP. For a restaurant that phoned, that order began as notes taken during the call. From our app, it begins as a list the kitchen has gone over."
+   }
+  ]
+ },
+ "features": {
+  "eyebrow": "What You Get",
+  "h2": "Not an Esker alternative: what restaurants get instead of the phone",
+  "rows": [
+   {
+    "eyebrow": "Voice Ordering",
+    "h3": "The order starts at the chef's shelf",
+    "body": "The chef walks the shelves and says what the kitchen needs. Our app matches each spoken item to the guide for that account and shows the list, so the chef can change an item or amount before sending. What reaches your desk is a finished list.",
+    "bullets": [
+     "Each item is shown to the chef before it is sent",
+     "Orders go in at night, on weekends and on holidays",
+     "Works on the iOS or Android phone the chef already has",
+     "Saves 20 to 30 minutes compared with the same order by phone",
+     "If the chef gets called away, the order waits where they stopped"
+    ],
+    "link": {
+     "href": "/order-taking-software",
+     "text": "How restaurants send orders →"
+    }
+   },
+   {
+    "eyebrow": "Order Guides",
+    "h3": "A guide of each restaurant's usual items",
+    "body": "Send us what each account usually buys, with prices, and we build that restaurant's guide under your own item codes. You update each account's guide and prices in our admin platform, where you also manage the accounts. Whether price changes can come over from your ERP in bulk is a question for the demo.",
+    "bullets": [
+     "A chef sees what that restaurant orders, not your whole range",
+     "Add or drop an item for one account whenever its needs change",
+     "Built on the item codes your ERP already uses",
+     "Setting up needs an export, not a login to Esker"
+    ],
+    "link": {
+     "href": "/catalog-management-software",
+     "text": "Keeping guides current →"
+    }
+   },
+   {
+    "eyebrow": "Delivery Formats",
+    "h3": "Sent as a file, or by EDI or API if your ERP takes it",
+    "body": "A finished order leaves as an email attachment, into QuickBooks, by EDI or through our API. Whether your ERP can take the last two as they arrive is a question we answer in the demo. An emailed order is entered by your team, but every item on it was approved by the chef first.",
+    "bullets": [
+     "Addressed to one rep or to your order desk",
+     "Over EDI or the API, when your setup takes it, nobody retypes it",
+     "Whatever the chef changed is already in the file",
+     "Each app order carries a number and send time; a call gets neither from us"
+    ],
+    "link": {
+     "href": "/wholesale-ordering-software",
+     "text": "What an order looks like →"
+    }
+   },
+   {
+    "eyebrow": "Inventory Visibility",
+    "h3": "Stock in view beside incoming orders",
+    "body": "VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.",
+    "bullets": [
+     "Stock numbers come from the system you count with today",
+     "Fewer stockout surprises for the people taking orders",
+     "Counts and receiving stay in your ERP",
+     "Buying from your own suppliers stays with your team"
+    ],
+    "link": {
+     "href": "/inventory-visibility-software",
+     "text": "More on stock visibility →"
+    }
+   }
+  ]
+ },
+ "cards": {
+  "eyebrow": "Before And After The Inbox",
+  "h2": "What Esker keeps, and why we are not an Esker competitor",
+  "lead": "Think of us as an addition, not an alternative to Esker. Ours are the orders that used to come as a call or a message to a rep. Esker keeps everything it handles today, and once our order is in your ERP, invoicing and collections handle it like any other.",
+  "items": [
+   {
+    "h3": "Your desk keeps its Esker screen",
+    "body": "Whatever arrives by email, fax, EDI or portal keeps landing on the one Esker screen your desk staff use. Ours go to whichever address or system you choose, by email, EDI or the API, and nothing in Esker has to change for them."
+   },
+   {
+    "h3": "Trade customers keep sending purchase orders",
+    "body": "Accounts that email, fax or send EDI orders, or use your portal, can carry on exactly as now. The app is for the restaurants where a chef still phones the order to a rep or texts it."
+   },
+   {
+    "h3": "Deductions and claims stay in Esker",
+    "body": "When a customer pays short or files a claim, your people still work it in Esker, as now. Our part ends once the chef's order is with you."
+   }
+  ]
+ },
+ "midcta": {
+  "h3": "Watch a restaurant order begin in the app, not on a call",
+  "body": "During the demo, one of us reads out a sample restaurant order, changes one product, sends it and opens the copy that would land at your desk. Then we show the way it would reach your ERP, while Esker stays as it is.",
+  "cta": "Book a Free Demo →"
+ },
+ "steps": {
+  "eyebrow": "Getting Started",
+  "h2": "Adding restaurant ordering beside Esker",
+  "lead": "You send a list of what each restaurant buys. We set up the accounts, and each chef puts the app on their phone.",
+  "items": [
+   {
+    "h3": "Send each account's usual items",
+    "body": "An export from your ERP, with prices and your codes, is usually all we need."
+   },
+   {
+    "h3": "Chefs get the app",
+    "body": "We load each guide and set up the account. The chef downloads the app, and most restaurants send a first order the same day."
+   },
+   {
+    "h3": "Orders arrive in the format you picked",
+    "body": "Each was looked over by the chef before sending and arrives numbered and time-stamped."
+   }
+  ]
+ },
+ "comparison": {
+  "h2": "Esker plus VoiceOrder Solutions. Your desk gets a list, not a call to write up.",
+  "h2_lines": [
+   "Esker plus VoiceOrder Solutions.",
+   "Your desk gets a list, not a call to write up."
+  ],
+  "eyebrow": "Phone And Text Orders",
+  "lead": "When a restaurant phones your desk or texts a rep, someone has to write the order up first; on our app, chefs name what they need out loud and go over the result before it is sent. Esker picks an order up once it lands: it reads and checks emailed, faxed, EDI and portal orders on their way into your ERP. This is not an Esker alternative: you keep both, and each runs on its own.",
+  "heads": [
+   "Feature",
+   "Esker + VoiceOrder Solutions",
+   "Esker on its own"
+  ],
+  "rows": [
+   {
+    "label": "Reads emailed, faxed and PDF orders, then checks them against your ERP",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "A chef who calls today can say the order and see every item",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Taken on the phone and typed in by your team"
+     }
+    ]
+   },
+   {
+    "label": "A 24/7 ordering portal with an AI assistant for customers",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "EDI and non-EDI orders handled on one screen",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "An order a chef would have texted to a rep arrives as a checked list",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Forwarded to the inbox or retyped by the rep"
+     }
+    ]
+   },
+   {
+    "label": "Credit checks, invoice delivery, payments and collections",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Each restaurant orders from a guide of its usual items",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "text",
+      "v": "Not listed on their site"
+     }
+    ]
+   },
+   {
+    "label": "Tracked conversations to clear up an order with the customer",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   },
+   {
+    "label": "Claims and deductions worked in one place",
+    "cells": [
+     {
+      "t": "icon",
+      "v": "yes"
+     },
+     {
+      "t": "icon",
+      "v": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "FAQ",
+  "h2": "What distributors using Esker ask us",
+  "items": [
+   {
+    "q": "Do I need an Esker alternative to add spoken orders?",
+    "a": "No. Esker carries on with whatever arrives in your inbox: capturing and checking it, then the credit checks and cash collection that follow. What we add happens before an order gets to Esker: for each restaurant you move off the phone, its chef names the items aloud in our app and checks the list before it goes."
+   },
+   {
+    "q": "Is VoiceOrder Solutions better than Esker?",
+    "a": "At one job: getting a restaurant's order from the chef to you with nobody on the phone, looked over by whoever knows what the kitchen is low on. Esker covers far more ground than we do, from capture to cash, so we work next to it rather than as an Esker alternative."
+   },
+   {
+    "q": "Esker's capture page is written for customers who send orders any way they like. Why change how restaurants order?",
+    "a": "Its idea is to let customers send orders as they like, then read them as they come in. It suits trade customers who email or fax their own order forms. Phoned orders give Esker nothing to read: someone on your side writes them down first. Our app changes only that habit, and only for the restaurants you put on it."
+   },
+   {
+    "q": "Is the app linked to Esker, and will our order desk still have to type orders?",
+    "a": "No link is built in: they come from separate companies, and neither supports the other's software. Over EDI or our API, if your ERP accepts orders that way, nobody retypes them; we confirm that in the demo. By email, you get a PDF, Excel or Word file. Esker is built to read emailed orders, so ask Esker whether your setup can handle ours: we have not built anything for it, so we promise nothing. If it cannot, your staff type the file in. Even so, nobody has to pick up a call, jot it down and repeat it back, because the chef cleared each item before it was sent. A chef can still miss a mistake or change their mind afterwards, so an order can still be wrong. Your ERP holds accounts, invoices and stock on file; we hold a guide for each restaurant with its prices, and a copy of the orders chefs send in the app."
+   },
+   {
+    "q": "Esker already has a customer portal with an AI agent. Isn't that enough?",
+    "a": "For customers who will log in and type, it may be. Esker's portal takes orders at any hour, and its AI agent helps customers find products and order there, so keep it for them. We built our app for the chef who would rather pick up the phone: they speak the items, see the list and fix a wrong one before sending."
+   },
+   {
+    "q": "Esker runs credit checks before we invoice. Do app orders get them too?",
+    "a": "That depends on where your credit checks run and how our order gets into your ERP. Ask Esker which of its checks would apply to an order your people type into the ERP, or to one arriving by EDI or the API. Nothing we offer sends our orders through Esker. Once it sits in your ERP as an order, billing, collections and payments that run from it treat it like any other."
+   },
+   {
+    "q": "How soon could we be live, and what does it cost?",
+    "a": "Setup takes 24 to 48 hours for most distributors, with no changes made to Esker. You share what each restaurant usually orders, often as a spreadsheet from your ERP. We load those lists, set each restaurant up, and its chef installs our app; most are ordering the same day. Esker gives each customer a quote rather than a public price, which is how we price for distributors as well. An Esker replacement means moving order capture, billing and collections onto new software; adding our ordering app next to Esker leaves that work where it is."
+   },
+   {
+    "q": "Where do the Esker details on this page come from?",
+    "a": "From esker.com as it was on 9 November 2026: the homepage, its pages on order management, order data capture, AI agents, deductions, industries and fax, its overview of the order-to-cash suite, the solution summary for order management, and two food customer stories (Suntory Beverage & Food Spain and Paulig). We also searched for voice or phone ordering tools made for Esker and found none. Seen something that has changed? Tell us and we will fix it."
+   }
+  ]
+ },
+ "mainCta": {
+  "h2": "Esker reads the orders that reach you. Chefs send the ones that used to be calls.",
+  "body": "Twenty minutes is enough to follow an order that would have been a call until it lands with your team, and to see how it could get into your ERP.",
+  "cta": "Book a Free Demo →"
+ }
+}

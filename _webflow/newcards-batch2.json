@@ -1,0 +1,392 @@
+[
+ {
+  "pos": 20,
+  "slug": "netsuite-alternative",
+  "link": "56a266ed-3536-84c8-04b3-53adf4bef057",
+  "title": "aa0de0cc-26d4-b971-f846-cdefeb7de509",
+  "desc": "aa0de0cc-26d4-b971-f846-cdefeb7de50c",
+  "button": "aa0de0cc-26d4-b971-f846-cdefeb7de511",
+  "texts": [
+   "NetSuite",
+   "NetSuite stays your ERP. Kitchens speak their orders and check each line, with no extra module.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 21,
+  "slug": "aptean-alternative",
+  "link": "a31a05ad-adfa-c72f-3e40-2f2a680e0374",
+  "title": "30eca3b1-355f-d5c6-f4fb-ee5bcf22094e",
+  "desc": "30eca3b1-355f-d5c6-f4fb-ee5bcf220951",
+  "button": "30eca3b1-355f-d5c6-f4fb-ee5bcf220956",
+  "texts": [
+   "Aptean",
+   "Aptean keeps lots, catch weights and recalls. Kitchens that call speak their orders instead.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 22,
+  "slug": "acumatica-alternative",
+  "link": "c51570dc-6b90-40e0-13f2-b55fb56ce123",
+  "title": "bc602e94-1436-b4e3-8a21-d8367cea1106",
+  "desc": "bc602e94-1436-b4e3-8a21-d8367cea1109",
+  "button": "bc602e94-1436-b4e3-8a21-d8367cea110e",
+  "texts": [
+   "Acumatica",
+   "Acumatica keeps its portal and the books. Kitchens that never log in speak the order instead.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 23,
+  "slug": "business-central-alternative",
+  "link": "3fabc7fc-18ed-c588-de73-b2efb0a61480",
+  "title": "249b883a-3c07-610f-3492-75e97a12b2a3",
+  "desc": "249b883a-3c07-610f-3492-75e97a12b2a6",
+  "button": "249b883a-3c07-610f-3492-75e97a12b2ab",
+  "texts": [
+   "Business Central",
+   "Business Central stays your ERP. Kitchens check every line before the order is sent.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 24,
+  "slug": "odoo-alternative",
+  "link": "91b44d72-24c2-519d-c123-09153de6fd24",
+  "title": "ef755320-d69d-3f0f-cac9-ca48fe87edb2",
+  "desc": "ef755320-d69d-3f0f-cac9-ca48fe87edb5",
+  "button": "ef755320-d69d-3f0f-cac9-ca48fe87edba",
+  "texts": [
+   "Odoo",
+   "Odoo keeps every app it runs. Chefs say what ran short today and check each line.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 25,
+  "slug": "sage-x3-alternative",
+  "link": "fcf8ffc6-cee1-ded3-6a55-6d6739649fc3",
+  "title": "305d379e-3991-06ed-aef0-91c1f0f7bb17",
+  "desc": "305d379e-3991-06ed-aef0-91c1f0f7bb1a",
+  "button": "305d379e-3991-06ed-aef0-91c1f0f7bb1f",
+  "texts": [
+   "Sage X3",
+   "Sage X3 keeps the setup your partner built. Add the kitchen side: orders spoken and checked.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 26,
+  "slug": "syspro-alternative",
+  "link": "fef69074-341a-40ce-8a53-c185c5ebcf96",
+  "title": "92ab0ed1-f6df-6ff4-8e9b-37680d76a9b7",
+  "desc": "92ab0ed1-f6df-6ff4-8e9b-37680d76a9ba",
+  "button": "92ab0ed1-f6df-6ff4-8e9b-37680d76a9bf",
+  "texts": [
+   "Syspro",
+   "Syspro keeps the plant, stock and books. A kitchen's call becomes a written order it checks.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 27,
+  "slug": "prophet-21-alternative",
+  "link": "fff904c8-0ec4-063e-f38b-0cf9d6d27ae8",
+  "title": "3630395b-e1e8-feca-1d9e-9305ebca80d8",
+  "desc": "3630395b-e1e8-feca-1d9e-9305ebca80db",
+  "button": "3630395b-e1e8-feca-1d9e-9305ebca80e0",
+  "texts": [
+   "Prophet 21",
+   "Prophet 21 keeps order entry and the books. Kitchens speak their own orders, so fewer calls reach inside sales.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 28,
+  "slug": "cin7-alternative",
+  "link": "35e0a91b-d75a-0e22-d8d5-ca32405870cc",
+  "title": "9305cf49-01d5-0b00-026f-9361a00f62de",
+  "desc": "9305cf49-01d5-0b00-026f-9361a00f62e1",
+  "button": "9305cf49-01d5-0b00-026f-9361a00f62e6",
+  "texts": [
+   "Cin7",
+   "Cin7 keeps your stock and channels. Add one for kitchens that phone: a spoken, checked order.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 29,
+  "slug": "zoho-inventory-alternative",
+  "link": "4b3883c1-3658-ccc7-7e6d-e7dbdf4d14e1",
+  "title": "e3d9473d-31d0-ea5f-7cf5-c5bb74a7ff81",
+  "desc": "e3d9473d-31d0-ea5f-7cf5-c5bb74a7ff84",
+  "button": "e3d9473d-31d0-ea5f-7cf5-c5bb74a7ff89",
+  "texts": [
+   "Zoho Inventory",
+   "Zoho Inventory keeps stock and price lists. Restaurants speak orders into an app and check each item.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 30,
+  "slug": "inflow-inventory-alternative",
+  "link": "5c1a1942-2c01-9eae-7eba-21eb55fc7f05",
+  "title": "fbe128e4-3bbb-9837-08bf-a54c505727e3",
+  "desc": "fbe128e4-3bbb-9837-08bf-a54c505727e6",
+  "button": "fbe128e4-3bbb-9837-08bf-a54c505727eb",
+  "texts": [
+   "inFlow Inventory",
+   "inFlow keeps stock and the Showroom. Kitchens that would rather say an order than shop for it can.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 31,
+  "slug": "fishbowl-inventory-alternative",
+  "link": "5ed93ae9-72ab-8354-bf34-9d0dfa095826",
+  "title": "60c56cb6-b82b-e9c0-b5a2-5531193ceae6",
+  "desc": "60c56cb6-b82b-e9c0-b5a2-5531193ceae9",
+  "button": "60c56cb6-b82b-e9c0-b5a2-5531193ceaee",
+  "texts": [
+   "Fishbowl",
+   "Fishbowl keeps stock, picking and the QuickBooks sync. Less gets typed from a phone call.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 32,
+  "slug": "unleashed-software-alternative",
+  "link": "b0317092-b3cc-1d1f-98a8-cc9cb71a7b1f",
+  "title": "654bc591-bed7-4890-338c-99418b333d0d",
+  "desc": "654bc591-bed7-4890-338c-99418b333d10",
+  "button": "654bc591-bed7-4890-338c-99418b333d15",
+  "texts": [
+   "Unleashed",
+   "Unleashed keeps stock and the B2B Store. Chefs speak and check their own orders, so fewer pass through a rep.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 33,
+  "slug": "brightpearl-alternative",
+  "link": "29aa1241-8c14-3c8d-48bf-75b158b9d725",
+  "title": "99127c0c-4ac0-f614-422f-887e2b8dcd0f",
+  "desc": "99127c0c-4ac0-f614-422f-887e2b8dcd12",
+  "button": "99127c0c-4ac0-f614-422f-887e2b8dcd17",
+  "texts": [
+   "Brightpearl",
+   "Brightpearl's rules act on each order. Chefs fix any item first, so the rules act on what they meant.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 34,
+  "slug": "orocommerce-alternative",
+  "link": "458ec0e5-97de-9ebb-31f1-e3a082278fe5",
+  "title": "593d29f3-3634-9bd0-85e9-7e0808746613",
+  "desc": "593d29f3-3634-9bd0-85e9-7e0808746616",
+  "button": "593d29f3-3634-9bd0-85e9-7e080874661b",
+  "texts": [
+   "OroCommerce",
+   "OroCommerce keeps corporate buying. Chefs with a short reorder say it into an app and check it.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 35,
+  "slug": "shopify-b2b-alternative",
+  "link": "05e3d6ba-87f4-7e04-52e5-4a6a104c0013",
+  "title": "73163c48-c9e0-947e-b0da-ced4acb6bdc9",
+  "desc": "73163c48-c9e0-947e-b0da-ced4acb6bdcc",
+  "button": "73163c48-c9e0-947e-b0da-ced4acb6bdd1",
+  "texts": [
+   "Shopify B2B",
+   "Keep the Shopify B2B store. Chefs who would rather call say the order in an app instead.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 36,
+  "slug": "sana-commerce-alternative",
+  "link": "7cfc240a-68af-d6e7-52f6-c194612b3438",
+  "title": "fc08a83d-d657-d572-f26d-ad0a133f4c1f",
+  "desc": "fc08a83d-d657-d572-f26d-ad0a133f4c22",
+  "button": "fc08a83d-d657-d572-f26d-ad0a133f4c27",
+  "texts": [
+   "Sana Commerce",
+   "Sana Commerce serves buyers who log in. Chefs who still call say what they need and check it.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 37,
+  "slug": "b2b-wave-alternative",
+  "link": "fe4ff157-2258-f475-6ad5-e3c442385f66",
+  "title": "9b4afb2d-41e8-35d4-bf51-6cced8adc215",
+  "desc": "9b4afb2d-41e8-35d4-bf51-6cced8adc218",
+  "button": "9b4afb2d-41e8-35d4-bf51-6cced8adc21d",
+  "texts": [
+   "B2B Wave",
+   "B2B Wave keeps the portal and standing orders. A chef who calls approves each item while ordering.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 38,
+  "slug": "repzio-alternative",
+  "link": "aff1a01f-23da-ce5a-b0fc-f8ded8172430",
+  "title": "faa56e25-42b6-bd43-6069-230d83dfe1f4",
+  "desc": "faa56e25-42b6-bd43-6069-230d83dfe1f7",
+  "button": "faa56e25-42b6-bd43-6069-230d83dfe1fc",
+  "texts": [
+   "RepZio",
+   "RepZio helps your reps sell. Restaurants reorder what the rep sold by voice, from your guide.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 39,
+  "slug": "sps-commerce-alternative",
+  "link": "33f87086-17ce-1eb5-4a29-d5a6455eddd7",
+  "title": "5f7ea7a8-04ae-5279-8232-abe4c1a8358d",
+  "desc": "5f7ea7a8-04ae-5279-8232-abe4c1a83590",
+  "button": "5f7ea7a8-04ae-5279-8232-abe4c1a83595",
+  "texts": [
+   "SPS Commerce",
+   "SPS Commerce handles EDI accounts. Restaurants that phone or text say the order and check it.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 40,
+  "slug": "truecommerce-alternative",
+  "link": "55766cb6-3713-1010-ddfd-2ef464419601",
+  "title": "7bb51cea-ce2a-cfb8-9b2a-d31cfa1974a2",
+  "desc": "7bb51cea-ce2a-cfb8-9b2a-d31cfa1974a5",
+  "button": "7bb51cea-ce2a-cfb8-9b2a-d31cfa1974aa",
+  "texts": [
+   "TrueCommerce",
+   "TrueCommerce connects your EDI partners. Restaurants that still phone get an app to say each order.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 41,
+  "slug": "conexiom-alternative",
+  "link": "d15721c1-44a3-404e-c7b6-bc0ed9585f63",
+  "title": "5fca9934-49f0-5c99-1cd8-4c71cddd5ab8",
+  "desc": "5fca9934-49f0-5c99-1cd8-4c71cddd5abb",
+  "button": "5fca9934-49f0-5c99-1cd8-4c71cddd5ac0",
+  "texts": [
+   "Conexiom",
+   "Conexiom reads emailed purchase orders. Restaurants that phone speak orders from your guide.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 42,
+  "slug": "esker-alternative",
+  "link": "b43ce80d-2f4b-c6f9-a09c-b9eacebe6808",
+  "title": "a3291d2e-26e1-be39-3b72-ba86bedef6fd",
+  "desc": "a3291d2e-26e1-be39-3b72-ba86bedef700",
+  "button": "a3291d2e-26e1-be39-3b72-ba86bedef705",
+  "texts": [
+   "Esker",
+   "Esker processes what reaches your inbox. Add the orders that start outside it, spoken and checked.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 43,
+  "slug": "tradegecko-alternative",
+  "link": "7fea7c6e-870c-0d66-6ec3-b6892b4452e4",
+  "title": "10c3696b-f7b7-a965-77be-a3e30ab190c4",
+  "desc": "10c3696b-f7b7-a965-77be-a3e30ab190c7",
+  "button": "10c3696b-f7b7-a965-77be-a3e30ab190cc",
+  "texts": [
+   "TradeGecko",
+   "TradeGecko closed. Replace the ordering part only: restaurants say each order in an app.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 44,
+  "slug": "toast-pos-alternative",
+  "link": "1b0125fe-2222-adaf-a2da-21ad95b120ff",
+  "title": "e74b0d47-ac13-ae24-87e6-3abad8212116",
+  "desc": "e74b0d47-ac13-ae24-87e6-3abad8212119",
+  "button": "e74b0d47-ac13-ae24-87e6-3abad821211e",
+  "texts": [
+   "Toast",
+   "Toast takes your guests' orders. Speak your own order to a distributor that offers our app.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 45,
+  "slug": "lightspeed-pos-alternative",
+  "link": "b85ec1f5-eae1-34f1-3c7f-948e98aa12bf",
+  "title": "ecc12709-5730-765d-71f0-8dcad960f0b2",
+  "desc": "ecc12709-5730-765d-71f0-8dcad960f0b5",
+  "button": "ecc12709-5730-765d-71f0-8dcad960f0ba",
+  "texts": [
+   "Lightspeed",
+   "Keep Lightspeed for guests and stock. Speak the supply order to a distributor on our app.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 46,
+  "slug": "touchbistro-alternative",
+  "link": "b0547241-3711-e965-69b0-26c20b2c32ad",
+  "title": "a4b8a604-b802-7740-9c66-eb76fc9d5b70",
+  "desc": "a4b8a604-b802-7740-9c66-eb76fc9d5b73",
+  "button": "a4b8a604-b802-7740-9c66-eb76fc9d5b78",
+  "texts": [
+   "TouchBistro",
+   "TouchBistro keeps running service. Say the supply order to a distributor on our app.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 47,
+  "slug": "lavu-pos-alternative",
+  "link": "cd1a4f61-9293-7c19-1f3f-a43921453bdb",
+  "title": "6620f619-9855-3e09-f32e-4530d7b5f266",
+  "desc": "6620f619-9855-3e09-f32e-4530d7b5f269",
+  "button": "6620f619-9855-3e09-f32e-4530d7b5f26e",
+  "texts": [
+   "Lavu",
+   "Lavu logs supply orders but sends nothing. With a distributor on our app, say it and send it.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 48,
+  "slug": "altametrics-alternative",
+  "link": "8cdb8f0d-2f1d-8bfc-6d4c-a4cbac04c88d",
+  "title": "8e89452d-5aba-dd11-b679-4d4b39859b3d",
+  "desc": "8e89452d-5aba-dd11-b679-4d4b39859b40",
+  "button": "8e89452d-5aba-dd11-b679-4d4b39859b45",
+  "texts": [
+   "Altametrics",
+   "Altametrics keeps shifts, cash and reports. Say the supply order to a distributor on our app.",
+   "See how it fits"
+  ]
+ },
+ {
+  "pos": 49,
+  "slug": "crunchtime-alternative",
+  "link": "5c7d6545-55dd-d1a9-b635-23c36c482d71",
+  "title": "92ff8af0-57af-1cd2-8925-c3503b9d4c49",
+  "desc": "92ff8af0-57af-1cd2-8925-c3503b9d4c4c",
+  "button": "92ff8af0-57af-1cd2-8925-c3503b9d4c51",
+  "texts": [
+   "Crunchtime",
+   "Crunchtime keeps counts and forecasts. Speak the order to a local distributor that offers our app.",
+   "See how it fits"
+  ]
+ }
+]

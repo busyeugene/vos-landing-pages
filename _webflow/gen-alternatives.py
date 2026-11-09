@@ -95,6 +95,48 @@ OPERATOR_CARDS = [
 ]
 
 
+# Batch 2 (2026-11-09): 24 distributor cards (inserted after Fresho) and 6 operator cards (after
+# Restaurant365). Copied from the Fresho card via a temporary component (`TMP b2 alt card`,
+# unlinked and unregistered, 0 left). Element ids, in grid order, are in newcards-batch2.json.
+# Each line is cut down from that page's reviewed registry blurb; operator cards keep the
+# "distributor that offers our app" condition. Recorded here as the source of truth; the push was
+# done by hand from these lists and read back from the stored tree (50 cards, 30/30 exact).
+BATCH2_DIST_CARDS = [
+ ('netsuite-alternative', 'NetSuite', 'NetSuite stays your ERP. Kitchens speak their orders and check each line, with no extra module.'),
+ ('aptean-alternative', 'Aptean', 'Aptean keeps lots, catch weights and recalls. Kitchens that call speak their orders instead.'),
+ ('acumatica-alternative', 'Acumatica', 'Acumatica keeps its portal and the books. Kitchens that never log in speak the order instead.'),
+ ('business-central-alternative', 'Business Central', 'Business Central stays your ERP. Kitchens check every line before the order is sent.'),
+ ('odoo-alternative', 'Odoo', 'Odoo keeps every app it runs. Chefs say what ran short today and check each line.'),
+ ('sage-x3-alternative', 'Sage X3', 'Sage X3 keeps the setup your partner built. Add the kitchen side: orders spoken and checked.'),
+ ('syspro-alternative', 'Syspro', "Syspro keeps the plant, stock and books. A kitchen's call becomes a written order it checks."),
+ ('prophet-21-alternative', 'Prophet 21', 'Prophet 21 keeps order entry and the books. Kitchens speak their own orders, so fewer calls reach inside sales.'),
+ ('cin7-alternative', 'Cin7', 'Cin7 keeps your stock and channels. Add one for kitchens that phone: a spoken, checked order.'),
+ ('zoho-inventory-alternative', 'Zoho Inventory', 'Zoho Inventory keeps stock and price lists. Restaurants speak orders into an app and check each item.'),
+ ('inflow-inventory-alternative', 'inFlow Inventory', 'inFlow keeps stock and the Showroom. Kitchens that would rather say an order than shop for it can.'),
+ ('fishbowl-inventory-alternative', 'Fishbowl', 'Fishbowl keeps stock, picking and the QuickBooks sync. Less gets typed from a phone call.'),
+ ('unleashed-software-alternative', 'Unleashed', 'Unleashed keeps stock and the B2B Store. Chefs speak and check their own orders, so fewer pass through a rep.'),
+ ('brightpearl-alternative', 'Brightpearl', "Brightpearl's rules act on each order. Chefs fix any item first, so the rules act on what they meant."),
+ ('orocommerce-alternative', 'OroCommerce', 'OroCommerce keeps corporate buying. Chefs with a short reorder say it into an app and check it.'),
+ ('shopify-b2b-alternative', 'Shopify B2B', 'Keep the Shopify B2B store. Chefs who would rather call say the order in an app instead.'),
+ ('sana-commerce-alternative', 'Sana Commerce', 'Sana Commerce serves buyers who log in. Chefs who still call say what they need and check it.'),
+ ('b2b-wave-alternative', 'B2B Wave', 'B2B Wave keeps the portal and standing orders. A chef who calls approves each item while ordering.'),
+ ('repzio-alternative', 'RepZio', 'RepZio helps your reps sell. Restaurants reorder what the rep sold by voice, from your guide.'),
+ ('sps-commerce-alternative', 'SPS Commerce', 'SPS Commerce handles EDI accounts. Restaurants that phone or text say the order and check it.'),
+ ('truecommerce-alternative', 'TrueCommerce', 'TrueCommerce connects your EDI partners. Restaurants that still phone get an app to say each order.'),
+ ('conexiom-alternative', 'Conexiom', 'Conexiom reads emailed purchase orders. Restaurants that phone speak orders from your guide.'),
+ ('esker-alternative', 'Esker', 'Esker processes what reaches your inbox. Add the orders that start outside it, spoken and checked.'),
+ ('tradegecko-alternative', 'TradeGecko', 'TradeGecko closed. Replace the ordering part only: restaurants say each order in an app.'),
+]
+BATCH2_OPERATOR_CARDS = [
+ ('toast-pos-alternative', 'Toast', "Toast takes your guests' orders. Speak your own order to a distributor that offers our app."),
+ ('lightspeed-pos-alternative', 'Lightspeed', 'Keep Lightspeed for guests and stock. Speak the supply order to a distributor on our app.'),
+ ('touchbistro-alternative', 'TouchBistro', 'TouchBistro keeps running service. Say the supply order to a distributor on our app.'),
+ ('lavu-pos-alternative', 'Lavu', 'Lavu logs supply orders but sends nothing. With a distributor on our app, say it and send it.'),
+ ('altametrics-alternative', 'Altametrics', 'Altametrics keeps shifts, cash and reports. Say the supply order to a distributor on our app.'),
+ ('crunchtime-alternative', 'Crunchtime', 'Crunchtime keeps counts and forecasts. Speak the order to a local distributor that offers our app.'),
+]
+
+
 def operator_card_ops():
     import json as _j
     nc = _j.load(io.open(os.path.join(HERE, 'newcards.json'), encoding='utf-8'))
