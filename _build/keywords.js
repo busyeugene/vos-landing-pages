@@ -390,6 +390,60 @@ module.exports = {
       'better than aptean',
     ],
   },
+  'brightpearl-alternative': {
+    primary: 'brightpearl alternative',
+    secondary: [
+      'brightpearl competitor',
+      'brightpearl replacement',
+      'alternative to brightpearl',
+      'better than brightpearl',
+    ],
+  },
+  'unleashed-software-alternative': {
+    primary: 'unleashed software alternative',
+    secondary: [
+      'unleashed software competitor',
+      'unleashed software replacement',
+      'alternative to unleashed software',
+      'better than unleashed software',
+    ],
+  },
+  'fishbowl-inventory-alternative': {
+    primary: 'fishbowl inventory alternative',
+    secondary: [
+      'fishbowl inventory competitor',
+      'fishbowl inventory replacement',
+      'alternative to fishbowl inventory',
+      'better than fishbowl inventory',
+    ],
+  },
+  'inflow-inventory-alternative': {
+    primary: 'inflow inventory alternative',
+    secondary: [
+      'inflow inventory competitor',
+      'inflow inventory replacement',
+      'alternative to inflow inventory',
+      'better than inflow inventory',
+    ],
+  },
+  'zoho-inventory-alternative': {
+    primary: 'zoho inventory alternative',
+    secondary: [
+      'zoho inventory competitor',
+      'zoho inventory replacement',
+      'alternative to zoho inventory',
+      'better than zoho inventory',
+    ],
+  },
+  'cin7-alternative': {
+    primary: 'cin7 alternative',
+    secondary: [
+      'cin7 competitor',
+      'cin7 replacement',
+      'alternative to cin7',
+      'better than cin7',
+    ],
+  },
   'prophet-21-alternative': {
     primary: 'prophet 21 alternative',
     secondary: [

@@ -161,6 +161,30 @@
       "destination": "/vos-aptean-alternative-landing.html"
     },
     {
+      "source": "/brightpearl-alternative",
+      "destination": "/vos-brightpearl-alternative-landing.html"
+    },
+    {
+      "source": "/unleashed-software-alternative",
+      "destination": "/vos-unleashed-software-alternative-landing.html"
+    },
+    {
+      "source": "/fishbowl-inventory-alternative",
+      "destination": "/vos-fishbowl-inventory-alternative-landing.html"
+    },
+    {
+      "source": "/inflow-inventory-alternative",
+      "destination": "/vos-inflow-inventory-alternative-landing.html"
+    },
+    {
+      "source": "/zoho-inventory-alternative",
+      "destination": "/vos-zoho-inventory-alternative-landing.html"
+    },
+    {
+      "source": "/cin7-alternative",
+      "destination": "/vos-cin7-alternative-landing.html"
+    },
+    {
       "source": "/prophet-21-alternative",
       "destination": "/vos-prophet-21-alternative-landing.html"
     },

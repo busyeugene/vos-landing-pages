@@ -18,8 +18,20 @@ systems (use the safe wording); TradeGecko = an honest replacement page, "be eas
 **Built, gated, reviewed (5 reviewers + verification round), pushed:** netsuite, odoo, acumatica,
 business-central, sage-x3, syspro, prophet-21, aptean (`/alternatives/<x>-alternative`, distributor pages,
 digests dated 2026-11-09 in `_build/research/competitors/`). All gates 0, promote 1/11 each.
-**Next waves (none started):** 2 inventory (Cin7, Zoho Inventory, inFlow, Fishbowl, Unleashed, Brightpearl);
-3 webshops/EDI/order capture (OroCommerce, Shopify B2B, Sana, B2B Wave, RepZio, SPS Commerce, TrueCommerce,
+**Wave 2 DONE (same day, pushed):** cin7, zoho-inventory, inflow-inventory, fishbowl-inventory,
+unleashed-software, brightpearl. Same recipe; the agents started from `_build/research/batch2-2026-11/
+wave1-review-fixes.md` (S1-S10), and the review still found a full list (FIXES2: stock wording, prices in two
+places, call-in rows, re-angles). Inventory-page lessons: (1) on a stock-system page never imply we see,
+count or update stock ("on its own", "catalog follows stock" read as competing with their system; stock
+levels reaching the app is a demo question); (2) the canonical "Over EDI, the API or QuickBooks, nobody
+retypes it" is FALSE where the stock system/ERP is not QuickBooks: on all 14 batch-2 pages it is now "Over
+EDI or the API, when your setup takes it, nobody retypes it" (the 12 older compare pages keep the original);
+(3) say once and early that email orders are still entered by the desk; (4) never "prices sync" either way;
+(5) Cin7 owns "channels", Unleashed "who enters it (reps)", Brightpearl "accuracy before automation",
+Fishbowl "the first typing is the one left + QuickBooks", inFlow "Showroom promised no more phone orders",
+Zoho "portal takes payments, not orders". (6) When agents share the main checkout, `git` worktrees for the
+build step and the main checkout for dedupe/fix passes worked; give each a private scratch folder.
+**Next waves (none started):** 3 webshops/EDI/order capture (OroCommerce, Shopify B2B, Sana, B2B Wave, RepZio, SPS Commerce, TrueCommerce,
 Conexiom, Esker); 4 restaurant OPERATOR pages (Toast, Lightspeed, TouchBistro, Lavu, Altametrics, Crunchtime:
 "voice ordering" on a POS page reads as guest phone ordering, so say ordering from your distributor; Toast
 overlaps xtrachef); 5 TradeGecko (discontinued 2021: no "Keep X").
