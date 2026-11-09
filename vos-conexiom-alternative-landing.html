@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not a Conexiom Alternative: Keep Conexiom, Add Voice Ordering</title>
+  <meta name="description" content="Conexiom reads the POs your customers email. Restaurants that phone can speak orders from a guide in your item codes. Not a Conexiom alternative: keep it." />
+  <link rel="canonical" href="https://vos-landing-pages.vercel.app/conexiom-alternative" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VoiceOrder Solutions" />
+  <meta property="og:title" content="Not a Conexiom Alternative: Keep Conexiom, Add Voice Ordering" />
+  <meta property="og:description" content="Conexiom reads the POs your customers email. Restaurants that phone can speak orders from a guide in your item codes. Not a Conexiom alternative: keep it." />
+  <meta property="og:url" content="https://vos-landing-pages.vercel.app/conexiom-alternative" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Not a Conexiom Alternative: Keep Conexiom, Add Voice Ordering" />
+  <meta name="twitter:description" content="Conexiom reads the POs your customers email. Restaurants that phone can speak orders from a guide in your item codes. Not a Conexiom alternative: keep it." />
+
+<style>
+    /* ── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* ── Brand Tokens ─────────────────────────────────────────── */
+    :root {
+      --color-primary:     #2D1B6E;   /* Deep purple – VOS brand */
+      --color-accent:      #0BB5E0;   /* Bright cyan-blue – stats, CTAs */
+      --color-accent-hover:#0998C0;
+      --color-light-bg:    #f5f7fa;
+      --color-mid-bg:      #eef0f4;
+      --color-dark-bg:     #2D1B6E;
+      --color-text:        #1a1a1a;
+      --color-text-muted:  #5a6478;
+      --color-white:       #ffffff;
+      --radius:            8px;
+      --max-width:         1160px;
+      --section-pad:       80px 24px;
+    }
+
+    /* ── Layout Helpers ───────────────────────────────────────── */
+    .container   { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: var(--section-pad); }
+    .text-center { text-align: center; }
+    .text-muted  { color: var(--color-text-muted); }
+    .bg-light    { background: var(--color-light-bg); }
+    .bg-mid      { background: var(--color-mid-bg); }
+    .bg-dark     { background: var(--color-dark-bg); color: var(--color-white); }
+
+    /* ── Typography ───────────────────────────────────────────── */
+    h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 600; line-height: 1.25; }
+    h4 { font-size: 18px; font-weight: 600; }
+    p  { font-size: 17px; line-height: 1.7; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .lead { font-size: 20px; line-height: 1.6; color: var(--color-text-muted); max-width: 620px; }
+
+    /* ── Buttons ──────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 600; text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary { background: #111827; color: var(--color-white); }
+    .btn-primary:hover { background: #1f2937; transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent; color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-outline-white {
+      background: transparent; color: var(--color-white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .btn-outline:hover      { background: var(--color-primary); color: #fff; }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.15); }
+    .btn-lg { padding: 18px 36px; font-size: 17px; }
+
+    /* ── Image Placeholder ─────────────────────────────────────── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #dde3ed 0%, #c8d0de 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #8a93a6; font-size: 14px; font-weight: 500; text-align: center;
+      padding: 24px; min-height: 320px;
+      border: 1px solid #cdd3de;
+    }
+    .img-placeholder.tall { min-height: 440px; }
+
+    /* ── Navbar ───────────────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--color-white);
+      border-bottom: 1px solid #e4e7ed;
+      padding: 0 24px;
+    }
+    .navbar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 24px;
+    }
+    .navbar-logo {
+      font-size: 18px; font-weight: 800; color: var(--color-primary);
+      text-decoration: none; letter-spacing: -0.02em;
+    }
+    .navbar-logo span { color: var(--color-accent); }
+    .navbar-links { display: flex; gap: 28px; list-style: none; }
+    .navbar-links a {
+      color: var(--color-text-muted); text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: color 0.2s;
+    }
+    .navbar-links a:hover { color: var(--color-primary); }
+    .navbar-cta { display: flex; gap: 10px; }
+    @media (max-width: 768px) { .navbar-links { display: none; } }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white);
+      padding: 96px 24px 80px;
+    }
+    .hero-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+    }
+    .hero h1 { color: var(--color-white); margin-bottom: 20px; }
+    .hero .lead { color: rgba(255,255,255,0.8); margin-bottom: 36px; }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 13px; color: rgba(255,255,255,0.55); flex-wrap: wrap;
+    }
+    .hero-trust-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+    }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero { padding: 64px 24px 56px; }
+    }
+
+    /* ── Logo Bar ─────────────────────────────────────────────── */
+    .logo-bar { padding: 36px 24px; border-bottom: 1px solid #e8eaed; }
+    .logo-bar-inner {
+      max-width: var(--max-width); margin: 0 auto;
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 40px;
+    }
+    .logo-bar-label { font-size: 13px; color: var(--color-text-muted); font-weight: 500; white-space: nowrap; }
+    .logo-slot {
+      background: #e8eaed; border-radius: 6px;
+      width: 110px; height: 36px; display: flex;
+      align-items: center; justify-content: center;
+      font-size: 12px; color: #9aa0ad;
+    }
+
+    /* ── Stats Strip ──────────────────────────────────────────── */
+    .stats-strip { background: var(--color-accent); padding: 48px 24px; }
+    .stats-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; text-align: center;
+    }
+    .stat-number {
+      font-size: clamp(36px, 5vw, 56px); font-weight: 800;
+      color: var(--color-white); line-height: 1; margin-bottom: 8px;
+    }
+    .stat-label { font-size: 15px; color: rgba(255,255,255,0.9); }
+    @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ── Problem Section ──────────────────────────────────────── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 48px;
+    }
+    .problem-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+    }
+    .problem-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: #ede9fe; display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 22px;
+    }
+    @media (max-width: 768px) { .problem-grid { grid-template-columns: 1fr; } }
+
+    /* ── Feature Alternating Rows ────────────────────────────── */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+      max-width: var(--max-width); margin: 0 auto;
+    }
+    .feature-row.reverse { direction: rtl; }
+    .feature-row.reverse > * { direction: ltr; }
+    .feature-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .feature-bullets li { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; }
+    .bullet-check {
+      flex-shrink: 0; width: 22px; height: 22px;
+      background: #e0f7fd; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-accent); font-size: 12px; margin-top: 2px;
+    }
+    .feature-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 24px; color: var(--color-accent);
+      font-weight: 600; font-size: 15px; text-decoration: none;
+    }
+    .feature-link:hover { text-decoration: underline; }
+    @media (max-width: 900px) {
+      .feature-row, .feature-row.reverse { grid-template-columns: 1fr; direction: ltr; gap: 36px; }
+    }
+
+    /* ── Feature Cards Grid ───────────────────────────────────── */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .feature-card {
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .feature-card-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: var(--color-light-bg); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 18px;
+    }
+    @media (max-width: 900px) { .cards-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 580px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ── How It Works ─────────────────────────────────────────── */
+    .steps-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 32px; margin-top: 48px; position: relative;
+    }
+    .step-card { text-align: center; padding: 0 16px; }
+    .step-number {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--color-accent); color: #fff;
+      font-size: 22px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    @media (max-width: 700px) { .steps-grid { grid-template-columns: 1fr; } }
+
+    /* ── Testimonials ─────────────────────────────────────────── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 32px;
+    }
+    .testimonial-card.featured {
+      background: var(--color-primary); color: var(--color-white);
+      border-color: transparent;
+    }
+    .testimonial-stars { color: #f5a623; font-size: 18px; margin-bottom: 16px; }
+    .testimonial-quote { font-size: 17px; line-height: 1.65; margin-bottom: 24px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .author-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #dde3ed; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #8a93a6;
+    }
+    .author-name { font-weight: 600; font-size: 15px; }
+    .author-role { font-size: 13px; color: var(--color-text-muted); }
+    .testimonial-card.featured .author-role { color: rgba(255,255,255,0.6); }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* ── Integrations ─────────────────────────────────────────── */
+    .integrations-logos {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin-top: 40px;
+    }
+    .integration-badge {
+      background: var(--color-white);
+      border: 1px solid #e4e7ed; border-radius: 10px;
+      padding: 14px 24px; display: flex;
+      align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 600; color: var(--color-text);
+    }
+    .integration-logo-placeholder {
+      width: 28px; height: 28px; background: #dde3ed;
+      border-radius: 6px; flex-shrink: 0;
+    }
+
+    /* ── Comparison Table ─────────────────────────────────────── */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin-top: 48px; border-radius: 12px; overflow: hidden;
+      border: 1px solid #e4e7ed;
+    }
+    .comparison-table th {
+      background: var(--color-primary); color: #fff;
+      padding: 18px 24px; font-size: 15px; text-align: left;
+    }
+    .comparison-table th.highlight { background: var(--color-accent); }
+    .comparison-table td { padding: 16px 24px; border-bottom: 1px solid #e8eaed; font-size: 15px; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--color-light-bg); }
+    .check-yes { color: #2a9d48; font-size: 18px; font-weight: 700; }
+    .check-no  { color: #c0c4cc; font-size: 18px; }
+
+    /* ── FAQ ──────────────────────────────────────────────────── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+    .faq-item { border: 1px solid #e4e7ed; border-radius: var(--radius); overflow: hidden; }
+    .faq-question {
+      width: 100%; background: var(--color-white); border: none; padding: 22px 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 17px; font-weight: 600; text-align: left;
+      cursor: pointer; color: var(--color-text);
+    }
+    .faq-question:hover { background: var(--color-light-bg); }
+    .faq-icon { font-size: 22px; color: var(--color-text-muted); flex-shrink: 0; }
+    .faq-answer {
+      padding: 0 28px 22px;
+      font-size: 16px; color: var(--color-text-muted); line-height: 1.7;
+      background: var(--color-white);
+    }
+
+    /* ── Final CTA ─────────────────────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(135deg, #4A1FA8 0%, #1354CC 100%);
+      color: var(--color-white); padding: 100px 24px; text-align: center;
+    }
+    .final-cta h2 { color: var(--color-white); max-width: 640px; margin: 0 auto 16px; }
+    .final-cta p  { color: rgba(255,255,255,0.75); font-size: 18px; margin-bottom: 36px; }
+    .final-cta-form {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .final-cta-form input {
+      padding: 16px 20px; border-radius: var(--radius); border: none;
+      font-size: 16px; width: 280px; max-width: 100%;
+    }
+    .final-cta-trust {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    .footer { background: #1a0f47; color: rgba(255,255,255,0.6); padding: 60px 24px 32px; }
+    .footer-grid {
+      max-width: var(--max-width); margin: 0 auto;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 48px;
+    }
+    .footer-brand-name { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .footer-brand-name span { color: var(--color-accent); }
+    .footer-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+    .footer-col h5 {
+      color: #fff; font-size: 13px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; }
+    .footer-col ul a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: var(--max-width); margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; flex-wrap: wrap; gap: 12px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+    /* ── Utilities ────────────────────────────────────────────── */
+    .mt-12 { margin-top: 12px; }
+    .mt-16 { margin-top: 16px; }
+    .mt-24 { margin-top: 24px; }
+    .mt-32 { margin-top: 32px; }
+    .mt-48 { margin-top: 48px; }
+    .mb-8  { margin-bottom: 8px; }
+    .mb-16 { margin-bottom: 16px; }
+    .gap-8 { gap: 8px; }
+
+    /* ── Related Pages Strip ──────────────────────────────────── */
+    .related-strip { background: var(--color-light-bg); border-top: 1px solid #e4e7ed; padding: 72px 24px; }
+    .related-head  { text-align: center; max-width: 620px; margin: 0 auto 44px; }
+    .related-grid  { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: var(--max-width); margin: 0 auto; }
+    .related-card  {
+      display: flex; flex-direction: column; background: #fff;
+      border: 1px solid #e4e7ed; border-radius: 12px; padding: 26px;
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .related-card:hover { box-shadow: 0 12px 32px rgba(45,27,110,0.10); transform: translateY(-3px); border-color: #d6dbe6; }
+    .related-card-kw {
+      align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--color-primary); background: #ede9fe;
+      padding: 5px 10px; border-radius: 6px; margin-bottom: 16px;
+    }
+    .related-card h3 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
+    .related-card p  { font-size: 14.5px; color: var(--color-text-muted); margin-bottom: 18px; flex-grow: 1; line-height: 1.55; }
+    .related-card-link { font-size: 14px; font-weight: 600; color: var(--color-accent); }
+    @media (max-width: 900px) { .related-grid { grid-template-columns: 1fr; } }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do we need a Conexiom alternative for spoken restaurant orders?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Conexiom goes on reading the POs customers email you, and none of its rules change. VoiceOrder Solutions is for the restaurants that call: the chef names each item aloud in our app, sees each one matched to a product on the guide for that kitchen, and reviews it all before it goes to you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is VoiceOrder Solutions better than Conexiom?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "At one thing: getting a restaurant that still calls to send its order already matched to your catalog. Reading POs, invoices and other paperwork in whatever layout it arrives is Conexiom's work, so we work next to it and are not a Conexiom alternative."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Conexiom reads text messages. Why not ask chefs to text?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A text comes in the chef's own shorthand, such as \"romaine, two\", so Relay still has to work out which of your products it means. In our app, each spoken item is matched to the restaurant's own guide, and the chef sees which of your products was picked before sending."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it connect to Conexiom, and do we still key orders in by hand?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not directly. They come from two different companies, no link joins them as standard, and each company looks after its own software only. Over EDI or our API, the chef's order can go into your ERP and nobody types it again, if your ERP is set up for it; we check that in a demo. By email, you get it as an attachment. Whether your Conexiom setup can read that file is something to ask Conexiom: we have built nothing for it and make no promise. If it cannot, one of your people keys it in from the list the chef already checked, with no call to take, write down and read back. Your accounts, your stock and your invoices still live in your ERP. We hold the restaurant guides, the prices on them, and copies of what chefs send through the app."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Conexiom maps each customer's format. What does adding a restaurant take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Conexiom's FAQ describes mapping each customer's PO format with your customer service team, usually rolling out to a handful of customers first. A new restaurant needs no mapping, because there is no customer format to learn: the guide starts from what you already sell that restaurant, and the chef's spoken order is matched to it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long until we are live, and what does it cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most distributors are up and running in 24 to 48 hours, with no change made in Conexiom. You send us the items each account usually orders, most often as a spreadsheet export, and we load them into our admin and set up every account. Once the restaurants have the app on their phones, most of them order the same day. Conexiom sells by subscription and quotes each business, with no price on its site, and we quote per distributor too. A Conexiom replacement would mean rebuilding every customer's mapping and rules in another reader, a separate job from putting an app in front of the chefs still calling you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the app get every item right?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not always. It turns the chef's words into items from the guide, and a chef can overlook a wrong one or change their mind once it is sent. The difference is that the person who decided the order reads it on screen before it goes, and each item the app matches comes from that kitchen's guide."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do the Conexiom details on this page come from?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "From conexiom.com, as we read it on 9 November 2026: the homepage, the Platform, Relay, Headless Platform and Solutions pages, its FAQ and About pages, and its glossary pages on line item capture, price checks and unit conversion. Searching the web that day turned up no voice or call ordering tool for Conexiom. If any of it has moved on, write to us and we will correct the page."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "VoiceOrder Solutions Features",
+        "item": "https://vos-landing-pages.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Conexiom + VoiceOrder Solutions",
+        "item": "https://vos-landing-pages.vercel.app/conexiom-alternative"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VoiceOrder Solutions",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "description": "Conexiom reads the POs your customers email. Restaurants that phone can speak orders from a guide in your item codes. Not a Conexiom alternative: keep it.",
+    "url": "https://vos-landing-pages.vercel.app/conexiom-alternative",
+    "publisher": {
+      "@type": "Organization",
+      "name": "VoiceOrder Solutions",
+      "url": "https://www.voiceordersolutions.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+
+<!-- ============================================================
+     SECTION 1: STICKY NAVIGATION
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="https://www.voiceordersolutions.com/" class="navbar-logo">VoiceOrder<span> Solutions</span></a>
+
+    <ul class="navbar-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#integrations">Integrations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="navbar-cta">
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-outline" style="padding:10px 18px; font-size:14px;">Login</a>
+      <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:10px 18px; font-size:14px;">Book a Demo</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 2: HERO
+     ============================================================ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-grid">
+
+    <div>
+      <span class="eyebrow">For Food Distributors</span>
+      <h1>Not A Conexiom Alternative: Orders From Your Catalog</h1>
+      <p class="lead mt-16">
+        Get orders from the restaurants that still phone, picked from a guide in your own item numbers and prices. With VoiceOrder Solutions, each chef tells our app what the kitchen needs and reviews every item before it is sent. Conexiom keeps turning the POs your other customers email into ERP-ready orders.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+        <a href="#comparison" class="btn btn-outline-white btn-lg">See What Changes</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>Conexiom left as set up</span>
+        <span class="hero-trust-dot"></span>
+        <span>Guides carry your SKUs</span>
+        <span class="hero-trust-dot"></span>
+        <span>iOS + Android</span>
+      </div>
+    </div>
+
+    <div>
+      <!-- DEVS: Replace with VOS product screenshot (the "Push to Speak" mobile UI) -->
+      <div class="img-placeholder tall">
+        📸 Screenshot:<br>VoiceOrder Solutions "Push to Speak"<br>screen with the order review list
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: LOGO BAR
+     ============================================================ -->
+<section class="logo-bar" aria-label="Customer logos">
+  <div class="logo-bar-inner">
+    <span class="logo-bar-label">Trusted by food distributors and the restaurants they serve</span>
+    <!-- DEVS: Replace with actual customer logos -->
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+    <div class="logo-slot">Distributor</div>
+    <div class="logo-slot">Restaurant</div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: STATS STRIP
+     ============================================================ -->
+<section class="stats-strip" aria-label="Key results">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-number">20-30 Min</div>
+      <div class="stat-label">Saved on each order a chef sends in the app, not by phone</div>
+    </div>
+    <div>
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">When a chef who once phoned can send tomorrow's order</div>
+    </div>
+    <div>
+      <div class="stat-number">24-48 Hrs</div>
+      <div class="stat-label">For most distributors to go live, with Conexiom unchanged</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: COMPARISON TABLE
+     Conexiom reads documents customers write; most rows are its strengths and go to both
+     columns. The three that differ are about the restaurant that phones.
+     ============================================================ -->
+<section class="section-pad bg-mid" id="comparison" aria-label="Comparison">
+  <div class="container">
+    <div class="text-center" style="max-width: 640px; margin: 0 auto;">
+      <span class="eyebrow">Your Codes From The Start</span>
+      <h2>Conexiom reads what customers send.<br>Our app starts each order from your guide.</h2>
+      <p class="lead mt-16">
+        Any restaurant that orders by calling you gets our app with a guide of your products, so what its chef says is matched to your list. Conexiom is at its best on purchase orders written in each customer's own layout and part numbers, which it matches to yours, and a calling restaurant produces no such document. Keep both: ours is not a Conexiom alternative, and no link between them comes built in.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto; margin-top: 0;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th style="width:40%;">Feature</th>
+            <th class="highlight" style="width:30%;">Conexiom + VoiceOrder Solutions</th>
+            <th style="width:30%;">Conexiom on its own</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Emailed PDF and spreadsheet POs converted for your ERP</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>A restaurant that used to call sends a list built from your guide</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Keyed in by your team, unless the customer agrees to email a PO</td>
+          </tr>
+          <tr>
+            <td>A customer's own part numbers matched to your items</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Every restaurant gets a guide of your items at its prices</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>Customers order from their own documents</td>
+          </tr>
+          <tr>
+            <td>Prices on incoming POs checked against your pricing</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Texts and notes written by hand read into orders</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Late at night, a chef who would have called still gets an order in</td>
+            <td><span class="check-yes">✓</span></td>
+            <td>The call waits for someone to answer it</td>
+          </tr>
+          <tr>
+            <td>Problems on an incoming PO flagged in plain words</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Supplier invoices matched to your POs, too</td>
+            <td><span class="check-yes">✓</span></td>
+            <td><span class="check-yes">✓</span></td>
+          </tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="border-bottom:none;"></td>
+            <td style="border-bottom:none;padding:20px 24px;">
+              <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary" style="padding:11px 20px;font-size:14px;width:100%;justify-content:center;">Book a Demo →</a>
+            </td>
+            <td style="border-bottom:none;"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: WHY TEAMS LOOK ELSEWHERE
+     ============================================================ -->
+<section class="section-pad bg-light" id="problem" aria-label="Problem statement">
+  <div class="container">
+    <div class="text-center" style="max-width: 660px; margin: 0 auto;">
+      <span class="eyebrow">What A Call Leaves Out</span>
+      <h2>What can Conexiom read when a restaurant phones?</h2>
+      <p class="lead mt-16">
+        Conexiom's work starts with a document a customer writes its own way, and Relay, its order reader, turns it into an order your ERP can take. A restaurant that only phones writes nothing for it to read. An order from our app that reaches you by email is still entered by your team, but each item on it was checked by the chef first.
+      </p>
+    </div>
+
+    <div class="problem-grid">
+
+      <div class="problem-card">
+        <div class="problem-icon">☎️</div>
+        <h4>Calls are missing from its list of formats</h4>
+        <p class="text-muted mt-12">
+          Relay reads email, PDFs, images, spreadsheets, text messages, ecommerce orders and handwritten notes. Speech is not among them. Conexiom's own FAQ answers phone orders by asking that customers email them in.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">🔤</div>
+        <h4>Every customer names items its own way</h4>
+        <p class="text-muted mt-12">
+          Conexiom's pages say each trading partner has its own layout, part numbering and quirks. Relay matches what each customer writes to your items, using your master data and your rules, and hands your team any it cannot place, with the reason.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">🧩</div>
+        <h4>Conexiom says the hard part is filling in your codes</h4>
+        <p class="text-muted mt-12">
+          It calls reading a PO a solved problem; what remains, it says, is what the PO leaves out: your part numbers, your prices, how you stock each item. Its rules fill those gaps once the PO is in. A guide in our app has your SKU and that account's price on every item before a word is spoken.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: FEATURE DEEP-DIVE
+     ============================================================ -->
+<section class="section-pad" id="features" aria-label="Feature details">
+  <div class="container">
+    <div class="text-center" style="max-width: 620px; margin: 0 auto 72px;">
+      <span class="eyebrow">What You Get</span>
+      <h2>Not a Conexiom alternative: orders built from your own item list</h2>
+    </div>
+
+    <!-- Feature 1 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Voice Ordering</span>
+          <h3>Said by the chef, shown as your own products</h3>
+          <p class="mt-12 text-muted">
+            From the walk-in or the prep table, the chef says what the restaurant needs. The app looks up each item in the guide and puts it on screen, where the chef can change an item or an amount before sending. In place of a call, you get an order the restaurant has looked over.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Items are matched to that restaurant's guide</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Orders can go in at 2am, on Sundays and on holidays</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Runs on whatever iPhone or Android phone is in the chef's pocket</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Saves 20 to 30 minutes compared with the same order by phone</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Pulled away mid-order, the chef comes back to it as it was</span>
+            </li>
+          </ul>
+          <a href="/order-taking-software" class="feature-link">How restaurants send orders →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Push to Speak,<br>then the item-by-item<br>review screen
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 2 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Order Guides</span>
+          <h3>A guide for every restaurant, in the codes your warehouse uses</h3>
+          <p class="mt-12 text-muted">
+            Export each restaurant's usual items and what it pays, and we load them as its guide, each item under the number you already give it. Every guide and its prices are yours to change in our admin, which is also where you manage each account. Whether price changes can come over from your ERP in bulk is a question for the demo.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>A chef sees what that restaurant buys, not your whole range</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Each account orders at the prices you set for it</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Add or drop items on a guide yourself in our admin</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Setting up needs no login to your ERP</span>
+            </li>
+          </ul>
+          <a href="/catalog-management-software" class="feature-link">Keeping each guide current →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Admin platform<br>order guide editor<br>for one account
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 3 -->
+    <div style="padding-bottom: 80px; border-bottom: 1px solid #e8eaed; margin-bottom: 80px;">
+      <div class="feature-row">
+        <div>
+          <span class="eyebrow">Delivery Formats</span>
+          <h3>Handed over by email, EDI or API</h3>
+          <p class="mt-12 text-muted">
+            A finished order goes to you as an email with a PDF, Excel or Word attachment, or through EDI, our API or QuickBooks. Arriving by email, it becomes your team's to enter, from a list somebody at the restaurant has read through. Sent by EDI or through the API, your ERP may take it in without retyping, if it accepts orders that way; a demo answers that.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Over EDI or the API, when your setup takes it, nobody retypes it</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Addressed to a rep, or to the inbox the whole desk shares</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>App orders get a number and a send time; a phoned one gets none from us</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Picking, invoicing and the rest stay in your ERP</span>
+            </li>
+          </ul>
+          <a href="/wholesale-ordering-software" class="feature-link">What a finished order holds →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>One order delivered<br>as a PDF and<br>over the API
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Feature 4 -->
+    <div>
+      <div class="feature-row reverse">
+        <div>
+          <span class="eyebrow">Inventory Visibility</span>
+          <h3>Stock levels shown next to incoming restaurant orders</h3>
+          <p class="mt-12 text-muted">
+            VoiceOrder Solutions gives you real-time inventory visibility tied to order activity. It does not replace your stock system: that stays in charge, and a demo shows how the levels connect.
+          </p>
+          <ul class="feature-bullets mt-24">
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Stock numbers come from the system you count with today</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Fewer stockout surprises at the order desk</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>We do not count stock, buy it or receive it</span>
+            </li>
+            <li>
+              <span class="bullet-check">✓</span>
+              <span>Counts and purchasing stay in your ERP</span>
+            </li>
+          </ul>
+          <a href="/inventory-visibility-software" class="feature-link">More on stock visibility →</a>
+        </div>
+        <div>
+          <div class="img-placeholder tall">
+            📸 Screenshot:<br>Stock levels beside<br>incoming customer<br>orders
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: HOW IT WORKS
+     ============================================================ -->
+<section class="section-pad bg-light" id="how-it-works" aria-label="How it works">
+  <div class="container">
+    <div class="text-center" style="max-width: 580px; margin: 0 auto;">
+      <span class="eyebrow">Getting Started</span>
+      <h2>From your product codes to a chef's first order, beside Conexiom</h2>
+      <p class="lead mt-16">
+        It starts from the products and prices on your books today. We load each restaurant, and its chef installs the app.
+      </p>
+    </div>
+
+    <div class="steps-grid">
+
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h4>Export your codes and prices</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          A spreadsheet out of your ERP is usually all we need: the products each account takes, at its prices, with your item numbers.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h4>We build each guide in your codes</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          We load its guide and set up the account, then the chef downloads the app. Most restaurants send a first order the same day.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h4>Orders matched to your guide</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Each one holds the items its chef looked over, is stamped with an order number and the time it was sent, and arrives in the format you set up.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="img-placeholder mt-48" style="min-height: 280px; max-width: 860px; margin-left: auto; margin-right: auto;">
+      📸 Screenshot: VoiceOrder Solutions admin platform showing customer accounts and order guide upload
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 9: TESTIMONIALS
+     ============================================================ -->
+<section class="section-pad" id="testimonials" aria-label="Customer testimonials">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">Real Teams. Real Results.</span>
+      <h2>When the order already matches your catalog</h2>
+    </div>
+
+    <div class="testimonials-grid">
+
+      <!-- Featured testimonial -->
+      <div class="testimonial-card featured">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-quote">
+          "I used to spend hours every week ordering food. Now it's simple,
+          super easy, and I have free time to spend on other aspects of my
+          restaurant."
+        </p>
+        <div class="testimonial-author">
+          <!-- DEVS: Replace with Tony Luna's photo -->
+          <div class="author-avatar">Photo</div>
+          <div>
+            <div class="author-name" style="color:#fff;">Tony Luna</div>
+            <div class="author-role">Owner-Chef, Prairie Moon</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting testimonials -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Nobody here has to work out what 'the usual greens' means anymore. The chef picks it off their own guide and confirms our item before it's sent."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote" style="font-size:16px;">
+            "Relay still reads the POs our bigger accounts email. Nobody had to set up a mapping for any of the restaurants on the app."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">Photo</div>
+            <div>
+              <div class="author-name">[Customer Name]</div>
+              <div class="author-role">[Company Name] · [City]</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 10: INTEGRATIONS
+     ============================================================ -->
+<section class="section-pad" id="integrations" aria-label="Integrations">
+  <div class="container text-center">
+    <span class="eyebrow">Delivery Formats</span>
+    <h2>Orders go out in the formats distributors already use</h2>
+    <p class="lead mt-16" style="margin: 16px auto 0;">
+      Each order goes out as an email with a PDF, Excel or Word file, an EDI
+      or API feed, or a QuickBooks entry. No one has to switch software to receive it.
+    </p>
+
+    <div class="integrations-logos" style="margin-top: 40px;">
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        Email
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        PDF, Excel, Word
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        QuickBooks
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        EDI
+      </div>
+      <div class="integration-badge">
+        <div class="integration-logo-placeholder"></div>
+        API
+        <span style="background:var(--color-accent);color:#fff;font-size:11px;padding:2px 6px;border-radius:4px;">Direct</span>
+      </div>
+    </div>
+
+    <p class="text-muted mt-24" style="font-size:14px;">
+      VoiceOrder Solutions is also API-ready, so orders can go straight into an ERP or distribution system set up to take them; the demo shows whether yours is.
+    </p>
+
+    <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid #e8eaed;">
+      <p class="text-muted mb-16" style="font-size:13px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">Also works with</p>
+      <div class="integrations-logos">
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          iOS App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Android App
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Web Admin
+        </div>
+        <div class="integration-badge">
+          <div class="integration-logo-placeholder"></div>
+          Distributor Platforms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 11: WHEN THE TWO WORK TOGETHER
+     ============================================================ -->
+<section class="section-pad bg-light" aria-label="Additional features">
+  <div class="container">
+    <div class="text-center" style="max-width: 620px; margin: 0 auto;">
+      <span class="eyebrow">Who Keeps What</span>
+      <h2>Not a Conexiom competitor: what it keeps reading, and what we add</h2>
+      <p class="lead mt-16">
+        Emailed purchase orders still go through Conexiom. Our app is an addition, not an alternative to Conexiom, built for the restaurants that would otherwise pick up the phone.
+      </p>
+    </div>
+
+    <div class="cards-grid">
+
+      <div class="feature-card">
+        <div class="feature-card-icon">📨</div>
+        <h4>Emailed POs stay with Conexiom</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Customers whose own purchasing systems produce POs go on emailing them, and Relay goes on loading them into your ERP. For those accounts you need no Conexiom alternative.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">💬</div>
+        <h4>Texting chefs can go on texting</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Some chefs like to text their order, and they can carry on: if Relay reads those messages today, it keeps doing so. Nobody has to switch; the app is there for the callers.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-icon">🧾</div>
+        <h4>Your supplier paperwork stays automated</h4>
+        <p class="text-muted mt-12" style="font-size:15px;">
+          Conexiom's checks on supplier invoices and vendor acknowledgements are untouched. We only handle restaurant orders, up to the moment they reach you.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 12: MID-PAGE CTA
+     ============================================================ -->
+<section aria-label="Mid-page call to action" style="background:var(--color-light-bg);border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed;padding:48px 24px;">
+  <div style="max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;">
+    <div style="max-width:580px;">
+      <h3 style="margin-bottom:10px;">Watch spoken words turn into items on your guide</h3>
+      <p class="text-muted" style="font-size:16px;">
+        During a 20-minute demo, our team speaks a typical restaurant order into the app, swaps one product for another, sends it, then opens whatever reaches your end so you see which item details your desk receives. Then we look at how it would get into your ERP alongside Conexiom.
+      </p>
+    </div>
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg" style="flex-shrink:0;">Book a Free Demo →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 13: FAQ
+     ============================================================ -->
+<section class="section-pad" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="text-center" style="max-width: 560px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Questions from teams running Conexiom</h2>
+    </div>
+
+    <div class="faq-list" style="max-width: 760px; margin: 0 auto;">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="true">
+          Do we need a Conexiom alternative for spoken restaurant orders?
+          <span class="faq-icon">−</span>
+        </button>
+        <div class="faq-answer">
+          No. Conexiom goes on reading the POs customers email you, and none of its rules change. VoiceOrder Solutions is for the restaurants that call: the chef names each item aloud in our app, sees each one matched to a product on the guide for that kitchen, and reviews it all before it goes to you.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is VoiceOrder Solutions better than Conexiom?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          At one thing: getting a restaurant that still calls to send its order already matched to your catalog. Reading POs, invoices and other paperwork in whatever layout it arrives is Conexiom's work, so we work next to it and are not a Conexiom alternative.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Conexiom reads text messages. Why not ask chefs to text?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          A text comes in the chef's own shorthand, such as "romaine, two", so Relay still has to work out which of your products it means. In our app, each spoken item is matched to the restaurant's own guide, and the chef sees which of your products was picked before sending.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Does it connect to Conexiom, and do we still key orders in by hand?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Not directly. They come from two different companies, no link joins them as standard, and each company looks after its own software only. Over EDI or our API, the chef's order can go into your ERP and nobody types it again, if your ERP is set up for it; we check that in a demo. By email, you get it as an attachment. Whether your Conexiom setup can read that file is something to ask Conexiom: we have built nothing for it and make no promise. If it cannot, one of your people keys it in from the list the chef already checked, with no call to take, write down and read back. Your accounts, your stock and your invoices still live in your ERP. We hold the restaurant guides, the prices on them, and copies of what chefs send through the app.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Conexiom maps each customer's format. What does adding a restaurant take?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Conexiom's FAQ describes mapping each customer's PO format with your customer service team, usually rolling out to a handful of customers first. A new restaurant needs no mapping, because there is no customer format to learn: the guide starts from what you already sell that restaurant, and the chef's spoken order is matched to it.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How long until we are live, and what does it cost?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Most distributors are up and running in 24 to 48 hours, with no change made in Conexiom. You send us the items each account usually orders, most often as a spreadsheet export, and we load them into our admin and set up every account. Once the restaurants have the app on their phones, most of them order the same day. Conexiom sells by subscription and quotes each business, with no price on its site, and we quote per distributor too. A Conexiom replacement would mean rebuilding every customer's mapping and rules in another reader, a separate job from putting an app in front of the chefs still calling you.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Does the app get every item right?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Not always. It turns the chef's words into items from the guide, and a chef can overlook a wrong one or change their mind once it is sent. The difference is that the person who decided the order reads it on screen before it goes, and each item the app matches comes from that kitchen's guide.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Where do the Conexiom details on this page come from?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          From conexiom.com, as we read it on 9 November 2026: the homepage, the Platform, Relay, Headless Platform and Solutions pages, its FAQ and About pages, and its glossary pages on line item capture, price checks and unit conversion. Searching the web that day turned up no voice or call ordering tool for Conexiom. If any of it has moved on, write to us and we will correct the page.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     RELATED PAGES
+     ============================================================ -->
+<section class="related-strip" aria-label="Related pages">
+  <div class="related-head">
+    <span class="eyebrow">Keep Exploring</span>
+    <h2 style="font-size:clamp(24px,3.2vw,32px);">Other order tools that stay in place beside the app</h2>
+  </div>
+  <div class="related-grid">
+
+      <a class="related-card" href="/esker-alternative">
+        <span class="related-card-kw">Esker Alternative</span>
+        <h3>Esker + VoiceOrder Solutions</h3>
+        <p>Esker checks and processes the orders that reach your inbox, through invoices and collections. VoiceOrder Solutions brings in the ones that start outside it, spoken and checked by the chef.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/sps-commerce-alternative">
+        <span class="related-card-kw">SPS Commerce Alternative</span>
+        <h3>SPS Commerce + VoiceOrder Solutions</h3>
+        <p>SPS Commerce handles EDI for the accounts that require it. VoiceOrder Solutions gives the restaurants that phone or text an app where the chef says the order and checks it before sending.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+      <a class="related-card" href="/wizcommerce-alternative">
+        <span class="related-card-kw">WizCommerce Alternative</span>
+        <h3>WizCommerce + VoiceOrder Solutions</h3>
+        <p>WizCommerce's AI keeps reading the scans and spreadsheets that still arrive. VoiceOrder Solutions adds orders your kitchens speak and approve, so less needs reading.</p>
+        <span class="related-card-link">Read more →</span>
+      </a>
+
+  </div>
+  <p class="text-center text-muted" style="margin-top:36px;font-size:14px;">
+    <a href="/" style="color:var(--color-accent);font-weight:600;text-decoration:none;">See all VoiceOrder Solutions feature pages →</a>
+  </p>
+</section>
+
+
+<!-- ============================================================
+     SECTION 15: FINAL CONVERSION CTA
+     ============================================================ -->
+<section class="final-cta" id="demo" aria-label="Sign up call to action">
+  <h2>Restaurant orders built on your guide, beside the POs Conexiom reads</h2>
+  <p>It takes twenty minutes: see how a guide is set up from your items, and what a chef does with it.</p>
+
+  <div class="final-cta-form">
+    <input type="email" placeholder="Enter your work email" aria-label="Email address" />
+    <a href="https://www.voiceordersolutions.com/contact-us" class="btn btn-primary btn-lg">Book a Free Demo →</a>
+  </div>
+
+  <div class="final-cta-trust">
+    <span>✓ No IT project to run</span>
+    <span>✓ Nothing to rip out</span>
+    <span>✓ Sends orders in your format</span>
+    <span>✓ Ask us for a quote</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 16: FOOTER
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+
+    <div>
+      <div class="footer-brand-name">VoiceOrder<span> Solutions</span></div>
+      <p class="footer-tagline">
+        Your customers order. Your team delivers.<br>
+        We handle everything in between.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Features</h5>
+      <ul role="list">
+        <li><a href="#features">Voice Ordering</a></li>
+        <li><a href="#features">Order Guides</a></li>
+        <li><a href="#features">Delivery Formats</a></li>
+        <li><a href="#features">Inventory Visibility</a></li>
+        <li><a href="#integrations">Integrations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul role="list">
+        <li><a href="https://www.voiceordersolutions.com/">Home</a></li>
+        <li><a href="https://www.voiceordersolutions.com/contact-us">Contact Us</a></li>
+        <li><a href="#comparison">Conexiom + VoiceOrder Solutions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>More From VoiceOrder Solutions</h5>
+      <ul role="list">
+        <li><a href="/order-taking-software">Order Taking</a></li>
+        <li><a href="/order-entry-software">Order Entry</a></li>
+        <li><a href="/catalog-management-software">Catalog Management</a></li>
+        <li><a href="/distribution-automation-software">Distribution Automation</a></li>
+        <li><a href="/">All Features</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 VoiceOrder Solutions. All rights reserved.</span>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy Policy</a>
+      <a href="https://www.voiceordersolutions.com/" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============================================================
+     FAQ ACCORDION JS
+     ============================================================ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+      var icon = this.querySelector('.faq-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+      document.querySelectorAll('.faq-question').forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').textContent = '+';
+      });
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−';
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>

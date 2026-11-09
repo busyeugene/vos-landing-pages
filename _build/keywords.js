@@ -390,6 +390,87 @@ module.exports = {
       'better than aptean',
     ],
   },
+  'sps-commerce-alternative': {
+    primary: 'sps commerce alternative',
+    secondary: [
+      'sps commerce competitor',
+      'sps commerce replacement',
+      'alternative to sps commerce',
+      'better than sps commerce',
+    ],
+  },
+  'b2b-wave-alternative': {
+    primary: 'b2b wave alternative',
+    secondary: [
+      'b2b wave competitor',
+      'b2b wave replacement',
+      'alternative to b2b wave',
+      'better than b2b wave',
+    ],
+  },
+  'repzio-alternative': {
+    primary: 'repzio alternative',
+    secondary: [
+      'repzio competitor',
+      'repzio replacement',
+      'alternative to repzio',
+      'better than repzio',
+    ],
+  },
+  'conexiom-alternative': {
+    primary: 'conexiom alternative',
+    secondary: [
+      'conexiom competitor',
+      'conexiom replacement',
+      'alternative to conexiom',
+      'better than conexiom',
+    ],
+  },
+  'truecommerce-alternative': {
+    primary: 'truecommerce alternative',
+    secondary: [
+      'truecommerce competitor',
+      'truecommerce replacement',
+      'alternative to truecommerce',
+      'better than truecommerce',
+    ],
+  },
+  'orocommerce-alternative': {
+    primary: 'orocommerce alternative',
+    secondary: [
+      'orocommerce competitor',
+      'orocommerce replacement',
+      'alternative to orocommerce',
+      'better than orocommerce',
+    ],
+  },
+  'esker-alternative': {
+    primary: 'esker alternative',
+    secondary: [
+      'esker competitor',
+      'esker replacement',
+      'alternative to esker',
+      'better than esker',
+    ],
+  },
+  'shopify-b2b-alternative': {
+    primary: 'shopify b2b alternative',
+    secondary: [
+      'shopify b2b competitor',
+      'shopify b2b replacement',
+      'alternative to shopify b2b',
+      'better than shopify b2b',
+    ],
+  },
+  'sana-commerce-alternative': {
+    primary: 'sana commerce alternative',
+    secondary: [
+      'sana commerce competitor',
+      'sana commerce replacement',
+      'alternative to sana commerce',
+      'better than sana commerce',
+    ],
+  },
   'brightpearl-alternative': {
     primary: 'brightpearl alternative',
     secondary: [

@@ -161,6 +161,42 @@
       "destination": "/vos-aptean-alternative-landing.html"
     },
     {
+      "source": "/sps-commerce-alternative",
+      "destination": "/vos-sps-commerce-alternative-landing.html"
+    },
+    {
+      "source": "/b2b-wave-alternative",
+      "destination": "/vos-b2b-wave-alternative-landing.html"
+    },
+    {
+      "source": "/repzio-alternative",
+      "destination": "/vos-repzio-alternative-landing.html"
+    },
+    {
+      "source": "/conexiom-alternative",
+      "destination": "/vos-conexiom-alternative-landing.html"
+    },
+    {
+      "source": "/truecommerce-alternative",
+      "destination": "/vos-truecommerce-alternative-landing.html"
+    },
+    {
+      "source": "/orocommerce-alternative",
+      "destination": "/vos-orocommerce-alternative-landing.html"
+    },
+    {
+      "source": "/esker-alternative",
+      "destination": "/vos-esker-alternative-landing.html"
+    },
+    {
+      "source": "/shopify-b2b-alternative",
+      "destination": "/vos-shopify-b2b-alternative-landing.html"
+    },
+    {
+      "source": "/sana-commerce-alternative",
+      "destination": "/vos-sana-commerce-alternative-landing.html"
+    },
+    {
       "source": "/brightpearl-alternative",
       "destination": "/vos-brightpearl-alternative-landing.html"
     },
