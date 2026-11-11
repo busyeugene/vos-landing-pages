@@ -1,10 +1,6 @@
 # Open items
 
 ## Webflow (batch 2 port, 2026-11-09)
-- BEFORE the next site publish: take the 30 batch-2 compare pages out of draft (`bulk_update_pages`
-  draft:false, ids in `_webflow/pages.json` `compareFromFresho`). The published /alternatives hub's saved
-  version already links to all 30. Eugene publishes; never publish_site.
-- Nobody has looked at a rendered batch-2 page in the Designer preview (all checks are string level).
 - The 12 older distributor compare pages in Webflow still carry the old integrations line (carried from 11-09).
 
 ## Client questions (via Eugene), raised by reviewers on the batch-2 compare pages

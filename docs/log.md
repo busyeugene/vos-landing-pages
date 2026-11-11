@@ -28,3 +28,10 @@
   bullet slots, and no longer writes the donor's cell-1,2 String on converted pages (it failed harmlessly
   on crunchtime); gen-schema knows the 6 new operator slugs; leak-check ignores strings in the page's own
   repo HTML (the shared "Delivery Formats" badge was a false positive).
+
+## 2026-11-11: Batch 2 compare pages published live
+- Eugene checked the 30 drafts in Webflow and asked to publish. All 30 taken out of draft (per page with
+  update_page_settings; bulk_update_pages draft:false reported success but stored nothing), then a full site
+  publish to both custom domains (it also shipped anything else saved since 2026-10-28).
+- Checked live: 30 pages + /alternatives hub return 200, hub shows 50 cards, sitemap lists 50 /alternatives/ pages.
+- Gave Eugene the 30 URLs (plus the hub) for indexing.

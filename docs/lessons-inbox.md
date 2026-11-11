@@ -15,3 +15,4 @@
 - 2026-11-09 | `insert_component_instance` "after" the same anchor N times lands the copies in REVERSE order; insert "before" a fixed next sibling to keep order | proposed home: _webflow/PUSH-RUNBOOK.md
 - 2026-11-09 | A donor-leak check that only knows the content extract flags shared chrome (integrations badge); compare against the page's own built HTML too | proposed home: script gate (leak-check.py, done)
 - 2026-11-09 | Pilot one page with a worker before fanning out: the brief + new verify scripts ran clean first time, and 4 workers then pushed 29 pages with zero retries or 429s | proposed home: _webflow/PUSH-RUNBOOK.md
+- 2026-11-11 | HAZARD-lite: `bulk_update_pages` with `draft:false` returned success and echoed the pages, but stored nothing (draft stayed true); `update_page_settings` per page works. Always read draft state back before publishing | proposed home: _webflow/PUSH-RUNBOOK.md
